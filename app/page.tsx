@@ -6,11 +6,13 @@ import {
   dataLegivel,
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
+import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 
 export default function Home() {
   const reviews = todosOsReviews();
   const comparativos = todosOsComparativos();
   const guias = todosOsGuias();
+  const produtos = todosOsProdutos();
 
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5">
@@ -20,11 +22,17 @@ export default function Home() {
             Nenhuma análise aqui termina em “compre”.
           </h1>
           <p className="mt-5 max-w-[58ch] text-lg text-tinta-suave">
-            Tecnologia e acessórios avaliados pelo uso, não pela ficha técnica.
-            Cada análise diz para quem o produto serve, para quem não serve, e o
-            que ainda não deu para verificar.
+            Colocamos lado a lado o que cada fabricante declara — e publicamos o
+            que ele deixa de declarar. Nenhum produto daqui foi testado por nós,
+            e cada número tem a fonte oficial no fim da página.
           </p>
-          <p className="mt-6">
+          <p className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
+            <Link
+              href="/comparar/energia"
+              className="rounded bg-acao px-5 py-2.5 font-medium text-papel hover:bg-acao-forte"
+            >
+              Comparar produtos
+            </Link>
             <Link
               href="/metodologia"
               className="text-acao-forte underline underline-offset-4"
@@ -33,15 +41,70 @@ export default function Home() {
             </Link>
           </p>
         </div>
-        <img
-          src="/marca/simbolo.svg"
-          alt=""
-          aria-hidden
-          width={260}
-          height={260}
-          className="hidden w-56 justify-self-end sm:block"
-        />
+        <div className="hidden justify-self-end sm:block">
+          <img
+            src="/marca/simbolo.svg"
+            alt=""
+            aria-hidden
+            width={260}
+            height={260}
+            className="so-claro w-56"
+          />
+          <img
+            src="/marca/simbolo-fundo-escuro.svg"
+            alt=""
+            aria-hidden
+            width={260}
+            height={260}
+            className="so-escuro w-56"
+          />
+        </div>
       </section>
+
+      {produtos.length > 0 && (
+        <section className="border-b border-linha py-14">
+          <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+            <h2 className="font-titulo text-2xl">Fichas técnicas comparáveis</h2>
+            <Link
+              href="/categorias/energia"
+              className="text-acao-forte underline underline-offset-4"
+            >
+              Filtrar todos os produtos
+            </Link>
+          </div>
+          <p className="mt-2 max-w-[58ch] text-tinta-suave">
+            Cada ficha vem da documentação oficial do fabricante, normalizada na
+            mesma unidade. A porcentagem é quanto dessa ficha ele realmente
+            publica — o resto fica marcado como não informado.
+          </p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {produtos.map((p) => {
+              const t = transparencia(p, camposDa(p.categoria));
+              return (
+                <li key={p.slug}>
+                  <Link
+                    href={`/produtos/${p.slug}`}
+                    className="group flex h-full flex-col rounded-xl border border-linha p-5 transition-colors hover:border-acao"
+                  >
+                    <span className="text-[0.8rem] text-tinta-suave">
+                      {p.marca}
+                    </span>
+                    <span className="mt-1 font-titulo text-lg leading-snug group-hover:text-acao-forte">
+                      {p.nome}
+                    </span>
+                    <span className="mt-auto flex items-baseline gap-2 pt-4">
+                      <span className="dados text-xl">{t.nota}%</span>
+                      <span className="text-[0.8rem] text-tinta-suave">
+                        da ficha publicada
+                      </span>
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       {guias.length > 0 && (
         <section className="border-b border-linha py-14">

@@ -123,6 +123,41 @@ body {
   line-height: 1.5;
 }
 
+/**
+ * A marca tem versão própria para fundo escuro: o cabo da lupa e o chapéu são
+ * tinta, e em tema escuro sumiriam, sobrando só o anel verde. Como não dá para
+ * trocar o `src` de uma imagem por CSS, as duas versões são renderizadas e uma
+ * é escondida — o arquivo extra é pequeno e a alternativa seria JavaScript.
+ */
+.so-claro {
+  display: initial;
+}
+.so-escuro {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) .so-claro {
+    display: none;
+  }
+  :root:not([data-tema="claro"]) .so-escuro {
+    display: initial;
+  }
+}
+
+:root[data-tema="escuro"] .so-claro {
+  display: none;
+}
+:root[data-tema="escuro"] .so-escuro {
+  display: initial;
+}
+:root[data-tema="claro"] .so-claro {
+  display: initial;
+}
+:root[data-tema="claro"] .so-escuro {
+  display: none;
+}
+
 /* Prosa do corpo do review. Medida curta, hierarquia clara, sem enfeite. */
 .prosa > * + * {
   margin-top: 1.15em;

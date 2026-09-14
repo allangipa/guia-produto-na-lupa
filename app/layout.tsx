@@ -25,8 +25,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // `suppressHydrationWarning` no <html>: o script anti-flash escreve data-tema
+  // antes da hidratação, de propósito — é a única forma de evitar o flash branco
+  // num site estático. O React precisa saber que essa diferença é esperada.
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" suppressHydrationWarning>
       <head>
         {/* Antes de qualquer pintura: evita o flash branco de quem escolheu escuro. */}
         <script dangerouslySetInnerHTML={{ __html: scriptAntiFlash }} />
