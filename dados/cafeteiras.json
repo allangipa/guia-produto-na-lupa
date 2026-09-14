@@ -1,0 +1,541 @@
+[
+  {
+    "slug": "oster-ocaf300",
+    "nome": "Oster Inox Compacta 0,75 L OCAF300",
+    "marca": "Oster",
+    "modelo": "OCAF300",
+    "categoria": "cafeteiras",
+    "resumo": "A cafeteira mais vendida da Amazon Brasil. A Oster é a única marca da base que escreve a conta na página: 19 cafezinhos com xícara de 40 ml — ou seja, 0,75 litro.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/oster-ocaf300.webp",
+      "alt": "Cafeteira Oster Inox Compacta OCAF300 preta com jarra de vidro",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/cafeteira-oster-inox-compacta-075l/p"
+    },
+    "specs": {
+      "capacidadeL": 0.75,
+      "xicaras": 19,
+      "mlPorXicara": 40,
+      "potenciaW": 600,
+      "consumoKwh": 0.6,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": null,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.2,
+      "dimensoesMm": "220 × 140 × 255 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B093HGNHR2"
+    },
+    "fontes": [
+      {
+        "id": "oster-ocaf300-oficial",
+        "titulo": "Oster Cafeteira Inox Compacta 0,75 L — página oficial do produto",
+        "url": "https://www.oster.com.br/cafeteira-oster-inox-compacta-075l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "0,75 L com jarra de vidro, \"19 cafezinhos *xícara de 40 ml\", 600 W, consumo de 0,6 kW/h, função manter aquecido na base, filtro removível e lavável, 140 × 255 × 220 mm, 1,200 kg, 127 V ou 220 V, selo OCP SGS e 12 meses. Não declara corta-pingos.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ocaf300",
+        "titulo": "Oster OCAF300 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B093HGNHR2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 1 em Cafeteiras de Filtro para Café Coado, versão 220 V, filtro permanente reutilizável e 1 ano.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ecm10",
+    "nome": "Electrolux Efficient ECM10",
+    "marca": "Electrolux",
+    "modelo": "ECM10",
+    "categoria": "cafeteiras",
+    "resumo": "A menor da base: 0,6 litro, vendida como \"15 xícaras\". A Electrolux publica corta-pingos, base de aquecimento e material do corpo — e não publica quantos mililitros tem a xícara.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/electrolux-ecm10.webp",
+      "alt": "Cafeteira Electrolux Efficient ECM10 cinza com jarra de vidro",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-15-xicaras-efficient--ecm10-/p"
+    },
+    "specs": {
+      "capacidadeL": 0.6,
+      "xicaras": 15,
+      "mlPorXicara": null,
+      "potenciaW": 600,
+      "consumoKwh": null,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.94,
+      "dimensoesMm": "222 × 146 × 262 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09CC72K1X"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ecm10-oficial",
+        "titulo": "Electrolux Efficient ECM10 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-15-xicaras-efficient--ecm10-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "600 W, sem timer e sem display, corta-pingos, luz indicadora, filtro permanente, base de aquecimento, indicador de nível transparente, corpo de plástico, jarra de vidro, reservatório não removível, 26,2 × 14,6 × 22,2 cm, 0,94 kg, 127 V ou 220 V e 1 ano. Não declara capacidade em litros nem mililitros por xícara.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ecm10",
+        "titulo": "Electrolux ECM10 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09CC72K1X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 3 em Cafeteiras de Filtro, capacidade de 600 ml e 15 xícaras no título da listagem — os litros que a página do fabricante não traz.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ecm25",
+    "nome": "Electrolux Experience ECM25",
+    "marca": "Electrolux",
+    "modelo": "ECM25",
+    "categoria": "cafeteiras",
+    "resumo": "A mais potente e a mais completa da base: 800 W, timer programável, display digital e a única com consumo declarado em kWh. 1,2 litro — as \"30 xícaras\" do anúncio.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/electrolux-ecm25.webp",
+      "alt": "Cafeteira Electrolux Experience ECM25 com painel digital e jarra de vidro",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-programavel-com-timer-30-xicaras-experience--ecm25-/p"
+    },
+    "specs": {
+      "capacidadeL": 1.2,
+      "xicaras": 30,
+      "mlPorXicara": null,
+      "potenciaW": 800,
+      "consumoKwh": 0.169,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": true,
+      "painel": "Digital",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.7,
+      "dimensoesMm": "249 × 183 × 329 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09SVPDX3G"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ecm25-oficial",
+        "titulo": "Electrolux Experience ECM25 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-programavel-com-timer-30-xicaras-experience--ecm25-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 1,2 L, 800 W, consumo de 0,169 kW/h, timer e display digital, programável, corta-pingos, filtro permanente, base de aquecimento, jarra de vidro compatível com lava-louças, corpo em plástico com acabamento inox, 32,9 × 18,3 × 24,9 cm, 1,7 kg, 127 V ou 220 V e 1 ano. Não declara mililitros por xícara nem alarme de descalcificação.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ecm25",
+        "titulo": "Electrolux ECM25 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09SVPDX3G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1,2 L e 30 xícaras no título, versão 127 V, filtro permanente removível e desligamento automático.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-c-30-dolce-arome",
+    "nome": "Mondial Dolce Arome C-30-18X-FB",
+    "marca": "Mondial",
+    "modelo": "C-30-18X-FB",
+    "categoria": "cafeteiras",
+    "resumo": "A Mondial tem um campo na ficha chamado \"Quantidade em ML por xícara\" — e o preencheu com \"Não se aplica\". São 18 xícaras sem litro declarado; a Amazon informa 720 ml.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/mondial-c-30.webp",
+      "alt": "Cafeteira Mondial Dolce Arome C-30 preta com jarra de vidro",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/cafeteira-eletrica-dolce-arome-mondial-c-30-18x-fb/p"
+    },
+    "specs": {
+      "capacidadeL": 0.72,
+      "xicaras": 18,
+      "mlPorXicara": null,
+      "potenciaW": 550,
+      "consumoKwh": null,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": null,
+      "manterAquecido": null,
+      "timer": false,
+      "painel": "Botão liga/desliga com luz indicadora",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.91,
+      "dimensoesMm": "230 × 165 × 260 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0955BGR9T"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeL",
+        "fonteAdotada": "amazon-c30",
+        "valorDivergente": "Não informa",
+        "fonteDivergente": "mondial-c30-oficial",
+        "observacao": "A Mondial declara só \"18 xícaras\" e preenche o campo \"Quantidade em ML por xícara\" com \"Não se aplica\" — ou seja, não dá para converter. Os 720 ml vêm da listagem da Amazon, que é a única fonte com o volume."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-c30-oficial",
+        "titulo": "Mondial Dolce Arome C-30-18X-FB — página oficial do produto",
+        "url": "https://www.mondial.com.br/cafeteira-eletrica-dolce-arome-mondial-c-30-18x-fb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "18 xícaras, 550 W, jarra de vidro, filtro permanente com porta-filtro removível, luz indicadora, cabo de 1,50 m, tomada de 10 A, 26 × 16,5 × 23 cm, 0,910 kg, 127 V ou 220 V e 12 meses. O campo \"Quantidade em ML por xícara\" está preenchido com \"Não se aplica\", e não há capacidade em litros.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-c30",
+        "titulo": "Mondial C-30-18X-FB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0955BGR9T",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 4 em Cafeteiras de Filtro, capacidade de 720 ml, versão 220 V e filtro permanente reutilizável.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "oster-ocaf650",
+    "nome": "Oster Jarra Térmica Inox 1,2 L OCAF650",
+    "marca": "Oster",
+    "modelo": "OCAF650",
+    "categoria": "cafeteiras",
+    "resumo": "A única da base com jarra térmica de inox — mantém o café quente sem a base ligada. 1,2 litro, 32 cafezinhos de 40 ml, com antigotejamento declarado.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/oster-ocaf650.webp",
+      "alt": "Cafeteira Oster OCAF650 com jarra térmica de inox",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/cafeteira-oster-com-jarra-termica-inox-12l/p"
+    },
+    "specs": {
+      "capacidadeL": 1.2,
+      "xicaras": 32,
+      "mlPorXicara": 40,
+      "potenciaW": 750,
+      "consumoKwh": 0.75,
+      "materialJarra": "Inox (térmica)",
+      "filtroPermanente": null,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.46,
+      "dimensoesMm": "254 × 153 × 316 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0941752F2"
+    },
+    "fontes": [
+      {
+        "id": "oster-ocaf650-oficial",
+        "titulo": "Oster Cafeteira com Jarra Inox 1,2 L — página oficial do produto",
+        "url": "https://www.oster.com.br/cafeteira-oster-com-jarra-termica-inox-12l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1,2 L, \"32 cafezinhos *xícara de 40 ml\", 750 W, consumo de 0,75 kW/h, função manter aquecido na base, função antigotejamento, acabamento em inox, 153 × 316 × 254 mm, 1,460 kg, 127 V ou 220 V e 12 meses. Não declara se o filtro é permanente.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ocaf650",
+        "titulo": "Oster OCAF650 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0941752F2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1,2 L, versão 220 V, filtro reutilizável e jarra inclusa — o filtro permanente que o fabricante não confirma.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "oster-ocaf600",
+    "nome": "Oster Inox 1,2 L OCAF600",
+    "marca": "Oster",
+    "modelo": "OCAF600",
+    "categoria": "cafeteiras",
+    "resumo": "A mesma capacidade da OCAF650 com jarra de vidro em vez de térmica: 1,2 litro, 32 cafezinhos de 40 ml, 750 W. Dá para ver quanto sobrou — e esfria mais rápido.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/oster-ocaf600.webp",
+      "alt": "Cafeteira Oster Inox OCAF600 preta com jarra de vidro",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/cafeteira-oster-inox-12l/p"
+    },
+    "specs": {
+      "capacidadeL": 1.2,
+      "xicaras": 32,
+      "mlPorXicara": 40,
+      "potenciaW": 750,
+      "consumoKwh": 0.75,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": null,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.58,
+      "dimensoesMm": "260 × 150 × 315 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B093RXHCLR"
+    },
+    "fontes": [
+      {
+        "id": "oster-ocaf600-oficial",
+        "titulo": "Oster Cafeteira Inox 1,2 L — página oficial do produto",
+        "url": "https://www.oster.com.br/cafeteira-oster-inox-12l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1,2 L, \"32 cafezinhos *xícara de 40 ml\", 750 W, consumo de 0,75 kW/h, função manter aquecido na base, filtro removível, jarra de vidro, acabamento inox, 150 × 315 × 260 mm, 1,580 kg, 127 V ou 220 V, selo OCP SGS e 12 meses. Não declara corta-pingos.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ocaf600",
+        "titulo": "Oster OCAF600 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B093RXHCLR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1,2 L, versão 127 V, filtro permanente reutilizável, 15 × 28 × 32 cm e 1,58 kg.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ecm30",
+    "nome": "Electrolux ECM30",
+    "marca": "Electrolux",
+    "modelo": "ECM30",
+    "categoria": "cafeteiras",
+    "resumo": "A maior da base: 1,5 litro, as \"38 xícaras\" do anúncio. Tem timer, display e função aroma — e é a única cafeteira da base cuja página oficial não declara a potência.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/electrolux-ecm30.webp",
+      "alt": "Cafeteira Electrolux ECM30 inox com painel digital",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/cafeteira_eletrica_programavel_digital_ecm30_electrolux/p"
+    },
+    "specs": {
+      "capacidadeL": 1.5,
+      "xicaras": 38,
+      "mlPorXicara": null,
+      "potenciaW": null,
+      "consumoKwh": null,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": true,
+      "painel": "Digital",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.81,
+      "dimensoesMm": "275 × 185 × 350 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09CC3QFDX"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ecm30-oficial",
+        "titulo": "Electrolux ECM30 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/cafeteira_eletrica_programavel_digital_ecm30_electrolux/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Timer, display digital, corta-pingos, luz indicadora, filtro permanente, função aroma, base de aquecimento, jarra de vidro, classificação energética A, corrente de 10 A, 35 × 18,5 × 27,5 cm, 1,81 kg, 127 V ou 220 V e 1 ano. A tabela não traz campo de potência nem de capacidade em litros.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ecm30",
+        "titulo": "Electrolux ECM30 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09CC3QFDX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1,5 L e 38 xícaras no título, versão 127 V, filtro permanente removível, timer e desligamento automático — os litros que a página do fabricante não traz.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "britania-bcf19b",
+    "nome": "Britânia BCF19B",
+    "marca": "Britânia",
+    "modelo": "BCF19B",
+    "categoria": "cafeteiras",
+    "resumo": "A Britânia publica o reservatório em litros e o número de cafezinhos na mesma tabela — 0,72 L e 18 — o que deixa a conta da xícara de 40 ml à vista sem precisar de calculadora.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/britania-bcf19b.webp",
+      "alt": "Cafeteira Britânia BCF19B preta com jarra de inox",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/cafeteira-bcf19b-127v-063901136/p"
+    },
+    "specs": {
+      "capacidadeL": 0.72,
+      "xicaras": 18,
+      "mlPorXicara": 40,
+      "potenciaW": 550,
+      "consumoKwh": 0.55,
+      "materialJarra": "Inox",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "195 × 170 × 275 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D79MP2PX"
+    },
+    "fontes": [
+      {
+        "id": "britania-bcf19b-oficial",
+        "titulo": "Britânia BCF19B — página oficial do produto",
+        "url": "https://www.britania.com.br/cafeteira-bcf19b-127v-063901136/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "550 W, consumo de 0,55 kW/h, reservatório de água de 0,72 L e capacidade de 18 cafezinhos, sistema corta-pingo, placa de aquecimento, filtro permanente, colher dosadora, jarra que vai à mesa, sem timer e sem display, 127 V ou 220 V e 360 dias. Não declara peso nem dimensões.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-bcf19b",
+        "titulo": "Britânia BCF19B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D79MP2PX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "18 cafezinhos, jarra de inox, versão 127 V, 19,5 × 17 × 27,5 cm — as dimensões que o fabricante não publica.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ecm20",
+    "nome": "Electrolux Efficient ECM20",
+    "marca": "Electrolux",
+    "modelo": "ECM20",
+    "categoria": "cafeteiras",
+    "resumo": "1,2 litro, 750 W e jarra de vidro que vai na lava-louças. A Electrolux declara \"desligamento automático: não\" — o oposto do que a listagem da Amazon promete para o modelo vizinho.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/electrolux-ecm20.webp",
+      "alt": "Cafeteira Electrolux Efficient ECM20 com acabamento inox",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-inox-30-xicaras-efficient-ecm20/p"
+    },
+    "specs": {
+      "capacidadeL": 1.2,
+      "xicaras": 30,
+      "mlPorXicara": null,
+      "potenciaW": 750,
+      "consumoKwh": 0.139,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga com lâmpada piloto",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.1,
+      "dimensoesMm": "230 × 168 × 300 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09SVQ5KHF"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ecm20-oficial",
+        "titulo": "Electrolux Efficient ECM20 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-inox-30-xicaras-efficient-ecm20/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 1,2 L e 30 xícaras, 750 W, consumo de 0,139 kW/h, sem timer e sem display, corta-pingos, filtro permanente, base de aquecimento, desligamento automático \"não\", jarra de vidro compatível com lava-louças, corpo em plástico com acabamento inox, 30 × 16,8 × 23 cm, 1,1 kg, 127 V ou 220 V e 1 ano.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ecm20",
+        "titulo": "Electrolux ECM20 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09SVQ5KHF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1,2 L e 30 xícaras no título, versão 127 V, corta-pingos e função manter aquecido.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ecm22",
+    "nome": "Electrolux Efficient ECM22",
+    "marca": "Electrolux",
+    "modelo": "ECM22",
+    "categoria": "cafeteiras",
+    "resumo": "A ECM20 com jarra de inox no lugar da de vidro: mesmo 1,2 litro, mesmos 750 W, mesmo consumo. A troca custa a visão do nível e a lava-louças, que a Electrolux diz que deixa de valer.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/electrolux-ecm22.webp",
+      "alt": "Cafeteira Electrolux Efficient ECM22 com jarra de inox",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-com-jarra-inox-30-xicaras-efficient--ecm22-/p"
+    },
+    "specs": {
+      "capacidadeL": 1.2,
+      "xicaras": 30,
+      "mlPorXicara": null,
+      "potenciaW": 750,
+      "consumoKwh": 0.139,
+      "materialJarra": "Inox",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga com lâmpada piloto",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.15,
+      "dimensoesMm": "265 × 168 × 302 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CZVGDV7V"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ecm22-oficial",
+        "titulo": "Electrolux Efficient ECM22 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-com-jarra-inox-30-xicaras-efficient--ecm22-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 1,2 L, 750 W, consumo de 0,139 kW/h, corta-pingos, filtro permanente, base de aquecimento, jarra de inox, não compatível com lava-louças, corpo em plástico com acabamento inox, cabo de 0,75 m, 30,2 × 16,8 × 26,5 cm, 1,15 kg, 127 V ou 220 V e 1 ano. Não declara mililitros por xícara.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ecm22",
+        "titulo": "Electrolux ECM22 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CZVGDV7V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1,2 L e 30 xícaras no título, jarra de inox, versão 127 V, 26,5 × 16,8 × 30,2 cm e 1,15 kg.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  }
+]

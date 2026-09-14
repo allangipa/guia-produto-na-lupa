@@ -1365,6 +1365,150 @@ export const camposLiquidificador: Campo[] = [
   },
 ];
 
+/**
+ * Cafeteiras elétricas de filtro. A unidade da categoria é a "xícara", e ela
+ * tem 40 ml — não os 200 ml da caneca que a pessoa usa. Por isso o campo de
+ * litros anda junto com o de xícaras: é a única forma de comparar "38 xícaras"
+ * de uma marca com "1,2 L" de outra.
+ */
+export const camposCafeteira: Campo[] = [
+  {
+    chave: "capacidadeL",
+    rotulo: "Capacidade em litros",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O reservatório de água. É o número que dá para comparar entre marcas.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "xicaras",
+    rotulo: "Xícaras declaradas",
+    grupo: "Capacidade",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "A xícara do anúncio tem cerca de 40 ml — é o cafezinho, não a caneca de 200 ml. \"38 xícaras\" são 1,5 litro.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "mlPorXicara",
+    rotulo: "Mililitros por xícara",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "ml",
+    ajuda: "Quantos mililitros o fabricante chama de uma xícara. Quase ninguém escreve.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoKwh",
+    rotulo: "Consumo declarado",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialJarra",
+    rotulo: "Material da jarra",
+    grupo: "Jarra e filtro",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Vidro deixa ver o nível e quebra; inox segura o calor e esconde quanto sobrou.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "filtroPermanente",
+    rotulo: "Filtro permanente",
+    grupo: "Jarra e filtro",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Lavável e reutilizável — dispensa o filtro de papel.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cortaPingos",
+    rotulo: "Sistema corta-pingos",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Permite tirar a jarra com o café ainda passando, sem pingar na base.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "manterAquecido",
+    rotulo: "Base que mantém aquecido",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "timer",
+    rotulo: "Timer programável",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Deixar pronto na véspera para o café estar feito quando você acorda.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "painel",
+    rotulo: "Painel",
+    grupo: "Uso diário",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Instalação",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Instalação",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Instalação",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
@@ -1374,6 +1518,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   tablets: camposTablet,
   monitores: camposMonitor,
   liquidificadores: camposLiquidificador,
+  cafeteiras: camposCafeteira,
 };
 
 export function camposDa(categoria: string): Campo[] {
@@ -1475,6 +1620,15 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   pulsar: "controle",
   filtro: "gota",
   travaSeguranca: "escudo",
+  capacidadeL: "panela",
+  xicaras: "panela",
+  mlPorXicara: "gota",
+  consumoKwh: "raio",
+  materialJarra: "gota",
+  filtroPermanente: "gota",
+  cortaPingos: "gota",
+  manterAquecido: "termometro",
+  timer: "relogio",
 };
 
 export function iconeDo(chave: string): string {
@@ -1493,6 +1647,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   celular: "celular",
   cozinha: "panela",
   liquidificadores: "panela",
+  cafeteiras: "panela",
   tablets: "display",
   eletrodomesticos: "raio",
 };
@@ -1554,6 +1709,14 @@ const ROTULO_CURTO: Record<string, string> = {
   resolucao: "Resolução",
   painel: "Painel",
   materialCopo: "Copo",
+  capacidadeL: "Capacidade",
+  xicaras: "Xícaras",
+  mlPorXicara: "ml/xícara",
+  materialJarra: "Jarra",
+  filtroPermanente: "Filtro",
+  cortaPingos: "Corta-pingos",
+  manterAquecido: "Aquecido",
+  consumoKwh: "Consumo",
   velocidades: "Velocidades",
   rpm: "Rotação",
   travaSeguranca: "Trava",
@@ -1572,6 +1735,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   tablets: ["telaPol", "bateriaMah", "canetaInclusa"],
   monitores: ["telaPol", "taxaHz", "painel"],
   liquidificadores: ["capacidadeUtilL", "potenciaW", "velocidades"],
+  cafeteiras: ["capacidadeL", "xicaras", "materialJarra"],
 };
 
 export function destaquesDa(categoria: string): string[] {

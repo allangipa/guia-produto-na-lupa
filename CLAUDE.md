@@ -255,6 +255,19 @@ confunde com documento sem folha de estilo.
   ("1000W" no título, "a partir de 900 W" na tabela) e o campo fica `null`.
   A categoria `cozinha` passou a se chamar **Airfryers** na tela, mantendo a
   URL `/categorias/cozinha/` que o Google já indexou.
+- **Cafeteiras** (`dados/cafeteiras.json`, esquema `camposCafeteira`) abriu em
+  14/09 com dez **elétricas de filtro** do ranking da Amazon: Oster OCAF300,
+  OCAF600 e OCAF650; Electrolux ECM10, ECM20, ECM22, ECM25 e ECM30; Mondial
+  C-30-18X-FB; Britânia BCF19B. Só filtro de propósito — cápsula (Nespresso,
+  TRES) tem ficha de outro tipo (pressão em bar, reservatório) e vira
+  categoria própria; italiana/moka não tem ficha elétrica nenhuma. O eixo é
+  a **xícara de 40 ml**: os campos `capacidadeL`, `xicaras` e `mlPorXicara`
+  andam juntos porque "38 xícaras" é 1,5 L. Só Oster (escreve o asterisco
+  "*xícara de 40ml") e Britânia (publica litros e cafezinhos na mesma tabela)
+  permitem a conversão. A Mondial tem um campo "Quantidade em ML por xícara"
+  preenchido com "Não se aplica"; a Electrolux não publica potência do ECM30.
+  Site da Black+Decker Brasil está fora do ar — os dois modelos deles ficaram
+  de fora por falta de foto oficial.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

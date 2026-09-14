@@ -73,6 +73,12 @@ export const categorias: Categoria[] = [
     dorPrincipal: "Os litros do anúncio são de cesto ou de caixa?",
   },
   {
+    slug: "cafeteiras",
+    nome: "Cafeteiras",
+    descricao: "Cafeteiras elétricas de filtro, com as \"xícaras\" do anúncio convertidas em litros.",
+    dorPrincipal: "A xícara do anúncio tem 40 ml — quantas canecas de verdade isso dá?",
+  },
+  {
     slug: "liquidificadores",
     nome: "Liquidificadores",
     descricao: "Liquidificadores de bancada, com a capacidade do copo separada da que dá para bater de verdade.",
