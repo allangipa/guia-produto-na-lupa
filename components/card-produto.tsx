@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Campo, Produto } from "@/lib/specs";
 import { transparencia, valorLegivel } from "@/lib/specs";
-import { Silhueta } from "@/components/silhueta";
+import { MidiaProduto } from "@/components/midia-produto";
 
 /**
  * O card de produto, usado na home e no buscador.
@@ -31,11 +31,7 @@ export function CardProduto({
 
   return (
     <article className="cartao group relative flex h-full flex-col overflow-hidden">
-      {/* A silhueta ganha superfície própria e vira a "foto" do card: é a
-          primeira coisa que o olho encontra, como em qualquer site de produto. */}
-      <div className="flex min-h-[9.5rem] items-center justify-center bg-superficie px-6 py-7">
-        <Silhueta dimensoes={produto.specs.dimensoesMm as string} rotulo={false} />
-      </div>
+      <MidiaProduto produto={produto} />
 
       <div className="flex flex-1 flex-col p-5">
         <span className="pastilha self-start">{produto.marca}</span>
