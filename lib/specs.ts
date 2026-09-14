@@ -257,9 +257,186 @@ export const camposEnergia: Campo[] = [
   },
 ];
 
+/**
+ * Fones de ouvido.
+ *
+ * A ficha aqui é bem mais rica que a de bateria: a Philips publica driver,
+ * impedância, sensibilidade, faixa de frequência, codec e capacidade de bateria
+ * separada por fone e por estojo. Por isso os campos são mais e mais finos — o
+ * esquema segue o que o setor realmente documenta, não o que seria cômodo.
+ */
+export const camposAudio: Campo[] = [
+  {
+    chave: "formato",
+    rotulo: "Formato",
+    grupo: "O que é",
+    tipo: "texto",
+    ajuda:
+      "TWS é o par sem fio com estojo; over-ear cobre a orelha inteira; intra-auricular entra no canal.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "driverMm",
+    rotulo: "Driver",
+    grupo: "Som",
+    tipo: "numero",
+    unidade: "mm",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Diâmetro do alto-falante. Driver maior costuma empurrar mais grave, mas tamanho sozinho não define qualidade.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "impedanciaOhm",
+    rotulo: "Impedância",
+    grupo: "Som",
+    tipo: "numero",
+    unidade: "Ω",
+    ajuda:
+      "Resistência elétrica. Acima de 32 Ω, celular pode não ter força para tocar alto.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "sensibilidadeDb",
+    rotulo: "Sensibilidade",
+    grupo: "Som",
+    tipo: "numero",
+    unidade: "dB",
+    melhor: "maior",
+    ajuda: "Quanto volume sai para a mesma potência de entrada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "faixaFrequencia",
+    rotulo: "Faixa de frequência",
+    grupo: "Som",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bluetoothVersao",
+    rotulo: "Versão do Bluetooth",
+    grupo: "Conexão",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "codecs",
+    rotulo: "Codecs",
+    grupo: "Conexão",
+    tipo: "texto",
+    ajuda:
+      "SBC é o mínimo que todo aparelho tem. AAC ajuda no iPhone; aptX e LDAC, em Android compatível.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "multiponto",
+    rotulo: "Dois aparelhos ao mesmo tempo",
+    grupo: "Conexão",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Conectar no celular e no notebook sem reparear a cada troca.",
+  },
+  {
+    chave: "horasFone",
+    rotulo: "Bateria do fone",
+    grupo: "Bateria",
+    tipo: "numero",
+    unidade: "h",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quanto toca com uma carga, sem o estojo. É o número que importa no dia a dia.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "horasTotal",
+    rotulo: "Bateria com o estojo",
+    grupo: "Bateria",
+    tipo: "numero",
+    unidade: "h",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O número grande do anúncio. Só vale se você carregar o estojo junto.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tempoCargaH",
+    rotulo: "Tempo de carga",
+    grupo: "Bateria",
+    tipo: "numero",
+    unidade: "h",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cargaRapida",
+    rotulo: "Carga rápida",
+    grupo: "Bateria",
+    tipo: "texto",
+    ajuda: "Quantos minutos na tomada rendem quantas horas de música.",
+  },
+  {
+    chave: "cancelamentoAtivo",
+    rotulo: "Cancelamento ativo de ruído",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+  },
+  {
+    chave: "reducaoDb",
+    rotulo: "Redução de ruído declarada",
+    grupo: "Uso diário",
+    tipo: "numero",
+    unidade: "dB",
+    melhor: "maior",
+    ajuda:
+      "Quanto o fabricante afirma cortar. Medido em condições que ele escolheu — promessa, não teste nosso.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "protecaoAgua",
+    rotulo: "Proteção contra água",
+    grupo: "Uso diário",
+    tipo: "texto",
+    ajuda: "IPX4 aguenta suor e chuva leve; IPX7 aguenta imersão.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoG",
+    rotulo: "Peso",
+    grupo: "Uso diário",
+    tipo: "numero",
+    unidade: "g",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "controles",
+    rotulo: "Controles",
+    grupo: "Uso diário",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
+  audio: camposAudio,
 };
 
 export function camposDa(categoria: string): Campo[] {
