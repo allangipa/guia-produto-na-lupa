@@ -109,12 +109,21 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 Uma única cor de ação no site inteiro: verde-petróleo `#0F6E6C`. Tinta `#14181B`,
 superfície `#F1F4F3`, linha `#DDE3E1`. Botão sólido só em CTA.
 
-**Direção visual atual: loja de tecnologia clara.** Página com fundo cinza-claro
+**Direção visual atual: loja de tecnologia clara**, refeita em 14/09/2026
+sobre a referência de layout de e-commerce que o Allan mandou (MegaMart):
+cabeçalho com a **marca horizontal em tamanho de marca** (`marca-horizontal.svg`,
+h-11/h-12 — o símbolo sozinho era "pequeno demais"), busca grande, chips de
+categoria em toda largura; **herói escuro** (`.faixa`) com o lançamento do
+momento — produto, datas do fabricante e CTA, sem carrossel e sem contagem;
+tira com a tese e três números; fileira de **categorias em círculo** com a
+foto do primeiro produto; uma prateleira por categoria (cinco cards, título
+"Os mais vendidos em *Categoria*" com a palavra em cor de ação e traço
+embaixo); tiles de **marcas que mais publicam a ficha**; rodapé **sólido
+em `acao-forte`**. O que a referência tem e aqui não entra: carrossel com
+setas, "% OFF", preço riscado, contador. Página com fundo cinza-claro
 (`fundo`) e objetos brancos elevados sobre ele (`papel` + `.cartao`/`.painel`
-com sombra). Cabeçalho em duas linhas: marca, busca grande central, ações;
-abaixo, pílulas de navegação (`.pilula`). Home abre em produto: banner curto
-com a tese e três números, depois uma prateleira por categoria com cinco cards
-por linha. Cards levam mídia em cima (silhueta em escala enquanto não há foto
+com sombra). As classes `.so-claro/.so-escuro` usam `display` e anulam o
+`hidden` do Tailwind — para esconder por largura, envolver num wrapper. Cards levam mídia em cima (silhueta em escala enquanto não há foto
 licenciada), badge de transparência por faixa (`faixa-bom/medio/baixo` — cor de
 dado sobre a documentação, nunca sobre o produto) e três specs com ícone
 (`components/icones.tsx`, `iconeDo`, `rotuloCurto`, `destaquesDa` em

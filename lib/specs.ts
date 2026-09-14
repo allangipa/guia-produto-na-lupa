@@ -1420,7 +1420,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],
   tablets: ["telaPol", "bateriaMah", "canetaInclusa"],
-  monitores: ["telaPol", "taxaHz", "resolucao"],
+  monitores: ["telaPol", "taxaHz", "painel"],
 };
 
 export function destaquesDa(categoria: string): string[] {

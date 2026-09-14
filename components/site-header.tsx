@@ -8,11 +8,13 @@ import { Busca } from "@/components/busca";
 import { Icone } from "@/components/icones";
 
 /**
- * Cabeçalho em duas linhas, como as lojas fazem.
+ * Cabeçalho em duas linhas, no padrão das lojas grandes.
  *
- * Linha 1: marca, busca grande no centro, ações à direita. Linha 2: pílulas
- * de navegação — categorias com produto primeiro, editorial depois. Fixo no
- * topo porque tabela comparativa é página longa.
+ * Linha 1: marca em tamanho de marca (a horizontal, não o símbolo miúdo),
+ * busca grande no centro, ações à direita. Linha 2: chips de navegação com
+ * as categorias que têm produto, depois o editorial — em toda largura, porque
+ * é a barra que o leitor procura primeiro. Fixo no topo porque tabela
+ * comparativa é página longa.
  */
 export function SiteHeader() {
   const indice = indiceDeBusca();
@@ -22,41 +24,30 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-linha bg-papel/95 backdrop-blur">
-      <div className="mx-auto flex max-w-[var(--largura-ferramenta)] items-center gap-4 px-5 py-3 md:gap-6">
-        <Link
-          href="/"
-          className="flex shrink-0 items-center gap-2.5"
-          aria-label={site.nome}
-        >
-          <img
-            src="/marca/simbolo.svg"
-            alt=""
-            aria-hidden
-            width={36}
-            height={36}
-            className="so-claro h-9 w-9"
-          />
-          <img
-            src="/marca/simbolo-fundo-escuro.svg"
-            alt=""
-            aria-hidden
-            width={36}
-            height={36}
-            className="so-escuro h-9 w-9"
-          />
-          <span className="hidden font-titulo text-[1.15rem] leading-none tracking-tight sm:inline">
-            {site.nome}
+      <div className="mx-auto flex max-w-[var(--largura-ferramenta)] items-center gap-4 px-5 py-3.5 md:gap-8">
+        <Link href="/" className="flex shrink-0 items-center" aria-label={site.nome}>
+          {/* Símbolo só no celular; a marca inteira a partir de sm. As duas
+              versões por tema, porque o traço preto some no escuro. */}
+          {/* Os wrappers cuidam da largura; as classes de tema (.so-claro/.so-escuro)
+              ficam só nas imagens, senão o display delas anula o `hidden`. */}
+          <span className="sm:hidden">
+            <img src="/marca/simbolo.svg" alt="" aria-hidden width={40} height={40} className="so-claro h-10 w-10" />
+            <img src="/marca/simbolo-fundo-escuro.svg" alt="" aria-hidden width={40} height={40} className="so-escuro h-10 w-10" />
+          </span>
+          <span className="hidden sm:block">
+            <img src="/marca/marca-horizontal.svg" alt="" aria-hidden width={739} height={98} className="so-claro h-11 w-auto md:h-12" />
+            <img src="/marca/marca-horizontal-fundo-escuro.svg" alt="" aria-hidden width={739} height={98} className="so-escuro h-11 w-auto md:h-12" />
           </span>
         </Link>
 
-        <div className="mx-auto hidden w-full max-w-[38rem] md:block">
+        <div className="mx-auto hidden w-full max-w-[40rem] md:block">
           <Busca indice={indice} />
         </div>
 
         <div className="ml-auto flex shrink-0 items-center gap-2">
           <Link
             href={`/comparar/${comProdutos[0]?.slug ?? "audio"}`}
-            className="botao botao-secundario hidden !py-2 text-[0.85rem] sm:inline-flex"
+            className="botao botao-secundario hidden !py-2.5 text-[0.85rem] sm:inline-flex"
           >
             <Icone nome="comparar" className="h-4 w-4" />
             Comparar
@@ -69,9 +60,8 @@ export function SiteHeader() {
         <Busca indice={indice} />
       </div>
 
-      {/* No desktop o trilho lateral assume; as pílulas ficam para o celular. */}
-      <nav aria-label="Principal" className="border-t border-linha lg:hidden">
-        <ul className="rolo mx-auto flex max-w-[var(--largura-ferramenta)] gap-2 overflow-x-auto px-5 py-2">
+      <nav aria-label="Principal" className="border-t border-linha">
+        <ul className="rolo mx-auto flex max-w-[var(--largura-ferramenta)] gap-2 overflow-x-auto px-5 py-2.5">
           {comProdutos.map((c) => (
             <li key={c.slug} className="shrink-0">
               <Link href={`/categorias/${c.slug}`} className="pilula">
@@ -79,34 +69,12 @@ export function SiteHeader() {
               </Link>
             </li>
           ))}
-          <li aria-hidden className="mx-1 shrink-0 self-center text-linha">
-            |
-          </li>
-          <li className="shrink-0">
-            <Link href="/guias" className="pilula">
-              Guias de compra
-            </Link>
-          </li>
-          <li className="shrink-0">
-            <Link href="/reviews" className="pilula">
-              Análises
-            </Link>
-          </li>
-          <li className="shrink-0">
-            <Link href="/comparativos" className="pilula">
-              Comparativos
-            </Link>
-          </li>
-          <li className="shrink-0">
-            <Link href="/transparencia" className="pilula">
-              Transparência
-            </Link>
-          </li>
-          <li className="shrink-0">
-            <Link href="/metodologia" className="pilula">
-              Como avaliamos
-            </Link>
-          </li>
+          <li aria-hidden className="mx-1 shrink-0 self-center text-linha">|</li>
+          <li className="shrink-0"><Link href="/guias" className="pilula">Guias de compra</Link></li>
+          <li className="shrink-0"><Link href="/comparativos" className="pilula">Comparativos</Link></li>
+          <li className="shrink-0"><Link href="/reviews" className="pilula">Análises</Link></li>
+          <li className="shrink-0"><Link href="/transparencia" className="pilula">Transparência</Link></li>
+          <li className="shrink-0"><Link href="/metodologia" className="pilula">Como avaliamos</Link></li>
         </ul>
       </nav>
     </header>

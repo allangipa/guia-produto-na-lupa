@@ -191,6 +191,15 @@ body {
   background: var(--color-faixa);
   color: var(--color-faixa-tinta);
 }
+/* No tema escuro o herói precisa se separar do fundo, que já é escuro. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) .faixa {
+    background: #1b2229;
+  }
+}
+:root[data-tema="escuro"] .faixa {
+  background: #1b2229;
+}
 
 /* Banner informativo: gradiente suave da cor de ação, sem virar propaganda. */
 .banner {
