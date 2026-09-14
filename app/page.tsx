@@ -230,8 +230,10 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          {/* Uma linha por categoria, sempre: a prateleira é vitrine, e o
+              "Ver os N" leva ao buscador, que é onde a lista inteira serve. */}
           <ul className="rolo mt-4 grid auto-cols-[14.5rem] grid-flow-col gap-3.5 overflow-x-auto pb-3 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
-            {itens.map((p) => (
+            {itens.slice(0, 5).map((p) => (
               <li key={p.slug}>
                 <CardProduto produto={p} campos={camposDa(p.categoria)} />
               </li>
