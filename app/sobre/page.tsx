@@ -17,8 +17,8 @@ export default function Sobre() {
       </h1>
       <div className="prosa mt-8">
         <p>
-          O {site.nome} compara produtos de tecnologia e acessórios a partir da
-          documentação oficial dos fabricantes. A pergunta que move cada página é
+          O {site.nome} compara produtos de tecnologia, acessórios e casa a
+          partir da documentação oficial dos fabricantes. A pergunta que move cada página é
           sempre a mesma: onde este produto falha, e para quem essa falha
           importa.
         </p>

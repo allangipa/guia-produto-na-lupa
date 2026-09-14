@@ -114,6 +114,18 @@ const TRACOS: Record<string, React.ReactNode> = {
       <path d="M12 9v6M9 12h6" />
     </>
   ),
+  panela: (
+    <>
+      <path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-6z" />
+      <path d="M2 10h20M8 6c0-1.5 1-2 1-3M12 6c0-1.5 1-2 1-3M16 6c0-1.5 1-2 1-3" />
+    </>
+  ),
+  termometro: (
+    <>
+      <path d="M10 4a2 2 0 0 1 4 0v9.5a4 4 0 1 1-4 0V4z" />
+      <path d="M12 9v6" />
+    </>
+  ),
   tema: (
     <>
       <circle cx="12" cy="12" r="4" />

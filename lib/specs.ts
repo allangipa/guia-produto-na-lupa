@@ -483,10 +483,158 @@ export const camposAudio: Campo[] = [
   },
 ];
 
+/**
+ * Cozinha — por ora, airfryers.
+ *
+ * O número que vende é "litros", e ele quase sempre é a capacidade da caixa,
+ * não do cesto onde a comida cabe. Por isso os dois entram separados, como
+ * bateria nominal e real nas baterias, e fone e estojo nos fones.
+ */
+export const camposCozinha: Campo[] = [
+  {
+    chave: "formato",
+    rotulo: "Formato",
+    grupo: "O que é",
+    tipo: "texto",
+    ajuda: "Cesto (gaveta) ou forno (porta frontal, com bandejas).",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeTotalL",
+    rotulo: "Capacidade total",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O número da caixa: o volume interno do aparelho.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeUtilL",
+    rotulo: "Capacidade útil",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quanto cabe de comida no cesto. Costuma ser 60% a 70% do total — e é o que define se a refeição sai em uma leva.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Mais potência aquece mais rápido e pesa na conta de luz na mesma proporção.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "temperaturaMaxC",
+    rotulo: "Temperatura máxima",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "°C",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "temperaturaMinC",
+    rotulo: "Temperatura mínima",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "°C",
+    melhor: "menor",
+    ajuda: "Abaixo de 60 °C dá para desidratar; acima disso, só cozinha.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "timerMaxMin",
+    rotulo: "Timer máximo",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "min",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcoesPredefinidas",
+    rotulo: "Funções predefinidas",
+    grupo: "Uso diário",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "painel",
+    rotulo: "Painel",
+    grupo: "Uso diário",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "visor",
+    rotulo: "Janela para ver a comida",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+  },
+  {
+    chave: "lavaLoucas",
+    rotulo: "Peças vão na lava-louças",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Instalação",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Bivolt evita o erro mais caro da categoria: ligar 127 V em 220 V.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Instalação",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Instalação",
+    tipo: "texto",
+    ajuda: "Antes de comprar, meça o vão embaixo do armário.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
   audio: camposAudio,
+  cozinha: camposCozinha,
 };
 
 export function camposDa(categoria: string): Campo[] {
@@ -530,6 +678,18 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   reducaoDb: "fone",
   protecaoAgua: "gota",
   controles: "controle",
+  capacidadeTotalL: "panela",
+  capacidadeUtilL: "panela",
+  potenciaW: "raio",
+  temperaturaMaxC: "termometro",
+  temperaturaMinC: "termometro",
+  timerMaxMin: "relogio",
+  funcoesPredefinidas: "controle",
+  painel: "display",
+  visor: "display",
+  lavaLoucas: "gota",
+  tensao: "raio",
+  pesoKg: "peso",
 };
 
 export function iconeDo(chave: string): string {
@@ -546,7 +706,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   conectividade: "bluetooth",
   "casa-conectada": "display",
   celular: "display",
-  cozinha: "raio",
+  cozinha: "panela",
   tablets: "display",
   eletrodomesticos: "raio",
 };
@@ -574,6 +734,15 @@ const ROTULO_CURTO: Record<string, string> = {
   protecaoAgua: "Água",
   reducaoDb: "Cancelamento",
   tempoCargaH: "Carga",
+  capacidadeTotalL: "Total",
+  capacidadeUtilL: "Útil",
+  potenciaW: "Potência",
+  temperaturaMaxC: "Temp. máx.",
+  temperaturaMinC: "Temp. mín.",
+  timerMaxMin: "Timer",
+  funcoesPredefinidas: "Funções",
+  lavaLoucas: "Lava-louças",
+  pesoKg: "Peso",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -584,6 +753,7 @@ export function rotuloCurto(campo: Campo): string {
 const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   energia: ["capacidadeNominal", "potenciaMaxSaida", "pesoG"],
   audio: ["horasFone", "driverMm", "protecaoAgua"],
+  cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
 };
 
 export function destaquesDa(categoria: string): string[] {

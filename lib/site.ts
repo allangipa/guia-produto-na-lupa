@@ -1,7 +1,7 @@
 export const site = {
   nome: "Guia Produto na Lupa",
   descricao:
-    "Análises de tecnologia e acessórios escritas para quem já está quase comprando e quer saber onde o produto falha.",
+    "Comparação de fichas técnicas oficiais de tecnologia, acessórios e casa, para quem já está quase comprando e quer saber o que o fabricante deixa de fora.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://guiaprodutonalupa.com.br",
   /**
    * Quem responde pelo conteúdo é a publicação, não uma pessoa: este site não

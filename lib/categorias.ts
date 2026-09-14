@@ -60,6 +60,12 @@ export const categorias: Categoria[] = [
     descricao: "Capas, películas, suportes veiculares e carregadores sem fio.",
     dorPrincipal: "Protege de verdade na queda de bolso ou só de arranhão?",
   },
+  {
+    slug: "cozinha",
+    nome: "Cozinha",
+    descricao: "Airfryers, liquidificadores e o que mais liga na tomada da bancada.",
+    dorPrincipal: "Os litros do anúncio são de cesto ou de caixa?",
+  },
 ];
 
 export function categoria(slug: string): Categoria | undefined {
