@@ -1047,6 +1047,187 @@ export const camposTablet: Campo[] = [
   },
 ];
 
+/**
+ * Monitores. A ficha de monitor é a mais numérica de todas — e a mais fácil
+ * de inflar: "1 ms" pode ser GtG ou MPRT, "144 Hz" pode exigir overclock. Os
+ * campos guardam o número e o texto guarda a condição.
+ */
+export const camposMonitor: Campo[] = [
+  {
+    chave: "telaPol",
+    rotulo: "Tela",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "pol",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "resolucao",
+    rotulo: "Resolução",
+    grupo: "Tela",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "painel",
+    rotulo: "Tipo de painel",
+    grupo: "Tela",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "IPS tem cor e ângulo; VA tem contraste; TN é o mais barato e o pior de lado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "taxaHz",
+    rotulo: "Taxa de atualização",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "Hz",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Se a taxa máxima exige overclock (\"O/C\"), o campo de texto diz.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tempoRespostaMs",
+    rotulo: "Tempo de resposta",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "ms",
+    melhor: "menor",
+    ajuda: "GtG e MPRT não são a mesma medida — MPRT dá número menor. A ficha diz qual foi declarado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "medidaResposta",
+    rotulo: "Medida do tempo de resposta",
+    grupo: "Tela",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "brilhoNits",
+    rotulo: "Brilho",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "nits",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "contraste",
+    rotulo: "Contraste",
+    grupo: "Tela",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "coresSrgb",
+    rotulo: "Cobertura sRGB",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "%",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "hdr",
+    rotulo: "HDR",
+    grupo: "Tela",
+    tipo: "texto",
+    ajuda: "\"HDR10\" sem brilho acima de 400 nits é compatibilidade de sinal, não imagem HDR.",
+  },
+  {
+    chave: "sincronizacao",
+    rotulo: "Sincronização adaptativa",
+    grupo: "Jogo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "hdmi",
+    rotulo: "Entradas HDMI",
+    grupo: "Conexões",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "displayPort",
+    rotulo: "DisplayPort",
+    grupo: "Conexões",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "outrasPortas",
+    rotulo: "Outras portas",
+    grupo: "Conexões",
+    tipo: "texto",
+  },
+  {
+    chave: "altoFalantes",
+    rotulo: "Alto-falantes",
+    grupo: "Conexões",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "ajusteAltura",
+    rotulo: "Ajuste de altura",
+    grupo: "Corpo",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Sem ajuste de altura, o monitor fica onde a base põe — e a base costuma pôr baixo demais.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "vesa",
+    rotulo: "Furação VESA",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões com base",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoW",
+    rotulo: "Consumo",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
@@ -1054,6 +1235,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   cozinha: camposCozinha,
   celular: camposCelular,
   tablets: camposTablet,
+  monitores: camposMonitor,
 };
 
 export function camposDa(categoria: string): Campo[] {
@@ -1136,6 +1318,18 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   carregadorNaCaixa: "cabo",
   sistema: "chip",
   atualizacoes: "escudo",
+  tempoRespostaMs: "relogio",
+  medidaResposta: "relogio",
+  contraste: "display",
+  coresSrgb: "display",
+  hdr: "display",
+  sincronizacao: "controle",
+  hdmi: "portas",
+  displayPort: "portas",
+  outrasPortas: "portas",
+  ajusteAltura: "regua",
+  vesa: "regua",
+  consumoW: "raio",
 };
 
 export function iconeDo(chave: string): string {
@@ -1207,6 +1401,13 @@ const ROTULO_CURTO: Record<string, string> = {
   cargaW: "Carga",
   carregadorNaCaixa: "Carregador",
   atualizacoes: "Atualizações",
+  taxaHz: "Taxa",
+  tempoRespostaMs: "Resposta",
+  coresSrgb: "sRGB",
+  ajusteAltura: "Altura",
+  consumoW: "Consumo",
+  resolucao: "Resolução",
+  painel: "Painel",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -1220,6 +1421,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],
   tablets: ["telaPol", "bateriaMah", "canetaInclusa"],
+  monitores: ["telaPol", "taxaHz", "resolucao"],
 };
 
 export function destaquesDa(categoria: string): string[] {

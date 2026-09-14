@@ -32,9 +32,9 @@ export const categorias: Categoria[] = [
   },
   {
     slug: "monitores",
-    nome: "Monitores e suportes",
-    descricao: "Monitores, braços articulados e suportes de notebook.",
-    dorPrincipal: "Vale o pulo de tamanho ou de resolução para o que você faz?",
+    nome: "Monitores",
+    descricao: "Monitores de computador, com a taxa, o painel e o tempo de resposta como o fabricante declara — e em que condição.",
+    dorPrincipal: "O \"1 ms\" é GtG ou MPRT, e os 144 Hz precisam de overclock?",
   },
   {
     slug: "armazenamento",
