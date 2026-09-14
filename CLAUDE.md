@@ -33,6 +33,26 @@ Repositório local em `C:\Users\allan\OneDrive\Documentos\GitHub\guia-produto-na
 Fica dentro do OneDrive — confira `git fetch` antes de editar, sob risco de a cópia
 local estar atrás do remoto.
 
+**O OneDrive disputa os arquivos de build com o `npm run build`.** Ele abre para
+upload os arquivos que o Next acabou de escrever em `out/` e `.next/`, e o Next
+falha com `EBUSY` ao tentar apagá-los na etapa de export. Verificado em
+14/09/2026 pelo Restart Manager do Windows: o dono do handle era o processo do
+OneDrive, não o Defender nem um `node` esquecido. O alvo muda a cada build, o
+que descarta culpa de um arquivo específico.
+
+- **Não adianta junção.** Apontar `out/` para fora do OneDrive com
+  `New-Item -ItemType Junction` funciona até o OneDrive reiniciar: ele desfaz o
+  ponto de reparo e materializa a pasta de volta dentro da sincronização.
+  Testado e descartado.
+- **O que funciona hoje:** fechar o OneDrive antes de buildar
+  (`& "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /shutdown`), apagar
+  `out/` e `.next/` ao terminar para não deixar nada para ele pegar, e religar.
+- **O deploy não é afetado**, porque quem builda de verdade é o GitHub Actions.
+  O `out/` local serve só para conferir o HTML gerado.
+- **A solução de raiz é tirar o repositório do OneDrive.** Resolve isto e também
+  o risco de cópia local atrasada acima — o Git passa a ser o único
+  sincronizador, que é o papel dele.
+
 ## Estrutura de conteúdo
 
 ```
