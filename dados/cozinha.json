@@ -305,6 +305,14 @@
         "oQueSaiuDaqui": "Versão 220 V e dimensões de 31,3 × 30,6 × 31 cm. O tipo de painel e o visor da listagem divergem do fabricante e estão registrados como divergência.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/philco-paf40a-2.webp",
+        "alt": "Air Fryer Philco PAF40A vista de cima, com o painel de controle à mostra",
+        "credito": "Imagem: Philco",
+        "origem": "https://www.philco.com.br/fritadeira-air-fryer-paf40a-127v-053801089/p"
+      }
     ]
   },
   {
@@ -638,6 +646,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão 220 V, 1700 W, 40 × 41 × 28,8 cm, 10,4 kg, garantia de 2 anos e código FW009627 — tudo igual ao fabricante.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/wap-barbecue-digital-2.webp",
+        "alt": "Grill WAP Barbecue aberto sobre uma bancada de cozinha, com hambúrgueres na chapa",
+        "credito": "Imagem: WAP",
+        "origem": "https://loja.wap.ind.br/fritadeira-eletrica-wap-air-fryer-barbecue-digital/p"
       }
     ]
   }

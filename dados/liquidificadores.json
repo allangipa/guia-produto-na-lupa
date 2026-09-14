@@ -214,6 +214,14 @@
         "oQueSaiuDaqui": "Nº 3 em Liquidificadores de Bancada, versão 110 V, 20,5 × 22,3 × 42,3 cm e 2,24 kg — números que o fabricante não publica.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/britania-blq1300p-2.webp",
+        "alt": "Copo do liquidificador Britânia BLQ1300P sendo enchido com leite, com frutas dentro",
+        "credito": "Imagem: Britânia",
+        "origem": "https://www.britania.com.br/liquidificador-britania-1400w-3l-12-velocidades-preto-blq1300p/p"
+      }
     ]
   },
   {
@@ -335,6 +343,20 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Nº 8 em Liquidificadores de Bancada, versão 110 V, 17,5 × 20 × 42,5 cm e 1.887 g. A potência da tabela (900) diverge do fabricante e está registrada.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/philco-ph900-2.webp",
+        "alt": "Liquidificador Philco PH900 com o copo e a tampa separados da base",
+        "credito": "Imagem: Philco",
+        "origem": "https://www.philco.com.br/liquidificador-ph900-preto-1200w/p"
+      },
+      {
+        "src": "/produtos/philco-ph900-3.webp",
+        "alt": "Base do liquidificador Philco PH900 vista por baixo, mostrando as lâminas",
+        "credito": "Imagem: Philco",
+        "origem": "https://www.philco.com.br/liquidificador-ph900-preto-1200w/p"
       }
     ]
   },
