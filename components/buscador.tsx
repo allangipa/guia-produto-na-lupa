@@ -192,8 +192,8 @@ export function Buscador({
           </legend>
           <div className="grid gap-3">
             {camposFaixa.map((campo) => (
-              <label key={campo.chave} className="grid grid-cols-[1fr_5.5rem] items-center gap-2">
-                <span className="text-[0.85rem] leading-tight">
+              <label key={campo.chave} className="grid gap-1">
+                <span className="text-[0.82rem] leading-tight text-tinta-suave">
                   {campo.melhor === "menor" ? "Máx." : "Mín."}{" "}
                   {campo.rotulo.toLowerCase()}
                   {campo.unidade ? (
@@ -215,7 +215,7 @@ export function Buscador({
                       },
                     }))
                   }
-                  className="dados w-full rounded-lg border border-linha bg-papel px-2.5 py-1.5 text-right text-[0.85rem]"
+                  className="dados w-full rounded-lg border border-linha bg-papel px-2.5 py-1.5 text-[0.85rem]"
                 />
               </label>
             ))}
