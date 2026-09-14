@@ -93,9 +93,11 @@ export default function Sobre() {
           análise diz isso — inclusive quando é o que mais renderia comissão.
         </p>
         <p>
-          As imagens de produto vêm dos materiais de imprensa dos próprios
-          fabricantes ou de bancos com licença aberta, sempre com crédito na
-          legenda.
+          As imagens de produto vêm do material oficial dos próprios
+          fabricantes, com crédito visível e a página de origem registrada na
+          ficha. Os direitos são deles; se uma marca preferir que uma imagem
+          não apareça aqui, ela é removida a pedido — o caminho está em{" "}
+          <Link href="/privacidade">Privacidade</Link>.
         </p>
       </div>
     </div>

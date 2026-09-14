@@ -89,6 +89,17 @@ export default function Privacidade() {
           <Link href="/metodologia">Como avaliamos</Link>.
         </p>
 
+        <h2>Imagens de produto</h2>
+        <p>
+          As fotos de produto publicadas aqui vêm do material oficial do
+          próprio fabricante, com crédito visível na imagem e a página de origem
+          registrada na ficha. Os direitos são do fabricante. Se você representa
+          uma marca e prefere que uma imagem não apareça neste site, escreva
+          para{" "}
+          <a href={`mailto:${site.editor.contato}`}>{site.editor.contato}</a>{" "}
+          e ela é removida — sem exigir justificativa.
+        </p>
+
         <h2>Medição de audiência</h2>
         <p>
           No momento não há nenhuma ferramenta de analytics instalada. Se isso

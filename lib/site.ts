@@ -22,7 +22,9 @@ export const site = {
    * vai em toda URL de loja do site — então fica no código, com a variável de
    * ambiente só para sobrescrever em outro deploy.
    */
-  amazonTag: process.env.NEXT_PUBLIC_AMAZON_TAG ?? "guiaprodutona-20",
+  // `||`, não `??`: no GitHub Actions a variável existe e chega vazia, e o
+  // `??` deixava o vazio vencer o padrão — os botões subiram sem a tag.
+  amazonTag: process.env.NEXT_PUBLIC_AMAZON_TAG || "guiaprodutona-20",
 } as const;
 
 /**

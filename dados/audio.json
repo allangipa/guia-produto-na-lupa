@@ -6,6 +6,12 @@
     "modelo": "TAT1109BK/00",
     "resumo": "O fone mais vendido da Amazon Brasil. O anúncio promete 24 horas; o fone sozinho entrega 6, e as outras 18 dependem de você levar o estojo.",
     "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philips-tat1109.png",
+      "alt": "Fone Philips TAT1109 preto, par de fones ao lado do estojo de carregamento",
+      "credito": "Imagem: Philips",
+      "origem": "https://www.philips.com.br/c-p/TAT1109BK_00/fones-ouvido-true-wireless-serie-1000"
+    },
     "specs": {
       "formato": "TWS (par sem fio com estojo)",
       "driverMm": 10,
@@ -47,6 +53,12 @@
     "modelo": "A3959",
     "resumo": "O único da base com cancelamento ativo declarado: 42 dB. Também o de maior autonomia entre os TWS, com 10 horas no fone e 45 com o estojo.",
     "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/soundcore-p30i.png",
+      "alt": "Fone soundcore P30i com estojo de carregamento aberto",
+      "credito": "Imagem: soundcore",
+      "origem": "https://www.soundcore.com/products/soundcore-p30i"
+    },
     "specs": {
       "formato": "TWS (par sem fio com estojo)",
       "driverMm": 10,
@@ -86,8 +98,14 @@
     "nome": "soundcore P20i",
     "marca": "Anker",
     "modelo": "A3944",
-    "resumo": "Irmão mais simples do P30i: mesmo driver de 10 mm, sem cancelamento ativo. O anúncio diz 30 horas, mas não separa o que é fone e o que é estojo.",
+    "resumo": "Irmão mais simples do P30i: mesmo driver de 10 mm, sem cancelamento ativo. A listagem da Amazon só dá o total de 30 horas; a página da soundcore separa: 10h30 no fone.",
     "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/soundcore-p20i.png",
+      "alt": "Fone soundcore P20i com estojo de carregamento e cordão",
+      "credito": "Imagem: soundcore",
+      "origem": "https://www.soundcore.com/products/p20i"
+    },
     "specs": {
       "formato": "TWS (par sem fio com estojo)",
       "driverMm": 10,
@@ -97,7 +115,7 @@
       "bluetoothVersao": "5.3",
       "codecs": null,
       "multiponto": null,
-      "horasFone": null,
+      "horasFone": 10.5,
       "horasTotal": 30,
       "tempoCargaH": null,
       "cargaRapida": "10 min rendem 2 h",
@@ -113,6 +131,14 @@
     },
     "fontes": [
       {
+        "id": "soundcore-p20i-oficial",
+        "titulo": "soundcore P20i — página oficial do produto",
+        "url": "https://www.soundcore.com/products/p20i",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Até 10 h 30 min de reprodução no fone com uma carga e 30 h com o estojo, drivers de 10 mm, Bluetooth 5.3, dois microfones e 22 equalizações predefinidas.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
         "id": "amazon-p20i",
         "titulo": "soundcore P20i — página do produto na Amazon Brasil",
         "url": "https://www.amazon.com.br/dp/B0BTYCRJSS",
@@ -127,10 +153,16 @@
     "nome": "JBL Tune 530BT",
     "marca": "JBL",
     "modelo": "Tune 530BT",
-    "resumo": "Over-ear com o maior driver e a maior autonomia da base: 33 mm e 76 horas sem depender de estojo nenhum. Cinco minutos na tomada rendem cinco horas.",
+    "resumo": "On-ear com o maior driver e a maior autonomia da base: 33 mm e 76 horas sem depender de estojo nenhum. Cinco minutos na tomada rendem cinco horas; a carga completa leva cerca de duas.",
     "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/jbl-tune-530bt.png",
+      "alt": "Fone JBL Tune 530BT preto, visto de lado",
+      "credito": "Imagem: JBL",
+      "origem": "https://www.jbl.com/TUNE530BT.html"
+    },
     "specs": {
-      "formato": "Over-ear (cobre a orelha)",
+      "formato": "On-ear (apoia sobre a orelha)",
       "driverMm": 33,
       "impedanciaOhm": null,
       "sensibilidadeDb": null,
@@ -140,7 +172,7 @@
       "multiponto": true,
       "horasFone": 76,
       "horasTotal": null,
-      "tempoCargaH": null,
+      "tempoCargaH": 2,
       "cargaRapida": "5 min rendem 5 h",
       "cancelamentoAtivo": false,
       "reducaoDb": null,
@@ -153,7 +185,24 @@
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0GM1LSHQF"
     },
+    "divergencias": [
+      {
+        "campo": "formato",
+        "fonteAdotada": "jbl-tune530bt-oficial",
+        "valorDivergente": "Over-ear",
+        "fonteDivergente": "amazon-tune530bt",
+        "observacao": "A listagem da Amazon chama de over-ear; a página oficial da JBL classifica como on-ear, com conchas que apoiam sobre a orelha. Adotamos a do fabricante."
+      }
+    ],
     "fontes": [
+      {
+        "id": "jbl-tune530bt-oficial",
+        "titulo": "JBL Tune 530BT — página oficial do produto",
+        "url": "https://www.jbl.com/TUNE530BT.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Formato on-ear, até 76 h de bateria, carga rápida de 5 min para 5 h, recarga completa em cerca de 2 h, Bluetooth 6.0, conexão com dois aparelhos e dois microfones beamforming por concha.",
+        "consultadaEm": "2026-09-14"
+      },
       {
         "id": "amazon-tune530bt",
         "titulo": "JBL Tune 530BT — página do produto na Amazon Brasil",
