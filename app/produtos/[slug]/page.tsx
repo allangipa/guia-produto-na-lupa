@@ -218,7 +218,12 @@ export default async function PaginaProduto({ params }: Params) {
             <span className="font-normal opacity-80">· {faixa.rotulo}</span>
           </a>
 
-          <ul className="mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
+          {/* `auto-rows-fr` iguala a altura de todas as fileiras. Sem ele, um
+              valor comprido — "1920 × 1080 (Full HD)" quebra em três linhas num
+              card estreito — esticava só a fileira dele, e os seis quadros
+              apareciam em dois tamanhos. Igualar é melhor do que cortar o
+              valor: o número inteiro é o que a ficha existe para mostrar. */}
+          <ul className="mt-5 grid auto-rows-fr grid-cols-2 gap-2.5 sm:grid-cols-3">
             {essenciais.map((campo) => {
               const valor = p.specs[campo.chave];
               const ausente = valor === null || valor === undefined;

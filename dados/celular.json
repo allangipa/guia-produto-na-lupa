@@ -572,6 +572,14 @@
         "fonteDivergente": "amazon-g06",
         "observacao": "A Amazon publica \"371 quilogramas\" — erro de unidade na listagem. A Motorola declara 194 g."
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/motorola-moto-g06-5.webp",
+        "alt": "Moto g06 visto de costas ao lado do carregador e do cabo que vêm na caixa",
+        "credito": "Imagem: Motorola",
+        "origem": "https://www.motorola.com.br/smartphone-moto-g06-128-gb/p"
+      }
     ]
   },
   {
@@ -644,6 +652,20 @@
         "valorDivergente": "SIM único",
         "fonteDivergente": "amazon-g86",
         "observacao": "A Amazon lista \"SIM único\"; a Motorola declara nano SIM mais eSIM — duas linhas, uma delas digital. Adotamos o fabricante."
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/motorola-moto-g86-4.webp",
+        "alt": "Moto g86 visto de frente, com a tela ligada",
+        "credito": "Imagem: Motorola",
+        "origem": "https://www.motorola.com.br/smartphone-moto-g86-5g-256gb/p"
+      },
+      {
+        "src": "/produtos/motorola-moto-g86-5.webp",
+        "alt": "Moto g86 visto de costas ao lado do carregador de 33 W e do cabo que vêm na caixa",
+        "credito": "Imagem: Motorola",
+        "origem": "https://www.motorola.com.br/smartphone-moto-g86-5g-256gb/p"
       }
     ]
   },
