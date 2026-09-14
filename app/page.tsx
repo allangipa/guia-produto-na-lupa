@@ -6,7 +6,7 @@ import {
   dataLegivel,
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
-import { todosOsProdutos, camposDa } from "@/lib/produtos";
+import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { CardProduto } from "@/components/card-produto";
 
 export default function Home() {
@@ -15,11 +15,25 @@ export default function Home() {
   const guias = todosOsGuias();
   const produtos = todosOsProdutos();
 
-  // O número que abre a página não é enfeite: é o achado que sustenta o site.
-  const semCiclos = produtos.filter(
-    (p) => p.specs.ciclosCarga === null || p.specs.ciclosCarga === undefined,
-  ).length;
   const marcas = [...new Set(produtos.map((p) => p.marca))];
+
+  /**
+   * O número que abre a página é o achado que sustenta o site, e precisa valer
+   * em qualquer categoria.
+   *
+   * A primeira versão contava quantos produtos não declaravam ciclos de carga —
+   * que é campo de bateria externa. Quando os fones entraram, eles passaram a
+   * ser contados como se escondessem um dado que não existe para eles, e o
+   * rótulo ainda dizia "powerbanks" somando as duas categorias.
+   */
+  const media = produtos.length
+    ? Math.round(
+        produtos.reduce(
+          (soma, p) => soma + transparencia(p, camposDa(p.categoria)).nota,
+          0,
+        ) / produtos.length,
+      )
+    : 0;
 
   return (
     <div>
@@ -67,7 +81,7 @@ export default function Home() {
             <dl className="mt-5 grid gap-5">
               <div className="flex items-baseline justify-between gap-4 border-b border-white/10 pb-4">
                 <dt className="text-[color:var(--color-faixa-suave)]">
-                  Powerbanks com ficha oficial
+                  Produtos com ficha oficial
                 </dt>
                 <dd className="dados text-2xl">{produtos.length}</dd>
               </div>
@@ -78,16 +92,15 @@ export default function Home() {
                 <dd className="dados text-2xl">{marcas.length}</dd>
               </div>
               <div className="flex items-baseline justify-between gap-4">
-                <dt className="max-w-[24ch] text-[color:var(--color-faixa-suave)]">
-                  Não declaram quantos ciclos a bateria aguenta
+                <dt className="max-w-[26ch] text-[color:var(--color-faixa-suave)]">
+                  Da ficha técnica, em média, é o que eles publicam
                 </dt>
-                <dd className="dados text-2xl text-atencao">
-                  {semCiclos} de {produtos.length}
-                </dd>
+                <dd className="dados text-2xl text-atencao">{media}%</dd>
               </div>
             </dl>
             <p className="mt-6 text-[0.85rem] leading-relaxed text-[color:var(--color-faixa-suave)]">
-              Quando um campo falta na ficha de todos os concorrentes, deixa de
+              O resto fica marcado como não informado, campo por campo. Quando
+              uma ausência se repete na ficha de todos os concorrentes, deixa de
               ser descuido de uma marca e vira característica do mercado.
             </p>
           </div>
