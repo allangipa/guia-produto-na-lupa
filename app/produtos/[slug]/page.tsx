@@ -11,6 +11,7 @@ import {
   iconeDo,
   valorLegivel,
 } from "@/lib/produtos";
+import { aindaNaoSaiu } from "@/lib/specs";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { dataLegivel } from "@/lib/conteudo";
 import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
@@ -127,6 +128,20 @@ export default async function PaginaProduto({ params }: Params) {
           </div>
           <p className="mt-4 max-w-[58ch] text-[1rem] text-tinta-suave">{p.resumo}</p>
 
+          {/* O aviso fica aqui, e não só no bloco de loja, porque produto que
+              ainda não saiu às vezes nem tem link de loja — o iPhone Duo não
+              tem. Sem isto, a página inteira leria como a de um produto à
+              venda e a data de lançamento só apareceria no meio do resumo. */}
+          {aindaNaoSaiu(p) && (
+            <p className="mt-5 max-w-[58ch] border-l-[3px] border-acao bg-realce px-4 py-3 text-[0.9rem]">
+              Ainda não chegou às lojas. O fabricante marca{" "}
+              <strong className="dados">{dataLegivel(p.nasLojasEm!)}</strong>. A
+              ficha abaixo é a que a {p.marca} publicou no anúncio — nada aqui
+              vem de uso, e o que a marca não declarou continua contando como
+              omissão.
+            </p>
+          )}
+
           <a
             href="#transparencia"
             className={`${faixa.classe} mt-5 inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-[0.85rem] font-semibold`}
@@ -155,6 +170,9 @@ export default async function PaginaProduto({ params }: Params) {
 
           <PrecoAmazon dados={p.amazon} />
 
+          {/* Sem `nasLojasEm` aqui: o aviso já está acima, no topo da ficha.
+              A prop existe para guias e comparativos, onde o botão aparece
+              longe de qualquer cabeçalho de produto. */}
           <LojaCta lojas={p.lojas} produto={p.nome} posicao="veredito" />
 
           {cat && (

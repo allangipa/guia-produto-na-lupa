@@ -127,8 +127,31 @@ export type Produto = {
   naoSeAplica?: string[];
   /** Anexado na leitura da base, quando existe sincronização da Amazon. */
   amazon?: DadosAmazon;
+  /**
+   * Data em que o fabricante diz que o produto chega às lojas, em ISO.
+   *
+   * Só existe enquanto essa data não passou. Produto anunciado ainda não é
+   * produto à venda: a ficha vale, mas ele não pode disputar espaço com quem
+   * já está na prateleira nem receber botão de compra sem aviso. Sai da home,
+   * leva o aviso na ficha e continua na categoria.
+   */
+  nasLojasEm?: string;
   atualizadoEm: string;
 };
+
+/**
+ * O produto ainda não chegou às lojas na data de referência?
+ *
+ * A comparação é com a data do build, porque o site é estático: a resposta é
+ * verdadeira até a próxima publicação. Por isso a data também fica escrita na
+ * tela — quem lê confere sozinho, sem depender de quando o site foi gerado.
+ */
+export function aindaNaoSaiu(p: Produto, hoje = new Date()): boolean {
+  if (!p.nasLojasEm) return false;
+  const lancamento = new Date(`${p.nasLojasEm}T00:00:00Z`);
+  if (Number.isNaN(lancamento.getTime())) return false;
+  return lancamento.getTime() > hoje.getTime();
+}
 
 /**
  * A definição de um campo comparável. É isto que ensina o site a ordenar

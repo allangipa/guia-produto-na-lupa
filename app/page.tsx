@@ -7,6 +7,7 @@ import {
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
+import { aindaNaoSaiu } from "@/lib/specs";
 import { lancamentos } from "@/lib/lancamentos";
 import { linkAmazon } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
@@ -62,8 +63,21 @@ export default function Home() {
       )
     : 0;
 
+  // A prateleira mostra só o que dá para comprar hoje. Produto anunciado e ainda
+  // não lançado tem lugar próprio nesta página — o herói e "Próximos
+  // lançamentos" — e ocupava a prateleira empurrando para fora quem já está à
+  // venda: em Celulares os cinco cards eram iPhones, três deles sem data de
+  // loja cumprida. A contagem do "Ver as N" continua sendo a da categoria
+  // inteira, que é o que o visitante encontra ao clicar.
   const prateleiras = categorias
-    .map((c) => ({ cat: c, itens: produtos.filter((p) => p.categoria === c.slug) }))
+    .map((c) => {
+      const daCategoria = produtos.filter((p) => p.categoria === c.slug);
+      return {
+        cat: c,
+        total: daCategoria.length,
+        itens: daCategoria.filter((p) => !aindaNaoSaiu(p)),
+      };
+    })
     .filter((p) => p.itens.length > 0);
 
   const destaques = lancamentos
@@ -203,7 +217,7 @@ export default function Home() {
       <section className="mt-12">
         <TituloSecao antes="Compre por" destaque="categoria" href="/comparar/audio" acao="Comparar produtos" />
         <ul className="rolo mt-6 flex gap-4 overflow-x-auto pb-3 sm:grid sm:grid-cols-3 md:grid-cols-5 sm:overflow-visible">
-          {prateleiras.map(({ cat, itens }) => {
+          {prateleiras.map(({ cat, itens, total }) => {
             const capa = itens.find((p) => p.imagem);
             return (
               <li key={cat.slug} className="shrink-0 sm:shrink">
@@ -217,7 +231,7 @@ export default function Home() {
                   </span>
                   <span className="text-center text-[0.9rem] font-medium leading-tight group-hover:text-acao-forte">
                     {cat.nome}
-                    <span className="dados block text-[0.72rem] font-normal text-tinta-suave">{itens.length} fichas</span>
+                    <span className="dados block text-[0.72rem] font-normal text-tinta-suave">{total} fichas</span>
                   </span>
                 </Link>
               </li>
@@ -233,10 +247,11 @@ export default function Home() {
         vendidos" afirmava mais do que o dado sustenta. A seleção da base
         sai mesmo do ranking da Amazon, e essa afirmação, com data e fonte,
         vive na página da categoria e no guia, onde as fontes estão listadas.
+        Os cards são só de produto já à venda (ver `aindaNaoSaiu`).
       */}
-      {prateleiras.map(({ cat, itens }) => (
+      {prateleiras.map(({ cat, itens, total }) => (
         <section key={cat.slug} className="mt-12">
-          <TituloSecao antes="Fichas de" destaque={cat.nome} href={`/categorias/${cat.slug}`} acao={`Ver as ${itens.length}`} sub={cat.dorPrincipal} />
+          <TituloSecao antes="Fichas de" destaque={cat.nome} href={`/categorias/${cat.slug}`} acao={`Ver as ${total}`} sub={cat.dorPrincipal} />
           <ul className="rolo mt-5 grid auto-cols-[14.5rem] grid-flow-col gap-3.5 overflow-x-auto pb-3 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
             {itens.slice(0, 5).map((p) => (
               <li key={p.slug}>

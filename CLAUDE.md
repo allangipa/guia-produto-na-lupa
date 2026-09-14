@@ -93,6 +93,15 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 - Nota editorial de 0 a 10 por critério ponderado, documentada em `/metodologia`.
   Os critérios avaliam só o que a documentação oficial permite julgar — não
   existe nota de durabilidade real, desempenho real ou conforto.
+- **Produto anunciado não é produto à venda.** Quem ainda não chegou às lojas
+  leva `nasLojasEm` (data ISO da página do fabricante) em `dados/*.json`. O
+  helper `aindaNaoSaiu` em `lib/specs.ts` compara com a data do build e então:
+  o produto **sai da prateleira da home** (o lugar dele é o herói e "Próximos
+  lançamentos"), ganha a pastilha "Nas lojas em DD/MM" no card e um aviso no
+  topo da ficha. O aviso da ficha não depende de haver link de loja — o iPhone
+  Duo não tem nenhum. `LojaCta` aceita `nasLojasEm` para guias e comparativos,
+  onde o botão fica longe do cabeçalho do produto. **Quando a data passar,
+  apagar o campo**; ele só existe enquanto é verdade.
 - **"Mais vendido" é dado, não adjetivo.** A frase só pode aparecer onde o
   ranking da Amazon consultado está escrito com data e fonte — hoje isso é o
   subtítulo dos guias, que listam a lista e a data em `fontes`. Na home a

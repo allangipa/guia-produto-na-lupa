@@ -7,6 +7,7 @@ import {
   destaquesDa,
   faixaTransparencia,
   rotuloCurto,
+  aindaNaoSaiu,
 } from "@/lib/specs";
 import { MidiaProduto } from "@/components/midia-produto";
 import { Icone } from "@/components/icones";
@@ -31,6 +32,9 @@ export function CardProduto({
 }) {
   const t = transparencia(produto, campos);
   const faixa = faixaTransparencia(t.nota);
+  // Produto anunciado e ainda não lançado: o card avisa antes do clique, para
+  // ninguém abrir a ficha achando que é só escolher a cor.
+  const porVir = aindaNaoSaiu(produto) ? produto.nasLojasEm!.split("-") : null;
   const chaves = destaques ?? destaquesDa(produto.categoria);
   const linhas = chaves
     .map((chave) => campos.find((c) => c.chave === chave))
@@ -46,6 +50,11 @@ export function CardProduto({
         >
           <span className="dados">{t.nota}%</span> da ficha
         </span>
+        {porVir && (
+          <span className="absolute right-2.5 top-2.5 rounded-full bg-tinta px-2 py-0.5 text-[0.68rem] font-semibold text-papel">
+            Nas lojas em <span className="dados">{porVir[2]}/{porVir[1]}</span>
+          </span>
+        )}
       </div>
 
       <div className="flex flex-1 flex-col p-3.5">
