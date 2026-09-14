@@ -3,7 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Campo, Produto } from "@/lib/specs";
-import { transparencia, valorLegivel } from "@/lib/specs";
+import { transparencia } from "@/lib/specs";
+import { CardProduto } from "@/components/card-produto";
 
 /**
  * O buscador da categoria.
@@ -263,65 +264,28 @@ export function Buscador({
         </label>
       </div>
 
-      <ul className="mt-4 divide-y divide-linha border-y border-linha">
-        {resultado.map((p) => {
-          const t = transparencia(p, campos);
-          const destaque = campos
-            .filter((c) => c.filtro === "faixa")
-            .slice(0, 4);
-          return (
-            <li key={p.slug} className="py-5">
-              <div className="flex items-start justify-between gap-4">
-                <div className="min-w-0">
-                  <Link
-                    href={`/produtos/${p.slug}`}
-                    className="font-titulo text-lg leading-snug hover:text-acao-forte"
-                  >
-                    {p.nome}
-                  </Link>
-                  <p className="mt-1 max-w-[62ch] text-[0.95rem] text-tinta-suave">
-                    {p.resumo}
-                  </p>
-                  <dl className="mt-3 flex flex-wrap gap-x-6 gap-y-1 font-dado text-[0.8rem] text-tinta-suave">
-                    {destaque.map((c) => (
-                      <div key={c.chave} className="flex gap-1.5">
-                        <dt>{c.rotulo}:</dt>
-                        <dd
-                          className={
-                            p.specs[c.chave] === null ? "text-ausente" : ""
-                          }
-                        >
-                          {valorLegivel(p.specs[c.chave], c)}
-                        </dd>
-                      </div>
-                    ))}
-                  </dl>
-                </div>
-                <div className="shrink-0 text-right">
-                  <p className="font-dado text-lg leading-none">{t.nota}%</p>
-                  <p className="mt-1 text-[0.7rem] text-tinta-suave">
-                    da ficha
-                    <br />
-                    publicada
-                  </p>
-                </div>
-              </div>
-              <label className="mt-3 flex items-center gap-2 text-[0.85rem] text-tinta-suave">
-                <input
-                  type="checkbox"
-                  checked={selecionados.includes(p.slug)}
-                  onChange={() => alternarSelecao(p.slug)}
-                  disabled={
-                    !selecionados.includes(p.slug) &&
-                    selecionados.length >= LIMITE_COMPARACAO
-                  }
-                  className="accent-acao"
-                />
-                Comparar
-              </label>
-            </li>
-          );
-        })}
+      <ul className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {resultado.map((p) => (
+          <li key={p.slug} className="flex flex-col gap-2">
+            <CardProduto produto={p} campos={campos} />
+            {/* Fora do card de propósito: o card inteiro é um link para a
+                ficha, e uma caixa de seleção por baixo dele não receberia
+                clique. */}
+            <label className="flex items-center gap-2 pl-1 text-[0.85rem] text-tinta-suave">
+              <input
+                type="checkbox"
+                checked={selecionados.includes(p.slug)}
+                onChange={() => alternarSelecao(p.slug)}
+                disabled={
+                  !selecionados.includes(p.slug) &&
+                  selecionados.length >= LIMITE_COMPARACAO
+                }
+                className="accent-acao"
+              />
+              Comparar
+            </label>
+          </li>
+        ))}
       </ul>
 
       {resultado.length === 0 && (

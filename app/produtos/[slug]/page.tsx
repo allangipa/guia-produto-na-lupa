@@ -12,6 +12,7 @@ import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
 import { Divergencias } from "@/components/divergencias";
 import { Relatos } from "@/components/relatos";
 import { FotoProduto } from "@/components/foto-produto";
+import { Silhueta } from "@/components/silhueta";
 import { Fontes } from "@/components/fontes";
 import { LojaCta } from "@/components/loja-cta";
 import { Divulgacao } from "@/components/divulgacao";
@@ -63,7 +64,20 @@ export default async function PaginaProduto({ params }: Params) {
         <p className="mt-4 max-w-[62ch] text-lg text-tinta-suave">{p.resumo}</p>
       </header>
 
-      {p.imagem && <FotoProduto imagem={p.imagem} prioridade />}
+      {p.imagem ? (
+        <FotoProduto imagem={p.imagem} prioridade />
+      ) : (
+        <div className="my-8 rounded-xl border border-linha p-6">
+          <h2 className="font-titulo text-lg">Tamanho real</h2>
+          <p className="mt-1 max-w-[52ch] text-[0.9rem] text-tinta-suave">
+            Desenhado na escala das dimensões oficiais, contra o contorno de um
+            cartão de crédito.
+          </p>
+          <div className="mt-5">
+            <Silhueta dimensoes={p.specs.dimensoesMm as string} />
+          </div>
+        </div>
+      )}
 
       <NotaTransparencia produto={p} campos={campos} />
 

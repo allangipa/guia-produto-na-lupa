@@ -12,7 +12,15 @@ import { categorias } from "@/lib/categorias";
 import { todosOsProdutos, produtosDaCategoria } from "@/lib/produtos";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const fixas = ["", "/guias", "/reviews", "/comparativos", "/metodologia", "/sobre"].map(
+  const fixas = [
+    "",
+    "/guias",
+    "/reviews",
+    "/comparativos",
+    "/metodologia",
+    "/sobre",
+    "/privacidade",
+  ].map(
     (rota) => ({
       url: `${site.url}${rota}`,
       lastModified: new Date(),

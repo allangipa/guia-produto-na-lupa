@@ -24,14 +24,25 @@ export function SiteFooter() {
           cada produto aparecem na análise, e recomendamos não comprar quando é o
           caso.
         </p>
-        <p>
+        <p className="flex flex-wrap gap-x-2 gap-y-1">
           <Link href="/metodologia" className="underline underline-offset-4">
             Como avaliamos
           </Link>
-          {" · "}
+          <span aria-hidden>·</span>
           <Link href="/sobre" className="underline underline-offset-4">
-            Quem escreve
+            O que este site é
           </Link>
+          <span aria-hidden>·</span>
+          <Link href="/privacidade" className="underline underline-offset-4">
+            Privacidade
+          </Link>
+          <span aria-hidden>·</span>
+          <a
+            href={`mailto:${site.editor.contato}`}
+            className="underline underline-offset-4"
+          >
+            {site.editor.contato}
+          </a>
         </p>
         <p>© {new Date().getFullYear()} {site.nome}</p>
       </div>

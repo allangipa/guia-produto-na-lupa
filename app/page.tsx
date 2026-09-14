@@ -6,7 +6,8 @@ import {
   dataLegivel,
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
-import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
+import { todosOsProdutos, camposDa } from "@/lib/produtos";
+import { CardProduto } from "@/components/card-produto";
 
 export default function Home() {
   const reviews = todosOsReviews();
@@ -78,30 +79,11 @@ export default function Home() {
             publica — o resto fica marcado como não informado.
           </p>
           <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {produtos.map((p) => {
-              const t = transparencia(p, camposDa(p.categoria));
-              return (
-                <li key={p.slug}>
-                  <Link
-                    href={`/produtos/${p.slug}`}
-                    className="group flex h-full flex-col rounded-xl border border-linha p-5 transition-colors hover:border-acao"
-                  >
-                    <span className="text-[0.8rem] text-tinta-suave">
-                      {p.marca}
-                    </span>
-                    <span className="mt-1 font-titulo text-lg leading-snug group-hover:text-acao-forte">
-                      {p.nome}
-                    </span>
-                    <span className="mt-auto flex items-baseline gap-2 pt-4">
-                      <span className="dados text-xl">{t.nota}%</span>
-                      <span className="text-[0.8rem] text-tinta-suave">
-                        da ficha publicada
-                      </span>
-                    </span>
-                  </Link>
-                </li>
-              );
-            })}
+            {produtos.map((p) => (
+              <li key={p.slug}>
+                <CardProduto produto={p} campos={camposDa(p.categoria)} />
+              </li>
+            ))}
           </ul>
         </section>
       )}
