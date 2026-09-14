@@ -194,7 +194,13 @@ confunde com documento sem folha de estilo.
   tudo das páginas de especificações da Apple Brasil (`apple.com/br/.../specs/`,
   HTML estático — lê por fetch). `bateriaMah`, `memoriaRamGb` e `garantiaMeses`
   contam para a transparência de propósito: a Apple nunca publica os três, e
-  isso é dado. Fotos vêm do Apple Store (`store.storeimages.cdn-apple.com`),
+  isso é dado. Em 14/09 entraram cinco Android dos mais vendidos (Galaxy A17
+  e A57, Moto g06 e g86, POCO X8 Pro), lidos nas lojas oficiais (Samsung Shop
+  e Motorola são VTEX — `window.__STATE__`; Xiaomi é `mi.com/br/.../specs`).
+  As tabelas das lojas oficiais têm erro: a Samsung troca os campos de carga
+  do A57 (fica `null`, com a explicação na fonte), a Amazon lista "371
+  quilogramas" para o g06. Android sem carga sem fio leva
+  `naoSeAplica: ["cargaSemFioW"]` — ausência declarada não é omissão. Fotos vêm do Apple Store (`store.storeimages.cdn-apple.com`),
   só com a URL exata — mudar `wid`/`hei` dá 404. Pro Max usa a mesma foto do
   Pro. O Duo não tem ASIN ainda (pré-venda em 16/10); `lojas: {}` é aceito e o
   CTA some sozinho.

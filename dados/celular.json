@@ -285,5 +285,350 @@
         "consultadaEm": "2026-09-14"
       }
     ]
+  },
+  {
+    "slug": "samsung-galaxy-a17",
+    "nome": "Samsung Galaxy A17",
+    "marca": "Samsung",
+    "modelo": "SM-A175",
+    "categoria": "celular",
+    "resumo": "O Android mais vendido da Amazon Brasil: tela AMOLED de 6,7\", 5.000 mAh e carga de 25 W por menos de um terço de um iPhone. A Samsung publica mAh, RAM e garantia — os três que a Apple omite — e não publica horas de vídeo nem taxa de atualização.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-a17.webp",
+      "alt": "Samsung Galaxy A17 preto, frente e verso, com três câmeras traseiras em coluna",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-a17/p"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2340 × 1080 (FHD+), Super AMOLED",
+      "taxaHz": 90,
+      "brilhoPicoNits": null,
+      "chip": "Samsung Exynos 1330 (octa-core até 2,4 GHz)",
+      "memoriaRamGb": 4,
+      "armazenamento": "128 GB ou 256 GB, mais microSD até 2 TB",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 5 MP e macro de 2 MP",
+      "cameraFrontalMp": 13,
+      "bateriaMah": 5000,
+      "horasVideo": null,
+      "cargaRapida": "25 W com fio",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Dual nano SIM, sem eSIM",
+      "protecaoAgua": "IP54 (respingo e poeira)",
+      "material": null,
+      "pesoG": 192,
+      "espessuraMm": 7.5,
+      "dimensoesMm": "164,4 × 77,9 × 7,5",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": ["cargaSemFioW"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FPYV6K68"
+    },
+    "fontes": [
+      {
+        "id": "samsung-a17-oficial",
+        "titulo": "Galaxy A17 — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-a17/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela Super AMOLED de 6,7\" 1080 × 2340, Exynos 1330 até 2,4 GHz, 128 ou 256 GB, microSD até 2 TB, câmeras de 50 + 5 + 2 MP com estabilização óptica, frontal de 13 MP, 5.000 mAh, carga rápida de 25 W, sem carga sem fio, nano SIM dual, IP54, 164,4 × 77,9 × 7,5 mm, 192 g e 12 meses de garantia. A tabela não declara taxa de atualização, brilho nem versão do USB.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-a17",
+        "titulo": "Galaxy A17 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FPYV6K68",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Taxa de atualização de 90 Hz, 4 GB de RAM e Android 15. A listagem chama o chip de \"MediaTek Helio G99\"; a Samsung declara Exynos 1330 — adotamos o fabricante.",
+        "consultadaEm": "2026-09-14"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "chip",
+        "fonteAdotada": "samsung-a17-oficial",
+        "valorDivergente": "MediaTek Helio G99",
+        "fonteDivergente": "amazon-a17",
+        "observacao": "A Samsung declara Exynos 1330; a Amazon lista Helio G99. Adotamos o fabricante — é o nome do processador que decide se o aparelho recebe as atualizações prometidas."
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-a57",
+    "nome": "Samsung Galaxy A57 5G",
+    "marca": "Samsung",
+    "modelo": "SM-A576",
+    "categoria": "celular",
+    "resumo": "O intermediário da Samsung em 2026: Exynos 1680, tela Super AMOLED+ de 6,7\", IP68 e eSIM, com 179 g. A tabela da Samsung troca os campos de carga — põe \"45W\" em carga sem fio e \"5000mAh\" em carga rápida — então a ficha deixa a carga em branco.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-a57.webp",
+      "alt": "Samsung Galaxy A57 5G cinza, visto de trás, com três câmeras em coluna",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-a57/p"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2340 × 1080 (FHD+), Super AMOLED+",
+      "taxaHz": null,
+      "brilhoPicoNits": null,
+      "chip": "Samsung Exynos 1680 (até 2,9 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "128 GB ou 256 GB, sem microSD",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 12 MP e macro de 5 MP",
+      "cameraFrontalMp": 12,
+      "bateriaMah": 5000,
+      "horasVideo": null,
+      "cargaRapida": null,
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Nano SIM e eSIM",
+      "protecaoAgua": "IP68",
+      "material": null,
+      "pesoG": 179,
+      "espessuraMm": 6.9,
+      "dimensoesMm": "161,5 × 76,8 × 6,9",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GVT7QXF7"
+    },
+    "fontes": [
+      {
+        "id": "samsung-a57-oficial",
+        "titulo": "Galaxy A57 5G — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-a57/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela Super AMOLED+ de 6,7\" 1080 × 2340, Exynos 1680 até 2,9 GHz, 128 ou 256 GB sem microSD, câmeras de 50 + 12 + 5 MP com estabilização óptica, frontal de 12 MP, 5.000 mAh, nano SIM e eSIM, IP68, 161,5 × 76,8 × 6,9 mm, 179 g e 12 meses de garantia. A tabela lista \"45W\" no campo de carga sem fio e \"5000mAh\" no de carga rápida — campos trocados, por isso a carga fica como não informada. Não declara taxa de atualização, brilho nem versão do USB.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-a57",
+        "titulo": "Galaxy A57 5G — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GVT7QXF7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "8 GB de RAM, Android 16, 179 g e 16,1 × 7,7 × 0,7 cm — em linha com o fabricante.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "motorola-moto-g06",
+    "nome": "Motorola Moto g06",
+    "marca": "Motorola",
+    "modelo": "XT2535-1",
+    "categoria": "celular",
+    "resumo": "O Motorola de entrada: tela de 6,9\" HD+ a 120 Hz, 5.200 mAh e carregador de 10 W — o mais lento da base. Tem entrada de fone P2 e rádio FM, e não tem NFC. A Amazon lista o peso como \"371 quilogramas\"; a Motorola declara 194 g.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/motorola-moto-g06.webp",
+      "alt": "Motorola Moto g06 azul-marinho, visto de trás, com câmera única",
+      "credito": "Imagem: Motorola",
+      "origem": "https://www.motorola.com.br/smartphone-moto-g06-128-gb/p"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.9,
+      "resolucao": "1640 × 720 (HD+), LCD",
+      "taxaHz": 120,
+      "brilhoPicoNits": null,
+      "chip": "MediaTek Helio G81 Extreme (octa-core 2,0 GHz)",
+      "memoriaRamGb": 4,
+      "armazenamento": "128 GB ou 256 GB, mais microSD até 1 TB",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; câmera traseira única",
+      "cameraFrontalMp": 8,
+      "bateriaMah": 5200,
+      "horasVideo": null,
+      "cargaRapida": "10 W com fio",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada), com entrada P2 para fone",
+      "sim": "Dual nano SIM, sem eSIM",
+      "protecaoAgua": null,
+      "material": null,
+      "pesoG": 194,
+      "espessuraMm": 8.31,
+      "dimensoesMm": "171,35 × 77,50 × 8,31",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": ["cargaSemFioW"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FR5NSCF7"
+    },
+    "fontes": [
+      {
+        "id": "motorola-g06-oficial",
+        "titulo": "Moto g06 128 GB — página oficial da Motorola Brasil",
+        "url": "https://www.motorola.com.br/smartphone-moto-g06-128-gb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 6,9\" HD+ 720 × 1640 a 120 Hz, Helio G81 Extreme, 4 GB de RAM (mais 8 GB de RAM Boost), 128 GB com microSD até 1 TB, câmera única de 50 MP f/1.8, frontal de 8 MP, 5.200 mAh, carregador de 10 W, nano SIM dual, sem NFC, entrada P2, rádio FM, Bluetooth 6.0, 171,35 × 77,50 × 8,31 mm, 194 g, Anatel 031172500330 e 12 meses de garantia. Não declara proteção contra água nem brilho.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-g06",
+        "titulo": "Moto g06 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FR5NSCF7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Android 15 e 128 GB. A listagem traz \"peso do item 371 quilogramas\" e \"taxa de atualização 120 GHz\" — erros evidentes, ignorados.",
+        "consultadaEm": "2026-09-14"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "pesoG",
+        "fonteAdotada": "motorola-g06-oficial",
+        "valorDivergente": "371 kg",
+        "fonteDivergente": "amazon-g06",
+        "observacao": "A Amazon publica \"371 quilogramas\" — erro de unidade na listagem. A Motorola declara 194 g."
+      }
+    ]
+  },
+  {
+    "slug": "motorola-moto-g86",
+    "nome": "Motorola Moto g86 5G",
+    "marca": "Motorola",
+    "modelo": "XT2527-1",
+    "categoria": "celular",
+    "resumo": "A ficha mais completa entre os Android da base: tela pOLED 1,5K a 120 Hz com 4.500 nits declarados, IP68 e IP69, eSIM, 5.200 mAh com 33 W e 185 g. A Motorola publica até o número da Anatel.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/motorola-moto-g86.webp",
+      "alt": "Motorola Moto g86 5G grafite, frente e verso",
+      "credito": "Imagem: Motorola",
+      "origem": "https://www.motorola.com.br/smartphone-moto-g86-5g-256gb/p"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2712 × 1220 (1,5K), pOLED, HDR10+",
+      "taxaHz": 120,
+      "brilhoPicoNits": 4500,
+      "chip": "MediaTek Dimensity 7300 (octa-core 2,5 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "256 GB ou 512 GB, mais microSD",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular e macro de 8 MP",
+      "cameraFrontalMp": 32,
+      "bateriaMah": 5200,
+      "horasVideo": null,
+      "cargaRapida": "TurboPower 33 W com fio (carregador na caixa)",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Nano SIM e eSIM",
+      "protecaoAgua": "IP68 e IP69, MIL-STD-810H",
+      "material": null,
+      "pesoG": 185,
+      "espessuraMm": 7.87,
+      "dimensoesMm": "161,21 × 74,74 × 7,87",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": ["cargaSemFioW"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FCYP5FB2"
+    },
+    "fontes": [
+      {
+        "id": "motorola-g86-oficial",
+        "titulo": "Moto g86 5G 256 GB — página oficial da Motorola Brasil",
+        "url": "https://www.motorola.com.br/smartphone-moto-g86-5g-256gb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela pOLED de 6,7\" 1220 × 2712 a 120 Hz com 4.500 nits e HDR10+, Dimensity 7300, 8 GB de RAM (mais 16 GB de RAM Boost), 256 GB, câmeras Sony LYTIA 600 de 50 MP e ultra-angular de 8 MP, frontal de 32 MP, 5.200 mAh, TurboPower 33 W na caixa, nano SIM e eSIM, NFC, IP68 e IP69 com MIL-STD, 161,21 × 74,74 × 7,87 mm, 185 g, Anatel 00489-25-00330 e 12 meses de garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-g86",
+        "titulo": "Moto g86 5G — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FCYP5FB2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Android 15, 256 GB, carregador de 33 W na caixa e 12 meses de garantia. A listagem diz \"SIM único\" e \"425 quilogramas\" — a Motorola declara nano SIM mais eSIM e 185 g.",
+        "consultadaEm": "2026-09-14"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "sim",
+        "fonteAdotada": "motorola-g86-oficial",
+        "valorDivergente": "SIM único",
+        "fonteDivergente": "amazon-g86",
+        "observacao": "A Amazon lista \"SIM único\"; a Motorola declara nano SIM mais eSIM — duas linhas, uma delas digital. Adotamos o fabricante."
+      }
+    ]
+  },
+  {
+    "slug": "poco-x8-pro",
+    "nome": "Xiaomi POCO X8 Pro",
+    "marca": "Xiaomi",
+    "modelo": "POCO X8 Pro",
+    "categoria": "celular",
+    "resumo": "O intermediário de força bruta: Dimensity 8500-Ultra, bateria de 6.500 mAh com 100 W, tela AMOLED 1,5K com 3.500 nits de pico. A Xiaomi publica peso com duas casas decimais — e não publica garantia no Brasil.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/poco-x8-pro.webp",
+      "alt": "Xiaomi POCO X8 Pro nas três cores — branco, preto e verde-menta — vistos de trás",
+      "credito": "Imagem: Xiaomi",
+      "origem": "https://www.mi.com/br/product/poco-x8-pro/specs/"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.59,
+      "resolucao": "2756 × 1268 (1,5K), AMOLED, Dolby Vision",
+      "taxaHz": 120,
+      "brilhoPicoNits": 3500,
+      "chip": "MediaTek Dimensity 8500-Ultra (octa-core até 3,4 GHz, 4 nm)",
+      "memoriaRamGb": 8,
+      "armazenamento": "256 GB ou 512 GB (8 GB de RAM); 512 GB com 12 GB",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 8 MP",
+      "cameraFrontalMp": 20,
+      "bateriaMah": 6500,
+      "horasVideo": null,
+      "cargaRapida": "100 W HyperCharge com fio; carregador pode não vir na caixa",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada), carga reversa de 27 W",
+      "sim": "Dual nano SIM, sem eSIM",
+      "protecaoAgua": "IP68",
+      "material": "Vidro Gorilla Glass 7i na frente",
+      "pesoG": 201.47,
+      "espessuraMm": 8.38,
+      "dimensoesMm": "157,53 × 75,19 × 8,38",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": ["cargaSemFioW"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GQC19Y8D"
+    },
+    "fontes": [
+      {
+        "id": "xiaomi-x8-pro-oficial",
+        "titulo": "POCO X8 Pro — especificações na Xiaomi Brasil",
+        "url": "https://www.mi.com/br/product/poco-x8-pro/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela AMOLED de 6,59\" 2756 × 1268 a 120 Hz, pico de 3.500 nits (em 25% da tela), brilho típico de 800 nits, Dimensity 8500-Ultra de 4 nm até 3,4 GHz, 8+256, 8+512 e 12+512 GB (LPDDR5X, UFS 4.1), câmera Sony IMX882 de 50 MP com OIS e ultra-angular de 8 MP, frontal de 20 MP, 6.500 mAh, 100 W HyperCharge, carga reversa de 27 W, Gorilla Glass 7i, IP68, 157,53 × 75,19 × 8,38 mm e 201,47 g. Não declara garantia nem versão do USB; avisa que o adaptador pode não vir na caixa.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-x8-pro",
+        "titulo": "POCO X8 Pro 256 GB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GQC19Y8D",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Versão de 8 GB + 256 GB, Android 16, dual nano SIM e 460 ppp. A listagem chama o chip de \"Snapdragon\"; a Xiaomi declara Dimensity 8500-Ultra — adotamos o fabricante.",
+        "consultadaEm": "2026-09-14"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "chip",
+        "fonteAdotada": "xiaomi-x8-pro-oficial",
+        "valorDivergente": "Snapdragon",
+        "fonteDivergente": "amazon-x8-pro",
+        "observacao": "A Amazon lista \"Snapdragon\" como modelo da CPU; a Xiaomi declara MediaTek Dimensity 8500-Ultra. Adotamos o fabricante."
+      }
+    ]
   }
 ]
