@@ -48,7 +48,7 @@ local estar atrás do remoto.
 Fluxo pretendido: a busca chega pelo guia, o guia manda para o comparativo ou a
 análise, e o clique de afiliado acontece na análise, com o leitor já decidido.
 
-Categorias em `lib/categorias.ts` (oito, do nicho de tecnologia e acessórios).
+Categorias em `lib/categorias.ts` (nove: tecnologia, acessórios e casa).
 Cada peça declara `categoria:` no frontmatter. Só abrir categoria nova quando
 houver três peças para ela; nunca publicar guia sem análise ou comparativo para
 linkar.
@@ -168,12 +168,20 @@ confunde com documento sem folha de estilo.
   credibilidade que o resto da estrutura tenta construir.
 - Nenhuma análise tem imagem ainda. O suporte está pronto (`produto.imagem` +
   `components/foto-produto.tsx`), esperando press kit de fabricante real.
-- A base é de **fones de ouvido** (`dados/audio.json`): dez modelos entre os
-  mais vendidos da Amazon Brasil, cada um com ASIN, link de loja e foto oficial.
-  A categoria saiu dos mais vendidos de Eletrônicos, não de palpite. Powerbank
-  foi aposentado porque os modelos catalogados não eram vendidos no Brasil; o
-  esquema `camposEnergia` ficou em `lib/specs.ts`. Próximas categorias, na
-  ordem da fila: cozinha (airfryers), tablets, periféricos, máquinas de lavar.
+- A base tem duas categorias abertas, as duas tiradas dos mais vendidos da
+  Amazon Brasil, não de palpite. **Fones de ouvido** (`dados/audio.json`): dez
+  modelos, cada um com ASIN, link de loja e foto oficial. **Cozinha**
+  (`dados/cozinha.json`, esquema `camposCozinha`): quatro airfryers — Walita
+  NA341 e NA130, Mondial AFON-12L-BI, Philco PFR2200P — com guia e comparativo.
+  A regra da categoria é separar `capacidadeTotalL` (a caixa) de
+  `capacidadeUtilL` (o cesto), e registrar em `divergencias` quando a listagem
+  da Amazon contradiz o fabricante (a NA341 tem duas: temperatura mínima e
+  timer). Páginas da Philips/Walita, Philco e Mondial só entregam a tabela
+  técnica com JavaScript — ler pelo navegador (`window.__STATE__` nas lojas
+  VTEX), nunca por fetch simples. Powerbank foi aposentado porque os modelos
+  catalogados não eram vendidos no Brasil; o esquema `camposEnergia` ficou em
+  `lib/specs.ts`. Próximas categorias, na ordem da fila: tablets, periféricos,
+  máquinas de lavar, casa conectada.
 - **Fotos: imagem oficial do site do fabricante, hospedada em
   `public/produtos/`, decisão consciente do Allan.** Nunca da Amazon (contrato
   de Associados) nem do Google Imagens. Crédito visível sobre a imagem, página
