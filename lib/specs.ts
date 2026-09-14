@@ -536,6 +536,25 @@ export function iconeDo(chave: string): string {
   return ICONE_POR_CAMPO[chave] ?? "info";
 }
 
+/** Ícone de cada categoria — trilho de navegação, mídia sem foto, cards. */
+const ICONE_POR_CATEGORIA: Record<string, string> = {
+  audio: "fone",
+  energia: "bateria",
+  perifericos: "controle",
+  monitores: "display",
+  armazenamento: "portas",
+  conectividade: "bluetooth",
+  "casa-conectada": "display",
+  celular: "display",
+  cozinha: "raio",
+  tablets: "display",
+  eletrodomesticos: "raio",
+};
+
+export function iconeDaCategoria(slug: string): string {
+  return ICONE_POR_CATEGORIA[slug] ?? "info";
+}
+
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
   capacidadeNominal: "Capacidade",

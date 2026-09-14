@@ -3,6 +3,7 @@ import "./globals.css";
 import { site } from "@/lib/site";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { TrilhoDoSite } from "@/components/trilho-do-site";
 import { scriptAntiFlash } from "@/components/tema";
 
 export const metadata: Metadata = {
@@ -40,7 +41,7 @@ export default function RootLayout({
           crossOrigin=""
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
           rel="stylesheet"
         />
       </head>
@@ -52,7 +53,14 @@ export default function RootLayout({
           Pular para o conteúdo
         </a>
         <SiteHeader />
-        <main id="conteudo">{children}</main>
+        {/* Trilho lateral no desktop, como o de departamentos das lojas; no
+            celular ele some e as pílulas do cabeçalho assumem. */}
+        <div className="mx-auto grid max-w-[calc(var(--largura-ferramenta)+16rem)] lg:grid-cols-[15rem_1fr] lg:gap-6 lg:px-5">
+          <TrilhoDoSite />
+          <main id="conteudo" className="min-w-0">
+            {children}
+          </main>
+        </div>
         <SiteFooter />
       </body>
     </html>

@@ -2,17 +2,7 @@ import Image from "next/image";
 import type { Produto } from "@/lib/specs";
 import { Silhueta } from "@/components/silhueta";
 import { Icone } from "@/components/icones";
-
-const ICONE_DA_CATEGORIA: Record<string, string> = {
-  audio: "fone",
-  energia: "bateria",
-  perifericos: "controle",
-  monitores: "display",
-  armazenamento: "portas",
-  conectividade: "bluetooth",
-  "casa-conectada": "display",
-  celular: "display",
-};
+import { iconeDaCategoria } from "@/lib/specs";
 
 /**
  * O espaço da imagem do produto, em toda tela onde um produto aparece.
@@ -85,7 +75,7 @@ export function MidiaProduto({
                   categoria ocupa o lugar para a área não parecer quebrada —
                   e o texto diz por que está vazia. */}
               <Icone
-                nome={ICONE_DA_CATEGORIA[produto.categoria] ?? "info"}
+                nome={iconeDaCategoria(produto.categoria)}
                 className="h-16 w-16 text-acao opacity-30"
               />
               <span className="text-[0.7rem] text-ausente">

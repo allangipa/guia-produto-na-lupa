@@ -69,7 +69,8 @@ export function SiteHeader() {
         <Busca indice={indice} />
       </div>
 
-      <nav aria-label="Principal" className="border-t border-linha">
+      {/* No desktop o trilho lateral assume; as pílulas ficam para o celular. */}
+      <nav aria-label="Principal" className="border-t border-linha lg:hidden">
         <ul className="rolo mx-auto flex max-w-[var(--largura-ferramenta)] gap-2 overflow-x-auto px-5 py-2">
           {comProdutos.map((c) => (
             <li key={c.slug} className="shrink-0">
