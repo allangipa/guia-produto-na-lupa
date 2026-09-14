@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categorias, categoria as buscar } from "@/lib/categorias";
 import { conteudoDaCategoria } from "@/lib/conteudo";
+import { produtosDaCategoria, camposDa } from "@/lib/produtos";
+import { Buscador } from "@/components/buscador";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -15,7 +17,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const c = buscar(slug);
   if (!c) return {};
   const { guias, reviews, comparativos } = conteudoDaCategoria(c.slug);
-  const vazia = !guias.length && !reviews.length && !comparativos.length;
+  const vazia =
+    !guias.length &&
+    !reviews.length &&
+    !comparativos.length &&
+    !produtosDaCategoria(c.slug).length;
   return {
     title: c.nome,
     description: c.descricao,
@@ -61,15 +67,32 @@ export default async function PaginaCategoria({ params }: Params) {
   const c = buscar(slug);
   if (!c) notFound();
   const { guias, reviews, comparativos } = conteudoDaCategoria(c.slug);
-  const vazio = !guias.length && !reviews.length && !comparativos.length;
+  const produtos = produtosDaCategoria(c.slug);
+  const vazio =
+    !guias.length && !reviews.length && !comparativos.length && !produtos.length;
 
   return (
-    <div className="mx-auto max-w-3xl px-5 py-12">
+    <div className={produtos.length ? "mx-auto max-w-5xl px-5 py-12" : "mx-auto max-w-3xl px-5 py-12"}>
       <h1 className="font-titulo text-3xl tracking-tight">{c.nome}</h1>
       <p className="mt-3 max-w-[62ch] text-lg text-tinta-suave">{c.descricao}</p>
       <p className="mt-4 max-w-[62ch] border-l-[3px] border-acao pl-4 text-tinta-suave">
         A pergunta que guia tudo aqui: {c.dorPrincipal}
       </p>
+
+      {produtos.length > 0 && (
+        <>
+          <Buscador
+            produtos={produtos}
+            campos={camposDa(c.slug)}
+            categoria={c.slug}
+          />
+          <p className="mt-6 max-w-[62ch] text-[0.9rem] text-tinta-suave">
+            A porcentagem ao lado de cada produto é quanto da ficha técnica o
+            próprio fabricante publica. Nenhum destes produtos foi testado por
+            nós: cada ficha lista as páginas oficiais consultadas e a data.
+          </p>
+        </>
+      )}
 
       <Bloco titulo="Guias de compra" itens={guias} base="/guias" />
       <Bloco titulo="Comparativos" itens={comparativos} base="/comparativos" />

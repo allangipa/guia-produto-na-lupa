@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "anker-737-powercore-24k",
+    "nome": "Anker 737 Power Bank (PowerCore 24K)",
+    "marca": "Anker",
+    "modelo": "A1289011",
+    "resumo": "A mais potente da amostra: 140 W bastam para carregar notebook. Também a mais pesada, e a ficha não diz quanto tempo leva para se recarregar.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "capacidadeNominal": 24000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": null,
+      "potenciaMaxSaida": 140,
+      "potenciaMaxEntrada": 140,
+      "portasSaida": 3,
+      "descricaoSaidas": "2 USB-C + 1 USB-A",
+      "caboIntegrado": false,
+      "pesoG": 630,
+      "dimensoesMm": "155,7 × 54,6 × 49,5",
+      "tempoRecargaH": null,
+      "displayDigital": true,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "titulo": "Anker 737 Power Bank (PowerCore 24K) — página oficial do produto",
+        "url": "https://www.anker.com/products/a1289",
+        "oQueSaiuDaqui": "Número do modelo, capacidade nominal, portas, parâmetros de entrada e saída, potência total de 140 W, peso de 630 g e dimensões (publicadas em polegadas: 6,13 × 2,15 × 1,95).",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "anker-335-powercore-20k",
+    "nome": "Anker 335 Power Bank (PowerCore 20K)",
+    "marca": "Anker",
+    "modelo": "Anker 335",
+    "resumo": "O único da amostra que declara tempo de recarga e prazo de garantia na documentação. Em troca, a potência de saída é a mais modesta entre os 20.000 mAh.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": "Lítio-polímero",
+      "potenciaMaxSaida": 20,
+      "potenciaMaxEntrada": 18,
+      "portasSaida": 2,
+      "descricaoSaidas": "1 USB-C (20 W) + 1 USB-A (18 W)",
+      "caboIntegrado": false,
+      "pesoG": 475.5,
+      "dimensoesMm": "167 × 83,2 × 24,3",
+      "tempoRecargaH": 6.5,
+      "displayDigital": null,
+      "garantiaMeses": 18,
+      "ciclosCarga": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "titulo": "Introduction to the Anker 335 Power Bank (PowerCore 20K) — suporte oficial Anker",
+        "url": "https://service.anker.com/article-description/Introduction-to-the-Anker-335-Power-Bank-PowerCore-20K",
+        "oQueSaiuDaqui": "Capacidade, química da célula, parâmetros das portas, entrada total de 18 W, peso de 475,5 g, dimensões, tempo de recarga de 6,5 h com fonte PD de 18 W e garantia de 18 meses.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "anker-313-powercore-10k",
+    "nome": "Anker 313 Power Bank (PowerCore 10K)",
+    "marca": "Anker",
+    "modelo": "A1229",
+    "resumo": "O mais leve da amostra e o único que ainda traz micro-USB. Entrada de 5 V/2 A: é o candidato mais provável a passar a noite carregando.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "capacidadeNominal": 10000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": null,
+      "potenciaMaxSaida": 15,
+      "potenciaMaxEntrada": 10,
+      "portasSaida": 2,
+      "descricaoSaidas": "1 USB-C (15 W) + 1 USB-A",
+      "caboIntegrado": false,
+      "pesoG": 213,
+      "dimensoesMm": "149,6 × 68,6 × 14,5",
+      "tempoRecargaH": null,
+      "displayDigital": null,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "titulo": "Anker 313 Power Bank (PowerCore 10K) — página oficial do produto",
+        "url": "https://www.anker.com/products/a1229",
+        "oQueSaiuDaqui": "Modelo, capacidade nominal, saída USB-C de 15 W, portas de entrada micro-USB e USB-C a 5 V/2 A, peso (publicado como 7,5 oz) e dimensões (publicadas em polegadas: 5,89 × 2,70 × 0,57). A página informa que as duas entradas não podem ser usadas ao mesmo tempo.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "xiaomi-power-bank-20000-22-5w",
+    "nome": "Xiaomi Power Bank 20000 22.5W",
+    "marca": "Xiaomi",
+    "modelo": "PB2022ZM",
+    "resumo": "Declara capacidade real e energia em Wh, o que quase ninguém faz. Não declara o peso — justamente o dado que decide se ele vai na bolsa.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": 12000,
+      "energiaWh": 74,
+      "quimica": "Íon de lítio",
+      "potenciaMaxSaida": 22.5,
+      "potenciaMaxEntrada": 22.5,
+      "portasSaida": 3,
+      "descricaoSaidas": "2 USB-A + 1 USB-C",
+      "caboIntegrado": false,
+      "pesoG": null,
+      "dimensoesMm": "150,6 × 72,2 × 26,3",
+      "tempoRecargaH": null,
+      "displayDigital": null,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "titulo": "Xiaomi Power Bank 20000 22.5W — especificações oficiais",
+        "url": "https://www.mi.com/global/product/xiaomi-power-bank-20000-22-5-w/specs/",
+        "oQueSaiuDaqui": "Modelo PB2022ZM, tipo de célula, energia de 74 Wh, capacidade nominal declarada de 12.000 mAh a 5 V/3,6 A, portas de entrada e saída, parâmetros de entrada, dimensões, faixa de temperatura de operação (5 °C a 35 °C) e conteúdo da embalagem.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "redmi-fast-charge-power-bank-20000",
+    "nome": "Redmi Fast Charge Power Bank 20000",
+    "marca": "Xiaomi",
+    "modelo": "PB200LZM",
+    "resumo": "A ficha mais detalhada da amostra em saída por porta, e a única que abre o comportamento com duas portas ocupadas. Só tem USB-A: quem usa só USB-C precisa levar adaptador.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": 12000,
+      "energiaWh": 74,
+      "quimica": "Lítio-polímero",
+      "potenciaMaxSaida": 18,
+      "potenciaMaxEntrada": null,
+      "portasSaida": 2,
+      "descricaoSaidas": "2 USB-A",
+      "caboIntegrado": false,
+      "pesoG": null,
+      "dimensoesMm": "154 × 73,6 × 27,3",
+      "tempoRecargaH": null,
+      "displayDigital": null,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "titulo": "20.000 mAh Redmi Fast Charge Power Bank — especificações oficiais",
+        "url": "https://www.mi.com/global/product/20000mah-redmi-fast-charge-power-bank/specs/",
+        "oQueSaiuDaqui": "Modelo PB200LZM, química da célula, energia de 74 Wh a 3,7 V, capacidade nominal declarada de 12.000 mAh, portas de entrada e saída, parâmetros de saída por porta e em uso simultâneo, dimensões e conteúdo da embalagem.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "xiaomi-33w-power-bank-20000-cabo-integrado",
+    "nome": "Xiaomi 33W Power Bank 20000mAh (Integrated Cable)",
+    "marca": "Xiaomi",
+    "modelo": "PB2030MI",
+    "resumo": "Cabo USB-C preso ao corpo, o que resolve o esquecimento mais comum. É também o mais curto da amostra, e o único que publica capacidade típica além da nominal.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": 12000,
+      "energiaWh": 74,
+      "quimica": "Íon de lítio",
+      "potenciaMaxSaida": 33,
+      "potenciaMaxEntrada": 30,
+      "portasSaida": 3,
+      "descricaoSaidas": "1 USB-C + 1 USB-A + cabo USB-C integrado",
+      "caboIntegrado": true,
+      "pesoG": null,
+      "dimensoesMm": "127 × 70,5 × 30,5",
+      "tempoRecargaH": null,
+      "displayDigital": null,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "titulo": "Xiaomi 33W Power Bank 20000mAh (Integrated Cable) — especificações oficiais",
+        "url": "https://www.mi.com/global/product/xiaomi-33w-power-bank-20000mah-integrated-cable/specs/",
+        "oQueSaiuDaqui": "Modelo PB2030MI, tipo de célula, energia nominal de 74 Wh e típica de 75,48 Wh, capacidade nominal declarada de 12.000 mAh, portas, parâmetros de entrada e saída com teto de 33 W, dimensões e conteúdo da embalagem.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "baseus-blade-100w-20000",
+    "nome": "Baseus Blade Laptop Power Bank 100W 20000mAh",
+    "marca": "Baseus",
+    "modelo": "PPBL000301",
+    "resumo": "Formato achatado para caber junto do notebook, com quatro portas e recarga própria em 1h30 — a mais rápida da amostra. A documentação não diz a capacidade real nem o prazo de garantia.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": null,
+      "potenciaMaxSaida": 100,
+      "potenciaMaxEntrada": 65,
+      "portasSaida": 4,
+      "descricaoSaidas": "2 USB-C + 2 USB-A",
+      "caboIntegrado": false,
+      "pesoG": 506,
+      "dimensoesMm": "161,8 × 133,9 × 17,8",
+      "tempoRecargaH": 1.5,
+      "displayDigital": true,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "titulo": "Baseus Blade Laptop Power Bank 100W 20000mAh — página oficial do produto",
+        "url": "https://www.baseus.com/products/blade-laptop-power-bank-100w-20000mah",
+        "oQueSaiuDaqui": "SKU PPBL000301, capacidade de 20.000 mAh, saída de 100 W, entrada USB-C de 65 W, quatro portas (2 USB-A + 2 USB-C), peso de 506 g, dimensões (publicadas em polegadas: 6,37 × 5,27 × 0,7), tempo de recarga de 1,5 h e display digital.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  }
+]

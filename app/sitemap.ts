@@ -9,6 +9,7 @@ import {
   conteudoDaCategoria,
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
+import { todosOsProdutos, produtosDaCategoria } from "@/lib/produtos";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const fixas = ["", "/guias", "/reviews", "/comparativos", "/metodologia", "/sobre"].map(
@@ -21,9 +22,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const cats = categorias
     .filter((c) => {
       const t = conteudoDaCategoria(c.slug);
-      return t.guias.length || t.reviews.length || t.comparativos.length;
+      return (
+        t.guias.length ||
+        t.reviews.length ||
+        t.comparativos.length ||
+        produtosDaCategoria(c.slug).length
+      );
     })
     .map((c) => ({ url: `${site.url}/categorias/${c.slug}`, lastModified: new Date() }));
+
+  // Uma página de comparação por categoria com base preenchida. As combinações
+  // ficam na query string, que o Google não indexa como páginas separadas.
+  const comparadores = categorias
+    .filter((c) => produtosDaCategoria(c.slug).length > 0)
+    .map((c) => ({
+      url: `${site.url}/comparar/${c.slug}`,
+      lastModified: new Date(),
+    }));
+
+  const fichas = todosOsProdutos().map((p) => ({
+    url: `${site.url}/produtos/${p.slug}`,
+    lastModified: new Date(p.atualizadoEm),
+  }));
 
   const conteudo = [
     ...todosOsGuias().map((g) => ({
@@ -40,5 +60,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...fixas, ...cats, ...conteudo];
+  return [...fixas, ...cats, ...comparadores, ...fichas, ...conteudo];
 }
