@@ -217,6 +217,19 @@ confunde com documento sem folha de estilo.
   `atualizacoes` (só a Lenovo declara). Quando o fabricante se contradiz
   (Xiaomi Pad 7: "sem adaptador" e "adaptador" na mesma página), o campo fica
   `null` com a explicação na fonte.
+- **Monitores** (`dados/monitores.json`, esquema `camposMonitor`) fechou a
+  fase 1 em 14/09 com dez do ranking de Monitores da Amazon: LG 24G411A,
+  27G411B, 24MS500, 24GS60F e 20U401A; AOC 24G50F, 27G50F e 22B35HM23;
+  Samsung Essential S3 24" 120 Hz e Odyssey G5 32". Ficaram de fora Haiz,
+  BRX e 3green (sem página oficial) e o Samsung S3 100 Hz (LS24D300, que a
+  Samsung Shop não lista mais — entrou o LS24F320 de 120 Hz no lugar).
+  Fontes: LG tem a "Especificação chave" no fim da página (abrir no
+  navegador, rolar, **não clicar em nada** — um botão "mais" leva para outra
+  página); AOC linka de aoc.com.br para `detalhesdoproduto.com.br/a/...`,
+  páginas de campanha sem brilho/contraste/portas; Samsung pela API JSON.
+  O par de campos `tempoRespostaMs` + `medidaResposta` existe porque GtG e
+  MPRT/MBR não são a mesma medida — a LG escreve que o MBR de 1 ms escurece
+  a tela e desliga o FreeSync, e isso vai para a ficha.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

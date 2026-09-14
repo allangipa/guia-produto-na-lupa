@@ -1,0 +1,619 @@
+[
+  {
+    "slug": "lg-24g411a",
+    "nome": "LG UltraGear 24G411A 24\" 144 Hz",
+    "marca": "LG",
+    "modelo": "24G411A-B",
+    "categoria": "monitores",
+    "resumo": "O monitor mais vendido da Amazon Brasil. Os 144 Hz são com overclock (\"O/C\") e o 1 ms é MBR — o modo que, pela própria LG, escurece a tela e desliga o FreeSync. IPS, 250 nits, sRGB 99%.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/lg-24g411a.webp",
+      "alt": "Monitor LG UltraGear 24G411A visto de frente",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/monitores-ultragear/24g411a-b/"
+    },
+    "specs": {
+      "telaPol": 24,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 144,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "MBR (redução de desfoque; escurece a tela e desativa FreeSync/DAS, pela LG)",
+      "brilhoNits": 250,
+      "contraste": "1000:1",
+      "coresSrgb": 99,
+      "hdr": "HDR10",
+      "sincronizacao": "NVIDIA G-SYNC compatível e AMD FreeSync",
+      "hdmi": "Sim (quantidade e versão não declaradas na ficha-chave)",
+      "displayPort": "Sim (versão não declarada)",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": null,
+      "pesoKg": 4.6,
+      "dimensoesMm": "541 × 220 × 410 (L × P × A)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FYQ5TQDL"
+    },
+    "fontes": [
+      {
+        "id": "lg-24g411a-oficial",
+        "titulo": "LG UltraGear 24G411A-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/monitores-ultragear/24g411a-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "24\" IPS 1920 × 1080, sRGB 99%, 250 cd/m², 144 Hz (O/C), 1 ms MBR, HDR10, G-SYNC compatível e FreeSync, ajuste de inclinação de -5° a 20°. A ficha-chave não declara portas, VESA, consumo nem garantia; a LG avisa que o MBR de 1 ms reduz a luminância e desativa FreeSync e DAS.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-24g411a",
+        "titulo": "LG 24G411A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FYQ5TQDL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "HDMI e DisplayPort, contraste 1000:1, 4,6 kg, 41 × 22 × 54 cm (a listagem inverte largura e altura), 1 ano de garantia e nº 1 em Monitores.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-24g50f",
+    "nome": "AOC AGON G50 24G50F 24\" 144 Hz",
+    "marca": "AOC",
+    "modelo": "24G50F",
+    "categoria": "monitores",
+    "resumo": "IPS de 144 Hz com ajuste de altura, giro e pivô — o mais ajustável da faixa. Os \"0,5 ms\" são MPRT. A página oficial da AOC é de marketing: não diz brilho, contraste, portas nem consumo.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/aoc-24g50f.webp",
+      "alt": "Monitor AOC AGON 24G50F visto de frente",
+      "credito": "Imagem: AOC",
+      "origem": "https://detalhesdoproduto.com.br/a/g/24g50f/"
+    },
+    "specs": {
+      "telaPol": 24,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 144,
+      "tempoRespostaMs": 0.5,
+      "medidaResposta": "MPRT",
+      "brilhoNits": null,
+      "contraste": null,
+      "coresSrgb": null,
+      "hdr": "HDR10",
+      "sincronizacao": "NVIDIA G-SYNC compatível",
+      "hdmi": "Sim (quantidade e versão não declaradas)",
+      "displayPort": "Sim (versão não declarada)",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": true,
+      "vesa": null,
+      "pesoKg": null,
+      "dimensoesMm": "540 × 175 × 418 (L × P × A)",
+      "consumoW": 20,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FLKGNYJ8"
+    },
+    "fontes": [
+      {
+        "id": "aoc-24g50f-oficial",
+        "titulo": "AOC 24G50F — página oficial do produto (detalhesdoproduto.com.br, linkada pela AOC Brasil)",
+        "url": "https://detalhesdoproduto.com.br/a/g/24g50f/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Painel IPS de 24\", 144 Hz, 0,5 ms MPRT, HDR10, compatível com NVIDIA G-Sync, Shadow Control, Low Blue Light e Flicker-free. Página de marketing: não declara resolução, brilho, contraste, portas, VESA, peso nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-24g50f",
+        "titulo": "AOC 24G50F — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FLKGNYJ8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1920 × 1080, HDMI e DisplayPort, ajuste de altura, inclinação e giro, consumo de 20 W, 54 × 17,5 × 41,8 cm e 1 ano de garantia.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-s3-24-120hz",
+    "nome": "Samsung Essential S3 24\" 120 Hz",
+    "marca": "Samsung",
+    "modelo": "LS24F320GALMZD",
+    "categoria": "monitores",
+    "resumo": "O Samsung básico de 120 Hz: IPS, 250 nits, 5 ms GtG — uma das duas fichas da base que dizem GtG em vez de MPRT. A Samsung não declara ajuste de altura nem alto-falantes; a Amazon diz que tem altura.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/samsung-s3-24-120hz.webp",
+      "alt": "Monitor Samsung Essential S3 de 24 polegadas visto de frente",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-24-fhd-120hz-hdmi-dp-s3/p"
+    },
+    "specs": {
+      "telaPol": 24,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 120,
+      "tempoRespostaMs": 5,
+      "medidaResposta": "GtG",
+      "brilhoNits": 250,
+      "contraste": "1000:1 (típico)",
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": null,
+      "hdmi": "2",
+      "displayPort": null,
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": null,
+      "vesa": null,
+      "pesoKg": null,
+      "dimensoesMm": "541 × 175 × 429 (L × P × A)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FBRZ1ZPB"
+    },
+    "fontes": [
+      {
+        "id": "samsung-s3-oficial",
+        "titulo": "Samsung Essential S3 24\" 120 Hz — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/monitor-gamer-samsung-24-fhd-120hz-hdmi-dp-s3/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "IPS de 24\" 1920 × 1080, até 120 Hz, 5 ms GtG, 250 cd/m², contraste 1000:1, 72% CIE 1931, 2 HDMI e 12 meses. A tabela não declara HDR, FreeSync, DisplayPort, alto-falantes, ajuste de altura, VESA, peso nem consumo.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-s3-120",
+        "titulo": "Samsung S3 24\" 120 Hz — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FBRZ1ZPB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "\"Ajuste de altura\" nas características especiais, 5 ms, 54,1 × 17,5 × 42,9 cm e 1 ano — o ajuste de altura não aparece na ficha da Samsung e por isso não foi adotado.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-odyssey-g5-32",
+    "nome": "Samsung Odyssey G5 32\" QHD 165 Hz",
+    "marca": "Samsung",
+    "modelo": "LS32CG552ELMZD",
+    "categoria": "monitores",
+    "resumo": "O único QHD e o único curvo da base: VA 1000R, 165 Hz, contraste 2.500:1. A Samsung publica a ficha mais completa — peso com e sem base, dimensões, HDMI 2.0 e DP 1.2 — e diz que não tem alto-falante nem USB.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/samsung-odyssey-g5-32.webp",
+      "alt": "Monitor curvo Samsung Odyssey G5 de 32 polegadas visto de frente",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-32-polegadas/p"
+    },
+    "specs": {
+      "telaPol": 32,
+      "resolucao": "2560 × 1440 (QHD), curvo 1000R",
+      "painel": "VA",
+      "taxaHz": 165,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "MPRT",
+      "brilhoNits": 300,
+      "contraste": "2.500:1 (típico)",
+      "coresSrgb": null,
+      "hdr": "HDR10",
+      "sincronizacao": "AMD FreeSync",
+      "hdmi": "1 × HDMI 2.0",
+      "displayPort": "1 × DisplayPort 1.2",
+      "outrasPortas": "Sem USB",
+      "altoFalantes": false,
+      "ajusteAltura": null,
+      "vesa": null,
+      "pesoKg": 5.2,
+      "dimensoesMm": "710,1 × 272,6 × 533,6 (L × P × A)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DWQNS8TN"
+    },
+    "divergencias": [
+      {
+        "campo": "ajusteAltura",
+        "fonteAdotada": "samsung-g5-oficial",
+        "valorDivergente": "Sim",
+        "fonteDivergente": "amazon-g5-32",
+        "observacao": "A Amazon lista \"ajuste de altura\" nas características; a ficha da Samsung não declara nenhum ajuste de posição. Sem confirmação do fabricante, o campo fica como não informado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "samsung-g5-oficial",
+        "titulo": "Samsung Odyssey G5 32\" — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-32-polegadas/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "VA curvo 1000R de 32\" 2560 × 1440, até 165 Hz, 1 ms MPRT, 300 cd/m² típicos e 200 mínimos, contraste 2.500:1, HDR10, FreeSync, 1 HDMI 2.0, 1 DisplayPort 1.2, sem USB, sem alto-falantes, 5,2 kg com base e 4,8 sem, 710,1 × 533,6 × 272,6 mm com base e 12 meses. Não declara sRGB, VESA, ajuste de altura nem consumo.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-g5-32",
+        "titulo": "Samsung Odyssey G5 32\" — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DWQNS8TN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Consumo de 59 W, 2 HDMI e ajuste de altura — os dois últimos divergem do fabricante (1 HDMI, nenhum ajuste declarado). A listagem diz \"2,73 × 7,1 × 5,34 metros\" — erro evidente, ignorado.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "lg-27g411b",
+    "nome": "LG UltraGear 27G411B 27\" 144 Hz",
+    "marca": "LG",
+    "modelo": "27G411B-B",
+    "categoria": "monitores",
+    "resumo": "O irmão de 27\" do 24G411A, com 144 Hz nativos — sem overclock — e o mesmo 1 ms MBR que escurece a tela. Full HD em 27 polegadas: 82 pixels por polegada, o pixel mais visível da base.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/lg-27g411b.webp",
+      "alt": "Monitor LG UltraGear 27G411B visto de frente",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27g411b-b/"
+    },
+    "specs": {
+      "telaPol": 27,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 144,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "MBR (redução de desfoque; escurece a tela e desativa FreeSync/DAS, pela LG)",
+      "brilhoNits": 250,
+      "contraste": "1500:1",
+      "coresSrgb": 99,
+      "hdr": "HDR10",
+      "sincronizacao": "NVIDIA G-SYNC compatível e AMD FreeSync",
+      "hdmi": "1",
+      "displayPort": "Sim (versão não declarada)",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": "Sim (suporte para parede declarado)",
+      "pesoKg": 3.8,
+      "dimensoesMm": "611 × 220 × 452 (L × P × A)",
+      "consumoW": 22,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HB7NS9RM"
+    },
+    "fontes": [
+      {
+        "id": "lg-27g411b-oficial",
+        "titulo": "LG UltraGear 27G411B-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/monitores-ultragear/27g411b-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "27\" IPS 1920 × 1080, sRGB 99%, 250 cd/m², 144 Hz nativo, 1 ms MBR, HDR10, G-SYNC compatível e FreeSync, inclinação, suporte para parede. A ficha-chave não declara portas, peso, consumo nem garantia; a LG avisa que o MBR reduz a luminância e desativa FreeSync e DAS.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-27g411b",
+        "titulo": "LG 27G411B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HB7NS9RM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Contraste 1500:1, 1 HDMI e 2 saídas de vídeo no total, 22 W, 3,8 kg, 61,1 × 22 × 45,2 cm e 1 ano.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-27g50f",
+    "nome": "AOC AGON G50 27G50F 27\" 144 Hz",
+    "marca": "AOC",
+    "modelo": "27G50F",
+    "categoria": "monitores",
+    "resumo": "A versão de 27\" do AGON G50: IPS, 144 Hz nativos, 0,5 ms MPRT, base com altura, giro e pivô. A Amazon chama o painel de \"LED\"; a AOC diz IPS. Full HD em 27\" tem o mesmo pixel grande do LG 27G411B.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/aoc-27g50f.webp",
+      "alt": "Monitor AOC AGON 27G50F visto de frente",
+      "credito": "Imagem: AOC",
+      "origem": "https://detalhesdoproduto.com.br/a/g/27g50f/"
+    },
+    "specs": {
+      "telaPol": 27,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 144,
+      "tempoRespostaMs": 0.5,
+      "medidaResposta": "MPRT",
+      "brilhoNits": null,
+      "contraste": null,
+      "coresSrgb": null,
+      "hdr": "HDR10",
+      "sincronizacao": "NVIDIA G-SYNC compatível",
+      "hdmi": "Sim (quantidade e versão não declaradas)",
+      "displayPort": "Sim (versão não declarada)",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": true,
+      "vesa": "Sim (compatível com braço articulado)",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FLKL7DHZ"
+    },
+    "divergencias": [
+      {
+        "campo": "painel",
+        "fonteAdotada": "aoc-27g50f-oficial",
+        "valorDivergente": "LED",
+        "fonteDivergente": "amazon-27g50f",
+        "observacao": "A Amazon lista \"tipo de tela: LED\", que é a retroiluminação, não o painel. A AOC declara IPS. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "aoc-27g50f-oficial",
+        "titulo": "AOC 27G50F — página oficial do produto (detalhesdoproduto.com.br, linkada pela AOC Brasil)",
+        "url": "https://detalhesdoproduto.com.br/a/g/27g50f/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Painel IPS de 27\", 144 Hz nativo de fábrica, 0,5 ms MPRT, HDR10, compatível com NVIDIA G-Sync e com braço articulado. Página de marketing: não declara resolução, brilho, contraste, portas, peso, dimensões nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-27g50f",
+        "titulo": "AOC 27G50F — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FLKL7DHZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1920 × 1080, HDMI e DisplayPort, ajuste de altura, giro e pivô, cabos DP, HDMI e USB na caixa e 1 ano. As dimensões da listagem (\"0,19 × 6,16 × 0,46 metros\") são erro evidente e foram ignoradas.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "lg-24ms500",
+    "nome": "LG 24MS500 24\" 100 Hz",
+    "marca": "LG",
+    "modelo": "24MS500-B",
+    "categoria": "monitores",
+    "resumo": "O LG de escritório com 100 Hz: IPS, 250 nits, 5 ms GtG — número honesto, sem MBR — e duas entradas HDMI, sem DisplayPort. Cobertura de cor em NTSC 72%, a mais baixa da base entre as declaradas.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/lg-24ms500.webp",
+      "alt": "Monitor LG 24MS500 visto de frente",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/fhd-qhd/24ms500-b/"
+    },
+    "specs": {
+      "telaPol": 24,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 100,
+      "tempoRespostaMs": 5,
+      "medidaResposta": "GtG",
+      "brilhoNits": 250,
+      "contraste": "1000:1",
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": null,
+      "hdmi": "2",
+      "displayPort": "Não",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": "Sim (montagem na parede declarada)",
+      "pesoKg": 3.9,
+      "dimensoesMm": "539 × 190 × 414 (L × P × A)",
+      "consumoW": 16,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DF2WSGF6"
+    },
+    "fontes": [
+      {
+        "id": "lg-24ms500-oficial",
+        "titulo": "LG 24MS500-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/fhd-qhd/24ms500-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "24\" IPS 1920 × 1080, NTSC 72%, 250 cd/m², 100 Hz, 5 ms GtG, inclinação de -5° a 15°, cabo HDMI e adaptador na caixa. A ficha-chave não declara sRGB, HDR, sincronização, VESA, peso, consumo nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-24ms500",
+        "titulo": "LG 24MS500 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DF2WSGF6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "2 HDMI, contraste 1000:1, montagem na parede, 16 W, 3,9 kg, 53,9 × 19 × 41,4 cm e 1 ano.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-22b35hm23",
+    "nome": "AOC 22B35HM23 21,5\" 120 Hz",
+    "marca": "AOC",
+    "modelo": "22B35HM23",
+    "categoria": "monitores",
+    "resumo": "O mais barato da base: VA de 21,5\" com 100 Hz nativos e 120 com overclock, pela AOC. HDMI e VGA, 250 nits pela Amazon. O \"1 ms\" é MPRT.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/aoc-22b35hm23.webp",
+      "alt": "Monitor AOC 22B35HM23 visto de frente",
+      "credito": "Imagem: AOC",
+      "origem": "https://detalhesdoproduto.com.br/a/m/22b35hm23/"
+    },
+    "specs": {
+      "telaPol": 21.5,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "VA",
+      "taxaHz": 120,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "MPRT; 120 Hz com overclock, 100 Hz nativos",
+      "brilhoNits": 250,
+      "contraste": null,
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": "Adaptive-Sync",
+      "hdmi": "Sim (quantidade e versão não declaradas)",
+      "displayPort": "Não",
+      "outrasPortas": "VGA",
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": "Sim",
+      "pesoKg": null,
+      "dimensoesMm": "494 × 170 × 379 (L × P × A)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F4L1SBV3"
+    },
+    "fontes": [
+      {
+        "id": "aoc-22b35-oficial",
+        "titulo": "AOC 22B35HM23 — página oficial do produto (detalhesdoproduto.com.br, linkada pela AOC Brasil)",
+        "url": "https://detalhesdoproduto.com.br/a/m/22b35hm23/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Painel VA de 22\", 120 Hz com overclock (100 Hz nativos), 1 ms MPRT, Adaptive-Sync, HDMI e VGA, VESA, ângulo de 178°, Flicker-Free e Low Blue Light. Não declara resolução, brilho, contraste, peso, consumo nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-22b35",
+        "titulo": "AOC 22B35HM23 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F4L1SBV3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "21,5\", 1920 × 1080, brilho 250, HDMI e VGA, ajuste de inclinação, 49,4 × 17 × 37,9 cm, cabo HDMI na caixa e 1 ano.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "lg-24gs60f",
+    "nome": "LG UltraGear 24GS60F 24\" 180 Hz",
+    "marca": "LG",
+    "modelo": "24GS60F-B",
+    "categoria": "monitores",
+    "resumo": "O LG de 180 Hz com 1 ms GtG — a medida honesta — e 300 nits, o mais brilhante entre os 24\" da base. sRGB 99%, IPS. A Amazon escreve \"180 KHz\".",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/lg-24gs60f.webp",
+      "alt": "Monitor LG UltraGear 24GS60F visto de frente",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/monitores-ultragear/24gs60f-b/"
+    },
+    "specs": {
+      "telaPol": 24,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 180,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "GtG",
+      "brilhoNits": 300,
+      "contraste": "1000:1",
+      "coresSrgb": 99,
+      "hdr": "HDR10",
+      "sincronizacao": "NVIDIA G-SYNC compatível e AMD FreeSync",
+      "hdmi": "1",
+      "displayPort": "Sim (versão não declarada)",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": "Sim (montagem na parede declarada)",
+      "pesoKg": 5.2,
+      "dimensoesMm": "541 × 181 × 409 (L × P × A)",
+      "consumoW": 18,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D8DPT7ZY"
+    },
+    "fontes": [
+      {
+        "id": "lg-24gs60f-oficial",
+        "titulo": "LG UltraGear 24GS60F-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/monitores-ultragear/24gs60f-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "24\" IPS 1920 × 1080, sRGB 99%, 300 cd/m², 180 Hz, 1 ms GtG. A ficha-chave não declara portas, ajustes, VESA, peso, consumo nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-24gs60f",
+        "titulo": "LG 24GS60F — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D8DPT7ZY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "HDR10, G-SYNC e FreeSync no título, 1 HDMI e 2 saídas de vídeo, contraste 1000:1, brilho 300, inclinação, montagem na parede, 18 W, 5,2 kg, 54,1 × 18,1 × 40,9 cm e 1 ano. A listagem escreve \"180 KHz\".",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "lg-20u401a",
+    "nome": "LG 20U401A 20\" HD+ 75 Hz",
+    "marca": "LG",
+    "modelo": "20U401A-B",
+    "categoria": "monitores",
+    "resumo": "O menor e mais barato LG: 20\" TN de 1600 × 900, 75 Hz, 2 ms GtG e 11 W. A ficha-chave da LG escreve \"Full HD\"; o título da própria LG e a Amazon dizem 1600 × 900. Adotamos a resolução real e registramos.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/lg-20u401a.webp",
+      "alt": "Monitor LG 20U401A visto de frente",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/monitores-full-hd-qhd/20u401a-b/"
+    },
+    "specs": {
+      "telaPol": 20,
+      "resolucao": "1600 × 900 (HD+)",
+      "painel": "TN",
+      "taxaHz": 75,
+      "tempoRespostaMs": 2,
+      "medidaResposta": "GtG",
+      "brilhoNits": null,
+      "contraste": null,
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": null,
+      "hdmi": "1",
+      "displayPort": "Não",
+      "outrasPortas": "VGA",
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": null,
+      "pesoKg": 2.25,
+      "dimensoesMm": "460 × 190 × 360 (L × P × A)",
+      "consumoW": 11,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FTZN4CM3"
+    },
+    "divergencias": [
+      {
+        "campo": "resolucao",
+        "fonteAdotada": "amazon-20u401a",
+        "valorDivergente": "Full HD",
+        "fonteDivergente": "lg-20u401a-oficial",
+        "observacao": "A ficha-chave da LG escreve \"Full HD\", mas o título da mesma página chama a tela de WSXGA e a Amazon lista 1600 × 900. Um painel TN de 20\" HD+ é o que o modelo sempre foi; adotamos 1600 × 900 e deixamos a contradição da LG registrada."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "lg-20u401a-oficial",
+        "titulo": "LG 20U401A-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/monitores-full-hd-qhd/20u401a-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "20\" TN, NTSC 72%, 75 Hz, 2 ms GtG, inclinação de -5° a 15°. A ficha-chave escreve \"Full HD\" como resolução, em contradição com o título da página; não declara brilho, portas, peso, consumo nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-20u401a",
+        "titulo": "LG 20U401A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FTZN4CM3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "1600 × 900, 1 HDMI e VGA, 11 W, 2,25 kg, 46 × 19 × 36 cm, fonte externa na caixa e 1 ano.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  }
+]
