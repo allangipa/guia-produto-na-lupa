@@ -66,6 +66,20 @@
         "oQueSaiuDaqui": "Versão 110 V, painel de toque, visor com iluminação interna, dimensões de 45,3 × 33,3 × 30,3 cm e 12 funções mais 1 personalizável. A temperatura mínima (40 °C) e o timer (24 h) da listagem divergem do fabricante e estão registrados como divergência.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/philips-walita-na341-3.webp",
+        "alt": "Air Fryer Walita NA341 fechada, vista de frente em outro ângulo",
+        "credito": "Imagem: Philips Walita",
+        "origem": "https://www.walita.com.br/fritadeira-airfryer-serie-3000-7-2l-digital-com-visor-philips-walita-na341-na341-00/p"
+      },
+      {
+        "src": "/produtos/philips-walita-na341-4.webp",
+        "alt": "Air Fryer Walita NA341 com a gaveta aberta e alimentos no cesto",
+        "credito": "Imagem: Philips Walita",
+        "origem": "https://www.walita.com.br/fritadeira-airfryer-serie-3000-7-2l-digital-com-visor-philips-walita-na341-na341-00/p"
+      }
     ]
   },
   {
@@ -259,7 +273,9 @@
       "dimensoesMm": "313 × 306 × 310 (P × L × A)",
       "garantiaMeses": 12
     },
-    "naoSeAplica": ["funcoesPredefinidas"],
+    "naoSeAplica": [
+      "funcoesPredefinidas"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0DY3G3MJW"
     },
@@ -358,6 +374,20 @@
         "oQueSaiuDaqui": "Versão 110 V, janela com luz interna e registro no Inmetro 4800950.31. O peso (5,47 kg) e os \"13 modos\" da listagem divergem do fabricante e estão registrados como divergência.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/philips-walita-na230-2.webp",
+        "alt": "Air Fryer Walita NA230 vista de frente em leve ângulo, com o painel à mostra",
+        "credito": "Imagem: Philips Walita",
+        "origem": "https://www.walita.com.br/fritadeira-airfryer-digital-serie-2000-xl-philips-walita-preta-1700w-na230-na230_00/p"
+      },
+      {
+        "src": "/produtos/philips-walita-na230-4.webp",
+        "alt": "Air Fryer Walita NA230 com a gaveta aberta e alimentos no cesto",
+        "credito": "Imagem: Philips Walita",
+        "origem": "https://www.walita.com.br/fritadeira-airfryer-digital-serie-2000-xl-philips-walita-preta-1700w-na230-na230_00/p"
+      }
     ]
   },
   {
@@ -391,7 +421,9 @@
       "dimensoesMm": "363 × 252 × 282 (P × L × A)",
       "garantiaMeses": 12
     },
-    "naoSeAplica": ["funcoesPredefinidas"],
+    "naoSeAplica": [
+      "funcoesPredefinidas"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0B72QZXCC"
     },
@@ -420,6 +452,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão 127 V e peças que não vão na lava-louças. A capacidade da listagem (4,96 L) diverge do fabricante e está registrada como divergência.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/oster-ofrt520-2.webp",
+        "alt": "Fritadeira Oster OFRT520 com a gaveta puxada, mostrando o cesto",
+        "credito": "Imagem: Oster",
+        "origem": "https://www.oster.com.br/fritadeira-inox-compact-46l-oster/p"
       }
     ]
   },
@@ -507,7 +547,9 @@
       "dimensoesMm": "360 × 285 × 330 (P × L × A)",
       "garantiaMeses": 12
     },
-    "naoSeAplica": ["funcoesPredefinidas"],
+    "naoSeAplica": [
+      "funcoesPredefinidas"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B08HZFC8C2"
     },

@@ -458,6 +458,20 @@
         "oQueSaiuDaqui": "Nº 10 em Liquidificadores de Bancada, versão 220 V, \"Potência 1000 watts\" e 5 velocidades.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/electrolux-ebl1000-2.webp",
+        "alt": "Liquidificador Electrolux EBL1000 com as cotas de altura, largura e profundidade",
+        "credito": "Imagem: Electrolux",
+        "origem": "https://loja.electrolux.com.br/liquidificador-electrolux-1000w-2-7l-efficient-com-triforce-5-velocidades-cinza--ebl1000-/p"
+      },
+      {
+        "src": "/produtos/electrolux-ebl1000-4.webp",
+        "alt": "Liquidificador Electrolux EBL1000 desmontado: copo, tampa e base separados",
+        "credito": "Imagem: Electrolux",
+        "origem": "https://loja.electrolux.com.br/liquidificador-electrolux-1000w-2-7l-efficient-com-triforce-5-velocidades-cinza--ebl1000-/p"
+      }
     ]
   },
   {
@@ -509,6 +523,20 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Nº 11 em Liquidificadores de Bancada, versão 220 V, sem BPA, peças que vão na lava-louças e 2 anos de garantia.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/walita-ri2110-2.webp",
+        "alt": "Liquidificador Walita RI2110 com o copo à mostra e o filtro encaixado",
+        "credito": "Imagem: Philips Walita",
+        "origem": "https://www.walita.com.br/liquidificador-daily-philips-walita-ri2110-preto_ri2110-90_preto/p"
+      },
+      {
+        "src": "/produtos/walita-ri2110-4.webp",
+        "alt": "Liquidificador Walita RI2110 com o copo cheio de suco",
+        "credito": "Imagem: Philips Walita",
+        "origem": "https://www.walita.com.br/liquidificador-daily-philips-walita-ri2110-preto_ri2110-90_preto/p"
       }
     ]
   },
