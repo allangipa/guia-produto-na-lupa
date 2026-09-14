@@ -126,6 +126,24 @@ const TRACOS: Record<string, React.ReactNode> = {
       <path d="M12 9v6" />
     </>
   ),
+  celular: (
+    <>
+      <rect x="7" y="2" width="10" height="20" rx="2.5" />
+      <path d="M11 18.5h2" />
+    </>
+  ),
+  chip: (
+    <>
+      <rect x="7" y="7" width="10" height="10" rx="1.5" />
+      <path d="M10 2v5M14 2v5M10 17v5M14 17v5M2 10h5M2 14h5M17 10h5M17 14h5" />
+    </>
+  ),
+  camera: (
+    <>
+      <path d="M4 8h3l2-3h6l2 3h3v11H4V8z" />
+      <circle cx="12" cy="13" r="3.5" />
+    </>
+  ),
   tema: (
     <>
       <circle cx="12" cy="12" r="4" />

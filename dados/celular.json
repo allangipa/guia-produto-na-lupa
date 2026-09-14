@@ -1,0 +1,289 @@
+[
+  {
+    "slug": "iphone-18-pro",
+    "nome": "iPhone 18 Pro",
+    "marca": "Apple",
+    "modelo": "iPhone 18 Pro",
+    "categoria": "celular",
+    "resumo": "Pré-venda aberta, nas lojas em 18/09. Chip A20 Pro, câmera principal de 48 MP com abertura variável e teleobjetiva de 4x. A Apple declara 34 horas de vídeo — e, como sempre, não declara mAh, RAM nem garantia na ficha.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/iphone-18-pro.png",
+      "alt": "iPhone 18 Pro visto de trás, com o módulo de três câmeras",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.3,
+      "resolucao": "2622 × 1206 (460 ppp)",
+      "taxaHz": 120,
+      "brilhoPicoNits": 3000,
+      "chip": "A20 Pro (CPU 6 núcleos, GPU 7 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "256 GB, 512 GB, 1 TB, 2 TB",
+      "cameraPrincipalMp": 48,
+      "teleobjetiva": "48 MP, 4x (100 mm), tetraprisma; 8x por recorte",
+      "cameraFrontalMp": 18,
+      "bateriaMah": null,
+      "horasVideo": 34,
+      "cargaRapida": "50% em ~15 min com adaptador de 60 W",
+      "cargaSemFioW": 25,
+      "usb": "USB 3 (até 10 Gb/s), DisplayPort",
+      "sim": "Dual SIM (eSIM e nano SIM)",
+      "protecaoAgua": "IP68 (6 m por 30 min)",
+      "material": "Alumínio unibody; Ceramic Shield 2 na frente",
+      "pesoG": 211,
+      "espessuraMm": 8.75,
+      "dimensoesMm": "150,0 × 71,9 × 8,75",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HJB6Q8HN"
+    },
+    "fontes": [
+      {
+        "id": "apple-18-pro-specs",
+        "titulo": "iPhone 18 Pro e 18 Pro Max — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-18-pro/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 6,3\" 2622 × 1206 a 460 ppp, ProMotion até 120 Hz, pico de 3.000 nits, chip A20 Pro, capacidades, câmeras de 48 MP, frontal de 18 MP, 34 h de vídeo, carga de 50% em ~15 min com 60 W, MagSafe 25 W, USB 3, IP68, 150,0 × 71,9 × 8,75 mm e 211 g. A página não declara mAh, RAM nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "apple-18-pro-overview",
+        "titulo": "iPhone 18 Pro — página do produto (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-18-pro/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Pré-venda aberta e \"Disponível a partir de 18/09\".",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "iphone-18-pro-max",
+    "nome": "iPhone 18 Pro Max",
+    "marca": "Apple",
+    "modelo": "iPhone 18 Pro Max",
+    "categoria": "celular",
+    "resumo": "O mesmo iPhone 18 Pro em 6,9 polegadas: mesmo chip, mesmas câmeras, 43 horas de vídeo declaradas contra 34 — e 249 gramas, o mais pesado da linha depois do Duo.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/iphone-18-pro.png",
+      "alt": "iPhone 18 Pro Max visto de trás, com o módulo de três câmeras",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.9,
+      "resolucao": "2868 × 1320 (460 ppp)",
+      "taxaHz": 120,
+      "brilhoPicoNits": 3000,
+      "chip": "A20 Pro (CPU 6 núcleos, GPU 7 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "256 GB, 512 GB, 1 TB, 2 TB",
+      "cameraPrincipalMp": 48,
+      "teleobjetiva": "48 MP, 4x (100 mm), tetraprisma; 8x por recorte",
+      "cameraFrontalMp": 18,
+      "bateriaMah": null,
+      "horasVideo": 43,
+      "cargaRapida": "50% em ~15 min com adaptador de 60 W",
+      "cargaSemFioW": 25,
+      "usb": "USB 3 (até 10 Gb/s), DisplayPort",
+      "sim": "Dual SIM (eSIM e nano SIM)",
+      "protecaoAgua": "IP68 (6 m por 30 min)",
+      "material": "Alumínio unibody; Ceramic Shield 2 na frente",
+      "pesoG": 249,
+      "espessuraMm": 8.75,
+      "dimensoesMm": "163,4 × 78,0 × 8,75",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HJB1C68N"
+    },
+    "fontes": [
+      {
+        "id": "apple-18-pro-specs",
+        "titulo": "iPhone 18 Pro e 18 Pro Max — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-18-pro/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 6,9\" 2868 × 1320 a 460 ppp, 43 h de vídeo, 163,4 × 78,0 × 8,75 mm e 249 g; o restante é idêntico ao 18 Pro. A página não declara mAh, RAM nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "apple-18-pro-overview",
+        "titulo": "iPhone 18 Pro — página do produto (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-18-pro/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Pré-venda aberta e \"Disponível a partir de 18/09\".",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "iphone-17",
+    "nome": "iPhone 17",
+    "marca": "Apple",
+    "modelo": "A3520",
+    "categoria": "celular",
+    "resumo": "O iPhone de entrada da linha atual: mesma tela de 6,3\" a 120 Hz do 18 Pro, chip A19, duas câmeras de 48 MP sem teleobjetiva, 30 horas de vídeo e USB 2 — a porta de 480 Mb/s que o Pro deixou para trás.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/iphone-17.png",
+      "alt": "iPhone 17 visto de trás, com o módulo de duas câmeras",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-17"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.3,
+      "resolucao": "2622 × 1206 (460 ppp)",
+      "taxaHz": 120,
+      "brilhoPicoNits": 3000,
+      "chip": "A19 (CPU 6 núcleos, GPU 5 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "256 GB, 512 GB",
+      "cameraPrincipalMp": 48,
+      "teleobjetiva": "Não tem; 2x por recorte do sensor (52 mm)",
+      "cameraFrontalMp": 18,
+      "bateriaMah": null,
+      "horasVideo": 30,
+      "cargaRapida": "50% em 20 min com adaptador de 40 W",
+      "cargaSemFioW": 25,
+      "usb": "USB 2 (até 480 Mb/s), DisplayPort",
+      "sim": "Dual SIM (eSIM e nano SIM)",
+      "protecaoAgua": "IP68 (6 m por 30 min)",
+      "material": "Alumínio; Ceramic Shield 2 na frente, vidro colorido atrás",
+      "pesoG": 177,
+      "espessuraMm": 7.95,
+      "dimensoesMm": "149,6 × 71,5 × 7,95",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GQW2J4SK"
+    },
+    "fontes": [
+      {
+        "id": "apple-17-specs",
+        "titulo": "iPhone 17 — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-17/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 6,3\" 2622 × 1206, ProMotion até 120 Hz, 3.000 nits, chip A19, 256/512 GB, câmeras de 48 MP, frontal de 18 MP, 30 h de vídeo, carga de 50% em 20 min com 40 W, MagSafe 25 W, USB 2, IP68, 149,6 × 71,5 × 7,95 mm e 177 g. A página não declara mAh, RAM nem garantia.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "iphone-air",
+    "nome": "iPhone Air",
+    "marca": "Apple",
+    "modelo": "A3517",
+    "categoria": "celular",
+    "resumo": "O mais fino da linha: 5,64 mm e 165 g em titânio. Paga por isso na ficha: uma câmera traseira só, 27 horas de vídeo, carga sem fio de 20 W, USB 2 e nenhum chip físico — só eSIM.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/iphone-air.png",
+      "alt": "iPhone Air visto de trás, com uma câmera única na barra superior",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+    },
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.5,
+      "resolucao": "2736 × 1260 (460 ppp)",
+      "taxaHz": 120,
+      "brilhoPicoNits": 3000,
+      "chip": "A19 Pro (CPU 6 núcleos, GPU 5 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "256 GB, 512 GB, 1 TB",
+      "cameraPrincipalMp": 48,
+      "teleobjetiva": "Não tem; 2x por recorte do sensor (52 mm). Sem ultra-angular",
+      "cameraFrontalMp": 18,
+      "bateriaMah": null,
+      "horasVideo": 27,
+      "cargaRapida": "50% em 30 min com adaptador de 20 W",
+      "cargaSemFioW": 20,
+      "usb": "USB 2 (até 480 Mb/s)",
+      "sim": "Só eSIM (Dual eSIM)",
+      "protecaoAgua": "IP68 (6 m por 30 min)",
+      "material": "Titânio; Ceramic Shield 2 na frente, Ceramic Shield atrás",
+      "pesoG": 165,
+      "espessuraMm": 5.64,
+      "dimensoesMm": "156,2 × 74,7 × 5,64",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FQHFTDF7"
+    },
+    "fontes": [
+      {
+        "id": "apple-air-specs",
+        "titulo": "iPhone Air — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-air/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 6,5\" 2736 × 1260, ProMotion até 120 Hz, 3.000 nits, chip A19 Pro, 256 GB a 1 TB, câmera única de 48 MP, frontal de 18 MP, 27 h de vídeo, carga de 50% em 30 min com 20 W, MagSafe 20 W, USB 2, só eSIM, IP68, 156,2 × 74,7 × 5,64 mm e 165 g. A página não declara mAh, RAM nem garantia.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "iphone-duo",
+    "nome": "iPhone Duo",
+    "marca": "Apple",
+    "modelo": "A3720",
+    "categoria": "celular",
+    "resumo": "O primeiro iPhone dobrável: 7,6\" aberto, 5,4\" fechado, Touch ID no botão lateral e só eSIM. Pré-venda em 16/10, nas lojas em 23/10. As 44 horas de vídeo são na tela externa; na interna, a Apple declara 31.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/iphone-duo.png",
+      "alt": "iPhone Duo aberto, mostrando a tela interna dobrável e a tela externa",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-duo"
+    },
+    "specs": {
+      "formato": "Dobrável",
+      "telaPol": 7.6,
+      "resolucao": "Interna 1878 × 2670 (430 ppp); externa 5,4\" 1398 × 2034 (460 ppp)",
+      "taxaHz": 120,
+      "brilhoPicoNits": 3000,
+      "chip": "A20 Pro (CPU 6 núcleos, GPU 7 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "256 GB, 512 GB, 1 TB, 2 TB",
+      "cameraPrincipalMp": 48,
+      "teleobjetiva": "Não tem; 2x por recorte do sensor (52 mm)",
+      "cameraFrontalMp": 12,
+      "bateriaMah": null,
+      "horasVideo": 44,
+      "cargaRapida": "50% em 20 min com adaptador de 60 W",
+      "cargaSemFioW": 25,
+      "usb": "USB 3 (até 10 Gb/s), DisplayPort",
+      "sim": "Só eSIM (Dual eSIM)",
+      "protecaoAgua": "IP68 (6 m por 30 min)",
+      "material": "Titânio dobrável; Ceramic Shield 2 na frente",
+      "pesoG": 254,
+      "espessuraMm": 11.3,
+      "dimensoesMm": "Fechado 117,8 × 84,1 × 11,3; aberto 117,8 × 164,6 × 5,2",
+      "garantiaMeses": null
+    },
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "apple-duo-specs",
+        "titulo": "iPhone Duo — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-duo/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela interna de 7,6\" 1878 × 2670 e externa de 5,4\" 1398 × 2034, ProMotion até 120 Hz, 3.000 nits, chip A20 Pro, 256 GB a 2 TB, duas câmeras de 48 MP, frontal externa de 12 MP, 44 h de vídeo na tela externa e 31 h na interna, carga de 50% em 20 min com 60 W, MagSafe 25 W, USB 3, Touch ID, só eSIM, IP68, 254 g e as dimensões aberto e fechado. A página não declara mAh, RAM nem garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "apple-duo-overview",
+        "titulo": "iPhone Duo — página do produto (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-duo/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "\"Pré-venda a partir de 16/10, às 9h (BRT). Disponível a partir de 23/10\".",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  }
+]

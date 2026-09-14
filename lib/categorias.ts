@@ -56,9 +56,9 @@ export const categorias: Categoria[] = [
   },
   {
     slug: "celular",
-    nome: "Acessórios para celular",
-    descricao: "Capas, películas, suportes veiculares e carregadores sem fio.",
-    dorPrincipal: "Protege de verdade na queda de bolso ou só de arranhão?",
+    nome: "Celulares",
+    descricao: "Smartphones, com o que a ficha oficial declara e o que ela deixa de fora.",
+    dorPrincipal: "A bateria do anúncio é em horas de vídeo — quantos mAh a marca não diz?",
   },
   {
     slug: "cozinha",
