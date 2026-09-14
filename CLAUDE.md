@@ -168,12 +168,18 @@ confunde com documento sem folha de estilo.
   credibilidade que o resto da estrutura tenta construir.
 - Nenhuma análise tem imagem ainda. O suporte está pronto (`produto.imagem` +
   `components/foto-produto.tsx`), esperando press kit de fabricante real.
-- A base é de **fones de ouvido** (`dados/audio.json`): quatro modelos entre
-  os mais vendidos da Amazon Brasil, cada um com ASIN e link de loja. A
-  categoria saiu dos mais vendidos de Eletrônicos, não de palpite. Powerbank foi
-  aposentado porque os modelos catalogados não eram vendidos no Brasil; o
-  esquema `camposEnergia` ficou em `lib/specs.ts` para quando houver produto
-  vendido aqui. Uma categoria só compete com 40 a 60 produtos — quatro é começo.
+- A base é de **fones de ouvido** (`dados/audio.json`): dez modelos entre os
+  mais vendidos da Amazon Brasil, cada um com ASIN, link de loja e foto oficial.
+  A categoria saiu dos mais vendidos de Eletrônicos, não de palpite. Powerbank
+  foi aposentado porque os modelos catalogados não eram vendidos no Brasil; o
+  esquema `camposEnergia` ficou em `lib/specs.ts`. Próximas categorias, na
+  ordem da fila: cozinha (airfryers), tablets, periféricos, máquinas de lavar.
+- **Fotos: imagem oficial do site do fabricante, hospedada em
+  `public/produtos/`, decisão consciente do Allan.** Nunca da Amazon (contrato
+  de Associados) nem do Google Imagens. Crédito visível sobre a imagem, página
+  de origem em `imagem.origem`, remoção a pedido prometida em `/privacidade`.
+  `npm run imagens` converte PNG/JPG para WebP (sharp) e reaponta as fichas —
+  rodar sempre depois de baixar foto nova.
 - Toda peça editorial (guia, comparativo, análise) precisa existir em pelo menos
   uma unidade: `output: export` recusa rota dinâmica vazia.
 - `relatos` e `divergencias` **estão implementados e vazios**. Os componentes

@@ -7,7 +7,7 @@
     "resumo": "O fone mais vendido da Amazon Brasil. O anúncio promete 24 horas; o fone sozinho entrega 6, e as outras 18 dependem de você levar o estojo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/philips-tat1109.png",
+      "src": "/produtos/philips-tat1109.webp",
       "alt": "Fone Philips TAT1109 preto, par de fones ao lado do estojo de carregamento",
       "credito": "Imagem: Philips",
       "origem": "https://www.philips.com.br/c-p/TAT1109BK_00/fones-ouvido-true-wireless-serie-1000"
@@ -54,7 +54,7 @@
     "resumo": "O único da base com cancelamento ativo declarado: 42 dB. Também o de maior autonomia entre os TWS, com 10 horas no fone e 45 com o estojo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/soundcore-p30i.png",
+      "src": "/produtos/soundcore-p30i.webp",
       "alt": "Fone soundcore P30i com estojo de carregamento aberto",
       "credito": "Imagem: soundcore",
       "origem": "https://www.soundcore.com/products/soundcore-p30i"
@@ -101,7 +101,7 @@
     "resumo": "Irmão mais simples do P30i: mesmo driver de 10 mm, sem cancelamento ativo. A listagem da Amazon só dá o total de 30 horas; a página da soundcore separa: 10h30 no fone.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/soundcore-p20i.png",
+      "src": "/produtos/soundcore-p20i.webp",
       "alt": "Fone soundcore P20i com estojo de carregamento e cordão",
       "credito": "Imagem: soundcore",
       "origem": "https://www.soundcore.com/products/p20i"
@@ -156,7 +156,7 @@
     "resumo": "On-ear com o maior driver e a maior autonomia da base: 33 mm e 76 horas sem depender de estojo nenhum. Cinco minutos na tomada rendem cinco horas; a carga completa leva cerca de duas.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/jbl-tune-530bt.png",
+      "src": "/produtos/jbl-tune-530bt.webp",
       "alt": "Fone JBL Tune 530BT preto, visto de lado",
       "credito": "Imagem: JBL",
       "origem": "https://www.jbl.com/TUNE530BT.html"
@@ -209,6 +209,307 @@
         "url": "https://www.amazon.com.br/dp/B0GM1LSHQF",
         "tipo": "varejo",
         "oQueSaiuDaqui": "Drivers de 33 mm, até 76 horas de bateria, carga rápida de 5 min para 5 h, dois microfones beamforming, conexão multiponto e Bluetooth 6.0.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "philips-taue101",
+    "nome": "Philips TAUE101BK/00",
+    "marca": "Philips",
+    "modelo": "TAUE101BK/00",
+    "resumo": "O único com fio da base, e o mais barato. Driver de 14,2 mm — maior que o de qualquer TWS aqui — e sistema acústico aberto, que a Philips vende como conforto e que também deixa o som vazar.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philips-taue101.webp",
+      "alt": "Fone Philips TAUE101 com fio, preto",
+      "credito": "Imagem: Philips",
+      "origem": "https://www.philips.com.br/c-p/TAUE101BK_00"
+    },
+    "specs": {
+      "formato": "Intra-auricular com fio (1,2 m)",
+      "driverMm": 14.2,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": null,
+      "horasTotal": null,
+      "tempoCargaH": null,
+      "cargaRapida": null,
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": "Botão de chamada no cabo",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": ["bluetoothVersao", "codecs", "multiponto", "horasFone", "horasTotal", "tempoCargaH", "cargaRapida"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B084S6BCJN"
+    },
+    "fontes": [
+      {
+        "id": "amazon-taue101",
+        "titulo": "Philips TAUE101BK/00 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B084S6BCJN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Drivers de 14,2 mm de neodímio, cabo de 1,2 m com alívio de tensão, microfone integrado com botão de chamada e sistema acústico aberto.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "philips-tah2300",
+    "nome": "Philips TAH2300BK/00",
+    "marca": "Philips",
+    "modelo": "TAH2300BK/00",
+    "resumo": "Over-ear de 55 horas com carga completa em 2 h por USB-C. O isolamento é passivo — a listagem fala em bloquear ruído, mas não há cancelamento ativo. O tamanho do driver não é informado.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philips-tah2300.webp",
+      "alt": "Headphone Philips TAH2300 over-ear preto",
+      "credito": "Imagem: Philips",
+      "origem": "https://www.philips.com.br/c-p/TAH2300BK_00"
+    },
+    "specs": {
+      "formato": "Over-ear (cobre a orelha), dobrável",
+      "driverMm": null,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": 55,
+      "horasTotal": null,
+      "tempoCargaH": 2,
+      "cargaRapida": null,
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": "Botão físico; toque duplo ativa o Extra Bass",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": ["horasTotal"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FJMHMCBZ"
+    },
+    "fontes": [
+      {
+        "id": "amazon-tah2300",
+        "titulo": "Philips TAH2300BK/00 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FJMHMCBZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Até 55 h de bateria, carga completa em 2 h por USB-C, modo Extra Bass por toque duplo, isolamento passivo e design dobrável. Não informa o diâmetro do driver.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "philips-tah2209",
+    "nome": "Philips TAH2209",
+    "marca": "Philips",
+    "modelo": "TAH2209",
+    "resumo": "On-ear de 25 horas que conecta em dois aparelhos ao mesmo tempo e carrega em 2 h. A listagem da Amazon não diz o formato; a página da Philips diz. O tamanho do driver ninguém informa.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philips-tah2209.webp",
+      "alt": "Headphone Philips TAH2209 preto",
+      "credito": "Imagem: Philips",
+      "origem": "https://www.philips.com.br/c-p/TAH2209BK_00"
+    },
+    "specs": {
+      "formato": "On-ear (apoia sobre a orelha), dobrável",
+      "driverMm": null,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": true,
+      "horasFone": 25,
+      "horasTotal": null,
+      "tempoCargaH": 2,
+      "cargaRapida": "15 min rendem 1 h",
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": ["horasTotal"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F5BQGVJM"
+    },
+    "fontes": [
+      {
+        "id": "philips-tah2209-oficial",
+        "titulo": "2000 series Fones de ouvido auriculares wireless TAH2209BK/00 — Philips Brasil",
+        "url": "https://www.philips.com.br/c-p/TAH2209BK_00",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Classificação oficial como fone auricular (on-ear), no título da página do produto.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-tah2209",
+        "titulo": "Philips TAH2209 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F5BQGVJM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Até 25 h de reprodução, carga completa em 2 h por USB-C, 15 min para 1 h extra, conexão com dois aparelhos ao mesmo tempo, almofadas de espuma de memória, dobrável e microfone com redução de ruído.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "philips-tat1209",
+    "nome": "Philips TAT1209BK/00",
+    "marca": "Philips",
+    "modelo": "TAT1209BK/00",
+    "resumo": "O irmão menor do TAT1109: mesmas 6 horas no fone, estojo menor de 12 horas, 18 no total. Mesmo IPX4 e a mesma carga rápida de 15 minutos.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philips-tat1209.webp",
+      "alt": "Fone Philips TAT1209 preto com estojo",
+      "credito": "Imagem: Philips",
+      "origem": "https://www.philips.com.br/c-p/TAT1209BK_00"
+    },
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": null,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": 6,
+      "horasTotal": 18,
+      "tempoCargaH": null,
+      "cargaRapida": "15 min rendem 1 h",
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": "IPX4",
+      "pesoG": null,
+      "controles": "Toque",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CS3RHBZQ"
+    },
+    "fontes": [
+      {
+        "id": "amazon-tat1209",
+        "titulo": "Philips TAT1209BK/00 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CS3RHBZQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "IPX4, 6 h de reprodução no fone e 12 h adicionais no estojo, carga rápida de 15 min para 1 h e controles por toque.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "huawei-freebuds-se-2",
+    "nome": "Huawei FreeBuds SE 2",
+    "marca": "Huawei",
+    "modelo": "FreeBuds SE 2",
+    "resumo": "O único da base que declara o peso: 3,8 g por fone. Nove horas no fone, 40 com o estojo, e a carga rápida mais generosa entre os TWS — 10 minutos rendem 3 horas. A ficha oficial da Huawei é a mais completa da categoria.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/huawei-freebuds-se-2.webp",
+      "alt": "Fone Huawei FreeBuds SE 2 com estojo de carregamento",
+      "credito": "Imagem: Huawei",
+      "origem": "https://consumer.huawei.com/br/headphones/freebuds-se-2/"
+    },
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": null,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": "5.3",
+      "codecs": "SBC e AAC (a página escreve \"CAA\")",
+      "multiponto": null,
+      "horasFone": 9,
+      "horasTotal": 40,
+      "tempoCargaH": 1,
+      "cargaRapida": "10 min rendem 3 h",
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": "IP54",
+      "pesoG": 3.8,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D45QCBF7"
+    },
+    "fontes": [
+      {
+        "id": "huawei-freebuds-se2-oficial",
+        "titulo": "Especificações do HUAWEI FreeBuds SE 2 — HUAWEI Brasil",
+        "url": "https://consumer.huawei.com/br/headphones/freebuds-se-2/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Peso de 3,8 ± 0,2 g por fone e 33 ± 1 g do estojo, dimensões de fone e estojo, bateria de 41 mAh por fone e 510 mAh no estojo, 9 h de música por carga e 40 h com o estojo, 5 h de chamada, carga do fone no estojo em cerca de 60 min e do estojo em cerca de 110 min, Bluetooth 5.3 e formatos SBC e AAC.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-freebuds-se2",
+        "titulo": "Huawei FreeBuds SE 2 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D45QCBF7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "3,8 g por fone, até 9 h de audição no fone e 40 h com o estojo, IP54, 10 min de carga para 3 h de música e Bluetooth 5.3.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "philips-taq2000",
+    "nome": "Philips TAQ2000BK/00",
+    "marca": "Philips",
+    "modelo": "TAQ2000BK/00",
+    "resumo": "Formato aberto que prende na borda da orelha e deixa você ouvir a rua. Sete horas no fone e 28 no total, modo de baixa latência para jogos e ajustes pelo aplicativo.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philips-taq2000.webp",
+      "alt": "Fone Philips TAQ2000 ear-clip aberto, preto",
+      "credito": "Imagem: Philips",
+      "origem": "https://www.philips.com.br/c-p/TAQ2000BK_00"
+    },
+    "specs": {
+      "formato": "Ear-clip aberto (prende na orelha, sem vedar)",
+      "driverMm": null,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": 7,
+      "horasTotal": 28,
+      "tempoCargaH": null,
+      "cargaRapida": "15 min rendem 1 h",
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": "IPX4",
+      "pesoG": null,
+      "controles": "Toque, personalizáveis pelo aplicativo; toque triplo ativa baixa latência",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FBH7YK3Y"
+    },
+    "fontes": [
+      {
+        "id": "amazon-taq2000",
+        "titulo": "Philips TAQ2000BK/00 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FBH7YK3Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Design aberto ear-clip com drivers direcionais, 7 h no fone e 21 h no estojo, carga rápida de 15 min para 1 h, modo de baixa latência por toque triplo, IPX4 e personalização por aplicativo.",
         "consultadaEm": "2026-09-14"
       }
     ]

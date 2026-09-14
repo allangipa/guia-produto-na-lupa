@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "amazon:sync": "node scripts/amazon-sync.mjs",
-    "amazon:simular": "node scripts/amazon-sync.mjs --simular"
+    "amazon:simular": "node scripts/amazon-sync.mjs --simular",
+    "imagens": "node scripts/imagens.mjs"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "@types/node": "^26.5.1",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "sharp": "^0.35.4",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
   },
