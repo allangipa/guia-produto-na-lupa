@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "amazon:sync": "node scripts/amazon-sync.mjs",
+    "amazon:simular": "node scripts/amazon-sync.mjs --simular"
   },
   "keywords": [],
   "author": "",

@@ -22,6 +22,7 @@ import { Fontes } from "@/components/fontes";
 import { LojaCta } from "@/components/loja-cta";
 import { Divulgacao } from "@/components/divulgacao";
 import { Icone } from "@/components/icones";
+import { PrecoAmazon } from "@/components/preco-amazon";
 import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -105,7 +106,7 @@ export default async function PaginaProduto({ params }: Params) {
       <div className="mt-4 grid gap-6 lg:grid-cols-[1fr_1.05fr] lg:items-start">
         <div className="painel overflow-hidden">
           <MidiaProduto produto={p} prioridade razao="aspect-[4/3]" />
-          {!p.imagem && (
+          {!p.imagem && !p.amazon?.imagens?.grande && (
             <p className="border-t border-linha px-4 py-2.5 text-[0.78rem] text-tinta-suave">
               Silhueta em escala real, desenhada a partir das dimensões oficiais.
               Sem foto licenciada até a API da loja liberar.
@@ -151,6 +152,8 @@ export default async function PaginaProduto({ params }: Params) {
               );
             })}
           </ul>
+
+          <PrecoAmazon dados={p.amazon} />
 
           <LojaCta lojas={p.lojas} produto={p.nome} posicao="veredito" />
 

@@ -3,3 +3,6 @@ node_modules
 out
 .env.local
 next-env.d.ts
+# Gerado por scripts/amazon-sync.mjs no build. Nunca commitar: o simulado é
+# fictício e o real muda todo dia.
+dados/amazon/

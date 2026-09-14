@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Preço da Amazon só pode ficar no ar com consulta recente: republica todo
+  # dia às 06:00 UTC (03:00 em Brasília). Sem credenciais, a etapa é no-op e o
+  # deploy diário só reconstrói o mesmo site.
+  schedule:
+    - cron: "0 6 * * *"
 
 permissions:
   contents: read
@@ -26,6 +31,14 @@ jobs:
           cache: npm
 
       - run: npm ci
+
+      # Sincroniza foto, preço e link dos produtos pela Creators API. Enquanto
+      # os dois secrets não existirem, o script apenas avisa e sai com 0.
+      - run: node scripts/amazon-sync.mjs
+        env:
+          AMAZON_CLIENT_ID: ${{ secrets.AMAZON_CLIENT_ID }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.AMAZON_CLIENT_SECRET }}
+          AMAZON_PARTNER_TAG: ${{ vars.NEXT_PUBLIC_AMAZON_TAG }}
 
       - run: npm run build
         env:

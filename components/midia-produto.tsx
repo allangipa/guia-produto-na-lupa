@@ -33,12 +33,31 @@ export function MidiaProduto({
   razao?: string;
 }) {
   const img = produto.imagem;
+  const amazon = produto.amazon;
+  const imgAmazon = amazon?.imagens?.grande ?? amazon?.imagens?.media ?? null;
 
   return (
     <div
       className={`relative ${razao} w-full overflow-hidden bg-superficie`}
     >
-      {img ? (
+      {imgAmazon ? (
+        <>
+          {/* Imagem licenciada pela Creators API, servida do CDN da Amazon —
+              hotlink é o uso previsto pela licença; não se copia o arquivo.
+              <img> puro porque o site é estático e não otimiza imagem. */}
+          <img
+            src={imgAmazon.url}
+            alt={amazon?.titulo ?? produto.nome}
+            width={imgAmazon.largura ?? undefined}
+            height={imgAmazon.altura ?? undefined}
+            loading={prioridade ? "eager" : "lazy"}
+            className="absolute inset-0 h-full w-full object-contain p-4"
+          />
+          <span className="absolute bottom-1.5 right-2 rounded bg-papel/85 px-1.5 py-0.5 text-[0.62rem] text-tinta-suave backdrop-blur">
+            {amazon?.origem === "simulacao" ? "imagem simulada" : "Imagem: Amazon"}
+          </span>
+        </>
+      ) : img ? (
         <>
           <Image
             src={img.src}

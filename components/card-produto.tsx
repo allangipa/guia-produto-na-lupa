@@ -10,6 +10,7 @@ import {
 } from "@/lib/specs";
 import { MidiaProduto } from "@/components/midia-produto";
 import { Icone } from "@/components/icones";
+import { PrecoAmazon } from "@/components/preco-amazon";
 
 /**
  * O card de produto — home, buscador, prateleiras.
@@ -84,6 +85,8 @@ export function CardProduto({
             );
           })}
         </ul>
+
+        <PrecoAmazon dados={produto.amazon} compacto />
 
         <div className="mt-auto flex items-center justify-between gap-2 pt-3.5 text-[0.75rem]">
           <span className="text-tinta-suave">{faixa.rotulo}</span>

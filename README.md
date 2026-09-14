@@ -116,6 +116,28 @@ pronta para upload no Gerenciador de Arquivos da Hostinger.
    com loja, produto e posição do botão — é o que mostra qual CTA converte.
 5. Cadastrar o sitemap no Search Console.
 
+## Foto e preço pela Creators API da Amazon
+
+A integração já está no repositório, desligada até a Amazon liberar o acesso
+(exige 10 vendas qualificadas nos últimos 30 dias).
+
+```bash
+npm run amazon:simular   # gera dados fictícios em dados/amazon/ para ver a interface
+npm run amazon:sync      # real: precisa de AMAZON_CLIENT_ID e AMAZON_CLIENT_SECRET
+```
+
+Para ligar em produção:
+
+1. Em Associates Central → Ferramentas → Creators API, gere as credenciais.
+2. No GitHub: Settings → Secrets and variables → Actions → **Secrets**, crie
+   `AMAZON_CLIENT_ID` e `AMAZON_CLIENT_SECRET`.
+3. Rode o workflow (ou espere o próximo push). A etapa "amazon-sync" passa a
+   gravar `dados/amazon/<ASIN>.json`, e o build mostra foto licenciada e preço
+   com horário da consulta em todo produto que tiver `lojas.amazon`.
+
+O workflow também roda todo dia às 06:00 UTC para o preço nunca ficar mais de
+24 h sem consulta. `dados/amazon/` não vai para o git.
+
 ## Fontes
 
 Carregadas por `<link>` do Google Fonts em `app/layout.tsx`: Fraunces (títulos),

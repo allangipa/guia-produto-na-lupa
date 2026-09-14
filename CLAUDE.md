@@ -187,6 +187,19 @@ confunde com documento sem folha de estilo.
   das primeiras vendas; até lá, nada de preço em texto.
 - O rodapé carrega a declaração exigida pelo contrato: "Como Associado da
   Amazon, … recebe por compras qualificadas". Não remover nem parafrasear.
+- **Integração com a Creators API está pronta e desligada.**
+  `scripts/amazon-sync.mjs` lê os ASINs de `dados/*.json`, chama `getItems`
+  (OAuth via Login with Amazon, `x-marketplace: www.amazon.com.br`, lotes de
+  10) e grava `dados/amazon/<ASIN>.json`; `lib/produtos.ts` anexa o resultado
+  em `produto.amazon`, e mídia, card e ficha passam a mostrar foto licenciada
+  (hotlink do CDN da Amazon) e preço com horário da consulta. O workflow chama
+  o script antes do build e roda também todo dia às 06:00 UTC. **Para ligar:**
+  criar os secrets `AMAZON_CLIENT_ID` e `AMAZON_CLIENT_SECRET` no GitHub.
+  Sem eles, o script sai com 0 e nada muda. A pasta `dados/amazon/` é
+  ignorada pelo git; `npm run amazon:simular` gera dados fictícios marcados
+  para testar a interface, e o script recusa `--simular` em CI. Acesso à API
+  exige 10 vendas qualificadas nos últimos 30 dias; cota inicial 1 req/s e
+  8.640/dia.
 - Falta ligar analytics. O evento `clique_afiliado` já dispara com loja, produto e
   posição do botão, pronto para Plausible ou GA4.
 - Falta cadastrar o sitemap no Search Console.

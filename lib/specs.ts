@@ -59,6 +59,44 @@ export type Relato = {
  */
 export type ValorSpec = string | number | boolean | null;
 
+/**
+ * O que a Creators API da Amazon devolve para um ASIN, já normalizado por
+ * `scripts/amazon-sync.mjs`. Tudo opcional: a API só manda o que foi pedido, e
+ * produto sem oferta não tem preço.
+ *
+ * `origem: "simulacao"` marca dado fictício gerado para testar a interface —
+ * a interface o exibe com aviso, e o script se recusa a gerá-lo em CI.
+ */
+export type ImagemAmazon = {
+  url: string;
+  largura: number | null;
+  altura: number | null;
+};
+
+export type DadosAmazon = {
+  asin: string;
+  titulo: string | null;
+  marca: string | null;
+  /** Link da página do produto, já com a tag de afiliado. */
+  url: string | null;
+  imagens: {
+    pequena: ImagemAmazon | null;
+    media: ImagemAmazon | null;
+    grande: ImagemAmazon | null;
+  };
+  preco: {
+    valor: number | null;
+    moeda: string;
+    exibicao: string | null;
+  } | null;
+  disponivel: boolean | null;
+  caracteristicas: string[];
+  pesoDeclarado: string | null;
+  /** ISO. Preço só pode ser exibido com o horário da consulta. */
+  consultadoEm: string;
+  origem: "creators-api" | "simulacao";
+};
+
 export type Produto = {
   slug: string;
   nome: string;
@@ -87,6 +125,8 @@ export type Produto = {
    * deixaria de medir o que se propõe a medir.
    */
   naoSeAplica?: string[];
+  /** Anexado na leitura da base, quando existe sincronização da Amazon. */
+  amazon?: DadosAmazon;
   atualizadoEm: string;
 };
 
