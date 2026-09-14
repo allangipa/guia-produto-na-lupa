@@ -29,29 +29,30 @@ da Hostinger e fica como está.
 `public/.nojekyll` é obrigatório: sem ele o Pages ignora a pasta `_next` e o site
 sobe sem CSS.
 
-Repositório local em `C:\Users\allan\OneDrive\Documentos\GitHub\guia-produto-na-lupa`.
-Fica dentro do OneDrive — confira `git fetch` antes de editar, sob risco de a cópia
-local estar atrás do remoto.
+Repositório local em
+`C:\Users\allan\GitHub\Site Guia Produto na Lupa\guia-produto-na-lupa`.
+**Fora do OneDrive desde 14/09/2026**, e é para continuar assim.
 
-**O OneDrive disputa os arquivos de build com o `npm run build`.** Ele abre para
-upload os arquivos que o Next acabou de escrever em `out/` e `.next/`, e o Next
-falha com `EBUSY` ao tentar apagá-los na etapa de export. Verificado em
-14/09/2026 pelo Restart Manager do Windows: o dono do handle era o processo do
-OneDrive, não o Defender nem um `node` esquecido. O alvo muda a cada build, o
-que descarta culpa de um arquivo específico.
+O motivo, registrado para ninguém tentar voltar atrás: dentro do OneDrive o
+`npm run build` falhava de forma intermitente com `EBUSY`. O OneDrive abria para
+upload os arquivos que o Next acabava de escrever em `out/` e `.next/`, e o Next
+quebrava ao tentar apagá-los na etapa de export. Confirmado pelo Restart Manager
+do Windows: o dono do handle era o processo do OneDrive, e o arquivo travado
+mudava a cada build — disputa de sincronização, não arquivo defeituoso.
+Apontar `out/` para fora com `New-Item -ItemType Junction` também não resolve:
+o OneDrive desfaz o ponto de reparo ao reiniciar e traz a pasta de volta para
+dentro da sincronização. Testado e descartado.
 
-- **Não adianta junção.** Apontar `out/` para fora do OneDrive com
-  `New-Item -ItemType Junction` funciona até o OneDrive reiniciar: ele desfaz o
-  ponto de reparo e materializa a pasta de volta dentro da sincronização.
-  Testado e descartado.
-- **O que funciona hoje:** fechar o OneDrive antes de buildar
-  (`& "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /shutdown`), apagar
-  `out/` e `.next/` ao terminar para não deixar nada para ele pegar, e religar.
-- **O deploy não é afetado**, porque quem builda de verdade é o GitHub Actions.
-  O `out/` local serve só para conferir o HTML gerado.
-- **A solução de raiz é tirar o repositório do OneDrive.** Resolve isto e também
-  o risco de cópia local atrasada acima — o Git passa a ser o único
-  sincronizador, que é o papel dele.
+A pasta tem espaços no caminho. Em PowerShell, use `-LiteralPath` e aspas; o
+Git aceita o caminho entre aspas normalmente.
+
+Ao lado do repositório, na mesma pasta `Site Guia Produto na Lupa`, está o
+material inicial de 13/09/2026 — zips, artes da marca e o scaffold do Next, 102
+arquivos, sem `.git`. É arquivo morto, não é cópia de trabalho. Não editar nada
+ali achando que é o site.
+
+Sai daqui um risco antigo de brinde: a cópia local não fica mais atrás do
+remoto por causa de sincronização de nuvem. O Git é o único sincronizador.
 
 ## Estrutura de conteúdo
 
