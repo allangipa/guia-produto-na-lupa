@@ -8,7 +8,7 @@
     "resumo": "Pré-venda aberta, nas lojas em 18/09. Chip A20 Pro, câmera principal de 48 MP com abertura variável e teleobjetiva de 4x. A Apple declara 34 horas de vídeo — e, como sempre, não declara mAh, RAM nem garantia na ficha.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/iphone-18-pro.png",
+      "src": "/produtos/iphone-18-pro.webp",
       "alt": "iPhone 18 Pro visto de trás, com o módulo de três câmeras",
       "credito": "Imagem: Apple",
       "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
@@ -69,7 +69,7 @@
     "resumo": "O mesmo iPhone 18 Pro em 6,9 polegadas: mesmo chip, mesmas câmeras, 43 horas de vídeo declaradas contra 34 — e 249 gramas, o mais pesado da linha depois do Duo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/iphone-18-pro.png",
+      "src": "/produtos/iphone-18-pro.webp",
       "alt": "iPhone 18 Pro Max visto de trás, com o módulo de três câmeras",
       "credito": "Imagem: Apple",
       "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
@@ -130,7 +130,7 @@
     "resumo": "O iPhone de entrada da linha atual: mesma tela de 6,3\" a 120 Hz do 18 Pro, chip A19, duas câmeras de 48 MP sem teleobjetiva, 30 horas de vídeo e USB 2 — a porta de 480 Mb/s que o Pro deixou para trás.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/iphone-17.png",
+      "src": "/produtos/iphone-17.webp",
       "alt": "iPhone 17 visto de trás, com o módulo de duas câmeras",
       "credito": "Imagem: Apple",
       "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-17"
@@ -183,7 +183,7 @@
     "resumo": "O mais fino da linha: 5,64 mm e 165 g em titânio. Paga por isso na ficha: uma câmera traseira só, 27 horas de vídeo, carga sem fio de 20 W, USB 2 e nenhum chip físico — só eSIM.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/iphone-air.png",
+      "src": "/produtos/iphone-air.webp",
       "alt": "iPhone Air visto de trás, com uma câmera única na barra superior",
       "credito": "Imagem: Apple",
       "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
@@ -236,7 +236,7 @@
     "resumo": "O primeiro iPhone dobrável: 7,6\" aberto, 5,4\" fechado, Touch ID no botão lateral e só eSIM. Pré-venda em 16/10, nas lojas em 23/10. As 44 horas de vídeo são na tela externa; na interna, a Apple declara 31.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
-      "src": "/produtos/iphone-duo.png",
+      "src": "/produtos/iphone-duo.webp",
       "alt": "iPhone Duo aberto, mostrando a tela interna dobrável e a tela externa",
       "credito": "Imagem: Apple",
       "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-duo"

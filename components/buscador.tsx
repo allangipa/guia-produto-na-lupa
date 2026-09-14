@@ -152,7 +152,7 @@ export function Buscador({
     /* Trilho de filtro à esquerda, resultados à direita — o arranjo de qualquer
        ferramenta de busca séria. Empilhado, o filtro empurrava os produtos para
        baixo da dobra, que é onde eles menos servem. */
-    <div className="mt-10 grid gap-8 lg:grid-cols-[17.5rem_1fr] lg:items-start">
+    <div className="mt-10 grid gap-8 lg:grid-cols-[15.5rem_1fr] lg:items-start">
       <aside className="painel p-5 lg:sticky lg:top-32">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
           <h2 className="titulo-ui text-lg">Filtrar</h2>
@@ -171,7 +171,7 @@ export function Buscador({
           <legend className="float-left w-full pb-2 text-[0.72rem] uppercase tracking-[0.08em] text-tinta-suave">
             Marca
           </legend>
-          <div className="flex flex-wrap gap-2">
+          <div className="clear-both flex flex-wrap gap-2">
             {marcas.map((m) => (
               <button
                 key={m}
@@ -190,7 +190,11 @@ export function Buscador({
           <legend className="float-left w-full pb-3 text-[0.72rem] uppercase tracking-[0.08em] text-tinta-suave">
             Limites
           </legend>
-          <div className="grid gap-3">
+          {/* `clear-both` nos três blocos: a legenda é flutuante para
+              ocupar a linha inteira, e um contêiner flex/grid não desce
+              sozinho para baixo de um float — ele se espreme ao lado, com
+              largura zero, e o conteúdo vaza por cima dos cards. */}
+          <div className="clear-both grid gap-3">
             {camposFaixa.map((campo) => (
               <label key={campo.chave} className="grid gap-1">
                 <span className="text-[0.82rem] leading-tight text-tinta-suave">
@@ -226,7 +230,7 @@ export function Buscador({
           <legend className="float-left w-full pb-2 text-[0.72rem] uppercase tracking-[0.08em] text-tinta-suave">
             Só com
           </legend>
-          <div className="flex flex-wrap gap-2">
+          <div className="clear-both flex flex-wrap gap-2">
             {camposBooleanos.map((campo) => (
               <button
                 key={campo.chave}
@@ -287,7 +291,10 @@ export function Buscador({
         </label>
       </div>
 
-      <ul className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {/* Três colunas só a partir de xl: com o trilho do site e o de filtro
+          lado a lado, em 1024 px sobram ~350 px para os cards, e três deles
+          nesse espaço viram tiras de 100 px. */}
+      <ul className="mt-4 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {resultado.map((p) => (
           <li key={p.slug} className="flex flex-col gap-2">
             <CardProduto produto={p} campos={campos} />
