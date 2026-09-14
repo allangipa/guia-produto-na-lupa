@@ -64,14 +64,13 @@ export default function Home() {
         />
         <div className="relative">
           <span className="pastilha">Comparação de fichas oficiais</span>
-          <h1 className="mt-3 max-w-[22ch] font-titulo text-[1.9rem] leading-[1.1] tracking-tight sm:text-[2.4rem]">
-            Compare o que cada fabricante declara — e veja o que ele deixa de
-            fora.
+          <h1 className="mt-3 max-w-[20ch] font-titulo text-[1.9rem] leading-[1.1] tracking-tight sm:text-[2.4rem]">
+            Compare fichas técnicas oficiais, lado a lado.
           </h1>
           <p className="mt-3 max-w-[54ch] text-[0.95rem] text-tinta-suave">
-            Especificações oficiais lado a lado, na mesma unidade. O que falta na
-            ficha fica marcado, campo por campo, e vira a nota de transparência
-            de cada produto.
+            Especificações declaradas pelo fabricante, na mesma unidade, para
+            decidir com dados. Cada produto ganha uma nota de transparência:
+            quanto da ficha a marca realmente publica.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <Link

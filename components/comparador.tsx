@@ -120,7 +120,7 @@ export function Comparador({
       {escolhidos.length === 0 && (
         <p className="mt-8 text-tinta-suave">
           Marque dois ou mais produtos acima. A tabela realça quem ganha em cada
-          linha e mostra em cinza o que cada fabricante deixa de informar.
+          linha e mostra em cinza os campos que a marca não publica.
         </p>
       )}
 

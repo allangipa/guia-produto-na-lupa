@@ -13,7 +13,7 @@ export const site = {
   editor: {
     nome: "Guia Produto na Lupa",
     resumo:
-      "Publicação independente que compara fichas técnicas oficiais e reúne o que os fabricantes deixam de informar.",
+      "Publicação independente que compara fichas técnicas oficiais, na mesma unidade, e mede a transparência de cada fabricante.",
     contato: "contato@guiaprodutonalupa.com.br",
     url: "/sobre",
   },

@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `Comparar ${c.nome.toLowerCase()}`,
-    description: `Compare lado a lado a ficha técnica oficial de ${c.nome.toLowerCase()}, com o que cada fabricante deixa de informar.`,
+    description: `Compare lado a lado a ficha técnica oficial de ${c.nome.toLowerCase()}, na mesma unidade, com a transparência de cada marca medida campo por campo.`,
     alternates: { canonical: `/comparar/${c.slug}` },
   };
 }
