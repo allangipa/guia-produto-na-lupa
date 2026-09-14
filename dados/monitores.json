@@ -174,6 +174,20 @@
         "oQueSaiuDaqui": "\"Ajuste de altura\" nas características especiais, 5 ms, 54,1 × 17,5 × 42,9 cm e 1 ano — o ajuste de altura não aparece na ficha da Samsung e por isso não foi adotado.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/samsung-s3-24-120hz-2.webp",
+        "alt": "Monitor Essential S3 de 24 polegadas visto de frente em leve ângulo, sobre a base em pé único",
+        "credito": "Imagem: Samsung",
+        "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-24-fhd-120hz-hdmi-dp-s3/p"
+      },
+      {
+        "src": "/produtos/samsung-s3-24-120hz-3.webp",
+        "alt": "Monitor Essential S3 visto de perfil, mostrando a espessura do painel e a haste da base",
+        "credito": "Imagem: Samsung",
+        "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-24-fhd-120hz-hdmi-dp-s3/p"
+      }
     ]
   },
   {
@@ -241,6 +255,20 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Consumo de 59 W, 2 HDMI e ajuste de altura — os dois últimos divergem do fabricante (1 HDMI, nenhum ajuste declarado). A listagem diz \"2,73 × 7,1 × 5,34 metros\" — erro evidente, ignorado.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/samsung-odyssey-g5-32-2.webp",
+        "alt": "Monitor Odyssey G5 de 32 polegadas visto de cima, mostrando a curvatura da tela",
+        "credito": "Imagem: Samsung",
+        "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-32-polegadas/p"
+      },
+      {
+        "src": "/produtos/samsung-odyssey-g5-32-3.webp",
+        "alt": "Monitor Odyssey G5 de 32 polegadas visto de frente em leve ângulo, com a tela curva ligada",
+        "credito": "Imagem: Samsung",
+        "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-32-polegadas/p"
       }
     ]
   },
