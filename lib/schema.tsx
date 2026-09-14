@@ -21,6 +21,11 @@ export function schemaReview(r: Review) {
     name: r.produto.nome,
     brand: { "@type": "Brand", name: r.produto.marca },
     description: r.produto.linhaResumo,
+    // O Google não exibe rich result de produto sem imagem. Sai do ar junto
+    // com a foto quando a análise ainda não tem uma licenciada.
+    ...(r.produto.imagem
+      ? { image: `${site.url}${r.produto.imagem.src}` }
+      : {}),
     ...(ofertas.length
       ? {
           offers: {
@@ -40,14 +45,26 @@ export function schemaReview(r: Review) {
       name: r.titulo,
       datePublished: r.publicadoEm,
       dateModified: r.atualizadoEm,
-      author: { "@type": "Person", name: site.autor.nome },
-      publisher: { "@type": "Organization", name: site.nome },
+      // Autoria é da publicação, não de uma pessoa: ninguém aqui teve o produto
+      // na mão, e assinar com nome próprio sugeriria experiência que não houve.
+      author: { "@type": "Organization", name: site.editor.nome, url: site.url },
+      publisher: { "@type": "Organization", name: site.nome, url: site.url },
       reviewRating: {
         "@type": "Rating",
         ratingValue: r.nota,
         bestRating: 10,
         worstRating: 0,
       },
+      // As páginas oficiais que sustentam a análise, declaradas ao buscador.
+      ...(r.fontes?.length
+        ? {
+            citation: r.fontes.map((f) => ({
+              "@type": "WebPage",
+              name: f.titulo,
+              url: f.url,
+            })),
+          }
+        : {}),
       positiveNotes: {
         "@type": "ItemList",
         itemListElement: r.pros.map((p, i) => ({

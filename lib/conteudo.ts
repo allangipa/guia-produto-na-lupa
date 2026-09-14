@@ -13,11 +13,38 @@ export type Criterio = {
   comentario: string;
 };
 
+/**
+ * Página oficial de onde o dado saiu. O site não testa produto: a única coisa
+ * que separa uma análise daqui de uma cópia da loja é o leitor poder conferir
+ * cada número na origem. Por isso `fontes` é obrigatório e o build quebra sem ele.
+ */
+export type Fonte = {
+  titulo: string;
+  url: string;
+  /** O que especificamente foi tirado desta página. */
+  oQueSaiuDaqui: string;
+  /** Data da consulta, ISO. Ficha técnica muda sem aviso. */
+  consultadaEm: string;
+};
+
+/**
+ * Imagem só entra com licença conhecida: press kit do fabricante, Product
+ * Advertising API da Amazon ou banco com licença aberta. Crédito e origem são
+ * obrigatórios porque foto de produto é obra protegida — salvar do Google
+ * Imagens é infração, e nas lojas ainda viola os termos do programa de afiliado.
+ */
+export type Imagem = {
+  src: string;
+  alt: string;
+  credito: string;
+  origem: string;
+};
+
 export type Produto = {
   nome: string;
   marca: string;
   linhaResumo: string;
-  imagem?: string;
+  imagem?: Imagem;
   lojas: Loja;
 };
 
@@ -36,8 +63,9 @@ export type Review = {
   naoPara: string[];
   pros: string[];
   contras: string[];
-  /** O que não foi possível verificar. A lacuna fica escrita; nunca se preenche com estimativa. */
+  /** O que o fabricante não informa. A lacuna fica escrita; nunca se preenche com estimativa. */
   lacunas: string[];
+  fontes: Fonte[];
   corpo: string;
 };
 
@@ -53,6 +81,7 @@ export type Comparativo = {
   linhas: { criterio: string; valores: string[] }[];
   vencedores: { perfil: string; produto: string; porque: string }[];
   lacunas: string[];
+  fontes: Fonte[];
   corpo: string;
 };
 
@@ -77,6 +106,7 @@ export type Guia = {
     lojas: Loja;
   }[];
   lacunas: string[];
+  fontes: Fonte[];
   corpo: string;
 };
 

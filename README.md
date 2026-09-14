@@ -35,7 +35,9 @@ Cada peça de conteúdo declara `categoria:` no frontmatter. As categorias vivem
 
 | Quero mudar | Arquivo |
 | --- | --- |
-| Nome, URL, autor, ID de afiliado | `lib/site.ts` e `.env.local` |
+| Nome, URL, contato, ID de afiliado | `lib/site.ts` e `.env.local` |
+| Fontes oficiais de uma peça | bloco `fontes:` no frontmatter do `.mdx` |
+| Foto de produto e crédito | `produto.imagem` no frontmatter + `components/foto-produto.tsx` |
 | Cores, fontes, tipografia do texto | `app/globals.css` (bloco `@theme`) |
 | Escrever uma análise | `content/reviews/<slug>.mdx` |
 | Escrever um comparativo | `content/comparativos/<slug>.mdx` |
@@ -105,13 +107,14 @@ pronta para upload no Gerenciador de Arquivos da Hostinger.
 ## Antes de publicar de verdade
 
 1. Trocar o conteúdo de demonstração em `content/` (produtos fictícios).
-2. Escrever `/sobre` em primeira pessoa, com foto real. É a página que mais pesa
-   em confiança e em E-E-A-T.
+2. Criar de verdade a caixa `contato@guiaprodutonalupa.com.br`. Ela já está
+   publicada em `/sobre`, em `/metodologia` e no rodapé de toda análise, e é o
+   único canal de correção de um site que não tem autor-pessoa.
 3. Preencher `NEXT_PUBLIC_AMAZON_TAG` e conferir no painel do Mercado Livre a
    janela de cookie vigente — as fontes públicas se contradizem (24 h e 30 dias).
 4. Ligar um analytics (Plausible ou GA4). O evento `clique_afiliado` já dispara
    com loja, produto e posição do botão — é o que mostra qual CTA converte.
-5. Hospedar na Vercel, apontar o domínio e cadastrar o sitemap no Search Console.
+5. Cadastrar o sitemap no Search Console.
 
 ## Fontes
 

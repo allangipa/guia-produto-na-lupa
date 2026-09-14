@@ -1,8 +1,14 @@
 # Guia Produto na Lupa — contexto do projeto
 
 Site de análises de tecnologia e acessórios, monetizado por afiliados da Amazon e
-do Mercado Livre. Dono e autor: Allan Vitor. Irmão do viagemnalupa.com.br, que é
-HTML estático puro e compartilha a mesma família tipográfica.
+do Mercado Livre. Irmão do viagemnalupa.com.br, que é HTML estático puro e
+compartilha a mesma família tipográfica.
+
+**O site não testa produtos e não tem autor-pessoa.** Allan é o dono, mas não
+aparece no site: nada é assinado com nome próprio, não há foto dele, e nenhuma
+página diz ou sugere que alguém usou o produto. A autoria é da publicação
+(`Organization` no JSON-LD, `site.editor` em `lib/site.ts`). Toda análise nasce
+da documentação oficial do fabricante — ficha técnica, manual, termos de garantia.
 
 No ar em https://guiaprodutonalupa.com.br
 
@@ -36,7 +42,7 @@ local estar atrás do remoto.
 /comparativos/<slug>   duelo direto, vencedor definido por perfil
 /reviews/<slug>        análise individual
 /metodologia           critérios de nota e como o site ganha dinheiro
-/sobre                 quem escreve (ainda com texto placeholder)
+/sobre                 o que o site é, o método e o que ele não faz
 ```
 
 Fluxo pretendido: a busca chega pelo guia, o guia manda para o comparativo ou a
@@ -51,17 +57,32 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 
 ## Regras editoriais (inegociáveis)
 
-- **A lacuna fica escrita.** Dado não verificado vai para o campo `lacunas`, nunca
-  vira estimativa com cara de teste. Mesma regra do viagemnalupa.
-- **Nunca inventar uso ou medição.** Só afirmar o que veio de uso real do Allan,
-  de dado do fabricante (identificado como promessa) ou de padrão repetido de
-  reclamação de compradores.
+- **Nunca afirmar uso, teste ou medição.** Ninguém aqui teve o produto na mão.
+  Está proibido escrever "usei", "testamos", "no uso", "depois de três semanas",
+  "confirmado na prática" ou qualquer variação. Se um texto só faz sentido para
+  quem tocou no produto, ele não pode existir neste site.
+- **Todo dado sai de uma fonte listada.** Cada peça declara `fontes:` no
+  frontmatter — página oficial, manual ou termos de garantia, com URL, o que
+  saiu de lá e a data da consulta. O campo é obrigatório: sem ele o build quebra.
+- **Número de fabricante é promessa, não fato.** Escrever "a marca declara X",
+  nunca "o produto faz X".
+- **A lacuna fica escrita.** O que a documentação oficial não informa vai para
+  `lacunas` e aparece como "O que o fabricante não informa". Num site que não
+  testa, essa seção é o produto editorial — é o único lugar com trabalho que o
+  fabricante não fez por nós. Nunca preencher com estimativa.
+- **Imagem só com licença conhecida.** Press kit do fabricante, Product
+  Advertising API da Amazon ou banco com licença aberta. O tipo `Imagem` exige
+  `credito` e `origem` para que não exista caminho fácil. Foto salva da página da
+  loja ou do Google Imagens é infração de direito autoral e, nas lojas, violação
+  dos termos do programa de afiliado.
 - Contras antes dos prós, no mesmo peso visual.
 - Toda análise tem "não compre se você" — o veredito de exclusão é o que dá
   autoridade.
 - Sem preço em texto: a Amazon só autoriza exibir preço via Product Advertising
   API, com horário da consulta.
 - Nota editorial de 0 a 10 por critério ponderado, documentada em `/metodologia`.
+  Os critérios avaliam só o que a documentação oficial permite julgar — não
+  existe nota de durabilidade real, desempenho real ou conforto.
 
 ## Regras técnicas de afiliado
 
@@ -92,9 +113,14 @@ não loja.
 
 - Conteúdo hoje é só demonstração, com produtos fictícios: um review, um
   comparativo e um guia, todos na categoria `energia`. **Apagar antes de publicar
-  de verdade.**
-- `/sobre` está com texto placeholder e precisa ser escrito em primeira pessoa,
-  com foto real — é o que mais pesa em E-E-A-T.
+  de verdade.** Servem como referência do formato: frontmatter com `fontes`,
+  texto sem afirmação de uso e lacunas do que o fabricante omite.
+- `contato@guiaprodutonalupa.com.br` está publicado em `/sobre`, `/metodologia` e
+  no rodapé de toda análise. **A caixa precisa existir de verdade** — é o único
+  canal de correção de um site sem autor-pessoa, e endereço morto derruba a
+  credibilidade que o resto da estrutura tenta construir.
+- Nenhuma análise tem imagem ainda. O suporte está pronto (`produto.imagem` +
+  `components/foto-produto.tsx`), esperando press kit de fabricante real.
 - Não se inscrever no Amazon Associates antes de ter de cinco a dez análises
   reais: o programa avalia o site no cadastro e exige vendas qualificadas em
   prazo depois da aprovação.

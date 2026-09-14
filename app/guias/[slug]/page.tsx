@@ -8,6 +8,7 @@ import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
+import { Fontes } from "@/components/fontes";
 import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -94,6 +95,8 @@ export default async function PaginaGuia({ params }: Params) {
           </div>
         ))}
       </section>
+
+      <Fontes itens={g.fontes} />
     </article>
   );
 }

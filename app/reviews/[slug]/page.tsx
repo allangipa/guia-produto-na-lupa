@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { review, todosOsReviews, dataLegivel } from "@/lib/conteudo";
+import { site } from "@/lib/site";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { VereditoRapido, EscalaCriterios } from "@/components/veredito";
 import { ProsContras, Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
+import { FotoProduto } from "@/components/foto-produto";
+import { Fontes } from "@/components/fontes";
 import { JsonLd, schemaReview, schemaBreadcrumb } from "@/lib/schema";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -64,6 +67,10 @@ export default async function PaginaReview({ params }: Params) {
         </p>
       </header>
 
+      {r.produto.imagem && (
+        <FotoProduto imagem={r.produto.imagem} prioridade />
+      )}
+
       <VereditoRapido nota={r.nota} para={r.para} naoPara={r.naoPara} />
 
       <LojaCta
@@ -89,11 +96,21 @@ export default async function PaginaReview({ params }: Params) {
 
       <Lacunas itens={r.lacunas} />
 
+      <Fontes itens={r.fontes} />
+
       <footer className="mt-14 border-t border-linha pt-8 text-[0.95rem] text-tinta-suave">
         <p className="max-w-[62ch]">
           Publicada em {dataLegivel(r.publicadoEm)} e revisada em{" "}
-          {dataLegivel(r.atualizadoEm)}. Encontrou algo desatualizado ou usa esse
-          produto e discorda? Escreva — a correção entra com crédito.
+          {dataLegivel(r.atualizadoEm)}. Ficha técnica muda sem aviso: se algo
+          aqui não bate mais com a página oficial, ou se você usa esse produto e
+          a sua experiência foi outra, escreva para{" "}
+          <a
+            href={`mailto:${site.editor.contato}`}
+            className="underline decoration-linha underline-offset-4 hover:decoration-acao"
+          >
+            {site.editor.contato}
+          </a>
+          . A correção entra com crédito.
         </p>
       </footer>
     </article>
