@@ -1384,7 +1384,6 @@ const ROTULO_CURTO: Record<string, string> = {
   lavaLoucas: "Lava-louças",
   pesoKg: "Peso",
   telaPol: "Tela",
-  taxaHz: "Tela",
   brilhoPicoNits: "Brilho",
   memoriaRamGb: "RAM",
   armazenamento: "Espaço",
