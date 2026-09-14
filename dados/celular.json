@@ -59,6 +59,20 @@
         "oQueSaiuDaqui": "Pré-venda aberta e \"Disponível a partir de 18/09\".",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/iphone-18-pro-1.webp",
+        "alt": "iPhone 18 Pro e 18 Pro Max lado a lado, segurados por duas mãos, mostrando a diferença de tamanho entre os dois",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
+      },
+      {
+        "src": "/produtos/iphone-18-pro-2.webp",
+        "alt": "iPhone 18 Pro de frente e de costas na cor bordô, com o módulo de três câmeras à mostra",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
+      }
     ]
   },
   {
@@ -121,6 +135,20 @@
         "oQueSaiuDaqui": "Pré-venda aberta e \"Disponível a partir de 18/09\".",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/iphone-18-pro-1.webp",
+        "alt": "iPhone 18 Pro Max ao lado do 18 Pro, segurados por duas mãos, com o Max à direita",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
+      },
+      {
+        "src": "/produtos/iphone-18-pro-2.webp",
+        "alt": "iPhone 18 Pro Max de frente e de costas na cor bordô, com o módulo de três câmeras à mostra",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-18-pro"
+      }
     ]
   },
   {
@@ -174,6 +202,20 @@
         "oQueSaiuDaqui": "Tela de 6,3\" 2622 × 1206, ProMotion até 120 Hz, 3.000 nits, chip A19, 256/512 GB, câmeras de 48 MP, frontal de 18 MP, 30 h de vídeo, carga de 50% em 20 min com 40 W, MagSafe 25 W, USB 2, IP68, 149,6 × 71,5 × 7,95 mm e 177 g. A página não declara mAh, RAM nem garantia.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/iphone-17-1.webp",
+        "alt": "iPhone 17 nas cinco cores, quatro de costas e um de frente, enfileirados",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-17"
+      },
+      {
+        "src": "/produtos/iphone-17-2.webp",
+        "alt": "iPhone 17 de frente e de costas na cor lavanda, com as duas câmeras à mostra",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-17"
+      }
     ]
   },
   {
@@ -226,6 +268,20 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Tela de 6,5\" 2736 × 1260, ProMotion até 120 Hz, 3.000 nits, chip A19 Pro, 256 GB a 1 TB, câmera única de 48 MP, frontal de 18 MP, 27 h de vídeo, carga de 50% em 30 min com 20 W, MagSafe 20 W, USB 2, só eSIM, IP68, 156,2 × 74,7 × 5,64 mm e 165 g. A página não declara mAh, RAM nem garantia.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/iphone-air-1.webp",
+        "alt": "iPhone Air nas quatro cores, três de costas e um de frente, enfileirados",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+      },
+      {
+        "src": "/produtos/iphone-air-2.webp",
+        "alt": "iPhone Air visto de lado, equilibrado entre dois dedos, mostrando a espessura de 5,64 mm",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
       }
     ]
   },
@@ -286,6 +342,20 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "\"Pré-venda a partir de 16/10, às 9h (BRT). Disponível a partir de 23/10\".",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/iphone-duo-1.webp",
+        "alt": "iPhone Duo aberto na horizontal, segurado por duas mãos, com a tela interna de 7,6 polegadas em uso",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-duo"
+      },
+      {
+        "src": "/produtos/iphone-duo-2.webp",
+        "alt": "iPhone Duo nas duas cores de costas e um terceiro aberto, mostrando a tela interna",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-duo"
       }
     ]
   },

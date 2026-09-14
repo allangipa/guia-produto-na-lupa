@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import {
   produto as buscarProduto,
   todosOsProdutos,
+  produtosDaCategoria,
   camposDa,
   transparencia,
   faixaTransparencia,
@@ -18,6 +19,8 @@ import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
 import { Divergencias } from "@/components/divergencias";
 import { Relatos } from "@/components/relatos";
 import { MidiaProduto } from "@/components/midia-produto";
+import { GaleriaProduto } from "@/components/galeria-produto";
+import { CardProduto } from "@/components/card-produto";
 import { Silhueta } from "@/components/silhueta";
 import { Fontes } from "@/components/fontes";
 import { LojaCta } from "@/components/loja-cta";
@@ -80,6 +83,19 @@ export default async function PaginaProduto({ params }: Params) {
     .map((chave) => campos.find((c) => c.chave === chave))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
 
+  // Relacionados = a mesma categoria, que é a única vizinhança em que a
+  // comparação deste site funciona: mesmos campos, mesma régua. A marca do
+  // produto aberto vem primeiro, porque "outro modelo da mesma marca" é a
+  // dúvida mais frequente de quem está numa ficha; o resto entra na ordem do
+  // arquivo. Cinco cabem numa fileira sem virar vitrine.
+  const daCategoria = produtosDaCategoria(p.categoria).filter(
+    (o) => o.slug !== p.slug,
+  );
+  const relacionados = [
+    ...daCategoria.filter((o) => o.marca === p.marca),
+    ...daCategoria.filter((o) => o.marca !== p.marca),
+  ].slice(0, 5);
+
   return (
     <article className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-6">
       <JsonLd
@@ -106,7 +122,14 @@ export default async function PaginaProduto({ params }: Params) {
 
       <div className="mt-4 grid gap-6 lg:grid-cols-[1fr_1.05fr] lg:items-start">
         <div className="painel overflow-hidden">
-          <MidiaProduto produto={p} prioridade razao="aspect-[4/3]" />
+          {/* Galeria só quando existe mais de uma foto oficial. Sem isso, o
+              MidiaProduto continua respondendo por foto única, imagem
+              licenciada da Amazon e silhueta — os três casos que ele já trata. */}
+          {p.imagem && p.galeria?.length ? (
+            <GaleriaProduto fotos={[p.imagem, ...p.galeria]} nome={p.nome} />
+          ) : (
+            <MidiaProduto produto={p} prioridade razao="aspect-[4/3]" />
+          )}
           {!p.imagem && !p.amazon?.imagens?.grande && (
             <p className="border-t border-linha px-4 py-2.5 text-[0.78rem] text-tinta-suave">
               Silhueta em escala real, desenhada a partir das dimensões oficiais.
@@ -229,6 +252,35 @@ export default async function PaginaProduto({ params }: Params) {
       <section className="painel mt-8 p-6">
         <Fontes itens={p.fontes} />
       </section>
+
+      {relacionados.length > 0 && cat && (
+        <section className="mt-12">
+          <h2 className="titulo-ui text-xl">
+            Outros {cat.nome.toLowerCase()} com ficha aberta
+          </h2>
+          <p className="mt-1 max-w-[62ch] text-[0.9rem] text-tinta-suave">
+            Mesma categoria, mesmos campos, mesma régua de transparência — é
+            isso que torna a comparação possível. A porcentagem mede quanto o
+            fabricante publica, não quanto o produto é bom.
+          </p>
+          <ul className="rolo mt-5 grid auto-cols-[14.5rem] grid-flow-col gap-3.5 overflow-x-auto pb-3 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
+            {relacionados.map((r) => (
+              <li key={r.slug}>
+                <CardProduto produto={r} campos={camposDa(r.categoria)} />
+              </li>
+            ))}
+          </ul>
+          <div className="mt-4 flex flex-wrap gap-2">
+            <Link href={`/comparar/${cat.slug}?p=${p.slug}`} className="pilula">
+              <Icone nome="comparar" className="h-3.5 w-3.5" />
+              Comparar com um destes
+            </Link>
+            <Link href={`/categorias/${cat.slug}`} className="pilula">
+              Ver a categoria inteira
+            </Link>
+          </div>
+        </section>
+      )}
     </article>
   );
 }

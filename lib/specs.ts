@@ -107,6 +107,18 @@ export type Produto = {
   specs: Record<string, ValorSpec>;
   lojas: Loja;
   imagem?: Imagem;
+  /**
+   * Fotos oficiais adicionais, na ordem em que aparecem na ficha depois de
+   * `imagem`. Mesma regra da principal: material do fabricante, com `credito` e
+   * `origem`, baixado da página dele — **nunca** da listagem de uma loja, que é
+   * infração de direito autoral e quebra do contrato de afiliado, mesmo quando
+   * a foto na loja é do próprio fabricante.
+   *
+   * Existe porque uma foto só não responde o que o comprador pergunta: como é
+   * de costas, quanto é fino, quantas cores existem. Fica fora do card, que
+   * continua com uma imagem só para a grade não dançar.
+   */
+  galeria?: Imagem[];
   fontes: Fonte[];
   /**
    * Campos confirmados por fonte independente: chave do campo → `id` das fontes.
