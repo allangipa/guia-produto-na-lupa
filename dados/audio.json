@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "philips-tat1109",
+    "nome": "Philips TAT1109BK/00",
+    "marca": "Philips",
+    "modelo": "TAT1109BK/00",
+    "resumo": "O fone mais vendido da Amazon Brasil. O anúncio promete 24 horas; o fone sozinho entrega 6, e as outras 18 dependem de você levar o estojo.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": 10,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": 6,
+      "horasTotal": 24,
+      "tempoCargaH": null,
+      "cargaRapida": "15 min rendem 1 h",
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": "IPX4",
+      "pesoG": null,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DVMQVVDY"
+    },
+    "fontes": [
+      {
+        "id": "amazon-tat1109",
+        "titulo": "Philips TAT1109BK/00 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DVMQVVDY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Drivers de 10 mm, 6 h de reprodução no fone e 18 h extras no estojo, carga rápida de 15 min para 1 h, resistência IPX4 e microfone com redução de ruído.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "soundcore-p30i",
+    "nome": "soundcore P30i",
+    "marca": "Anker",
+    "modelo": "A3959",
+    "resumo": "O único da base com cancelamento ativo declarado: 42 dB. Também o de maior autonomia entre os TWS, com 10 horas no fone e 45 com o estojo.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": 10,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": "5.4",
+      "codecs": null,
+      "multiponto": true,
+      "horasFone": 10,
+      "horasTotal": 45,
+      "tempoCargaH": null,
+      "cargaRapida": "10 min rendem 2 h",
+      "cancelamentoAtivo": true,
+      "reducaoDb": 42,
+      "protecaoAgua": "IP54",
+      "pesoG": null,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CRTYZG5C"
+    },
+    "fontes": [
+      {
+        "id": "soundcore-p30i-oficial",
+        "titulo": "soundcore P30i — página oficial do produto",
+        "url": "https://www.soundcore.com/products/soundcore-p30i",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Drivers de 10 mm, Bluetooth 5.4, redução de ruído de até 42 dB, 10 h de reprodução no fone e 45 h com o estojo, carga de 10 min para 2 h, resistência IP54, conexão multiponto e quatro microfones.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "soundcore-p20i",
+    "nome": "soundcore P20i",
+    "marca": "Anker",
+    "modelo": "A3944",
+    "resumo": "Irmão mais simples do P30i: mesmo driver de 10 mm, sem cancelamento ativo. O anúncio diz 30 horas, mas não separa o que é fone e o que é estojo.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": 10,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": "5.3",
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": null,
+      "horasTotal": 30,
+      "tempoCargaH": null,
+      "cargaRapida": "10 min rendem 2 h",
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": "IPX5",
+      "pesoG": null,
+      "controles": "Toque, personalizáveis pelo aplicativo",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BTYCRJSS"
+    },
+    "fontes": [
+      {
+        "id": "amazon-p20i",
+        "titulo": "soundcore P20i — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BTYCRJSS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Drivers dinâmicos de 10 mm, Bluetooth 5.3, 30 horas de bateria, carga rápida de 10 min para 2 h, resistência IPX5, dois microfones e controles personalizáveis pelo aplicativo. A página não separa quanto da autonomia é do fone e quanto é do estojo.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "jbl-tune-530bt",
+    "nome": "JBL Tune 530BT",
+    "marca": "JBL",
+    "modelo": "Tune 530BT",
+    "resumo": "Over-ear com o maior driver e a maior autonomia da base: 33 mm e 76 horas sem depender de estojo nenhum. Cinco minutos na tomada rendem cinco horas.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "formato": "Over-ear (cobre a orelha)",
+      "driverMm": 33,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": "6.0",
+      "codecs": null,
+      "multiponto": true,
+      "horasFone": 76,
+      "horasTotal": null,
+      "tempoCargaH": null,
+      "cargaRapida": "5 min rendem 5 h",
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": ["horasTotal"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GM1LSHQF"
+    },
+    "fontes": [
+      {
+        "id": "amazon-tune530bt",
+        "titulo": "JBL Tune 530BT — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GM1LSHQF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Drivers de 33 mm, até 76 horas de bateria, carga rápida de 5 min para 5 h, dois microfones beamforming, conexão multiponto e Bluetooth 6.0.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  }
+]

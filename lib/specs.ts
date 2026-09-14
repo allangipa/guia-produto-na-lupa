@@ -77,6 +77,16 @@ export type Produto = {
   confirmadoPor?: Record<string, string[]>;
   divergencias?: Divergencia[];
   relatos?: Relato[];
+  /**
+   * Campos que não se aplicam a este produto, pela natureza dele — não que o
+   * fabricante tenha deixado de informar.
+   *
+   * Fone over-ear não tem estojo de carga, então "bateria com o estojo" ali não
+   * é omissão: é pergunta sem sentido. Sem esta lista, a nota de transparência
+   * puniria o produto por não ter uma coisa que ele não pode ter, e a nota
+   * deixaria de medir o que se propõe a medir.
+   */
+  naoSeAplica?: string[];
   atualizadoEm: string;
 };
 
@@ -452,7 +462,9 @@ export function camposDa(categoria: string): Campo[] {
  * pontua baixo — e o leitor vê exatamente quais campos faltaram.
  */
 export function transparencia(p: Produto, campos: Campo[]) {
-  const avaliados = campos.filter((c) => c.contaTransparencia);
+  const avaliados = campos.filter(
+    (c) => c.contaTransparencia && !p.naoSeAplica?.includes(c.chave),
+  );
   const ausentes = avaliados.filter(
     (c) => p.specs[c.chave] === null || p.specs[c.chave] === undefined,
   );
