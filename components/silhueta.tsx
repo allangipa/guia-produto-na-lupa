@@ -54,19 +54,11 @@ export function Silhueta({
         role="img"
         aria-label={`Silhueta em escala: ${a} por ${b} milímetros, comparada a um cartão de crédito`}
       >
-        {/* O cartão fica atrás, tracejado: é a régua, não o assunto. */}
-        <rect
-          x={margem}
-          y={vbA - margem - CARTAO.altura}
-          width={CARTAO.largura}
-          height={CARTAO.altura}
-          rx={3}
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={0.8}
-          strokeDasharray="3 2.5"
-          className="text-ausente"
-        />
+        {/* O produto vem primeiro, preenchido. O cartão vai por cima: quando o
+            produto é maior que ele nos dois lados — que é o caso comum — um
+            contorno desenhado por baixo desaparece sob o preenchimento, e a
+            escala deixa de existir. Foi exatamente o que aconteceu na primeira
+            versão deste componente. */}
         <rect
           x={margem}
           y={vbA - margem - b}
@@ -76,6 +68,26 @@ export function Silhueta({
           className="fill-realce stroke-acao"
           strokeWidth={1.4}
         />
+        <rect
+          x={margem}
+          y={vbA - margem - CARTAO.altura}
+          width={CARTAO.largura}
+          height={CARTAO.altura}
+          rx={3}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={1}
+          strokeDasharray="4 3"
+          className="text-tinta-suave"
+        />
+        <text
+          x={margem + 3}
+          y={vbA - margem - CARTAO.altura + 8}
+          className="fill-tinta-suave"
+          style={{ fontSize: 6.5, fontFamily: "var(--font-texto)" }}
+        >
+          cartão
+        </text>
       </svg>
 
       {rotulo && (
