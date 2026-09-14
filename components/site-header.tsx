@@ -16,8 +16,8 @@ import { indiceDeBusca } from "@/lib/indice";
  * pode custar uma rolagem inteira.
  */
 const ferramentas = [
-  { href: "/categorias/energia", rotulo: "Produtos" },
-  { href: "/comparar/energia", rotulo: "Comparar" },
+  { href: "/categorias/audio", rotulo: "Fones" },
+  { href: "/comparar/audio", rotulo: "Comparar" },
 ];
 
 const editorial = [
