@@ -109,6 +109,24 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 Uma única cor de ação no site inteiro: verde-petróleo `#0F6E6C`. Tinta `#14181B`,
 superfície `#F1F4F3`, linha `#DDE3E1`. Botão sólido só em CTA.
 
+Os papéis de cor são separados e não se misturam — a regra da cor única só
+funciona se nada além do CTA for verde:
+
+- `acao` / `acao-forte` — **exclusivas do CTA**. Vencedor de linha em tabela usa
+  `bg-realce` + peso, nunca cor de ação: dez marcas verdes num comparativo
+  apagam o único botão da página.
+- `ausente` — dado que o fabricante não publica. Neutro de propósito: ausência é
+  constatação sobre a documentação, não defeito do produto.
+- `atencao` — contras e divergência real entre fontes. Nunca para dado faltante.
+
+Modo escuro com três estados (sistema, claro, escuro) em `components/tema.tsx`.
+Os tokens mudam de valor, nunca de nome, para nenhum componente precisar saber
+em que tema está. O script anti-flash no `<head>` roda antes da primeira pintura.
+
+Duas larguras, e só duas: `--largura-prosa` (48rem) para texto corrido e
+`--largura-ferramenta` (72rem) para buscador, comparador e categoria. A classe
+`.dados` traz `tabular-nums`, sem o qual coluna de número não alinha as casas.
+
 Fraunces nos títulos, Archivo na interface, IBM Plex Mono nos números — as mesmas
 do viagemnalupa, de propósito, para os dois sites lerem como uma rede.
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Metodologia() {
   return (
-    <div className="mx-auto max-w-3xl px-5 py-12">
+    <div className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <h1 className="font-titulo text-3xl tracking-tight">Como avaliamos</h1>
       <div className="prosa mt-8">
         <p>

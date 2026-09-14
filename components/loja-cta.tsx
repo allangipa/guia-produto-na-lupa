@@ -47,7 +47,7 @@ export function LojaCta({ lojas, produto, posicao }: Props) {
             rel="sponsored nofollow noopener"
             target="_blank"
             onClick={() => registrarClique("amazon", produto, posicao)}
-            className={`${base} bg-acao text-papel hover:bg-acao-escura`}
+            className={`${base} bg-acao text-papel hover:bg-acao-forte`}
           >
             Ver preço na Amazon
           </a>
@@ -58,7 +58,7 @@ export function LojaCta({ lojas, produto, posicao }: Props) {
             rel="sponsored nofollow noopener"
             target="_blank"
             onClick={() => registrarClique("mercadolivre", produto, posicao)}
-            className={`${base} border border-acao text-acao-escura hover:bg-acao hover:text-papel`}
+            className={`${base} border border-acao text-acao-forte hover:bg-acao hover:text-papel`}
           >
             Ver no Mercado Livre
           </a>

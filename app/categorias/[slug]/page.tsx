@@ -71,8 +71,11 @@ export default async function PaginaCategoria({ params }: Params) {
   const vazio =
     !guias.length && !reviews.length && !comparativos.length && !produtos.length;
 
+  // Página de categoria é ferramenta, tenha ou não produtos hoje: a largura não
+  // pode dançar conforme a base cresce. Os blocos de texto seguem presos em 62
+  // caracteres, que é o que mantém a leitura confortável numa página larga.
   return (
-    <div className={produtos.length ? "mx-auto max-w-5xl px-5 py-12" : "mx-auto max-w-3xl px-5 py-12"}>
+    <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-12">
       <h1 className="font-titulo text-3xl tracking-tight">{c.nome}</h1>
       <p className="mt-3 max-w-[62ch] text-lg text-tinta-suave">{c.descricao}</p>
       <p className="mt-4 max-w-[62ch] border-l-[3px] border-acao pl-4 text-tinta-suave">

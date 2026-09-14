@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Sobre() {
   return (
-    <div className="mx-auto max-w-3xl px-5 py-12">
+    <div className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <h1 className="font-titulo text-3xl tracking-tight">
         O que este site é
       </h1>

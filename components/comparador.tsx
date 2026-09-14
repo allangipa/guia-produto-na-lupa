@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { Fragment, useMemo, useState, useEffect } from "react";
 import Link from "next/link";
@@ -119,8 +119,8 @@ export function Comparador({
 
       {escolhidos.length === 0 && (
         <p className="mt-8 text-tinta-suave">
-          Marque dois ou mais produtos acima. A tabela destaca quem ganha em cada
-          linha e mostra, em vermelho, o que cada fabricante deixa de informar.
+          Marque dois ou mais produtos acima. A tabela realça quem ganha em cada
+          linha e mostra em cinza o que cada fabricante deixa de informar.
         </p>
       )}
 
@@ -138,7 +138,7 @@ export function Comparador({
                     <th key={p.slug} className="py-3 pl-4 text-left align-bottom">
                       <Link
                         href={`/produtos/${p.slug}`}
-                        className="font-titulo text-base leading-snug hover:text-acao-escura"
+                        className="font-titulo text-base leading-snug hover:text-acao-forte"
                       >
                         {p.nome}
                       </Link>
@@ -179,17 +179,20 @@ export function Comparador({
                           return (
                             <td
                               key={p.slug}
-                              className={`py-3 pl-4 align-top ${
-                                ausente
-                                  ? "text-atencao"
-                                  : ganha.includes(i)
-                                    ? "font-medium text-acao-escura"
-                                    : ""
+                              className={`dados denso py-3 pl-4 align-top ${
+                                ausente ? "text-ausente" : ""
+                              } ${
+                                // O vencedor é marcado por peso e realce, nunca
+                                // pela cor de ação: verde é do CTA, e dez marcas
+                                // verdes numa tabela apagam o único botão.
+                                ganha.includes(i)
+                                  ? "bg-realce font-semibold"
+                                  : ""
                               }`}
                             >
                               {valorLegivel(valor, campo)}
                               {ganha.includes(i) && ganha.length === 1 && (
-                                <span className="ml-1.5 font-dado text-[0.7rem] uppercase tracking-wide">
+                                <span className="ml-1.5 text-[0.7rem] uppercase tracking-wide text-tinta-suave">
                                   melhor
                                 </span>
                               )}

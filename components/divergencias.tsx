@@ -61,11 +61,11 @@ export function Divergencias({
                     :
                   </dt>
                   <dd
-                    className={`font-dado ${adotadoAusente ? "text-atencao" : ""}`}
+                    className={`dados ${adotadoAusente ? "text-ausente" : ""}`}
                   >
                     {valorLegivel((specs[d.campo] ?? null) as never, campo)}
                     {!adotadoAusente && (
-                      <span className="ml-2 text-[0.75rem] uppercase tracking-wide text-acao-escura">
+                      <span className="ml-2 rounded border border-linha px-1.5 py-0.5 text-[0.7rem] uppercase tracking-wide text-tinta-suave">
                         adotado
                       </span>
                     )}

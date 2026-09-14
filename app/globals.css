@@ -1,25 +1,81 @@
 @import "tailwindcss";
 
+/**
+ * Os papéis de cor são separados de propósito.
+ *
+ * A regra original do projeto — uma única cor de ação no site inteiro — só
+ * funciona se nada além do CTA for verde. Quando o site ganhou tabela
+ * comparativa, o verde começou a marcar também o vencedor de cada linha, e um
+ * comparativo de quinze critérios passou a ter dez marcas verdes competindo com
+ * o botão. Por isso o vencedor agora é marcado por peso e por um realce neutro,
+ * sem cor de ação, e "não informa" ganhou tom próprio: ausência de dado é
+ * constatação sobre a documentação, não alerta sobre o produto.
+ */
 @theme {
-  /* Papel claro e neutro: o produto é a única coisa colorida na página. */
   --color-papel: #ffffff;
   --color-superficie: #f1f4f3;
+  --color-realce: #e7eeec;
   --color-tinta: #14181b;
   --color-tinta-suave: #5c666b;
   --color-linha: #dde3e1;
 
-  /* Uma única cor de ação no site inteiro. Se só ela é verde, não precisa piscar. */
+  /* Exclusiva do CTA. Se só o botão é verde, ele não precisa piscar. */
   --color-acao: #0f6e6c;
-  --color-acao-escura: #0a4f4e;
+  --color-acao-forte: #0a4f4e;
+
+  /* Contras e risco real. Nunca para dado faltante. */
   --color-atencao: #9e3b2e;
+
+  /* Dado que o fabricante não publica. Neutro: não é defeito do produto. */
+  --color-ausente: #8a9299;
 
   --font-titulo: Fraunces, Georgia, serif;
   --font-texto: Archivo, ui-sans-serif, system-ui, sans-serif;
   --font-dado: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Duas larguras, e só duas: prosa lê em medida curta, ferramenta precisa de mesa. */
+  --largura-prosa: 48rem;
+  --largura-ferramenta: 72rem;
+}
+
+/**
+ * Modo escuro. O visitante que escolhe manda; sem escolha, vale o sistema.
+ * Os nomes dos tokens não mudam — só os valores — para que nenhum componente
+ * precise saber em que tema está.
+ */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    --color-papel: #10151a;
+    --color-superficie: #171e24;
+    --color-realce: #1e272e;
+    --color-tinta: #e6ecef;
+    --color-tinta-suave: #97a3ac;
+    --color-linha: #29333b;
+    --color-acao: #2f9d97;
+    --color-acao-forte: #5cc4bc;
+    --color-atencao: #d98274;
+    --color-ausente: #78838c;
+  }
+}
+
+:root[data-tema="escuro"] {
+  --color-papel: #10151a;
+  --color-superficie: #171e24;
+  --color-realce: #1e272e;
+  --color-tinta: #e6ecef;
+  --color-tinta-suave: #97a3ac;
+  --color-linha: #29333b;
+  --color-acao: #2f9d97;
+  --color-acao-forte: #5cc4bc;
+  --color-atencao: #d98274;
+  --color-ausente: #78838c;
 }
 
 html {
   scroll-behavior: smooth;
+  color-scheme: light dark;
+  /* O cabeçalho é fixo: âncora não pode parar embaixo dele. */
+  scroll-padding-top: 5rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -47,6 +103,24 @@ body {
   outline: 2px solid var(--color-acao);
   outline-offset: 3px;
   border-radius: 2px;
+}
+
+/**
+ * Escala de dados, separada da escala de prosa.
+ *
+ * Texto corrido pede 17px e entrelinha 1.65; ficha de quinze linhas na mesma
+ * respiração vira um rolo. `tabular-nums` é o que faz 20.000 e 1.500 alinharem
+ * as casas na coluna — sem isso, metade da razão de usar fonte mono se perde.
+ */
+.dados {
+  font-family: var(--font-dado);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+.denso {
+  font-size: 0.9375rem;
+  line-height: 1.5;
 }
 
 /* Prosa do corpo do review. Medida curta, hierarquia clara, sem enfeite. */
@@ -83,7 +157,7 @@ body {
   margin-top: 0.4rem;
 }
 .prosa a {
-  color: var(--color-acao-escura);
+  color: var(--color-acao-forte);
   text-decoration: underline;
   text-underline-offset: 3px;
 }

@@ -43,15 +43,13 @@ export function FichaSpecs({
                     )}
                   </dt>
                   <dd
-                    className={`font-dado text-[0.95rem] ${
-                      ausente ? "text-atencao" : ""
-                    }`}
+                    className={`dados text-[0.95rem] ${ausente ? "text-ausente" : ""}`}
                   >
                     {valorLegivel(valor, campo)}
                     {/* Só conta como confirmação o que veio de fonte que mediu
                         ou registrou por conta própria — varejo copia a marca. */}
                     {produto.confirmadoPor?.[campo.chave]?.length ? (
-                      <span className="ml-2 text-[0.75rem] uppercase tracking-wide text-acao-escura">
+                      <span className="ml-2 rounded border border-linha px-1.5 py-0.5 text-[0.7rem] uppercase tracking-wide text-tinta-suave">
                         confirmado
                       </span>
                     ) : null}
@@ -99,7 +97,7 @@ export function NotaTransparencia({
           <ul className="mt-3 space-y-2">
             {t.ausentes.map((c) => (
               <li key={c.chave} className="max-w-[62ch] text-[0.95rem]">
-                <span className="text-atencao">{c.rotulo}</span>
+                <span className="text-ausente">{c.rotulo}</span>
                 {c.ajuda && (
                   <span className="text-tinta-suave"> — {c.ajuda}</span>
                 )}

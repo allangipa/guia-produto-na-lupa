@@ -41,7 +41,7 @@ export default async function PaginaComparativo({ params }: Params) {
   });
 
   return (
-    <article className="mx-auto max-w-3xl px-5 py-12">
+    <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <header>
         <Divulgacao atualizadoEm={dataLegivel(c.atualizadoEm)} />
         <h1 className="mt-3 font-titulo text-3xl leading-[1.12] tracking-tight sm:text-4xl">

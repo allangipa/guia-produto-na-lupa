@@ -43,7 +43,7 @@ export default async function PaginaProduto({ params }: Params) {
   const cat = buscarCategoria(p.categoria);
 
   return (
-    <article className="mx-auto max-w-3xl px-5 py-12">
+    <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },

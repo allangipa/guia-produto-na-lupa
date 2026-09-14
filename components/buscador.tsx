@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
@@ -275,7 +275,7 @@ export function Buscador({
                 <div className="min-w-0">
                   <Link
                     href={`/produtos/${p.slug}`}
-                    className="font-titulo text-lg leading-snug hover:text-acao-escura"
+                    className="font-titulo text-lg leading-snug hover:text-acao-forte"
                   >
                     {p.nome}
                   </Link>
@@ -288,7 +288,7 @@ export function Buscador({
                         <dt>{c.rotulo}:</dt>
                         <dd
                           className={
-                            p.specs[c.chave] === null ? "text-atencao" : ""
+                            p.specs[c.chave] === null ? "text-ausente" : ""
                           }
                         >
                           {valorLegivel(p.specs[c.chave], c)}
@@ -351,7 +351,7 @@ export function Buscador({
             </button>
             <Link
               href={`/comparar/${categoria}?p=${selecionados.join(",")}`}
-              className="rounded bg-acao px-5 py-2.5 text-[0.95rem] font-medium text-papel hover:bg-acao-escura"
+              className="rounded bg-acao px-5 py-2.5 text-[0.95rem] font-medium text-papel hover:bg-acao-forte"
             >
               Comparar {selecionados.length === 1 ? "" : "os "}
               {selecionados.length}

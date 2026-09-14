@@ -36,12 +36,12 @@ export default async function PaginaComparar({ params }: Params) {
   if (!produtos.length) notFound();
 
   return (
-    <div className="mx-auto max-w-5xl px-5 py-12">
+    <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-12">
       <h1 className="font-titulo text-3xl tracking-tight">
         Comparar {c.nome.toLowerCase()}
       </h1>
       <p className="mt-3 max-w-[62ch] text-lg text-tinta-suave">
-        Ficha contra ficha, na mesma unidade. O que aparece em vermelho é o que o
+        Ficha contra ficha, na mesma unidade. O que aparece em cinza é o que o
         fabricante não publica — e conta tanto quanto o que ele publica.
       </p>
 

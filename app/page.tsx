@@ -13,7 +13,7 @@ export default function Home() {
   const guias = todosOsGuias();
 
   return (
-    <div className="mx-auto max-w-5xl px-5">
+    <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5">
       <section className="grid items-center gap-10 border-b border-linha py-14 sm:grid-cols-[1fr_16rem] sm:py-20">
         <div>
           <h1 className="max-w-[16ch] font-titulo text-4xl leading-[1.08] tracking-tight sm:text-5xl">
@@ -27,7 +27,7 @@ export default function Home() {
           <p className="mt-6">
             <Link
               href="/metodologia"
-              className="text-acao-escura underline underline-offset-4"
+              className="text-acao-forte underline underline-offset-4"
             >
               Como as notas são dadas
             </Link>
@@ -53,7 +53,7 @@ export default function Home() {
             {guias.map((g) => (
               <li key={g.slug}>
                 <Link href={`/guias/${g.slug}`} className="group block py-6">
-                  <span className="block font-titulo text-xl leading-snug group-hover:text-acao-escura">
+                  <span className="block font-titulo text-xl leading-snug group-hover:text-acao-forte">
                     {g.titulo}
                   </span>
                   <span className="mt-1 block max-w-[62ch] text-tinta-suave">
@@ -79,7 +79,7 @@ export default function Home() {
                   {r.nota.toFixed(1)}
                 </span>
                 <span>
-                  <span className="block font-titulo text-xl leading-snug group-hover:text-acao-escura">
+                  <span className="block font-titulo text-xl leading-snug group-hover:text-acao-forte">
                     {r.titulo}
                   </span>
                   <span className="mt-1 block max-w-[62ch] text-tinta-suave">
@@ -110,7 +110,7 @@ export default function Home() {
                 href={`/categorias/${c.slug}`}
                 className="group flex h-full flex-col rounded-xl border border-linha bg-superficie p-5 transition-colors hover:border-acao"
               >
-                <span className="font-titulo text-lg leading-snug group-hover:text-acao-escura">
+                <span className="font-titulo text-lg leading-snug group-hover:text-acao-forte">
                   {c.nome}
                 </span>
                 <span className="mt-2 text-[0.92rem] text-tinta-suave">
@@ -132,7 +132,7 @@ export default function Home() {
                   href={`/comparativos/${c.slug}`}
                   className="group block py-6"
                 >
-                  <span className="block font-titulo text-xl leading-snug group-hover:text-acao-escura">
+                  <span className="block font-titulo text-xl leading-snug group-hover:text-acao-forte">
                     {c.titulo}
                   </span>
                   <span className="mt-1 block max-w-[62ch] text-tinta-suave">

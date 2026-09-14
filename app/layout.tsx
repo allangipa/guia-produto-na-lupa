@@ -3,6 +3,7 @@ import "./globals.css";
 import { site } from "@/lib/site";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { scriptAntiFlash } from "@/components/tema";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -27,6 +28,8 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        {/* Antes de qualquer pintura: evita o flash branco de quem escolheu escuro. */}
+        <script dangerouslySetInnerHTML={{ __html: scriptAntiFlash }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

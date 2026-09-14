@@ -5,7 +5,7 @@ import { categorias } from "@/lib/categorias";
 export function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-linha bg-superficie">
-      <div className="mx-auto max-w-5xl space-y-6 px-5 py-10 text-sm text-tinta-suave">
+      <div className="mx-auto max-w-[var(--largura-ferramenta)] space-y-6 px-5 py-10 text-sm text-tinta-suave">
         <nav aria-label="Categorias">
           <ul className="flex flex-wrap gap-x-5 gap-y-2">
             {categorias.map((c) => (
