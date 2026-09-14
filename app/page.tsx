@@ -226,9 +226,17 @@ export default function Home() {
         </ul>
       </section>
 
+      {/*
+        O título era "Os mais vendidos em X" e foi corrigido em 14/09/2026:
+        a prateleira mostra cinco de dez, na ordem do arquivo, e em Celulares
+        os primeiros são lançamentos em pré-venda — chamar isso de "mais
+        vendidos" afirmava mais do que o dado sustenta. A seleção da base
+        sai mesmo do ranking da Amazon, e essa afirmação, com data e fonte,
+        vive na página da categoria e no guia, onde as fontes estão listadas.
+      */}
       {prateleiras.map(({ cat, itens }) => (
         <section key={cat.slug} className="mt-12">
-          <TituloSecao antes="Os mais vendidos em" destaque={cat.nome} href={`/categorias/${cat.slug}`} acao={`Ver os ${itens.length}`} sub={cat.dorPrincipal} />
+          <TituloSecao antes="Fichas de" destaque={cat.nome} href={`/categorias/${cat.slug}`} acao={`Ver as ${itens.length}`} sub={cat.dorPrincipal} />
           <ul className="rolo mt-5 grid auto-cols-[14.5rem] grid-flow-col gap-3.5 overflow-x-auto pb-3 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
             {itens.slice(0, 5).map((p) => (
               <li key={p.slug}>

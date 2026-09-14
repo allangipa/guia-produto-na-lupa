@@ -93,6 +93,16 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 - Nota editorial de 0 a 10 por critério ponderado, documentada em `/metodologia`.
   Os critérios avaliam só o que a documentação oficial permite julgar — não
   existe nota de durabilidade real, desempenho real ou conforto.
+- **"Mais vendido" é dado, não adjetivo.** A frase só pode aparecer onde o
+  ranking da Amazon consultado está escrito com data e fonte — hoje isso é o
+  subtítulo dos guias, que listam a lista e a data em `fontes`. Na home a
+  prateleira chama "Fichas de *Categoria*": ela mostra cinco de dez, na ordem
+  do arquivo, e em Celulares os primeiros são lançamentos em pré-venda, então
+  "os mais vendidos" ali afirmaria mais do que o dado sustenta. O título
+  errado esteve no ar entre o redesenho e a correção, no mesmo 14/09/2026.
+  Para voltar a usar a frase na home seria preciso gravar
+  `rankingAmazon { posicao, lista, consultadoEm }` em cada produto e ordenar
+  a prateleira por ele.
 
 ## Regras técnicas de afiliado
 
@@ -117,8 +127,8 @@ categoria em toda largura; **herói escuro** (`.faixa`) com o lançamento do
 momento — produto, datas do fabricante e CTA, sem carrossel e sem contagem;
 tira com a tese e três números; fileira de **categorias em círculo** com a
 foto do primeiro produto; uma prateleira por categoria (cinco cards, título
-"Os mais vendidos em *Categoria*" com a palavra em cor de ação e traço
-embaixo); tiles de **marcas que mais publicam a ficha**; rodapé **sólido
+"Fichas de *Categoria*" com a palavra em cor de ação e traço embaixo);
+tiles de **marcas que mais publicam a ficha**; rodapé **sólido
 em `acao-forte`**. O trilho lateral (estilo Mercado Livre) foi removido a
 pedido do Allan por duplicar os chips do cabeçalho; o conteúdo usa a
 largura inteira. O que a referência tem e aqui não entra: carrossel com
