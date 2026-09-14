@@ -291,10 +291,7 @@ export function Buscador({
         </label>
       </div>
 
-      {/* Três colunas só a partir de xl: com o trilho do site e o de filtro
-          lado a lado, em 1024 px sobram ~350 px para os cards, e três deles
-          nesse espaço viram tiras de 100 px. */}
-      <ul className="mt-4 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+      <ul className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {resultado.map((p) => (
           <li key={p.slug} className="flex flex-col gap-2">
             <CardProduto produto={p} campos={campos} />

@@ -3,7 +3,6 @@ import "./globals.css";
 import { site } from "@/lib/site";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { TrilhoDoSite } from "@/components/trilho-do-site";
 import { scriptAntiFlash } from "@/components/tema";
 
 export const metadata: Metadata = {
@@ -53,14 +52,11 @@ export default function RootLayout({
           Pular para o conteúdo
         </a>
         <SiteHeader />
-        {/* Trilho lateral no desktop, como o de departamentos das lojas; no
-            celular ele some e as pílulas do cabeçalho assumem. */}
-        <div className="mx-auto grid max-w-[calc(var(--largura-ferramenta)+16rem)] lg:grid-cols-[15rem_1fr] lg:gap-6 lg:px-5">
-          <TrilhoDoSite />
-          <main id="conteudo" className="min-w-0">
-            {children}
-          </main>
-        </div>
+        {/* Sem trilho lateral: os chips do cabeçalho são a navegação, em
+            toda largura, como na referência de loja. */}
+        <main id="conteudo" className="min-w-0">
+          {children}
+        </main>
         <SiteFooter />
       </body>
     </html>

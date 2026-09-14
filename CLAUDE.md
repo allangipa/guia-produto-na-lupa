@@ -119,7 +119,9 @@ tira com a tese e três números; fileira de **categorias em círculo** com a
 foto do primeiro produto; uma prateleira por categoria (cinco cards, título
 "Os mais vendidos em *Categoria*" com a palavra em cor de ação e traço
 embaixo); tiles de **marcas que mais publicam a ficha**; rodapé **sólido
-em `acao-forte`**. O que a referência tem e aqui não entra: carrossel com
+em `acao-forte`**. O trilho lateral (estilo Mercado Livre) foi removido a
+pedido do Allan por duplicar os chips do cabeçalho; o conteúdo usa a
+largura inteira. O que a referência tem e aqui não entra: carrossel com
 setas, "% OFF", preço riscado, contador. Página com fundo cinza-claro
 (`fundo`) e objetos brancos elevados sobre ele (`papel` + `.cartao`/`.painel`
 com sombra). As classes `.so-claro/.so-escuro` usam `display` e anulam o
