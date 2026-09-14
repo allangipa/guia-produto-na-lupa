@@ -98,6 +98,11 @@ export function SiteHeader() {
             </Link>
           </li>
           <li className="shrink-0">
+            <Link href="/transparencia" className="pilula">
+              Transparência
+            </Link>
+          </li>
+          <li className="shrink-0">
             <Link href="/metodologia" className="pilula">
               Como avaliamos
             </Link>

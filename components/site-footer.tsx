@@ -66,6 +66,7 @@ export function SiteFooter() {
             O site
           </p>
           <ul className="mt-3 space-y-2">
+            <li><Link href="/transparencia" className="hover:text-acao-forte">Ranking de transparência</Link></li>
             <li><Link href="/metodologia" className="hover:text-acao-forte">Como avaliamos</Link></li>
             <li><Link href="/sobre" className="hover:text-acao-forte">O que este site é</Link></li>
             <li><Link href="/privacidade" className="hover:text-acao-forte">Privacidade</Link></li>

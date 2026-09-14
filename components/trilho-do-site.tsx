@@ -41,6 +41,7 @@ export function TrilhoDoSite() {
     {
       titulo: "O site",
       itens: [
+        { href: "/transparencia", rotulo: "Ranking de transparência", icone: "escudo" },
         { href: "/metodologia", rotulo: "Como avaliamos", icone: "info" },
         { href: "/sobre", rotulo: "O que este site é", icone: "info" },
         { href: "/privacidade", rotulo: "Privacidade", icone: "escudo" },

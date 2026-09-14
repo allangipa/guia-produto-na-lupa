@@ -191,6 +191,12 @@ confunde com documento sem folha de estilo.
   só com a URL exata — mudar `wid`/`hei` dá 404. Pro Max usa a mesma foto do
   Pro. O Duo não tem ASIN ainda (pré-venda em 16/10); `lojas: {}` é aceito e o
   CTA some sozinho.
+- **`/transparencia`** é o ranking por marca: média das notas de transparência
+  dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
+  por categoria. Calculado no build a partir de `dados/*.json` — não tem
+  texto editorial por marca, de propósito: a nota mede documentação, não
+  produto, e a página repete isso. Linkado no trilho, no cabeçalho, no
+  rodapé e no sitemap.
 - **Lançamentos na home** vêm de `lib/lancamentos.ts`: produto da base em
   pré-venda, com datas declaradas pelo fabricante e a fonte escrita. Sem
   contagem regressiva. Quando a data de loja passar, tirar da lista — o

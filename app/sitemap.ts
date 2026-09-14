@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/guias",
     "/reviews",
     "/comparativos",
+    "/transparencia",
     "/metodologia",
     "/sobre",
     "/privacidade",
