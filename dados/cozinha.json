@@ -227,5 +227,346 @@
         "consultadaEm": "2026-09-14"
       }
     ]
+  },
+  {
+    "slug": "philco-paf40a",
+    "nome": "Philco Air Fryer Redstone 4 L PAF40A",
+    "marca": "Philco",
+    "modelo": "PAF40A",
+    "categoria": "cozinha",
+    "resumo": "A airfryer de entrada da Philco: 4 litros, 1500 W e dois botões giratórios. A página oficial diz analógica; a listagem da Amazon diz painel de toque e visor de vidro. Adotamos o fabricante.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philco-paf40a.webp",
+      "alt": "Airfryer Philco PAF40A preta, de cesto, compacta, com dois botões giratórios",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/fritadeira-air-fryer-paf40a-127v-053801089/p"
+    },
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 4,
+      "capacidadeUtilL": null,
+      "potenciaW": 1500,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": null,
+      "painel": "Analógico (botões giratórios)",
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "220 V",
+      "pesoKg": null,
+      "dimensoesMm": "313 × 306 × 310 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": ["funcoesPredefinidas"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DY3G3MJW"
+    },
+    "divergencias": [
+      {
+        "campo": "painel",
+        "fonteAdotada": "philco-paf40a-oficial",
+        "valorDivergente": "Toque, com visor de vidro",
+        "fonteDivergente": "amazon-paf40a",
+        "observacao": "A Philco classifica o controle como analógico. A listagem da Amazon diz \"método de controle: toque\" e cita um \"Visor Glass\" — texto que parece copiado do modelo PAF65. Adotamos o fabricante e deixamos o visor como não informado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philco-paf40a-oficial",
+        "titulo": "Philco PAF40A — página oficial do produto",
+        "url": "https://www.philco.com.br/fritadeira-air-fryer-paf40a-127v-053801089/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "4 L, 1500 W, controle analógico, temperatura de 80 a 200 graus, cesto antiaderente removível, timer, versões 127 V e 220 V e garantia de 360 dias. Sem dimensões, peso ou limite do timer.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-paf40a",
+        "titulo": "Philco PAF40A — página do produto na Amazon Brasil (220 V)",
+        "url": "https://www.amazon.com.br/dp/B0DY3G3MJW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Versão 220 V e dimensões de 31,3 × 30,6 × 31 cm. O tipo de painel e o visor da listagem divergem do fabricante e estão registrados como divergência.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-facilita-fry",
+    "nome": "Elgin Facilita Fry 3,5 L",
+    "marca": "Elgin",
+    "modelo": "42AFG3501000",
+    "categoria": "cozinha",
+    "resumo": "A menor e mais simples da base: 3,5 litros e 1400 W. A Elgin não lista o modelo no próprio site — a ficha inteira vem da listagem da Amazon, e por isso não há foto oficial.",
+    "atualizadoEm": "2026-09-14",
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 3.5,
+      "capacidadeUtilL": null,
+      "potenciaW": 1400,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": null,
+      "painel": null,
+      "visor": null,
+      "lavaLoucas": false,
+      "tensao": "110 V",
+      "pesoKg": null,
+      "dimensoesMm": "225 × 255 × 255 (P × L × A)",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DTVLLSD9"
+    },
+    "fontes": [
+      {
+        "id": "amazon-facilita-fry",
+        "titulo": "Elgin Facilita Fry 3,5 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DTVLLSD9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "3,5 L, 1400 W, versão 110 V, temperatura de 80 °C a 200 °C, timer de até 60 min com aviso sonoro, grelha removível, peças que não vão na lava-louças e 22,5 × 25,5 × 25,5 cm. A página de airfryers da Elgin (elgin.com.br) não lista este modelo.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "oster-ofrt520",
+    "nome": "Oster Fritadeira Inox Compact 4,6 L OFRT520",
+    "marca": "Oster",
+    "modelo": "OFRT520",
+    "categoria": "cozinha",
+    "resumo": "Cesto retangular de 4,6 litros pela Oster — a Amazon anuncia 4,96. Analógica, 1500 W, timer de 60 minutos e a mais leve da base com número declarado: 4,08 kg.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/oster-ofrt520.webp",
+      "alt": "Airfryer Oster OFRT520 preta com frente em inox, cesto retangular e dois botões giratórios",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/fritadeira-inox-compact-46l-oster/p"
+    },
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 4.6,
+      "capacidadeUtilL": null,
+      "potenciaW": 1500,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": null,
+      "painel": "Analógico (botões giratórios)",
+      "visor": null,
+      "lavaLoucas": false,
+      "tensao": "127 V",
+      "pesoKg": 4.08,
+      "dimensoesMm": "363 × 252 × 282 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": ["funcoesPredefinidas"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B72QZXCC"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTotalL",
+        "fonteAdotada": "oster-ofrt520-oficial",
+        "valorDivergente": "4,96 L",
+        "fonteDivergente": "amazon-ofrt520",
+        "observacao": "A Oster declara 4,6 L no nome e na ficha; a Amazon lista 4,96 L. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "oster-ofrt520-oficial",
+        "titulo": "Oster Fritadeira Inox Compact 4,6 L — página oficial do produto",
+        "url": "https://www.oster.com.br/fritadeira-inox-compact-46l-oster/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "4,6 L, 1500 W, versões 127 V e 220 V, ajuste de 80 a 200 graus, timer de 60 minutos, grelha removível, 252 × 282 × 363 mm, 4,080 kg e 12 meses de garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ofrt520",
+        "titulo": "Oster OFRT520 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B72QZXCC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Versão 127 V e peças que não vão na lava-louças. A capacidade da listagem (4,96 L) diverge do fabricante e está registrada como divergência.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "philco-paf65a",
+    "nome": "Philco Air Fryer Visor Glass 6,5 L PAF65A",
+    "marca": "Philco",
+    "modelo": "PAF65A",
+    "categoria": "cozinha",
+    "resumo": "A Philco de cesto com visor e painel digital: 6,5 litros, 1700 W e temperatura a partir de 40 °C — a única da base, com a Walita NA341 pela Amazon, que desce o suficiente para desidratar.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philco-paf65a.webp",
+      "alt": "Airfryer Philco PAF65A preta com acabamento inox, cesto com janela de vidro e painel digital",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/air-fryer-visor-glass-6-5l-1700w-paf65a/p"
+    },
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 6.5,
+      "capacidadeUtilL": null,
+      "potenciaW": 1700,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 40,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": 8,
+      "painel": "Digital (toque)",
+      "visor": true,
+      "lavaLoucas": null,
+      "tensao": "127 V",
+      "pesoKg": null,
+      "dimensoesMm": "302 × 284 × 305 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F99ZSRXH"
+    },
+    "fontes": [
+      {
+        "id": "philco-paf65a-oficial",
+        "titulo": "Philco PAF65A — página oficial do produto",
+        "url": "https://www.philco.com.br/air-fryer-visor-glass-6-5l-1700w-paf65a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "6,5 L, 1700 W, controle digital, temperatura de 40 °C a 200 °C, cesto e fundo removíveis, timer, versões 127 V e 220 V e garantia de 360 dias. Sem dimensões, peso ou limite do timer.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-paf65a",
+        "titulo": "Philco PAF65 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F99ZSRXH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Versão 127 V, painel digital com 8 funções, visor de vidro, timer de até 60 minutos, desligamento automático e 30,2 × 28,4 × 30,5 cm.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-afn-50",
+    "nome": "Mondial Grand Family Inox 5 L AFN-50-BI",
+    "marca": "Mondial",
+    "modelo": "AFN-50-BI",
+    "categoria": "cozinha",
+    "resumo": "A Mondial de cesto: 5 litros, 1900 W, analógica. A própria Mondial publica dois pesos e duas alturas em páginas diferentes; a Amazon publica um terceiro peso. A ficha adota a página do produto e registra o resto.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/mondial-afn-50.webp",
+      "alt": "Airfryer Mondial AFN-50-BI preta com painel em inox, cesto com dois botões giratórios",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/fritadeira-sem-oleo-air-fryer-5l-mondial-preto-inox-1900w-afn-50-bi/p"
+    },
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 5,
+      "capacidadeUtilL": null,
+      "potenciaW": 1900,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": null,
+      "painel": "Analógico (timer e temperatura)",
+      "visor": null,
+      "lavaLoucas": true,
+      "tensao": "220 V",
+      "pesoKg": 4.6,
+      "dimensoesMm": "360 × 285 × 330 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": ["funcoesPredefinidas"],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08HZFC8C2"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "mondial-afn-50-oficial",
+        "valorDivergente": "4,85 kg",
+        "fonteDivergente": "amazon-afn-50",
+        "observacao": "A página do produto na Mondial diz 4,6 kg; a tabela de \"Informações Técnicas\" da mesma página diz 5,250 kg; a Amazon diz 4,85 kg. Três números para o mesmo aparelho. Adotamos o texto da página do produto e deixamos a diferença registrada."
+      },
+      {
+        "campo": "lavaLoucas",
+        "fonteAdotada": "mondial-afn-50-oficial",
+        "valorDivergente": "Não",
+        "fonteDivergente": "amazon-afn-50",
+        "observacao": "A Mondial escreve \"pode usar na lava-louças\" na página do produto; a listagem da Amazon diz que não. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-afn-50-oficial",
+        "titulo": "Mondial AFN-50-BI — página oficial do produto",
+        "url": "https://www.mondial.com.br/fritadeira-sem-oleo-air-fryer-5l-mondial-preto-inox-1900w-afn-50-bi/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "5 L, 1900 W, 127 V ou 220 V, até 200 °C, timer de 60 minutos, aviso sonoro com desligamento automático, cesto na lava-louças, 33 × 28,5 × 36 cm (A × L × P) e 4,6 kg no texto da página, 1 ano de garantia. A tabela técnica da mesma página diz 36 × 36,5 × 36 cm e 5,250 kg.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-afn-50",
+        "titulo": "Mondial AFN-50-BI — página do produto na Amazon Brasil (220 V)",
+        "url": "https://www.amazon.com.br/dp/B08HZFC8C2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Versão 220 V, temperatura mínima de 80 °C e 36 × 28,5 × 33 cm. O peso (4,85 kg) e a lava-louças da listagem divergem do fabricante e estão registrados como divergência.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "wap-barbecue-digital",
+    "nome": "WAP Air Fryer Barbecue Digital 10 L",
+    "marca": "WAP",
+    "modelo": "FW009627",
+    "categoria": "cozinha",
+    "resumo": "Airfryer com chapa de churrasco: 10 litros, 12 funções e temperatura de 50 °C a 230 °C — a faixa mais larga da base. Também a mais pesada, com 10,4 kg, e a única com dois anos de garantia fora da Walita.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/wap-barbecue-digital.webp",
+      "alt": "Airfryer WAP Barbecue Digital preta e cinza, com tampa, painel digital e chapa de grelhar",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/fritadeira-eletrica-wap-air-fryer-barbecue-digital/p"
+    },
+    "specs": {
+      "formato": "Cesto com chapa (tampa superior)",
+      "capacidadeTotalL": 10,
+      "capacidadeUtilL": null,
+      "potenciaW": 1700,
+      "temperaturaMaxC": 230,
+      "temperaturaMinC": 50,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": 12,
+      "painel": "Digital",
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "220 V",
+      "pesoKg": 10.4,
+      "dimensoesMm": "400 × 410 × 288 (P × L × A)",
+      "garantiaMeses": 24
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CH5JQWHJ"
+    },
+    "fontes": [
+      {
+        "id": "wap-barbecue-oficial",
+        "titulo": "WAP Air Fryer Barbecue Digital — página oficial do produto",
+        "url": "https://loja.wap.ind.br/fritadeira-eletrica-wap-air-fryer-barbecue-digital/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "10 L, 1800 W em 127 V e 1700 W em 220 V, painel digital com 12 funções, timer de 1 a 60 min, temperatura de 50 a 230 °C, aviso sonoro e desligamento automático, antiaderente GreyStone, 40 × 41 × 28,8 cm, 10,4 kg líquidos, cabo de 0,8 m, tomada de 20 A (127 V) ou 10 A (220 V), 2 anos de garantia e acessórios (chapa, cesto, tampa, grelha, escova).",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-wap-barbecue",
+        "titulo": "WAP Air Fryer Barbecue Digital — página do produto na Amazon Brasil (220 V)",
+        "url": "https://www.amazon.com.br/dp/B0CH5JQWHJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Versão 220 V, 1700 W, 40 × 41 × 28,8 cm, 10,4 kg, garantia de 2 anos e código FW009627 — tudo igual ao fabricante.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
   }
 ]
