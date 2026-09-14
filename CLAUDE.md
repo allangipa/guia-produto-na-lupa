@@ -182,6 +182,19 @@ confunde com documento sem folha de estilo.
   catalogados não eram vendidos no Brasil; o esquema `camposEnergia` ficou em
   `lib/specs.ts`. Próximas categorias, na ordem da fila: tablets, periféricos,
   máquinas de lavar, casa conectada.
+- **Celulares** (`dados/celular.json`, esquema `camposCelular`) abriu em
+  14/09/2026 com a linha iPhone de 2026: 18 Pro, 18 Pro Max, 17, Air e Duo,
+  tudo das páginas de especificações da Apple Brasil (`apple.com/br/.../specs/`,
+  HTML estático — lê por fetch). `bateriaMah`, `memoriaRamGb` e `garantiaMeses`
+  contam para a transparência de propósito: a Apple nunca publica os três, e
+  isso é dado. Fotos vêm do Apple Store (`store.storeimages.cdn-apple.com`),
+  só com a URL exata — mudar `wid`/`hei` dá 404. Pro Max usa a mesma foto do
+  Pro. O Duo não tem ASIN ainda (pré-venda em 16/10); `lojas: {}` é aceito e o
+  CTA some sozinho.
+- **Lançamentos na home** vêm de `lib/lancamentos.ts`: produto da base em
+  pré-venda, com datas declaradas pelo fabricante e a fonte escrita. Sem
+  contagem regressiva. Quando a data de loja passar, tirar da lista — o
+  produto continua na categoria.
 - **Fotos: imagem oficial do site do fabricante, hospedada em
   `public/produtos/`, decisão consciente do Allan.** Nunca da Amazon (contrato
   de Associados) nem do Google Imagens. Crédito visível sobre a imagem, página
