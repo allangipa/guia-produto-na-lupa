@@ -51,7 +51,10 @@ function Cabecalho({
   const t = transparencia(p, campos);
   return (
     <div className="flex h-full flex-col gap-2">
-      <div className="relative aspect-square w-full overflow-hidden rounded bg-superficie">
+      {/* `shrink-0` é obrigatório: sem ele o flex estica a caixa para preencher
+          a altura da célula e o `aspect-square` deixa de valer — as fotos
+          viravam retângulos de alturas diferentes em cada coluna. */}
+      <div className="relative aspect-square w-full shrink-0 overflow-hidden rounded bg-superficie">
         {p.imagem ? (
           <Image
             src={p.imagem.src}
@@ -112,7 +115,10 @@ export function ComparadoCom({
       </p>
 
       <div className="rolo mt-5 overflow-x-auto">
-        <table className="w-full min-w-[42rem] border-collapse text-[0.88rem]">
+        {/* `table-fixed` mantém as quatro colunas de produto com a mesma
+            largura. Sem ele, o nome mais comprido alargava uma coluna e as
+            fotos saíam em tamanhos diferentes, desalinhadas entre si. */}
+        <table className="w-full min-w-[42rem] table-fixed border-collapse text-[0.88rem]">
           <thead>
             <tr>
               <th className="w-[10rem] border-b border-linha p-2 text-left align-bottom">

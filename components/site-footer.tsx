@@ -17,7 +17,7 @@ export function SiteFooter() {
 
   return (
     <footer className="mt-20 bg-acao-forte text-white">
-      <div className="mx-auto grid max-w-[var(--largura-ferramenta)] gap-10 px-5 py-14 text-[0.9rem] md:grid-cols-[1.5fr_1fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-[var(--largura-ferramenta)] gap-x-10 gap-y-8 px-5 py-12 text-[0.9rem] md:grid-cols-[1.4fr_1.2fr_.85fr_1.1fr]">
         <div>
           <img src="/marca/marca-horizontal-fundo-escuro.svg" alt={site.nome} width={739} height={98} className="h-11 w-auto" />
           <p className="mt-4 max-w-[40ch] text-white/80">
@@ -35,17 +35,17 @@ export function SiteFooter() {
           </p>
         </div>
 
+        {/* Duas colunas, e só as categorias. Havia aqui um segundo bloco com
+            "Comparar <categoria>" repetindo cada uma, o que dobrava a lista e
+            esticava o rodapé por uma página inteira. O comparador está no topo
+            de toda página de categoria e no fim de toda ficha — não precisa de
+            sete entradas no rodapé para ser encontrado. */}
         <nav aria-label="Categorias">
           <p className={titulo}>Produtos</p>
-          <ul className="mt-3 space-y-2">
+          <ul className="mt-3 grid grid-cols-2 gap-x-5 gap-y-2">
             {comProdutos.map((c) => (
               <li key={c.slug}>
                 <Link href={`/categorias/${c.slug}`} className={link}>{c.nome}</Link>
-              </li>
-            ))}
-            {comProdutos.map((c) => (
-              <li key={`cmp-${c.slug}`}>
-                <Link href={`/comparar/${c.slug}`} className={link}>Comparar {c.nome.toLowerCase()}</Link>
               </li>
             ))}
           </ul>

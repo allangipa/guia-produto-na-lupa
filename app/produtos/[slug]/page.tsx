@@ -308,9 +308,10 @@ export default async function PaginaProduto({ params }: Params) {
 
       {relacionados.length > 0 && cat && (
         <section className="mt-12">
-          <h2 className="titulo-ui text-xl">
-            Outros {cat.nome.toLowerCase()} com ficha aberta
-          </h2>
+          {/* "Outros áudio com ficha aberta" não existe em português. O nome da
+              categoria entra como nome próprio, depois de uma preposição, e aí
+              serve para as oito sem concordância a resolver. */}
+          <h2 className="titulo-ui text-xl">Mais fichas em {cat.nome}</h2>
           <p className="mt-1 max-w-[62ch] text-[0.9rem] text-tinta-suave">
             Mesma categoria, mesmos campos, mesma régua de transparência — é
             isso que torna a comparação possível. A porcentagem mede quanto o
