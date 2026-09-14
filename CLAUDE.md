@@ -137,6 +137,13 @@ Proibido no projeto: carrossel, contador regressivo, selo de oferta, pop-up,
 banner lateral, qualquer animação automática. O site tem que parecer publicação,
 não loja.
 
+**A lista acima proíbe mecanismo de pressão de venda — e só isso.** Profundidade,
+elevação, sombra, superfície colorida, faixa escura, ícone, gradiente e densidade
+alta são permitidos e desejáveis: o site precisa parecer desenhado. Uma versão
+anterior deste guia foi lida como "não ter estilo nenhum", e o resultado foi uma
+página de filete de 1px sobre fundo branco, que ninguém confunde com publicação —
+confunde com documento sem folha de estilo.
+
 ## Estado atual e próximos passos
 
 - Conteúdo hoje é só demonstração, com produtos fictícios: um review, um

@@ -141,118 +141,141 @@ export function Buscador({
     Object.values(filtros.faixas).some((v) => v !== null && v !== undefined) ||
     Object.values(filtros.booleanos).some(Boolean);
 
+  const chip = (ativo: boolean) =>
+    `rounded-full border px-3 py-1 text-[0.85rem] transition-colors ${
+      ativo
+        ? "border-acao bg-acao text-white"
+        : "border-linha text-tinta-suave hover:border-acao hover:text-tinta"
+    }`;
+
   return (
-    <div className="mt-10">
-      <div className="rounded-lg border border-linha bg-superficie p-5">
+    /* Trilho de filtro à esquerda, resultados à direita — o arranjo de qualquer
+       ferramenta de busca séria. Empilhado, o filtro empurrava os produtos para
+       baixo da dobra, que é onde eles menos servem. */
+    <div className="mt-10 grid gap-8 lg:grid-cols-[17.5rem_1fr] lg:items-start">
+      <aside className="cartao p-5 lg:sticky lg:top-24">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
           <h2 className="font-titulo text-lg">Filtrar</h2>
           {temFiltro && (
             <button
               type="button"
               onClick={limpar}
-              className="text-[0.85rem] underline decoration-linha underline-offset-4 hover:decoration-acao"
+              className="text-[0.8rem] text-tinta-suave underline decoration-linha underline-offset-4 hover:text-tinta"
             >
-              Limpar filtros
+              Limpar
             </button>
           )}
         </div>
 
-        <fieldset className="mt-5">
-          <legend className="text-[0.85rem] font-medium">Marca</legend>
-          <div className="mt-2 flex flex-wrap gap-x-5 gap-y-2">
+        <fieldset className="mt-5 border-t border-linha pt-5">
+          <legend className="float-left w-full pb-2 text-[0.72rem] uppercase tracking-[0.08em] text-tinta-suave">
+            Marca
+          </legend>
+          <div className="flex flex-wrap gap-2">
             {marcas.map((m) => (
-              <label key={m} className="flex items-center gap-2 text-[0.95rem]">
-                <input
-                  type="checkbox"
-                  checked={filtros.marcas.includes(m)}
-                  onChange={() => alternarMarca(m)}
-                  className="accent-acao"
-                />
+              <button
+                key={m}
+                type="button"
+                aria-pressed={filtros.marcas.includes(m)}
+                onClick={() => alternarMarca(m)}
+                className={chip(filtros.marcas.includes(m))}
+              >
                 {m}
+              </button>
+            ))}
+          </div>
+        </fieldset>
+
+        <fieldset className="mt-6 border-t border-linha pt-5">
+          <legend className="float-left w-full pb-3 text-[0.72rem] uppercase tracking-[0.08em] text-tinta-suave">
+            Limites
+          </legend>
+          <div className="grid gap-3">
+            {camposFaixa.map((campo) => (
+              <label key={campo.chave} className="grid grid-cols-[1fr_5.5rem] items-center gap-2">
+                <span className="text-[0.85rem] leading-tight">
+                  {campo.melhor === "menor" ? "Máx." : "Mín."}{" "}
+                  {campo.rotulo.toLowerCase()}
+                  {campo.unidade ? (
+                    <span className="text-tinta-suave"> ({campo.unidade})</span>
+                  ) : null}
+                </span>
+                <input
+                  type="number"
+                  inputMode="numeric"
+                  placeholder="—"
+                  value={filtros.faixas[campo.chave] ?? ""}
+                  onChange={(e) =>
+                    setFiltros((f) => ({
+                      ...f,
+                      faixas: {
+                        ...f.faixas,
+                        [campo.chave]:
+                          e.target.value === "" ? null : Number(e.target.value),
+                      },
+                    }))
+                  }
+                  className="dados w-full rounded-lg border border-linha bg-papel px-2.5 py-1.5 text-right text-[0.85rem]"
+                />
               </label>
             ))}
           </div>
         </fieldset>
 
-        <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {camposFaixa.map((campo) => (
-            <label key={campo.chave} className="block">
-              <span className="block text-[0.85rem] font-medium">
-                {campo.melhor === "menor" ? "Máximo de" : "Mínimo de"}{" "}
-                {campo.rotulo.toLowerCase()}
-                {campo.unidade ? ` (${campo.unidade})` : ""}
-              </span>
-              <input
-                type="number"
-                inputMode="numeric"
-                value={filtros.faixas[campo.chave] ?? ""}
-                onChange={(e) =>
-                  setFiltros((f) => ({
-                    ...f,
-                    faixas: {
-                      ...f.faixas,
-                      [campo.chave]:
-                        e.target.value === "" ? null : Number(e.target.value),
-                    },
-                  }))
-                }
-                className="mt-1 w-full rounded border border-linha bg-papel px-3 py-2 text-[0.95rem]"
-              />
-            </label>
-          ))}
-        </div>
-
-        <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
-          {camposBooleanos.map((campo) => (
-            <label
-              key={campo.chave}
-              className="flex items-center gap-2 text-[0.95rem]"
-            >
-              <input
-                type="checkbox"
-                checked={filtros.booleanos[campo.chave] ?? false}
-                onChange={(e) =>
+        <fieldset className="mt-6 border-t border-linha pt-5">
+          <legend className="float-left w-full pb-2 text-[0.72rem] uppercase tracking-[0.08em] text-tinta-suave">
+            Só com
+          </legend>
+          <div className="flex flex-wrap gap-2">
+            {camposBooleanos.map((campo) => (
+              <button
+                key={campo.chave}
+                type="button"
+                aria-pressed={filtros.booleanos[campo.chave] ?? false}
+                onClick={() =>
                   setFiltros((f) => ({
                     ...f,
                     booleanos: {
                       ...f.booleanos,
-                      [campo.chave]: e.target.checked,
+                      [campo.chave]: !f.booleanos[campo.chave],
                     },
                   }))
                 }
-                className="accent-acao"
-              />
-              {campo.rotulo}
-            </label>
-          ))}
-          <label className="flex items-center gap-2 text-[0.95rem]">
-            <input
-              type="checkbox"
-              checked={filtros.soFichaCompleta}
-              onChange={(e) =>
+                className={chip(filtros.booleanos[campo.chave] ?? false)}
+              >
+                {campo.rotulo}
+              </button>
+            ))}
+            <button
+              type="button"
+              aria-pressed={filtros.soFichaCompleta}
+              onClick={() =>
                 setFiltros((f) => ({
                   ...f,
-                  soFichaCompleta: e.target.checked,
+                  soFichaCompleta: !f.soFichaCompleta,
                 }))
               }
-              className="accent-acao"
-            />
-            Só produtos com ficha completa
-          </label>
-        </div>
-      </div>
+              className={chip(filtros.soFichaCompleta)}
+            >
+              Ficha completa
+            </button>
+          </div>
+        </fieldset>
+      </aside>
 
-      <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
-        <p className="font-dado text-[0.9rem] text-tinta-suave">
-          {resultado.length} de {produtos.length}{" "}
+      <div>
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-linha pb-4">
+        <p className="text-[0.9rem] text-tinta-suave">
+          <span className="dados text-tinta">{resultado.length}</span> de{" "}
+          <span className="dados">{produtos.length}</span>{" "}
           {produtos.length === 1 ? "produto" : "produtos"}
         </p>
-        <label className="flex items-center gap-2 text-[0.9rem]">
+        <label className="flex items-center gap-2 text-[0.85rem] text-tinta-suave">
           Ordenar por
           <select
             value={ordem}
             onChange={(e) => setOrdem(e.target.value)}
-            className="rounded border border-linha bg-papel px-2 py-1"
+            className="rounded-lg border border-linha bg-papel px-2.5 py-1.5 text-tinta"
           >
             <option value="">Padrão</option>
             {camposOrdenaveis.map((c) => (
@@ -297,9 +320,9 @@ export function Buscador({
       )}
 
       {selecionados.length > 0 && (
-        <div className="sticky bottom-0 mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-linha bg-papel py-4">
+        <div className="sticky bottom-4 z-30 mt-8 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-linha bg-papel px-5 py-4 shadow-[var(--sombra-3)]">
           <p className="text-[0.9rem] text-tinta-suave">
-            {selecionados.length}{" "}
+            <span className="dados text-tinta">{selecionados.length}</span>{" "}
             {selecionados.length === 1
               ? "produto selecionado"
               : "produtos selecionados"}
@@ -309,13 +332,13 @@ export function Buscador({
             <button
               type="button"
               onClick={() => setSelecionados([])}
-              className="text-[0.85rem] underline decoration-linha underline-offset-4"
+              className="text-[0.85rem] text-tinta-suave underline decoration-linha underline-offset-4 hover:text-tinta"
             >
               Limpar
             </button>
             <Link
               href={`/comparar/${categoria}?p=${selecionados.join(",")}`}
-              className="rounded bg-acao px-5 py-2.5 text-[0.95rem] font-medium text-papel hover:bg-acao-forte"
+              className="rounded-lg bg-acao px-5 py-2.5 text-[0.95rem] font-medium text-white shadow-[var(--sombra-2)] hover:bg-acao-forte"
             >
               Comparar {selecionados.length === 1 ? "" : "os "}
               {selecionados.length}
@@ -323,6 +346,7 @@ export function Buscador({
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }
