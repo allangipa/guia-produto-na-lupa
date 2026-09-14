@@ -27,6 +27,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: c.titulo,
     description: c.subtitulo,
     alternates: { canonical: `/comparativos/${c.slug}` },
+    // A arte de capa é sobretudo isto: o que aparece quando alguém cola o link
+    // numa conversa. Sem ela, a rede escolhe sozinha um pedaço da página.
+    ...(c.imagem
+      ? { openGraph: { images: [{ url: c.imagem.src, alt: c.imagem.alt }] } }
+      : {}),
   };
 }
 
@@ -50,6 +55,24 @@ export default async function PaginaComparativo({ params }: Params) {
         <p className="mt-4 max-w-[62ch] text-lg text-tinta-suave">
           {c.subtitulo}
         </p>
+
+        {/* Largura limitada de propósito: a arte é retrato 4:5, feita para
+            rede social, e em tamanho cheio empurraria a tabela para fora da
+            primeira tela — que é o que o leitor veio ler. */}
+        {c.imagem && (
+          <figure className="mt-8">
+            <img
+              src={c.imagem.src}
+              alt={c.imagem.alt}
+              width={1080}
+              height={1350}
+              className="mx-auto w-full max-w-[22rem] rounded-xl border border-linha"
+            />
+            <figcaption className="mt-2 text-center text-[0.75rem] text-tinta-suave">
+              {c.imagem.credito}
+            </figcaption>
+          </figure>
+        )}
       </header>
 
       <section className="my-10 border-y border-linha py-8">

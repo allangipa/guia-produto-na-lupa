@@ -107,6 +107,15 @@ export type Comparativo = {
   vencedores: { perfil: string; produto: string; porque: string }[];
   lacunas: string[];
   fontes: Fonte[];
+  /**
+   * Arte de capa do comparativo, opcional.
+   *
+   * Existe para o compartilhamento: é o que aparece quando alguém cola o link
+   * no WhatsApp ou numa rede. Segue a mesma exigência de `credito` e `origem`
+   * das fotos de produto — quando a arte monta render de fabricante, o crédito
+   * diz de quem é o render, não só quem montou a peça.
+   */
+  imagem?: Imagem;
   corpo: string;
 };
 
