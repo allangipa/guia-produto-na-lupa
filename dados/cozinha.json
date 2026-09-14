@@ -292,40 +292,70 @@
     ]
   },
   {
-    "slug": "elgin-facilita-fry",
-    "nome": "Elgin Facilita Fry 3,5 L",
-    "marca": "Elgin",
-    "modelo": "42AFG3501000",
+    "slug": "philips-walita-na230",
+    "nome": "Philips Walita Airfryer Série 2000 NA230/00",
+    "marca": "Philips Walita",
+    "modelo": "NA230/00",
     "categoria": "cozinha",
-    "resumo": "A menor e mais simples da base: 3,5 litros e 1400 W. A Elgin não lista o modelo no próprio site — a ficha inteira vem da listagem da Amazon, e por isso não há foto oficial.",
+    "resumo": "A Walita do meio: visor com luz, painel de toque com 8 predefinições e 6,2 litros. A Walita declara 4,05 kg; a Amazon, 5,47. E a tabela oficial repete 6,2 L como capacidade útil — o mesmo número da caixa.",
     "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philips-walita-na230.webp",
+      "alt": "Airfryer Philips Walita NA230 preta, de cesto, com visor transparente e painel de toque",
+      "credito": "Imagem: Philips Walita",
+      "origem": "https://www.philips.com.br/c-p/NA230_00/2000-series-airfryer-2000-series-62l"
+    },
     "specs": {
       "formato": "Cesto (gaveta)",
-      "capacidadeTotalL": 3.5,
-      "capacidadeUtilL": null,
-      "potenciaW": 1400,
+      "capacidadeTotalL": 6.2,
+      "capacidadeUtilL": 6.2,
+      "potenciaW": 1700,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
       "timerMaxMin": 60,
-      "funcoesPredefinidas": null,
-      "painel": null,
-      "visor": null,
-      "lavaLoucas": false,
+      "funcoesPredefinidas": 8,
+      "painel": "Digital (tela de toque)",
+      "visor": true,
+      "lavaLoucas": true,
       "tensao": "110 V",
-      "pesoKg": null,
-      "dimensoesMm": "225 × 255 × 255 (P × L × A)",
-      "garantiaMeses": null
+      "pesoKg": 4.05,
+      "dimensoesMm": "403 × 308 × 308 (P × L × A)",
+      "garantiaMeses": 24
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DTVLLSD9"
+      "amazon": "https://www.amazon.com.br/dp/B0D98VWP2V"
     },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "walita-na230-oficial",
+        "valorDivergente": "5,47 kg",
+        "fonteDivergente": "amazon-na230",
+        "observacao": "A Walita declara 4,05 kg; a Amazon, 5,47 kg — provavelmente o peso com embalagem, mas a listagem não diz. Adotamos o fabricante."
+      },
+      {
+        "campo": "funcoesPredefinidas",
+        "fonteAdotada": "walita-na230-oficial",
+        "valorDivergente": "13 modos",
+        "fonteDivergente": "amazon-na230",
+        "observacao": "A Amazon anuncia \"13 modos de preparo\". A Walita lista 8 predefinições mais a função manter aquecido. Adotamos o fabricante."
+      }
+    ],
     "fontes": [
       {
-        "id": "amazon-facilita-fry",
-        "titulo": "Elgin Facilita Fry 3,5 L — página do produto na Amazon Brasil",
-        "url": "https://www.amazon.com.br/dp/B0DTVLLSD9",
+        "id": "walita-na230-oficial",
+        "titulo": "Philips Walita NA230/00 — página oficial do produto",
+        "url": "https://www.walita.com.br/fritadeira-airfryer-digital-serie-2000-xl-philips-walita-preta-1700w-na230-na230_00/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "6,2 L (a tabela repete 6,2 L como capacidade útil), 1700 W, 80 a 200 graus, timer sonoro de 60 minutos, display de toque com 8 predefinições e manter aquecido, visor, peças na lava-louças, 40,3 × 30,8 × 30,8 cm, 4,05 kg, cabo de 80 cm, tomada de 20 A em 127 V e 2 anos de garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-na230",
+        "titulo": "Philips Walita NA230/00 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D98VWP2V",
         "tipo": "varejo",
-        "oQueSaiuDaqui": "3,5 L, 1400 W, versão 110 V, temperatura de 80 °C a 200 °C, timer de até 60 min com aviso sonoro, grelha removível, peças que não vão na lava-louças e 22,5 × 25,5 × 25,5 cm. A página de airfryers da Elgin (elgin.com.br) não lista este modelo.",
+        "oQueSaiuDaqui": "Versão 110 V, janela com luz interna e registro no Inmetro 4800950.31. O peso (5,47 kg) e os \"13 modos\" da listagem divergem do fabricante e estão registrados como divergência.",
         "consultadaEm": "2026-09-14"
       }
     ]

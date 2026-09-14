@@ -173,10 +173,11 @@ confunde com documento sem folha de estilo.
   modelos, cada um com ASIN, link de loja e foto oficial. **Cozinha**
   (`dados/cozinha.json`, esquema `camposCozinha`): dez airfryers, as dez
   primeiras do ranking de Air Fryers da Amazon Brasil em 14/09/2026 (Walita
-  NA341 e NA130, Mondial AFON-12L e AFN-50, Philco PFR2200P, PAF40A e PAF65A,
-  Oster OFRT520, WAP Barbecue, Elgin Facilita Fry), com guia e comparativo.
-  A Elgin não lista o Facilita Fry no próprio site: ficha só de varejo e sem
-  foto, de propósito — foto da Amazon é proibida. Fryer analógica leva
+  NA341, NA230 e NA130, Mondial AFON-12L e AFN-50, Philco PFR2200P, PAF40A e
+  PAF65A, Oster OFRT520, WAP Barbecue), com guia e comparativo. A Elgin
+  Facilita Fry (5ª do ranking) ficou de fora por decisão do Allan: a Elgin
+  não lista o modelo no próprio site, e sem página oficial não há foto
+  licenciável — **produto sem foto oficial não entra**. Fryer analógica leva
   `naoSeAplica: ["funcoesPredefinidas"]`. Meta da categoria: 20, quando o
   Search Console mostrar tráfego.
   A regra da categoria é separar `capacidadeTotalL` (a caixa) de
