@@ -204,6 +204,19 @@ confunde com documento sem folha de estilo.
   só com a URL exata — mudar `wid`/`hei` dá 404. Pro Max usa a mesma foto do
   Pro. O Duo não tem ASIN ainda (pré-venda em 16/10); `lojas: {}` é aceito e o
   CTA some sozinho.
+- **Tablets** (`dados/tablets.json`, esquema `camposTablet`) abriu em 14/09
+  com dez modelos do ranking de Tablets da Amazon: Galaxy Tab A11+, S10 Lite,
+  S10 FE e A11, Redmi Pad 2, Xiaomi Pad 7, Lenovo Idea Tab e Idea Tab Plus,
+  Huawei MatePad SE 11 e iPad (A16). Ficaram de fora VAIO TL10 (sem página
+  no site da VAIO) e Positivo. Fontes: Samsung Shop tem uma API JSON pública
+  (`shop.samsung.com/br/api/catalog_system/pub/products/search?ft=...`,
+  sem "+" na busca) que devolve `allSpecifications` — mais confiável que o
+  `__STATE__`; Xiaomi só publica Redmi Pad 2 e Pad 7 em `mi.com/global`, e
+  isso fica escrito na fonte; Lenovo abre só no navegador. Campo que
+  diferencia a categoria: `canetaInclusa` (na caixa, não "compatível") e
+  `atualizacoes` (só a Lenovo declara). Quando o fabricante se contradiz
+  (Xiaomi Pad 7: "sem adaptador" e "adaptador" na mesma página), o campo fica
+  `null` com a explicação na fonte.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem
