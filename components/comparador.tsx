@@ -86,7 +86,7 @@ export function Comparador({
   return (
     <div className="mt-8">
       <div className="rounded-lg border border-linha bg-superficie p-5">
-        <h2 className="font-titulo text-lg">
+        <h2 className="titulo-ui text-lg">
           Escolha até {LIMITE} para comparar
         </h2>
         <div className="mt-3 grid gap-x-6 gap-y-2 sm:grid-cols-2">
@@ -138,7 +138,7 @@ export function Comparador({
                     <th key={p.slug} className="py-3 pl-4 text-left align-bottom">
                       <Link
                         href={`/produtos/${p.slug}`}
-                        className="font-titulo text-base leading-snug hover:text-acao-forte"
+                        className="titulo-ui text-base leading-snug hover:text-acao-forte"
                       >
                         {p.nome}
                       </Link>
@@ -156,7 +156,7 @@ export function Comparador({
                   <tr>
                     <th
                       colSpan={escolhidos.length + 1}
-                      className="pt-8 pb-2 text-left font-titulo text-[0.95rem] text-tinta-suave"
+                      className="pt-8 pb-2 text-left titulo-ui text-[0.95rem] text-tinta-suave"
                     >
                       {grupo}
                     </th>

@@ -55,7 +55,7 @@ export default async function PaginaProduto({ params }: Params) {
 
       <header>
         <Divulgacao atualizadoEm={dataLegivel(p.atualizadoEm)} />
-        <h1 className="mt-3 font-titulo text-3xl leading-[1.12] tracking-tight sm:text-4xl">
+        <h1 className="mt-3 titulo-ui text-3xl leading-[1.12] tracking-tight sm:text-4xl">
           {p.nome}
         </h1>
         <p className="mt-2 font-dado text-[0.85rem] text-tinta-suave">
@@ -68,7 +68,7 @@ export default async function PaginaProduto({ params }: Params) {
         <FotoProduto imagem={p.imagem} prioridade />
       ) : (
         <div className="my-8 rounded-xl border border-linha p-6">
-          <h2 className="font-titulo text-lg">Tamanho real</h2>
+          <h2 className="titulo-ui text-lg">Tamanho real</h2>
           <p className="mt-1 max-w-[52ch] text-[0.9rem] text-tinta-suave">
             Desenhado na escala das dimensões oficiais, contra o contorno de um
             cartão de crédito.
@@ -90,7 +90,7 @@ export default async function PaginaProduto({ params }: Params) {
         />
       ) : null}
 
-      <h2 className="mt-12 font-titulo text-xl">Ficha técnica completa</h2>
+      <h2 className="mt-12 titulo-ui text-xl">Ficha técnica completa</h2>
       <FichaSpecs produto={p} campos={campos} />
 
       {p.relatos?.length ? <Relatos itens={p.relatos} /> : null}

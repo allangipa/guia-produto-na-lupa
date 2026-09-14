@@ -26,7 +26,7 @@ export function Relatos({ itens }: { itens: Relato[] }) {
 
   return (
     <section className="my-12">
-      <h2 className="font-titulo text-xl">O que os compradores relatam</h2>
+      <h2 className="titulo-ui text-xl">O que os compradores relatam</h2>
       <p className="mt-2 max-w-[62ch] text-[0.95rem] text-tinta-suave">
         Lemos as avaliações públicas {lojas.length ? `d${lojas.length > 1 ? "as lojas" : "a loja"} ${lojas.join(" e ")}` : "das lojas"}{" "}
         e reunimos abaixo só o que aparece de forma repetida, escrito com nossas
@@ -40,7 +40,7 @@ export function Relatos({ itens }: { itens: Relato[] }) {
       ].map(({ titulo, lista }) =>
         lista.length ? (
           <div key={titulo} className="mt-6">
-            <h3 className="font-titulo text-lg">{titulo}</h3>
+            <h3 className="titulo-ui text-lg">{titulo}</h3>
             <ul className="mt-3 divide-y divide-linha border-y border-linha">
               {lista.map((r) => (
                 <li

@@ -151,6 +151,20 @@ body {
 }
 
 /**
+ * Títulos de interface em Archivo, não em Fraunces.
+ *
+ * A serifada é o que dava ao site o ar de revista: card, filtro e tabela com
+ * título serifado leem como matéria, não como ferramenta. A Fraunces continua
+ * na marca e no texto corrido de guia e análise, que é onde ela trabalha — e o
+ * parentesco tipográfico com o viagemnalupa se mantém por ali.
+ */
+.titulo-ui {
+  font-family: var(--font-texto);
+  font-weight: 600;
+  letter-spacing: -0.011em;
+}
+
+/**
  * Cartão com corpo.
  *
  * A versão anterior era `border border-linha` e nada mais: um retângulo de 1px
@@ -186,18 +200,40 @@ body {
   color: var(--color-faixa-tinta);
 }
 
-/** Pastilha de metadado: marca, unidade, rótulo curto. */
+/**
+ * Pastilha de metadado: marca, unidade, rótulo curto.
+ *
+ * Vem preenchida com um tom da cor de ação. A regra da casa é "botão sólido só
+ * em CTA" — e continua valendo —, mas ela nunca quis dizer que nada mais no
+ * site pode ter cor. Guardar o verde para um único elemento foi o que deixou
+ * tudo em volta cinza.
+ */
 .pastilha {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  border: 1px solid var(--color-linha);
   border-radius: 999px;
-  padding: 0.15rem 0.6rem;
+  padding: 0.2rem 0.7rem;
   font-size: 0.72rem;
-  letter-spacing: 0.04em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
+  background: color-mix(in oklab, var(--color-acao) 12%, transparent);
+  color: var(--color-acao-forte);
+}
+
+.pastilha-neutra {
+  background: var(--color-superficie);
   color: var(--color-tinta-suave);
+}
+
+/** Gradiente sutil de fundo para blocos que precisam de peso sem virar caixa. */
+.gradiente-acao {
+  background-image: linear-gradient(
+    135deg,
+    color-mix(in oklab, var(--color-acao) 10%, transparent),
+    transparent 65%
+  );
 }
 
 /**

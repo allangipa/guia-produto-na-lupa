@@ -28,7 +28,7 @@ export function Divergencias({
 
   return (
     <section className="my-10 rounded-lg border-l-[3px] border-atencao bg-superficie p-5">
-      <h2 className="font-titulo text-lg">Onde as fontes não batem</h2>
+      <h2 className="titulo-ui text-lg">Onde as fontes não batem</h2>
       <p className="mt-2 max-w-[62ch] text-[0.95rem] text-tinta-suave">
         Fontes diferentes publicaram números diferentes para o mesmo dado — ou
         uma publicou o que a outra calou. Mostramos os dois lados e dizemos de

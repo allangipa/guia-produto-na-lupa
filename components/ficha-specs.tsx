@@ -24,7 +24,7 @@ export function FichaSpecs({
     <div className="mt-10">
       {[...grupos.entries()].map(([grupo, lista]) => (
         <section key={grupo} className="mt-8 first:mt-0">
-          <h2 className="font-titulo text-lg">{grupo}</h2>
+          <h2 className="titulo-ui text-lg">{grupo}</h2>
           <dl className="mt-3 divide-y divide-linha border-y border-linha">
             {lista.map((campo) => {
               const valor = produto.specs[campo.chave];
@@ -93,7 +93,7 @@ export function NotaTransparencia({
 
       {t.ausentes.length > 0 && (
         <div className="mt-6">
-          <h2 className="font-titulo text-lg">O que o fabricante não informa</h2>
+          <h2 className="titulo-ui text-lg">O que o fabricante não informa</h2>
           <ul className="mt-3 space-y-2">
             {t.ausentes.map((c) => (
               <li key={c.chave} className="max-w-[62ch] text-[0.95rem]">

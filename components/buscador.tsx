@@ -155,7 +155,7 @@ export function Buscador({
     <div className="mt-10 grid gap-8 lg:grid-cols-[17.5rem_1fr] lg:items-start">
       <aside className="cartao p-5 lg:sticky lg:top-24">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h2 className="font-titulo text-lg">Filtrar</h2>
+          <h2 className="titulo-ui text-lg">Filtrar</h2>
           {temFiltro && (
             <button
               type="button"

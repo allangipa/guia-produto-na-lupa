@@ -39,7 +39,7 @@ export function CardProduto({
 
       <div className="flex flex-1 flex-col p-5">
         <span className="pastilha self-start">{produto.marca}</span>
-        <h3 className="mt-3 font-titulo text-lg leading-snug">
+        <h3 className="mt-3 titulo-ui text-lg leading-snug">
           <Link
             href={`/produtos/${produto.slug}`}
             className="after:absolute after:inset-0 group-hover:text-acao-forte"

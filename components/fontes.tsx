@@ -19,7 +19,7 @@ export function Fontes({ itens }: { itens: Fonte[] }) {
 
   return (
     <section className="my-12 border-t border-linha pt-8">
-      <h2 className="font-titulo text-xl">De onde vieram os dados</h2>
+      <h2 className="titulo-ui text-xl">De onde vieram os dados</h2>
       <p className="mt-2 max-w-[62ch] text-[0.95rem] text-tinta-suave">
         Nenhum produto desta página passou pelas nossas mãos. Tudo que está
         afirmado aqui veio das páginas abaixo, e cada número do fabricante é uma

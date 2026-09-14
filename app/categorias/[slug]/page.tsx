@@ -43,12 +43,12 @@ function Bloco({
   if (!itens.length) return null;
   return (
     <section className="mt-12">
-      <h2 className="font-titulo text-xl">{titulo}</h2>
+      <h2 className="titulo-ui text-xl">{titulo}</h2>
       <ul className="mt-4 divide-y divide-linha border-t border-linha">
         {itens.map((i) => (
           <li key={i.slug}>
             <Link href={`${base}/${i.slug}`} className="group block py-5">
-              <span className="block font-titulo text-lg leading-snug group-hover:text-acao-escura">
+              <span className="block titulo-ui text-lg leading-snug group-hover:text-acao-escura">
                 {i.titulo}
               </span>
               <span className="mt-1 block max-w-[62ch] text-[0.95rem] text-tinta-suave">
@@ -76,7 +76,7 @@ export default async function PaginaCategoria({ params }: Params) {
   // caracteres, que é o que mantém a leitura confortável numa página larga.
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-12">
-      <h1 className="font-titulo text-3xl tracking-tight">{c.nome}</h1>
+      <h1 className="titulo-ui text-3xl tracking-tight">{c.nome}</h1>
       <p className="mt-3 max-w-[62ch] text-lg text-tinta-suave">{c.descricao}</p>
       <p className="mt-4 max-w-[62ch] border-l-[3px] border-acao pl-4 text-tinta-suave">
         A pergunta que guia tudo aqui: {c.dorPrincipal}

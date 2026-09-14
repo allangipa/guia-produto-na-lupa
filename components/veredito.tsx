@@ -60,7 +60,7 @@ export function VereditoRapido({
 
       <div className="mt-7 grid gap-7 sm:grid-cols-2">
         <div>
-          <h2 className="font-titulo text-lg">Compre se você</h2>
+          <h2 className="titulo-ui text-lg">Compre se você</h2>
           <ul className="mt-2 space-y-2 text-[0.97rem]">
             {para.map((p) => (
               <li key={p} className="flex gap-2">
@@ -73,7 +73,7 @@ export function VereditoRapido({
           </ul>
         </div>
         <div>
-          <h2 className="font-titulo text-lg">Não compre se você</h2>
+          <h2 className="titulo-ui text-lg">Não compre se você</h2>
           <ul className="mt-2 space-y-2 text-[0.97rem]">
             {naoPara.map((p) => (
               <li key={p} className="flex gap-2">
