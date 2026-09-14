@@ -48,6 +48,13 @@ export function FichaSpecs({
                     }`}
                   >
                     {valorLegivel(valor, campo)}
+                    {/* Só conta como confirmação o que veio de fonte que mediu
+                        ou registrou por conta própria — varejo copia a marca. */}
+                    {produto.confirmadoPor?.[campo.chave]?.length ? (
+                      <span className="ml-2 text-[0.75rem] uppercase tracking-wide text-acao-escura">
+                        confirmado
+                      </span>
+                    ) : null}
                   </dd>
                 </div>
               );

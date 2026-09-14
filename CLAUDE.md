@@ -75,6 +75,16 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
   `credito` e `origem` para que não exista caminho fácil. Foto salva da página da
   loja ou do Google Imagens é infração de direito autoral e, nas lojas, violação
   dos termos do programa de afiliado.
+- **Avaliação de comprador é matéria-prima, nunca conteúdo republicado.** Ler as
+  avaliações das lojas e escrever a síntese com palavras próprias é legítimo;
+  copiar texto ou nota de terceiro viola os termos das lojas e o direito autoral
+  de quem escreveu. Nota de terceiro **nunca** entra em `aggregateRating` nem em
+  nenhuma nota do site — isso rende ação manual do Google. O campo `relatos`
+  exige `mencoes` e `totalLidas`: relato sem denominador é opinião fingindo ser
+  dado.
+- **Varejo não confirma nada.** Cinco lojas com o mesmo número são o texto do
+  fabricante copiado cinco vezes. Só `regulador` (Anatel, INMETRO) e
+  `laboratorio` contam como confirmação independente em `confirmadoPor`.
 - Contras antes dos prós, no mesmo peso visual.
 - Toda análise tem "não compre se você" — o veredito de exclusão é o que dá
   autoridade.
@@ -121,6 +131,12 @@ não loja.
   credibilidade que o resto da estrutura tenta construir.
 - Nenhuma análise tem imagem ainda. O suporte está pronto (`produto.imagem` +
   `components/foto-produto.tsx`), esperando press kit de fabricante real.
+- A base tem 7 powerbanks em `dados/energia.json`, de Anker, Xiaomi e Baseus.
+  Uma categoria só compete com 40 a 60 produtos — sete é demonstração.
+- `relatos` e `divergencias` **estão implementados e vazios**. Os componentes
+  foram testados com dados temporários e renderizam certo, mas nenhum produto
+  real tem esses campos ainda: Mercado Livre exige login para mostrar avaliações
+  e a Anatel ainda não foi consultada. Preencher é pesquisa, não código.
 - Não se inscrever no Amazon Associates antes de ter de cinco a dez análises
   reais: o programa avalia o site no cadastro e exige vendas qualificadas em
   prazo depois da aprovação.

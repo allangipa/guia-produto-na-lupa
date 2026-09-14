@@ -14,13 +14,38 @@ export type Criterio = {
 };
 
 /**
- * Página oficial de onde o dado saiu. O site não testa produto: a única coisa
- * que separa uma análise daqui de uma cópia da loja é o leitor poder conferir
- * cada número na origem. Por isso `fontes` é obrigatório e o build quebra sem ele.
+ * De onde uma fonte fala, e por isso quanto ela vale como confirmação.
+ *
+ * A distinção existe para não cair na armadilha mais comum deste tipo de site:
+ * cinco lojas anunciando o mesmo número não são cinco confirmações, são o texto
+ * do fabricante copiado cinco vezes. Só `regulador` e `laboratorio` confirmam
+ * de verdade, porque mediram ou registraram por conta própria.
+ *
+ * No Brasil, `regulador` é sobretudo a homologação da Anatel — pública,
+ * independente e com dado técnico que às vezes contradiz o marketing.
+ */
+export type TipoFonte = "fabricante" | "regulador" | "laboratorio" | "varejo";
+
+export const FONTES_INDEPENDENTES: TipoFonte[] = ["regulador", "laboratorio"];
+
+export const rotuloTipoFonte: Record<TipoFonte, string> = {
+  fabricante: "Fabricante",
+  regulador: "Órgão regulador",
+  laboratorio: "Laboratório independente",
+  varejo: "Varejo",
+};
+
+/**
+ * Página de onde o dado saiu. O site não testa produto: a única coisa que
+ * separa uma análise daqui de uma cópia da loja é o leitor poder conferir cada
+ * número na origem. Por isso `fontes` é obrigatório e o build quebra sem ele.
  */
 export type Fonte = {
+  /** Identificador curto, usado para apontar divergência e confirmação. */
+  id?: string;
   titulo: string;
   url: string;
+  tipo: TipoFonte;
   /** O que especificamente foi tirado desta página. */
   oQueSaiuDaqui: string;
   /** Data da consulta, ISO. Ficha técnica muda sem aviso. */

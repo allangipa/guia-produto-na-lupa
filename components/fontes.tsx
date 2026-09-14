@@ -1,4 +1,9 @@
-import { dataLegivel, type Fonte } from "@/lib/conteudo";
+import {
+  dataLegivel,
+  rotuloTipoFonte,
+  FONTES_INDEPENDENTES,
+  type Fonte,
+} from "@/lib/conteudo";
 
 /**
  * A lista de fontes é o que separa esta análise de uma cópia da página da loja.
@@ -18,7 +23,9 @@ export function Fontes({ itens }: { itens: Fonte[] }) {
       <p className="mt-2 max-w-[62ch] text-[0.95rem] text-tinta-suave">
         Nenhum produto desta página passou pelas nossas mãos. Tudo que está
         afirmado aqui veio das páginas abaixo, e cada número do fabricante é uma
-        promessa dele — não uma medição nossa.
+        promessa dele — não uma medição nossa. Fontes marcadas como independentes
+        são as que mediram ou registraram por conta própria; as demais, incluindo
+        as lojas, costumam reproduzir o que o fabricante publicou.
       </p>
 
       <ol className="mt-6 space-y-5">
@@ -36,7 +43,9 @@ export function Fontes({ itens }: { itens: Fonte[] }) {
               {f.oQueSaiuDaqui}
             </p>
             <p className="mt-1 font-dado text-[0.8rem] text-tinta-suave">
-              Consultada em {dataLegivel(f.consultadaEm)}
+              {rotuloTipoFonte[f.tipo]}
+              {FONTES_INDEPENDENTES.includes(f.tipo) && " · independente"} ·
+              consultada em {dataLegivel(f.consultadaEm)}
             </p>
           </li>
         ))}

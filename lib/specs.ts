@@ -9,6 +9,45 @@
 import type { Loja, Fonte, Imagem } from "./conteudo";
 
 /**
+ * Duas fontes dizendo números diferentes para o mesmo campo.
+ *
+ * Não é um problema a esconder: é a informação mais valiosa que este site pode
+ * publicar. Quando a homologação registra um valor e o marketing estampa outro,
+ * a divergência diz mais sobre o produto do que qualquer um dos dois números
+ * sozinho. O site adota um valor, mostra o outro, e diz de quem é cada um.
+ */
+export type Divergencia = {
+  /** `chave` do campo em questão. */
+  campo: string;
+  /** O valor que o site publica na ficha, e o `id` da fonte que o sustenta. */
+  fonteAdotada: string;
+  valorDivergente: string;
+  fonteDivergente: string;
+  observacao?: string;
+};
+
+/**
+ * O que compradores relatam de forma repetida.
+ *
+ * Nada aqui é copiado: as avaliações das lojas são lidas como matéria-prima de
+ * pesquisa e o que sai é síntese escrita com nossas palavras — republicar texto
+ * ou nota de terceiro violaria os termos das lojas, o direito autoral de quem
+ * escreveu e, no caso de `aggregateRating`, as diretrizes do Google.
+ *
+ * `mencoes` e `totalLidas` existem para o leitor calibrar: "7 de 200" é padrão,
+ * "2 de 200" é ruído. Um relato sem essa conta é opinião disfarçada de dado.
+ */
+export type Relato = {
+  padrao: string;
+  mencoes: number;
+  totalLidas: number;
+  tom: "problema" | "elogio";
+  /** Onde as avaliações foram lidas, ex.: ["Amazon", "Mercado Livre"]. */
+  lojas: string[];
+  lidasEm: string;
+};
+
+/**
  * A camada de dados do site.
  *
  * Um produto aqui não é um artigo: é um registro comparável. É o que permite
@@ -31,6 +70,13 @@ export type Produto = {
   lojas: Loja;
   imagem?: Imagem;
   fontes: Fonte[];
+  /**
+   * Campos confirmados por fonte independente: chave do campo → `id` das fontes.
+   * Confirmação de varejo não entra, porque varejo copia o fabricante.
+   */
+  confirmadoPor?: Record<string, string[]>;
+  divergencias?: Divergencia[];
+  relatos?: Relato[];
   atualizadoEm: string;
 };
 

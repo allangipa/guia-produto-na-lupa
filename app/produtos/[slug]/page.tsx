@@ -9,6 +9,8 @@ import {
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { dataLegivel } from "@/lib/conteudo";
 import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
+import { Divergencias } from "@/components/divergencias";
+import { Relatos } from "@/components/relatos";
 import { FotoProduto } from "@/components/foto-produto";
 import { Fontes } from "@/components/fontes";
 import { LojaCta } from "@/components/loja-cta";
@@ -65,8 +67,19 @@ export default async function PaginaProduto({ params }: Params) {
 
       <NotaTransparencia produto={p} campos={campos} />
 
+      {p.divergencias?.length ? (
+        <Divergencias
+          itens={p.divergencias}
+          campos={campos}
+          fontes={p.fontes}
+          specs={p.specs}
+        />
+      ) : null}
+
       <h2 className="mt-12 font-titulo text-xl">Ficha técnica completa</h2>
       <FichaSpecs produto={p} campos={campos} />
+
+      {p.relatos?.length ? <Relatos itens={p.relatos} /> : null}
 
       {cat && (
         <nav className="mt-12 flex flex-wrap gap-x-6 gap-y-2 border-t border-linha pt-6 text-[0.95rem]">
