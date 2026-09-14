@@ -7,6 +7,8 @@ import {
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
+import { lancamentos } from "@/lib/lancamentos";
+import { linkAmazon } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
 
@@ -29,6 +31,10 @@ export default function Home() {
   const prateleiras = categorias
     .map((c) => ({ cat: c, itens: produtos.filter((p) => p.categoria === c.slug) }))
     .filter((p) => p.itens.length > 0);
+
+  const destaques = lancamentos
+    .map((l) => ({ ...l, produto: produtos.find((p) => p.slug === l.slugProduto) }))
+    .filter((l) => l.produto);
 
   const editorial = [
     ...guias.map((g) => ({ tipo: "Guia", href: `/guias/${g.slug}`, titulo: g.titulo, sub: g.subtitulo, data: g.atualizadoEm })),
@@ -103,6 +109,108 @@ export default function Home() {
           ))}
         </dl>
       </section>
+
+      {/*
+        Lançamentos: o que o fabricante ainda está pondo à venda. Datas escritas
+        com a fonte, sem contagem regressiva — o site informa a data e para.
+        O primeiro item é o destaque e leva a foto grande; os demais, menor.
+      */}
+      {destaques.length > 0 && (
+        <section className="mt-8">
+          <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2">
+            <div>
+              <h2 className="titulo-ui text-[1.35rem]">Lançamentos</h2>
+              <p className="mt-0.5 text-[0.85rem] text-tinta-suave">
+                Pré-venda e data de loja declaradas pelo fabricante, com a ficha
+                oficial já na base.
+              </p>
+            </div>
+            <Link href="/categorias/celular" className="pilula">
+              Ver a categoria <Icone nome="seta" className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+          <div className="mt-4 grid gap-3.5 lg:grid-cols-[1.55fr_1fr]">
+            {destaques.map((l, i) => {
+              const p = l.produto!;
+              const principal = i === 0;
+              return (
+                <article
+                  key={l.slugProduto}
+                  className={`painel grid overflow-hidden ${principal ? "sm:grid-cols-[minmax(0,15rem)_1fr]" : "sm:grid-cols-[minmax(0,10rem)_1fr]"}`}
+                >
+                  <Link
+                    href={`/produtos/${p.slug}`}
+                    className="flex items-center justify-center bg-superficie p-5"
+                  >
+                    {p.imagem ? (
+                      <img
+                        src={p.imagem.src}
+                        alt={p.imagem.alt}
+                        className={`w-auto object-contain ${principal ? "max-h-64" : "max-h-40"}`}
+                      />
+                    ) : (
+                      <Icone nome="celular" className="h-16 w-16 text-tinta-suave" />
+                    )}
+                  </Link>
+                  <div className="flex flex-col p-5">
+                    <span className="pastilha self-start">{l.etapa}</span>
+                    <h3 className={`mt-2.5 titulo-ui leading-tight ${principal ? "text-[1.45rem]" : "text-[1.15rem]"}`}>
+                      <Link href={`/produtos/${p.slug}`} className="hover:text-acao-forte">
+                        {l.titulo}
+                      </Link>
+                    </h3>
+                    <p className="mt-2 text-[0.9rem] leading-relaxed text-tinta-suave">
+                      {l.resumo}
+                    </p>
+                    <dl className="mt-4 grid grid-cols-2 gap-3">
+                      {[
+                        { r: "Pré-venda", v: l.preVenda },
+                        { r: "Nas lojas", v: l.nasLojas },
+                      ].map((d) => (
+                        <div key={d.r} className="rounded-xl border border-linha bg-papel px-3.5 py-3">
+                          <dt className="text-[0.72rem] font-semibold uppercase tracking-[0.07em] text-tinta-suave">
+                            {d.r}
+                          </dt>
+                          <dd className="dados mt-1 text-[1.05rem] font-semibold leading-none">
+                            {d.v}
+                          </dd>
+                        </div>
+                      ))}
+                    </dl>
+                    <div className="mt-4 flex flex-wrap items-center gap-2">
+                      {p.lojas.amazon && (
+                        <a
+                          href={linkAmazon(p.lojas.amazon)}
+                          rel="sponsored nofollow noopener"
+                          target="_blank"
+                          className="botao botao-primario"
+                        >
+                          Pré-venda na Amazon
+                          <Icone nome="seta" className="h-4 w-4" />
+                        </a>
+                      )}
+                      <Link href={`/produtos/${p.slug}`} className="pilula">
+                        Ficha completa
+                      </Link>
+                      {l.comparativoSlug && (
+                        <Link href={`/comparativos/${l.comparativoSlug}`} className="pilula">
+                          <Icone nome="comparar" className="h-3.5 w-3.5" />
+                          Contra o iPhone 17
+                        </Link>
+                      )}
+                    </div>
+                    <p className="mt-auto pt-4 text-[0.72rem] text-tinta-suave">
+                      Datas: {l.fonte.titulo}, consultado em{" "}
+                      {dataLegivel(l.fonte.consultadaEm)}.
+                      {p.lojas.amazon && " Link de afiliado: o site recebe comissão e você paga o mesmo preço."}
+                    </p>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {prateleiras.map(({ cat, itens }) => (
         <section key={cat.slug} className="mt-10">
