@@ -21,6 +21,7 @@ import { Relatos } from "@/components/relatos";
 import { MidiaProduto } from "@/components/midia-produto";
 import { GaleriaProduto } from "@/components/galeria-produto";
 import { CardProduto } from "@/components/card-produto";
+import { ComparadoCom } from "@/components/comparado-com";
 import { Silhueta } from "@/components/silhueta";
 import { Fontes } from "@/components/fontes";
 import { LojaCta } from "@/components/loja-cta";
@@ -95,6 +96,50 @@ export default async function PaginaProduto({ params }: Params) {
     ...daCategoria.filter((o) => o.marca === p.marca),
     ...daCategoria.filter((o) => o.marca !== p.marca),
   ].slice(0, 5);
+
+  // "Parecido" aqui tem definição, e ela fica escrita na tela: o campo que
+  // encabeça a categoria — tela no celular, capacidade útil na airfryer — e os
+  // três vizinhos mais próximos nele. Sem preço na base, ordenar por preço não
+  // é opção; e ordenar por marca ou por ordem de arquivo não torna nada
+  // parecido. Quem não publica o campo fica de fora da vizinhança, porque não
+  // há como medir a distância.
+  // Percorre os destaques até achar um que este produto publique: a Philco não
+  // diz a capacidade útil da airfryer — que é justamente a lacuna da categoria
+  // — e nem por isso ela deve cair na vizinhança genérica.
+  const campoEixo = destaquesDa(p.categoria)
+    .map((chave) => campos.find((c) => c.chave === chave && c.tipo === "numero"))
+    .find((c) => c && typeof p.specs[c.chave] === "number");
+  const meu = campoEixo ? p.specs[campoEixo.chave] : null;
+
+  let concorrentes: typeof daCategoria;
+  let criterio: string;
+  if (campoEixo && typeof meu === "number") {
+    concorrentes = daCategoria
+      .filter((o) => typeof o.specs[campoEixo.chave] === "number")
+      .sort(
+        (a, b) =>
+          Math.abs((a.specs[campoEixo.chave] as number) - meu) -
+          Math.abs((b.specs[campoEixo.chave] as number) - meu),
+      )
+      .slice(0, 3);
+    criterio = `Os três da categoria mais próximos em ${campoEixo.rotulo.toLowerCase()}.`;
+  } else {
+    concorrentes = relacionados.filter((o) => o.marca !== p.marca).slice(0, 3);
+    criterio = "Três da mesma categoria, de outras marcas.";
+  }
+
+  // As linhas são os destaques da categoria mais os campos que contam para a
+  // transparência, na ordem do esquema. Oito cabem sem virar ficha técnica —
+  // a ficha inteira já está logo abaixo.
+  const linhasComparativo = [
+    ...destaquesDa(p.categoria),
+    ...campos.filter((c) => c.contaTransparencia).map((c) => c.chave),
+  ]
+    .filter((chave, i, todas) => todas.indexOf(chave) === i)
+    .map((chave) => campos.find((c) => c.chave === chave))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c))
+    .filter((c) => !p.naoSeAplica?.includes(c.chave))
+    .slice(0, 8);
 
   return (
     <article className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-6">
@@ -234,6 +279,14 @@ export default async function PaginaProduto({ params }: Params) {
       {p.divergencias?.length ? (
         <Divergencias itens={p.divergencias} campos={campos} fontes={p.fontes} specs={p.specs} />
       ) : null}
+
+      <ComparadoCom
+        produto={p}
+        concorrentes={concorrentes}
+        campos={campos}
+        linhas={linhasComparativo}
+        criterio={criterio}
+      />
 
       <section id="ficha" className="painel mt-8 p-6">
         <h2 className="titulo-ui text-xl">Ficha técnica completa</h2>
