@@ -33,9 +33,14 @@ export function CardProduto({
     <article className="cartao group relative flex h-full flex-col overflow-hidden">
       <MidiaProduto produto={produto} />
 
-      <div className="flex flex-1 flex-col p-5">
-        <span className="pastilha self-start">{produto.marca}</span>
-        <h3 className="mt-3 titulo-ui text-lg leading-snug">
+      {/* Compacto de propósito: o card precisa caber cinco por linha. Nome,
+          três números e a barra — nada de resumo em prosa, que é o que fazia a
+          grade virar uma lista de artigos. */}
+      <div className="flex flex-1 flex-col p-3">
+        <span className="text-[0.68rem] font-semibold uppercase tracking-[0.06em] text-acao-forte">
+          {produto.marca}
+        </span>
+        <h3 className="mt-1 titulo-ui text-[0.92rem] leading-snug">
           <Link
             href={`/produtos/${produto.slug}`}
             className="after:absolute after:inset-0 group-hover:text-acao-forte"
@@ -44,17 +49,19 @@ export function CardProduto({
           </Link>
         </h3>
 
-        <dl className="mt-4 grid gap-2 text-[0.85rem]">
+        <dl className="mt-2.5 grid gap-1 text-[0.78rem]">
           {linhas.map((campo) => {
             const valor = produto.specs[campo.chave];
             const ausente = valor === null || valor === undefined;
             return (
               <div
                 key={campo.chave}
-                className="flex items-baseline justify-between gap-3 border-b border-linha pb-2 last:border-0 last:pb-0"
+                className="flex items-baseline justify-between gap-2"
               >
-                <dt className="text-tinta-suave">{campo.rotulo}</dt>
-                <dd className={`dados ${ausente ? "text-ausente" : "font-medium"}`}>
+                <dt className="truncate text-tinta-suave">{campo.rotulo}</dt>
+                <dd
+                  className={`dados shrink-0 ${ausente ? "text-ausente" : "font-medium"}`}
+                >
                   {valorLegivel(valor, campo)}
                 </dd>
               </div>
@@ -62,15 +69,13 @@ export function CardProduto({
           })}
         </dl>
 
-        <div className="mt-auto pt-6">
+        <div className="mt-auto pt-3">
           <div className="flex items-baseline justify-between gap-2">
-            <span className="dados text-[0.95rem] font-medium">{t.nota}%</span>
-            <span className="text-[0.72rem] text-tinta-suave">
-              da ficha publicada
-            </span>
+            <span className="dados text-[0.78rem] font-semibold">{t.nota}%</span>
+            <span className="text-[0.65rem] text-tinta-suave">da ficha</span>
           </div>
           <div
-            className="mt-2 h-2 w-full overflow-hidden rounded-full bg-superficie"
+            className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-superficie"
             role="img"
             aria-label={`${t.preenchidos} de ${t.total} campos publicados pelo fabricante`}
           >

@@ -35,104 +35,75 @@ export default function Home() {
       )
     : 0;
 
+  /** Uma prateleira por categoria com produto na base, como qualquer loja faz. */
+  const prateleiras = categorias
+    .map((c) => ({ cat: c, itens: produtos.filter((p) => p.categoria === c.slug) }))
+    .filter((p) => p.itens.length > 0);
+
   return (
     <div>
-      {/* Faixa escura de largura total. É o que separa uma página com desenho
-          de um documento: a home precisa ter um momento, não só parágrafos. */}
+      {/*
+        Sem herói.
+        A versão anterior gastava uma tela inteira em título e parágrafo antes
+        de mostrar o primeiro produto — estrutura de artigo, não de ferramenta.
+        Agora a barra de contexto tem uma linha e a página abre em produto, que
+        é o que o visitante veio ver.
+      */}
       <section className="faixa">
-        <div className="mx-auto grid max-w-[var(--largura-ferramenta)] items-center gap-12 px-5 py-16 lg:grid-cols-[1.15fr_1fr] lg:py-24">
-          <div>
-            <p className="pastilha bg-white/10 text-[color:var(--color-faixa-tinta)]">
-              Pesquisa sem teste próprio
-            </p>
-            {/* Único título grande que continua em Fraunces: é o momento de
-                marca da página, e é o que mantém o parentesco com o
-                viagemnalupa. Da dobra para baixo, tudo é interface. */}
-            <h1 className="mt-5 max-w-[17ch] font-titulo text-[2.6rem] leading-[1.05] tracking-tight sm:text-[3.4rem]">
-              Nenhuma análise aqui termina em “compre”.
-            </h1>
-            <p className="mt-6 max-w-[54ch] text-lg text-[color:var(--color-faixa-suave)]">
-              Colocamos lado a lado o que cada fabricante declara — e publicamos
-              o que ele deixa de declarar. Cada número tem a fonte oficial no fim
-              da página.
-            </p>
-            <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-3">
-              <Link
-                href="/comparar/energia"
-                className="botao rounded-lg bg-acao px-6 py-3 font-medium text-white shadow-[var(--sombra-2)] transition-colors hover:bg-acao-forte"
-              >
-                Comparar produtos
-              </Link>
-              <Link
-                href="/metodologia"
-                className="underline decoration-[color:var(--color-faixa-suave)] underline-offset-4"
-              >
-                Como as notas são dadas
-              </Link>
+        <div className="mx-auto flex max-w-[var(--largura-ferramenta)] flex-wrap items-center gap-x-8 gap-y-3 px-5 py-4">
+          <p className="text-[0.95rem]">
+            <strong className="font-semibold">
+              Fichas técnicas oficiais, lado a lado.
+            </strong>{" "}
+            <span className="text-[color:var(--color-faixa-suave)]">
+              Sem teste próprio, com a fonte de cada número.
+            </span>
+          </p>
+          <dl className="ml-auto flex flex-wrap items-baseline gap-x-6 gap-y-1 text-[0.8rem]">
+            <div className="flex items-baseline gap-1.5">
+              <dd className="dados text-base">{produtos.length}</dd>
+              <dt className="text-[color:var(--color-faixa-suave)]">produtos</dt>
             </div>
-          </div>
-
-          {/* O herói mostra a ferramenta funcionando, com números reais da base,
-              em vez de só prometer que ela existe. */}
-          <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 shadow-[var(--sombra-3)] backdrop-blur">
-            <p className="text-[0.72rem] uppercase tracking-[0.12em] text-[color:var(--color-faixa-suave)]">
-              O que a base já mostra
-            </p>
-            <dl className="mt-5 grid gap-5">
-              <div className="flex items-baseline justify-between gap-4 border-b border-white/10 pb-4">
-                <dt className="text-[color:var(--color-faixa-suave)]">
-                  Produtos com ficha oficial
-                </dt>
-                <dd className="dados text-2xl">{produtos.length}</dd>
-              </div>
-              <div className="flex items-baseline justify-between gap-4 border-b border-white/10 pb-4">
-                <dt className="text-[color:var(--color-faixa-suave)]">
-                  Fabricantes comparados
-                </dt>
-                <dd className="dados text-2xl">{marcas.length}</dd>
-              </div>
-              <div className="flex items-baseline justify-between gap-4">
-                <dt className="max-w-[26ch] text-[color:var(--color-faixa-suave)]">
-                  Da ficha técnica, em média, é o que eles publicam
-                </dt>
-                <dd className="dados text-2xl text-atencao">{media}%</dd>
-              </div>
-            </dl>
-            <p className="mt-6 text-[0.85rem] leading-relaxed text-[color:var(--color-faixa-suave)]">
-              O resto fica marcado como não informado, campo por campo. Quando
-              uma ausência se repete na ficha de todos os concorrentes, deixa de
-              ser descuido de uma marca e vira característica do mercado.
-            </p>
-          </div>
+            <div className="flex items-baseline gap-1.5">
+              <dd className="dados text-base">{marcas.length}</dd>
+              <dt className="text-[color:var(--color-faixa-suave)]">marcas</dt>
+            </div>
+            <div className="flex items-baseline gap-1.5">
+              <dd className="dados text-base text-atencao">{media}%</dd>
+              <dt className="text-[color:var(--color-faixa-suave)]">
+                da ficha é publicada, em média
+              </dt>
+            </div>
+          </dl>
         </div>
       </section>
 
       <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5">
-      {produtos.length > 0 && (
-        <section className="border-b border-linha py-16">
-          <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
-            <h2 className="titulo-ui text-2xl">Fichas técnicas comparáveis</h2>
-            <Link
-              href="/categorias/energia"
-              className="text-acao-forte underline underline-offset-4"
-            >
-              Filtrar todos os produtos
-            </Link>
+      {prateleiras.map(({ cat, itens }) => (
+        <section key={cat.slug} className="border-b border-linha py-8">
+          <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+            <h2 className="titulo-ui text-xl">{cat.nome}</h2>
+            <div className="flex items-center gap-5 text-[0.85rem]">
+              <Link href={`/comparar/${cat.slug}`} className="text-acao-forte hover:underline">
+                Comparar
+              </Link>
+              <Link href={`/categorias/${cat.slug}`} className="text-acao-forte hover:underline">
+                Ver os {itens.length}
+              </Link>
+            </div>
           </div>
-          <p className="mt-2 max-w-[58ch] text-tinta-suave">
-            Cada ficha vem da documentação oficial do fabricante, normalizada na
-            mesma unidade. A porcentagem é quanto dessa ficha ele realmente
-            publica — o resto fica marcado como não informado.
-          </p>
-          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {produtos.map((p) => (
+          {/* Prateleira: rola na horizontal no celular, vira grade densa no
+              desktop. Cinco por linha em vez de três — o dobro de produto por
+              tela, que é o que separa catálogo de lista de links. */}
+          <ul className="mt-4 grid auto-cols-[14rem] grid-flow-col gap-3 overflow-x-auto pb-2 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
+            {itens.map((p) => (
               <li key={p.slug}>
                 <CardProduto produto={p} campos={camposDa(p.categoria)} />
               </li>
             ))}
           </ul>
         </section>
-      )}
+      ))}
 
       {guias.length > 0 && (
         <section className="border-b border-linha py-14">
