@@ -15,55 +15,85 @@ export default function Home() {
   const guias = todosOsGuias();
   const produtos = todosOsProdutos();
 
+  // O número que abre a página não é enfeite: é o achado que sustenta o site.
+  const semCiclos = produtos.filter(
+    (p) => p.specs.ciclosCarga === null || p.specs.ciclosCarga === undefined,
+  ).length;
+  const marcas = [...new Set(produtos.map((p) => p.marca))];
+
   return (
-    <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5">
-      <section className="grid items-center gap-10 border-b border-linha py-14 sm:grid-cols-[1fr_16rem] sm:py-20">
-        <div>
-          <h1 className="max-w-[16ch] font-titulo text-4xl leading-[1.08] tracking-tight sm:text-5xl">
-            Nenhuma análise aqui termina em “compre”.
-          </h1>
-          <p className="mt-5 max-w-[58ch] text-lg text-tinta-suave">
-            Colocamos lado a lado o que cada fabricante declara — e publicamos o
-            que ele deixa de declarar. Nenhum produto daqui foi testado por nós,
-            e cada número tem a fonte oficial no fim da página.
-          </p>
-          <p className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
-            <Link
-              href="/comparar/energia"
-              className="rounded bg-acao px-5 py-2.5 font-medium text-papel hover:bg-acao-forte"
-            >
-              Comparar produtos
-            </Link>
-            <Link
-              href="/metodologia"
-              className="text-acao-forte underline underline-offset-4"
-            >
-              Como as notas são dadas
-            </Link>
-          </p>
-        </div>
-        <div className="hidden justify-self-end sm:block">
-          <img
-            src="/marca/simbolo.svg"
-            alt=""
-            aria-hidden
-            width={260}
-            height={260}
-            className="so-claro w-56"
-          />
-          <img
-            src="/marca/simbolo-fundo-escuro.svg"
-            alt=""
-            aria-hidden
-            width={260}
-            height={260}
-            className="so-escuro w-56"
-          />
+    <div>
+      {/* Faixa escura de largura total. É o que separa uma página com desenho
+          de um documento: a home precisa ter um momento, não só parágrafos. */}
+      <section className="faixa">
+        <div className="mx-auto grid max-w-[var(--largura-ferramenta)] items-center gap-12 px-5 py-16 lg:grid-cols-[1.15fr_1fr] lg:py-24">
+          <div>
+            <p className="pastilha !border-[color:var(--color-faixa-suave)] !text-[color:var(--color-faixa-suave)]">
+              Pesquisa sem teste próprio
+            </p>
+            <h1 className="mt-5 max-w-[17ch] font-titulo text-[2.6rem] leading-[1.05] tracking-tight sm:text-[3.4rem]">
+              Nenhuma análise aqui termina em “compre”.
+            </h1>
+            <p className="mt-6 max-w-[54ch] text-lg text-[color:var(--color-faixa-suave)]">
+              Colocamos lado a lado o que cada fabricante declara — e publicamos
+              o que ele deixa de declarar. Cada número tem a fonte oficial no fim
+              da página.
+            </p>
+            <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-3">
+              <Link
+                href="/comparar/energia"
+                className="botao rounded-lg bg-acao px-6 py-3 font-medium text-white shadow-[var(--sombra-2)] transition-colors hover:bg-acao-forte"
+              >
+                Comparar produtos
+              </Link>
+              <Link
+                href="/metodologia"
+                className="underline decoration-[color:var(--color-faixa-suave)] underline-offset-4"
+              >
+                Como as notas são dadas
+              </Link>
+            </div>
+          </div>
+
+          {/* O herói mostra a ferramenta funcionando, com números reais da base,
+              em vez de só prometer que ela existe. */}
+          <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 shadow-[var(--sombra-3)] backdrop-blur">
+            <p className="text-[0.72rem] uppercase tracking-[0.12em] text-[color:var(--color-faixa-suave)]">
+              O que a base já mostra
+            </p>
+            <dl className="mt-5 grid gap-5">
+              <div className="flex items-baseline justify-between gap-4 border-b border-white/10 pb-4">
+                <dt className="text-[color:var(--color-faixa-suave)]">
+                  Powerbanks com ficha oficial
+                </dt>
+                <dd className="dados text-2xl">{produtos.length}</dd>
+              </div>
+              <div className="flex items-baseline justify-between gap-4 border-b border-white/10 pb-4">
+                <dt className="text-[color:var(--color-faixa-suave)]">
+                  Fabricantes comparados
+                </dt>
+                <dd className="dados text-2xl">{marcas.length}</dd>
+              </div>
+              <div className="flex items-baseline justify-between gap-4">
+                <dt className="max-w-[24ch] text-[color:var(--color-faixa-suave)]">
+                  Não declaram quantos ciclos a bateria aguenta
+                </dt>
+                <dd className="dados text-2xl text-atencao">
+                  {semCiclos} de {produtos.length}
+                </dd>
+              </div>
+            </dl>
+            <p className="mt-6 text-[0.85rem] leading-relaxed text-[color:var(--color-faixa-suave)]">
+              Quando um campo falta na ficha de todos os concorrentes, deixa de
+              ser descuido de uma marca e vira característica do mercado.
+            </p>
+          </div>
         </div>
       </section>
 
+      <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5">
       {produtos.length > 0 && (
-        <section className="border-b border-linha py-14">
+        <section className="border-b border-linha py-16">
           <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
             <h2 className="font-titulo text-2xl">Fichas técnicas comparáveis</h2>
             <Link
@@ -189,6 +219,7 @@ export default function Home() {
           </ul>
         </section>
       )}
+      </div>
     </div>
   );
 }

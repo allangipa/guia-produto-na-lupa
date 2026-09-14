@@ -29,6 +29,13 @@
   /* Dado que o fabricante não publica. Neutro: não é defeito do produto. */
   --color-ausente: #8a9299;
 
+  /* Faixa escura sobre página clara. É o que dá espinha à página e tira o ar
+     de documento sem folha de estilo — o site precisa ter momentos, não só
+     parágrafos. Tem valor próprio porque não inverte junto com o tema. */
+  --color-faixa: #10181c;
+  --color-faixa-tinta: #eef3f2;
+  --color-faixa-suave: #9fb2b1;
+
   --font-titulo: Fraunces, Georgia, serif;
   --font-texto: Archivo, ui-sans-serif, system-ui, sans-serif;
   --font-dado: "IBM Plex Mono", ui-monospace, monospace;
@@ -36,6 +43,12 @@
   /* Duas larguras, e só duas: prosa lê em medida curta, ferramenta precisa de mesa. */
   --largura-prosa: 48rem;
   --largura-ferramenta: 72rem;
+
+  /* Elevação. Um card sem sombra e sem fundo não é um objeto, é um retângulo
+     desenhado — e a página inteira vira uma planilha em branco. */
+  --sombra-1: 0 1px 2px rgb(16 24 28 / 0.05), 0 1px 3px rgb(16 24 28 / 0.06);
+  --sombra-2: 0 2px 4px rgb(16 24 28 / 0.05), 0 8px 20px -6px rgb(16 24 28 / 0.12);
+  --sombra-3: 0 10px 36px -10px rgb(16 24 28 / 0.22);
 }
 
 /**
@@ -55,6 +68,14 @@
     --color-acao-forte: #5cc4bc;
     --color-atencao: #d98274;
     --color-ausente: #78838c;
+    /* No tema escuro a faixa nao pode ser mais escura que a pagina, senao
+       some. Ela sobe em vez de descer, e continua sendo um bloco a parte. */
+    --color-faixa: #1a2429;
+    --color-faixa-tinta: #eef3f2;
+    --color-faixa-suave: #9fb2b1;
+    --sombra-1: 0 1px 2px rgb(0 0 0 / 0.4);
+    --sombra-2: 0 2px 6px rgb(0 0 0 / 0.45), 0 10px 24px -8px rgb(0 0 0 / 0.5);
+    --sombra-3: 0 12px 40px -12px rgb(0 0 0 / 0.6);
   }
 }
 
@@ -69,6 +90,12 @@
   --color-acao-forte: #5cc4bc;
   --color-atencao: #d98274;
   --color-ausente: #78838c;
+  --color-faixa: #1a2429;
+  --color-faixa-tinta: #eef3f2;
+  --color-faixa-suave: #9fb2b1;
+  --sombra-1: 0 1px 2px rgb(0 0 0 / 0.4);
+  --sombra-2: 0 2px 6px rgb(0 0 0 / 0.45), 0 10px 24px -8px rgb(0 0 0 / 0.5);
+  --sombra-3: 0 12px 40px -12px rgb(0 0 0 / 0.6);
 }
 
 html {
@@ -121,6 +148,56 @@ body {
 .denso {
   font-size: 0.9375rem;
   line-height: 1.5;
+}
+
+/**
+ * Cartão com corpo.
+ *
+ * A versão anterior era `border border-linha` e nada mais: um retângulo de 1px
+ * num fundo branco. Agora tem superfície própria, sombra e reação ao ponteiro —
+ * o suficiente para parecer um objeto sobre a página, não um desenho nela.
+ */
+.cartao {
+  background: var(--color-papel);
+  border: 1px solid var(--color-linha);
+  border-radius: 14px;
+  box-shadow: var(--sombra-1);
+  transition: box-shadow 160ms ease, transform 160ms ease, border-color 160ms ease;
+}
+.cartao:hover {
+  box-shadow: var(--sombra-2);
+  border-color: color-mix(in oklab, var(--color-acao) 45%, var(--color-linha));
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cartao,
+  .cartao:hover {
+    transform: none;
+  }
+}
+
+/** Faixa escura de largura total, com o miolo preso à grade da página. */
+.faixa {
+  background: var(--color-faixa);
+  color: var(--color-faixa-tinta);
+}
+.faixa a:not(.botao) {
+  color: var(--color-faixa-tinta);
+}
+
+/** Pastilha de metadado: marca, unidade, rótulo curto. */
+.pastilha {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--color-linha);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-tinta-suave);
 }
 
 /**

@@ -30,54 +30,59 @@ export function CardProduto({
     .filter((c): c is Campo => Boolean(c));
 
   return (
-    <article className="group relative flex h-full flex-col rounded-xl border border-linha p-5 transition-colors hover:border-acao">
-      <p className="text-[0.78rem] uppercase tracking-wide text-tinta-suave">
-        {produto.marca}
-      </p>
-      <h3 className="mt-1 font-titulo text-lg leading-snug">
-        <Link
-          href={`/produtos/${produto.slug}`}
-          className="after:absolute after:inset-0 group-hover:text-acao-forte"
-        >
-          {produto.nome}
-        </Link>
-      </h3>
-
-      <div className="mt-4">
+    <article className="cartao group relative flex h-full flex-col overflow-hidden">
+      {/* A silhueta ganha superfície própria e vira a "foto" do card: é a
+          primeira coisa que o olho encontra, como em qualquer site de produto. */}
+      <div className="flex min-h-[9.5rem] items-center justify-center bg-superficie px-6 py-7">
         <Silhueta dimensoes={produto.specs.dimensoesMm as string} rotulo={false} />
       </div>
 
-      <dl className="mt-4 grid gap-1.5 border-t border-linha pt-4 text-[0.85rem]">
-        {linhas.map((campo) => {
-          const valor = produto.specs[campo.chave];
-          const ausente = valor === null || valor === undefined;
-          return (
-            <div key={campo.chave} className="flex justify-between gap-3">
-              <dt className="text-tinta-suave">{campo.rotulo}</dt>
-              <dd className={`dados ${ausente ? "text-ausente" : ""}`}>
-                {valorLegivel(valor, campo)}
-              </dd>
-            </div>
-          );
-        })}
-      </dl>
+      <div className="flex flex-1 flex-col p-5">
+        <span className="pastilha self-start">{produto.marca}</span>
+        <h3 className="mt-3 font-titulo text-lg leading-snug">
+          <Link
+            href={`/produtos/${produto.slug}`}
+            className="after:absolute after:inset-0 group-hover:text-acao-forte"
+          >
+            {produto.nome}
+          </Link>
+        </h3>
 
-      <div className="mt-auto pt-5">
-        <div className="flex items-baseline justify-between gap-2">
-          <span className="dados text-[0.85rem]">{t.nota}%</span>
-          <span className="text-[0.72rem] text-tinta-suave">
-            da ficha publicada
-          </span>
-        </div>
-        <div
-          className="mt-1.5 h-1.5 w-full overflow-hidden rounded-full bg-superficie"
-          role="img"
-          aria-label={`${t.preenchidos} de ${t.total} campos publicados pelo fabricante`}
-        >
+        <dl className="mt-4 grid gap-2 text-[0.85rem]">
+          {linhas.map((campo) => {
+            const valor = produto.specs[campo.chave];
+            const ausente = valor === null || valor === undefined;
+            return (
+              <div
+                key={campo.chave}
+                className="flex items-baseline justify-between gap-3 border-b border-linha pb-2 last:border-0 last:pb-0"
+              >
+                <dt className="text-tinta-suave">{campo.rotulo}</dt>
+                <dd className={`dados ${ausente ? "text-ausente" : "font-medium"}`}>
+                  {valorLegivel(valor, campo)}
+                </dd>
+              </div>
+            );
+          })}
+        </dl>
+
+        <div className="mt-auto pt-6">
+          <div className="flex items-baseline justify-between gap-2">
+            <span className="dados text-[0.95rem] font-medium">{t.nota}%</span>
+            <span className="text-[0.72rem] text-tinta-suave">
+              da ficha publicada
+            </span>
+          </div>
           <div
-            className="h-full rounded-full bg-ausente"
-            style={{ width: `${t.nota}%` }}
-          />
+            className="mt-2 h-2 w-full overflow-hidden rounded-full bg-superficie"
+            role="img"
+            aria-label={`${t.preenchidos} de ${t.total} campos publicados pelo fabricante`}
+          >
+            <div
+              className="h-full rounded-full bg-tinta-suave"
+              style={{ width: `${t.nota}%` }}
+            />
+          </div>
         </div>
       </div>
     </article>
