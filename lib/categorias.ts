@@ -61,6 +61,12 @@ export const categorias: Categoria[] = [
     dorPrincipal: "A bateria do anúncio é em horas de vídeo — quantos mAh a marca não diz?",
   },
   {
+    slug: "tablets",
+    nome: "Tablets",
+    descricao: "Tablets Android e iPad, com o que vem na caixa e o que a ficha promete de atualização.",
+    dorPrincipal: "A caneta vem na caixa ou só é \"compatível\"?",
+  },
+  {
     slug: "cozinha",
     nome: "Cozinha",
     descricao: "Airfryers, liquidificadores e o que mais liga na tomada da bancada.",

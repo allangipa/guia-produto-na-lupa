@@ -836,12 +836,224 @@ export const camposCelular: Campo[] = [
   },
 ];
 
+/**
+ * Tablets. Parecido com celular, com o que muda de verdade na decisão: caneta
+ * na caixa, alto-falantes, rede (só Wi-Fi ou com chip) e a política de
+ * atualização — tablet dura mais que celular, e é a atualização que decide
+ * quantos anos ele continua útil.
+ */
+export const camposTablet: Campo[] = [
+  {
+    chave: "telaPol",
+    rotulo: "Tela",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "pol",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "resolucao",
+    rotulo: "Resolução",
+    grupo: "Tela",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "taxaHz",
+    rotulo: "Taxa de atualização",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "Hz",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "brilhoNits",
+    rotulo: "Brilho",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "nits",
+    melhor: "maior",
+    ajuda: "Tablet é usado no sofá e na cama, mas 400 nits ou menos não dá para ler na varanda.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "chip",
+    rotulo: "Chip",
+    grupo: "Desempenho declarado",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "memoriaRamGb",
+    rotulo: "Memória RAM",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "GB",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "armazenamento",
+    rotulo: "Armazenamento",
+    grupo: "Desempenho declarado",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "rede",
+    rotulo: "Rede",
+    grupo: "Conexão",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Só Wi-Fi ou com chip de operadora (4G/5G). A versão com chip é outro produto, com outro preço.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "wifi",
+    rotulo: "Wi-Fi",
+    grupo: "Conexão",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "usb",
+    rotulo: "Porta USB-C",
+    grupo: "Conexão",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "canetaInclusa",
+    rotulo: "Caneta na caixa",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Suportar caneta e vir com caneta são coisas diferentes — e a caneta avulsa custa caro.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "altoFalantes",
+    rotulo: "Alto-falantes",
+    grupo: "Uso diário",
+    tipo: "numero",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cameraTraseiraMp",
+    rotulo: "Câmera traseira",
+    grupo: "Uso diário",
+    tipo: "numero",
+    unidade: "MP",
+    melhor: "maior",
+  },
+  {
+    chave: "cameraFrontalMp",
+    rotulo: "Câmera frontal",
+    grupo: "Uso diário",
+    tipo: "numero",
+    unidade: "MP",
+    melhor: "maior",
+    ajuda: "Em tablet a frontal importa mais que a traseira: é a das chamadas de vídeo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bateriaMah",
+    rotulo: "Bateria",
+    grupo: "Bateria",
+    tipo: "numero",
+    unidade: "mAh",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cargaW",
+    rotulo: "Carga",
+    grupo: "Bateria",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    ajuda: "Bateria de tablet é grande: com 15 W, uma carga completa leva a noite inteira.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "carregadorNaCaixa",
+    rotulo: "Carregador na caixa",
+    grupo: "Bateria",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "sistema",
+    rotulo: "Sistema na caixa",
+    grupo: "Atualizações",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "atualizacoes",
+    rotulo: "Atualizações prometidas",
+    grupo: "Atualizações",
+    tipo: "texto",
+    ajuda: "Quantas versões do sistema o fabricante promete. É o que separa um tablet de 2 anos de um de 6.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoG",
+    rotulo: "Peso",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "g",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "espessuraMm",
+    rotulo: "Espessura",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "mm",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "protecaoAgua",
+    rotulo: "Proteção contra água",
+    grupo: "Corpo",
+    tipo: "texto",
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
   audio: camposAudio,
   cozinha: camposCozinha,
   celular: camposCelular,
+  tablets: camposTablet,
 };
 
 export function camposDa(categoria: string): Campo[] {
@@ -914,6 +1126,16 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   sim: "celular",
   material: "celular",
   espessuraMm: "regua",
+  brilhoNits: "display",
+  rede: "bluetooth",
+  wifi: "bluetooth",
+  canetaInclusa: "controle",
+  altoFalantes: "onda",
+  cameraTraseiraMp: "camera",
+  cargaW: "raio",
+  carregadorNaCaixa: "cabo",
+  sistema: "chip",
+  atualizacoes: "escudo",
 };
 
 export function iconeDo(chave: string): string {
@@ -978,6 +1200,13 @@ const ROTULO_CURTO: Record<string, string> = {
   horasVideo: "Vídeo",
   cargaSemFioW: "Sem fio",
   espessuraMm: "Espessura",
+  brilhoNits: "Brilho",
+  canetaInclusa: "Caneta",
+  altoFalantes: "Falantes",
+  cameraTraseiraMp: "Traseira",
+  cargaW: "Carga",
+  carregadorNaCaixa: "Carregador",
+  atualizacoes: "Atualizações",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -990,6 +1219,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   audio: ["horasFone", "driverMm", "protecaoAgua"],
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],
+  tablets: ["telaPol", "bateriaMah", "canetaInclusa"],
 };
 
 export function destaquesDa(categoria: string): string[] {
