@@ -1,0 +1,576 @@
+[
+  {
+    "slug": "mondial-l-99-fb",
+    "nome": "Mondial Turbo Power L-99 FB",
+    "marca": "Mondial",
+    "modelo": "L-99 FB",
+    "categoria": "liquidificadores",
+    "resumo": "O liquidificador mais vendido da Amazon Brasil. O copo tem 2,2 litros; a Mondial declara que só 1,6 dá para bater. A tabela da Amazon diz 500 W, o anúncio e o fabricante dizem 550.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/mondial-l-99-fb.webp",
+      "alt": "Liquidificador Mondial Turbo Power L-99 FB preto, com copo de cristal",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/liquidificador-mondial-turbo-power-l-99-fb/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 2.2,
+      "capacidadeUtilL": 1.6,
+      "materialCopo": "SAN cristal",
+      "potenciaW": 550,
+      "velocidades": 3,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": true,
+      "filtro": true,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.35,
+      "dimensoesMm": "200 × 210 × 400 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07QK91PTZ"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "mondial-l99-oficial",
+        "valorDivergente": "500 W",
+        "fonteDivergente": "amazon-l99",
+        "observacao": "A tabela técnica da Amazon diz \"Potência 500 watts\"; o próprio título da listagem e a página da Mondial dizem 550 W. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-l99-oficial",
+        "titulo": "Mondial Turbo Power L-99 FB — página oficial do produto",
+        "url": "https://www.mondial.com.br/liquidificador-mondial-turbo-power-l-99-fb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2,2 L de copo e 1,6 L de capacidade útil, copo em SAN cristal, 550 W, 3 velocidades, função pulsar e auto-limpeza, filtro incluso, 127 V ou 220 V, 40 × 21 × 20 cm, 1,35 kg e 1 ano de garantia. Não declara rotação, lâminas nem trava de segurança.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-l99",
+        "titulo": "Mondial L-99 FB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07QK91PTZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 1 em Liquidificadores de Bancada, versão 220 V, copo em polipropileno e 12 meses. A potência da tabela (500 W) diverge do fabricante e está registrada.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "oster-oliq610",
+    "nome": "Oster 1400 Full OLIQ610",
+    "marca": "Oster",
+    "modelo": "OLIQ610",
+    "categoria": "liquidificadores",
+    "resumo": "O copo maior da base, 3,2 litros, com 1400 W e 15 velocidades. A Oster publica consumo, dimensões e peso — e não publica quantos litros dá para bater de verdade.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/oster-oliq610.webp",
+      "alt": "Liquidificador Oster 1400 Full preto, com copo plástico de 3,2 litros",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/liquidificador-1400-full-oster-preto/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 3.2,
+      "capacidadeUtilL": null,
+      "materialCopo": "Plástico",
+      "potenciaW": 1400,
+      "velocidades": 15,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": true,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.3,
+      "dimensoesMm": "220 × 205 × 422 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08DFCF9HW"
+    },
+    "fontes": [
+      {
+        "id": "oster-oliq610-oficial",
+        "titulo": "Oster 1400 Full — página oficial do produto",
+        "url": "https://www.oster.com.br/liquidificador-1400-full-oster-preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Jarra plástica de 3,2 L, 1400 W, consumo de 1,4 kW/h, 15 velocidades mais pulsar, tampa medidora de 100 ml, 205 × 422 × 220 mm, 2,300 kg, 127 V ou 220 V e 12 meses. Não declara capacidade útil, rotação, lâminas, filtro nem trava.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-oliq610",
+        "titulo": "Oster 1400 Full — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08DFCF9HW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 2 em Liquidificadores de Bancada, versão 127 V, material metal e plástico, sem BPA — em linha com o fabricante.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-l-550-b",
+    "nome": "Mondial Easy Power L-550-B",
+    "marca": "Mondial",
+    "modelo": "L-550-B",
+    "categoria": "liquidificadores",
+    "resumo": "O mais leve e mais simples da base: 1,9 litro de copo, 1,5 útil, duas velocidades e 1 kg. Copo de polipropileno e sem filtro — a Mondial diz os dois por escrito.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/mondial-l-550-b.webp",
+      "alt": "Liquidificador Mondial Easy Power L-550-B preto, compacto",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/liquidificador-mondial-easy-power-550w-l-550-b/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 1.9,
+      "capacidadeUtilL": 1.5,
+      "materialCopo": "Polipropileno (PP)",
+      "potenciaW": 550,
+      "velocidades": 2,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": true,
+      "filtro": false,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1,
+      "dimensoesMm": "180 × 200 × 380 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08J8GKC5R"
+    },
+    "fontes": [
+      {
+        "id": "mondial-l550-oficial",
+        "titulo": "Mondial Easy Power L-550-B — página oficial do produto",
+        "url": "https://www.mondial.com.br/liquidificador-mondial-easy-power-550w-l-550-b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1,9 L de copo e 1,5 L de capacidade útil, copo em PP, 550 W, 2 velocidades, pulsar e auto-limpeza, sem filtro, 127 V ou 220 V, 38 × 20 × 18 cm, 1 kg e 1 ano de garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-l550",
+        "titulo": "Mondial L-550-B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08J8GKC5R",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 6 em Liquidificadores de Bancada, versão 110 V, sem BPA e 1,08 kg — em linha com o fabricante.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "britania-blq1300p",
+    "nome": "Britânia Turbo BLQ1300P",
+    "marca": "Britânia",
+    "modelo": "BLQ1300P",
+    "categoria": "liquidificadores",
+    "resumo": "1400 W e 12 velocidades por menos que os concorrentes de mesma potência. A Britânia declara seis lâminas serrilhadas e filtro incluso — e não declara capacidade útil, peso nem dimensões.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/britania-blq1300p.webp",
+      "alt": "Liquidificador Britânia Turbo BLQ1300P preto",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/liquidificador-britania-1400w-3l-12-velocidades-preto-blq1300p/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 3,
+      "capacidadeUtilL": null,
+      "materialCopo": "Plástico",
+      "potenciaW": 1400,
+      "velocidades": 12,
+      "rpm": null,
+      "laminas": "6 lâminas serrilhadas",
+      "pulsar": true,
+      "filtro": true,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.24,
+      "dimensoesMm": "205 × 223 × 423 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B095KWWW3H"
+    },
+    "fontes": [
+      {
+        "id": "britania-blq1300p-oficial",
+        "titulo": "Britânia BLQ1300P — página oficial do produto",
+        "url": "https://www.britania.com.br/liquidificador-britania-1400w-3l-12-velocidades-preto-blq1300p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1400 W, copo de 3 L em plástico, 12 velocidades, função Ice, filtro incluso, pulsar e autolimpeza, sobretampa, 6 lâminas serrilhadas, 127 V ou 220 V e garantia de 360 dias. Não declara capacidade útil, rotação, peso, dimensões nem trava.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-blq1300p",
+        "titulo": "Britânia BLQ1300P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B095KWWW3H",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 3 em Liquidificadores de Bancada, versão 110 V, 20,5 × 22,3 × 42,3 cm e 2,24 kg — números que o fabricante não publica.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "walita-ri2242",
+    "nome": "Philips Walita Série 5000 RI2242",
+    "marca": "Philips Walita",
+    "modelo": "RI2242/90",
+    "categoria": "liquidificadores",
+    "resumo": "A ficha mais completa da base: a Walita publica capacidade útil, rotação em rpm, número de lâminas, comprimento do fio e selo Inmetro. Copo de 3 L com 2 L úteis — e a Amazon anuncia só \"2 litros\".",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/walita-ri2242.webp",
+      "alt": "Liquidificador Philips Walita Série 5000 preto, com jarra inquebrável",
+      "credito": "Imagem: Philips Walita",
+      "origem": "https://www.walita.com.br/liquidificador-serie-5000-jarra-inquebravel-philips-walita-preto-1200w-ri2242_ri2242_90_preto/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 3,
+      "capacidadeUtilL": 2,
+      "materialCopo": "Plástico (jarra inquebrável)",
+      "potenciaW": 1200,
+      "velocidades": 12,
+      "rpm": 23000,
+      "laminas": "6 lâminas removíveis",
+      "pulsar": true,
+      "filtro": false,
+      "travaSeguranca": true,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.115,
+      "dimensoesMm": "182 × 163 × 429 (P × L × A)",
+      "garantiaMeses": 24
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08TM75GN4"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTotalL",
+        "fonteAdotada": "walita-ri2242-oficial",
+        "valorDivergente": "2 L",
+        "fonteDivergente": "amazon-ri2242",
+        "observacao": "A Amazon lista \"Capacidade 2 litros\" — que é a capacidade útil, não a do copo. A Walita declara 3 L de copo e 2 L úteis. Quem compara pela Amazon acha que o copo é menor do que é."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "walita-ri2242-oficial",
+        "titulo": "Philips Walita Série 5000 RI2242 — página oficial do produto",
+        "url": "https://www.walita.com.br/liquidificador-serie-5000-jarra-inquebravel-philips-walita-preto-1200w-ri2242_ri2242_90_preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "3 L de copo e 2 L úteis, 1200 W, consumo de 1,2 kWh, 12 velocidades mais pulsar, 23.000 rpm, 6 lâminas removíveis, trava de segurança, base antiderrapante, sem filtro, fio de 80 cm, 42,9 × 16,3 × 18,2 cm, 2,115 kg, selo Inmetro UL-BR 21.0030 e 2 anos de garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ri2242",
+        "titulo": "Philips Walita RI2242 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08TM75GN4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 5 em Liquidificadores de Bancada, versão 110 V, sem BPA e garantia de 2 anos com extensão mediante cadastro. A capacidade da listagem (2 L) é a útil, não a do copo, e está registrada como divergência.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "philco-ph900",
+    "nome": "Philco PH900",
+    "marca": "Philco",
+    "modelo": "PH900",
+    "categoria": "liquidificadores",
+    "resumo": "Copo de 3 litros, 1200 W e 12 velocidades. O nome engana: PH900 é modelo, não potência — e a tabela da Amazon copiou o 900 como se fosse watt.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/philco-ph900.webp",
+      "alt": "Liquidificador Philco PH900 preto, com copo de 3 litros",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/liquidificador-ph900-preto-1200w/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 3,
+      "capacidadeUtilL": null,
+      "materialCopo": "SAN",
+      "potenciaW": 1200,
+      "velocidades": 12,
+      "rpm": null,
+      "laminas": "6 lâminas",
+      "pulsar": true,
+      "filtro": true,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.887,
+      "dimensoesMm": "175 × 200 × 425 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076BL1265"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "philco-ph900-oficial",
+        "valorDivergente": "900 W",
+        "fonteDivergente": "amazon-ph900",
+        "observacao": "A tabela da Amazon preenche \"Potência 900\" — o número do nome do modelo. Na mesma página, o destaque do produto diz \"Potência de 1200W\", e a Philco declara 1200 W. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philco-ph900-oficial",
+        "titulo": "Philco PH900 — página oficial do produto",
+        "url": "https://www.philco.com.br/liquidificador-ph900-preto-1200w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1200 W, copo de 3 L em SAN, 12 velocidades, função Ice, filtro incluso, pulsar e autolimpeza, sobretampa, 6 lâminas, 127 V ou 220 V e garantia de 360 dias. Não declara capacidade útil, rotação, peso, dimensões nem trava.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ph900",
+        "titulo": "Philco PH900 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076BL1265",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 8 em Liquidificadores de Bancada, versão 110 V, 17,5 × 20 × 42,5 cm e 1.887 g. A potência da tabela (900) diverge do fabricante e está registrada.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-l-900-fb",
+    "nome": "Mondial Turbo Full L-900 FB",
+    "marca": "Mondial",
+    "modelo": "L-900 FB",
+    "categoria": "liquidificadores",
+    "resumo": "2,7 litros de copo e 1,75 útil, 900 W e cinco velocidades. A Mondial publica os dois números de capacidade em todos os modelos — e é a única marca da base que faz isso sempre.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/mondial-l-900-fb.webp",
+      "alt": "Liquidificador Mondial Turbo Full L-900 FB preto, com copo de cristal",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/liquidificador-turbo-full-mondial-preto-900w-l-900-fb-1/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 2.7,
+      "capacidadeUtilL": 1.75,
+      "materialCopo": "SAN cristal",
+      "potenciaW": 900,
+      "velocidades": 5,
+      "rpm": null,
+      "laminas": "Aço inoxidável",
+      "pulsar": true,
+      "filtro": true,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.5,
+      "dimensoesMm": "190 × 348 × 260 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07C91RQZ4"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "mondial-l900-oficial",
+        "valorDivergente": "215 × 210 × 405 (P × L × A)",
+        "fonteDivergente": "amazon-l900",
+        "observacao": "A Mondial publica \"26 cm x 34,8 cm x 19 cm (AxLxP)\" — 26 cm de altura para um liquidificador de 2,7 L é improvável, e a Amazon lista 40,5 cm. Os dois valores estão registrados; a altura real provavelmente é a da Amazon, mas a ficha adota o fabricante como sempre."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-l900-oficial",
+        "titulo": "Mondial Turbo Full L-900 FB — página oficial do produto",
+        "url": "https://www.mondial.com.br/liquidificador-turbo-full-mondial-preto-900w-l-900-fb-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2,7 L de copo e 1,750 L de capacidade útil, copo em SAN cristal, 900 W, 5 velocidades, pulsar e auto-limpeza, filtro incluso, 127 V ou 220 V, 2,500 kg e 1 ano de garantia. As dimensões publicadas (26 × 34,8 × 19 cm) divergem das da Amazon.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-l900",
+        "titulo": "Mondial L-900 FB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07C91RQZ4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 9 em Liquidificadores de Bancada, versão 220 V, lâminas de aço inoxidável, 21,5 × 21 × 40,5 cm e 1,65 kg.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ebl1000",
+    "nome": "Electrolux Efficient EBL1000",
+    "marca": "Electrolux",
+    "modelo": "EBL1000",
+    "categoria": "liquidificadores",
+    "resumo": "Vendido como \"1000 W\" no título e descrito como \"a partir de 900 W\" na própria tabela técnica da Electrolux. Copo de 2,7 litros, cinco velocidades, quatro lâminas de aço.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/electrolux-ebl1000.webp",
+      "alt": "Liquidificador Electrolux Efficient EBL1000 cinza",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/liquidificador-electrolux-1000w-2-7l-efficient-com-triforce-5-velocidades-cinza--ebl1000-/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 2.7,
+      "capacidadeUtilL": null,
+      "materialCopo": "Plástico sem BPA",
+      "potenciaW": null,
+      "velocidades": 5,
+      "rpm": null,
+      "laminas": "4 lâminas TruFlow de aço inoxidável",
+      "pulsar": true,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.6,
+      "dimensoesMm": "198 × 195 × 403 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FPRCRFKM"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "electrolux-ebl1000-oficial",
+        "valorDivergente": "1000 W",
+        "fonteDivergente": "amazon-ebl1000",
+        "observacao": "O título do produto na própria loja da Electrolux diz \"1000W\", e a descrição repete \"poderoso motor de 1000 W\". A tabela técnica da mesma página diz \"Potência: A partir de 900 W\". Como o fabricante se contradiz, a ficha deixa o campo em branco em vez de escolher um dos dois."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "electrolux-ebl1000-oficial",
+        "titulo": "Electrolux EBL1000 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/liquidificador-electrolux-1000w-2-7l-efficient-com-triforce-5-velocidades-cinza--ebl1000-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Copo de até 2,7 L sem BPA, 5 velocidades com receitas predefinidas, função Pulsar 3 em 1, 4 lâminas TruFlow de aço inoxidável, tampa dosadora de 120 ml, desligamento automático por superaquecimento, 40,3 × 19,5 × 19,8 cm, 1,6 kg, 127 V ou 220 V e 1 ano. A potência aparece como \"1000W\" no título e \"a partir de 900 W\" na tabela.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ebl1000",
+        "titulo": "Electrolux EBL1000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FPRCRFKM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 10 em Liquidificadores de Bancada, versão 220 V, \"Potência 1000 watts\" e 5 velocidades.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "walita-ri2110",
+    "nome": "Philips Walita Daily RI2110",
+    "marca": "Philips Walita",
+    "modelo": "RI2110/90",
+    "categoria": "liquidificadores",
+    "resumo": "O básico da Walita, com a ficha completa mesmo assim: 2 L de copo, 1,5 útil, 23.000 rpm declarados e dois anos de garantia. Não tem trava de segurança — e a Walita escreve isso.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/walita-ri2110.webp",
+      "alt": "Liquidificador Philips Walita Daily RI2110 preto",
+      "credito": "Imagem: Philips Walita",
+      "origem": "https://www.walita.com.br/liquidificador-daily-philips-walita-ri2110-preto_ri2110-90_preto/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 2,
+      "capacidadeUtilL": 1.5,
+      "materialCopo": "Plástico",
+      "potenciaW": 550,
+      "velocidades": 2,
+      "rpm": 23000,
+      "laminas": "4 lâminas fixas",
+      "pulsar": true,
+      "filtro": false,
+      "travaSeguranca": false,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.25,
+      "dimensoesMm": "191 × 173 × 392 (P × L × A)",
+      "garantiaMeses": 24
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07RRDLZQY"
+    },
+    "fontes": [
+      {
+        "id": "walita-ri2110-oficial",
+        "titulo": "Philips Walita Daily RI2110 — página oficial do produto",
+        "url": "https://www.walita.com.br/liquidificador-daily-philips-walita-ri2110-preto_ri2110-90_preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2 L de copo e 1,5 L úteis, 550 W, 2 velocidades mais pulsar, 23.000 rpm, 4 lâminas fixas, sem trava de segurança, base antiderrapante, sem filtro, fio de 80 cm, 39,2 × 17,3 × 19,1 cm, 1,25 kg, selo Inmetro UL-BR 21.1957 e 2 anos de garantia.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-ri2110",
+        "titulo": "Philips Walita RI2110 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07RRDLZQY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Nº 11 em Liquidificadores de Bancada, versão 220 V, sem BPA, peças que vão na lava-louças e 2 anos de garantia.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "arno-lq19",
+    "nome": "Arno Power Mix Essential LQ19",
+    "marca": "Arno",
+    "modelo": "LQ19",
+    "categoria": "liquidificadores",
+    "resumo": "700 W, copo de 2,4 litros com 1,6 útil e lâminas que a Arno afirma serem 20% mais afiadas — com o teste citado em nota de rodapé. O anúncio da Amazon diz 18%.",
+    "atualizadoEm": "2026-09-14",
+    "imagem": {
+      "src": "/produtos/arno-lq19.webp",
+      "alt": "Liquidificador Arno Power Mix Essential LQ19 preto",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/liquidificador-arno-power-mix-essential-preto-lq-192720018419/p"
+    },
+    "specs": {
+      "capacidadeTotalL": 2.4,
+      "capacidadeUtilL": 1.6,
+      "materialCopo": "Plástico",
+      "potenciaW": 700,
+      "velocidades": 3,
+      "rpm": null,
+      "laminas": "4 lâminas AFIAMAX de aço inoxidável",
+      "pulsar": null,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.5,
+      "dimensoesMm": "185 × 170 × 396 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F4G5L639"
+    },
+    "divergencias": [
+      {
+        "campo": "laminas",
+        "fonteAdotada": "arno-lq19-oficial",
+        "valorDivergente": "4 lâminas AFIAMAX 18% mais afiadas",
+        "fonteDivergente": "amazon-lq19",
+        "observacao": "O título na Amazon diz \"18% mais afiadas\"; a página da Arno diz 20%, com nota de rodapé citando teste interno do Groupe SEB de outubro de 2024 contra o principal concorrente. Nenhum dos dois números é verificável por fonte independente."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "arno-lq19-oficial",
+        "titulo": "Arno Power Mix Essential LQ19 — página oficial do produto",
+        "url": "https://www.arno.com.br/liquidificador-arno-power-mix-essential-preto-lq-192720018419/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Volume de 2,4 L e capacidade útil de 1,6 L, 700 W, 3 velocidades, lâminas AFIAMAX de aço inoxidável declaradas 20% mais afiadas (teste interno do Groupe SEB), registro Inmetro UL-BR 22.1254, 127 V ou 220 V e 12 meses. Não declara rotação, filtro, pulsar nem trava.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "amazon-lq19",
+        "titulo": "Arno LQ19 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F4G5L639",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Versão 220 V, 18,5 × 17 × 39,6 cm e 1,5 kg. O título diz \"18% mais afiadas\", contra os 20% do fabricante.",
+        "consultadaEm": "2026-09-14"
+      }
+    ]
+  }
+]

@@ -68,9 +68,15 @@ export const categorias: Categoria[] = [
   },
   {
     slug: "cozinha",
-    nome: "Cozinha",
-    descricao: "Airfryers, liquidificadores e o que mais liga na tomada da bancada.",
+    nome: "Airfryers",
+    descricao: "Fritadeiras sem óleo de cesto e de forno, com os litros da caixa separados dos litros do cesto.",
     dorPrincipal: "Os litros do anúncio são de cesto ou de caixa?",
+  },
+  {
+    slug: "liquidificadores",
+    nome: "Liquidificadores",
+    descricao: "Liquidificadores de bancada, com a capacidade do copo separada da que dá para bater de verdade.",
+    dorPrincipal: "O copo tem 3 litros — mas quantos cabem sem transbordar?",
   },
 ];
 

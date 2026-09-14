@@ -1228,6 +1228,143 @@ export const camposMonitor: Campo[] = [
   },
 ];
 
+/**
+ * Liquidificadores. O campo que decide a categoria é o mesmo da airfryer:
+ * `capacidadeUtilL`. O copo tem 2,2 litros, mas a vitamina que cabe sem
+ * transbordar é menor — e só parte das marcas publica os dois números.
+ */
+export const camposLiquidificador: Campo[] = [
+  {
+    chave: "capacidadeTotalL",
+    rotulo: "Capacidade do copo",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O número do anúncio: o volume do copo até a borda.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeUtilL",
+    rotulo: "Capacidade útil",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quanto dá para bater sem transbordar. Costuma ser 70% do copo — e é o número que decide se a vitamina da família sai de uma vez.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialCopo",
+    rotulo: "Material do copo",
+    grupo: "Capacidade",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Plástico (PP) risca e amarela; SAN e cristal resistem mais; vidro é o mais pesado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Watt é o que o motor consome, não o que ele tritura — mas é o único número que todas publicam.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidades",
+    rotulo: "Velocidades",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "rpm",
+    rotulo: "Rotação máxima",
+    grupo: "Desempenho declarado",
+    tipo: "numero",
+    unidade: "rpm",
+    melhor: "maior",
+    ajuda: "A rotação diz mais sobre trituração que o watt — e quase ninguém publica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "laminas",
+    rotulo: "Lâminas",
+    grupo: "Desempenho declarado",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pulsar",
+    rotulo: "Função pulsar",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "filtro",
+    rotulo: "Acompanha filtro",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "O filtro separa o bagaço do suco. Vem na caixa ou é acessório à parte.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "travaSeguranca",
+    rotulo: "Trava de segurança",
+    grupo: "Uso diário",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Impede o motor de ligar com o copo fora do lugar.",
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Instalação",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Instalação",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Instalação",
+    tipo: "texto",
+    ajuda: "A altura é o que decide se ele cabe embaixo do armário da bancada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
@@ -1236,6 +1373,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   celular: camposCelular,
   tablets: camposTablet,
   monitores: camposMonitor,
+  liquidificadores: camposLiquidificador,
 };
 
 export function camposDa(categoria: string): Campo[] {
@@ -1330,6 +1468,13 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   ajusteAltura: "regua",
   vesa: "regua",
   consumoW: "raio",
+  materialCopo: "panela",
+  velocidades: "controle",
+  rpm: "raio",
+  laminas: "driver",
+  pulsar: "controle",
+  filtro: "gota",
+  travaSeguranca: "escudo",
 };
 
 export function iconeDo(chave: string): string {
@@ -1347,6 +1492,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   "casa-conectada": "display",
   celular: "celular",
   cozinha: "panela",
+  liquidificadores: "panela",
   tablets: "display",
   eletrodomesticos: "raio",
 };
@@ -1407,6 +1553,10 @@ const ROTULO_CURTO: Record<string, string> = {
   consumoW: "Consumo",
   resolucao: "Resolução",
   painel: "Painel",
+  materialCopo: "Copo",
+  velocidades: "Velocidades",
+  rpm: "Rotação",
+  travaSeguranca: "Trava",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -1421,6 +1571,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   celular: ["telaPol", "horasVideo", "pesoG"],
   tablets: ["telaPol", "bateriaMah", "canetaInclusa"],
   monitores: ["telaPol", "taxaHz", "painel"],
+  liquidificadores: ["capacidadeUtilL", "potenciaW", "velocidades"],
 };
 
 export function destaquesDa(categoria: string): string[] {

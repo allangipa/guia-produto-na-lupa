@@ -241,6 +241,20 @@ confunde com documento sem folha de estilo.
   O par de campos `tempoRespostaMs` + `medidaResposta` existe porque GtG e
   MPRT/MBR não são a mesma medida — a LG escreve que o MBR de 1 ms escurece
   a tela e desliga o FreeSync, e isso vai para a ficha.
+- **Liquidificadores** (`dados/liquidificadores.json`, esquema
+  `camposLiquidificador`) abriu em 14/09 com dez do ranking de Liquidificadores
+  de Bancada da Amazon: Mondial L-99 FB, L-550-B e L-900 FB; Oster OLIQ610;
+  Britânia BLQ1300P; Walita RI2242 e RI2110; Philco PH900; Electrolux
+  EBL1000; Arno LQ19. O campo que define a categoria é `capacidadeUtilL`,
+  como na airfryer — seis das dez publicam. Fontes: todas VTEX
+  (`window.__STATE__`), com o mesmo padrão `?map=ft` para achar a URL.
+  Divergências fartas: a Amazon lê o nome do modelo como potência (Philco
+  PH900 → "900 W", real 1200), lista a capacidade útil como se fosse a do
+  copo (Walita RI2242 → "2 L", real 3 L de copo) e erra a potência da
+  Mondial (500 vs 550 W); a Electrolux se contradiz na própria página
+  ("1000W" no título, "a partir de 900 W" na tabela) e o campo fica `null`.
+  A categoria `cozinha` passou a se chamar **Airfryers** na tela, mantendo a
+  URL `/categorias/cozinha/` que o Google já indexou.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem
