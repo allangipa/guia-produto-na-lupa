@@ -123,6 +123,24 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
   Duo não tem nenhum. `LojaCta` aceita `nasLojasEm` para guias e comparativos,
   onde o botão fica longe do cabeçalho do produto. **Quando a data passar,
   apagar o campo**; ele só existe enquanto é verdade.
+- **Foto é foto, não é peça de publicidade.** A galeria do fabricante quase
+  sempre mistura as duas coisas, e a segunda não entra: quadro com frase de
+  venda impressa ("1400W DE POTÊNCIA", "JARRA INQUEBRÁVEL", "12 em 1"), selo
+  de garantia, e principalmente **alegação de mercado**. Em 14/09/2026 as
+  fotos principais do AOC 24G50F e do 27G50F eram o banner institucional da
+  marca — monitor de tela apagada ao lado de um selo dourado "#1" e do texto
+  "marca líder em monitores gamers no Brasil e no mundo". Num site cuja regra
+  diz que "mais vendido é dado, não adjetivo", isso é o erro mais caro
+  possível: alegação sem fonte, impossível de conferir, com aparência de dado.
+  Foram trocadas por foto de produto da mesma página.
+  **Auditar a folha de contato das fotos principais quando entrar marca nova.**
+  Continuam na base, conscientemente, dois tipos mais brandos: nome e tamanho
+  do modelo no papel de parede da tela (Samsung, Motorola, Lenovo), que é
+  fotografia de produto normal; e as tarjas de especificação da LG e das
+  Philco ("12L", "6,5L", "1ms (MBR)", "144Hz O/C"). **Estas últimas são
+  dívida**, porque repetem justamente os números que o site existe para
+  qualificar — o "12L" é a caixa, não o cesto; o "1 ms" é MBR, não GtG. Trocar
+  quando houver foto limpa do fabricante; hoje Philco e LG não publicam uma.
 - **"Mais vendido" é dado, não adjetivo.** A frase só pode aparecer onde o
   ranking da Amazon consultado está escrito com data e fonte — hoje isso é o
   subtítulo dos guias, que listam a lista e a data em `fontes`. Na home a

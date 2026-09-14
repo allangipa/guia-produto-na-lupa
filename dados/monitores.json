@@ -68,7 +68,7 @@
     "atualizadoEm": "2026-09-14",
     "imagem": {
       "src": "/produtos/aoc-24g50f.webp",
-      "alt": "Monitor AOC AGON 24G50F visto de frente",
+      "alt": "Monitor AOC AGON G50 de 24 polegadas visto de frente, com uma cena de jogo na tela",
       "credito": "Imagem: AOC",
       "origem": "https://detalhesdoproduto.com.br/a/g/24g50f/"
     },
@@ -114,6 +114,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "1920 × 1080, HDMI e DisplayPort, ajuste de altura, inclinação e giro, consumo de 20 W, 54 × 17,5 × 41,8 cm e 1 ano de garantia.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/aoc-24g50f-c12.webp",
+        "alt": "Monitor AOC AGON G50 de 24 polegadas sobre uma mesa, ao lado de teclado e mouse",
+        "credito": "Imagem: AOC",
+        "origem": "https://detalhesdoproduto.com.br/a/g/24g50f/"
       }
     ]
   },
@@ -341,7 +349,7 @@
     "atualizadoEm": "2026-09-14",
     "imagem": {
       "src": "/produtos/aoc-27g50f.webp",
-      "alt": "Monitor AOC AGON 27G50F visto de frente",
+      "alt": "Monitor AOC AGON G50 de 27 polegadas visto de frente, com uma cena de jogo na tela",
       "credito": "Imagem: AOC",
       "origem": "https://detalhesdoproduto.com.br/a/g/27g50f/"
     },
@@ -396,6 +404,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "1920 × 1080, HDMI e DisplayPort, ajuste de altura, giro e pivô, cabos DP, HDMI e USB na caixa e 1 ano. As dimensões da listagem (\"0,19 × 6,16 × 0,46 metros\") são erro evidente e foram ignoradas.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/aoc-27g50f-c12.webp",
+        "alt": "Monitor AOC AGON G50 de 27 polegadas sobre uma mesa, ao lado de teclado e mouse",
+        "credito": "Imagem: AOC",
+        "origem": "https://detalhesdoproduto.com.br/a/g/27g50f/"
       }
     ]
   },
