@@ -48,15 +48,15 @@
   },
   {
     "slug": "soundcore-p30i",
-    "nome": "soundcore P30i",
+    "nome": "Soundcore P30i",
     "marca": "Anker",
     "modelo": "A3959",
     "resumo": "O único da base com cancelamento ativo declarado: 42 dB. Também o de maior autonomia entre os TWS, com 10 horas no fone e 45 com o estojo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
       "src": "/produtos/soundcore-p30i.webp",
-      "alt": "Fone soundcore P30i com estojo de carregamento aberto",
-      "credito": "Imagem: soundcore",
+      "alt": "Fone Soundcore P30i com estojo de carregamento aberto",
+      "credito": "Imagem: Soundcore",
       "origem": "https://www.soundcore.com/products/soundcore-p30i"
     },
     "specs": {
@@ -85,7 +85,7 @@
     "fontes": [
       {
         "id": "soundcore-p30i-oficial",
-        "titulo": "soundcore P30i — página oficial do produto",
+        "titulo": "Soundcore P30i — página oficial do produto",
         "url": "https://www.soundcore.com/products/soundcore-p30i",
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Drivers de 10 mm, Bluetooth 5.4, redução de ruído de até 42 dB, 10 h de reprodução no fone e 45 h com o estojo, carga de 10 min para 2 h, resistência IP54, conexão multiponto e quatro microfones.",
@@ -95,15 +95,15 @@
   },
   {
     "slug": "soundcore-p20i",
-    "nome": "soundcore P20i",
+    "nome": "Soundcore P20i",
     "marca": "Anker",
     "modelo": "A3944",
-    "resumo": "Irmão mais simples do P30i: mesmo driver de 10 mm, sem cancelamento ativo. A listagem da Amazon só dá o total de 30 horas; a página da soundcore separa: 10h30 no fone.",
+    "resumo": "Irmão mais simples do P30i: mesmo driver de 10 mm, sem cancelamento ativo. A listagem da Amazon só dá o total de 30 horas; a página da Soundcore separa: 10h30 no fone.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
       "src": "/produtos/soundcore-p20i.webp",
-      "alt": "Fone soundcore P20i com estojo de carregamento e cordão",
-      "credito": "Imagem: soundcore",
+      "alt": "Fone Soundcore P20i com estojo de carregamento e cordão",
+      "credito": "Imagem: Soundcore",
       "origem": "https://www.soundcore.com/products/p20i"
     },
     "specs": {
@@ -132,7 +132,7 @@
     "fontes": [
       {
         "id": "soundcore-p20i-oficial",
-        "titulo": "soundcore P20i — página oficial do produto",
+        "titulo": "Soundcore P20i — página oficial do produto",
         "url": "https://www.soundcore.com/products/p20i",
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Até 10 h 30 min de reprodução no fone com uma carga e 30 h com o estojo, drivers de 10 mm, Bluetooth 5.3, dois microfones e 22 equalizações predefinidas.",
@@ -140,7 +140,7 @@
       },
       {
         "id": "amazon-p20i",
-        "titulo": "soundcore P20i — página do produto na Amazon Brasil",
+        "titulo": "Soundcore P20i — página do produto na Amazon Brasil",
         "url": "https://www.amazon.com.br/dp/B0BTYCRJSS",
         "tipo": "varejo",
         "oQueSaiuDaqui": "Drivers dinâmicos de 10 mm, Bluetooth 5.3, 30 horas de bateria, carga rápida de 10 min para 2 h, resistência IPX5, dois microfones e controles personalizáveis pelo aplicativo. A página não separa quanto da autonomia é do fone e quanto é do estojo.",
