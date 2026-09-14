@@ -18,10 +18,13 @@ export function SiteFooter() {
             a fonte de cada número declarada e uma nota de transparência por
             produto.
           </p>
+          {/* A primeira frase é a declaração que o contrato de Associados exige,
+              nesta redação. As outras são nossas. */}
           <p className="mt-4 max-w-[44ch] text-[0.82rem] text-tinta-suave">
-            Participamos dos programas de afiliados da Amazon e do Mercado
-            Livre. Comprando por um link daqui, o site recebe comissão sem custo
-            extra para você — e isso não muda o que escrevemos.
+            Como Associado da Amazon, o {site.nome} recebe por compras
+            qualificadas. Também participamos do programa de afiliados do
+            Mercado Livre. Comprando por um link daqui, o site recebe comissão
+            sem custo extra para você — e isso não muda o que escrevemos.
           </p>
         </div>
 

@@ -17,7 +17,12 @@ export const site = {
     contato: "contato@guiaprodutonalupa.com.br",
     url: "/sobre",
   },
-  amazonTag: process.env.NEXT_PUBLIC_AMAZON_TAG ?? "",
+  /**
+   * ID de Associado da Amazon.com.br, aprovado em 14/09/2026. Não é segredo —
+   * vai em toda URL de loja do site — então fica no código, com a variável de
+   * ambiente só para sobrescrever em outro deploy.
+   */
+  amazonTag: process.env.NEXT_PUBLIC_AMAZON_TAG ?? "guiaprodutona-20",
 } as const;
 
 /**

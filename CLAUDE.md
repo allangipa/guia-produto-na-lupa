@@ -180,10 +180,13 @@ confunde com documento sem folha de estilo.
   foram testados com dados temporários e renderizam certo, mas nenhum produto
   real tem esses campos ainda: Mercado Livre exige login para mostrar avaliações
   e a Anatel ainda não foi consultada. Preencher é pesquisa, não código.
-- Não se inscrever no Amazon Associates antes de ter de cinco a dez análises
-  reais: o programa avalia o site no cadastro e exige vendas qualificadas em
-  prazo depois da aprovação.
-- Variável `NEXT_PUBLIC_AMAZON_TAG` ainda vazia no repositório.
+- **Amazon Associates aprovado em 14/09/2026.** ID `guiaprodutona-20`, fixado
+  como padrão em `lib/site.ts` (a variável de ambiente só sobrescreve). Prazo:
+  **três vendas qualificadas até 13/03/2027**, senão a conta é encerrada. A
+  Product Advertising API — que traz foto e preço licenciados — só libera depois
+  das primeiras vendas; até lá, nada de preço em texto.
+- O rodapé carrega a declaração exigida pelo contrato: "Como Associado da
+  Amazon, … recebe por compras qualificadas". Não remover nem parafrasear.
 - Falta ligar analytics. O evento `clique_afiliado` já dispara com loja, produto e
   posição do botão, pronto para Plausible ou GA4.
 - Falta cadastrar o sitemap no Search Console.
