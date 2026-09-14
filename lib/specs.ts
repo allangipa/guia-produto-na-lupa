@@ -454,6 +454,97 @@ export function camposDa(categoria: string): Campo[] {
 }
 
 /**
+ * Ícone de cada campo, por chave. Fica fora da definição do campo para o
+ * módulo de dados não saber que existe interface — e para a mesma chave em
+ * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
+ */
+const ICONE_POR_CAMPO: Record<string, string> = {
+  capacidadeNominal: "bateria",
+  capacidadeReal: "bateria",
+  energiaWh: "raio",
+  quimica: "driver",
+  potenciaMaxSaida: "raio",
+  potenciaMaxEntrada: "raio",
+  portasSaida: "portas",
+  descricaoSaidas: "portas",
+  caboIntegrado: "cabo",
+  pesoG: "peso",
+  dimensoesMm: "regua",
+  tempoRecargaH: "relogio",
+  displayDigital: "display",
+  garantiaMeses: "escudo",
+  ciclosCarga: "bateria",
+  formato: "fone",
+  driverMm: "driver",
+  impedanciaOhm: "ohm",
+  sensibilidadeDb: "onda",
+  faixaFrequencia: "onda",
+  bluetoothVersao: "bluetooth",
+  codecs: "bluetooth",
+  multiponto: "bluetooth",
+  horasFone: "bateria",
+  horasTotal: "bateria",
+  tempoCargaH: "relogio",
+  cargaRapida: "raio",
+  cancelamentoAtivo: "fone",
+  reducaoDb: "fone",
+  protecaoAgua: "gota",
+  controles: "controle",
+};
+
+export function iconeDo(chave: string): string {
+  return ICONE_POR_CAMPO[chave] ?? "info";
+}
+
+/** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
+const ROTULO_CURTO: Record<string, string> = {
+  capacidadeNominal: "Capacidade",
+  capacidadeReal: "Cap. real",
+  energiaWh: "Energia",
+  potenciaMaxSaida: "Saída",
+  potenciaMaxEntrada: "Entrada",
+  portasSaida: "Portas",
+  pesoG: "Peso",
+  dimensoesMm: "Tamanho",
+  tempoRecargaH: "Recarga",
+  garantiaMeses: "Garantia",
+  driverMm: "Driver",
+  horasFone: "Bateria",
+  horasTotal: "Com estojo",
+  bluetoothVersao: "Bluetooth",
+  protecaoAgua: "Água",
+  reducaoDb: "Cancelamento",
+  tempoCargaH: "Carga",
+};
+
+export function rotuloCurto(campo: Campo): string {
+  return ROTULO_CURTO[campo.chave] ?? campo.rotulo;
+}
+
+/** Os três números que separam um produto de outro, por categoria — para o card. */
+const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
+  energia: ["capacidadeNominal", "potenciaMaxSaida", "pesoG"],
+  audio: ["horasFone", "driverMm", "protecaoAgua"],
+};
+
+export function destaquesDa(categoria: string): string[] {
+  return DESTAQUES_POR_CATEGORIA[categoria] ?? [];
+}
+
+/**
+ * Faixa da nota de transparência. Cor de dado, sobre a documentação do
+ * fabricante — nunca sobre a qualidade do produto, e o rótulo diz isso.
+ */
+export function faixaTransparencia(nota: number): {
+  classe: "faixa-bom" | "faixa-medio" | "faixa-baixo";
+  rotulo: string;
+} {
+  if (nota >= 70) return { classe: "faixa-bom", rotulo: "Ficha completa" };
+  if (nota >= 45) return { classe: "faixa-medio", rotulo: "Ficha parcial" };
+  return { classe: "faixa-baixo", rotulo: "Ficha pobre" };
+}
+
+/**
  * Quanto da ficha o fabricante realmente publica, de 0 a 100.
  *
  * É a única nota deste site que não depende de julgamento nosso: ou o dado está

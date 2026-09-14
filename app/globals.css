@@ -1,38 +1,41 @@
 @import "tailwindcss";
 
 /**
- * Os papéis de cor são separados de propósito.
+ * Sistema visual: loja de tecnologia clara.
  *
- * A regra original do projeto — uma única cor de ação no site inteiro — só
- * funciona se nada além do CTA for verde. Quando o site ganhou tabela
- * comparativa, o verde começou a marcar também o vencedor de cada linha, e um
- * comparativo de quinze critérios passou a ter dez marcas verdes competindo com
- * o botão. Por isso o vencedor agora é marcado por peso e por um realce neutro,
- * sem cor de ação, e "não informa" ganhou tom próprio: ausência de dado é
- * constatação sobre a documentação, não alerta sobre o produto.
+ * A página tem um fundo (cinza-claro) e os objetos ficam sobre ele em branco,
+ * com sombra. É a separação fundo/superfície que faz um card parecer um card e
+ * não um retângulo desenhado — e é o que faltava nas versões anteriores, onde
+ * tudo era branco sobre branco com filete de 1px.
+ *
+ * Papéis de cor:
+ * - acao / acao-forte: CTA, links de ação, estado ativo. Botão sólido só em CTA.
+ * - bom / medio / ausente: faixa da nota de transparência (documentação do
+ *   fabricante), nunca qualidade do produto.
+ * - atencao: contras e divergência real entre fontes.
  */
 @theme {
+  --color-fundo: #f3f5f7;
   --color-papel: #ffffff;
-  --color-superficie: #f1f4f3;
-  --color-realce: #e7eeec;
-  --color-tinta: #14181b;
-  --color-tinta-suave: #5c666b;
-  --color-linha: #dde3e1;
+  --color-superficie: #eef1f4;
+  --color-realce: #e2f0ee;
+  --color-tinta: #101418;
+  --color-tinta-suave: #5d6a73;
+  --color-linha: #e2e6ea;
 
-  /* Exclusiva do CTA. Se só o botão é verde, ele não precisa piscar. */
   --color-acao: #0f6e6c;
-  --color-acao-forte: #0a4f4e;
+  --color-acao-forte: #0a5250;
+  --color-acao-suave: #d9ecea;
 
-  /* Contras e risco real. Nunca para dado faltante. */
-  --color-atencao: #9e3b2e;
+  --color-atencao: #b53a2d;
+  --color-ausente: #98a2ab;
+  --color-bom: #1e8e5a;
+  --color-bom-suave: #dcf3e6;
+  --color-medio: #b8811a;
+  --color-medio-suave: #fbeed3;
+  --color-ausente-suave: #eceff2;
 
-  /* Dado que o fabricante não publica. Neutro: não é defeito do produto. */
-  --color-ausente: #8a9299;
-
-  /* Faixa escura sobre página clara. É o que dá espinha à página e tira o ar
-     de documento sem folha de estilo — o site precisa ter momentos, não só
-     parágrafos. Tem valor próprio porque não inverte junto com o tema. */
-  --color-faixa: #10181c;
+  --color-faixa: #101418;
   --color-faixa-tinta: #eef3f2;
   --color-faixa-suave: #9fb2b1;
 
@@ -40,69 +43,71 @@
   --font-texto: Archivo, ui-sans-serif, system-ui, sans-serif;
   --font-dado: "IBM Plex Mono", ui-monospace, monospace;
 
-  /* Duas larguras, e só duas: prosa lê em medida curta, ferramenta precisa de mesa. */
   --largura-prosa: 48rem;
-  --largura-ferramenta: 72rem;
+  --largura-ferramenta: 80rem;
 
-  /* Elevação. Um card sem sombra e sem fundo não é um objeto, é um retângulo
-     desenhado — e a página inteira vira uma planilha em branco. */
-  --sombra-1: 0 1px 2px rgb(16 24 28 / 0.05), 0 1px 3px rgb(16 24 28 / 0.06);
-  --sombra-2: 0 2px 4px rgb(16 24 28 / 0.05), 0 8px 20px -6px rgb(16 24 28 / 0.12);
-  --sombra-3: 0 10px 36px -10px rgb(16 24 28 / 0.22);
+  --raio-card: 16px;
+  --raio-controle: 10px;
+
+  --sombra-1: 0 1px 2px rgb(16 20 24 / 0.04), 0 1px 4px rgb(16 20 24 / 0.06);
+  --sombra-2: 0 4px 10px rgb(16 20 24 / 0.06), 0 12px 28px -8px rgb(16 20 24 / 0.14);
+  --sombra-3: 0 16px 48px -12px rgb(16 20 24 / 0.25);
 }
 
-/**
- * Modo escuro. O visitante que escolhe manda; sem escolha, vale o sistema.
- * Os nomes dos tokens não mudam — só os valores — para que nenhum componente
- * precise saber em que tema está.
- */
 @media (prefers-color-scheme: dark) {
   :root:not([data-tema="claro"]) {
-    --color-papel: #10151a;
-    --color-superficie: #171e24;
-    --color-realce: #1e272e;
-    --color-tinta: #e6ecef;
-    --color-tinta-suave: #97a3ac;
-    --color-linha: #29333b;
-    --color-acao: #2f9d97;
-    --color-acao-forte: #5cc4bc;
-    --color-atencao: #d98274;
-    --color-ausente: #78838c;
-    /* No tema escuro a faixa nao pode ser mais escura que a pagina, senao
-       some. Ela sobe em vez de descer, e continua sendo um bloco a parte. */
-    --color-faixa: #1a2429;
-    --color-faixa-tinta: #eef3f2;
-    --color-faixa-suave: #9fb2b1;
-    --sombra-1: 0 1px 2px rgb(0 0 0 / 0.4);
-    --sombra-2: 0 2px 6px rgb(0 0 0 / 0.45), 0 10px 24px -8px rgb(0 0 0 / 0.5);
-    --sombra-3: 0 12px 40px -12px rgb(0 0 0 / 0.6);
+    --color-fundo: #0d1115;
+    --color-papel: #161b21;
+    --color-superficie: #1e252c;
+    --color-realce: #1d2f2d;
+    --color-tinta: #e8edf1;
+    --color-tinta-suave: #9aa6b0;
+    --color-linha: #2a333b;
+    --color-acao: #2fa39c;
+    --color-acao-forte: #62cfc6;
+    --color-acao-suave: #173a38;
+    --color-atencao: #e08a7c;
+    --color-ausente: #76828c;
+    --color-bom: #4cc38a;
+    --color-bom-suave: #163826;
+    --color-medio: #e2a93b;
+    --color-medio-suave: #3a2c10;
+    --color-ausente-suave: #232a31;
+    --color-faixa: #161b21;
+    --sombra-1: 0 1px 2px rgb(0 0 0 / 0.5);
+    --sombra-2: 0 4px 12px rgb(0 0 0 / 0.5), 0 14px 30px -8px rgb(0 0 0 / 0.6);
+    --sombra-3: 0 18px 50px -12px rgb(0 0 0 / 0.7);
   }
 }
 
 :root[data-tema="escuro"] {
-  --color-papel: #10151a;
-  --color-superficie: #171e24;
-  --color-realce: #1e272e;
-  --color-tinta: #e6ecef;
-  --color-tinta-suave: #97a3ac;
-  --color-linha: #29333b;
-  --color-acao: #2f9d97;
-  --color-acao-forte: #5cc4bc;
-  --color-atencao: #d98274;
-  --color-ausente: #78838c;
-  --color-faixa: #1a2429;
-  --color-faixa-tinta: #eef3f2;
-  --color-faixa-suave: #9fb2b1;
-  --sombra-1: 0 1px 2px rgb(0 0 0 / 0.4);
-  --sombra-2: 0 2px 6px rgb(0 0 0 / 0.45), 0 10px 24px -8px rgb(0 0 0 / 0.5);
-  --sombra-3: 0 12px 40px -12px rgb(0 0 0 / 0.6);
+  --color-fundo: #0d1115;
+  --color-papel: #161b21;
+  --color-superficie: #1e252c;
+  --color-realce: #1d2f2d;
+  --color-tinta: #e8edf1;
+  --color-tinta-suave: #9aa6b0;
+  --color-linha: #2a333b;
+  --color-acao: #2fa39c;
+  --color-acao-forte: #62cfc6;
+  --color-acao-suave: #173a38;
+  --color-atencao: #e08a7c;
+  --color-ausente: #76828c;
+  --color-bom: #4cc38a;
+  --color-bom-suave: #163826;
+  --color-medio: #e2a93b;
+  --color-medio-suave: #3a2c10;
+  --color-ausente-suave: #232a31;
+  --color-faixa: #161b21;
+  --sombra-1: 0 1px 2px rgb(0 0 0 / 0.5);
+  --sombra-2: 0 4px 12px rgb(0 0 0 / 0.5), 0 14px 30px -8px rgb(0 0 0 / 0.6);
+  --sombra-3: 0 18px 50px -12px rgb(0 0 0 / 0.7);
 }
 
 html {
   scroll-behavior: smooth;
   color-scheme: light dark;
-  /* O cabeçalho é fixo: âncora não pode parar embaixo dele. */
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 7rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -118,27 +123,21 @@ html {
 }
 
 body {
-  background: var(--color-papel);
+  background: var(--color-fundo);
   color: var(--color-tinta);
   font-family: var(--font-texto);
-  font-size: 1.0625rem;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
 
 :focus-visible {
   outline: 2px solid var(--color-acao);
-  outline-offset: 3px;
-  border-radius: 2px;
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
-/**
- * Escala de dados, separada da escala de prosa.
- *
- * Texto corrido pede 17px e entrelinha 1.65; ficha de quinze linhas na mesma
- * respiração vira um rolo. `tabular-nums` é o que faz 20.000 e 1.500 alinharem
- * as casas na coluna — sem isso, metade da razão de usar fonte mono se perde.
- */
+/* Números alinhados em coluna. */
 .dados {
   font-family: var(--font-dado);
   font-variant-numeric: tabular-nums;
@@ -146,44 +145,33 @@ body {
 }
 
 .denso {
-  font-size: 0.9375rem;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
-/**
- * Títulos de interface em Archivo, não em Fraunces.
- *
- * A serifada é o que dava ao site o ar de revista: card, filtro e tabela com
- * título serifado leem como matéria, não como ferramenta. A Fraunces continua
- * na marca e no texto corrido de guia e análise, que é onde ela trabalha — e o
- * parentesco tipográfico com o viagemnalupa se mantém por ali.
- */
+/* Títulos de interface em sans; Fraunces fica na marca e no texto corrido. */
 .titulo-ui {
   font-family: var(--font-texto);
-  font-weight: 600;
-  letter-spacing: -0.011em;
+  font-weight: 700;
+  letter-spacing: -0.015em;
 }
 
-/**
- * Cartão com corpo.
- *
- * A versão anterior era `border border-linha` e nada mais: um retângulo de 1px
- * num fundo branco. Agora tem superfície própria, sombra e reação ao ponteiro —
- * o suficiente para parecer um objeto sobre a página, não um desenho nela.
- */
+/* Cartão: superfície branca elevada sobre o fundo cinza. */
 .cartao {
   background: var(--color-papel);
   border: 1px solid var(--color-linha);
-  border-radius: 14px;
+  border-radius: var(--raio-card);
   box-shadow: var(--sombra-1);
-  transition: box-shadow 160ms ease, transform 160ms ease, border-color 160ms ease;
+  transition:
+    box-shadow 180ms ease,
+    transform 180ms ease,
+    border-color 180ms ease;
 }
 .cartao:hover {
   box-shadow: var(--sombra-2);
-  border-color: color-mix(in oklab, var(--color-acao) 45%, var(--color-linha));
-  transform: translateY(-2px);
+  border-color: color-mix(in oklab, var(--color-acao) 35%, var(--color-linha));
+  transform: translateY(-3px);
 }
-
 @media (prefers-reduced-motion: reduce) {
   .cartao,
   .cartao:hover {
@@ -191,64 +179,178 @@ body {
   }
 }
 
-/** Faixa escura de largura total, com o miolo preso à grade da página. */
+/* Painel: superfície sem hover (filtros, tabela). */
+.painel {
+  background: var(--color-papel);
+  border: 1px solid var(--color-linha);
+  border-radius: var(--raio-card);
+  box-shadow: var(--sombra-1);
+}
+
 .faixa {
   background: var(--color-faixa);
   color: var(--color-faixa-tinta);
 }
-.faixa a:not(.botao) {
-  color: var(--color-faixa-tinta);
+
+/* Banner informativo: gradiente suave da cor de ação, sem virar propaganda. */
+.banner {
+  background:
+    radial-gradient(
+      120% 140% at 100% 0%,
+      color-mix(in oklab, var(--color-acao) 22%, transparent),
+      transparent 55%
+    ),
+    var(--color-papel);
+  border: 1px solid var(--color-linha);
+  border-radius: var(--raio-card);
+  box-shadow: var(--sombra-1);
 }
 
-/**
- * Pastilha de metadado: marca, unidade, rótulo curto.
- *
- * Vem preenchida com um tom da cor de ação. A regra da casa é "botão sólido só
- * em CTA" — e continua valendo —, mas ela nunca quis dizer que nada mais no
- * site pode ter cor. Guardar o verde para um único elemento foi o que deixou
- * tudo em volta cinza.
- */
+/* Pastilha / chip. */
 .pastilha {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
   border-radius: 999px;
-  padding: 0.2rem 0.7rem;
+  padding: 0.22rem 0.7rem;
   font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  background: color-mix(in oklab, var(--color-acao) 12%, transparent);
+  background: var(--color-acao-suave);
   color: var(--color-acao-forte);
 }
-
 .pastilha-neutra {
   background: var(--color-superficie);
   color: var(--color-tinta-suave);
 }
 
-/** Gradiente sutil de fundo para blocos que precisam de peso sem virar caixa. */
-.gradiente-acao {
-  background-image: linear-gradient(
-    135deg,
-    color-mix(in oklab, var(--color-acao) 10%, transparent),
-    transparent 65%
-  );
+/* Pílula de navegação. */
+.pilula {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 0.42rem 0.95rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-tinta);
+  background: var(--color-papel);
+  border: 1px solid var(--color-linha);
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease;
+}
+.pilula:hover {
+  border-color: var(--color-acao);
+  color: var(--color-acao-forte);
+}
+.pilula-ativa {
+  background: var(--color-tinta);
+  color: var(--color-papel);
+  border-color: var(--color-tinta);
+}
+.pilula-ativa:hover {
+  color: var(--color-papel);
+  border-color: var(--color-tinta);
 }
 
-/**
- * A marca tem versão própria para fundo escuro: o cabo da lupa e o chapéu são
- * tinta, e em tema escuro sumiriam, sobrando só o anel verde. Como não dá para
- * trocar o `src` de uma imagem por CSS, as duas versões são renderizadas e uma
- * é escondida — o arquivo extra é pequeno e a alternativa seria JavaScript.
- */
+/* Badge de transparência por faixa. */
+.faixa-bom {
+  background: var(--color-bom-suave);
+  color: var(--color-bom);
+}
+.faixa-medio {
+  background: var(--color-medio-suave);
+  color: var(--color-medio);
+}
+.faixa-baixo {
+  background: var(--color-ausente-suave);
+  color: var(--color-tinta-suave);
+}
+
+/* Botões. */
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--raio-controle);
+  padding: 0.7rem 1.25rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+  transition:
+    background 140ms ease,
+    color 140ms ease,
+    box-shadow 140ms ease,
+    transform 140ms ease;
+}
+.botao-primario {
+  background: var(--color-acao);
+  color: #ffffff;
+  box-shadow: var(--sombra-1);
+}
+.botao-primario:hover {
+  background: var(--color-acao-forte);
+  box-shadow: var(--sombra-2);
+}
+.botao-secundario {
+  background: var(--color-papel);
+  color: var(--color-tinta);
+  border: 1px solid var(--color-linha);
+}
+.botao-secundario:hover {
+  border-color: var(--color-acao);
+  color: var(--color-acao-forte);
+}
+
+/* Campo de busca grande. */
+.campo-busca {
+  width: 100%;
+  border-radius: 999px;
+  border: 1px solid var(--color-linha);
+  background: var(--color-superficie);
+  padding: 0.7rem 1rem 0.7rem 2.75rem;
+  font-size: 0.95rem;
+  color: var(--color-tinta);
+  transition:
+    border-color 140ms ease,
+    background 140ms ease,
+    box-shadow 140ms ease;
+}
+.campo-busca::placeholder {
+  color: var(--color-tinta-suave);
+}
+.campo-busca:focus {
+  outline: none;
+  background: var(--color-papel);
+  border-color: var(--color-acao);
+  box-shadow: 0 0 0 3px var(--color-acao-suave);
+}
+
+/* Rolagem horizontal sem barra feia. */
+.rolo {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-linha) transparent;
+}
+.rolo::-webkit-scrollbar {
+  height: 6px;
+}
+.rolo::-webkit-scrollbar-thumb {
+  background: var(--color-linha);
+  border-radius: 999px;
+}
+
+/* Marca em duas versões, uma por tema. */
 .so-claro {
   display: initial;
 }
 .so-escuro {
   display: none;
 }
-
 @media (prefers-color-scheme: dark) {
   :root:not([data-tema="claro"]) .so-claro {
     display: none;
@@ -257,7 +359,6 @@ body {
     display: initial;
   }
 }
-
 :root[data-tema="escuro"] .so-claro {
   display: none;
 }
@@ -271,7 +372,7 @@ body {
   display: none;
 }
 
-/* Prosa do corpo do review. Medida curta, hierarquia clara, sem enfeite. */
+/* Prosa (guias, análises, institucionais). */
 .prosa > * + * {
   margin-top: 1.15em;
 }
@@ -317,4 +418,11 @@ body {
 }
 .prosa strong {
   font-weight: 600;
+}
+.prosa code {
+  font-family: var(--font-dado);
+  font-size: 0.9em;
+  background: var(--color-superficie);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
 }

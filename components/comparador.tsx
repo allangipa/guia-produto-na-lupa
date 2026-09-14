@@ -85,7 +85,7 @@ export function Comparador({
 
   return (
     <div className="mt-8">
-      <div className="rounded-lg border border-linha bg-superficie p-5">
+      <div className="painel p-5">
         <h2 className="titulo-ui text-lg">
           Escolha até {LIMITE} para comparar
         </h2>
@@ -125,7 +125,7 @@ export function Comparador({
       )}
 
       {escolhidos.length > 0 && (
-        <div className="mt-8 overflow-x-auto">
+        <div className="painel mt-8 overflow-x-auto p-4 sm:p-6">
           <table className="w-full min-w-[40rem] border-collapse text-[0.95rem]">
             <thead>
               <tr className="border-b border-linha">

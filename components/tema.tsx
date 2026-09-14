@@ -70,7 +70,7 @@ export function AlternadorTema() {
       type="button"
       onClick={trocar}
       aria-label={`${rotulo}. Clique para alternar.`}
-      className="rounded border border-linha px-2.5 py-1 text-[0.8rem] text-tinta-suave hover:text-tinta"
+      className="pilula !py-2 text-[0.8rem]"
     >
       {rotulo}
     </button>

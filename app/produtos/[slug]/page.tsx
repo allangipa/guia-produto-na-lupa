@@ -67,7 +67,7 @@ export default async function PaginaProduto({ params }: Params) {
       {p.imagem ? (
         <FotoProduto imagem={p.imagem} prioridade />
       ) : (
-        <div className="my-8 rounded-xl border border-linha p-6">
+        <div className="painel my-8 p-6">
           <h2 className="titulo-ui text-lg">Tamanho real</h2>
           <p className="mt-1 max-w-[52ch] text-[0.9rem] text-tinta-suave">
             Desenhado na escala das dimensões oficiais, contra o contorno de um

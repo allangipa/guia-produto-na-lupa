@@ -3,14 +3,14 @@
 import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { ItemIndice } from "@/lib/indice";
+import { Icone } from "@/components/icones";
 
 /**
- * Busca do cabeçalho.
+ * Busca do cabeçalho — grande e central, como em qualquer loja.
  *
  * Roda no navegador sobre o índice montado no build. Compara sem acento de
  * propósito: quem procura "bateria" e quem procura "batería" quer a mesma
- * coisa, e exigir acentuação correta num campo de busca é hostilidade
- * disfarçada de rigor.
+ * coisa.
  */
 
 const MAXIMO = 8;
@@ -36,8 +36,6 @@ export function Busca({ indice }: { indice: ItemIndice[] }) {
   }, [termo, indice]);
 
   function aoPerderFoco(e: React.FocusEvent<HTMLDivElement>) {
-    // Só fecha quando o foco sai do bloco inteiro: clicar num resultado move o
-    // foco para o link, e fechar nesse instante cancelaria a navegação.
     if (!container.current?.contains(e.relatedTarget as Node)) setAberto(false);
   }
 
@@ -45,13 +43,17 @@ export function Busca({ indice }: { indice: ItemIndice[] }) {
     <div
       ref={container}
       onBlur={aoPerderFoco}
-      className="relative"
+      className="relative w-full"
       role="search"
     >
+      <Icone
+        nome="lupa"
+        className="pointer-events-none absolute left-3.5 top-1/2 h-4.5 w-4.5 -translate-y-1/2 text-tinta-suave"
+      />
       <input
         type="search"
         value={termo}
-        placeholder="Buscar produto"
+        placeholder="Buscar produto, marca ou modelo"
         aria-label="Buscar no site"
         onChange={(e) => {
           setTermo(e.target.value);
@@ -59,11 +61,11 @@ export function Busca({ indice }: { indice: ItemIndice[] }) {
         }}
         onFocus={() => setAberto(true)}
         onKeyDown={(e) => e.key === "Escape" && setAberto(false)}
-        className="w-36 rounded border border-linha bg-papel px-2.5 py-1 text-[0.85rem] focus:w-52 sm:w-44"
+        className="campo-busca"
       />
 
       {aberto && termo.trim().length >= 2 && (
-        <div className="absolute right-0 top-full z-50 mt-1 w-80 max-w-[80vw] rounded-lg border border-linha bg-papel shadow-lg">
+        <div className="painel absolute left-0 right-0 top-full z-50 mt-2 overflow-hidden shadow-[var(--sombra-3)]">
           {resultados.length === 0 ? (
             <p className="px-4 py-3 text-[0.9rem] text-tinta-suave">
               Nada encontrado para “{termo.trim()}”.
@@ -78,14 +80,12 @@ export function Busca({ indice }: { indice: ItemIndice[] }) {
                       setAberto(false);
                       setTermo("");
                     }}
-                    className="block px-4 py-2 hover:bg-superficie"
+                    className="flex items-center gap-3 px-4 py-2.5 hover:bg-superficie"
                   >
-                    <span className="block text-[0.9rem] leading-snug">
-                      {r.titulo}
-                    </span>
-                    <span className="mt-0.5 block text-[0.75rem] text-tinta-suave">
+                    <span className="pastilha-neutra pastilha shrink-0">
                       {r.tipo}
                     </span>
+                    <span className="text-[0.9rem] leading-snug">{r.titulo}</span>
                   </Link>
                 </li>
               ))}

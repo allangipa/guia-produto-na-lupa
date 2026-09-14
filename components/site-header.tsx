@@ -1,72 +1,108 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
+import { categorias } from "@/lib/categorias";
+import { produtosDaCategoria } from "@/lib/produtos";
+import { indiceDeBusca } from "@/lib/indice";
 import { AlternadorTema } from "@/components/tema";
 import { Busca } from "@/components/busca";
-import { indiceDeBusca } from "@/lib/indice";
+import { Icone } from "@/components/icones";
 
 /**
- * O menu mudou de eixo quando o site virou base de dados.
+ * Cabeçalho em duas linhas, como as lojas fazem.
  *
- * Antes listava só formatos de texto (guias, análises, comparativos) — e as
- * páginas mais usadas do site, o buscador da categoria e o comparador, não
- * apareciam em lugar nenhum. Agora as ferramentas vêm primeiro, e o conteúdo
- * editorial depois: é a ordem em que o visitante realmente usa.
- *
- * Fixo no topo porque tabela comparativa é página longa, e voltar ao menu não
- * pode custar uma rolagem inteira.
+ * Linha 1: marca, busca grande no centro, ações à direita. Linha 2: pílulas
+ * de navegação — categorias com produto primeiro, editorial depois. Fixo no
+ * topo porque tabela comparativa é página longa.
  */
-const ferramentas = [
-  { href: "/categorias/audio", rotulo: "Fones" },
-  { href: "/comparar/audio", rotulo: "Comparar" },
-];
-
-const editorial = [
-  { href: "/guias", rotulo: "Guias" },
-  { href: "/reviews", rotulo: "Análises" },
-  { href: "/metodologia", rotulo: "Como avaliamos" },
-];
-
 export function SiteHeader() {
-  // Montado no servidor, no build: a busca chega pronta ao navegador.
   const indice = indiceDeBusca();
+  const comProdutos = categorias.filter(
+    (c) => produtosDaCategoria(c.slug).length > 0,
+  );
 
   return (
     <header className="sticky top-0 z-40 border-b border-linha bg-papel/95 backdrop-blur">
-      <div className="mx-auto flex max-w-[var(--largura-ferramenta)] flex-wrap items-center gap-x-6 gap-y-3 px-5 py-3">
+      <div className="mx-auto flex max-w-[var(--largura-ferramenta)] items-center gap-4 px-5 py-3 md:gap-6">
         <Link
           href="/"
-          className="font-titulo text-xl leading-none tracking-tight"
+          className="flex shrink-0 items-center gap-2.5"
+          aria-label={site.nome}
         >
-          {site.nome}
+          <img
+            src="/marca/simbolo.svg"
+            alt=""
+            aria-hidden
+            width={36}
+            height={36}
+            className="so-claro h-9 w-9"
+          />
+          <img
+            src="/marca/simbolo-fundo-escuro.svg"
+            alt=""
+            aria-hidden
+            width={36}
+            height={36}
+            className="so-escuro h-9 w-9"
+          />
+          <span className="hidden font-titulo text-[1.15rem] leading-none tracking-tight sm:inline">
+            {site.nome}
+          </span>
         </Link>
 
-        <nav aria-label="Principal" className="order-3 w-full sm:order-none sm:w-auto">
-          <ul className="flex flex-wrap items-center gap-x-5 gap-y-1 text-[0.9rem]">
-            {ferramentas.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="font-medium hover:text-acao-forte">
-                  {item.rotulo}
-                </Link>
-              </li>
-            ))}
-            <li aria-hidden className="text-linha">
-              |
-            </li>
-            {editorial.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="text-tinta-suave hover:text-tinta">
-                  {item.rotulo}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-
-        <div className="ml-auto flex items-center gap-3">
+        <div className="mx-auto hidden w-full max-w-[38rem] md:block">
           <Busca indice={indice} />
+        </div>
+
+        <div className="ml-auto flex shrink-0 items-center gap-2">
+          <Link
+            href={`/comparar/${comProdutos[0]?.slug ?? "audio"}`}
+            className="botao botao-secundario hidden !py-2 text-[0.85rem] sm:inline-flex"
+          >
+            <Icone nome="comparar" className="h-4 w-4" />
+            Comparar
+          </Link>
           <AlternadorTema />
         </div>
       </div>
+
+      <div className="px-5 pb-3 md:hidden">
+        <Busca indice={indice} />
+      </div>
+
+      <nav aria-label="Principal" className="border-t border-linha">
+        <ul className="rolo mx-auto flex max-w-[var(--largura-ferramenta)] gap-2 overflow-x-auto px-5 py-2">
+          {comProdutos.map((c) => (
+            <li key={c.slug} className="shrink-0">
+              <Link href={`/categorias/${c.slug}`} className="pilula">
+                {c.nome}
+              </Link>
+            </li>
+          ))}
+          <li aria-hidden className="mx-1 shrink-0 self-center text-linha">
+            |
+          </li>
+          <li className="shrink-0">
+            <Link href="/guias" className="pilula">
+              Guias de compra
+            </Link>
+          </li>
+          <li className="shrink-0">
+            <Link href="/reviews" className="pilula">
+              Análises
+            </Link>
+          </li>
+          <li className="shrink-0">
+            <Link href="/comparativos" className="pilula">
+              Comparativos
+            </Link>
+          </li>
+          <li className="shrink-0">
+            <Link href="/metodologia" className="pilula">
+              Como avaliamos
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

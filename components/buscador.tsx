@@ -153,7 +153,7 @@ export function Buscador({
        ferramenta de busca séria. Empilhado, o filtro empurrava os produtos para
        baixo da dobra, que é onde eles menos servem. */
     <div className="mt-10 grid gap-8 lg:grid-cols-[17.5rem_1fr] lg:items-start">
-      <aside className="cartao p-5 lg:sticky lg:top-24">
+      <aside className="painel p-5 lg:sticky lg:top-32">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
           <h2 className="titulo-ui text-lg">Filtrar</h2>
           {temFiltro && (
@@ -320,7 +320,7 @@ export function Buscador({
       )}
 
       {selecionados.length > 0 && (
-        <div className="sticky bottom-4 z-30 mt-8 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-linha bg-papel px-5 py-4 shadow-[var(--sombra-3)]">
+        <div className="painel sticky bottom-4 z-30 mt-8 flex flex-wrap items-center justify-between gap-3 px-5 py-4 !shadow-[var(--sombra-3)]">
           <p className="text-[0.9rem] text-tinta-suave">
             <span className="dados text-tinta">{selecionados.length}</span>{" "}
             {selecionados.length === 1
@@ -338,7 +338,7 @@ export function Buscador({
             </button>
             <Link
               href={`/comparar/${categoria}?p=${selecionados.join(",")}`}
-              className="rounded-lg bg-acao px-5 py-2.5 text-[0.95rem] font-medium text-white shadow-[var(--sombra-2)] hover:bg-acao-forte"
+              className="botao botao-primario"
             >
               Comparar {selecionados.length === 1 ? "" : "os "}
               {selecionados.length}

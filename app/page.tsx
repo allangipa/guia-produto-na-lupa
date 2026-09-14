@@ -8,6 +8,7 @@ import {
 import { categorias } from "@/lib/categorias";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { CardProduto } from "@/components/card-produto";
+import { Icone } from "@/components/icones";
 
 export default function Home() {
   const reviews = todosOsReviews();
@@ -16,16 +17,6 @@ export default function Home() {
   const produtos = todosOsProdutos();
 
   const marcas = [...new Set(produtos.map((p) => p.marca))];
-
-  /**
-   * O número que abre a página é o achado que sustenta o site, e precisa valer
-   * em qualquer categoria.
-   *
-   * A primeira versão contava quantos produtos não declaravam ciclos de carga —
-   * que é campo de bateria externa. Quando os fones entraram, eles passaram a
-   * ser contados como se escondessem um dado que não existe para eles, e o
-   * rótulo ainda dizia "powerbanks" somando as duas categorias.
-   */
   const media = produtos.length
     ? Math.round(
         produtos.reduce(
@@ -35,67 +26,85 @@ export default function Home() {
       )
     : 0;
 
-  /** Uma prateleira por categoria com produto na base, como qualquer loja faz. */
   const prateleiras = categorias
     .map((c) => ({ cat: c, itens: produtos.filter((p) => p.categoria === c.slug) }))
     .filter((p) => p.itens.length > 0);
 
+  const editorial = [
+    ...guias.map((g) => ({ tipo: "Guia", href: `/guias/${g.slug}`, titulo: g.titulo, sub: g.subtitulo, data: g.atualizadoEm })),
+    ...comparativos.map((c) => ({ tipo: "Comparativo", href: `/comparativos/${c.slug}`, titulo: c.titulo, sub: c.subtitulo, data: c.atualizadoEm })),
+    ...reviews.map((r) => ({ tipo: "Análise", href: `/reviews/${r.slug}`, titulo: r.titulo, sub: r.subtitulo, data: r.atualizadoEm })),
+  ].sort((a, b) => b.data.localeCompare(a.data));
+
   return (
-    <div>
+    <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 pb-8">
       {/*
-        Sem herói.
-        A versão anterior gastava uma tela inteira em título e parágrafo antes
-        de mostrar o primeiro produto — estrutura de artigo, não de ferramenta.
-        Agora a barra de contexto tem uma linha e a página abre em produto, que
-        é o que o visitante veio ver.
+        Banner informativo, não herói: cabe numa faixa curta, com a tese do
+        site em uma linha e os números da base ao lado. A página abre em
+        produto logo abaixo, como qualquer loja.
       */}
-      <section className="faixa">
-        <div className="mx-auto flex max-w-[var(--largura-ferramenta)] flex-wrap items-center gap-x-8 gap-y-3 px-5 py-4">
-          <p className="text-[0.95rem]">
-            <strong className="font-semibold">
-              Fichas técnicas oficiais, lado a lado.
-            </strong>{" "}
-            <span className="text-[color:var(--color-faixa-suave)]">
-              Sem teste próprio, com a fonte de cada número.
-            </span>
+      <section className="banner mt-5 grid gap-6 p-6 md:grid-cols-[1.3fr_1fr] md:items-center md:p-8">
+        <div>
+          <span className="pastilha">Pesquisa sem teste próprio</span>
+          <h1 className="mt-3 max-w-[22ch] font-titulo text-[1.9rem] leading-[1.1] tracking-tight sm:text-[2.4rem]">
+            Fichas técnicas oficiais, lado a lado — com o que o fabricante deixa
+            de informar.
+          </h1>
+          <p className="mt-3 max-w-[54ch] text-[0.95rem] text-tinta-suave">
+            Cada número tem a fonte declarada. O que falta fica marcado, campo
+            por campo, e vira a nota de transparência de cada produto.
           </p>
-          <dl className="ml-auto flex flex-wrap items-baseline gap-x-6 gap-y-1 text-[0.8rem]">
-            <div className="flex items-baseline gap-1.5">
-              <dd className="dados text-base">{produtos.length}</dd>
-              <dt className="text-[color:var(--color-faixa-suave)]">produtos</dt>
-            </div>
-            <div className="flex items-baseline gap-1.5">
-              <dd className="dados text-base">{marcas.length}</dd>
-              <dt className="text-[color:var(--color-faixa-suave)]">marcas</dt>
-            </div>
-            <div className="flex items-baseline gap-1.5">
-              <dd className="dados text-base text-atencao">{media}%</dd>
-              <dt className="text-[color:var(--color-faixa-suave)]">
-                da ficha é publicada, em média
+          <div className="mt-5 flex flex-wrap gap-3">
+            <Link
+              href={`/comparar/${prateleiras[0]?.cat.slug ?? "audio"}`}
+              className="botao botao-primario"
+            >
+              <Icone nome="comparar" className="h-4 w-4" />
+              Comparar produtos
+            </Link>
+            <Link href="/metodologia" className="botao botao-secundario">
+              Como avaliamos
+            </Link>
+          </div>
+        </div>
+
+        <dl className="grid grid-cols-3 gap-3">
+          {[
+            { v: produtos.length, r: "produtos com ficha oficial" },
+            { v: marcas.length, r: "fabricantes comparados" },
+            { v: `${media}%`, r: "da ficha é publicada, em média", cor: "text-atencao" },
+          ].map((s) => (
+            <div key={s.r} className="rounded-xl border border-linha bg-papel/70 p-3.5">
+              <dd className={`dados text-2xl font-semibold leading-none ${s.cor ?? ""}`}>
+                {s.v}
+              </dd>
+              <dt className="mt-1.5 text-[0.75rem] leading-snug text-tinta-suave">
+                {s.r}
               </dt>
             </div>
-          </dl>
-        </div>
+          ))}
+        </dl>
       </section>
 
-      <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5">
       {prateleiras.map(({ cat, itens }) => (
-        <section key={cat.slug} className="border-b border-linha py-8">
-          <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
-            <h2 className="titulo-ui text-xl">{cat.nome}</h2>
-            <div className="flex items-center gap-5 text-[0.85rem]">
-              <Link href={`/comparar/${cat.slug}`} className="text-acao-forte hover:underline">
+        <section key={cat.slug} className="mt-10">
+          <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2">
+            <div>
+              <h2 className="titulo-ui text-[1.35rem]">{cat.nome}</h2>
+              <p className="mt-0.5 text-[0.85rem] text-tinta-suave">{cat.dorPrincipal}</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <Link href={`/comparar/${cat.slug}`} className="pilula">
+                <Icone nome="comparar" className="h-3.5 w-3.5" />
                 Comparar
               </Link>
-              <Link href={`/categorias/${cat.slug}`} className="text-acao-forte hover:underline">
+              <Link href={`/categorias/${cat.slug}`} className="pilula pilula-ativa">
                 Ver os {itens.length}
+                <Icone nome="seta" className="h-3.5 w-3.5" />
               </Link>
             </div>
           </div>
-          {/* Prateleira: rola na horizontal no celular, vira grade densa no
-              desktop. Cinco por linha em vez de três — o dobro de produto por
-              tela, que é o que separa catálogo de lista de links. */}
-          <ul className="mt-4 grid auto-cols-[14rem] grid-flow-col gap-3 overflow-x-auto pb-2 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
+          <ul className="rolo mt-4 grid auto-cols-[14.5rem] grid-flow-col gap-3.5 overflow-x-auto pb-3 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
             {itens.map((p) => (
               <li key={p.slug}>
                 <CardProduto produto={p} campos={camposDa(p.categoria)} />
@@ -105,21 +114,30 @@ export default function Home() {
         </section>
       ))}
 
-      {guias.length > 0 && (
-        <section className="border-b border-linha py-14">
-          <h2 className="titulo-ui text-2xl">Guias de compra</h2>
-          <p className="mt-2 max-w-[58ch] text-tinta-suave">
-            Um pick por perfil de uso, não uma lista de dez produtos.
-          </p>
-          <ul className="mt-6 divide-y divide-linha border-t border-linha">
-            {guias.map((g) => (
-              <li key={g.slug}>
-                <Link href={`/guias/${g.slug}`} className="group block py-6">
-                  <span className="block titulo-ui text-xl leading-snug group-hover:text-acao-forte">
-                    {g.titulo}
+      {editorial.length > 0 && (
+        <section className="mt-12">
+          <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2">
+            <h2 className="titulo-ui text-[1.35rem]">Guias e análises</h2>
+            <Link href="/guias" className="pilula">
+              Ver tudo <Icone nome="seta" className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+          <ul className="mt-4 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+            {editorial.map((e) => (
+              <li key={e.href}>
+                <Link
+                  href={e.href}
+                  className="cartao group flex h-full flex-col p-5"
+                >
+                  <span className="pastilha pastilha-neutra self-start">{e.tipo}</span>
+                  <span className="mt-3 line-clamp-2 titulo-ui text-[1.05rem] leading-snug group-hover:text-acao-forte">
+                    {e.titulo}
                   </span>
-                  <span className="mt-1 block max-w-[62ch] text-tinta-suave">
-                    {g.subtitulo}
+                  <span className="mt-2 line-clamp-2 text-[0.88rem] text-tinta-suave">
+                    {e.sub}
+                  </span>
+                  <span className="mt-auto pt-4 text-[0.75rem] text-tinta-suave">
+                    Atualizado em {dataLegivel(e.data)}
                   </span>
                 </Link>
               </li>
@@ -128,85 +146,30 @@ export default function Home() {
         </section>
       )}
 
-      <section className="py-14">
-        <h2 className="titulo-ui text-2xl">Análises</h2>
-        <ul className="mt-6 divide-y divide-linha border-t border-linha">
-          {reviews.map((r) => (
-            <li key={r.slug}>
-              <Link
-                href={`/reviews/${r.slug}`}
-                className="group grid gap-1 py-6 sm:grid-cols-[4rem_1fr]"
-              >
-                <span className="font-dado text-lg tabular-nums text-tinta-suave">
-                  {r.nota.toFixed(1)}
-                </span>
-                <span>
-                  <span className="block titulo-ui text-xl leading-snug group-hover:text-acao-forte">
-                    {r.titulo}
-                  </span>
-                  <span className="mt-1 block max-w-[62ch] text-tinta-suave">
-                    {r.subtitulo}
-                  </span>
-                  <span className="mt-2 block text-[0.82rem] text-tinta-suave">
-                    Atualizada em {dataLegivel(r.atualizadoEm)}
-                  </span>
-                </span>
-              </Link>
-            </li>
-          ))}
-          {reviews.length === 0 && (
-            <li className="py-6 text-tinta-suave">
-              Nenhuma análise publicada ainda. Crie um arquivo em
-              <code className="font-dado"> content/reviews/</code>.
-            </li>
-          )}
-        </ul>
-      </section>
-
-      <section className="border-t border-linha py-14">
-        <h2 className="titulo-ui text-2xl">Categorias</h2>
-        <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {categorias.map((c) => (
-            <li key={c.slug}>
-              <Link
-                href={`/categorias/${c.slug}`}
-                className="group flex h-full flex-col rounded-xl border border-linha bg-superficie p-5 transition-colors hover:border-acao"
-              >
-                <span className="titulo-ui text-lg leading-snug group-hover:text-acao-forte">
-                  {c.nome}
-                </span>
-                <span className="mt-2 text-[0.92rem] text-tinta-suave">
-                  {c.dorPrincipal}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {comparativos.length > 0 && (
-        <section className="pb-14">
-          <h2 className="titulo-ui text-2xl">Comparativos</h2>
-          <ul className="mt-6 divide-y divide-linha border-t border-linha">
-            {comparativos.map((c) => (
+      <section className="mt-12">
+        <h2 className="titulo-ui text-[1.35rem]">Categorias</h2>
+        <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {categorias.map((c) => {
+            const n = produtos.filter((p) => p.categoria === c.slug).length;
+            return (
               <li key={c.slug}>
                 <Link
-                  href={`/comparativos/${c.slug}`}
-                  className="group block py-6"
+                  href={`/categorias/${c.slug}`}
+                  className={`cartao flex h-full items-start justify-between gap-3 p-4 ${n ? "" : "opacity-60"}`}
                 >
-                  <span className="block titulo-ui text-xl leading-snug group-hover:text-acao-forte">
-                    {c.titulo}
+                  <span>
+                    <span className="block titulo-ui text-[0.98rem]">{c.nome}</span>
+                    <span className="mt-1 block text-[0.8rem] text-tinta-suave">
+                      {n ? `${n} ${n === 1 ? "produto" : "produtos"}` : "Em breve"}
+                    </span>
                   </span>
-                  <span className="mt-1 block max-w-[62ch] text-tinta-suave">
-                    {c.subtitulo}
-                  </span>
+                  <Icone nome="seta" className="mt-1 h-4 w-4 shrink-0 text-tinta-suave" />
                 </Link>
               </li>
-            ))}
-          </ul>
-        </section>
-      )}
-      </div>
+            );
+          })}
+        </ul>
+      </section>
     </div>
   );
 }

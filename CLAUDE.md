@@ -109,6 +109,18 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 Uma única cor de ação no site inteiro: verde-petróleo `#0F6E6C`. Tinta `#14181B`,
 superfície `#F1F4F3`, linha `#DDE3E1`. Botão sólido só em CTA.
 
+**Direção visual atual: loja de tecnologia clara.** Página com fundo cinza-claro
+(`fundo`) e objetos brancos elevados sobre ele (`papel` + `.cartao`/`.painel`
+com sombra). Cabeçalho em duas linhas: marca, busca grande central, ações;
+abaixo, pílulas de navegação (`.pilula`). Home abre em produto: banner curto
+com a tese e três números, depois uma prateleira por categoria com cinco cards
+por linha. Cards levam mídia em cima (silhueta em escala enquanto não há foto
+licenciada), badge de transparência por faixa (`faixa-bom/medio/baixo` — cor de
+dado sobre a documentação, nunca sobre o produto) e três specs com ícone
+(`components/icones.tsx`, `iconeDo`, `rotuloCurto`, `destaquesDa` em
+`lib/specs.ts`). Títulos de interface em Archivo (`.titulo-ui`); Fraunces só
+na marca, no banner e no texto corrido.
+
 Os papéis de cor são separados e não se misturam — a regra da cor única só
 funciona se nada além do CTA for verde:
 
