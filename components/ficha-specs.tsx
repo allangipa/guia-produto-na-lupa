@@ -78,7 +78,7 @@ export function NotaTransparencia({
   const t = transparencia(produto, campos);
 
   return (
-    <section className="my-10 border-y border-linha py-8">
+    <div>
       <div className="flex items-baseline gap-3">
         <p className="font-dado text-4xl leading-none">{t.nota}%</p>
         <p className="text-tinta-suave">
@@ -106,6 +106,6 @@ export function NotaTransparencia({
           </ul>
         </div>
       )}
-    </section>
+    </div>
   );
 }

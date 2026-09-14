@@ -2,6 +2,7 @@
 
 import { linkAmazon } from "@/lib/site";
 import type { Loja } from "@/lib/conteudo";
+import { Icone } from "@/components/icones";
 
 type Props = {
   lojas: Loja;
@@ -20,36 +21,31 @@ function registrarClique(loja: string, produto: string, posicao: string) {
 }
 
 /**
- * Sem preço em texto: a Amazon só permite exibir preço via Product Advertising API,
- * com horário da consulta. Enquanto a API não estiver ligada, o botão leva o leitor
- * a ver o preço na origem — que é onde ele está correto de qualquer jeito.
+ * Sem preço em texto: a Amazon só permite exibir preço via Product Advertising
+ * API, com horário da consulta. Enquanto a API não estiver ligada, o botão leva
+ * o leitor a ver o preço na origem — que é onde ele está correto de qualquer
+ * jeito.
  *
- * Os dois botões têm o mesmo peso visual de propósito. Não estamos torcendo por loja.
+ * Os dois botões têm o mesmo peso visual de propósito. Não estamos torcendo por
+ * loja. É o único botão sólido da página — a regra da cor de ação.
  */
 export function LojaCta({ lojas, produto, posicao }: Props) {
   const temAlguma = lojas.amazon || lojas.mercadolivre;
   if (!temAlguma) return null;
 
-  const base =
-    "flex-1 rounded-md px-5 py-3 text-center text-[0.98rem] font-medium transition-colors";
-
   return (
-    <div className="my-8 rounded-lg border border-linha bg-superficie p-5">
-      <p className="mb-4 max-w-[60ch] text-[0.95rem] text-tinta-suave">
-        Se o {produto} fizer sentido para o seu caso, veja o preço atual nas duas
-        lojas antes de decidir — a diferença entre elas costuma ser maior que a
-        diferença entre modelos.
-      </p>
-      <div className="flex flex-col gap-3 sm:flex-row">
+    <div className="my-6">
+      <div className="flex flex-col gap-2.5 sm:flex-row">
         {lojas.amazon && (
           <a
             href={linkAmazon(lojas.amazon)}
             rel="sponsored nofollow noopener"
             target="_blank"
             onClick={() => registrarClique("amazon", produto, posicao)}
-            className={`${base} bg-acao text-papel hover:bg-acao-forte`}
+            className="botao botao-primario flex-1 !py-3"
           >
             Ver preço na Amazon
+            <Icone nome="seta" className="h-4 w-4" />
           </a>
         )}
         {lojas.mercadolivre && (
@@ -58,14 +54,16 @@ export function LojaCta({ lojas, produto, posicao }: Props) {
             rel="sponsored nofollow noopener"
             target="_blank"
             onClick={() => registrarClique("mercadolivre", produto, posicao)}
-            className={`${base} border border-acao text-acao-forte hover:bg-acao hover:text-papel`}
+            className="botao botao-secundario flex-1 !py-3"
           >
             Ver no Mercado Livre
+            <Icone nome="seta" className="h-4 w-4" />
           </a>
         )}
       </div>
-      <p className="mt-3 text-[0.8rem] text-tinta-suave">
-        Links de afiliado. O preço muda ao longo do dia; quem manda é o da loja.
+      <p className="mt-2.5 text-[0.78rem] text-tinta-suave">
+        Link de afiliado: o site recebe comissão e você paga o mesmo preço. O
+        preço muda ao longo do dia; quem manda é o da loja.
       </p>
     </div>
   );

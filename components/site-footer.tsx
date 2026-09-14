@@ -14,8 +14,9 @@ export function SiteFooter() {
         <div>
           <p className="font-titulo text-xl">{site.nome}</p>
           <p className="mt-3 max-w-[40ch] text-tinta-suave">
-            Fichas técnicas oficiais, lado a lado — com o que cada fabricante
-            deixa de informar. Sem teste próprio, e dizendo isso na cara.
+            Compare fichas técnicas oficiais lado a lado, na mesma unidade, e
+            veja o que cada fabricante deixa de fora. Toda informação tem a
+            fonte declarada.
           </p>
           <p className="mt-4 max-w-[44ch] text-[0.82rem] text-tinta-suave">
             Participamos dos programas de afiliados da Amazon e do Mercado

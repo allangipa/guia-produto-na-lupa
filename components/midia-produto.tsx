@@ -1,6 +1,18 @@
 import Image from "next/image";
 import type { Produto } from "@/lib/specs";
 import { Silhueta } from "@/components/silhueta";
+import { Icone } from "@/components/icones";
+
+const ICONE_DA_CATEGORIA: Record<string, string> = {
+  audio: "fone",
+  energia: "bateria",
+  perifericos: "controle",
+  monitores: "display",
+  armazenamento: "portas",
+  conectividade: "bluetooth",
+  "casa-conectada": "display",
+  celular: "display",
+};
 
 /**
  * O espaço da imagem do produto, em toda tela onde um produto aparece.
@@ -41,16 +53,26 @@ export function MidiaProduto({
           </span>
         </>
       ) : (
-        <div className="absolute inset-0 flex items-center justify-center p-5">
-          <Silhueta
-            dimensoes={produto.specs.dimensoesMm as string}
-            rotulo={false}
-            className="max-w-[11.5rem]"
-          />
-          {!produto.specs.dimensoesMm && (
-            <span className="text-[0.72rem] text-ausente">
-              sem dimensões publicadas
-            </span>
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 p-5">
+          {produto.specs.dimensoesMm ? (
+            <Silhueta
+              dimensoes={produto.specs.dimensoesMm as string}
+              rotulo={false}
+              className="max-w-[11.5rem]"
+            />
+          ) : (
+            <>
+              {/* Sem dimensão publicada não há silhueta possível. O ícone da
+                  categoria ocupa o lugar para a área não parecer quebrada —
+                  e o texto diz por que está vazia. */}
+              <Icone
+                nome={ICONE_DA_CATEGORIA[produto.categoria] ?? "info"}
+                className="h-16 w-16 text-acao opacity-30"
+              />
+              <span className="text-[0.7rem] text-ausente">
+                dimensões não publicadas
+              </span>
+            </>
           )}
         </div>
       )}

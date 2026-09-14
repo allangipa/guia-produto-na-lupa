@@ -43,16 +43,35 @@ export default function Home() {
         site em uma linha e os números da base ao lado. A página abre em
         produto logo abaixo, como qualquer loja.
       */}
-      <section className="banner mt-5 grid gap-6 p-6 md:grid-cols-[1.3fr_1fr] md:items-center md:p-8">
-        <div>
-          <span className="pastilha">Pesquisa sem teste próprio</span>
+      <section className="banner relative mt-5 grid gap-6 overflow-hidden p-6 md:grid-cols-[1.3fr_1fr] md:items-center md:p-8">
+        {/* A marca em marca-d'água: identidade em toda abertura de página, sem
+            competir com o texto. */}
+        <img
+          src="/marca/simbolo.svg"
+          alt=""
+          aria-hidden
+          width={260}
+          height={260}
+          className="so-claro pointer-events-none absolute -right-6 -top-8 hidden h-52 w-52 opacity-[0.09] md:block"
+        />
+        <img
+          src="/marca/simbolo-fundo-escuro.svg"
+          alt=""
+          aria-hidden
+          width={260}
+          height={260}
+          className="so-escuro pointer-events-none absolute -right-6 -top-8 hidden h-52 w-52 opacity-[0.12] md:block"
+        />
+        <div className="relative">
+          <span className="pastilha">Comparação de fichas oficiais</span>
           <h1 className="mt-3 max-w-[22ch] font-titulo text-[1.9rem] leading-[1.1] tracking-tight sm:text-[2.4rem]">
-            Fichas técnicas oficiais, lado a lado — com o que o fabricante deixa
-            de informar.
+            Compare o que cada fabricante declara — e veja o que ele deixa de
+            fora.
           </h1>
           <p className="mt-3 max-w-[54ch] text-[0.95rem] text-tinta-suave">
-            Cada número tem a fonte declarada. O que falta fica marcado, campo
-            por campo, e vira a nota de transparência de cada produto.
+            Especificações oficiais lado a lado, na mesma unidade. O que falta na
+            ficha fica marcado, campo por campo, e vira a nota de transparência
+            de cada produto.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <Link
@@ -68,7 +87,7 @@ export default function Home() {
           </div>
         </div>
 
-        <dl className="grid grid-cols-3 gap-3">
+        <dl className="relative grid grid-cols-3 gap-3">
           {[
             { v: produtos.length, r: "produtos com ficha oficial" },
             { v: marcas.length, r: "fabricantes comparados" },
