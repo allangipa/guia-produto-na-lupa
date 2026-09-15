@@ -113,8 +113,11 @@ export default function Home() {
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 pb-8">
       {/*
         Herói escuro no padrão de loja: uma faixa, um produto, uma frase.
-        Sem carrossel e sem contagem — o lançamento em destaque é um só, e as
-        datas vêm da página do fabricante.
+        Nada troca sozinho e não há contagem regressiva — o lançamento em
+        destaque é um só, e as datas vêm da página do fabricante. A regra do
+        projeto proíbe movimento automático, não o mecanismo: se um dia houver
+        mais de um lançamento para mostrar aqui, pode ter seta operada pelo
+        leitor, desde que a faixa não ande sozinha.
       */}
       {heroi ? (
         <section className="faixa relative mt-5 grid overflow-hidden rounded-[var(--raio-card)] shadow-[var(--sombra-2)] md:grid-cols-[1.25fr_1fr] md:items-center">

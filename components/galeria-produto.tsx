@@ -12,10 +12,10 @@ import { Icone } from "@/components/icones";
  * miniaturas à esquerda, foto grande à direita, e a foto abre em tela cheia
  * no clique — com as miniaturas do outro lado, para trocar sem sair.
  *
- * Não é carrossel: nada gira sozinho, não há intervalo de tempo nem seta que
- * empurra o próximo sem o leitor pedir. A proibição do projeto é contra
- * mecanismo de pressão de venda e movimento automático, não contra o leitor
- * ver o produto de perto — que numa ficha sem teste é metade do que ele tem.
+ * Nada gira sozinho: não há intervalo de tempo nem avanço automático. A
+ * proibição do projeto é contra **movimento automático**, não contra o
+ * mecanismo — carrossel operado pelo leitor pode, e é disto que se trata.
+ * Numa ficha sem teste, ver o produto de perto é metade do que o leitor tem.
  *
  * A tela cheia também não é pop-up no sentido proibido: não aparece sozinha,
  * não interrompe leitura e não vende nada. Abre no clique e fecha no Esc, no

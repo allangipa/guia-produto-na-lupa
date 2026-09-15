@@ -172,15 +172,16 @@ sobre a referência de layout de e-commerce que o Allan mandou (MegaMart):
 cabeçalho com a **marca horizontal em tamanho de marca** (`marca-horizontal.svg`,
 h-11/h-12 — o símbolo sozinho era "pequeno demais"), busca grande, chips de
 categoria em toda largura; **herói escuro** (`.faixa`) com o lançamento do
-momento — produto, datas do fabricante e CTA, sem carrossel e sem contagem;
+momento — um produto só, com datas do fabricante e CTA, sem rodízio e sem
+contagem;
 tira com a tese e três números; fileira de **categorias em círculo** com a
 foto do primeiro produto; uma prateleira por categoria (cinco cards, título
 "Fichas de *Categoria*" com a palavra em cor de ação e traço embaixo);
 tiles de **marcas que mais publicam a ficha**; rodapé **sólido
 em `acao-forte`**. O trilho lateral (estilo Mercado Livre) foi removido a
 pedido do Allan por duplicar os chips do cabeçalho; o conteúdo usa a
-largura inteira. O que a referência tem e aqui não entra: carrossel com
-setas, "% OFF", preço riscado, contador. Página com fundo cinza-claro
+largura inteira. O que a referência tem e aqui não entra: herói que troca
+sozinho, "% OFF", preço riscado, contador. Página com fundo cinza-claro
 (`fundo`) e objetos brancos elevados sobre ele (`papel` + `.cartao`/`.painel`
 com sombra). As classes `.so-claro/.so-escuro` usam `display` e anulam o
 `hidden` do Tailwind — para esconder por largura, envolver num wrapper. Cards levam mídia em cima (silhueta em escala enquanto não há foto
@@ -214,20 +215,32 @@ do viagemnalupa, de propósito, para os dois sites lerem como uma rede.
 Marca: lupa com deerstalker, sem rosto. SVGs em `public/marca/` (símbolo e marca
 horizontal, cada um em cor, mono e fundo escuro). `app/icon.svg` é o favicon.
 
-Proibido no projeto: carrossel, contador regressivo, selo de oferta, pop-up,
-banner lateral, qualquer animação automática. O site tem que parecer publicação,
-não loja.
+Proibido no projeto: **movimento automático de qualquer tipo**, contador
+regressivo, selo de oferta, pop-up e banner lateral. O site tem que parecer
+publicação, não loja.
 
-**A galeria da ficha (`components/galeria-produto.tsx`) não viola isso.** Ela é
+**O que está proibido é o automático, não o mecanismo** — decisão do Allan em
+14/09/2026, corrigindo uma versão anterior desta lista que proibia "carrossel"
+sem qualificar. Carrossel operado pelo leitor pode: seta que avança porque
+alguém clicou, trilho que rola porque alguém arrastou, miniatura que troca a
+foto porque alguém escolheu. O que não pode é a peça andar sozinha: sem
+intervalo de tempo, sem avanço automático, sem laço infinito, sem nada que
+mude na tela enquanto a pessoa está lendo. A diferença não é estética, é de
+quem está no controle — carrossel automático existe para mostrar o que o site
+quer mostrar, não o que o leitor pediu.
+
+Mesma lógica para "pop-up": o proibido é a camada que aparece sozinha e
+interrompe. Camada aberta pelo leitor, que fecha no Esc, no botão e no clique
+fora, é ferramenta.
+
+**A galeria da ficha (`components/galeria-produto.tsx`)** segue essa regra:
 trilho de miniaturas à esquerda, foto grande à direita, e tela cheia no clique
-com as miniaturas do outro lado — o padrão da Amazon, pedido pelo Allan em
-14/09/2026. Nada gira sozinho, não há intervalo de tempo nem seta que avança
-sem o leitor pedir, e a tela cheia não aparece sozinha nem vende nada: abre no
-clique e fecha no Esc, no botão ou no clique fora. Numa ficha que não testa
-produto, ver a foto de perto é metade do que o leitor tem. Setas do teclado
-trocam a foto, a rolagem do fundo trava enquanto está aberta e o foco volta
-para o botão que abriu. Abaixo de `sm` o trilho desce para baixo da foto, senão
-sobraria menos de 300 px para a imagem.
+com as miniaturas do outro lado — o padrão da Amazon, pedido pelo Allan.
+Nada gira sozinho e a tela cheia não aparece sozinha nem vende nada. Numa
+ficha que não testa produto, ver a foto de perto é metade do que o leitor tem.
+Setas do teclado trocam a foto, a rolagem do fundo trava enquanto está aberta
+e o foco volta para o botão que abriu. Abaixo de `sm` o trilho desce para
+baixo da foto, senão sobraria menos de 300 px para a imagem.
 
 **A lista acima proíbe mecanismo de pressão de venda — e só isso.** Profundidade,
 elevação, sombra, superfície colorida, faixa escura, ícone, gradiente e densidade
