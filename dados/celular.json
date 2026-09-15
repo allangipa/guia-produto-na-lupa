@@ -740,6 +740,20 @@
         "fonteDivergente": "amazon-x8-pro",
         "observacao": "A Amazon lista \"Snapdragon\" como modelo da CPU; a Xiaomi declara MediaTek Dimensity 8500-Ultra. Adotamos o fabricante."
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/poco-x8-pro-g1.webp",
+        "alt": "POCO X8 Pro em pé sobre uma base de carga, com a tela ligada, sobre fundo escuro",
+        "credito": "Imagem: Xiaomi",
+        "origem": "https://www.mi.com/br/product/poco-x8-pro/specs/"
+      },
+      {
+        "src": "/produtos/poco-x8-pro-g2.webp",
+        "alt": "POCO X8 Pro deitado sobre uma superfície amarela, com a tela ligada voltada para cima",
+        "credito": "Imagem: Xiaomi",
+        "origem": "https://www.mi.com/br/product/poco-x8-pro/specs/"
+      }
     ]
   }
 ]

@@ -56,6 +56,20 @@
         "oQueSaiuDaqui": "HDMI e DisplayPort, contraste 1000:1, 4,6 kg, 41 × 22 × 54 cm (a listagem inverte largura e altura), 1 ano de garantia e nº 1 em Monitores.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/lg-24g411a-dz-09.webp",
+        "alt": "Monitor LG UltraGear 24G411A visto de trás, com a base e as entradas",
+        "credito": "Imagem: LG",
+        "origem": "https://www.lg.com/br/monitores/monitores-ultragear/24g411a-b/"
+      },
+      {
+        "src": "/produtos/lg-24g411a-dz-10.webp",
+        "alt": "Monitor LG UltraGear 24G411A visto de perfil, mostrando a espessura do painel e a haste",
+        "credito": "Imagem: LG",
+        "origem": "https://www.lg.com/br/monitores/monitores-ultragear/24g411a-b/"
+      }
     ]
   },
   {
@@ -337,6 +351,20 @@
         "oQueSaiuDaqui": "Contraste 1500:1, 1 HDMI e 2 saídas de vídeo no total, 22 W, 3,8 kg, 61,1 × 22 × 45,2 cm e 1 ano.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/lg-27g411b-dz-09.webp",
+        "alt": "Monitor LG UltraGear 27G411B visto de trás, com a base e as entradas",
+        "credito": "Imagem: LG",
+        "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27g411b-b/"
+      },
+      {
+        "src": "/produtos/lg-27g411b-dz-10.webp",
+        "alt": "Monitor LG UltraGear 27G411B visto de perfil, mostrando a espessura do painel e a haste",
+        "credito": "Imagem: LG",
+        "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27g411b-b/"
+      }
     ]
   },
   {
@@ -471,6 +499,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "2 HDMI, contraste 1000:1, montagem na parede, 16 W, 3,9 kg, 53,9 × 19 × 41,4 cm e 1 ano.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/lg-24ms500-g9.webp",
+        "alt": "Diagrama do conteúdo da caixa do LG 24MS500: monitor, haste, base, fonte com cabo de força e cabo HDMI",
+        "credito": "Imagem: LG",
+        "origem": "https://www.lg.com/br/monitores/fhd-qhd/24ms500-b/"
       }
     ]
   },

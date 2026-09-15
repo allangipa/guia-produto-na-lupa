@@ -245,6 +245,20 @@
         "oQueSaiuDaqui": "Versão Wi-Fi de 8 GB + 256 GB, quatro alto-falantes, Android 15 e \"garantia: 3 meses\" — que é o mínimo legal do CDC, não garantia do fabricante.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/xiaomi-redmi-pad-2-g1.webp",
+        "alt": "Três Redmi Pad 2 nas cores disponíveis, dois de costas e um de frente",
+        "credito": "Imagem: Xiaomi",
+        "origem": "https://www.mi.com/global/product/redmi-pad-2/specs/"
+      },
+      {
+        "src": "/produtos/xiaomi-redmi-pad-2-g3.webp",
+        "alt": "Mão usando a caneta sobre a tela do Redmi Pad 2, com um traço vermelho desenhado",
+        "credito": "Imagem: Xiaomi",
+        "origem": "https://www.mi.com/global/product/redmi-pad-2/specs/"
+      }
     ]
   },
   {
@@ -377,6 +391,20 @@
         "oQueSaiuDaqui": "Versão de 4 GB + 128 GB com caneta e capa na caixa, Anatel 10496-24-06667 e 12 meses.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/lenovo-idea-tab-g3.webp",
+        "alt": "Lenovo Idea Tab encaixado na capa com teclado, com a tela ligada",
+        "credito": "Imagem: Lenovo",
+        "origem": "https://www.lenovo.com/br/pt/p/tablets/android-tablets/lenovo-tab-series/lenovo-idea-tab/zafr0856br"
+      },
+      {
+        "src": "/produtos/lenovo-idea-tab-g5.webp",
+        "alt": "Desenho técnico do Lenovo Idea Tab com as faces numeradas, indicando botões e entradas",
+        "credito": "Imagem: Lenovo",
+        "origem": "https://www.lenovo.com/br/pt/p/tablets/android-tablets/lenovo-tab-series/lenovo-idea-tab/zafr0856br"
+      }
     ]
   },
   {
@@ -438,6 +466,20 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão 4 GB + 128 GB, carga de 22,5 W no título, 475 g e \"garantia: sem garantia\" na tabela.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/huawei-matepad-se-11-g1.webp",
+        "alt": "Huawei MatePad SE 11 visto de costas na cor cinza, com a câmera traseira à mostra",
+        "credito": "Imagem: Huawei",
+        "origem": "https://consumer.huawei.com/br/tablets/matepad-se-11/specs/"
+      },
+      {
+        "src": "/produtos/huawei-matepad-se-11-g2.webp",
+        "alt": "Huawei MatePad SE 11 visto de costas na cor azul-clara",
+        "credito": "Imagem: Huawei",
+        "origem": "https://consumer.huawei.com/br/tablets/matepad-se-11/specs/"
       }
     ]
   },
@@ -510,6 +552,14 @@
         "oQueSaiuDaqui": "Versão 8 GB + 256 GB, \"carregadores\" nos componentes incluídos, Android 15 e alto-falantes estéreo. O peso da listagem (1,1 kg) diverge do fabricante e está registrado.",
         "consultadaEm": "2026-09-14"
       }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/xiaomi-pad-7-g1.webp",
+        "alt": "Xiaomi Pad 7 encaixado na capa com teclado, visto de costas, sobre fundo escuro",
+        "credito": "Imagem: Xiaomi",
+        "origem": "https://www.mi.com/global/product/xiaomi-pad-7/specs/"
+      }
     ]
   },
   {
@@ -571,6 +621,20 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão Wi-Fi de 128 GB, prateada. A tabela da listagem tem cinco linhas e diz \"iPadOS 14\" — o aparelho sai de fábrica com uma versão bem posterior.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/apple-ipad-a16-g1.webp",
+        "alt": "iPad nas quatro cores, três de costas e um de frente com a tela ligada",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/ipad-11/specs/"
+      },
+      {
+        "src": "/produtos/apple-ipad-a16-g2.webp",
+        "alt": "iPad nas quatro cores visto de perfil, mostrando a espessura",
+        "credito": "Imagem: Apple",
+        "origem": "https://www.apple.com/br/ipad-11/specs/"
       }
     ]
   },

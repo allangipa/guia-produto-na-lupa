@@ -181,7 +181,9 @@
       "controles": null,
       "garantiaMeses": null
     },
-    "naoSeAplica": ["horasTotal"],
+    "naoSeAplica": [
+      "horasTotal"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0GM1LSHQF"
     },
@@ -246,7 +248,15 @@
       "controles": "Botão de chamada no cabo",
       "garantiaMeses": null
     },
-    "naoSeAplica": ["bluetoothVersao", "codecs", "multiponto", "horasFone", "horasTotal", "tempoCargaH", "cargaRapida"],
+    "naoSeAplica": [
+      "bluetoothVersao",
+      "codecs",
+      "multiponto",
+      "horasFone",
+      "horasTotal",
+      "tempoCargaH",
+      "cargaRapida"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B084S6BCJN"
     },
@@ -294,7 +304,9 @@
       "controles": "Botão físico; toque duplo ativa o Extra Bass",
       "garantiaMeses": null
     },
-    "naoSeAplica": ["horasTotal"],
+    "naoSeAplica": [
+      "horasTotal"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0FJMHMCBZ"
     },
@@ -342,7 +354,9 @@
       "controles": null,
       "garantiaMeses": null
     },
-    "naoSeAplica": ["horasTotal"],
+    "naoSeAplica": [
+      "horasTotal"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0F5BQGVJM"
     },
@@ -464,6 +478,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "3,8 g por fone, até 9 h de audição no fone e 40 h com o estojo, IP54, 10 min de carga para 3 h de música e Bluetooth 5.3.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "galeria": [
+      {
+        "src": "/produtos/huawei-freebuds-se-2-g1.webp",
+        "alt": "Estojos do Huawei FreeBuds SE 2 nas cores azul e branca, fechados e vistos de frente",
+        "credito": "Imagem: Huawei",
+        "origem": "https://consumer.huawei.com/br/headphones/freebuds-se-2/specs/"
       }
     ]
   },
