@@ -25,6 +25,21 @@ export const site = {
   // `||`, não `??`: no GitHub Actions a variável existe e chega vazia, e o
   // `??` deixava o vazio vencer o padrão — os botões subiram sem a tag.
   amazonTag: process.env.NEXT_PUBLIC_AMAZON_TAG || "guiaprodutona-20",
+  /**
+   * Medição de audiência. Vazio = desligada, e o site sobe sem script nenhum.
+   *
+   * A escolha foi por uma ferramenta **sem cookie e sem dado pessoal**, e o
+   * motivo não é ideológico: com cookie, a LGPD exige banner de consentimento,
+   * e banner é exatamente a camada que aparece sozinha e interrompe — o que
+   * este site não faz nem quando é o próprio site pedindo. Some também o
+   * custo de manter o banner correto.
+   *
+   * Sem o ID a tag não é renderizada, então o padrão é não medir nada.
+   */
+  umami: {
+    id: process.env.NEXT_PUBLIC_UMAMI_ID || "",
+    script: process.env.NEXT_PUBLIC_UMAMI_SCRIPT || "https://cloud.umami.is/script.js",
+  },
 } as const;
 
 /**

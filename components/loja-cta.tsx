@@ -17,13 +17,23 @@ type Props = {
   nasLojasEm?: string;
 };
 
+/**
+ * O único evento que o site mede: qual botão de loja foi clicado, em qual
+ * produto e em que posição da página.
+ *
+ * Os três destinos convivem e cada um só dispara se existir — trocar de
+ * ferramenta não deve exigir mexer em componente. Nenhum deles recebe dado
+ * de quem clicou: o que importa é qual ficha converte, não quem.
+ */
 function registrarClique(loja: string, produto: string, posicao: string) {
   const w = window as unknown as {
     dataLayer?: unknown[];
     plausible?: (evento: string, opcoes?: object) => void;
+    umami?: { track?: (evento: string, dados?: object) => void };
   };
   w.dataLayer?.push({ event: "clique_afiliado", loja, produto, posicao });
   w.plausible?.("Clique afiliado", { props: { loja, produto, posicao } });
+  w.umami?.track?.("clique-afiliado", { loja, produto, posicao });
 }
 
 /**

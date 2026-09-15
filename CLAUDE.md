@@ -392,8 +392,23 @@ confunde com documento sem folha de estilo.
   para testar a interface, e o script recusa `--simular` em CI. Acesso à API
   exige 10 vendas qualificadas nos últimos 30 dias; cota inicial 1 req/s e
   8.640/dia.
-- Falta ligar analytics. O evento `clique_afiliado` já dispara com loja, produto e
-  posição do botão, pronto para Plausible ou GA4.
+- **Medição de audiência: fiação pronta, desligada.** `site.umami` em
+  `lib/site.ts` lê `NEXT_PUBLIC_UMAMI_ID`; sem ele o layout não renderiza
+  script nenhum e o site sobe sem medir nada. A variável já está declarada no
+  workflow. Para ligar: criar o site em `cloud.umami.is` e pôr o ID em
+  *Settings → Secrets and variables → Actions → Variables*.
+  `components/loja-cta.tsx` dispara o clique de afiliado para Umami, Plausible
+  e `dataLayer` ao mesmo tempo, e cada um só age se existir — trocar de
+  ferramenta não exige mexer em componente.
+  **Escolha sem cookie de propósito:** com cookie, a LGPD exige banner de
+  consentimento, e banner é a camada que aparece sozinha e interrompe, que é
+  o que este site não faz nem quando é ele mesmo pedindo.
+  **O que o Search Console já resolve, não precisa de script:** impressão,
+  clique, posição e termo de busca por página. A pergunta "qual categoria tem
+  tráfego" se responde lá, de graça. O que ele não dá, e só a medição dá, é
+  clique no botão de afiliado.
+  **A Hostinger não serve:** ela é só registradora e DNS deste domínio; o
+  tráfego vai direto para o GitHub Pages e não passa por ela.
 - Falta cadastrar o sitemap no Search Console.
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).

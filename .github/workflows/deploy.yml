@@ -44,6 +44,10 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
           NEXT_PUBLIC_AMAZON_TAG: ${{ vars.NEXT_PUBLIC_AMAZON_TAG }}
+          # Medição de audiência. Enquanto a variável não existir, o layout
+          # não renderiza script nenhum e o site sobe sem medir nada.
+          NEXT_PUBLIC_UMAMI_ID: ${{ vars.NEXT_PUBLIC_UMAMI_ID }}
+          NEXT_PUBLIC_UMAMI_SCRIPT: ${{ vars.NEXT_PUBLIC_UMAMI_SCRIPT }}
 
       # Sem este arquivo o GitHub Pages ignora a pasta _next e o site sobe sem CSS.
       - run: touch out/.nojekyll

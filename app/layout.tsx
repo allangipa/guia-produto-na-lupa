@@ -43,6 +43,12 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
           rel="stylesheet"
         />
+        {/* Medição de audiência, só quando há ID configurado. `defer` porque
+            nada na página depende dela — contador que atrasa a primeira
+            pintura mede pior justamente quem ia embora antes de carregar. */}
+        {site.umami.id && (
+          <script defer src={site.umami.script} data-website-id={site.umami.id} />
+        )}
       </head>
       <body>
         <a
