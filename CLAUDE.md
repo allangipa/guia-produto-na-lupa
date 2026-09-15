@@ -218,6 +218,17 @@ Proibido no projeto: carrossel, contador regressivo, selo de oferta, pop-up,
 banner lateral, qualquer animação automática. O site tem que parecer publicação,
 não loja.
 
+**A galeria da ficha (`components/galeria-produto.tsx`) não viola isso.** Ela é
+trilho de miniaturas à esquerda, foto grande à direita, e tela cheia no clique
+com as miniaturas do outro lado — o padrão da Amazon, pedido pelo Allan em
+14/09/2026. Nada gira sozinho, não há intervalo de tempo nem seta que avança
+sem o leitor pedir, e a tela cheia não aparece sozinha nem vende nada: abre no
+clique e fecha no Esc, no botão ou no clique fora. Numa ficha que não testa
+produto, ver a foto de perto é metade do que o leitor tem. Setas do teclado
+trocam a foto, a rolagem do fundo trava enquanto está aberta e o foco volta
+para o botão que abriu. Abaixo de `sm` o trilho desce para baixo da foto, senão
+sobraria menos de 300 px para a imagem.
+
 **A lista acima proíbe mecanismo de pressão de venda — e só isso.** Profundidade,
 elevação, sombra, superfície colorida, faixa escura, ícone, gradiente e densidade
 alta são permitidos e desejáveis: o site precisa parecer desenhado. Uma versão
