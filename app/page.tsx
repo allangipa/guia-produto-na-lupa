@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   todosOsReviews,
@@ -12,6 +13,19 @@ import { lancamentos } from "@/lib/lancamentos";
 import { linkAmazon } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
+
+/**
+ * A home era a única página sem `canonical` — todas as outras declaram a sua.
+ * Sem ela, qualquer endereço que chegue ao mesmo conteúdo (`/index.html`, um
+ * link com `?utm_source=...`, `www` contra a raiz) pode ser indexado como
+ * página separada, e as duas versões disputam a mesma posição. A tag fica
+ * aqui, e não no layout, de propósito: no layout ela seria herdada por
+ * qualquer página futura que esquecesse a sua, e uma página interna dizendo
+ * ser a home é pior do que página sem canonical.
+ */
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 /**
  * Título de seção no padrão de loja: frase curta com a palavra-chave em cor de
