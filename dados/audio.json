@@ -37,6 +37,14 @@
     },
     "fontes": [
       {
+        "id": "philips-tat1109-oficial",
+        "titulo": "Philips TAT1109BK/00 — página oficial do produto",
+        "url": "https://www.philips.com.br/c-p/TAT1109BK_00/fones-ouvido-true-wireless-serie-1000",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Nenhum número. A página traz o título \"Especificações técnicas\" sem nada embaixo, e só texto de venda: \"graves dinâmicos\", \"som natural\", \"conexão Bluetooth avançada\", \"microfone dedicado com algoritmo de redução de ruídos\". Não declara driver, bateria, versão de Bluetooth, peso, proteção contra água nem garantia — todos os números da ficha vieram da listagem da Amazon.",
+        "consultadaEm": "2026-09-14"
+      },
+      {
         "id": "amazon-tat1109",
         "titulo": "Philips TAT1109BK/00 — página do produto na Amazon Brasil",
         "url": "https://www.amazon.com.br/dp/B0DVMQVVDY",
