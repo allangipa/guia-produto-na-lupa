@@ -6,3 +6,11 @@ next-env.d.ts
 # Gerado por scripts/amazon-sync.mjs no build. Nunca commitar: o simulado é
 # fictício e o real muda todo dia.
 dados/amazon/
+
+# Skills do Higgsfield, instaladas por `npx skills add higgsfield-ai/skills`.
+# São ferramenta local de quem edita, não conteúdo do site, e o repositório é
+# público — `.claude/launch.json` continua versionado porque esse sim descreve
+# como rodar este projeto.
+.agents/
+.claude/skills/
+skills-lock.json
