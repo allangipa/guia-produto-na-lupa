@@ -251,10 +251,18 @@ confunde com documento sem folha de estilo.
 
 ## Estado atual e próximos passos
 
-- Conteúdo hoje é só demonstração, com produtos fictícios: um review, um
-  comparativo e um guia, todos na categoria `energia`. **Apagar antes de publicar
-  de verdade.** Servem como referência do formato: frontmatter com `fontes`,
-  texto sem afirmação de uso e lacunas do que o fabricante omite.
+- **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
+  que está publicado tem fonte oficial declarada.
+- **Inventário em 14/09/2026: 70 produtos, 7 guias, 8 comparativos e 1 review.**
+  O funil desenhado em "Estrutura de conteúdo" é guia → comparativo → review,
+  com o clique de afiliado acontecendo na review, com o leitor já decidido.
+  Hoje existe **uma review para setenta produtos** (`soundcore-p30i`): o funil
+  tem boca e não tem garganta. Cada categoria tem exatamente um guia e um
+  comparativo, o mínimo para a categoria existir.
+  **Antes de abrir categoria nova, escrever review.** Guia ranqueia para
+  "melhores X" e comparativo para "X ou Y", mas quem está a um passo de
+  comprar pesquisa o modelo — e é essa página que converte. Abrir a oitava
+  categoria alarga a boca de um funil que já não tem saída.
 - `contato@guiaprodutonalupa.com.br` está publicado em `/sobre`, `/metodologia` e
   no rodapé de toda análise. **A caixa precisa existir de verdade** — é o único
   canal de correção de um site sem autor-pessoa, e endereço morto derruba a
