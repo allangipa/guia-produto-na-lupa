@@ -72,6 +72,59 @@ entram: sem página do fabricante não há ficha nem foto licenciável).
 Treze candidatos para dez vagas — sobra margem para o que não tiver foto
 oficial.
 
+## `perifericos` — esquema pronto, produtos em andamento
+
+`camposPeriferico`, 14 campos, registrado nos quatro mapas. Cobre mouse,
+teclado e combo. **Mousepad ficou de fora de propósito**: ocupa um terço
+do ranking e não tem campo comparável além de tamanho.
+
+**O ângulo**: DPI é o teto do sensor, não a sensibilidade de uso, e a
+duração de pilha é promessa sem condição declarada. Os dois campos
+existem com o texto de ajuda dizendo isso.
+
+### Ranking: nó Teclados, Mouses e Periféricos = 16364777011
+
+Sub-nós: Mouses 16364917011, Teclados 16364919011, Kits 16364980011.
+Logitech é **13 dos 30 primeiros**; o resto é HP, Dell, Multilaser,
+Maxprint, Fortrek, C3Tech — e muito mousepad.
+
+Dezoito candidatos de mouse, teclado e combo já separados do ranking:
+M170, G305, M240, Pebble Keys 2 K380s, MK250, Pebble 2 M350s, MK235,
+G203, Lift Vertical, HP 150, Dell KM3322W, Multilaser TC193, M90,
+Multi Classic Box, HP 100, M196, G703, K120.
+
+### Como tirar a ficha da Logitech — e por que custa caro
+
+A ficha fica num acordeão fechado, **e o conteúdo não vem no HTML**:
+`fetch` da página devolve 107 KB sem uma linha de especificação. As
+listagens de categoria (`/pt-br/products/mice.html`) também são montadas
+por script e não devolvem links por fetch.
+
+O caminho que funciona, por produto: navegar, achar o botão
+"Especificações e compatibilidade", clicar e ler o `innerText`. Dá para
+encurtar para três ações fazendo o clique dentro do próprio JS:
+
+```js
+const b = [...document.querySelectorAll('button')]
+  .find(x => /Especifica..es e compatibilidade/i.test(x.textContent||''));
+if (b) b.click();
+await new Promise(r => setTimeout(r, 1200));
+const t = document.body.innerText;
+t.slice(t.search(/Especifica..es e compatibilidade/i), ) // + 1400
+```
+
+Falta descobrir as URLs exatas: elas têm o código de peça no fim
+(`m170-wireless-mouse.910-004940.html`), e o código sai da listagem da
+Amazon ou da busca do site.
+
+### Já apurado
+
+**Logitech M170** (`/pt-br/products/mice/m170-wireless-mouse.910-004940.html`,
+consultado em 18/09/2026): mouse sem fio 2,4 GHz com receptor USB,
+rastreamento óptico, DPI 1.000, 3 botões, pilha 1 × AA inclusa com
+duração declarada de 12 meses, alcance de 10 m, 97,7 × 61,5 × 35,2 mm,
+69,3 g com pilha, garantia de 1 ano. ASIN `B074L9L5KZ`.
+
 ## `armazenamento` — esquema pronto, produtos em andamento
 
 Esquema `camposArmazenamento` escrito em 18/09/2026, com 13 campos e

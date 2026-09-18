@@ -1839,11 +1839,158 @@ export const camposRede: Campo[] = [
   },
 ];
 
+/**
+ * Periféricos: mouses, teclados e combos.
+ *
+ * Duas coisas definem a ficha aqui, e as duas são promessa de fabricante sem
+ * condição declarada.
+ *
+ * O DPI é o teto do sensor, não a sensibilidade que alguém usa: 8.000 DPI num
+ * mouse de escritório é número de caixa. E a duração de pilha — "até 18 meses",
+ * "até 2 anos" — vem de um uso diário que a marca raramente escreve qual é.
+ * Por isso os dois campos existem, e por isso o texto ao lado deles diz que
+ * são declarações, não medições.
+ *
+ * Mousepad não entra na categoria: ocupa um terço do ranking e não tem
+ * praticamente nenhum campo comparável além de tamanho.
+ */
+export const camposPeriferico: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "conexao",
+    rotulo: "Conexão",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Receptor USB ocupa uma porta e some se você perder. Bluetooth não ocupa porta, mas depende do computador ter.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dpiMax",
+    rotulo: "DPI máximo declarado",
+    grupo: "Mouse",
+    tipo: "numero",
+    unidade: "DPI",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O teto do sensor, não a sensibilidade de uso. Acima de 3.000 o ponteiro atravessa a tela num movimento de pulso — o número serve para a caixa, não para o dia a dia.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "sensor",
+    rotulo: "Sensor",
+    grupo: "Mouse",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "botoes",
+    rotulo: "Botões",
+    grupo: "Mouse",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "layout",
+    rotulo: "Layout",
+    grupo: "Teclado",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "ABNT2 tem a tecla Ç e o layout brasileiro; US internacional, não.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tipoTecla",
+    rotulo: "Tipo de tecla",
+    grupo: "Teclado",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Membrana é silenciosa e barata; tesoura tem curso curto; mecânica dura mais e faz barulho.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tecladoNumerico",
+    rotulo: "Teclado numérico",
+    grupo: "Teclado",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alimentacao",
+    rotulo: "Alimentação",
+    grupo: "Energia",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "duracaoPilhaMeses",
+    rotulo: "Duração de pilha declarada",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Promessa do fabricante, quase sempre sem dizer quantas horas por dia de uso ela supõe. Serve para comparar marcas, não para prever a sua gaveta.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alcanceM",
+    rotulo: "Alcance sem fio declarado",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoG",
+    rotulo: "Peso",
+    grupo: "Tamanho",
+    tipo: "numero",
+    unidade: "g",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Tamanho",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
+  perifericos: camposPeriferico,
   audio: camposAudio,
   cozinha: camposCozinha,
   celular: camposCelular,
@@ -1982,6 +2129,16 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   portaGigabit: "portas",
   coberturaM2: "regua",
   dispositivosSimultaneos: "controle",
+  conexao: "cabo",
+  dpiMax: "controle",
+  sensor: "chip",
+  botoes: "controle",
+  layout: "controle",
+  tipoTecla: "controle",
+  tecladoNumerico: "controle",
+  alimentacao: "bateria",
+  duracaoPilhaMeses: "bateria",
+  alcanceM: "regua",
 };
 
 export function iconeDo(chave: string): string {
@@ -2088,6 +2245,11 @@ const ROTULO_CURTO: Record<string, string> = {
   portaGigabit: "Gigabit",
   coberturaM2: "Cobertura",
   dispositivosSimultaneos: "Aparelhos",
+  dpiMax: "DPI",
+  duracaoPilhaMeses: "Pilha",
+  alcanceM: "Alcance",
+  tecladoNumerico: "Numérico",
+  tipoTecla: "Teclas",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -2099,6 +2261,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   energia: ["capacidadeNominal", "potenciaMaxSaida", "pesoG"],
   armazenamento: ["capacidadeGb", "leituraMbs", "tipo"],
   conectividade: ["velocidadeNominalMbps", "velocidade5ghzMbps", "padraoWifi"],
+  perifericos: ["tipo", "conexao", "duracaoPilhaMeses"],
   audio: ["horasFone", "driverMm", "protecaoAgua"],
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],
