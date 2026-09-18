@@ -12,7 +12,13 @@ import { produtosDaCategoria } from "@/lib/produtos";
  * do índice do Google (ver `generateMetadata` da categoria) e não deve ocupar
  * linha no menu prometendo o que ainda não há.
  */
-export type ItemNav = { slug: string; nome: string; total: number };
+export type ItemNav = {
+  slug: string;
+  nome: string;
+  total: number;
+  /** Foto do primeiro produto da categoria que tenha imagem, para o disco. */
+  capa: string | null;
+};
 export type GrupoNav = {
   slug: string;
   nome: string;
@@ -26,11 +32,15 @@ export function navegacao(): GrupoNav[] {
   return departamentos
     .map((d) => {
       const itens = d.categorias
-        .map((s) => ({
-          slug: s,
-          nome: nomeDe.get(s) ?? s,
-          total: produtosDaCategoria(s).length,
-        }))
+        .map((s) => {
+          const lista = produtosDaCategoria(s);
+          return {
+            slug: s,
+            nome: nomeDe.get(s) ?? s,
+            total: lista.length,
+            capa: lista.find((p) => p.imagem)?.imagem?.src ?? null,
+          };
+        })
         .filter((i) => i.total > 0);
       return {
         slug: d.slug,
