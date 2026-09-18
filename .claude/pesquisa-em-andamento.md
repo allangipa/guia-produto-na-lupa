@@ -72,6 +72,69 @@ entram: sem página do fabricante não há ficha nem foto licenciável).
 Treze candidatos para dez vagas — sobra margem para o que não tiver foto
 oficial.
 
+## As 20 categorias novas — reconhecimento de 18/09/2026
+
+As sete categorias existentes fecharam em 20. Faltam as 20 novas, e o
+primeiro reconhecimento mudou o que eu esperava.
+
+### Cinco já estão declaradas em `lib/categorias.ts` e vazias
+
+`energia`, `perifericos`, `armazenamento`, `conectividade`,
+`casa-conectada`. Destas, **só `energia` já tem esquema pronto**
+(`camposEnergia`, 15 campos, com ícone e destaques registrados). As
+outras quatro precisam de `camposX`, entrada em `camposPorCategoria`,
+`ICONE_POR_CATEGORIA` e `DESTAQUES_POR_CATEGORIA`.
+
+### O que muda em relação às sete primeiras
+
+Nas sete categorias já feitas, o ranking da Amazon é de marcas reais —
+LG, Samsung, Mondial, Philco, Walita. Em categoria de **acessório**, não
+é: o ranking é dominado por vendedor de marca branca, com título do tipo
+"Carregador Turbo 30W Compatível c/ iPhone" e nenhum fabricante por trás.
+
+No nó de Carregadores (`16244083011`), dos 30 primeiros só 7 tinham marca
+identificável. Foi preciso descer para o nó mais específico de
+**Carregadores Portáteis (`16244305011`)**, onde 22 dos 30 primeiros têm
+marca. A lição vale para as outras categorias de acessório: **procurar o
+nó mais fundo da árvore antes de concluir que a categoria não dá 20.**
+
+### Nós de mais vendidos apurados
+
+| lista | id |
+|---|---|
+| Acessórios para Celular | 16243888011 |
+| Carregadores | 16244083011 |
+| **Carregadores Portáteis** | **16244305011** |
+| Carregadores de Parede | 16244307011 |
+| Carregadores por Indução | 16244308011 |
+| Carregadores Veiculares | 16244303011 |
+| Cabos e Adaptadores | 21213414011 |
+| Cartões Micro SD | 16243925011 |
+| Smartwatches e Acessórios | 16244073011 |
+| Caixas de Som e Bases Portáteis | 16244069011 |
+| Baterias e Carregadores Domésticos | 16243806011 (é de pilha descartável, não serve) |
+
+### Como chegar na ficha de cada marca de `energia`
+
+| marca | no ranking | caminho |
+|---|---|---|
+| Basike | 11 de 30 | **Shopify**: `basikebrasil.com.br/products/<handle>.js` devolve JSON com as specs no `body_html`. `collections/carregadores/products.json?limit=40` traz o catálogo inteiro de uma vez |
+| i2GO | 5 | `i2go.com.br/produto/<slug>-<id>`, responde a fetch. Ficha rica: declara Wh, tempo de recarga e entrada/saída em V/A |
+| Anker | 5 | `anker.com`, ainda não achei o padrão de URL |
+| Geonav | 4 | `geonav.com.br` — **o site inteiro devolveu 503 em 18/09/2026**, no fetch e no navegador. Tem manual em PDF por modelo, mas é PDF de design, sem texto extraível |
+| Xiaomi, UGREEN, Intelbras | 1 cada | na página 2 do ranking |
+
+**Shopify é o novo VTEX**: `/products/<handle>.js` e
+`/collections/<x>/products.json` fazem o mesmo papel. Vale testar em toda
+marca que não for VTEX.
+
+### Estado
+
+Ficha completa levantada para 8 dos 20 de `energia`: seis Basike
+(B 078, B 079, B 204, BA POW 177, BA POW 115, B203B) e dois i2GO
+(Pocket 5000 USB-C, PRO 20000 PD 20W). Faltam Geonav (site fora),
+Anker, Xiaomi.
+
 ## A API VTEX resolve quase toda a linha branca
 
 Descoberto em 18/09/2026, testando o padrão da Samsung Shop nas outras
