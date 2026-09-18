@@ -96,6 +96,15 @@ export const categorias: Categoria[] = [
     dorPrincipal: "A xícara do anúncio tem 40 ml — quantas canecas de verdade isso dá?",
   },
   {
+    slug: "microondas",
+    nome: "Micro-ondas",
+    descricao:
+      "Micro-ondas de bancada, com os litros da caixa separados dos litros que dá para usar — quando o fabricante publica os dois.",
+    dorPrincipal: "Os 21 litros do anúncio viram 11 de uso. Quantos você está comprando de verdade?",
+    porQueParou:
+      "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
+  },
+  {
     slug: "sanduicheiras",
     nome: "Sanduicheiras e grills",
     descricao:

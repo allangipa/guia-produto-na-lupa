@@ -1,0 +1,920 @@
+[
+  {
+    "slug": "panasonic-nn-st27lwru",
+    "nome": "Panasonic ST27 NN-ST27LWRU",
+    "marca": "Panasonic",
+    "modelo": "NN-ST27LWRU",
+    "categoria": "microondas",
+    "resumo": "Vinte e um litros na caixa, onze de uso. A Panasonic é a única da categoria que publica os dois números — e a diferença entre eles é quase metade.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 21,
+      "capacidadeUtilL": 11,
+      "potenciaW": 700,
+      "niveisPotencia": 10,
+      "grill": false,
+      "receitasPreProgramadas": 3,
+      "diametroPratoCm": 27,
+      "painel": null,
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 10.4,
+      "dimensoesMm": "442 × 260 × 366",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08JN3JJQG"
+    },
+    "fontes": [
+      {
+        "id": "panasonic-st27-oficial",
+        "titulo": "Panasonic NN-ST27LWRU — página oficial da loja Panasonic",
+        "url": "https://loja.panasonic.com.br/micro-ondas-panasonic-st27-branco-espelhado-nn-st27lwru/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Volume total de 21 L e volume útil de 11 L, potência de 700 W, 10 níveis de potência, prato de 27 cm, 3 receitas pré-programadas, sem grill, trava de segurança eletrônica, eficiência energética A, 127 V/220 V, 442 × 260 × 366 mm em largura × altura × profundidade, 10,4 kg e garantia de 12 meses. Volume total e volume útil publicados em campos separados — a Panasonic é a única marca desta categoria que publica o útil. Níveis de potência, diâmetro do prato, receitas pré-programadas, trava de segurança eletrônica, eficiência energética, voltagem, dimensões, peso e garantia de 12 meses. O campo de potência dela vem num conjunto com \"Potência Grill\" e \"Potência Convecção\", os dois marcados como não aplicáveis — é a estrutura de quem está publicando potência de cozimento, não consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B08JN3JJQG",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08JN3JJQG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/panasonic-nn-st27lwru.webp",
+      "alt": "Micro-ondas Panasonic ST27 branco espelhado, visto de frente",
+      "credito": "Imagem: Panasonic",
+      "origem": "https://loja.panasonic.com.br/micro-ondas-panasonic-st27-branco-espelhado-nn-st27lwru/p"
+    }
+  },
+  {
+    "slug": "panasonic-nn-st55lmru",
+    "nome": "Panasonic ST55 NN-ST55LMRU",
+    "marca": "Panasonic",
+    "modelo": "NN-ST55LMRU",
+    "categoria": "microondas",
+    "resumo": "Vinte e sete litros de caixa, dezoito de uso. Prato de 28,8 cm — o segundo maior desta lista, e um dos poucos números que todas as marcas deveriam publicar e quase nenhuma publica.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 27,
+      "capacidadeUtilL": 18,
+      "potenciaW": 800,
+      "niveisPotencia": 10,
+      "grill": false,
+      "receitasPreProgramadas": 3,
+      "diametroPratoCm": 28.8,
+      "painel": null,
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 12.9,
+      "dimensoesMm": "485,8 × 291,7 × 403,7",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08XZP2RTC"
+    },
+    "fontes": [
+      {
+        "id": "panasonic-st55-oficial",
+        "titulo": "Panasonic NN-ST55LMRU — página oficial da loja Panasonic",
+        "url": "https://loja.panasonic.com.br/micro-ondas-panasonic-st55-espelhado-nn-st55lmru/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Volume total de 27 L e volume útil de 18 L, potência de 800 W, 10 níveis, prato de 28,8 cm, 3 receitas pré-programadas, sem grill, trava de segurança eletrônica, eficiência energética A, 127 V/220 V, 485,8 × 291,7 × 403,7 mm, 12,9 kg e garantia de 12 meses. Volume total e volume útil publicados em campos separados — a Panasonic é a única marca desta categoria que publica o útil. Níveis de potência, diâmetro do prato, receitas pré-programadas, trava de segurança eletrônica, eficiência energética, voltagem, dimensões, peso e garantia de 12 meses. O campo de potência dela vem num conjunto com \"Potência Grill\" e \"Potência Convecção\", os dois marcados como não aplicáveis — é a estrutura de quem está publicando potência de cozimento, não consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B08XZP2RTC",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08XZP2RTC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/panasonic-nn-st55lmru.webp",
+      "alt": "Micro-ondas Panasonic ST55 prata espelhado, visto de frente",
+      "credito": "Imagem: Panasonic",
+      "origem": "https://loja.panasonic.com.br/micro-ondas-panasonic-st55-espelhado-nn-st55lmru/p"
+    }
+  },
+  {
+    "slug": "panasonic-nn-st67lsru",
+    "nome": "Panasonic ST67 NN-ST67LSRU",
+    "marca": "Panasonic",
+    "modelo": "NN-ST67LSRU",
+    "categoria": "microondas",
+    "resumo": "Trinta e quatro litros de caixa, vinte e três de uso: onze litros que o anúncio conta e a comida não ocupa. Prato de 31,5 cm, o maior da categoria.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 34,
+      "capacidadeUtilL": 23,
+      "potenciaW": 900,
+      "niveisPotencia": 10,
+      "grill": null,
+      "receitasPreProgramadas": 6,
+      "diametroPratoCm": 31.5,
+      "painel": null,
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 14.8,
+      "dimensoesMm": "520 × 325,2 × 432",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0921RTR6Y"
+    },
+    "fontes": [
+      {
+        "id": "panasonic-st67-oficial",
+        "titulo": "Panasonic NN-ST67LSRU — página oficial da loja Panasonic",
+        "url": "https://loja.panasonic.com.br/micro-ondas-panasonic-st67-espelhado-nn-st67lsru/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Volume total de 34 L e volume útil de 23 L, potência de 900 W, 10 níveis, prato de 31,5 cm, 6 receitas pré-programadas, trava de segurança eletrônica, eficiência energética A, 127 V/220 V, 520 × 325,2 × 432 mm, 14,8 kg e garantia de 12 meses. A ficha não traz o campo grill preenchido, só \"Potência Grill: não aplicável\" — o campo de grill ficou vazio. Volume total e volume útil publicados em campos separados — a Panasonic é a única marca desta categoria que publica o útil. Níveis de potência, diâmetro do prato, receitas pré-programadas, trava de segurança eletrônica, eficiência energética, voltagem, dimensões, peso e garantia de 12 meses. O campo de potência dela vem num conjunto com \"Potência Grill\" e \"Potência Convecção\", os dois marcados como não aplicáveis — é a estrutura de quem está publicando potência de cozimento, não consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0921RTR6Y",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0921RTR6Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/panasonic-nn-st67lsru.webp",
+      "alt": "Micro-ondas Panasonic ST67 inox, visto de frente",
+      "credito": "Imagem: Panasonic",
+      "origem": "https://loja.panasonic.com.br/micro-ondas-panasonic-st67-espelhado-nn-st67lsru/p"
+    }
+  },
+  {
+    "slug": "electrolux-me23s",
+    "nome": "Electrolux Efficient ME23S",
+    "marca": "Electrolux",
+    "modelo": "ME23S",
+    "categoria": "microondas",
+    "resumo": "Vinte e três litros de caixa e prato de 27 cm. A Electrolux publica trava, prato e selo energético — e nunca o volume útil.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 23,
+      "capacidadeUtilL": null,
+      "potenciaW": 1100,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": 27,
+      "painel": null,
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": null,
+      "pesoKg": 11.5,
+      "dimensoesMm": "461 × 290 × 352",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B8P3T3VM"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-me23s-oficial",
+        "titulo": "Electrolux ME23S Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/micro-ondas-electrolux-prata-23l-efficient-me23s/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 23 L, potência de 1.100 W, 46,1 cm de largura, 29 cm de altura e 35,2 cm de profundidade, prato de 27,0 cm, 11,5 kg, instalação de bancada, classificação energética A, trava de segurança, descongelamento assistido, tira odor, manter aquecido e menu de receitas. Não publica volume útil, níveis de potência nem prazo de garantia. A Electrolux publica capacidade total, tipo de instalação, classificação energética, medidas do produto e da embalagem separadas, peso e diâmetro do prato quando existe — e não publica volume útil nem níveis de potência em nenhum modelo. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0B8P3T3VM",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B8P3T3VM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-me23s.webp",
+      "alt": "Micro-ondas Electrolux ME23S prata, visto de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/micro-ondas-electrolux-prata-23l-efficient-me23s/p"
+    }
+  },
+  {
+    "slug": "electrolux-me23b",
+    "nome": "Electrolux Efficient ME23B",
+    "marca": "Electrolux",
+    "modelo": "ME23B",
+    "categoria": "microondas",
+    "resumo": "O mesmo ME23 em branco — e a ficha dele traz três medidas que não fecham com as do irmão prateado, apesar de a Electrolux descrever os dois como o mesmo produto.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 23,
+      "capacidadeUtilL": null,
+      "potenciaW": null,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": "A",
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "494 × 313 × 352",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B8KWNK12"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-me23b-oficial",
+        "titulo": "Electrolux ME23B Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/me23b-me23b-forno-micr-bra-127-60/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 23 L, 49,4 cm de largura, 31,3 cm de altura e 35,2 cm de profundidade, instalação de bancada e classificação energética A. Esta página é a mais pobre das três do mesmo modelo: não traz potência, peso, prato, trava nem garantia. As medidas publicadas aqui são as mesmas que as outras páginas da Electrolux dão como medidas da embalagem do ME23 — a ficha reproduz o que esta página declara como medida do produto. A Electrolux publica capacidade total, tipo de instalação, classificação energética, medidas do produto e da embalagem separadas, peso e diâmetro do prato quando existe — e não publica volume útil nem níveis de potência em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0B8KWNK12",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B8KWNK12",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-me23b.webp",
+      "alt": "Micro-ondas Electrolux ME23B branco, visto de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/me23b-me23b-forno-micr-bra-127-60/p"
+    }
+  },
+  {
+    "slug": "electrolux-me23p",
+    "nome": "Electrolux Efficient ME23P",
+    "marca": "Electrolux",
+    "modelo": "ME23P",
+    "categoria": "microondas",
+    "resumo": "A ficha mais completa da Electrolux na categoria: é a única dela que declara painel, display, prato giratório e grill — e diz que grill não tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 23,
+      "capacidadeUtilL": null,
+      "potenciaW": null,
+      "niveisPotencia": null,
+      "grill": false,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": 27,
+      "painel": "Eletrônico, display digital",
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 11.2,
+      "dimensoesMm": "461 × 290 × 352",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B8LCYYX7"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-me23p-oficial",
+        "titulo": "Electrolux ME23P Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/micro-ondas-electrolux-preto-23l-efficient-me23p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 23 L, 46,1 × 29 × 35,2 cm, prato giratório de 27,0 cm, painel eletrônico com display digital, sem grill, trava de segurança, 127 V/220 V, 11,2 kg e classificação energética A. É a única página de micro-ondas da Electrolux que declara o tipo de painel e o grill. Não publica potência, volume útil, níveis nem garantia. A Electrolux publica capacidade total, tipo de instalação, classificação energética, medidas do produto e da embalagem separadas, peso e diâmetro do prato quando existe — e não publica volume útil nem níveis de potência em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0B8LCYYX7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B8LCYYX7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-me23p.webp",
+      "alt": "Micro-ondas Electrolux ME23P preto, visto de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/micro-ondas-electrolux-preto-23l-efficient-me23p/p"
+    }
+  },
+  {
+    "slug": "electrolux-me36s",
+    "nome": "Electrolux Efficient ME36S",
+    "marca": "Electrolux",
+    "modelo": "ME36S",
+    "categoria": "microondas",
+    "resumo": "Trinta e seis litros de caixa, o maior da categoria — e nenhuma informação sobre quanto disso é aproveitável.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 36,
+      "capacidadeUtilL": null,
+      "potenciaW": null,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": "Display digital",
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": null,
+      "pesoKg": 15.2,
+      "dimensoesMm": "520 × 320 × 410",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B8P4QTSD"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-me36s-oficial",
+        "titulo": "Electrolux ME36S Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/micro-ondas-electrolux-prata-36l-efficient-me36s/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 36 L, 52 cm de largura, 32 cm de altura e 41 cm de profundidade, 15,2 kg, prato giratório, trava de segurança, display digital, instalação de bancada e classificação energética A. Não publica potência, volume útil, diâmetro do prato, níveis nem garantia. A Electrolux publica capacidade total, tipo de instalação, classificação energética, medidas do produto e da embalagem separadas, peso e diâmetro do prato quando existe — e não publica volume útil nem níveis de potência em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0B8P4QTSD",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B8P4QTSD",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-me36s.webp",
+      "alt": "Micro-ondas Electrolux ME36S prata de 36 litros, visto de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/micro-ondas-electrolux-prata-36l-efficient-me36s/p"
+    }
+  },
+  {
+    "slug": "electrolux-mt30s",
+    "nome": "Electrolux Tira Odor MT30S",
+    "marca": "Electrolux",
+    "modelo": "MT30S",
+    "categoria": "microondas",
+    "resumo": "Vinte litros e 9,83 kg — o mais leve desta lista. É um dos poucos Electrolux que declara prazo de garantia: um ano.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 20,
+      "capacidadeUtilL": null,
+      "potenciaW": null,
+      "niveisPotencia": null,
+      "grill": false,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": "Display digital",
+      "travaSeguranca": null,
+      "classificacaoEnergetica": "A",
+      "tensao": null,
+      "pesoKg": 9.83,
+      "dimensoesMm": "458 × 262,5 × 348",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B079Y3MLSP"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-mt30s-oficial",
+        "titulo": "Electrolux MT30S — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/micro-ondas-tira-odor-electrolux-mt30s/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 20 L, 45,8 cm de largura, 26,25 cm de altura e 34,8 cm de profundidade, 9,83 kg, sem grill, display digital, instalação de bancada, classificação energética A e garantia do produto de 1 ano. Não publica potência, volume útil, prato nem níveis. A Electrolux publica capacidade total, tipo de instalação, classificação energética, medidas do produto e da embalagem separadas, peso e diâmetro do prato quando existe — e não publica volume útil nem níveis de potência em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B079Y3MLSP",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B079Y3MLSP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-mt30s.webp",
+      "alt": "Micro-ondas Electrolux MT30S inox espelhado, visto de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/micro-ondas-tira-odor-electrolux-mt30s/p"
+    }
+  },
+  {
+    "slug": "electrolux-meo44",
+    "nome": "Electrolux MEO44",
+    "marca": "Electrolux",
+    "modelo": "MEO44",
+    "categoria": "microondas",
+    "resumo": "Trinta e quatro litros com tira odor e manter aquecido. A Electrolux publica aqui uma faixa de potência — \"1.400 a 1.650 W\" — em vez de um número.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 34,
+      "capacidadeUtilL": null,
+      "potenciaW": null,
+      "niveisPotencia": null,
+      "grill": false,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": "Display digital",
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": null,
+      "pesoKg": 15.3,
+      "dimensoesMm": "539 × 300 × 424",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0792XQTH6"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-meo44-oficial",
+        "titulo": "Electrolux MEO44 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/micro-ondas-de-bancada-34l-meo44-branco-funcao-tira-odor-e-manter-aquecido-electrolux/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 34 L, 53,9 cm de largura, 30,0 cm de altura e 42,4 cm de profundidade, 15,3 kg, sem grill, trava de segurança, display digital, classificação energética A e garantia de 1 ano. O campo de potência desta página traz uma faixa de filtro, \"1400-1650W\", e não um valor do produto — por isso o campo de potência ficou vazio. Não publica volume útil, prato nem níveis. A Electrolux publica capacidade total, tipo de instalação, classificação energética, medidas do produto e da embalagem separadas, peso e diâmetro do prato quando existe — e não publica volume útil nem níveis de potência em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0792XQTH6",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0792XQTH6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-meo44.webp",
+      "alt": "Micro-ondas Electrolux MEO44 branco de 34 litros, visto de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/micro-ondas-de-bancada-34l-meo44-branco-funcao-tira-odor-e-manter-aquecido-electrolux/p"
+    }
+  },
+  {
+    "slug": "electrolux-ms37r",
+    "nome": "Electrolux MS37R",
+    "marca": "Electrolux",
+    "modelo": "MS37R",
+    "categoria": "microondas",
+    "resumo": "O único Electrolux com número de receitas no anúncio — 55 — e com painel de membrana em vez de eletrônico. Também é o único que publica eficiência energética em porcentagem, e diferente por tensão.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 27,
+      "capacidadeUtilL": null,
+      "potenciaW": 1500,
+      "niveisPotencia": null,
+      "grill": false,
+      "receitasPreProgramadas": 55,
+      "diametroPratoCm": 28.4,
+      "painel": "Membrana",
+      "travaSeguranca": true,
+      "classificacaoEnergetica": "A",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 14.06,
+      "dimensoesMm": "483 × 281 × 407",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07L33N2RY"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ms37r-oficial",
+        "titulo": "Electrolux MS37R — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/micro-ondas-de-bancada-electrolux-prata-27l-com-55-receitas-pre-programadas-no-menu-online--ms37r-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 27 L, potência de 1.500 W, 48,3 cm de largura, 28,1 cm de altura e 40,7 cm de profundidade, prato giratório de 28,4 cm, painel de membrana, sem grill, trava de segurança, 127 V/220 V, 14,06 kg, classificação energética A com eficiência de 54,2% em 127 V e 56% em 220 V, e garantia de 1 ano. As 55 receitas pré-programadas estão no nome do produto na própria página. Não publica volume útil nem níveis de potência.  A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07L33N2RY",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07L33N2RY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ms37r.webp",
+      "alt": "Micro-ondas Electrolux MS37R prata espelhado, visto de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/micro-ondas-de-bancada-electrolux-prata-27l-com-55-receitas-pre-programadas-no-menu-online--ms37r-/p"
+    }
+  },
+  {
+    "slug": "philco-pmo38e",
+    "nome": "Philco PMO38E",
+    "marca": "Philco",
+    "modelo": "PMO38E",
+    "categoria": "microondas",
+    "resumo": "Trinta e três litros e 1.400 W. A ficha da Philco tem cinco campos, e nenhum deles diz quanto o aparelho mede ou quanto pesa.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 33,
+      "capacidadeUtilL": null,
+      "potenciaW": 1400,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D3N6ZHT8"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmo38e-oficial",
+        "titulo": "Philco PMO38E — página oficial da Philco",
+        "url": "https://www.philco.com.br/micro-ondas-pmo38e-127v-096051209/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 33 L, potência de 1400 W, não é de embutir e garantia de 360 dias. Britânia e Philco dividem o mesmo catálogo e o mesmo conjunto de campos para micro-ondas: capacidade em litros, potência, se é de embutir, modelo e garantia em dias. Não publicam medida, peso, diâmetro do prato, níveis de potência, trava, painel, grill nem volume útil. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0D3N6ZHT8",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D3N6ZHT8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmo38e.webp",
+      "alt": "Micro-ondas Philco PMO38E de 33 litros, visto de frente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/micro-ondas-pmo38e-127v-096051209/p"
+    }
+  },
+  {
+    "slug": "philco-pmo23b",
+    "nome": "Philco PMO23B",
+    "marca": "Philco",
+    "modelo": "PMO23B",
+    "categoria": "microondas",
+    "resumo": "Vinte litros por 1.100 W declarados. Ao lado dele, um Panasonic de 21 L declara 700 W — e nenhuma das duas marcas diz que grandeza está medindo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 20,
+      "capacidadeUtilL": null,
+      "potenciaW": 1100,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B097CM9H5M"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmo23b-oficial",
+        "titulo": "Philco PMO23B — página oficial da Philco",
+        "url": "https://www.philco.com.br/micro-ondas-philco-20l-branco-limpa-facil-pmo23b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 20 L, potência de 1100 W, não é de embutir e garantia de 360 dias. Britânia e Philco dividem o mesmo catálogo e o mesmo conjunto de campos para micro-ondas: capacidade em litros, potência, se é de embutir, modelo e garantia em dias. Não publicam medida, peso, diâmetro do prato, níveis de potência, trava, painel, grill nem volume útil. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B097CM9H5M",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B097CM9H5M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmo23b.webp",
+      "alt": "Micro-ondas Philco PMO23B branco de 20 litros, visto de frente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/micro-ondas-philco-20l-branco-limpa-facil-pmo23b/p"
+    }
+  },
+  {
+    "slug": "philco-pmo30b",
+    "nome": "Philco PMO30B",
+    "marca": "Philco",
+    "modelo": "PMO30B",
+    "categoria": "microondas",
+    "resumo": "Vinte e oito litros, 1.100 W, pintura limpa fácil. Os mesmos cinco campos de toda a linha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 28,
+      "capacidadeUtilL": null,
+      "potenciaW": 1100,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FFDB8CG1"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmo30b-oficial",
+        "titulo": "Philco PMO30B — página oficial da Philco",
+        "url": "https://www.philco.com.br/micro-ondas-philco-28l-branco-pintura-limpa-facil-pmo30b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 28 L, potência de 1100 W, não é de embutir e garantia de 360 dias. Britânia e Philco dividem o mesmo catálogo e o mesmo conjunto de campos para micro-ondas: capacidade em litros, potência, se é de embutir, modelo e garantia em dias. Não publicam medida, peso, diâmetro do prato, níveis de potência, trava, painel, grill nem volume útil. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FFDB8CG1",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FFDB8CG1",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmo30b.webp",
+      "alt": "Micro-ondas Philco PMO30B branco de 28 litros, visto de frente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/micro-ondas-philco-28l-branco-pintura-limpa-facil-pmo30b/p"
+    }
+  },
+  {
+    "slug": "philco-pmo30s",
+    "nome": "Philco PMO30S",
+    "marca": "Philco",
+    "modelo": "PMO30S",
+    "categoria": "microondas",
+    "resumo": "O PMO30 em prata espelhado. Ficha idêntica à do branco — inclusive no que ela não traz.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 28,
+      "capacidadeUtilL": null,
+      "potenciaW": 1100,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FFBKGJ7D"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmo30s-oficial",
+        "titulo": "Philco PMO30S — página oficial da Philco",
+        "url": "https://www.philco.com.br/micro-ondas-philco-28l-limpa-facil-1100w-pmo30s/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 28 L, potência de 1100 W, não é de embutir e garantia de 360 dias. Britânia e Philco dividem o mesmo catálogo e o mesmo conjunto de campos para micro-ondas: capacidade em litros, potência, se é de embutir, modelo e garantia em dias. Não publicam medida, peso, diâmetro do prato, níveis de potência, trava, painel, grill nem volume útil. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FFBKGJ7D",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FFBKGJ7D",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmo30s.webp",
+      "alt": "Micro-ondas Philco PMO30S prata espelhado de 28 litros, visto de frente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/micro-ondas-philco-28l-limpa-facil-1100w-pmo30s/p"
+    }
+  },
+  {
+    "slug": "britania-bmo38",
+    "nome": "Britânia BMO38",
+    "marca": "Britânia",
+    "modelo": "BMO38",
+    "categoria": "microondas",
+    "resumo": "Trinta e três litros e 1.400 W, os mesmos números do Philco PMO38E — as duas marcas são da mesma casa e publicam a mesma ficha de cinco campos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 33,
+      "capacidadeUtilL": null,
+      "potenciaW": 1400,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DBR7Z6BZ"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmo38-oficial",
+        "titulo": "Britânia BMO38 — página oficial da Britânia",
+        "url": "https://www.britania.com.br/micro-ondas-bmo38-127v-096051211/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 33 L, potência de 1400 W, não é de embutir e garantia de 360 dias. Britânia e Philco dividem o mesmo catálogo e o mesmo conjunto de campos para micro-ondas: capacidade em litros, potência, se é de embutir, modelo e garantia em dias. Não publicam medida, peso, diâmetro do prato, níveis de potência, trava, painel, grill nem volume útil. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DBR7Z6BZ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DBR7Z6BZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmo38.webp",
+      "alt": "Micro-ondas Britânia BMO38 de 33 litros, visto de frente",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/micro-ondas-bmo38-127v-096051211/p"
+    }
+  },
+  {
+    "slug": "britania-bmo23",
+    "nome": "Britânia BMO23",
+    "marca": "Britânia",
+    "modelo": "BMO23",
+    "categoria": "microondas",
+    "resumo": "Vinte litros e 1.100 W. Entra na lista para mostrar o piso da documentação da categoria: cinco campos, e nenhum deles físico.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 20,
+      "capacidadeUtilL": null,
+      "potenciaW": 1100,
+      "niveisPotencia": null,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FLFBYDVX"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmo23-oficial",
+        "titulo": "Britânia BMO23 — página oficial da Britânia",
+        "url": "https://www.britania.com.br/micro-ondas-bmo23-127v-096051227/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 20 L, potência de 1100 W, não é de embutir e garantia de 360 dias. Britânia e Philco dividem o mesmo catálogo e o mesmo conjunto de campos para micro-ondas: capacidade em litros, potência, se é de embutir, modelo e garantia em dias. Não publicam medida, peso, diâmetro do prato, níveis de potência, trava, painel, grill nem volume útil. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FLFBYDVX",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FLFBYDVX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmo23.webp",
+      "alt": "Micro-ondas Britânia BMO23 de 20 litros, visto de frente",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/micro-ondas-bmo23-127v-096051227/p"
+    }
+  },
+  {
+    "slug": "mondial-mo-01-21",
+    "nome": "Mondial MO-01-21",
+    "marca": "Mondial",
+    "modelo": "MO-01-21-B",
+    "categoria": "microondas",
+    "resumo": "Vinte e um litros com dez níveis de potência — a Mondial é uma das duas marcas da categoria que publica níveis, e a única fora da Panasonic.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipoInstalacao": "Bancada",
+      "capacidadeTotalL": 21,
+      "capacidadeUtilL": null,
+      "potenciaW": 1200,
+      "niveisPotencia": 10,
+      "grill": null,
+      "receitasPreProgramadas": null,
+      "diametroPratoCm": null,
+      "painel": null,
+      "travaSeguranca": null,
+      "classificacaoEnergetica": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "455 × 262 × 348",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09NHW7BMR"
+    },
+    "fontes": [
+      {
+        "id": "mondial-mo0121-oficial",
+        "titulo": "Mondial MO-01-21-B — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/micro-ondas-21l-mondial-mo-01-21-b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 21 L, potência de 1.200 W, 10 níveis de potência, prato giratório, voltagem 127 V/220 V e dimensões de 26,2 × 45,5 × 34,8 cm na ordem altura × largura × profundidade publicada pela marca, aqui reordenadas para largura × altura × profundidade como no resto da categoria. A Mondial não publica volume útil, peso, diâmetro do prato, trava, painel, grill nem prazo de garantia nesta página. A marca publica um único número de potência, sem dizer se é o consumo da tomada ou a potência que chega ao alimento — a ficha reproduz o número como publicado.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09NHW7BMR",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09NHW7BMR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mo-01-21.webp",
+      "alt": "Micro-ondas Mondial MO-01-21 preto de 21 litros, visto de frente",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/micro-ondas-21l-mondial-mo-01-21-b/p"
+    }
+  }
+]

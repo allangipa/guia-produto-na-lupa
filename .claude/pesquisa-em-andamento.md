@@ -335,6 +335,83 @@ Ficha completa levantada para 8 dos 20 de `energia`: seis Basike
 (Pocket 5000 USB-C, PRO 20000 PD 20W). Faltam Geonav (site fora),
 Anker, Xiaomi.
 
+## O EBUSY do `npm run build` tem nome: `python3.13`
+
+O servidor estático que uso para conferir o build no navegador fica vivo
+depois do `Stop-Process`, porque o filtro que eu usava era
+`Name='python.exe'` e **o processo se chama `python3.13`**. Ele segura a
+pasta `out/` e o export morre com
+`EBUSY: resource busy or locked, rmdir .../out`.
+
+A limpeza certa, antes de qualquer `npm run build` ou `npm run imagens`:
+
+```powershell
+Get-Process | Where-Object { $_.ProcessName -like "python*" } |
+  Stop-Process -Force
+```
+
+Fechar também as abas `file://` do navegador — as duas coisas juntas
+causavam o mesmo erro no turno passado.
+
+## `microondas` — aberta em 18/09/2026 com 17
+
+Nó **Fornos de Micro-Ondas = 17124786011**. **30 dos 30 com marca real**:
+Electrolux 10, Philco 7, Midea 4, Panasonic 3, Mondial 3, Britânia 2,
+Fischer 1. Fechou em 17, com cinco marcas.
+
+### `loja.panasonic.com.br` é VTEX, e muda a categoria
+
+`panasonic.com/br` responde **403**. A loja responde à API VTEX normal e
+tem a ficha mais rica da categoria — inclusive **Volume Total e Volume
+Útil em campos separados**, que nenhuma outra marca publica:
+
+| modelo | caixa | útil | sobra |
+|---|---|---|---|
+| NN-ST27LWRU | 21 L | 11 L | 48% do anúncio |
+| NN-ST55LMRU | 27 L | 18 L | 67% |
+| NN-ST67LSRU | 34 L | 23 L | 68% |
+
+É o mesmo ângulo das airfryers, e foi de onde saiu a `dorPrincipal`.
+
+### A potência não é a mesma grandeza em todas as fichas
+
+Panasonic declara 700, 800 e 900 W. Philco, Britânia, Electrolux e
+Mondial declaram 1.100 a 1.600 W. **Nenhuma diz se é consumo ou potência
+de cozimento.** O que sustenta a leitura é a estrutura da ficha da
+Panasonic: o campo dela vem num conjunto com "Potência Grill" e "Potência
+Convecção", os dois marcados como não aplicáveis — são potências de
+cozimento. As outras publicam um número solto.
+
+Decisão: **um campo só**, `potenciaW`, com o número como publicado e o
+texto de ajuda avisando que a coluna mistura duas leituras. Separar em
+dois campos exigiria inferir qual é qual produto a produto, e isso a
+documentação não permite.
+
+### Electrolux publica muito e nunca o que importa
+
+Sete fichas, com medida, peso, prato, selo energético, trava e painel —
+e **nenhuma com volume útil ou níveis de potência**. Três páginas do
+mesmo ME23 (S, B, P) trazem conjuntos de campos diferentes entre si: a do
+branco não tem potência, peso, prato nem trava; a do preto é a única de
+toda a marca que declara tipo de painel e grill.
+
+O **MEO44** traz no campo de potência a faixa `1400-1650W`, que é filtro
+de navegação e não valor do produto — campo em branco.
+
+### Philco e Britânia: cinco campos, nenhum físico
+
+Capacidade, potência, se é de embutir, modelo e garantia em dias. Sem
+medida, peso, prato, níveis, trava, painel nem grill. Entram assim mesmo:
+a nota de transparência mostra o tamanho do buraco melhor do que a
+ausência das fichas mostraria.
+
+### Quem ficou de fora
+
+**Midea MasterCook** (4 no ranking): `midea.com.br` devolve HTML, não a
+API. **Fischer** (1): não testado. **MI41T** e **MO-02-34-W** foram
+colhidos mas **não casam com o ASIN do ranking** — o ranking traz o 31 L
+inox e o 34 L espelhado, e eu tinha o branco dos dois. Não entraram.
+
 ## `sanduicheiras` — aberta em 18/09/2026 com 20
 
 Nó **Sanduicheiras = 17124792011**, dentro de Eletroportáteis. **28 dos 30

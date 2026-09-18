@@ -54,6 +54,13 @@ export const departamentos: Departamento[] = [
     descricao: "Eletroportátil de bancada, com a medida do anúncio convertida.",
     categorias: ["cozinha", "sanduicheiras", "cafeteiras", "liquidificadores"],
   },
+  {
+    slug: "eletrodomesticos",
+    nome: "Eletrodomésticos",
+    descricao:
+      "O aparelho grande, que fica onde foi instalado e dura dez anos. A ficha dele importa mais, e costuma ser mais curta.",
+    categorias: ["microondas"],
+  },
 ];
 
 /** O departamento de uma categoria, ou `undefined` se ela ficou órfã. */

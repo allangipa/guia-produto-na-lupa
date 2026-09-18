@@ -2299,9 +2299,170 @@ export const camposSanduicheira: Campo[] = [
   },
 ];
 
+/**
+ * Micro-ondas.
+ *
+ * Dois ângulos, e os dois saem da própria documentação das marcas.
+ *
+ * O primeiro é o mesmo das airfryers: **os litros do anúncio não são os litros
+ * que você usa**. A Panasonic publica volume total e volume útil separados — 21
+ * viram 11, 27 viram 18, 34 viram 23. Nenhuma outra marca da categoria publica
+ * o útil, e o número que vai na caixa é sempre o total.
+ *
+ * O segundo é a potência. Cada marca publica um número em watts e **nenhuma diz
+ * de que grandeza ele é**: o que a tomada consome ou o que chega ao alimento.
+ * A Panasonic é a única cuja estrutura de ficha responde — o campo dela vem num
+ * conjunto com "Potência Grill" e "Potência Convecção", que são potências de
+ * cozimento. As outras publicam um número só, entre 1.100 e 1.650 W, faixa
+ * típica de consumo. Por isso um 21 L declara 700 W e um 20 L declara 1.100 W
+ * na mesma tabela: não estão medindo a mesma coisa, e o texto de ajuda avisa.
+ */
+export const camposMicroondas: Campo[] = [
+  {
+    chave: "tipoInstalacao",
+    rotulo: "Instalação",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeTotalL",
+    rotulo: "Capacidade da caixa",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O número do anúncio. Mede a cavidade inteira, inclusive o que o prato giratório não alcança.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeUtilL",
+    rotulo: "Capacidade útil",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O que dá para usar de verdade. Uma única marca desta categoria publica: nela, 21 L de caixa viram 11 L úteis. Campo vazio aqui significa que o fabricante só publica o total.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência declarada",
+    grupo: "Cozimento",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Compare com cuidado: as marcas publicam um número em watts sem dizer se é o que a tomada consome ou o que chega ao alimento — grandezas que diferem quase pelo dobro. Nesta coluna convivem as duas leituras.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "niveisPotencia",
+    rotulo: "Níveis de potência",
+    grupo: "Cozimento",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "grill",
+    rotulo: "Grill",
+    grupo: "Cozimento",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "receitasPreProgramadas",
+    rotulo: "Receitas pré-programadas",
+    grupo: "Cozimento",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "diametroPratoCm",
+    rotulo: "Diâmetro do prato",
+    grupo: "Cozimento",
+    tipo: "numero",
+    unidade: "cm",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O que decide se o seu prato de jantar entra e gira.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "painel",
+    rotulo: "Painel",
+    grupo: "Uso",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "travaSeguranca",
+    rotulo: "Trava de segurança",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "classificacaoEnergetica",
+    rotulo: "Classificação energética",
+    grupo: "Uso",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
+  microondas: camposMicroondas,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -2476,6 +2637,12 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   bandejaColetora: "gota",
   travaFechamento: "check",
   comprimentoCaboM: "cabo",
+  tipoInstalacao: "panela",
+  niveisPotencia: "controle",
+  diametroPratoCm: "regua",
+  grill: "termometro",
+  receitasPreProgramadas: "nome",
+  classificacaoEnergetica: "raio",
 };
 
 export function iconeDo(chave: string): string {
@@ -2497,6 +2664,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   cafeteiras: "panela",
   tablets: "display",
   sanduicheiras: "panela",
+  microondas: "panela",
   eletrodomesticos: "raio",
 };
 
@@ -2600,6 +2768,11 @@ const ROTULO_CURTO: Record<string, string> = {
   visaoNoturnaM: "Noturna",
   armazenamentoVideo: "Grava em",
   protecaoIp: "IP",
+  tipoInstalacao: "Instalação",
+  niveisPotencia: "Níveis",
+  diametroPratoCm: "Prato",
+  receitasPreProgramadas: "Receitas",
+  classificacaoEnergetica: "Selo",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -2629,6 +2802,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   liquidificadores: ["capacidadeUtilL", "potenciaW", "velocidades"],
   cafeteiras: ["capacidadeL", "xicaras", "materialJarra"],
   sanduicheiras: ["sanduichesPorVez", "potenciaW", "abertura180"],
+  microondas: ["capacidadeTotalL", "capacidadeUtilL", "potenciaW"],
 };
 
 export function destaquesDa(categoria: string): string[] {
