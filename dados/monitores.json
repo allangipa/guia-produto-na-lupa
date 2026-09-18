@@ -739,7 +739,13 @@
         "oQueSaiuDaqui": "QHD de 2.560 × 1.440, 165 Hz, 1 ms em MPRT, painel VA, brilho de 300 cd/m² típico e 200 mínimo, contraste de 2.500:1, uma DisplayPort e uma HDMI 2.0, 616,6 × 477,4 × 272,6 mm e 4,1 kg com a base, 12 meses de garantia. Não declara cobertura sRGB, HDR, alto-falantes, ajuste de altura, VESA nem consumo.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-odyssey-g5-27.webp",
+      "alt": "Monitor gamer Samsung Odyssey G5 de 27 polegadas visto de frente",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-27-polegadas/p"
+    }
   },
   {
     "slug": "samsung-odyssey-g5-34",
@@ -784,7 +790,13 @@
         "oQueSaiuDaqui": "UWQHD de 3.440 × 1.440, 165 Hz, 1 ms em MPRT, painel VA com curvatura 1000R, brilho de 250 cd/m², contraste de 2.500:1, HDR10, AMD FreeSync Premium, uma DisplayPort e uma HDMI 2.0, 806,6 × 475,3 × 272,6 mm e 5,6 kg com a base (5,2 kg sem), 12 meses de garantia. Não declara cobertura sRGB, alto-falantes, ajuste de altura, VESA nem consumo.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-odyssey-g5-34.webp",
+      "alt": "Monitor curvo ultrawide Samsung Odyssey G5 de 34 polegadas",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-34-uwqhd-curvo/p"
+    }
   },
   {
     "slug": "lg-27ms500",
@@ -837,7 +849,13 @@
         "oQueSaiuDaqui": "O título da listagem declara \"HDMI 2x\" — a LG diz só que há HDMI, sem a quantidade. As duas entradas vieram daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/lg-27ms500.webp",
+      "alt": "Monitor LG 27MS500 visto de frente, sobre a base em pé único",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/fhd-qhd/27ms500-b/"
+    }
   },
   {
     "slug": "lg-27gs60f",
@@ -890,7 +908,13 @@
         "oQueSaiuDaqui": "Confirma o modelo 27GS60F-B.AWZM da listagem. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/lg-27gs60f.webp",
+      "alt": "Monitor LG UltraGear 27GS60F visto de frente",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27gs60f-b/"
+    }
   },
   {
     "slug": "lg-27g523b",
@@ -952,7 +976,13 @@
         "oQueSaiuDaqui": "Confirma o modelo 27G523B da listagem. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/lg-27g523b.webp",
+      "alt": "Monitor LG UltraGear 27G523B visto de frente",
+      "credito": "Imagem: LG",
+      "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27g523b-b/"
+    }
   },
   {
     "slug": "samsung-s3-24-100hz",
@@ -1005,7 +1035,13 @@
         "oQueSaiuDaqui": "Confirma que é o S3 de 24\", 100 Hz, com HDMI e VGA. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-s3-24-100hz.webp",
+      "alt": "Monitor Samsung Essential S3 de 24 polegadas visto de frente",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/monitor-samsung-essential-s3-24-polegadas/p"
+    }
   },
   {
     "slug": "samsung-s4-24",
@@ -1058,7 +1094,13 @@
         "oQueSaiuDaqui": "Confirma que é o S4 de 24\" com ajuste de altura, hub USB, DisplayPort e HDMI. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-s4-24.webp",
+      "alt": "Monitor Samsung Essential S4 de 24 polegadas, sobre a base com ajuste de altura",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/monitor-samsung-essential-s4-24-polegadas/p"
+    }
   },
   {
     "slug": "dell-se2426hg",
@@ -1120,7 +1162,13 @@
         "oQueSaiuDaqui": "Confirma o modelo SE2426HG e repete 240 Hz, 1000:1, 300 nits, sRGB 99%, HDR10 e VESA 100 × 100. Declara 2,72 kg, que diverge do peso da Dell.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/dell-se2426hg.webp",
+      "alt": "Monitor Dell SE2426HG visto de frente, sobre a base em V",
+      "credito": "Imagem: Dell",
+      "origem": "https://www.dell.com/en-us/shop/dell-24-240hz-monitor-se2426hg/apd/210-bttj/monitors-monitor-accessories"
+    }
   },
   {
     "slug": "alienware-aw2525hm",
@@ -1173,7 +1221,13 @@
         "oQueSaiuDaqui": "Confirma o modelo AW2525HM, 25\", Full HD, 320 Hz, Fast IPS e G-SYNC. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/alienware-aw2525hm.webp",
+      "alt": "Monitor Alienware AW2525HM visto de frente, sobre a base com ajuste de altura",
+      "credito": "Imagem: Alienware",
+      "origem": "https://www.dell.com/en-us/shop/alienware-25-320hz-gaming-monitor-aw2525hm/apd/210-bryk/monitors-monitor-accessories"
+    }
   },
   {
     "slug": "aoc-u27b3a",
@@ -1235,6 +1289,12 @@
         "oQueSaiuDaqui": "Confirma o modelo U27B3A, 27\", 4K, IPS e alto-falantes. O título anuncia cobertura de cor diferente da ficha da AOC.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/aoc-u27b3a.webp",
+      "alt": "Monitor AOC U27B3A de 27 polegadas visto de frente",
+      "credito": "Imagem: AOC",
+      "origem": "https://www.aoc.com/us/monitors/u27b3a"
+    }
   }
 ]

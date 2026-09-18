@@ -1019,7 +1019,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 128 GB. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/iphone-16.webp",
+      "alt": "iPhone 16 nas cinco cores, enfileirados de costas",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/shop/buy-iphone/iphone-16"
+    }
   },
   {
     "slug": "samsung-galaxy-s25-fe",
@@ -1135,7 +1141,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 256 GB. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/iphone-17e.webp",
+      "alt": "iPhone 17e visto de frente e de costas",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/iphone-17e/specs/"
+    }
   },
   {
     "slug": "motorola-edge-60-fusion",

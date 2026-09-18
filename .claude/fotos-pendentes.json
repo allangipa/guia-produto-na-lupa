@@ -1,127 +1,35 @@
 {
-  "jbl-c50hi": {
-    "url": "https://www.jbl.com.br/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8a930147/black-hero2-1605x1605px.png",
-    "origem": "https://www.jbl.com.br/fones-de-ouvido-intra-auriculares/JBL+C50HI.html",
-    "credito": "Imagem: JBL",
-    "alt": "Fone de ouvido intra-auricular JBL C50HI preto, com controle no cabo"
-  },
-  "jbl-tune-520bt": {
-    "url": "https://www.jbl.com.br/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwfecd0c7f/01.JBL_Tune_520BT_ProductImage_Hero_White.png",
-    "origem": "https://www.jbl.com.br/TUNE520BT.html",
-    "credito": "Imagem: JBL",
-    "alt": "Headphone on-ear JBL Tune 520BT visto de três quartos",
-    "nota": "A página oficial abre na variante branca; conferir se há URL da preta, que é a vendida no ASIN listado."
-  },
-  "qcy-melobuds-pro": {
-    "url": "https://www.qcy.com/cdn/shop/files/HT08_-1_aca60518-7636-48a3-adf8-a2df012c997b.png",
-    "origem": "https://www.qcy.com/products/qcy-melobuds-pro",
-    "credito": "Imagem: QCY",
-    "alt": "Fone QCY MeloBuds Pro com o estojo de carregamento"
-  },
-  "soundcore-sport-x20": {
-    "url": null,
-    "origem": "https://www.soundcore.com/uk/products/a3968-sport-x20-earbuds",
-    "credito": "Imagem: soundcore",
-    "alt": "Fone esportivo Soundcore Sport X20 com gancho de orelha",
-    "nota": "URL da foto ainda nao capturada — a pagina carrega a galeria por script. Abrir no navegador na rodada de imagens."
-  },
+  "_nota": "Rodada de fotos concluída em 18/09/2026: 136 das 140 fichas têm imagem oficial do fabricante. Restam estas quatro, todas recusadas por motivo declarado — não por falta de tentativa. Revisitar quando a marca publicar foto limpa, ou quando a Product Advertising API da Amazon liberar, já que ela entrega imagem licenciada.",
+
   "soundcore-v20i": {
     "url": null,
     "origem": "https://www.soundcore.com/uk/products/a3876g21",
     "credito": "Imagem: soundcore",
-    "alt": "Fone aberto Soundcore V20i com gancho de orelha",
-    "nota": "NAO usar a imagem que a pagina serve: o arquivo se chama 517WiAmP8qL._AC_SX679_, que e o padrao de nome do CDN da Amazon republicado no Shopify da soundcore. O contrato de Associados proibe usar imagem da Amazon. Procurar foto propria do fabricante na rodada de imagens; sem ela, o produto fica sem foto."
+    "alt": "Fone aberto soundcore V20i com gancho de orelha",
+    "motivo": "A imagem que a página serve é 517WiAmP8qL._AC_SX679_, nome de arquivo do CDN da Amazon republicado no Shopify da soundcore. O contrato de Associados proíbe usar imagem da Amazon fora da Product Advertising API. Conferido de novo em 18/09/2026: a página do Sport X20, da mesma marca, mistura imagens do CDN próprio com conteúdo A+ vindo de m.media-amazon.com — nesse caso deu para usar a do CDN próprio, neste não há."
   },
-  "jbl-wave-flex-2": {
-    "url": "https://www.jbl.com.br/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw24b269d3/01.LS_JBL_Wave%20Flex%202_Product%20Image_Hero_Black.png",
-    "origem": "https://www.jbl.com.br/WAVE-FLEX-2.html",
-    "credito": "Imagem: JBL",
-    "alt": "Fone JBL Wave Flex 2 preto com o estojo"
+
+  "qcy-melobuds-pro": {
+    "url": "https://www.qcy.com/cdn/shop/files/HT08_-1_aca60518-7636-48a3-adf8-a2df012c997b.png",
+    "origem": "https://www.qcy.com/products/qcy-melobuds-pro",
+    "credito": "Imagem: QCY",
+    "alt": "Fone QCY MeloBuds Pro com o estojo de carregamento",
+    "motivo": "Baixada e recusada na conferência visual: a foto traz, queimados no canto, os selos Hi-Res Audio e LDAC e um selo de premiação. O site não republica nota nem prêmio de terceiro, e um selo dentro da imagem é exatamente isso. Procurar na galeria da QCY uma versão sem os selos."
   },
+
+  "xiaomi-redmi-note-15": {
+    "url": null,
+    "origem": "https://www.mi.com/br/product/redmi-note-15/specs/",
+    "credito": "Imagem: Xiaomi",
+    "alt": "Smartphone Xiaomi Redmi Note 15 visto de frente e de costas",
+    "motivo": "A página brasileira da Xiaomi não tem render de produto isolado: as 142 imagens dela são banners de feature, amostras de câmera e miniaturas de navegação de 200 px. A primeira que baixei era uma paisagem — amostra da câmera, não o aparelho. Tentar a página global ou a loja."
+  },
+
   "redmi-buds-6-play": {
     "url": null,
     "origem": "https://www.mi.com/global/product/redmi-buds-6-play/",
     "credito": "Imagem: Xiaomi",
     "alt": "Fone Redmi Buds 6 Play preto com o estojo de carregamento",
-    "nota": "Capturar a URL na rodada de imagens, abrindo a pagina de produto."
-  },
-  "logitech-h390": {
-    "url": null,
-    "origem": "https://www.logitech.com/pt-br/products/headsets/h390-usb-computer-headset.981-000014.html",
-    "credito": "Imagem: Logitech",
-    "alt": "Headset USB Logitech H390 preto"
-  },
-  "logitech-h111": {
-    "url": null,
-    "origem": "https://www.logitech.com/pt-br/products/headsets/h111-stereo-headset.981-000612.html",
-    "credito": "Imagem: Logitech",
-    "alt": "Headset estéreo Logitech H111"
-  },
-  "samsung-odyssey-g5-27": {
-    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/243534/01-SA365_SMG_OdysseyG5-27_Galeria_1000x1000_01_20250124.jpg.jpg",
-    "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-27-polegadas/p",
-    "credito": "Imagem: Samsung",
-    "alt": "Monitor gamer Samsung Odyssey G5 de 27 polegadas, visto de frente"
-  },
-  "samsung-odyssey-g5-34": {
-    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/233373/1.jpg",
-    "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-34-uwqhd-curvo/p",
-    "credito": "Imagem: Samsung",
-    "alt": "Monitor curvo ultrawide Samsung Odyssey G5 de 34 polegadas"
-  },
-  "lg-27ms500": {
-    "url": null,
-    "origem": "https://www.lg.com/br/monitores/fhd-qhd/27ms500-b/",
-    "credito": "Imagem: LG",
-    "alt": "Monitor LG 27MS500 visto de frente",
-    "nota": "A LG Brasil carrega a galeria por script. Abrir no navegador na rodada de imagens, como ja foi feito para o 24MS500."
-  },
-  "lg-27gs60f": {
-    "url": null,
-    "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27gs60f-b/",
-    "credito": "Imagem: LG",
-    "alt": "Monitor LG UltraGear 27GS60F visto de frente",
-    "nota": "Mesma galeria por script da LG. Abrir no navegador."
-  },
-  "lg-27g523b": {
-    "url": null,
-    "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27g523b-b/",
-    "credito": "Imagem: LG",
-    "alt": "Monitor LG UltraGear 27G523B visto de frente",
-    "nota": "Mesma galeria por script da LG. Abrir no navegador. Este produto esta sem silhueta, entao a foto muda mais a ficha do que nos outros."
-  },
-  "samsung-s3-24-100hz": {
-    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/244231/SA365_SMG_S3-24_Galeria_1000x1000_01_20250217.jpg.jpg",
-    "origem": "https://shop.samsung.com/br/monitor-samsung-essential-s3-24-polegadas/p",
-    "credito": "Imagem: Samsung",
-    "alt": "Monitor Samsung Essential S3 de 24 polegadas visto de frente"
-  },
-  "samsung-s4-24": {
-    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/244258/01-SA365_SMG_S4_Galeria_1000x1000_01_20250206.jpg.jpg",
-    "origem": "https://shop.samsung.com/br/monitor-samsung-essential-s4-24-polegadas/p",
-    "credito": "Imagem: Samsung",
-    "alt": "Monitor Samsung Essential S4 de 24 polegadas visto de frente, sobre a base com ajuste de altura",
-    "nota": "Conferir olhando: a API devolveu esta URL e uma quase igual (ids/244258) para o S3 de 22 polegadas. Duas fotos diferentes nao deveriam dividir a mesma pasta de id."
-  },
-  "dell-se2426hg": {
-    "url": null,
-    "origem": "https://www.dell.com/en-us/shop/dell-24-240hz-monitor-se2426hg/apd/210-bttj/monitors-monitor-accessories",
-    "credito": "Imagem: Dell",
-    "alt": "Monitor Dell SE2426HG visto de frente",
-    "nota": "Pagina global da Dell. Procurar antes a foto na pagina brasileira do mesmo modelo, se ela existir."
-  },
-  "alienware-aw2525hm": {
-    "url": null,
-    "origem": "https://www.dell.com/en-us/shop/alienware-25-320hz-gaming-monitor-aw2525hm/apd/210-bryk/monitors-monitor-accessories",
-    "credito": "Imagem: Alienware",
-    "alt": "Monitor Alienware AW2525HM visto de frente, sobre a base ajustavel",
-    "nota": "Pagina global da Dell."
-  },
-  "aoc-u27b3a": {
-    "url": null,
-    "origem": "https://www.aoc.com/us/monitors/u27b3a",
-    "credito": "Imagem: AOC",
-    "alt": "Monitor AOC U27B3A de 27 polegadas 4K visto de frente",
-    "nota": "A AOC Brasil nao tem pagina deste modelo; a foto sai da ficha global da AOC."
+    "motivo": "Mesmo caso da Redmi Note 15: a imagem disponível é peça de marketing, com o número da autonomia estampado ao lado do produto. Procurar render limpo."
   }
 }

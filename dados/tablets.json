@@ -1010,7 +1010,13 @@
         "oQueSaiuDaqui": "Confirma a versão Wi-Fi de 128 GB. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/apple-ipad-mini-a17-pro.webp",
+      "alt": "iPad mini visto de frente e de costas",
+      "credito": "Imagem: Apple",
+      "origem": "https://www.apple.com/br/ipad-mini/specs/"
+    }
   },
   {
     "slug": "positivo-vision-tab-7",
@@ -1199,7 +1205,13 @@
         "oQueSaiuDaqui": "458 g — o peso que o fabricante não publica — e a confirmação do código ZAEH0151BR.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/lenovo-tab-10.webp",
+      "alt": "Tablet Lenovo Tab de 10,1 polegadas visto de frente",
+      "credito": "Imagem: Lenovo",
+      "origem": "https://www.lenovo.com/br/pt/p/tablets/android-tablets/lenovo-tab-series/lenovo-tab/zaeh0151br"
+    }
   },
   {
     "slug": "lenovo-tab-m9",
@@ -1255,7 +1267,13 @@
         "oQueSaiuDaqui": "Confirma a tela WVA 1340 × 800, a bateria de 5100 mAh e as câmeras de 8 e 2 MP. O campo de peso da listagem traz \"1 quilograma\", que é o peso com embalagem, e por isso não foi adotado.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/lenovo-tab-m9.webp",
+      "alt": "Tablet Lenovo Tab M9 visto de frente e de costas",
+      "credito": "Imagem: Lenovo",
+      "origem": "https://www.lenovo.com/br/pt/p/tablets/android-tablets/lenovo-tab-series/lenovo-tab-m9-9-inch-mtk/zac30198br"
+    }
   },
   {
     "slug": "tcl-tab-11-fe",
@@ -1311,6 +1329,12 @@
         "oQueSaiuDaqui": "Confirma a versão de 128 GB com 8 GB de RAM anunciada como 4 GB físicos mais 4 GB de expansão. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tcl-tab-11-fe.webp",
+      "alt": "Tablet TCL TAB 11 FE visto de frente e de costas",
+      "credito": "Imagem: TCL",
+      "origem": "https://www.tcl.com/global/en/tablets/tcl-tab-11-fe"
+    }
   }
 ]

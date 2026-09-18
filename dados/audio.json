@@ -693,7 +693,13 @@
         "oQueSaiuDaqui": "Posição 5 na lista de Mais Vendidos de Fones de Ouvido e Acessórios em 17/09/2026, e o ASIN.",
         "consultadaEm": "2026-09-17"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/jbl-c50hi.webp",
+      "alt": "Fone intra-auricular com fio JBL C50HI preto, com o controle no cabo",
+      "credito": "Imagem: JBL",
+      "origem": "https://www.jbl.com.br/fones-de-ouvido-intra-auriculares/JBL+C50HI.html"
+    }
   },
   {
     "slug": "jbl-tune-520bt",
@@ -746,7 +752,13 @@
         "oQueSaiuDaqui": "Posição 18 na lista de Mais Vendidos de Fones de Ouvido e Acessórios em 17/09/2026, e o ASIN da versão preta.",
         "consultadaEm": "2026-09-17"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/jbl-tune-520bt.webp",
+      "alt": "Headphone on-ear JBL Tune 520BT na cor branca, visto de três quartos",
+      "credito": "Imagem: JBL",
+      "origem": "https://www.jbl.com.br/TUNE520BT.html"
+    }
   },
   {
     "slug": "soundcore-sport-x20",
@@ -788,7 +800,13 @@
         "oQueSaiuDaqui": "Driver dinâmico de 11 mm, IP68, codecs SBC e AAC, conexão dupla, ANC adaptativo e manual. Bateria por modo: 12 h normal e 7 h com ANC no fone; 48 h e 28 h com o estojo. Carga de cerca de 40 min no fone e 3 h no estojo, com 5 min rendendo 2 h. Não declara versão do Bluetooth, redução em dB, peso, dimensões nem resposta de frequência.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/soundcore-sport-x20.webp",
+      "alt": "Fone esportivo soundcore Sport X20 preto, com os ganchos de orelha",
+      "credito": "Imagem: Anker",
+      "origem": "https://www.soundcore.com/uk/products/a3968-sport-x20-earbuds"
+    }
   },
   {
     "slug": "soundcore-v20i",
@@ -927,7 +945,13 @@
         "oQueSaiuDaqui": "Entrada de áudio de 3,5 mm, cabo de 235 cm, microfone giratório 180° e flexível, arco ajustável com almofadas de espuma e pegada de carbono de 1,62 kg CO2e. Não declara diâmetro do driver, resposta de frequência, impedância, sensibilidade, peso nem garantia.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-h111.webp",
+      "alt": "Headset estéreo Logitech H111 preto, com microfone articulado",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/products/headsets/h111-stereo-headset.981-000612.html"
+    }
   },
   {
     "slug": "logitech-h390",
@@ -978,7 +1002,13 @@
         "oQueSaiuDaqui": "Conexão USB-A e USB-C, drivers de 30 mm, cabo de 1,9 m, microfone com cancelamento de ruído em haste giratória, controles de volume e mudo no cabo, arco ajustável e pegada de carbono de 4,78 kg CO2e. Não declara resposta de frequência, impedância, sensibilidade, peso nem garantia.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-h390.webp",
+      "alt": "Headset USB Logitech H390 preto, com microfone articulado",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/products/headsets/h390-usb-computer-headset.981-000014.html"
+    }
   },
   {
     "slug": "redmi-buds-6-play",
@@ -1070,7 +1100,13 @@
         "oQueSaiuDaqui": "Driver de 12 mm, quatro microfones, sensibilidade de 98 dB, impedância de 16 Ω, resposta de 20 Hz a 20 kHz, 4,12 g por fone e 35,68 g o estojo (43,92 g no total), Bluetooth 5.3 com perfis A2DP 1.4, AVRCP 1.6.2 e HFP 1.8, multiponto, IP54, 10 h no fone e 40 h com o estojo, carga em 2 h. Homologação Anatel 06803-24-0. Não declara codecs nem garantia.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/jbl-wave-flex-2.webp",
+      "alt": "Fone JBL Wave Flex 2 preto, com o estojo de carregamento aberto",
+      "credito": "Imagem: JBL",
+      "origem": "https://www.jbl.com.br/WAVE-FLEX-2.html"
+    }
   },
   {
     "slug": "philips-tae2146",
@@ -1138,6 +1174,12 @@
         "oQueSaiuDaqui": "Impedância de 32 ohms, sensibilidade de 104 dB, cabo não destacável de 1,2 m com alívio de tensão emborrachado, três tamanhos de borracha na caixa, sem controle de ruído, não resistente à água e 1 ano — tudo o que o fabricante não publica.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/philips-tae2146.webp",
+      "alt": "Fone intra-auricular com fio Philips TAE2146 preto, com microfone e botão no cabo",
+      "credito": "Imagem: Philips",
+      "origem": "https://www.philips.com.br/c-p/TAE2146BK_00"
+    }
   }
 ]
