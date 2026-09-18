@@ -45,8 +45,12 @@ export function SiteHeader() {
         </div>
 
         <div className="ml-auto flex shrink-0 items-center gap-2">
+          {/* Vai para a escolha de categoria, não para uma categoria fixa.
+              Antes apontava para comProdutos[0], que é sempre áudio: quem
+              queria comparar monitor caía num comparador de fone sem saber
+              que havia outros. */}
           <Link
-            href={`/comparar/${comProdutos[0]?.slug ?? "audio"}`}
+            href="/comparar"
             className="botao botao-secundario hidden !py-2.5 text-[0.85rem] sm:inline-flex"
           >
             <Icone nome="comparar" className="h-4 w-4" />
