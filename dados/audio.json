@@ -877,5 +877,199 @@
         "consultadaEm": "2026-09-18"
       }
     ]
+  },
+  {
+    "slug": "logitech-h111",
+    "nome": "Logitech H111",
+    "marca": "Logitech",
+    "modelo": "981-000612",
+    "categoria": "audio",
+    "resumo": "Headset estéreo de 3,5 mm com cabo de 2,35 m. A Logitech publica o comprimento do cabo e a pegada de carbono, e não publica driver, resposta de frequência, impedância nem peso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "On-ear com fio, estéreo",
+      "driverMm": null,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": null,
+      "horasTotal": null,
+      "tempoCargaH": null,
+      "cargaRapida": null,
+      "cancelamentoAtivo": null,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": "Microfone giratório 180°, flexível; sem controle no cabo",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "bluetoothVersao",
+      "codecs",
+      "multiponto",
+      "horasFone",
+      "horasTotal",
+      "tempoCargaH",
+      "cargaRapida"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B00YJJB7YG"
+    },
+    "fontes": [
+      {
+        "id": "logitech-h111-oficial",
+        "titulo": "Logitech H111 — página oficial do produto",
+        "url": "https://www.logitech.com/pt-br/products/headsets/h111-stereo-headset.981-000612.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Entrada de áudio de 3,5 mm, cabo de 235 cm, microfone giratório 180° e flexível, arco ajustável com almofadas de espuma e pegada de carbono de 1,62 kg CO2e. Não declara diâmetro do driver, resposta de frequência, impedância, sensibilidade, peso nem garantia.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "logitech-h390",
+    "nome": "Logitech H390",
+    "marca": "Logitech",
+    "modelo": "981-000014",
+    "categoria": "audio",
+    "resumo": "Headset USB com driver de 30 mm, microfone com cancelamento de ruído e controles no cabo. A Logitech não publica resposta de frequência, impedância nem sensibilidade.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Over-ear com fio, USB",
+      "driverMm": 30,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": null,
+      "horasTotal": null,
+      "tempoCargaH": null,
+      "cargaRapida": null,
+      "cancelamentoAtivo": null,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": "Controles de volume e mudo integrados ao cabo",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "bluetoothVersao",
+      "codecs",
+      "multiponto",
+      "horasFone",
+      "horasTotal",
+      "tempoCargaH",
+      "cargaRapida"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B000UXZQ42"
+    },
+    "fontes": [
+      {
+        "id": "logitech-h390-oficial",
+        "titulo": "Logitech H390 — página oficial do produto",
+        "url": "https://www.logitech.com/pt-br/products/headsets/h390-usb-computer-headset.981-000014.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Conexão USB-A e USB-C, drivers de 30 mm, cabo de 1,9 m, microfone com cancelamento de ruído em haste giratória, controles de volume e mudo no cabo, arco ajustável e pegada de carbono de 4,78 kg CO2e. Não declara resposta de frequência, impedância, sensibilidade, peso nem garantia.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "redmi-buds-6-play",
+    "nome": "Redmi Buds 6 Play",
+    "marca": "Xiaomi",
+    "modelo": "M2420E1",
+    "categoria": "audio",
+    "resumo": "O mais bem documentado dos TWS baratos da base: a Xiaomi publica impedância, capacidade das baterias em mAh, peso de cada peça e dimensões. Não declara codecs nem proteção contra água.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": 10,
+      "impedanciaOhm": 16,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": "20 Hz – 20 kHz",
+      "bluetoothVersao": "5.4",
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": 7.5,
+      "horasTotal": 36,
+      "tempoCargaH": null,
+      "cargaRapida": "10 min rendem 3 h",
+      "cancelamentoAtivo": null,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": 3.6,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DB52X2ZW"
+    },
+    "fontes": [
+      {
+        "id": "xiaomi-redmi-buds-6-play-specs",
+        "titulo": "Redmi Buds 6 Play — ficha técnica oficial (Xiaomi Global)",
+        "url": "https://www.mi.com/global/product/redmi-buds-6-play/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo M2420E1, resposta de 20 Hz a 20 kHz, impedância de 16 Ω com potência nominal de 5 mW, 3,6 g por fone e 32,8 g o estojo (40 g no total), bateria de 57 mAh no fone e 600 mAh no estojo, carga por USB-C, 7,5 h no fone e 36 h com o estojo, Bluetooth 5.4 com BLE, HFP, A2DP e AVRCP e alcance de 10 m. Não declara codecs, proteção contra água, cancelamento ativo nem garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "xiaomi-redmi-buds-6-play-produto",
+        "titulo": "Redmi Buds 6 Play — página do produto (Xiaomi Global)",
+        "url": "https://www.mi.com/global/product/redmi-buds-6-play/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Driver dinâmico de 10 mm e carga rápida de 10 minutos para 3 horas — dois números que a página de ficha técnica não traz.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "jbl-wave-flex-2",
+    "nome": "JBL Wave Flex 2",
+    "marca": "JBL",
+    "modelo": "Wave Flex 2",
+    "categoria": "audio",
+    "resumo": "TWS de encaixe aberto com 40 h declaradas e IP54. A JBL publica impedância, sensibilidade, peso de cada peça e o número de homologação na Anatel (06803-24-0). Não declara codecs nem garantia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": 12,
+      "impedanciaOhm": 16,
+      "sensibilidadeDb": 98,
+      "faixaFrequencia": "20 Hz – 20 kHz",
+      "bluetoothVersao": "5.3",
+      "codecs": null,
+      "multiponto": true,
+      "horasFone": 10,
+      "horasTotal": 40,
+      "tempoCargaH": 2,
+      "cargaRapida": "Declarada; a JBL publica 3 h de carregamento rápido",
+      "cancelamentoAtivo": null,
+      "reducaoDb": null,
+      "protecaoAgua": "IP54",
+      "pesoG": 4.12,
+      "controles": "Controle sensível ao toque, com Voice Aware e TalkThru",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DHL6RJ7H"
+    },
+    "fontes": [
+      {
+        "id": "jbl-wave-flex-2-oficial",
+        "titulo": "JBL Wave Flex 2 — página oficial do produto (JBL Brasil)",
+        "url": "https://www.jbl.com.br/WAVE-FLEX-2.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Driver de 12 mm, quatro microfones, sensibilidade de 98 dB, impedância de 16 Ω, resposta de 20 Hz a 20 kHz, 4,12 g por fone e 35,68 g o estojo (43,92 g no total), Bluetooth 5.3 com perfis A2DP 1.4, AVRCP 1.6.2 e HFP 1.8, multiponto, IP54, 10 h no fone e 40 h com o estojo, carga em 2 h. Homologação Anatel 06803-24-0. Não declara codecs nem garantia.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]
