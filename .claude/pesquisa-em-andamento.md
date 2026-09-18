@@ -335,6 +335,79 @@ Ficha completa levantada para 8 dos 20 de `energia`: seis Basike
 (Pocket 5000 USB-C, PRO 20000 PD 20W). Faltam Geonav (site fora),
 Anker, Xiaomi.
 
+## `sanduicheiras` — aberta em 18/09/2026 com 20
+
+Nó **Sanduicheiras = 17124792011**, dentro de Eletroportáteis. **28 dos 30
+mais vendidos têm marca real** — a melhor relação de documentação
+encontrada até agora. Fechou com 20 fichas e oito marcas: Britânia 5,
+Mondial 4, Oster 3, Philco 3, Cadence 2, Arno 1, Electrolux 1, Elgin 1.
+
+### Todo o ramo de Eletroportáteis, apurado de uma vez
+
+| lista | id |
+|---|---|
+| Eletroportáteis (raiz) | 17124722011 |
+| **Sanduicheiras** | **17124792011** |
+| Balanças de Cozinha | 17124791011 |
+| Chaleiras | 17124790011 |
+| Chapas e Grelhas Elétricas | 17124788011 |
+| Cooktops | 17125447011 |
+| Espremedores e Centrífugas | 17124789011 |
+| Fornos de Micro-Ondas | 17124786011 |
+| Torradeiras | 17124796011 |
+| Purificadores de Água | 17125504011 |
+| Moedores | 23696256011 |
+| Eletroportáteis Especiais | 17124795011 |
+
+São as próximas candidatas, e todas caem no mesmo cluster VTEX.
+
+### Três famílias de fabricante, três metades da ficha
+
+- **Britânia e Philco** (mesmo VTEX) publicam **Quantidade por vez** — o
+  único campo que responde a pergunta de quem compra — mais trava de
+  fechamento, formato e revestimento da chapa. Declaram a *unidade* das
+  medidas ("Centímetros") e **nenhum valor**: nem dimensão, nem peso.
+- **Mondial** publica recurso a recurso: luz indicadora, bandeja
+  coletora, controle de temperatura, comprimento do cabo, tipo de chapa,
+  peso. **Nenhuma medida.**
+- **Cadence e Oster** (Newell) publicam medida, peso, consumo e tensão, e
+  quase nenhum recurso.
+- **Electrolux** é a exceção: 25 campos, incluindo placas removíveis,
+  armazenamento vertical e material das placas. Não publica garantia nem
+  quantidade por vez.
+
+### A descrição do produto é fonte, e rende mais que a tabela
+
+Em Cadence, Oster e Mondial, dados reais (abertura 180°, 2 sanduíches ao
+mesmo tempo, trava na alça, chapa lisa e ondulada, controle de
+temperatura) só existem na **descrição do produto**, não na tabela de
+especificações. É fonte de fabricante e entra, com a origem dita na nota.
+
+### Cinco divergências, todas da fonte contra ela mesma
+
+- **Mondial S-12, S-20 e S-07**: a tabela marca "Controle de temperatura:
+  Não" e a descrição da mesma página promete "controle de temperatura
+  automático". Campo em branco nos três.
+- **Mondial PG-02**: tabela 2.000 W, descrição 1.800 W.
+- **Elgin BBQ Show**: campo de potência 2.000 W, descrição curta 1.800 W,
+  e um terceiro campo listando os dois. Campo em branco nos dois.
+
+### Potência que muda com a tomada
+
+Philco PGR32 (1.250/1.500 W), Oster OGRL610 (1.200/1.600 W), OGRL640
+(1.500/2.100 W) e **Arno GPTO, que é o inverso: 850 W em 127 V e 700 W em
+220 V**. As fichas usam o valor da tensão do anúncio ligado, com as duas
+escritas na fonte.
+
+### Quem ficou de fora
+
+**Elgin Brunch Time** (ASIN B0DCCFRMX8): a Elgin não tem esse nome no
+catálogo — tem Fast Time, Duo Time, Snack Time, Best Time e Break Time.
+Sem casar o modelo, não entra. O **Duo Time** casa (ELG-42SAN21) mas a
+ficha dele na VTEX só tem a descrição curta, sem um campo de
+especificação. Kian e Mallory aparecem no ranking e não têm página de
+fabricante.
+
 ## A API VTEX resolve quase toda a linha branca
 
 Descoberto em 18/09/2026, testando o padrão da Samsung Shop nas outras

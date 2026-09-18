@@ -1,0 +1,1147 @@
+[
+  {
+    "slug": "britania-bgr27i",
+    "nome": "Britânia Press BGR27I",
+    "marca": "Britânia",
+    "modelo": "BGR27I",
+    "categoria": "sanduicheiras",
+    "resumo": "Uma das poucas fichas do país que responde a pergunta da loja: cabem dois sanduíches. Em compensação, a Britânia não publica medida nem peso de nenhum modelo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 850,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09WWY48B7"
+    },
+    "fontes": [
+      {
+        "id": "britania-bgr27i-oficial",
+        "titulo": "Britânia BGR27I Press — página oficial da Britânia",
+        "url": "https://www.britania.com.br/sanduicheira-e-grill-press-bgr27i-127v-066701176/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 850 W, quantidade por vez de 2 sanduíches, trava de fechamento, revestimento antiaderente e garantia de 360 dias. A página é a da versão 127 V. A ficha da Britânia declara a unidade das medidas — centímetros — e não declara o valor de nenhuma delas; peso, dimensões, tipo de chapa, luz indicadora, bandeja e controle de temperatura não aparecem.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09WWY48B7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09WWY48B7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bgr27i.webp",
+      "alt": "Sanduicheira e grill Britânia BGR27I Press, prateada, aberta em ângulo",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/sanduicheira-e-grill-press-bgr27i-127v-066701176/p"
+    }
+  },
+  {
+    "slug": "britania-bgr16",
+    "nome": "Britânia Redstone BGR16",
+    "marca": "Britânia",
+    "modelo": "BGR16",
+    "categoria": "sanduicheiras",
+    "resumo": "Chapa de cerâmica Redstone em vez do antiaderente comum, e a mesma resposta de dois sanduíches por vez. Chapa quadrada, que a Britânia declara e as outras marcas não.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": "Quadrada",
+      "revestimento": "Cerâmica Redstone",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CJ3R1537"
+    },
+    "fontes": [
+      {
+        "id": "britania-bgr16-oficial",
+        "titulo": "Britânia BGR16 Redstone — página oficial da Britânia",
+        "url": "https://www.britania.com.br/sanduicheira-e-grill-bgr16-127v-066701194/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, 2 sanduíches por vez, chapa de formato quadrado com revestimento de cerâmica Redstone, trava de fechamento e garantia de 360 dias, na versão 127 V. Sem medida, peso, luz indicadora, bandeja coletora nem controle de temperatura.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CJ3R1537",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CJ3R1537",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bgr16.webp",
+      "alt": "Sanduicheira e grill Britânia BGR16 Redstone, prateada, fechada",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/sanduicheira-e-grill-bgr16-127v-066701194/p"
+    }
+  },
+  {
+    "slug": "britania-bgr25b",
+    "nome": "Britânia BGR25B",
+    "marca": "Britânia",
+    "modelo": "BGR25B",
+    "categoria": "sanduicheiras",
+    "resumo": "O mesmo par de números da linha — 750 W e dois sanduíches — com chapa quadrada antiaderente e acabamento inox.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": "Quadrada",
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F253GVWR"
+    },
+    "fontes": [
+      {
+        "id": "britania-bgr25b-oficial",
+        "titulo": "Britânia BGR25B — página oficial da Britânia",
+        "url": "https://www.britania.com.br/grill-e-sanduicheira-britania-preto-inox-750w-2-em-1-bgr25b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, 2 sanduíches por vez, chapa quadrada antiaderente, trava de fechamento e garantia de 360 dias. A página não identifica a tensão nem publica medida ou peso.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0F253GVWR",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F253GVWR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bgr25b.webp",
+      "alt": "Sanduicheira e grill Britânia BGR25B, preta com tampa em inox, vista de cima",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/grill-e-sanduicheira-britania-preto-inox-750w-2-em-1-bgr25b/p"
+    }
+  },
+  {
+    "slug": "britania-crome-inox",
+    "nome": "Britânia Crome Inox",
+    "marca": "Britânia",
+    "modelo": "Crome Inox",
+    "categoria": "sanduicheiras",
+    "resumo": "O modelo mais antigo da linha ainda no ranking. Dois sanduíches, 750 W, antiaderente — e a Britânia nem nomeia um código de modelo para ele.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0765JVD5Q"
+    },
+    "fontes": [
+      {
+        "id": "britania-crome-oficial",
+        "titulo": "Britânia Crome Inox — página oficial da Britânia",
+        "url": "https://www.britania.com.br/grill-e-sanduicheira-britania-crome-inox-750w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, 2 sanduíches por vez, revestimento antiaderente, trava de fechamento e garantia de 360 dias. O campo de modelo traz o próprio nome comercial, \"Crome Inox\", e não um código. Sem medida, peso, tipo de chapa, luz, bandeja ou termostato.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0765JVD5Q",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0765JVD5Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-crome-inox.webp",
+      "alt": "Sanduicheira e grill Britânia Crome Inox, preta com tampa prateada",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/grill-e-sanduicheira-britania-crome-inox-750w/p"
+    }
+  },
+  {
+    "slug": "britania-golden-waffle",
+    "nome": "Britânia Golden Waffle",
+    "marca": "Britânia",
+    "modelo": "Golden Waffle",
+    "categoria": "sanduicheiras",
+    "resumo": "Máquina de waffle, não sanduicheira: chapa redonda, quatro por vez e 850 W. É o maior número de \"por vez\" da categoria, e vem da única marca que publica esse campo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Máquina de waffle",
+      "sanduichesPorVez": 4,
+      "abertura180": null,
+      "tipoChapa": "Redonda",
+      "revestimento": null,
+      "potenciaW": 850,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076HT2R2T"
+    },
+    "fontes": [
+      {
+        "id": "britania-golden-waffle-oficial",
+        "titulo": "Britânia Golden Waffle — página oficial da Britânia",
+        "url": "https://www.britania.com.br/064001067-golden-waffle/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 850 W, chapa de formato redondo, 4 waffles por vez, acabamento em inox e garantia de 360 dias. A ficha não declara revestimento, medida, peso, luz indicadora nem trava.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B076HT2R2T",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076HT2R2T",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-golden-waffle.webp",
+      "alt": "Máquina de waffle Britânia Golden Waffle, redonda, com seletor no topo",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/064001067-golden-waffle/p"
+    }
+  },
+  {
+    "slug": "philco-pgr21pi",
+    "nome": "Philco Maxx Clean PGR21PI",
+    "marca": "Philco",
+    "modelo": "PGR21PI",
+    "categoria": "sanduicheiras",
+    "resumo": "Mil watts, o maior da faixa de prensa, com revestimento que a Philco batizou de Maxx Clean. É o único da dupla Britânia/Philco que não trava fechado — e o único que não diz quantos sanduíches cabem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente Maxx Clean",
+      "potenciaW": 1000,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": false,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BHKZ75DJ"
+    },
+    "fontes": [
+      {
+        "id": "philco-pgr21pi-oficial",
+        "titulo": "Philco PGR21PI Maxx Clean — página oficial da Philco",
+        "url": "https://www.philco.com.br/grill-e-sanduicheira-philco-pgr21pi-maxx-clean-1000w-056701043/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1.000 W, revestimento antiaderente Maxx Clean, sem trava de fechamento e garantia de 360 dias. O campo de modelo da própria Philco está preenchido com um traço. Diferente dos outros produtos da mesma casa, esta ficha não traz o campo de quantidade por vez, e não traz medida nem peso.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BHKZ75DJ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BHKZ75DJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pgr21pi.webp",
+      "alt": "Grill e sanduicheira Philco PGR21PI Maxx Clean, prateada, aberta em ângulo",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/grill-e-sanduicheira-philco-pgr21pi-maxx-clean-1000w-056701043/p"
+    }
+  },
+  {
+    "slug": "philco-pgr27a",
+    "nome": "Philco Dura Mais PGR27A",
+    "marca": "Philco",
+    "modelo": "PGR27A",
+    "categoria": "sanduicheiras",
+    "resumo": "Dois sanduíches por vez, chapa retangular e 750 W. A Philco declara o formato da chapa — retangular, contra a quadrada da Britânia — e continua calando as medidas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": "Retangular",
+      "revestimento": "Antiaderente Dura Mais",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F252PMJV"
+    },
+    "fontes": [
+      {
+        "id": "philco-pgr27a-oficial",
+        "titulo": "Philco PGR27A — página oficial da Philco",
+        "url": "https://www.philco.com.br/sanduicheira-e-grill-philco-pgr27a-acabamento-em-inox/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, 2 sanduíches por vez, chapa retangular com revestimento antiaderente Dura Mais, trava de fechamento e garantia de 360 dias. Sem medida, peso, luz, bandeja ou controle de temperatura.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0F252PMJV",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F252PMJV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pgr27a.webp",
+      "alt": "Sanduicheira e grill Philco PGR27A, quadrada, com acabamento em inox",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/sanduicheira-e-grill-philco-pgr27a-acabamento-em-inox/p"
+    }
+  },
+  {
+    "slug": "philco-pgr32",
+    "nome": "Philco PGR32",
+    "marca": "Philco",
+    "modelo": "PGR32",
+    "categoria": "sanduicheiras",
+    "resumo": "Abre 180° e vira chapa de mesa. A potência muda com a tomada: 1.250 W em 127 V e 1.500 W em 220 V — a Philco publica as duas, o que quase ninguém faz.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 1250,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": false,
+      "comprimentoCaboM": null,
+      "tensao": "127 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CQKLYJ8P"
+    },
+    "fontes": [
+      {
+        "id": "philco-pgr32-oficial",
+        "titulo": "Philco PGR32 — página oficial da Philco",
+        "url": "https://www.philco.com.br/grill-pgr32-127v-056701054/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência declarada como 1.250 W em 127 V e 1.500 W em 220 V; a ficha aqui usa o valor de 127 V, que é a versão do anúncio ligado. Revestimento antiaderente, sem trava de fechamento, garantia de 360 dias. A abertura de 180° está no nome do produto na própria página da Philco. A ficha não traz quantidade por vez, medida nem peso.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CQKLYJ8P",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CQKLYJ8P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pgr32.webp",
+      "alt": "Grill Philco PGR32, prateado, com a chapa superior levantada",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/grill-pgr32-127v-056701054/p"
+    }
+  },
+  {
+    "slug": "mondial-s-12",
+    "nome": "Mondial Fast Grill & Sandwich S-12",
+    "marca": "Mondial",
+    "modelo": "S-12",
+    "categoria": "sanduicheiras",
+    "resumo": "A Mondial é a única que publica luz indicadora, bandeja e comprimento de cabo item a item. Também é a que se contradiz sobre o termostato: a tabela diz que não tem, a descrição diz que tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": "Dupla ondulada antiaderente",
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": false,
+      "travaFechamento": true,
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076FGX8GR"
+    },
+    "fontes": [
+      {
+        "id": "mondial-s12-oficial",
+        "titulo": "Mondial S-12 Fast Grill & Sandwich — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/sanduicheira-mondial-fast-grill-e-sandwich-s-12/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, cabo de 1,50 m, peso de 1 kg. Voltagem 127 V/220 V, chapa dupla antiaderente, luz indicadora, sem bandeja coletora, tipo de preparo \"sanduíches e grelhados\", tomada de 10 A, material, peso, potência e garantia de 1 ano. A descrição da mesma página acrescenta que as grelhas são onduladas e que a alça isotérmica tem trava de fechamento — dois dados que a tabela não traz. A Mondial não publica dimensões de nenhum destes modelos.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B076FGX8GR",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076FGX8GR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "controleTemperatura",
+        "fonteAdotada": "Mondial",
+        "valorDivergente": "a descrição promete \"controle de temperatura automático\"",
+        "fonteDivergente": "Mondial",
+        "observacao": "A tabela de especificações da página marca \"Controle de temperatura: Não\". A descrição do produto, na mesma página, lista \"Controle de temperatura automático: garante resultados perfeitos\". Um termostato que liga e desliga sozinho não é a mesma coisa que um botão de ajuste, e a página não diz qual dos dois existe. O campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-s-12.webp",
+      "alt": "Sanduicheira Mondial Fast Grill & Sandwich S-12, preta, fechada",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/sanduicheira-mondial-fast-grill-e-sandwich-s-12/p"
+    }
+  },
+  {
+    "slug": "mondial-s-20",
+    "nome": "Mondial Master Grill S-20",
+    "marca": "Mondial",
+    "modelo": "S-20",
+    "categoria": "sanduicheiras",
+    "resumo": "Mesmos 750 W do S-12 com acabamento em inox — e um cabo de 68 cm, menos da metade do outro. É o tipo de diferença que só aparece quando a marca publica o campo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": "Dupla ondulada antiaderente",
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": false,
+      "travaFechamento": true,
+      "comprimentoCaboM": 0.68,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B084XR9K4X"
+    },
+    "fontes": [
+      {
+        "id": "mondial-s20-oficial",
+        "titulo": "Mondial S-20 Master Grill — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/sanduicheira-mondial-s-20/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, cabo de 68 cm, peso de 1 kg, corpo em PP e inox. Voltagem 127 V/220 V, chapa dupla antiaderente, luz indicadora, sem bandeja coletora, tipo de preparo \"sanduíches e grelhados\", tomada de 10 A, material, peso, potência e garantia de 1 ano. A descrição da mesma página acrescenta que as grelhas são onduladas e que a alça isotérmica tem trava de fechamento — dois dados que a tabela não traz. A Mondial não publica dimensões de nenhum destes modelos.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B084XR9K4X",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B084XR9K4X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "controleTemperatura",
+        "fonteAdotada": "Mondial",
+        "valorDivergente": "a descrição promete \"controle de temperatura automático\"",
+        "fonteDivergente": "Mondial",
+        "observacao": "A tabela de especificações da página marca \"Controle de temperatura: Não\". A descrição do produto, na mesma página, lista \"Controle de temperatura automático: garante resultados perfeitos\". Um termostato que liga e desliga sozinho não é a mesma coisa que um botão de ajuste, e a página não diz qual dos dois existe. O campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-s-20.webp",
+      "alt": "Sanduicheira Mondial Master Grill S-20, preta com tampa em inox",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/sanduicheira-mondial-s-20/p"
+    }
+  },
+  {
+    "slug": "mondial-s-07",
+    "nome": "Mondial Premium S-07",
+    "marca": "Mondial",
+    "modelo": "S-07",
+    "categoria": "sanduicheiras",
+    "resumo": "Cinquenta watts a mais que os irmãos e 200 g a mais de peso, com o mesmo cabo curto de 68 cm.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": "Dupla ondulada antiaderente",
+      "revestimento": "Antiaderente",
+      "potenciaW": 800,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": false,
+      "travaFechamento": true,
+      "comprimentoCaboM": 0.68,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.2,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076FHDTB3"
+    },
+    "fontes": [
+      {
+        "id": "mondial-s07-oficial",
+        "titulo": "Mondial S-07 Premium — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/grill-e-sanduicheira-mondial-premium-s-07/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 800 W, cabo de 68 cm, peso de 1,200 kg. Voltagem 127 V/220 V, chapa dupla antiaderente, luz indicadora, sem bandeja coletora, tipo de preparo \"sanduíches e grelhados\", tomada de 10 A, material, peso, potência e garantia de 1 ano. A descrição da mesma página acrescenta que as grelhas são onduladas e que a alça isotérmica tem trava de fechamento — dois dados que a tabela não traz. A Mondial não publica dimensões de nenhum destes modelos.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B076FHDTB3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076FHDTB3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "controleTemperatura",
+        "fonteAdotada": "Mondial",
+        "valorDivergente": "a descrição promete \"controle de temperatura automático\"",
+        "fonteDivergente": "Mondial",
+        "observacao": "A tabela de especificações da página marca \"Controle de temperatura: Não\". A descrição do produto, na mesma página, lista \"Controle de temperatura automático: garante resultados perfeitos\". Um termostato que liga e desliga sozinho não é a mesma coisa que um botão de ajuste, e a página não diz qual dos dois existe. O campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-s-07.webp",
+      "alt": "Sanduicheira Mondial Premium S-07, preta com tampa em inox",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/grill-e-sanduicheira-mondial-premium-s-07/p"
+    }
+  },
+  {
+    "slug": "mondial-pg-02",
+    "nome": "Mondial Press Grill 180° PG-02",
+    "marca": "Mondial",
+    "modelo": "PG-02",
+    "categoria": "sanduicheiras",
+    "resumo": "O mais completo da Mondial: abre 180°, tem bandeja coletora, controle de temperatura e grelhas ajustáveis. A potência é o problema — a mesma página publica 2.000 W na tabela e 1.800 W na descrição.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Grill com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": "Dupla ondulada e ajustável",
+      "revestimento": "Cerâmico",
+      "potenciaW": null,
+      "consumoKwh": null,
+      "controleTemperatura": true,
+      "luzIndicadora": true,
+      "bandejaColetora": true,
+      "travaFechamento": true,
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.6,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B084XQRF26"
+    },
+    "fontes": [
+      {
+        "id": "mondial-pg02-oficial",
+        "titulo": "Mondial PG-02 Press Grill 180° — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/press-grill-mondial-red-ceramic-pg-02/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Abertura de 180° com aquecimento nos dois lados, grelha de revestimento cerâmico ondulada, grelhas ajustáveis, bandeja coletora de resíduos, controle de temperatura, luz indicadora, cabo de 1,50 m, peso de 2,600 kg, tomada de 10 A e garantia de 1 ano. A potência não entrou: ver a divergência.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B084XQRF26",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B084XQRF26",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O título do anúncio anuncia 1.800 W — o mesmo valor que a descrição da Mondial, e não o da tabela dela. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "Mondial",
+        "valorDivergente": "2.000 W na tabela e 1.800 W na descrição",
+        "fonteDivergente": "Mondial",
+        "observacao": "A tabela de especificações da página declara 2.000 W. A descrição do produto, na mesma página, diz \"1800W de Potência e controle de temperatura\". São 200 W de diferença no único número que a caixa deste tipo de produto costuma trazer. O anúncio na Amazon repete o 1.800. Com a marca publicando dois valores, a ficha não publica nenhum."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-pg-02.webp",
+      "alt": "Grill Mondial Press Grill 180° PG-02 aberto, com sanduíches na chapa",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/press-grill-mondial-red-ceramic-pg-02/p"
+    }
+  },
+  {
+    "slug": "cadence-san400",
+    "nome": "Cadence Click SAN400",
+    "marca": "Cadence",
+    "modelo": "SAN400",
+    "categoria": "sanduicheiras",
+    "resumo": "A sanduicheira mais vendida do país. A Cadence publica medida, peso e consumo — e não diz quantos sanduíches cabem, nem se tem luz, trava ou termostato.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": 0.75,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.31,
+      "dimensoesMm": "215 × 78 × 223",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CDJ4L7CZ"
+    },
+    "fontes": [
+      {
+        "id": "cadence-san400-oficial",
+        "titulo": "Cadence SAN400 Click — página oficial da Cadence",
+        "url": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-click/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, consumo de 0,75 kWh, 215 × 78 × 223 mm na ordem largura × altura × profundidade publicada pela marca, 1,310 kg, tensões de 127 V e 220 V, garantia de 12 meses e certificação Inmetro. A descrição acrescenta botão liga/desliga, chapas profundas e antiaderentes e pés antiderrapantes. A ficha não traz quantidade por vez, luz indicadora, trava, bandeja nem controle de temperatura.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CDJ4L7CZ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CDJ4L7CZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-san400.webp",
+      "alt": "Sanduicheira Cadence Click SAN400, preta e quadrada, vista de cima",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-click/p"
+    }
+  },
+  {
+    "slug": "cadence-san260",
+    "nome": "Cadence Toast & Grill SAN260",
+    "marca": "Cadence",
+    "modelo": "SAN260",
+    "categoria": "sanduicheiras",
+    "resumo": "A única Cadence que diz quantos sanduíches cabem: dois — e diz na descrição, não na tabela. Mesma potência e quase o mesmo tamanho do Click, com quase meio quilo a menos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": 0.75,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.85,
+      "dimensoesMm": "215 × 75 × 215",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09HW53ZVV"
+    },
+    "fontes": [
+      {
+        "id": "cadence-san260-oficial",
+        "titulo": "Cadence SAN260 Toast & Grill — página oficial da Cadence",
+        "url": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, consumo de 0,75 kWh, 215 × 75 × 215 mm em largura × altura × profundidade, 0,850 kg, 127 V e 220 V, garantia de 12 meses e Inmetro. A descrição da mesma página declara porta-fio, trava na alça, luz indicadora de funcionamento e que é \"ideal para preparar 2 sanduíches ao mesmo tempo\" — daí saiu a quantidade por vez, que a tabela não tem.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09HW53ZVV",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09HW53ZVV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-san260.webp",
+      "alt": "Sanduicheira Cadence Toast & Grill SAN260, preta, vista em ângulo",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill/p"
+    }
+  },
+  {
+    "slug": "oster-ogrl230",
+    "nome": "Oster Mini Grill OGRL230",
+    "marca": "Oster",
+    "modelo": "OGRL230",
+    "categoria": "sanduicheiras",
+    "resumo": "Abre 180° e traz uma chapa lisa e outra ondulada — a Oster é a única que declara as duas chapas separadamente. Mil watts em 280 mm de largura.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": "Uma lisa e uma ondulada",
+      "revestimento": "Antiaderente",
+      "potenciaW": 1000,
+      "consumoKwh": 1.0,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.4,
+      "dimensoesMm": "280 × 85 × 242",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BSP1XKYL"
+    },
+    "fontes": [
+      {
+        "id": "oster-ogrl230-oficial",
+        "titulo": "Oster OGRL230 Mini Grill — página oficial da Oster",
+        "url": "https://www.oster.com.br/mini-grill-eletrico-oster-inox-2-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1.000 W, consumo de 1,0 kWh, 280 × 85 × 242 mm em largura × altura × profundidade, 1,400 kg, 127 V e 220 V, garantia de 12 meses e Inmetro. A descrição declara abertura de 180 graus para usar as duas chapas ao mesmo tempo, chapas antiaderentes sendo uma lisa e uma ondulada, alça fria e trava para guardar. A ficha não traz quantidade por vez, luz indicadora, bandeja nem termostato.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BSP1XKYL",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BSP1XKYL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-ogrl230.webp",
+      "alt": "Mini grill Oster OGRL230, preto com tampa em inox, fechado",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/mini-grill-eletrico-oster-inox-2-em-1/p"
+    }
+  },
+  {
+    "slug": "oster-osan500",
+    "nome": "Oster OSAN500",
+    "marca": "Oster",
+    "modelo": "OSAN500",
+    "categoria": "sanduicheiras",
+    "resumo": "Mil watts e tripla camada antiaderente, com a chapa de cima estriada e a de baixo não. É a de menor consumo declarado da categoria, medido em kWh por mês em vez de por hora.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": "Chapa superior estriada",
+      "revestimento": "Tripla camada antiaderente",
+      "potenciaW": 1000,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.4,
+      "dimensoesMm": "250 × 223 × 86",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FQCSCPSJ"
+    },
+    "fontes": [
+      {
+        "id": "oster-osan500-oficial",
+        "titulo": "Oster OSAN500 — página oficial da Oster",
+        "url": "https://www.oster.com.br/sanduicheira-inox-multiuso-oster/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1.000 W, 250 × 223 × 86 mm, 1,400 kg, 127 V e 220 V, garantia de 12 meses e Inmetro. A descrição declara acabamento em aço inox escovado, chapas profundas com tripla camada antiaderente, botão liga/desliga com luz indicadora, alça de toque frio com fecho e chapa superior estriada. O consumo é publicado como 30,00 kWh por mês nas duas tensões — unidade diferente da usada pelos outros produtos da mesma casa, então o campo de consumo por hora ficou vazio.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FQCSCPSJ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FQCSCPSJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-osan500.webp",
+      "alt": "Sanduicheira Oster OSAN500, quadrada, com acabamento em aço inox escovado",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/sanduicheira-inox-multiuso-oster/p"
+    }
+  },
+  {
+    "slug": "oster-ogrl610",
+    "nome": "Oster Grill Multiuso OGRL610",
+    "marca": "Oster",
+    "modelo": "OGRL610",
+    "categoria": "sanduicheiras",
+    "resumo": "O único da categoria que junta abertura 180°, controle de temperatura e chapa inclinada para escorrer a gordura. Também muda de potência com a tomada: 1.200 W em 127 V, 1.600 W em 220 V.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 1200,
+      "consumoKwh": 1.2,
+      "controleTemperatura": true,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.82,
+      "dimensoesMm": "294 × 140 × 325",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DP3H66MY"
+    },
+    "fontes": [
+      {
+        "id": "oster-ogrl610-oficial",
+        "titulo": "Oster OGRL610 Grill Multiuso — página oficial da Oster",
+        "url": "https://www.oster.com.br/grill-eletrico-multiuso-inox-oster-2-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1.200 W em 127 V e 1.600 W em 220 V, com consumo de 1,2 e 1,6 kWh respectivamente; a ficha usa os valores de 127 V. Medidas de 294 × 140 × 325 mm, 2,820 kg, garantia de 12 meses e Inmetro. A descrição declara controle de temperatura, abertura de até 180 graus para usar as duas chapas, revestimento antiaderente com inclinação para coletar a gordura, pés antiderrapantes, alça que não aquece e acabamento em aço inox escovado. A ficha não traz quantidade por vez, luz indicadora nem trava.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DP3H66MY",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DP3H66MY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-ogrl610.webp",
+      "alt": "Grill Oster OGRL610 aberto em 180 graus, com as duas chapas à mostra",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/grill-eletrico-multiuso-inox-oster-2-em-1/p"
+    }
+  },
+  {
+    "slug": "electrolux-esg20",
+    "nome": "Electrolux Efficient ESG20",
+    "marca": "Electrolux",
+    "modelo": "ESG20",
+    "categoria": "sanduicheiras",
+    "resumo": "A ficha mais completa da categoria por uma distância grande: 25 campos, incluindo consumo, comprimento de cabo, material das chapas e se elas saem para lavar — que nesta não saem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente sobre alumínio",
+      "potenciaW": 750,
+      "consumoKwh": 0.082,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": 0.8,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.42,
+      "dimensoesMm": "230 × 220 × 90",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CCBYBPPQ"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-esg20-oficial",
+        "titulo": "Electrolux ESG20 Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/sanduicheira-electrolux-efficient-inox--esg20-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, consumo de 0,082 kW/h, 23 cm de largura, 22 cm de altura e 9 cm de profundidade, 1,42 kg, cabo elétrico de 0,8 m, tomada de 3 pinos 10 A, 127 V ou 220 V, frequência de 60 Hz, luz indicadora de funcionamento e de aquecimento, trava de segurança, alça antitérmica, alça para transporte, pés antiderrapantes, armazenamento vertical e do cabo, placas de alumínio antiaderentes, placas removíveis: não, desligamento automático: não, aviso sonoro: não, acabamento em aço inox. A Electrolux publica mais campos que qualquer outra marca da categoria e, ainda assim, não publica quantos sanduíches cabem nem o prazo de garantia. A identificação é segura porque a Electrolux Brasil tem uma única sanduicheira no catálogo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CCBYBPPQ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CCBYBPPQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a marca e o acabamento em inox. O título do anúncio fala em chapa ondulada, que a Electrolux não declara — por isso o tipo de chapa ficou em branco. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-esg20.webp",
+      "alt": "Sanduicheira Electrolux Efficient ESG20, em aço inox, fechada",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/sanduicheira-electrolux-efficient-inox--esg20-/p"
+    }
+  },
+  {
+    "slug": "arno-gpto",
+    "nome": "Arno Compact GPTO",
+    "marca": "Arno",
+    "modelo": "GPTO",
+    "categoria": "sanduicheiras",
+    "resumo": "A única da categoria em que a versão 220 V é mais fraca que a 127 V: 850 W contra 700 W. A parte de cima da chapa é ajustável conforme a altura do alimento.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sanduicheira e grill",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": "Grelha com placa superior ajustável",
+      "revestimento": null,
+      "potenciaW": 850,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V",
+      "pesoKg": 1.6,
+      "dimensoesMm": "200 × 80 × 200",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DKRCSZQW"
+    },
+    "fontes": [
+      {
+        "id": "arno-gpto-oficial",
+        "titulo": "Arno Compact GPTO — página oficial da Arno",
+        "url": "https://www.arno.com.br/grill-arno-compact-preto-gpto-8010001307_pai-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 127 V – 850 W e 220 V – 700 W; a ficha usa o valor de 127 V. Largura de 20,0 cm, altura de 8 cm, profundidade de 20,0 cm, 1,6 kg, corpo em plástico e metal, registro no Inmetro UL-BR 21.1114, garantia de 1 ano. Os bullet points declaram placas de grelha com a parte superior ajustável conforme a altura do alimento. Esta é a única marca da categoria cuja versão de 220 V é declarada com potência menor que a de 127 V. A ficha não traz quantidade por vez, revestimento, luz, bandeja nem trava.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DKRCSZQW",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DKRCSZQW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-gpto.webp",
+      "alt": "Sanduicheira e grill Arno Compact GPTO, preta, vista de frente",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/grill-arno-compact-preto-gpto-8010001307_pai-1/p"
+    }
+  },
+  {
+    "slug": "elgin-bbq-show",
+    "nome": "Elgin BBQ Show CHU20",
+    "marca": "Elgin",
+    "modelo": "CHU20",
+    "categoria": "sanduicheiras",
+    "resumo": "Churrasqueira elétrica de mesa, com grelha e resistência removíveis e dois níveis de altura. A potência tem o mesmo problema da Mondial: a mesma página publica 2.000 W e 1.800 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Churrasqueira elétrica",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": null,
+      "potenciaW": null,
+      "consumoKwh": null,
+      "controleTemperatura": true,
+      "luzIndicadora": true,
+      "bandejaColetora": true,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BLSZW19L"
+    },
+    "fontes": [
+      {
+        "id": "elgin-chu20-oficial",
+        "titulo": "Elgin BBQ Show CHU20 — página oficial da Elgin",
+        "url": "https://www.elgin.com.br/churrasqueira-bbq-show---amplo-grill-controle-de-temperatura/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem 220 V, luz indicadora de funcionamento, grelha e resistência removíveis, ajuste de altura do grill em 2 níveis, botão com controle de temperatura, bandeja coletora de gordura anti-fumaça e bandeja de resíduos removível, garantia expressa de 1 ano. A potência não entrou: ver a divergência. A ficha não traz medida, peso nem comprimento de cabo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BLSZW19L",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BLSZW19L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "Elgin",
+        "valorDivergente": "2.000 W no campo de potência e 1.800 W na descrição",
+        "fonteDivergente": "Elgin",
+        "observacao": "O campo \"Potência (W)\" da página declara 2.000. A descrição curta, logo abaixo na mesma página, abre com \"1.800W de potência\". Um terceiro campo da mesma ficha lista os dois valores juntos, 1800W e 2000W, sem dizer a que cada um corresponde. Com três leituras conflitantes na mesma página, a ficha não publica nenhuma."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-bbq-show.webp",
+      "alt": "Churrasqueira elétrica de mesa Elgin BBQ Show, com grelha e espetinhos",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/churrasqueira-bbq-show---amplo-grill-controle-de-temperatura/p"
+    }
+  }
+]

@@ -2135,8 +2135,173 @@ export const camposCasaConectada: Campo[] = [
   },
 ];
 
+/**
+ * Sanduicheiras e grills.
+ *
+ * O ângulo: a única pergunta de quem compra é quantos sanduíches cabem de uma
+ * vez, e quase nenhuma marca responde. A caixa publica a potência, que é o
+ * número que menos diz — 750 W e 1.000 W fazem o mesmo sanduíche, em tempos
+ * parecidos, e nenhuma marca declara o tempo.
+ *
+ * As três famílias de fabricante documentam metades diferentes: Britânia e
+ * Philco publicam quantidade por vez e trava de fechamento e calam as medidas;
+ * Mondial publica luz, bandeja e controle de temperatura e cala as medidas;
+ * Cadence e Oster publicam medidas e consumo e calam todo o resto. Colocar as
+ * três no mesmo quadro é o que a categoria faz de útil.
+ */
+export const camposSanduicheira: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "sanduichesPorVez",
+    rotulo: "Sanduíches por vez",
+    grupo: "O que é",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "A pergunta que se faz na loja, e a que menos aparece na ficha. Quando está em branco aqui, é porque o fabricante não publica — não porque não coube.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "abertura180",
+    rotulo: "Abre 180°",
+    grupo: "O que é",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "Aberta em 180 graus, a sanduicheira vira uma chapa de mesa com o dobro da área. Sem isso, ela só prensa.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tipoChapa",
+    rotulo: "Tipo de chapa",
+    grupo: "Chapa",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Lisa marca menos e serve para tudo; ondulada faz a listra do grill.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "revestimento",
+    rotulo: "Revestimento",
+    grupo: "Chapa",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O número da caixa. Aquece mais rápido, não assa diferente — e nenhuma marca desta lista publica o tempo de preparo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoKwh",
+    rotulo: "Consumo",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "controleTemperatura",
+    rotulo: "Controle de temperatura",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "luzIndicadora",
+    rotulo: "Luz indicadora",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bandejaColetora",
+    rotulo: "Bandeja coletora",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Recolhe a gordura que escorre da chapa. Sem ela, escorre na bancada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "travaFechamento",
+    rotulo: "Trava de fechamento",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Prende a tampa fechada para guardar em pé, ocupando menos armário.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
+  sanduicheiras: camposSanduicheira,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -2302,6 +2467,15 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   visaoNoturnaM: "regua",
   armazenamentoVideo: "portas",
   protecaoIp: "gota",
+  sanduichesPorVez: "panela",
+  abertura180: "seta",
+  tipoChapa: "panela",
+  revestimento: "escudo",
+  controleTemperatura: "termometro",
+  luzIndicadora: "display",
+  bandejaColetora: "gota",
+  travaFechamento: "check",
+  comprimentoCaboM: "cabo",
 };
 
 export function iconeDo(chave: string): string {
@@ -2322,6 +2496,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   liquidificadores: "panela",
   cafeteiras: "panela",
   tablets: "display",
+  sanduicheiras: "panela",
   eletrodomesticos: "raio",
 };
 
@@ -2425,6 +2600,14 @@ const ROTULO_CURTO: Record<string, string> = {
   visaoNoturnaM: "Noturna",
   armazenamentoVideo: "Grava em",
   protecaoIp: "IP",
+  sanduichesPorVez: "Por vez",
+  abertura180: "Abre 180°",
+  tipoChapa: "Chapa",
+  controleTemperatura: "Termostato",
+  luzIndicadora: "Luz",
+  bandejaColetora: "Bandeja",
+  travaFechamento: "Trava",
+  comprimentoCaboM: "Cabo",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -2445,6 +2628,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   monitores: ["telaPol", "taxaHz", "painel"],
   liquidificadores: ["capacidadeUtilL", "potenciaW", "velocidades"],
   cafeteiras: ["capacidadeL", "xicaras", "materialJarra"],
+  sanduicheiras: ["sanduichesPorVez", "potenciaW", "abertura180"],
 };
 
 export function destaquesDa(categoria: string): string[] {

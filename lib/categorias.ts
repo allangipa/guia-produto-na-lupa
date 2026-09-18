@@ -96,6 +96,13 @@ export const categorias: Categoria[] = [
     dorPrincipal: "A xícara do anúncio tem 40 ml — quantas canecas de verdade isso dá?",
   },
   {
+    slug: "sanduicheiras",
+    nome: "Sanduicheiras e grills",
+    descricao:
+      "Sanduicheiras, grills de abertura 180°, máquinas de waffle e churrasqueiras de mesa — com a pergunta da loja no lugar da potência da caixa.",
+    dorPrincipal: "Cabem dois sanduíches de uma vez ou só um? Quase nenhuma ficha responde.",
+  },
+  {
     slug: "liquidificadores",
     nome: "Liquidificadores",
     descricao: "Liquidificadores de bancada, com a capacidade do copo separada da que dá para bater de verdade.",
