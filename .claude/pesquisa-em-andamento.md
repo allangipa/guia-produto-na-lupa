@@ -119,6 +119,47 @@ Apuradas em 18/09/2026, navegando de `/gp/bestsellers/kitchen`.
 O ranking da Amazon responde 503 a fetch simples, mas abre normalmente
 no navegador. `/dp/<ASIN>` responde aos dois.
 
+## Confira o código do modelo antes de escrever, sempre
+
+Em 18/09/2026 quase incluí duas fritadeiras que já estavam na base. A
+Amazon anuncia a Walita "Série 1000 XL 6,2L" e a "Série 2000 6,2L" por
+nomes comerciais; os códigos, que só aparecem no fim do título da
+listagem, são **NA130/00** e **NA230/00** — as duas já na base, sob
+outro ASIN.
+
+A conferência de ASIN repetido **não pega isto**: o mesmo produto tem
+vários ASINs. O script de inclusão agora também rejeita `modelo` que já
+exista no arquivo.
+
+## Outras listas de mais vendidos apuradas
+
+| lista | id |
+|---|---|
+| Fritadeiras | 17124787011 |
+| Liquidificadores, Batedeiras e Processadores | 17124779011 |
+| Celulares e Smartphones | 16243890011 |
+| Tablets | 16364762011 |
+
+A lista de liquidificadores é misturada — traz mixers, batedeiras e
+processadores, que não cabem no esquema de liquidificador. Só cerca de
+seis liquidificadores de verdade aparecem nos 30 primeiros; para fechar
+20 é preciso ir à segunda página.
+
+## Quando o resumo do fetch devolve só as chaves
+
+Electrolux e Elgin devolvem `allSpecifications` como lista de nomes, e o
+resumo do WebFetch às vezes lista as chaves sem os valores. A saída é
+abrir a página no navegador e chamar a API de dentro dela:
+
+```js
+const r = await fetch('/api/catalog_system/pub/products/search?ft=EAF40')
+            .then(x => x.json());
+const p = r.find(x => x.productReference === 'EAF40');
+const o = {}; for (const k of p.allSpecifications) o[k] = String(p[k]);
+```
+
+Mesma origem, sem CORS, e vem o par chave/valor cru.
+
 ## Campo derivado: a regra que vale para toda a base
 
 Campo que o fabricante não escreve mas que sai de uma divisão exata

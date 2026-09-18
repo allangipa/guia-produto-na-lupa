@@ -656,5 +656,502 @@
         "origem": "https://loja.wap.ind.br/fritadeira-eletrica-wap-air-fryer-barbecue-digital/p"
       }
     ]
+  },
+  {
+    "slug": "philips-walita-ai551",
+    "nome": "Philips Walita Airfryer Forno Série 5000 12L",
+    "marca": "Philips Walita",
+    "modelo": "AI551/09",
+    "categoria": "cozinha",
+    "resumo": "A maior Walita da base: 12 litros de forno, com os 12 declarados também como capacidade útil — a marca não separa os dois números, ao contrário do que faz na NA341. Dois anos de garantia, o dobro do resto da categoria.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Forno (porta frontal)",
+      "capacidadeTotalL": 12,
+      "capacidadeUtilL": 12,
+      "potenciaW": 1600,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": null,
+      "painel": null,
+      "visor": true,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 7.1,
+      "dimensoesMm": "370 × 340 × 370 (P × L × A)",
+      "garantiaMeses": 24
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DD1KD5JP"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "walita-ai551-oficial",
+        "valorDivergente": "403 × 307 × 315 (P × L × A)",
+        "fonteDivergente": "amazon-ai551",
+        "observacao": "A Walita declara 37 × 34 × 37 cm; a Amazon, 40,3 × 30,7 × 31,5 cm. Os 40,3 cm de profundidade são exatamente os da NA130 na mesma loja, o que sugere ficha copiada de outro modelo. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "walita-ai551-oficial",
+        "titulo": "Philips Walita Airfryer Forno Série 5000 AI551 — página oficial",
+        "url": "https://www.walita.com.br/airfryer-forno-serie-5000-philips-walita-ai551-09/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "12 L de capacidade total e útil, 1600 W em 127 V e 1900 W em 220 V, consumo de 1,6 kW/h, temperatura de 80 a 200 graus, timer, desligamento automático, trava de segurança, função manter aquecido, base antiderrapante, tecnologia RapidAir, 37 × 34 × 37 cm, 7,1 kg, cabo de 80 cm, selo INMETRO 4800935.31, quatro acessórios e 2 anos de garantia. A Walita não declara quantos minutos tem o timer, quantas funções predefinidas, o tipo de painel nem se as peças vão à lava-louças.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ai551",
+        "titulo": "Philips Walita Airfryer Forno 12 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DD1KD5JP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O visor transparente, que a Walita não lista entre as especificações. As dimensões daqui divergem das do fabricante e não foram adotadas.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "philips-walita-na150",
+    "nome": "Philips Walita Airfryer Duplo Cesto 7,1L",
+    "marca": "Philips Walita",
+    "modelo": "NA150/00",
+    "categoria": "cozinha",
+    "resumo": "A única de cesto duplo da base: dois compartimentos somando 7,1 litros, para preparar dois alimentos ao mesmo tempo. É também a de maior potência declarada, 1850 W em 127 V.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Cesto duplo (duas gavetas)",
+      "capacidadeTotalL": 7.1,
+      "capacidadeUtilL": 7.1,
+      "potenciaW": 1850,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 40,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": 10,
+      "painel": null,
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 5.78,
+      "dimensoesMm": "295 × 438 × 301 (P × L × A)",
+      "garantiaMeses": 24
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DY2MB9WT"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "walita-na150-oficial",
+        "valorDivergente": "5,5 kg",
+        "fonteDivergente": "amazon-na150",
+        "observacao": "A Walita declara 5,78 kg e a Amazon, 5,5 kg. As medidas das duas fontes batem; só o peso diverge. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "walita-na150-oficial",
+        "titulo": "Philips Walita Airfryer Série 1000 Duplo Cesto NA150 — página oficial",
+        "url": "https://www.walita.com.br/fritadeira-airfryer-serie-1000-duplo-cesto-7-1l-philips-walita-na150-na150-00/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "7,1 L de capacidade total e útil, 1850 W em 127 V e 2450 W em 220 V, consumo de 1,85 kW/h, temperatura de 40 a 200 graus, timer, desligamento automático, trava de segurança, função manter aquecido, tecnologia Rapid Air, 30,1 × 43,8 × 29,5 cm, 5,78 kg, cabo de 80 cm, selo INMETRO e 2 anos. Não declara os minutos do timer, o tipo de painel, visor nem lava-louças.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-na150",
+        "titulo": "Philips Walita Airfryer Duplo Cesto 7,1 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DY2MB9WT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Os 10 modos de preparo, que a Walita não conta na ficha. O peso daqui diverge do fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-afn-40",
+    "nome": "Mondial Air Fryer 4L AFN-40-BI",
+    "marca": "Mondial",
+    "modelo": "AFN-40-BI",
+    "categoria": "cozinha",
+    "resumo": "A menor desta leva, com 4 litros e 1500 W. A Mondial declara o timer em minutos e a temperatura máxima, mas não diz a mínima nem a capacidade útil do cesto.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 4,
+      "capacidadeUtilL": null,
+      "potenciaW": 1500,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": null,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": null,
+      "painel": null,
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 4.59,
+      "dimensoesMm": "365 × 285 × 295 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B093MK3Z12"
+    },
+    "fontes": [
+      {
+        "id": "mondial-afn40-oficial",
+        "titulo": "Mondial Air Fryer 4 L AFN-40-BI — página oficial do produto",
+        "url": "https://www.mondial.com.br/fritadeira-sem-oleo-air-fryer-4-litros-afn-40-bi-mondial/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "4 litros, 1500 W, consumo de 1,5 kW/h, temperatura até 200 ºC, timer de 60 minutos, revestimento antiaderente, aviso sonoro e desligamento automático, luz indicadora, 29,50 × 28,50 × 36,50 cm (A × L × P), 4,59 kg, 127 V ou 220 V, livro de receitas e 1 ano. A Mondial não declara temperatura mínima, capacidade útil, funções predefinidas, tipo de painel, visor nem lava-louças.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-afn40",
+        "titulo": "Mondial Air Fryer 4 L AFN-40-BI — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B093MK3Z12",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo AFN-40-BI e a versão 110 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-afn-60",
+    "nome": "Mondial Air Fryer 6L AFN-60-BI",
+    "marca": "Mondial",
+    "modelo": "AFN-60-BI",
+    "categoria": "cozinha",
+    "resumo": "Seis litros e 1900 W, a mesma potência da AFN-50 que já está na base num corpo maior. A Mondial publica as medidas sem dizer qual eixo é qual — foi preciso comparar com a ficha da irmã de 4 litros para ordenar.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 6,
+      "capacidadeUtilL": null,
+      "potenciaW": 1900,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": null,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": null,
+      "painel": null,
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 6.7,
+      "dimensoesMm": "426 × 342 × 328 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CD9JLHTT"
+    },
+    "fontes": [
+      {
+        "id": "mondial-afn60-oficial",
+        "titulo": "Mondial Air Fryer 6 L AFN-60-BI — página oficial do produto",
+        "url": "https://www.mondial.com.br/air-fryer-afn-60-bi-127v-60hz/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "6 litros, 1900 W, consumo de 1,9 kW/h, temperatura até 200 ºC, timer de 60 minutos, revestimento antiaderente, aviso sonoro e desligamento automático, luz indicadora, 32,80 × 34,20 × 42,60 cm, 6,70 kg, 127 V ou 220 V e 1 ano. A ficha desta página não rotula os eixos das medidas, ao contrário da AFN-40-BI, que escreve (A × L × P); adotamos a mesma ordem. Não declara temperatura mínima, capacidade útil, funções, painel, visor nem lava-louças.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-afn60",
+        "titulo": "Mondial Air Fryer 6 L AFN-60-BI — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CD9JLHTT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo AFN-60-BI. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "britania-bfr50",
+    "nome": "Britânia Air Fryer 5,5L BFR50",
+    "marca": "Britânia",
+    "modelo": "BFR50",
+    "categoria": "cozinha",
+    "resumo": "Controle analógico e 5,5 litros por 1500 W. A Britânia declara a faixa de temperatura inteira, de 80 a 200 graus, mas não publica peso nem dimensões — preenche as unidades e deixa os valores em branco, como faz nas cafeteiras.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 5.5,
+      "capacidadeUtilL": null,
+      "potenciaW": 1500,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": null,
+      "painel": "Analógico",
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "360 × 280 × 330 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CRBJYG6P"
+    },
+    "fontes": [
+      {
+        "id": "britania-bfr50-oficial",
+        "titulo": "Britânia Air Fryer 5,5 L BFR50 — página oficial do produto",
+        "url": "https://www.britania.com.br/fritadeira-air-fryer-bfr50-127v-063801112/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "5,5 litros, 1500 W, controle analógico, temperatura de 80 a 200 graus, função timer, cesto removível e antiaderente e 360 dias. A Britânia não declara quantos minutos tem o timer, capacidade útil, funções predefinidas, visor, lava-louças, peso nem dimensões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-bfr50",
+        "titulo": "Britânia Air Fryer 5,5 L BFR50 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CRBJYG6P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "36 × 28 × 33 cm — as dimensões que o fabricante não publica — e a versão 220 V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "philco-paf15c",
+    "nome": "Philco Air Fryer Oven 15L PAF15C",
+    "marca": "Philco",
+    "modelo": "PAF15C",
+    "categoria": "cozinha",
+    "resumo": "A maior desta lista: 15 litros de forno com painel digital e 10 funções. Potência muda com a tensão — 1900 W em 127 V e 2000 W em 220 V —, coisa que quase nenhuma concorrente separa na ficha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Forno (porta frontal)",
+      "capacidadeTotalL": 15,
+      "capacidadeUtilL": null,
+      "potenciaW": 1900,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": 10,
+      "painel": "Digital (toque)",
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "355 × 335 × 385 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GJ7CSCD7"
+    },
+    "fontes": [
+      {
+        "id": "philco-paf15c-oficial",
+        "titulo": "Philco Air Fryer Oven 15 L PAF15C — página oficial do produto",
+        "url": "https://www.philco.com.br/air-fryer-oven-15l-paf15c/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "15 litros, 1900 W em 127 V e 2000 W em 220 V, controle digital, temperatura de 80 a 200 graus, função timer, cesto removível e antiaderente, fundo não removível e 360 dias. As 10 funções vêm do nome do produto na própria loja. A Philco não declara os minutos do timer, capacidade útil, visor, lava-louças, peso nem dimensões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-paf15c",
+        "titulo": "Philco Air Fryer Oven 15 L PAF15C — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GJ7CSCD7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "35,5 × 33,5 × 38,5 cm — as dimensões que o fabricante não publica.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "philco-paf95a",
+    "nome": "Philco Air Fryer 9,5L Visor Glass PAF95A",
+    "marca": "Philco",
+    "modelo": "PAF95A",
+    "categoria": "cozinha",
+    "resumo": "Cesto de 9,5 litros com visor de vidro e painel digital. Começa a esquentar a partir de 40 graus — a faixa mais baixa desta lista, contra os 80 da maioria.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 9.5,
+      "capacidadeUtilL": null,
+      "potenciaW": 1800,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 40,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": null,
+      "painel": "Digital (toque)",
+      "visor": true,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "400 × 305 × 330 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GHZ991LG"
+    },
+    "fontes": [
+      {
+        "id": "philco-paf95a-oficial",
+        "titulo": "Philco Air Fryer 9,5 L PAF95A — página oficial do produto",
+        "url": "https://www.philco.com.br/air-fryer-9-5l-1800w-paf95a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "9,5 litros, 1800 W, controle digital, temperatura de 40 a 200 graus, função timer, cesto removível e antiaderente, fundo removível e 360 dias. O visor de vidro vem do nome do produto na própria loja. A Philco não declara os minutos do timer, capacidade útil, funções predefinidas, lava-louças, peso nem dimensões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-paf95a",
+        "titulo": "Philco Air Fryer 9,5 L PAF95A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GHZ991LG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "40 × 30,5 × 33 cm — as dimensões que o fabricante não publica.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "oster-ofrt780",
+    "nome": "Oster Oven Fryer 12L 3 em 1 OFRT780",
+    "marca": "Oster",
+    "modelo": "OFRT780",
+    "categoria": "cozinha",
+    "resumo": "Forno de 12 litros com cesto giratório 360°, vendido como três aparelhos em um. A Oster publica potência, consumo, medidas e peso, e não publica nada sobre temperatura ou timer — o padrão da marca também nas cafeteiras.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Forno (porta frontal)",
+      "capacidadeTotalL": 12,
+      "capacidadeUtilL": null,
+      "potenciaW": 1800,
+      "temperaturaMaxC": null,
+      "temperaturaMinC": null,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": null,
+      "painel": "Digital (toque)",
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 5.9,
+      "dimensoesMm": "345 × 310 × 377 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B726S9S3"
+    },
+    "fontes": [
+      {
+        "id": "oster-ofrt780-oficial",
+        "titulo": "Oster Oven Fryer 12 L 3 em 1 OFRT780 — página oficial do produto",
+        "url": "https://www.oster.com.br/fritadeira-oven-fryer-12l-oster-3-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "12 litros, 1800 W, consumo de 1,80 kW/h, display digital, rotação de 360°, 310 × 377 × 345 mm (L × A × P), 5,900 kg, 127 V ou 220 V e 12 meses. A Oster não declara faixa de temperatura, timer, capacidade útil, funções predefinidas, visor nem lava-louças.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ofrt780",
+        "titulo": "Oster Oven Fryer 12 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B726S9S3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a versão 127 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-facilita-fry",
+    "nome": "Elgin Facilita Fry 3,5L",
+    "marca": "Elgin",
+    "modelo": "ELG-42AFG35",
+    "categoria": "cozinha",
+    "resumo": "A ficha mais pobre desta categoria, e o #4 do ranking. A Elgin publica capacidade, potência e tensão — e mais nada: nem faixa de temperatura, nem timer, nem peso, nem garantia. Numa fritadeira, a temperatura é o controle principal.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 3.5,
+      "capacidadeUtilL": null,
+      "potenciaW": 1400,
+      "temperaturaMaxC": null,
+      "temperaturaMinC": null,
+      "timerMaxMin": null,
+      "funcoesPredefinidas": null,
+      "painel": null,
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "225 × 255 × 255 (P × L × A)",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DTVLLSD9"
+    },
+    "fontes": [
+      {
+        "id": "elgin-facilita-oficial",
+        "titulo": "Elgin Air Fryer Facilita Fry 3,5 L — página oficial do produto",
+        "url": "https://www.elgin.com.br/fritadeira-air-fryer-facilita-fry-35-litros-1400w-preta-grelha-removivel-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "3,5 litros, 1400 W, versões de 110 V e 220 V, grelha removível e antiaderente e a promessa de cozinhar com até 80% menos gordura. A tabela de especificações da Elgin tem três campos: voltagem, EAN e palavras-chave. Faixa de temperatura, timer, capacidade útil, funções, painel, visor, lava-louças, peso, dimensões e garantia não aparecem em lugar nenhum da página.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-facilita",
+        "titulo": "Elgin Air Fryer Facilita Fry 3,5 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DTVLLSD9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "22,5 × 25,5 × 25,5 cm e a confirmação dos 1400 W — as dimensões que o fabricante não publica.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-eaf40",
+    "nome": "Electrolux Air Fryer por Rita Lobo EAF40",
+    "marca": "Electrolux",
+    "modelo": "EAF40",
+    "categoria": "cozinha",
+    "resumo": "A única desta lista que separa os dois volumes: 5,6 litros de cuba e 4,08 litros de cesto. A diferença entre os dois é o que quase toda marca esconde ao anunciar só o número maior — e o anúncio na Amazon anuncia um terceiro, 5,8.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Cesto (gaveta)",
+      "capacidadeTotalL": 5.6,
+      "capacidadeUtilL": 4.08,
+      "potenciaW": 1400,
+      "temperaturaMaxC": 200,
+      "temperaturaMinC": 80,
+      "timerMaxMin": 60,
+      "funcoesPredefinidas": 8,
+      "painel": "Mecânico",
+      "visor": null,
+      "lavaLoucas": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 3.8,
+      "dimensoesMm": "267 × 347 × 304 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DWGM8QG3"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTotalL",
+        "fonteAdotada": "electrolux-eaf40-oficial",
+        "valorDivergente": "5,8 L",
+        "fonteDivergente": "amazon-eaf40",
+        "observacao": "O título da listagem na Amazon anuncia 5,8 L; a tabela da mesma listagem diz 5,6 L; a Electrolux declara 5,6 L de cuba e 4,08 L de cesto. O anúncio se contradiz sozinho, e o fabricante concorda com a tabela. Adotamos os 5,6 L."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "electrolux-eaf40-oficial",
+        "titulo": "Electrolux Air Fryer por Rita Lobo EAF40 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/air-fryer-electrolux-por-rita-lobo-5-6-l-cinza-efficient-timer-e-conveccao-1400w-eaf40/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cuba de 5,6 L e cesto de 4,08 L, 1400 W, consumo de 0,98 kW/h, temperatura de 80 a 200 graus, timer de 60 minutos com aviso sonoro, desligamento automático, luz indicadora, painel mecânico, sem função pré-aquecer, 8 receitas, cesto removível e antiaderente, 30,4 × 34,7 × 26,7 cm, 3,8 kg, cabo de 0,8 m, 127 V ou 220 V e 1 ano. A Electrolux não declara visor nem se as peças vão à lava-louças.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-eaf40",
+        "titulo": "Electrolux Air Fryer Rita Lobo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DWGM8QG3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo EAF40 e a versão 127 V. O título anuncia 5,8 L e a tabela da mesma página diz 5,6 L; nenhum dos dois foi adotado sobre o fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]
