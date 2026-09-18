@@ -96,6 +96,15 @@ export const categorias: Categoria[] = [
     dorPrincipal: "A xícara do anúncio tem 40 ml — quantas canecas de verdade isso dá?",
   },
   {
+    slug: "lavadoras",
+    nome: "Máquinas de lavar",
+    descricao:
+      "Lavadoras de carga superior, com o consumo de água por ciclo ao lado dos quilos do anúncio.",
+    dorPrincipal: "Duas máquinas de 15 kg: uma gasta 110 litros por lavagem e a outra, 160.",
+    porQueParou:
+      "Fechou em oito. A lista de mais vendidos mistura cinco produtos diferentes — lavadora automática, lava e seca, secadora, centrífuga e tanquinho semiautomático —, e cada um pede o seu esquema; aqui entraram só as automáticas de carga superior. A Suggar aparece no ranking e o site dela responde 404. O modelo de 16 kg da Brastemp que está na lista é o branco, e o que achei no catálogo da marca é o cinza, com outros recursos: sem casar o código, não entra.",
+  },
+  {
     slug: "geladeiras",
     nome: "Geladeiras",
     descricao:

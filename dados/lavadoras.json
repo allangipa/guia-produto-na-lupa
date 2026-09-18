@@ -1,0 +1,460 @@
+[
+  {
+    "slug": "panasonic-na-f150b1t",
+    "nome": "Panasonic NA-F150B1T",
+    "marca": "Panasonic",
+    "modelo": "NA-F150B1T",
+    "categoria": "lavadoras",
+    "resumo": "Quinze quilos com 110 litros por ciclo. A Electrolux da mesma capacidade declara 160 — são 50 litros de diferença em cada lavagem, no mesmo tamanho de roupa.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 15,
+      "consumoAguaL": 110,
+      "consumoEnergiaKwh": 0.39,
+      "classificacaoEnergetica": "A",
+      "rotacaoRpm": 700,
+      "eficienciaCentrifugacao": "A",
+      "programas": 8,
+      "materialCesto": "Inox",
+      "reaproveitamentoAgua": true,
+      "filtroFiapos": true,
+      "painel": "Dial",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 41,
+      "dimensoesMm": "600 × 1050 × 690",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B00DCTI47M"
+    },
+    "fontes": [
+      {
+        "id": "panasonic-naf150-oficial",
+        "titulo": "Panasonic NA-F150B1T — página oficial da loja Panasonic",
+        "url": "https://loja.panasonic.com.br/maquina-de-lavar-panasonic-15kg-titanio-na-f150b1t/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de lavagem de 15 kg, consumo de água de 110,0 L, consumo de energia em água fria de 0,39 kWh/ciclo, eficiência energética A, eficiência de lavagem 1,00, velocidade de centrifugação de 700 rpm com eficiência A, 8 programas, cesto inox, reuso de água, filtro de fiapos, painel do tipo dial, sensor de carga com 7 níveis de água, 600 × 1050 × 690 mm, 41 kg, 127 V/220 V e garantia de 12 meses. É a ficha mais completa da categoria: a Panasonic é a única marca que publica ao mesmo tempo eficiência energética do Inmetro, rotação e medidas.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B00DCTI47M",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B00DCTI47M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/panasonic-na-f150b1t.webp",
+      "alt": "Máquina de lavar Panasonic NA-F150B1T titânio, de carga superior, vista de frente",
+      "credito": "Imagem: Panasonic",
+      "origem": "https://loja.panasonic.com.br/maquina-de-lavar-panasonic-15kg-titanio-na-f150b1t/p"
+    }
+  },
+  {
+    "slug": "electrolux-led15",
+    "nome": "Electrolux Essential Care LED15",
+    "marca": "Electrolux",
+    "modelo": "LED15",
+    "categoria": "lavadoras",
+    "resumo": "Quinze quilos e 160 litros por ciclo. Mesmo tamanho da Panasonic desta lista, 50 litros a mais de água em cada lavagem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 15,
+      "consumoAguaL": 160,
+      "consumoEnergiaKwh": 0.46,
+      "classificacaoEnergetica": null,
+      "rotacaoRpm": 630,
+      "eficienciaCentrifugacao": "A",
+      "programas": 11,
+      "materialCesto": "Inox",
+      "reaproveitamentoAgua": true,
+      "filtroFiapos": true,
+      "painel": "Mecânico",
+      "tensao": null,
+      "pesoKg": 46,
+      "dimensoesMm": "662 × 1052 × 724",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09B8W3KQP"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-led15-oficial",
+        "titulo": "Electrolux LED15 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/maquina-de-lavar-15kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter--led15-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de lavagem de 15 kg, consumo de água de 160 L/ciclo, consumo de energia de 0,46 kWh/ciclo, centrifugação de 630 rpm com eficiência A, 11 programas de lavagem, ciclo rápido de 25 minutos, cesto de inox, reaproveitamento de água, filtro elimina fiapos, painel mecânico, dispensers para sabão em pó, líquido, amaciante e alvejante, 66,2 × 105,2 × 72,4 cm, 46 kg e garantia de 1 ano. A Electrolux publica consumo de água e de energia por ciclo, rotação e eficiência de centrifugação, número de programas, material do cesto, painel, filtro de fiapos, reaproveitamento de água, medidas, peso do produto e da embalagem separados e garantia. **Não publica a classificação energética do Inmetro** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09B8W3KQP",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09B8W3KQP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-led15.webp",
+      "alt": "Máquina de lavar Electrolux LED15 branca, de carga superior",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/maquina-de-lavar-15kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter--led15-/p"
+    }
+  },
+  {
+    "slug": "electrolux-led17",
+    "nome": "Electrolux Essential Care LED17",
+    "marca": "Electrolux",
+    "modelo": "LED17",
+    "categoria": "lavadoras",
+    "resumo": "Dezessete quilos por 180 litros de água. É a maior da lista e a que mais gasta — e tem a mesma centrifugação de 630 rpm da irmã de 15 kg.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 17,
+      "consumoAguaL": 180,
+      "consumoEnergiaKwh": 0.52,
+      "classificacaoEnergetica": null,
+      "rotacaoRpm": 630,
+      "eficienciaCentrifugacao": "A",
+      "programas": 11,
+      "materialCesto": "Inox",
+      "reaproveitamentoAgua": true,
+      "filtroFiapos": true,
+      "painel": "Mecânico",
+      "tensao": null,
+      "pesoKg": 46,
+      "dimensoesMm": "662 × 1052 × 724",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09B929QDL"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-led17-oficial",
+        "titulo": "Electrolux LED17 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/maquina-de-lavar-17kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter--led17-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de lavagem de 17 kg, consumo de água de 180 L/ciclo, consumo de energia de 0,52 kWh/ciclo, centrifugação de 630 rpm com eficiência A, 11 programas, ciclo rápido de 25 minutos, cesto de inox, reaproveitamento de água, filtro elimina fiapos, painel mecânico, 66,2 × 105,2 × 72,4 cm, 46 kg e garantia de 1 ano. As medidas e o peso são idênticos aos do LED15, de 15 kg. A Electrolux publica consumo de água e de energia por ciclo, rotação e eficiência de centrifugação, número de programas, material do cesto, painel, filtro de fiapos, reaproveitamento de água, medidas, peso do produto e da embalagem separados e garantia. **Não publica a classificação energética do Inmetro** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09B929QDL",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09B929QDL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-led17.webp",
+      "alt": "Máquina de lavar Electrolux LED17 branca, de carga superior",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/maquina-de-lavar-17kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter--led17-/p"
+    }
+  },
+  {
+    "slug": "electrolux-led13",
+    "nome": "Electrolux Essential Care LED13",
+    "marca": "Electrolux",
+    "modelo": "LED13",
+    "categoria": "lavadoras",
+    "resumo": "Treze quilos e 150 litros. Mais água por quilo de roupa que a de 15 kg da mesma linha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 13,
+      "consumoAguaL": 150,
+      "consumoEnergiaKwh": 0.4,
+      "classificacaoEnergetica": null,
+      "rotacaoRpm": 630,
+      "eficienciaCentrifugacao": "A",
+      "programas": 11,
+      "materialCesto": "Inox",
+      "reaproveitamentoAgua": true,
+      "filtroFiapos": true,
+      "painel": "Mecânico",
+      "tensao": null,
+      "pesoKg": 40,
+      "dimensoesMm": "595 × 1055 × 665",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09B7X4JSZ"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-led13-oficial",
+        "titulo": "Electrolux LED13 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/maquina-de-lavar-13kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter--led13-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de lavagem de 13 kg, consumo de água de 150 L/ciclo, consumo de energia de 0,4 kWh/ciclo, centrifugação de 630 rpm com eficiência A, 11 programas, cesto de inox, reaproveitamento de água, filtro elimina fiapos, painel mecânico, 59,5 × 105,5 × 66,5 cm, 40 kg e garantia de 1 ano. A Electrolux publica consumo de água e de energia por ciclo, rotação e eficiência de centrifugação, número de programas, material do cesto, painel, filtro de fiapos, reaproveitamento de água, medidas, peso do produto e da embalagem separados e garantia. **Não publica a classificação energética do Inmetro** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09B7X4JSZ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09B7X4JSZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-led13.webp",
+      "alt": "Máquina de lavar Electrolux LED13 branca, de carga superior",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/maquina-de-lavar-13kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter--led13-/p"
+    }
+  },
+  {
+    "slug": "electrolux-let13",
+    "nome": "Electrolux Efficient LET13",
+    "marca": "Electrolux",
+    "modelo": "LET13",
+    "categoria": "lavadoras",
+    "resumo": "Também treze quilos, e 110 litros por ciclo — 40 a menos que a LED13 da mesma marca. É a mais econômica em água por quilo de roupa desta lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 13,
+      "consumoAguaL": 110,
+      "consumoEnergiaKwh": 0.4,
+      "classificacaoEnergetica": null,
+      "rotacaoRpm": 670,
+      "eficienciaCentrifugacao": "A",
+      "programas": 11,
+      "materialCesto": "Inox",
+      "reaproveitamentoAgua": true,
+      "filtroFiapos": false,
+      "painel": "Mecânico",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 33,
+      "dimensoesMm": "540 × 1060 × 615",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HCR2X6T2"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-let13-oficial",
+        "titulo": "Electrolux LET13 Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/maquina-de-lavar-electrolux-efficient-13kg-branca-compacta--economica-e-pre-diluicao-let13/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de lavagem de 13 kg, consumo de água de 110 L/ciclo, consumo de energia de 0,40 kWh/ciclo, centrifugação de 670 rpm com eficiência A, 11 programas, 5 níveis de água, cesto de inox, reaproveitamento de água, **sem** filtro elimina fiapos, painel mecânico, 127 V/220 V, 54 × 106 × 61,5 cm, 33 kg e garantia de 12 meses. Duas fichas da mesma marca, as duas de 13 kg, declaram 150 e 110 L por ciclo — a diferença está na linha do produto, não no tamanho. A Electrolux publica consumo de água e de energia por ciclo, rotação e eficiência de centrifugação, número de programas, material do cesto, painel, filtro de fiapos, reaproveitamento de água, medidas, peso do produto e da embalagem separados e garantia. **Não publica a classificação energética do Inmetro** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0HCR2X6T2",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HCR2X6T2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-let13.webp",
+      "alt": "Máquina de lavar Electrolux LET13 Efficient branca, de carga superior",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/maquina-de-lavar-electrolux-efficient-13kg-branca-compacta--economica-e-pre-diluicao-let13/p"
+    }
+  },
+  {
+    "slug": "electrolux-les11",
+    "nome": "Electrolux Essential Care LES11",
+    "marca": "Electrolux",
+    "modelo": "LES11",
+    "categoria": "lavadoras",
+    "resumo": "Onze quilos, 107 litros e cesto de plástico em vez de inox. O ciclo rápido de 19 minutos é o mais curto da lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 11,
+      "consumoAguaL": 107,
+      "consumoEnergiaKwh": 0.34,
+      "classificacaoEnergetica": null,
+      "rotacaoRpm": null,
+      "eficienciaCentrifugacao": null,
+      "programas": 8,
+      "materialCesto": "Plástico livre de BPA",
+      "reaproveitamentoAgua": true,
+      "filtroFiapos": true,
+      "painel": "Mecânico",
+      "tensao": null,
+      "pesoKg": 40,
+      "dimensoesMm": "595 × 1030 × 670",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B084RCXNJX"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-les11-oficial",
+        "titulo": "Electrolux LES11 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-roupas-electrolux-essencial-care-11kg-les11/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de lavagem de 11 kg, consumo de água de 107 L/ciclo, consumo de energia de 0,34 kWh/ciclo, ciclo rápido de 19 minutos, cesto de plástico livre de BPA, reaproveitamento de água, filtro elimina fiapos, painel mecânico, 59,5 × 103 × 67 cm, 40 kg e garantia de 1 ano. Esta página não publica a rotação de centrifugação nem a eficiência dela, que a marca publica nos modelos maiores. O número de programas aparece duas vezes na mesma ficha, com valores diferentes — ver a divergência. A Electrolux publica consumo de água e de energia por ciclo, rotação e eficiência de centrifugação, número de programas, material do cesto, painel, filtro de fiapos, reaproveitamento de água, medidas, peso do produto e da embalagem separados e garantia. **Não publica a classificação energética do Inmetro** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B084RCXNJX",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B084RCXNJX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "programas",
+        "fonteAdotada": "Electrolux",
+        "valorDivergente": "um campo diz 10 e outro diz 8",
+        "fonteDivergente": "Electrolux",
+        "observacao": "A mesma página traz \"Programas de lavagem: 10\" e \"Quantidade de programas de lavagem: 8\". A ficha adota o 8, que é o campo usado por todos os outros modelos da marca e o que a lista nominal de programas da página sustenta."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-les11.webp",
+      "alt": "Máquina de lavar Electrolux LES11 branca, de carga superior",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-roupas-electrolux-essencial-care-11kg-les11/p"
+    }
+  },
+  {
+    "slug": "brastemp-bwj14ab",
+    "nome": "Brastemp BWJ14AB",
+    "marca": "Brastemp",
+    "modelo": "BWJ14AB",
+    "categoria": "lavadoras",
+    "resumo": "Quatorze quilos por 173 litros de água — mais que a Electrolux de 17 kg gasta por quilo de roupa. A Brastemp publica o consumo de água e cala a rotação de centrifugação.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 14,
+      "consumoAguaL": 173,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": "A",
+      "rotacaoRpm": null,
+      "eficienciaCentrifugacao": null,
+      "programas": 12,
+      "materialCesto": "Inox",
+      "reaproveitamentoAgua": null,
+      "filtroFiapos": true,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G3Y8Y619"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-bwj14ab-oficial",
+        "titulo": "Brastemp BWJ14AB — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/maquina-de-lavar-branca-14kg-brastemp-com-smart-sensor-e-lavagem-rapida-bwj14ab/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Abertura superior, consumo aproximado de água de 173 L em 110 V, eficiência energética A, 12 programas, quatro ciclos de lavagem, quatro níveis de água incluindo automático, cesto de inox, filtro elimina fiapos, ciclo tira manchas Advanced, pés niveladores e garantia do fornecedor de 12 meses. A capacidade é publicada como faixa de filtro, \"12kg - 14kg\"; os 14 kg da ficha saem do nome do produto na própria página. Esta página não publica consumo de energia. A Brastemp publica capacidade em faixa, abertura, ciclos, níveis de água, consumo aproximado de água, filtro, cesto, eficiência energética e número de programas. **Não publica rotação de centrifugação, medidas, peso nem painel** — campos que a mesma marca publica nas geladeiras dela.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0G3Y8Y619",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G3Y8Y619",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-bwj14ab.webp",
+      "alt": "Máquina de lavar Brastemp BWJ14AB branca, de carga superior, vista de frente",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/maquina-de-lavar-branca-14kg-brastemp-com-smart-sensor-e-lavagem-rapida-bwj14ab/p"
+    }
+  },
+  {
+    "slug": "brastemp-bwf14ab",
+    "nome": "Brastemp BWF14AB",
+    "marca": "Brastemp",
+    "modelo": "BWF14AB",
+    "categoria": "lavadoras",
+    "resumo": "Os mesmos 14 kg e 173 litros da irmã, num corpo mais compacto. O consumo de energia dela é publicado em kW por ano — num valor que só faz sentido por ciclo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Carga superior",
+      "capacidadeKg": 14,
+      "consumoAguaL": 173,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": "A",
+      "rotacaoRpm": null,
+      "eficienciaCentrifugacao": null,
+      "programas": 12,
+      "materialCesto": null,
+      "reaproveitamentoAgua": null,
+      "filtroFiapos": true,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GLQ4H7YX"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-bwf14ab-oficial",
+        "titulo": "Brastemp BWF14AB — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/maquina-de-lavar-brastemp-14kg-branca-com-smart-sensor-e-design-compacto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Abertura superior, consumo aproximado de água de 173 L em 110 V e em 220 V, eficiência energética A, 12 programas, quatro ciclos de lavagem, filtro elimina fiapos, pés niveladores e garantia de 12 meses. A capacidade é publicada como faixa \"12kg - 14kg\" e os 14 kg saem do nome do produto. O consumo de energia não entrou: ver a divergência. A Brastemp publica capacidade em faixa, abertura, ciclos, níveis de água, consumo aproximado de água, filtro, cesto, eficiência energética e número de programas. **Não publica rotação de centrifugação, medidas, peso nem painel** — campos que a mesma marca publica nas geladeiras dela.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0GLQ4H7YX",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GLQ4H7YX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoEnergiaKwh",
+        "fonteAdotada": "Brastemp",
+        "valorDivergente": "0,39 e 0,41 rotulados como kW/ano",
+        "fonteDivergente": "Brastemp",
+        "observacao": "A página publica \"Consumo Aproximado de Energia (kWh): 110V (kW/ano): 0.39 | 220V (kW/ano): 0.41\". Uma máquina de lavar que gastasse 0,39 kWh por ano custaria centavos na vida inteira — o valor tem a ordem de grandeza de um ciclo, que é como as outras marcas publicam, mas a unidade escrita é por ano. Com o rótulo e o número discordando, a ficha não publica nenhum dos dois."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-bwf14ab.webp",
+      "alt": "Máquina de lavar Brastemp BWF14AB branca, de carga superior, vista de frente",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/maquina-de-lavar-brastemp-14kg-branca-com-smart-sensor-e-design-compacto/p"
+    }
+  }
+]

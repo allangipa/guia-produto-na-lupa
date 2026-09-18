@@ -2624,11 +2624,171 @@ export const camposGeladeira: Campo[] = [
   },
 ];
 
+/**
+ * Máquinas de lavar de carga superior.
+ *
+ * O ângulo é o consumo de água por ciclo, que todas as marcas publicam e
+ * nenhuma coloca no anúncio. Entre duas máquinas de 15 kg desta lista a
+ * diferença é de 50 litros por lavagem — a Panasonic declara 110 L e a
+ * Electrolux, 160. Em três lavagens por semana isso dá mais de 7.000 litros
+ * por ano de diferença, no mesmo tamanho de roupa.
+ *
+ * O quilo do nome é sempre de roupa seca, e é a única medida que aparece na
+ * frente da máquina.
+ */
+export const camposLavadora: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Abertura",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeKg",
+    rotulo: "Capacidade",
+    grupo: "O que é",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Peso de roupa seca que cabe no cesto. É o número que vai no nome do produto.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoAguaL",
+    rotulo: "Água por ciclo",
+    grupo: "Consumo",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "menor",
+    filtro: "faixa",
+    ajuda:
+      "O número que decide a conta de água e não aparece em anúncio nenhum. Entre duas máquinas do mesmo tamanho desta lista a diferença passa de 50 litros por lavagem.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoEnergiaKwh",
+    rotulo: "Energia por ciclo",
+    grupo: "Consumo",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "classificacaoEnergetica",
+    rotulo: "Selo do Inmetro",
+    grupo: "Consumo",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "rotacaoRpm",
+    rotulo: "Centrifugação",
+    grupo: "Lavagem",
+    tipo: "numero",
+    unidade: "rpm",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Quanto mais alta, mais seca a roupa sai — e menos tempo no varal.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "eficienciaCentrifugacao",
+    rotulo: "Eficiência de centrifugação",
+    grupo: "Lavagem",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "programas",
+    rotulo: "Programas",
+    grupo: "Lavagem",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialCesto",
+    rotulo: "Material do cesto",
+    grupo: "Lavagem",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "reaproveitamentoAgua",
+    rotulo: "Reaproveita a água",
+    grupo: "Lavagem",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "filtroFiapos",
+    rotulo: "Filtro de fiapos",
+    grupo: "Lavagem",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "painel",
+    rotulo: "Painel",
+    grupo: "Uso",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
   geladeiras: camposGeladeira,
+  lavadoras: camposLavadora,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -2817,6 +2977,15 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   niveisTemperatura: "controle",
   alarmePortaAberta: "onda",
   nivelRuidoDb: "onda",
+  capacidadeKg: "peso",
+  consumoAguaL: "gota",
+  consumoEnergiaKwh: "raio",
+  rotacaoRpm: "onda",
+  eficienciaCentrifugacao: "onda",
+  programas: "controle",
+  materialCesto: "panela",
+  reaproveitamentoAgua: "gota",
+  filtroFiapos: "escudo",
 };
 
 export function iconeDo(chave: string): string {
@@ -2840,6 +3009,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   sanduicheiras: "panela",
   microondas: "panela",
   geladeiras: "termometro",
+  lavadoras: "gota",
   eletrodomesticos: "raio",
 };
 
@@ -2954,6 +3124,14 @@ const ROTULO_CURTO: Record<string, string> = {
   niveisTemperatura: "Níveis",
   alarmePortaAberta: "Alarme",
   nivelRuidoDb: "Ruído",
+  capacidadeKg: "Capacidade",
+  consumoAguaL: "Água/ciclo",
+  consumoEnergiaKwh: "Energia/ciclo",
+  rotacaoRpm: "Centrifuga",
+  eficienciaCentrifugacao: "Ef. centrif.",
+  materialCesto: "Cesto",
+  reaproveitamentoAgua: "Reaproveita",
+  filtroFiapos: "Filtro",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -2985,6 +3163,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   sanduicheiras: ["sanduichesPorVez", "potenciaW", "abertura180"],
   microondas: ["capacidadeTotalL", "capacidadeUtilL", "potenciaW"],
   geladeiras: ["capacidadeTotalL", "capacidadeGeladeiraL", "consumoKwhMes"],
+  lavadoras: ["capacidadeKg", "consumoAguaL", "rotacaoRpm"],
 };
 
 export function destaquesDa(categoria: string): string[] {
