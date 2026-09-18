@@ -70,25 +70,38 @@ export function MenuDepartamentos({ grupos }: { grupos: GrupoNav[] }) {
           ref={caixa}
           className="absolute left-0 top-[calc(100%+0.6rem)] z-50 w-[min(94vw,62rem)] rounded-[var(--raio-card)] border border-linha bg-papel p-6 shadow-2xl"
         >
+          {/* Departamento e categoria precisam se distinguir de relance: o
+              departamento é rótulo em caixa alta com régua embaixo, a categoria
+              é um disco com foto — a mesma forma que a home usa, e a mesma da
+              página /categorias. Sem isso, os dois níveis viram uma lista só. */}
           <ul className="grid gap-x-8 gap-y-7 sm:grid-cols-2 lg:grid-cols-3">
             {grupos.map((g) => (
               <li key={g.slug}>
                 <Link
                   href={`/categorias#${g.slug}`}
-                  className="titulo-ui text-[1.02rem] leading-snug hover:text-acao-forte"
+                  className="block border-b border-linha pb-1.5 text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-tinta-suave hover:text-acao-forte"
                 >
                   {g.nome}
                 </Link>
-                <ul className="mt-2 space-y-1.5">
+                <ul className="mt-3 space-y-2.5">
                   {g.itens.map((i) => (
                     <li key={i.slug}>
                       <Link
                         href={`/categorias/${i.slug}`}
-                        className="flex items-baseline justify-between gap-3 text-[0.92rem] text-tinta-suave hover:text-acao-forte"
+                        className="group flex items-center gap-3 hover:text-acao-forte"
                       >
-                        <span>{i.nome}</span>
-                        <span className="tabular-nums text-[0.8rem] text-ausente">
-                          {i.total}
+                        <span className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full border border-linha bg-superficie p-1.5 group-hover:border-acao">
+                          {i.capa ? (
+                            <img src={i.capa} alt="" className="h-full w-full object-contain" />
+                          ) : (
+                            <Icone nome={i.slug} className="h-5 w-5 text-acao" />
+                          )}
+                        </span>
+                        <span className="min-w-0">
+                          <span className="block text-[0.95rem] leading-tight">{i.nome}</span>
+                          <span className="dados block text-[0.72rem] text-tinta-suave">
+                            {i.total} {i.total === 1 ? "ficha" : "fichas"}
+                          </span>
                         </span>
                       </Link>
                     </li>
@@ -98,7 +111,7 @@ export function MenuDepartamentos({ grupos }: { grupos: GrupoNav[] }) {
             ))}
           </ul>
           <p className="mt-6 border-t border-linha pt-4 text-[0.85rem] text-tinta-suave">
-            O número ao lado de cada categoria é quantas fichas ela tem hoje.{" "}
+            Em caixa alta, o departamento; com foto, a categoria.{" "}
             <Link href="/categorias" className="underline hover:text-acao-forte">
               Ver a página inteira
             </Link>
