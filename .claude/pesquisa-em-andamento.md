@@ -72,6 +72,50 @@ entram: sem página do fabricante não há ficha nem foto licenciável).
 Treze candidatos para dez vagas — sobra margem para o que não tiver foto
 oficial.
 
+## `armazenamento` — esquema pronto, produtos em andamento
+
+Esquema `camposArmazenamento` escrito em 18/09/2026, com 13 campos e
+registrado em `camposPorCategoria`, `DESTAQUES_POR_CATEGORIA`,
+`ICONE_POR_CAMPO` e `ROTULO_CURTO`. A descrição da categoria em
+`lib/categorias.ts` foi ampliada para incluir SSD interno, que domina o
+ranking e não cabia no texto antigo.
+
+**O ângulo da categoria**: o setor publica leitura e cala escrita. O
+número grande da embalagem é sempre leitura sequencial; a escrita costuma
+ser metade ou um quinto, e na maioria das fichas não existe. `escritaMbs`
+e `durabilidadeTbw` são os campos que separam quem documenta de quem não.
+
+### Ranking: 21 dos 30 primeiros têm marca
+
+Nó **Memória e Armazenamento de Dados = 16364752011**. Sub-nós:
+Armazenamento Externo 16364778011, Interno 17028669011, de Rede
+16364779011. Marcas: SanDisk, Kingston, Toshiba, Western Digital,
+Seagate, ADATA, Multilaser. Os itens "Microsoft 365" do ranking são
+software, não entram.
+
+### Acesso por marca
+
+- **Kingston** — 403 a fetch, abre no navegador. Ficha excelente: TBW por
+  capacidade, MTBF, temperatura, peso, dimensões, garantia. URLs que
+  funcionam: `/br/ssd/nv3-nvme-pcie-ssd`, `/br/ssd/a400-solid-state-drive`.
+  As de pen drive que tentei (`/br/usb-flash-drives/datatraveler-exodia-usb-flash-drive`
+  e `-exodia-m-`) deram 404 — achar o slug certo.
+- **SanDisk** e **Seagate** — as URLs que chutei deram 404. Procurar antes.
+
+### Já apurado, pronto para virar entrada
+
+**Kingston NV3** (`/br/ssd/nv3-nvme-pcie-ssd`, consultado em 18/09/2026):
+M.2 2280, NVMe PCIe 4.0 x4, NAND 3D, 22 × 80 × 2,3 mm, 7 g, MTBF
+2.000.000 h, temperatura de operação 0–70 °C, garantia de 5 anos.
+500 GB: 5.000/3.000 MB/s, TBW 160 TB. 1 TB: 6.000/4.000 MB/s, TBW 320 TB.
+ASINs: 1 TB `B0DBR3DZWG`, 500 GB `B0DBR9RZLV`.
+
+**Kingston A400** (`/br/ssd/a400-solid-state-drive`, 18/09/2026):
+2,5 pol, SATA Rev. 3.0 (6 Gb/s), NAND 3D, 100 × 69,9 × 7 mm, 41 g,
+MTBF 2.000.000 h, garantia de 3 anos, consumo de 0,195 W ocioso a
+1,535 W em gravação. 480 GB: até 500/450 MB/s, TBW 160 TB.
+ASIN `B01N0TQPQB` (480 GB).
+
 ## As 20 categorias novas — reconhecimento de 18/09/2026
 
 As sete categorias existentes fecharam em 20. Faltam as 20 novas, e o

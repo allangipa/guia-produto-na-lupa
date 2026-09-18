@@ -39,8 +39,9 @@ export const categorias: Categoria[] = [
   {
     slug: "armazenamento",
     nome: "Armazenamento",
-    descricao: "SSDs externos, pendrives, cartões de memória e HDs portáteis.",
-    dorPrincipal: "A velocidade anunciada aparece no uso ou só na caixa?",
+    descricao:
+      "Pen drives, SSDs internos e externos, HDs portáteis e cartões — com a velocidade de escrita ao lado da de leitura, quando o fabricante publica as duas.",
+    dorPrincipal: "O número da caixa é de leitura. Quanto tempo leva para copiar para dentro?",
   },
   {
     slug: "conectividade",

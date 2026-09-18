@@ -1544,9 +1544,151 @@ export const camposCafeteira: Campo[] = [
   },
 ];
 
+/**
+ * Armazenamento: pen drive, SSD interno e externo, HD portátil e cartão.
+ *
+ * O setor publica leitura e cala escrita. É a assimetria que define a
+ * categoria: o número grande da embalagem é sempre o de leitura sequencial, e
+ * quem compra para guardar arquivo quer saber o de escrita — que costuma ser
+ * metade, ou um quinto, e na maioria das fichas simplesmente não existe.
+ *
+ * O TBW tem o mesmo papel do "ciclos de carga" na bateria: é o que diz se o
+ * produto ainda serve daqui a três anos. Fabricante de SSD sério publica;
+ * fabricante de pen drive, nunca.
+ */
+export const camposArmazenamento: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Pen drive, SSD e HD não competem entre si: mudam a velocidade, o preço por gigabyte e o que acontece se cair no chão.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeGb",
+    rotulo: "Capacidade",
+    grupo: "O que é",
+    tipo: "numero",
+    unidade: "GB",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O número da caixa é em base 10. No sistema operacional, 1 TB aparece como 931 GB — não é defeito nem propaganda enganosa, são duas contas diferentes.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "interface",
+    rotulo: "Interface",
+    grupo: "Conexão",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "O barramento decide o teto. USB 2.0 trava em 60 MB/s por mais rápida que seja a memória lá dentro.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "conector",
+    rotulo: "Conector",
+    grupo: "Conexão",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "leituraMbs",
+    rotulo: "Leitura declarada",
+    grupo: "Velocidade",
+    tipo: "numero",
+    unidade: "MB/s",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O número grande da embalagem, quase sempre o de leitura sequencial, medido em condição de laboratório.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "escritaMbs",
+    rotulo: "Escrita declarada",
+    grupo: "Velocidade",
+    tipo: "numero",
+    unidade: "MB/s",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quanto tempo leva para copiar para dentro. É o número que a maioria das fichas não traz — e o que você sente ao mover uma pasta grande.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "memoriaTipo",
+    rotulo: "Tipo de memória",
+    grupo: "Velocidade",
+    tipo: "texto",
+    ajuda: "TLC guarda três bits por célula e QLC guarda quatro: mais barato, menos resistente.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "durabilidadeTbw",
+    rotulo: "Durabilidade declarada",
+    grupo: "Durabilidade",
+    tipo: "numero",
+    unidade: "TBW",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quantos terabytes dá para escrever antes de a garantia acabar. É o dado que separa o SSD que dura do que é barato.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "resistencia",
+    rotulo: "Resistência declarada",
+    grupo: "Durabilidade",
+    tipo: "texto",
+    ajuda: "Queda, água, poeira e raio X — o que o fabricante promete por escrito.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "criptografia",
+    rotulo: "Criptografia por hardware",
+    grupo: "Durabilidade",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Tamanho",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoG",
+    rotulo: "Peso",
+    grupo: "Tamanho",
+    tipo: "numero",
+    unidade: "g",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
+  armazenamento: camposArmazenamento,
   audio: camposAudio,
   cozinha: camposCozinha,
   celular: camposCelular,
@@ -1664,6 +1806,15 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   cortaPingos: "gota",
   manterAquecido: "termometro",
   timer: "relogio",
+  capacidadeGb: "portas",
+  interface: "cabo",
+  conector: "portas",
+  leituraMbs: "raio",
+  escritaMbs: "raio",
+  memoriaTipo: "chip",
+  durabilidadeTbw: "escudo",
+  resistencia: "escudo",
+  criptografia: "escudo",
 };
 
 export function iconeDo(chave: string): string {
@@ -1755,6 +1906,13 @@ const ROTULO_CURTO: Record<string, string> = {
   velocidades: "Velocidades",
   rpm: "Rotação",
   travaSeguranca: "Trava",
+  capacidadeGb: "Capacidade",
+  leituraMbs: "Leitura",
+  escritaMbs: "Escrita",
+  durabilidadeTbw: "Durabilidade",
+  memoriaTipo: "Memória",
+  criptografia: "Criptografia",
+  resistencia: "Resistência",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -1764,6 +1922,7 @@ export function rotuloCurto(campo: Campo): string {
 /** Os três números que separam um produto de outro, por categoria — para o card. */
 const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   energia: ["capacidadeNominal", "potenciaMaxSaida", "pesoG"],
+  armazenamento: ["capacidadeGb", "leituraMbs", "tipo"],
   audio: ["horasFone", "driverMm", "protecaoAgua"],
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],
