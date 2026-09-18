@@ -1,0 +1,414 @@
+[
+  {
+    "slug": "basike-b206a",
+    "nome": "Basike Mini Power Bank 10.000 mAh",
+    "marca": "Basike",
+    "modelo": "B206A",
+    "categoria": "energia",
+    "resumo": "Dez mil mAh com dois cabos já presos ao corpo, Lightning e USB-C, e display de porcentagem. A Basike declara 37 Wh — número que quase nenhuma concorrente publica, e o único que companhia aérea aceita.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 10000,
+      "capacidadeReal": null,
+      "energiaWh": 37,
+      "quimica": null,
+      "potenciaMaxSaida": 22.5,
+      "potenciaMaxEntrada": null,
+      "portasSaida": 2,
+      "descricaoSaidas": "1 USB-A e 1 USB-C, mais cabos Lightning e USB-C presos ao corpo",
+      "caboIntegrado": true,
+      "pesoG": 280,
+      "dimensoesMm": "149 × 69 × 19",
+      "tempoRecargaH": null,
+      "displayDigital": true,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G7H17S39"
+    },
+    "fontes": [
+      {
+        "id": "basike-b078-oficial",
+        "titulo": "Power Bank Basike B 078 10.000 mAh — página oficial da Basike Brasil",
+        "url": "https://basikebrasil.com.br/products/ba-pow-078",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "10.000 mAh (37 Wh a 3,7 V), 22,5 W máximos, porta USB-A e porta USB-C, cabos Lightning e USB-C presos ao corpo, indicador LED de porcentagem, 280 g e 149 × 69 × 19 mm. A Basike não declara capacidade real, tipo de célula, potência de entrada, tempo de recarga, ciclos nem garantia. O casamento com a listagem foi feito por capacidade e potência: é o único modelo de 10.000 mAh com 22,5 W e dois cabos presos no catálogo da marca — os códigos do site (ba-pow-078) e da Amazon (B206A) não se cruzam em lugar nenhum.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-b206a",
+        "titulo": "Basike Mini Power Bank 10.000 mAh — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G7H17S39",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma 10.000 mAh, os dois cabos integrados e o display. A listagem anuncia \"máx. 20 W PD\" na porta USB-C, enquanto o site declara 22,5 W — são protocolos diferentes (Power Delivery e Quick Charge) e os dois números podem conviver.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "basike-ba-2w",
+    "nome": "Basike Power Bank 20.000 mAh",
+    "marca": "Basike",
+    "modelo": "Ba-2W",
+    "categoria": "energia",
+    "resumo": "Vinte mil mAh, 74 Wh declarados e recarga em cerca de seis horas. Os 74 Wh ficam abaixo do limite de 100 Wh que as companhias aéreas usam — e é raro a marca dizer isso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": null,
+      "energiaWh": 74,
+      "quimica": null,
+      "potenciaMaxSaida": 22.5,
+      "potenciaMaxEntrada": null,
+      "portasSaida": 2,
+      "descricaoSaidas": "1 USB-A e 1 USB-C com Power Delivery, mais cabos USB-C e Lightning presos ao corpo",
+      "caboIntegrado": true,
+      "pesoG": 400,
+      "dimensoesMm": "150 × 70 × 30",
+      "tempoRecargaH": 6,
+      "displayDigital": true,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FHHLZZVD"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoG",
+        "fonteAdotada": "basike-b079-oficial",
+        "valorDivergente": "380 g",
+        "fonteDivergente": "amazon-ba2w",
+        "observacao": "A Basike declara 400 g e a Amazon, 380 g. Vinte gramas não mudam a decisão de ninguém, mas a ficha adota o fabricante como em toda a base."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "basike-b079-oficial",
+        "titulo": "Power Bank Basike B 079 20.000 mAh — página oficial da Basike Brasil",
+        "url": "https://basikebrasil.com.br/products/ba-pow-079",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "20.000 mAh (74 Wh a 3,7 V), 22,5 W máximos, USB-A e USB-C com Power Delivery, cabos USB-C e Lightning presos ao corpo, tela LED digital, 400 g, 15 × 7 × 3 cm e recarga de cerca de 6 horas por USB-C PD 20 W. Não declara capacidade real, tipo de célula, potência de entrada, ciclos nem garantia. Casado com a listagem por capacidade e potência: é o único 20.000 mAh de 22,5 W com dois cabos presos no catálogo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ba2w",
+        "titulo": "Basike Power Bank 20.000 mAh — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FHHLZZVD",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma 20.000 mAh, 22,5 W, cabos integrados e LED indicador. Declara 380 g, que diverge do fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "basike-ba-3w",
+    "nome": "Basike Power Bank 30.000 mAh",
+    "marca": "Basike",
+    "modelo": "Ba-3W",
+    "categoria": "energia",
+    "resumo": "O maior desta lista, com 30.000 mAh e três saídas independentes. A Basike é a única aqui que declara o tipo de célula — polímero de lítio — e a potência de entrada, 18 W, que é o que decide se ele estará cheio de manhã.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 30000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": "Polímero de lítio",
+      "potenciaMaxSaida": 22.5,
+      "potenciaMaxEntrada": 18,
+      "portasSaida": 3,
+      "descricaoSaidas": "2 USB-A e 1 USB-C independentes, mais cabos presos ao corpo",
+      "caboIntegrado": true,
+      "pesoG": 590,
+      "dimensoesMm": "149 × 76 × 30,5",
+      "tempoRecargaH": null,
+      "displayDigital": true,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FBGDSRP7"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoG",
+        "fonteAdotada": "basike-177-oficial",
+        "valorDivergente": "750 g",
+        "fonteDivergente": "amazon-ba3w",
+        "observacao": "A Basike declara 590 g e a Amazon, 750,02 g. A diferença de 160 g e a precisão de duas casas sugerem que o número da listagem é o peso com embalagem. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "basike-177-oficial",
+        "titulo": "Power Bank Basike BA POW 177 30.000 mAh — página oficial da Basike Brasil",
+        "url": "https://basikebrasil.com.br/products/power-bank-basike-ba-pow-177-30-000mah-carregador-super-rapido-portatil-universal",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "30.000 mAh em célula de polímero de lítio, 22,5 W máximos de saída, entrada Type-C de 18 W, 2 USB-A e 1 USB-C independentes, cabos presos ao corpo, tela LED, 590 g e 149 × 76 × 30,5 mm. Não declara Wh, capacidade real, tempo de recarga, ciclos nem garantia. Casado com a listagem por capacidade: é o único 30.000 mAh do catálogo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ba3w",
+        "titulo": "Basike Power Bank 30.000 mAh — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FBGDSRP7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma 30.000 mAh, as duas saídas USB-A de 22,5 W e a USB-C com cabo. Declara 750,02 g, que diverge do fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "basike-bpb65w001",
+    "nome": "Basike Power Bank 65 W 20.000 mAh",
+    "marca": "Basike",
+    "modelo": "BPB65W001",
+    "categoria": "energia",
+    "resumo": "Os 65 W mais altos desta lista, o suficiente para carregar notebook — e a única ficha da base que declara ciclos de carga: 3.000. É o dado que diz se o produto ainda serve daqui a dois anos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": null,
+      "potenciaMaxSaida": 65,
+      "potenciaMaxEntrada": null,
+      "portasSaida": 1,
+      "descricaoSaidas": "1 USB-C, mais dois cabos USB-C presos ao corpo e removíveis",
+      "caboIntegrado": true,
+      "pesoG": 350,
+      "dimensoesMm": null,
+      "tempoRecargaH": 6,
+      "displayDigital": true,
+      "garantiaMeses": null,
+      "ciclosCarga": 3000
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GFDTCRD7"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoG",
+        "fonteAdotada": "basike-b203-oficial",
+        "valorDivergente": "323,5 g",
+        "fonteDivergente": "amazon-bpb65",
+        "observacao": "A Basike declara cerca de 350 g e a Amazon, 323,5 g. Adotamos o fabricante, mas aqui o número da listagem é o mais preciso dos dois — o do site vem com \"cerca de\"."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "basike-b203-oficial",
+        "titulo": "Power Bank Basike B203 20.000 mAh 65 W — página oficial da Basike Brasil",
+        "url": "https://basikebrasil.com.br/products/power-bank-basike-b-203-20-000mah-carregamento-rapido-portatil-45-w-3-saidas",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "20.000 mAh, 65 W máximos, porta USB-C com dois cabos Type-C presos ao corpo e removíveis, tela LCD, cerca de 350 g, recarga de cerca de 6 horas por USB-C e mais de 3.000 ciclos de carga. Não declara Wh, capacidade real, tipo de célula, potência de entrada, dimensões nem garantia. Casado com a listagem por capacidade e potência: é o único 20.000 mAh de 65 W do catálogo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-bpb65",
+        "titulo": "Basike Power Bank 65 W 20.000 mAh — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GFDTCRD7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo BPB65W001, os 20.000 mAh e o cabo Type-C integrado e removível. Declara 323,5 g, que diverge do fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "i2go-pro-20000",
+    "nome": "i2GO PRO 20.000 mAh Power Delivery 20 W",
+    "marca": "i2GO",
+    "modelo": "i2GO PRO 20000",
+    "categoria": "energia",
+    "resumo": "A i2GO é a marca que mais publica desta lista: declara entrada e saída em volts e ampères porta por porta, o tempo de recarga e a garantia estendida. Em compensação, este modelo leva de 8 a 10 horas para se encher.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 20000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": null,
+      "potenciaMaxSaida": 20,
+      "potenciaMaxEntrada": 18,
+      "portasSaida": 3,
+      "descricaoSaidas": "2 USB-A com Quick Charge de 18 W e 1 USB-C bidirecional com Power Delivery de 20 W",
+      "caboIntegrado": false,
+      "pesoG": 412,
+      "dimensoesMm": "149 × 69 × 28",
+      "tempoRecargaH": 10,
+      "displayDigital": true,
+      "garantiaMeses": 12,
+      "ciclosCarga": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B094YR4SLJ"
+    },
+    "fontes": [
+      {
+        "id": "i2go-pro-20000-oficial",
+        "titulo": "Carregador Portátil i2GO PRO 20.000 mAh — página oficial da i2GO",
+        "url": "https://www.i2go.com.br/produto/carregador-portatil-power-bank-ultra-rapido-20000mah-power-delivery-20w-2-saidas-usb-1-saida-entrada-usb-c-preto-i2go-i2go-pro-90566",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "20.000 mAh em bateria premium tipo A, entradas micro-USB e USB-C de 5 V 2 A e 9 V 2 A, saída USB-C bidirecional com Power Delivery de 20 W, duas saídas USB-A com Quick Charge de 18 W, display digital de nível, 149 × 69 × 28 mm, 412 g, recarga completa em 8 a 10 horas e 1 ano de garantia, extensível a 3 anos com registro. Os 18 W de entrada são a conta dos 9 V por 2 A que a i2GO declara. A ficha não traz Wh, capacidade real nem ciclos. O campo de recarga adota as 10 horas, o extremo pior do intervalo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-i2go-20000",
+        "titulo": "i2GO Power Bank 20.000 mAh — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B094YR4SLJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo de 20.000 mAh com Power Delivery de 20 W. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "i2go-pro-10000",
+    "nome": "i2GO PRO 10.000 mAh Power Delivery 20 W",
+    "marca": "i2GO",
+    "modelo": "i2GO PRO 10000",
+    "categoria": "energia",
+    "resumo": "Metade da capacidade do irmão de 20.000 e quase metade do peso: 220 g contra 412 g. Recarrega em 4 a 6 horas, contra 8 a 10 — a diferença que decide se ele volta cheio no mesmo dia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 10000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": null,
+      "potenciaMaxSaida": 20,
+      "potenciaMaxEntrada": 18,
+      "portasSaida": 3,
+      "descricaoSaidas": "2 USB-A com Quick Charge de 18 W e 1 USB-C bidirecional com Power Delivery de 20 W",
+      "caboIntegrado": false,
+      "pesoG": 220,
+      "dimensoesMm": "143 × 68 × 16",
+      "tempoRecargaH": 6,
+      "displayDigital": true,
+      "garantiaMeses": 12,
+      "ciclosCarga": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B094YV31R9"
+    },
+    "fontes": [
+      {
+        "id": "i2go-pro-10000-oficial",
+        "titulo": "Carregador Portátil i2GO PRO 10.000 mAh — página oficial da i2GO",
+        "url": "https://www.i2go.com.br/produto/carregador-portatil-power-bank-ultra-rapido-10000mah-power-delivery-20w-2-saidas-usb-1-saida-entrada-usb-c-preto-i2go-i2go-pro-90565",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "10.000 mAh, entradas micro-USB e USB-C de 5 V 2 A e 9 V 2 A, saída USB-C bidirecional com Power Delivery de 20 W, duas saídas USB-A com Quick Charge de 18 W, display com porcentagem, 143 × 68 × 16 mm, 220 g, recarga de 4 a 6 horas e 1 ano de garantia, extensível a 3 anos com registro. Os 18 W de entrada são a conta dos 9 V por 2 A declarados. A ficha não traz Wh, capacidade real, tipo de célula nem ciclos. O campo de recarga adota as 6 horas, o extremo pior do intervalo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-i2go-10000",
+        "titulo": "i2GO Power Bank 10.000 mAh — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B094YV31R9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo de 10.000 mAh com Power Delivery de 20 W. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "i2go-plus-10000-4em1",
+    "nome": "i2GO Plus 10.000 mAh 4 em 1",
+    "marca": "i2GO",
+    "modelo": "i2GO Plus 10000 4 em 1",
+    "categoria": "energia",
+    "resumo": "Quatro conectores presos ao corpo — micro-USB, USB-C, Lightning e USB-A — para não depender de cabo nenhum. O preço disso é a velocidade: 10,5 W em todas as saídas, a menor desta lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 10000,
+      "capacidadeReal": null,
+      "energiaWh": 37,
+      "quimica": null,
+      "potenciaMaxSaida": 10.5,
+      "potenciaMaxEntrada": 10.5,
+      "portasSaida": 4,
+      "descricaoSaidas": "Conectores micro-USB, USB-C, Lightning e USB-A presos ao corpo, todos a 5 V 2,1 A",
+      "caboIntegrado": true,
+      "pesoG": null,
+      "dimensoesMm": null,
+      "tempoRecargaH": 6,
+      "displayDigital": null,
+      "garantiaMeses": 12,
+      "ciclosCarga": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GWJFCKKD"
+    },
+    "fontes": [
+      {
+        "id": "i2go-4em1-oficial",
+        "titulo": "Carregador Portátil i2GO Plus 10.000 mAh 4 em 1 — página oficial da i2GO",
+        "url": "https://www.i2go.com.br/produto/carregador-portatil-power-bank-i2go-10000mah-4-em-1-com-cabos-acoplados-micro-usb-usb-c-lightning-e-usb-a-preto-i2go-plus-90637",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "10.000 mAh (37 Wh) em bateria premium tipo A, quatro conectores acoplados — micro-USB, USB-C, Lightning e USB-A —, entrada e saída de 5 V 2,1 A em todas as vias, recarga em até 6 horas e 1 ano de garantia, extensível a 3 anos com registro. Os 10,5 W são a conta dos 5 V por 2,1 A declarados. A i2GO não publica peso, dimensões, display, capacidade real, tipo de célula nem ciclos deste modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-i2go-4em1",
+        "titulo": "i2GO Power Bank 10.000 mAh 4 em 1 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GWJFCKKD",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma os quatro cabos acoplados e os 10.000 mAh. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "anker-nano-a1653",
+    "nome": "Anker Nano Power Bank A1653",
+    "marca": "Anker",
+    "modelo": "A1653",
+    "categoria": "energia",
+    "resumo": "Cem gramas e um conector USB-C dobrável que dispensa cabo. A Anker vende o produto como 22,5 W, mas a ficha técnica da própria página diz saída total de 18 W — e é o número que a ficha adota.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeNominal": 5000,
+      "capacidadeReal": null,
+      "energiaWh": null,
+      "quimica": null,
+      "potenciaMaxSaida": 18,
+      "potenciaMaxEntrada": 18,
+      "portasSaida": 1,
+      "descricaoSaidas": "1 conector USB-C dobrável preso ao corpo",
+      "caboIntegrado": true,
+      "pesoG": 100,
+      "dimensoesMm": "77 × 37 × 25",
+      "tempoRecargaH": null,
+      "displayDigital": null,
+      "garantiaMeses": null,
+      "ciclosCarga": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C6XK77HJ"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaMaxSaida",
+        "fonteAdotada": "anker-a1653-oficial",
+        "valorDivergente": "22,5 W",
+        "fonteDivergente": "anker-a1653-oficial",
+        "observacao": "O nome do produto na própria página da Anker é \"Nano Power Bank (22.5W, Built-In USB-C Connector)\", e a tabela técnica logo abaixo diz \"Total output (18W Max)\". A ficha adota os 18 W da tabela: é o número medido em volts e ampères, e não o do nome comercial."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "anker-a1653-oficial",
+        "titulo": "Anker Nano Power Bank A1653 — página oficial da Anker",
+        "url": "https://www.anker.com/products/a1653-usb-c-portable-charger-5000mah",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "5.000 mAh, saída total de 18 W máximos (5 V 3,6 A), entrada USB-C de 5 V 3 A e 9 V 2 A, conector USB-C dobrável preso ao corpo, carga nos dois sentidos, sistema de segurança ActiveShield 2.0, 75% de material reciclado pós-consumo, compatível com capa de até 4,9 mm, 3,5 oz e 3,03 × 1,45 × 0,98 pol. Medidas convertidas para gramas e milímetros. A Anker não declara Wh, capacidade real, tipo de célula, tempo de recarga, display, ciclos nem prazo de garantia nesta página — só \"Hassle-Free Warranty\".",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-anker-nano",
+        "titulo": "Anker Nano Power Bank 5.000 mAh — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C6XK77HJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma os 5.000 mAh e o cabo USB-C integrado. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  }
+]

@@ -106,6 +106,18 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 - **Varejo não confirma nada.** Cinco lojas com o mesmo número são o texto do
   fabricante copiado cinco vezes. Só `regulador` (Anatel, INMETRO) e
   `laboratorio` contam como confirmação independente em `confirmadoPor`.
+- **A categoria fecha no número que a documentação permite, não numa meta.**
+  Decisão do Allan em 18/09/2026, ao ver que o ranking de acessórios é
+  dominado por vendedor de marca branca sem página de fabricante: *"uma
+  categoria com 12 fichas bem apuradas vale mais que 20 com 8 que não se
+  sustentam"*. Encher a categoria com produto sem documentação faz a nota de
+  transparência virar ficção — ela mede o que o fabricante publica, e sem
+  fabricante não há o que medir. Quando uma categoria parar abaixo do alvo,
+  **escrever na página quantos produtos ela tem e por que parou ali**: é a
+  mesma transparência que o site cobra das marcas. Antes de concluir que não
+  dá, procurar o nó mais fundo da árvore de mais vendidos da Amazon — o nó
+  genérico de Carregadores tinha 7 marcas em 30, e o de Carregadores
+  Portáteis, 22 em 30.
 - Contras antes dos prós, no mesmo peso visual.
 - Toda análise tem "não compre se você" — o veredito de exclusão é o que dá
   autoridade.
