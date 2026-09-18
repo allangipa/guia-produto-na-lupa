@@ -96,6 +96,15 @@ export const categorias: Categoria[] = [
     dorPrincipal: "A xícara do anúncio tem 40 ml — quantas canecas de verdade isso dá?",
   },
   {
+    slug: "geladeiras",
+    nome: "Geladeiras",
+    descricao:
+      "Geladeiras de uma e duas portas, inverse e French Door — com os litros do anúncio separados entre geladeira e freezer.",
+    dorPrincipal: "Os 377 litros do anúncio somam geladeira e freezer. Quanto é só geladeira?",
+    porQueParou:
+      "Fechou em nove. Consul, Brastemp e Electrolux publicam ficha completa e as três entraram inteiras. A lista de mais vendidos mistura geladeira com freezer e frigobar, que são outros produtos e pedem outro esquema; a Hisense aparece nela e o site brasileiro da marca responde 404; e os dois modelos B= Smart da Brastemp não foram encontrados no catálogo dela com o código do anúncio. Voltam quando casar.",
+  },
+  {
     slug: "microondas",
     nome: "Micro-ondas",
     descricao:

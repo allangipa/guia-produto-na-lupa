@@ -2459,10 +2459,176 @@ export const camposMicroondas: Campo[] = [
   },
 ];
 
+/**
+ * Geladeiras.
+ *
+ * O ângulo: **os litros do anúncio somam geladeira e freezer**. Uma "377 L"
+ * tem 283 L de geladeira e 94 de freezer; uma "385 L" tem 291 e 94. Todas as
+ * quatro marcas publicam a divisão, e nenhuma delas a coloca no nome do
+ * produto — o nome leva sempre a soma.
+ *
+ * O segundo campo que separa as marcas é o consumo em kWh por mês, que aqui
+ * vai de 13,1 a 31,3 entre produtos da mesma lista. É o número que decide o
+ * custo de dez anos de uso e não aparece em nenhum anúncio.
+ */
+export const camposGeladeira: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "portas",
+    rotulo: "Portas",
+    grupo: "O que é",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "degelo",
+    rotulo: "Degelo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Frost Free não forma gelo e não precisa degelar; Cycle Defrost precisa.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeTotalL",
+    rotulo: "Capacidade total",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O número que vai no nome do produto. É a soma dos dois compartimentos.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeGeladeiraL",
+    rotulo: "Só a geladeira",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "A parte que refrigera, sem o freezer. Numa de 377 L são 283 — e é este o número que decide se a compra da semana cabe.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeFreezerL",
+    rotulo: "Só o freezer",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoKwhMes",
+    rotulo: "Consumo por mês",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    filtro: "faixa",
+    ajuda:
+      "O que a geladeira custa depois da compra. Entre os modelos desta lista a diferença passa de duas vezes, e não aparece em anúncio nenhum.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "classificacaoEnergetica",
+    rotulo: "Selo do Inmetro",
+    grupo: "Energia",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "niveisTemperatura",
+    rotulo: "Níveis de temperatura",
+    grupo: "Uso",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "painel",
+    rotulo: "Painel",
+    grupo: "Uso",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alarmePortaAberta",
+    rotulo: "Alarme de porta aberta",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "nivelRuidoDb",
+    rotulo: "Ruído",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "dB",
+    melhor: "menor",
+    filtro: "faixa",
+    ajuda: "Geladeira fica ligada a noite inteira. Uma única marca desta lista publica o ruído.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
+  geladeiras: camposGeladeira,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -2643,6 +2809,14 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   grill: "termometro",
   receitasPreProgramadas: "nome",
   classificacaoEnergetica: "raio",
+  portas: "portas",
+  degelo: "termometro",
+  capacidadeGeladeiraL: "gota",
+  capacidadeFreezerL: "termometro",
+  consumoKwhMes: "raio",
+  niveisTemperatura: "controle",
+  alarmePortaAberta: "onda",
+  nivelRuidoDb: "onda",
 };
 
 export function iconeDo(chave: string): string {
@@ -2665,6 +2839,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   tablets: "display",
   sanduicheiras: "panela",
   microondas: "panela",
+  geladeiras: "termometro",
   eletrodomesticos: "raio",
 };
 
@@ -2773,6 +2948,12 @@ const ROTULO_CURTO: Record<string, string> = {
   diametroPratoCm: "Prato",
   receitasPreProgramadas: "Receitas",
   classificacaoEnergetica: "Selo",
+  capacidadeGeladeiraL: "Geladeira",
+  capacidadeFreezerL: "Freezer",
+  consumoKwhMes: "Consumo/mês",
+  niveisTemperatura: "Níveis",
+  alarmePortaAberta: "Alarme",
+  nivelRuidoDb: "Ruído",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -2803,6 +2984,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   cafeteiras: ["capacidadeL", "xicaras", "materialJarra"],
   sanduicheiras: ["sanduichesPorVez", "potenciaW", "abertura180"],
   microondas: ["capacidadeTotalL", "capacidadeUtilL", "potenciaW"],
+  geladeiras: ["capacidadeTotalL", "capacidadeGeladeiraL", "consumoKwhMes"],
 };
 
 export function destaquesDa(categoria: string): string[] {

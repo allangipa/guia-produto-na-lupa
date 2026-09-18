@@ -1,0 +1,515 @@
+[
+  {
+    "slug": "consul-crm44mb",
+    "nome": "Consul CRM44MB",
+    "marca": "Consul",
+    "modelo": "CRM44MB",
+    "categoria": "geladeiras",
+    "resumo": "Anunciada como 377 litros. A parte que refrigera são 283 — os outros 94 são freezer, e a Consul publica a divisão que o nome do produto não mostra.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Duplex (2 portas)",
+      "portas": 2,
+      "degelo": "Frost Free",
+      "capacidadeTotalL": 377,
+      "capacidadeGeladeiraL": 283,
+      "capacidadeFreezerL": 94,
+      "consumoKwhMes": 24.9,
+      "classificacaoEnergetica": "A",
+      "niveisTemperatura": 4,
+      "painel": "Eletrônico interno",
+      "alarmePortaAberta": false,
+      "nivelRuidoDb": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "622 × 1847 × 724",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FTLJNR7L"
+    },
+    "fontes": [
+      {
+        "id": "consul-crm44mb-oficial",
+        "titulo": "Consul CRM44MB — página oficial da Consul",
+        "url": "https://www.consul.com.br/geladeira-frost-free-duplex-consul-crm44mb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, degelo Frost Free, capacidade da geladeira de 283 L e do freezer de 94 L, consumo aproximado de 24,9 kWh, eficiência energética A, 4 níveis de temperatura, painel eletrônico interno, sem alarme de porta aberta, 3 gavetas, pés niveladores, porta não reversível, 62,2 × 184,7 × 72,4 cm sem embalagem e garantia do fornecedor de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FTLJNR7L",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FTLJNR7L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/consul-crm44mb.webp",
+      "alt": "Geladeira Consul CRM44MB branca de duas portas, vista de frente",
+      "credito": "Imagem: Consul",
+      "origem": "https://www.consul.com.br/geladeira-frost-free-duplex-consul-crm44mb/p"
+    }
+  },
+  {
+    "slug": "consul-crm40mb",
+    "nome": "Consul CRM40MB",
+    "marca": "Consul",
+    "modelo": "CRM40MB",
+    "categoria": "geladeiras",
+    "resumo": "Trezentos e trinta e três litros no nome, 260 de geladeira. É a de menor consumo entre as duplex desta lista: 23,3 kWh por mês.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Duplex (2 portas)",
+      "portas": 2,
+      "degelo": "Frost Free",
+      "capacidadeTotalL": 333,
+      "capacidadeGeladeiraL": 260,
+      "capacidadeFreezerL": 73,
+      "consumoKwhMes": 23.3,
+      "classificacaoEnergetica": "A",
+      "niveisTemperatura": 4,
+      "painel": "Eletrônico interno",
+      "alarmePortaAberta": false,
+      "nivelRuidoDb": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "622 × 1705 × 717",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G44H2N5X"
+    },
+    "fontes": [
+      {
+        "id": "consul-crm40mb-oficial",
+        "titulo": "Consul CRM40MB — página oficial da Consul",
+        "url": "https://www.consul.com.br/geladeira-frost-free-duplex-branca-consul-crm40mb-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, Frost Free, geladeira de 260 L e freezer de 73 L, consumo de 23,3 kWh, eficiência A, 4 níveis de temperatura, painel eletrônico interno, sem alarme de porta aberta, 2 gavetas, 62,2 × 170,5 × 71,7 cm e garantia de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0G44H2N5X",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G44H2N5X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/consul-crm40mb.webp",
+      "alt": "Geladeira Consul CRM40MB branca de duas portas, vista de frente",
+      "credito": "Imagem: Consul",
+      "origem": "https://www.consul.com.br/geladeira-frost-free-duplex-branca-consul-crm40mb-1/p"
+    }
+  },
+  {
+    "slug": "consul-crb36mb",
+    "nome": "Consul CRB36MB",
+    "marca": "Consul",
+    "modelo": "CRB36MB",
+    "categoria": "geladeiras",
+    "resumo": "A única desta lista com selo B em vez de A — e a única de uma porta com painel externo. Gasta quase o mesmo que uma duplex de 377 litros para refrigerar 251.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "1 porta com freezer interno",
+      "portas": 1,
+      "degelo": "Frost Free",
+      "capacidadeTotalL": 297,
+      "capacidadeGeladeiraL": 251,
+      "capacidadeFreezerL": 46,
+      "consumoKwhMes": 24.7,
+      "classificacaoEnergetica": "B",
+      "niveisTemperatura": 5,
+      "painel": "Eletrônico externo",
+      "alarmePortaAberta": false,
+      "nivelRuidoDb": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "630 × 1540 × 650",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GJT5VTTJ"
+    },
+    "fontes": [
+      {
+        "id": "consul-crb36mb-oficial",
+        "titulo": "Consul CRB36MB — página oficial da Consul",
+        "url": "https://www.consul.com.br/geladeira-frost-free-297-litros-consul-com-painel-externo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Uma porta com freezer interno, Frost Free, geladeira de 251 L e freezer de 46 L — que somam os 297 L do nome do produto —, consumo de 24,7 kWh, eficiência energética B, 5 níveis de temperatura, painel eletrônico externo com display de LED, porta reversível, 1 gaveta, 63 × 154 × 65 cm e garantia de 12 meses. É a única da lista com selo B. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0GJT5VTTJ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GJT5VTTJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "capacidadeTotalL",
+        "fonteAdotada": "Consul",
+        "valorDivergente": "300 L num campo da mesma página",
+        "fonteDivergente": "Consul",
+        "observacao": "O nome do produto diz 297 litros e a soma dos compartimentos publicados — 251 de geladeira e 46 de freezer — dá exatamente 297. Um campo solto da mesma página traz \"300 L.\". A ficha adota o 297, que é o número que fecha com a própria divisão da Consul, e registra o outro aqui."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/consul-crb36mb.webp",
+      "alt": "Geladeira Consul CRB36MB branca de uma porta com painel externo",
+      "credito": "Imagem: Consul",
+      "origem": "https://www.consul.com.br/geladeira-frost-free-297-litros-consul-com-painel-externo/p"
+    }
+  },
+  {
+    "slug": "brastemp-brm46mk",
+    "nome": "Brastemp BRM46MK",
+    "marca": "Brastemp",
+    "modelo": "BRM46MK",
+    "categoria": "geladeiras",
+    "resumo": "Trezentos e oitenta e cinco litros anunciados, 291 de geladeira. O freezer de 94 litros é o mesmo da Consul de 377 — as duas marcas são da mesma casa e publicam a mesma ficha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Duplex (2 portas)",
+      "portas": 2,
+      "degelo": "Frost Free",
+      "capacidadeTotalL": 385,
+      "capacidadeGeladeiraL": 291,
+      "capacidadeFreezerL": 94,
+      "consumoKwhMes": 25.1,
+      "classificacaoEnergetica": "A",
+      "niveisTemperatura": 5,
+      "painel": "Eletrônico interno, display de LED",
+      "alarmePortaAberta": false,
+      "nivelRuidoDb": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "621 × 1766 × 721",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GL3Q3PTG"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-brm46mk-oficial",
+        "titulo": "Brastemp BRM46MK — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/geladeira-brastemp-frost-free-inox-385l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, Frost Free, geladeira de 291 L e freezer de 94 L, consumo de 25,1 kWh, eficiência A, 5 níveis de temperatura, painel eletrônico interno com display de LED, sem alarme de porta aberta, 3 gavetas, prateleiras removíveis, 62,1 × 176,6 × 72,1 cm e garantia de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0GL3Q3PTG",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GL3Q3PTG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-brm46mk.webp",
+      "alt": "Geladeira Brastemp BRM46MK inox de duas portas, vista de frente",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/geladeira-brastemp-frost-free-inox-385l/p"
+    }
+  },
+  {
+    "slug": "brastemp-bro85mk",
+    "nome": "Brastemp BRO85MK French Door",
+    "marca": "Brastemp",
+    "modelo": "BRO85MK",
+    "categoria": "geladeiras",
+    "resumo": "Três portas, 381 litros de geladeira e 178 de freezer. É a única da lista com alarme de porta aberta entre as Whirlpool — e a que mais gasta: 31,3 kWh por mês.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "French Door (3 portas)",
+      "portas": 3,
+      "degelo": "Frost Free",
+      "capacidadeTotalL": 559,
+      "capacidadeGeladeiraL": 381,
+      "capacidadeFreezerL": 178,
+      "consumoKwhMes": 31.3,
+      "classificacaoEnergetica": "A",
+      "niveisTemperatura": 5,
+      "painel": "Eletrônico externo, display de LED",
+      "alarmePortaAberta": true,
+      "nivelRuidoDb": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "836 × 1857 × 793",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G66RF81Z"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-bro85mk-oficial",
+        "titulo": "Brastemp BRO85MK — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/geladeira-french-door-3-portas-inox-design-e-tecnologia-premium-bro85mk-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "French Door de 3 portas com freezer embaixo, Frost Free, geladeira de 381 L e freezer de 178 L, consumo de 31,3 kWh, eficiência A, 5 níveis de temperatura, painel eletrônico externo com display de LED, alarme de porta aberta, 83,6 × 185,7 × 79,3 cm e garantia de 12 meses. A capacidade total não é publicada como número: o campo traz a faixa de filtro \"Super Alta - Acima de 550L\", e os 559 L da ficha são a soma dos dois compartimentos que a própria Brastemp declara. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0G66RF81Z",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G66RF81Z",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-bro85mk.webp",
+      "alt": "Geladeira Brastemp BRO85MK French Door inox de três portas, fechada",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/geladeira-french-door-3-portas-inox-design-e-tecnologia-premium-bro85mk-1/p"
+    }
+  },
+  {
+    "slug": "electrolux-tf38",
+    "nome": "Electrolux TF38",
+    "marca": "Electrolux",
+    "modelo": "TF38",
+    "categoria": "geladeiras",
+    "resumo": "A única geladeira desta lista que publica o ruído: 47,5 dB. Trezentos e vinte litros líquidos, 253 de geladeira.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Duplex (2 portas)",
+      "portas": 2,
+      "degelo": "Frost Free",
+      "capacidadeTotalL": 320,
+      "capacidadeGeladeiraL": 253,
+      "capacidadeFreezerL": 67,
+      "consumoKwhMes": 30.9,
+      "classificacaoEnergetica": null,
+      "niveisTemperatura": null,
+      "painel": null,
+      "alarmePortaAberta": true,
+      "nivelRuidoDb": 47.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 50,
+      "dimensoesMm": "604 × 1700 × 642",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FVMH1K2Y"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-tf38-oficial",
+        "titulo": "Electrolux TF38 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-320l-duplex-branca-tf38/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Duplex de 2 portas, Frost Free, capacidade líquida total de 320 L com 253 L de refrigerador e 67 L de freezer — as capacidades brutas são 257 e 79 —, consumo de 30,9 kWh/mês, nível de ruído de 47,5 dB, alarme de porta aberta, função turbo freezer, 60,4 × 170 × 64,2 cm, 50 kg de produto e 52 kg com embalagem, 127 V/220 V e garantia de 12 meses. A Electrolux publica capacidade bruta e líquida de cada compartimento, consumo mensal, peso do produto e da embalagem separados, tensão e dimensões. **Não publica eficiência energética nem níveis de temperatura** em nenhum modelo desta lista.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FVMH1K2Y",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FVMH1K2Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-tf38.webp",
+      "alt": "Geladeira Electrolux TF38 branca de duas portas, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-320l-duplex-branca-tf38/p"
+    }
+  },
+  {
+    "slug": "electrolux-if44",
+    "nome": "Electrolux IF44 AutoSense",
+    "marca": "Electrolux",
+    "modelo": "IF44",
+    "categoria": "geladeiras",
+    "resumo": "Quatrocentos litros e 25,9 kWh por mês — menos que a de 320 litros da mesma marca. O campo de ruído dela publica 463 dB, que não existe.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Duplex (2 portas)",
+      "portas": 2,
+      "degelo": "Frost Free",
+      "capacidadeTotalL": 400,
+      "capacidadeGeladeiraL": 286,
+      "capacidadeFreezerL": 114,
+      "consumoKwhMes": 25.9,
+      "classificacaoEnergetica": null,
+      "niveisTemperatura": null,
+      "painel": "Sem painel digital",
+      "alarmePortaAberta": true,
+      "nivelRuidoDb": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 53,
+      "dimensoesMm": "604 × 1835 × 712",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FVPLDKKG"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-if44-oficial",
+        "titulo": "Electrolux IF44 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-400l-autosense-inverter-duplex-branca--if44-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Duplex de 2 portas, Frost Free, capacidade líquida total de 400 L com 286 L de refrigerador e 114 L de freezer — a bruta do freezer é 128 —, consumo de 25,9 kWh/mês, faixa de temperatura do freezer de -15 a -23 °C, alarme de porta aberta, função turbo freezer, sem painel digital, 60,4 × 183,5 × 71,2 cm, 53 kg, 127 V/220 V e garantia de 12 meses. O nível de ruído publicado não entrou: ver a divergência. A Electrolux publica capacidade bruta e líquida de cada compartimento, consumo mensal, peso do produto e da embalagem separados, tensão e dimensões. **Não publica eficiência energética nem níveis de temperatura** em nenhum modelo desta lista. A foto oficial servida por esta página tem nome de arquivo Refrigerator_TF44 — a Electrolux usa o asset do TF44 na página do IF44, mesmo padrão do M170 da Logitech e do EX3000 da TP-Link. É a galeria da própria página do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FVPLDKKG",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FVPLDKKG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "nivelRuidoDb",
+        "fonteAdotada": "Electrolux",
+        "valorDivergente": "463 dB",
+        "fonteDivergente": "Electrolux",
+        "observacao": "A página publica \"Nível de ruído (dB): 463 dB\". A página do TF38, da mesma marca e do mesmo tipo de produto, publica 47,5 dB. Uma geladeira de 463 dB não existe — é um número maior que o de qualquer som já medido. Provavelmente falta uma vírgula. O campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-if44.webp",
+      "alt": "Geladeira Electrolux IF44 branca de duas portas, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-400l-autosense-inverter-duplex-branca--if44-/p"
+    }
+  },
+  {
+    "slug": "electrolux-dc35a",
+    "nome": "Electrolux DC35A",
+    "marca": "Electrolux",
+    "modelo": "DC35A",
+    "categoria": "geladeiras",
+    "resumo": "Cycle defrost, não frost free: forma gelo e precisa degelar. Duzentos e sessenta litros, dos quais 207 de geladeira, e 28,5 kWh por mês — mais que a de 400 litros da mesma marca.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Duplex (2 portas)",
+      "portas": 2,
+      "degelo": "Cycle Defrost",
+      "capacidadeTotalL": 260,
+      "capacidadeGeladeiraL": 207,
+      "capacidadeFreezerL": 53,
+      "consumoKwhMes": 28.5,
+      "classificacaoEnergetica": null,
+      "niveisTemperatura": null,
+      "painel": "Sem painel eletrônico",
+      "alarmePortaAberta": false,
+      "nivelRuidoDb": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 49,
+      "dimensoesMm": "548 × 1619 × 613",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07K29F3SB"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-dc35a-oficial",
+        "titulo": "Electrolux DC35A — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/geladeira-refrigerador-cycle-defrost-260l-branco-dc35a-electrolux/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Duplex de 2 portas, degelo Cycle Defrost, capacidade total de 260 L com 207 L líquidos de refrigerador — 211 brutos — e 53 L de freezer, consumo de 28,5 kWh, sem painel eletrônico, sem alarme de porta aberta, porta latas, 54,8 × 161,9 × 61,3 cm, 49 kg, 127 V/220 V e garantia de 1 ano, com 90 dias para vidros, acessórios e lâmpadas. O número de portas saiu do nome do produto na própria página, que diz Duplex. A Electrolux publica capacidade bruta e líquida de cada compartimento, consumo mensal, peso do produto e da embalagem separados, tensão e dimensões. **Não publica eficiência energética nem níveis de temperatura** em nenhum modelo desta lista.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07K29F3SB",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07K29F3SB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-dc35a.webp",
+      "alt": "Geladeira Electrolux DC35A branca de duas portas, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/geladeira-refrigerador-cycle-defrost-260l-branco-dc35a-electrolux/p"
+    }
+  },
+  {
+    "slug": "electrolux-re31",
+    "nome": "Electrolux RE31",
+    "marca": "Electrolux",
+    "modelo": "RE31",
+    "categoria": "geladeiras",
+    "resumo": "A menor e a mais econômica da lista por uma distância enorme: 13,1 kWh por mês, menos da metade de qualquer outra. Uma porta, 214 litros de geladeira e um freezer de 26.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "1 porta com freezer interno",
+      "portas": 1,
+      "degelo": "Cycle Defrost",
+      "capacidadeTotalL": 240,
+      "capacidadeGeladeiraL": 214,
+      "capacidadeFreezerL": 26,
+      "consumoKwhMes": 13.1,
+      "classificacaoEnergetica": null,
+      "niveisTemperatura": null,
+      "painel": "Sem painel eletrônico",
+      "alarmePortaAberta": false,
+      "nivelRuidoDb": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 39,
+      "dimensoesMm": "550 × 1406 × 611",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076BDR1P7"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-re31-oficial",
+        "titulo": "Electrolux RE31 — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/geladeira-refrigerador-degelo-pratico-240l-cycle-defrost-branco-re31-electrolux/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Uma porta com freezer interno, degelo Cycle Defrost, capacidade total de 240 L com 214 L líquidos de refrigerador e 26 L líquidos de freezer — a bruta do freezer é 38 —, consumo de 13,1 kWh/mês, sem painel eletrônico, sem alarme de porta aberta, porta latas, 55 × 140,6 × 61,1 cm, 39 kg e 127 V/220 V. Esta página não declara prazo de garantia. O número de portas saiu do nome do produto, que diz \"Uma Porta\". A Electrolux publica capacidade bruta e líquida de cada compartimento, consumo mensal, peso do produto e da embalagem separados, tensão e dimensões. **Não publica eficiência energética nem níveis de temperatura** em nenhum modelo desta lista.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B076BDR1P7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076BDR1P7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-re31.webp",
+      "alt": "Geladeira Electrolux RE31 branca de uma porta, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/geladeira-refrigerador-degelo-pratico-240l-cycle-defrost-branco-re31-electrolux/p"
+    }
+  }
+]
