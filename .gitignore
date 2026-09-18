@@ -14,3 +14,6 @@ dados/amazon/
 .agents/
 .claude/skills/
 skills-lock.json
+
+# Cache incremental do TypeScript, gerado por `npx tsc`. Local, nao versionado.
+tsconfig.tsbuildinfo
