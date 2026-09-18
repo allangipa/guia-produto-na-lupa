@@ -622,5 +622,474 @@
         "consultadaEm": "2026-09-14"
       }
     ]
+  },
+  {
+    "slug": "oster-obld100",
+    "nome": "Oster Ultra Power Blender 1000 OBLD100",
+    "marca": "Oster",
+    "modelo": "OBLD100",
+    "categoria": "liquidificadores",
+    "resumo": "Liquidificador portátil de 1000 W que mói direto no copo de viagem. A Oster publica potência, consumo, medidas e peso, e não publica capacidade, velocidades nem lâminas — num aparelho cujo copo é o produto.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": null,
+      "capacidadeUtilL": null,
+      "materialCopo": "Plástico",
+      "potenciaW": 1000,
+      "velocidades": null,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": null,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.615,
+      "dimensoesMm": "140 × 140 × 370 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DPNHNFPY"
+    },
+    "fontes": [
+      {
+        "id": "oster-obld100-oficial",
+        "titulo": "Oster Ultra Power Blender 1000 OBLD100 — página oficial do produto",
+        "url": "https://www.oster.com.br/blender-ultra-power-1000-oster-com-2-copos/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1000 W, consumo de 1 kW/h, 140 × 370 × 140 mm (L × A × P), 2,615 kg, 127 V ou 220 V e 12 meses. A Oster chama o produto de \"Ultra Power Blender 1000 com 2 Copos\"; a listagem da Amazon, de \"Blender Power com 2 Jarras To Go\". É o mesmo OBLD100. A ficha não declara capacidade do copo, velocidades, rpm, lâminas, função pulsar, filtro nem trava de segurança.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-obld100",
+        "titulo": "Oster Blender Power com 2 Jarras To Go — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DPNHNFPY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo OBLD100-127 e o copo de plástico.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-dg-01",
+    "nome": "Mondial Personal Blender DG-01",
+    "marca": "Mondial",
+    "modelo": "DG-01",
+    "categoria": "liquidificadores",
+    "resumo": "O menor da base: 750 ml e 300 W, de copo pessoal. É também um dos poucos em que capacidade total e útil são o mesmo número — não há tampa roubando volume.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 0.75,
+      "capacidadeUtilL": 0.75,
+      "materialCopo": "San Cristal",
+      "potenciaW": 300,
+      "velocidades": 2,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": true,
+      "filtro": false,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.47,
+      "dimensoesMm": "136 × 313 × 230 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076VYNDMP"
+    },
+    "fontes": [
+      {
+        "id": "mondial-dg01-oficial",
+        "titulo": "Mondial Personal Blender DG-01 — página oficial do produto",
+        "url": "https://www.mondial.com.br/personal-blender-mondial-preto-prata-300w-dg-01-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 ml de capacidade total e útil, copo em San Cristal, 300 W, 2 velocidades, função pulsar e auto-limpeza, sem filtro, 23 × 31,30 × 13,60 cm (A × L × P), 1,470 kg, 127 V ou 220 V e 1 ano. Não declara rpm, lâminas nem trava de segurança.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-dg01",
+        "titulo": "Mondial Personal Blender DG-01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076VYNDMP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo DG-01 e a versão 110 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "walita-ri2244",
+    "nome": "Philips Walita Série 5000 RI2244",
+    "marca": "Philips Walita",
+    "modelo": "RI2244/90",
+    "categoria": "liquidificadores",
+    "resumo": "A ficha mais completa desta categoria: é a única que declara rpm — 23.000 —, e uma das poucas que separa 3 L de copo de 2 L úteis. Dois anos de garantia, o dobro do resto.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 3,
+      "capacidadeUtilL": 2,
+      "materialCopo": "Inox e plástico",
+      "potenciaW": 1400,
+      "velocidades": 12,
+      "rpm": 23000,
+      "laminas": "6 lâminas removíveis",
+      "pulsar": true,
+      "filtro": false,
+      "travaSeguranca": true,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.385,
+      "dimensoesMm": "182 × 163 × 429 (P × L × A)",
+      "garantiaMeses": 24
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08TLH52PQ"
+    },
+    "fontes": [
+      {
+        "id": "walita-ri2244-oficial",
+        "titulo": "Philips Walita Liquidificador Série 5000 RI2244 — página oficial",
+        "url": "https://www.walita.com.br/liquidificador-philips-walita-serie-5000-ri2244-90_ri2244_90_inox/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Copo de 3 L com 2 L úteis, 1400 W, consumo de 1,4 kW/h, 12 velocidades mais pulsar, 23.000 rpm máximos, 6 lâminas removíveis, trava de segurança, base antiderrapante, tecnologia ProBlend, sem filtro, copo de inox e plástico, 42,9 × 16,3 × 18,2 cm, 2,385 kg, cabo de 80 cm, selo INMETRO UL-BR 21.0030 e 2 anos. A página consultada é a variante inox de 220 V; a listagem da Amazon é a de 110 V, com a mesma ficha de motor e copo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ri2244",
+        "titulo": "Philips Walita Série 5000 RI2244 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08TLH52PQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo RI2244 e a jarra inquebrável na versão 110 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ebl1500",
+    "nome": "Electrolux Efficient TriForce EBL1500",
+    "marca": "Electrolux",
+    "modelo": "EBL1500",
+    "categoria": "liquidificadores",
+    "resumo": "Quinze velocidades e 1500 W, o mais potente desta leva. A Electrolux declara trava de segurança, pés emborrachados e jarra livre de BPA — e diz o material da lâmina sem dizer quantas são.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 3.2,
+      "capacidadeUtilL": null,
+      "materialCopo": "Plástico",
+      "potenciaW": 1500,
+      "velocidades": 15,
+      "rpm": null,
+      "laminas": "Aço inoxidável (quantidade não declarada)",
+      "pulsar": true,
+      "filtro": null,
+      "travaSeguranca": true,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.1,
+      "dimensoesMm": "200 × 201 × 445 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FNRZDCCS"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ebl1500-oficial",
+        "titulo": "Electrolux Liquidificador EBL1500 — página oficial do produto",
+        "url": "https://loja.electrolux.com.br/liquidificador-electrolux-1500w-3-2l-efficient-com-triforce-15-velocidades-cinza--ebl1500-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "3,2 L de capacidade total, 1500 W, 15 níveis de velocidade, função pulsar, lâmina de aço inoxidável, jarra de plástico livre de BPA, trava de segurança, pés emborrachados, indicador de volume, 44,5 × 20,1 × 20 cm, 2,1 kg, 127 V ou 220 V e 1 ano. Não declara capacidade útil, rpm, quantas lâminas nem filtro.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ebl1500",
+        "titulo": "Electrolux Liquidificador EBL1500 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FNRZDCCS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o código comercial 4612AVBR406 da versão 127 V e as medidas do fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "cadence-bld701",
+    "nome": "Cadence Blender Zoop Contrast BLD701",
+    "marca": "Cadence",
+    "modelo": "BLD701",
+    "categoria": "liquidificadores",
+    "resumo": "Portátil de 600 W com duas jarras. A Cadence publica a mesma coisa que a Oster publica nos portáteis dela: potência, consumo, medidas, peso e garantia — e nada sobre capacidade, velocidades ou lâminas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": null,
+      "capacidadeUtilL": null,
+      "materialCopo": null,
+      "potenciaW": 600,
+      "velocidades": null,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": null,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.1,
+      "dimensoesMm": "130 × 130 × 365 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09J1LCZL2"
+    },
+    "fontes": [
+      {
+        "id": "cadence-bld701-oficial",
+        "titulo": "Cadence Blender Zoop Contrast BLD701 — página oficial do produto",
+        "url": "https://www.cadence.com.br/blender-zoop-contraste-cadence-com-2-jarras/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "600 W, consumo de 0,6 kW/h, 130 × 365 × 130 mm (L × A × P), 1,10 kg, 127 V ou 220 V, certificação INMETRO e 12 meses. A ficha não declara capacidade das jarras, velocidades, rpm, lâminas, pulsar, filtro nem trava de segurança.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-bld701",
+        "titulo": "Cadence Blender Zoop Contrast — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09J1LCZL2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo BLD701 e a versão 220 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "philco-plq1350",
+    "nome": "Philco Turbo Glass 2,6L PLQ1350",
+    "marca": "Philco",
+    "modelo": "PLQ1350",
+    "categoria": "liquidificadores",
+    "resumo": "Jarra de vidro de 2,6 litros, 1200 W e 12 velocidades. A Philco vende dois aparelhos diferentes com este mesmo código: este, de vidro e 2,6 L sem filtro, e um de 3 L com filtro — mesmo modelo, fichas distintas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 2.6,
+      "capacidadeUtilL": null,
+      "materialCopo": "Vidro",
+      "potenciaW": 1200,
+      "velocidades": 12,
+      "rpm": null,
+      "laminas": "6 lâminas",
+      "pulsar": true,
+      "filtro": false,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08JZCNYZV"
+    },
+    "fontes": [
+      {
+        "id": "philco-plq1350-oficial",
+        "titulo": "Philco Liquidificador Turbo Glass PLQ1350 — página oficial do produto",
+        "url": "https://www.philco.com.br/liquidificador-philco-1200w-2-6l-12-velocidades-turbo-glass-plq1350/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Copo de vidro de 2,6 L, 1200 W, 12 velocidades, 6 lâminas, função pulsar e autolimpeza, função Ice, sobretampa, sem filtro e 360 dias. Na mesma loja, o código PLQ1350 aparece também numa versão inox de 3 L que acompanha filtro. A Philco não declara capacidade útil, rpm, trava de segurança, peso nem dimensões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-plq1350",
+        "titulo": "Philco Liquidificador PLQ1350 Turbo Glass — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08JZCNYZV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que a listagem é a versão Turbo Glass de 127 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-super-force",
+    "nome": "Elgin Super Force 1,9L",
+    "marca": "Elgin",
+    "modelo": "ELG-42LIQ20",
+    "categoria": "liquidificadores",
+    "resumo": "Jarra de vidro de 1,9 litro e 900 W, com apenas 3 velocidades — a menor contagem da base. A Elgin descreve o produto em texto corrido e quase não preenche a tabela de especificações.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 1.9,
+      "capacidadeUtilL": null,
+      "materialCopo": "Vidro",
+      "potenciaW": 900,
+      "velocidades": 3,
+      "rpm": null,
+      "laminas": "Aço inox, faca removível",
+      "pulsar": true,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DTVS8YXP"
+    },
+    "fontes": [
+      {
+        "id": "elgin-superforce-oficial",
+        "titulo": "Elgin Liquidificador Super Force 1,9 L — página oficial do produto",
+        "url": "https://www.elgin.com.br/liquidificador-super-force-19l-900w-preto-e-jarra-de-vidro-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1,9 L, jarra de vidro, 900 W, 3 velocidades mais função pulsar, lâmina de aço inox com faca removível, tampa dosadora, pés antiderrapantes, compatível com lava-louças, versões de 110 V e 220 V e 1 ano. A tabela de especificações da Elgin traz só voltagem, EAN e palavras-chave; o resto veio da descrição escrita da mesma página. Não declara capacidade útil, rpm, filtro, trava de segurança, peso nem dimensões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-superforce",
+        "titulo": "Elgin Liquidificador Super Force — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DTVS8YXP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão 110 V com jarra de vidro. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "arno-ln64",
+    "nome": "Arno Power Max 2200 LN64",
+    "marca": "Arno",
+    "modelo": "LN64",
+    "categoria": "liquidificadores",
+    "resumo": "Os 2200 W mais altos da base, e a diferença mais honesta entre copo e uso: 3,1 litros de volume para 1,75 litro útil. O campo de rpm da Arno está preenchido com \"15\", que é o número de velocidades.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 3.1,
+      "capacidadeUtilL": 1.75,
+      "materialCopo": null,
+      "potenciaW": 2200,
+      "velocidades": 15,
+      "rpm": null,
+      "laminas": "6 lâminas Powelix Pro",
+      "pulsar": null,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V",
+      "pesoKg": 1.88,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GJG5HPBQ"
+    },
+    "divergencias": [
+      {
+        "campo": "rpm",
+        "fonteAdotada": "arno-ln64-oficial",
+        "valorDivergente": "15 rpm",
+        "fonteDivergente": "arno-ln64-oficial",
+        "observacao": "O campo \"Velocidade de Rotação Máxima (rpm)\" da Arno está preenchido com 15 — o mesmo número que ela declara como quantidade de velocidades, duas linhas acima. Quinze rotações por minuto é um quarto de volta por segundo; o Walita RI2244, para comparar, declara 23.000. O campo fica em branco em vez de a ficha publicar o número errado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "arno-ln64-oficial",
+        "titulo": "Arno Liquidificador Power Max 2200 LN64 — página oficial do produto",
+        "url": "https://www.arno.com.br/-liquidificador-arno-powermax-marfim-2200w-127v-2720018833_pai-1-p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Volume de 3,1 L com 1,75 L de capacidade útil, 2200 W, 15 velocidades, 6 lâminas Powelix Pro, cabo de 100 cm, 1,88 kg, registro INMETRO UL-BR 25.0904 e 1 ano. A ficha traz só a altura (20 cm) no bloco de dimensões, sem largura nem profundidade, e por isso o campo de dimensões fica vazio. Não declara material do copo, pulsar, filtro nem trava de segurança.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ln64",
+        "titulo": "Arno Power Max 2200 LN64 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GJG5HPBQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo LN64, a cor marfim e os 3,1 L. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-l-1400-gi",
+    "nome": "Mondial Turbo Glass L-1400 GI",
+    "marca": "Mondial",
+    "modelo": "L-1400-GI",
+    "categoria": "liquidificadores",
+    "resumo": "Jarra de vidro de 2,2 litros que rende 1,5 litro útil — 700 ml de diferença, a maior proporção perdida desta lista. 1400 W e 12 velocidades.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 2.2,
+      "capacidadeUtilL": 1.5,
+      "materialCopo": "Vidro",
+      "potenciaW": 1400,
+      "velocidades": 12,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": true,
+      "filtro": false,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 3.3,
+      "dimensoesMm": "210 × 240 × 420 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C6FTC1Q8"
+    },
+    "fontes": [
+      {
+        "id": "mondial-l1400-oficial",
+        "titulo": "Mondial Liquidificador Turbo Glass L-1400 GI — página oficial do produto",
+        "url": "https://www.mondial.com.br/liquidificador-mondial-turbo-glass-l-1400-gi/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Copo de vidro de 2,2 L com 1,5 L úteis, 1400 W, 12 velocidades, função pulsar e auto-limpeza, sem filtro, 42,00 × 24,00 × 21,00 cm (A × L × P), 3,3 kg, 127 V ou 220 V e 1 ano. Não declara rpm, quantidade de lâminas nem trava de segurança.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-l1400",
+        "titulo": "Mondial Turbo Glass 1400 W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C6FTC1Q8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão 110 V de jarra de vidro. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "oster-oliq606",
+    "nome": "Oster 1100 Full OLIQ606",
+    "marca": "Oster",
+    "modelo": "OLIQ606",
+    "categoria": "liquidificadores",
+    "resumo": "Irmão menor do 1400 Full que já está na base: 1100 W no mesmo copo de 3,2 litros. A Oster segue publicando só potência, consumo, medidas, peso e garantia — a capacidade sai do nome do produto, não da tabela.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeTotalL": 3.2,
+      "capacidadeUtilL": null,
+      "materialCopo": null,
+      "potenciaW": 1100,
+      "velocidades": null,
+      "rpm": null,
+      "laminas": null,
+      "pulsar": null,
+      "filtro": null,
+      "travaSeguranca": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.184,
+      "dimensoesMm": "220 × 205 × 422 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C2JFGFK9"
+    },
+    "fontes": [
+      {
+        "id": "oster-oliq606-oficial",
+        "titulo": "Oster Liquidificador 1100 Full OLIQ606 — página oficial do produto",
+        "url": "https://www.oster.com.br/liquidificador-1100-full-oster-cinza-32l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1100 W, consumo de 1,1 kW/h, 205 × 422 × 220 mm (L × A × P), 2,184 kg, 127 V ou 220 V e 12 meses. Os 3,2 L vêm do nome do produto na própria loja; a tabela não traz capacidade. Também não declara capacidade útil, material do copo, velocidades, rpm, lâminas, pulsar, filtro nem trava de segurança.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-oliq606",
+        "titulo": "Oster 1100 Full 3,2 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C2JFGFK9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo OLIQ606-127. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]
