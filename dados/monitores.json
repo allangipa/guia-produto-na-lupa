@@ -695,5 +695,95 @@
         "consultadaEm": "2026-09-14"
       }
     ]
+  },
+  {
+    "slug": "samsung-odyssey-g5-27",
+    "nome": "Samsung Odyssey G5 27\" QHD",
+    "marca": "Samsung",
+    "modelo": "LS27CG552",
+    "categoria": "monitores",
+    "resumo": "QHD de 165 Hz com painel VA e contraste de 2.500:1 — o dobro do IPS típico da categoria. A Samsung declara 1 ms em MPRT, que não é a mesma medida do GtG.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 27,
+      "resolucao": "2560 × 1440 (QHD)",
+      "painel": "VA",
+      "taxaHz": 165,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "MPRT (não é GtG — a Samsung declara só esta medida)",
+      "brilhoNits": 300,
+      "contraste": "2500:1",
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": "AMD FreeSync",
+      "hdmi": "1 × HDMI 2.0",
+      "displayPort": "1 × DisplayPort",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": null,
+      "vesa": null,
+      "pesoKg": 4.1,
+      "dimensoesMm": "616,6 × 477,4 × 272,6 (L × A × P, com base)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DWQK1Q8S"
+    },
+    "fontes": [
+      {
+        "id": "samsung-g5-27-api",
+        "titulo": "Samsung Odyssey G5 27\" — ficha da Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-27-polegadas/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "QHD de 2.560 × 1.440, 165 Hz, 1 ms em MPRT, painel VA, brilho de 300 cd/m² típico e 200 mínimo, contraste de 2.500:1, uma DisplayPort e uma HDMI 2.0, 616,6 × 477,4 × 272,6 mm e 4,1 kg com a base, 12 meses de garantia. Não declara cobertura sRGB, HDR, alto-falantes, ajuste de altura, VESA nem consumo.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-odyssey-g5-34",
+    "nome": "Samsung Odyssey G5 34\" UWQHD",
+    "marca": "Samsung",
+    "modelo": "LC34G55TWWLM",
+    "categoria": "monitores",
+    "resumo": "Ultrawide curvo de 34 polegadas, 3.440 × 1.440 a 165 Hz, com curvatura 1000R e HDR10. O brilho declarado é de 250 cd/m² — o menor entre os monitores grandes da base.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 34,
+      "resolucao": "3440 × 1440 (UWQHD)",
+      "painel": "VA curvo, curvatura 1000R",
+      "taxaHz": 165,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "MPRT (não é GtG — a Samsung declara só esta medida)",
+      "brilhoNits": 250,
+      "contraste": "2500:1",
+      "coresSrgb": null,
+      "hdr": "HDR10",
+      "sincronizacao": "AMD FreeSync Premium",
+      "hdmi": "1 × HDMI 2.0",
+      "displayPort": "1 × DisplayPort",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": null,
+      "vesa": null,
+      "pesoKg": 5.6,
+      "dimensoesMm": "806,6 × 475,3 × 272,6 (L × A × P, com base)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D3J76C63"
+    },
+    "fontes": [
+      {
+        "id": "samsung-g5-34-api",
+        "titulo": "Samsung Odyssey G5 34\" — ficha da Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-34-uwqhd-curvo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "UWQHD de 3.440 × 1.440, 165 Hz, 1 ms em MPRT, painel VA com curvatura 1000R, brilho de 250 cd/m², contraste de 2.500:1, HDR10, AMD FreeSync Premium, uma DisplayPort e uma HDMI 2.0, 806,6 × 475,3 × 272,6 mm e 5,6 kg com a base (5,2 kg sem), 12 meses de garantia. Não declara cobertura sRGB, alto-falantes, ajuste de altura, VESA nem consumo.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]

@@ -56,5 +56,17 @@
     "origem": "https://www.logitech.com/pt-br/products/headsets/h111-stereo-headset.981-000612.html",
     "credito": "Imagem: Logitech",
     "alt": "Headset estéreo Logitech H111"
+  },
+  "samsung-odyssey-g5-27": {
+    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/243534/01-SA365_SMG_OdysseyG5-27_Galeria_1000x1000_01_20250124.jpg.jpg",
+    "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-27-polegadas/p",
+    "credito": "Imagem: Samsung",
+    "alt": "Monitor gamer Samsung Odyssey G5 de 27 polegadas, visto de frente"
+  },
+  "samsung-odyssey-g5-34": {
+    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/233373/1.jpg",
+    "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-34-uwqhd-curvo/p",
+    "credito": "Imagem: Samsung",
+    "alt": "Monitor curvo ultrawide Samsung Odyssey G5 de 34 polegadas"
   }
 }
