@@ -1,0 +1,326 @@
+[
+  {
+    "slug": "kingston-nv3-1tb",
+    "nome": "Kingston NV3 1 TB",
+    "marca": "Kingston",
+    "modelo": "NV3 1TB",
+    "categoria": "armazenamento",
+    "resumo": "A ficha mais completa da categoria: a Kingston publica leitura e escrita separadas, TBW por capacidade e até o tempo médio entre falhas. São 320 TB de escrita garantidos — mais de 170 GB por dia durante os cinco anos de garantia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "SSD interno M.2 NVMe",
+      "capacidadeGb": 1000,
+      "interface": "NVMe PCIe 4.0 x4",
+      "conector": "M.2 2280",
+      "leituraMbs": 6000,
+      "escritaMbs": 4000,
+      "memoriaTipo": "NAND 3D",
+      "durabilidadeTbw": 320,
+      "resistencia": null,
+      "criptografia": null,
+      "dimensoesMm": "80 × 22 × 2,3",
+      "pesoG": 7,
+      "garantiaMeses": 60
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DBR3DZWG"
+    },
+    "fontes": [
+      {
+        "id": "kingston-nv3-oficial",
+        "titulo": "Kingston NV3 — página oficial da Kingston Brasil",
+        "url": "https://www.kingston.com/br/ssd/nv3-nvme-pcie-ssd",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Formato M.2 2280, interface NVMe PCIe 4.0 x4, NAND 3D, leitura e gravação sequenciais de 6.000 e 4.000 MB/s na versão de 1 TB, resistência de 320 TB gravados, temperatura de operação de 0 a 70 °C e de armazenamento de -40 a 85 °C, 22 × 80 × 2,3 mm, 7 g em todas as capacidades, tempo médio entre falhas de 2.000.000 horas e garantia limitada de 5 anos com suporte técnico gratuito. A Kingston não declara resistência física nem criptografia por hardware neste modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-nv3-1tb",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DBR3DZWG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 1 TB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "kingston-nv3-500gb",
+    "nome": "Kingston NV3 500 GB",
+    "marca": "Kingston",
+    "modelo": "NV3 500GB",
+    "categoria": "armazenamento",
+    "resumo": "Metade da capacidade do irmão de 1 TB e mais de um terço a menos de velocidade de escrita: 3.000 contra 4.000 MB/s. Em SSD, capacidade menor quase sempre significa escrita mais lenta — e a Kingston é das poucas que deixa isso na tabela.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "SSD interno M.2 NVMe",
+      "capacidadeGb": 500,
+      "interface": "NVMe PCIe 4.0 x4",
+      "conector": "M.2 2280",
+      "leituraMbs": 5000,
+      "escritaMbs": 3000,
+      "memoriaTipo": "NAND 3D",
+      "durabilidadeTbw": 160,
+      "resistencia": null,
+      "criptografia": null,
+      "dimensoesMm": "80 × 22 × 2,3",
+      "pesoG": 7,
+      "garantiaMeses": 60
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DBR9RZLV"
+    },
+    "fontes": [
+      {
+        "id": "kingston-nv3-oficial",
+        "titulo": "Kingston NV3 — página oficial da Kingston Brasil",
+        "url": "https://www.kingston.com/br/ssd/nv3-nvme-pcie-ssd",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Mesma tabela do NV3 de 1 TB, na linha de 500 GB: leitura e gravação de 5.000 e 3.000 MB/s e resistência de 160 TB gravados. Formato M.2 2280, NVMe PCIe 4.0 x4, NAND 3D, 22 × 80 × 2,3 mm, 7 g, MTBF de 2.000.000 horas e 5 anos de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-nv3-500gb",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DBR9RZLV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 500 GB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "kingston-a400-480gb",
+    "nome": "Kingston A400 480 GB",
+    "marca": "Kingston",
+    "modelo": "A400 480GB",
+    "categoria": "armazenamento",
+    "resumo": "O SSD de 2,5 polegadas para trocar o HD de um computador antigo. Os 500 MB/s são o teto do barramento SATA, não do disco — e é por isso que ele custa menos que um NVMe sem ser dez vezes mais lento na prática.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "SSD interno SATA 2,5 pol",
+      "capacidadeGb": 480,
+      "interface": "SATA Rev. 3.0 (6 Gb/s)",
+      "conector": "2,5 polegadas",
+      "leituraMbs": 500,
+      "escritaMbs": 450,
+      "memoriaTipo": "NAND 3D",
+      "durabilidadeTbw": 160,
+      "resistencia": null,
+      "criptografia": null,
+      "dimensoesMm": "100 × 69,9 × 7",
+      "pesoG": 41,
+      "garantiaMeses": 36
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B01N0TQPQB"
+    },
+    "fontes": [
+      {
+        "id": "kingston-a400-oficial",
+        "titulo": "Kingston A400 — página oficial da Kingston Brasil",
+        "url": "https://www.kingston.com/br/ssd/a400-solid-state-drive",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Formato de 2,5 polegadas, SATA Rev. 3.0 de 6 Gb/s compatível com a 2.0, NAND 3D, até 500 MB/s de leitura e 450 de gravação na versão de 480 GB medidos em ATTO, resistência de 160 TB gravados, consumo de 0,195 W ocioso a 1,535 W em gravação, temperatura de operação de 0 a 70 °C, 100 × 69,9 × 7 mm, 41 g, MTBF de 2.000.000 horas e 3 anos de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-a400-480",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B01N0TQPQB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo SA400S37/480G. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "sandisk-ultra-flair-32gb",
+    "nome": "SanDisk Ultra Flair 32 GB",
+    "marca": "SanDisk",
+    "modelo": "SDCZ73-032G-G46",
+    "categoria": "armazenamento",
+    "resumo": "A SanDisk declara 150 MB/s de leitura e nenhuma palavra sobre escrita — que é o número que decide quanto tempo leva para copiar arquivo para dentro. É o único dos quatro pen drives da base com corpo de metal e cinco anos de garantia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pen drive",
+      "capacidadeGb": 32,
+      "interface": "USB 3.0",
+      "conector": "USB-A",
+      "leituraMbs": 150,
+      "escritaMbs": null,
+      "memoriaTipo": null,
+      "durabilidadeTbw": null,
+      "resistencia": null,
+      "criptografia": null,
+      "dimensoesMm": "42,9 × 13,0 × 7,1",
+      "pesoG": 4.5,
+      "garantiaMeses": 60
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B015CH1JIW"
+    },
+    "fontes": [
+      {
+        "id": "sandisk-flair-oficial",
+        "titulo": "SanDisk Ultra Flair USB 3.0 — página oficial da SanDisk",
+        "url": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-flair-usb-3-0",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Leitura sequencial de até 150 MB/s, interface USB 3.0 compatível com 2.0, 1,69 × 0,51 × 0,28 pol, 4,5 g, temperatura de operação de 0 a 35 °C e de repouso de -10 a 70 °C, garantia limitada de 5 anos e proteção por senha via software SanDisk. Medidas convertidas para milímetros. A SanDisk não declara velocidade de escrita, tipo de memória, durabilidade em TBW nem criptografia por hardware — a proteção oferecida é por programa, não pelo controlador.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ultra-flair",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B015CH1JIW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 32 GB e os 150 MB/s do título. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "sandisk-ultra-shift-32gb",
+    "nome": "SanDisk Ultra Shift 32 GB",
+    "marca": "SanDisk",
+    "modelo": "SDCZ410-032G-G46",
+    "categoria": "armazenamento",
+    "resumo": "USB 3.2 Gen 1 e 100 MB/s de leitura declarados — um terço a menos que o Ultra Flair, que é USB 3.0. A ficha sai sem dimensões: a SanDisk publica a primeira medida em milímetros e as outras duas em polegadas, na mesma linha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pen drive",
+      "capacidadeGb": 32,
+      "interface": "USB 3.2 Gen 1",
+      "conector": "USB-A",
+      "leituraMbs": 100,
+      "escritaMbs": null,
+      "memoriaTipo": null,
+      "durabilidadeTbw": null,
+      "resistencia": null,
+      "criptografia": null,
+      "dimensoesMm": null,
+      "pesoG": 3,
+      "garantiaMeses": 60
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08K7PBBDC"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "sandisk-shift-oficial",
+        "valorDivergente": "1,63 mm × 0,69 pol × 0,29 pol",
+        "fonteDivergente": "sandisk-shift-oficial",
+        "observacao": "A tabela da SanDisk escreve as três medidas assim: \"1.63mm x 0.69\\\" x 0.29\\\"\". Um pen drive de 1,63 mm de comprimento não existe, e 1,63 polegada é exatamente o comprimento que a mesma marca publica para o Cruzer Blade. É erro de unidade na ficha do fabricante, e por isso o campo fica em branco em vez de a ficha escolher a leitura que parece certa."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "sandisk-shift-oficial",
+        "titulo": "SanDisk Ultra Shift USB 3.2 Gen 1 — página oficial da SanDisk",
+        "url": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-shift-usb-3-0",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Leitura sequencial de 100 MB/s, interface USB 3.2 Gen 1, 3 g, temperatura de operação de 0 a 45 °C, garantia limitada de 5 anos e proteção por senha via programa para baixar. A SanDisk não declara velocidade de escrita, tipo de memória nem TBW, e publica as dimensões misturando milímetro e polegada na mesma linha.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ultra-shift",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08K7PBBDC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 32 GB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "sandisk-cruzer-glide-64gb",
+    "nome": "SanDisk Cruzer Glide 3.0 64 GB",
+    "marca": "SanDisk",
+    "modelo": "SDCZ600-064G-G35",
+    "categoria": "armazenamento",
+    "resumo": "Conector retrátil, sem tampa para perder. É USB 3.0 e a SanDisk não declara velocidade nenhuma — nem leitura, nem escrita. \"Mais rápido que um USB 2.0\" é o que a página promete, sem número.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pen drive",
+      "capacidadeGb": 64,
+      "interface": "USB 3.0",
+      "conector": "USB-A retrátil",
+      "leituraMbs": null,
+      "escritaMbs": null,
+      "memoriaTipo": null,
+      "durabilidadeTbw": null,
+      "resistencia": null,
+      "criptografia": null,
+      "dimensoesMm": "59,4 × 21,8 × 8,4",
+      "pesoG": 9.07,
+      "garantiaMeses": 60
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B017RD10X8"
+    },
+    "fontes": [
+      {
+        "id": "sandisk-glide-oficial",
+        "titulo": "SanDisk Cruzer Glide 3.0 — página oficial da SanDisk",
+        "url": "https://www.sandisk.com/products/usb-flash-drives/sandisk-cruzer-glide-usb-3-0",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Interface USB 3.0 compatível com 2.0, desenho com conector retrátil, 2,34 × 0,86 × 0,33 pol, 9,07 g, temperatura de operação de 0 a 45 °C e garantia limitada de 5 anos. Medidas convertidas para milímetros. A SanDisk não publica nenhuma velocidade para este modelo — a página diz apenas que é \"mais rápido que um drive USB 2.0\" —, nem tipo de memória, TBW ou criptografia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-cruzer-glide",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B017RD10X8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 64 GB do Cruzer Glide 3.0. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "sandisk-cruzer-blade-64gb",
+    "nome": "SanDisk Cruzer Blade 64 GB",
+    "marca": "SanDisk",
+    "modelo": "SDCZ50-064G-B35",
+    "categoria": "armazenamento",
+    "resumo": "O pen drive mais vendido do país é USB 2.0 — teto de 60 MB/s no barramento, antes de a memória contar. A SanDisk não declara velocidade alguma, e a garantia é de dois anos, contra os cinco dos outros três.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pen drive",
+      "capacidadeGb": 64,
+      "interface": "USB 2.0",
+      "conector": "USB-A",
+      "leituraMbs": null,
+      "escritaMbs": null,
+      "memoriaTipo": null,
+      "durabilidadeTbw": null,
+      "resistencia": null,
+      "criptografia": null,
+      "dimensoesMm": "41,4 × 17,5 × 7,4",
+      "pesoG": 3,
+      "garantiaMeses": 24
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B00BX5FOCK"
+    },
+    "fontes": [
+      {
+        "id": "sandisk-blade-oficial",
+        "titulo": "SanDisk Cruzer Blade USB 2.0 — página oficial da SanDisk",
+        "url": "https://www.sandisk.com/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Interface USB 2.0, capacidades de 16 a 128 GB, 1,63 × 0,69 × 0,29 pol, 3 g, temperatura de operação de 0 a 45 °C, garantia limitada de 2 anos e proteção por senha com AES de 128 bits pelo programa SecureAccess. Medidas convertidas para milímetros. A SanDisk não declara velocidade de leitura nem de escrita, tipo de memória ou TBW; a criptografia oferecida é por programa, não pelo controlador.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-cruzer-blade",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B00BX5FOCK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 64 GB e o código SDCZ60-064G-B35 da listagem, que difere do SDCZ50 publicado pela SanDisk para a mesma capacidade.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  }
+]
