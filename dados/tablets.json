@@ -707,5 +707,574 @@
         "origem": "https://www.lenovo.com/br/pt/p/tablets/android-tablets/lenovo-tab-series/lenovo-idea-tab-plus/zag70942br"
       }
     ]
+  },
+  {
+    "slug": "samsung-galaxy-tab-s11",
+    "nome": "Samsung Galaxy Tab S11 Wi-Fi",
+    "marca": "Samsung",
+    "modelo": "SM-X730",
+    "categoria": "tablets",
+    "resumo": "Dimensity 9400+ e 12 GB de RAM numa tela AMOLED de 11\", com S Pen e capa teclado na caixa. A Samsung não declara a taxa de atualização nem o brilho de um painel que vende como principal atributo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 11,
+      "resolucao": "2560 × 1600 (WQXGA), Dynamic AMOLED 2X",
+      "taxaHz": null,
+      "brilhoNits": null,
+      "chip": "MediaTek Dimensity 9400+ (até 3,73 GHz)",
+      "memoriaRamGb": 12,
+      "armazenamento": "256 GB, mais microSD até 2 TB",
+      "rede": "Só Wi-Fi",
+      "wifi": "Sim (versão não declarada)",
+      "usb": null,
+      "canetaInclusa": true,
+      "altoFalantes": null,
+      "cameraTraseiraMp": 13,
+      "cameraFrontalMp": 12,
+      "bateriaMah": 8400,
+      "cargaW": null,
+      "carregadorNaCaixa": null,
+      "sistema": "Android 16",
+      "atualizacoes": null,
+      "pesoG": 469,
+      "espessuraMm": 5.5,
+      "dimensoesMm": "253,8 × 165,3 × 5,5",
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FNT69RYY"
+    },
+    "fontes": [
+      {
+        "id": "samsung-tab-s11-oficial",
+        "titulo": "Samsung Galaxy Tab S11 Wi-Fi — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-tab-s11-wifi/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela Dynamic AMOLED 2X de 11\" 2560 × 1600 (WQXGA), Dimensity 9400+ até 3,73 GHz, 12 GB de RAM, 256 GB com microSD até 2 TB, câmera traseira de 13 MP e frontal de 12 MP, vídeo em 4K a 30 fps, 8400 mAh com carregamento rápido, Bluetooth 5.4, sem NFC e sem rede móvel, leitor de digital na tela, S Pen e capa teclado inclusas, 253,8 × 165,3 × 5,5 mm, 469 g, Android 16, homologação Anatel 031392500953 e 12 meses. A Samsung não declara taxa de atualização, brilho, versão do Wi-Fi, USB, alto-falantes, potência de carregamento nem proteção contra água.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tab-s11",
+        "titulo": "Samsung Galaxy Tab S11 Wi-Fi — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FNT69RYY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão Wi-Fi de 256 GB com 12 GB de RAM. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-tab-s11-ultra",
+    "nome": "Samsung Galaxy Tab S11 Ultra",
+    "marca": "Samsung",
+    "modelo": "SM-X930",
+    "categoria": "tablets",
+    "resumo": "O maior da base: 14,6 polegadas e 11.600 mAh, com 5,1 mm de espessura. É também o único que declara a versão do USB — 3.2 Gen 1 —, campo que a Samsung deixa em branco nos outros três tablets desta leva.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 14.6,
+      "resolucao": "2960 × 1848 (WQXGA+), Dynamic AMOLED 2X",
+      "taxaHz": null,
+      "brilhoNits": null,
+      "chip": "MediaTek Dimensity 9400+ (até 3,73 GHz)",
+      "memoriaRamGb": 12,
+      "armazenamento": "512 GB, mais microSD até 2 TB",
+      "rede": "Só Wi-Fi",
+      "wifi": "Sim (versão não declarada)",
+      "usb": "USB 3.2 Gen 1",
+      "canetaInclusa": true,
+      "altoFalantes": null,
+      "cameraTraseiraMp": 8,
+      "cameraFrontalMp": 12,
+      "bateriaMah": 11600,
+      "cargaW": null,
+      "carregadorNaCaixa": null,
+      "sistema": "Android 16",
+      "atualizacoes": null,
+      "pesoG": 692,
+      "espessuraMm": 5.1,
+      "dimensoesMm": "326,3 × 208,5 × 5,1",
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FNSN78JY"
+    },
+    "fontes": [
+      {
+        "id": "samsung-tab-s11-ultra-oficial",
+        "titulo": "Samsung Galaxy Tab S11 Ultra — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-tab-s11-ultra/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela Dynamic AMOLED 2X de 14,6\" 2960 × 1848 (WQXGA+), Dimensity 9400+ até 3,73 GHz, 12 GB de RAM, 512 GB com microSD até 2 TB, câmera traseira de 8 MP e frontal de 12 MP, vídeo em 4K a 30 fps, 11.600 mAh, USB 3.2 Gen 1, Bluetooth 5.4, sem NFC e sem rede móvel, S Pen e capa teclado inclusas, 326,3 × 208,5 × 5,1 mm, 692 g, Android 16, homologação Anatel 035152500953 e 12 meses. Não declara taxa de atualização, brilho, versão do Wi-Fi, alto-falantes, potência de carregamento nem proteção contra água.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tab-s11-ultra",
+        "titulo": "Samsung Galaxy Tab S11 Ultra — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FNSN78JY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 512 GB com 12 GB de RAM. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-tab-s10-fe-plus",
+    "nome": "Samsung Galaxy Tab S10 FE+ Wi-Fi",
+    "marca": "Samsung",
+    "modelo": "SM-X620",
+    "categoria": "tablets",
+    "resumo": "Tela de 13,1\" com 10.090 mAh e carregamento de 45 W — a maior bateria da linha FE. O painel é TFT PLS, não AMOLED: é o que separa o FE do S11 de preço parecido.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 13.1,
+      "resolucao": "2880 × 1800 (WQXGA+), TFT PLS",
+      "taxaHz": 90,
+      "brilhoNits": null,
+      "chip": "Samsung Exynos 1580 (1 × 2,9 + 3 × 2,6 + 4 × 1,9 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "128 GB, mais microSD até 1,5 TB",
+      "rede": "Só Wi-Fi",
+      "wifi": "Sim (versão não declarada)",
+      "usb": "USB 2.0",
+      "canetaInclusa": true,
+      "altoFalantes": null,
+      "cameraTraseiraMp": 13,
+      "cameraFrontalMp": 12,
+      "bateriaMah": 10090,
+      "cargaW": 45,
+      "carregadorNaCaixa": true,
+      "sistema": "Android 15",
+      "atualizacoes": null,
+      "pesoG": 664,
+      "espessuraMm": 6.0,
+      "dimensoesMm": "300,6 × 194,7 × 6,0",
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F6NSM3CW"
+    },
+    "fontes": [
+      {
+        "id": "samsung-tab-s10-fe-plus-oficial",
+        "titulo": "Samsung Galaxy Tab S10 FE+ Wi-Fi — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-tab-s10-plus-fe/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela TFT PLS de 13,1\" 2880 × 1800 (WQXGA+), Exynos 1580, 8 GB de RAM, 128 GB com microSD até 1,5 TB, câmera traseira de 13 MP f/2.0 sem flash e frontal de 12 MP ultra-angular f/2.4, vídeo em 4K a 30 fps, 10.090 mAh com carregamento rápido de 45 W, USB 2.0, Bluetooth 5.3, sem NFC, S Pen, capa e carregador na caixa, 300,6 × 194,7 × 6,0 mm, 664 g, Android 15, homologação Anatel 111562400953 e 12 meses. A Samsung não declara brilho nem proteção contra água; os 90 Hz vêm do título da listagem na Amazon.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tab-s10-fe-plus",
+        "titulo": "Samsung Galaxy Tab S10 FE+ Wi-Fi — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F6NSM3CW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Os 90 Hz da tela, que a ficha da Samsung não traz.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-tab-s9",
+    "nome": "Samsung Galaxy Tab S9",
+    "marca": "Samsung",
+    "modelo": "SM-X710",
+    "categoria": "tablets",
+    "resumo": "A geração anterior do S11, com Snapdragon 8 Gen 2 e a mesma tela AMOLED de 11\". Vem com carregador de 15 W na caixa — o S11 não declara nenhum.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 11,
+      "resolucao": "2560 × 1600 (WQXGA), Dynamic AMOLED 2X",
+      "taxaHz": null,
+      "brilhoNits": null,
+      "chip": "Qualcomm Snapdragon 8 Gen 2 (SM8550, até 3,36 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "128 GB, mais microSD",
+      "rede": "Só Wi-Fi",
+      "wifi": "Sim (versão não declarada)",
+      "usb": null,
+      "canetaInclusa": true,
+      "altoFalantes": null,
+      "cameraTraseiraMp": 13,
+      "cameraFrontalMp": 12,
+      "bateriaMah": 8400,
+      "cargaW": 15,
+      "carregadorNaCaixa": true,
+      "sistema": "Android 13",
+      "atualizacoes": null,
+      "pesoG": 498,
+      "espessuraMm": 5.9,
+      "dimensoesMm": "254,8 × 165,8 × 5,9",
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CCSYG7WM"
+    },
+    "fontes": [
+      {
+        "id": "samsung-tab-s9-oficial",
+        "titulo": "Samsung Galaxy Tab S9 — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-tab-s9/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela Dynamic AMOLED 2X de 11\" 2560 × 1600 (WQXGA), Snapdragon 8 Gen 2 (SM8550) até 3,36 GHz, 8 GB de RAM, 128 GB com microSD, câmera traseira de 13 MP e frontal de 12 MP ultra-angular, vídeo em 4K a 30 fps, 8400 mAh, Bluetooth 5.2, leitor de digital na tela, S Pen, capa teclado, cabo USB-C e carregador de 15 W na caixa, 254,8 × 165,8 × 5,9 mm, 498 g, Android 13, homologação Anatel 71332300953 e 12 meses. Não declara taxa de atualização, brilho, versão do Wi-Fi, USB, alto-falantes nem proteção contra água.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tab-s9",
+        "titulo": "Samsung Galaxy Tab S9 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CCSYG7WM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 256 GB anunciada na listagem, enquanto a página do fabricante descreve a de 128 GB. A ficha segue o fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "apple-ipad-mini-a17-pro",
+    "nome": "Apple iPad mini (A17 Pro)",
+    "marca": "Apple",
+    "modelo": "A2995",
+    "categoria": "tablets",
+    "resumo": "O menor desta lista, com 8,3 polegadas e 293 g. Chip A17 Pro e USB 3 de 10 Gb/s — a porta mais rápida entre os 20 —, mas 500 nits de brilho, o mais baixo entre os que declaram.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 8.3,
+      "resolucao": "2266 × 1488 (326 ppp), Liquid Retina",
+      "taxaHz": null,
+      "brilhoNits": 500,
+      "chip": "A17 Pro (CPU 6 núcleos, GPU 5 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "128 GB, 256 GB ou 512 GB",
+      "rede": "Wi-Fi, com versão 5G vendida à parte",
+      "wifi": "Wi-Fi 6E",
+      "usb": "USB-C com USB 3 (até 10 Gb/s)",
+      "canetaInclusa": false,
+      "altoFalantes": "Estéreo na horizontal",
+      "cameraTraseiraMp": 12,
+      "cameraFrontalMp": 12,
+      "bateriaMah": null,
+      "cargaW": null,
+      "carregadorNaCaixa": null,
+      "sistema": "iPadOS",
+      "atualizacoes": null,
+      "pesoG": 293,
+      "espessuraMm": 6.3,
+      "dimensoesMm": "195,4 × 134,8 × 6,3",
+      "protecaoAgua": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DK48QX66"
+    },
+    "fontes": [
+      {
+        "id": "apple-ipad-mini-specs",
+        "titulo": "iPad mini — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/ipad-mini/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela Liquid Retina de 8,3\" 2266 × 1488 a 326 ppp com 500 nits, chip A17 Pro com CPU de 6 núcleos e GPU de 5, 128, 256 ou 512 GB, câmera traseira grande-angular de 12 MP e frontal Center Stage de 12 MP, até 10 horas de navegação em Wi-Fi, USB-C com USB 3 de até 10 Gb/s, Wi-Fi 6E, Bluetooth 5.3, versão celular 5G, Apple Pencil Pro e Apple Pencil USB-C compatíveis mas vendidos à parte, alto-falantes estéreo, alumínio 100% reciclado, 195,4 × 134,8 × 6,3 mm e 293 g. A Apple não declara mAh, RAM, taxa de atualização, potência de carregamento nem prazo de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ipad-mini",
+        "titulo": "Apple iPad mini A17 Pro 128 GB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DK48QX66",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão Wi-Fi de 128 GB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "positivo-vision-tab-7",
+    "nome": "Positivo Vision TAB 7",
+    "marca": "Positivo",
+    "modelo": "Vision TAB 7",
+    "categoria": "tablets",
+    "resumo": "O único de 7 polegadas da base, e o mais barato. A Positivo publica até o SAR e a homologação da Anatel — e, na mesma tabela, dá dois valores diferentes para a câmera frontal.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 7,
+      "resolucao": "1024 × 600, LCD IPS",
+      "taxaHz": 60,
+      "brilhoNits": null,
+      "chip": "Allwinner A523 (8 × Cortex-A55 1,8 GHz)",
+      "memoriaRamGb": 3,
+      "armazenamento": "64 GB",
+      "rede": "Só Wi-Fi",
+      "wifi": "Wi-Fi 2,4 GHz",
+      "usb": "USB-C",
+      "canetaInclusa": false,
+      "altoFalantes": null,
+      "cameraTraseiraMp": null,
+      "cameraFrontalMp": null,
+      "bateriaMah": 3100,
+      "cargaW": 5,
+      "carregadorNaCaixa": true,
+      "sistema": "Android 14 Go",
+      "atualizacoes": null,
+      "pesoG": 240,
+      "espessuraMm": 8.4,
+      "dimensoesMm": "184,4 × 109,8 × 8,4",
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DCH2G5PC"
+    },
+    "divergencias": [
+      {
+        "campo": "cameraFrontalMp",
+        "fonteAdotada": "positivo-vision-tab-7-oficial",
+        "valorDivergente": "13 MP",
+        "fonteDivergente": "positivo-vision-tab-7-oficial",
+        "observacao": "A mesma tabela da Positivo tem duas linhas de câmera: \"Câmera: Frontal 2 MP\" e \"Câmera Frontal: 13 MP\". Num tablet de entrada com tela de 1024 × 600 e 3.100 mAh, 13 MP na frontal seria incomum, mas a ficha não escolhe por plausibilidade: como o fabricante se contradiz, o campo fica em branco."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "positivo-vision-tab-7-oficial",
+        "titulo": "Positivo Vision TAB 7 — página oficial na Loja Positivo",
+        "url": "https://loja.meupositivo.com.br/tablet-positivo-vision-tab-7-3gb-64gb-octa-core-android-14-go-wi-fi-tela-7-ips-3100mah-preto-11209615/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 7\" LCD IPS 1024 × 600 a 60 Hz em 16:9, Allwinner A523 com oito Cortex-A55 de 1,8 GHz, 3 GB de RAM LPDDR3, 64 GB, Wi-Fi de 2,4 GHz e Bluetooth, USB-C e saída de áudio P2, bateria de 3100 mAh com carregador de 5 W na caixa, Android 14 Go, 240 g, 10,98 × 18,44 × 8,4 cm, SAR de corpo de 0,083 W/kg, homologação Anatel 065412403589 e 12 meses. Não declara brilho, alto-falantes, câmera traseira nem proteção contra água, e publica dois valores diferentes para a câmera frontal.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-vision-tab-7",
+        "titulo": "Positivo Vision TAB 7 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DCH2G5PC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "A listagem anuncia a versão de 3 GB com 64 GB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "positivo-vision-tab-11",
+    "nome": "Positivo Vision TAB 11",
+    "marca": "Positivo",
+    "modelo": "Vision TAB 11",
+    "categoria": "tablets",
+    "resumo": "Tela de 11 polegadas com 4G, capa teclado e caneta na caixa. Em compensação, a Positivo não publica bateria, peso, dimensões nem a resolução em pixels — só \"Full HD\".",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 11,
+      "resolucao": "Full HD (pixels não declarados)",
+      "taxaHz": null,
+      "brilhoNits": null,
+      "chip": "Octa-core (modelo não declarado)",
+      "memoriaRamGb": 4,
+      "armazenamento": "128 GB",
+      "rede": "4G, dual chip",
+      "wifi": null,
+      "usb": null,
+      "canetaInclusa": true,
+      "altoFalantes": null,
+      "cameraTraseiraMp": 13,
+      "cameraFrontalMp": 13,
+      "bateriaMah": null,
+      "cargaW": 10,
+      "carregadorNaCaixa": true,
+      "sistema": "Android",
+      "atualizacoes": null,
+      "pesoG": null,
+      "espessuraMm": null,
+      "dimensoesMm": null,
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GFP5P26Y"
+    },
+    "fontes": [
+      {
+        "id": "positivo-vision-tab-11-oficial",
+        "titulo": "Positivo Vision TAB 11 — página oficial na Loja Positivo",
+        "url": "https://loja.meupositivo.com.br/tablet-positivo-vision-tab-11-com-capa-teclado-caneta-4gb-128gb-4g-11-full-hd-octa-core-preto-3801801/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 11\" Full HD, processador octa-core, 4 GB de RAM, 128 GB, 4G com dual chip, câmeras traseira e frontal de 13 MP, capa com teclado, caneta, carregador de 10 W e cabo na caixa, Android, homologação Anatel 075592503589 e 12 meses. A Positivo não diz qual é o processador, nem a resolução em pixels, a taxa de atualização, o brilho, a bateria, a versão do Android, o peso, as dimensões nem a proteção contra água.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-vision-tab-11",
+        "titulo": "Positivo Vision TAB 11 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GFP5P26Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 4 GB com 128 GB e a capa teclado. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-tab-10",
+    "nome": "Lenovo Tab 10.1\"",
+    "marca": "Lenovo",
+    "modelo": "ZAEH0151BR",
+    "categoria": "tablets",
+    "resumo": "Tela WUXGA de 10,1\" com 400 nits declarados — a Lenovo é uma das poucas marcas desta lista que publica brilho. Alto-falantes duplos com Dolby Atmos e carregamento de 20 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 10.1,
+      "resolucao": "1920 × 1200 (WUXGA), WVA",
+      "taxaHz": null,
+      "brilhoNits": 400,
+      "chip": "MediaTek Helio G85 (2,00 GHz)",
+      "memoriaRamGb": 4,
+      "armazenamento": "64 GB eMMC 5.1",
+      "rede": "Só Wi-Fi",
+      "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "usb": null,
+      "canetaInclusa": false,
+      "altoFalantes": "Dois, com Dolby Atmos",
+      "cameraTraseiraMp": 8,
+      "cameraFrontalMp": 5,
+      "bateriaMah": 5100,
+      "cargaW": 20,
+      "carregadorNaCaixa": null,
+      "sistema": "Android 14",
+      "atualizacoes": null,
+      "pesoG": 458,
+      "espessuraMm": null,
+      "dimensoesMm": null,
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F7HYZV8V"
+    },
+    "fontes": [
+      {
+        "id": "lenovo-tab-10-oficial",
+        "titulo": "Lenovo Tab ZAEH0151BR — página oficial da Lenovo Brasil",
+        "url": "https://www.lenovo.com/br/pt/p/tablets/android-tablets/lenovo-tab-series/lenovo-tab/zaeh0151br",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 10,1\" WUXGA 1920 × 1200 WVA com 400 nits, MediaTek Helio G85 de 2,00 GHz, 4 GB LPDDR4X soldados, 64 GB eMMC 5.1, câmera traseira de 8 MP com foco automático e frontal de 5 MP de foco fixo com desbloqueio facial, bateria de 5.100 mAh, alimentação de 20 W, Wi-Fi 802.11 a/b/g/n/ac e Bluetooth 5.3, alto-falantes duplos com Dolby Atmos, corpo todo em metal, Android 14 ou posterior e 1 ano de garantia. A Lenovo não declara taxa de atualização, USB, peso, dimensões, proteção contra água nem por quantos anos atualiza o sistema.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-lenovo-tab-10",
+        "titulo": "Lenovo Tab 10.1\" — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F7HYZV8V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "458 g — o peso que o fabricante não publica — e a confirmação do código ZAEH0151BR.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-tab-m9",
+    "nome": "Lenovo Tab M9",
+    "marca": "Lenovo",
+    "modelo": "ZAC30198BR",
+    "categoria": "tablets",
+    "resumo": "Nove polegadas em HD, Helio G80 e carregamento de 10 W — o mais lento desta lista. Sai com Android 12, a versão mais antiga entre os 20, num aparelho ainda vendido como novo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 9,
+      "resolucao": "1340 × 800 (HD), WVA",
+      "taxaHz": null,
+      "brilhoNits": 400,
+      "chip": "MediaTek Helio G80 (2,00 GHz)",
+      "memoriaRamGb": 4,
+      "armazenamento": "64 GB eMMC",
+      "rede": "Só Wi-Fi",
+      "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "usb": null,
+      "canetaInclusa": false,
+      "altoFalantes": null,
+      "cameraTraseiraMp": 8,
+      "cameraFrontalMp": 2,
+      "bateriaMah": 5100,
+      "cargaW": 10,
+      "carregadorNaCaixa": null,
+      "sistema": "Android 12",
+      "atualizacoes": null,
+      "pesoG": null,
+      "espessuraMm": null,
+      "dimensoesMm": null,
+      "protecaoAgua": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CCN1VDND"
+    },
+    "fontes": [
+      {
+        "id": "lenovo-tab-m9-oficial",
+        "titulo": "Lenovo Tab M9 ZAC30198BR — página oficial da Lenovo Brasil",
+        "url": "https://www.lenovo.com/br/pt/p/tablets/android-tablets/lenovo-tab-series/lenovo-tab-m9-9-inch-mtk/zac30198br",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela de 9\" HD 1340 × 800 WVA com 400 nits, MediaTek Helio G80 de 2,00 GHz, 4 GB LPDDR4X soldados, 64 GB eMMC, câmera frontal de 2 MP de foco fixo e traseira de 8 MP com foco automático, bateria de polímero de lítio de 5.100 mAh, alimentação de 10 W, Wi-Fi 802.11 a/b/g/n/ac e Bluetooth 5.1, Android 12 ou posterior e 1 ano. A Lenovo não declara taxa de atualização, USB, alto-falantes, peso, dimensões, proteção contra água nem tempo de atualização.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-lenovo-m9",
+        "titulo": "Lenovo Tab M9 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CCN1VDND",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a tela WVA 1340 × 800, a bateria de 5100 mAh e as câmeras de 8 e 2 MP. O campo de peso da listagem traz \"1 quilograma\", que é o peso com embalagem, e por isso não foi adotado.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tcl-tab-11-fe",
+    "nome": "TCL TAB 11 FE",
+    "marca": "TCL",
+    "modelo": "TAB 11 FE",
+    "categoria": "tablets",
+    "resumo": "A ficha mais pobre desta categoria. A TCL vende uma tela \"NXTVISION de 11 polegadas\" e não publica a resolução dela — nem a bateria, nem as câmeras, nem o peso. É o #15 do ranking.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 11,
+      "resolucao": null,
+      "taxaHz": null,
+      "brilhoNits": null,
+      "chip": "MediaTek Helio G80",
+      "memoriaRamGb": 4,
+      "armazenamento": "128 GB, mais microSD até 1 TB, com expansão virtual de 4 GB de RAM",
+      "rede": "4G LTE",
+      "wifi": null,
+      "usb": null,
+      "canetaInclusa": false,
+      "altoFalantes": "Dois",
+      "cameraTraseiraMp": null,
+      "cameraFrontalMp": null,
+      "bateriaMah": null,
+      "cargaW": null,
+      "carregadorNaCaixa": null,
+      "sistema": "Android 14",
+      "atualizacoes": null,
+      "pesoG": null,
+      "espessuraMm": null,
+      "dimensoesMm": null,
+      "protecaoAgua": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CSK7BQZT"
+    },
+    "fontes": [
+      {
+        "id": "tcl-tab-11-fe-oficial",
+        "titulo": "TCL TAB 11 FE — página oficial da TCL",
+        "url": "https://www.tcl.com/global/en/tablets/tcl-tab-11-fe",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela NXTVISION de 11\", MediaTek Helio G80, 4 GB de RAM com expansão virtual de mais 4 GB, 128 GB com microSD até 1 TB, chipset 4G LTE, alto-falantes duplos, caneta T-Pen vendida à parte e Android 14. A página é de marketing: não traz resolução da tela, taxa de atualização, brilho, megapixels das câmeras, capacidade da bateria, potência de carregamento, tipo de USB, dimensões, peso nem garantia. A TCL Brasil não publica página deste modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tcl-11-fe",
+        "titulo": "TCL TAB 11 FE — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CSK7BQZT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 128 GB com 8 GB de RAM anunciada como 4 GB físicos mais 4 GB de expansão. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]
