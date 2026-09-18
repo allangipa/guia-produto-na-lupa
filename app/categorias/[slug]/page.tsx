@@ -94,6 +94,21 @@ export default async function PaginaCategoria({ params }: Params) {
             próprio fabricante publica. Nenhum destes produtos foi testado por
             nós: cada ficha lista as páginas oficiais consultadas e a data.
           </p>
+
+          {/* Categoria que parou por falta de documentação diz isso na cara do
+              leitor. O número sai da contagem, nunca de texto escrito à mão. */}
+          {c.porQueParou && (
+            <aside className="mt-6 max-w-[62ch] rounded-[var(--raio-controle)] border border-linha bg-superficie p-5">
+              <p className="titulo-ui text-[1.05rem] leading-snug text-tinta">
+                Esta categoria tem {produtos.length}{" "}
+                {produtos.length === 1 ? "produto" : "produtos"}, e parou aqui de
+                propósito.
+              </p>
+              <p className="mt-2 text-[0.95rem] leading-relaxed text-tinta-suave">
+                {c.porQueParou}
+              </p>
+            </aside>
+          )}
         </>
       )}
 

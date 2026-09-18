@@ -9,6 +9,13 @@ export type Categoria = {
   descricao: string;
   /** Pergunta que o leitor faz antes de comprar. Guia o ângulo das análises. */
   dorPrincipal: string;
+  /**
+   * Por que a categoria fechou no número em que fechou. Só preencher quando ela
+   * parou porque a documentação acabou — não quando ainda está em apuração, que
+   * é outra coisa e não deve ser anunciada como parada. A contagem não entra
+   * aqui: a página conta os produtos sozinha, para os dois nunca divergirem.
+   */
+  porQueParou?: string;
 };
 
 export const categorias: Categoria[] = [
@@ -17,6 +24,8 @@ export const categorias: Categoria[] = [
     nome: "Energia e carregamento",
     descricao: "Powerbanks, carregadores, cabos e tudo que mantém o celular vivo fora de casa.",
     dorPrincipal: "Vai aguentar o dia inteiro sem virar peso morto na mochila?",
+    porQueParou:
+      "Carregador e powerbank são o território do vendedor sem marca. Na lista geral de Carregadores da Amazon, sete dos trinta mais vendidos tinham fabricante identificável; foi preciso descer para Carregadores Portáteis, onde são vinte e dois, e é de lá que vem a maior parte destes. A Geonav, quarta do ranking, estava com o site fora do ar na apuração — volta quando voltar.",
   },
   {
     slug: "audio",
@@ -42,6 +51,8 @@ export const categorias: Categoria[] = [
     descricao:
       "Pen drives, SSDs internos e externos, HDs portáteis e cartões — com a velocidade de escrita ao lado da de leitura, quando o fabricante publica as duas.",
     dorPrincipal: "O número da caixa é de leitura. Quanto tempo leva para copiar para dentro?",
+    porQueParou:
+      "Duas marcas, SanDisk e Kingston, são as que publicam ficha aberta e campo a campo. A Seagate divulga especificação só em PDF de imagem, sem texto dentro. Toshiba, Western Digital, ADATA e Multilaser continuam em apuração. Preferimos parar aqui a completar a lista com fichas que a documentação não sustenta.",
   },
   {
     slug: "conectividade",
@@ -55,6 +66,8 @@ export const categorias: Categoria[] = [
     nome: "Casa conectada",
     descricao: "Tomadas inteligentes, lâmpadas, câmeras e assistentes de voz.",
     dorPrincipal: "Funciona com o aplicativo que você já usa ou obriga a instalar mais um?",
+    porQueParou:
+      "Casa inteligente não é uma lista de mais vendidos na Amazon Brasil: tomada e lâmpada aparecem em Elétrica e Iluminação, câmera em Proteção e Segurança. Em cada uma dessas listas, os aparelhos conectados são três a cinco entre vinte — o resto é extensão, adaptador e luva. Estes são os que sobraram com fabricante e ficha publicada.",
   },
   {
     slug: "celular",
