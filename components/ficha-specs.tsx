@@ -28,7 +28,14 @@ export function FichaSpecs({
           <dl className="mt-3 divide-y divide-linha border-y border-linha">
             {lista.map((campo) => {
               const valor = produto.specs[campo.chave];
-              const ausente = valor === null || valor === undefined;
+              // Campo que não cabe neste produto não é omissão do fabricante.
+              // A nota de transparência e a lista "o que o fabricante não
+              // informa" já respeitam isto; só esta tabela não respeitava, e
+              // acusava em vermelho a jarra de uma cafeteira de dose única ou
+              // o Bluetooth de um headset com fio.
+              const naoSeAplica = produto.naoSeAplica?.includes(campo.chave) ?? false;
+              const ausente =
+                !naoSeAplica && (valor === null || valor === undefined);
               return (
                 <div
                   key={campo.chave}
@@ -43,9 +50,9 @@ export function FichaSpecs({
                     )}
                   </dt>
                   <dd
-                    className={`dados text-[0.95rem] ${ausente ? "text-ausente" : ""}`}
+                    className={`dados text-[0.95rem] ${ausente ? "text-ausente" : ""}${naoSeAplica ? "text-tinta-suave" : ""}`}
                   >
-                    {valorLegivel(valor, campo)}
+                    {naoSeAplica ? "Não se aplica" : valorLegivel(valor, campo)}
                     {/* Só conta como confirmação o que veio de fonte que mediu
                         ou registrou por conta própria — varejo copia a marca. */}
                     {produto.confirmadoPor?.[campo.chave]?.length ? (

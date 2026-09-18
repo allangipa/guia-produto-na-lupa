@@ -67,6 +67,11 @@ export default async function PaginaProduto({ params }: Params) {
   // Seis números para o topo: os destaques da categoria primeiro, depois os
   // campos que o fabricante publicou, na ordem da ficha.
   const destaques = destaquesDa(p.categoria);
+  // O filtro de naoSeAplica vale para a lista inteira, destaques incluídos.
+  // Antes ele só alcançava a segunda metade, e um campo que não cabe no
+  // produto subia para a faixa do topo se por acaso fosse destaque da
+  // categoria — a cafeteira de dose única anunciava "material da jarra: não
+  // informa" entre os seis números principais, sem ter jarra.
   const essenciais = [
     ...destaques,
     ...campos
@@ -75,11 +80,11 @@ export default async function PaginaProduto({ params }: Params) {
           !destaques.includes(c.chave) &&
           c.contaTransparencia &&
           p.specs[c.chave] !== null &&
-          p.specs[c.chave] !== undefined &&
-          !p.naoSeAplica?.includes(c.chave),
+          p.specs[c.chave] !== undefined,
       )
       .map((c) => c.chave),
   ]
+    .filter((chave) => !p.naoSeAplica?.includes(chave))
     .slice(0, 6)
     .map((chave) => campos.find((c) => c.chave === chave))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));

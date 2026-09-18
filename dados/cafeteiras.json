@@ -649,5 +649,480 @@
         "origem": "https://loja.electrolux.com.br/cafeteira-eletrica-electrolux-com-jarra-inox-30-xicaras-efficient--ecm22-/p"
       }
     ]
+  },
+  {
+    "slug": "oster-ocaf200",
+    "nome": "Oster 2Day OCAF200",
+    "marca": "Oster",
+    "modelo": "OCAF200",
+    "categoria": "cafeteiras",
+    "resumo": "Cafeteira de 400 ml que passa direto no copo térmico que vem na caixa, sem jarra. A Oster publica potência, consumo, peso e medidas, mas não diz se tem corta-pingos, base que aquece nem quantas xícaras rende.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 0.4,
+      "xicaras": null,
+      "mlPorXicara": null,
+      "potenciaW": 600,
+      "consumoKwh": 0.6,
+      "materialJarra": null,
+      "filtroPermanente": true,
+      "cortaPingos": null,
+      "manterAquecido": null,
+      "timer": null,
+      "painel": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.87,
+      "dimensoesMm": "180 × 132 × 258 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B095YZPJTR"
+    },
+    "fontes": [
+      {
+        "id": "oster-ocaf200-oficial",
+        "titulo": "Oster 2Day OCAF200 — página oficial do produto",
+        "url": "https://www.oster.com.br/cafeteira-oster-2day-inox-2-em-1-com-copo-termico/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "600 W, consumo de 0,6 kW/h, 132 × 258 × 180 mm, 0,870 kg, 127 V ou 220 V e 12 meses. A tabela da Oster não declara capacidade, xícaras, material da jarra, corta-pingos, base que mantém aquecido, timer nem painel.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ocaf200",
+        "titulo": "Oster 2Day OCAF200 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B095YZPJTR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Capacidade de 400 ml e filtro reutilizável — os dois dados que a Oster não publica. As medidas batem com as do fabricante. A mesma tabela classifica o aparelho como \"cafeteira prensa francesa\" de uso \"espresso\", o que não descreve uma cafeteira de filtro, e por isso nada além da capacidade e do filtro saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-c-44",
+    "nome": "Mondial Dolce Arome Digital C-44",
+    "marca": "Mondial",
+    "modelo": "C-44-32X-SDI",
+    "categoria": "cafeteiras",
+    "resumo": "Uma das poucas fichas da base em que o fabricante escreve quanto é uma xícara: a Mondial declara 40 ml e 32 xícaras. Não publica o reservatório em litros, então a comparação por volume continua indireta.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": null,
+      "xicaras": 32,
+      "mlPorXicara": 40,
+      "potenciaW": 800,
+      "consumoKwh": null,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": null,
+      "manterAquecido": null,
+      "timer": null,
+      "painel": "Digital",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.6,
+      "dimensoesMm": "254 × 170 × 312 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09N55ZGM5"
+    },
+    "fontes": [
+      {
+        "id": "mondial-c44-oficial",
+        "titulo": "Mondial Dolce Arome Digital C-44-32X-SDI — página oficial do produto",
+        "url": "https://www.mondial.com.br/cafeteira-eletrica-mondial-c-44-32x-sdi/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, até 32 xícaras de 40 ml cada, jarra em vidro, porta-filtro permanente, cabo de 80 cm, 1,600 kg, 31,20 × 17 × 25,40 cm (A × L × C), 127 V ou 220 V e 1 ano. O \"Digital\" do painel vem do nome do produto na própria loja da Mondial. A tabela não declara o reservatório em litros, consumo, corta-pingos, base que mantém aquecido nem timer.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-c44",
+        "titulo": "Mondial Dolce Arome Digital C-44 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09N55ZGM5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo C-44-32X-SDI e a versão 220 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-c-34",
+    "nome": "Mondial Dolce Arome C-34 JI 15X",
+    "marca": "Mondial",
+    "modelo": "C-34JI-15X",
+    "categoria": "cafeteiras",
+    "resumo": "A menor das Dolce Arome, com jarra de inox, corta-pingos e base que aquece. No campo \"quantidade em ml por xícara\" a Mondial escreveu \"não se aplica\" — a mesma resposta que já deu na C-30, e que impede converter as 15 xícaras em litros.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": null,
+      "xicaras": 15,
+      "mlPorXicara": null,
+      "potenciaW": 550,
+      "consumoKwh": null,
+      "materialJarra": "Inox",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": null,
+      "painel": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.94,
+      "dimensoesMm": "225 × 165 × 270 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07GHMP97F"
+    },
+    "fontes": [
+      {
+        "id": "mondial-c34-oficial",
+        "titulo": "Mondial Dolce Arome C-34 JI 15X — página oficial do produto",
+        "url": "https://www.mondial.com.br/cafeteira-eletrica-dolce-arome-mondial-preto-inox-550w-c-34-ji-15x-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "550 W, 15 xícaras, jarra em inox, sistema corta-pingos, base com aquecimento, porta-filtro permanente removível, indicador de nível, cabo de 1,50 m, 0,940 kg, 27,00 × 16,50 × 22,50 cm (A × L × P), 127 V ou 220 V e 1 ano. O campo \"quantidade em ML por xícara\" está preenchido com \"Não se aplica\", e a tabela não declara reservatório em litros, consumo, timer nem painel.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-c34",
+        "titulo": "Mondial Dolce Arome C-34 JI 15X — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07GHMP97F",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo C-34 JI 15X e a versão 110 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "britania-bcf32b",
+    "nome": "Britânia BCF32B",
+    "marca": "Britânia",
+    "modelo": "BCF32B",
+    "categoria": "cafeteiras",
+    "resumo": "A irmã grande da BCF19B: 1,2 L e 32 cafezinhos, o que põe a xícara da Britânia em 37,5 ml, e não nos 40 ml do modelo menor. Jarra de inox, corta-pingos e placa de aquecimento; sem timer e sem display.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.2,
+      "xicaras": 32,
+      "mlPorXicara": 37.5,
+      "potenciaW": 800,
+      "consumoKwh": 0.8,
+      "materialJarra": "Inox",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "190 × 235 × 310 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DKGCSWJG"
+    },
+    "fontes": [
+      {
+        "id": "britania-bcf32b-oficial",
+        "titulo": "Britânia BCF32B — página oficial do produto",
+        "url": "https://www.britania.com.br/cafeteira-bcf32b-127v-063901137/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, consumo de 0,8 kW/h, reservatório de 1,2 L, 32 cafezinhos, sistema corta-pingo, placa de aquecimento, filtro permanente, colher dosadora, jarra que vai à mesa, sem timer e sem display digital, e 360 dias de garantia. Os 37,5 ml por xícara são a divisão exata do reservatório pelas xícaras, os dois declarados aqui. A Britânia preenche as unidades de largura, altura e profundidade mas não os valores, e não declara o peso.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-bcf32b",
+        "titulo": "Britânia BCF32B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DKGCSWJG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "19 × 23,5 × 31 cm — as dimensões que o fabricante não publica — e a confirmação da jarra de inox, da capacidade de 1,2 L e da versão 220 V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "britania-cp15",
+    "nome": "Britânia CP15",
+    "marca": "Britânia",
+    "modelo": "CP15",
+    "categoria": "cafeteiras",
+    "resumo": "A menor da Britânia: 0,60 L e 15 cafezinhos, divisão que dá a xícara redonda de 40 ml. Tem corta-pingos, filtro permanente e placa de aquecimento; a marca não diz de que material é a jarra.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 0.6,
+      "xicaras": 15,
+      "mlPorXicara": 40,
+      "potenciaW": 550,
+      "consumoKwh": 0.55,
+      "materialJarra": null,
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": false,
+      "painel": "Botão liga/desliga",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.926,
+      "dimensoesMm": "240 × 170 × 260 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07622KXDW"
+    },
+    "fontes": [
+      {
+        "id": "britania-cp15-oficial",
+        "titulo": "Britânia CP15 — página oficial do produto",
+        "url": "https://www.britania.com.br/063901057-caf-cp15-inox/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "550 W, consumo de 0,55 kW/h, reservatório de 0,60 L, 15 cafezinhos, sistema corta-pingo, placa de aquecimento, filtro permanente, colher dosadora, jarra que vai à mesa, sem timer e sem display, e 360 dias. Os 40 ml por xícara são a divisão exata dos dois números declarados. A Britânia vende o CP15 em versão de jarra de vidro e de inox sem separar a ficha, e por isso o material fica em branco; também não publica peso nem dimensões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-cp15",
+        "titulo": "Britânia CP15 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07622KXDW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "24 × 17 × 26 cm e 926 g — peso e medidas que o fabricante não publica — e a versão 127 V. A listagem põe \"63901065\" no campo de número do modelo, que é o código interno da Britânia, não o nome do produto.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "philco-pcf40b",
+    "nome": "Philco PCF40B",
+    "marca": "Philco",
+    "modelo": "PCF40B",
+    "categoria": "cafeteiras",
+    "resumo": "A maior desta lista: 1,6 L, 40 cafezinhos de 40 ml e 1000 W, com painel digital e timer — os dois recursos que quase nenhuma concorrente da faixa declara ter.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.6,
+      "xicaras": 40,
+      "mlPorXicara": 40,
+      "potenciaW": 1000,
+      "consumoKwh": 1,
+      "materialJarra": null,
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": true,
+      "painel": "Digital",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": "200 × 250 × 336 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D5J3VQX7"
+    },
+    "fontes": [
+      {
+        "id": "philco-pcf40b-oficial",
+        "titulo": "Philco PCF40B — página oficial do produto",
+        "url": "https://www.philco.com.br/cafeteira-pcf40b-127v-053901083/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1000 W, consumo de 1 kW/h, reservatório de 1,6 L, 40 cafezinhos, sistema corta-pingo, função timer, display digital, placa de aquecimento, filtro permanente, colher dosadora, jarra que vai à mesa e 360 dias. Os 40 ml por xícara são a divisão exata dos dois números declarados. A Philco não publica o material da jarra, o peso nem as dimensões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-pcf40b",
+        "titulo": "Philco PCF40B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D5J3VQX7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "20 × 25 × 33,6 cm — as dimensões que o fabricante não publica — e a confirmação de 1,6 L e da versão 220 V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "wap-wcd1500",
+    "nome": "WAP Aroma Digital WCD1500",
+    "marca": "WAP",
+    "modelo": "WCD1500",
+    "categoria": "cafeteiras",
+    "resumo": "A ficha mais completa desta lista: a WAP declara painel digital, timer de 24 h, corta-pingos, filtro removível, desligamento automático e indicador de nível, item por item. Só não diz o prazo de garantia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.5,
+      "xicaras": 38,
+      "mlPorXicara": null,
+      "potenciaW": 900,
+      "consumoKwh": null,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": true,
+      "painel": "Digital",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.75,
+      "dimensoesMm": "180 × 230 × 320 (P × L × A)",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DQ2DBS4S"
+    },
+    "fontes": [
+      {
+        "id": "wap-wcd1500-oficial",
+        "titulo": "WAP Cafeteira Digital Aroma WCD 1500 — página oficial do produto",
+        "url": "https://loja.wap.ind.br/cafeteira-digital-aroma-wap-wcd-1500/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "900 W, 1,5 L e 38 xícaras, timer programável de 24 h, painel digital, função manter aquecido, filtro permanente e removível, sistema corta-pingos, desligamento automático, indicador de nível de água, jarra de vidro, cabo de 0,7 m, peso líquido de 1,75 kg, produto de 18 × 23 × 32 cm (C × L × A) e códigos FW010084 (127 V) e FW010085 (220 V). A tabela não declara consumo nem prazo de garantia. Dividir 1,5 L por 38 xícaras dá 39,5 ml, ou seja, a xícara da WAP é o cafezinho de 40 ml — mas como o número não é redondo nem foi escrito pela marca, o campo fica em branco.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-wcd1500",
+        "titulo": "WAP Aroma WCD1500 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DQ2DBS4S",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo WCD1500, 1,5 litros, timer programável e suporte para café gelado. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "arno-preferita",
+    "nome": "Arno Preferita CFPF",
+    "marca": "Arno",
+    "modelo": "CFPF",
+    "categoria": "cafeteiras",
+    "resumo": "A única da lista que publica registro no INMETRO e as normas IEC que atendeu. Em compensação, informa o consumo em kW/h por mês — unidade que não dá para comparar com o kW/h que todas as outras declaram.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 0.75,
+      "xicaras": 18,
+      "mlPorXicara": null,
+      "potenciaW": 550,
+      "consumoKwh": null,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": null,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": 1.5,
+      "dimensoesMm": "164 × 218 × 205 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07VF753B5"
+    },
+    "fontes": [
+      {
+        "id": "arno-preferita-oficial",
+        "titulo": "Arno Preferita CFPF — página oficial do produto",
+        "url": "https://www.arno.com.br/cafeteira-filtro-arno-preferita-cfpf-inox-750ml-8010000620-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "550 W, 0,75 L, até 18 xícaras, jarra de vidro, filtro permanente, sistema corta-pingos, placa de aquecimento que funciona enquanto o aparelho está na tomada, colher medidora, cabo de 35 cm, 1,5 kg, 21,8 × 20,5 × 16,4 cm (L × A × P), registro UL-BR 22.0987 pela Portaria INMETRO 148:2022 e 1 ano. O consumo vem como 9,32 kW/h por mês, unidade diferente da usada pelas outras marcas, e por isso o campo fica em branco. A Arno não declara tensão, timer nem painel.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-preferita",
+        "titulo": "Arno Preferita CFPF — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07VF753B5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo CFPF, 0,75 L, jarra de vidro e sistema corta-pingos. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "cadence-caf230",
+    "nome": "Cadence Single Up CAF230",
+    "marca": "Cadence",
+    "modelo": "CAF230",
+    "categoria": "cafeteiras",
+    "resumo": "Cafeteira de dose única: 300 ml de reservatório para dois cafés, passando direto na caneca, com altura de suporte regulável. Não tem jarra — e por isso três campos desta categoria simplesmente não se aplicam a ela.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 0.3,
+      "xicaras": 2,
+      "mlPorXicara": 150,
+      "potenciaW": 600,
+      "consumoKwh": 0.6,
+      "materialJarra": null,
+      "filtroPermanente": true,
+      "cortaPingos": null,
+      "manterAquecido": null,
+      "timer": null,
+      "painel": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.03,
+      "dimensoesMm": "200 × 147 × 225 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "materialJarra",
+      "cortaPingos",
+      "manterAquecido"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CN1LTF2M"
+    },
+    "fontes": [
+      {
+        "id": "cadence-caf230-oficial",
+        "titulo": "Cadence Single Up CAF230 — página oficial do produto",
+        "url": "https://www.cadence.com.br/cafeteira-eletrica-cadence-single-up/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "600 W, consumo de 0,6 kW/h, reservatório de 300 ml para 2 cafés, suporte com ajuste de altura para xícaras de tamanhos diferentes, 147 × 225 × 200 mm, 1,030 kg, 127 V ou 220 V, certificação INMETRO e 12 meses. Os 150 ml por xícara são a divisão exata do reservatório pelos dois cafés — caneca, não cafezinho. A Cadence não declara timer nem painel.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-caf230",
+        "titulo": "Cadence Single Up CAF230 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CN1LTF2M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Filtro reutilizável — o dado que a Cadence não publica. As medidas e o peso batem com os do fabricante.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-essential-coffee",
+    "nome": "Elgin Essential Coffee 42CF190",
+    "marca": "Elgin",
+    "modelo": "ELG-42CF190",
+    "categoria": "cafeteiras",
+    "resumo": "Mesmo reservatório de 0,72 L da Britânia BCF19B, mas a Elgin conta 19 xícaras onde a Britânia conta 18 — o mesmo café, duas contagens. Jarra de vidro, corta-pingos, filtro permanente e proteção contra superaquecimento.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 0.72,
+      "xicaras": 19,
+      "mlPorXicara": null,
+      "potenciaW": 600,
+      "consumoKwh": null,
+      "materialJarra": "Vidro",
+      "filtroPermanente": true,
+      "cortaPingos": true,
+      "manterAquecido": true,
+      "timer": null,
+      "painel": null,
+      "tensao": "127 V",
+      "pesoKg": null,
+      "dimensoesMm": "148 × 200 × 250 (P × L × A)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GXX1XDWZ"
+    },
+    "fontes": [
+      {
+        "id": "elgin-42cf190-oficial",
+        "titulo": "Elgin Essential Coffee 19 xícaras — página oficial do produto",
+        "url": "https://www.elgin.com.br/cafeteira-eletrica-essential-coffe-19-xicaras-jarra-de-vidro-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "600 W, 0,72 L, 19 xícaras, jarra de vidro de 720 ml, base com aquecimento, filtro permanente, colher dosadora, sistema corta-pingos, indicador de nível de água, proteção contra superaquecimento, 127 V e 12 meses. A Elgin não declara consumo, timer, painel, peso nem dimensões. Dividir 720 ml por 19 xícaras dá 37,9 ml, número quebrado que a marca não escreveu, e por isso o campo fica em branco.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-42cf190",
+        "titulo": "Elgin Essential Coffee — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GXX1XDWZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "14,8 × 20 × 25 cm — as dimensões que o fabricante não publica — e a confirmação das 19 xícaras, da jarra de vidro e da versão 110 V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]
