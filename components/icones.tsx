@@ -14,6 +14,16 @@ const TRACOS: Record<string, React.ReactNode> = {
     </>
   ),
   raio: <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" />,
+  // Grade de departamentos: quatro blocos, não as três linhas do hambúrguer —
+  // o que este botão abre é um mapa do catálogo, não um menu de aplicativo.
+  grade: (
+    <>
+      <rect x="3" y="3" width="7.5" height="7.5" rx="1.5" />
+      <rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5" />
+      <rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5" />
+      <rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5" />
+    </>
+  ),
   peso: (
     <>
       <path d="M12 3v3" />

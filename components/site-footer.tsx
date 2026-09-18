@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
-import { categorias } from "@/lib/categorias";
-import { produtosDaCategoria } from "@/lib/produtos";
+import { navegacao } from "@/lib/navegacao";
 
 /**
  * Rodapé sólido na cor de ação, como as lojas fazem — é o único bloco grande
@@ -9,9 +8,7 @@ import { produtosDaCategoria } from "@/lib/produtos";
  * o botão de compra lá em cima.
  */
 export function SiteFooter() {
-  const comProdutos = categorias.filter(
-    (c) => produtosDaCategoria(c.slug).length > 0,
-  );
+  const grupos = navegacao();
   const link = "text-white/80 hover:text-white";
   const titulo = "text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-white/60";
 
@@ -35,20 +32,32 @@ export function SiteFooter() {
           </p>
         </div>
 
-        {/* Duas colunas, e só as categorias. Havia aqui um segundo bloco com
-            "Comparar <categoria>" repetindo cada uma, o que dobrava a lista e
-            esticava o rodapé por uma página inteira. O comparador está no topo
-            de toda página de categoria e no fim de toda ficha — não precisa de
-            sete entradas no rodapé para ser encontrado. */}
+        {/* Agrupado por departamento, como o topo. Era uma lista corrida de
+            duas colunas: com sete categorias dava para ler, com trinta vira
+            parede. Havia antes um segundo bloco com "Comparar <categoria>"
+            repetindo cada uma — o comparador está no topo de toda página de
+            categoria e no fim de toda ficha, não precisa de entrada aqui. */}
         <nav aria-label="Categorias">
           <p className={titulo}>Produtos</p>
-          <ul className="mt-3 grid grid-cols-2 gap-x-5 gap-y-2">
-            {comProdutos.map((c) => (
-              <li key={c.slug}>
-                <Link href={`/categorias/${c.slug}`} className={link}>{c.nome}</Link>
+          <ul className="mt-3 grid grid-cols-2 gap-x-5 gap-y-5">
+            {grupos.map((g) => (
+              <li key={g.slug}>
+                <Link href={`/categorias#${g.slug}`} className="font-semibold text-white/95 hover:text-white">
+                  {g.nome}
+                </Link>
+                <ul className="mt-1.5 space-y-1">
+                  {g.itens.map((i) => (
+                    <li key={i.slug}>
+                      <Link href={`/categorias/${i.slug}`} className={link}>{i.nome}</Link>
+                    </li>
+                  ))}
+                </ul>
               </li>
             ))}
           </ul>
+          <p className="mt-5">
+            <Link href="/categorias" className="text-white underline">Ver todas as categorias</Link>
+          </p>
         </nav>
 
         <nav aria-label="Conteúdo">

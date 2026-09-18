@@ -93,7 +93,58 @@ M170, G305, M240, Pebble Keys 2 K380s, MK250, Pebble 2 M350s, MK235,
 G203, Lift Vertical, HP 150, Dell KM3322W, Multilaser TC193, M90,
 Multi Classic Box, HP 100, M196, G703, K120.
 
-### Como tirar a ficha da Logitech — e por que custa caro
+### A Logitech trocou de site: o método caro abaixo ficou obsoleto
+
+Descoberto em 18/09/2026. As páginas migraram de
+`/pt-br/products/mice/<slug>.<peça>.html` para **`/pt-br/shop/p/<slug>`**,
+e a lista completa sai do sitemap, sem depender da Amazon para achar URL:
+
+```
+https://www.logitech.com/pt-br/sitemap.xml   → 183 produtos pt-br
+```
+
+Duas rotas, nessa ordem:
+
+1. **Fetch simples.** Algumas páginas trazem a ficha inteira serializada
+   no HTML, em objetos `{facet:"…",value:"…"}`. O extrator está em
+   `scratchpad/logi_ficha.py` — não é JSON (chaves sem aspas), então ele
+   varre acompanhando profundidade de chaves. Funcionou no M170 e no
+   Lift; **na maioria vem só o bloco Dimensões.**
+2. **Navegador**, quando o fetch só traz dimensões. Clicar em
+   "Especificações e compatibilidade" e ler o `innerText`. Devolve mais
+   que o HTML: inclui **garantia e código de peça**, que o payload não
+   tem. Três ações por produto, e dá para empilhar três produtos por
+   `browser_batch`.
+
+`robots.txt` proíbe `/api/` e `/*/product-refs/` — não raspar essas.
+
+### Fichas de mouse já apuradas em 18/09/2026
+
+Todas de `logitech.com/pt-br/shop/p/<slug>`. Falta a garantia das
+marcadas com `?` (o corte de 1.250 caracteres ficou curto nelas).
+
+| modelo | sensor / DPI | botões | pilha | conexão / alcance | mm (A×L×P) | g | garantia | cód |
+|---|---|---|---|---|---|---|---|---|
+| M170 | óptico suave / 1.000± | 3 | 1×AA inclusa, 12 meses | 2,4 GHz receptor USB / 10 m | 97,7×61,5×35,2 | 69,3 | ? | — |
+| M190 | óptico avançado / 1.000 | 3 | 18 meses | receptor nano 2,4 GHz / 10 m | 115,4×66,1×40,3 | 89,9 | 1 ano | 910-005902 |
+| M196 | óptico suave / 1.000 | **não declara** | 1×AA pré-instalada, 12 meses | Bluetooth LE / 10 m | 100×60×38 | 76 | 1 ano | 910-007456 |
+| M240 Silent | óptico suave / nominal 1.000, 400–4.000 | 3 | 1×AA, 18 meses | Bluetooth LE / 10 m | 99×60×39 | 73,8 | ? | — |
+| M330 Silent Plus | óptico alta precisão / 1.000± | 3 | 1×AA, 18 meses | 2,4 GHz Unifying / 10 m | 105,4×67,9×38,4 | 78 | 1 ano | 910-004905 |
+| Pebble 2 M350s | óptico alta precisão / nominal 1.000, 400–4.000 | 3 | 1×AA alcalina, 24 meses | BLE + Logi Bolt, 3 aparelhos / 10 m | 106×58,7×26,62 | 76 | ? | — |
+| Lift Vertical | óptico avançado / 400–4.000, nominal 1.000 | 6 | 1×AA, 24 meses | Logi Bolt + BLE / 10 m | 108×70×71 | 125 | ? | — |
+| G203 | — / 200–8.000 | 6 programáveis | com fio, cabo 2,1 m | USB 1.000 Hz | 38,2×62,1×116,6 | 85 | 2 anos | 910-005793 |
+| G305 | HERO / 200–12.000 | 6 | **250 horas** | LIGHTSPEED 1.000 Hz | 38,2×62,1×116,6 | 99 | 2 anos | 910-005281 |
+
+**Achado da categoria**: a mesma Logitech declara autonomia em **meses**
+na linha de escritório e em **horas** na linha gamer. 250 horas do G305
+não convertem para meses sem saber quantas horas por dia — `duracaoPilhaMeses`
+fica em branco nos gamers, e o motivo vai escrito na fonte. É o mesmo
+tipo de incomparabilidade que a categoria existe para mostrar.
+
+O G203 é o único com fio da lista, e a Logitech **não publica o sensor
+dele** — só a resolução. O M196 não publica número de botões.
+
+### Como tirar a ficha da Logitech — método antigo, mantido por referência
 
 A ficha fica num acordeão fechado, **e o conteúdo não vem no HTML**:
 `fetch` da página devolve 107 KB sem uma linha de especificação. As

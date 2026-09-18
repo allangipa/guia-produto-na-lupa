@@ -7,6 +7,7 @@ import {
   dataLegivel,
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
+import { departamentos } from "@/lib/departamentos";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
 import { lancamentos } from "@/lib/lancamentos";
@@ -93,6 +94,27 @@ export default function Home() {
       };
     })
     .filter((p) => p.itens.length > 0);
+
+  // A fileira de círculos e a pilha de prateleiras cresciam uma por categoria.
+  // Com sete cabia; com doze a home já era um rolo, e o plano passa de trinta.
+  // Agora os círculos são por departamento — cinco, número que não acompanha o
+  // de categorias — e as prateleiras param nas seis mais completas, com o resto
+  // a um clique em /categorias.
+  const porDepartamento = departamentos
+    .map((d) => {
+      const itens = prateleiras.filter((p) => d.categorias.includes(p.cat.slug));
+      return {
+        dep: d,
+        total: itens.reduce((n, p) => n + p.total, 0),
+        capa: itens.flatMap((p) => p.itens).find((p) => p.imagem),
+        iconeDe: itens[0]?.cat.slug ?? d.categorias[0],
+      };
+    })
+    .filter((d) => d.total > 0);
+
+  const VITRINE = 6;
+  const emDestaque = [...prateleiras].sort((a, b) => b.total - a.total).slice(0, VITRINE);
+  const restantes = prateleiras.length - emDestaque.length;
 
   const destaques = lancamentos
     .map((l) => ({ ...l, produto: produtos.find((p) => p.slug === l.slugProduto) }))
@@ -229,31 +251,28 @@ export default function Home() {
         ))}
       </section>
 
-      {/* Categorias em círculo, como a fileira "compre por categoria" das
-          lojas: a foto do primeiro produto vira o ícone da categoria. */}
+      {/* Departamentos em círculo, como a fileira "comprar por categoria" das
+          lojas: a foto de um produto de dentro vira o ícone do departamento. */}
       <section className="mt-12">
-        <TituloSecao antes="Compre por" destaque="categoria" href="/comparar/audio" acao="Comparar produtos" />
+        <TituloSecao antes="Compre por" destaque="departamento" href="/categorias" acao="Todas as categorias" />
         <ul className="rolo mt-6 flex gap-4 overflow-x-auto pb-3 sm:grid sm:grid-cols-3 md:grid-cols-5 sm:overflow-visible">
-          {prateleiras.map(({ cat, itens, total }) => {
-            const capa = itens.find((p) => p.imagem);
-            return (
-              <li key={cat.slug} className="shrink-0 sm:shrink">
-                <Link href={`/categorias/${cat.slug}`} className="group flex w-[7.5rem] flex-col items-center gap-3 sm:w-auto">
-                  <span className="cartao flex h-[7.5rem] w-[7.5rem] items-center justify-center overflow-hidden !rounded-full bg-superficie p-4 group-hover:!border-acao">
-                    {capa?.imagem ? (
-                      <img src={capa.imagem.src} alt="" className="h-full w-full object-contain" />
-                    ) : (
-                      <Icone nome={cat.slug} className="h-10 w-10 text-acao" />
-                    )}
-                  </span>
-                  <span className="text-center text-[0.9rem] font-medium leading-tight group-hover:text-acao-forte">
-                    {cat.nome}
-                    <span className="dados block text-[0.72rem] font-normal text-tinta-suave">{total} fichas</span>
-                  </span>
-                </Link>
-              </li>
-            );
-          })}
+          {porDepartamento.map(({ dep, total, capa, iconeDe }) => (
+            <li key={dep.slug} className="shrink-0 sm:shrink">
+              <Link href={`/categorias#${dep.slug}`} className="group flex w-[7.5rem] flex-col items-center gap-3 sm:w-auto">
+                <span className="cartao flex h-[7.5rem] w-[7.5rem] items-center justify-center overflow-hidden !rounded-full bg-superficie p-4 group-hover:!border-acao">
+                  {capa?.imagem ? (
+                    <img src={capa.imagem.src} alt="" className="h-full w-full object-contain" />
+                  ) : (
+                    <Icone nome={iconeDe} className="h-10 w-10 text-acao" />
+                  )}
+                </span>
+                <span className="text-center text-[0.9rem] font-medium leading-tight group-hover:text-acao-forte">
+                  {dep.nome}
+                  <span className="dados block text-[0.72rem] font-normal text-tinta-suave">{total} fichas</span>
+                </span>
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
 
@@ -266,7 +285,7 @@ export default function Home() {
         vive na página da categoria e no guia, onde as fontes estão listadas.
         Os cards são só de produto já à venda (ver `aindaNaoSaiu`).
       */}
-      {prateleiras.map(({ cat, itens, total }) => (
+      {emDestaque.map(({ cat, itens, total }) => (
         <section key={cat.slug} className="mt-12">
           <TituloSecao antes="Fichas de" destaque={cat.nome} href={`/categorias/${cat.slug}`} acao={`Ver as ${total}`} sub={cat.dorPrincipal} />
           <ul className="rolo mt-5 grid auto-cols-[14.5rem] grid-flow-col gap-3.5 overflow-x-auto pb-3 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
@@ -278,6 +297,15 @@ export default function Home() {
           </ul>
         </section>
       ))}
+
+      {restantes > 0 && (
+        <p className="mt-10 text-center">
+          <Link href="/categorias" className="botao botao-secundario">
+            Mais {restantes} {restantes === 1 ? "categoria" : "categorias"} no
+            índice completo
+          </Link>
+        </p>
+      )}
 
       {/* Marcas, no lugar dos "top brands" de loja: aqui a régua é quanto da
           ficha a marca publica — o único ranking que este site pode fazer. */}
