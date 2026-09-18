@@ -1,0 +1,438 @@
+[
+  {
+    "slug": "tplink-tapo-p110",
+    "nome": "TP-Link Tapo P110",
+    "marca": "TP-Link",
+    "modelo": "Tapo P110",
+    "categoria": "casa-conectada",
+    "resumo": "A única desta lista que diz, por escrito, que o controle local funciona sem internet e sem a nuvem. Também é a única que mede consumo — e aguenta 2.400 W, contra os 1.000 W da concorrente da Positivo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Tomada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Alexa, Google Assistente e SmartThings",
+      "funcionaSemNuvem": true,
+      "cargaMaxW": 2400,
+      "medeConsumo": true,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CPFT8QQK"
+    },
+    "fontes": [
+      {
+        "id": "tapo-p110-oficial",
+        "titulo": "TP-Link Tapo P110 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/smart-plug/tapo-p110/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Wi-Fi 2,4 GHz 802.11b/g/n, aplicativo Tapo para Android 5.0 ou iOS 10.0 em diante, compatível com Alexa, Google Assistente e SmartThings, medição de consumo em tempo real com estimativa de conta, carga máxima de 2.400 W e 10 A, entrada de 100 a 240 V, consumo em espera de 0,64 W e 51 × 72 × 40 mm. A página declara explicitamente que o controle local não exige internet nem nuvem — é a única das oito fichas desta categoria que diz isso. Não declara prazo de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tapo-p110",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CPFT8QQK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a versão bivolt. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-c200",
+    "nome": "TP-Link Tapo C200",
+    "marca": "TP-Link",
+    "modelo": "Tapo C200",
+    "categoria": "casa-conectada",
+    "resumo": "A câmera interna mais vendida do país, com giro de 360°. Grava em cartão de até 512 GB ou na nuvem Tapo Care por assinatura — e a TP-Link não diz se ela continua funcionando se a nuvem sair do ar.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Câmera Wi-Fi interna",
+      "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "1920 × 1080 (Full HD)",
+      "visaoNoturnaM": 9,
+      "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
+      "protecaoIp": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07XLML2YS"
+    },
+    "fontes": [
+      {
+        "id": "tapo-c200-oficial",
+        "titulo": "TP-Link Tapo C200 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c200/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Wi-Fi 2,4 GHz 802.11b/g/n com WPA3, vídeo de 1920 × 1080, lente de 4,0 mm com campo de 75,2° na horizontal, visão noturna de até 9 m com LED infravermelho de 850 nm, cartão microSD de até 512 GB equivalente a 1.536 horas, nuvem Tapo Care por assinatura com 30 dias grátis, suporte a RTSP e ONVIF, 86,6 × 85 × 117,7 mm e 190 g. A página não diz se a câmera opera sem a nuvem, não declara proteção contra água nem prazo de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tapo-c200",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07XLML2YS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e o giro de 360°. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-c100",
+    "nome": "TP-Link Tapo C100",
+    "marca": "TP-Link",
+    "modelo": "Tapo C100",
+    "categoria": "casa-conectada",
+    "resumo": "A versão fixa da C200, sem o giro e menor: 98 mm de altura contra 118. Mesma resolução, mesma visão noturna de 9 metros e o mesmo silêncio sobre funcionar sem a nuvem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Câmera Wi-Fi interna",
+      "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "1920 × 1080 (Full HD)",
+      "visaoNoturnaM": 9,
+      "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
+      "protecaoIp": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B083V41T6M"
+    },
+    "fontes": [
+      {
+        "id": "tapo-c100-oficial",
+        "titulo": "TP-Link Tapo C100 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c100/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Wi-Fi 2,4 GHz 802.11b/g/n com WPA2 e criptografia AES de 128 bits, vídeo de 1080p em H.264, sensor de 1/3,2\" com lente F/2.0 de 3,3 mm, visão noturna de até 9 m com LED infravermelho de 850 nm, cartão microSD de até 512 GB, nuvem TapoCare com teste de 30 dias e 67,6 × 54,8 × 98,9 mm. A página cita compatibilidade com Alexa mas não com o Google Assistente, não diz se opera sem a nuvem, e não declara proteção contra água nem garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tapo-c100",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B083V41T6M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a versão interna Full HD. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-c500",
+    "nome": "TP-Link Tapo C500",
+    "marca": "TP-Link",
+    "modelo": "Tapo C500",
+    "categoria": "casa-conectada",
+    "resumo": "A de fora de casa: IP65 e visão noturna de quase 30 metros, contra os 9 das internas. A TP-Link diz que ela funciona com o cartão local, sem depender obrigatoriamente da nuvem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Alexa e Google Assistente",
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "1920 × 1080 (Full HD) a 30 qps",
+      "visaoNoturnaM": 29.9,
+      "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
+      "protecaoIp": "IP65",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BQJVKVQR"
+    },
+    "fontes": [
+      {
+        "id": "tapo-c500-oficial",
+        "titulo": "TP-Link Tapo C500 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c500/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Wi-Fi 2,4 GHz 802.11b/g/n com RTSP e ONVIF, vídeo de 1920 × 1080 a 30 qps em H.264, visão noturna colorida e infravermelha de até 29,9 m com LED de 850 nm, giro de 360°, cartão microSD de até 512 GB equivalente a 954 horas, nuvem Tapo Care por assinatura, classificação IP65 e 123,8 × 123 × 90 mm. A página afirma que a câmera funciona com o armazenamento local, sem dependência obrigatória da nuvem. Não declara garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tapo-c500",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BQJVKVQR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo externo com giro de 360°. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-im3",
+    "nome": "Intelbras iM3",
+    "marca": "Intelbras",
+    "modelo": "iM3",
+    "categoria": "casa-conectada",
+    "resumo": "A única desta lista que grava em DVR ou NVR de terceiros pelo padrão ONVIF, além do cartão e da nuvem. É o caminho mais próximo de não depender de ninguém — e a Intelbras não chega a prometer que funciona sem a nuvem dela.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Câmera Wi-Fi interna",
+      "conexao": "Wi-Fi",
+      "appProprio": "Mibo Cam",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "1920 × 1080 (Full HD)",
+      "visaoNoturnaM": 10,
+      "armazenamentoVideo": "microSD de 8 a 256 GB classe 10, gravador DVR ou NVR por ONVIF, ou nuvem Mibo Cloud",
+      "protecaoIp": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09Q3JVDYS"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-im3-oficial",
+        "titulo": "Intelbras iM3 — página oficial e datasheet da Intelbras",
+        "url": "https://www.intelbras.com/pt-br/camera-interna-inteligente-wi-fi-full-hd-im3",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Sensor CMOS progressivo de 1/2,7\" e 2 megapixels, 1920 × 1080 efetivos, lente de 2,8 mm com ângulo de 131° na diagonal e 112° na horizontal, zoom digital de 8x, infravermelho de 10 m com LED de 0,85 µm, sensibilidade de 0 lux com infravermelho ligado, cartão microSD de 8 a 256 GB classe 10, gravação em DVR ou NVR por ONVIF, nuvem Mibo Cloud, aplicativo Mibo Cam e detecção de pessoas e de ruído. A Intelbras não declara quais assistentes de voz suporta nesta ficha, nem proteção contra água, dimensões ou garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-intelbras-im3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09Q3JVDYS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O título da listagem anuncia compatibilidade com Alexa, que a ficha da Intelbras não declara — por isso o campo de assistentes fica em branco.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-plug",
+    "nome": "Positivo Smart Plug Wi-Fi",
+    "marca": "Positivo",
+    "modelo": "Smart Plug Wi-Fi",
+    "categoria": "casa-conectada",
+    "resumo": "Mil watts de carga máxima, menos da metade da Tapo P110. A Positivo publica o número da homologação na Anatel e a garantia de 12 meses — e não diz qual aplicativo nem quais assistentes.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Tomada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": null,
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1000,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07S14JHF2"
+    },
+    "fontes": [
+      {
+        "id": "positivo-plug-oficial",
+        "titulo": "Positivo Smart Plug Wi-Fi — página oficial na Loja Positivo",
+        "url": "https://loja.meupositivo.com.br/smart-plug-wi-fi-11139711/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1000 W, tensão de 100 a 240 V, corrente de 10 A, Wi-Fi de 2,4 GHz, plugue padrão Brasil, homologação Anatel 097531911765, certificação RoHS e 12 meses de garantia. A Positivo fala em \"comandos de voz\" e \"controle pelo app\" sem nomear nem o aplicativo nem os assistentes, e não declara se mede consumo nem se funciona sem a nuvem.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-positivo-plug",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07S14JHF2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma os 10 A e 1000 W. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-lampada",
+    "nome": "Positivo Smart Lâmpada Wi-Fi",
+    "marca": "Positivo",
+    "modelo": "Smart Lâmpada Wi-Fi",
+    "categoria": "casa-conectada",
+    "resumo": "806 lúmens com faixa de 2700 K a 6500 K declarada, mais RGB — a única desta lista que publica a temperatura de cor em kelvin em vez de dizer só \"RGB\". Vida útil de 25.000 horas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lâmpada inteligente",
+      "conexao": "Wi-Fi",
+      "appProprio": null,
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": 806,
+      "temperaturaCorK": "2700 K a 6500 K, mais RGB",
+      "corRgb": true,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B082FTRR76"
+    },
+    "fontes": [
+      {
+        "id": "positivo-lampada-oficial",
+        "titulo": "Positivo Smart Lâmpada Wi-Fi — página oficial na Loja Positivo",
+        "url": "https://loja.meupositivo.com.br/smart-lampada-wi-fi-11147015/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base E27, 9 W, fluxo de 806 lúmens, temperatura de 2700 K a 6500 K mais RGB, tensão de 100 a 240 V, vida útil declarada de 25.000 horas, ajuste de intensidade, homologação Anatel 115432213655 e 12 meses de garantia. A Positivo não nomeia o aplicativo nem os assistentes compatíveis, e não diz se funciona sem a nuvem.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-positivo-lampada",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B082FTRR76",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a lâmpada Wi-Fi da linha Casa Inteligente. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-lampada-smart-10w",
+    "nome": "Elgin Lâmpada Smart LED A60 10W",
+    "marca": "Elgin",
+    "modelo": "ELG-48BLEDWIFI00",
+    "categoria": "casa-conectada",
+    "resumo": "803 lúmens e 16 milhões de cores, com Alexa e Google Home nomeados — o que a Positivo não faz. Em troca, a Elgin descreve a temperatura de cor só como \"RGB\", sem faixa em kelvin.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lâmpada inteligente",
+      "conexao": "Wi-Fi",
+      "appProprio": null,
+      "assistentes": "Alexa e Google Home",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": 803,
+      "temperaturaCorK": "A Elgin declara apenas \"RGB\", sem faixa em kelvin",
+      "corRgb": true,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B088C4QZV2"
+    },
+    "fontes": [
+      {
+        "id": "elgin-smart-oficial",
+        "titulo": "Elgin Lâmpada Smart LED A60 10W — página oficial da Elgin",
+        "url": "https://www.elgin.com.br/lampada-smart-led-a60-10w-compativel-com-alexa-e-google-home-bivolt/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base A60, 10 W, 803 lúmens, conexão Wi-Fi, 16 milhões de cores em RGB, ativação por voz com Alexa e Google Home, controle de grupo, modo música, rotinas automatizadas e bivolt. A tabela da Elgin preenche a temperatura de cor com \"RGB\" e não traz faixa em kelvin; também não nomeia o aplicativo, nem declara vida útil, garantia ou funcionamento sem a nuvem.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-elgin-smart",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B088C4QZV2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a lâmpada Smart Color de 10 W com RGB e Wi-Fi. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  }
+]

@@ -1985,12 +1985,163 @@ export const camposPeriferico: Campo[] = [
   },
 ];
 
+/**
+ * Casa conectada: tomadas, lâmpadas e câmeras.
+ *
+ * Esta é a única categoria da base em que o produto pode parar de funcionar
+ * sem quebrar. Tomada inteligente, lâmpada e câmera dependem do servidor do
+ * fabricante: se a empresa desliga a nuvem, encerra o aplicativo ou some do
+ * Brasil, o aparelho vira plástico — e isso não aparece em ficha nenhuma.
+ *
+ * Por isso `funcionaSemNuvem` existe, e por isso ele quase sempre vai estar em
+ * branco. Um campo vazio aqui não é desleixo da ficha: é a resposta.
+ *
+ * `appProprio` e `assistentes` são campos separados de propósito. Compatível
+ * com Alexa não quer dizer que dispense o aplicativo da marca — quase sempre é
+ * preciso instalar os dois, e é isso que o leitor quer saber antes de comprar.
+ */
+export const camposCasaConectada: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "conexao",
+    rotulo: "Conexão",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Quase tudo aqui é Wi-Fi de 2,4 GHz só. Se o seu roteador estiver em 5 GHz separado, o aparelho não enxerga a rede.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "appProprio",
+    rotulo: "Aplicativo do fabricante",
+    grupo: "Quem controla",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "O aplicativo que você precisa instalar para configurar, mesmo que depois use por voz.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "assistentes",
+    rotulo: "Assistentes compatíveis",
+    grupo: "Quem controla",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcionaSemNuvem",
+    rotulo: "Funciona sem a nuvem do fabricante",
+    grupo: "Quem controla",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "Se a empresa desligar o servidor, o aparelho continua ligando e desligando? É o dado que decide o que você leva para casa — e quase ninguém publica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cargaMaxW",
+    rotulo: "Carga máxima",
+    grupo: "Tomada",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O limite do que dá para ligar nela. Chuveiro e ar-condicionado passam de qualquer tomada inteligente comum.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "medeConsumo",
+    rotulo: "Mede consumo",
+    grupo: "Tomada",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "fluxoLumens",
+    rotulo: "Fluxo luminoso",
+    grupo: "Lâmpada",
+    tipo: "numero",
+    unidade: "lm",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O que realmente mede o quanto ilumina. Watt mede consumo, não luz.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "temperaturaCorK",
+    rotulo: "Temperatura de cor",
+    grupo: "Lâmpada",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "corRgb",
+    rotulo: "Muda de cor",
+    grupo: "Lâmpada",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "resolucaoVideo",
+    rotulo: "Resolução de vídeo",
+    grupo: "Câmera",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "visaoNoturnaM",
+    rotulo: "Visão noturna declarada",
+    grupo: "Câmera",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "armazenamentoVideo",
+    rotulo: "Onde grava",
+    grupo: "Câmera",
+    tipo: "texto",
+    ajuda:
+      "Cartão de memória é seu; nuvem costuma ser assinatura, e o plano gratuito guarda poucos dias.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "protecaoIp",
+    rotulo: "Proteção contra água e poeira",
+    grupo: "Instalação",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
   perifericos: camposPeriferico,
+  "casa-conectada": camposCasaConectada,
   audio: camposAudio,
   cozinha: camposCozinha,
   celular: camposCelular,
@@ -2139,6 +2290,18 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   alimentacao: "bateria",
   duracaoPilhaMeses: "bateria",
   alcanceM: "regua",
+  appProprio: "celular",
+  assistentes: "onda",
+  funcionaSemNuvem: "escudo",
+  cargaMaxW: "raio",
+  medeConsumo: "raio",
+  fluxoLumens: "display",
+  temperaturaCorK: "termometro",
+  corRgb: "display",
+  resolucaoVideo: "display",
+  visaoNoturnaM: "regua",
+  armazenamentoVideo: "portas",
+  protecaoIp: "gota",
 };
 
 export function iconeDo(chave: string): string {
@@ -2250,6 +2413,18 @@ const ROTULO_CURTO: Record<string, string> = {
   alcanceM: "Alcance",
   tecladoNumerico: "Numérico",
   tipoTecla: "Teclas",
+  appProprio: "App",
+  assistentes: "Assistentes",
+  funcionaSemNuvem: "Sem nuvem",
+  cargaMaxW: "Carga máx.",
+  medeConsumo: "Mede consumo",
+  fluxoLumens: "Luz",
+  temperaturaCorK: "Cor",
+  corRgb: "RGB",
+  resolucaoVideo: "Vídeo",
+  visaoNoturnaM: "Noturna",
+  armazenamentoVideo: "Grava em",
+  protecaoIp: "IP",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -2262,6 +2437,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   armazenamento: ["capacidadeGb", "leituraMbs", "tipo"],
   conectividade: ["velocidadeNominalMbps", "velocidade5ghzMbps", "padraoWifi"],
   perifericos: ["tipo", "conexao", "duracaoPilhaMeses"],
+  "casa-conectada": ["tipo", "assistentes", "funcionaSemNuvem"],
   audio: ["horasFone", "driverMm", "protecaoAgua"],
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],
