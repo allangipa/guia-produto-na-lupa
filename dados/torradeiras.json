@@ -1,0 +1,680 @@
+[
+  {
+    "slug": "electrolux-ets10",
+    "nome": "Electrolux Efficient ETS10",
+    "marca": "Electrolux",
+    "modelo": "ETS10",
+    "categoria": "torradeiras",
+    "resumo": "Oito níveis de tostagem, o máximo da lista. A Electrolux é a que publica mais funções campo a campo — e é a única que diz que este modelo não tem desligamento automático.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 8,
+      "fatias": null,
+      "espessuraPaoMm": null,
+      "potenciaW": 800,
+      "consumoKwh": 0.8,
+      "funcaoDescongelar": true,
+      "funcaoReaquecer": true,
+      "funcaoCancelar": true,
+      "desligamentoAutomatico": false,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": 0.75,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.06,
+      "dimensoesMm": "283 × 191 × 171",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09CC5DN5C"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ets10-oficial",
+        "titulo": "Electrolux ETS10 Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-efficient-ets10-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "8 níveis de tostagem, potência de 800 W, consumo de 0,8 kW/h, abertura larga para diversos tipos de pães, função reaquecer, função descongelar, função cancelamento, bandeja de migalhas removível, indicador luminoso, sem suporte para aquecer pães, sem temporizador digital, sem desligamento automático, corpo de plástico com acabamento em aço inox escovado, cabo de 0,75 m, 28,3 × 19,1 × 17,1 cm, 1,06 kg, 127 V ou 220 V e garantia de 1 ano. A ficha não declara quantas fatias cabem nem a espessura de pão.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09CC5DN5C",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09CC5DN5C",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ets10.webp",
+      "alt": "Torradeira Electrolux ETS10 preta com acabamento inox, vista em perspectiva",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-efficient-ets10-/p"
+    }
+  },
+  {
+    "slug": "electrolux-top70",
+    "nome": "Electrolux Expert TOP70",
+    "marca": "Electrolux",
+    "modelo": "TOP70",
+    "categoria": "torradeiras",
+    "resumo": "Corpo inteiro de aço inox, 900 W e a lista de funções mais completa da categoria — inclusive a de levantar o pão para conferir sem cancelar o ciclo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 7,
+      "fatias": null,
+      "espessuraPaoMm": null,
+      "potenciaW": 900,
+      "consumoKwh": 0.9,
+      "funcaoDescongelar": true,
+      "funcaoReaquecer": true,
+      "funcaoCancelar": true,
+      "desligamentoAutomatico": true,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": 0.75,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.87,
+      "dimensoesMm": "314 × 201 × 183",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09CBWDVH4"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-top70-oficial",
+        "titulo": "Electrolux TOP70 Expert — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-expert-top70/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "7 níveis de tostagem, potência de 900 W, consumo de 0,9 kW/h, abertura larga, função reaquecer, descongelar, cancelamento, desligamento automático, suporte para aquecer pães, função Lift-and-check, bandeja de migalhas removível, indicador luminoso, corpo de aço inoxidável, cabo de 0,75 m, 31,4 × 20,1 × 18,3 cm, 1,87 kg, 127 V ou 220 V e garantia de 1 ano. Não declara fatias nem espessura de pão.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09CBWDVH4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09CBWDVH4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-top70.webp",
+      "alt": "Torradeira Electrolux TOP70 de aço inox, vista em perspectiva",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-expert-top70/p"
+    }
+  },
+  {
+    "slug": "oster-otor600",
+    "nome": "Oster Simple Life OTOR600",
+    "marca": "Oster",
+    "modelo": "OTOR600",
+    "categoria": "torradeiras",
+    "resumo": "Sete níveis e 750 W em 127 V — mas 650 W em 220 V. A Oster publica as duas potências, o que quase nenhuma marca faz.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 7,
+      "fatias": null,
+      "espessuraPaoMm": null,
+      "potenciaW": 750,
+      "consumoKwh": 0.75,
+      "funcaoDescongelar": true,
+      "funcaoReaquecer": true,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.88,
+      "dimensoesMm": "152 × 172 × 265",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09LD7ZMZZ"
+    },
+    "fontes": [
+      {
+        "id": "oster-otor600-oficial",
+        "titulo": "Oster OTOR600 Simple Life — página oficial da Oster",
+        "url": "https://www.oster.com.br/torradeira-oster-inox-simple-life/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W em 127 V e 650 W em 220 V, com consumo de 0,75 e 0,65 kW/h respectivamente; a ficha usa os valores de 127 V, que é a versão do anúncio ligado. Medidas de 152 × 172 × 265 mm, 0,880 kg, 127 V e 220 V e garantia de 12 meses. A descrição do produto na mesma página declara 7 níveis de tostagem, função descongelar e aquecer, pés antiaderentes e bandeja coletora. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09LD7ZMZZ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09LD7ZMZZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-otor600.webp",
+      "alt": "Torradeira Oster OTOR600 Simple Life inox, vista de frente",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/torradeira-oster-inox-simple-life/p"
+    }
+  },
+  {
+    "slug": "oster-otor650",
+    "nome": "Oster Black Simple Life OTOR650",
+    "marca": "Oster",
+    "modelo": "OTOR650",
+    "categoria": "torradeiras",
+    "resumo": "A versão preta da Simple Life, com a mesma potência que cai de 750 para 650 W conforme a tomada. A Oster não publica os níveis de tostagem deste modelo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": null,
+      "fatias": null,
+      "espessuraPaoMm": null,
+      "potenciaW": 750,
+      "consumoKwh": 0.75,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.9,
+      "dimensoesMm": "150 × 170 × 260",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B729R3R9"
+    },
+    "fontes": [
+      {
+        "id": "oster-otor650-oficial",
+        "titulo": "Oster OTOR650 Black Simple Life — página oficial da Oster",
+        "url": "https://www.oster.com.br/torradeira-oster-black-simple-life/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W em 127 V e 650 W em 220 V, consumo de 0,75 e 0,65 kW/h, 150 × 170 × 260 mm, 0,900 kg, 127 V e 220 V e garantia de 12 meses. A descrição declara design com bandeja coletora de migalhas. Diferente do OTOR600 da mesma linha, esta página **não publica o número de níveis de tostagem** — o campo ficou em branco. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0B729R3R9",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B729R3R9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-otor650.webp",
+      "alt": "Torradeira Oster OTOR650 Black Simple Life preta, vista de frente",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/torradeira-oster-black-simple-life/p"
+    }
+  },
+  {
+    "slug": "philco-ptr03a",
+    "nome": "Philco PTR03A",
+    "marca": "Philco",
+    "modelo": "PTR03A",
+    "categoria": "torradeiras",
+    "resumo": "Sete níveis, duas fatias, 800 W. O campo de espessura de pão desta ficha traz a frase \"Exemplo: 30mm\" — o texto de amostra ficou publicado no lugar do valor.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 7,
+      "fatias": 2,
+      "espessuraPaoMm": null,
+      "potenciaW": 800,
+      "consumoKwh": null,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DNKN9KL8"
+    },
+    "fontes": [
+      {
+        "id": "philco-ptr03a-oficial",
+        "titulo": "Philco PTR03A — página oficial da Philco",
+        "url": "https://www.philco.com.br/torradeira-ptr03a-127v-056201043/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "7 níveis de tostagem, 2 pães por vez, potência de 800 W, bandeja de migalhas e garantia de 360 dias. A espessura de pão não entrou: ver a divergência. Britânia e Philco publicam, para torradeira, seis campos: potência, quantidade de pães, espessura, bandeja de migalhas, níveis de tostagem e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem comprimento de cabo e sem nenhuma das funções.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DNKN9KL8",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DNKN9KL8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "espessuraPaoMm",
+        "fonteAdotada": "Philco",
+        "valorDivergente": "\"Exemplo: 30mm\"",
+        "fonteDivergente": "Philco",
+        "observacao": "O campo \"Espessura dos pães\" da ficha publicada traz literalmente a frase \"Exemplo: 30mm\". É o texto de amostra do formulário de cadastro, que ficou na página no lugar da medida do produto. Não dá para saber se 30 mm é a espessura desta torradeira ou só o exemplo que alguém digitou, então o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-ptr03a.webp",
+      "alt": "Torradeira Philco PTR03A inox, vista de frente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/torradeira-ptr03a-127v-056201043/p"
+    }
+  },
+  {
+    "slug": "philco-french-toast",
+    "nome": "Philco French Toast",
+    "marca": "Philco",
+    "modelo": "French Toast",
+    "categoria": "torradeiras",
+    "resumo": "Oito níveis e 3,5 cm de espessura de pão — a maior fenda declarada da lista, e a Philco publica esse número neste modelo e não no outro.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 8,
+      "fatias": 2,
+      "espessuraPaoMm": 35,
+      "potenciaW": 900,
+      "consumoKwh": null,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076HY5BH7"
+    },
+    "fontes": [
+      {
+        "id": "philco-french-toast-oficial",
+        "titulo": "Philco French Toast — página oficial da Philco",
+        "url": "https://www.philco.com.br/torradeira-philco-french-toast-inox-900wphilco/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "8 níveis de tostagem, 2 pães por vez, espessura de pães de 3,5 cm, potência de 900 W, bandeja de migalhas, acabamento em inox escovado e garantia de 360 dias. Britânia e Philco publicam, para torradeira, seis campos: potência, quantidade de pães, espessura, bandeja de migalhas, níveis de tostagem e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem comprimento de cabo e sem nenhuma das funções.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B076HY5BH7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076HY5BH7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-french-toast.webp",
+      "alt": "Torradeira Philco French Toast preta com inox escovado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/torradeira-philco-french-toast-inox-900wphilco/p"
+    }
+  },
+  {
+    "slug": "cadence-tor200",
+    "nome": "Cadence Croc! TOR200",
+    "marca": "Cadence",
+    "modelo": "TOR200",
+    "categoria": "torradeiras",
+    "resumo": "Sete níveis e duas fatias por 750 W, com a ficha da Cadence no padrão da casa: medida e peso na tabela, funções só na descrição.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 7,
+      "fatias": 2,
+      "espessuraPaoMm": null,
+      "potenciaW": 750,
+      "consumoKwh": 0.75,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.85,
+      "dimensoesMm": "255 × 170 × 140",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DHW5KH58"
+    },
+    "fontes": [
+      {
+        "id": "cadence-tor200-oficial",
+        "titulo": "Cadence TOR200 Croc! — página oficial da Cadence",
+        "url": "https://www.cadence.com.br/torradeira-preta-croc-cadence/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 750 W, consumo de 0,75 kWh, 255 × 170 × 140 mm, 0,850 kg, 127 V e 220 V e garantia de 12 meses. A descrição do produto na mesma página declara 2 fatias ao mesmo tempo, 7 níveis de tostagem e bandeja coletora de migalhas. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DHW5KH58",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DHW5KH58",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-tor200.webp",
+      "alt": "Torradeira Cadence Croc! TOR200 preta, vista em ângulo",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/torradeira-preta-croc-cadence/p"
+    }
+  },
+  {
+    "slug": "britania-btr05a",
+    "nome": "Britânia BTR05A",
+    "marca": "Britânia",
+    "modelo": "BTR05A",
+    "categoria": "torradeiras",
+    "resumo": "Seis níveis, o menor da lista, e 700 W. O campo de espessura de pão desta ficha está preenchido com a frase \"diferentes tamanhos e espessuras\", que não é medida nenhuma.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 6,
+      "fatias": 2,
+      "espessuraPaoMm": null,
+      "potenciaW": 700,
+      "consumoKwh": null,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DNKSG9N3"
+    },
+    "fontes": [
+      {
+        "id": "britania-btr05a-oficial",
+        "titulo": "Britânia BTR05A — página oficial da Britânia",
+        "url": "https://www.britania.com.br/torradeira-btr05a-127v-066201029/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "6 níveis de tostagem, 2 pães por vez, potência de 700 W, bandeja de migalhas e garantia de 360 dias. A espessura de pão não entrou: ver a divergência. Britânia e Philco publicam, para torradeira, seis campos: potência, quantidade de pães, espessura, bandeja de migalhas, níveis de tostagem e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem comprimento de cabo e sem nenhuma das funções.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DNKSG9N3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DNKSG9N3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "espessuraPaoMm",
+        "fonteAdotada": "Britânia",
+        "valorDivergente": "\"diferentes tamanhos e espessuras\"",
+        "fonteDivergente": "Britânia",
+        "observacao": "O campo \"Espessura dos pães\" traz a frase \"diferentes tamanhos e espessuras\" em vez de uma medida. É a mesma casa que, no modelo Tosta Pane, publica 30 mm no mesmo campo — aqui a frase substituiu o número, e o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-btr05a.webp",
+      "alt": "Torradeira Britânia BTR05A preta, vista de frente",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/torradeira-btr05a-127v-066201029/p"
+    }
+  },
+  {
+    "slug": "britania-tosta-pane",
+    "nome": "Britânia Tosta Pane 3 em 1",
+    "marca": "Britânia",
+    "modelo": "Tosta Pane",
+    "categoria": "torradeiras",
+    "resumo": "Sete níveis, 850 W e 30 mm de espessura declarada. É a mesma marca que, no modelo vizinho, preenche o campo de espessura com uma frase.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 7,
+      "fatias": 2,
+      "espessuraPaoMm": 30,
+      "potenciaW": 850,
+      "consumoKwh": null,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BRQFCXF8"
+    },
+    "fontes": [
+      {
+        "id": "britania-tosta-pane-oficial",
+        "titulo": "Britânia Tosta Pane — página oficial da Britânia",
+        "url": "https://www.britania.com.br/torradeira-tosta-pane-pr-127v-066201027/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "7 níveis de tostagem, 2 pães por vez, espessura de pães de 30 mm, potência de 850 W, bandeja de migalhas, acabamento em inox e garantia de 360 dias. Britânia e Philco publicam, para torradeira, seis campos: potência, quantidade de pães, espessura, bandeja de migalhas, níveis de tostagem e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem comprimento de cabo e sem nenhuma das funções.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BRQFCXF8",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BRQFCXF8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-tosta-pane.webp",
+      "alt": "Torradeira Britânia Tosta Pane preta com acabamento inox",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/torradeira-tosta-pane-pr-127v-066201027/p"
+    }
+  },
+  {
+    "slug": "mondial-t-13",
+    "nome": "Mondial Smart Toast T-13",
+    "marca": "Mondial",
+    "modelo": "T-13",
+    "categoria": "torradeiras",
+    "resumo": "Seis níveis e aberturas extralargas, com o cabo mais longo da categoria: 1,50 m, o dobro do das Electrolux. Não tem guarda-fio.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 6,
+      "fatias": 2,
+      "espessuraPaoMm": null,
+      "potenciaW": 800,
+      "consumoKwh": null,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": false,
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.86,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07GHCWPWT"
+    },
+    "fontes": [
+      {
+        "id": "mondial-t13-oficial",
+        "titulo": "Mondial T-13 Smart Toast — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/torradeira-de-paes-smart-toast-inox-mondial-t-13/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 2 pães, 6 níveis de tostagem, coletor de migalhas, cabo de 1,50 m, sem guarda-fio, funções de tostar ou aquecer, tomada de 10 A, corpo em PP e inox, potência de 800 W, 0,860 kg, 127 V/220 V e garantia de 1 ano. A Mondial publica cabo, guarda-fio e material — campos que quase nenhuma marca traz — e não publica dimensões nem espessura de pão.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07GHCWPWT",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07GHCWPWT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-t-13.webp",
+      "alt": "Tostador Mondial Smart Toast T-13 preto com inox",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/torradeira-de-paes-smart-toast-inox-mondial-t-13/p"
+    }
+  },
+  {
+    "slug": "mondial-t-18",
+    "nome": "Mondial Pratic T-18",
+    "marca": "Mondial",
+    "modelo": "T-18",
+    "categoria": "torradeiras",
+    "resumo": "A mais leve da lista, com 700 g, e a única com guarda-fio declarado ao lado do modelo irmão que não tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 6,
+      "fatias": 2,
+      "espessuraPaoMm": null,
+      "potenciaW": 700,
+      "consumoKwh": null,
+      "funcaoDescongelar": null,
+      "funcaoReaquecer": null,
+      "funcaoCancelar": null,
+      "desligamentoAutomatico": null,
+      "bandejaRemovivel": true,
+      "guardaFio": true,
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.7,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09GHWRPVW"
+    },
+    "fontes": [
+      {
+        "id": "mondial-t18-oficial",
+        "titulo": "Mondial T-18 Pratic — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/torradeira-de-paes-pratic-mondial-t-18/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 2 fatias, 6 níveis de tostagem, coletor de migalhas, cabo de 1,50 m, guarda-fio, funções de tostar e aquecer, tomada de 10 A, corpo em PP, potência de 700 W, 0,700 kg, 127 V/220 V e garantia de 12 meses. Não publica dimensões nem espessura de pão.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09GHWRPVW",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09GHWRPVW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-t-18.webp",
+      "alt": "Tostador Mondial Pratic T-18 preto, vista de frente",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/torradeira-de-paes-pratic-mondial-t-18/p"
+    }
+  },
+  {
+    "slug": "wap-wte1",
+    "nome": "WAP WTE1",
+    "marca": "WAP",
+    "modelo": "WTE1",
+    "categoria": "torradeiras",
+    "resumo": "Dois anos de garantia — o dobro de todas as outras da lista. Também é a mais completa em funções, com descongelar, reaquecer, cancelar, desligamento automático e guarda-fio.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "niveisTostagem": 7,
+      "fatias": 2,
+      "espessuraPaoMm": null,
+      "potenciaW": 900,
+      "consumoKwh": null,
+      "funcaoDescongelar": true,
+      "funcaoReaquecer": true,
+      "funcaoCancelar": true,
+      "desligamentoAutomatico": true,
+      "bandejaRemovivel": true,
+      "guardaFio": true,
+      "comprimentoCaboM": 0.8,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.19,
+      "dimensoesMm": "187 × 166 × 260",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CH5RBPXN"
+    },
+    "fontes": [
+      {
+        "id": "wap-wte1-oficial",
+        "titulo": "WAP WTE1 — página oficial da WAP",
+        "url": "https://loja.wap.ind.br/torradeira-eletrica-wap-wte1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "7 níveis de tostagem, 2 pães por vez, potência de 900 W em 127 V e 800 W em 220 V — a ficha usa o valor de 127 V —, funções cancelar, reaquecer e descongelar, bandeja de migalhas, porta-fio, pés antiderrapantes, desligamento automático, cabo de 0,8 m, 26 × 18,7 × 16,6 cm em comprimento × largura × altura, 1,19 kg líquidos e **garantia de 2 anos**, contra 1 ano de todas as outras marcas desta lista.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CH5RBPXN",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CH5RBPXN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-wte1.webp",
+      "alt": "Torradeira WAP WTE1 preta e cinza, vista de frente",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/torradeira-eletrica-wap-wte1/p"
+    }
+  }
+]

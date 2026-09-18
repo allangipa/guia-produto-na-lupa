@@ -123,6 +123,15 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "torradeiras",
+    nome: "Torradeiras",
+    descricao:
+      "Torradeiras elétricas de duas fatias, com os níveis de tostagem ao lado do que cada marca deixa de dizer sobre eles.",
+    dorPrincipal: "O nível 4 de uma marca não é o nível 4 da outra. Nenhuma diz o que cada um faz.",
+    porQueParou:
+      "Fechou em doze, com sete marcas — todas as do ranking que têm ficha de fabricante. Ficaram de fora a Ariete e a Smeg, que não têm catálogo brasileiro aberto, e os itens do nó que não são torradeira: torneira elétrica, torrador de café e prensa de sanduíche.",
+  },
+  {
     slug: "sanduicheiras",
     nome: "Sanduicheiras e grills",
     descricao:

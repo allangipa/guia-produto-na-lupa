@@ -2783,12 +2783,174 @@ export const camposLavadora: Campo[] = [
   },
 ];
 
+/**
+ * Torradeiras.
+ *
+ * O número que todas publicam é o de níveis de tostagem — 6, 7 ou 8 — e
+ * **nenhuma diz o que cada nível significa**: nem tempo, nem temperatura. Um
+ * "nível 4" de uma marca não é o "nível 4" da outra, e a coluna serve para
+ * mostrar isso, não para ordenar.
+ *
+ * O campo que responderia a pergunta de quem compra é a espessura de pão que
+ * entra na fenda. Duas marcas publicam, e numa delas o valor é a frase
+ * "Exemplo: 30mm" — o texto de amostra ficou na ficha publicada.
+ */
+export const camposTorradeira: Campo[] = [
+  {
+    chave: "niveisTostagem",
+    rotulo: "Níveis de tostagem",
+    grupo: "Tostagem",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quantas posições o seletor tem. Nenhuma marca publica o tempo ou a temperatura de cada uma, então o nível 4 de uma não é o nível 4 da outra.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "fatias",
+    rotulo: "Fatias por vez",
+    grupo: "Tostagem",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "espessuraPaoMm",
+    rotulo: "Espessura de pão",
+    grupo: "Tostagem",
+    tipo: "numero",
+    unidade: "mm",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "A largura da fenda decide se o pão de padaria entra ou fica pela metade. Quase nenhuma ficha publica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoKwh",
+    rotulo: "Consumo",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcaoDescongelar",
+    rotulo: "Descongelar",
+    grupo: "Funções",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcaoReaquecer",
+    rotulo: "Reaquecer",
+    grupo: "Funções",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcaoCancelar",
+    rotulo: "Cancelar",
+    grupo: "Funções",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Interrompe o ciclo e sobe o pão antes do tempo. Sem ela, só tirando da tomada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "desligamentoAutomatico",
+    rotulo: "Desligamento automático",
+    grupo: "Funções",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bandejaRemovivel",
+    rotulo: "Bandeja de migalhas",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "guardaFio",
+    rotulo: "Guarda-fio",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
   geladeiras: camposGeladeira,
   lavadoras: camposLavadora,
+  torradeiras: camposTorradeira,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -2986,6 +3148,15 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   materialCesto: "panela",
   reaproveitamentoAgua: "gota",
   filtroFiapos: "escudo",
+  niveisTostagem: "termometro",
+  fatias: "panela",
+  espessuraPaoMm: "regua",
+  funcaoDescongelar: "gota",
+  funcaoReaquecer: "termometro",
+  funcaoCancelar: "x",
+  desligamentoAutomatico: "relogio",
+  bandejaRemovivel: "portas",
+  guardaFio: "cabo",
 };
 
 export function iconeDo(chave: string): string {
@@ -3010,6 +3181,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   microondas: "panela",
   geladeiras: "termometro",
   lavadoras: "gota",
+  torradeiras: "panela",
   eletrodomesticos: "raio",
 };
 
@@ -3132,6 +3304,13 @@ const ROTULO_CURTO: Record<string, string> = {
   materialCesto: "Cesto",
   reaproveitamentoAgua: "Reaproveita",
   filtroFiapos: "Filtro",
+  niveisTostagem: "Níveis",
+  espessuraPaoMm: "Espessura",
+  funcaoDescongelar: "Descongela",
+  funcaoReaquecer: "Reaquece",
+  funcaoCancelar: "Cancela",
+  desligamentoAutomatico: "Desliga só",
+  bandejaRemovivel: "Bandeja",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -3164,6 +3343,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   microondas: ["capacidadeTotalL", "capacidadeUtilL", "potenciaW"],
   geladeiras: ["capacidadeTotalL", "capacidadeGeladeiraL", "consumoKwhMes"],
   lavadoras: ["capacidadeKg", "consumoAguaL", "rotacaoRpm"],
+  torradeiras: ["niveisTostagem", "espessuraPaoMm", "potenciaW"],
 };
 
 export function destaquesDa(categoria: string): string[] {
