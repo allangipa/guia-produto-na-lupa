@@ -38,6 +38,8 @@ export const categorias: Categoria[] = [
     nome: "Periféricos",
     descricao: "Teclados, mouses, webcams e o que fica entre você e o computador.",
     dorPrincipal: "Aguenta oito horas por dia sem cansar a mão?",
+    porQueParou:
+      "Mousepad ficou de fora de propósito: ocupa um terço da lista de mais vendidos e não tem campo comparável além do tamanho. Do resto do ranking, Logitech e Multilaser são as que publicam ficha aberta, campo a campo. HP, Dell, Redragon, C3Tech e Fortrek aparecem bem colocadas e não têm página de produto com especificação legível — sem isso não há ficha, só o título do anúncio, que não é fonte.",
   },
   {
     slug: "monitores",

@@ -1,0 +1,997 @@
+[
+  {
+    "slug": "logitech-m170",
+    "nome": "Logitech M170",
+    "marca": "Logitech",
+    "modelo": "M170",
+    "categoria": "perifericos",
+    "resumo": "O mais vendido do país. Sem fio por receptor USB, uma pilha AA que a Logitech promete durar doze meses, e 1.000 DPI — o piso da linha, e o suficiente para quem só quer um ponteiro.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio",
+      "conexao": "Receptor USB 2,4 GHz",
+      "dpiMax": 1000,
+      "sensor": "Rastreamento óptico suave",
+      "botoes": 3,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "1 pilha AA (inclusa)",
+      "duracaoPilhaMeses": 12,
+      "alcanceM": 10,
+      "pesoG": 69.3,
+      "dimensoesMm": "97,7 × 61,5 × 35,2",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B074L9L5KZ"
+    },
+    "fontes": [
+      {
+        "id": "m170-wireless-mouse-oficial",
+        "titulo": "Logitech M170 — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/m170-wireless-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Rastreamento óptico suave, 1.000 DPI (a Logitech escreve \"1.000±\", sem dizer o que o sinal admite), 3 botões, 1 pilha AA inclusa com doze meses declarados, conexão sem fio de 2,4 GHz por receptor USB, alcance de dez metros, 97,7 × 61,5 × 35,2 mm — rotulados pela Logitech como altura, largura e profundidade — 69,3 g com a pilha e garantia limitada de um ano. A galeria da página brasileira publica o M170 em off-white, rosa, azul, vermelho e azul-acinzentado, e os arquivos dela são nomeados M171 — nome do mesmo produto em outros mercados. O anúncio ligado a esta ficha é o preto, cor que a Logitech não publica nesta página: a foto aqui é a oficial, na cor que existe no site do fabricante.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B074L9L5KZ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B074L9L5KZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-m170.webp",
+      "alt": "Mouse sem fio Logitech M170 visto de cima, na cor off-white publicada pela Logitech",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/m170-wireless-mouse"
+    }
+  },
+  {
+    "slug": "logitech-m190",
+    "nome": "Logitech M190",
+    "marca": "Logitech",
+    "modelo": "M190",
+    "categoria": "perifericos",
+    "resumo": "O M170 em tamanho cheio, para quem acha o compacto pequeno demais. Mesmos 1.000 DPI, seis meses a mais de pilha declarada — e a Logitech não diz que pilha é.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio",
+      "conexao": "Receptor nano USB 2,4 GHz",
+      "dpiMax": 1000,
+      "sensor": "Rastreamento óptico avançado",
+      "botoes": 3,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": null,
+      "duracaoPilhaMeses": 18,
+      "alcanceM": 10,
+      "pesoG": 89.9,
+      "dimensoesMm": "115,4 × 66,1 × 40,3",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08GL4CW6X"
+    },
+    "fontes": [
+      {
+        "id": "m190-wireless-mouse-oficial",
+        "titulo": "Logitech M190 — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/m190-wireless-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Rastreamento óptico avançado, resolução de 1.000 DPI, 3 botões, rolagem linha a linha, pilha de 18 meses, receptor nano de 2,4 GHz, distância de funcionamento de dez metros, 115,4 × 66,1 × 40,3 mm com pilhas, 89,9 g, garantia limitada de um ano, código 910-005902. A ficha declara a duração da pilha mas não diz qual pilha o mouse usa — o campo de alimentação ficou em branco por isso.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B08GL4CW6X",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08GL4CW6X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-m190.webp",
+      "alt": "Mouse sem fio Logitech M190 grafite, de tamanho cheio, visto de cima",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/m190-wireless-mouse"
+    }
+  },
+  {
+    "slug": "logitech-m196",
+    "nome": "Logitech M196",
+    "marca": "Logitech",
+    "modelo": "M196",
+    "categoria": "perifericos",
+    "resumo": "Bluetooth, doze meses de pilha e 1.000 DPI. A ficha da Logitech descreve a rolagem, a luz e o botão de ligar — e não diz quantos botões o mouse tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio",
+      "conexao": "Bluetooth Low Energy",
+      "dpiMax": 1000,
+      "sensor": "Rastreamento óptico suave",
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "1 pilha AA (pré-instalada)",
+      "duracaoPilhaMeses": 12,
+      "alcanceM": 10,
+      "pesoG": 76,
+      "dimensoesMm": "100 × 60 × 38",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DN4RM6X7"
+    },
+    "fontes": [
+      {
+        "id": "m196-bluetooth-mouse-oficial",
+        "titulo": "Logitech M196 — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/m196-bluetooth-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Rastreamento óptico suave, valor nominal de 1.000 DPI, roda de rolagem 2D mecânica com rolagem linha a linha, 1 pilha AA pré-instalada com doze meses declarados, Bluetooth Low Energy, alcance de dez metros, 100 × 60 × 38 mm com bateria, 76 g, garantia limitada de um ano, código 910-007456. A ficha não publica o número de botões — é o único campo de mouse que falta nela.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DN4RM6X7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DN4RM6X7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-m196.webp",
+      "alt": "Mouse sem fio Logitech M196 grafite, compacto, visto de cima",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/m196-bluetooth-mouse"
+    }
+  },
+  {
+    "slug": "logitech-m240-silent",
+    "nome": "Logitech M240 Silent",
+    "marca": "Logitech",
+    "modelo": "M240 Silent",
+    "categoria": "perifericos",
+    "resumo": "Clique silencioso e DPI ajustável de 400 a 4.000 — faixa que a linha de escritório da Logitech quase nunca publica. O valor nominal continua sendo 1.000.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio",
+      "conexao": "Bluetooth Low Energy",
+      "dpiMax": 4000,
+      "sensor": "Rastreamento óptico suave",
+      "botoes": 3,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "1 pilha AA (inclusa)",
+      "duracaoPilhaMeses": 18,
+      "alcanceM": 10,
+      "pesoG": 73.8,
+      "dimensoesMm": "99 × 60 × 39",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BXNR9DB6"
+    },
+    "fontes": [
+      {
+        "id": "m240-silent-bluetooth-mouse-oficial",
+        "titulo": "Logitech M240 Silent — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/m240-silent-bluetooth-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Rastreamento óptico suave, valor nominal de 1.000 DPI e faixa de 400 a 4.000 em etapas de 100, tecnologia SilentTouch com redução de 90% do ruído de clique medida por laboratório independente a um metro contra o M185, 3 botões, roda 2D mecânica, 1 pilha AA inclusa com 18 meses declarados, Bluetooth Low Energy, alcance de dez metros, 99 × 60 × 39 mm, 73,8 g e garantia limitada de um ano. O DPI da ficha é o teto do sensor: o mouse sai de fábrica em 1.000.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BXNR9DB6",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BXNR9DB6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-m240-silent.webp",
+      "alt": "Mouse sem fio Logitech M240 Silent grafite, visto de cima",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/m240-silent-bluetooth-mouse"
+    }
+  },
+  {
+    "slug": "logitech-m330-silent-plus",
+    "nome": "Logitech M330 Silent Plus",
+    "marca": "Logitech",
+    "modelo": "M330 Silent Plus",
+    "categoria": "perifericos",
+    "resumo": "O silencioso com receptor USB, para quem não quer depender de Bluetooth. Dezoito meses de pilha declarados e 1.000 DPI fixos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio",
+      "conexao": "Receptor USB 2,4 GHz (Unifying)",
+      "dpiMax": 1000,
+      "sensor": "Rastreamento óptico de alta precisão",
+      "botoes": 3,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "1 pilha AA (inclusa)",
+      "duracaoPilhaMeses": 18,
+      "alcanceM": 10,
+      "pesoG": 78,
+      "dimensoesMm": "105,4 × 67,9 × 38,4",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B01JPOLKDW"
+    },
+    "fontes": [
+      {
+        "id": "m330-silent-plus-mouse-oficial",
+        "titulo": "Logitech M330 Silent Plus — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/m330-silent-plus-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Rastreamento óptico de alta precisão, 1.000 DPI, 3 botões, roda de rolagem 2D mecânica emborrachada, 1 pilha AA inclusa com 18 meses declarados, conexão sem fio de 2,4 GHz pronta para Unifying, alcance de dez metros, 105,4 × 67,9 × 38,4 mm com pilha, 78 g, garantia limitada de um ano, código 910-004905. A pegada de carbono declarada é de 3,97 kg CO2e.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B01JPOLKDW",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B01JPOLKDW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-m330-silent-plus.webp",
+      "alt": "Mouse sem fio Logitech M330 Silent Plus preto, visto de cima",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/m330-silent-plus-mouse"
+    }
+  },
+  {
+    "slug": "logitech-pebble-2-m350s",
+    "nome": "Logitech Pebble 2 M350s",
+    "marca": "Logitech",
+    "modelo": "Pebble 2 M350s",
+    "categoria": "perifericos",
+    "resumo": "Vinte e quatro meses de pilha declarados — o dobro do M170 — num corpo de 26 mm de espessura. Pareia com três aparelhos e alterna entre eles.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio",
+      "conexao": "Bluetooth Low Energy (até 3 aparelhos)",
+      "dpiMax": 4000,
+      "sensor": "Rastreamento óptico de alta precisão",
+      "botoes": 3,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "1 pilha AA (alcalina)",
+      "duracaoPilhaMeses": 24,
+      "alcanceM": 10,
+      "pesoG": 76,
+      "dimensoesMm": "106 × 58,7 × 26,62",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CJ3BDN7T"
+    },
+    "fontes": [
+      {
+        "id": "pebble-2-m350s-wireless-mouse-oficial",
+        "titulo": "Logitech Pebble 2 M350s — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/pebble-2-m350s-wireless-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Rastreamento óptico de alta precisão, valor nominal de 1.000 DPI e faixa de 400 a 4.000 totalmente ajustável em incrementos de 100, 3 botões com um personalizável pelo Logi Options+, cliques silenciosos com SilentTouch, 1 pilha AA alcalina com 24 meses declarados, Bluetooth Low Energy com pareamento de até três aparelhos e compatibilidade com o receptor Logi Bolt, alcance de até dez metros, 106 × 58,7 × 26,62 mm, 76 g e garantia limitada de um ano.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CJ3BDN7T",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CJ3BDN7T",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-pebble-2-m350s.webp",
+      "alt": "Mouse sem fio Logitech Pebble 2 M350s grafite, de corpo achatado e oval",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/pebble-2-m350s-wireless-mouse"
+    }
+  },
+  {
+    "slug": "logitech-lift-vertical",
+    "nome": "Logitech Lift Vertical",
+    "marca": "Logitech",
+    "modelo": "Lift Vertical",
+    "categoria": "perifericos",
+    "resumo": "Vertical, a 57 graus. É o mais pesado e o mais caro desta lista, e o único que a Logitech descreve com um objetivo de postura — sem nenhum número de saúde para sustentar, o que é honesto.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio vertical",
+      "conexao": "Bluetooth Low Energy ou receptor USB Logi Bolt",
+      "dpiMax": 4000,
+      "sensor": "Rastreamento óptico avançado da Logitech",
+      "botoes": 6,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "1 pilha AA (inclusa)",
+      "duracaoPilhaMeses": 24,
+      "alcanceM": 10,
+      "pesoG": 125,
+      "dimensoesMm": "108 × 70 × 71",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09J1TB35S"
+    },
+    "fontes": [
+      {
+        "id": "lift-vertical-ergonomic-mouse-oficial",
+        "titulo": "Logitech Lift Vertical — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/lift-vertical-ergonomic-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Rastreamento óptico avançado da Logitech, faixa de 400 a 4.000 DPI ajustável em incrementos de 100 com valor nominal de 1.000, 6 botões, 1 pilha AA inclusa com até 24 meses declarados, receptor USB Logi Bolt incluído e Bluetooth Low Energy, dez metros de alcance, 108 × 70 × 71 mm, 125 g e garantia limitada de um ano.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09J1TB35S",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09J1TB35S",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-lift-vertical.webp",
+      "alt": "Mouse vertical Logitech Lift grafite, inclinado, com apoio lateral",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/lift-vertical-ergonomic-mouse"
+    }
+  },
+  {
+    "slug": "logitech-g203",
+    "nome": "Logitech G203 Lightsync",
+    "marca": "Logitech",
+    "modelo": "G203 LIGHTSYNC",
+    "categoria": "perifericos",
+    "resumo": "Com fio, 8.000 DPI e seis botões programáveis. A Logitech publica a resolução e a taxa de transmissão, e não diz qual é o sensor — na linha gamer, isso costuma ser o dado que mais se pergunta.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse com fio",
+      "conexao": "Cabo USB de 2,1 m",
+      "dpiMax": 8000,
+      "sensor": null,
+      "botoes": 6,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "Cabo USB",
+      "duracaoPilhaMeses": null,
+      "alcanceM": null,
+      "pesoG": 85,
+      "dimensoesMm": "38,2 × 62,1 × 116,6",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico",
+      "duracaoPilhaMeses",
+      "alcanceM"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B087CT8PWY"
+    },
+    "fontes": [
+      {
+        "id": "g203-lightsync-rgb-gaming-mouse-oficial",
+        "titulo": "Logitech G203 LIGHTSYNC — página oficial da Logitech G",
+        "url": "https://www.logitech.com/pt-br/shop/p/g203-lightsync-rgb-gaming-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "6 botões programáveis, resolução de 200 a 8.000 DPI, iluminação RGB LIGHTSYNC, cabo de 2,1 m, formato de dados USB de 16 bits por eixo, taxa de transmissão de 1.000 Hz (1 ms), microprocessador ARM de 32 bits, 116,6 × 62,1 × 38,2 mm, 85 g, garantia limitada de dois anos, código 910-005793. A ficha publica a resolução mas não nomeia o sensor — o campo ficou em branco.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B087CT8PWY",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B087CT8PWY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-g203.webp",
+      "alt": "Mouse com fio Logitech G203 preto, com a logomarca G iluminada",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/g203-lightsync-rgb-gaming-mouse"
+    }
+  },
+  {
+    "slug": "logitech-g305",
+    "nome": "Logitech G305 Lightspeed",
+    "marca": "Logitech",
+    "modelo": "G305 LIGHTSPEED",
+    "categoria": "perifericos",
+    "resumo": "Sensor HERO, 12.000 DPI e 1.000 Hz sem fio. A autonomia vem em horas, não em meses: 250 horas, sem dizer quantas por dia — e é por isso que o campo de pilha desta ficha está vazio.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse sem fio",
+      "conexao": "LIGHTSPEED 2,4 GHz (1.000 Hz)",
+      "dpiMax": 12000,
+      "sensor": "HERO",
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": null,
+      "duracaoPilhaMeses": null,
+      "alcanceM": null,
+      "pesoG": 99,
+      "dimensoesMm": "38,2 × 62,1 × 116,6",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07GPRWFC5"
+    },
+    "fontes": [
+      {
+        "id": "g305-lightspeed-wireless-gaming-mouse-oficial",
+        "titulo": "Logitech G305 LIGHTSPEED — página oficial da Logitech G",
+        "url": "https://www.logitech.com/pt-br/shop/p/g305-lightspeed-wireless-gaming-mouse",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Sensor HERO, resolução de 200 a 12.000 DPI, sistema de tensionamento de botões mecânicos, memória integrada para 1 perfil, aceleração máxima de 40 G e velocidade de 400 IPS (as duas avaliadas no mousepad G240, conforme a nota da própria Logitech), sem fio LIGHTSPEED com report rate de 1.000 Hz, microprocessador ARM de 32 bits, base em PTFE com alcance de 250 km, 116,6 × 62,1 × 38,2 mm, 99 g, garantia limitada de dois anos, código 910-005281. A duração da bateria é declarada em 250 horas, não em meses, e sem dizer quantas horas por dia a conta supõe — não dá para comparar com os 12 a 24 meses da linha de escritório da mesma marca, então o campo ficou vazio. A ficha também não nomeia o tipo de pilha nem o número de botões.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07GPRWFC5",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07GPRWFC5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-g305.webp",
+      "alt": "Mouse sem fio Logitech G305 preto, com a logomarca G no apoio da palma",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/g305-lightspeed-wireless-gaming-mouse"
+    }
+  },
+  {
+    "slug": "multilaser-mo300",
+    "nome": "Multilaser Classic Box MO300",
+    "marca": "Multilaser",
+    "modelo": "MO300",
+    "categoria": "perifericos",
+    "resumo": "Com fio, 1.200 DPI, 60 g. A Multilaser publica peso, medidas, botões e comprimento de cabo — e não publica prazo de garantia nem o tipo de sensor.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mouse com fio",
+      "conexao": "Cabo USB de 1,2 m",
+      "dpiMax": 1200,
+      "sensor": null,
+      "botoes": 3,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "Cabo USB",
+      "duracaoPilhaMeses": null,
+      "alcanceM": null,
+      "pesoG": 60,
+      "dimensoesMm": "97 × 55 × 34",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "layout",
+      "tipoTecla",
+      "tecladoNumerico",
+      "duracaoPilhaMeses",
+      "alcanceM"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B086J78G67"
+    },
+    "fontes": [
+      {
+        "id": "multilaser-mo300-oficial",
+        "titulo": "Multilaser Classic Box MO300 — página oficial da Multilaser",
+        "url": "https://www.multilaser.com.br/mouse-classic-box-optico-usb-1200dpi-preto-multilaser-mo300/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Conexão USB com fio, cabo de 1,2 m, velocidade de 1.200 DPI, 3 botões, sem clique silencioso, compatível com Android, Windows, Linux e macOS, 9,7 × 5,5 × 3,4 cm — convertidos para 97 × 55 × 34 mm — 60 g, corpo em PP e embalagem com apenas o mouse. A ficha não nomeia o sensor nem declara prazo de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B086J78G67",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B086J78G67",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/multilaser-mo300.webp",
+      "alt": "Mouse com fio Multilaser Classic Box MO300 preto, visto de cima",
+      "credito": "Imagem: Multilaser",
+      "origem": "https://www.multilaser.com.br/mouse-classic-box-optico-usb-1200dpi-preto-multilaser-mo300/p"
+    }
+  },
+  {
+    "slug": "logitech-k120",
+    "nome": "Logitech K120",
+    "marca": "Logitech",
+    "modelo": "K120",
+    "categoria": "perifericos",
+    "resumo": "O teclado com fio mais vendido, e o de maior garantia desta lista: três anos. A ficha diz que tem bloco numérico e resiste a derramamento — e publica um peso de 50 gramas que não se sustenta.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Teclado com fio",
+      "conexao": "Cabo USB de 1,5 m",
+      "dpiMax": null,
+      "sensor": null,
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": "Perfil profundo",
+      "tecladoNumerico": true,
+      "alimentacao": "Cabo USB",
+      "duracaoPilhaMeses": null,
+      "alcanceM": null,
+      "pesoG": null,
+      "dimensoesMm": "155 × 450 × 23,5",
+      "garantiaMeses": 36
+    },
+    "naoSeAplica": [
+      "dpiMax",
+      "sensor",
+      "botoes",
+      "duracaoPilhaMeses",
+      "alcanceM"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B074WL3ZHZ"
+    },
+    "fontes": [
+      {
+        "id": "k120-usb-standard-computer-oficial",
+        "titulo": "Logitech K120 — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/k120-usb-standard-computer",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Design resistente a derramamentos, bloco numérico de 10 teclas, luzes indicadoras de Caps Lock e Num Lock, até 10 milhões de toques por tecla, teclas de perfil profundo, 155 × 450 × 23,5 mm, cabo de 150 cm, plásticos pretos com 51% de material reciclado pós-consumo, pegada de carbono de 4,02 kg CO2e e garantia limitada de três anos. O peso publicado, 50 g, não fecha com um teclado de 450 mm — ver a divergência.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B074WL3ZHZ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B074WL3ZHZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "pesoG",
+        "fonteAdotada": "Logitech",
+        "valorDivergente": "50 g",
+        "fonteDivergente": "Logitech",
+        "observacao": "A mesma tabela que publica um teclado de 450 × 155 × 23,5 mm publica 50 g de peso. Um teclado de tamanho cheio nessa medida pesa em torno de meio quilo; 50 g é o peso de um mouse sem pilha. O campo ficou em branco até a Logitech corrigir."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-k120.webp",
+      "alt": "Teclado com fio Logitech K120 preto, de tamanho cheio com bloco numérico",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/k120-usb-standard-computer"
+    }
+  },
+  {
+    "slug": "logitech-k270",
+    "nome": "Logitech K270",
+    "marca": "Logitech",
+    "modelo": "K270",
+    "categoria": "perifericos",
+    "resumo": "Sem fio por receptor Unifying, duas pilhas AAA e 24 meses declarados, com três anos de garantia. As medidas publicadas não fecham: 5,87 mm de altura para um teclado de tamanho cheio.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Teclado sem fio",
+      "conexao": "Receptor USB Unifying 2,4 GHz",
+      "dpiMax": null,
+      "sensor": null,
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "2 pilhas AAA (inclusas)",
+      "duracaoPilhaMeses": 24,
+      "alcanceM": 10,
+      "pesoG": 498,
+      "dimensoesMm": null,
+      "garantiaMeses": 36
+    },
+    "naoSeAplica": [
+      "dpiMax",
+      "sensor",
+      "botoes"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B074FC9TV5"
+    },
+    "fontes": [
+      {
+        "id": "k270-unifying-wireless-oficial",
+        "titulo": "Logitech K270 — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/k270-unifying-wireless",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Protocolo Logitech Unifying de 2,4 GHz, mais de dez metros de alcance, 2 pilhas AAA inclusas com 24 meses declarados, teclas de atalho de internet, e-mail, mídia e volume, até cinco milhões de pressionamentos por tecla, plásticos pretos com 38% de material reciclado, 498 g e garantia limitada de três anos. As três medidas publicadas não fecham entre si — ver a divergência. A ficha não declara layout, tipo de tecla nem se tem bloco numérico.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B074FC9TV5",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B074FC9TV5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "Logitech",
+        "valorDivergente": "5,87 × 441,5 × 18 mm",
+        "fonteDivergente": "Logitech",
+        "observacao": "A própria tabela publica 441,5 mm de largura e 18 mm de profundidade, e 5,87 mm de altura. Um teclado de tamanho cheio tem cerca de 150 mm da borda da frente à de trás; 5,87 mm é menos que a espessura declarada do próprio produto. Os três números não descrevem o mesmo objeto, e o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-k270.webp",
+      "alt": "Teclado sem fio Logitech K270 preto, de tamanho cheio com bloco numérico",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/k270-unifying-wireless"
+    }
+  },
+  {
+    "slug": "logitech-pebble-keys-2-k380s",
+    "nome": "Logitech Pebble Keys 2 K380s",
+    "marca": "Logitech",
+    "modelo": "Pebble Keys 2 K380s",
+    "categoria": "perifericos",
+    "resumo": "Trinta e seis meses de pilha declarados, o maior desta lista, e três aparelhos pareados ao mesmo tempo. Dezesseis milímetros de espessura.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Teclado sem fio",
+      "conexao": "Bluetooth Low Energy (até 3 aparelhos)",
+      "dpiMax": null,
+      "sensor": null,
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": "Teclas discretas, digitação semelhante à de notebook",
+      "tecladoNumerico": null,
+      "alimentacao": "2 pilhas AAA (alcalinas)",
+      "duracaoPilhaMeses": 36,
+      "alcanceM": 10,
+      "pesoG": 415,
+      "dimensoesMm": "124 × 279 × 16",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "dpiMax",
+      "sensor",
+      "botoes"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CJ3WFW9H"
+    },
+    "fontes": [
+      {
+        "id": "pebble-keys-2-oficial",
+        "titulo": "Logitech Pebble Keys 2 K380s — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/pebble-keys-2",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bluetooth Low Energy com pareamento de até três aparelhos e três canais Easy-Switch, 2 pilhas AAA alcalinas com 36 meses declarados, teclas discretas de digitação de baixo ruído semelhante à de notebook, teclas especiais de área de trabalho, busca, voltar, ditado por voz, emojis e captura de tela, teclas Fn personalizáveis pelo Logi Options+, alcance de até dez metros, 124 × 279 × 16 mm, 415 g e garantia limitada de um ano. A ficha não declara layout nem se há bloco numérico.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CJ3WFW9H",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CJ3WFW9H",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-pebble-keys-2-k380s.webp",
+      "alt": "Teclado sem fio Logitech Pebble Keys 2 K380s grafite, compacto, de teclas redondas",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/pebble-keys-2"
+    }
+  },
+  {
+    "slug": "logitech-k250",
+    "nome": "Logitech K250",
+    "marca": "Logitech",
+    "modelo": "K250",
+    "categoria": "perifericos",
+    "resumo": "Compacto mas com bloco numérico — combinação que a própria Logitech nomeia no campo de layout, e que é rara nesse tamanho. Doze meses de pilha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Teclado sem fio",
+      "conexao": "Bluetooth Low Energy",
+      "dpiMax": null,
+      "sensor": null,
+      "botoes": null,
+      "layout": "Compacto com teclado numérico",
+      "tipoTecla": null,
+      "tecladoNumerico": true,
+      "alimentacao": "2 pilhas AAA (inclusas)",
+      "duracaoPilhaMeses": 12,
+      "alcanceM": 10,
+      "pesoG": 380,
+      "dimensoesMm": "136,9 × 369,9 × 22,8",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "dpiMax",
+      "sensor",
+      "botoes"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FJ32RXFV"
+    },
+    "fontes": [
+      {
+        "id": "k250-oficial",
+        "titulo": "Logitech K250 — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/k250",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bluetooth Low Energy, 2 pilhas AAA alcalinas inclusas com doze meses declarados, layout compacto com teclado numérico, layout impresso para vários sistemas operacionais, suportes de inclinação para ângulo de digitação de 7 graus, luz indicadora de conectividade, alcance de dez metros, 136,9 × 369,9 × 22,8 mm, 380 g e garantia limitada de um ano. A ficha não declara o tipo de tecla.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FJ32RXFV",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FJ32RXFV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-k250.webp",
+      "alt": "Teclado sem fio Logitech K250 grafite, compacto e com bloco numérico",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/k250"
+    }
+  },
+  {
+    "slug": "logitech-k400-plus",
+    "nome": "Logitech K400 Plus",
+    "marca": "Logitech",
+    "modelo": "K400 Plus",
+    "categoria": "perifericos",
+    "resumo": "Teclado com touchpad embutido, feito para o computador ligado na TV. É o único desta lista que declara o ruído da digitação: cerca de 55 dBA.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Teclado sem fio com touchpad",
+      "conexao": "Receptor USB Unifying 2,4 GHz",
+      "dpiMax": null,
+      "sensor": null,
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "2 pilhas AA (inclusas)",
+      "duracaoPilhaMeses": 18,
+      "alcanceM": 10,
+      "pesoG": 390,
+      "dimensoesMm": "139,9 × 354,3 × 23,5",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "dpiMax",
+      "sensor",
+      "botoes"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B074WKD77F"
+    },
+    "fontes": [
+      {
+        "id": "k400-plus-touchpad-keyboard-oficial",
+        "titulo": "Logitech K400 Plus — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/k400-plus-touchpad-keyboard",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Protocolo Logitech Unifying de 2,4 GHz com mais de dez metros de alcance, 2 pilhas AA inclusas com 18 meses declarados, teclas de mudo e volume, botão de ligar e desligar, até cinco milhões de pressionamentos por tecla, ruído de digitação de cerca de 55 dBA para todas as teclas, touchpad de 76 × 47 mm, teclado de 139,9 × 354,3 × 23,5 mm, 390 g e garantia limitada de um ano. A ficha não declara layout, tipo de tecla nem bloco numérico.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B074WKD77F",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B074WKD77F",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-k400-plus.webp",
+      "alt": "Teclado sem fio Logitech K400 Plus preto, com touchpad à direita",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/k400-plus-touchpad-keyboard"
+    }
+  },
+  {
+    "slug": "logitech-k650-signature",
+    "nome": "Logitech Signature K650",
+    "marca": "Logitech",
+    "modelo": "Signature K650",
+    "categoria": "perifericos",
+    "resumo": "Trinta e seis meses de pilha e apoio de pulso integrado. Bluetooth 5.1 ou receptor Logi Bolt — os dois, não um ou outro conforme a versão.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Teclado sem fio",
+      "conexao": "Bluetooth 5.1 LE ou receptor USB Logi Bolt",
+      "dpiMax": null,
+      "sensor": null,
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "2 pilhas AA (alcalinas)",
+      "duracaoPilhaMeses": 36,
+      "alcanceM": 10,
+      "pesoG": 700.23,
+      "dimensoesMm": "193,5 × 457,3 × 24",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "dpiMax",
+      "sensor",
+      "botoes"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BK9YLKPM"
+    },
+    "fontes": [
+      {
+        "id": "k650-signature-wireless-keyboard-oficial",
+        "titulo": "Logitech Signature K650 — página oficial da Logitech Brasil",
+        "url": "https://www.logitech.com/pt-br/shop/p/k650-signature-wireless-keyboard",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bluetooth Low Energy 5.1 ou receptor USB Logi Bolt, dez metros de alcance, vida útil de bateria de 36 meses, luzes indicadoras de Caps Lock, tecla de conexão e status da bateria, suporte ao Logi Options+ no Windows e macOS, 193,5 × 457,3 × 24 mm sem o receptor e com 2 pilhas AA alcalinas, 700,23 g e garantia limitada de um ano. A ficha não declara layout, tipo de tecla nem bloco numérico.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BK9YLKPM",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BK9YLKPM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/logitech-k650-signature.webp",
+      "alt": "Teclado sem fio Logitech Signature K650 grafite, com apoio de pulso integrado",
+      "credito": "Imagem: Logitech",
+      "origem": "https://www.logitech.com/pt-br/shop/p/k650-signature-wireless-keyboard"
+    }
+  },
+  {
+    "slug": "multilaser-tc193",
+    "nome": "Multilaser TC193",
+    "marca": "Multilaser",
+    "modelo": "TC193",
+    "categoria": "perifericos",
+    "resumo": "Com fio, 105 teclas, resistente a líquido — e zero teclas multimídia, que a Multilaser declara com todas as letras em vez de deixar o campo em branco.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Teclado com fio",
+      "conexao": "Cabo USB de 1,2 m",
+      "dpiMax": null,
+      "sensor": null,
+      "botoes": null,
+      "layout": null,
+      "tipoTecla": null,
+      "tecladoNumerico": null,
+      "alimentacao": "Cabo USB",
+      "duracaoPilhaMeses": null,
+      "alcanceM": null,
+      "pesoG": 398,
+      "dimensoesMm": "410 × 118 × 21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "dpiMax",
+      "sensor",
+      "botoes",
+      "duracaoPilhaMeses",
+      "alcanceM"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B075VFWDD4"
+    },
+    "fontes": [
+      {
+        "id": "multilaser-tc193-oficial",
+        "titulo": "Multilaser TC193 — página oficial da Multilaser",
+        "url": "https://www.multilaser.com.br/teclado-com-fio-usb-preto-resistente-agua-tc193/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Conexão USB com fio, cabo de 1,20 m, 105 teclas, zero teclas multimídia, resistente a líquido, sem clique silencioso, compatível com Windows, Linux e macOS, 41 × 11,8 × 2,1 cm — convertidos para 410 × 118 × 21 mm — 398 g e corpo em PP. A ficha não declara layout, tipo de tecla, bloco numérico nem prazo de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B075VFWDD4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B075VFWDD4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida no Brasil. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/multilaser-tc193.webp",
+      "alt": "Teclado com fio Multilaser TC193 preto, de tamanho cheio",
+      "credito": "Imagem: Multilaser",
+      "origem": "https://www.multilaser.com.br/teclado-com-fio-usb-preto-resistente-agua-tc193/p"
+    }
+  }
+]

@@ -72,7 +72,59 @@ entram: sem página do fabricante não há ficha nem foto licenciável).
 Treze candidatos para dez vagas — sobra margem para o que não tiver foto
 oficial.
 
-## `perifericos` — esquema pronto, produtos em andamento
+## `perifericos` — aberta em 18/09/2026 com 17
+
+Dez mouses e sete teclados: **Logitech 15, Multilaser 2**. Todas as
+fichas saíram de página de fabricante, com foto oficial.
+
+### As marcas que ficaram de fora, e por quê
+
+Do ranking, estas aparecem bem colocadas e **não deram ficha**:
+
+- **HP** — `hp.com/br-pt/shop/<slug>-<peça>` existe e a busca do site
+  devolve a URL certa (`mouse-sem-fio-hp-150-2s9l1aa`,
+  `mouse-com-fio-hp-150-240j6aa`, `kit-de-mouse-e-teclado-hp-150-240j7aa`).
+  O HTML tem 757 KB e **zero** especificação: é tudo montado por script.
+  No navegador, a URL de produto redireciona para a home da loja.
+- **Dell** — `dell.com/pt-br/shop/...` responde 200 a fetch com 1,5 MB e
+  também sem ficha; `/apd/580-admt` devolveu 500. No navegador a página
+  navegou sozinha para outro produto.
+- **Redragon** — `redragon.com.br` responde, mas a home de 1,3 MB não tem
+  um link de produto no HTML e a plataforma não é VTEX nem Shopify
+  (`/products.json` dá 400, `/api/catalog_system/...` dá 404). É a marca
+  com mais presença no ranking de teclado depois da Logitech — vale uma
+  tentativa nova pelo navegador.
+- **C3Tech** — o servidor derrubou a conexão (WinError 10054).
+- **Fortrek** — `/products.json` e a API VTEX respondem 200 com os
+  mesmos 33 KB para qualquer busca: não é API de verdade.
+
+**Mousepad continua fora de propósito**: ocupa um terço do ranking e não
+tem campo comparável além de tamanho.
+
+### Multilaser é VTEX
+
+`https://www.multilaser.com.br/api/catalog_system/pub/products/search?ft=<ref>`
+devolve tudo, inclusive foto. Testado com `TC193` e `MO300`. A ficha traz
+peso, três medidas em centímetros, comprimento de cabo, quantidade de
+teclas e de botões — e **não traz prazo de garantia** em nenhum dos dois.
+
+### Dois erros de dado da Logitech, registrados como divergência
+
+- **K120**: a mesma tabela publica 450 × 155 × 23,5 mm e **50 g**.
+- **K270**: publica largura 441,5 mm, profundidade 18 mm e **altura
+  5,87 mm** — menos que a própria espessura declarada.
+
+Nos dois, o campo ficou em branco com a divergência de fonte contra ela
+mesma, no padrão do `electrolux-ebl1000`.
+
+### A foto do M170 é off-white, e isso está escrito na ficha
+
+A página brasileira do M170 serve arquivos nomeados **M171** e publica
+off-white, rosa, azul, vermelho e azul-acinzentado — **não publica
+preto**, que é a cor do anúncio ligado à ficha. Mesmo caso do TP-Link
+EX3000/EX521. A nota da fonte diz isso.
+
+## `perifericos` — notas da apuração
 
 `camposPeriferico`, 14 campos, registrado nos quatro mapas. Cobre mouse,
 teclado e combo. **Mousepad ficou de fora de propósito**: ocupa um terço
