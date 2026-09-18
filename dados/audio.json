@@ -635,5 +635,117 @@
         "origem": "https://www.philips.com.br/c-p/TAQ2000BK_00"
       }
     ]
+  },
+  {
+    "slug": "jbl-c50hi",
+    "nome": "JBL C50HI",
+    "marca": "JBL",
+    "modelo": "JBLC50HIBLKE",
+    "categoria": "audio",
+    "resumo": "O 5º mais vendido de Fones de Ouvido da Amazon Brasil em 17/09/2026, e o único com fio entre os primeiros. A JBL publica driver, impedância, sensibilidade e faixa de frequência — e não publica peso nem prazo de garantia.",
+    "atualizadoEm": "2026-09-17",
+    "specs": {
+      "formato": "Intra-auricular com fio",
+      "driverMm": 8.6,
+      "impedanciaOhm": 30,
+      "sensibilidadeDb": 101,
+      "faixaFrequencia": "20 Hz – 20 kHz",
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": null,
+      "horasTotal": null,
+      "tempoCargaH": null,
+      "cargaRapida": null,
+      "cancelamentoAtivo": null,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": "Controle remoto de uma tecla, com microfone, no cabo",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "bluetoothVersao",
+      "codecs",
+      "multiponto",
+      "horasFone",
+      "horasTotal",
+      "tempoCargaH",
+      "cargaRapida"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07JQKQ91F"
+    },
+    "fontes": [
+      {
+        "id": "jbl-c50hi-oficial",
+        "titulo": "JBL C50HI — página oficial do produto (JBL Brasil)",
+        "url": "https://www.jbl.com.br/fones-de-ouvido-intra-auriculares/JBL+C50HI.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Item JBLC50HIBLKE, driver de 8,6 mm, sensibilidade de 101 ± 3 dBSPL a 1 kHz/1 mW, impedância de 30 ohms, resposta de 20 Hz a 20 kHz, cabo de 1,2 m, plug de 3,5 mm, microfone integrado e chamada sem as mãos. Na caixa: três tamanhos de ponteira e cartão de garantia. Não declara peso, prazo de garantia em meses nem tipo de driver.",
+        "consultadaEm": "2026-09-17"
+      },
+      {
+        "id": "amazon-c50hi",
+        "titulo": "JBL C50HI — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07JQKQ91F",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Posição 5 na lista de Mais Vendidos de Fones de Ouvido e Acessórios em 17/09/2026, e o ASIN.",
+        "consultadaEm": "2026-09-17"
+      }
+    ]
+  },
+  {
+    "slug": "jbl-tune-520bt",
+    "nome": "JBL Tune 520BT",
+    "marca": "JBL",
+    "modelo": "Tune 520BT",
+    "categoria": "audio",
+    "resumo": "On-ear dobrável com 57 horas declaradas e duas horas de carga. É o fone mais bem documentado da base: a JBL publica driver, impedância, sensibilidade, peso, dimensões, perfis Bluetooth e até o número de homologação na Anatel (19878-22-07120). Não publica a capacidade da bateria nem o prazo de garantia.",
+    "atualizadoEm": "2026-09-17",
+    "specs": {
+      "formato": "On-ear sem fio",
+      "driverMm": 33,
+      "impedanciaOhm": 30,
+      "sensibilidadeDb": 102,
+      "faixaFrequencia": "20 Hz – 20 kHz",
+      "bluetoothVersao": "5.3",
+      "codecs": null,
+      "multiponto": true,
+      "horasFone": 57,
+      "horasTotal": null,
+      "tempoCargaH": 2,
+      "cargaRapida": "Declarada, sem número publicado na ficha",
+      "cancelamentoAtivo": null,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": 157,
+      "controles": "Botões no fone, com Voice Aware e ajuste pelo app JBL Headphones",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "horasTotal"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C3V5X3QT"
+    },
+    "fontes": [
+      {
+        "id": "jbl-tune520bt-oficial",
+        "titulo": "JBL Tune 520BT — página oficial do produto (JBL Brasil)",
+        "url": "https://www.jbl.com.br/TUNE520BT.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Driver de 33 mm, um microfone, sensibilidade de 102 dB, impedância de 30 ohms, resposta de 20 Hz a 20 kHz, peso de 157 g, 3,2 × 7,3 × 1,7 cm, Bluetooth 5.3 com perfis HFP 1.7.2, AVRCP 1.6.2 e A2DP 1.3.2, multiponto, dobrável, carga em 2 h e até 57 h de reprodução. Cabo de áudio de 0,2 m. Homologação Anatel 19878-22-07120. Não declara capacidade da bateria, codecs, proteção contra água nem garantia em meses.",
+        "consultadaEm": "2026-09-17"
+      },
+      {
+        "id": "amazon-tune520bt",
+        "titulo": "JBL Tune 520BT — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C3V5X3QT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Posição 18 na lista de Mais Vendidos de Fones de Ouvido e Acessórios em 17/09/2026, e o ASIN da versão preta.",
+        "consultadaEm": "2026-09-17"
+      }
+    ]
   }
 ]

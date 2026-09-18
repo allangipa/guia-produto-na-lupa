@@ -175,10 +175,19 @@ export default async function PaginaProduto({ params }: Params) {
           ) : (
             <MidiaProduto produto={p} prioridade razao="aspect-[4/3]" />
           )}
+          {/* A legenda só pode prometer silhueta quando existe silhueta.
+              Sem `dimensoesMm` o MidiaProduto desenha o ícone da categoria
+              e escreve "dimensões não publicadas" — e a legenda antiga
+              vinha logo abaixo dizendo "silhueta em escala real, desenhada
+              a partir das dimensões oficiais". As duas frases se
+              contradiziam na mesma moldura.
+              Aparecia em toda ficha sem foto, e em áudio aparecia sempre,
+              porque o esquema da categoria nem tem campo de dimensão. */}
           {!p.imagem && !p.amazon?.imagens?.grande && (
             <p className="border-t border-linha px-4 py-2.5 text-[0.78rem] text-tinta-suave">
-              Silhueta em escala real, desenhada a partir das dimensões oficiais.
-              Sem foto licenciada até a API da loja liberar.
+              {p.specs.dimensoesMm
+                ? "Silhueta em escala real, desenhada a partir das dimensões oficiais. Sem foto licenciada até a API da loja liberar."
+                : "Sem foto licenciada até a API da loja liberar, e sem silhueta: o fabricante não publica as dimensões."}
             </p>
           )}
         </div>

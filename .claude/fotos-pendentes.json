@@ -1,0 +1,15 @@
+{
+  "jbl-c50hi": {
+    "url": "https://www.jbl.com.br/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8a930147/black-hero2-1605x1605px.png",
+    "origem": "https://www.jbl.com.br/fones-de-ouvido-intra-auriculares/JBL+C50HI.html",
+    "credito": "Imagem: JBL",
+    "alt": "Fone de ouvido intra-auricular JBL C50HI preto, com controle no cabo"
+  },
+  "jbl-tune-520bt": {
+    "url": "https://www.jbl.com.br/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwfecd0c7f/01.JBL_Tune_520BT_ProductImage_Hero_White.png",
+    "origem": "https://www.jbl.com.br/TUNE520BT.html",
+    "credito": "Imagem: JBL",
+    "alt": "Headphone on-ear JBL Tune 520BT visto de três quartos",
+    "nota": "A página oficial abre na variante branca; conferir se há URL da preta, que é a vendida no ASIN listado."
+  }
+}
