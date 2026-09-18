@@ -667,7 +667,13 @@
         "oQueSaiuDaqui": "Confirma o modelo OBLD100-127 e o copo de plástico.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/oster-obld100.webp",
+      "alt": "Liquidificador portátil Oster Ultra Power Blender 1000, com os dois copos de viagem",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/blender-ultra-power-1000-oster-com-2-copos/p"
+    }
   },
   {
     "slug": "mondial-dg-01",
@@ -713,7 +719,13 @@
         "oQueSaiuDaqui": "Confirma o modelo DG-01 e a versão 110 V. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-dg-01.webp",
+      "alt": "Personal Blender Mondial DG-01 com o copo cheio de vitamina",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/personal-blender-mondial-preto-prata-300w-dg-01-1/p"
+    }
   },
   {
     "slug": "walita-ri2244",
@@ -759,7 +771,13 @@
         "oQueSaiuDaqui": "Confirma o modelo RI2244 e a jarra inquebrável na versão 110 V. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/walita-ri2244.webp",
+      "alt": "Liquidificador Philips Walita Série 5000 com jarra inquebrável e base em inox",
+      "credito": "Imagem: Philips Walita",
+      "origem": "https://www.walita.com.br/liquidificador-philips-walita-serie-5000-ri2244-90_ri2244_90_inox/p"
+    }
   },
   {
     "slug": "electrolux-ebl1500",
@@ -805,7 +823,13 @@
         "oQueSaiuDaqui": "Confirma o código comercial 4612AVBR406 da versão 127 V e as medidas do fabricante.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ebl1500.webp",
+      "alt": "Liquidificador Electrolux EBL1500 cinza, visto de três quartos",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/liquidificador-electrolux-1500w-3-2l-efficient-com-triforce-15-velocidades-cinza--ebl1500-/p"
+    }
   },
   {
     "slug": "cadence-bld701",
@@ -851,7 +875,13 @@
         "oQueSaiuDaqui": "Confirma o modelo BLD701 e a versão 220 V. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-bld701.webp",
+      "alt": "Liquidificador portátil Cadence Zoop Contrast com as duas jarras",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/blender-zoop-contraste-cadence-com-2-jarras/p"
+    }
   },
   {
     "slug": "philco-plq1350",
@@ -897,7 +927,13 @@
         "oQueSaiuDaqui": "Confirma que a listagem é a versão Turbo Glass de 127 V. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/philco-plq1350.webp",
+      "alt": "Liquidificador Philco Turbo Glass com jarra de vidro cheia de frutas",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/liquidificador-philco-1200w-2-6l-12-velocidades-turbo-glass-plq1350/p"
+    }
   },
   {
     "slug": "elgin-super-force",
@@ -943,7 +979,13 @@
         "oQueSaiuDaqui": "Confirma a versão 110 V com jarra de vidro. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-super-force.webp",
+      "alt": "Liquidificador Elgin Super Force preto com jarra de vidro",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/liquidificador-super-force-19l-900w-preto-e-jarra-de-vidro-/p"
+    }
   },
   {
     "slug": "arno-ln64",
@@ -998,7 +1040,13 @@
         "oQueSaiuDaqui": "Confirma o modelo LN64, a cor marfim e os 3,1 L. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/arno-ln64.webp",
+      "alt": "Liquidificador Arno Power Max 2200 na cor marfim",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/-liquidificador-arno-powermax-marfim-2200w-127v-2720018833_pai-1-p/p"
+    }
   },
   {
     "slug": "mondial-l-1400-gi",
@@ -1044,7 +1092,13 @@
         "oQueSaiuDaqui": "Confirma a versão 110 V de jarra de vidro. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-l-1400-gi.webp",
+      "alt": "Liquidificador Mondial Turbo Glass com jarra de vidro cheia de frutas",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/liquidificador-mondial-turbo-glass-l-1400-gi/p"
+    }
   },
   {
     "slug": "oster-oliq606",
@@ -1090,6 +1144,12 @@
         "oQueSaiuDaqui": "Confirma o modelo OLIQ606-127. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/oster-oliq606.webp",
+      "alt": "Liquidificador Oster 1100 Full cinza, visto de frente",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/liquidificador-1100-full-oster-cinza-32l/p"
+    }
   }
 ]

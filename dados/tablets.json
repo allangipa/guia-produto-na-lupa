@@ -762,7 +762,13 @@
         "oQueSaiuDaqui": "Confirma a versão Wi-Fi de 256 GB com 12 GB de RAM. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-tab-s11.webp",
+      "alt": "Tablet Samsung Galaxy Tab S11 visto de frente, com a S Pen ao lado",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-tab-s11-wifi/p"
+    }
   },
   {
     "slug": "samsung-galaxy-tab-s11-ultra",
@@ -818,7 +824,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 512 GB com 12 GB de RAM. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-tab-s11-ultra.webp",
+      "alt": "Tablet Samsung Galaxy Tab S11 Ultra de 14,6 polegadas visto de frente",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-tab-s11-ultra/p"
+    }
   },
   {
     "slug": "samsung-galaxy-tab-s10-fe-plus",
@@ -849,7 +861,7 @@
       "sistema": "Android 15",
       "atualizacoes": null,
       "pesoG": 664,
-      "espessuraMm": 6.0,
+      "espessuraMm": 6,
       "dimensoesMm": "300,6 × 194,7 × 6,0",
       "protecaoAgua": null,
       "garantiaMeses": 12
@@ -874,7 +886,13 @@
         "oQueSaiuDaqui": "Os 90 Hz da tela, que a ficha da Samsung não traz.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-tab-s10-fe-plus.webp",
+      "alt": "Tablet Samsung Galaxy Tab S10 FE+ de 13,1 polegadas, cinza, visto de frente",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-tab-s10-plus-fe/p"
+    }
   },
   {
     "slug": "samsung-galaxy-tab-s9",
@@ -930,7 +948,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 256 GB anunciada na listagem, enquanto a página do fabricante descreve a de 128 GB. A ficha segue o fabricante.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-tab-s9.webp",
+      "alt": "Tablet Samsung Galaxy Tab S9 grafite, visto de frente e de costas",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-tab-s9/p"
+    }
   },
   {
     "slug": "apple-ipad-mini-a17-pro",
@@ -1051,7 +1075,13 @@
         "oQueSaiuDaqui": "A listagem anuncia a versão de 3 GB com 64 GB. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-vision-tab-7.webp",
+      "alt": "Tablet Positivo Vision TAB 7 preto, visto de frente, com a capa de proteção ao lado",
+      "credito": "Imagem: Positivo",
+      "origem": "https://loja.meupositivo.com.br/tablet-positivo-vision-tab-7-3gb-64gb-octa-core-android-14-go-wi-fi-tela-7-ips-3100mah-preto-11209615/p"
+    }
   },
   {
     "slug": "positivo-vision-tab-11",
@@ -1107,7 +1137,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 4 GB com 128 GB e a capa teclado. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-vision-tab-11.webp",
+      "alt": "Tablet Positivo Vision TAB 11 com a capa teclado acoplada e a caneta ao lado",
+      "credito": "Imagem: Positivo",
+      "origem": "https://loja.meupositivo.com.br/tablet-positivo-vision-tab-11-com-capa-teclado-caneta-4gb-128gb-4g-11-full-hd-octa-core-preto-3801801/p"
+    }
   },
   {
     "slug": "lenovo-tab-10",

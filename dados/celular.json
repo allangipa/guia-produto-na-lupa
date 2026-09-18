@@ -821,7 +821,13 @@
         "oQueSaiuDaqui": "IP68 e IP69 e resistência militar, no título da listagem — a ficha da Motorola não traz classificação de proteção.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/motorola-moto-g56.webp",
+      "alt": "Motorola Moto g56 5G na cor grafite, visto de frente e de costas",
+      "credito": "Imagem: Motorola",
+      "origem": "https://www.motorola.com.br/smartphone-moto-g56-5g-256gb/p"
+    }
   },
   {
     "slug": "motorola-moto-g35",
@@ -888,7 +894,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 256 GB, NFC e o acabamento em vegan leather. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/motorola-moto-g35.webp",
+      "alt": "Motorola Moto g35 5G em acabamento vegan leather, visto de frente e de costas",
+      "credito": "Imagem: Motorola",
+      "origem": "https://www.motorola.com.br/smartphone-moto-g35-5g-256gb/p"
+    }
   },
   {
     "slug": "samsung-galaxy-a07",
@@ -946,7 +958,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 128 GB com 4 GB de RAM. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-a07.webp",
+      "alt": "Samsung Galaxy A07 visto de frente e de costas",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-a07/p"
+    }
   },
   {
     "slug": "iphone-16",
@@ -1056,7 +1074,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 128 GB com 8 GB de RAM e câmera tripla. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-s25-fe.webp",
+      "alt": "Samsung Galaxy S25 FE visto de frente e de costas",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-s25-fe/p"
+    }
   },
   {
     "slug": "iphone-17e",
@@ -1169,7 +1193,13 @@
         "oQueSaiuDaqui": "IP68, no título da listagem — a ficha da Motorola não traz classificação de proteção.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/motorola-edge-60-fusion.webp",
+      "alt": "Motorola Edge 60 Fusion na cor mocha mousse, visto de frente e de costas",
+      "credito": "Imagem: Motorola",
+      "origem": "https://www.motorola.com.br/smartphone-motorola-edge-60-fusion-5g/p"
+    }
   },
   {
     "slug": "samsung-galaxy-a37",
@@ -1224,7 +1254,13 @@
         "oQueSaiuDaqui": "A listagem é a versão de 256 GB com 8 GB de RAM. Conferimos na Samsung que ela tem o mesmo SM-A376B/DS, as mesmas medidas, peso, bateria, câmeras, IP68 e 45 W da de 128 GB — só a memória muda. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/samsung-galaxy-a37.webp",
+      "alt": "Samsung Galaxy A37 5G visto de frente e de costas",
+      "credito": "Imagem: Samsung",
+      "origem": "https://shop.samsung.com/br/galaxy-a37/p"
+    }
   },
   {
     "slug": "xiaomi-redmi-note-15",
@@ -1337,6 +1373,12 @@
         "oQueSaiuDaqui": "Confirma a versão de 128 GB e a tela de 60 Hz. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/motorola-moto-g17.webp",
+      "alt": "Motorola Moto g17 visto de frente e de costas",
+      "credito": "Imagem: Motorola",
+      "origem": "https://www.motorola.com.br/smartphone-moto-g17-128-gb/p"
+    }
   }
 ]

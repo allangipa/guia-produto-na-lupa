@@ -695,7 +695,13 @@
         "oQueSaiuDaqui": "Capacidade de 400 ml e filtro reutilizável — os dois dados que a Oster não publica. As medidas batem com as do fabricante. A mesma tabela classifica o aparelho como \"cafeteira prensa francesa\" de uso \"espresso\", o que não descreve uma cafeteira de filtro, e por isso nada além da capacidade e do filtro saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/oster-ocaf200.webp",
+      "alt": "Cafeteira Oster 2Day em inox, com o copo térmico encaixado no lugar da jarra",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/cafeteira-oster-2day-inox-2-em-1-com-copo-termico/p"
+    }
   },
   {
     "slug": "mondial-c-44",
@@ -742,7 +748,13 @@
         "oQueSaiuDaqui": "Confirma o modelo C-44-32X-SDI e a versão 220 V. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-c-44.webp",
+      "alt": "Cafeteira Mondial Dolce Arome Digital preta com jarra de vidro e painel digital",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/cafeteira-eletrica-mondial-c-44-32x-sdi/p"
+    }
   },
   {
     "slug": "mondial-c-34",
@@ -789,7 +801,13 @@
         "oQueSaiuDaqui": "Confirma o modelo C-34 JI 15X e a versão 110 V. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-c-34.webp",
+      "alt": "Cafeteira Mondial Dolce Arome preta com jarra de inox",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/cafeteira-eletrica-dolce-arome-mondial-preto-inox-550w-c-34-ji-15x-1/p"
+    }
   },
   {
     "slug": "britania-bcf32b",
@@ -836,7 +854,13 @@
         "oQueSaiuDaqui": "19 × 23,5 × 31 cm — as dimensões que o fabricante não publica — e a confirmação da jarra de inox, da capacidade de 1,2 L e da versão 220 V.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bcf32b.webp",
+      "alt": "Cafeteira Britânia BCF32B preta com jarra de inox",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/cafeteira-bcf32b-127v-063901137/p"
+    }
   },
   {
     "slug": "britania-cp15",
@@ -883,7 +907,13 @@
         "oQueSaiuDaqui": "24 × 17 × 26 cm e 926 g — peso e medidas que o fabricante não publica — e a versão 127 V. A listagem põe \"63901065\" no campo de número do modelo, que é o código interno da Britânia, não o nome do produto.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/britania-cp15.webp",
+      "alt": "Cafeteira Britânia CP15 preta com detalhes em inox",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/063901057-caf-cp15-inox/p"
+    }
   },
   {
     "slug": "philco-pcf40b",
@@ -930,7 +960,13 @@
         "oQueSaiuDaqui": "20 × 25 × 33,6 cm — as dimensões que o fabricante não publica — e a confirmação de 1,6 L e da versão 220 V.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pcf40b.webp",
+      "alt": "Cafeteira Philco PCF40B preta com painel digital e jarra de vidro",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/cafeteira-pcf40b-127v-053901083/p"
+    }
   },
   {
     "slug": "wap-wcd1500",
@@ -977,7 +1013,13 @@
         "oQueSaiuDaqui": "Confirma o modelo WCD1500, 1,5 litros, timer programável e suporte para café gelado. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/wap-wcd1500.webp",
+      "alt": "Cafeteira WAP Aroma Digital WCD1500 preta com painel digital e jarra de vidro",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/cafeteira-digital-aroma-wap-wcd-1500/p"
+    }
   },
   {
     "slug": "arno-preferita",
@@ -1024,7 +1066,13 @@
         "oQueSaiuDaqui": "Confirma o modelo CFPF, 0,75 L, jarra de vidro e sistema corta-pingos. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/arno-preferita.webp",
+      "alt": "Cafeteira Arno Preferita compacta, preta com acabamento em inox",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/cafeteira-filtro-arno-preferita-cfpf-inox-750ml-8010000620-pai/p"
+    }
   },
   {
     "slug": "cadence-caf230",
@@ -1076,7 +1124,13 @@
         "oQueSaiuDaqui": "Filtro reutilizável — o dado que a Cadence não publica. As medidas e o peso batem com os do fabricante.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-caf230.webp",
+      "alt": "Cafeteira Cadence Single Up vermelha e preta, de dose única, com duas canecas",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/cafeteira-eletrica-cadence-single-up/p"
+    }
   },
   {
     "slug": "elgin-essential-coffee",
@@ -1123,6 +1177,12 @@
         "oQueSaiuDaqui": "14,8 × 20 × 25 cm — as dimensões que o fabricante não publica — e a confirmação das 19 xícaras, da jarra de vidro e da versão 110 V.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-essential-coffee.webp",
+      "alt": "Cafeteira Elgin Essential Coffee preta com jarra de vidro",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/cafeteira-eletrica-essential-coffe-19-xicaras-jarra-de-vidro-/p"
+    }
   }
 ]
