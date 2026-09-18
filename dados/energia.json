@@ -44,7 +44,13 @@
         "oQueSaiuDaqui": "Confirma 10.000 mAh, os dois cabos integrados e o display. A listagem anuncia \"máx. 20 W PD\" na porta USB-C, enquanto o site declara 22,5 W — são protocolos diferentes (Power Delivery e Quick Charge) e os dois números podem conviver.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/basike-b206a.webp",
+      "alt": "Power bank Basike de 10.000 mAh, preto, com os dois cabos presos ao corpo e o display de porcentagem",
+      "credito": "Imagem: Basike",
+      "origem": "https://basikebrasil.com.br/products/ba-pow-078"
+    }
   },
   {
     "slug": "basike-ba-2w",
@@ -100,7 +106,13 @@
         "oQueSaiuDaqui": "Confirma 20.000 mAh, 22,5 W, cabos integrados e LED indicador. Declara 380 g, que diverge do fabricante.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/basike-ba-2w.webp",
+      "alt": "Power bank Basike de 20.000 mAh, preto, visto de frente e de costas com os cabos presos ao corpo",
+      "credito": "Imagem: Basike",
+      "origem": "https://basikebrasil.com.br/products/ba-pow-079"
+    }
   },
   {
     "slug": "basike-ba-3w",
@@ -156,7 +168,13 @@
         "oQueSaiuDaqui": "Confirma 30.000 mAh, as duas saídas USB-A de 22,5 W e a USB-C com cabo. Declara 750,02 g, que diverge do fabricante.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/basike-ba-3w.webp",
+      "alt": "Power bank Basike de 30.000 mAh, em preto e amarelo, com display e três saídas",
+      "credito": "Imagem: Basike",
+      "origem": "https://basikebrasil.com.br/products/power-bank-basike-ba-pow-177-30-000mah-carregador-super-rapido-portatil-universal"
+    }
   },
   {
     "slug": "basike-bpb65w001",
@@ -212,7 +230,13 @@
         "oQueSaiuDaqui": "Confirma o modelo BPB65W001, os 20.000 mAh e o cabo Type-C integrado e removível. Declara 323,5 g, que diverge do fabricante.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/basike-bpb65w001.webp",
+      "alt": "Power bank Basike de 65 W e 20.000 mAh, cinza, com o cabo USB-C preso ao corpo",
+      "credito": "Imagem: Basike",
+      "origem": "https://basikebrasil.com.br/products/power-bank-basike-b-203-20-000mah-carregamento-rapido-portatil-45-w-3-saidas"
+    }
   },
   {
     "slug": "i2go-pro-20000",
@@ -259,7 +283,13 @@
         "oQueSaiuDaqui": "Confirma o modelo de 20.000 mAh com Power Delivery de 20 W. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/i2go-pro-20000.webp",
+      "alt": "Power bank i2GO PRO de 20.000 mAh, preto, com o display mostrando o nível de carga",
+      "credito": "Imagem: i2GO",
+      "origem": "https://www.i2go.com.br/produto/carregador-portatil-power-bank-ultra-rapido-20000mah-power-delivery-20w-2-saidas-usb-1-saida-entrada-usb-c-preto-i2go-i2go-pro-90566"
+    }
   },
   {
     "slug": "i2go-pro-10000",
@@ -306,7 +336,13 @@
         "oQueSaiuDaqui": "Confirma o modelo de 10.000 mAh com Power Delivery de 20 W. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/i2go-pro-10000.webp",
+      "alt": "Power bank i2GO PRO de 10.000 mAh, preto, com o display mostrando o nível de carga",
+      "credito": "Imagem: i2GO",
+      "origem": "https://www.i2go.com.br/produto/carregador-portatil-power-bank-ultra-rapido-10000mah-power-delivery-20w-2-saidas-usb-1-saida-entrada-usb-c-preto-i2go-i2go-pro-90565"
+    }
   },
   {
     "slug": "i2go-plus-10000-4em1",
@@ -353,7 +389,13 @@
         "oQueSaiuDaqui": "Confirma os quatro cabos acoplados e os 10.000 mAh. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/i2go-plus-10000-4em1.webp",
+      "alt": "Power bank i2GO Plus de 10.000 mAh, visto de frente com os quatro conectores estendidos e de perfil",
+      "credito": "Imagem: i2GO",
+      "origem": "https://www.i2go.com.br/produto/carregador-portatil-power-bank-i2go-10000mah-4-em-1-com-cabos-acoplados-micro-usb-usb-c-lightning-e-usb-a-preto-i2go-plus-90637"
+    }
   },
   {
     "slug": "anker-nano-a1653",
@@ -409,6 +451,12 @@
         "oQueSaiuDaqui": "Confirma os 5.000 mAh e o cabo USB-C integrado. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/anker-nano-a1653.webp",
+      "alt": "Anker Nano Power Bank preso à porta USB-C de um celular pelo conector dobrável",
+      "credito": "Imagem: Anker",
+      "origem": "https://www.anker.com/products/a1653-usb-c-portable-charger-5000mah"
+    }
   }
 ]

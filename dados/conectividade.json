@@ -47,7 +47,13 @@
         "oQueSaiuDaqui": "Confirma o modelo e os 300 Mb/s. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tl-wa850re.webp",
+      "alt": "Repetidor TP-Link TL-WA850RE branco, de encaixe direto na tomada",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/range-extender/tl-wa850re/"
+    }
   },
   {
     "slug": "tplink-re305",
@@ -94,7 +100,13 @@
         "oQueSaiuDaqui": "Confirma o modelo, o AC1200 e o modo AP. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-re305.webp",
+      "alt": "Repetidor TP-Link RE305 branco, de encaixe na tomada, com duas antenas externas",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/range-extender/re305/"
+    }
   },
   {
     "slug": "tplink-re450",
@@ -141,7 +153,13 @@
         "oQueSaiuDaqui": "Confirma o modelo e o AC1750. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-re450.webp",
+      "alt": "Repetidor TP-Link RE450 branco, de encaixe na tomada, com três antenas externas ajustáveis",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/range-extender/re450/"
+    }
   },
   {
     "slug": "tplink-ex3000",
@@ -188,7 +206,13 @@
         "oQueSaiuDaqui": "Confirma o modelo, as 4 portas gigabit e o EasyMesh. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-ex3000.webp",
+      "alt": "Roteador TP-Link EX3000 preto, visto de frente, com as quatro antenas externas levantadas",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/wifi-router/ex3000/"
+    }
   },
   {
     "slug": "tplink-deco-x10",
@@ -235,7 +259,13 @@
         "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades AX1500. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-deco-x10.webp",
+      "alt": "Três unidades do sistema mesh TP-Link Deco X10, brancas e cilíndricas",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/deco/deco-x10/"
+    }
   },
   {
     "slug": "tplink-deco-x50",
@@ -282,7 +312,13 @@
         "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades AX3000, enquanto a cobertura de 600 m² que a TP-Link publica é a do kit de 3.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-deco-x50.webp",
+      "alt": "Três unidades do sistema mesh TP-Link Deco X50, brancas e cilíndricas",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/deco/deco-x50/"
+    }
   },
   {
     "slug": "tplink-deco-be22",
@@ -329,7 +365,13 @@
         "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades BE3600. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-deco-be22.webp",
+      "alt": "Duas unidades do sistema mesh TP-Link Deco BE22, brancas e arredondadas",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/deco/deco-be22/"
+    }
   },
   {
     "slug": "tplink-deco-be65",
@@ -376,7 +418,13 @@
         "oQueSaiuDaqui": "Confirma que a listagem é a unidade avulsa BE11000 tri-band. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-deco-be65.webp",
+      "alt": "Unidade do sistema mesh TP-Link Deco BE65, branca e vertical, vista de frente e de costas com as portas à mostra",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/deco/deco-be65/"
+    }
   },
   {
     "slug": "tplink-archer-t3u",
@@ -429,7 +477,13 @@
         "oQueSaiuDaqui": "Confirma o modelo, o AC1300 e o USB 3.0. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-archer-t3u.webp",
+      "alt": "Adaptador Wi-Fi USB TP-Link Archer T3U, preto e compacto",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/adapter/archer-t3u/"
+    }
   },
   {
     "slug": "tplink-archer-t2u-plus",
@@ -482,7 +536,13 @@
         "oQueSaiuDaqui": "Confirma o modelo e o AC600. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-archer-t2u-plus.webp",
+      "alt": "Adaptador Wi-Fi USB TP-Link Archer T2U Plus, preto, com a antena externa levantada",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/adapter/archer-t2u-plus/"
+    }
   },
   {
     "slug": "tplink-tl-wn823n",
@@ -536,7 +596,13 @@
         "oQueSaiuDaqui": "Confirma o modelo e os 300 Mb/s em 2,4 GHz. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tl-wn823n.webp",
+      "alt": "Adaptador Wi-Fi USB TP-Link TL-WN823N, preto e miniatura",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/adapter/tl-wn823n/"
+    }
   },
   {
     "slug": "mercusys-mr80x",
@@ -583,7 +649,13 @@
         "oQueSaiuDaqui": "Confirma o modelo V4, o AX3000, as 4 portas gigabit e as 4 antenas. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/mercusys-mr80x.webp",
+      "alt": "Roteador Mercusys MR80X preto, com as quatro antenas externas levantadas",
+      "credito": "Imagem: Mercusys",
+      "origem": "https://www.mercusys.com.br/product/details/mr80x/"
+    }
   },
   {
     "slug": "mercusys-halo-h80x",
@@ -630,7 +702,13 @@
         "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades AX3000. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/mercusys-halo-h80x.webp",
+      "alt": "Duas unidades do sistema mesh Mercusys Halo H80X, brancas",
+      "credito": "Imagem: Mercusys",
+      "origem": "https://www.mercusys.com.br/product/details/halo-h80x/"
+    }
   },
   {
     "slug": "huawei-wifi-ax2s",
@@ -686,6 +764,12 @@
         "oQueSaiuDaqui": "O código de modelo WS7000, que a página da Huawei não traz. O título também anuncia 4 antenas, número que o fabricante não confirma.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/huawei-wifi-ax2s.webp",
+      "alt": "Roteador Huawei WiFi AX2S nas versões branca e preta, vistos em ângulo com as antenas levantadas",
+      "credito": "Imagem: Huawei",
+      "origem": "https://consumer.huawei.com/br/routers/ax2s/specs/"
+    }
   }
 ]
