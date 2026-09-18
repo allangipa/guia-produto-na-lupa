@@ -187,7 +187,13 @@ export default async function PaginaProduto({ params }: Params) {
             <p className="border-t border-linha px-4 py-2.5 text-[0.78rem] text-tinta-suave">
               {p.specs.dimensoesMm
                 ? "Silhueta em escala real, desenhada a partir das dimensões oficiais. Sem foto licenciada até a API da loja liberar."
-                : "Sem foto licenciada até a API da loja liberar, e sem silhueta: o fabricante não publica as dimensões."}
+                : p.divergencias?.some((d) => d.campo === "dimensoesMm")
+                  ? // Campo vazio porque as fontes não fecham, não porque
+                    // ninguém publicou. Dizer "não publica as dimensões" aqui
+                    // contradiria a seção logo abaixo, que mostra a medida
+                    // publicada e explica por que ela não foi adotada.
+                    "Sem foto licenciada até a API da loja liberar, e sem silhueta: a medida publicada não fecha, e a ficha prefere o campo vazio a um número errado. O caso está logo abaixo."
+                  : "Sem foto licenciada até a API da loja liberar, e sem silhueta: o fabricante não publica as dimensões."}
             </p>
           )}
         </div>

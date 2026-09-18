@@ -73,13 +73,19 @@ export function MidiaProduto({
             <>
               {/* Sem dimensão publicada não há silhueta possível. O ícone da
                   categoria ocupa o lugar para a área não parecer quebrada —
-                  e o texto diz por que está vazia. */}
+                  e o texto diz por que está vazia.
+
+                  "Não publicadas" só vale quando ninguém publicou. Se a ficha
+                  tem divergência neste campo, a medida existe: foi descartada
+                  por não fechar, e a seção de divergências mostra qual é. */}
               <Icone
                 nome={iconeDaCategoria(produto.categoria)}
                 className="h-16 w-16 text-acao opacity-30"
               />
               <span className="text-[0.7rem] text-ausente">
-                dimensões não publicadas
+                {produto.divergencias?.some((d) => d.campo === "dimensoesMm")
+                  ? "dimensões sem valor confiável"
+                  : "dimensões não publicadas"}
               </span>
             </>
           )}

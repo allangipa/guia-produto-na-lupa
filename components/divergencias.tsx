@@ -49,15 +49,23 @@ export function Divergencias({
           const adotadoAusente =
             specs[d.campo] === null || specs[d.campo] === undefined;
 
+          // Quando a fonte adotada e a divergente são a mesma, não há duas
+          // partes discordando: a fonte se contradiz sozinha. Sem este caso a
+          // tela repete o nome do fabricante nas duas linhas e ainda diz que
+          // "outra fonte registrou" um número que saiu dele mesmo.
+          const mesmaFonte = d.fonteAdotada === d.fonteDivergente;
+
           return (
             <li key={`${d.campo}-${d.fonteDivergente}`} className="max-w-[62ch]">
               <p className="font-medium">{campo.rotulo}</p>
               <dl className="mt-2 space-y-1.5 text-[0.95rem]">
                 <div className="flex flex-wrap gap-x-2">
                   <dt className="text-tinta-suave">
-                    {adotada
-                      ? `${rotuloTipoFonte[adotada.tipo]} (${adotada.titulo})`
-                      : "Fonte adotada"}
+                    {mesmaFonte && adotadoAusente
+                      ? "Na ficha"
+                      : adotada
+                        ? `${rotuloTipoFonte[adotada.tipo]} (${adotada.titulo})`
+                        : "Fonte adotada"}
                     :
                   </dt>
                   <dd
@@ -73,9 +81,11 @@ export function Divergencias({
                 </div>
                 <div className="flex flex-wrap gap-x-2">
                   <dt className="text-tinta-suave">
-                    {divergente
-                      ? `${rotuloTipoFonte[divergente.tipo]} (${divergente.titulo})`
-                      : "Outra fonte"}
+                    {mesmaFonte
+                      ? "A mesma página publica"
+                      : divergente
+                        ? `${rotuloTipoFonte[divergente.tipo]} (${divergente.titulo})`
+                        : "Outra fonte"}
                     :
                   </dt>
                   <dd className="font-dado text-atencao">
@@ -85,9 +95,9 @@ export function Divergencias({
               </dl>
               {adotadoAusente && (
                 <p className="mt-2 text-[0.9rem] text-tinta-suave">
-                  O fabricante não publica este dado. O valor acima existe
-                  porque outra fonte o registrou — não é contradição, é uma
-                  lacuna preenchida por quem mediu.
+                  {mesmaFonte
+                    ? "A ficha deixa o campo em branco de propósito: a fonte publica, na mesma página, dados que não fecham entre si. Escolher um deles seria fingir uma precisão que ela não tem."
+                    : "O fabricante não publica este dado. O valor acima existe porque outra fonte o registrou — não é contradição, é uma lacuna preenchida por quem mediu."}
                 </p>
               )}
               {d.observacao && (

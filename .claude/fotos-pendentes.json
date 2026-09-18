@@ -68,5 +68,60 @@
     "origem": "https://shop.samsung.com/br/monitor-gamer-samsung-odyssey-g5-34-uwqhd-curvo/p",
     "credito": "Imagem: Samsung",
     "alt": "Monitor curvo ultrawide Samsung Odyssey G5 de 34 polegadas"
+  },
+  "lg-27ms500": {
+    "url": null,
+    "origem": "https://www.lg.com/br/monitores/fhd-qhd/27ms500-b/",
+    "credito": "Imagem: LG",
+    "alt": "Monitor LG 27MS500 visto de frente",
+    "nota": "A LG Brasil carrega a galeria por script. Abrir no navegador na rodada de imagens, como ja foi feito para o 24MS500."
+  },
+  "lg-27gs60f": {
+    "url": null,
+    "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27gs60f-b/",
+    "credito": "Imagem: LG",
+    "alt": "Monitor LG UltraGear 27GS60F visto de frente",
+    "nota": "Mesma galeria por script da LG. Abrir no navegador."
+  },
+  "lg-27g523b": {
+    "url": null,
+    "origem": "https://www.lg.com/br/monitores/monitores-ultragear/27g523b-b/",
+    "credito": "Imagem: LG",
+    "alt": "Monitor LG UltraGear 27G523B visto de frente",
+    "nota": "Mesma galeria por script da LG. Abrir no navegador. Este produto esta sem silhueta, entao a foto muda mais a ficha do que nos outros."
+  },
+  "samsung-s3-24-100hz": {
+    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/244231/SA365_SMG_S3-24_Galeria_1000x1000_01_20250217.jpg.jpg",
+    "origem": "https://shop.samsung.com/br/monitor-samsung-essential-s3-24-polegadas/p",
+    "credito": "Imagem: Samsung",
+    "alt": "Monitor Samsung Essential S3 de 24 polegadas visto de frente"
+  },
+  "samsung-s4-24": {
+    "url": "https://samsungbrshop.vteximg.com.br/arquivos/ids/244258/01-SA365_SMG_S4_Galeria_1000x1000_01_20250206.jpg.jpg",
+    "origem": "https://shop.samsung.com/br/monitor-samsung-essential-s4-24-polegadas/p",
+    "credito": "Imagem: Samsung",
+    "alt": "Monitor Samsung Essential S4 de 24 polegadas visto de frente, sobre a base com ajuste de altura",
+    "nota": "Conferir olhando: a API devolveu esta URL e uma quase igual (ids/244258) para o S3 de 22 polegadas. Duas fotos diferentes nao deveriam dividir a mesma pasta de id."
+  },
+  "dell-se2426hg": {
+    "url": null,
+    "origem": "https://www.dell.com/en-us/shop/dell-24-240hz-monitor-se2426hg/apd/210-bttj/monitors-monitor-accessories",
+    "credito": "Imagem: Dell",
+    "alt": "Monitor Dell SE2426HG visto de frente",
+    "nota": "Pagina global da Dell. Procurar antes a foto na pagina brasileira do mesmo modelo, se ela existir."
+  },
+  "alienware-aw2525hm": {
+    "url": null,
+    "origem": "https://www.dell.com/en-us/shop/alienware-25-320hz-gaming-monitor-aw2525hm/apd/210-bryk/monitors-monitor-accessories",
+    "credito": "Imagem: Alienware",
+    "alt": "Monitor Alienware AW2525HM visto de frente, sobre a base ajustavel",
+    "nota": "Pagina global da Dell."
+  },
+  "aoc-u27b3a": {
+    "url": null,
+    "origem": "https://www.aoc.com/us/monitors/u27b3a",
+    "credito": "Imagem: AOC",
+    "alt": "Monitor AOC U27B3A de 27 polegadas 4K visto de frente",
+    "nota": "A AOC Brasil nao tem pagina deste modelo; a foto sai da ficha global da AOC."
   }
 }

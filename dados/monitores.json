@@ -785,5 +785,456 @@
         "consultadaEm": "2026-09-18"
       }
     ]
+  },
+  {
+    "slug": "lg-27ms500",
+    "nome": "LG 27MS500 27\" 100 Hz",
+    "marca": "LG",
+    "modelo": "27MS500-B",
+    "categoria": "monitores",
+    "resumo": "A versão de 27\" do LG de escritório com 100 Hz: IPS, 250 nits, 5 ms GtG — número honesto, sem MBR — e duas entradas HDMI, sem DisplayPort. A cobertura de cor vem em NTSC 72%, não em sRGB, e por isso não dá para comparar direto com os UltraGear.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 27,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 100,
+      "tempoRespostaMs": 5,
+      "medidaResposta": "GtG",
+      "brilhoNits": 250,
+      "contraste": "1000:1",
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": null,
+      "hdmi": "2",
+      "displayPort": "Não",
+      "outrasPortas": "Saída para fone de ouvido",
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": "75 × 75 mm",
+      "pesoKg": 3.5,
+      "dimensoesMm": "612 × 190 × 455 (L × P × A)",
+      "consumoW": 22,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D8DBW4NW"
+    },
+    "fontes": [
+      {
+        "id": "lg-27ms500-oficial",
+        "titulo": "LG 27MS500-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/fhd-qhd/27ms500-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "27\" IPS 1920 × 1080, NTSC 72%, 250 cd/m², contraste 1000:1, 100 Hz, 5 ms GtG, 8 bits (6 bits + FRC), tratamento antirreflexo, inclinação de -5° a 15°, VESA 75 × 75, 3,5 kg, 612 × 454,9 × 190 mm e 22 W típicos. A ficha-chave não declara sRGB, HDR, sincronização adaptativa, alto-falantes, ajuste de altura nem garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-27ms500",
+        "titulo": "LG 27MS500 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D8DBW4NW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O título da listagem declara \"HDMI 2x\" — a LG diz só que há HDMI, sem a quantidade. As duas entradas vieram daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "lg-27gs60f",
+    "nome": "LG UltraGear 27GS60F 27\" 180 Hz",
+    "marca": "LG",
+    "modelo": "27GS60F-B",
+    "categoria": "monitores",
+    "resumo": "O irmão de 27\" do 24GS60F, com a mesma ficha de imagem: 180 Hz, 1 ms GtG — a medida honesta —, 300 nits, sRGB 99% e HDR10. A LG nomeia HDMI 2.0 e DisplayPort 1.4, mas não diz quantas entradas de cada, e não publica o peso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 27,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 180,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "GtG",
+      "brilhoNits": 300,
+      "contraste": "1000:1",
+      "coresSrgb": 99,
+      "hdr": "HDR10",
+      "sincronizacao": "NVIDIA G-SYNC compatível e AMD FreeSync",
+      "hdmi": "Sim, HDMI 2.0 (quantidade não declarada)",
+      "displayPort": "Sim, versão 1.4",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": null,
+      "pesoKg": null,
+      "dimensoesMm": "614 × 225 × 454 (L × P × A)",
+      "consumoW": 22,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DB6DF87Y"
+    },
+    "fontes": [
+      {
+        "id": "lg-27gs60f-oficial",
+        "titulo": "LG UltraGear 27GS60F-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/monitores-ultragear/27gs60f-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "27\" IPS 1920 × 1080, sRGB 99%, 300 cd/m², contraste 1000:1, 180 Hz, 1 ms GtG, HDR10, G-SYNC compatível e FreeSync, HDMI 2.0 e DisplayPort 1.4, inclinação, 614,2 × 454,2 × 224,8 mm com suporte e 22 W típicos. A tabela marca HDMI e DisplayPort apenas como \"Sim\", sem a quantidade, e não declara VESA, peso, alto-falantes, ajuste de altura nem garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-27gs60f",
+        "titulo": "LG UltraGear 27GS60F-B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DB6DF87Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo 27GS60F-B.AWZM da listagem. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "lg-27g523b",
+    "nome": "LG UltraGear 27G523B 27\" 200 Hz",
+    "marca": "LG",
+    "modelo": "27G523B-B",
+    "categoria": "monitores",
+    "resumo": "O Full HD mais rápido desta lista: 200 Hz nativos, 1 ms GtG, 300 nits, sRGB 99% e HDR10, com duas HDMI 2.0 e uma DisplayPort 1.4. A ficha fica sem dimensões de propósito — a tabela da LG dá 557,6 mm de largura para um painel de 27\", que não cabe.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 27,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 200,
+      "tempoRespostaMs": 1,
+      "medidaResposta": "GtG",
+      "brilhoNits": 300,
+      "contraste": "1000:1",
+      "coresSrgb": 99,
+      "hdr": "HDR10",
+      "sincronizacao": "NVIDIA G-SYNC compatível e AMD FreeSync Premium",
+      "hdmi": "2 (HDMI 2.0)",
+      "displayPort": "Sim, versão 1.4",
+      "outrasPortas": "Saída para fone de ouvido",
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": "100 × 100 mm",
+      "pesoKg": 3.5,
+      "dimensoesMm": null,
+      "consumoW": 16,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HB6MPF6C"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "lg-27g523b-oficial",
+        "valorDivergente": "557,6 × 220 × 427,2 (L × P × A)",
+        "fonteDivergente": "lg-27g523b-oficial",
+        "observacao": "A mesma tabela da LG declara tela de 27\", 557,6 mm de largura com e sem suporte, e caixa de envio de 655 mm. Um painel de 27\" em 16:9 tem 597,7 mm só de área ativa: não cabe em 557,6 mm de gabinete. Como o fabricante se contradiz dentro da própria página, o campo fica em branco em vez de a ficha escolher um dos números."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "lg-27g523b-oficial",
+        "titulo": "LG UltraGear 27G523B-B — página oficial da LG Brasil",
+        "url": "https://www.lg.com/br/monitores/monitores-ultragear/27g523b-b/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "27\" IPS 1920 × 1080, 200 Hz nativos, 1 ms GtG, 300 cd/m², contraste 1000:1, sRGB 99% (CIE 1931), HDR10, G-SYNC compatível e FreeSync Premium, 2 HDMI 2.0, 1 DisplayPort 1.4, saída de fone, VESA 100 × 100, 3,5 kg com suporte e 16 W típicos. Não declara alto-falantes, ajuste de altura nem garantia, e a largura publicada é incompatível com o tamanho da tela.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-27g523b",
+        "titulo": "LG UltraGear 27G523B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HB6MPF6C",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo 27G523B da listagem. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-s3-24-100hz",
+    "nome": "Samsung Essential S3 24\" 100 Hz",
+    "marca": "Samsung",
+    "modelo": "LS24D300GALMZD",
+    "categoria": "monitores",
+    "resumo": "O S3 de 100 Hz: IPS de 24\", 250 nits, 5 ms GtG, com uma HDMI 1.4 e uma VGA — a VGA é o que o separa do irmão de 120 Hz. A Samsung publica a cor em 72% CIE 1931, e não em sRGB, e diz na ficha que não tem alto-falante.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 24,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 100,
+      "tempoRespostaMs": 5,
+      "medidaResposta": "GtG",
+      "brilhoNits": 250,
+      "contraste": "1000:1 (típico)",
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": null,
+      "hdmi": "1 (HDMI 1.4)",
+      "displayPort": "Não",
+      "outrasPortas": "1 VGA",
+      "altoFalantes": "Não",
+      "ajusteAltura": false,
+      "vesa": "100 × 100 mm",
+      "pesoKg": 2.4,
+      "dimensoesMm": "541 × 175 × 429 (L × P × A)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F1C49115"
+    },
+    "fontes": [
+      {
+        "id": "samsung-s3-24-100hz-oficial",
+        "titulo": "Samsung Essential S3 24\" 100 Hz — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/monitor-samsung-essential-s3-24-polegadas/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "IPS de 24\" 1920 × 1080, até 100 Hz, 5 ms GtG, 250 cd/m² típicos (200 mínimos), contraste 1000:1, 72% CIE 1931, 1 HDMI 1.4, 1 VGA, suporte simples (sem ajuste de altura), VESA 100 × 100, 2,4 kg com suporte, 540,7 × 428,5 × 175,1 mm, Flicker Free, sem alto-falante e 12 meses. A tabela não declara sRGB, HDR, sincronização adaptativa nem consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-s3-24-100hz",
+        "titulo": "Monitor Samsung 24\" FHD 100 Hz S3 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F1C49115",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que é o S3 de 24\", 100 Hz, com HDMI e VGA. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-s4-24",
+    "nome": "Samsung Essential S4 24\" 100 Hz",
+    "marca": "Samsung",
+    "modelo": "LS24D400GALMZD",
+    "categoria": "monitores",
+    "resumo": "Traz o que quase ninguém entrega nesta faixa e o fabricante confirma na ficha: suporte HAS com ajuste de altura, hub de duas USB 2.0, DisplayPort 1.2 e duas HDMI. Painel IPS de 100 Hz, 250 nits e 5 ms GtG.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 24,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 100,
+      "tempoRespostaMs": 5,
+      "medidaResposta": "GtG",
+      "brilhoNits": 250,
+      "contraste": "1000:1 (típico)",
+      "coresSrgb": null,
+      "hdr": null,
+      "sincronizacao": null,
+      "hdmi": "2 (HDMI 1.4)",
+      "displayPort": "Sim, versão 1.2",
+      "outrasPortas": "2 USB 2.0 (hub)",
+      "altoFalantes": "Não",
+      "ajusteAltura": true,
+      "vesa": "100 × 100 mm",
+      "pesoKg": 3.5,
+      "dimensoesMm": "541 × 219 × 498 (L × P × A)",
+      "consumoW": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DZPKSLHB"
+    },
+    "fontes": [
+      {
+        "id": "samsung-s4-24-oficial",
+        "titulo": "Samsung Essential S4 24\" — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/monitor-samsung-essential-s4-24-polegadas/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "IPS de 24\" 1920 × 1080, até 100 Hz, 5 ms GtG, 250 cd/m² típicos (200 mínimos), contraste 1000:1, 72% CIE 1931, ângulo 178/178, 2 HDMI 1.4, 1 DisplayPort 1.2, 2 USB 2.0, suporte HAS, VESA 100 × 100, 3,5 kg com suporte, 540,7 × 497,7 × 219,0 mm, Flicker Free, sem alto-falante e 12 meses. A tabela não declara sRGB, HDR, sincronização adaptativa nem consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-s4-24",
+        "titulo": "Monitor Samsung 24\" FHD 100 Hz S4 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DZPKSLHB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que é o S4 de 24\" com ajuste de altura, hub USB, DisplayPort e HDMI. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "dell-se2426hg",
+    "nome": "Dell SE2426HG 24\" 240 Hz",
+    "marca": "Dell",
+    "modelo": "SE2426HG",
+    "categoria": "monitores",
+    "resumo": "240 Hz num IPS de 23,8\" com sRGB 99%, HDR10 e FreeSync Premium — e três anos de garantia, o triplo dos 12 meses que Samsung e LG declaram. A Dell publica quatro tempos de resposta, de 0,5 a 5 ms GtG, conforme o modo escolhido.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 23.8,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "IPS",
+      "taxaHz": 240,
+      "tempoRespostaMs": 0.5,
+      "medidaResposta": "GtG",
+      "brilhoNits": 300,
+      "contraste": "1000:1",
+      "coresSrgb": 99,
+      "hdr": "HDR10",
+      "sincronizacao": "AMD FreeSync Premium",
+      "hdmi": "2 (HDCP 2.3)",
+      "displayPort": "Sim, versão 1.4",
+      "outrasPortas": null,
+      "altoFalantes": null,
+      "ajusteAltura": false,
+      "vesa": "100 × 100 mm",
+      "pesoKg": 3.36,
+      "dimensoesMm": "539 × 188 × 412 (L × P × A)",
+      "consumoW": 14,
+      "garantiaMeses": 36
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GHQ2BPYJ"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "dell-se2426hg-oficial",
+        "valorDivergente": "2,72 kg",
+        "fonteDivergente": "amazon-se2426hg",
+        "observacao": "A Dell declara 7,41 lb com suporte, que dão 3,36 kg; o título da listagem da Amazon diz 2,72 kg — provavelmente o monitor sem o suporte. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "dell-se2426hg-oficial",
+        "titulo": "Dell 24 240Hz Monitor SE2426HG — ficha técnica oficial da Dell",
+        "url": "https://www.dell.com/en-us/shop/dell-24-240hz-monitor-se2426hg/apd/210-bttj/monitors-monitor-accessories",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "23,8\" IPS 1920 × 1080 a 240 Hz, 300 cd/m², contraste 1000:1, sRGB 99% (CIE 1931), HDR10, FreeSync Premium, 2 HDMI e 1 DisplayPort 1.4 com HDCP 2.3, inclinação de -5° a 21° e nenhum ajuste de altura, VESA 100 × 100, 7,41 lb e 21,21 × 16,23 × 7,40 pol com suporte, 14 W típicos e garantia limitada de 3 anos. Medidas convertidas para milímetros e quilos. É a ficha global da Dell: a página brasileira de suporte do mesmo modelo não publica tabela técnica nem prazo de garantia. A Dell não declara DCI-P3, alto-falantes nem portas de áudio ou USB.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-se2426hg",
+        "titulo": "Monitor Dell SE2426HG — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GHQ2BPYJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo SE2426HG e repete 240 Hz, 1000:1, 300 nits, sRGB 99%, HDR10 e VESA 100 × 100. Declara 2,72 kg, que diverge do peso da Dell.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "alienware-aw2525hm",
+    "nome": "Alienware AW2525HM 25\" 320 Hz",
+    "marca": "Alienware",
+    "modelo": "AW2525HM",
+    "categoria": "monitores",
+    "resumo": "320 Hz num Fast IPS de 24,5\", com 400 nits, sRGB 99%, ajuste de altura de 110 mm, hub USB e três anos de garantia. Os 320 Hz só saem pela DisplayPort: pelas HDMI 2.1 a Dell declara até 255 Hz. Não declara HDR nem alto-falantes.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 24.5,
+      "resolucao": "1920 × 1080 (Full HD)",
+      "painel": "Fast IPS",
+      "taxaHz": 320,
+      "tempoRespostaMs": 0.5,
+      "medidaResposta": "GtG",
+      "brilhoNits": 400,
+      "contraste": "1000:1",
+      "coresSrgb": 99,
+      "hdr": null,
+      "sincronizacao": "NVIDIA G-SYNC compatível, AMD FreeSync Premium e VESA AdaptiveSync",
+      "hdmi": "2 (HDMI 2.1, até 255 Hz)",
+      "displayPort": "Sim, versão 1.4 (até 320 Hz)",
+      "outrasPortas": "1 USB-B de entrada e 2 USB-A",
+      "altoFalantes": null,
+      "ajusteAltura": true,
+      "vesa": "100 × 100 mm",
+      "pesoKg": 6.07,
+      "dimensoesMm": "555 × 206 × 501 (L × P × A)",
+      "consumoW": 18.1,
+      "garantiaMeses": 36
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FH5NMXHK"
+    },
+    "fontes": [
+      {
+        "id": "alienware-aw2525hm-oficial",
+        "titulo": "Alienware 25 320Hz Gaming Monitor AW2525HM — ficha técnica oficial da Dell",
+        "url": "https://www.dell.com/en-us/shop/alienware-25-320hz-gaming-monitor-aw2525hm/apd/210-bryk/monitors-monitor-accessories",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "24,5\" Fast IPS 1920 × 1080, 320 Hz pela DisplayPort 1.4 e 255 Hz pelas HDMI 2.1, 0,5 e 1 ms GtG, 400 cd/m², contraste 1000:1, sRGB 99% (CIE 1931), G-SYNC compatível, FreeSync Premium e VESA AdaptiveSync, 1 USB-B de entrada e 2 USB-A, altura regulável em 4,33 pol, inclinação de -5° a 21°, VESA 100 × 100, 13,38 lb e 21,87 × 19,71 × 8,11 pol com suporte, 18,10 W em operação e 3 anos de garantia. Medidas convertidas para milímetros e quilos. A Dell não declara HDR, DCI-P3, alto-falantes nem portas de áudio.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-aw2525hm",
+        "titulo": "Monitor Gamer Alienware AW2525HM — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FH5NMXHK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo AW2525HM, 25\", Full HD, 320 Hz, Fast IPS e G-SYNC. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-u27b3a",
+    "nome": "AOC U27B3A 27\" 4K",
+    "marca": "AOC",
+    "modelo": "U27B3A",
+    "categoria": "monitores",
+    "resumo": "O único 4K desta lista: 3840 × 2160 num IPS de 27\", com DCI-P3 94,9%, HDR10 e dois alto-falantes de 2 W. Em troca, 60 Hz e 4 ms — é monitor de trabalho e de vídeo, não de jogo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 27,
+      "resolucao": "3840 × 2160 (4K UHD)",
+      "painel": "IPS",
+      "taxaHz": 60,
+      "tempoRespostaMs": 4,
+      "medidaResposta": "GtG",
+      "brilhoNits": 350,
+      "contraste": "1000:1 (estático)",
+      "coresSrgb": 128,
+      "hdr": "HDR10",
+      "sincronizacao": "Adaptive-Sync",
+      "hdmi": "2 (HDMI 2.0)",
+      "displayPort": "Sim, versão 1.4",
+      "outrasPortas": "Saída para fone de ouvido",
+      "altoFalantes": "2 × 2 W",
+      "ajusteAltura": false,
+      "vesa": "100 × 100 mm",
+      "pesoKg": 4.04,
+      "dimensoesMm": "614 × 230 × 460 (L × P × A)",
+      "consumoW": 27,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FGDKYGFS"
+    },
+    "divergencias": [
+      {
+        "campo": "coresSrgb",
+        "fonteAdotada": "aoc-u27b3a-oficial",
+        "valorDivergente": "106% NTSC e 97% DCI-P3",
+        "fonteDivergente": "amazon-u27b3a",
+        "observacao": "O título da listagem na Amazon anuncia 106% de NTSC e 97% de DCI-P3; a ficha da AOC declara sRGB 128%, DCI-P3 94,9% e Adobe RGB 95,4%. Adotamos o fabricante. Vale lembrar que os 128% de sRGB são volume de cor, não cobertura: nenhum monitor cobre mais de 100% do espaço."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "aoc-u27b3a-oficial",
+        "titulo": "AOC U27B3A — ficha técnica oficial da AOC",
+        "url": "https://www.aoc.com/us/monitors/u27b3a",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "27\" IPS 3840 × 2160, 60 Hz, 4 ms GtG, 350 cd/m², contraste 1000:1 estático e 20M:1 dinâmico, sRGB 128%, DCI-P3 94,9% e Adobe RGB 95,4%, HDR10, Adaptive-Sync, 2 HDMI 2.0, 1 DisplayPort 1.4, saída de fone, alto-falantes de 2 W × 2, inclinação de -5° a 20° sem ajuste de altura, VESA 100 × 100, 4,04 kg e 614 × 460 × 229,8 mm com suporte e 27 W típicos. A AOC Brasil não publica ficha deste modelo, e a página global não declara a garantia brasileira nem o tempo de resposta em MPRT.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-u27b3a",
+        "titulo": "Monitor AOC 27\" 4K U27B3A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FGDKYGFS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo U27B3A, 27\", 4K, IPS e alto-falantes. O título anuncia cobertura de cor diferente da ficha da AOC.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]
