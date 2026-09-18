@@ -45,9 +45,10 @@ export const categorias: Categoria[] = [
   },
   {
     slug: "conectividade",
-    nome: "Hubs, adaptadores e redes",
-    descricao: "Hubs USB-C, adaptadores, roteadores e repetidores Wi-Fi.",
-    dorPrincipal: "Resolve a falta de porta sem esquentar e sem derrubar a velocidade?",
+    nome: "Redes e Wi-Fi",
+    descricao:
+      "Roteadores, repetidores, sistemas mesh e adaptadores — com o número do nome desmontado banda por banda.",
+    dorPrincipal: "O \"AX3000\" do nome é a soma das duas bandas. Quanto sai de verdade em uma?",
   },
   {
     slug: "casa-conectada",

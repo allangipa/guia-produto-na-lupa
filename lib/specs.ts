@@ -1685,10 +1685,165 @@ export const camposArmazenamento: Campo[] = [
   },
 ];
 
+/**
+ * Redes e Wi-Fi: roteadores, repetidores, mesh e adaptadores.
+ *
+ * O nome do produto é o marketing da categoria. "AX3000" não é a velocidade
+ * do aparelho: é a soma aritmética das duas bandas — 574 Mb/s em 2,4 GHz mais
+ * 2.402 em 5 GHz. Nenhum aparelho entrega os dois ao mesmo tempo para o mesmo
+ * dispositivo, e nenhum celular chega perto disso numa banda só.
+ *
+ * Por isso a velocidade nominal e as velocidades por banda são campos
+ * separados: um é o que está no nome, os outros são o que o fabricante declara
+ * na tabela. Quando a marca publica os três, a diferença fica à vista sem
+ * precisar de explicação.
+ */
+export const camposRede: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Roteador cria a rede, repetidor estende a que já existe e mesh troca a casa inteira por um sistema só.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "padraoWifi",
+    rotulo: "Padrão Wi-Fi",
+    grupo: "Wi-Fi",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bandas",
+    rotulo: "Bandas",
+    grupo: "Wi-Fi",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidadeNominalMbps",
+    rotulo: "Velocidade do nome",
+    grupo: "Wi-Fi",
+    tipo: "numero",
+    unidade: "Mb/s",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O número que aparece no nome do produto. É a soma das bandas, não o que chega em um aparelho.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidade24ghzMbps",
+    rotulo: "Velocidade em 2,4 GHz",
+    grupo: "Wi-Fi",
+    tipo: "numero",
+    unidade: "Mb/s",
+    melhor: "maior",
+    ajuda: "A banda que atravessa parede. É a mais lenta das duas, e a que você usa longe do roteador.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidade5ghzMbps",
+    rotulo: "Velocidade em 5 GHz",
+    grupo: "Wi-Fi",
+    tipo: "numero",
+    unidade: "Mb/s",
+    melhor: "maior",
+    ajuda: "A banda rápida, que perde força a cada parede. É o número que mais se aproxima do uso real perto do aparelho.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "antenas",
+    rotulo: "Antenas",
+    grupo: "Wi-Fi",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "mumimo",
+    rotulo: "MU-MIMO",
+    grupo: "Wi-Fi",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Atende vários aparelhos ao mesmo tempo em vez de alternar entre eles.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "mesh",
+    rotulo: "Forma malha (mesh)",
+    grupo: "Wi-Fi",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "portasLan",
+    rotulo: "Portas LAN",
+    grupo: "Portas",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "portaGigabit",
+    rotulo: "Portas gigabit",
+    grupo: "Portas",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "Porta de 100 Mb/s limita a internet contratada antes do Wi-Fi limitar. Em plano de 300 Mega, é o gargalo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "coberturaM2",
+    rotulo: "Cobertura declarada",
+    grupo: "Alcance",
+    tipo: "numero",
+    unidade: "m²",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Número do fabricante, medido em campo aberto ou em planta ideal. Parede de alvenaria derruba muito.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dispositivosSimultaneos",
+    rotulo: "Aparelhos simultâneos declarados",
+    grupo: "Alcance",
+    tipo: "numero",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Instalação",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
+  conectividade: camposRede,
   audio: camposAudio,
   cozinha: camposCozinha,
   celular: camposCelular,
@@ -1815,6 +1970,18 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   durabilidadeTbw: "escudo",
   resistencia: "escudo",
   criptografia: "escudo",
+  padraoWifi: "bluetooth",
+  bandas: "onda",
+  velocidadeNominalMbps: "raio",
+  velocidade24ghzMbps: "onda",
+  velocidade5ghzMbps: "onda",
+  antenas: "bluetooth",
+  mumimo: "bluetooth",
+  mesh: "bluetooth",
+  portasLan: "portas",
+  portaGigabit: "portas",
+  coberturaM2: "regua",
+  dispositivosSimultaneos: "controle",
 };
 
 export function iconeDo(chave: string): string {
@@ -1913,6 +2080,14 @@ const ROTULO_CURTO: Record<string, string> = {
   memoriaTipo: "Memória",
   criptografia: "Criptografia",
   resistencia: "Resistência",
+  velocidadeNominalMbps: "Nome",
+  velocidade24ghzMbps: "2,4 GHz",
+  velocidade5ghzMbps: "5 GHz",
+  padraoWifi: "Padrão",
+  portasLan: "LAN",
+  portaGigabit: "Gigabit",
+  coberturaM2: "Cobertura",
+  dispositivosSimultaneos: "Aparelhos",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -1923,6 +2098,7 @@ export function rotuloCurto(campo: Campo): string {
 const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   energia: ["capacidadeNominal", "potenciaMaxSaida", "pesoG"],
   armazenamento: ["capacidadeGb", "leituraMbs", "tipo"],
+  conectividade: ["velocidadeNominalMbps", "velocidade5ghzMbps", "padraoWifi"],
   audio: ["horasFone", "driverMm", "protecaoAgua"],
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],

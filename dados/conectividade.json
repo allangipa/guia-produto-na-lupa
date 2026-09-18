@@ -1,0 +1,691 @@
+[
+  {
+    "slug": "tplink-tl-wa850re",
+    "nome": "TP-Link TL-WA850RE",
+    "marca": "TP-Link",
+    "modelo": "TL-WA850RE",
+    "categoria": "conectividade",
+    "resumo": "O repetidor mais vendido da lista, e o mais simples: uma banda só, 2,4 GHz, 300 Mb/s e porta de 100 Mb/s. Num plano de 300 Mega, a porta dele é o gargalo antes do Wi-Fi.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Repetidor",
+      "padraoWifi": "Wi-Fi 4 (802.11n)",
+      "bandas": "Banda única de 2,4 GHz",
+      "velocidadeNominalMbps": 300,
+      "velocidade24ghzMbps": 300,
+      "velocidade5ghzMbps": null,
+      "antenas": "2 internas",
+      "mumimo": false,
+      "mesh": false,
+      "portasLan": 1,
+      "portaGigabit": false,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "110 × 65,8 × 75,2",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "velocidade5ghzMbps"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B00A0VCJPI"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tl-wa850re-oficial",
+        "titulo": "TP-Link TL-WA850RE — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/range-extender/tl-wa850re/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11b/g/n em banda única de 2,4 GHz, até 300 Mb/s em 11n, 2 antenas internas, 1 porta Ethernet de 10/100 Mb/s e 110,0 × 65,8 × 75,2 mm. A TP-Link não declara cobertura em metros quadrados, aparelhos simultâneos, MU-MIMO nem prazo de garantia."
+      },
+      {
+        "id": "amazon-wa850re",
+        "titulo": "TP-Link TL-WA850RE — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B00A0VCJPI",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e os 300 Mb/s. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-re305",
+    "nome": "TP-Link RE305",
+    "marca": "TP-Link",
+    "modelo": "RE305",
+    "categoria": "conectividade",
+    "resumo": "O \"AC1200\" do nome é 300 em 2,4 GHz mais 867 em 5 GHz. Nenhum aparelho recebe os dois ao mesmo tempo — o melhor que se consegue numa banda é 867. E a porta de rede é de 100 Mb/s.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Repetidor",
+      "padraoWifi": "Wi-Fi 5 (802.11ac)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 1200,
+      "velocidade24ghzMbps": 300,
+      "velocidade5ghzMbps": 867,
+      "antenas": "2 externas",
+      "mumimo": null,
+      "mesh": false,
+      "portasLan": 1,
+      "portaGigabit": false,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "80 × 78 × 77",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B075KFFSMR"
+    },
+    "fontes": [
+      {
+        "id": "tplink-re305-oficial",
+        "titulo": "TP-Link RE305 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/range-extender/re305/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11a/b/g/n/ac em duas bandas, 300 Mb/s em 2,4 GHz e 867 Mb/s em 5 GHz — os 1.200 do nome são a soma —, 2 antenas externas, 1 porta Ethernet de 10/100 Mb/s, modos repetidor e ponto de acesso, 80 × 78 × 77 mm e consumo máximo de 7,3 W. A TP-Link não declara MU-MIMO, cobertura, aparelhos simultâneos nem garantia."
+      },
+      {
+        "id": "amazon-re305",
+        "titulo": "TP-Link RE305 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B075KFFSMR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, o AC1200 e o modo AP. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-re450",
+    "nome": "TP-Link RE450",
+    "marca": "TP-Link",
+    "modelo": "RE450",
+    "categoria": "conectividade",
+    "resumo": "O único repetidor desta lista com porta gigabit — os outros dois travam em 100 Mb/s no cabo. AC1750 significa 450 em 2,4 GHz mais 1.300 em 5 GHz.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Repetidor",
+      "padraoWifi": "Wi-Fi 5 (802.11ac)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 1750,
+      "velocidade24ghzMbps": 450,
+      "velocidade5ghzMbps": 1300,
+      "antenas": "3 externas ajustáveis",
+      "mumimo": true,
+      "mesh": false,
+      "portasLan": 1,
+      "portaGigabit": true,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "163 × 76,4 × 66,5",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07BB4BY7Z"
+    },
+    "fontes": [
+      {
+        "id": "tplink-re450-oficial",
+        "titulo": "TP-Link RE450 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/range-extender/re450/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11a/b/g/n/ac, 450 Mb/s em 2,4 GHz e 1.300 Mb/s em 5 GHz — os 1.750 do nome são a soma —, 3 antenas externas ajustáveis, 1 porta Ethernet gigabit, MU-MIMO e 163 × 76,4 × 66,5 mm. Sobre cobertura, a página diz apenas \"residência de tamanho médio ou maior\", sem número. Não declara aparelhos simultâneos nem garantia."
+      },
+      {
+        "id": "amazon-re450",
+        "titulo": "TP-Link RE450 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07BB4BY7Z",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e o AC1750. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-ex3000",
+    "nome": "TP-Link EX3000",
+    "marca": "TP-Link",
+    "modelo": "EX3000",
+    "categoria": "conectividade",
+    "resumo": "Wi-Fi 6 com quatro portas gigabit e EasyMesh. O nome diz AX3000; a tabela da TP-Link diz 2.402 em 5 GHz e 574 em 2,4 GHz — some e dá 2.976.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Roteador",
+      "padraoWifi": "Wi-Fi 6 (802.11ax)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 3000,
+      "velocidade24ghzMbps": 574,
+      "velocidade5ghzMbps": 2402,
+      "antenas": "4 externas",
+      "mumimo": true,
+      "mesh": true,
+      "portasLan": 3,
+      "portaGigabit": true,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "182,7 × 94,0 × 33,3",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GZJ5WVY8"
+    },
+    "fontes": [
+      {
+        "id": "tplink-ex3000-oficial",
+        "titulo": "TP-Link EX3000 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/wifi-router/ex3000/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11a/n/ac/ax, 2.402 Mb/s em 5 GHz e 574 Mb/s em 2,4 GHz, 4 antenas externas, 1 porta WAN e 3 LAN gigabit, MU-MIMO, OFDMA, beamforming, WPA3, compatível com o padrão EasyMesh e 802.11k/v/r, e 182,7 × 94,0 × 33,3 mm. Não declara cobertura, aparelhos simultâneos nem garantia."
+      },
+      {
+        "id": "amazon-ex3000",
+        "titulo": "TP-Link EX3000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GZJ5WVY8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, as 4 portas gigabit e o EasyMesh. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-deco-x10",
+    "nome": "TP-Link Deco X10",
+    "marca": "TP-Link",
+    "modelo": "Deco X10",
+    "categoria": "conectividade",
+    "resumo": "O mesh mais barato da lista, e o único em que a TP-Link publica a cobertura unidade por unidade: 190 m² com uma, 360 com duas, 520 com três. Isso é honestidade rara nesta categoria.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sistema mesh",
+      "padraoWifi": "Wi-Fi 6 (802.11ax)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 1500,
+      "velocidade24ghzMbps": 300,
+      "velocidade5ghzMbps": 1201,
+      "antenas": "2 internas",
+      "mumimo": true,
+      "mesh": true,
+      "portasLan": 2,
+      "portaGigabit": true,
+      "coberturaM2": 360,
+      "dispositivosSimultaneos": 120,
+      "dimensoesMm": "110 × 110 × 114",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CL577P1S"
+    },
+    "fontes": [
+      {
+        "id": "tplink-deco-x10-oficial",
+        "titulo": "TP-Link Deco X10 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/deco/deco-x10/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11ax/ac/n/a em 5 GHz e 802.11n/b/g em 2,4 GHz, 1.201 Mb/s em 5 GHz e 300 Mb/s em 2,4 GHz — os 1.500 do nome são a soma —, 2 antenas internas, 2 portas gigabit por unidade com detecção automática de WAN e LAN, MU-MIMO 2×2, até 120 aparelhos e 110 × 110 × 114 mm. A cobertura vem separada por quantidade: 190 m² com uma unidade, 360 m² com duas e 520 m² com três. A ficha adota os 360 m² do kit de duas, que é o anunciado. Não declara garantia."
+      },
+      {
+        "id": "amazon-deco-x10",
+        "titulo": "TP-Link Deco X10 kit com 2 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CL577P1S",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades AX1500. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-deco-x50",
+    "nome": "TP-Link Deco X50",
+    "marca": "TP-Link",
+    "modelo": "Deco X50",
+    "categoria": "conectividade",
+    "resumo": "Mesmo corpo do X10 e o dobro da velocidade em 5 GHz: 2.402 contra 1.201. Três portas gigabit por unidade, 600 m² com três unidades e até 150 aparelhos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sistema mesh",
+      "padraoWifi": "Wi-Fi 6 (802.11ax)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 3000,
+      "velocidade24ghzMbps": 574,
+      "velocidade5ghzMbps": 2402,
+      "antenas": "2 internas",
+      "mumimo": true,
+      "mesh": true,
+      "portasLan": 3,
+      "portaGigabit": true,
+      "coberturaM2": 600,
+      "dispositivosSimultaneos": 150,
+      "dimensoesMm": "110 × 110 × 114",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D4ZLWZBW"
+    },
+    "fontes": [
+      {
+        "id": "tplink-deco-x50-oficial",
+        "titulo": "TP-Link Deco X50 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/deco/deco-x50/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11ax/ac/n/a em 5 GHz e 802.11ax/n/b/g em 2,4 GHz, 2.402 Mb/s em 5 GHz e 574 em 2,4 GHz, 2 antenas internas, 3 portas gigabit por unidade, MU-MIMO 2×2, cobertura de até 600 m² com o kit de três, até 150 aparelhos e 110 × 110 × 114 mm. A cobertura declarada é a do kit de três, e a listagem vendida é a de duas. Não declara garantia."
+      },
+      {
+        "id": "amazon-deco-x50",
+        "titulo": "TP-Link Deco X50 kit com 2 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D4ZLWZBW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades AX3000, enquanto a cobertura de 600 m² que a TP-Link publica é a do kit de 3.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-deco-be22",
+    "nome": "TP-Link Deco BE22",
+    "marca": "TP-Link",
+    "modelo": "Deco BE22",
+    "categoria": "conectividade",
+    "resumo": "O Wi-Fi 7 de entrada: BE3600 em duas bandas, com 4K-QAM e MLO. Só duas portas de 1 Gb/s por unidade — menos que o Deco X50, que é Wi-Fi 6 e tem três.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sistema mesh",
+      "padraoWifi": "Wi-Fi 7 (802.11be)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 3600,
+      "velocidade24ghzMbps": 688,
+      "velocidade5ghzMbps": 2882,
+      "antenas": "4 internas",
+      "mumimo": true,
+      "mesh": true,
+      "portasLan": 2,
+      "portaGigabit": true,
+      "coberturaM2": 600,
+      "dispositivosSimultaneos": 150,
+      "dimensoesMm": "150 × 150 × 62",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FG2NF3HT"
+    },
+    "fontes": [
+      {
+        "id": "tplink-deco-be22-oficial",
+        "titulo": "TP-Link Deco BE22 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/deco/deco-be22/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11be/ax/ac/n/a em 5 GHz e 802.11be/ax/n/b/g em 2,4 GHz, 2.882 Mb/s em 5 GHz e 688 em 2,4 GHz — os 3.600 do nome são a soma —, 4 antenas internas, 2 portas de 1,0 Gb/s por unidade com detecção automática, MU-MIMO, MLO, 4K-QAM, OFDMA, canal de 160 MHz, cobertura de até 600 m² com o kit de três, mais de 150 aparelhos e 150 × 150 × 62 mm. Não declara garantia."
+      },
+      {
+        "id": "amazon-deco-be22",
+        "titulo": "TP-Link Deco BE22 kit com 2 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FG2NF3HT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades BE3600. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-deco-be65",
+    "nome": "TP-Link Deco BE65",
+    "marca": "TP-Link",
+    "modelo": "Deco BE65",
+    "categoria": "conectividade",
+    "resumo": "O maior número da lista e o melhor exemplo do problema: BE11000 é 5.765 em 6 GHz mais 4.320 em 5 GHz mais 574 em 2,4 GHz. Nenhum aparelho vê mais que 5.765. Em troca, quatro portas de 2,5 Gb/s, que ninguém mais aqui tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sistema mesh",
+      "padraoWifi": "Wi-Fi 7 (802.11be)",
+      "bandas": "Tripla, 2,4, 5 e 6 GHz",
+      "velocidadeNominalMbps": 11000,
+      "velocidade24ghzMbps": 574,
+      "velocidade5ghzMbps": 4320,
+      "antenas": "4 internas",
+      "mumimo": true,
+      "mesh": true,
+      "portasLan": 4,
+      "portaGigabit": true,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": 200,
+      "dimensoesMm": "107,5 × 107,5 × 176",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CJJ712ZX"
+    },
+    "fontes": [
+      {
+        "id": "tplink-deco-be65-oficial",
+        "titulo": "TP-Link Deco BE65 — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/deco/deco-be65/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11be/ax em três bandas, 5.765 Mb/s em 6 GHz, 4.320 em 5 GHz e 574 em 2,4 GHz — os 11.000 do nome são a soma dos três —, 4 antenas internas de alto desempenho, 4 portas de 2,5 Gb/s por unidade mais uma USB 3.0, MU-MIMO 2×2, MLO, mesh com IA e mais de 200 aparelhos, em 107,5 × 107,5 × 176 mm. A página fala em \"cobertura ampliada para a casa toda\" sem número, e não declara garantia. A banda de 6 GHz não tem campo próprio neste esquema: os 5.765 ficam registrados aqui."
+      },
+      {
+        "id": "amazon-deco-be65",
+        "titulo": "TP-Link Deco BE65 unidade avulsa — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CJJ712ZX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que a listagem é a unidade avulsa BE11000 tri-band. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-archer-t3u",
+    "nome": "TP-Link Archer T3U",
+    "marca": "TP-Link",
+    "modelo": "Archer T3U",
+    "categoria": "conectividade",
+    "resumo": "Adaptador USB 3.0 do tamanho de uma unha: 40 mm de ponta a ponta. AC1300 é 400 em 2,4 GHz mais 867 em 5 GHz.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Adaptador Wi-Fi USB",
+      "padraoWifi": "Wi-Fi 5 (802.11ac)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 1300,
+      "velocidade24ghzMbps": 400,
+      "velocidade5ghzMbps": 867,
+      "antenas": "Omnidirecional interna (quantidade não declarada)",
+      "mumimo": true,
+      "mesh": false,
+      "portasLan": null,
+      "portaGigabit": null,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "40,5 × 19,72 × 10,29",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "portasLan",
+      "portaGigabit",
+      "coberturaM2",
+      "dispositivosSimultaneos"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07M69276N"
+    },
+    "fontes": [
+      {
+        "id": "tplink-archer-t3u-oficial",
+        "titulo": "TP-Link Archer T3U — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/adapter/archer-t3u/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11a/b/g/n/ac, 867 Mb/s em 5 GHz e 400 em 2,4 GHz, interface USB 3.0, MU-MIMO com dois fluxos simultâneos, antena omnidirecional e 40,5 × 19,72 × 10,29 mm. A TP-Link não diz quantas antenas são, nem o ganho em dBi, nem a garantia."
+      },
+      {
+        "id": "amazon-t3u",
+        "titulo": "TP-Link Archer T3U — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07M69276N",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, o AC1300 e o USB 3.0. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-archer-t2u-plus",
+    "nome": "TP-Link Archer T2U Plus",
+    "marca": "TP-Link",
+    "modelo": "Archer T2U Plus",
+    "categoria": "conectividade",
+    "resumo": "Tem antena externa de 5 dBi, que é o que o T3U não tem — e USB 2.0, que limita a 480 Mb/s de barramento. AC600 é 200 mais 433.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Adaptador Wi-Fi USB",
+      "padraoWifi": "Wi-Fi 5 (802.11ac)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 600,
+      "velocidade24ghzMbps": 200,
+      "velocidade5ghzMbps": 433,
+      "antenas": "1 externa ajustável de 5 dBi",
+      "mumimo": null,
+      "mesh": false,
+      "portasLan": null,
+      "portaGigabit": null,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "57,8 × 18 × 173,4",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "portasLan",
+      "portaGigabit",
+      "coberturaM2",
+      "dispositivosSimultaneos"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07P681N66"
+    },
+    "fontes": [
+      {
+        "id": "tplink-archer-t2u-plus-oficial",
+        "titulo": "TP-Link Archer T2U Plus — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/adapter/archer-t2u-plus/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11b/g/n em 2,4 GHz e 802.11a/n/ac em 5 GHz, 433 Mb/s em 5 GHz e 200 em 2,4 GHz com 256QAM, uma antena externa ajustável de 5 dBi, interface USB 2.0 e 57,8 × 18 × 173,4 mm. A página não menciona MU-MIMO nem garantia."
+      },
+      {
+        "id": "amazon-t2u-plus",
+        "titulo": "TP-Link Archer T2U Plus — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07P681N66",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e o AC600. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tl-wn823n",
+    "nome": "TP-Link TL-WN823N",
+    "marca": "TP-Link",
+    "modelo": "TL-WN823N",
+    "categoria": "conectividade",
+    "resumo": "O mais simples e o menor: 39 mm, uma banda só e 300 Mb/s. Num notebook que já tem Wi-Fi 5, só faz sentido para substituir uma placa queimada.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Adaptador Wi-Fi USB",
+      "padraoWifi": "Wi-Fi 4 (802.11n)",
+      "bandas": "Banda única de 2,4 GHz",
+      "velocidadeNominalMbps": 300,
+      "velocidade24ghzMbps": 300,
+      "velocidade5ghzMbps": null,
+      "antenas": "Interna (quantidade não declarada)",
+      "mumimo": null,
+      "mesh": false,
+      "portasLan": null,
+      "portaGigabit": null,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "39 × 18,35 × 7,87",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "velocidade5ghzMbps",
+      "portasLan",
+      "portaGigabit",
+      "coberturaM2",
+      "dispositivosSimultaneos"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0088TKTY2"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tl-wn823n-oficial",
+        "titulo": "TP-Link TL-WN823N — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/adapter/tl-wn823n/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-18",
+        "oQueSaiuDaqui": "802.11b/g/n na faixa de 2,400 a 2,4835 GHz, até 300 Mb/s em 11n, antena interna, interface USB 2.0, botão WPS e 39 × 18,35 × 7,87 mm. A TP-Link não diz quantas antenas são, nem o ganho, nem a garantia."
+      },
+      {
+        "id": "amazon-wn823n",
+        "titulo": "TP-Link TL-WN823N — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0088TKTY2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e os 300 Mb/s em 2,4 GHz. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mercusys-mr80x",
+    "nome": "Mercusys MR80X",
+    "marca": "Mercusys",
+    "modelo": "MR80X",
+    "categoria": "conectividade",
+    "resumo": "Mesma ficha de rádio do TP-Link EX3000 — 2.402 mais 574, quatro portas gigabit, MU-MIMO e EasyMesh — na marca de entrada do mesmo grupo. A Mercusys é a única aqui que declara antena com ganho: 5 dBi.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Roteador",
+      "padraoWifi": "Wi-Fi 6 (802.11ax)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 3000,
+      "velocidade24ghzMbps": 574,
+      "velocidade5ghzMbps": 2402,
+      "antenas": "4 externas fixas de 5 dBi",
+      "mumimo": true,
+      "mesh": true,
+      "portasLan": 3,
+      "portaGigabit": true,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "175,6 × 157,2 × 45",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G4NDB2P4"
+    },
+    "fontes": [
+      {
+        "id": "mercusys-mr80x-oficial",
+        "titulo": "Mercusys MR80X — página oficial da Mercusys Brasil",
+        "url": "https://www.mercusys.com.br/product/details/mr80x/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "802.11ax/ac/a/b/g/n, 2.402 Mb/s em 5 GHz e 574 em 2,4 GHz, 4 antenas omnidirecionais fixas de 5 dBi com beamforming, 1 porta WAN e 3 LAN gigabit, OFDMA e MU-MIMO, compatível com EasyMesh sem certificação, e 175,6 × 157,2 × 45 mm. A Mercusys não declara cobertura em metros quadrados, consumo nem garantia; cita 256 aparelhos em condição de laboratório, número que a ficha não adota por não ser especificação do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-mr80x",
+        "titulo": "Mercusys MR80X — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G4NDB2P4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo V4, o AX3000, as 4 portas gigabit e as 4 antenas. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "mercusys-halo-h80x",
+    "nome": "Mercusys Halo H80X",
+    "marca": "Mercusys",
+    "modelo": "Halo H80X",
+    "categoria": "conectividade",
+    "resumo": "Mesh com a mesma ficha de rádio do Deco X50 e cobertura declarada de 460 m². A Mercusys não diz quantas antenas tem — é a única desta lista que omite isso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sistema mesh",
+      "padraoWifi": "Wi-Fi 6 (802.11ax)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 3000,
+      "velocidade24ghzMbps": 574,
+      "velocidade5ghzMbps": 2402,
+      "antenas": null,
+      "mumimo": true,
+      "mesh": true,
+      "portasLan": 3,
+      "portaGigabit": true,
+      "coberturaM2": 460,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "128 × 81 × 83,7",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B94L571G"
+    },
+    "fontes": [
+      {
+        "id": "mercusys-halo-oficial",
+        "titulo": "Mercusys Halo H80X — página oficial da Mercusys Brasil",
+        "url": "https://www.mercusys.com.br/product/details/halo-h80x/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "802.11ax/ac/n/a em 5 GHz e 802.11ax/n/b/g em 2,4 GHz, 2.402 Mb/s em 5 GHz e 574 em 2,4 GHz, 3 portas gigabit por unidade com detecção automática de WAN e LAN, MU-MIMO, sistema mesh, cobertura de 460 m² com o kit de duas unidades e 128 × 81 × 83,7 mm. A Mercusys não declara quantas antenas o aparelho tem, nem processador, memória ou garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-halo-h80x",
+        "titulo": "Mercusys Halo H80X kit com 2 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B94L571G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma que a listagem é o kit de 2 unidades AX3000. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "huawei-wifi-ax2s",
+    "nome": "Huawei WiFi AX2S",
+    "marca": "Huawei",
+    "modelo": "WS7000",
+    "categoria": "conectividade",
+    "resumo": "Wi-Fi 6 com quatro portas gigabit auto-adaptáveis e a mesma velocidade de rádio do Deco X10: 1.201 mais 300. A Huawei não diz quantas antenas são, embora o anúncio fale em quatro.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Roteador",
+      "padraoWifi": "Wi-Fi 6 (802.11ax)",
+      "bandas": "Dupla, 2,4 e 5 GHz",
+      "velocidadeNominalMbps": 1500,
+      "velocidade24ghzMbps": 300,
+      "velocidade5ghzMbps": 1201,
+      "antenas": null,
+      "mumimo": true,
+      "mesh": null,
+      "portasLan": 4,
+      "portaGigabit": true,
+      "coberturaM2": null,
+      "dispositivosSimultaneos": null,
+      "dimensoesMm": "120 × 39 × 205",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BP891NZZ"
+    },
+    "divergencias": [
+      {
+        "campo": "antenas",
+        "fonteAdotada": "huawei-ax2s-oficial",
+        "valorDivergente": "4 antenas",
+        "fonteDivergente": "amazon-ax2s",
+        "observacao": "O título da listagem na Amazon anuncia \"4 Antenas\". A ficha oficial da Huawei descreve o rádio como 2 × 2 nas duas bandas e não diz em nenhum lugar quantas antenas físicas o aparelho tem. Sem o número no fabricante, o campo fica em branco."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "huawei-ax2s-oficial",
+        "titulo": "HUAWEI WiFi AX2S — especificações oficiais da Huawei Brasil",
+        "url": "https://consumer.huawei.com/br/routers/ax2s/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "802.11ax/ac/a/n 2×2 e 802.11b/g/n 2×2 com MU-MIMO, OFDMA e ATF, até 1.201 Mb/s em 5 GHz e 300 em 2,4 GHz, quatro portas de 100/1000 Mb/s com adaptação automática e 205 × 120 × 39 mm. A Huawei não declara quantidade de antenas, suporte a mesh, cobertura, aparelhos simultâneos nem garantia, e não cita o código WS7000 nesta página.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-ax2s",
+        "titulo": "Huawei WiFi AX2S WS7000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BP891NZZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O código de modelo WS7000, que a página da Huawei não traz. O título também anuncia 4 antenas, número que o fabricante não confirma.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  }
+]
