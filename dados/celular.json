@@ -755,5 +755,588 @@
         "origem": "https://www.mi.com/br/product/poco-x8-pro/specs/"
       }
     ]
+  },
+  {
+    "slug": "motorola-moto-g56",
+    "nome": "Motorola Moto g56 5G",
+    "marca": "Motorola",
+    "modelo": "Moto g56 5G",
+    "categoria": "celular",
+    "resumo": "Dimensity 7060, 120 Hz e carregador de 33 W na caixa, com IP68 e IP69 anunciados. A ficha sai sem as medidas: a tabela da Motorola dá 8,5 mm de largura para um aparelho de 6,7 polegadas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2400 × 1080 (FHD+), HDR10+",
+      "taxaHz": 120,
+      "brilhoPicoNits": null,
+      "chip": "MediaTek Dimensity 7060 (octa-core 2,6 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "256 GB, mais microSD até 2 TB",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 8 MP",
+      "cameraFrontalMp": 32,
+      "bateriaMah": 5200,
+      "horasVideo": null,
+      "cargaRapida": "TurboPower 33 W com fio (carregador na caixa)",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Nano SIM e eSIM",
+      "protecaoAgua": "IP68 e IP69",
+      "material": null,
+      "pesoG": 200,
+      "espessuraMm": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "cargaSemFioW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F9MNPVKG"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "motorola-oficial",
+        "valorDivergente": "172,8 × 8,5 × 5,12 (A × L × P)",
+        "fonteDivergente": "motorola-oficial",
+        "observacao": "A tabela da loja oficial da Motorola publica 8,5 mm de largura e 5,12 mm de profundidade para um aparelho de tela de 6,7\". Um celular dessa tela tem cerca de 76 mm de largura — o irmão g86, de mesma tela, tem 74,74 mm na mesma tabela. Como o fabricante se contradiz na própria ficha, o campo fica em branco em vez de a ficha escolher um número."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "motorola-oficial",
+        "titulo": "Motorola Moto g56 5G — página oficial na loja da Motorola Brasil",
+        "url": "https://www.motorola.com.br/smartphone-moto-g56-5g-256gb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Android 15, Dimensity 7060 octa-core de 2,6 GHz, 8 GB de RAM, 256 GB com microSD até 2 TB, tela de 6,7\" FHD+ 1080 × 2400 com HDR10+ e 120 Hz, câmera principal Sony LYTIA 600 de 50 MP f/1,88 e ultra-angular de 8 MP, frontal de 32 MP, bateria de 5200 mAh, TurboPower 33 W na caixa, nano SIM e eSIM, Bluetooth 5.3, Wi-Fi 5, NFC, 200 g, homologação Anatel 00073-25-00330 e 12 meses. A Motorola não declara brilho, material nem o código XT do modelo, e as medidas publicadas não fecham.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-g56",
+        "titulo": "Motorola Moto g56 5G — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F9MNPVKG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "IP68 e IP69 e resistência militar, no título da listagem — a ficha da Motorola não traz classificação de proteção.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "motorola-moto-g35",
+    "nome": "Motorola Moto g35 5G",
+    "marca": "Motorola",
+    "modelo": "Moto g35 5G",
+    "categoria": "celular",
+    "resumo": "O 5G mais barato desta lista, com Unisoc no lugar do MediaTek e tela IPS de 120 Hz. Também sai sem medidas: a Motorola publica 84 mm de largura e 4,4 mm de espessura, o que não existe num aparelho de 6,7\" com 5000 mAh.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2400 × 1080 (FHD+), IPS",
+      "taxaHz": 120,
+      "brilhoPicoNits": null,
+      "chip": "Unisoc T760 (octa-core 2,2 GHz)",
+      "memoriaRamGb": 4,
+      "armazenamento": "256 GB, mais microSD até 1 TB",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 8 MP",
+      "cameraFrontalMp": 16,
+      "bateriaMah": 5000,
+      "horasVideo": null,
+      "cargaRapida": "TurboPower 20 W com fio (carregador na caixa)",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Nano SIM e eSIM",
+      "protecaoAgua": null,
+      "material": null,
+      "pesoG": 188.2,
+      "espessuraMm": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "cargaSemFioW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DHWF5G76"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "motorola-oficial",
+        "valorDivergente": "173,5 × 84,00 × 4,40 (A × L × P)",
+        "fonteDivergente": "motorola-oficial",
+        "observacao": "A tabela da loja oficial da Motorola dá 84,00 mm de largura e 4,40 mm de espessura. Um aparelho de 6,7\" com bateria de 5000 mAh não tem 4,4 mm de espessura, e 84 mm é mais largo que qualquer celular desta lista. Como o fabricante se contradiz na própria ficha, o campo fica em branco."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "motorola-oficial",
+        "titulo": "Motorola Moto g35 5G 256 GB — página oficial na loja da Motorola Brasil",
+        "url": "https://www.motorola.com.br/smartphone-moto-g35-5g-256gb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Android 14, Unisoc T760 octa-core de 2,2 GHz, 4 GB de RAM, 256 GB com microSD até 1 TB, tela de 6,7\" FHD+ IPS de 120 Hz, câmera de 50 MP e ultra-angular de 8 MP, frontal de 16 MP, 5000 mAh, TurboPower 20 W na caixa, nano SIM e eSIM, Bluetooth 5.0, NFC, 188,2 g, homologação Anatel 071042400330 e 12 meses. Não declara brilho, proteção contra água, material nem o código XT, e as medidas publicadas não fecham.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-g35",
+        "titulo": "Motorola Moto g35 5G 256 GB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DHWF5G76",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 256 GB, NFC e o acabamento em vegan leather. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-a07",
+    "nome": "Samsung Galaxy A07",
+    "marca": "Samsung",
+    "modelo": "SM-A075M/DS",
+    "categoria": "celular",
+    "resumo": "O único desta lista sem 5G — a Samsung declara rede 4G. Tela grande de 6,7\" mas em HD+ e LCD, e a única resolução abaixo de Full HD entre os 20.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "1600 × 720 (HD+), PLS LCD",
+      "taxaHz": null,
+      "brilhoPicoNits": null,
+      "chip": "MediaTek Helio G99 (6 nm, octa-core até 2,2 GHz)",
+      "memoriaRamGb": 4,
+      "armazenamento": "128 GB, mais microSD até 2 TB",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; sensor de profundidade de 2 MP",
+      "cameraFrontalMp": 8,
+      "bateriaMah": 5000,
+      "horasVideo": null,
+      "cargaRapida": "25 W com fio",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Dual nano SIM",
+      "protecaoAgua": "IP54",
+      "material": null,
+      "pesoG": 184,
+      "espessuraMm": 7.6,
+      "dimensoesMm": "167,4 × 77,4 × 7,6",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "cargaSemFioW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FPHYC9FQ"
+    },
+    "fontes": [
+      {
+        "id": "samsung-a07-oficial",
+        "titulo": "Samsung Galaxy A07 — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-a07/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela PLS LCD de 6,7\" 720 × 1600 (HD+), Helio G99 de 6 nm octa-core até 2,2 GHz, 4 GB de RAM com até 4 GB de RAM Plus, 128 GB com microSD até 2 TB, câmeras de 50 MP f/1.8 e 2 MP de profundidade, frontal de 8 MP f/2.2, vídeo em Full HD a 30 fps, 5000 mAh, carregamento rápido de 25 W, sem carregamento sem fio, rede 4G, sem NFC, Bluetooth 5.3, Android 15 com One UI 7, IP54, 167,4 × 77,4 × 7,6 mm, 184 g, homologação Anatel 032302500953 e 12 meses. A Samsung não declara taxa de atualização, brilho nem material.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-a07",
+        "titulo": "Samsung Galaxy A07 128 GB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FPHYC9FQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 128 GB com 4 GB de RAM. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "iphone-16",
+    "nome": "iPhone 16",
+    "marca": "Apple",
+    "modelo": "A3287",
+    "categoria": "celular",
+    "resumo": "A Apple já reduziu o iPhone 16 a uma única capacidade no Brasil: 128 GB, contra as duas do 16 Plus. Tela de 6,1\" sem ProMotion — a Apple não publica taxa de atualização para os modelos que não a têm.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.1,
+      "resolucao": "2556 × 1179 (460 ppp), OLED Super Retina XDR",
+      "taxaHz": null,
+      "brilhoPicoNits": 2000,
+      "chip": "A18 (CPU 6 núcleos, GPU 5 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "128 GB",
+      "cameraPrincipalMp": 48,
+      "teleobjetiva": "Não tem; 2x de 12 MP por recorte do sensor (52 mm)",
+      "cameraFrontalMp": 12,
+      "bateriaMah": null,
+      "horasVideo": 22,
+      "cargaRapida": "50% em cerca de 30 min com adaptador de 20 W ou superior",
+      "cargaSemFioW": 25,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Dual SIM (eSIM e nano SIM)",
+      "protecaoAgua": "IP68 (6 m por 30 min)",
+      "material": null,
+      "pesoG": 170,
+      "espessuraMm": 7.8,
+      "dimensoesMm": "147,6 × 71,6 × 7,80",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DJFTCKNN"
+    },
+    "fontes": [
+      {
+        "id": "apple-16-specs",
+        "titulo": "iPhone 16 e iPhone 16 Plus — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-16/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo A3287, tela Super Retina XDR OLED de 6,1\" 2556 × 1179 a 460 ppp, contraste 2.000.000:1, brilho máximo de 1000 nits típicos e pico de 1600 nits em HDR e 2000 nits sob sol, chip A18 com CPU de 6 núcleos e GPU de 5, capacidade de 128 GB, câmera Fusion de 48 MP f/1.6 com ultra-angular de 12 MP f/2.2 e teleobjetiva de 2x por recorte, frontal TrueDepth de 12 MP f/1.9, até 22 h de vídeo, recarga de 50% em 30 min com 20 W, MagSafe até 25 W, IP68 a 6 m por 30 min, dual SIM com eSIM, 147,6 × 71,6 × 7,80 mm e 170 g. A página é compartilhada com o 16 Plus; só a coluna do 16 entrou. A Apple não declara mAh, RAM, taxa de atualização nem garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-iphone16",
+        "titulo": "Apple iPhone 16 128 GB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DJFTCKNN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 128 GB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-s25-fe",
+    "nome": "Samsung Galaxy S25 FE",
+    "marca": "Samsung",
+    "modelo": "SM-S731B/DS",
+    "categoria": "celular",
+    "resumo": "O único desta leva com teleobjetiva de verdade: 8 MP com zoom óptico de 3x, além da principal de 50 MP e da ultra-angular. Grava em 8K, coisa que nenhum outro aqui declara.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2340 × 1080 (FHD+), AMOLED dinâmico 2X",
+      "taxaHz": null,
+      "brilhoPicoNits": null,
+      "chip": "Samsung Exynos 2400",
+      "memoriaRamGb": 8,
+      "armazenamento": "128 GB, sem microSD",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "8 MP com zoom óptico de 3x",
+      "cameraFrontalMp": 12,
+      "bateriaMah": 4900,
+      "horasVideo": null,
+      "cargaRapida": null,
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Dual SIM",
+      "protecaoAgua": "IP68",
+      "material": null,
+      "pesoG": 190,
+      "espessuraMm": 7.4,
+      "dimensoesMm": "161,3 × 76,6 × 7,4",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FTC96JJ5"
+    },
+    "fontes": [
+      {
+        "id": "samsung-s25fe-oficial",
+        "titulo": "Samsung Galaxy S25 FE — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-s25-fe/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela AMOLED dinâmico 2X de 6,7\" 1080 × 2340 (FHD+), Exynos 2400, 8 GB de RAM, 128 GB sem microSD, câmeras de 50 MP f/1.8, ultra-angular de 12 MP f/2.2 e teleobjetiva de 8 MP f/2.4 com zoom óptico de 3x, frontal de 12 MP, gravação em 8K a 30 fps, 4900 mAh, Wi-Fi 6E, Bluetooth 5.4, Android 16 com One UI 8, IP68, 161,3 × 76,6 × 7,4 mm, 190 g, homologação Anatel 034962500953 e 12 meses. A Samsung não declara a potência de carregamento nem a taxa de atualização da tela. A mesma ficha descreve a resistência à água como \"respingos\", com teste de 10 litros por minuto durante 5 minutos, ao lado da classificação IP68 — as duas coisas não descrevem o mesmo ensaio.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-s25fe",
+        "titulo": "Samsung Galaxy S25 FE 128 GB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FTC96JJ5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 128 GB com 8 GB de RAM e câmera tripla. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "iphone-17e",
+    "nome": "iPhone 17e",
+    "marca": "Apple",
+    "modelo": "A3634",
+    "categoria": "celular",
+    "resumo": "Chip A19, o mesmo do iPhone 17, numa tela mais modesta: 800 nits típicos contra os 3000 do 17, e MagSafe de 15 W em vez de 25 W. A Apple corta o brilho e a recarga, não o processador.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.1,
+      "resolucao": "2532 × 1170 (460 ppp), OLED Super Retina XDR",
+      "taxaHz": null,
+      "brilhoPicoNits": 1200,
+      "chip": "A19 (CPU 6 núcleos, GPU 4 núcleos)",
+      "memoriaRamGb": null,
+      "armazenamento": "256 GB, 512 GB",
+      "cameraPrincipalMp": 48,
+      "teleobjetiva": "Não tem; 2x de 12 MP por recorte do sensor (52 mm)",
+      "cameraFrontalMp": 12,
+      "bateriaMah": null,
+      "horasVideo": 26,
+      "cargaRapida": "50% em 30 min com adaptador de 20 W ou superior",
+      "cargaSemFioW": 15,
+      "usb": "USB-C (versão não declarada)",
+      "sim": null,
+      "protecaoAgua": "IP68 (6 m por 30 min)",
+      "material": null,
+      "pesoG": 170,
+      "espessuraMm": 7.8,
+      "dimensoesMm": "146,7 × 71,5 × 7,80",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GTRWMZWZ"
+    },
+    "fontes": [
+      {
+        "id": "apple-17e-specs",
+        "titulo": "iPhone 17e — especificações técnicas (Apple Brasil)",
+        "url": "https://www.apple.com/br/iphone-17e/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo A3634, tela Super Retina XDR OLED de 6,1\" 2532 × 1170 a 460 ppp, contraste 2.000.000:1, brilho máximo de 800 nits típicos e pico de 1200 nits em HDR, revestimento antirreflexo, chip A19 com CPU de 6 núcleos e GPU de 4 com Neural Accelerators, capacidades de 256 e 512 GB, câmera Fusion de 48 MP f/1.6 com teleobjetiva de 2x por recorte, frontal TrueDepth de 12 MP f/1.9, até 26 h de vídeo, recarga de 50% em 30 min com 20 W, MagSafe até 15 W, IP68 a 6 m por 30 min, 146,7 × 71,5 × 7,80 mm e 170 g. A Apple não declara mAh, RAM, taxa de atualização, tipo de SIM nesta seção nem garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-iphone17e",
+        "titulo": "Apple iPhone 17e 256 GB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GTRWMZWZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 256 GB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "motorola-edge-60-fusion",
+    "nome": "Motorola Edge 60 Fusion 5G",
+    "marca": "Motorola",
+    "modelo": "Edge 60 Fusion 5G",
+    "categoria": "celular",
+    "resumo": "O carregador mais rápido desta lista: 68 W, e vem na caixa. Tela pOLED de 1,5K a 120 Hz e 5200 mAh num corpo de 7,95 mm e 178 g.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2712 × 1220 (Super HD), pOLED, HDR10+",
+      "taxaHz": 120,
+      "brilhoPicoNits": null,
+      "chip": "MediaTek Dimensity 7300 (octa-core 2,5 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "256 GB, mais microSD",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 13 MP",
+      "cameraFrontalMp": 32,
+      "bateriaMah": 5200,
+      "horasVideo": null,
+      "cargaRapida": "TurboPower 68 W com fio (carregador na caixa)",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Nano SIM e eSIM",
+      "protecaoAgua": "IP68",
+      "material": null,
+      "pesoG": 178,
+      "espessuraMm": 7.95,
+      "dimensoesMm": "161,20 × 73,08 × 7,95",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "cargaSemFioW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F1GVZ8H4"
+    },
+    "fontes": [
+      {
+        "id": "motorola-edge60-oficial",
+        "titulo": "Motorola Edge 60 Fusion 5G — página oficial na loja da Motorola Brasil",
+        "url": "https://www.motorola.com.br/smartphone-motorola-edge-60-fusion-5g/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Android 15, Dimensity 7300 octa-core de 2,5 GHz, 8 GB de RAM, 256 GB, tela pOLED de 6,7\" 1220 × 2712 com HDR10+ e 120 Hz, câmera Sony LYTIA 700C de 50 MP e ultra-angular de 13 MP, frontal de 32 MP f/2,2, vídeo em 4K a 60 fps, 5200 mAh, TurboPower 68 W na caixa, nano SIM e eSIM, Bluetooth 5.4, Wi-Fi 6, NFC, 161,20 × 73,08 × 7,95 mm, 178 g, homologação Anatel 10899-24-00330 e 12 meses. Não declara brilho, material nem o código XT do modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-edge60",
+        "titulo": "Motorola Edge 60 Fusion 5G — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F1GVZ8H4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "IP68, no título da listagem — a ficha da Motorola não traz classificação de proteção.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-a37",
+    "nome": "Samsung Galaxy A37 5G",
+    "marca": "Samsung",
+    "modelo": "SM-A376B/DS",
+    "categoria": "celular",
+    "resumo": "Exynos 1480 de 4 nm, AMOLED de 6,7\", IP68 e 45 W de recarga — o único da linha A desta lista que declara estabilizador óptico na câmera principal. Sai em duas versões que só diferem na memória.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2340 × 1080 (FHD+), Super AMOLED",
+      "taxaHz": null,
+      "brilhoPicoNits": null,
+      "chip": "Samsung Exynos 1480 (4 nm, até 2,75 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "128 GB com 6 GB de RAM, ou 256 GB com 8 GB, sem microSD",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 8 MP e macro de 5 MP",
+      "cameraFrontalMp": 12,
+      "bateriaMah": 5000,
+      "horasVideo": null,
+      "cargaRapida": "45 W com fio",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Nano SIM e eSIM",
+      "protecaoAgua": "IP68",
+      "material": null,
+      "pesoG": 196,
+      "espessuraMm": 7.4,
+      "dimensoesMm": "162,9 × 78,2 × 7,4",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GVSYZJ4W"
+    },
+    "fontes": [
+      {
+        "id": "samsung-a37-oficial",
+        "titulo": "Samsung Galaxy A37 5G — página oficial na Samsung Shop Brasil",
+        "url": "https://shop.samsung.com/br/galaxy-a37/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela Super AMOLED de 6,7\" 1080 × 2340 (FHD+), Exynos 1480 de 4 nm até 2,75 GHz, 128 GB com 6 GB de RAM ou 256 GB com 8 GB, sem microSD nas duas, câmeras de 50 MP f/1.8 com estabilizador óptico, ultra-angular de 8 MP e macro de 5 MP, frontal de 12 MP, vídeo em 4K a 30 fps, 5000 mAh, carregamento rápido de 45 W, nano SIM e eSIM, Bluetooth 5.3, Android 16, IP68, 162,9 × 78,2 × 7,4 mm, 196 g, homologação Anatel 090452500953 e 12 meses. Não declara taxa de atualização, brilho nem material. A mesma tabela traz citações de veículos de análise; nada delas foi usado, porque este site não republica texto nem nota de terceiro.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-a37",
+        "titulo": "Samsung Galaxy A37 5G — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GVSYZJ4W",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "A listagem é a versão de 256 GB com 8 GB de RAM. Conferimos na Samsung que ela tem o mesmo SM-A376B/DS, as mesmas medidas, peso, bateria, câmeras, IP68 e 45 W da de 128 GB — só a memória muda. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "xiaomi-redmi-note-15",
+    "nome": "Xiaomi Redmi Note 15",
+    "marca": "Xiaomi",
+    "modelo": "2510DRA23L",
+    "categoria": "celular",
+    "resumo": "Os dois maiores números desta lista: 108 MP de câmera principal e 6000 mAh de bateria, com pico de brilho de 3200 nits. Em compensação, é o único \"Note 15\" sem 5G — a própria Xiaomi lista só 4G, 3G e 2G.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.77,
+      "resolucao": "2392 × 1080, AMOLED",
+      "taxaHz": 120,
+      "brilhoPicoNits": 3200,
+      "chip": "MediaTek Helio G100-Ultra (6 nm, octa-core até 2,2 GHz)",
+      "memoriaRamGb": 8,
+      "armazenamento": "256 GB, mais microSD até 2 TB",
+      "cameraPrincipalMp": 108,
+      "teleobjetiva": "Não tem; câmera de profundidade de 2 MP",
+      "cameraFrontalMp": 20,
+      "bateriaMah": 6000,
+      "horasVideo": null,
+      "cargaRapida": "33 W com fio (carregador na caixa)",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Nano SIM mais slot híbrido (SIM ou microSD), dual standby",
+      "protecaoAgua": "IP64",
+      "material": null,
+      "pesoG": 183.7,
+      "espessuraMm": 7.94,
+      "dimensoesMm": "164,03 × 75,42 × 7,94",
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GL9QPQYL"
+    },
+    "fontes": [
+      {
+        "id": "xiaomi-note15-specs",
+        "titulo": "REDMI Note 15 — especificações (Xiaomi Brasil)",
+        "url": "https://www.mi.com/br/product/redmi-note-15/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela AMOLED de 6,77\" 2392 × 1080 até 120 Hz, pico de 3200 nits e 800 típicos, contraste 8.000.000:1, 12 bits, DCI-P3, PWM de 3840 Hz, Helio G100-Ultra de 6 nm octa-core até 2,2 GHz, 8 GB + 256 GB com microSD até 2 TB, câmera de 108 MP f/1,7 com sensor de 1/1,67\" e câmera de profundidade de 2 MP, frontal de 20 MP f/2,2, vídeo em 1080p a 60 fps, 6000 mAh com carregamento turbo de 33 W e carregador na caixa, rede 4G/3G/2G, Bluetooth 5.3, Wi-Fi 5, NFC, IP64, HyperOS 2, 164,03 × 75,42 × 7,94 mm e 183,7 g. A Xiaomi não declara garantia nem material, e avisa que as medidas vêm dos laboratórios internos dela.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-note15",
+        "titulo": "Xiaomi Redmi Note 15 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GL9QPQYL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o código de modelo 2510DRA23L e a versão de 8 GB com 256 GB. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "motorola-moto-g17",
+    "nome": "Motorola Moto g17",
+    "marca": "Motorola",
+    "modelo": "Moto g17",
+    "categoria": "celular",
+    "resumo": "O único desta lista com tela de 60 Hz — a Motorola declara o número em vez de omiti-lo, e declara também os 1050 nits de brilho, coisa que nenhum outro Motorola daqui faz. Frontal de 32 MP num aparelho de entrada, e sem 5G.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Barra",
+      "telaPol": 6.7,
+      "resolucao": "2400 × 1080 (FHD+)",
+      "taxaHz": 60,
+      "brilhoPicoNits": 1050,
+      "chip": "MediaTek Helio G81 Extreme (octa-core 2,0 GHz)",
+      "memoriaRamGb": 4,
+      "armazenamento": "128 GB, mais microSD até 1 TB",
+      "cameraPrincipalMp": 50,
+      "teleobjetiva": "Não tem; ultra-angular de 5 MP",
+      "cameraFrontalMp": 32,
+      "bateriaMah": 5200,
+      "horasVideo": null,
+      "cargaRapida": "TurboPower 20 W com fio (carregador na caixa)",
+      "cargaSemFioW": null,
+      "usb": "USB-C (versão não declarada)",
+      "sim": "Dual nano SIM, mais entrada de microSD",
+      "protecaoAgua": "IP64",
+      "material": "Corning Gorilla Glass 3",
+      "pesoG": 189.9,
+      "espessuraMm": 8.17,
+      "dimensoesMm": "165,67 × 75,98 × 8,17",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "cargaSemFioW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GKBP4GNY"
+    },
+    "fontes": [
+      {
+        "id": "motorola-g17-oficial",
+        "titulo": "Motorola Moto g17 128 GB — página oficial na loja da Motorola Brasil",
+        "url": "https://www.motorola.com.br/smartphone-moto-g17-128-gb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Android 15, Helio G81 Extreme octa-core de 2,0 GHz, 4 GB de RAM, 128 GB com microSD até 1 TB, tela de 6,7\" FHD+ de 60 Hz com 1050 nits e HDR, som Dolby Atmos, câmera Sony LYTIA 600 de 50 MP f/1,8 e ultra-angular de 5 MP, frontal de 32 MP f/2,2, 5200 mAh, TurboPower 20 W na caixa, rede até 4G, dual nano SIM com entrada de microSD, Bluetooth 5.4, rádio FM, NFC, IP64, Gorilla Glass 3, 165,67 × 75,98 × 8,17 mm, 189,9 g, homologação Anatel 06783-25-00330 e 12 meses. Não declara o código XT do modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-g17",
+        "titulo": "Motorola Moto g17 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GKBP4GNY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a versão de 128 GB e a tela de 60 Hz. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]

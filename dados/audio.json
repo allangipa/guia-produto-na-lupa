@@ -1071,5 +1071,73 @@
         "consultadaEm": "2026-09-18"
       }
     ]
+  },
+  {
+    "slug": "philips-tae2146",
+    "nome": "Philips TAE2146BK/00",
+    "marca": "Philips",
+    "modelo": "TAE2146BK/00",
+    "categoria": "audio",
+    "resumo": "O único com plugue USB-C da base — não tem P2, então só funciona em quem já abandonou a entrada de fone. A Philips publica o driver de 10 mm e para por aí: a página tem um título \"Especificações técnicas\" sem nada embaixo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Intra-auricular com fio (USB-C, 1,2 m)",
+      "driverMm": 10,
+      "impedanciaOhm": 32,
+      "sensibilidadeDb": 104,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": null,
+      "horasTotal": null,
+      "tempoCargaH": null,
+      "cargaRapida": null,
+      "cancelamentoAtivo": false,
+      "reducaoDb": null,
+      "protecaoAgua": "Não resistente à água",
+      "pesoG": null,
+      "controles": "Microfone integrado e botão de chamada no cabo",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "bluetoothVersao",
+      "codecs",
+      "multiponto",
+      "horasFone",
+      "horasTotal",
+      "tempoCargaH",
+      "cargaRapida"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DL4S61RP"
+    },
+    "divergencias": [
+      {
+        "campo": "driverMm",
+        "fonteAdotada": "philips-tae2146-oficial",
+        "valorDivergente": "Controlador de armadura equilibrado",
+        "fonteDivergente": "amazon-tae2146",
+        "observacao": "A Amazon preenche o tipo de transdutor como \"controlador de armadura equilibrado\". A Philips declara drivers de 10 mm, medida que só existe em transdutor dinâmico — armadura balanceada é outra construção, bem menor. Adotamos o fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philips-tae2146-oficial",
+        "titulo": "Philips TAE2146BK/00 — página oficial do produto",
+        "url": "https://www.philips.com.br/c-p/TAE2146BK_00",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Drivers de 10 mm, intra-auricular de acabamento fechado, plugue USB-C, microfone integrado com botão de chamada e as cores branca e preta. A página tem um cabeçalho \"Especificações técnicas\" e nada escrito embaixo dele: impedância, sensibilidade, resposta de frequência, comprimento do cabo, peso e garantia não aparecem em lugar nenhum do site da Philips.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-tae2146",
+        "titulo": "Philips TAE2146BK/00 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DL4S61RP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Impedância de 32 ohms, sensibilidade de 104 dB, cabo não destacável de 1,2 m com alívio de tensão emborrachado, três tamanhos de borracha na caixa, sem controle de ruído, não resistente à água e 1 ano — tudo o que o fabricante não publica.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]
