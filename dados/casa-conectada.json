@@ -52,7 +52,13 @@
         "oQueSaiuDaqui": "Confirma o modelo e a versão bivolt. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-p110.webp",
+      "alt": "Tomada inteligente TP-Link Tapo P110 branca, com plugue e soquete padrão brasileiro e botão lateral",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/smart-plug/tapo-p110/"
+    }
   },
   {
     "slug": "tplink-tapo-c200",
@@ -106,7 +112,13 @@
         "oQueSaiuDaqui": "Confirma o modelo e o giro de 360°. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c200.webp",
+      "alt": "Câmera interna TP-Link Tapo C200 branca, de corpo esférico sobre base circular",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c200/"
+    }
   },
   {
     "slug": "tplink-tapo-c100",
@@ -160,7 +172,13 @@
         "oQueSaiuDaqui": "Confirma o modelo e a versão interna Full HD. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c100.webp",
+      "alt": "Câmera interna TP-Link Tapo C100 branca, de corpo retangular sobre pedestal fixo",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c100/"
+    }
   },
   {
     "slug": "tplink-tapo-c500",
@@ -214,7 +232,13 @@
         "oQueSaiuDaqui": "Confirma o modelo externo com giro de 360°. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c500.webp",
+      "alt": "Câmera externa TP-Link Tapo C500 branca, com suporte de parede e lente preta entre holofotes",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c500/"
+    }
   },
   {
     "slug": "intelbras-im3",
@@ -268,7 +292,13 @@
         "oQueSaiuDaqui": "O título da listagem anuncia compatibilidade com Alexa, que a ficha da Intelbras não declara — por isso o campo de assistentes fica em branco.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-im3.webp",
+      "alt": "Câmera interna Intelbras iM3 branca com frente preta, sobre base circular",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/camera-interna-inteligente-wi-fi-full-hd-im3"
+    }
   },
   {
     "slug": "positivo-smart-plug",
@@ -323,7 +353,13 @@
         "oQueSaiuDaqui": "Confirma os 10 A e 1000 W. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-plug.webp",
+      "alt": "Tomada inteligente Positivo Casa Inteligente branca, vista de frente, com soquete padrão brasileiro",
+      "credito": "Imagem: Positivo",
+      "origem": "https://loja.meupositivo.com.br/smart-plug-wi-fi-11139711/p"
+    }
   },
   {
     "slug": "positivo-smart-lampada",
@@ -433,6 +469,12 @@
         "oQueSaiuDaqui": "Confirma a lâmpada Smart Color de 10 W com RGB e Wi-Fi. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-lampada-smart-10w.webp",
+      "alt": "Lâmpada inteligente Elgin Smart Color de 10 W, base E27, acesa em cores, ao lado da tela do aplicativo",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/lampada-smart-led-a60-10w-compativel-com-alexa-e-google-home-bivolt/p"
+    }
   }
 ]

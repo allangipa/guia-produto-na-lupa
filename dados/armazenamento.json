@@ -42,7 +42,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 1 TB. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/kingston-nv3-1tb.webp",
+      "alt": "SSD Kingston NV3 de 1 TB, placa azul no formato M.2 2280, com a etiqueta de identificação",
+      "credito": "Imagem: Kingston",
+      "origem": "https://www.kingston.com/br/ssd/nv3-nvme-pcie-ssd"
+    }
   },
   {
     "slug": "kingston-nv3-500gb",
@@ -87,7 +93,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 500 GB. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/kingston-nv3-500gb.webp",
+      "alt": "SSD Kingston NV3 de 500 GB, placa azul no formato M.2 2280, com a etiqueta de identificação",
+      "credito": "Imagem: Kingston",
+      "origem": "https://www.kingston.com/br/ssd/nv3-nvme-pcie-ssd"
+    }
   },
   {
     "slug": "kingston-a400-480gb",
@@ -132,7 +144,13 @@
         "oQueSaiuDaqui": "Confirma o modelo SA400S37/480G. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/kingston-a400-480gb.webp",
+      "alt": "SSD Kingston A400 de 480 GB, caixa preta de 2,5 polegadas com a logomarca da Kingston",
+      "credito": "Imagem: Kingston",
+      "origem": "https://www.kingston.com/br/ssd/a400-solid-state-drive"
+    }
   },
   {
     "slug": "sandisk-ultra-flair-32gb",
@@ -177,7 +195,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 32 GB e os 150 MB/s do título. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/sandisk-ultra-flair-32gb.webp",
+      "alt": "Pen drive SanDisk Ultra Flair de 32 GB, corpo metálico prateado com base preta",
+      "credito": "Imagem: SanDisk",
+      "origem": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-flair-usb-3-0"
+    }
   },
   {
     "slug": "sandisk-ultra-shift-32gb",
@@ -231,7 +255,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 32 GB. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/sandisk-ultra-shift-32gb.webp",
+      "alt": "Pen drive SanDisk Ultra Shift de 32 GB, corpo preto com a inscrição USB 3.2",
+      "credito": "Imagem: SanDisk",
+      "origem": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-shift-usb-3-0"
+    }
   },
   {
     "slug": "sandisk-cruzer-glide-64gb",
@@ -276,7 +306,13 @@
         "oQueSaiuDaqui": "Confirma a versão de 64 GB do Cruzer Glide 3.0. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/sandisk-cruzer-glide-64gb.webp",
+      "alt": "Pen drive SanDisk Cruzer Glide de 64 GB, corpo preto com o conector retrátil exposto",
+      "credito": "Imagem: SanDisk",
+      "origem": "https://www.sandisk.com/products/usb-flash-drives/sandisk-cruzer-glide-usb-3-0"
+    }
   },
   {
     "slug": "sandisk-cruzer-blade-64gb",
@@ -321,6 +357,12 @@
         "oQueSaiuDaqui": "Confirma a versão de 64 GB e o código SDCZ60-064G-B35 da listagem, que difere do SDCZ50 publicado pela SanDisk para a mesma capacidade.",
         "consultadaEm": "2026-09-18"
       }
-    ]
+    ],
+    "imagem": {
+      "src": "/produtos/sandisk-cruzer-blade-64gb.webp",
+      "alt": "Pen drive SanDisk Cruzer Blade de 64 GB, corpo preto com detalhe vermelho",
+      "credito": "Imagem: SanDisk",
+      "origem": "https://www.sandisk.com/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0"
+    }
   }
 ]

@@ -1,5 +1,13 @@
 {
-  "_nota": "Rodada de fotos concluída em 18/09/2026: 136 das 140 fichas têm imagem oficial do fabricante. Restam estas quatro, todas recusadas por motivo declarado — não por falta de tentativa. Revisitar quando a marca publicar foto limpa, ou quando a Product Advertising API da Amazon liberar, já que ela entrega imagem licenciada.",
+  "_nota": "Segunda rodada fechada em 18/09/2026: 176 das 177 fichas têm imagem oficial do fabricante. Restam estas cinco, todas recusadas por motivo declarado — não por falta de tentativa. Revisitar quando a marca publicar foto limpa, ou quando a Product Advertising API da Amazon liberar, já que ela entrega imagem licenciada.",
+
+  "positivo-smart-lampada": {
+    "url": null,
+    "origem": "https://loja.meupositivo.com.br/smart-lampada-wi-fi-11147015/p",
+    "credito": "Imagem: Positivo",
+    "alt": "Lâmpada inteligente Positivo Casa Inteligente, base E27, acesa",
+    "motivo": "A galeria da Positivo tem cinco imagens para esta lâmpada: a principal traz a caixa de varejo ao lado do produto, com texto de marketing e selos das lojas de aplicativo impressos nela, e as outras quatro são fotos de ambiente com a lâmpada dentro de uma luminária. Não existe foto do produto isolado. Mesmo critério que recusou a caixa do Positivo Vision TAB 7. A tomada da mesma marca passou porque a galeria dela tinha uma foto frontal limpa (ids/156108)."
+  },
 
   "soundcore-v20i": {
     "url": null,
