@@ -747,5 +747,135 @@
         "consultadaEm": "2026-09-17"
       }
     ]
+  },
+  {
+    "slug": "soundcore-sport-x20",
+    "nome": "Soundcore Sport X20",
+    "marca": "Anker",
+    "modelo": "A3968",
+    "categoria": "audio",
+    "resumo": "TWS esportivo com gancho ajustável e IP68 — a proteção mais alta da base. A soundcore publica bateria em quatro modos diferentes, e não publica peso, versão do Bluetooth nem resposta de frequência.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "TWS esportivo com gancho de orelha",
+      "driverMm": 11,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": "SBC, AAC",
+      "multiponto": true,
+      "horasFone": 12,
+      "horasTotal": 48,
+      "tempoCargaH": 3,
+      "cargaRapida": "5 min rendem 2 h",
+      "cancelamentoAtivo": true,
+      "reducaoDb": null,
+      "protecaoAgua": "IP68",
+      "pesoG": null,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CRT6HQ82"
+    },
+    "fontes": [
+      {
+        "id": "soundcore-x20-oficial",
+        "titulo": "soundcore Sport X20 — página oficial do produto",
+        "url": "https://www.soundcore.com/uk/products/a3968-sport-x20-earbuds",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Driver dinâmico de 11 mm, IP68, codecs SBC e AAC, conexão dupla, ANC adaptativo e manual. Bateria por modo: 12 h normal e 7 h com ANC no fone; 48 h e 28 h com o estojo. Carga de cerca de 40 min no fone e 3 h no estojo, com 5 min rendendo 2 h. Não declara versão do Bluetooth, redução em dB, peso, dimensões nem resposta de frequência.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "soundcore-v20i",
+    "nome": "Soundcore V20i",
+    "marca": "Anker",
+    "modelo": "A3876",
+    "categoria": "audio",
+    "resumo": "Fone de ouvido aberto, que não veda o canal. A página oficial da soundcore declara apenas o driver de 16 mm e quatro microfones — é a ficha mais escassa desta categoria, e a nota de transparência mostra isso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "Aberto (open-ear), com gancho de orelha",
+      "driverMm": 16,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": null,
+      "codecs": null,
+      "multiponto": null,
+      "horasFone": null,
+      "horasTotal": null,
+      "tempoCargaH": null,
+      "cargaRapida": null,
+      "cancelamentoAtivo": null,
+      "reducaoDb": null,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "cancelamentoAtivo",
+      "reducaoDb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D2XRXNGY"
+    },
+    "fontes": [
+      {
+        "id": "soundcore-v20i-oficial",
+        "titulo": "soundcore V20i — página oficial do produto",
+        "url": "https://www.soundcore.com/uk/products/a3876g21",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Driver de 16 mm com domo revestido de titânio, quatro microfones, formato aberto com quatro posições de ajuste e luzes de LED. A página não declara bateria, versão do Bluetooth, codecs, proteção contra água, peso nem tempo de carga.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "slug": "qcy-melobuds-pro",
+    "nome": "QCY MeloBuds Pro",
+    "marca": "QCY",
+    "modelo": "HT08",
+    "categoria": "audio",
+    "resumo": "O único da base com LDAC declarado e a maior redução de ruído anunciada: 46 dB, na faixa de 20 Hz a 2,5 kHz. A QCY publica ANC, bateria e codec, e não publica peso, impedância nem resposta de frequência.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "formato": "TWS (par sem fio com estojo)",
+      "driverMm": 12,
+      "impedanciaOhm": null,
+      "sensibilidadeDb": null,
+      "faixaFrequencia": null,
+      "bluetoothVersao": "5.3",
+      "codecs": "LDAC (Hi-Res Wireless), AAC, SBC",
+      "multiponto": null,
+      "horasFone": 8.5,
+      "horasTotal": 34,
+      "tempoCargaH": null,
+      "cargaRapida": "10 min rendem 1 h",
+      "cancelamentoAtivo": true,
+      "reducaoDb": 46,
+      "protecaoAgua": null,
+      "pesoG": null,
+      "controles": null,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D4QTNPTP"
+    },
+    "fontes": [
+      {
+        "id": "qcy-melobuds-pro-oficial",
+        "titulo": "QCY MeloBuds Pro — página oficial do produto",
+        "url": "https://www.qcy.com/products/qcy-melobuds-pro",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Driver dinâmico de 12 mm, Bluetooth 5.3 com perfis A2DP, AVRCP e HFP e alcance de 10 m, codec LDAC com certificação Hi-Res, ANC híbrido de até 46 dB entre 20 Hz e 2,5 kHz, seis microfones, 8,5 h sem ANC e 7,5 h com ANC no fone, 34 h com o estojo, carga por USB-C com 10 min rendendo 1 h. Não declara peso, impedância, sensibilidade, resposta de frequência nem proteção contra água.",
+        "consultadaEm": "2026-09-18"
+      }
+    ]
   }
 ]

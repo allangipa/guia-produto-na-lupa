@@ -11,5 +11,25 @@
     "credito": "Imagem: JBL",
     "alt": "Headphone on-ear JBL Tune 520BT visto de três quartos",
     "nota": "A página oficial abre na variante branca; conferir se há URL da preta, que é a vendida no ASIN listado."
+  },
+  "qcy-melobuds-pro": {
+    "url": "https://www.qcy.com/cdn/shop/files/HT08_-1_aca60518-7636-48a3-adf8-a2df012c997b.png",
+    "origem": "https://www.qcy.com/products/qcy-melobuds-pro",
+    "credito": "Imagem: QCY",
+    "alt": "Fone QCY MeloBuds Pro com o estojo de carregamento"
+  },
+  "soundcore-sport-x20": {
+    "url": null,
+    "origem": "https://www.soundcore.com/uk/products/a3968-sport-x20-earbuds",
+    "credito": "Imagem: soundcore",
+    "alt": "Fone esportivo Soundcore Sport X20 com gancho de orelha",
+    "nota": "URL da foto ainda nao capturada — a pagina carrega a galeria por script. Abrir no navegador na rodada de imagens."
+  },
+  "soundcore-v20i": {
+    "url": null,
+    "origem": "https://www.soundcore.com/uk/products/a3876g21",
+    "credito": "Imagem: soundcore",
+    "alt": "Fone aberto Soundcore V20i com gancho de orelha",
+    "nota": "NAO usar a imagem que a pagina serve: o arquivo se chama 517WiAmP8qL._AC_SX679_, que e o padrao de nome do CDN da Amazon republicado no Shopify da soundcore. O contrato de Associados proibe usar imagem da Amazon. Procurar foto propria do fabricante na rodada de imagens; sem ela, o produto fica sem foto."
   }
 }
