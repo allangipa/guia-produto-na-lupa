@@ -72,6 +72,64 @@ entram: sem página do fabricante não há ficha nem foto licenciável).
 Treze candidatos para dez vagas — sobra margem para o que não tiver foto
 oficial.
 
+## A API VTEX resolve quase toda a linha branca
+
+Descoberto em 18/09/2026, testando o padrão da Samsung Shop nas outras
+lojas. **Toda loja VTEX responde a isto**, sem navegador e sem login:
+
+```
+https://<loja>/api/catalog_system/pub/products/search?ft=<modelo>
+https://<loja>/api/catalog_system/pub/products/search/<slug-do-produto>/p
+```
+
+Volta `allSpecifications` inteiro mais `images[0].imageUrl`, que é a foto
+oficial. Um fetch por produto, contra os seis a oito do método antigo.
+
+Confirmado funcionando em: `oster.com.br`, `mondial.com.br`,
+`britania.com.br`, `philco.com.br`, `loja.wap.ind.br`, `arno.com.br`,
+`cadence.com.br`, `elgin.com.br`, `loja.electrolux.com.br`,
+`walita.com.br` e `shop.samsung.com/br`.
+
+Britânia e Philco dividem o mesmo VTEX (`philco.vteximg.com.br`) e o
+mesmo esquema de campos — o mais completo do grupo, com reservatório em
+litros, corta-pingos, timer, display e placa de aquecimento separados.
+Oster e Cadence dividem o da Newell (`jcsbrasil.vteximg.com.br`) e são os
+mais pobres: só potência, consumo, medidas, peso e garantia.
+
+**Não é VTEX / não respondeu:** `blackedecker.com.br` (conexão recusada),
+`aoc.com.br` (404 nos modelos brasileiros), `jbl.com.br` (403),
+`lg.com/br` e `dell.com` (páginas montadas por script).
+
+## Listas de mais vendidos da Cozinha
+
+Apuradas em 18/09/2026, navegando de `/gp/bestsellers/kitchen`.
+
+| lista | id |
+|---|---|
+| Café, Chá e Expresso | 17124716011 |
+| **Cafeteiras** | **17124733011** |
+| Eletroportáteis | 17124722011 |
+| Panelas e Utensílios para Cozinhar | 24417675011 |
+| Louça, Copos e Talheres | 17124723011 |
+| Filtros, Bebedouros e Refrigeradores de Água | 17124726011 |
+| Assadeiras, Formas e Recipientes de Forno | 17124715011 |
+| Organização | 17124717011 |
+| Utensílios Domésticos | 17124724011 |
+
+O ranking da Amazon responde 503 a fetch simples, mas abre normalmente
+no navegador. `/dp/<ASIN>` responde aos dois.
+
+## Campo derivado: a regra que vale para toda a base
+
+Campo que o fabricante não escreve mas que sai de uma divisão exata
+entre dois números que ele escreveu **pode** ser preenchido, com a conta
+registrada na fonte. Se a divisão dá quebrado, o campo fica em branco.
+
+Foi o que usei em `mlPorXicara`: Britânia BCF32B (1,2 L / 32 = 37,5) e
+Philco PCF40B (1,6 L / 40 = 40) entram; WAP (39,5), Elgin (37,9) e Arno
+(41,7) ficam em branco. Arredondar para os 40 ml do cafezinho seria
+publicar um número que a marca não escreveu.
+
 ## Fontes por marca, o que já aprendi
 
 - **JBL** — `jbl.com.br`. Responde **403 a fetch simples**; abrir no
