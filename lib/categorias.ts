@@ -241,6 +241,91 @@ export const categorias: Categoria[] = [
   },
 ];
 
+/**
+ * A ordem das prateleiras na home, por slug.
+ *
+ * Antes a home ordenava pelas categorias com mais fichas, e isso fazia a
+ * pagina se reorganizar sozinha a cada categoria nova: as cinco abertas em
+ * 18/09/2026 ocuparam as seis vagas e empurraram Celulares para fora. Contagem
+ * de fichas nao e interesse do leitor — e so o tamanho do trabalho recente.
+ *
+ * Esta lista comeca na ordem em que as categorias foram criadas, da mais
+ * antiga para a mais nova (sai do historico do repositorio). **E uma escolha
+ * editorial, nao um ranking**: o site nao tem dado de venda nem de audiencia,
+ * e ordenar por "mais vendido" seria afirmar o que nao da para sustentar —
+ * os rankings da Amazon sao por no, e o primeiro lugar de um no nao se compara
+ * com o de outro.
+ *
+ * Para mudar a ordem da home, mova as linhas daqui. Nao precisa mexer em
+ * mais nada. Categoria fora desta lista quebra o build (ver `verificarOrdem`),
+ * de proposito: sem isso ela cairia no fim da home sem ninguem perceber.
+ */
+export const ORDEM_NA_HOME: string[] = [
+  "audio",
+  "cozinha",
+  "celular",
+  "tablets",
+  "monitores",
+  "liquidificadores",
+  "cafeteiras",
+  "energia",
+  "conectividade",
+  "casa-conectada",
+  "armazenamento",
+  "perifericos",
+  "sanduicheiras",
+  "microondas",
+  "geladeiras",
+  "lavadoras",
+  "torradeiras",
+  "chaleiras",
+  "espremedores",
+  "lavaloucas",
+  "smartwatches",
+  "ventiladores",
+  "ferros",
+  "aspiradores",
+  "lavadoras-alta-pressao",
+  "secadores",
+  "batedeiras",
+];
+
+/** A posicao de uma categoria na home. Quem nao esta na lista vai para o fim. */
+export function posicaoNaHome(slug: string): number {
+  const i = ORDEM_NA_HOME.indexOf(slug);
+  return i === -1 ? Number.MAX_SAFE_INTEGER : i;
+}
+
+/**
+ * Quebra o build quando a lista sai de sincronia com as categorias. Vale o
+ * mesmo argumento do `verificar()` dos departamentos: o erro seria silencioso
+ * na tela, e categoria nova estreando no rodape da home nao e o que ninguem
+ * quis.
+ */
+function verificarOrdem() {
+  const conhecidas = new Set(categorias.map((c) => c.slug));
+  const vistas = new Set<string>();
+  for (const s of ORDEM_NA_HOME) {
+    if (!conhecidas.has(s)) {
+      throw new Error(
+        `ORDEM_NA_HOME aponta para a categoria "${s}", que nao existe em lib/categorias.ts.`,
+      );
+    }
+    if (vistas.has(s)) {
+      throw new Error(`ORDEM_NA_HOME tem "${s}" duas vezes.`);
+    }
+    vistas.add(s);
+  }
+  const faltando = categorias.filter((c) => !vistas.has(c.slug)).map((c) => c.slug);
+  if (faltando.length) {
+    throw new Error(
+      `Categoria fora de ORDEM_NA_HOME: ${faltando.join(", ")}. Encaixe em lib/categorias.ts — sem isso ela estreia no fim da home.`,
+    );
+  }
+}
+
+verificarOrdem();
+
 export function categoria(slug: string): Categoria | undefined {
   return categorias.find((c) => c.slug === slug);
 }

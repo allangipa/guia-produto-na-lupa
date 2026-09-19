@@ -6,7 +6,7 @@ import {
   todosOsGuias,
   dataLegivel,
 } from "@/lib/conteudo";
-import { categorias } from "@/lib/categorias";
+import { categorias, posicaoNaHome } from "@/lib/categorias";
 import { departamentos } from "@/lib/departamentos";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
@@ -120,8 +120,15 @@ export default function Home() {
     })
     .filter((d) => d.total > 0);
 
-  const VITRINE = 6;
-  const emDestaque = [...prateleiras].sort((a, b) => b.total - a.total).slice(0, VITRINE);
+  // A ordem sai de ORDEM_NA_HOME, não da contagem de fichas. Ordenar por
+  // contagem fazia a home se reorganizar sozinha a cada categoria nova — as
+  // cinco de 18/09/2026 tomaram as seis vagas e Celulares saiu da página.
+  // Quantas aparecem é o único número a mexer aqui; a ordem se muda em
+  // lib/categorias.ts.
+  const VITRINE = 12;
+  const emDestaque = [...prateleiras]
+    .sort((a, b) => posicaoNaHome(a.cat.slug) - posicaoNaHome(b.cat.slug))
+    .slice(0, VITRINE);
   const restantes = prateleiras.length - emDestaque.length;
 
   const destaques = lancamentos
