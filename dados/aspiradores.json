@@ -1,0 +1,1141 @@
+[
+  {
+    "slug": "wap-turbo-1600",
+    "nome": "WAP Turbo 1600",
+    "marca": "WAP",
+    "modelo": "FW20000225",
+    "categoria": "aspiradores",
+    "resumo": "265 mbar — 26.500 pascal, a maior sucção da lista. Barril de 25 L e 1.600 W, os mesmos 1.600 W de um vertical que faz 180 mbar.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pó e água",
+      "semFio": false,
+      "succaoPa": 26500,
+      "succaoDeclarada": "265 mbar",
+      "potenciaW": 1600,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 25,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": true,
+      "ruidoDb": null,
+      "pesoKg": 7,
+      "dimensoesMm": "375 × 375 × 540 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-turbo-1600-oficial",
+        "titulo": "WAP Turbo 1600 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-turbo-1600/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 265 mbar**, 1.600 W, recipiente de 25 L (17 L úteis), filtro permanente, pano lavável e papel descartável, 7 kg e 37,5 × 37,5 × 54 cm. Códigos WAP 20000225 (127 V) e 20000226 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-turbo-1600.webp",
+      "alt": "Aspirador de pó e água WAP Turbo 1600 laranja e preto, com mangueira e bocal",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-turbo-1600/p"
+    }
+  },
+  {
+    "slug": "wap-turbo-2002",
+    "nome": "WAP Turbo 2002",
+    "marca": "WAP",
+    "modelo": "FW20200201",
+    "categoria": "aspiradores",
+    "resumo": "Mesmos 265 mbar e mesmos 1.600 W do Turbo 1600, num barril de 70 L que pesa 30 kg. A sucção não muda com o tamanho do tambor.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pó e água",
+      "semFio": false,
+      "succaoPa": 26500,
+      "succaoDeclarada": "265 mbar",
+      "potenciaW": 1600,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 70,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": true,
+      "ruidoDb": null,
+      "pesoKg": 30,
+      "dimensoesMm": "603 × 600 × 956 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-turbo-2002-oficial",
+        "titulo": "WAP Turbo 2002 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-turbo-2002/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 265 mbar**, 1.600 W, recipiente de 70 L (67 L úteis), filtro permanente, pano lavável e papel descartável, 30 kg e 60,3 × 60 × 95,6 cm. Códigos WAP 20200201 (127 V) e 20200202 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-turbo-2002.webp",
+      "alt": "Aspirador de pó e água WAP Turbo 2002 laranja, sobre rodas, com alça alta",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-turbo-2002/p"
+    }
+  },
+  {
+    "slug": "wap-gtw-55",
+    "nome": "WAP GTW 55",
+    "marca": "WAP",
+    "modelo": "FW005734",
+    "categoria": "aspiradores",
+    "resumo": "230 mbar com função sopro e filtro HEPA. Os mesmos 1.600 W do Turbo, 35 mbar a menos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pó e água",
+      "semFio": false,
+      "succaoPa": 23000,
+      "succaoDeclarada": "230 mbar",
+      "potenciaW": 1600,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": null,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": true,
+      "ruidoDb": null,
+      "pesoKg": 6.5,
+      "dimensoesMm": "460 × 460 × 650 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-gtw-55-oficial",
+        "titulo": "WAP GTW 55 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/soprador-aspirador-de-po-e-agua-3-em-1-1600w-wap-gtw-55/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Soprador e aspirador de pó e água 3 em 1 com **vácuo de 230 mbar**, 1.600 W, filtro HEPA e espuma, 6,5 kg e 46 × 46 × 65 cm. Códigos WAP FW005734 (127 V) e FW005735 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-gtw-55.webp",
+      "alt": "Aspirador de pó e água WAP GTW 55 amarelo e preto, com tubos presos na lateral",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/soprador-aspirador-de-po-e-agua-3-em-1-1600w-wap-gtw-55/p"
+    }
+  },
+  {
+    "slug": "wap-magic",
+    "nome": "WAP Magic",
+    "marca": "WAP",
+    "modelo": "FW008971",
+    "categoria": "aspiradores",
+    "resumo": "O aparelho que derruba a conversa de watt: **450 W e 220 mbar**, mais vácuo que o GTW Inox 70 Duo de 2.000 W. Sem fio, 30 minutos, motor brushless.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": true,
+      "succaoPa": 22000,
+      "succaoDeclarada": "220 mbar",
+      "potenciaW": 450,
+      "autonomiaMin": 30,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.26,
+      "filtroHepa": null,
+      "niveisFiltragem": 5,
+      "aspiraLiquidos": false,
+      "ruidoDb": 83,
+      "pesoKg": 3,
+      "dimensoesMm": "190 × 260 × 1120 mm (C × L × A)",
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-magic-oficial",
+        "titulo": "WAP Magic — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-vertical-wap-magic/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador vertical sem fio com **vácuo de 220 mbar**, 450 W, motor brushless, autonomia de 30 min, recipiente de 260 ml, 5 níveis de filtragem com sistema de filtragem tripla, 3 velocidades, 83 dB(A), 3 kg e 19 × 26 × 112 cm. EAN 7899831310975.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-magic.webp",
+      "alt": "Aspirador vertical sem fio WAP Magic preto e cobre, em pé",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-vertical-wap-magic/p"
+    }
+  },
+  {
+    "slug": "wap-gtw-inox-70-duo",
+    "nome": "WAP GTW Inox 70 Duo",
+    "marca": "WAP",
+    "modelo": "FW006252",
+    "categoria": "aspiradores",
+    "resumo": "Dois motores de 1.000 W cada e **200 mbar** — menos vácuo que o Magic sem fio de 450 W. Quatro vezes os watts, 20 mbar a menos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pó e água",
+      "semFio": false,
+      "succaoPa": 20000,
+      "succaoDeclarada": "200 mbar",
+      "potenciaW": 2000,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": null,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": true,
+      "ruidoDb": null,
+      "pesoKg": 15.2,
+      "dimensoesMm": "610 × 570 × 830 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-gtw-inox-70-duo-oficial",
+        "titulo": "WAP GTW Inox 70 Duo — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-e-agua-wap-gtw-inox-70-duo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 200 mbar** e **2.000 W em dois motores de 1.000 W cada**, filtro HEPA, 15,2 kg e 61 × 57 × 83 cm. Códigos WAP FW006252 (127 V) e FW006253 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-gtw-inox-70-duo.webp",
+      "alt": "Aspirador de pó e água WAP GTW Inox 70 Duo de tambor inox, com mangueira e bocal",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-e-agua-wap-gtw-inox-70-duo/p"
+    }
+  },
+  {
+    "slug": "wap-magic-clean",
+    "nome": "WAP Magic Clean",
+    "marca": "WAP",
+    "modelo": "FW011420",
+    "categoria": "aspiradores",
+    "resumo": "500 W e 190 mbar, com dois reservatórios e escovas rotativas. A autonomia vem em hora decimal: “0,58”, que são 35 minutos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": true,
+      "succaoPa": 19000,
+      "succaoDeclarada": "190 mbar",
+      "potenciaW": 500,
+      "autonomiaMin": 35,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.2,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": null,
+      "pesoKg": 4.6,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-magic-clean-oficial",
+        "titulo": "WAP Magic Clean — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-vertical-sem-fio-wap-magic-clean-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador vertical sem fio com **vácuo de 190 mbar**, 500 W, motor brushless, bateria de 4.600 mAh a 21,6 VDC, autonomia de 0,58 h na velocidade I e 0,55 h na II, recipiente de pó de 0,2 L e de água limpa de 0,7 L, filtro SS + espuma + HEPA, duas escovas rotativas, 4,6 kg e garantia de 12 meses. EAN 7899831342914.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-magic-clean.webp",
+      "alt": "Aspirador vertical sem fio WAP Magic Clean azul e cinza, em pé",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-vertical-sem-fio-wap-magic-clean-1/p"
+    }
+  },
+  {
+    "slug": "wap-gtw-inox-25",
+    "nome": "WAP GTW Inox 25",
+    "marca": "WAP",
+    "modelo": "FW010527",
+    "categoria": "aspiradores",
+    "resumo": "2.000 W e 185 mbar. O campo “Capacidade do recipiente” da própria ficha traz “6,5 kg” — quilo não é capacidade.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pó e água",
+      "semFio": false,
+      "succaoPa": 18500,
+      "succaoDeclarada": "185 mbar",
+      "potenciaW": 2000,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": null,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": true,
+      "ruidoDb": null,
+      "pesoKg": 3.91,
+      "dimensoesMm": "330 × 330 × 535 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-gtw-inox-25-oficial",
+        "titulo": "WAP GTW Inox 25 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/gtw-inox-25/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 185 mbar**, 2.000 W, filtro de espuma e saco coletor, 3,91 kg, 33 × 33 × 53,5 cm e garantia de 1 ano. Códigos WAP FW010527 (127 V) e FW010528 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "capacidadeReservatorioL",
+        "fonteAdotada": "wap-gtw-inox-25-oficial",
+        "valorDivergente": "6,5 kg",
+        "fonteDivergente": "wap-gtw-inox-25-oficial",
+        "observacao": "O campo “Capacidade do recipiente (total/útil)” da ficha traz “6,5 kg”. Quilo é massa, não volume, e o próprio peso líquido do aparelho aparece como 3,91 kg em outro campo. Como não dá para saber a quantos litros os 6,5 correspondem, o campo fica vazio."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-gtw-inox-25.webp",
+      "alt": "Aspirador de pó e água WAP GTW Inox 25 de tambor inox, com bocal largo à frente",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/gtw-inox-25/p"
+    }
+  },
+  {
+    "slug": "wap-ambiance-turbo",
+    "nome": "WAP Ambiance Turbo",
+    "marca": "WAP",
+    "modelo": "FW004641",
+    "categoria": "aspiradores",
+    "resumo": "1.600 W e 180 mbar num corpo de 3,7 kg. Faz 86 dB — vinte e um a mais que o robô mais silencioso da lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Portátil",
+      "semFio": false,
+      "succaoPa": 18000,
+      "succaoDeclarada": "180 mbar",
+      "potenciaW": 1600,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 2.5,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 86,
+      "pesoKg": 3.7,
+      "dimensoesMm": "360 × 270 × 210 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-ambiance-turbo-oficial",
+        "titulo": "WAP Ambiance Turbo — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-1600w-wap-ambiance-turbo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó com **vácuo de 180 mbar**, 1.600 W, recipiente de 2,5 L, filtro de pano lavável, 86 dB(A), 3,7 kg e 36 × 27 × 21 cm. Códigos WAP FW004641 (127 V) e FW004642 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-ambiance-turbo.webp",
+      "alt": "Aspirador de pó WAP Ambiance Turbo branco e amarelo, com mangueira e bocal",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-1600w-wap-ambiance-turbo/p"
+    }
+  },
+  {
+    "slug": "wap-gtw-inox-50",
+    "nome": "WAP GTW Inox 50",
+    "marca": "WAP",
+    "modelo": "FW005574",
+    "categoria": "aspiradores",
+    "resumo": "Os mesmos 1.600 W e 180 mbar do Ambiance, com filtro HEPA e nove quilos de aço.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pó e água",
+      "semFio": false,
+      "succaoPa": 18000,
+      "succaoDeclarada": "180 mbar",
+      "potenciaW": 1600,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": null,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": true,
+      "ruidoDb": null,
+      "pesoKg": 9,
+      "dimensoesMm": "460 × 565 × 735 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-gtw-inox-50-oficial",
+        "titulo": "WAP GTW Inox 50 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-gtw-inox-50/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 180 mbar**, 1.600 W, filtro HEPA e papel descartável, 9 kg e 46 × 56,5 × 73,5 cm. Códigos WAP FW005574 (127 V) e FW005575 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-gtw-inox-50.webp",
+      "alt": "Aspirador de pó e água WAP GTW Inox 50 de tambor inox, sobre rodas",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-gtw-inox-50/p"
+    }
+  },
+  {
+    "slug": "wap-cyclone-max",
+    "nome": "WAP Cyclone Max",
+    "marca": "WAP",
+    "modelo": "FW012763",
+    "categoria": "aspiradores",
+    "resumo": "1.500 W e 170 mbar: o menor vácuo entre os de tomada da lista, com a segunda maior potência dos portáteis.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Portátil",
+      "semFio": false,
+      "succaoPa": 17000,
+      "succaoDeclarada": "170 mbar",
+      "potenciaW": 1500,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": null,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": null,
+      "pesoKg": 2.75,
+      "dimensoesMm": "240 × 330 × 275 mm (C × L × A)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-cyclone-max-oficial",
+        "titulo": "WAP Cyclone Max — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-wap-cyclone-max/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó ciclônico com **vácuo de 170 mbar**, 1.500 W, enrolador de cabos, 2,75 kg, 24 × 33 × 27,5 cm e garantia de 1 ano. Códigos WAP FW012763 (127 V) e FW012764 (220 V), EAN 7899831345151 e 7899831345168.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-cyclone-max.webp",
+      "alt": "Aspirador de pó WAP Cyclone Max preto e roxo, com mangueira e tubo",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-wap-cyclone-max/p"
+    }
+  },
+  {
+    "slug": "wap-robot-w1000",
+    "nome": "WAP Robot W1000",
+    "marca": "WAP",
+    "modelo": "FW010142",
+    "categoria": "aspiradores",
+    "resumo": "A mesma página publica “Vácuo (Pa): 2400” e “Vácuo (mbar): 2400”. As duas leituras são cem vezes diferentes.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Robô",
+      "semFio": true,
+      "succaoPa": 2400,
+      "succaoDeclarada": "2400 Pa",
+      "potenciaW": 36,
+      "autonomiaMin": 160,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.6,
+      "filtroHepa": true,
+      "niveisFiltragem": 3,
+      "aspiraLiquidos": false,
+      "ruidoDb": 65,
+      "pesoKg": 3,
+      "dimensoesMm": "320 × 320 × 80 mm (C × L × A)",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-robot-w1000-oficial",
+        "titulo": "WAP Robot W1000 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w1000/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Robô aspirador com **2.400 Pa de vácuo**, 36 W, bateria de 2.600 mAh, autonomia de até 2h40, recipiente de 600 ml (350 ml de água + 260 de pó), filtro HEPA + espuma + tela em 3 níveis, comandos de voz Alexa e Google, 65 dB(A), 3 kg e 32 × 32 × 8 cm. EAN 7899831332618.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "succaoPa",
+        "fonteAdotada": "wap-robot-w1000-oficial",
+        "valorDivergente": "2400 mbar",
+        "fonteDivergente": "wap-robot-w1000-oficial",
+        "observacao": "A ficha tem dois campos com o mesmo número e unidades diferentes: “Vácuo (Pa): 2400” e “Vácuo (mbar): 2400”. Em mbar seriam 240.000 Pa, cem vezes o outro valor e nove vezes mais que o aspirador industrial mais forte do catálogo da própria marca. A leitura em pascal é a única compatível com os outros robôs da linha (360 a 2.400 Pa), e é a adotada; o campo em mbar fica registrado aqui."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-robot-w1000.webp",
+      "alt": "Robô aspirador WAP Robot W1000 branco, visto de cima, ao lado do controle remoto",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w1000/p"
+    }
+  },
+  {
+    "slug": "wap-robot-w400",
+    "nome": "WAP Robot W400",
+    "marca": "WAP",
+    "modelo": "FW009251",
+    "categoria": "aspiradores",
+    "resumo": "1.400 Pa com mapa pelo app e MOP. Ao lado do Turbo 1600, que a mesma marca anuncia como “265”, parece dezenove vezes mais forte — e é dezenove vezes mais fraco.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Robô",
+      "semFio": true,
+      "succaoPa": 1400,
+      "succaoDeclarada": "1400 Pa",
+      "potenciaW": 30,
+      "autonomiaMin": 100,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.3,
+      "filtroHepa": true,
+      "niveisFiltragem": 3,
+      "aspiraLiquidos": false,
+      "ruidoDb": 72,
+      "pesoKg": 2.2,
+      "dimensoesMm": "300 × 310 × 75 mm (C × L × A)",
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-robot-w400-oficial",
+        "titulo": "WAP Robot W400 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w400/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Robô aspirador com **1.400 Pa de vácuo**, 30 W, bateria de 2.500 mAh, autonomia de até 1h40, recipiente de 300 ml, reservatório de água de 170 ml, filtro HEPA + tela + espuma em 3 níveis, duas escovas laterais, turbo brush, sensores anticolisão e antiqueda, 72 dB(A), 2,2 kg e 30 × 31 × 7,5 cm. EAN 7899831312047.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-robot-w400.webp",
+      "alt": "Robô aspirador WAP Robot W400 preto com detalhe turquesa, visto de cima, ao lado do controle",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w400/p"
+    }
+  },
+  {
+    "slug": "wap-robot-w100c",
+    "nome": "WAP Robot W100C",
+    "marca": "WAP",
+    "modelo": "FW008615",
+    "categoria": "aspiradores",
+    "resumo": "O vácuo vem escrito em milibar — “8 mbar” — enquanto os irmãos da mesma linha vêm em pascal. São 800 Pa.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Robô",
+      "semFio": true,
+      "succaoPa": 800,
+      "succaoDeclarada": "8 mbar",
+      "potenciaW": 17,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.25,
+      "filtroHepa": false,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 72,
+      "pesoKg": 1.4,
+      "dimensoesMm": "275 × 275 × 75 mm (C × L × A)",
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-robot-w100c-oficial",
+        "titulo": "WAP Robot W100C — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w100c/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Robô aspirador com **vácuo de 8 mbar**, que são 800 Pa, 17 W, bateria de 1.800 mAh, recipiente de 250 ml, filtro lavável, 72 dB(A), 1,4 kg e 27,5 × 27,5 × 7,5 cm.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-robot-w100c.webp",
+      "alt": "Robô aspirador WAP Robot W100C cinza, visto de cima, com as escovas laterais",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w100c/p"
+    }
+  },
+  {
+    "slug": "wap-robot-w96",
+    "nome": "WAP Robot W96",
+    "marca": "WAP",
+    "modelo": "FW009592",
+    "categoria": "aspiradores",
+    "resumo": "400 Pa, 30 W e duas horas de autonomia. É o piso de sucção da lista inteira, sessenta e seis vezes abaixo do topo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Robô",
+      "semFio": true,
+      "succaoPa": 400,
+      "succaoDeclarada": "400 Pa",
+      "potenciaW": 30,
+      "autonomiaMin": 120,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.25,
+      "filtroHepa": false,
+      "niveisFiltragem": 2,
+      "aspiraLiquidos": false,
+      "ruidoDb": 70,
+      "pesoKg": 1.3,
+      "dimensoesMm": "267 × 264 × 75 mm (C × L × A)",
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-robot-w96-oficial",
+        "titulo": "WAP Robot W96 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w96/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Robô aspirador com **400 Pa de vácuo**, 30 W, bateria Li-Ion de 4.000 mAh, autonomia de até 2h, carga em até 5h, recipiente de 250 ml, filtro lavável em 2 níveis, MOP, sensores anticolisão e antiqueda, 70 dB(A), 1,3 kg e 26,7 × 26,4 × 7,5 cm. EAN 7899831312931.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-robot-w96.webp",
+      "alt": "Robô aspirador WAP Robot W96 preto, visto de cima, com as escovas laterais",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w96/p"
+    }
+  },
+  {
+    "slug": "wap-robot-w200",
+    "nome": "WAP Robot W200",
+    "marca": "WAP",
+    "modelo": "FW011892",
+    "categoria": "aspiradores",
+    "resumo": "360 Pa e 1,23 kg, o mais leve daqui. A ficha não publica a potência — raro numa marca que publica quase tudo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Robô",
+      "semFio": true,
+      "succaoPa": 360,
+      "succaoDeclarada": "360 Pa",
+      "potenciaW": null,
+      "autonomiaMin": 75,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.275,
+      "filtroHepa": false,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 68,
+      "pesoKg": 1.23,
+      "dimensoesMm": "272 × 288 × 75 mm (C × L × A)",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-robot-w200-oficial",
+        "titulo": "WAP Robot W200 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/robo-aspirador-wap-robot-w200/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Robô aspirador com **360 Pa de vácuo**, autonomia de até 1h15, recipiente de 275 ml, filtro de tela, 68 dBA, 1,23 kg, 27,2 × 28,8 × 7,5 cm e garantia de 1 ano. A ficha não publica a potência elétrica.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-robot-w200.webp",
+      "alt": "Robô aspirador WAP Robot W200 cinza e preto, visto de cima, ao lado do controle",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/robo-aspirador-wap-robot-w200/p"
+    }
+  },
+  {
+    "slug": "midea-powerdust",
+    "nome": "Midea PowerDust",
+    "marca": "Midea",
+    "modelo": "VVA20P1",
+    "categoria": "aspiradores",
+    "resumo": "12.000 Pa declarados e **nenhum watt publicado** — o espelho exato das marcas que publicam watt e escondem sucção. O comprimento na ficha diz 3,1 cm.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": 12000,
+      "succaoDeclarada": "12000 Pa",
+      "potenciaW": null,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 2,
+      "filtroHepa": false,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 80,
+      "pesoKg": 4.3,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "midea-powerdust-oficial",
+        "titulo": "Midea PowerDust — ficha oficial da Midea",
+        "url": "https://www.midea.com.br/aspirador-de-po-vertical-powerdust-midea-preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador vertical com **pressão de sucção de 12.000 Pa**, coletor de 2 L sem saco e removível, 80 dB, 4,3 kg, 106,1 cm de altura e 30 cm de largura, garantia de 12 meses. A ficha **não publica potência elétrica**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "midea-powerdust-oficial",
+        "valorDivergente": "comprimento de 3,1 cm",
+        "fonteDivergente": "midea-powerdust-oficial",
+        "observacao": "A ficha publica “Produto Comprimento (cm): 3,1 cm” num aparelho que ela mesma declara com 106,1 cm de altura e 30 cm de largura, e cujo campo de dimensões diz “106,1cm X 30cm X 31cm”. O 3,1 é o 31 com a vírgula no lugar errado. Como são dois valores incompatíveis na mesma página, o campo fica vazio."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/midea-powerdust.webp",
+      "alt": "Aspirador vertical Midea PowerDust preto e cobre, em pé",
+      "credito": "Imagem: Midea",
+      "origem": "https://www.midea.com.br/aspirador-de-po-vertical-powerdust-midea-preto/p"
+    }
+  },
+  {
+    "slug": "midea-m7",
+    "nome": "Midea M7 2 em 1",
+    "marca": "Midea",
+    "modelo": "VRA92PB",
+    "categoria": "aspiradores",
+    "resumo": "8.000 Pa por 55 W. Ao lado do robô mais forte da WAP, são mais de três vezes a sucção — e o único jeito de saber disso é as duas publicarem em pascal.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Robô",
+      "semFio": true,
+      "succaoPa": 8000,
+      "succaoDeclarada": "8000 Pa",
+      "potenciaW": 55,
+      "autonomiaMin": 160,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.4,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 71,
+      "pesoKg": 4.18,
+      "dimensoesMm": "350 × 350 × 96 mm (C × L × A)",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "midea-m7-oficial",
+        "titulo": "Midea M7 2 em 1 — ficha oficial da Midea",
+        "url": "https://www.midea.com.br/robo-aspirador-m7-2-em-1-preto-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Robô aspirador 2 em 1 com **pressão de sucção de 8.000 Pa**, 55 W, motor sem escova BLDC, autonomia de 160 minutos, carga em 3 a 4 horas, coletor de 0,4 L, dois filtros HEPA, escova central, reservatório de água, Wi-Fi com Alexa e Google, 71 dB(A), 4,18 kg, 9,6 × 34 × 35 cm e garantia de 12 meses.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/midea-m7.webp",
+      "alt": "Robô aspirador Midea M7 preto, visto de cima, com a torre do sensor no centro",
+      "credito": "Imagem: Midea",
+      "origem": "https://www.midea.com.br/robo-aspirador-m7-2-em-1-preto-midea/p"
+    }
+  },
+  {
+    "slug": "electrolux-stk17",
+    "nome": "Electrolux STK17",
+    "marca": "Electrolux",
+    "modelo": "STK17",
+    "categoria": "aspiradores",
+    "resumo": "Ficha com mais de cinquenta campos — ciclônico, HEPA, protetor térmico, 180° easy steer — e nenhum deles é sucção.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1600,
+      "autonomiaMin": null,
+      "alcanceM": 6,
+      "capacidadeReservatorioL": 0.95,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": null,
+      "pesoKg": 2,
+      "dimensoesMm": "115 × 135 × 485 mm (L × A × P)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-stk17-oficial",
+        "titulo": "Electrolux STK17 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/aspirador-de-po-vertical-1600w-electrolux-2-em-1--stk17-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador vertical 2 em 1 de 1.600 W, sem saco, filtragem ciclônica com filtro HEPA, recipiente de 0,95 L, alcance total de 6 m, enrolador manual, protetor térmico, 1 velocidade, 2 kg, 11,5 × 13,5 × 48,5 cm e garantia de 1 ano. A ficha **não publica sucção nem nível de ruído**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-stk17.webp",
+      "alt": "Aspirador vertical Electrolux STK17 azul-acinzentado, em pé",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/aspirador-de-po-vertical-1600w-electrolux-2-em-1--stk17-/p"
+    }
+  },
+  {
+    "slug": "electrolux-eqp40",
+    "nome": "Electrolux Compacto Experience EQP40",
+    "marca": "Electrolux",
+    "modelo": "EQP40",
+    "categoria": "aspiradores",
+    "resumo": "A maior potência da lista: 1.800 W. Sem o número de sucção, não dá para dizer se isso o coloca acima do WAP de 450 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Com saco",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1800,
+      "autonomiaMin": null,
+      "alcanceM": 3.5,
+      "capacidadeReservatorioL": 3,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": null,
+      "pesoKg": 5.36,
+      "dimensoesMm": "287 × 228 × 416 mm (L × A × P)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-eqp40-oficial",
+        "titulo": "Electrolux Compacto Experience EQP40 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/eqp40-eqp40-aspirador-de-po/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador com saco de 1.800 W, saco de 3 L, filtro HEPA na entrada e na saída de ar, mangueira de 3,5 m, cabo de 3,5 m com enrolador automático, indicador de reservatório cheio, velocidade ajustável por discador, 5,36 kg, 28,7 × 22,8 × 41,6 cm e garantia de 1 ano. A ficha **não publica sucção**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-eqp40.webp",
+      "alt": "Aspirador de pó com saco Electrolux EQP40 azul-escuro, com mangueira e tubo",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/eqp40-eqp40-aspirador-de-po/p"
+    }
+  },
+  {
+    "slug": "electrolux-cyc01",
+    "nome": "Electrolux Cyclonic CYC01",
+    "marca": "Electrolux",
+    "modelo": "CYC01",
+    "categoria": "aspiradores",
+    "resumo": "76 dB — o mais silencioso entre os de tomada, dez abaixo do WAP Ambiance. Também sem sucção publicada.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sem saco",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1200,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 1.4,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 76,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-cyc01-oficial",
+        "titulo": "Electrolux Cyclonic CYC01 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/aspirador-silent-cyc01-127v-cyc01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador sem saco de 1.200 W com tecnologia ciclônica, recipiente de 1,4 L, 76 dB em 127 V e garantia de 1 ano. A ficha **não publica sucção**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-cyc01.webp",
+      "alt": "Aspirador sem saco Electrolux Cyclonic azul-marinho, com mangueira e bocal",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/aspirador-silent-cyc01-127v-cyc01/p"
+    }
+  },
+  {
+    "slug": "philco-pas4000v",
+    "nome": "Philco Power Clean PAS4000V",
+    "marca": "Philco",
+    "modelo": "PAS4000V",
+    "categoria": "aspiradores",
+    "resumo": "2.000 W, a maior potência empatada da lista, e 87 dB. Sucção, nada.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sem saco",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 2000,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 2,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 87,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pas4000v-oficial",
+        "titulo": "Philco Power Clean PAS4000V — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/aspirador-de-po-pas4000v-power-clean/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de 2.000 W com recipiente de 2 L e 87 dB de ruído. A ficha **não publica sucção**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pas4000v.webp",
+      "alt": "Aspirador vertical Philco Power Clean preto e vermelho, em pé",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/aspirador-de-po-pas4000v-power-clean/p"
+    }
+  },
+  {
+    "slug": "philco-pas1810",
+    "nome": "Philco PAS1810",
+    "marca": "Philco",
+    "modelo": "PAS1810",
+    "categoria": "aspiradores",
+    "resumo": "1.800 W, 2,2 L e filtro HEPA, a 86 dB. Mesma lacuna: nenhum número de sucção.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sem saco",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1800,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 2.2,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 86,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pas1810-oficial",
+        "titulo": "Philco PAS1810 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/aspirador-de-po-philco-turbo-pr/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de 1.800 W com filtro HEPA, recipiente de 2,2 L e 86 dB de ruído. A ficha **não publica sucção**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pas1810.webp",
+      "alt": "Aspirador de pó Philco PAS1810 preto, com os acessórios ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/aspirador-de-po-philco-turbo-pr/p"
+    }
+  },
+  {
+    "slug": "britania-bas87",
+    "nome": "Britânia BAS87",
+    "marca": "Britânia",
+    "modelo": "BAS87",
+    "categoria": "aspiradores",
+    "resumo": "O mais barulhento da lista: 94 dB, num barril de 20 L com função sopro. Trinta decibéis acima do robô mais quieto.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Pó e água",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1500,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 20,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": true,
+      "ruidoDb": 94,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bas87-oficial",
+        "titulo": "Britânia BAS87 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/aspirador-de-po-1500-w-bas87/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador de pó e água de 1.500 W, recipiente de 20 L, função soprar, 94 dB de ruído e garantia de 12 meses. A ficha **não publica sucção**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bas87.webp",
+      "alt": "Aspirador de pó e água Britânia BAS87 de tambor cinza, com o tubo apoiado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/aspirador-de-po-1500-w-bas87/p"
+    }
+  },
+  {
+    "slug": "britania-bas1010p",
+    "nome": "Britânia BAS1010P",
+    "marca": "Britânia",
+    "modelo": "BAS1010P",
+    "categoria": "aspiradores",
+    "resumo": "1.000 W e 0,6 L, o menor reservatório entre os de tomada. Com filtro HEPA e 84 dB.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Sem saco",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1000,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "capacidadeReservatorioL": 0.6,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 84,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bas1010p-oficial",
+        "titulo": "Britânia BAS1010P — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/aspirador-de-po-britania-bas1010p-2-em-1-filtro-hepa-600ml-1000w-064901062/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Aspirador 2 em 1 de 1.000 W com filtro HEPA, recipiente de 0,6 L, 84 dB de ruído e garantia de 12 meses. A ficha **não publica sucção**.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bas1010p.webp",
+      "alt": "Aspirador vertical Britânia BAS1010P branco e laranja, em pé",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/aspirador-de-po-britania-bas1010p-2-em-1-filtro-hepa-600ml-1000w-064901062/p"
+    }
+  }
+]

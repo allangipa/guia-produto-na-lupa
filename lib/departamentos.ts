@@ -59,9 +59,9 @@ export const departamentos: Departamento[] = [
     slug: "eletrodomesticos",
     nome: "Eletrodomésticos",
     descricao:
-      "O aparelho que fica onde foi instalado e dura anos: refrigeração, lavagem e climatização. A ficha dele importa mais, e costuma ser mais curta.",
+      "O aparelho grande da casa e o que cuida dela: refrigeração, lavagem, climatização e limpeza. A ficha dele importa mais, e costuma ser mais curta.",
     categorias: ["geladeiras", "lavadoras", "lavaloucas", "microondas", "ventiladores",
-      "ferros"],
+      "ferros", "aspiradores"],
   },
 ];
 

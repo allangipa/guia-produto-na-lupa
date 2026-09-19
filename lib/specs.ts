@@ -3912,6 +3912,170 @@ export const camposFerroDePassar: Campo[] = [
   },
 ];
 
+/**
+ * Aspirador de po. A caixa anuncia watt, que e o que o motor puxa da tomada.
+ * O que levanta poeira e succao, medida em pascal — e duas marcas em sete
+ * publicam. Pior: as duas que publicam usam unidades diferentes, e uma delas
+ * usa duas unidades dentro do proprio catalogo. Por isso a ficha tem duas
+ * colunas: o numero convertido para pascal e, do lado, exatamente o que o
+ * fabricante escreveu.
+ */
+export const camposAspirador: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "semFio",
+    rotulo: "Sem fio",
+    grupo: "O que é",
+    tipo: "booleano",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "succaoPa",
+    rotulo: "Sucção",
+    grupo: "Sucção",
+    tipo: "numero",
+    unidade: "Pa",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O que de fato levanta a poeira, convertido para pascal para os números ficarem comparáveis. Entre os que publicam, vai de 360 Pa a 26.500 — e o mais forte não é o de mais watts.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "succaoDeclarada",
+    rotulo: "Como a marca escreveu",
+    grupo: "Sucção",
+    tipo: "texto",
+    ajuda:
+      "O valor exato da ficha do fabricante, com a unidade dele. Existe porque “265 mbar” e “400 Pa” aparecem no mesmo catálogo e são 66 vezes diferentes — quem compara os números crus compara errado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    ajuda:
+      "O que o motor puxa da tomada. É o número da caixa e não ordena a lista: nesta categoria um aparelho de 450 W puxa mais vácuo que um de 2.000 W, pela ficha da mesma marca.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "autonomiaMin",
+    rotulo: "Autonomia",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "min",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Só faz sentido nos sem fio. Nos de tomada, o campo não se aplica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alcanceM",
+    rotulo: "Alcance",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Cabo mais mangueira: até onde dá para ir sem trocar de tomada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeReservatorioL",
+    rotulo: "Reservatório",
+    grupo: "Coleta",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "filtroHepa",
+    rotulo: "Filtro HEPA",
+    grupo: "Coleta",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Retem particula fina em vez de devolver ao ar. Importa para quem tem alergia.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "niveisFiltragem",
+    rotulo: "Níveis de filtragem",
+    grupo: "Coleta",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "aspiraLiquidos",
+    rotulo: "Aspira líquidos",
+    grupo: "Coleta",
+    tipo: "booleano",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "ruidoDb",
+    rotulo: "Ruído",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "dB",
+    melhor: "menor",
+    filtro: "faixa",
+    ajuda:
+      "Aqui vai de 65 a 95 dB. Trinta decibéis de diferença não é “um pouco mais alto”: a escala é logarítmica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Corpo",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
@@ -3924,6 +4088,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   smartwatches: camposSmartwatch,
   ventiladores: camposVentilador,
   ferros: camposFerroDePassar,
+  aspiradores: camposAspirador,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -3948,6 +4113,15 @@ export function camposDa(categoria: string): Campo[] {
  * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
  */
 const ICONE_POR_CAMPO: Record<string, string> = {
+  succaoPa: "raio",
+  succaoDeclarada: "info",
+  semFio: "bateria",
+  autonomiaMin: "bateria",
+  capacidadeReservatorioL: "gota",
+  filtroHepa: "info",
+  niveisFiltragem: "info",
+  aspiraLiquidos: "gota",
+  ruidoDb: "fone",
   materialBase: "panela",
   saidasVapor: "gota",
   vazaoContinuaGMin: "gota",
@@ -4176,6 +4350,7 @@ export function iconeDo(chave: string): string {
 
 /** Ícone de cada categoria — trilho de navegação, mídia sem foto, cards. */
 const ICONE_POR_CATEGORIA: Record<string, string> = {
+  aspiradores: "info",
   ferros: "panela",
   audio: "fone",
   energia: "bateria",
@@ -4208,6 +4383,15 @@ export function iconeDaCategoria(slug: string): string {
 
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
+  succaoPa: "Sucção",
+  succaoDeclarada: "Declarado",
+  semFio: "Sem fio",
+  autonomiaMin: "Autonomia",
+  capacidadeReservatorioL: "Reservatório",
+  filtroHepa: "HEPA",
+  niveisFiltragem: "Filtragem",
+  aspiraLiquidos: "Líquidos",
+  ruidoDb: "Ruído",
   materialBase: "Base",
   saidasVapor: "Saídas",
   vazaoContinuaGMin: "Vapor contínuo",
@@ -4398,6 +4582,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   smartwatches: ["autonomiaTipicaDias", "autonomiaIntensaDias", "telaPol"],
   ventiladores: ["diametroHeliceCm", "vazaoM3s", "potenciaW"],
   ferros: ["vazaoContinuaGMin", "saidasVapor", "reservatorioMl"],
+  aspiradores: ["succaoPa", "potenciaW", "ruidoDb"],
 };
 
 export function destaquesDa(categoria: string): string[] {

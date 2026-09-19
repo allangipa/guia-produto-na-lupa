@@ -141,6 +141,16 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "aspiradores",
+    nome: "Aspiradores de pó",
+    descricao:
+      "Aspiradores verticais, portáteis, robôs e de pó e água — com a sucção convertida para pascal ao lado do watt que a caixa estampa.",
+    dorPrincipal:
+      "A caixa diz 2.000 W. O de 450 W da mesma marca puxa mais vácuo.",
+    porQueParou:
+      "Fechou em vinte e quatro, com cinco marcas. O nó tem muito mais produto que isso — só a Electrolux publica 97 aspiradores —, mas o número que a categoria existe para comparar aparece em duas marcas: WAP e Midea. As outras entram em menor número, justamente para mostrar o tamanho da lacuna. Arno e Oster têm catálogo aberto e nenhuma das duas publica sucção, ruído ou capacidade; sem pelo menos um desses, a ficha não se sustenta ao lado das outras.",
+  },
+  {
     slug: "ferros",
     nome: "Ferros de passar",
     descricao:
