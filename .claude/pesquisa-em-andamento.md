@@ -677,3 +677,72 @@ fabricante custa mais, porque a divergência tem de ser registrada.
 470 produtos nesse ritmo é trabalho de muitas sessões, não de uma noite.
 A ordem que faz sentido é a do próprio pedido: primeiro fechar as sete
 categorias em 20, depois abrir as novas.
+
+## Rodada de 18/09/2026 — as cinco ultimas categorias novas
+
+Fechou as 20 categorias novas. Ferros de passar, aspiradores, lavadoras de
+alta pressao, secadores de cabelo e batedeiras.
+
+### Nos da Amazon mapeados nesta rodada
+- Ferros a vapor: `home/17125435011`
+- (os demais foram abertos direto pela API de catalogo do fabricante, sem
+  passar pelo ranking — a densidade ja era obvia pelo catalogo.)
+
+### O padrao que se repetiu em cinco categorias seguidas
+
+**O campo "Consumo" nunca tem consumo.** Em ferros, todas as cinco marcas
+escrevem a potencia em quilowatt: Arno 1,52 para 1.520 W, Philco 1,2 para
+1.200 W, Oster "1,2 KWH" para 1.200 W. Em secadores, Britania e Cadence
+fazem o mesmo. A coluna fica vazia na categoria inteira e a ajuda do campo
+explica por que. **Verificar isso antes de usar o campo em qualquer
+categoria nova.**
+
+**O numero do anuncio nunca e o numero que importa**, e o que importa esta
+publicado por uma ou duas marcas so:
+- ferro: watt aquece a chapa; vazao de vapor (g/min) so a Arno publica em
+  campo, e a Oster so no texto da descricao.
+- aspirador: watt e o motor; succao (Pa) so WAP e Midea.
+- lavadora: psi batiza o produto; vazao (L/h) decide o tempo — as tres
+  marcas publicam, e e a unica categoria em que a comparacao fecha.
+- secador: watt e a resistencia; vazao de ar ninguem publica. Zero em 69.
+- batedeira: watt varia 57% dentro da linha sem nenhum outro campo mudar.
+
+### Armadilha de unidade (nova, e seria)
+
+WAP publica a mesma grandeza em mbar (linha de tomada) e em Pa (robos)
+dentro do mesmo catalogo. 265 mbar = 26.500 Pa; um robo de "400 Pa" posto
+ao lado parece mais forte e e 66x mais fraco. **Sempre normalizar e sempre
+guardar o texto cru do fabricante num campo `...Declarada` ao lado.** O
+mesmo vale para a Electrolux em lavadoras: campo chamado "Pressao maxima
+(PSI/Libras)" com valor em MPa e o psi entre parenteses.
+
+### Erro de processo que custou uma rodada de conserto
+
+`npm run imagens` **quebra no primeiro arquivo cujo conteudo nao bate com a
+extensao** (CDN entregando .webp num caminho .jpg), e **nao atualiza o JSON
+quando quebra** — mas ja converteu e apagou os originais dos anteriores.
+Resultado: 10 referencias apontando para .jpg que nao existe mais.
+
+Conserto adotado e agora padrao: antes de publicar, **detectar a extensao
+pelos bytes magicos** (`\xff\xd8\xff` jpg, `\x89PNG` png, `RIFF` webp) e
+renomear. Esta em `publica_fotos_lav.py` / `_sec.py` / `_bat.py`.
+
+### Folha de contato: compor sobre branco
+
+PNG com transparencia achatado com `.convert("RGB")` ganha um fundo
+arbitrario (verde, azul-petroleo) e parece foto ruim. Usar
+`Image.alpha_composite` sobre branco antes de montar a folha, senao se
+rejeita foto boa.
+
+### Fotos recusadas nesta rodada
+- Electrolux ESI50: fundo verde-escuro (pego indice 2, produto no branco)
+- Oster GCSTBS5002 indice 3: selo UL/Inmetro
+- WAP Robot W1000 indice 0: painel com celular e recortes
+- WAP 5100 Turbo Ultra / Agil Ultra / Premium Ultra: selo promocional
+  "ACOMPANHA MANGUEIRA DE DESOBSTRUCAO" queimado (indice 2 nos tres)
+- Mondial SC-10: brilho de calor desenhado no bocal — **mantida**, porque
+  as outras quatro da galeria sao paineis de marketing com texto.
+
+### Marcas que continuam sem catalogo alcancavel
+Black+Decker, Philips Walita (ferros), Taiff, Gama (secadores), Karcher.
+Ventisol (ventiladores) segue sem responder.
