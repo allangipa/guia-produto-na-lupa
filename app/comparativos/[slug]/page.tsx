@@ -6,6 +6,7 @@ import {
   todosOsComparativos,
   dataLegivel,
 } from "@/lib/conteudo";
+import { JsonLd, schemaComparativo, schemaBreadcrumb } from "@/lib/schema";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
@@ -47,6 +48,14 @@ export default async function PaginaComparativo({ params }: Params) {
 
   return (
     <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
+      <JsonLd data={schemaComparativo(c)} />
+      <JsonLd
+        data={schemaBreadcrumb([
+          { nome: "Início", url: "/" },
+          { nome: "Comparativos", url: "/comparativos" },
+          { nome: c.titulo, url: `/comparativos/${c.slug}` },
+        ])}
+      />
       <header>
         <Divulgacao atualizadoEm={dataLegivel(c.atualizadoEm)} />
         <h1 className="mt-3 font-titulo text-3xl leading-[1.12] tracking-tight sm:text-4xl">

@@ -193,6 +193,48 @@ export function conteudoDaCategoria(slug: string) {
   };
 }
 
+/**
+ * O ASIN dentro de um link da Amazon, ou `undefined`.
+ *
+ * É o único identificador que aparece igual nos dois lados: na base de
+ * produtos e no conteúdo editorial.
+ */
+export function asinDe(url?: string): string | undefined {
+  return url?.match(/\/dp\/([A-Z0-9]{10})/)?.[1];
+}
+
+/**
+ * O conteúdo editorial que apresenta um produto — análise, comparativo ou guia.
+ *
+ * Existe porque a ficha de produto era um beco sem saída: 434 páginas sem link
+ * para as 14 comparações e as análises que falam delas. Quem chegava pela busca
+ * numa ficha não tinha como descobrir que havia um comparativo do mesmo produto,
+ * e o buscador também não.
+ *
+ * A ligação é pelo **ASIN**, não pelo nome. Casar por nome falha: o mesmo monitor
+ * é "LG UltraGear 24G411A 24\"" no comparativo e "LG UltraGear 24G411A" na base,
+ * e há nomes com aspas escapadas e polegadas que nenhuma normalização resolve.
+ * Pelo ASIN, as 75 referências do conteúdo casam com a base — todas.
+ *
+ * Só conta produto **apresentado**: concorrente do comparativo, produto da
+ * análise, escolha do guia. Link que aparece só na lista de fontes não entra,
+ * porque citar a página de um produto não é falar dele.
+ */
+export function conteudoDoProduto(amazonUrl?: string) {
+  const alvo = asinDe(amazonUrl);
+  const vazio = { reviews: [] as Review[], comparativos: [] as Comparativo[], guias: [] as Guia[] };
+  if (!alvo) return vazio;
+  return {
+    reviews: todosOsReviews().filter((r) => asinDe(r.produto.lojas.amazon) === alvo),
+    comparativos: todosOsComparativos().filter((c) =>
+      c.concorrentes.some((x) => asinDe(x.lojas.amazon) === alvo),
+    ),
+    guias: todosOsGuias().filter((g) =>
+      g.escolhas.some((e) => asinDe(e.lojas.amazon) === alvo),
+    ),
+  };
+}
+
 export function review(slug: string): Review | undefined {
   return todosOsReviews().find((r) => r.slug === slug);
 }

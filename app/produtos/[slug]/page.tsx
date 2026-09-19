@@ -14,7 +14,7 @@ import {
 } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
 import { categoria as buscarCategoria } from "@/lib/categorias";
-import { dataLegivel } from "@/lib/conteudo";
+import { conteudoDoProduto, dataLegivel } from "@/lib/conteudo";
 import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
 import { Divergencias } from "@/components/divergencias";
 import { Relatos } from "@/components/relatos";
@@ -97,6 +97,11 @@ export default async function PaginaProduto({ params }: Params) {
   const daCategoria = produtosDaCategoria(p.categoria).filter(
     (o) => o.slug !== p.slug,
   );
+  // A ficha era um beco sem saida: nem o leitor nem o buscador descobriam,
+  // daqui, que existe um comparativo deste mesmo produto.
+  const citam = conteudoDoProduto(p.lojas.amazon);
+  const nCitam = citam.reviews.length + citam.comparativos.length + citam.guias.length;
+
   const relacionados = [
     ...daCategoria.filter((o) => o.marca === p.marca),
     ...daCategoria.filter((o) => o.marca !== p.marca),
@@ -330,6 +335,53 @@ export default async function PaginaProduto({ params }: Params) {
       <section className="painel mt-8 p-6">
         <Fontes itens={p.fontes} />
       </section>
+
+      {nCitam > 0 && (
+        <section className="mt-12">
+          <h2 className="titulo-ui text-xl">Onde este produto aparece</h2>
+          <p className="mt-1 max-w-[62ch] text-[0.9rem] text-tinta-suave">
+            As páginas em que esta ficha foi usada para comparar, analisar ou
+            recomendar — com o critério escrito e as fontes listadas.
+          </p>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+            {[
+              ...citam.comparativos.map((c) => ({
+                tipo: "Comparativo",
+                href: `/comparativos/${c.slug}`,
+                titulo: c.titulo,
+                sub: c.subtitulo,
+              })),
+              ...citam.reviews.map((r) => ({
+                tipo: "Análise",
+                href: `/reviews/${r.slug}`,
+                titulo: r.titulo,
+                sub: r.subtitulo,
+              })),
+              ...citam.guias.map((g) => ({
+                tipo: "Guia",
+                href: `/guias/${g.slug}`,
+                titulo: g.titulo,
+                sub: g.subtitulo,
+              })),
+            ].map((i) => (
+              <li key={i.href}>
+                <Link
+                  href={i.href}
+                  className="painel block h-full p-5 transition hover:border-acao"
+                >
+                  <span className="pastilha">{i.tipo}</span>
+                  <span className="mt-2.5 block font-titulo text-[1.05rem] leading-snug">
+                    {i.titulo}
+                  </span>
+                  <span className="mt-1.5 block text-[0.85rem] leading-relaxed text-tinta-suave">
+                    {i.sub}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {relacionados.length > 0 && cat && (
         <section className="mt-12">
