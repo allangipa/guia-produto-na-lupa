@@ -3398,6 +3398,164 @@ export const camposLavaLouca: Campo[] = [
   },
 ];
 
+/**
+ * Smartwatches e pulseiras inteligentes.
+ *
+ * O número que decide a compra é a autonomia, e **"até 25 dias" só quer dizer
+ * alguma coisa quando a marca diz em que uso**. As três marcas desta lista
+ * publicam regimes diferentes:
+ *
+ * - a Amazfit publica até cinco — uso típico, uso intenso, modo always-on,
+ *   GPS contínuo e GPS com música;
+ * - a Huawei publica três — máximo, uso típico e always-on ligado;
+ * - a Xiaomi publica um, o típico, e pronto.
+ *
+ * Por isso a ficha tem duas colunas de autonomia em vez de uma. A diferença
+ * entre elas, quando existe, costuma ser de metade: 25 dias viram 13.
+ */
+export const camposSmartwatch: Campo[] = [
+  {
+    chave: "telaPol",
+    rotulo: "Tela",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "pol",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tipoTela",
+    rotulo: "Tipo de tela",
+    grupo: "Tela",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "AMOLED acende pixel a pixel e fica preto de verdade; LCD tem fundo iluminado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "resolucao",
+    rotulo: "Resolução",
+    grupo: "Tela",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "ppi",
+    rotulo: "Densidade",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "ppi",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "brilhoNits",
+    rotulo: "Brilho máximo",
+    grupo: "Tela",
+    tipo: "numero",
+    unidade: "nits",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O que decide se dá para ler o relógio no sol.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bateriaMah",
+    rotulo: "Bateria",
+    grupo: "Autonomia",
+    tipo: "numero",
+    unidade: "mAh",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "autonomiaTipicaDias",
+    rotulo: "Autonomia em uso típico",
+    grupo: "Autonomia",
+    tipo: "numero",
+    unidade: "dias",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O número do anúncio. Nenhuma marca define o que é uso típico.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "autonomiaIntensaDias",
+    rotulo: "Autonomia em uso intenso",
+    grupo: "Autonomia",
+    tipo: "numero",
+    unidade: "dias",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Com tela sempre ligada, treino e GPS. Quando a marca publica os dois números, o segundo costuma ser metade do primeiro — e a maioria publica só o primeiro.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "resistenciaAgua",
+    rotulo: "Resistência à água",
+    grupo: "Corpo",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "5 ATM aguenta piscina; 10 ATM, mergulho raso — e só com certificação declarada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "altoFalante",
+    rotulo: "Alto-falante",
+    grupo: "Corpo",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Sem ele, a chamada no pulso não existe.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "gps",
+    rotulo: "GPS",
+    grupo: "Corpo",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoG",
+    rotulo: "Peso sem pulseira",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "g",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "compatibilidade",
+    rotulo: "Compatibilidade",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
@@ -3408,6 +3566,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   chaleiras: camposChaleira,
   espremedores: camposEspremedor,
   lavaloucas: camposLavaLouca,
+  smartwatches: camposSmartwatch,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -3628,6 +3787,14 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   servicos: "panela",
   cestoTalheres: "portas",
   travaPainel: "escudo",
+  tipoTela: "display",
+  ppi: "display",
+  autonomiaTipicaDias: "bateria",
+  autonomiaIntensaDias: "bateria",
+  resistenciaAgua: "gota",
+  altoFalante: "onda",
+  gps: "regua",
+  compatibilidade: "celular",
 };
 
 export function iconeDo(chave: string): string {
@@ -3656,6 +3823,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   chaleiras: "gota",
   espremedores: "gota",
   lavaloucas: "gota",
+  smartwatches: "relogio",
   eletrodomesticos: "raio",
 };
 
@@ -3797,6 +3965,11 @@ const ROTULO_CURTO: Record<string, string> = {
   servicos: "Serviços",
   cestoTalheres: "Talheres",
   travaPainel: "Trava",
+  tipoTela: "Painel",
+  autonomiaTipicaDias: "Uso típico",
+  autonomiaIntensaDias: "Uso intenso",
+  resistenciaAgua: "Água",
+  altoFalante: "Som",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -3833,6 +4006,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   chaleiras: ["capacidadeL", "tempoFervuraMin", "potenciaW"],
   espremedores: ["capacidadeJarraL", "cones", "rotacaoAlternada"],
   lavaloucas: ["servicos", "consumoAguaL", "tipoInstalacao"],
+  smartwatches: ["autonomiaTipicaDias", "autonomiaIntensaDias", "telaPol"],
 };
 
 export function destaquesDa(categoria: string): string[] {

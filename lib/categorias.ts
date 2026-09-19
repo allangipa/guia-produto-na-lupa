@@ -72,6 +72,15 @@ export const categorias: Categoria[] = [
       "Casa inteligente não é uma lista de mais vendidos na Amazon Brasil: tomada e lâmpada aparecem em Elétrica e Iluminação, câmera em Proteção e Segurança. Em cada uma dessas listas, os aparelhos conectados são três a cinco entre vinte — o resto é extensão, adaptador e luva. Estes são os que sobraram com fabricante e ficha publicada.",
   },
   {
+    slug: "smartwatches",
+    nome: "Smartwatches",
+    descricao:
+      "Relógios e pulseiras inteligentes, com a autonomia separada entre uso típico e uso intenso — quando a marca publica os dois.",
+    dorPrincipal: "\"Até 25 dias\" em que uso? Só uma marca aqui publica o número do uso pesado.",
+    porQueParou:
+      "Fechou em nove, com três marcas. A Samsung tem três no ranking e publica a ficha só no HTML da página de produto, com rótulo e valor separados no DOM — precisa de navegador, não de fetch, e ficou para a próxima. A Apple tem duas e a página de especificação responde, mas não deu tempo nesta rodada. O resto do ranking é Bettdow, PEJE e Haiz: marca branca sem página de fabricante.",
+  },
+  {
     slug: "celular",
     nome: "Celulares",
     descricao: "Smartphones, com o que a ficha oficial declara e o que ela deixa de fora.",

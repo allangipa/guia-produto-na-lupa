@@ -34,7 +34,7 @@ export const departamentos: Departamento[] = [
     slug: "celular-e-tablet",
     nome: "Celular e tablet",
     descricao: "Aparelho, tela grande e o que mantém os dois carregados.",
-    categorias: ["celular", "tablets", "energia"],
+    categorias: ["celular", "tablets", "smartwatches", "energia"],
   },
   {
     slug: "audio",

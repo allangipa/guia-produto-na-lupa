@@ -1,0 +1,488 @@
+[
+  {
+    "slug": "amazfit-t-rex-3",
+    "nome": "Amazfit T-Rex 3",
+    "marca": "Amazfit",
+    "modelo": "T-Rex 3",
+    "categoria": "smartwatches",
+    "resumo": "Vinte e sete dias de autonomia típica, a maior da lista, em 68 g de aço inox. É o único com certificação de mergulho declarada — EN13319 e ISO 6425.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 1.5,
+      "tipoTela": "AMOLED",
+      "resolucao": "480 × 480",
+      "ppi": 322,
+      "brilhoNits": null,
+      "bateriaMah": 700,
+      "autonomiaTipicaDias": 27,
+      "autonomiaIntensaDias": null,
+      "resistenciaAgua": "10 ATM",
+      "altoFalante": null,
+      "gps": "Dupla banda, 6 sistemas de satélite",
+      "pesoG": 68.3,
+      "dimensoesMm": "48,5 × 48,5 × 13,75",
+      "compatibilidade": "Android 7.0 ou superior, iOS 14.0 ou superior",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DCZ9PRCP"
+    },
+    "fontes": [
+      {
+        "id": "amazfit-trex3-oficial",
+        "titulo": "Amazfit T-Rex 3 — página oficial da Amazfit Brasil",
+        "url": "https://br.amazfit.com/products/amazfit-t-rex-3",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "48,5 × 48,5 × 13,75 mm e 68,3 g sem pulseira, aro em aço inoxidável com estrutura central em polímero, 4 botões, resistência de 10 ATM com certificação de mergulho EN13319, ISO 6425 e GB/T 18828 para apneia até 147 pés, microfone, motor linear, tela AMOLED de 1,5” com 480 × 480 e 322 PPI em Gorilla Glass, bateria de 700 mAh com carga magnética em cerca de 3 horas, autonomia de até 27 dias em uso típico, posicionamento de dupla banda com 6 sistemas de satélite, Wi-Fi 2,4 GHz e Bluetooth 5.2, 177 modos esportivos, Android 7.0 ou superior e iOS 14.0 ou superior. A ficha não declara alto-falante nem prazo de garantia. A Amazfit publica a ficha inteira na página do produto — design, tela, bateria, sensores, pulseira e compatibilidade — e é a marca que mais separa regimes de autonomia. **Não publica prazo de garantia** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DCZ9PRCP",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DCZ9PRCP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazfit-t-rex-3.webp",
+      "alt": "Smartwatch Amazfit T-Rex 3 preto com aro de aço, visto em ângulo com a pulseira",
+      "credito": "Imagem: Amazfit",
+      "origem": "https://br.amazfit.com/products/amazfit-t-rex-3"
+    }
+  },
+  {
+    "slug": "amazfit-active-max",
+    "nome": "Amazfit Active Max",
+    "marca": "Amazfit",
+    "modelo": "Active Max",
+    "categoria": "smartwatches",
+    "resumo": "Vinte e cinco dias em uso típico e treze em uso intenso — a marca publica os dois, e o segundo é quase metade do primeiro.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 1.5,
+      "tipoTela": "AMOLED",
+      "resolucao": "480 × 480",
+      "ppi": 323,
+      "brilhoNits": 3000,
+      "bateriaMah": 658,
+      "autonomiaTipicaDias": 25,
+      "autonomiaIntensaDias": 13,
+      "resistenciaAgua": "5 ATM",
+      "altoFalante": true,
+      "gps": "5 sistemas de satélite",
+      "pesoG": 39.5,
+      "dimensoesMm": "48,5 × 48,5 × 12,2",
+      "compatibilidade": "Android 7.0 ou superior, iOS 14.0 ou superior",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GR4YCP3K"
+    },
+    "fontes": [
+      {
+        "id": "amazfit-activemax-oficial",
+        "titulo": "Amazfit Active Max — página oficial da Amazfit Brasil",
+        "url": "https://br.amazfit.com/products/active-max",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "48,5 × 48,5 × 12,2 mm e 39,5 g sem pulseira, estrutura em liga de alumínio e caixa em polímero, 2 botões, 5 ATM, microfone e alto-falante, motor rotativo, tela AMOLED de 1,5” com 480 × 480, 323 PPI e até 3.000 nits em vidro reforçado, bateria de 658 mAh e **cinco regimes de autonomia publicados**: até 25 dias em uso típico, 13 em uso intenso, 10 com o modo always-on ligado, 64 horas de GPS contínuo e 22 horas de GPS com música. Sensor BioTracker PPG, 5 sistemas de satélite, Bluetooth BLE 5.3, 170+ modos esportivos, pulseira de silicone de 22 mm, Android 7.0 ou superior e iOS 14.0 ou superior. A Amazfit publica a ficha inteira na página do produto — design, tela, bateria, sensores, pulseira e compatibilidade — e é a marca que mais separa regimes de autonomia. **Não publica prazo de garantia** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0GR4YCP3K",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GR4YCP3K",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazfit-active-max.webp",
+      "alt": "Smartwatch Amazfit Active Max preto, redondo, visto em ângulo",
+      "credito": "Imagem: Amazfit",
+      "origem": "https://br.amazfit.com/products/active-max"
+    }
+  },
+  {
+    "slug": "amazfit-balance-2",
+    "nome": "Amazfit Balance 2",
+    "marca": "Amazfit",
+    "modelo": "Balance 2",
+    "categoria": "smartwatches",
+    "resumo": "Dez ATM, vidro de safira e dois alto-falantes — o mais bem acabado da lista. Vinte e um dias em uso típico, dez em uso intenso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 1.5,
+      "tipoTela": "AMOLED",
+      "resolucao": "480 × 480",
+      "ppi": 323,
+      "brilhoNits": 2000,
+      "bateriaMah": 658,
+      "autonomiaTipicaDias": 21,
+      "autonomiaIntensaDias": 10,
+      "resistenciaAgua": "10 ATM",
+      "altoFalante": true,
+      "gps": null,
+      "pesoG": 43,
+      "dimensoesMm": "47,4 × 47,4 × 12,3",
+      "compatibilidade": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FC2SMDFK"
+    },
+    "fontes": [
+      {
+        "id": "amazfit-balance2-oficial",
+        "titulo": "Amazfit Balance 2 — página oficial da Amazfit Brasil",
+        "url": "https://br.amazfit.com/products/balance-2",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "47,4 × 47,4 × 12,3 mm e 43 g sem pulseira, estrutura em liga de alumínio e caixa em polímero reforçado com fibra, 2 botões, 10 ATM, microfone e **dois alto-falantes**, motor linear, tela AMOLED de 1,5” com 480 × 480, 323 PPI, até 2.000 nits e **vidro de safira**, bateria de 658 mAh com até 21 dias em uso típico, 10 em uso intenso, 33 horas em modo GPS preciso e 67 horas em GPS com economia de energia, sensor BioTracker 6.0, pulseira de silicone de 22 mm para pulsos de 140 a 210 mm. A Amazfit publica a ficha inteira na página do produto — design, tela, bateria, sensores, pulseira e compatibilidade — e é a marca que mais separa regimes de autonomia. **Não publica prazo de garantia** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FC2SMDFK",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FC2SMDFK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazfit-balance-2.webp",
+      "alt": "Smartwatch Amazfit Balance 2 com aro prateado e pulseira preta",
+      "credito": "Imagem: Amazfit",
+      "origem": "https://br.amazfit.com/products/balance-2"
+    }
+  },
+  {
+    "slug": "amazfit-bip-max",
+    "nome": "Amazfit Bip Max",
+    "marca": "Amazfit",
+    "modelo": "Bip Max",
+    "categoria": "smartwatches",
+    "resumo": "Tela de 2,07 polegadas, a maior da lista, com 3.000 nits. Vinte dias em uso típico e dez em uso intenso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 2.07,
+      "tipoTela": "AMOLED",
+      "resolucao": "432 × 514",
+      "ppi": 324,
+      "brilhoNits": 3000,
+      "bateriaMah": 550,
+      "autonomiaTipicaDias": 20,
+      "autonomiaIntensaDias": 10,
+      "resistenciaAgua": "5 ATM",
+      "altoFalante": true,
+      "gps": "5 sistemas de satélite",
+      "pesoG": null,
+      "dimensoesMm": null,
+      "compatibilidade": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H98RHRR4"
+    },
+    "fontes": [
+      {
+        "id": "amazfit-bipmax-oficial",
+        "titulo": "Amazfit Bip Max — página oficial da Amazfit Brasil",
+        "url": "https://br.amazfit.com/products/bip-max",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Caixa de 42,76 × 49,5 mm e tela de 39,44 × 46,46 mm, estrutura em liga de alumínio e caixa em plástico, 2 botões, 5 ATM, microfone e alto-falante, tela AMOLED de 2,07” com 432 × 514, 324 PPI e até 3.000 nits, bateria de 550 mAh com até 20 dias em uso típico, 10 em uso intenso, 7 com always-on e 40 horas de GPS contínuo, sensor BioTracker 6.0, 5 sistemas de posicionamento, pulseira de silicone líquido de 22 mm. O peso publicado, 52,6 g, é **com a pulseira** — diferente dos outros modelos da marca, que publicam sem — e por isso não entrou na coluna de peso. A Amazfit publica a ficha inteira na página do produto — design, tela, bateria, sensores, pulseira e compatibilidade — e é a marca que mais separa regimes de autonomia. **Não publica prazo de garantia** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0H98RHRR4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H98RHRR4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazfit-bip-max.webp",
+      "alt": "Smartwatch Amazfit Bip Max de tela quadrada, com pulseira preta",
+      "credito": "Imagem: Amazfit",
+      "origem": "https://br.amazfit.com/products/bip-max"
+    }
+  },
+  {
+    "slug": "amazfit-bip-6",
+    "nome": "Amazfit Bip 6",
+    "marca": "Amazfit",
+    "modelo": "Bip 6",
+    "categoria": "smartwatches",
+    "resumo": "Vinte e sete gramas, o mais leve dos relógios da lista, e quatro regimes de autonomia publicados — inclusive 26 dias no modo economia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 1.97,
+      "tipoTela": "AMOLED",
+      "resolucao": "390 × 450",
+      "ppi": 302,
+      "brilhoNits": 2000,
+      "bateriaMah": 340,
+      "autonomiaTipicaDias": 14,
+      "autonomiaIntensaDias": 6,
+      "resistenciaAgua": "5 ATM",
+      "altoFalante": true,
+      "gps": "5 sistemas de satélite",
+      "pesoG": 27.9,
+      "dimensoesMm": "46,3 × 40,2 × 10,45",
+      "compatibilidade": "Android 7.0 ou superior, iOS 14.0 ou superior",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FBQRF4B7"
+    },
+    "fontes": [
+      {
+        "id": "amazfit-bip6-oficial",
+        "titulo": "Amazfit Bip 6 — página oficial da Amazfit Brasil",
+        "url": "https://br.amazfit.com/products/amazfit-bip-6",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "46,3 × 40,2 × 10,45 mm e 27,9 g sem pulseira, estrutura em liga de alumínio e caixa em polímero reforçado com fibra, 2 botões, 5 ATM, microfone e alto-falante, tela AMOLED de 1,97” com 390 × 450, 302 PPI e até 2.000 nits em vidro temperado, bateria de 340 mAh com até 14 dias em uso típico, 6 em uso intenso, 26 no modo economia e 32 horas de GPS contínuo, sensor BioTracker PPG, 5 sistemas de satélite, Bluetooth 5.2, Android 7.0 ou superior e iOS 14.0 ou superior. A Amazfit publica a ficha inteira na página do produto — design, tela, bateria, sensores, pulseira e compatibilidade — e é a marca que mais separa regimes de autonomia. **Não publica prazo de garantia** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FBQRF4B7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FBQRF4B7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazfit-bip-6.webp",
+      "alt": "Smartwatch Amazfit Bip 6 de tela quadrada, com pulseira azul-escura",
+      "credito": "Imagem: Amazfit",
+      "origem": "https://br.amazfit.com/products/amazfit-bip-6"
+    }
+  },
+  {
+    "slug": "amazfit-active-2",
+    "nome": "Amazfit Active 2",
+    "marca": "Amazfit",
+    "modelo": "Active 2",
+    "categoria": "smartwatches",
+    "resumo": "O menor da lista, com 1,32 polegada e 353 PPI — a maior densidade de tela aqui. Dez dias em uso típico.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 1.32,
+      "tipoTela": "AMOLED",
+      "resolucao": "466 × 466",
+      "ppi": 353,
+      "brilhoNits": null,
+      "bateriaMah": 270,
+      "autonomiaTipicaDias": 10,
+      "autonomiaIntensaDias": null,
+      "resistenciaAgua": "5 ATM",
+      "altoFalante": true,
+      "gps": null,
+      "pesoG": 29.5,
+      "dimensoesMm": "43,9 × 43,9 × 9,9",
+      "compatibilidade": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F9PDYH3M"
+    },
+    "fontes": [
+      {
+        "id": "amazfit-active2-oficial",
+        "titulo": "Amazfit Active 2 — página oficial da Amazfit Brasil",
+        "url": "https://br.amazfit.com/products/amazfit-active-2",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "43,9 × 43,9 × 9,9 mm, 29,5 g sem pulseira na versão padrão e 31,65 g na Premium, aro em aço inoxidável com estrutura central em polímero, 2 botões, 5 ATM, microfone e alto-falante, tela AMOLED de 1,32” com 466 × 466 e 353 PPI — vidro de safira na versão Premium e vidro temperado na padrão —, bateria de 270 mAh com até 10 dias em uso típico e 19 no modo economia, carga magnética em cerca de 2 horas, pulseira de 20 mm. O peso da ficha é o da versão padrão, que é a do anúncio ligado. A Amazfit publica a ficha inteira na página do produto — design, tela, bateria, sensores, pulseira e compatibilidade — e é a marca que mais separa regimes de autonomia. **Não publica prazo de garantia** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0F9PDYH3M",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F9PDYH3M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazfit-active-2.webp",
+      "alt": "Smartwatch Amazfit Active 2 redondo, com aro prateado e pulseira preta",
+      "credito": "Imagem: Amazfit",
+      "origem": "https://br.amazfit.com/products/amazfit-active-2"
+    }
+  },
+  {
+    "slug": "huawei-band-11",
+    "nome": "Huawei Band 11",
+    "marca": "Huawei",
+    "modelo": "Band 11",
+    "categoria": "smartwatches",
+    "resumo": "Dezessete gramas e tela AMOLED de 347 PPI — a mais densa entre as pulseiras. A Huawei publica três autonomias: máximo, uso típico e com a tela sempre ligada.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 1.62,
+      "tipoTela": "AMOLED",
+      "resolucao": "286 × 482",
+      "ppi": 347,
+      "brilhoNits": null,
+      "bateriaMah": null,
+      "autonomiaTipicaDias": 8,
+      "autonomiaIntensaDias": null,
+      "resistenciaAgua": "5 ATM",
+      "altoFalante": null,
+      "gps": null,
+      "pesoG": 17,
+      "dimensoesMm": null,
+      "compatibilidade": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GKRGHNQ1"
+    },
+    "fontes": [
+      {
+        "id": "huawei-band11-oficial",
+        "titulo": "Huawei Band 11 — especificações oficiais da Huawei Brasil",
+        "url": "https://consumer.huawei.com/br/wearables/band11/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela AMOLED de 1,62 polegadas com 286 × 482 pixels e PPI 347, caixa em liga de alumínio nas cores bege, verde, roxo, branco e preto — aproximadamente 17 g sem a pulseira — ou em materiais poliméricos duráveis em roxo e preto, com aproximadamente 16 g. Resistência de 5 ATM. Sensor IMU de 9 eixos, sensor óptico de frequência cardíaca e sensor de luz ambiente. **Três regimes de autonomia**: no máximo 14 dias, até 8 dias em condições normais de uso e até 3 dias com o always-on ativado. A ficha aqui usa o valor de uso típico; o peso é o da caixa de alumínio. A Huawei publica tela, resolução, PPI, material da caixa, sensores, peso por versão de material e três regimes de autonomia. **Não publica capacidade da bateria em mAh, dimensões, alto-falante nem prazo de garantia.**",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0GKRGHNQ1",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GKRGHNQ1",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/huawei-band-11.webp",
+      "alt": "Pulseira inteligente Huawei Band 11 na versão lilás, vista de frente",
+      "credito": "Imagem: Huawei",
+      "origem": "https://consumer.huawei.com/br/wearables/band11/specs/"
+    }
+  },
+  {
+    "slug": "huawei-band-10",
+    "nome": "Huawei Band 10",
+    "marca": "Huawei",
+    "modelo": "Band 10",
+    "categoria": "smartwatches",
+    "resumo": "Quinze gramas, o mais leve da lista inteira. Mesma promessa de autonomia da Band 11 — oito dias em uso típico, catorze no máximo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 1.47,
+      "tipoTela": "AMOLED",
+      "resolucao": "194 × 368",
+      "ppi": 282,
+      "brilhoNits": null,
+      "bateriaMah": null,
+      "autonomiaTipicaDias": 8,
+      "autonomiaIntensaDias": null,
+      "resistenciaAgua": "5 ATM",
+      "altoFalante": null,
+      "gps": null,
+      "pesoG": 15,
+      "dimensoesMm": null,
+      "compatibilidade": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DWFQCY3V"
+    },
+    "fontes": [
+      {
+        "id": "huawei-band10-oficial",
+        "titulo": "Huawei Band 10 — especificações oficiais da Huawei Brasil",
+        "url": "https://consumer.huawei.com/br/wearables/band10/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tela AMOLED de 1,47 polegadas com 194 × 368 pixels e PPI 282, caixa em liga de alumínio em preto fosco, branco, verde, azul e roxo — aproximadamente 15 g sem a pulseira — ou em polímero em preto e rosa, com aproximadamente 14 g. Resistência de 5 ATM. Sensor IMU de 9 eixos e sensor óptico de frequência cardíaca. Três regimes de autonomia: no máximo 14 dias, até 8 dias em uso típico e até 3 dias com o always-on ligado. A Huawei publica tela, resolução, PPI, material da caixa, sensores, peso por versão de material e três regimes de autonomia. **Não publica capacidade da bateria em mAh, dimensões, alto-falante nem prazo de garantia.**",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DWFQCY3V",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DWFQCY3V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/huawei-band-10.webp",
+      "alt": "Pulseira inteligente Huawei Band 10 na versão amarela, vista de frente",
+      "credito": "Imagem: Huawei",
+      "origem": "https://consumer.huawei.com/br/wearables/band10/specs/"
+    }
+  },
+  {
+    "slug": "xiaomi-redmi-watch-5-active",
+    "nome": "Xiaomi Redmi Watch 5 Active",
+    "marca": "Xiaomi",
+    "modelo": "Redmi Watch 5 Active",
+    "categoria": "smartwatches",
+    "resumo": "A única da lista com tela LCD em vez de AMOLED, e a única que publica um único regime de autonomia: 18 dias, sem dizer em que uso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "telaPol": 2,
+      "tipoTela": "LCD",
+      "resolucao": "320 × 385",
+      "ppi": 250,
+      "brilhoNits": null,
+      "bateriaMah": 470,
+      "autonomiaTipicaDias": 18,
+      "autonomiaIntensaDias": null,
+      "resistenciaAgua": "5 ATM",
+      "altoFalante": true,
+      "gps": null,
+      "pesoG": 30.6,
+      "dimensoesMm": "49,1 × 40,4 × 11,4",
+      "compatibilidade": "Android 8.0 ou superior, iOS 12.0 ou superior",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DFZPR9Z4"
+    },
+    "fontes": [
+      {
+        "id": "xiaomi-redmi-watch-5-active-oficial",
+        "titulo": "Redmi Watch 5 Active — especificações oficiais da Xiaomi Brasil",
+        "url": "https://www.mi.com/br/product/redmi-watch-5-active/specs/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "49,1 × 40,4 × 11,4 mm sem a pulseira e sem as saliências, 30,6 g sem pulseira, moldura de plástico com revestimento de spray de metal, pulseira de TPU para pulsos de 135 a 205 mm, tela LCD quadrada de 2 polegadas com 320 × 385 e 250 PPI, bateria de 470 mAh com tempo de uso típico de 18 dias, resistência de 5 ATM, chamada por Bluetooth e alto-falante, Bluetooth 5.3, Xiaomi HyperOS, compatível com Android 8.0 ou superior e iOS 12.0 ou superior. É a única ficha da categoria que publica **um só** regime de autonomia. A Xiaomi não declara brilho da tela, GPS nem prazo de garantia.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DFZPR9Z4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DFZPR9Z4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/xiaomi-redmi-watch-5-active.webp",
+      "alt": "Smartwatch Xiaomi Redmi Watch 5 Active preto, de tela quadrada",
+      "credito": "Imagem: Xiaomi",
+      "origem": "https://www.mi.com/br/product/redmi-watch-5-active/specs/"
+    }
+  }
+]
