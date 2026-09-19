@@ -9,6 +9,7 @@ import {
   conteudoDaCategoria,
 } from "@/lib/conteudo";
 import { categorias } from "@/lib/categorias";
+import { recortes } from "@/lib/recortes";
 import { todosOsProdutos, produtosDaCategoria } from "@/lib/produtos";
 
 /**
@@ -25,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/guias",
     "/reviews",
     "/comparativos",
+    "/listas",
     "/transparencia",
     "/metodologia",
     "/sobre",
@@ -77,5 +79,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...fixas, ...cats, ...comparadores, ...fichas, ...conteudo];
+  const listas = recortes.map((r) => ({
+    url: u(`/listas/${r.slug}`),
+    lastModified: new Date(),
+  }));
+
+  return [...fixas, ...cats, ...comparadores, ...fichas, ...conteudo, ...listas];
 }

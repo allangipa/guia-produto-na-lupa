@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categorias, categoria as buscar } from "@/lib/categorias";
 import { conteudoDaCategoria } from "@/lib/conteudo";
+import { recortesDaCategoria, produtosDoRecorte } from "@/lib/recortes";
 import { produtosDaCategoria, camposDa } from "@/lib/produtos";
 import { Buscador } from "@/components/buscador";
 
@@ -112,6 +113,17 @@ export default async function PaginaCategoria({ params }: Params) {
         </>
       )}
 
+      {/* Os recortes vem antes do conteudo editorial: quem chega numa
+          categoria grande quer estreitar, nao ler. */}
+      <Bloco
+        titulo="Listas dentro desta categoria"
+        itens={recortesDaCategoria(c.slug).map((r) => ({
+          slug: r.slug,
+          titulo: `${r.titulo} (${produtosDoRecorte(r).length})`,
+          subtitulo: r.subtitulo,
+        }))}
+        base="/listas"
+      />
       <Bloco titulo="Guias de compra" itens={guias} base="/guias" />
       <Bloco titulo="Comparativos" itens={comparativos} base="/comparativos" />
       <Bloco titulo="Análises" itens={reviews} base="/reviews" />
