@@ -10,7 +10,7 @@ import { categorias, posicaoNaHome } from "@/lib/categorias";
 import { departamentos } from "@/lib/departamentos";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
-import { lancamentos } from "@/lib/lancamentos";
+import { jaNasLojas, lancamentos } from "@/lib/lancamentos";
 import { linkAmazon } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
@@ -136,6 +136,9 @@ export default function Home() {
     .filter((l) => l.produto);
   const heroi = destaques[0];
   const proximos = destaques.slice(1);
+  // A faixa anunciava "Pre-venda aberta" no dia seguinte a data de loja do
+  // iPhone 18 Pro. A etiqueta agora sai da data, nao de texto fixo.
+  const heroiJaSaiu = heroi ? jaNasLojas(heroi) : false;
 
   // Marcas que mais publicam a ficha: média das notas, mínimo de dois produtos
   // para não premiar amostra de um. A tabela completa está em /transparencia.
@@ -181,7 +184,9 @@ export default function Home() {
             }}
           />
           <div className="relative p-7 md:p-10 lg:p-12">
-            <span className="pastilha !bg-white/10 !text-white">{heroi.etapa}</span>
+            <span className="pastilha !bg-white/10 !text-white">
+              {heroiJaSaiu ? `À venda desde ${heroi.nasLojas}` : heroi.etapa}
+            </span>
             <h1 className="mt-4 max-w-[16ch] font-titulo text-[2.2rem] leading-[1.02] tracking-tight sm:text-[2.9rem] lg:text-[3.4rem]">
               {heroi.titulo}
             </h1>
@@ -189,10 +194,13 @@ export default function Home() {
               {heroi.resumo}
             </p>
             <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-2">
-              {[
-                { r: "Pré-venda", v: heroi.preVenda },
-                { r: "Nas lojas", v: heroi.nasLojas },
-              ].map((d) => (
+              {(heroiJaSaiu
+                ? [{ r: "Nas lojas desde", v: heroi.nasLojas }]
+                : [
+                    { r: "Pré-venda", v: heroi.preVenda },
+                    { r: "Nas lojas", v: heroi.nasLojas },
+                  ]
+              ).map((d) => (
                 <div key={d.r}>
                   <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.08em] text-faixa-suave">{d.r}</dt>
                   <dd className="dados text-[1.15rem] font-semibold">{d.v}</dd>
@@ -207,7 +215,8 @@ export default function Home() {
                   target="_blank"
                   className="botao botao-primario"
                 >
-                  Pré-venda na Amazon <Icone nome="seta" className="h-4 w-4" />
+                  {heroiJaSaiu ? "Disponível na Amazon" : "Pré-venda na Amazon"}{" "}
+                  <Icone nome="seta" className="h-4 w-4" />
                 </a>
               )}
               <Link href={`/produtos/${heroi.produto!.slug}`} className="botao !border-white/25 !bg-white/10 !text-white hover:!bg-white/15">

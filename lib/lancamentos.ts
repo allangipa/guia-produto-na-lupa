@@ -21,6 +21,24 @@ export type Lancamento = {
   fonte: { titulo: string; url: string; consultadaEm: string };
 };
 
+/**
+ * Se a data de "nas lojas" já passou.
+ *
+ * A regra acima — tirar daqui quando a data passar — continua valendo, mas ela
+ * depende de alguém lembrar, e enquanto ninguém lembrava a home seguia
+ * anunciando pré-venda de um aparelho que já estava à venda. O iPhone 18 Pro
+ * entrou nas lojas em 18/09/2026 e no dia 19 a faixa ainda dizia "Pré-venda
+ * aberta". Agora a etiqueta vira sozinha na passagem do dia.
+ *
+ * Data inválida devolve `false`: no escuro, o site não afirma que já está à
+ * venda — prefere errar para o lado de não prometer.
+ */
+export function jaNasLojas(l: Lancamento, hoje = new Date()): boolean {
+  const [d, m, a] = l.nasLojas.split("/").map(Number);
+  if (!d || !m || !a) return false;
+  return Date.UTC(a, m - 1, d) <= hoje.getTime();
+}
+
 export const lancamentos: Lancamento[] = [
   {
     slugProduto: "iphone-18-pro",
