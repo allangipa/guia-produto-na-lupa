@@ -105,6 +105,15 @@ export const categorias: Categoria[] = [
       "Fechou em oito. A lista de mais vendidos mistura cinco produtos diferentes — lavadora automática, lava e seca, secadora, centrífuga e tanquinho semiautomático —, e cada um pede o seu esquema; aqui entraram só as automáticas de carga superior. A Suggar aparece no ranking e o site dela responde 404. O modelo de 16 kg da Brastemp que está na lista é o branco, e o que achei no catálogo da marca é o cinza, com outros recursos: sem casar o código, não entra.",
   },
   {
+    slug: "lavaloucas",
+    nome: "Lava-louças",
+    descricao:
+      "Lava-louças de piso e de bancada, com o consumo de água por ciclo ao lado dos serviços do anúncio.",
+    dorPrincipal: "Nenhuma ficha da categoria publica os dois consumos: ou a água, ou a energia.",
+    porQueParou:
+      "Fechou em onze. Electrolux, Brastemp e Philco publicam ficha e entraram inteiras. A Midea aparece bem colocada com títulos que dizem só a capacidade e a cor, sem código de modelo — e o catálogo dela tem vários modelos da mesma capacidade, então não dá para casar. Samsung, EOS e Praxis também estão no ranking sem ficha alcançável.",
+  },
+  {
     slug: "geladeiras",
     nome: "Geladeiras",
     descricao:

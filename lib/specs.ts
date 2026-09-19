@@ -3254,6 +3254,150 @@ export const camposEspremedor: Campo[] = [
   },
 ];
 
+/**
+ * Lava-louças.
+ *
+ * A máquina é vendida como economia de água, e **nenhuma ficha desta categoria
+ * publica os dois consumos**. A Electrolux publica litros por ciclo e cala o
+ * kWh; a Brastemp publica kWh e cala os litros; a Philco não publica nenhum dos
+ * dois. Quem quer comparar o custo de usar precisa de um número que cada marca
+ * escolheu não dar.
+ *
+ * A unidade da categoria é o "serviço" — o conjunto de louça de uma pessoa
+ * numa refeição, definido por norma. Todas publicam, e nenhuma explica.
+ */
+export const camposLavaLouca: Campo[] = [
+  {
+    chave: "servicos",
+    rotulo: "Serviços",
+    grupo: "O que é",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Um serviço é o conjunto de louça de uma pessoa numa refeição — prato, prato fundo, sobremesa, xícara, copo e talheres. A conta é de norma, e nenhuma marca explica na ficha.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tipoInstalacao",
+    rotulo: "Instalação",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "De bancada cabe em cima da pia; de piso ocupa um vão e precisa de ponto de água.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoAguaL",
+    rotulo: "Água por ciclo",
+    grupo: "Consumo",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "menor",
+    filtro: "faixa",
+    ajuda:
+      "O número que justifica a compra — e que só uma das três marcas desta lista publica. Lavar a mesma louça na pia passa de 100 litros.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoEnergiaKwh",
+    rotulo: "Energia por ciclo",
+    grupo: "Consumo",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "classificacaoEnergetica",
+    rotulo: "Selo do Inmetro",
+    grupo: "Consumo",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "programas",
+    rotulo: "Programas",
+    grupo: "Lavagem",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "temperaturaMaxC",
+    rotulo: "Temperatura da água",
+    grupo: "Lavagem",
+    tipo: "numero",
+    unidade: "°C",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cestoTalheres",
+    rotulo: "Cesto para talheres",
+    grupo: "Lavagem",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "travaPainel",
+    rotulo: "Trava do painel",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda: "Bloqueia os botões contra criança curiosa no meio do ciclo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "painel",
+    rotulo: "Painel",
+    grupo: "Uso",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
@@ -3263,6 +3407,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   torradeiras: camposTorradeira,
   chaleiras: camposChaleira,
   espremedores: camposEspremedor,
+  lavaloucas: camposLavaLouca,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -3480,6 +3625,9 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   controlePolpa: "filtro",
   jarraRemovivel: "portas",
   indicadorCapacidade: "regua",
+  servicos: "panela",
+  cestoTalheres: "portas",
+  travaPainel: "escudo",
 };
 
 export function iconeDo(chave: string): string {
@@ -3507,6 +3655,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   torradeiras: "panela",
   chaleiras: "gota",
   espremedores: "gota",
+  lavaloucas: "gota",
   eletrodomesticos: "raio",
 };
 
@@ -3645,6 +3794,9 @@ const ROTULO_CURTO: Record<string, string> = {
   controlePolpa: "Polpa",
   jarraRemovivel: "Jarra removível",
   indicadorCapacidade: "Nível",
+  servicos: "Serviços",
+  cestoTalheres: "Talheres",
+  travaPainel: "Trava",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -3680,6 +3832,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   torradeiras: ["niveisTostagem", "espessuraPaoMm", "potenciaW"],
   chaleiras: ["capacidadeL", "tempoFervuraMin", "potenciaW"],
   espremedores: ["capacidadeJarraL", "cones", "rotacaoAlternada"],
+  lavaloucas: ["servicos", "consumoAguaL", "tipoInstalacao"],
 };
 
 export function destaquesDa(categoria: string): string[] {

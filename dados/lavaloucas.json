@@ -1,0 +1,594 @@
+[
+  {
+    "slug": "electrolux-ls10e",
+    "nome": "Electrolux LS10E",
+    "marca": "Electrolux",
+    "modelo": "LS10E",
+    "categoria": "lavaloucas",
+    "resumo": "Nove litros por ciclo, o menor consumo de água da lista. Lavar a mesma louça na pia passa de cem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 10,
+      "tipoInstalacao": null,
+      "consumoAguaL": 9,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": null,
+      "programas": null,
+      "temperaturaMaxC": null,
+      "cestoTalheres": true,
+      "travaPainel": true,
+      "painel": "Mecânico",
+      "tensao": null,
+      "pesoKg": 37.5,
+      "dimensoesMm": "448 × 845 × 600",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FH5R4M75"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ls10e-oficial",
+        "titulo": "Electrolux LS10E — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lava-louca-electrolux-10-servicos-inox-com-programa-lava-e-seca-50---ls10e-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 10 serviços, consumo de água de 9 L por ciclo, cesto para talheres, trava do painel, painel mecânico, programa Lava & Seca de 50 minutos, programa Eco, adiar início, 44,8 × 84,5 × 60 cm, 37,5 kg e garantia de 1 ano. O número de programas não entrou como valor: a ficha lista os programas por nome, sem contagem. A Electrolux publica consumo de água por ciclo, temperatura, cesto de talheres, trava do painel, painel, medidas e peso do produto e da embalagem separados. **Não publica consumo de energia nem classificação energética** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FH5R4M75",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FH5R4M75",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ls10e.webp",
+      "alt": "Lava-louças Electrolux LS10E inox, de piso, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lava-louca-electrolux-10-servicos-inox-com-programa-lava-e-seca-50---ls10e-/p"
+    }
+  },
+  {
+    "slug": "electrolux-ll10x",
+    "nome": "Electrolux LL10X",
+    "marca": "Electrolux",
+    "modelo": "LL10X",
+    "categoria": "lavaloucas",
+    "resumo": "Nove litros e meio por ciclo, sete programas e painel touch on glass — o único tipo de painel que a Electrolux nomeia diferente nesta lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 10,
+      "tipoInstalacao": null,
+      "consumoAguaL": 9.5,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": null,
+      "programas": 7,
+      "temperaturaMaxC": 70,
+      "cestoTalheres": true,
+      "travaPainel": true,
+      "painel": "Touch on glass",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 41,
+      "dimensoesMm": "448 × 845 × 610",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09B9D1YQV"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ll10x-oficial",
+        "titulo": "Electrolux LL10X — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lava-loucas-electrolux-10-servicos-inox-com-funcao-higienizar-compras--ll10x-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 10 serviços, consumo de água de 9,5 L por ciclo, 7 programas, temperatura da água de 70 °C, cesto para talheres, trava do painel, painel touch on glass, função higienizar compras, 127 V ou 220 V, 44,8 × 84,5 × 61 cm, 41 kg e garantia de 1 ano. A Electrolux publica consumo de água por ciclo, temperatura, cesto de talheres, trava do painel, painel, medidas e peso do produto e da embalagem separados. **Não publica consumo de energia nem classificação energética** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09B9D1YQV",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09B9D1YQV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ll10x.webp",
+      "alt": "Lava-louças Electrolux LL10X inox, de piso, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lava-loucas-electrolux-10-servicos-inox-com-funcao-higienizar-compras--ll10x-/p"
+    }
+  },
+  {
+    "slug": "electrolux-ll14x",
+    "nome": "Electrolux LL14X",
+    "marca": "Electrolux",
+    "modelo": "LL14X",
+    "categoria": "lavaloucas",
+    "resumo": "Catorze serviços com os mesmos 9,5 litros por ciclo do modelo de dez — mais louça pela mesma água.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 14,
+      "tipoInstalacao": null,
+      "consumoAguaL": 9.5,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": null,
+      "programas": 7,
+      "temperaturaMaxC": 70,
+      "cestoTalheres": true,
+      "travaPainel": true,
+      "painel": "Touch on glass",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 46,
+      "dimensoesMm": "598 × 845 × 610",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09BBNL8MV"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ll14x-oficial",
+        "titulo": "Electrolux LL14X — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lava-loucas-electrolux-14-servicos-inox-com-funcao-higienizar-compras--ll14x-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 14 serviços, consumo de água de 9,5 L por ciclo, 7 programas, temperatura de 70 °C, cesto para talheres, trava do painel, painel touch on glass, função higienizar compras, 127 V ou 220 V, 59,8 × 84,5 × 61 cm, 46 kg e garantia de 1 ano. É o mesmo consumo de água do LL10X, de 10 serviços. A Electrolux publica consumo de água por ciclo, temperatura, cesto de talheres, trava do painel, painel, medidas e peso do produto e da embalagem separados. **Não publica consumo de energia nem classificação energética** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09BBNL8MV",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09BBNL8MV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ll14x.webp",
+      "alt": "Lava-louças Electrolux LL14X inox, de piso, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lava-loucas-electrolux-14-servicos-inox-com-funcao-higienizar-compras--ll14x-/p"
+    }
+  },
+  {
+    "slug": "electrolux-ls14e",
+    "nome": "Electrolux LS14E",
+    "marca": "Electrolux",
+    "modelo": "LS14E",
+    "categoria": "lavaloucas",
+    "resumo": "Onze litros por ciclo para catorze serviços, com programa Lava & Seca de 50 minutos. Gasta mais água que o LL14X da mesma marca e do mesmo tamanho.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 14,
+      "tipoInstalacao": null,
+      "consumoAguaL": 11,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": null,
+      "programas": null,
+      "temperaturaMaxC": null,
+      "cestoTalheres": true,
+      "travaPainel": true,
+      "painel": "Mecânico",
+      "tensao": null,
+      "pesoKg": 38,
+      "dimensoesMm": "598 × 845 × 600",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FH5PXDTF"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ls14e-oficial",
+        "titulo": "Electrolux LS14E — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava---seca-50-min--ls14e-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 14 serviços, consumo de água de 11 L por ciclo, cesto para talheres, trava do painel, painel mecânico, programa Lava & Seca de 50 minutos, programa Eco e adiar início, 59,8 × 84,5 × 60 cm, 38 kg e garantia de 1 ano. A ficha lista os programas por nome, sem contagem. A Electrolux publica consumo de água por ciclo, temperatura, cesto de talheres, trava do painel, painel, medidas e peso do produto e da embalagem separados. **Não publica consumo de energia nem classificação energética** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FH5PXDTF",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FH5PXDTF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ls14e.webp",
+      "alt": "Lava-louças Electrolux LS14E inox, de piso, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava---seca-50-min--ls14e-/p"
+    }
+  },
+  {
+    "slug": "electrolux-lb08e",
+    "nome": "Electrolux LB08E",
+    "marca": "Electrolux",
+    "modelo": "LB08E",
+    "categoria": "lavaloucas",
+    "resumo": "Doze litros por ciclo para oito serviços — o maior consumo por serviço da lista. E é o único Electrolux que declara **não** ter cesto de talheres.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 8,
+      "tipoInstalacao": null,
+      "consumoAguaL": 12,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": null,
+      "programas": null,
+      "temperaturaMaxC": 70,
+      "cestoTalheres": false,
+      "travaPainel": true,
+      "painel": "Mecânico",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 21.8,
+      "dimensoesMm": "550 × 609 × 500",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FJZR1RBP"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-lb08e-oficial",
+        "titulo": "Electrolux LB08E — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lava-louca-electrolux-8-servicos-branca-com-programa-lava-e-seca-50---lb08e-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 8 serviços, consumo de água de 12 L por ciclo, temperatura de 70 °C, **sem** cesto para talheres, trava do painel, painel mecânico, programa Lava & Seca de 50 minutos, 55 × 60,9 × 50 cm, 21,8 kg, 127/220 V e garantia de 1 ano. A Electrolux publica consumo de água por ciclo, temperatura, cesto de talheres, trava do painel, painel, medidas e peso do produto e da embalagem separados. **Não publica consumo de energia nem classificação energética** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FJZR1RBP",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FJZR1RBP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-lb08e.webp",
+      "alt": "Lava-louças Electrolux LB08E branca, compacta, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lava-louca-electrolux-8-servicos-branca-com-programa-lava-e-seca-50---lb08e-/p"
+    }
+  },
+  {
+    "slug": "electrolux-ll08s",
+    "nome": "Electrolux LL08S",
+    "marca": "Electrolux",
+    "modelo": "LL08S",
+    "categoria": "lavaloucas",
+    "resumo": "Oito serviços em 60 cm de altura, para ficar em cima da bancada. O campo de consumo de água desta ficha traz a palavra “Sim” no lugar do número.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 8,
+      "tipoInstalacao": null,
+      "consumoAguaL": null,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": null,
+      "programas": null,
+      "temperaturaMaxC": 70,
+      "cestoTalheres": true,
+      "travaPainel": false,
+      "painel": "Botão",
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 23.5,
+      "dimensoesMm": "550 × 605 × 500",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B084Q157JX"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ll08s-oficial",
+        "titulo": "Electrolux LL08S — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lava-loucas-8-servicos-inox-electrolux-ll08s-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 8 serviços, temperatura da água de 70 °C, cesto para talheres, sem trava de painel, painel de botão, programas Aquajet de pré-lavagem, rápido de 1 hora, delicado, ECO e dia-a-dia, função higienizar, 55 × 60,5 × 50 cm, 23,5 kg, 127 V ou 220 V e garantia de 12 meses. O consumo de água não entrou: ver a divergência. A Electrolux publica consumo de água por ciclo, temperatura, cesto de talheres, trava do painel, painel, medidas e peso do produto e da embalagem separados. **Não publica consumo de energia nem classificação energética** em nenhum modelo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B084Q157JX",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B084Q157JX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoAguaL",
+        "fonteAdotada": "Electrolux",
+        "valorDivergente": "“Sim”",
+        "fonteDivergente": "Electrolux",
+        "observacao": "O campo “Consumo de água (L/ciclo)” desta ficha está preenchido com a palavra “Sim”. É resposta de campo de sim-ou-não colocada num campo de medida: em todos os outros modelos da mesma marca esse campo traz um número de litros. Sem o número, o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ll08s.webp",
+      "alt": "Lava-louças Electrolux LL08S inox, compacta, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lava-loucas-8-servicos-inox-electrolux-ll08s-/p"
+    }
+  },
+  {
+    "slug": "brastemp-blf10br",
+    "nome": "Brastemp BLF10BR",
+    "marca": "Brastemp",
+    "modelo": "BLF10BR",
+    "categoria": "lavaloucas",
+    "resumo": "Dez serviços de piso com selo A e 0,83 kWh por ciclo. A Brastemp publica a energia e não publica a água — o inverso da Electrolux.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 10,
+      "tipoInstalacao": "Piso",
+      "consumoAguaL": null,
+      "consumoEnergiaKwh": 0.83,
+      "classificacaoEnergetica": "A",
+      "programas": 6,
+      "temperaturaMaxC": null,
+      "cestoTalheres": null,
+      "travaPainel": null,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07X46WSPT"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-blf10br-oficial",
+        "titulo": "Brastemp BLF10BR — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/lava-loucas-10-servicos-inox-ciclo-pesado-blf10br/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 10 serviços, instalação de piso, consumo aproximado de energia de 0,83 kWh em 127 V e 0,74 kWh em 220 V — a ficha usa o de 127 V —, eficiência energética A, 6 programas de lavagem, ciclo pesado, tomada inferior direita e garantia do fornecedor de 12 meses. A Brastemp publica consumo de energia, eficiência energética, tipo de instalação e programas. **Não publica consumo de água** — e as medidas vêm como faixas de filtro, não como valores do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07X46WSPT",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07X46WSPT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-blf10br.webp",
+      "alt": "Lava-louças Brastemp BLF10BR inox, de piso, vista de frente",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/lava-loucas-10-servicos-inox-ciclo-pesado-blf10br/p"
+    }
+  },
+  {
+    "slug": "brastemp-blf10bb",
+    "nome": "Brastemp BLF10BB",
+    "marca": "Brastemp",
+    "modelo": "BLF10BB",
+    "categoria": "lavaloucas",
+    "resumo": "O mesmo BLF10 em branco: dez serviços, piso, selo A e 0,83 kWh. Ficha idêntica à da versão inox, inclusive no que ela não traz.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 10,
+      "tipoInstalacao": "Piso",
+      "consumoAguaL": null,
+      "consumoEnergiaKwh": 0.83,
+      "classificacaoEnergetica": "A",
+      "programas": 6,
+      "temperaturaMaxC": null,
+      "cestoTalheres": null,
+      "travaPainel": null,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07TKWPG8G"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-blf10bb-oficial",
+        "titulo": "Brastemp BLF10BB — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/lava-loucas-10-servicos-branca-ciclo-pesado-blf10bb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 10 serviços, instalação de piso, consumo de energia de 0,83 kWh em 127 V e 0,74 em 220 V, eficiência A, 6 programas, ciclo pesado e garantia de 12 meses. A Brastemp publica consumo de energia, eficiência energética, tipo de instalação e programas. **Não publica consumo de água** — e as medidas vêm como faixas de filtro, não como valores do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07TKWPG8G",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07TKWPG8G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-blf10bb.webp",
+      "alt": "Lava-louças Brastemp BLF10BB branca, de piso, vista de frente",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/lava-loucas-10-servicos-branca-ciclo-pesado-blf10bb/p"
+    }
+  },
+  {
+    "slug": "brastemp-blf08bs",
+    "nome": "Brastemp BLF08BS",
+    "marca": "Brastemp",
+    "modelo": "BLF08BS",
+    "categoria": "lavaloucas",
+    "resumo": "Oito serviços de bancada — sobe em cima da pia e dispensa o vão. Gasta 0,95 kWh por ciclo, mais que as de dez serviços da mesma marca.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 8,
+      "tipoInstalacao": "Bancada",
+      "consumoAguaL": null,
+      "consumoEnergiaKwh": 0.95,
+      "classificacaoEnergetica": "A",
+      "programas": 5,
+      "temperaturaMaxC": null,
+      "cestoTalheres": null,
+      "travaPainel": null,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BTFCXSMS"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-blf08bs-oficial",
+        "titulo": "Brastemp BLF08BS — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/lava-loucas-brastemp-8-servicos-cinza-blf08bs/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 8 serviços, instalação de bancada, consumo aproximado de energia de 0,95 kWh, eficiência energética A, tomada inferior esquerda e garantia de 12 meses. Os 5 programas saíram da contagem da lista nominal que a própria Brastemp publica — dia-a-dia, pesado, delicado, rápido e econômico —, já que a ficha não traz o número. A Brastemp publica consumo de energia, eficiência energética, tipo de instalação e programas. **Não publica consumo de água** — e as medidas vêm como faixas de filtro, não como valores do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BTFCXSMS",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BTFCXSMS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-blf08bs.webp",
+      "alt": "Lava-louças Brastemp BLF08BS cinza, de bancada, vista de frente",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/lava-loucas-brastemp-8-servicos-cinza-blf08bs/p"
+    }
+  },
+  {
+    "slug": "brastemp-blf08bb",
+    "nome": "Brastemp BLF08BB",
+    "marca": "Brastemp",
+    "modelo": "BLF08BB",
+    "categoria": "lavaloucas",
+    "resumo": "O BLF08 em branco, também de bancada. Mesma ficha da versão cinza, mesmos 0,95 kWh.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 8,
+      "tipoInstalacao": "Bancada",
+      "consumoAguaL": null,
+      "consumoEnergiaKwh": 0.95,
+      "classificacaoEnergetica": "A",
+      "programas": 5,
+      "temperaturaMaxC": null,
+      "cestoTalheres": null,
+      "travaPainel": null,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BVRZL3ZJ"
+    },
+    "fontes": [
+      {
+        "id": "brastemp-blf08bb-oficial",
+        "titulo": "Brastemp BLF08BB — página oficial da Brastemp",
+        "url": "https://www.brastemp.com.br/lava-loucas-brastemp-8-servicos-branca-blf08bb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 8 serviços, instalação de bancada, consumo de energia de 0,95 kWh, eficiência A e garantia de 12 meses. Os 5 programas saíram da contagem da lista nominal publicada pela Brastemp. A Brastemp publica consumo de energia, eficiência energética, tipo de instalação e programas. **Não publica consumo de água** — e as medidas vêm como faixas de filtro, não como valores do produto.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BVRZL3ZJ",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BVRZL3ZJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/brastemp-blf08bb.webp",
+      "alt": "Lava-louças Brastemp BLF08BB branca, de bancada, vista de frente",
+      "credito": "Imagem: Brastemp",
+      "origem": "https://www.brastemp.com.br/lava-loucas-brastemp-8-servicos-branca-blf08bb/p"
+    }
+  },
+  {
+    "slug": "philco-pll10",
+    "nome": "Philco PLL10",
+    "marca": "Philco",
+    "modelo": "PLL10",
+    "categoria": "lavaloucas",
+    "resumo": "Dez serviços, seis programas e mais nada. É a única ficha da categoria que não publica nem água nem energia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "servicos": 10,
+      "tipoInstalacao": null,
+      "consumoAguaL": null,
+      "consumoEnergiaKwh": null,
+      "classificacaoEnergetica": null,
+      "programas": 6,
+      "temperaturaMaxC": null,
+      "cestoTalheres": null,
+      "travaPainel": null,
+      "painel": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CTRP1H61"
+    },
+    "fontes": [
+      {
+        "id": "philco-pll10-oficial",
+        "titulo": "Philco PLL10 — página oficial da Philco",
+        "url": "https://www.philco.com.br/lava-loucas-pll10-127v-056151017/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 10 serviços, 6 programas e garantia de 360 dias. São todos os campos de especificação que a página traz. Como nas outras fichas da casa, a Philco declara a unidade das medidas — centímetros — e não declara o valor de nenhuma. Não publica consumo de água, consumo de energia, selo do Inmetro, tipo de instalação, peso, painel nem temperatura.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CTRP1H61",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CTRP1H61",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O título do anúncio traz as medidas 67,5 × 63 × 71 cm. Como esses números não aparecem na página da Philco, não entraram na ficha — anúncio de varejo não é fonte de especificação.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pll10.webp",
+      "alt": "Lava-louças Philco PLL10 preto espelhado, vista de frente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/lava-loucas-pll10-127v-056151017/p"
+    }
+  }
+]
