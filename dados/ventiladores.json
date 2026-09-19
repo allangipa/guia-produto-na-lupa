@@ -1,0 +1,577 @@
+[
+  {
+    "slug": "mallory-max-control",
+    "nome": "Mallory Max Control",
+    "marca": "Mallory",
+    "modelo": "Max Control",
+    "categoria": "ventiladores",
+    "resumo": "A ficha mais completa da categoria: publica a vazão em metros cúbicos por segundo, a grade e a hélice em campos separados, e a altura mínima e máxima da coluna.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": 50,
+      "diametroHeliceCm": 40,
+      "pas": 15,
+      "vazaoM3s": 1.11,
+      "potenciaW": 140,
+      "consumoKwhMes": 3.54,
+      "velocidades": 3,
+      "oscilante": null,
+      "controleRemoto": true,
+      "alturaAjustavel": true,
+      "comprimentoCaboM": 1.35,
+      "tensao": null,
+      "pesoKg": 5.7,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BTQXKGPK"
+    },
+    "fontes": [
+      {
+        "id": "mallory-max-control-oficial",
+        "titulo": "Mallory Max Control — página oficial da Mallory",
+        "url": "https://www.mallory.com.br/ventilador-max-control-preto-grafite-220v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de coluna com 140 W, vazão de 1,11 m³/s, consumo de 3,54 kWh por mês, 15 pás, 3 velocidades, **diâmetro da grade de 50 cm e diâmetro da hélice de 40 cm** em campos separados, grades desmontáveis, controle remoto, função turbo, coluna ajustável de 1,12 m a 1,30 m, cabo de 1,35 m, 48 × 39 cm de base e 1,30 m de altura, 5,7 kg e garantia de 12 meses. A Mallory é a única marca da categoria que publica vazão, e uma das duas que separam grade de hélice.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BTQXKGPK",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BTQXKGPK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mallory-max-control.webp",
+      "alt": "Ventilador de coluna Mallory Max Control grafite, com o controle remoto ao lado",
+      "credito": "Imagem: Mallory",
+      "origem": "https://www.mallory.com.br/ventilador-max-control-preto-grafite-220v/p"
+    }
+  },
+  {
+    "slug": "mallory-eolo",
+    "nome": "Mallory EOLO",
+    "marca": "Mallory",
+    "modelo": "EOLO",
+    "categoria": "ventiladores",
+    "resumo": "Seis pás e 126 W movem 1,00 m³/s. O Max Control da mesma marca, com 15 pás e 140 W, move 1,11 — 11% a mais de ar por 11% a mais de watts.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": 50,
+      "diametroHeliceCm": 40,
+      "pas": 6,
+      "vazaoM3s": 1.0,
+      "potenciaW": 126,
+      "consumoKwhMes": 3.33,
+      "velocidades": 3,
+      "oscilante": null,
+      "controleRemoto": false,
+      "alturaAjustavel": true,
+      "comprimentoCaboM": 1.45,
+      "tensao": null,
+      "pesoKg": 5.9,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BTQLQ39G"
+    },
+    "fontes": [
+      {
+        "id": "mallory-eolo-oficial",
+        "titulo": "Mallory EOLO — página oficial da Mallory",
+        "url": "https://www.mallory.com.br/ventilador-eolo-preto-grafite-220v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de coluna com 126 W, vazão de 1,00 m³/s, consumo de 3,33 kWh por mês, 6 pás, 3 velocidades, diâmetro da grade de 50 cm e da hélice de 40 cm, grade de polipropileno desmontável, sem controle remoto, função turbo, coluna ajustável de 1,12 m a 1,30 m, cabo de 1,45 m, base de 50 × 33 cm, 5,9 kg e garantia de 12 meses.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BTQLQ39G",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BTQLQ39G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mallory-eolo.webp",
+      "alt": "Ventilador de coluna Mallory EOLO preto e grafite, visto de frente",
+      "credito": "Imagem: Mallory",
+      "origem": "https://www.mallory.com.br/ventilador-eolo-preto-grafite-220v/p"
+    }
+  },
+  {
+    "slug": "wap-flow-turbo-coluna-50",
+    "nome": "WAP Flow Turbo Coluna 50",
+    "marca": "WAP",
+    "modelo": "FW009220",
+    "categoria": "ventiladores",
+    "resumo": "Vendido como 50 cm. A própria WAP declara, na mesma ficha, que a grade tem 50 cm e a hélice tem 40 — é a medida da grade que vai no anúncio.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": 50,
+      "diametroHeliceCm": 40,
+      "pas": 8,
+      "vazaoM3s": null,
+      "potenciaW": 180,
+      "consumoKwhMes": null,
+      "velocidades": 3,
+      "oscilante": true,
+      "controleRemoto": null,
+      "alturaAjustavel": null,
+      "comprimentoCaboM": 1.65,
+      "tensao": null,
+      "pesoKg": 5.6,
+      "dimensoesMm": "500 × 1500 × 400",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BT4X3MJR"
+    },
+    "fontes": [
+      {
+        "id": "wap-flow-turbo-oficial",
+        "titulo": "WAP Flow Turbo Coluna — página oficial da WAP",
+        "url": "https://loja.wap.ind.br/ventilador-50-cm-8-pas-wap-flow-turbo-coluna/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência elétrica de 180 W, corrente de 1,0 A, 8 pás, 3 velocidades, **diâmetro da grade de 50 cm e diâmetro da hélice de 40 cm**, ângulo de oscilação de 90° e de inclinação de 45°, base pesada de 40 cm, cabo de 1,65 m, 40 × 50 × 150 cm, 5,6 kg líquidos, classe 2 e classe climática T, garantia de 1 ano. A WAP não publica vazão nem consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BT4X3MJR",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BT4X3MJR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-flow-turbo-coluna-50.webp",
+      "alt": "Ventilador de coluna WAP Flow Turbo preto, de 8 pás, visto em três quartos",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/ventilador-50-cm-8-pas-wap-flow-turbo-coluna/p"
+    }
+  },
+  {
+    "slug": "arno-x-treme-7",
+    "nome": "Arno X-TREME 7 VE7C",
+    "marca": "Arno",
+    "modelo": "VE7C",
+    "categoria": "ventiladores",
+    "resumo": "O único da lista que publica a rotação máxima da hélice: 1.470 rpm. E o único com dois anos de garantia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": 40,
+      "diametroHeliceCm": null,
+      "pas": 7,
+      "vazaoM3s": null,
+      "potenciaW": 150,
+      "consumoKwhMes": 3.81,
+      "velocidades": 3,
+      "oscilante": null,
+      "controleRemoto": null,
+      "alturaAjustavel": null,
+      "comprimentoCaboM": 1.9,
+      "tensao": null,
+      "pesoKg": 6.39,
+      "dimensoesMm": null,
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F8YBV4NM"
+    },
+    "fontes": [
+      {
+        "id": "arno-ve7c-oficial",
+        "titulo": "Arno X-TREME 7 VE7C — página oficial da Arno",
+        "url": "https://www.arno.com.br/ventilador-de-coluna-40cm-arno-x-treme-7-7-pas-150w-ve7c-2720018330-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de coluna de 40 cm com 7 pás, 150 W, consumo de 3,81 kWh por mês, **velocidade de rotação máxima de 1.470 rpm** — campo que nenhuma outra marca da categoria publica —, 3 velocidades, desmontável, corpo de polipropileno, cabo de 1,90 m, 6,39 kg, registro no Inmetro 008657/2023, e garantia de 24 meses para produtos adquiridos a partir de 01/07/2025. O alcance de ar de até 11 m que a página declara vem de teste do próprio fabricante e não entrou na ficha. As medidas não entraram: ver a divergência. A Arno não publica vazão, oscilação nem se o diâmetro é da grade ou da hélice.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0F8YBV4NM",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F8YBV4NM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O anúncio traz o código VE72, que é a variante de cor; a ficha do fabricante usa VE7C para o mesmo modelo de 40 cm, 7 pás e 150 W. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "Arno",
+        "valorDivergente": "altura de 43 cm",
+        "fonteDivergente": "Arno",
+        "observacao": "A ficha publica 49 cm de largura, 43 de profundidade e 43 cm de altura. Um ventilador de coluna com 43 cm de altura não é de coluna — o X-TREME 9 da mesma marca, do mesmo tamanho de hélice, publica 153 cm. O valor parece ser o da caixa, não o do produto montado, e o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-x-treme-7.webp",
+      "alt": "Ventilador de coluna Arno X-TREME 7 preto e azul-escuro, de 7 pás",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ventilador-de-coluna-40cm-arno-x-treme-7-7-pas-150w-ve7c-2720018330-1/p"
+    }
+  },
+  {
+    "slug": "mondial-nvt-40c-8p",
+    "nome": "Mondial Turbo NVT-40C-8P",
+    "marca": "Mondial",
+    "modelo": "NVT-40C-8P-B",
+    "categoria": "ventiladores",
+    "resumo": "Oito pás e 140 W em 1,50 m de altura. A Mondial publica quase tudo do corpo do ventilador e nada sobre o ar que ele move.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": null,
+      "diametroHeliceCm": null,
+      "pas": 8,
+      "vazaoM3s": null,
+      "potenciaW": 140,
+      "consumoKwhMes": null,
+      "velocidades": 3,
+      "oscilante": true,
+      "controleRemoto": null,
+      "alturaAjustavel": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 5.7,
+      "dimensoesMm": "485 × 1500 × 485",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D9C2GQ9D"
+    },
+    "fontes": [
+      {
+        "id": "mondial-nvt40c-oficial",
+        "titulo": "Mondial NVT-40C-8P — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/ventilador-de-coluna-mondial-8-pas-turbo-40cm-nvt-40c-8p-b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de coluna com 140 W, 8 pás, 3 velocidades, oscilante, coluna ajustável, 150 × 48,5 × 48,5 cm na ordem altura × largura × profundidade publicada pela marca, 5,70 kg, 127 V/220 V e garantia de 1 ano. O campo de inclinação regulável vem preenchido com um traço. Os 40 cm do nome do produto não aparecem em campo nenhum da ficha. A Mondial publica potência, velocidades, pás, oscilação, coluna ajustável, inclinação, peso, tensão, medidas e garantia. **Não publica diâmetro em campo nenhum** — o número de centímetros aparece só no nome do produto, sem dizer se é da grade ou da hélice — nem vazão nem consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0D9C2GQ9D",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D9C2GQ9D",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-nvt-40c-8p.webp",
+      "alt": "Ventilador de coluna Mondial NVT-40C-8P preto e prata, de 8 pás",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/ventilador-de-coluna-mondial-8-pas-turbo-40cm-nvt-40c-8p-b/p"
+    }
+  },
+  {
+    "slug": "mondial-vtx-40c-8p",
+    "nome": "Mondial Super Turbo VTX-40C-8P",
+    "marca": "Mondial",
+    "modelo": "VTX-40C-8P",
+    "categoria": "ventiladores",
+    "resumo": "Mesmos 140 W e oito pás do irmão, com 8 cm a mais de profundidade declarada — e nenhum dos dois diz quanto ar move.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": null,
+      "diametroHeliceCm": null,
+      "pas": 8,
+      "vazaoM3s": null,
+      "potenciaW": 140,
+      "consumoKwhMes": null,
+      "velocidades": 3,
+      "oscilante": true,
+      "controleRemoto": null,
+      "alturaAjustavel": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 5.7,
+      "dimensoesMm": "415 × 1500 × 495",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07Z51KP17"
+    },
+    "fontes": [
+      {
+        "id": "mondial-vtx40c-oficial",
+        "titulo": "Mondial VTX-40C-8P — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/ventilador-de-coluna-mondial-turbo-8-pas-40-cm-vtx-40c-8p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de coluna com 140 W, 8 pás, 3 velocidades, oscilante, coluna ajustável, inclinação regulável, 150 × 41,5 × 49,5 cm em altura × largura × profundidade, 5,700 kg, 127 V/220 V e garantia de 1 ano. A Mondial publica potência, velocidades, pás, oscilação, coluna ajustável, inclinação, peso, tensão, medidas e garantia. **Não publica diâmetro em campo nenhum** — o número de centímetros aparece só no nome do produto, sem dizer se é da grade ou da hélice — nem vazão nem consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07Z51KP17",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07Z51KP17",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-vtx-40c-8p.webp",
+      "alt": "Ventilador de coluna Mondial VTX-40C-8P preto e prata, de 8 pás",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/ventilador-de-coluna-mondial-turbo-8-pas-40-cm-vtx-40c-8p/p"
+    }
+  },
+  {
+    "slug": "mondial-vt-30c-nb",
+    "nome": "Mondial Turbo VT-30C-NB",
+    "marca": "Mondial",
+    "modelo": "VT-30C-NB",
+    "categoria": "ventiladores",
+    "resumo": "Cinquenta watts, o menor da lista. O nome do produto diz seis pás e o campo de pás da ficha traz um asterisco.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": null,
+      "diametroHeliceCm": null,
+      "pas": null,
+      "vazaoM3s": null,
+      "potenciaW": 50,
+      "consumoKwhMes": null,
+      "velocidades": 3,
+      "oscilante": true,
+      "controleRemoto": null,
+      "alturaAjustavel": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 5.3,
+      "dimensoesMm": "390 × 1460 × 354",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09B14NMHS"
+    },
+    "fontes": [
+      {
+        "id": "mondial-vt30c-oficial",
+        "titulo": "Mondial VT-30C-NB — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/ventilador-de-coluna-mondial-6-pas-turbo-vt-30c-nb/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de coluna com 50 W, 3 velocidades, oscilante, coluna ajustável, inclinação regulável, 146,00 × 39,00 × 35,40 — publicado sem unidade, ao contrário dos outros modelos da marca, que trazem centímetros —, 5,30 de peso, 127 V/220 V e garantia de 1 ano. O número de pás não entrou: ver a divergência. A Mondial publica potência, velocidades, pás, oscilação, coluna ajustável, inclinação, peso, tensão, medidas e garantia. **Não publica diâmetro em campo nenhum** — o número de centímetros aparece só no nome do produto, sem dizer se é da grade ou da hélice — nem vazão nem consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09B14NMHS",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09B14NMHS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "pas",
+        "fonteAdotada": "Mondial",
+        "valorDivergente": "um asterisco",
+        "fonteDivergente": "Mondial",
+        "observacao": "O campo “Quantidade de pás” da ficha está preenchido com um único asterisco, enquanto o nome do produto na mesma página diz “6 pás Turbo”. Asterisco não é valor, e o nome comercial não é campo de especificação — o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-vt-30c-nb.webp",
+      "alt": "Ventilador de coluna Mondial VT-30C-NB preto e prata, de 30 cm",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/ventilador-de-coluna-mondial-6-pas-turbo-vt-30c-nb/p"
+    }
+  },
+  {
+    "slug": "mondial-vtr-01-b",
+    "nome": "Mondial Air Tower VTR-01-B",
+    "marca": "Mondial",
+    "modelo": "VTR-01-B",
+    "categoria": "ventiladores",
+    "resumo": "Ventilador de torre: não tem hélice à mostra e a Mondial preenche os campos de pás e coluna com “N/A”. Quarenta e cinco watts e controle remoto na caixa.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Torre",
+      "diametroDeclaradoCm": null,
+      "diametroHeliceCm": null,
+      "pas": null,
+      "vazaoM3s": null,
+      "potenciaW": 45,
+      "consumoKwhMes": null,
+      "velocidades": 3,
+      "oscilante": true,
+      "controleRemoto": true,
+      "alturaAjustavel": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.8,
+      "dimensoesMm": "165 × 930 × 170",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "pas",
+      "diametroDeclaradoCm",
+      "diametroHeliceCm",
+      "alturaAjustavel"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FPYSTF2V"
+    },
+    "fontes": [
+      {
+        "id": "mondial-vtr01-oficial",
+        "titulo": "Mondial VTR-01-B Air Tower — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/ventilador-torre-mondial-air-tower-vtr-01-b-45w-preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de torre com 45 W, 3 velocidades e 3 modos de ventilação — normal, natural e noturno —, oscilante, 93 × 16,5 × 17 cm em altura × largura × profundidade, 2,8 kg, 127 V/220 V e garantia de 12 meses. O controle remoto está na lista de itens inclusos. Os campos de quantidade de pás e coluna ajustável vêm preenchidos com “N/A”, que aqui é a resposta correta: ventilador de torre não tem nenhum dos dois. A Mondial publica potência, velocidades, pás, oscilação, coluna ajustável, inclinação, peso, tensão, medidas e garantia. **Não publica diâmetro em campo nenhum** — o número de centímetros aparece só no nome do produto, sem dizer se é da grade ou da hélice — nem vazão nem consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0FPYSTF2V",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FPYSTF2V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-vtr-01-b.webp",
+      "alt": "Ventilador de torre Mondial Air Tower preto, alto e estreito",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/ventilador-torre-mondial-air-tower-vtr-01-b-45w-preto/p"
+    }
+  },
+  {
+    "slug": "britania-bvt450",
+    "nome": "Britânia Maxx Force BVT450",
+    "marca": "Britânia",
+    "modelo": "BVT450",
+    "categoria": "ventiladores",
+    "resumo": "Cento e sessenta watts e seis pás. A Britânia publica o diâmetro em campo próprio — e é a única marca da lista que publica o material das pás.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Coluna",
+      "diametroDeclaradoCm": 40,
+      "diametroHeliceCm": null,
+      "pas": 6,
+      "vazaoM3s": null,
+      "potenciaW": 160,
+      "consumoKwhMes": null,
+      "velocidades": null,
+      "oscilante": null,
+      "controleRemoto": null,
+      "alturaAjustavel": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CH8ZG6LC"
+    },
+    "fontes": [
+      {
+        "id": "britania-bvt450-oficial",
+        "titulo": "Britânia BVT450 — página oficial da Britânia",
+        "url": "https://www.britania.com.br/ventilador-bvt450-127v-033011181/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de coluna com 160 W, 6 pás de plástico, diâmetro de 40 cm, sem função repelente e garantia de 360 dias. A Britânia publica diâmetro, pás, potência, material das pás, função repelente e garantia. **Não publica se o diâmetro é da grade ou da hélice**, nem velocidades, oscilação, peso, medidas, cabo, vazão ou consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CH8ZG6LC",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CH8ZG6LC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bvt450.webp",
+      "alt": "Ventilador de coluna Britânia BVT450 preto, de 6 pás",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/ventilador-bvt450-127v-033011181/p"
+    }
+  },
+  {
+    "slug": "britania-bvt301",
+    "nome": "Britânia Maxx Force BVT301",
+    "marca": "Britânia",
+    "modelo": "BVT301",
+    "categoria": "ventiladores",
+    "resumo": "Ventilador 2 em 1 de mesa e parede, com 30 cm e 60 W — o mais econômico da lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Mesa e parede (2 em 1)",
+      "diametroDeclaradoCm": 30,
+      "diametroHeliceCm": null,
+      "pas": 6,
+      "vazaoM3s": null,
+      "potenciaW": 60,
+      "consumoKwhMes": null,
+      "velocidades": null,
+      "oscilante": null,
+      "controleRemoto": null,
+      "alturaAjustavel": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "alturaAjustavel"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CHBR96GK"
+    },
+    "fontes": [
+      {
+        "id": "britania-bvt301-oficial",
+        "titulo": "Britânia BVT301 — página oficial da Britânia",
+        "url": "https://www.britania.com.br/ventilador-bvt301-127v-033011170/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ventilador de mesa 2 em 1 com 60 W, 6 pás de plástico, diâmetro de 30 cm, sem função repelente e garantia de 360 dias. A Britânia publica diâmetro, pás, potência, material das pás, função repelente e garantia. **Não publica se o diâmetro é da grade ou da hélice**, nem velocidades, oscilação, peso, medidas, cabo, vazão ou consumo.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CHBR96GK",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CHBR96GK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bvt301.webp",
+      "alt": "Ventilador Britânia BVT301 preto, de mesa e parede",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/ventilador-bvt301-127v-033011170/p"
+    }
+  }
+]

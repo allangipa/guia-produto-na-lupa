@@ -141,6 +141,15 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "ventiladores",
+    nome: "Ventiladores",
+    descricao:
+      "Ventiladores de coluna, mesa e torre — com o diâmetro da hélice separado do diâmetro da grade, que é o número do anúncio.",
+    dorPrincipal: "O \"50 cm\" do anúncio é a grade. A hélice, que move o ar, tem 40.",
+    porQueParou:
+      "Fechou em dez. O nó de ventiladores é dividido em oito — coluna, mesa, torre, parede, teto, chão, circulador e de grampo — e aqui entraram coluna, mesa e torre. Mondial, Britânia, Arno, WAP e Mallory publicam ficha e entraram; a Ventisol aparece bem colocada nos três nós e o site dela não responde à API. Vários modelos do ranking não casaram com o catálogo do fabricante pelo código, e não entram sem isso.",
+  },
+  {
     slug: "espremedores",
     nome: "Espremedores de frutas",
     descricao:

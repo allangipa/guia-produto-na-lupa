@@ -3556,6 +3556,174 @@ export const camposSmartwatch: Campo[] = [
   },
 ];
 
+/**
+ * Ventiladores.
+ *
+ * O "50 cm" do anúncio **é a grade, não a hélice**. Duas marcas desta lista
+ * publicam as duas medidas em campos separados — WAP e Mallory — e nas duas o
+ * produto vendido como 50 cm tem hélice de 40. As outras publicam um número só,
+ * no nome do produto, sem dizer qual dos dois ele é: por isso a coluna se chama
+ * "diâmetro declarado" e existe uma segunda coluna só para a hélice.
+ *
+ * O segundo buraco é a **vazão**. É o número que diz quanto ar sai de verdade,
+ * e uma marca em cinco publica. O resto oferece watts, que medem o que entra
+ * pela tomada, e contagem de pás, que não se compara entre desenhos diferentes.
+ */
+export const camposVentilador: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "diametroDeclaradoCm",
+    rotulo: "Diâmetro declarado",
+    grupo: "Hélice",
+    tipo: "numero",
+    unidade: "cm",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O número que a marca publica — e a maioria não diz se é da grade ou da hélice. Onde as duas medidas existem, a diferença é de 10 cm.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "diametroHeliceCm",
+    rotulo: "Diâmetro da hélice",
+    grupo: "Hélice",
+    tipo: "numero",
+    unidade: "cm",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "A medida que move ar. Num ventilador anunciado como 50 cm, costuma ser 40.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pas",
+    rotulo: "Pás",
+    grupo: "Hélice",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Mais pás não significa mais vento: o desenho e o ângulo mudam tudo, e nenhuma marca publica isso.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "vazaoM3s",
+    rotulo: "Vazão de ar",
+    grupo: "Desempenho",
+    tipo: "numero",
+    unidade: "m³/s",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quanto ar o ventilador move. É o único número que compara desenhos diferentes, e uma marca em cinco publica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Desempenho",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Mede o que entra pela tomada, não o que sai de vento.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoKwhMes",
+    rotulo: "Consumo por mês",
+    grupo: "Desempenho",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidades",
+    rotulo: "Velocidades",
+    grupo: "Uso",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "oscilante",
+    rotulo: "Oscilante",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "controleRemoto",
+    rotulo: "Controle remoto",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alturaAjustavel",
+    rotulo: "Altura ajustável",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
@@ -3567,6 +3735,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   espremedores: camposEspremedor,
   lavaloucas: camposLavaLouca,
   smartwatches: camposSmartwatch,
+  ventiladores: camposVentilador,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -3795,6 +3964,13 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   altoFalante: "onda",
   gps: "regua",
   compatibilidade: "celular",
+  diametroDeclaradoCm: "regua",
+  diametroHeliceCm: "regua",
+  pas: "onda",
+  vazaoM3s: "onda",
+  oscilante: "seta",
+  controleRemoto: "controle",
+  alturaAjustavel: "regua",
 };
 
 export function iconeDo(chave: string): string {
@@ -3824,6 +4000,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   espremedores: "gota",
   lavaloucas: "gota",
   smartwatches: "relogio",
+  ventiladores: "onda",
   eletrodomesticos: "raio",
 };
 
@@ -3970,6 +4147,11 @@ const ROTULO_CURTO: Record<string, string> = {
   autonomiaIntensaDias: "Uso intenso",
   resistenciaAgua: "Água",
   altoFalante: "Som",
+  diametroDeclaradoCm: "Diâmetro",
+  diametroHeliceCm: "Hélice",
+  vazaoM3s: "Vazão",
+  controleRemoto: "Remoto",
+  alturaAjustavel: "Altura aj.",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -4007,6 +4189,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   espremedores: ["capacidadeJarraL", "cones", "rotacaoAlternada"],
   lavaloucas: ["servicos", "consumoAguaL", "tipoInstalacao"],
   smartwatches: ["autonomiaTipicaDias", "autonomiaIntensaDias", "telaPol"],
+  ventiladores: ["diametroHeliceCm", "vazaoM3s", "potenciaW"],
 };
 
 export function destaquesDa(categoria: string): string[] {
