@@ -143,6 +143,52 @@ export function schemaComparativo(c: {
   };
 }
 
+/**
+ * Pagina de categoria: CollectionPage com a ItemList dos produtos dentro.
+ *
+ * `CollectionPage`, e nao `ItemList` solto, porque a pagina e mais do que a
+ * lista — tem a descricao da categoria, a pergunta que a guia e, quando existe,
+ * a nota de por que ela parou no numero em que parou. A lista e o conteudo
+ * principal, e e isso que `mainEntity` quer dizer.
+ *
+ * Os produtos entram com nome, marca, URL e foto — nada de preco, que o site
+ * ainda nao publica, e nada de `aggregateRating`, pela mesma razao de sempre:
+ * agregado exige avaliacao real de terceiro coletada aqui.
+ */
+export function schemaCategoria(
+  cat: { slug: string; nome: string; descricao: string },
+  produtos: {
+    slug: string;
+    nome: string;
+    marca: string;
+    imagem?: { src: string };
+  }[],
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: cat.nome,
+    description: cat.descricao,
+    url: `${site.url}/categorias/${cat.slug}/`,
+    isPartOf: { "@type": "WebSite", name: site.nome, url: site.url },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: produtos.length,
+      itemListElement: produtos.map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${site.url}/produtos/${p.slug}/`,
+        item: {
+          "@type": "Product",
+          name: p.nome,
+          brand: { "@type": "Brand", name: p.marca },
+          ...(p.imagem ? { image: `${site.url}${p.imagem.src}` } : {}),
+        },
+      })),
+    },
+  };
+}
+
 export function schemaBreadcrumb(trilha: { nome: string; url: string }[]) {
   return {
     "@context": "https://schema.org",

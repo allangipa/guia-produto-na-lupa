@@ -3,6 +3,8 @@ import Link from "next/link";
 import { categoria as buscar } from "@/lib/categorias";
 import { navegacao } from "@/lib/navegacao";
 import { Icone } from "@/components/icones";
+import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Todas as categorias",
@@ -30,6 +32,38 @@ export default function PaginaCategorias() {
 
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-12">
+      {/* O indice e um mapa do site: a ItemList aqui lista categorias, nao
+          produtos — as fichas ja estao declaradas na pagina de cada uma, e
+          repeti-las aqui inflaria a marcacao sem dizer nada novo. */}
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "Todas as categorias",
+          description: `${total} fichas técnicas oficiais em ${grupos.length} departamentos.`,
+          url: `${site.url}/categorias/`,
+          isPartOf: { "@type": "WebSite", name: site.nome, url: site.url },
+          mainEntity: {
+            "@type": "ItemList",
+            numberOfItems: grupos.reduce((n, g) => n + g.itens.length, 0),
+            itemListElement: grupos
+              .flatMap((g) => g.itens)
+              .map((i, n) => ({
+                "@type": "ListItem",
+                position: n + 1,
+                name: i.nome,
+                url: `${site.url}/categorias/${i.slug}/`,
+              })),
+          },
+        }}
+      />
+      <JsonLd
+        data={schemaBreadcrumb([
+          { nome: "Início", url: "/" },
+          { nome: "Categorias", url: "/categorias" },
+        ])}
+      />
+
       <h1 className="titulo-ui text-3xl tracking-tight">Todas as categorias</h1>
       <p className="mt-3 max-w-[62ch] text-lg text-tinta-suave">
         {total} fichas em {grupos.length} departamentos. O número embaixo de

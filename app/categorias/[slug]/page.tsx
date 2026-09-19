@@ -6,6 +6,7 @@ import { conteudoDaCategoria } from "@/lib/conteudo";
 import { recortesDaCategoria, produtosDoRecorte } from "@/lib/recortes";
 import { produtosDaCategoria, camposDa } from "@/lib/produtos";
 import { tituloSeo, ogImagem } from "@/lib/site";
+import { JsonLd, schemaCategoria, schemaBreadcrumb } from "@/lib/schema";
 import { Buscador } from "@/components/buscador";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -83,6 +84,22 @@ export default async function PaginaCategoria({ params }: Params) {
   // caracteres, que é o que mantém a leitura confortável numa página larga.
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-12">
+      {/* Categoria vazia entra com `noindex` la em cima; marcar uma pagina que
+          pede para nao ser indexada e trabalho jogado fora, e uma ItemList de
+          zero itens nao descreve nada. */}
+      {!vazio && (
+        <>
+          <JsonLd data={schemaCategoria(c, produtos)} />
+          <JsonLd
+            data={schemaBreadcrumb([
+              { nome: "Início", url: "/" },
+              { nome: "Categorias", url: "/categorias" },
+              { nome: c.nome, url: `/categorias/${c.slug}` },
+            ])}
+          />
+        </>
+      )}
+
       <h1 className="titulo-ui text-3xl tracking-tight">{c.nome}</h1>
       <p className="mt-3 max-w-[62ch] text-lg text-tinta-suave">{c.descricao}</p>
       <p className="mt-4 max-w-[62ch] border-l-[3px] border-acao pl-4 text-tinta-suave">
