@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categorias, categoria as buscar } from "@/lib/categorias";
 import { produtosDaCategoria, camposDa } from "@/lib/produtos";
-import { ogImagem } from "@/lib/site";
+import { tituloSeo, ogImagem } from "@/lib/site";
 import { Comparador } from "@/components/comparador";
 
 type Params = { params: Promise<{ categoria: string }> };
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const c = buscar(categoria);
   if (!c) return {};
   return {
-    title: `Comparar ${c.nome.toLowerCase()}`,
+    title: tituloSeo(`Comparar ${c.nome.toLowerCase()}`),
     description: `Compare lado a lado a ficha técnica oficial de ${c.nome.toLowerCase()}, na mesma unidade, com a transparência de cada marca medida campo por campo.`,
     alternates: { canonical: `/comparar/${c.slug}` },
     // Fora do indice, mas nao fora das conversas: o link daqui e compartilhado

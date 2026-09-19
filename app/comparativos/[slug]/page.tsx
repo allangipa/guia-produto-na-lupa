@@ -8,7 +8,7 @@ import {
   fotoDaBase,
 } from "@/lib/conteudo";
 import { JsonLd, schemaComparativo, schemaBreadcrumb } from "@/lib/schema";
-import { ogImagem } from "@/lib/site";
+import { tituloSeo, ogImagem } from "@/lib/site";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const c = comparativo(slug);
   if (!c) return {};
   return {
-    title: c.titulo,
+    title: tituloSeo(c.tituloCurto ?? c.titulo),
     description: c.subtitulo,
     alternates: { canonical: `/comparativos/${c.slug}` },
     // A arte de capa é sobretudo isto: o que aparece quando alguém cola o link

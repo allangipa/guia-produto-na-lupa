@@ -5,7 +5,7 @@ import { categorias, categoria as buscar } from "@/lib/categorias";
 import { conteudoDaCategoria } from "@/lib/conteudo";
 import { recortesDaCategoria, produtosDoRecorte } from "@/lib/recortes";
 import { produtosDaCategoria, camposDa } from "@/lib/produtos";
-import { ogImagem } from "@/lib/site";
+import { tituloSeo, ogImagem } from "@/lib/site";
 import { Buscador } from "@/components/buscador";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     !comparativos.length &&
     !produtosDaCategoria(c.slug).length;
   return {
-    title: c.nome,
+    title: tituloSeo(c.nome),
     description: c.descricao,
     alternates: { canonical: `/categorias/${c.slug}` },
     // Categoria sem conteúdo é página fina: fica fora do índice até ter o que mostrar.

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { review, todosOsReviews, dataLegivel, fotoDaBase } from "@/lib/conteudo";
-import { ogImagem, site } from "@/lib/site";
+import { tituloSeo, ogImagem, site } from "@/lib/site";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { VereditoRapido, EscalaCriterios } from "@/components/veredito";
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const r = review(slug);
   if (!r) return {};
   return {
-    title: r.titulo,
+    title: tituloSeo(r.tituloCurto ?? r.titulo),
     description: r.subtitulo,
     alternates: { canonical: `/reviews/${r.slug}` },
     openGraph: {

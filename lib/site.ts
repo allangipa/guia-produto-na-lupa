@@ -76,3 +76,35 @@ export function linkAmazon(url: string): string {
 export function ogImagem(img?: { src: string; alt: string }) {
   return img ? { images: [{ url: img.src, alt: img.alt }] } : {};
 }
+
+/**
+ * O <title> que vai para o resultado de busca.
+ *
+ * O <title> e o <h1> sao coisas diferentes e nao precisam ser iguais: o
+ * primeiro e o anuncio no Google, o segundo e o comeco da leitura. O site
+ * usava o mesmo texto nos dois, e 320 das 566 paginas passavam de 65
+ * caracteres — cortadas no meio no resultado, o que custa clique.
+ *
+ * Em 290 delas a culpa era so do sufixo " | Guia Produto na Lupa", que come 22
+ * caracteres. Entao o sufixo passa a ser condicional: entra quando cabe, sai
+ * quando nao cabe. A marca aparece no dominio e na trilha; titulo truncado nao
+ * ajuda ninguem.
+ *
+ * Devolve `{ absolute }` para escapar do `title.template` do layout, que e
+ * estatico e nao sabe medir.
+ *
+ * As paginas de titulo editorial longo — comparativo e analise — nao se
+ * resolvem por aqui: cortar frase por regra produz titulo feio. Essas tem
+ * `tituloCurto` escrito a mao no frontmatter.
+ */
+export const LIMITE_TITULO = 60;
+const SUFIXO = ` | ${site.nome}`;
+
+export function tituloSeo(t: string) {
+  return t.length + SUFIXO.length <= LIMITE_TITULO ? t : { absolute: t };
+}
+
+/** Passa de `LIMITE_TITULO` mesmo sem o sufixo? Entao precisa de titulo curto. */
+export function tituloLongoDemais(t: string) {
+  return t.length > LIMITE_TITULO;
+}

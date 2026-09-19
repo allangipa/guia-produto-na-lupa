@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { todosOsProdutos } from "./produtos";
+import { LIMITE_TITULO } from "./site";
 
 export type Loja = {
   amazon?: string;
@@ -79,6 +80,19 @@ export type Review = {
   slug: string;
   categoria: string;
   titulo: string;
+  /**
+   * O <title> do resultado de busca, quando o titulo editorial nao cabe nele.
+   *
+   * O <h1> continua sendo o `titulo` inteiro — quem abre a pagina le a frase
+   * completa. Isto aqui e so o anuncio no Google, que corta perto de 60
+   * caracteres. Cortar a frase por regra automatica produz titulo truncado
+   * feio; escrever um curto a mao produz titulo que funciona.
+   *
+   * Obrigatorio quando `titulo` passa de 60 caracteres: o `verificar()` no fim
+   * do arquivo quebra o build sem ele, para nao voltar a ter 320 paginas com o
+   * titulo cortado no meio.
+   */
+  tituloCurto?: string;
   subtitulo: string;
   publicadoEm: string;
   atualizadoEm: string;
@@ -100,6 +114,19 @@ export type Comparativo = {
   slug: string;
   categoria: string;
   titulo: string;
+  /**
+   * O <title> do resultado de busca, quando o titulo editorial nao cabe nele.
+   *
+   * O <h1> continua sendo o `titulo` inteiro — quem abre a pagina le a frase
+   * completa. Isto aqui e so o anuncio no Google, que corta perto de 60
+   * caracteres. Cortar a frase por regra automatica produz titulo truncado
+   * feio; escrever um curto a mao produz titulo que funciona.
+   *
+   * Obrigatorio quando `titulo` passa de 60 caracteres: o `verificar()` no fim
+   * do arquivo quebra o build sem ele, para nao voltar a ter 320 paginas com o
+   * titulo cortado no meio.
+   */
+  tituloCurto?: string;
   subtitulo: string;
   publicadoEm: string;
   atualizadoEm: string;
@@ -129,6 +156,19 @@ export type Guia = {
   slug: string;
   categoria: string;
   titulo: string;
+  /**
+   * O <title> do resultado de busca, quando o titulo editorial nao cabe nele.
+   *
+   * O <h1> continua sendo o `titulo` inteiro — quem abre a pagina le a frase
+   * completa. Isto aqui e so o anuncio no Google, que corta perto de 60
+   * caracteres. Cortar a frase por regra automatica produz titulo truncado
+   * feio; escrever um curto a mao produz titulo que funciona.
+   *
+   * Obrigatorio quando `titulo` passa de 60 caracteres: o `verificar()` no fim
+   * do arquivo quebra o build sem ele, para nao voltar a ter 320 paginas com o
+   * titulo cortado no meio.
+   */
+  tituloCurto?: string;
   subtitulo: string;
   publicadoEm: string;
   atualizadoEm: string;
@@ -276,6 +316,44 @@ export function review(slug: string): Review | undefined {
 export function comparativo(slug: string): Comparativo | undefined {
   return todosOsComparativos().find((c) => c.slug === slug);
 }
+
+/**
+ * Cobra `tituloCurto` em todo conteudo cujo titulo nao cabe no resultado de
+ * busca. Quebra o build de proposito, pela mesma razao dos outros
+ * `verificar()` do projeto: titulo cortado no meio nao aparece errado na tela,
+ * so no Google — ninguem descobre olhando o site.
+ */
+function verificarTitulos() {
+  const longos: string[] = [];
+  const curtoAindaLongo: string[] = [];
+  const tudo = [
+    ...todosOsComparativos().map((c) => ({ o: "comparativo", ...c })),
+    ...todosOsReviews().map((r) => ({ o: "review", ...r })),
+    ...todosOsGuias().map((g) => ({ o: "guia", ...g })),
+  ];
+  for (const x of tudo) {
+    if (x.titulo.length > LIMITE_TITULO && !x.tituloCurto) {
+      longos.push(`${x.o} "${x.slug}" (${x.titulo.length} caracteres)`);
+    }
+    if (x.tituloCurto && x.tituloCurto.length > LIMITE_TITULO) {
+      curtoAindaLongo.push(`${x.o} "${x.slug}" (${x.tituloCurto.length})`);
+    }
+  }
+  if (longos.length) {
+    throw new Error(
+      `Conteudo com titulo acima de ${LIMITE_TITULO} caracteres e sem \`tituloCurto\` no frontmatter: ` +
+        `${longos.join("; ")}. O <h1> continua com o titulo inteiro; o \`tituloCurto\` e so o <title> do Google, ` +
+        `que corta perto dai.`,
+    );
+  }
+  if (curtoAindaLongo.length) {
+    throw new Error(
+      `\`tituloCurto\` acima de ${LIMITE_TITULO} caracteres: ${curtoAindaLongo.join("; ")}.`,
+    );
+  }
+}
+
+verificarTitulos();
 
 export function dataLegivel(iso: string): string {
   return new Date(`${iso}T12:00:00`).toLocaleDateString("pt-BR", {

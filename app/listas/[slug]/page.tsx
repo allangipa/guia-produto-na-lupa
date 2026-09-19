@@ -7,7 +7,7 @@ import { camposDa } from "@/lib/produtos";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
 import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
-import { ogImagem, site } from "@/lib/site";
+import { tituloSeo, ogImagem, site } from "@/lib/site";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const r = buscar(slug);
   if (!r) return {};
   return {
-    title: r.titulo,
+    title: tituloSeo(r.titulo),
     description: r.subtitulo,
     alternates: { canonical: `/listas/${r.slug}` },
     openGraph: {

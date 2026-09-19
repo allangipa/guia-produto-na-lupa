@@ -13,7 +13,7 @@ import {
   valorLegivel,
 } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
-import { ogImagem } from "@/lib/site";
+import { ogImagem, tituloLongoDemais, tituloSeo } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { conteudoDoProduto, dataLegivel } from "@/lib/conteudo";
 import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
@@ -42,7 +42,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const p = buscarProduto(slug);
   if (!p) return {};
   return {
-    title: `${p.nome}: ficha técnica oficial`,
+    // "Nome: ficha tecnica oficial" e o titulo que se quer no resultado. Em seis
+    // produtos de nome comprido ele estoura o limite, e ai o sufixo descritivo
+    // sai e fica o nome — que e o que a pessoa digitou na busca.
+    title: tituloSeo(
+      tituloLongoDemais(`${p.nome}: ficha técnica oficial`)
+        ? p.nome
+        : `${p.nome}: ficha técnica oficial`,
+    ),
     description: p.resumo,
     alternates: { canonical: `/produtos/${p.slug}` },
     openGraph: {

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { guia, todosOsGuias, dataLegivel, fotoDaBase } from "@/lib/conteudo";
-import { ogImagem } from "@/lib/site";
+import { tituloSeo, ogImagem } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const g = guia(slug);
   if (!g) return {};
   return {
-    title: g.titulo,
+    title: tituloSeo(g.tituloCurto ?? g.titulo),
     description: g.subtitulo,
     alternates: { canonical: `/guias/${g.slug}` },
     openGraph: {

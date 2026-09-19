@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { tituloSeo } from "@/lib/site";
 import Link from "next/link";
 import { categorias } from "@/lib/categorias";
 import {
@@ -13,7 +14,7 @@ import { Icone } from "@/components/icones";
 import { dataLegivel } from "@/lib/conteudo";
 
 export const metadata: Metadata = {
-  title: "Ranking de transparência: quem publica a ficha inteira",
+  title: tituloSeo("Ranking de transparência: quem publica a ficha inteira"),
   description:
     "Quanto da ficha técnica cada fabricante publica na própria página, marca por marca e produto por produto. Sem nota nossa: ou o dado está publicado, ou não está.",
   alternates: { canonical: "/transparencia" },
