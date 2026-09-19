@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
-import { review, todosOsReviews, dataLegivel } from "@/lib/conteudo";
-import { site } from "@/lib/site";
+import { review, todosOsReviews, dataLegivel, fotoDaBase } from "@/lib/conteudo";
+import { ogImagem, site } from "@/lib/site";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { VereditoRapido, EscalaCriterios } from "@/components/veredito";
@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       type: "article",
       publishedTime: r.publicadoEm,
       modifiedTime: r.atualizadoEm,
+      ...ogImagem(r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome])),
     },
   };
 }

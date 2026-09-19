@@ -26,6 +26,16 @@ import { Icone } from "@/components/icones";
  */
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
+  // A capa da home e a foto do produto que a propria faixa destaca. Sai do
+  // mesmo lugar que a faixa le, entao acompanha sozinha quando o destaque muda
+  // — e nao ha arte generica inventada so para preencher o campo.
+  openGraph: (() => {
+    const l = lancamentos[0];
+    const p = l && todosOsProdutos().find((x) => x.slug === l.slugProduto);
+    return p?.imagem
+      ? { images: [{ url: p.imagem.src, alt: p.imagem.alt }] }
+      : {};
+  })(),
 };
 
 /**

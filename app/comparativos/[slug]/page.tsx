@@ -5,8 +5,10 @@ import {
   comparativo,
   todosOsComparativos,
   dataLegivel,
+  fotoDaBase,
 } from "@/lib/conteudo";
 import { JsonLd, schemaComparativo, schemaBreadcrumb } from "@/lib/schema";
+import { ogImagem } from "@/lib/site";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
@@ -29,10 +31,22 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     description: c.subtitulo,
     alternates: { canonical: `/comparativos/${c.slug}` },
     // A arte de capa é sobretudo isto: o que aparece quando alguém cola o link
-    // numa conversa. Sem ela, a rede escolhe sozinha um pedaço da página.
-    ...(c.imagem
-      ? { openGraph: { images: [{ url: c.imagem.src, alt: c.imagem.alt }] } }
-      : {}),
+    // numa conversa. Sem ela, a rede escolhe sozinha um pedaço da página — por
+    // isso, na falta da arte, entra a foto do primeiro produto comparado.
+    openGraph: {
+      title: c.titulo,
+      description: c.subtitulo,
+      type: "article",
+      publishedTime: c.publicadoEm,
+      modifiedTime: c.atualizadoEm,
+      ...ogImagem(
+        c.imagem ??
+          fotoDaBase(
+            c.concorrentes.map((x) => x.lojas),
+            c.concorrentes.map((x) => x.nome),
+          ),
+      ),
+    },
   };
 }
 

@@ -13,6 +13,7 @@ import {
   valorLegivel,
 } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
+import { ogImagem } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { conteudoDoProduto, dataLegivel } from "@/lib/conteudo";
 import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
@@ -44,6 +45,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: `${p.nome}: ficha técnica oficial`,
     description: p.resumo,
     alternates: { canonical: `/produtos/${p.slug}` },
+    openGraph: {
+      title: `${p.nome}: ficha técnica oficial`,
+      description: p.resumo,
+      ...ogImagem(p.imagem),
+    },
   };
 }
 

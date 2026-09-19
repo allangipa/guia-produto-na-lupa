@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categorias, categoria as buscar } from "@/lib/categorias";
 import { produtosDaCategoria, camposDa } from "@/lib/produtos";
+import { ogImagem } from "@/lib/site";
 import { Comparador } from "@/components/comparador";
 
 type Params = { params: Promise<{ categoria: string }> };
@@ -25,6 +26,18 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: `Comparar ${c.nome.toLowerCase()}`,
     description: `Compare lado a lado a ficha técnica oficial de ${c.nome.toLowerCase()}, na mesma unidade, com a transparência de cada marca medida campo por campo.`,
     alternates: { canonical: `/comparar/${c.slug}` },
+    // Fora do indice, mas nao fora das conversas: o link daqui e compartilhado
+    // como qualquer outro, e sem capa vira retangulo vazio.
+    openGraph: {
+      title: `Comparar ${c.nome.toLowerCase()}`,
+      ...ogImagem(produtosDaCategoria(c.slug).find((p) => p.imagem)?.imagem),
+    },
+    // Fora do índice, de propósito. Esta página mostra os mesmos produtos de
+    // /categorias/<slug> num comparador interativo: são duas URLs indexáveis
+    // cobrindo o mesmo conjunto, e das duas o buscador escolheria uma — sem
+    // garantia de ser a certa. A categoria é a página de conteúdo; esta é a
+    // ferramenta. `follow` fica ligado para o link daqui continuar valendo.
+    robots: { index: false, follow: true },
   };
 }
 

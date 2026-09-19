@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { todosOsProdutos } from "./produtos";
 
 export type Loja = {
   amazon?: string;
@@ -233,6 +234,39 @@ export function conteudoDoProduto(amazonUrl?: string) {
       g.escolhas.some((e) => asinDe(e.lojas.amazon) === alvo),
     ),
   };
+}
+
+/**
+ * A foto oficial que a base tem para o produto de um conteúdo, achada pelo ASIN.
+ *
+ * O frontmatter dos MDX não carrega imagem — o produto lá é só nome, marca,
+ * linha de resumo e lojas. A foto, com crédito e origem, vive em `dados/`. Sem
+ * esta ponte, comparativos, análises e guias saiam sem `og:image`: 32 páginas
+ * compartilhadas como retângulo vazio, com a foto parada a um ASIN de distância.
+ *
+ * Aceita vários produtos e devolve a primeira foto encontrada, porque num
+ * comparativo qualquer um dos dois serve de capa.
+ */
+export function fotoDaBase(
+  lojas: (Loja | undefined)[],
+  nomes: string[] = [],
+): Imagem | undefined {
+  const base = todosOsProdutos();
+  for (const l of lojas) {
+    const alvo = asinDe(l?.amazon);
+    if (!alvo) continue;
+    const achado = base.find((p) => asinDe(p.lojas.amazon) === alvo);
+    if (achado?.imagem) return achado.imagem;
+  }
+  // Reserva: nome exato. Produto sem link de loja — os WAP, por exemplo — nao
+  // tem ASIN para casar, e o nome no MDX e o mesmo que esta em `dados/` porque
+  // os dois sao escritos aqui. Exato de proposito: normalizar nome foi testado
+  // e erra em 56 de 131 referencias.
+  for (const n of nomes) {
+    const achado = base.find((p) => p.nome === n);
+    if (achado?.imagem) return achado.imagem;
+  }
+  return undefined;
 }
 
 export function review(slug: string): Review | undefined {

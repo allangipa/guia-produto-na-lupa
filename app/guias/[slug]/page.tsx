@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
-import { guia, todosOsGuias, dataLegivel } from "@/lib/conteudo";
+import { guia, todosOsGuias, dataLegivel, fotoDaBase } from "@/lib/conteudo";
+import { ogImagem } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { componentesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
@@ -25,6 +26,16 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: g.titulo,
     description: g.subtitulo,
     alternates: { canonical: `/guias/${g.slug}` },
+    openGraph: {
+      title: g.titulo,
+      description: g.subtitulo,
+      ...ogImagem(
+        fotoDaBase(
+          g.escolhas.map((e) => e.lojas),
+          g.escolhas.map((e) => e.produto),
+        ),
+      ),
+    },
   };
 }
 

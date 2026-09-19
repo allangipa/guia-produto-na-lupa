@@ -57,3 +57,22 @@ export function linkAmazon(url: string): string {
     return url;
   }
 }
+
+/**
+ * A imagem que aparece quando alguem cola o link numa conversa.
+ *
+ * Existia em 1 das 566 paginas: todo link compartilhado do site saia como um
+ * retangulo vazio no WhatsApp e nas redes, com 463 fotos licenciadas de
+ * fabricante paradas nas fichas. Nao muda ranking — muda quantas pessoas
+ * clicam no link que alguem passou adiante.
+ *
+ * Devolve `{}` quando nao ha foto, de proposito: pagina sem imagem propria
+ * herda so o que o layout define, e o site nao inventa uma arte generica para
+ * fingir que tem.
+ *
+ * `metadataBase` no layout resolve o caminho relativo para absoluto, que e o
+ * que as redes exigem.
+ */
+export function ogImagem(img?: { src: string; alt: string }) {
+  return img ? { images: [{ url: img.src, alt: img.alt }] } : {};
+}

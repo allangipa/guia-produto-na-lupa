@@ -27,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/reviews",
     "/comparativos",
     "/listas",
+    "/categorias",
     "/transparencia",
     "/metodologia",
     "/sobre",
@@ -52,12 +53,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Uma página de comparação por categoria com base preenchida. As combinações
   // ficam na query string, que o Google não indexa como páginas separadas.
-  const comparadores = categorias
-    .filter((c) => produtosDaCategoria(c.slug).length > 0)
-    .map((c) => ({
-      url: u(`/comparar/${c.slug}`),
-      lastModified: new Date(),
-    }));
+  // As paginas de /comparar sairam do sitemap junto com o `noindex` delas:
+  // pedir indexacao de uma URL marcada para nao indexar e sinal contraditorio.
+  // Elas continuam alcancaveis por link, e o `follow` mantem o valor do link.
 
   const fichas = todosOsProdutos().map((p) => ({
     url: u(`/produtos/${p.slug}`),
@@ -84,5 +82,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 
-  return [...fixas, ...cats, ...comparadores, ...fichas, ...conteudo, ...listas];
+  return [...fixas, ...cats, ...fichas, ...conteudo, ...listas];
 }

@@ -7,7 +7,7 @@ import { camposDa } from "@/lib/produtos";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
 import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
-import { site } from "@/lib/site";
+import { ogImagem, site } from "@/lib/site";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -23,6 +23,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: r.titulo,
     description: r.subtitulo,
     alternates: { canonical: `/listas/${r.slug}` },
+    openGraph: {
+      title: r.titulo,
+      description: r.subtitulo,
+      ...ogImagem(produtosDoRecorte(r).find((p) => p.imagem)?.imagem),
+    },
   };
 }
 
