@@ -1,0 +1,1210 @@
+[
+  {
+    "slug": "wap-l-profi-4000",
+    "nome": "WAP L Profi 4000",
+    "marca": "WAP",
+    "modelo": "FW006927",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "O topo da lista: 4.350 psi e 1.140 L/h, motor de indução trifásico e 77 kg. É três vezes a pressão e quatro vezes a vazão da lavadora doméstica mais comum.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 4350,
+      "pressaoDeclarada": "4350 PSI",
+      "vazaoLh": 1140,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 7500,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 10.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 77.2,
+      "dimensoesMm": "86 x 56 x 93 cm",
+      "tensao": "380V Tri",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-l-profi-4000-oficial",
+        "titulo": "WAP L Profi 4000 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-7500w-4350psi-wap-l-profi-4000/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **4350 PSI**, vazão de **1140 L/h**, 7500 W, motor indução, mangueira de 10 m, cabo de 5 m, 77.2 kg. Código do produto: FW006927 (380V Tri).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-l-profi-4000.webp",
+      "alt": "Lavadora de alta pressão WAP L Profi 4000 amarela e preta, sobre chassi de rodas, com a bomba à vista",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-7500w-4350psi-wap-l-profi-4000/p"
+    }
+  },
+  {
+    "slug": "wap-maxi-plus-1800",
+    "nome": "WAP Maxi Plus 1800",
+    "marca": "WAP",
+    "modelo": "FW004214",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.610 psi e 520 L/h. A L Profi 2000, com 900 psi a menos, joga 230 litros por hora a mais — pressão e vazão andam soltas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2610,
+      "pressaoDeclarada": "2610 PSI",
+      "vazaoLh": 520,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 2700,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 10.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 34.0,
+      "dimensoesMm": "69 x 44 x 83 cm",
+      "tensao": "220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-maxi-plus-1800-oficial",
+        "titulo": "WAP Maxi Plus 1800 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2700w-2610psi-wap-maxi-plus-1800/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2610 PSI**, vazão de **520 L/h**, 2700 W, motor indução, mangueira de 10 m, cabo de 5 m, 34 kg. Código do produto: FW004214 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-maxi-plus-1800.webp",
+      "alt": "Lavadora de alta pressão WAP Maxi Plus 1800 amarela e preta, sobre chassi de rodas",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2700w-2610psi-wap-maxi-plus-1800/p"
+    }
+  },
+  {
+    "slug": "wap-l-profi-2500",
+    "nome": "WAP L Profi 2500",
+    "marca": "WAP",
+    "modelo": "FW005860",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.500 psi e 700 L/h com motor de indução. Entre as profissionais, é a que melhor equilibra os dois números.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2500,
+      "pressaoDeclarada": "2500 PSI",
+      "vazaoLh": 700,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 3200,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 10.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 41.0,
+      "dimensoesMm": "87 x 46 x 79 cm",
+      "tensao": "220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-l-profi-2500-oficial",
+        "titulo": "WAP L Profi 2500 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-3200w-2500psi-wap-l-profi-2500/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2500 PSI**, vazão de **700 L/h**, 3200 W, motor indução, mangueira de 10 m, cabo de 5 m, 41 kg. Código do produto: FW005860 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-l-profi-2500.webp",
+      "alt": "Lavadora de alta pressão WAP L Profi 2500 amarela e preta, sobre chassi de rodas",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-3200w-2500psi-wap-l-profi-2500/p"
+    }
+  },
+  {
+    "slug": "wap-extreme-turbo-2800",
+    "nome": "WAP Extreme Turbo 2800",
+    "marca": "WAP",
+    "modelo": "FW006755",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.450 psi com motor de indução num corpo de 15,8 kg. A vazão é de 360 L/h, a mesma de aparelhos com mil psi a menos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2450,
+      "pressaoDeclarada": "2450 PSI",
+      "vazaoLh": 360,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 1900,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 15.8,
+      "dimensoesMm": "29 x 30 x 76 cm",
+      "tensao": "127V ou 220V (escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-extreme-turbo-2800-oficial",
+        "titulo": "WAP Extreme Turbo 2800 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1900w-2450psi-wap-extreme-turbo-2800/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2450 PSI**, vazão de **360 L/h**, 1900 W, motor indução, mangueira de 5 m, cabo de 5 m, 15.8 kg. Código do produto: FW006755 (127V) / FW006756 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-extreme-turbo-2800.webp",
+      "alt": "Lavadora de alta pressão WAP Extreme Turbo 2800 amarela e preta, com carrinho e mangueira enrolada",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1900w-2450psi-wap-extreme-turbo-2800/p"
+    }
+  },
+  {
+    "slug": "wap-premium-2600",
+    "nome": "WAP Premium 2600",
+    "marca": "WAP",
+    "modelo": "31020011",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.400 psi e 360 L/h. Mesma vazão da Combate de 2.100 psi e da Lídy de 1.800 — três patamares de pressão, um só de água.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2400,
+      "pressaoDeclarada": "2400 PSI",
+      "vazaoLh": 360,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 1900,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 15.2,
+      "dimensoesMm": "34,5 x 26,5 x 74,5 cm",
+      "tensao": "127V ou 220V (escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-premium-2600-oficial",
+        "titulo": "WAP Premium 2600 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1900w-2400psi-wap-premium-2600/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2400 PSI**, vazão de **360 L/h**, 1900 W, motor indução, mangueira de 5 m, cabo de 5 m, 15.2 kg. Código do produto: 31020011 (127V) / 31020022 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-premium-2600.webp",
+      "alt": "Lavadora de alta pressão WAP Premium 2600 amarela e preta, vista de frente",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1900w-2400psi-wap-premium-2600/p"
+    }
+  },
+  {
+    "slug": "wap-5100-turbo",
+    "nome": "WAP 5100 Turbo",
+    "marca": "WAP",
+    "modelo": "FW006760",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.300 psi e 550 L/h, indução, 18 kg. A ficha publica até a área de limpeza estimada, em cinco faixas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2300,
+      "pressaoDeclarada": "2300 PSI",
+      "vazaoLh": 550,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 2500,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 10.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 18.0,
+      "dimensoesMm": "33 x 33 x 92 cm",
+      "tensao": "220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-5100-turbo-oficial",
+        "titulo": "WAP 5100 Turbo — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2500w-2300psi-wap-5100-turbo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2300 PSI**, vazão de **550 L/h**, 2500 W, motor indução, mangueira de 10 m, cabo de 5 m, 18 kg. Código do produto: FW006760 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-5100-turbo.webp",
+      "alt": "Lavadora de alta pressão WAP 5100 Turbo cinza e amarela, com alça telescópica e rodas",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2500w-2300psi-wap-5100-turbo/p"
+    }
+  },
+  {
+    "slug": "wap-combate-turbo-2600",
+    "nome": "WAP Combate Turbo 2600",
+    "marca": "WAP",
+    "modelo": "FW006751",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.100 psi com motor de indução por 10,8 kg — o mais leve da linha de indução.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2100,
+      "pressaoDeclarada": "2100 PSI",
+      "vazaoLh": 360,
+      "temperaturaMaxEntradaC": 40,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 1700,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 10.8,
+      "dimensoesMm": "29 x 30 x 76 cm",
+      "tensao": "127V ou 220V (escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-combate-turbo-2600-oficial",
+        "titulo": "WAP Combate Turbo 2600 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1700w-2100psi-wap-combate-turbo-2600/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2100 PSI**, vazão de **360 L/h**, 1700 W, motor indução, mangueira de 5 m, cabo de 5 m, 10.8 kg. Código do produto: FW006751 (127V) / FW006752 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-combate-turbo-2600.webp",
+      "alt": "Lavadora de alta pressão WAP Combate Turbo 2600 amarela e preta, com carrinho e pistola",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1700w-2100psi-wap-combate-turbo-2600/p"
+    }
+  },
+  {
+    "slug": "wap-wl-2660-turbo",
+    "nome": "WAP WL 2660 Turbo",
+    "marca": "WAP",
+    "modelo": "FW009595",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.000 psi e 420 L/h com motor universal. Sessenta litros por hora a mais que modelos de indução mais caros.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2000,
+      "pressaoDeclarada": "2000 PSI",
+      "vazaoLh": 420,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Universal",
+      "tipoBomba": "Axial",
+      "potenciaW": 1800,
+      "ruidoDb": 90,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 8.2,
+      "dimensoesMm": "32,9 x 26,2 x 70,0 cm",
+      "tensao": "127V ou 220V (Escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-wl-2660-turbo-oficial",
+        "titulo": "WAP WL 2660 Turbo — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1800w-2000psi-wap-wl-2660-turbo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2000 PSI**, vazão de **420 L/h**, 1800 W, motor universal, bomba axial, 90 dB, mangueira de 5 m, cabo de 5 m, 8.2 kg. Código do produto: FW009595 (127V) / FW009596 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-wl-2660-turbo.webp",
+      "alt": "Lavadora de alta pressão WAP WL 2660 Turbo cinza e amarela, com carrinho e mangueira",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1800w-2000psi-wap-wl-2660-turbo/p"
+    }
+  },
+  {
+    "slug": "wap-wl-4000",
+    "nome": "WAP WL 4000",
+    "marca": "WAP",
+    "modelo": "FW009479",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.950 psi e 420 L/h com indução em 11 kg. O campo de vazão da ficha termina em traço, sem segundo valor.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1950,
+      "pressaoDeclarada": "1950 PSI",
+      "vazaoLh": 420,
+      "temperaturaMaxEntradaC": 50,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 2000,
+      "ruidoDb": 89,
+      "comprimentoMangueiraM": 4.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 11.0,
+      "dimensoesMm": "42 x 32 x 82,5 cm",
+      "tensao": "127V ou 220V (Escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-wl-4000-oficial",
+        "titulo": "WAP WL 4000 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2000w-1950psi-wap-wl-4000/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1950 PSI**, vazão de **420 L/h**, 2000 W, motor indução, 89 dB, mangueira de 4 m, cabo de 5 m, 11 kg. Código do produto: FW009479 (127V) / FW009480 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-wl-4000.webp",
+      "alt": "Lavadora de alta pressão WAP WL 4000 cinza e amarela, corpo compacto com a bomba à mostra",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2000w-1950psi-wap-wl-4000/p"
+    }
+  },
+  {
+    "slug": "wap-silent-power-2800",
+    "nome": "WAP Silent Power 2800",
+    "marca": "WAP",
+    "modelo": "FW004421",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.800 psi e 400 L/h, indução, 19 kg. Vende silêncio no nome e a ficha não publica quantos decibéis.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1800,
+      "pressaoDeclarada": "1800 PSI",
+      "vazaoLh": 400,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 1900,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 7.5,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 19.0,
+      "dimensoesMm": "29,2 x 28 x 84 cm",
+      "tensao": "127V ou 220V (escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-silent-power-2800-oficial",
+        "titulo": "WAP Silent Power 2800 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1900w-1800psi-wap-silent-power-2800/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1800 PSI**, vazão de **400 L/h**, 1900 W, motor indução, mangueira de 7.5 m, cabo de 5 m, 19 kg. Código do produto: FW004421 (127V) / FW004422 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-silent-power-2800.webp",
+      "alt": "Lavadora de alta pressão WAP Silent Power 2800 amarela e preta, com carrinho e mangueira enrolada",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1900w-1800psi-wap-silent-power-2800/p"
+    }
+  },
+  {
+    "slug": "wap-l-profi-2000",
+    "nome": "WAP L Profi 2000",
+    "marca": "WAP",
+    "modelo": "FW006924",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "**1.700 psi e 750 L/h.** É o contraexemplo direto: 910 psi abaixo da Maxi Plus e 230 litros por hora acima dela.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1700,
+      "pressaoDeclarada": "1700 PSI",
+      "vazaoLh": 750,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 2300,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 10.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 27.2,
+      "dimensoesMm": "72 x 44 x 72,3 cm",
+      "tensao": "220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-l-profi-2000-oficial",
+        "titulo": "WAP L Profi 2000 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2300w-1700psi-wap-l-profi-2000/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1700 PSI**, vazão de **750 L/h**, 2300 W, motor indução, mangueira de 10 m, cabo de 5 m, 27.2 kg. Código do produto: FW006924 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-l-profi-2000.webp",
+      "alt": "Lavadora de alta pressão WAP L Profi 2000 amarela e preta, sobre chassi de rodas, com a bomba à vista",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2300w-1700psi-wap-l-profi-2000/p"
+    }
+  },
+  {
+    "slug": "wap-atacama-smart-2200",
+    "nome": "WAP Atacama Smart 2200",
+    "marca": "WAP",
+    "modelo": "FW001535",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.500 psi e 330 L/h em 4 kg. É a faixa que a maioria das casas compra, e a mesma vazão da Mondial de 1.600 psi.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1500,
+      "pressaoDeclarada": "1500 PSI",
+      "vazaoLh": 330,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Universal",
+      "tipoBomba": null,
+      "potenciaW": 1400,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 4.0,
+      "dimensoesMm": "22 x 25 x 45 cm",
+      "tensao": "127V ou 220V (escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-atacama-smart-2200-oficial",
+        "titulo": "WAP Atacama Smart 2200 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1400w-1500psi-wap-atacama-smart-2200/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1500 PSI**, vazão de **330 L/h**, 1400 W, motor universal, mangueira de 3 m, cabo de 5 m, 4 kg. Código do produto: FW001535 (127V) / FW001536 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-atacama-smart-2200.webp",
+      "alt": "Lavadora de alta pressão WAP Atacama Smart 2200 amarela e preta, vista de três quartos",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1400w-1500psi-wap-atacama-smart-2200/p"
+    }
+  },
+  {
+    "slug": "wap-agil-1800",
+    "nome": "WAP Ágil 1800",
+    "marca": "WAP",
+    "modelo": "FW004192",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.300 psi e 300 L/h — o piso da lista entre as domésticas, e ainda assim 20 litros por hora acima da Electrolux de 2.200 psi.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1300,
+      "pressaoDeclarada": "1300 PSI",
+      "vazaoLh": 300,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Universal",
+      "tipoBomba": null,
+      "potenciaW": 1400,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 5.2,
+      "dimensoesMm": "20 x 17 x 45 cm",
+      "tensao": "127V ou 220V (escolher no momento da compra)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-agil-1800-oficial",
+        "titulo": "WAP Ágil 1800 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1400w-1300psi-wap-agil-1800/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1300 PSI**, vazão de **300 L/h**, 1400 W, motor universal, mangueira de 3 m, cabo de 5 m, 5.2 kg. Código do produto: FW004192 (127V) / FW004193 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-agil-1800.webp",
+      "alt": "Lavadora de alta pressão WAP Ágil 1800 laranja e preta, vista de frente",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1400w-1300psi-wap-agil-1800/p"
+    }
+  },
+  {
+    "slug": "wap-agil-ultra-1800",
+    "nome": "WAP Ágil Ultra 1800",
+    "marca": "WAP",
+    "modelo": "FW007658",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "Mesma máquina da Ágil com mangueira desentupidora: 1.300 psi e 300 L/h, motor universal.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Desobstruidora",
+      "pressaoPsi": 1300,
+      "pressaoDeclarada": "1300 PSI",
+      "vazaoLh": 300,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Universal",
+      "tipoBomba": null,
+      "potenciaW": 1400,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": null,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 5.2,
+      "dimensoesMm": "20 x 17 x 45 cm",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-agil-ultra-1800-oficial",
+        "titulo": "WAP Ágil Ultra 1800 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/desobstruidora-wap-agil-ultra-1800/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1300 PSI**, vazão de **300 L/h**, 1400 W, motor universal, cabo de 5 m, 5.2 kg. Código do produto: FW007658 (127V) / FW007659 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-agil-ultra-1800.webp",
+      "alt": "Lavadora de alta pressão WAP Ágil Ultra 1800 laranja e preta, vista de frente",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/desobstruidora-wap-agil-ultra-1800/p"
+    }
+  },
+  {
+    "slug": "wap-premium-ultra-2600",
+    "nome": "WAP Premium Ultra 2600",
+    "marca": "WAP",
+    "modelo": "FW007650",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.400 psi com indução. O campo “Vazão” da ficha está preenchido com “2400 PSI” — pressão no lugar da vazão.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Desobstruidora",
+      "pressaoPsi": 2400,
+      "pressaoDeclarada": "2400 PSI",
+      "vazaoLh": null,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 1900,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": null,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 15.2,
+      "dimensoesMm": "34,5 x 26,5 x 74,5 cm",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-premium-ultra-2600-oficial",
+        "titulo": "WAP Premium Ultra 2600 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/desobstruidora-de-alta-pressao-1900w-2400psi-wap-premium-ultra-2600/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2400 PSI**, 1900 W, motor indução, cabo de 5 m, 15.2 kg. Código do produto: FW007650 (127V) / FW007651 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "vazaoLh",
+        "fonteAdotada": "wap-premium-ultra-2600-oficial",
+        "valorDivergente": "2400 PSI",
+        "fonteDivergente": "wap-premium-ultra-2600-oficial",
+        "observacao": "O campo “Vazão” traz “2400 PSI”, que é exatamente o valor do campo “Pressão máxima” logo acima. Vazão se mede em litros por hora; psi é pressão. O valor foi copiado do campo errado, e a vazão fica em branco em vez de a ficha chutar o número da irmã de mesma potência."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-premium-ultra-2600.webp",
+      "alt": "Lavadora de alta pressão WAP Premium Ultra 2600 amarela e preta, vista de frente",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/desobstruidora-de-alta-pressao-1900w-2400psi-wap-premium-ultra-2600/p"
+    }
+  },
+  {
+    "slug": "wap-5100-turbo-ultra",
+    "nome": "WAP 5100 Turbo Ultra",
+    "marca": "WAP",
+    "modelo": "FW007680",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.300 psi e 550 L/h com mangueira desentupidora de alta pressão, indução e 18 kg.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Desobstruidora",
+      "pressaoPsi": 2300,
+      "pressaoDeclarada": "2300 PSI",
+      "vazaoLh": 550,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 2500,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": null,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": null,
+      "pesoKg": 18.0,
+      "dimensoesMm": "33 x 33 x 92 cm",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "wap-5100-turbo-ultra-oficial",
+        "titulo": "WAP 5100 Turbo Ultra — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/desobstruidora-de-alta-pressao-wap-5100-turbo-ultra/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2300 PSI**, vazão de **550 L/h**, 2500 W, motor indução, cabo de 5 m, 18 kg. Código do produto: FW007680 (220V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-5100-turbo-ultra.webp",
+      "alt": "Lavadora de alta pressão WAP 5100 Turbo Ultra cinza e amarela, com alça telescópica e rodas",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/desobstruidora-de-alta-pressao-wap-5100-turbo-ultra/p"
+    }
+  },
+  {
+    "slug": "electrolux-upr2300",
+    "nome": "Electrolux UPR2300",
+    "marca": "Electrolux",
+    "modelo": [
+      "UPR2300"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.300 psi e 327 L/h com motor de indução — a única Electrolux da lista que foge dos 280 L/h de toda a linha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2300,
+      "pressaoDeclarada": "2300 PSI",
+      "vazaoLh": 327,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1650,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 6.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": 7.0,
+      "pesoKg": 12.5,
+      "dimensoesMm": null,
+      "tensao": "127V ou 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-upr2300-oficial",
+        "titulo": "Electrolux UPR2300 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-2300psi-motor-inducao-e-mangueira-desobstruidora-upr2300/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2300 PSI**, vazão de **327 L/h**, 1650 W, mangueira de 6 m, cabo de 5 m, 12.5 kg. Código do produto: UPR2300.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-upr2300.webp",
+      "alt": "Lavadora de alta pressão Electrolux UPR2300 branca e preta, alta, com alça e rodas",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-2300psi-motor-inducao-e-mangueira-desobstruidora-upr2300/p"
+    }
+  },
+  {
+    "slug": "electrolux-uws2250",
+    "nome": "Electrolux UltraWash UWS2250",
+    "marca": "Electrolux",
+    "modelo": [
+      "UWS2250"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.250 psi e os mesmos 280 L/h da Electrolux de 1.600 psi. A pressão sobe 40% e a água não se mexe.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2250,
+      "pressaoDeclarada": "15,5 MPa (2250 psi)",
+      "vazaoLh": 280,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1800,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": 10.0,
+      "pesoKg": 6.4,
+      "dimensoesMm": null,
+      "tensao": "127V ou 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-uws2250-oficial",
+        "titulo": "Electrolux UltraWash UWS2250 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-2250psi-1800w-ultrawash-dispenser-detergente-integrado--uws2250--/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **15,5 MPa (2250 psi)**, vazão de **280 L/h**, 1800 W, mangueira de 5 m, cabo de 5 m, 6.4 kg. Código do produto: UWS2250.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-uws2250.webp",
+      "alt": "Lavadora de alta pressão Electrolux UltraWash UWS2250 bege e cinza, ao lado da pistola, do canhão de espuma e da mangueira",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-2250psi-1800w-ultrawash-dispenser-detergente-integrado--uws2250--/p"
+    }
+  },
+  {
+    "slug": "electrolux-uws2200",
+    "nome": "Electrolux UltraWash UWS2200",
+    "marca": "Electrolux",
+    "modelo": [
+      "UWS2200"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.200 psi, 1.800 W e 280 L/h. É a mais potente da linha e joga menos água que a WAP Ágil de 1.300 psi.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2200,
+      "pressaoDeclarada": "15.2 MPa (2200 psi)",
+      "vazaoLh": 280,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1800,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": 10.0,
+      "pesoKg": 8.15,
+      "dimensoesMm": null,
+      "tensao": "127V ou 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-uws2200-oficial",
+        "titulo": "Electrolux UltraWash UWS2200 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-2200psi-1800w-ultrawash-dispenser-detergente-integrado--uws2200-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **15.2 MPa (2200 psi)**, vazão de **280 L/h**, 1800 W, mangueira de 5 m, cabo de 5 m, 8.15 kg. Código do produto: UWS2200.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-uws2200.webp",
+      "alt": "Lavadora de alta pressão Electrolux UltraWash UWS2200 cinza-escura, ao lado da pistola, das lanças e da mangueira",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-2200psi-1800w-ultrawash-dispenser-detergente-integrado--uws2200-/p"
+    }
+  },
+  {
+    "slug": "electrolux-uws31",
+    "nome": "Electrolux UltraWash UWS31",
+    "marca": "Electrolux",
+    "modelo": [
+      "UWS31"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "A única Electrolux que publica o tipo de bomba: axial. A vazão vem escrita “300”, sem unidade nenhuma.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2200,
+      "pressaoDeclarada": "2200 psi",
+      "vazaoLh": 300,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": "Axial",
+      "potenciaW": 1800,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 4.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": 9.5,
+      "pesoKg": 9.8,
+      "dimensoesMm": null,
+      "tensao": "127V ou 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-uws31-oficial",
+        "titulo": "Electrolux UltraWash UWS31 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-ultra-wash-uws31-electrolux/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2200 psi**, vazão de **300 L/h**, 1800 W, bomba axial, mangueira de 4 m, cabo de 5 m, 9.8 kg. Código do produto: UWS31.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-uws31.webp",
+      "alt": "Lavadora de alta pressão Electrolux UltraWash UWS31 preta e amarela, ao lado da mangueira, do aplicador de detergente e das lanças",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-ultra-wash-uws31-electrolux/p"
+    }
+  },
+  {
+    "slug": "electrolux-ews1850p",
+    "nome": "Electrolux PowerWash EWS1850P",
+    "marca": "Electrolux",
+    "modelo": [
+      "EWS1850P"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.850 psi com canhão de espuma. Vazão: 280 L/h, de novo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1850,
+      "pressaoDeclarada": "12.7 MPa (1850 psi)",
+      "vazaoLh": 280,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1500,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": 8.0,
+      "pesoKg": 5.6,
+      "dimensoesMm": null,
+      "tensao": "127V ou 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-ews1850p-oficial",
+        "titulo": "Electrolux PowerWash EWS1850P — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-1850psi-1500w-powerwash-c--canhao-de-espuma--ews1850p-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **12.7 MPa (1850 psi)**, vazão de **280 L/h**, 1500 W, mangueira de 3 m, cabo de 5 m, 5.6 kg. Código do produto: EWS1850P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ews1850p.webp",
+      "alt": "Lavadora de alta pressão Electrolux PowerWash EWS1850P cinza-escura, ao lado da pistola, do canhão de espuma e da mangueira",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-1850psi-1500w-powerwash-c--canhao-de-espuma--ews1850p-/p"
+    }
+  },
+  {
+    "slug": "electrolux-qws1650",
+    "nome": "Electrolux EasyWash QWS1650",
+    "marca": "Electrolux",
+    "modelo": [
+      "QWS1650"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "O nome do produto diz 1650 psi; o campo de pressão da ficha diz 1800. Os dois números estão na mesma página.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1800,
+      "pressaoDeclarada": "12,4 MPa (1800 psi)",
+      "vazaoLh": 280,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1400,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": 8.0,
+      "pesoKg": 3.95,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-qws1650-oficial",
+        "titulo": "Electrolux EasyWash QWS1650 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-1650psi-1400w-easywash-com-engate-rapido--qws1650-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **12,4 MPa (1800 psi)**, vazão de **280 L/h**, 1400 W, mangueira de 3 m, cabo de 5 m, 3.95 kg. Código do produto: QWS1650.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "pressaoPsi",
+        "fonteAdotada": "electrolux-qws1650-oficial",
+        "valorDivergente": "1.650 psi no nome do produto",
+        "fonteDivergente": "electrolux-qws1650-oficial",
+        "observacao": "O título do produto é “Lavadora de Alta Pressão Electrolux 1650PSI” e o campo “Pressão máxima (PSI/Libras)” traz “12,4 MPa (1800 psi)” — o mesmo valor que a EWS1800, um modelo acima. Um dos dois está errado e a página não diz qual. A ficha adota o campo de especificação, que é o lugar da medida, e registra aqui que o nome comercial discorda."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-qws1650.webp",
+      "alt": "Lavadora de alta pressão Electrolux EasyWash QWS1650 amarela e cinza, ao lado da pistola, da lança e da mangueira",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-1650psi-1400w-easywash-com-engate-rapido--qws1650-/p"
+    }
+  },
+  {
+    "slug": "electrolux-qws1600",
+    "nome": "Electrolux EasyWash QWS1600",
+    "marca": "Electrolux",
+    "modelo": [
+      "QWS1600"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.600 psi, 1.400 W e 3,95 kg — a mais leve da Electrolux. Vazão de 280 L/h, igual à de 2.250 psi.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1600,
+      "pressaoDeclarada": "11.0 MPa (1600 psi)",
+      "vazaoLh": 280,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1400,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3.0,
+      "comprimentoCaboM": 5.0,
+      "alcanceM": 8.0,
+      "pesoKg": 3.95,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-qws1600-oficial",
+        "titulo": "Electrolux EasyWash QWS1600 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-1600psi-1400w-easywash-com-engate-rapido--qws1600-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **11.0 MPa (1600 psi)**, vazão de **280 L/h**, 1400 W, mangueira de 3 m, cabo de 5 m, 3.95 kg. Código do produto: QWS1600.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-qws1600.webp",
+      "alt": "Lavadora de alta pressão Electrolux EasyWash QWS1600 cinza-clara, ao lado da pistola, da lança e da mangueira",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-1600psi-1400w-easywash-com-engate-rapido--qws1600-/p"
+    }
+  },
+  {
+    "slug": "mondial-lap-03",
+    "nome": "Mondial Aqua Power III LAP-03",
+    "marca": "Mondial",
+    "modelo": [
+      "LAP-03-GY"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "2.000 psi e 360 L/h. Oitenta litros por hora a mais que a Electrolux de 2.200 psi, com menos pressão.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2000,
+      "pressaoDeclarada": "2000 PSI",
+      "vazaoLh": 360,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1800,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": null,
+      "alcanceM": null,
+      "pesoKg": 7.4,
+      "dimensoesMm": "78,10cm x 35,3cm x 29cm (AxLxP)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-lap-03-oficial",
+        "titulo": "Mondial Aqua Power III LAP-03 — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/lavadora-alta-pressao-aqua-power-3-mondial-1800w-lap-03-gy/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2000 PSI**, vazão de **360 L/h**, 1800 W, mangueira de 5 m, 7.4 kg. Código do produto: LAP-03-GY.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-lap-03.webp",
+      "alt": "Lavadora de alta pressão Mondial Aqua Power III cinza e amarela, sobre carrinho com rodas grandes",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/lavadora-alta-pressao-aqua-power-3-mondial-1800w-lap-03-gy/p"
+    }
+  },
+  {
+    "slug": "mondial-lap-02",
+    "nome": "Mondial Aqua Power II LAP-02",
+    "marca": "Mondial",
+    "modelo": [
+      "LAP-02-GY"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.800 psi e 330 L/h, com mangueira de 5 m — dois metros a mais que toda a linha Electrolux.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1800,
+      "pressaoDeclarada": "1800 PSI",
+      "vazaoLh": 330,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1500,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 5.0,
+      "comprimentoCaboM": null,
+      "alcanceM": null,
+      "pesoKg": 5.8,
+      "dimensoesMm": "68,1cm X 33,2cm X 26,6 cm (AxLxP)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-lap-02-oficial",
+        "titulo": "Mondial Aqua Power II LAP-02 — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/lavadora-alta-pressao-aqua-power-2-mondial-1800w-lap-02-gy/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1800 PSI**, vazão de **330 L/h**, 1500 W, mangueira de 5 m, 5.8 kg. Código do produto: LAP-02-GY.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-lap-02.webp",
+      "alt": "Lavadora de alta pressão Mondial Aqua Power II cinza e amarela, sobre carrinho com rodas",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/lavadora-alta-pressao-aqua-power-2-mondial-1800w-lap-02-gy/p"
+    }
+  },
+  {
+    "slug": "mondial-lap-01",
+    "nome": "Mondial Aqua Power I LAP-01",
+    "marca": "Mondial",
+    "modelo": [
+      "LAP-01-GY"
+    ],
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "1.600 psi e 330 L/h. A mesma pressão da Electrolux QWS1600 e cinquenta litros por hora a mais.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1600,
+      "pressaoDeclarada": "1600 PSI",
+      "vazaoLh": 330,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1400,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3.0,
+      "comprimentoCaboM": null,
+      "alcanceM": null,
+      "pesoKg": 4.8,
+      "dimensoesMm": "39cm X 26,5 cm X 23,6 cm (AxLxP)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-lap-01-oficial",
+        "titulo": "Mondial Aqua Power I LAP-01 — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/lavadora-alta-pressao-aqua-power-mondial-1400w-lap-01-gy/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1600 PSI**, vazão de **330 L/h**, 1400 W, mangueira de 3 m, 4.8 kg. Código do produto: LAP-01-GY.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-lap-01.webp",
+      "alt": "Lavadora de alta pressão Mondial Aqua Power I cinza e amarela, corpo vertical compacto",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/lavadora-alta-pressao-aqua-power-mondial-1400w-lap-01-gy/p"
+    }
+  }
+]

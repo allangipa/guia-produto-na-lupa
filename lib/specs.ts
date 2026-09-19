@@ -4076,6 +4076,172 @@ export const camposAspirador: Campo[] = [
   },
 ];
 
+/**
+ * Lavadora de alta pressao. O nome do produto e a pressao — 1600PSI, 2200PSI —
+ * e pressao sozinha nao lava: ela solta a sujeira, a agua leva embora. Quem
+ * decide quanto tempo leva para terminar a parede e a vazao, em litros por
+ * hora, e a vazao anda solta da pressao. A Electrolux tem cinco modelos de
+ * 1.600 a 2.200 psi com a mesma vazao de 280 L/h; a WAP tem uma de 1.700 psi
+ * que joga 750 L/h contra 520 da de 2.610.
+ */
+export const camposLavadoraAltaPressao: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pressaoPsi",
+    rotulo: "Pressão máxima",
+    grupo: "Água",
+    tipo: "numero",
+    unidade: "psi",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "É o número que batiza o produto. Solta a sujeira grudada — mas sozinho não diz em quanto tempo o serviço acaba.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pressaoDeclarada",
+    rotulo: "Como a marca escreveu",
+    grupo: "Água",
+    tipo: "texto",
+    ajuda:
+      "O valor exato da ficha. WAP e Mondial publicam em psi; a Electrolux chama o campo de “Pressão máxima (PSI/Libras)” e escreve o valor em megapascal com o psi entre parênteses.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "vazaoLh",
+    rotulo: "Vazão",
+    grupo: "Água",
+    tipo: "numero",
+    unidade: "L/h",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quantos litros por hora saem do bico. É o que enxagua e o que determina quanto tempo leva para cobrir a área — e não acompanha a pressão: aqui há aparelho de menos pressão com quase o dobro de vazão.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "temperaturaMaxEntradaC",
+    rotulo: "Temperatura máx. da água",
+    grupo: "Água",
+    tipo: "numero",
+    unidade: "°C",
+    filtro: "faixa",
+    ajuda: "Até que temperatura a água de entrada pode chegar sem dano à bomba.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tipoMotor",
+    rotulo: "Tipo de motor",
+    grupo: "Motor",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Universal é mais leve e barato; indução é mais pesado, mais silencioso e dura mais. Uma marca em quatro publica qual é o seu.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tipoBomba",
+    rotulo: "Tipo de bomba",
+    grupo: "Motor",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Motor",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "ruidoDb",
+    rotulo: "Ruído",
+    grupo: "Motor",
+    tipo: "numero",
+    unidade: "dB",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoMangueiraM",
+    rotulo: "Mangueira",
+    grupo: "Alcance",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Cabo elétrico",
+    grupo: "Alcance",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alcanceM",
+    rotulo: "Alcance total",
+    grupo: "Alcance",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Cabo mais mangueira: quanto dá para andar sem trocar de tomada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "kg",
+    filtro: "faixa",
+    ajuda:
+      "Sem melhor nem pior: o peso vem do motor de indução, que dura mais e não sobe escada. Aqui vai de 3 a 77 kg.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Corpo",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
@@ -4089,6 +4255,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   ventiladores: camposVentilador,
   ferros: camposFerroDePassar,
   aspiradores: camposAspirador,
+  "lavadoras-alta-pressao": camposLavadoraAltaPressao,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -4113,6 +4280,13 @@ export function camposDa(categoria: string): Campo[] {
  * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
  */
 const ICONE_POR_CAMPO: Record<string, string> = {
+  pressaoPsi: "raio",
+  pressaoDeclarada: "info",
+  vazaoLh: "gota",
+  temperaturaMaxEntradaC: "gota",
+  tipoMotor: "raio",
+  tipoBomba: "raio",
+  comprimentoMangueiraM: "regua",
   succaoPa: "raio",
   succaoDeclarada: "info",
   semFio: "bateria",
@@ -4350,6 +4524,7 @@ export function iconeDo(chave: string): string {
 
 /** Ícone de cada categoria — trilho de navegação, mídia sem foto, cards. */
 const ICONE_POR_CATEGORIA: Record<string, string> = {
+  "lavadoras-alta-pressao": "gota",
   aspiradores: "info",
   ferros: "panela",
   audio: "fone",
@@ -4383,6 +4558,13 @@ export function iconeDaCategoria(slug: string): string {
 
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
+  pressaoPsi: "Pressão",
+  pressaoDeclarada: "Declarado",
+  vazaoLh: "Vazão",
+  temperaturaMaxEntradaC: "Água máx.",
+  tipoMotor: "Motor",
+  tipoBomba: "Bomba",
+  comprimentoMangueiraM: "Mangueira",
   succaoPa: "Sucção",
   succaoDeclarada: "Declarado",
   semFio: "Sem fio",
@@ -4583,6 +4765,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   ventiladores: ["diametroHeliceCm", "vazaoM3s", "potenciaW"],
   ferros: ["vazaoContinuaGMin", "saidasVapor", "reservatorioMl"],
   aspiradores: ["succaoPa", "potenciaW", "ruidoDb"],
+  "lavadoras-alta-pressao": ["vazaoLh", "pressaoPsi", "tipoMotor"],
 };
 
 export function destaquesDa(categoria: string): string[] {

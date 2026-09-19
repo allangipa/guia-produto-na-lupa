@@ -141,6 +141,16 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "lavadoras-alta-pressao",
+    nome: "Lavadoras de alta pressão",
+    descricao:
+      "Lavadoras e desobstruidoras de alta pressão — com a vazão em litros por hora ao lado da pressão que batiza o produto.",
+    dorPrincipal:
+      "Cinco Electrolux de 1.600 a 2.250 psi. Todas jogam os mesmos 280 L/h.",
+    porQueParou:
+      "Fechou em vinte e seis, com três marcas. Pressão e vazão aparecem nas três, o que torna a comparação honesta de ponta a ponta — raro. Philco, Britânia, Oster e Arno têm lavadora no catálogo e nenhuma delas publica vazão; a Philco não publica nem pressão. Ficaram de fora os acessórios que o nó mistura com as máquinas: lanças, mangueiras, pistolas, engates e escovas giratórias.",
+  },
+  {
     slug: "aspiradores",
     nome: "Aspiradores de pó",
     descricao:
