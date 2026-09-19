@@ -1,0 +1,1191 @@
+[
+  {
+    "slug": "arno-ultragliss-plus-fmy",
+    "nome": "Arno Ultragliss Plus FMY",
+    "marca": "Arno",
+    "modelo": "FMY",
+    "categoria": "ferros",
+    "resumo": "O ferro com mais saídas de vapor da Arno: 96 furos e 30 g/min contínuos. Divide os mesmos 1.520 W com o Ultragliss simples, que tem 67 furos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Durilium Airglide",
+      "saidasVapor": 96,
+      "vazaoContinuaGMin": 30,
+      "vazaoExtraGMin": 130,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1520,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 2.0,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 1.6,
+      "dimensoesMm": "309 × 144 × 152 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-ultragliss-plus-fmy-oficial",
+        "titulo": "Arno Ultragliss Plus FMY — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/ferro-a-vapor-ultraglide-plus-deslizamento-com-base-durilium-airglide-tecnologia-exclusiva-fmy-1830008401-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Durilium Airglide, **96 saídas de vapor**, vazão **contínua de 30 g/min e extra de 130 g/min**, 1.520 W em 127 V e 2.350 W em 220 V, cabo de 200 cm, 1,6 kg, 30,9 × 14,4 × 15,2 cm e garantia de 1 ano. A Arno é a única das cinco marcas que publica furos e vazão em campos de especificação.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-ultragliss-plus-fmy.webp",
+      "alt": "Ferro a vapor Arno Ultragliss Plus azul-petróleo e preto, ao lado da base metálica no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ferro-a-vapor-ultraglide-plus-deslizamento-com-base-durilium-airglide-tecnologia-exclusiva-fmy-1830008401-1/p"
+    }
+  },
+  {
+    "slug": "arno-ultragliss-fmv",
+    "nome": "Arno Ultragliss FMV",
+    "marca": "Arno",
+    "modelo": "FMV",
+    "categoria": "ferros",
+    "resumo": "Mesma potência e mesma vazão do Powergliss, com o dobro de saídas de vapor. É o par que mostra que furo a mais não é vapor a mais.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Durilium Airglide",
+      "saidasVapor": 67,
+      "vazaoContinuaGMin": 25,
+      "vazaoExtraGMin": 110,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1520,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 2.0,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 1.3,
+      "dimensoesMm": "300 × 130 × 150 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-ultragliss-fmv-oficial",
+        "titulo": "Arno Ultragliss FMV — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/-ferro-a-vapor-express-steam-ultra-deslizamento-e-potencia-com-base-durilium-airglide-tecnologia-excl-1830008402-p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Durilium Airglide, **67 saídas de vapor**, vazão **contínua de 25 g/min e extra de 110 g/min**, 1.520 W em 127 V e 1.750 W em 220 V, cabo de 200 cm, sem porta-fios, 1,3 kg, 30,0 × 13,0 × 15,0 cm e garantia de 1 ano.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-ultragliss-fmv.webp",
+      "alt": "Ferro a vapor Arno Ultragliss vinho e preto, ao lado da base metálica no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/-ferro-a-vapor-express-steam-ultra-deslizamento-e-potencia-com-base-durilium-airglide-tecnologia-excl-1830008402-p/p"
+    }
+  },
+  {
+    "slug": "arno-powergliss-fpo1",
+    "nome": "Arno Powergliss FPO1",
+    "marca": "Arno",
+    "modelo": "FPO1",
+    "categoria": "ferros",
+    "resumo": "33 saídas contra as 67 do Ultragliss, e exatamente a mesma vazão: 25 g/min. O reservatório de 270 ml é o único que a Arno publica.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica XGlide",
+      "saidasVapor": 33,
+      "vazaoContinuaGMin": 25,
+      "vazaoExtraGMin": 110,
+      "reservatorioMl": 270,
+      "vaporVertical": null,
+      "potenciaW": 1520,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.8,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 1.3,
+      "dimensoesMm": "300 × 130 × 150 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-powergliss-fpo1-oficial",
+        "titulo": "Arno Powergliss FPO1 — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/ferro-a-vapor-arno-powergliss-base-xglide-fpo1-roxo-110v-1830007981-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base cerâmica XGlide, **33 saídas de vapor**, vazão **contínua de 25 g/min e extra de 110 g/min**, reservatório de 270 ml, 1.520 W em 127 V e 1.750 W em 220 V, cabo de 180 cm, 1,3 kg, 30,0 × 13,0 × 15,0 cm e garantia de 1 ano.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-powergliss-fpo1.webp",
+      "alt": "Ferro a vapor Arno Powergliss roxo e cinza, ao lado da base cerâmica no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ferro-a-vapor-arno-powergliss-base-xglide-fpo1-roxo-110v-1830007981-pai/p"
+    }
+  },
+  {
+    "slug": "arno-express-force-ssef",
+    "nome": "Arno Express Force SSEF",
+    "marca": "Arno",
+    "modelo": "SSEF",
+    "categoria": "ferros",
+    "resumo": "Estação de vapor: 90 g/min contínuos contra os 30 do melhor ferro comum daqui. São 24 furos, menos que quase todos — a pressão vem da caldeira, não da chapa.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Estação de vapor",
+      "materialBase": "Cerâmica Xpress Glide",
+      "saidasVapor": 24,
+      "vazaoContinuaGMin": 90,
+      "vazaoExtraGMin": 280,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1700,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.6,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 3.7,
+      "dimensoesMm": "362 × 256 × 179 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-express-force-ssef-oficial",
+        "titulo": "Arno Express Force SSEF — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/ferro-com-estacao-de-vapor-express-force-1700w-ssef-1830009657-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base cerâmica Xpress Glide, **24 saídas de vapor**, vazão em 127 V **contínua de 90 g/min e extra de 280 g/min** (em 220 V, 120 e 360 g/min), 1.700 W em 127 V e 2.010 W em 220 V, cabo elétrico de 1,6 m e mangueira de vapor, 3,7 kg, 36,2 × 25,6 × 17,9 cm e garantia de 12 meses.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-express-force-ssef.webp",
+      "alt": "Estação de vapor Arno Express Force verde-petróleo e branca, com a mangueira ligando o ferro à caldeira",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ferro-com-estacao-de-vapor-express-force-1700w-ssef-1830009657-pai/p"
+    }
+  },
+  {
+    "slug": "arno-steamgliss-fsgp",
+    "nome": "Arno Steamgliss FSGP",
+    "marca": "Arno",
+    "modelo": "FSGP",
+    "categoria": "ferros",
+    "resumo": "Base antiaderente, 27 saídas e 20 g/min. Tem a ficha idêntica à do irmão de base cerâmica — a Arno publica os dois com os mesmos números.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Antiaderente",
+      "saidasVapor": 27,
+      "vazaoContinuaGMin": 20,
+      "vazaoExtraGMin": 100,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.8,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 0.9,
+      "dimensoesMm": "266 × 117 × 127 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-steamgliss-fsgp-oficial",
+        "titulo": "Arno Steamgliss FSGP — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/ferro-a-vapor-arno-steamgliss-fsgp-verde-1830007713-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente com ponta de precisão, **27 saídas de vapor**, vazão **contínua de 20 g/min e extra de 100 g/min**, 1.200 W nas duas tensões, cabo de 180 cm, 0,9 kg, 26,6 × 11,7 × 12,7 cm e garantia de 12 meses.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-steamgliss-fsgp.webp",
+      "alt": "Ferro a vapor Arno Steamgliss verde-água e branco, ao lado da base antiaderente no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ferro-a-vapor-arno-steamgliss-fsgp-verde-1830007713-pai/p"
+    }
+  },
+  {
+    "slug": "arno-steamgliss-fsgc",
+    "nome": "Arno Steamgliss Cerâmica FSGC",
+    "marca": "Arno",
+    "modelo": "FSGC",
+    "categoria": "ferros",
+    "resumo": "A versão de base cerâmica do Steamgliss. Peso, medidas, furos, vazão e potência são os mesmos do antiaderente: só a chapa muda.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica Glide",
+      "saidasVapor": 27,
+      "vazaoContinuaGMin": 20,
+      "vazaoExtraGMin": 100,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.8,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 0.9,
+      "dimensoesMm": "266 × 117 × 127 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-steamgliss-fsgc-oficial",
+        "titulo": "Arno Steamgliss Cerâmica FSGC — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/ferro-a-vapor-eletrico-arno-steamgliss-fsgc-rosa-1830007714-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base ampla de cerâmica Glide com ponta de precisão, **27 saídas de vapor**, vazão **contínua de 20 g/min e extra de 100 g/min**, 1.200 W nas duas tensões, cabo de 180 cm, 0,9 kg, 26,6 × 11,7 × 12,7 cm e garantia de 12 meses.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-steamgliss-fsgc.webp",
+      "alt": "Ferro a vapor Arno Steamgliss de base cerâmica, vermelho e branco, ao lado da base no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ferro-a-vapor-eletrico-arno-steamgliss-fsgc-rosa-1830007714-pai/p"
+    }
+  },
+  {
+    "slug": "arno-ecogliss-fec1",
+    "nome": "Arno Ecogliss FEC1",
+    "marca": "Arno",
+    "modelo": "FEC1",
+    "categoria": "ferros",
+    "resumo": "22 saídas e 24 g/min contínuos — mais vapor por minuto que o Steamgliss, com menos furos e a mesma potência de 1.200 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica Glide",
+      "saidasVapor": 22,
+      "vazaoContinuaGMin": 24,
+      "vazaoExtraGMin": 80,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.8,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 1.0,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-ecogliss-fec1-oficial",
+        "titulo": "Arno Ecogliss FEC1 — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/ferro-a-vapor-arno-ecogliss-fec1-verde-1830007236-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base cerâmica Glide, **22 saídas de vapor**, vazão **contínua de 24 g/min e extra de 80 g/min**, 1.200 W em 127 V e 1.740 W em 220 V, cabo de 180 cm, 1,0 kg e garantia de 12 meses. A ficha não publica as medidas.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-ecogliss-fec1.webp",
+      "alt": "Ferro a vapor Arno Ecogliss verde-limão e preto, ao lado da base cerâmica no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ferro-a-vapor-arno-ecogliss-fec1-verde-1830007236-pai/p"
+    }
+  },
+  {
+    "slug": "arno-essentialgliss-fmq",
+    "nome": "Arno Essentialgliss FMQ",
+    "marca": "Arno",
+    "modelo": "FMQ",
+    "categoria": "ferros",
+    "resumo": "O menor número de saídas da categoria entre quem publica: 19 furos e 15 g/min. É o piso do que a marca vende.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Antiaderente",
+      "saidasVapor": 19,
+      "vazaoContinuaGMin": 15,
+      "vazaoExtraGMin": 80,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.7,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 0.8,
+      "dimensoesMm": "251 × 111 × 125 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-essentialgliss-fmq-oficial",
+        "titulo": "Arno Essentialgliss FMQ — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/fer-vap-essentialgliss-1830009066_pai-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente, **19 saídas de vapor**, vazão **contínua de 15 g/min e extra de 80 g/min**, 1.200 W em 127 V e 1.100 W em 220 V, cabo de 170 cm, 0,8 kg, 25,1 × 11,1 × 12,5 cm e garantia de 12 meses.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-essentialgliss-fmq.webp",
+      "alt": "Ferro a vapor Arno Essentialgliss vermelho e branco, ao lado da base antiaderente no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/fer-vap-essentialgliss-1830009066_pai-1/p"
+    }
+  },
+  {
+    "slug": "arno-drygliss-fs31",
+    "nome": "Arno Drygliss FS31",
+    "marca": "Arno",
+    "modelo": "FS31",
+    "categoria": "ferros",
+    "resumo": "Ferro a seco: não tem reservatório, furo nem vapor. Entra aqui como referência — 0,6 kg, o mais leve da categoria.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A seco",
+      "materialBase": "Antiaderente",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.8,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 0.6,
+      "dimensoesMm": "270 × 140 × 122 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "saidasVapor",
+      "vazaoContinuaGMin",
+      "vazaoExtraGMin",
+      "reservatorioMl",
+      "vaporVertical",
+      "antigotejamento",
+      "autoLimpeza",
+      "spray"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-drygliss-fs31-oficial",
+        "titulo": "Arno Drygliss FS31 — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/ferro-a-seco-arno-drygliss-com-base-antiaderente-fs31-127v_1830009185_pai-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente, **sem vapor** (o campo de vazão da própria ficha traz “N/A”), 1.200 W em 127 V e 1.100 W em 220 V, cabo de 180 cm, 0,6 kg, 27,0 × 14,0 × 12,2 cm e garantia de 12 meses.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-drygliss-fs31.webp",
+      "alt": "Ferro a seco Arno Drygliss preto e branco com detalhe laranja, ao lado da base no suporte",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/ferro-a-seco-arno-drygliss-com-base-antiaderente-fs31-127v_1830009185_pai-1/p"
+    }
+  },
+  {
+    "slug": "electrolux-esi80",
+    "nome": "Electrolux Experience Care ESI80",
+    "marca": "Electrolux",
+    "modelo": "ESI80",
+    "categoria": "ferros",
+    "resumo": "400 saídas de vapor — quatro vezes o segundo colocado. Publica tudo: vazão, reservatório, cabo, antical, auto-limpeza e desligamento automático.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Resilium SKI",
+      "saidasVapor": 400,
+      "vazaoContinuaGMin": 30,
+      "vazaoExtraGMin": 210,
+      "reservatorioMl": 330,
+      "vaporVertical": true,
+      "potenciaW": 1500,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.95,
+      "desligamentoAutomatico": true,
+      "antigotejamento": true,
+      "autoLimpeza": true,
+      "spray": true,
+      "pesoKg": 1.18,
+      "dimensoesMm": "295 × 145 × 127 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-esi80-oficial",
+        "titulo": "Electrolux Experience Care ESI80 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-experience-care--esi80-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Resilium SKI, **400 saídas de vapor**, vapor contínuo de **30 g/min em 127 V** (35 em 220 V) e jato extra de **210 g/min**, reservatório de 330 ml, 1.500 W, cabo de 1,95 m, vapor vertical, spray, antigotejamento, auto-limpeza, sistema anticalcário, desligamento automático, 1,18 kg, 29,5 × 14,5 × 12,7 cm e garantia de 1 ano. Código comercial 127 V: 4810ASBR401.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-esi80.webp",
+      "alt": "Ferro a vapor Electrolux Experience Care ESI80 verde-escuro e branco, visto de três quartos",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-experience-care--esi80-/p"
+    }
+  },
+  {
+    "slug": "electrolux-esi70",
+    "nome": "Electrolux Experience ESI70",
+    "marca": "Electrolux",
+    "modelo": "ESI70",
+    "categoria": "ferros",
+    "resumo": "175 saídas, 30 g/min e jato de 200 g/min, com desligamento automático. A ficha publica largura e profundidade trocadas em relação às irmãs de mesmo corpo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Glissium ceramic",
+      "saidasVapor": 175,
+      "vazaoContinuaGMin": 30,
+      "vazaoExtraGMin": 200,
+      "reservatorioMl": null,
+      "vaporVertical": true,
+      "potenciaW": 1500,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.95,
+      "desligamentoAutomatico": true,
+      "antigotejamento": true,
+      "autoLimpeza": true,
+      "spray": true,
+      "pesoKg": 1.18,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-esi70-oficial",
+        "titulo": "Electrolux Experience ESI70 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-experience-com-powervapour-e-desligamento-automatico-esi70/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Glissium ceramic, **175 saídas de vapor**, vapor contínuo de **30 g/min em 127 V** (35 em 220 V) e jato extra de **200 g/min**, 1.500 W, cabo de 1,95 m, vapor vertical, spray, antigotejamento, auto-limpeza, anticalcário, desligamento automático, 1,18 kg e garantia de 1 ano. EAN 7896347196765.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "reservatorioMl",
+        "fonteAdotada": "electrolux-esi70-oficial",
+        "valorDivergente": "300 ml e 330 ml",
+        "fonteDivergente": "electrolux-esi70-oficial",
+        "observacao": "A mesma página publica “Capacidade de reservatório: 300ml” e “Reservatório de água (ml): 330ml”. São dois campos da ficha do fabricante dizendo números diferentes para a mesma peça, e a divergência se repete no ESI50. Sem um terceiro documento para desempatar, o campo fica em branco em vez de a ficha escolher um dos dois."
+      },
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "electrolux-esi70-oficial",
+        "valorDivergente": "largura 12,7 cm e profundidade 29,5 cm",
+        "fonteDivergente": "electrolux-esi70-oficial",
+        "observacao": "O ESI70 publica 12,7 cm de largura e 29,5 cm de profundidade, enquanto o ESI50 e o ESI80 — mesmo corpo, mesmo peso de 1,18 kg — publicam 29,5 de largura e 12,7 de profundidade. A foto cotada que a própria Electrolux publica na página do ESI50 marca 29,5 cm no eixo comprido, o que indica que os eixos trocados estão na ficha do ESI70. Como o desenho é de outro modelo e não da ficha deste, o campo fica vazio em vez de a ficha corrigir o fabricante por conta própria."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-esi70.webp",
+      "alt": "Ferro a vapor Electrolux Experience ESI70 azul-marinho e branco, visto de três quartos",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-experience-com-powervapour-e-desligamento-automatico-esi70/p"
+    }
+  },
+  {
+    "slug": "electrolux-esi60",
+    "nome": "Electrolux Experience Care ESI60",
+    "marca": "Electrolux",
+    "modelo": "ESI60",
+    "categoria": "ferros",
+    "resumo": "Mesmos 175 furos do ESI70 por 25 g/min em vez de 30, com o mesmo pacote de segurança: antigota, auto-limpeza, antical e desligamento automático.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Glissium ceramic",
+      "saidasVapor": 175,
+      "vazaoContinuaGMin": 25,
+      "vazaoExtraGMin": 160,
+      "reservatorioMl": 300,
+      "vaporVertical": true,
+      "potenciaW": 1500,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": null,
+      "desligamentoAutomatico": true,
+      "antigotejamento": true,
+      "autoLimpeza": true,
+      "spray": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-esi60-oficial",
+        "titulo": "Electrolux Experience Care ESI60 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-experience-care-com-tecnologia-power-vapour--esi60-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Glissium ceramic, **175 saídas de vapor**, vapor contínuo de **25 g/min** e jato extra de **160 g/min**, reservatório de 300 ml, 1.500 W, vapor vertical, spray, antigotejamento, auto-limpeza, anticalcário, desligamento automático e garantia de 1 ano.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-esi60.webp",
+      "alt": "Ferro a vapor Electrolux Experience Care ESI60 azul-marinho e branco, visto de três quartos",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-experience-care-com-tecnologia-power-vapour--esi60-/p"
+    }
+  },
+  {
+    "slug": "electrolux-esi50",
+    "nome": "Electrolux Lavanda Experience ESI50",
+    "marca": "Electrolux",
+    "modelo": "ESI50",
+    "categoria": "ferros",
+    "resumo": "Os mesmos 175 furos e 25 g/min do ESI60, sem antigotejamento, sem antical e sem desligamento automático. A diferença está toda no que não tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Glissium ceramic",
+      "saidasVapor": 175,
+      "vazaoContinuaGMin": 25,
+      "vazaoExtraGMin": 160,
+      "reservatorioMl": null,
+      "vaporVertical": true,
+      "potenciaW": 1500,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.8,
+      "desligamentoAutomatico": false,
+      "antigotejamento": false,
+      "autoLimpeza": true,
+      "spray": true,
+      "pesoKg": 1.18,
+      "dimensoesMm": "295 × 145 × 127 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-esi50-oficial",
+        "titulo": "Electrolux Lavanda Experience ESI50 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-lavanda-experience-com-powervapour--esi50-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Glissium ceramic, **175 saídas de vapor**, vapor contínuo de **25 g/min** e jato extra de **160 g/min**, 1.500 W, cabo de 1,8 m, vapor vertical, spray e auto-limpeza; **sem** antigotejamento, **sem** anticalcário e **sem** desligamento automático. 1,18 kg, 29,5 × 14,5 × 12,7 cm e garantia de 1 ano. Código comercial 127 V: 4814AKBR401.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "reservatorioMl",
+        "fonteAdotada": "electrolux-esi50-oficial",
+        "valorDivergente": "300 ml e 330 ml",
+        "fonteDivergente": "electrolux-esi50-oficial",
+        "observacao": "Como no ESI70, a mesma página traz “Capacidade de reservatório: 300ml” num campo e “Reservatório de água (ml): 330” em outro. O campo fica em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-esi50.webp",
+      "alt": "Ferro a vapor Electrolux Lavanda Experience ESI50 lilás e branco, visto de três quartos",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-lavanda-experience-com-powervapour--esi50-/p"
+    }
+  },
+  {
+    "slug": "electrolux-sie70",
+    "nome": "Electrolux Easyline SIE70",
+    "marca": "Electrolux",
+    "modelo": "SIE70",
+    "categoria": "ferros",
+    "resumo": "26 saídas de vapor, base de cerâmica e 250 ml. A Electrolux publica o número de furos até na linha de entrada — três marcas não publicam em nenhuma.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica",
+      "saidasVapor": 26,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 250,
+      "vaporVertical": true,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.65,
+      "desligamentoAutomatico": false,
+      "antigotejamento": false,
+      "autoLimpeza": null,
+      "spray": true,
+      "pesoKg": 1.28,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-sie70-oficial",
+        "titulo": "Electrolux Easyline SIE70 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/ferro-a-vapor-easyline-sie70/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base de cerâmica, **26 saídas de vapor**, reservatório de 250 ml, 1.200 W, cabo de 1,65 m, vapor vertical e spray; sem antigotejamento e sem desligamento automático. 1,28 kg e garantia de 1 ano. EAN 7896347149365 e 7896347149372.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-sie70.webp",
+      "alt": "Ferro a vapor Electrolux Easyline SIE70 verde-água e branco, visto de lado",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/ferro-a-vapor-easyline-sie70/p"
+    }
+  },
+  {
+    "slug": "electrolux-sie60",
+    "nome": "Electrolux Easyline SIE60",
+    "marca": "Electrolux",
+    "modelo": "SIE60",
+    "categoria": "ferros",
+    "resumo": "O SIE70 com base antiaderente no lugar da cerâmica. Mesmos 26 furos, mesmos 250 ml, mesmos 1.200 W, 40 g mais leve.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Antiaderente",
+      "saidasVapor": 26,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 250,
+      "vaporVertical": true,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.65,
+      "desligamentoAutomatico": false,
+      "antigotejamento": false,
+      "autoLimpeza": null,
+      "spray": true,
+      "pesoKg": 1.24,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-sie60-oficial",
+        "titulo": "Electrolux Easyline SIE60 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/ferro-a-vapor-easyline-sie60/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente, **26 saídas de vapor**, reservatório de 250 ml, 1.200 W, cabo de 1,65 m, vapor vertical e spray; sem antigotejamento e sem desligamento automático. 1,24 kg e garantia de 1 ano.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-sie60.webp",
+      "alt": "Ferro a vapor Electrolux Easyline SIE60 azul e branco, visto de lado",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/ferro-a-vapor-easyline-sie60/p"
+    }
+  },
+  {
+    "slug": "electrolux-esi10",
+    "nome": "Electrolux Efficient ESI10",
+    "marca": "Electrolux",
+    "modelo": "ESI10",
+    "categoria": "ferros",
+    "resumo": "O único Electrolux da lista que não publica quantas saídas tem. Cabo de 1,35 m — o mais curto da categoria, 60 cm abaixo do mais longo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Antiaderente",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 200,
+      "vaporVertical": true,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.35,
+      "desligamentoAutomatico": false,
+      "antigotejamento": false,
+      "autoLimpeza": null,
+      "spray": true,
+      "pesoKg": 0.79,
+      "dimensoesMm": "249 × 124 × 112 mm (L × A × P)",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-esi10-oficial",
+        "titulo": "Electrolux Efficient ESI10 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-efficient--esi10-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente, reservatório de 200 ml, 1.200 W em 127 V e 1.500 W em 220 V, **cabo de 1,35 m**, vapor vertical e spray; sem antigotejamento e sem desligamento automático. 0,79 kg, 24,9 × 12,4 × 11,2 cm. A ficha não publica o número de saídas de vapor nem a vazão. EAN 7896347184229.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-esi10.webp",
+      "alt": "Ferro a vapor Electrolux Efficient ESI10 azul-acinzentado e branco, visto de três quartos",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-efficient--esi10-/p"
+    }
+  },
+  {
+    "slug": "oster-gcstbs5002",
+    "nome": "Oster Antiaderente GCSTBS5002",
+    "marca": "Oster",
+    "modelo": "GCSTBS5002",
+    "categoria": "ferros",
+    "resumo": "25 saídas e 17 g/min — a menor vazão publicada da categoria. Os dois números só aparecem no texto da descrição, não em campo de especificação.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Antiaderente",
+      "saidasVapor": 25,
+      "vazaoContinuaGMin": 17,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": null,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": null,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 0.78,
+      "dimensoesMm": "115 × 243 × 145 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "oster-gcstbs5002-oficial",
+        "titulo": "Oster Antiaderente GCSTBS5002 — ficha oficial da Oster",
+        "url": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-antiaderente-verde/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente colorida, **25 saídas de vapor** e vazão de **17 g/min** (ambos informados na descrição do produto, não em campo próprio), mais jato de vapor multiuso. 1.200 W em 127 V e 1.400 W em 220 V, 0,78 kg, 115 × 243 × 145 mm e garantia de 12 meses. Códigos de barras 053891160315 (127 V) e 053891160308 (220 V).",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-gcstbs5002.webp",
+      "alt": "Ferro a vapor Oster de base antiaderente, verde-acinzentado e branco, visto de três quartos",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-antiaderente-verde/p"
+    }
+  },
+  {
+    "slug": "oster-gcstac7002",
+    "nome": "Oster Aeroceramic GCSTAC7002",
+    "marca": "Oster",
+    "modelo": "GCSTAC7002",
+    "categoria": "ferros",
+    "resumo": "250 ml e 1.600 W, com vapor vertical. O campo de consumo da ficha diz “48,00 W” — num ferro de 1.600 W, esse número não é potência nem consumo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Aeroceramic",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 250,
+      "vaporVertical": true,
+      "potenciaW": 1600,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": null,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 0.95,
+      "dimensoesMm": "270 × 150 × 115 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "oster-gcstac7002-oficial",
+        "titulo": "Oster Aeroceramic GCSTAC7002 — ficha oficial da Oster",
+        "url": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-aeroceramic-250ml-com-vapor-vertical/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Aeroceramic, reservatório de 250 ml, vapor vertical, 1.600 W, 0,95 kg, 270 × 150 × 115 mm, certificação UL e Inmetro e garantia de 12 meses. Códigos de barras 53891180733 (127 V) e 53891180740 (220 V). A ficha não publica saídas de vapor nem vazão.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwhMes",
+        "fonteAdotada": "oster-gcstac7002-oficial",
+        "valorDivergente": "48,00W",
+        "fonteDivergente": "oster-gcstac7002-oficial",
+        "observacao": "O campo “Consumo” traz “48,00W” num ferro que a mesma ficha declara com 1.600 W. Não é a potência, não é consumo mensal em kWh e a unidade escrita é watt. Nos modelos mais antigos da mesma loja o campo traz “1,2 kw/h”, que é a potência em quilowatt — ou seja, o campo guarda coisas diferentes de um produto para outro. Fica em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-gcstac7002.webp",
+      "alt": "Ferro a vapor Oster Aeroceramic azul-marinho, visto de três quartos",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-aeroceramic-250ml-com-vapor-vertical/p"
+    }
+  },
+  {
+    "slug": "oster-gcstdpa8002",
+    "nome": "Oster Diamond Aeroceramic GCSTDPA8002",
+    "marca": "Oster",
+    "modelo": "GCSTDPA8002",
+    "categoria": "ferros",
+    "resumo": "O maior reservatório entre os ferros comuns da lista: 280 ml e 1.700 W. Também traz um “51,00 W” no campo de consumo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Diamond Aeroceramic",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 280,
+      "vaporVertical": true,
+      "potenciaW": 1700,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": null,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 1.342,
+      "dimensoesMm": "310 × 155 × 130 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "oster-gcstdpa8002-oficial",
+        "titulo": "Oster Diamond Aeroceramic GCSTDPA8002 — ficha oficial da Oster",
+        "url": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-diamond-aeroceramic-280ml-com-vapor-vertical/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base Diamond Aeroceramic, reservatório de 280 ml, vapor vertical, 1.700 W em 127 V e 2.200 W em 220 V, 1,342 kg, 310 × 155 × 130 mm, certificação UL e Inmetro e garantia de 12 meses. A ficha não publica saídas de vapor nem vazão.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwhMes",
+        "fonteAdotada": "oster-gcstdpa8002-oficial",
+        "valorDivergente": "51,00W",
+        "fonteDivergente": "oster-gcstdpa8002-oficial",
+        "observacao": "Mesmo caso do Aeroceramic 250 ml: o campo “Consumo” traz “51,00W” num ferro de 1.700 W. Fica em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-gcstdpa8002.webp",
+      "alt": "Ferro a vapor Oster Diamond Aeroceramic azul-petróleo, visto de três quartos",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-diamond-aeroceramic-280ml-com-vapor-vertical/p"
+    }
+  },
+  {
+    "slug": "philco-pfv3200v",
+    "nome": "Philco Titanium Ceramic PFV3200V",
+    "marca": "Philco",
+    "modelo": "PFV3200V",
+    "categoria": "ferros",
+    "resumo": "300 ml e 1.200 W, sem furo nem vazão publicados. A ficha diz “garantia: 365 meses” num campo e “360 dias” no de baixo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 300,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.6,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pfv3200v-oficial",
+        "titulo": "Philco Titanium Ceramic PFV3200V — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/ferro-philco-titanium-ceramic-pfv3200v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base de cerâmica, reservatório de 300 ml, 1.200 W em 127 V e 2.000 W em 220 V, cabo giratório de 1,6 m, funções seco e vapor. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "philco-pfv3200v-oficial",
+        "valorDivergente": "365 meses",
+        "fonteDivergente": "philco-pfv3200v-oficial",
+        "observacao": "A mesma página traz “Garantia (meses): 365” e “Garantia (Días): 360”. Trinta anos de garantia num ferro de passar não existe: o 365 é um valor em dias digitado no campo de meses. A ficha adota os 12 meses que os 360 dias representam, e registra o erro aqui em vez de repetir o número. O mesmo 365 aparece em outros dois modelos da marca."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pfv3200v.webp",
+      "alt": "Ferro a vapor Philco Titanium Ceramic preto, vermelho e branco, visto de três quartos",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/ferro-philco-titanium-ceramic-pfv3200v/p"
+    }
+  },
+  {
+    "slug": "philco-pfv320az",
+    "nome": "Philco Super Vapor Concentrado PFV320AZ",
+    "marca": "Philco",
+    "modelo": "PFV320AZ",
+    "categoria": "ferros",
+    "resumo": "240 ml, cabo giratório de 1,5 m e cinco funções listadas, incluindo auto-limpante. Furos e vazão, nenhum dos dois.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 240,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.5,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": true,
+      "spray": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pfv320az-oficial",
+        "titulo": "Philco Super Vapor Concentrado PFV320AZ — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/ferro-philco-pfv320az-super-vapor-concentrado-ceramica-240ml/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base de cerâmica, reservatório de 240 ml, 1.200 W em 127 V e 1.800 W em 220 V, cabo giratório de 1,5 m, funções seco, vapor, vapor extra, spray e auto-limpante, garantia de 12 meses. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pfv320az.webp",
+      "alt": "Ferro a vapor Philco Super Vapor Concentrado azul e branco, visto de três quartos",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/ferro-philco-pfv320az-super-vapor-concentrado-ceramica-240ml/p"
+    }
+  },
+  {
+    "slug": "britania-bfv08",
+    "nome": "Britânia Super Carbon BFV08",
+    "marca": "Britânia",
+    "modelo": "BFV08",
+    "categoria": "ferros",
+    "resumo": "O menor reservatório da lista: 190 ml. Sem a vazão publicada, não dá para saber quantos minutos de vapor isso rende.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Antiaderente",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 190,
+      "vaporVertical": null,
+      "potenciaW": 1250,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.5,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": true,
+      "spray": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bfv08-oficial",
+        "titulo": "Britânia Super Carbon BFV08 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/ferro-de-passar-a-vapor-bvf08/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente, reservatório de 190 ml, 1.250 W em 127 V e 2.000 W em 220 V, cabo giratório de 1,50 m, funções vapor, vapor extra, spray e auto-limpante, garantia de 12 meses. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bfv08.webp",
+      "alt": "Ferro a vapor Britânia Super Carbon verde-claro e branco, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/ferro-de-passar-a-vapor-bvf08/p"
+    }
+  },
+  {
+    "slug": "britania-bfv70",
+    "nome": "Britânia BFV70",
+    "marca": "Britânia",
+    "modelo": "BFV70",
+    "categoria": "ferros",
+    "resumo": "320 ml — o maior reservatório da categoria, empatado com o Philco PFV70. Base de cerâmica e duas funções só: vapor e vapor extra.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 320,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.6,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bfv70-oficial",
+        "titulo": "Britânia BFV70 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/ferro-bfv70-063601095/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base de cerâmica, reservatório de 320 ml, 1.200 W em 127 V e 2.200 W em 220 V, cabo giratório de 1,6 m, funções vapor e vapor extra. A ficha publica garantia em dias (360) e não publica saídas de vapor, vazão, peso nem medidas.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bfv70.webp",
+      "alt": "Ferro a vapor Britânia BFV70 azul e branco, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/ferro-bfv70-063601095/p"
+    }
+  },
+  {
+    "slug": "britania-bfv07",
+    "nome": "Britânia BFV07",
+    "marca": "Britânia",
+    "modelo": "BFV07",
+    "categoria": "ferros",
+    "resumo": "210 ml e 1.200 W. A única função que a ficha lista é “vapor extra” — nem vapor contínuo, nem spray.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Antiaderente",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 210,
+      "vaporVertical": null,
+      "potenciaW": 1200,
+      "consumoKwhMes": null,
+      "tensao": "127 V ou 220 V",
+      "comprimentoCaboM": 1.5,
+      "desligamentoAutomatico": null,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bfv07-oficial",
+        "titulo": "Britânia BFV07 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/ferro-bfv07-127v-063601096/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Base antiaderente, reservatório de 210 ml, 1.200 W em 127 V e 1.600 W em 220 V, cabo giratório de 1,5 m, função vapor extra, garantia de 12 meses. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bfv07.webp",
+      "alt": "Ferro a vapor Britânia BFV07 azul e branco, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/ferro-bfv07-127v-063601096/p"
+    }
+  }
+]

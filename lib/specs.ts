@@ -3725,6 +3725,193 @@ export const camposVentilador: Campo[] = [
 ];
 
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
+/**
+ * Ferro de passar. O anúncio vende watt — e watt é o que esquenta a chapa,
+ * não o que sai dela. Quem passa sente vapor: quantos gramas por minuto, por
+ * quantos furos, alimentados por qual reservatório. Duas marcas em cinco
+ * publicam a vazão; as outras três deixam o comprador com a potência e a cor.
+ */
+export const camposFerroDePassar: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialBase",
+    rotulo: "Material da base",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Antiaderente, cerâmica ou uma liga com nome próprio — Durilium, Glissium, Resilium. O nome comercial é da marca; não diz do que a chapa é feita nem como desliza.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "saidasVapor",
+    rotulo: "Saídas de vapor",
+    grupo: "Vapor",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quantos furos a base tem. Entre os que publicam, vai de 19 a 400 — e furo a mais não significa vapor a mais: dois ferros aqui têm a mesma vazão com o dobro de furos.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "vazaoContinuaGMin",
+    rotulo: "Vapor contínuo",
+    grupo: "Vapor",
+    tipo: "numero",
+    unidade: "g/min",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quanto vapor sai por minuto enquanto se passa. É o número que diz se o ferro dá conta do linho, e é o que quase nenhuma marca publica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "vazaoExtraGMin",
+    rotulo: "Jato de vapor",
+    grupo: "Vapor",
+    tipo: "numero",
+    unidade: "g/min",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O pico do botão de vapor extra, para o vinco que não sai. Dura segundos e esvazia o reservatório rápido — não é a vazão de trabalho.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "reservatorioMl",
+    rotulo: "Reservatório",
+    grupo: "Vapor",
+    tipo: "numero",
+    unidade: "ml",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quanta água cabe. Dividido pela vazão contínua, dá quantos minutos de vapor antes de reabastecer.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "vaporVertical",
+    rotulo: "Vapor vertical",
+    grupo: "Vapor",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Passar a peça pendurada no cabide, sem tábua.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    ajuda:
+      "O que aquece a chapa, na tomada de 127 V. Quase todo ferro de entrada tem 1.200 W, e é o número que o anúncio escolhe mostrar justamente por ser o mais parecido entre todos.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoKwhMes",
+    rotulo: "Consumo declarado",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "kWh",
+    melhor: "menor",
+    filtro: "faixa",
+    ajuda:
+      "O campo existe nas cinco marcas e em nenhuma delas traz consumo: o valor é a potência em quilowatt. Arno publica 1,52 para 1.520 W, Philco 1,2 para 1.200 W, Oster 1,2 KWH para 1.200 W. Por isso a coluna está vazia na categoria inteira.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Energia",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "desligamentoAutomatico",
+    rotulo: "Desligamento automático",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Corta sozinho quando fica parado. É o que separa esquecer o ferro ligado de um incêndio.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "antigotejamento",
+    rotulo: "Antigotejamento",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Impede a água de pingar na roupa quando a chapa ainda está fria.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "autoLimpeza",
+    rotulo: "Auto-limpeza",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Expulsa o calcário acumulado. Em água dura, é o que decide quanto tempo os furos continuam abertos.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "spray",
+    rotulo: "Spray",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "kg",
+    filtro: "faixa",
+    ajuda:
+      "Sem melhor nem pior: peso ajuda a vincar e cansa o braço. Aqui vai de 0,6 a 3,7 kg, que é a diferença entre um ferro de viagem e uma estação de vapor.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
@@ -3736,6 +3923,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   lavaloucas: camposLavaLouca,
   smartwatches: camposSmartwatch,
   ventiladores: camposVentilador,
+  ferros: camposFerroDePassar,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -3760,6 +3948,15 @@ export function camposDa(categoria: string): Campo[] {
  * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
  */
 const ICONE_POR_CAMPO: Record<string, string> = {
+  materialBase: "panela",
+  saidasVapor: "gota",
+  vazaoContinuaGMin: "gota",
+  vazaoExtraGMin: "gota",
+  reservatorioMl: "gota",
+  vaporVertical: "gota",
+  antigotejamento: "gota",
+  autoLimpeza: "info",
+  spray: "gota",
   capacidadeNominal: "bateria",
   capacidadeReal: "bateria",
   energiaWh: "raio",
@@ -3979,6 +4176,7 @@ export function iconeDo(chave: string): string {
 
 /** Ícone de cada categoria — trilho de navegação, mídia sem foto, cards. */
 const ICONE_POR_CATEGORIA: Record<string, string> = {
+  ferros: "panela",
   audio: "fone",
   energia: "bateria",
   perifericos: "controle",
@@ -4010,6 +4208,15 @@ export function iconeDaCategoria(slug: string): string {
 
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
+  materialBase: "Base",
+  saidasVapor: "Saídas",
+  vazaoContinuaGMin: "Vapor contínuo",
+  vazaoExtraGMin: "Jato",
+  reservatorioMl: "Reservatório",
+  vaporVertical: "Vertical",
+  antigotejamento: "Antigota",
+  autoLimpeza: "Auto-limpeza",
+  spray: "Spray",
   capacidadeNominal: "Capacidade",
   capacidadeReal: "Cap. real",
   energiaWh: "Energia",
@@ -4190,6 +4397,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   lavaloucas: ["servicos", "consumoAguaL", "tipoInstalacao"],
   smartwatches: ["autonomiaTipicaDias", "autonomiaIntensaDias", "telaPol"],
   ventiladores: ["diametroHeliceCm", "vazaoM3s", "potenciaW"],
+  ferros: ["vazaoContinuaGMin", "saidasVapor", "reservatorioMl"],
 };
 
 export function destaquesDa(categoria: string): string[] {

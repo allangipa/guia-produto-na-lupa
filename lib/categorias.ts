@@ -141,6 +141,16 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "ferros",
+    nome: "Ferros de passar",
+    descricao:
+      "Ferros a vapor, a seco e estações de vapor — com a vazão em gramas por minuto e o número de saídas ao lado do watt que o anúncio estampa.",
+    dorPrincipal:
+      "O anúncio vende 1.200 W. Watt aquece a chapa; quem passa sente é vapor.",
+    porQueParou:
+      "Fechou em vinte e quatro, com cinco marcas. O que manteve a lista nesse tamanho não foi falta de produto — foi falta de número: treze das vinte e quatro fichas publicam vazão de vapor, e as onze restantes entram para mostrar exatamente isso. Black+Decker e Philips Walita aparecem bem colocadas no ranking e nenhuma das duas tem catálogo brasileiro que responda; sem ficha de fabricante não há ficha aqui. Ficaram de fora também os itens do nó que não são ferro: vaporizador de roupa, tapete de silício e kit de limpeza.",
+  },
+  {
     slug: "ventiladores",
     nome: "Ventiladores",
     descricao:
