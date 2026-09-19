@@ -18,6 +18,10 @@ export const metadata: Metadata = {
     siteName: site.nome,
   },
   robots: { index: true, follow: true },
+  // So aparece quando a variavel existe: sem token, nenhuma tag vazia no HTML.
+  ...(site.verificacaoGoogle
+    ? { verification: { google: site.verificacaoGoogle } }
+    : {}),
 };
 
 export default function RootLayout({

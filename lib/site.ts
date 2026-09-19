@@ -36,6 +36,23 @@ export const site = {
    *
    * Sem o ID a tag não é renderizada, então o padrão é não medir nada.
    */
+  /**
+   * Token de verificacao do Google Search Console.
+   *
+   * Vazio = a meta tag nao e renderizada, e o site sobe sem ela. Preencher em
+   * Settings > Secrets and variables > Actions > Variables, como
+   * NEXT_PUBLIC_GOOGLE_VERIFICATION — assim o token entra direto no GitHub,
+   * sem passar por conversa nenhuma.
+   *
+   * Nao e segredo: a tag existe para ficar visivel no HTML, e e so isso que o
+   * Google le para confirmar que o dominio e de quem diz ser. Fica em variavel
+   * e nao no codigo porque o repositorio e publico e o token e de uma conta.
+   *
+   * Sem Search Console o site nao tem numero nenhum de busca: nem impressao,
+   * nem posicao media, nem quais paginas ja aparecem. Toda a auditoria de SEO
+   * feita aqui e raciocinio sobre a estrutura, nao leitura de desempenho.
+   */
+  verificacaoGoogle: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || "",
   umami: {
     id: process.env.NEXT_PUBLIC_UMAMI_ID || "",
     script: process.env.NEXT_PUBLIC_UMAMI_SCRIPT || "https://cloud.umami.is/script.js",
