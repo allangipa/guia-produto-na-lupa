@@ -1,0 +1,1131 @@
+[
+  {
+    "slug": "britania-bbt350",
+    "nome": "Britânia BBT350",
+    "marca": "Britânia",
+    "modelo": "BBT350",
+    "categoria": "batedeiras",
+    "resumo": "350 W — o piso da linha comum. Mesma tigela de 4,3 L, mesmas 4 velocidades e o mesmo par de batedores do modelo de 550 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 350,
+      "velocidades": 4,
+      "batedores": "1 par",
+      "capacidadeTigelaL": 4.3,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": false,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bbt350-oficial",
+        "titulo": "Britânia BBT350 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-britania-bbt350-preta-350w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 350 W, **4 velocidades**, batedores: 1 par, tigela de 4.3 L. Código do produto: BRI-BBT350-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bbt350.webp",
+      "alt": "Batedeira Britânia BBT350 preta, de pedestal, com a tigela encaixada",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-britania-bbt350-preta-350w/p"
+    }
+  },
+  {
+    "slug": "britania-bbt400p",
+    "nome": "Britânia Concept BBT400P",
+    "marca": "Britânia",
+    "modelo": "BBT400P",
+    "categoria": "batedeiras",
+    "resumo": "400 W com tigela extra de 3,1 L. Cinquenta watts a mais que o BBT350 e nenhuma outra diferença de ficha.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 400,
+      "velocidades": 4,
+      "batedores": "1 par",
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": 3.1,
+      "funcaoTurbo": null,
+      "funcaoPortatil": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bbt400p-oficial",
+        "titulo": "Britânia Concept BBT400P — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-britania-bbt400p-concept-preto-400w-33401212/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 400 W, **4 velocidades**, batedores: 1 par, tigela de 4 L, tigela extra de 3.1 L, corpo que sai da base. Código do produto: BRI-BBT400-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bbt400p.webp",
+      "alt": "Batedeira Britânia Concept BBT400P preta, com as duas tigelas e os batedores ao lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-britania-bbt400p-concept-preto-400w-33401212/p"
+    }
+  },
+  {
+    "slug": "britania-bellagio-maxx",
+    "nome": "Britânia Bellagio Maxx Neve",
+    "marca": "Britânia",
+    "modelo": "Bellagio Maxx",
+    "categoria": "batedeiras",
+    "resumo": "400 W e **dois pares** de batedores — a única comum da marca com mais de um par. É o que separa esta das outras, e não é o watt.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 400,
+      "velocidades": 4,
+      "batedores": "2 pares",
+      "capacidadeTigelaL": 4.3,
+      "capacidadeTigelaExtraL": 3.1,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bellagio-maxx-oficial",
+        "titulo": "Britânia Bellagio Maxx Neve — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-britania-bellagio-maxx-neve-350w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 400 W, **4 velocidades**, batedores: 2 pares, tigela de 4.3 L, tigela extra de 3.1 L, função turbo. Código do produto: BRI-BATBELLMAXX-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bellagio-maxx.webp",
+      "alt": "Batedeira Britânia Bellagio Maxx preta e cinza, com duas tigelas e dois pares de batedores",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-britania-bellagio-maxx-neve-350w/p"
+    }
+  },
+  {
+    "slug": "britania-diamante-550",
+    "nome": "Britânia Diamante Preta 550W",
+    "marca": "Britânia",
+    "modelo": "Diamante",
+    "categoria": "batedeiras",
+    "resumo": "550 W, o teto da linha comum. Tigela de 4,3 L, 4 velocidades, um par de batedores: a ficha do BBT350 de 350 W, com 200 W a mais.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 550,
+      "velocidades": 4,
+      "batedores": "1 par",
+      "capacidadeTigelaL": 4.3,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-diamante-550-oficial",
+        "titulo": "Britânia Diamante Preta 550W — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-britania-diamante-preta-400w-4l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 550 W, **4 velocidades**, batedores: 1 par, tigela de 4.3 L, corpo que sai da base. Código do produto: BRI-BAT-DIAM-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-diamante-550.webp",
+      "alt": "Batedeira Britânia Diamante preta, de pedestal, com a tigela encaixada",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-britania-diamante-preta-400w-4l/p"
+    }
+  },
+  {
+    "slug": "britania-perola-550-neve",
+    "nome": "Britânia Pérola 550 Neve",
+    "marca": "Britânia",
+    "modelo": "Perola 550",
+    "categoria": "batedeiras",
+    "resumo": "Chama-se “Pérola 550” e a ficha declara 500 W. O 550 é nome de linha, não potência — a mesma linha tem modelo de 550.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 500,
+      "velocidades": 4,
+      "batedores": "1 par",
+      "capacidadeTigelaL": 4.3,
+      "capacidadeTigelaExtraL": 3.1,
+      "funcaoTurbo": true,
+      "funcaoPortatil": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-perola-550-neve-oficial",
+        "titulo": "Britânia Pérola 550 Neve — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-perola-550-neve-127v-033401239/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 500 W, **4 velocidades**, batedores: 1 par, tigela de 4.3 L, tigela extra de 3.1 L, função turbo, corpo que sai da base. Código do produto: BRI-BAT-PER-NEVE-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-perola-550-neve-oficial",
+        "valorDivergente": "550, no nome da linha",
+        "fonteDivergente": "britania-perola-550-neve-oficial",
+        "observacao": "A linha “Pérola 550” da Britânia reúne modelos de 500 W e de 550 W. Neste, o título diz “Pérola 550 ... 500W” e o campo de potência diz 500 W. Não há erro na ficha: o 550 é nome comercial. Fica registrado porque um número no nome do produto, no meio de uma categoria que vende watt, é lido como watt."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-perola-550-neve.webp",
+      "alt": "Batedeira Britânia Pérola 550 preta, com a tigela encaixada e os batedores à mostra",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-perola-550-neve-127v-033401239/p"
+    }
+  },
+  {
+    "slug": "britania-perola-maxx-2",
+    "nome": "Britânia Pérola Maxx 2",
+    "marca": "Britânia",
+    "modelo": "Perola Maxx 2",
+    "categoria": "batedeiras",
+    "resumo": "400 W com tigela de 4 L e tigela extra de 2 L — a menor segunda tigela da lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 400,
+      "velocidades": 4,
+      "batedores": null,
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": 2.0,
+      "funcaoTurbo": null,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-perola-maxx-2-oficial",
+        "titulo": "Britânia Pérola Maxx 2 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-britania-perola-maxx-2-400w-britania/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 400 W, **4 velocidades**, tigela de 4 L, tigela extra de 2 L. Código do produto: BRI-BAT-PER-MAXX2-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-perola-maxx-2.webp",
+      "alt": "Batedeira Britânia Pérola Maxx 2 preta, com as duas tigelas e os batedores ao lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-britania-perola-maxx-2-400w-britania/p"
+    }
+  },
+  {
+    "slug": "britania-bbpe01",
+    "nome": "Britânia Planetária BBPE01",
+    "marca": "Britânia",
+    "modelo": "BBPE01",
+    "categoria": "batedeiras",
+    "resumo": "500 W e **12 velocidades** com três batedores. Mesma potência de uma comum de 500 W, três vezes os ajustes e o triplo das ferramentas.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 500,
+      "velocidades": 12,
+      "batedores": "3 unidades",
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bbpe01-oficial",
+        "titulo": "Britânia Planetária BBPE01 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-planetaria-bbpe01-127v-033401242/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 500 W, **12 velocidades**, batedores: 3 unidades, tigela de 4 L, função turbo. Código do produto: BRI-BBPE01-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bbpe01.webp",
+      "alt": "Batedeira planetária Britânia BBPE01 preta, com a tigela e os três batedores ao lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-planetaria-bbpe01-127v-033401242/p"
+    }
+  },
+  {
+    "slug": "britania-bbp70a",
+    "nome": "Britânia Planetária BBP70A Turbo",
+    "marca": "Britânia",
+    "modelo": "BBP70A",
+    "categoria": "batedeiras",
+    "resumo": "700 W, 12 velocidades, tigela de 4 L e três batedores.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 700,
+      "velocidades": 12,
+      "batedores": "3 unidades",
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bbp70a-oficial",
+        "titulo": "Britânia Planetária BBP70A Turbo — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-planetaria-britania-700w-turbo-preto-bbp70a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 700 W, **12 velocidades**, batedores: 3 unidades, tigela de 4 L, função turbo. Código do produto: BRI-BBP70A-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bbp70a.webp",
+      "alt": "Batedeira planetária Britânia BBP70A preta, com a tigela de inox e o braço levantado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-planetaria-britania-700w-turbo-preto-bbp70a/p"
+    }
+  },
+  {
+    "slug": "britania-bbp760",
+    "nome": "Britânia Power Plus BBP760",
+    "marca": "Britânia",
+    "modelo": "BBP760P",
+    "categoria": "batedeiras",
+    "resumo": "700 W com tigela de 4,5 L — meio litro a mais que as outras de mesma potência.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 700,
+      "velocidades": 12,
+      "batedores": null,
+      "capacidadeTigelaL": 4.5,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bbp760-oficial",
+        "titulo": "Britânia Power Plus BBP760 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-planetaria-britania-bbp760p-power-plus-turbo-700w-063401035/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 700 W, **12 velocidades**, tigela de 4.5 L. Código do produto: BRI-BBP760-T-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bbp760.webp",
+      "alt": "Batedeira planetária Britânia Power Plus BBP760 preta, com a tigela e a tampa transparente",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-planetaria-britania-bbp760p-power-plus-turbo-700w-063401035/p"
+    }
+  },
+  {
+    "slug": "britania-bbp90a",
+    "nome": "Britânia Planetária BBP90A",
+    "marca": "Britânia",
+    "modelo": "BBP90A",
+    "categoria": "batedeiras",
+    "resumo": "900 W e tigela de 5 L, o topo da marca. Continua com 12 velocidades, como a de 500 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 900,
+      "velocidades": 12,
+      "batedores": "3 unidades",
+      "capacidadeTigelaL": 5.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bbp90a-oficial",
+        "titulo": "Britânia Planetária BBP90A — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/batedeira-planetaria-britania-900w-3-batedores-bbp90a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 900 W, **12 velocidades**, batedores: 3 unidades, tigela de 5 L, função turbo. Código do produto: BRI-BBP90A-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bbp90a.webp",
+      "alt": "Batedeira planetária Britânia BBP90A preta, com a tigela e os batedores ao lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/batedeira-planetaria-britania-900w-3-batedores-bbp90a/p"
+    }
+  },
+  {
+    "slug": "philco-paris-350",
+    "nome": "Philco Paris Vermelha 350W",
+    "marca": "Philco",
+    "modelo": "Paris",
+    "categoria": "batedeiras",
+    "resumo": "350 W, 4 velocidades, tigela de 4 L. A ficha é a mesma da Philco de 550 W — inclusive a tigela.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 350,
+      "velocidades": 4,
+      "batedores": null,
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-paris-350-oficial",
+        "titulo": "Philco Paris Vermelha 350W — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/bat-paris-vm/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 350 W, **4 velocidades**, tigela de 4 L. Código do produto: PHI-BAT-PARIS-V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-paris-350.webp",
+      "alt": "Batedeira Philco Paris vermelha, de pedestal, com a tigela encaixada",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/bat-paris-vm/p"
+    }
+  },
+  {
+    "slug": "philco-paris-inox-400",
+    "nome": "Philco Paris Inox 400W",
+    "marca": "Philco",
+    "modelo": "Paris Inox VM",
+    "categoria": "batedeiras",
+    "resumo": "400 W, 4 velocidades, 4 L, um par de batedores. Entre esta e a de 350 W, só o watt muda.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 400,
+      "velocidades": 4,
+      "batedores": "1 par",
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-paris-inox-400-oficial",
+        "titulo": "Philco Paris Inox 400W — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-philco-paris-inox-vermelha-400w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 400 W, **4 velocidades**, batedores: 1 par, tigela de 4 L, função turbo, corpo que sai da base. Código do produto: PHI-PARIS-INOX-VM.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-paris-inox-400.webp",
+      "alt": "Batedeira Philco Paris Inox vermelha, com a tigela de inox encaixada",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-philco-paris-inox-vermelha-400w/p"
+    }
+  },
+  {
+    "slug": "philco-paris-duo-mixer-500",
+    "nome": "Philco Paris Duo Mixer Turbo 500W",
+    "marca": "Philco",
+    "modelo": "Paris Duo Mixer Turbo",
+    "categoria": "batedeiras",
+    "resumo": "500 W com **dois pares** de batedores. O segundo par é a diferença real; os 150 W a mais que a de 350 não aparecem em campo nenhum.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 500,
+      "velocidades": 4,
+      "batedores": "2 pares",
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-paris-duo-mixer-500-oficial",
+        "titulo": "Philco Paris Duo Mixer Turbo 500W — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-philco-500w-preta-paris-duo-mixer-turbo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 500 W, **4 velocidades**, batedores: 2 pares, tigela de 4 L, função turbo, corpo que sai da base. Código do produto: PHI-BAT-PAR-DM-T-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-paris-duo-mixer-500.webp",
+      "alt": "Batedeira Philco Paris Duo Mixer preta, com a tigela e dois pares de batedores ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-philco-500w-preta-paris-duo-mixer-turbo/p"
+    }
+  },
+  {
+    "slug": "philco-crome-base-550",
+    "nome": "Philco Crome Base Cristal 550W",
+    "marca": "Philco",
+    "modelo": "CRISTAL DUO TURBO PR",
+    "categoria": "batedeiras",
+    "resumo": "550 W — o teto da linha comum da Philco — com 4 velocidades, 4 L e um par de batedores.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 550,
+      "velocidades": 4,
+      "batedores": "1 par",
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": 3.1,
+      "funcaoTurbo": true,
+      "funcaoPortatil": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-crome-base-550-oficial",
+        "titulo": "Philco Crome Base Cristal 550W — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-philco-crome-base-cristal-duo-turbo-preta-550w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 550 W, **4 velocidades**, batedores: 1 par, tigela de 4 L, tigela extra de 3.1 L, função turbo, corpo que sai da base. Código do produto: PHI-BAT-CRBAS-D-T-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-crome-base-550.webp",
+      "alt": "Batedeira Philco Crome Base preta, com a tigela de inox e os batedores encaixados",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-philco-crome-base-cristal-duo-turbo-preta-550w/p"
+    }
+  },
+  {
+    "slug": "philco-pbt450",
+    "nome": "Philco Portátil Crome Case PBT450",
+    "marca": "Philco",
+    "modelo": "PBT450P",
+    "categoria": "batedeiras",
+    "resumo": "550 W de mão, sem tigela nenhuma. Mesma potência da de pedestal, e a comparação para por aí.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 550,
+      "velocidades": 4,
+      "batedores": "1 par",
+      "capacidadeTigelaL": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": true,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "capacidadeTigelaL",
+      "capacidadeTigelaExtraL",
+      "funcaoPortatil"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pbt450-oficial",
+        "titulo": "Philco Portátil Crome Case PBT450 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-portatil-philco-550w-crome-case-preto-inox-pbt450p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 550 W, **4 velocidades**, batedores: 1 par, função turbo, corpo que sai da base. Código do produto: PHI-PBT450-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pbt450.webp",
+      "alt": "Batedeira portátil Philco PBT450 preta e prata, apoiada no estojo transparente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-portatil-philco-550w-crome-case-preto-inox-pbt450p/p"
+    }
+  },
+  {
+    "slug": "philco-pbp600v",
+    "nome": "Philco Planetária PBP600V Turbo Inox",
+    "marca": "Philco",
+    "modelo": "PBP600V",
+    "categoria": "batedeiras",
+    "resumo": "600 W e 11 velocidades. A planetária de menor potência da Philco tem mais ajustes que a de 1.200.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 600,
+      "velocidades": 11,
+      "batedores": null,
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": 4.0,
+      "funcaoTurbo": false,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pbp600v-oficial",
+        "titulo": "Philco Planetária PBP600V Turbo Inox — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-philco-planetaria-pbp600v-turbo-inox-double-bowl-600w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 600 W, **11 velocidades**, tigela de 4 L, tigela extra de 4 L. Código do produto: PHI-PBP600V-V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pbp600v.webp",
+      "alt": "Batedeira planetária Philco PBP600V vermelha, com a tigela de inox e os três batedores ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-philco-planetaria-pbp600v-turbo-inox-double-bowl-600w/p"
+    }
+  },
+  {
+    "slug": "philco-pbp70a",
+    "nome": "Philco Planetária PBP70A",
+    "marca": "Philco",
+    "modelo": "PBP70A",
+    "categoria": "batedeiras",
+    "resumo": "700 W, 12 velocidades, tigela de 4,5 L e três batedores. A ficha escreve a potência como “700(W)”.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 700,
+      "velocidades": 12,
+      "batedores": "3 unidades",
+      "capacidadeTigelaL": 4.5,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pbp70a-oficial",
+        "titulo": "Philco Planetária PBP70A — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-planetaria-pbp70a-127v-103401184/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 700 W, **12 velocidades**, batedores: 3 unidades, tigela de 4.5 L, função turbo. Código do produto: PHI-PBP70A-CZ.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pbp70a.webp",
+      "alt": "Batedeira planetária Philco PBP70A cinza e preta, com a tigela e os três batedores ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-planetaria-pbp70a-127v-103401184/p"
+    }
+  },
+  {
+    "slug": "philco-pbp770",
+    "nome": "Philco Planetária PBP770 Turbo Inox",
+    "marca": "Philco",
+    "modelo": "PBP770PI",
+    "categoria": "batedeiras",
+    "resumo": "775 W com 12 velocidades e três batedores — uma potência que não existe em nenhuma outra marca daqui.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 775,
+      "velocidades": 12,
+      "batedores": "3 unidades",
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pbp770-oficial",
+        "titulo": "Philco Planetária PBP770 Turbo Inox — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-planetaria-pbp770pi-turbo-inox-127v-103401182/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 775 W, **12 velocidades**, batedores: 3 unidades, tigela de 4 L, função turbo. Código do produto: PHI-PBP770-T-PI.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pbp770.webp",
+      "alt": "Batedeira planetária Philco PBP770 preta, com a tigela de inox e os três batedores ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-planetaria-pbp770pi-turbo-inox-127v-103401182/p"
+    }
+  },
+  {
+    "slug": "philco-pbp90a",
+    "nome": "Philco Concept PBP90A Turbo",
+    "marca": "Philco",
+    "modelo": "PBP90A",
+    "categoria": "batedeiras",
+    "resumo": "900 W e tigela de 5 L com 12 velocidades. É a que empata com a Britânia de 900 W em todos os campos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 900,
+      "velocidades": 12,
+      "batedores": "3 unidades",
+      "capacidadeTigelaL": 5.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pbp90a-oficial",
+        "titulo": "Philco Concept PBP90A Turbo — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-planetaria-pbp90a-turbo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 900 W, **12 velocidades**, batedores: 3 unidades, tigela de 5 L, função turbo. Código do produto: PHI-PBP90A-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pbp90a.webp",
+      "alt": "Batedeira planetária Philco Concept PBP90A preta, com a tigela e os três batedores ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-planetaria-pbp90a-turbo/p"
+    }
+  },
+  {
+    "slug": "philco-pbp1200",
+    "nome": "Philco Planetária PBP1200P Turbo Inox",
+    "marca": "Philco",
+    "modelo": "-",
+    "categoria": "batedeiras",
+    "resumo": "1.200 W — a maior potência da lista — com **8 velocidades**, menos que as de 600 e 700 W da mesma marca.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 1200,
+      "velocidades": 8,
+      "batedores": "3 pares",
+      "capacidadeTigelaL": 5.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-pbp1200-oficial",
+        "titulo": "Philco Planetária PBP1200P Turbo Inox — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/batedeira-planetaria-philco-pbp1200p-turbo-inox-53402023/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 1200 W, **8 velocidades**, batedores: 3 pares, tigela de 5 L, função turbo. Código do produto: PHI-PBP1200-PI.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "velocidades",
+        "fonteAdotada": "philco-pbp1200-oficial",
+        "valorDivergente": "8, contra 11 e 12 nas menos potentes",
+        "fonteDivergente": "philco-pbp1200-oficial",
+        "observacao": "A ficha publica 8 velocidades neste modelo de 1.200 W, enquanto as planetárias de 600, 700, 775 e 900 W da mesma marca publicam 11 ou 12. Não há contradição interna — o valor pode estar certo —, mas contraria a leitura de que mais watt traz mais controle, e por isso fica anotado em vez de passar despercebido."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pbp1200.webp",
+      "alt": "Batedeira planetária Philco PBP1200P branca e preta, com a tigela de inox e o braço levantado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-planetaria-philco-pbp1200p-turbo-inox-53402023/p"
+    }
+  },
+  {
+    "slug": "arno-mini-chef-hm10",
+    "nome": "Arno Mini Chef HM10",
+    "marca": "Arno",
+    "modelo": "2720019162",
+    "categoria": "batedeiras",
+    "resumo": "185 W, a menor potência da lista, com 4 velocidades e 4 L — as mesmas 4 velocidades da comum de 550 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 185,
+      "velocidades": 4,
+      "batedores": null,
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-mini-chef-hm10-oficial",
+        "titulo": "Arno Mini Chef HM10 — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/batedeira-arno-mini-chef-branca-hm10-2720019162/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 185 W, **4 velocidades**, tigela de 4 L. Código do produto: 2720019162.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-mini-chef-hm10.webp",
+      "alt": "Batedeira Arno Mini Chef branca, com as duas tigelas",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/batedeira-arno-mini-chef-branca-hm10-2720019162/p"
+    }
+  },
+  {
+    "slug": "arno-mini-chef-400",
+    "nome": "Arno Mini Chef Portátil 400W",
+    "marca": "Arno",
+    "modelo": "2720015871",
+    "categoria": "batedeiras",
+    "resumo": "400 W portátil com 4 velocidades e tigela de 4 L.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 400,
+      "velocidades": 4,
+      "batedores": null,
+      "capacidadeTigelaL": 4.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 0.68,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-mini-chef-400-oficial",
+        "titulo": "Arno Mini Chef Portátil 400W — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/-bat-mini-chef-portatil-400w-pt-2720015871-pai-1-p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 400 W, **4 velocidades**, tigela de 4 L, 0.68 kg. Código do produto: 2720015871_PAI.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-mini-chef-400.webp",
+      "alt": "Batedeira Arno Mini Chef portátil preta, com a tigela e os batedores ao lado",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/-bat-mini-chef-portatil-400w-pt-2720015871-pai-1-p/p"
+    }
+  },
+  {
+    "slug": "arno-bake-easy",
+    "nome": "Arno Planetária Bake Easy",
+    "marca": "Arno",
+    "modelo": "8010001506",
+    "categoria": "batedeiras",
+    "resumo": "500 W e 12 velocidades com tigela de 3,5 L — a menor tigela entre as planetárias.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 500,
+      "velocidades": 12,
+      "batedores": null,
+      "capacidadeTigelaL": 3.5,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-bake-easy-oficial",
+        "titulo": "Arno Planetária Bake Easy — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/batedeira-planetaria-arno-bake-easy-500w-12-veloc-3-batedores-arno-8010001506/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 500 W, **12 velocidades**, tigela de 3.5 L. Código do produto: 8010001506.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-bake-easy.webp",
+      "alt": "Batedeira planetária Arno Bake Easy marfim, com a tigela de inox encaixada",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/batedeira-planetaria-arno-bake-easy-500w-12-veloc-3-batedores-arno-8010001506/p"
+    }
+  },
+  {
+    "slug": "arno-nova-deluxe",
+    "nome": "Arno Planetária Nova Deluxe",
+    "marca": "Arno",
+    "modelo": "2720016026",
+    "categoria": "batedeiras",
+    "resumo": "270 W e 8 velocidades: a planetária de menor potência da lista, com tigela de 4,1 L.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 270,
+      "velocidades": 8,
+      "batedores": null,
+      "capacidadeTigelaL": 4.1,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 3.5,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "arno-nova-deluxe-oficial",
+        "titulo": "Arno Planetária Nova Deluxe — ficha oficial da Arno",
+        "url": "https://www.arno.com.br/batedeira-planetaria-arno-nova-deluxe-270w-branca-sx33-2720019168-pai-p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 270 W, **8 velocidades**, tigela de 4.1 L, 3.5 kg. Código do produto: 2720016026_PAI.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-nova-deluxe.webp",
+      "alt": "Batedeira planetária Arno Nova Deluxe branca, com a tigela encaixada",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/batedeira-planetaria-arno-nova-deluxe-270w-branca-sx33-2720019168-pai-p/p"
+    }
+  },
+  {
+    "slug": "electrolux-ekm40",
+    "nome": "Electrolux Experience EKM40",
+    "marca": "Electrolux",
+    "modelo": "EKM40",
+    "categoria": "batedeiras",
+    "resumo": "750 W com tigela de 5 L e três peças nomeadas: fouet, gancho e batedor. A ficha escreve as velocidades como “12 +”.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 750,
+      "velocidades": 12,
+      "batedores": "Fouet; Gancho e Plano",
+      "capacidadeTigelaL": 5.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 3.85,
+      "dimensoesMm": null,
+      "tensao": "127V ou 220V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-ekm40-oficial",
+        "titulo": "Electrolux Experience EKM40 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-750w-cinza-experience-com-tigela-inox-5l--ekm40-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 750 W, **12 velocidades**, batedores: Fouet; Gancho e Plano, tigela de 5 L, 3.85 kg. Código do produto: EKM40.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ekm40.webp",
+      "alt": "Batedeira planetária Electrolux EKM40 preta, com a tigela de inox e os três batedores ao lado",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-750w-cinza-experience-com-tigela-inox-5l--ekm40-/p"
+    }
+  },
+  {
+    "slug": "electrolux-kmp70",
+    "nome": "Electrolux Experience KMP70",
+    "marca": "Electrolux",
+    "modelo": "KMP70",
+    "categoria": "batedeiras",
+    "resumo": "800 W com 5 L e as mesmas três peças. As velocidades aparecem como “6 +” — metade das da EKM40, com 50 W a mais.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 800,
+      "velocidades": 6,
+      "batedores": "Fouet; Gancho e Plano",
+      "capacidadeTigelaL": 5.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 7.0,
+      "dimensoesMm": null,
+      "tensao": "127V ou 220V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-kmp70-oficial",
+        "titulo": "Electrolux Experience KMP70 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-expert-kmp70-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 800 W, **6 velocidades**, batedores: Fouet; Gancho e Plano, tigela de 5 L, 7 kg. Código do produto: KMP70.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-kmp70.webp",
+      "alt": "Batedeira planetária Electrolux KMP70 preta, com a tigela de inox encaixada",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-expert-kmp70-/p"
+    }
+  },
+  {
+    "slug": "electrolux-kmp75",
+    "nome": "Electrolux TruFlow KMP75",
+    "marca": "Electrolux",
+    "modelo": "KMP75",
+    "categoria": "batedeiras",
+    "resumo": "800 W e 5 L. A ficha da Electrolux é a única que nomeia cada batedor em vez de contar unidades.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 800,
+      "velocidades": 6,
+      "batedores": "Fouet; Gancho e espátula",
+      "capacidadeTigelaL": 5.0,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 7.0,
+      "dimensoesMm": null,
+      "tensao": "127V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "electrolux-kmp75-oficial",
+        "titulo": "Electrolux TruFlow KMP75 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-verde-com-truflow-linha-100-anos-celebre-texturas/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 800 W, **6 velocidades**, batedores: Fouet; Gancho e espátula, tigela de 5 L, 7 kg. Código do produto: KMP75.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-kmp75.webp",
+      "alt": "Batedeira planetária Electrolux KMP75 verde, com a tigela encaixada",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-verde-com-truflow-linha-100-anos-celebre-texturas/p"
+    }
+  }
+]

@@ -4382,6 +4382,134 @@ export const camposSecadorCabelo: Campo[] = [
   },
 ];
 
+/**
+ * Batedeira. O anuncio vende watt e a faixa e larga — 185 a 1.200 W. Mas a
+ * linha "comum" inteira de duas marcas, de 350 a 550 W, tem exatamente a mesma
+ * ficha: 4 velocidades, tigela de 4 a 4,3 L e um par de batedores. O que muda
+ * de verdade e o tipo: na planetaria o batedor orbita enquanto gira, alcanca a
+ * parede da tigela e vem com tres pecas diferentes — batedor, gancho e fouet —
+ * em 11 ou 12 velocidades. A diferenca entre 350 e 550 W nao aparece em campo
+ * nenhum; a diferenca entre comum e planetaria aparece em todos.
+ */
+export const camposBatedeira: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Comum: dois batedores girando no lugar. Planetária: o batedor gira e ao mesmo tempo percorre a tigela, como a Lua em volta da Terra — por isso o nome. É a divisão que separa as fichas em dois blocos.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "O que é",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    ajuda:
+      "O número do anúncio. Entre as comuns ele varia de 350 a 550 W sem mudar mais nada da ficha — nem velocidade, nem tigela, nem batedor.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidades",
+    rotulo: "Velocidades",
+    grupo: "Controle",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Toda comum daqui tem 4. Toda planetária tem 11 ou 12 — com uma exceção de 8, que é justamente a mais potente da lista.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "batedores",
+    rotulo: "Batedores",
+    grupo: "Controle",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Um par igual, ou três peças diferentes: batedor de massa leve, gancho de pão e fouet de claras. Uma comum só faz o primeiro trabalho.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeTigelaL",
+    rotulo: "Tigela",
+    grupo: "Tigela",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "A capacidade até a borda, que é o que as marcas publicam. Nenhuma diz quanto cabe de massa sem espirrar.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeTigelaExtraL",
+    rotulo: "Tigela extra",
+    grupo: "Tigela",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Algumas comuns vêm com uma segunda tigela menor. Uma marca publica esse campo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcaoTurbo",
+    rotulo: "Função turbo",
+    grupo: "Controle",
+    tipo: "booleano",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcaoPortatil",
+    rotulo: "Sai da base",
+    grupo: "Controle",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Se o corpo destaca do pedestal e vira batedeira de mão.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "kg",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Corpo",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Corpo",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
@@ -4397,6 +4525,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   aspiradores: camposAspirador,
   "lavadoras-alta-pressao": camposLavadoraAltaPressao,
   secadores: camposSecadorCabelo,
+  batedeiras: camposBatedeira,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -4421,6 +4550,11 @@ export function camposDa(categoria: string): Campo[] {
  * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
  */
 const ICONE_POR_CAMPO: Record<string, string> = {
+  batedores: "panela",
+  capacidadeTigelaL: "panela",
+  capacidadeTigelaExtraL: "panela",
+  funcaoTurbo: "raio",
+  funcaoPortatil: "info",
   niveisVelocidade: "info",
   jatoArFrio: "raio",
   gradeTraseiraRemovivel: "info",
@@ -4670,6 +4804,7 @@ export function iconeDo(chave: string): string {
 
 /** Ícone de cada categoria — trilho de navegação, mídia sem foto, cards. */
 const ICONE_POR_CATEGORIA: Record<string, string> = {
+  batedeiras: "panela",
   secadores: "raio",
   "lavadoras-alta-pressao": "gota",
   aspiradores: "info",
@@ -4705,6 +4840,11 @@ export function iconeDaCategoria(slug: string): string {
 
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
+  batedores: "Batedores",
+  capacidadeTigelaL: "Tigela",
+  capacidadeTigelaExtraL: "Tigela extra",
+  funcaoTurbo: "Turbo",
+  funcaoPortatil: "Sai da base",
   niveisVelocidade: "Velocidades",
   jatoArFrio: "Ar frio",
   gradeTraseiraRemovivel: "Grade sai",
@@ -4919,6 +5059,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   aspiradores: ["succaoPa", "potenciaW", "ruidoDb"],
   "lavadoras-alta-pressao": ["vazaoLh", "pressaoPsi", "tipoMotor"],
   secadores: ["gradeTraseiraRemovivel", "niveisTemperatura", "potenciaW"],
+  batedeiras: ["tipo", "velocidades", "capacidadeTigelaL"],
 };
 
 export function destaquesDa(categoria: string): string[] {

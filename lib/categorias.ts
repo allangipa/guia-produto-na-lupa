@@ -141,6 +141,16 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "batedeiras",
+    nome: "Batedeiras",
+    descricao:
+      "Batedeiras comuns e planetárias — com o tipo, as velocidades e os batedores ao lado do watt que dá nome ao modelo.",
+    dorPrincipal:
+      "De 350 a 550 W, a ficha é a mesma: 4 velocidades, 4,3 L, um par de batedores.",
+    porQueParou:
+      "Fechou em vinte e sete, com quatro marcas. O nó tem 127 batedeiras, e o que limitou a lista não foi produto: foi repetição. Só a Britânia publica vinte e duas “comuns” com a mesma tigela, as mesmas quatro velocidades e o mesmo par de batedores, variando apenas cor e watt — entraram seis, que cobrem toda a faixa de potência. Oster, Cadence, Mallory e Mondial aparecem no nó e publicam só potência, sem velocidade, tigela nem batedor; sem isso não dá para comparar. Ficaram de fora os acessórios e kits que o catálogo mistura com as máquinas.",
+  },
+  {
     slug: "secadores",
     nome: "Secadores de cabelo",
     descricao:
