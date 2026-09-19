@@ -123,6 +123,15 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "espremedores",
+    nome: "Espremedores de frutas",
+    descricao:
+      "Espremedores de cítricos, com a rotação alternada e o número de cones ao lado da potência que todo anúncio estampa.",
+    dorPrincipal: "De 30 a 260 W para a mesma laranja. O que os watts a mais compram?",
+    porQueParou:
+      "Fechou em nove. A lista de mais vendidos junta quatro produtos diferentes — espremedor de cítricos, centrífuga de alimentos, prensa a frio e até centrífuga de roupa e triturador de pia —, e aqui entraram só os de cítricos. Tramontina e Cuisinart aparecem no ranking e não têm catálogo brasileiro alcançável; o Mondial E-04 não foi encontrado no catálogo da marca com o código do anúncio.",
+  },
+  {
     slug: "chaleiras",
     nome: "Chaleiras elétricas",
     descricao:

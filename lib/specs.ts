@@ -3104,6 +3104,156 @@ export const camposChaleira: Campo[] = [
   },
 ];
 
+/**
+ * Espremedores de frutas cítricas.
+ *
+ * A potência vai de 30 a 260 W nesta lista — oito vezes de diferença para a
+ * mesma laranja —, e nenhuma marca diz o que os watts a mais compram. O que
+ * muda o resultado é outra coisa: **rotação alternada**, que gira o cone nos
+ * dois sentidos e solta mais suco da mesma metade, e o **número de cones**,
+ * que decide se o limão e a laranja usam o mesmo bico.
+ *
+ * Os dois campos existem em metade das fichas. A potência existe em todas.
+ */
+export const camposEspremedor: Campo[] = [
+  {
+    chave: "capacidadeJarraL",
+    rotulo: "Capacidade da jarra",
+    grupo: "O que é",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cones",
+    rotulo: "Cones",
+    grupo: "Extração",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Dois cones significam um bico para limão e outro para laranja. Um cone serve os dois de qualquer jeito.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "rotacaoAlternada",
+    rotulo: "Rotação alternada",
+    grupo: "Extração",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "O cone gira nos dois sentidos e solta mais suco da mesma metade. É o campo que muda o resultado, e metade das fichas não publica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Extração",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Vai de 30 a 260 W nesta lista, para a mesma fruta. Nenhuma marca declara o que os watts a mais entregam.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "acionamento",
+    rotulo: "Acionamento",
+    grupo: "Extração",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Por pressão liga ao encostar a fruta; por botão exige a outra mão.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "controlePolpa",
+    rotulo: "Regulagem de polpa",
+    grupo: "Extração",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "jarraRemovivel",
+    rotulo: "Jarra removível",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "indicadorCapacidade",
+    rotulo: "Indicador de nível",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "lavaLoucas",
+    rotulo: "Vai à lava-louças",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "material",
+    rotulo: "Material",
+    grupo: "Uso",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
@@ -3112,6 +3262,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   lavadoras: camposLavadora,
   torradeiras: camposTorradeira,
   chaleiras: camposChaleira,
+  espremedores: camposEspremedor,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -3322,6 +3473,13 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   protecaoSemAgua: "escudo",
   baseGiratoria: "seta",
   visorNivel: "display",
+  capacidadeJarraL: "gota",
+  cones: "panela",
+  rotacaoAlternada: "seta",
+  acionamento: "controle",
+  controlePolpa: "filtro",
+  jarraRemovivel: "portas",
+  indicadorCapacidade: "regua",
 };
 
 export function iconeDo(chave: string): string {
@@ -3348,6 +3506,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   lavadoras: "gota",
   torradeiras: "panela",
   chaleiras: "gota",
+  espremedores: "gota",
   eletrodomesticos: "raio",
 };
 
@@ -3481,6 +3640,11 @@ const ROTULO_CURTO: Record<string, string> = {
   protecaoSemAgua: "Sem água",
   baseGiratoria: "Base 360°",
   visorNivel: "Visor",
+  capacidadeJarraL: "Jarra",
+  rotacaoAlternada: "Dois sentidos",
+  controlePolpa: "Polpa",
+  jarraRemovivel: "Jarra removível",
+  indicadorCapacidade: "Nível",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -3515,6 +3679,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   lavadoras: ["capacidadeKg", "consumoAguaL", "rotacaoRpm"],
   torradeiras: ["niveisTostagem", "espessuraPaoMm", "potenciaW"],
   chaleiras: ["capacidadeL", "tempoFervuraMin", "potenciaW"],
+  espremedores: ["capacidadeJarraL", "cones", "rotacaoAlternada"],
 };
 
 export function destaquesDa(categoria: string): string[] {

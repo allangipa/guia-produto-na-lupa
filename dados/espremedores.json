@@ -1,0 +1,515 @@
+[
+  {
+    "slug": "electrolux-ecp10",
+    "nome": "Electrolux Efficient ECP10",
+    "marca": "Electrolux",
+    "modelo": "ECP10",
+    "categoria": "espremedores",
+    "resumo": "A ficha mais completa da categoria: dois cones, rotação alternada, peneira ajustável, jarra removível e indicador de nível, todos em campo próprio.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 0.8,
+      "cones": 2,
+      "rotacaoAlternada": true,
+      "potenciaW": 30,
+      "acionamento": "Automático",
+      "controlePolpa": true,
+      "jarraRemovivel": true,
+      "indicadorCapacidade": true,
+      "lavaLoucas": null,
+      "material": "Plástico com acabamento em inox escovado",
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.79,
+      "dimensoesMm": "198 × 219 × 142",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BTMSKQWL"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ecp10-oficial",
+        "titulo": "Electrolux ECP10 Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/espremedor-de-laranjas-e-frutas-electrolux-efficient-800ml--ecp10-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 800 ml, potência de 30 W, 2 cones, rotação alternada, peneira ajustável, acionamento automático, jarra removível, indicador de capacidade, tampa, acessórios removíveis, acabamento em aço inox escovado, corpo de plástico, 19,8 × 21,9 × 14,2 cm, 0,79 kg, 127 V ou 220 V e garantia de 1 ano. O campo de lava-louças não entrou: ver a divergência. A Electrolux é a única da categoria que publica rotação alternada, cones e peneira ajustável na mesma ficha.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BTMSKQWL",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BTMSKQWL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "lavaLoucas",
+        "fonteAdotada": "Electrolux",
+        "valorDivergente": "800mlz",
+        "fonteDivergente": "Electrolux",
+        "observacao": "O campo “Compatível com lava-louças” traz o texto “800mlz” — a capacidade do produto com uma letra sobrando, no lugar de sim ou não. É valor de outro campo que caiu neste. Sem resposta legível, o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ecp10.webp",
+      "alt": "Espremedor de frutas Electrolux ECP10 com jarra transparente e acabamento em inox",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/espremedor-de-laranjas-e-frutas-electrolux-efficient-800ml--ecp10-/p"
+    }
+  },
+  {
+    "slug": "wap-wj1200",
+    "nome": "WAP Prosdócimo WJ1200",
+    "marca": "WAP",
+    "modelo": "WJ1200",
+    "categoria": "espremedores",
+    "resumo": "Dois cones, rotação alternada e dois anos de garantia — e a única ficha da lista que diz explicitamente que **não** tem peneira ajustável.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 1.2,
+      "cones": 2,
+      "rotacaoAlternada": true,
+      "potenciaW": null,
+      "acionamento": "Automático",
+      "controlePolpa": false,
+      "jarraRemovivel": true,
+      "indicadorCapacidade": true,
+      "lavaLoucas": null,
+      "material": "Polímeros e metais, jarra em AS livre de BPA",
+      "comprimentoCaboM": 0.9,
+      "tensao": null,
+      "pesoKg": 0.78,
+      "dimensoesMm": "145 × 265 × 195",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DXFPV16Y"
+    },
+    "fontes": [
+      {
+        "id": "wap-wj1200-oficial",
+        "titulo": "WAP WJ1200 Prosdócimo — página oficial da WAP",
+        "url": "https://loja.wap.ind.br/espremedor-de-frutas-wj1200/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 1,2 L, 2 cones — um pequeno e um grande —, rotação alternada, acionamento automático, peneira ajustável **não**, desmontável, jarra de plástico AS livre de BPA, indicador de capacidade, pés antiderrapantes, sem porta-fio, cabo de 0,9 m, tomada de 10 A, 19,5 × 14,5 × 26,5 cm em comprimento × largura × altura, 0,78 kg líquidos e garantia de 2 anos. A ficha não publica a potência — é a única da lista que omite justamente o número que todas as outras trazem.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DXFPV16Y",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DXFPV16Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-wj1200.webp",
+      "alt": "Espremedor de frutas WAP WJ1200 preto e cinza, com jarra de 1,2 litro",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/espremedor-de-frutas-wj1200/p"
+    }
+  },
+  {
+    "slug": "britania-bellagio-350",
+    "nome": "Britânia Bellagio 350",
+    "marca": "Britânia",
+    "modelo": "Bellagio 350",
+    "categoria": "espremedores",
+    "resumo": "Rotação nos dois sentidos por 35 W e acionamento por pressão — encosta a fruta e liga. A jarra de 1,5 litro é a maior da lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 1.5,
+      "cones": null,
+      "rotacaoAlternada": true,
+      "potenciaW": 35,
+      "acionamento": "Por pressão",
+      "controlePolpa": null,
+      "jarraRemovivel": null,
+      "indicadorCapacidade": null,
+      "lavaLoucas": null,
+      "material": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08K9D6PKF"
+    },
+    "fontes": [
+      {
+        "id": "britania-bellagio350-oficial",
+        "titulo": "Britânia Bellagio 350 — página oficial da Britânia",
+        "url": "https://www.britania.com.br/espremedor-de-frutas-britania-bellagio-350-turbo-preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade da jarra de 1,5 L, potência de 35 W, acionamento por pressão, peneira, rotação em dois sentidos, 1 velocidade e garantia de 360 dias. Britânia e Philco publicam, para espremedor, sete campos: capacidade da jarra, potência, acionamento, peneira, rotação, velocidades e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem cabo, sem número de cones.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B08K9D6PKF",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08K9D6PKF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bellagio-350.webp",
+      "alt": "Espremedor de frutas Britânia Bellagio 350 preto, visto de frente",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/espremedor-de-frutas-britania-bellagio-350-turbo-preto/p"
+    }
+  },
+  {
+    "slug": "britania-turbo-pro",
+    "nome": "Britânia Turbo Pro",
+    "marca": "Britânia",
+    "modelo": "Turbo Pro",
+    "categoria": "espremedores",
+    "resumo": "Duzentos e sessenta watts, oito vezes a potência do Mondial desta lista — e gira num sentido só, enquanto o Bellagio de 35 W da mesma marca gira nos dois.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 1.3,
+      "cones": null,
+      "rotacaoAlternada": false,
+      "potenciaW": 260,
+      "acionamento": "Por botão",
+      "controlePolpa": null,
+      "jarraRemovivel": null,
+      "indicadorCapacidade": null,
+      "lavaLoucas": null,
+      "material": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B079Y8DWDL"
+    },
+    "fontes": [
+      {
+        "id": "britania-turbopro-oficial",
+        "titulo": "Britânia Turbo Pro — página oficial da Britânia",
+        "url": "https://www.britania.com.br/espremedor-de-frutas-britania-turbo-pro-260w-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade da jarra de 1,3 L, potência de 260 W, acionamento por botão, peneira, rotação em um sentido, 1 velocidade e garantia de 360 dias. É o de maior potência da categoria e o único da Britânia que não gira nos dois sentidos. Britânia e Philco publicam, para espremedor, sete campos: capacidade da jarra, potência, acionamento, peneira, rotação, velocidades e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem cabo, sem número de cones.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B079Y8DWDL",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B079Y8DWDL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-turbo-pro.webp",
+      "alt": "Espremedor de frutas Britânia Turbo Pro preto, com jarra transparente",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/espremedor-de-frutas-britania-turbo-pro-260w-/p"
+    }
+  },
+  {
+    "slug": "philco-pef700p",
+    "nome": "Philco PEF700P",
+    "marca": "Philco",
+    "modelo": "PEF700P",
+    "categoria": "espremedores",
+    "resumo": "Dois cones e jarra de 1,5 litro por 70 W. A Philco publica o número de cones no nome do produto e não no campo — que ela não tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 1.5,
+      "cones": 2,
+      "rotacaoAlternada": null,
+      "potenciaW": 70,
+      "acionamento": "Por pressão",
+      "controlePolpa": null,
+      "jarraRemovivel": null,
+      "indicadorCapacidade": null,
+      "lavaLoucas": null,
+      "material": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B097QXLNYY"
+    },
+    "fontes": [
+      {
+        "id": "philco-pef700p-oficial",
+        "titulo": "Philco PEF700P — página oficial da Philco",
+        "url": "https://www.philco.com.br/--espremedor-de-frutas-philco-pef700p-2-cones-70w-1l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade da jarra de 1,5 L, potência de 70 W, acionamento por pressão, peneira, 1 velocidade e garantia de 360 dias. Os 2 cones estão no nome do produto na própria página da Philco; não existe campo de cones na ficha dela. Esta página também não traz o campo de rotação, que a mesma casa preenche em outros modelos. Britânia e Philco publicam, para espremedor, sete campos: capacidade da jarra, potência, acionamento, peneira, rotação, velocidades e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem cabo, sem número de cones.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B097QXLNYY",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B097QXLNYY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pef700p.webp",
+      "alt": "Espremedor de frutas Philco PEF700P preto, com dois cones",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/--espremedor-de-frutas-philco-pef700p-2-cones-70w-1l/p"
+    }
+  },
+  {
+    "slug": "philco-pef750p",
+    "nome": "Philco PEF750P",
+    "marca": "Philco",
+    "modelo": "PEF750P",
+    "categoria": "espremedores",
+    "resumo": "Meio litro de jarra, a menor da lista, com os mesmos 70 W do irmão de 1,5 litro. Gira num sentido só.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 0.5,
+      "cones": null,
+      "rotacaoAlternada": false,
+      "potenciaW": 70,
+      "acionamento": "Por pressão",
+      "controlePolpa": null,
+      "jarraRemovivel": null,
+      "indicadorCapacidade": null,
+      "lavaLoucas": null,
+      "material": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BZ553F27"
+    },
+    "fontes": [
+      {
+        "id": "philco-pef750p-oficial",
+        "titulo": "Philco PEF750P — página oficial da Philco",
+        "url": "https://www.philco.com.br/espremedor-de-frutas-philco-pef750p-70w-automatico/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade da jarra de 0,5 L, potência de 70 W, acionamento por pressão, peneira, rotação em um sentido, 1 velocidade e garantia de 360 dias. Britânia e Philco publicam, para espremedor, sete campos: capacidade da jarra, potência, acionamento, peneira, rotação, velocidades e garantia em dias. Declaram a unidade das medidas — centímetros — e nenhum valor: sem dimensão, sem peso, sem cabo, sem número de cones.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0BZ553F27",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BZ553F27",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pef750p.webp",
+      "alt": "Espremedor de frutas Philco PEF750P prata, compacto",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/espremedor-de-frutas-philco-pef750p-70w-automatico/p"
+    }
+  },
+  {
+    "slug": "arno-suco-express",
+    "nome": "Arno Suco Express",
+    "marca": "Arno",
+    "modelo": "CP01",
+    "categoria": "espremedores",
+    "resumo": "Quarenta watts e o único da lista que publica consumo mensal: 1,2 kWh. A altura declarada não fecha com a caixa em que ele é vendido.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 0.75,
+      "cones": null,
+      "rotacaoAlternada": null,
+      "potenciaW": 40,
+      "acionamento": null,
+      "controlePolpa": null,
+      "jarraRemovivel": null,
+      "indicadorCapacidade": null,
+      "lavaLoucas": null,
+      "material": "Plástico",
+      "comprimentoCaboM": 0.8,
+      "tensao": null,
+      "pesoKg": 0.89,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0923XDSYP"
+    },
+    "fontes": [
+      {
+        "id": "arno-suco-express-oficial",
+        "titulo": "Arno Suco Express — página oficial da Arno",
+        "url": "https://www.arno.com.br/espremedor-de-frutas-suco-express-075l-preto-cp01-8010000883-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Volume de 750 ml, potência de 40 W, consumo de 1,2 kWh por mês — a única ficha da categoria que publica consumo —, corpo de plástico, cabo de 80 cm, sem porta-fios, 0,89 kg, registro no Inmetro UL-BR 18.0772 e garantia de 1 ano. As medidas não entraram: ver a divergência. A ficha não declara cones, rotação, acionamento nem peneira.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0923XDSYP",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0923XDSYP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "Arno",
+        "valorDivergente": "altura de 46,8 cm",
+        "fonteDivergente": "Arno",
+        "observacao": "A ficha publica 18,5 cm de largura, 22,4 de profundidade e 46,8 cm de altura. Na mesma página, a caixa do produto tem 20,8 cm de altura — o espremedor não caberia dentro da própria embalagem. Um dos dois números está errado e a página não diz qual, então o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-suco-express.webp",
+      "alt": "Espremedor de frutas Arno Suco Express preto, com jarra transparente",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/espremedor-de-frutas-suco-express-075l-preto-cp01-8010000883-pai/p"
+    }
+  },
+  {
+    "slug": "mondial-e-02",
+    "nome": "Mondial Premium E-02",
+    "marca": "Mondial",
+    "modelo": "E-02",
+    "categoria": "espremedores",
+    "resumo": "Trinta watts, jarra de 1,25 litro e cabo de 1,5 metro — o mais longo da lista. Seis campos da ficha da Mondial vêm preenchidos com um traço.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 1.25,
+      "cones": null,
+      "rotacaoAlternada": null,
+      "potenciaW": 30,
+      "acionamento": null,
+      "controlePolpa": null,
+      "jarraRemovivel": null,
+      "indicadorCapacidade": null,
+      "lavaLoucas": null,
+      "material": "PP",
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.8,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076FGHHNG"
+    },
+    "fontes": [
+      {
+        "id": "mondial-e02-oficial",
+        "titulo": "Mondial E-02 Premium — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/espremedor-mondial-premium-e-02/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade da jarra de 1,25 L, potência de 30 W, corpo em PP, desmontável, cabo de 1,50 m, 0,800 kg, 127 V/220 V e garantia de 1 ano. Seis campos da ficha — filtro em aço, trava de segurança, velocidades, funções, tipo de tomada e benefícios — vêm preenchidos com um traço, que não é nem um valor nem um “não”. A Mondial não publica dimensões, cones nem rotação.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B076FGHHNG",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076FGHHNG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-e-02.webp",
+      "alt": "Espremedor de frutas Mondial Premium E-02 preto, visto de frente",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/espremedor-mondial-premium-e-02/p"
+    }
+  },
+  {
+    "slug": "mondial-e-01",
+    "nome": "Mondial Turbo Citrus E-01",
+    "marca": "Mondial",
+    "modelo": "E-01",
+    "categoria": "espremedores",
+    "resumo": "Mesma jarra e mesmo cabo do E-02. O campo de potência desta ficha traz as dimensões do produto no lugar dos watts.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeJarraL": 1.25,
+      "cones": null,
+      "rotacaoAlternada": null,
+      "potenciaW": null,
+      "acionamento": null,
+      "controlePolpa": null,
+      "jarraRemovivel": null,
+      "indicadorCapacidade": null,
+      "lavaLoucas": null,
+      "material": "PP",
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.8,
+      "dimensoesMm": "235 × 220 × 160",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07659Y78D"
+    },
+    "fontes": [
+      {
+        "id": "mondial-e01-oficial",
+        "titulo": "Mondial E-01 Turbo Citrus — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/espremedor-mondial-turbo-citrus-e-01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade da jarra de 1,25 L, corpo em PP, desmontável, cabo de 1,50 m, 0,800 kg, 127 V/220 V e garantia de 1 ano. As medidas da ficha saíram do campo de potência, que é onde a Mondial as publicou — ver a divergência. Como no E-02, seis campos vêm preenchidos com um traço.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07659Y78D",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07659Y78D",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O título do anúncio traz 25 W. Como esse número não aparece na página da Mondial, ele não entrou na ficha — anúncio de varejo não é fonte de especificação.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "Mondial",
+        "valorDivergente": "22cm x 23,5cm x 16cm (AxLxP)",
+        "fonteDivergente": "Mondial",
+        "observacao": "O campo “Potência” da ficha publicada contém as dimensões do produto, não um valor em watts. É o conteúdo de outro campo no lugar errado. As medidas foram aproveitadas — são a única fonte de dimensão que a Mondial publica para este modelo — e a potência ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-e-01.webp",
+      "alt": "Espremedor de frutas Mondial Turbo Citrus E-01 branco, visto de frente",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/espremedor-mondial-turbo-citrus-e-01/p"
+    }
+  }
+]
