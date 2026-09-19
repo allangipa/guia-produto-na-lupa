@@ -1,0 +1,1104 @@
+[
+  {
+    "slug": "mondial-scp-ju-04-us",
+    "nome": "Mondial Ultra Sonic by Juliette SCP-JU-04-US",
+    "marca": "Mondial",
+    "modelo": "SCP-JU-04-US",
+    "categoria": "secadores",
+    "resumo": "285 gramas e motor brushless de 110.000 rpm por 1.600 W. É metade do peso dos convencionais de 2.000 W — e a única marca que diz qual motor usa.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1600,
+      "tipoMotor": "Brushless (BLDC)",
+      "rotacaoRpm": 110000,
+      "niveisTemperatura": 5,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 2.5,
+      "pesoKg": 0.285,
+      "tensao": "127V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-scp-ju-04-us-oficial",
+        "titulo": "Mondial Ultra Sonic by Juliette SCP-JU-04-US — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/secador-mondial-ultra-sonic-by-juliette-bldc-cabo-dobravel/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1600 W, motor Brushless (BLDC), 110.000 rpm, **5 níveis de temperatura**, jato de ar frio, gerador de íons, cabo de 2.5 m, 0.285 kg. Código do produto: SCP-JU-04-US.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-scp-ju-04-us.webp",
+      "alt": "Secador de cabelo Mondial Ultra Sonic by Juliette prata, corpo fino com anel colorido no bocal",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/secador-mondial-ultra-sonic-by-juliette-bldc-cabo-dobravel/p"
+    }
+  },
+  {
+    "slug": "mondial-scp-01-us",
+    "nome": "Mondial Ultra Sonic SCP-01-US",
+    "marca": "Mondial",
+    "modelo": "SCP-01-US",
+    "categoria": "secadores",
+    "resumo": "1.400 W com brushless de 110.000 rpm e três níveis: frio, morno e quente. A ficha escreve os três por extenso.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1400,
+      "tipoMotor": "Brushless (BLDC)",
+      "rotacaoRpm": 110000,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": true,
+      "comprimentoCaboM": 2.5,
+      "pesoKg": 0.36,
+      "tensao": "127V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-scp-01-us-oficial",
+        "titulo": "Mondial Ultra Sonic SCP-01-US — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/secador-mondial-ultra-sonic-bldc-led-inteligente-scp01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1400 W, motor Brushless (BLDC), 110.000 rpm, **3 níveis de temperatura**, jato de ar frio, gerador de íons, cabo de 2.5 m, 0.36 kg. Código do produto: SCP-01-US.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-scp-01-us.webp",
+      "alt": "Secador de cabelo Mondial Ultra Sonic prata, corpo fino com visor de led no bocal",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/secador-mondial-ultra-sonic-bldc-led-inteligente-scp01/p"
+    }
+  },
+  {
+    "slug": "mondial-sm-01-bldc",
+    "nome": "Mondial Multifuncional 5 em 1 SM-01-BLDC",
+    "marca": "Mondial",
+    "modelo": "SM-01-BLDC-CP",
+    "categoria": "secadores",
+    "resumo": "O único da lista com tudo marcado: brushless, grade traseira removível, cabo giratório de 360°, íons, 3 temperaturas e 3 velocidades.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1500,
+      "tipoMotor": "Brushless (BLDC)",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": true,
+      "emiteIons": true,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.47,
+      "tensao": "127V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-sm-01-bldc-oficial",
+        "titulo": "Mondial Multifuncional 5 em 1 SM-01-BLDC — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/secador-multifuncional-mondial-5-em-1-ceramic-pink-sm-01-bldc-cp/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1500 W, motor Brushless (BLDC), **3 níveis de temperatura**, **3 de velocidade**, jato de ar frio, **grade traseira removível**, cabo giratório, gerador de íons, 0.47 kg. Código do produto: SM-01-BLDC-CP.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-sm-01-bldc.webp",
+      "alt": "Secador de cabelo multifuncional Mondial 5 em 1 rosa-claro, com escovas, modeladores, difusor e estojo",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/secador-multifuncional-mondial-5-em-1-ceramic-pink-sm-01-bldc-cp/p"
+    }
+  },
+  {
+    "slug": "mondial-scn-02",
+    "nome": "Mondial Black Gold SCN-02",
+    "marca": "Mondial",
+    "modelo": "SCN-02",
+    "categoria": "secadores",
+    "resumo": "2.000 W com grade traseira removível. O campo de garantia da ficha está preenchido com “1,030kg” e o do cabo diz 1,70 cm.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.62,
+      "tensao": "127V/220V",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-scn-02-oficial",
+        "titulo": "Mondial Black Gold SCN-02 — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/secador-de-cabelos-black-gold-mondial-scn-02/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, jato de ar frio, **grade traseira removível**, 0.62 kg. A ficha traz “Garantia: 1,030kg” e “Comprimento do cabo: 1,70cm”; os dois campos ficam vazios aqui. Código do produto: SCN-02.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "mondial-scn-02-oficial",
+        "valorDivergente": "1,030kg",
+        "fonteDivergente": "mondial-scn-02-oficial",
+        "observacao": "O campo “Garantia” traz “1,030kg”, que é um peso — e nem o peso do produto, que a mesma ficha declara como 0,620 kg; 1,030 kg é provavelmente o peso com a embalagem. O irmão SCN-16, idêntico em tudo o mais, publica “01 ano” no mesmo campo. Como a ficha deste não diz a garantia, o campo fica vazio."
+      },
+      {
+        "campo": "comprimentoCaboM",
+        "fonteAdotada": "mondial-scn-02-oficial",
+        "valorDivergente": "1,70cm",
+        "fonteDivergente": "mondial-scn-02-oficial",
+        "observacao": "“Comprimento do cabo: 1,70cm”. Um cabo de 1,7 cm não alcança a tomada. É 1,70 m escrito com a unidade errada, e os demais modelos da marca publicam 1,50 m e 2,5 m em metros. A ficha não corrige o fabricante: deixa vazio."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-scn-02.webp",
+      "alt": "Secador de cabelo Mondial Black Gold preto com detalhe dourado, visto de lado",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/secador-de-cabelos-black-gold-mondial-scn-02/p"
+    }
+  },
+  {
+    "slug": "mondial-scn-16",
+    "nome": "Mondial Black Tiff SCN-16",
+    "marca": "Mondial",
+    "modelo": "SCN-16",
+    "categoria": "secadores",
+    "resumo": "A mesma máquina do Black Gold em outra cor — e aqui o campo de garantia diz “01 ano”, como devia. O do cabo continua em centímetros.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.62,
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-scn-16-oficial",
+        "titulo": "Mondial Black Tiff SCN-16 — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/secador-de-cabelos-scn-16-127v-60hz/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, jato de ar frio, **grade traseira removível**, 0.62 kg. O campo “Comprimento do cabo” traz “1,70cm” e fica vazio aqui, pelo mesmo motivo do SCN-02. Código do produto: SCN-16.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "comprimentoCaboM",
+        "fonteAdotada": "mondial-scn-16-oficial",
+        "valorDivergente": "1,70cm",
+        "fonteDivergente": "mondial-scn-16-oficial",
+        "observacao": "Mesmo erro de unidade do SCN-02: “1,70cm” onde são 1,70 m."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-scn-16.webp",
+      "alt": "Secador de cabelo Mondial Black Tiff preto com detalhe turquesa, visto de lado",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/secador-de-cabelos-scn-16-127v-60hz/p"
+    }
+  },
+  {
+    "slug": "mondial-sc-25",
+    "nome": "Mondial Infinity 2500 SC-25",
+    "marca": "Mondial",
+    "modelo": "SC-12",
+    "categoria": "secadores",
+    "resumo": "1.900 W, grade traseira removível e 530 gramas. O cabo, aqui, vem em metros: 1,50 m.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1900,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 0.53,
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-sc-25-oficial",
+        "titulo": "Mondial Infinity 2500 SC-25 — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/secador-infinity-2500-mondial-vermelho-preto-1900w-sc-12-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1900 W, jato de ar frio, **grade traseira removível**, cabo de 1.5 m, 0.53 kg. Código do produto: 689.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-sc-25.webp",
+      "alt": "Secador de cabelo Mondial Infinity 2500 vermelho e preto, visto de lado",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/secador-infinity-2500-mondial-vermelho-preto-1900w-sc-12-1/p"
+    }
+  },
+  {
+    "slug": "mondial-sc-10",
+    "nome": "Mondial Maxis Travel SC-10",
+    "marca": "Mondial",
+    "modelo": "SC-10",
+    "categoria": "secadores",
+    "resumo": "1.200 W e 340 gramas, bivolt, com grade traseira removível — num secador de viagem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 0.34,
+      "tensao": "Bivolt",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "mondial-sc-10-oficial",
+        "titulo": "Mondial Maxis Travel SC-10 — ficha oficial da Mondial",
+        "url": "https://lojamondial.vtexcommercestable.com.br/secador-maxis-travel-mondial-vermelho-preto-1200w-sc-10/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1200 W, jato de ar frio, **grade traseira removível**, cabo de 1.5 m, 0.34 kg. Código do produto: 687.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-sc-10.webp",
+      "alt": "Secador de cabelo Mondial Maxis Travel vermelho e preto, de cabo dobrável, visto de lado",
+      "credito": "Imagem: Mondial",
+      "origem": "https://lojamondial.vtexcommercestable.com.br/secador-maxis-travel-mondial-vermelho-preto-1200w-sc-10/p"
+    }
+  },
+  {
+    "slug": "philco-psc3600",
+    "nome": "Philco PSC3600",
+    "marca": "Philco",
+    "modelo": "PSC3600",
+    "categoria": "secadores",
+    "resumo": "Quatro níveis de temperatura por 1.600 W — o único da lista com quatro. Com duas velocidades, dá oito ajustes.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1600,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 4,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-psc3600-oficial",
+        "titulo": "Philco PSC3600 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-de-cabelos-psc3600-127v-053501080/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1600 W, **4 níveis de temperatura**, **2 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSC3600-CZ.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psc3600.webp",
+      "alt": "Secador de cabelo Philco PSC3600 cinza-escuro, corpo fino, visto de lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-psc3600-127v-053501080/p"
+    }
+  },
+  {
+    "slug": "philco-psde17a",
+    "nome": "Philco Fast Dry PSDE17A",
+    "marca": "Philco",
+    "modelo": "PSDE17A",
+    "categoria": "secadores",
+    "resumo": "Motor BLDC de 1.600 W com 3 temperaturas e 3 velocidades: nove combinações, o máximo daqui, com 400 W a menos que os de 2.000.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1600,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-psde17a-oficial",
+        "titulo": "Philco Fast Dry PSDE17A — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-cabelo-philco-bldc-fast-dry-1600w-psde17a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1600 W, **3 níveis de temperatura**, **3 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSDE17A-M.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psde17a.webp",
+      "alt": "Secador de cabelo Philco Fast Dry bege, com escova e dois modeladores ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-cabelo-philco-bldc-fast-dry-1600w-psde17a/p"
+    }
+  },
+  {
+    "slug": "philco-psc3500",
+    "nome": "Philco 4 em 1 Dobrável PSC3500",
+    "marca": "Philco",
+    "modelo": "PSC3500",
+    "categoria": "secadores",
+    "resumo": "1.450 W, motor BLDC, dobrável, 3 × 3. É o de menor potência entre os de nove combinações.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1450,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-psc3500-oficial",
+        "titulo": "Philco 4 em 1 Dobrável PSC3500 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-de-cabelos-psc3500-127v-053501079/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1450 W, **3 níveis de temperatura**, **3 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSC3500-S.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psc3500.webp",
+      "alt": "Secador de cabelo Philco 4 em 1 dobrável bege, com escovas e modeladores ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-psc3500-127v-053501079/p"
+    }
+  },
+  {
+    "slug": "philco-psc2400",
+    "nome": "Philco Expert Pro PSC2400",
+    "marca": "Philco",
+    "modelo": "PSC2400",
+    "categoria": "secadores",
+    "resumo": "2.400 W — a maior potência da lista — com 3 temperaturas e 2 velocidades. Seis combinações, as mesmas do de 1.200 W.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2400,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 3.0,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-psc2400-oficial",
+        "titulo": "Philco Expert Pro PSC2400 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-de-cabelos-philco-expert-pro-psc2400-2400w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2400 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 3 m. Código do produto: PHI-PSC2400-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psc2400.webp",
+      "alt": "Secador de cabelo Philco Expert Pro prata e preto, com difusor de dedos encaixado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-philco-expert-pro-psc2400-2400w/p"
+    }
+  },
+  {
+    "slug": "philco-psc2300",
+    "nome": "Philco Motor DC PSC2300",
+    "marca": "Philco",
+    "modelo": "PSC2300",
+    "categoria": "secadores",
+    "resumo": "2.200 W com motor DC declarado. A ficha escreve a potência como “2200(W)”, com a unidade entre parênteses dentro do valor.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.9,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-psc2300-oficial",
+        "titulo": "Philco Motor DC PSC2300 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-de-cabelos-philco-motor-dc-2200w-bivolt-psc2300/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2200 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: PHI-PSC2300-V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psc2300.webp",
+      "alt": "Secador de cabelo Philco PSC2300 rosa e prata, visto de lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-philco-motor-dc-2200w-bivolt-psc2300/p"
+    }
+  },
+  {
+    "slug": "philco-psa3250",
+    "nome": "Philco Íons Tourmaline PSA3250",
+    "marca": "Philco",
+    "modelo": "PSA3250",
+    "categoria": "secadores",
+    "resumo": "2.100 W com 2 temperaturas e 3 velocidades — a divisão invertida em relação a quase toda a lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-psa3250-oficial",
+        "titulo": "Philco Íons Tourmaline PSA3250 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-de-cabelos-psa3250-127v-053501076/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **3 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSA3250-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psa3250.webp",
+      "alt": "Secador de cabelo Philco Íons Tourmaline preto, visto de lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-psa3250-127v-053501076/p"
+    }
+  },
+  {
+    "slug": "philco-psc10",
+    "nome": "Philco Star Bright PSC10",
+    "marca": "Philco",
+    "modelo": "PSC10",
+    "categoria": "secadores",
+    "resumo": "2.100 W, 3 × 2. Mesma ficha de controle do Expert Pro de 2.400 W, por 300 W a menos.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-psc10-oficial",
+        "titulo": "Philco Star Bright PSC10 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-de-cabelos-philco-star-bright-psc10/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSC10-BG.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psc10.webp",
+      "alt": "Secador de cabelo Philco Star Bright branco e dourado, visto de lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-philco-star-bright-psc10/p"
+    }
+  },
+  {
+    "slug": "philco-sec-travel",
+    "nome": "Philco Titanium Travel 750W",
+    "marca": "Philco",
+    "modelo": "Titanium Travel",
+    "categoria": "secadores",
+    "resumo": "750 W — o menor da lista — com 2 temperaturas e 2 velocidades. Um terço da potência do maior e dois terços dos ajustes.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 750,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.9,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "philco-sec-travel-oficial",
+        "titulo": "Philco Titanium Travel 750W — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/secador-de-cabelo-philco-titanium-travel-750w-philco/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 750 W, **2 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: PHI-SEC-TN-TRAVEL-V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-sec-travel.webp",
+      "alt": "Secador de cabelo Philco Titanium Travel vermelho e cinza, compacto, visto de lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelo-philco-titanium-travel-750w-philco/p"
+    }
+  },
+  {
+    "slug": "britania-bsc2000",
+    "nome": "Britânia 6 Combinações BSC2000",
+    "marca": "Britânia",
+    "modelo": "BSC2000",
+    "categoria": "secadores",
+    "resumo": "A marca batizou o produto com a conta: 6 combinações são 3 temperaturas × 2 velocidades. O nome diz 2100 W e o campo de potência diz 2.000.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bsc2000-oficial",
+        "titulo": "Britânia 6 Combinações BSC2000 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-6-combinacoes-2100w-bsc2000/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.8 m. Código do produto: BRI-BSC2000-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-bsc2000-oficial",
+        "valorDivergente": "2.100 W no nome do produto",
+        "fonteDivergente": "britania-bsc2000-oficial",
+        "observacao": "O título é “Secador de Cabelos Britânia 6 Combinações 2100W BSC2000” e o campo “Potência (W)” traz “2000 W”. A ficha adota o campo de especificação e registra que o nome comercial discorda em 100 W."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsc2000.webp",
+      "alt": "Secador de cabelo Britânia BSC2000 preto, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-6-combinacoes-2100w-bsc2000/p"
+    }
+  },
+  {
+    "slug": "britania-bsc2250",
+    "nome": "Britânia BSC2250",
+    "marca": "Britânia",
+    "modelo": "BSC2250",
+    "categoria": "secadores",
+    "resumo": "O nome diz “3 Temperaturas” e o campo de níveis diz 2. As três estão na velocidade, não na temperatura.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.9,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bsc2250-oficial",
+        "titulo": "Britânia BSC2250 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-3-temperaturas-2100w-bsc2250/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **3 de velocidade**, cabo de 1.9 m. Código do produto: BRI-BSC2250-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "niveisTemperatura",
+        "fonteAdotada": "britania-bsc2250-oficial",
+        "valorDivergente": "3 temperaturas, no nome do produto",
+        "fonteDivergente": "britania-bsc2250-oficial",
+        "observacao": "O título é “Secador de Cabelos Britânia 3 Temperaturas 2100W BSC2250” e a ficha publica “Níveis de temperaturas: 2” e “Níveis de velocidade: 3”. O três existe, mas é de velocidade. A ficha adota os campos de especificação."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsc2250.webp",
+      "alt": "Secador de cabelo Britânia BSC2250 preto com detalhe dourado, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-3-temperaturas-2100w-bsc2250/p"
+    }
+  },
+  {
+    "slug": "britania-bsc2410",
+    "nome": "Britânia Power Max BSC2410",
+    "marca": "Britânia",
+    "modelo": "BSC2410",
+    "categoria": "secadores",
+    "resumo": "2.400 W, empatado com o Philco no topo. O campo de consumo diz 2,0 — em toda a linha da marca esse campo é a potência em quilowatt, e aqui não bate.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2400,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bsc2410-oficial",
+        "titulo": "Britânia Power Max BSC2410 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-bsc2410-power-max-2400w-063501069/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2400 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.8 m. Código do produto: BRI-BSC241-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsc2410.webp",
+      "alt": "Secador de cabelo Britânia Power Max preto e prata, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-bsc2410-power-max-2400w-063501069/p"
+    }
+  },
+  {
+    "slug": "britania-bsc2200",
+    "nome": "Britânia BSC2200",
+    "marca": "Britânia",
+    "modelo": "BSC2200",
+    "categoria": "secadores",
+    "resumo": "2.100 W com 3 temperaturas e 2 velocidades, cabo de 1,9 m — o mais longo da lista.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.9,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bsc2200-oficial",
+        "titulo": "Britânia BSC2200 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-3-temperaturas-2100w-bsc2200/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: BRI-BSC2200-CR.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsc2200.webp",
+      "alt": "Secador de cabelo Britânia BSC2200 cinza com detalhe rosa, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-3-temperaturas-2100w-bsc2200/p"
+    }
+  },
+  {
+    "slug": "britania-bsc4050",
+    "nome": "Britânia Tourmaline Íon BSC4050",
+    "marca": "Britânia",
+    "modelo": "BSC4050",
+    "categoria": "secadores",
+    "resumo": "2.100 W com tourmaline e íons no nome. A ficha não tem campo de íons — só a Mondial tem.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bsc4050-oficial",
+        "titulo": "Britânia Tourmaline Íon BSC4050 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-bsc4050-tourmaline-ion-2100w-063501073/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.8 m. Código do produto: BRI-BSC45-V.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsc4050.webp",
+      "alt": "Secador de cabelo Britânia Tourmaline Íon vermelho e prata, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-bsc4050-tourmaline-ion-2100w-063501073/p"
+    }
+  },
+  {
+    "slug": "britania-sp3100n",
+    "nome": "Britânia SP3100N",
+    "marca": "Britânia",
+    "modelo": "SP3100",
+    "categoria": "secadores",
+    "resumo": "2.000 W, 3 × 2, cabo de 1,9 m. O nome diz “2 Temperaturas” e a ficha diz 3.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.9,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-sp3100n-oficial",
+        "titulo": "Britânia SP3100N — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-2-temperaturas-2000w-sp3100n/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: BRI-SP3100N-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "niveisTemperatura",
+        "fonteAdotada": "britania-sp3100n-oficial",
+        "valorDivergente": "2 temperaturas, no nome do produto",
+        "fonteDivergente": "britania-sp3100n-oficial",
+        "observacao": "O título é “Secador de Cabelo Britânia 2 Temperaturas 2000W SP3100N” e o campo “Níveis de temperaturas” traz 3. É a terceira ficha da mesma marca em que o nome comercial e o campo de especificação discordam sobre quantos níveis o aparelho tem."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-sp3100n.webp",
+      "alt": "Secador de cabelo Britânia SP3100N preto brilhante, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-2-temperaturas-2000w-sp3100n/p"
+    }
+  },
+  {
+    "slug": "britania-bsd15a",
+    "nome": "Britânia Multifuncional BSD15A",
+    "marca": "Britânia",
+    "modelo": "BSD15A",
+    "categoria": "secadores",
+    "resumo": "1.450 W com 3 temperaturas e 3 velocidades: nove combinações por menos potência que qualquer outro de nove.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1450,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-bsd15a-oficial",
+        "titulo": "Britânia Multifuncional BSD15A — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelo-britania-motor-bldc-1450w-bsd15a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1450 W, **3 níveis de temperatura**, **3 de velocidade**, cabo de 1.8 m. Código do produto: BRI-BSD15A-RS.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsd15a.webp",
+      "alt": "Secador de cabelo multifuncional Britânia BSD15A rosa-claro, com escova, modeladores e difusor",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelo-britania-motor-bldc-1450w-bsd15a/p"
+    }
+  },
+  {
+    "slug": "britania-easy-travel",
+    "nome": "Britânia Easy Travel",
+    "marca": "Britânia",
+    "modelo": "Easy Travel",
+    "categoria": "secadores",
+    "resumo": "800 W de viagem com 2 × 2. O campo de consumo diz 1,7 kW/h num aparelho de 0,8 kW — nem potência nem consumo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 800,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.45,
+      "pesoKg": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "britania-easy-travel-oficial",
+        "titulo": "Britânia Easy Travel — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/secador-de-cabelo-britania-easy-travel/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 800 W, **2 níveis de temperatura**, **2 de velocidade**, cabo de 1.45 m. Código do produto: BRI-SEC-EASY-TVEL-P.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-easy-travel.webp",
+      "alt": "Secador de cabelo Britânia Easy Travel preto, compacto, visto de lado",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelo-britania-easy-travel/p"
+    }
+  },
+  {
+    "slug": "cadence-sec830",
+    "nome": "Cadence Carbon Hair Titanium SEC830",
+    "marca": "Cadence",
+    "modelo": "SEC830-127 / SEC830-220",
+    "categoria": "secadores",
+    "resumo": "1.900 W em 127 V e 750 gramas. A Cadence publica peso e medidas e nenhum nível de temperatura ou velocidade.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 1900,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.75,
+      "tensao": "127V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "cadence-sec830-oficial",
+        "titulo": "Cadence Carbon Hair Titanium SEC830 — ficha oficial da Cadence",
+        "url": "https://www.cadence.com.br/secador-de-cabelos-cadence-carbon-hair-titanium/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1900 W, 0.75 kg. Código do produto: SEC830.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-sec830.webp",
+      "alt": "Secador de cabelo Cadence Carbon Hair Titanium cinza, visto de lado",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/secador-de-cabelos-cadence-carbon-hair-titanium/p"
+    }
+  },
+  {
+    "slug": "cadence-sec565",
+    "nome": "Cadence Eleva SEC565",
+    "marca": "Cadence",
+    "modelo": "SEC565-127 / SEC565-220",
+    "categoria": "secadores",
+    "resumo": "2.000 W com consumo declarado de 2,2 kW/h — o campo não fecha nem com a potência do próprio aparelho.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.57,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "cadence-sec565-oficial",
+        "titulo": "Cadence Eleva SEC565 — ficha oficial da Cadence",
+        "url": "https://www.cadence.com.br/secador-de-cabelos-cadence-eleva/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, 0.57 kg. Código do produto: SEC565.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-sec565.webp",
+      "alt": "Secador de cabelo Cadence Eleva cinza-escuro, visto de lado",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/secador-de-cabelos-cadence-eleva/p"
+    }
+  }
+]

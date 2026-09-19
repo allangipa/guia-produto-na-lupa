@@ -4242,6 +4242,146 @@ export const camposLavadoraAltaPressao: Campo[] = [
   },
 ];
 
+/**
+ * Secador de cabelo. A caixa diz 2.000 W e nenhuma das cinco marcas publica
+ * quanto ar sai — que e o que seca. Sem vazao, o que resta de comparavel sao
+ * duas coisas: quantas combinacoes de temperatura e velocidade o aparelho da,
+ * e se a grade de tras sai para limpar. A grade importa porque secador morre
+ * de fiapo entupindo a entrada de ar e o motor cozinhando atras dela — e uma
+ * marca em cinco diz se a sua sai.
+ */
+export const camposSecadorCabelo: Campo[] = [
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Motor",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    ajuda:
+      "O número da caixa, na tomada de 127 V. Não é quanto ar sai: os modelos de motor brushless aqui têm 400 a 600 W a menos que os convencionais e pesam metade.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tipoMotor",
+    rotulo: "Tipo de motor",
+    grupo: "Motor",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Brushless (BLDC) gira muito mais rápido, pesa menos e dura mais que o motor com escovas. Uma marca em cinco publica qual é o seu.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "rotacaoRpm",
+    rotulo: "Rotação",
+    grupo: "Motor",
+    tipo: "numero",
+    unidade: "rpm",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "niveisTemperatura",
+    rotulo: "Níveis de temperatura",
+    grupo: "Controle",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quantas temperaturas dá para escolher. Multiplicado pelas velocidades, é o número de ajustes reais — uma marca chega a batizar o produto com a conta: “6 Combinações” é 3 × 2.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "niveisVelocidade",
+    rotulo: "Níveis de velocidade",
+    grupo: "Controle",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "jatoArFrio",
+    rotulo: "Jato de ar frio",
+    grupo: "Controle",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Botão que corta a resistência para fixar o penteado sem mais calor.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "gradeTraseiraRemovivel",
+    rotulo: "Grade traseira removível",
+    grupo: "Manutenção",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "Por onde o ar entra — e onde o fiapo se acumula até o motor superaquecer. Se a grade não sai, não há como limpar por dentro. É o campo que mais diz sobre quanto tempo o aparelho dura, e o que menos aparece.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "caboGiratorio",
+    rotulo: "Cabo giratório",
+    grupo: "Manutenção",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Evita que o fio torça e parta na saída do corpo, que é onde ele parte.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "emiteIons",
+    rotulo: "Emite íons",
+    grupo: "Controle",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "As marcas associam íons a menos frizz. A ficha registra só se o recurso existe; nenhuma publica medida do efeito, e este guia não testa.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    ajuda:
+      "Fica no ar, no alto, por minutos. Aqui vai de 285 g a 620 g — e os leves são justamente os de motor brushless.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Corpo",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Corpo",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
@@ -4256,6 +4396,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   ferros: camposFerroDePassar,
   aspiradores: camposAspirador,
   "lavadoras-alta-pressao": camposLavadoraAltaPressao,
+  secadores: camposSecadorCabelo,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -4280,6 +4421,11 @@ export function camposDa(categoria: string): Campo[] {
  * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
  */
 const ICONE_POR_CAMPO: Record<string, string> = {
+  niveisVelocidade: "info",
+  jatoArFrio: "raio",
+  gradeTraseiraRemovivel: "info",
+  caboGiratorio: "raio",
+  emiteIons: "raio",
   pressaoPsi: "raio",
   pressaoDeclarada: "info",
   vazaoLh: "gota",
@@ -4524,6 +4670,7 @@ export function iconeDo(chave: string): string {
 
 /** Ícone de cada categoria — trilho de navegação, mídia sem foto, cards. */
 const ICONE_POR_CATEGORIA: Record<string, string> = {
+  secadores: "raio",
   "lavadoras-alta-pressao": "gota",
   aspiradores: "info",
   ferros: "panela",
@@ -4558,6 +4705,11 @@ export function iconeDaCategoria(slug: string): string {
 
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
+  niveisVelocidade: "Velocidades",
+  jatoArFrio: "Ar frio",
+  gradeTraseiraRemovivel: "Grade sai",
+  caboGiratorio: "Cabo giratório",
+  emiteIons: "Íons",
   pressaoPsi: "Pressão",
   pressaoDeclarada: "Declarado",
   vazaoLh: "Vazão",
@@ -4766,6 +4918,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   ferros: ["vazaoContinuaGMin", "saidasVapor", "reservatorioMl"],
   aspiradores: ["succaoPa", "potenciaW", "ruidoDb"],
   "lavadoras-alta-pressao": ["vazaoLh", "pressaoPsi", "tipoMotor"],
+  secadores: ["gradeTraseiraRemovivel", "niveisTemperatura", "potenciaW"],
 };
 
 export function destaquesDa(categoria: string): string[] {

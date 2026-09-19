@@ -141,6 +141,16 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "secadores",
+    nome: "Secadores de cabelo",
+    descricao:
+      "Secadores de cabelo — com os níveis de temperatura e velocidade e a grade traseira ao lado do watt que a caixa estampa.",
+    dorPrincipal:
+      "Secador morre de fiapo entupindo a grade de trás. Uma marca em quatro diz se a dela sai.",
+    porQueParou:
+      "Fechou em vinte e cinco, com quatro marcas. Nenhuma das cinco marcas com catálogo aberto publica vazão de ar — que é o que seca —, então a categoria compara o que existe: níveis de temperatura e de velocidade, motor, peso e a grade traseira. A WAP tem cinco secadores e publica só potência; ficou de fora por isso. Taiff e Gama, as duas marcas profissionais mais citadas, não têm catálogo que responda.",
+  },
+  {
     slug: "lavadoras-alta-pressao",
     nome: "Lavadoras de alta pressão",
     descricao:
