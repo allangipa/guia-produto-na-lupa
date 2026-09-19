@@ -102,7 +102,15 @@ export default function Home() {
   // a um clique em /categorias.
   const porDepartamento = departamentos
     .map((d) => {
-      const itens = prateleiras.filter((p) => d.categorias.includes(p.cat.slug));
+      // Na ordem que o departamento declara, não na de `categorias`. A capa e o
+      // ícone saem do primeiro item, e "Celular e tablet" vinha com um power
+      // bank porque `energia` está antes de `celular` na lista geral. O
+      // departamento já diz em que ordem as categorias dele aparecem — o menu e
+      // o índice respeitam isso, e a home era o único lugar que não respeitava.
+      const itens = d.categorias.flatMap((s) => {
+        const p = prateleiras.find((x) => x.cat.slug === s);
+        return p ? [p] : [];
+      });
       return {
         dep: d,
         total: itens.reduce((n, p) => n + p.total, 0),
