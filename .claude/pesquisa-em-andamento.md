@@ -802,3 +802,37 @@ e afirmar que uma empresa nao publica ficha quando ela publica.
   muda com a tensao. Nao e erro; e o unico caso assim na base.
 - A "tampa traseira removivel magnetica" aparece no campo **Funcoes**, em prosa,
   nao em campo proprio. Foi de la que saiu o `gradeTraseiraRemovivel`.
+
+### KitchenAid (19/09/2026) — o campo que faltava em batedeiras
+
+`www.kitchenaid.com.br` responde a API VTEX. 40 itens em "batedeira", dos quais
+9 sao maquinas (o resto e acessorio, tigela, batedor, combo). Cuidado: a ficha
+tem 41 a 78 campos, mas a maioria e modulo de marketing (Foto/Titulo/Texto
+modulo 1 a 8). Os campos de especificacao de verdade sao ~15.
+
+**Campos que so a KitchenAid publica**, e que viraram schema:
+- `capacidadeFarinhaKg` e `capacidadeMassaPaoKg` — quanto a maquina TRABALHA,
+  nao quanto a tigela comporta. E o equivalente da vazao no aspirador: o numero
+  que responde a pergunta real. Artisan 1,1 / 1,8 kg; Profissional 2 / 4 kg.
+- `elevacaoTigela` — cabeca basculante contra tigela que sobe por alavanca.
+
+**O achado que fecha a categoria**: a linha KitchenAid inteira vai de 275 a
+350 W, ABAIXO de qualquer batedeira comum de Britania ou Philco (350 a 550 W).
+E a maior da marca, a Profissional de 7,6 L, tem 325 W — menos que a Bowl-Lift
+de 5,6 L, que tem 350. A capacidade de trabalho dobra enquanto o watt cai.
+
+**Movimento planetario em prosa**: o campo "Tipo do produto" diz so "Batedeira".
+A palavra planetario aparece em "Diferenciais" ("movimento planetario com 59
+pontos de contato"). Mesmo padrao da tampa traseira da Taiff: o dado existe, em
+campo de texto. So 4 das 9 fichas trazem — por isso so 4 entraram no recorte.
+
+**Divergencias por cor, de novo** (igual ao Fox 3 da Taiff):
+- Artisan: 4,83 L e 275 W em sete cores; 4,8 L e 300 W em Blue Salt e Butter.
+- Artisan 220 V: 300 W em quatro fichas, 275 W em Contour Silver e Dried Rose.
+- Artisan Black Matte: 1 kg de farinha; as irmas de mesma tigela, 1,1 kg.
+- Artisan Beetroot: "Com elevacao"; as outras seis Artisan, "Sem elevacao". A
+  foto oficial da propria pagina mostra cabeca basculante. Mesmo assim o valor
+  publicado ficou na ficha — corrigir o fabricante a partir de leitura de foto
+  seria trocar a fonte pela nossa interpretacao.
+- Bowl-Lift 5,6 e 6,6 L: nao publicam farinha nem massa de pao. Sao justamente
+  as maquinas feitas para massa pesada.

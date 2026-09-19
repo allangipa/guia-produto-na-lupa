@@ -4456,6 +4456,40 @@ export const camposBatedeira: Campo[] = [
     contaTransparencia: true,
   },
   {
+    chave: "capacidadeFarinhaKg",
+    rotulo: "Farinha",
+    grupo: "Tigela",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Quantos quilos de farinha a batedeira dá conta de trabalhar. É o que a tigela faz, não o que ela comporta — e uma marca em cinco publica.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeMassaPaoKg",
+    rotulo: "Massa de pão",
+    grupo: "Tigela",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O serviço mais pesado que uma batedeira faz. Onde existe, mostra que a capacidade de trabalho não acompanha o watt: a de 325 W aqui leva 4 kg, e a de 350 W não publica quanto leva.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "elevacaoTigela",
+    rotulo: "Elevação da tigela",
+    grupo: "Tigela",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Duas mecânicas diferentes: na de cabeça basculante o corpo inclina para trás; na de elevação a tigela sobe por alavanca, que é o arranjo das máquinas de massa pesada.",
+    contaTransparencia: true,
+  },
+  {
     chave: "capacidadeTigelaExtraL",
     rotulo: "Tigela extra",
     grupo: "Tigela",
@@ -4559,6 +4593,9 @@ export function camposDa(categoria: string): Campo[] {
  * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
  */
 const ICONE_POR_CAMPO: Record<string, string> = {
+  capacidadeFarinhaKg: "panela",
+  capacidadeMassaPaoKg: "panela",
+  elevacaoTigela: "info",
   registroInmetro: "escudo",
   batedores: "panela",
   capacidadeTigelaL: "panela",
@@ -4850,6 +4887,9 @@ export function iconeDaCategoria(slug: string): string {
 
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
+  capacidadeFarinhaKg: "Farinha",
+  capacidadeMassaPaoKg: "Massa de pão",
+  elevacaoTigela: "Elevação",
   registroInmetro: "Inmetro",
   batedores: "Batedores",
   capacidadeTigelaL: "Tigela",
@@ -5070,7 +5110,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   aspiradores: ["succaoPa", "potenciaW", "ruidoDb"],
   "lavadoras-alta-pressao": ["vazaoLh", "pressaoPsi", "tipoMotor"],
   secadores: ["gradeTraseiraRemovivel", "niveisTemperatura", "potenciaW"],
-  batedeiras: ["tipo", "velocidades", "capacidadeTigelaL"],
+  batedeiras: ["tipo", "capacidadeFarinhaKg", "capacidadeTigelaL"],
 };
 
 export function destaquesDa(categoria: string): string[] {

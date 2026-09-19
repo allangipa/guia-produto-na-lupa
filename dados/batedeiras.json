@@ -13,6 +13,9 @@
       "velocidades": 4,
       "batedores": "1 par",
       "capacidadeTigelaL": 4.3,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": false,
       "funcaoPortatil": false,
@@ -54,6 +57,9 @@
       "velocidades": 4,
       "batedores": "1 par",
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": 3.1,
       "funcaoTurbo": null,
       "funcaoPortatil": true,
@@ -95,6 +101,9 @@
       "velocidades": 4,
       "batedores": "2 pares",
       "capacidadeTigelaL": 4.3,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": 3.1,
       "funcaoTurbo": true,
       "funcaoPortatil": false,
@@ -136,6 +145,9 @@
       "velocidades": 4,
       "batedores": "1 par",
       "capacidadeTigelaL": 4.3,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": true,
@@ -177,6 +189,9 @@
       "velocidades": 4,
       "batedores": "1 par",
       "capacidadeTigelaL": 4.3,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": 3.1,
       "funcaoTurbo": true,
       "funcaoPortatil": true,
@@ -227,6 +242,9 @@
       "velocidades": 4,
       "batedores": null,
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": 2.0,
       "funcaoTurbo": null,
       "funcaoPortatil": false,
@@ -268,6 +286,9 @@
       "velocidades": 12,
       "batedores": "3 unidades",
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": false,
@@ -309,6 +330,9 @@
       "velocidades": 12,
       "batedores": "3 unidades",
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": false,
@@ -350,6 +374,9 @@
       "velocidades": 12,
       "batedores": null,
       "capacidadeTigelaL": 4.5,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -391,6 +418,9 @@
       "velocidades": 12,
       "batedores": "3 unidades",
       "capacidadeTigelaL": 5.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": false,
@@ -432,6 +462,9 @@
       "velocidades": 4,
       "batedores": null,
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -473,6 +506,9 @@
       "velocidades": 4,
       "batedores": "1 par",
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": true,
@@ -514,6 +550,9 @@
       "velocidades": 4,
       "batedores": "2 pares",
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": true,
@@ -555,6 +594,9 @@
       "velocidades": 4,
       "batedores": "1 par",
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": 3.1,
       "funcaoTurbo": true,
       "funcaoPortatil": true,
@@ -596,6 +638,9 @@
       "velocidades": 4,
       "batedores": "1 par",
       "capacidadeTigelaL": null,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": true,
@@ -641,6 +686,9 @@
       "velocidades": 11,
       "batedores": null,
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": 4.0,
       "funcaoTurbo": false,
       "funcaoPortatil": false,
@@ -682,6 +730,9 @@
       "velocidades": 12,
       "batedores": "3 unidades",
       "capacidadeTigelaL": 4.5,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": null,
@@ -723,6 +774,9 @@
       "velocidades": 12,
       "batedores": "3 unidades",
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": false,
@@ -764,6 +818,9 @@
       "velocidades": 12,
       "batedores": "3 unidades",
       "capacidadeTigelaL": 5.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": false,
@@ -805,6 +862,9 @@
       "velocidades": 8,
       "batedores": "3 pares",
       "capacidadeTigelaL": 5.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": true,
       "funcaoPortatil": false,
@@ -855,6 +915,9 @@
       "velocidades": 4,
       "batedores": null,
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -896,6 +959,9 @@
       "velocidades": 4,
       "batedores": null,
       "capacidadeTigelaL": 4.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -937,6 +1003,9 @@
       "velocidades": 12,
       "batedores": null,
       "capacidadeTigelaL": 3.5,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -978,6 +1047,9 @@
       "velocidades": 8,
       "batedores": null,
       "capacidadeTigelaL": 4.1,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -1019,6 +1091,9 @@
       "velocidades": 12,
       "batedores": "Fouet; Gancho e Plano",
       "capacidadeTigelaL": 5.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -1060,6 +1135,9 @@
       "velocidades": 6,
       "batedores": "Fouet; Gancho e Plano",
       "capacidadeTigelaL": 5.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -1101,6 +1179,9 @@
       "velocidades": 6,
       "batedores": "Fouet; Gancho e espátula",
       "capacidadeTigelaL": 5.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
       "capacidadeTigelaExtraL": null,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
@@ -1126,6 +1207,474 @@
       "alt": "Batedeira planetária Electrolux KMP75 verde, com a tigela encaixada",
       "credito": "Imagem: Electrolux",
       "origem": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-verde-com-truflow-linha-100-anos-celebre-texturas/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-professional-76",
+    "nome": "KitchenAid Stand Mixer Profissional 7,6 L",
+    "marca": "KitchenAid",
+    "modelo": "KEF97AV",
+    "categoria": "batedeiras",
+    "resumo": "A maior da lista tem **325 W** — vinte e cinco a menos que a Bowl-Lift de 5,6 L. E trabalha **2 kg de farinha e 4 kg de massa de pão**, o dobro da Artisan. Watt não mede o que a batedeira faz; farinha mede.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 325,
+      "velocidades": 10,
+      "batedores": "Batedores",
+      "capacidadeTigelaL": 7.6,
+      "capacidadeFarinhaKg": 2.0,
+      "capacidadeMassaPaoKg": 4.0,
+      "elevacaoTigela": "Com elevação",
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "220V",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-professional-76-oficial",
+        "titulo": "KitchenAid Stand Mixer Profissional 7,6 L — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-profissional-empire-red-kef97av/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 325 W em 110 V, 325 W em 220 V, **10 velocidades**, tigela de 7.6 L, tigela de inox, **2 kg de farinha**, **4 kg de massa de pão**, com elevação, acessórios: Batedores, garantia de 24 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-professional-76.webp",
+      "alt": "Batedeira KitchenAid Stand Mixer Profissional vermelha de 7,6 L, com alça na tigela e gancho de massa",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-profissional-empire-red-kef97av/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-bowl-lift-66",
+    "nome": "KitchenAid Bowl-Lift 6,6 L",
+    "marca": "KitchenAid",
+    "modelo": "KEC66AV",
+    "categoria": "batedeiras",
+    "resumo": "A maior tigela entre as de elevação, com 350 W e 11 velocidades. Não publica farinha nem massa de pão — justamente a máquina que existe para isso.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 350,
+      "velocidades": 11,
+      "batedores": null,
+      "capacidadeTigelaL": 6.6,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": "Com elevação",
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-bowl-lift-66-oficial",
+        "titulo": "KitchenAid Bowl-Lift 6,6 L — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-kitchenaid-bowl-lift-6-6l-kec66av/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 350 W em 110 V, 375 W em 220 V, **11 velocidades**, tigela de 6.6 L, com elevação, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "capacidadeFarinhaKg",
+        "fonteAdotada": "kitchenaid-bowl-lift-66-oficial",
+        "valorDivergente": "campo ausente",
+        "fonteDivergente": "kitchenaid-professional-76-oficial",
+        "observacao": "A KitchenAid publica capacidade de farinha e de massa de pão na Artisan de 4,83 L e na Profissional de 7,6 L, e não publica nas duas Bowl-Lift, de 5,6 e 6,6 L. São as máquinas de tigela média e grande, feitas para massa pesada, e são as únicas duas da linha sem o número que diz quanta massa levam."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-bowl-lift-66.webp",
+      "alt": "Batedeira KitchenAid Bowl-Lift vermelha de 6,6 L, com a tigela suspensa por alavanca",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-kitchenaid-bowl-lift-6-6l-kec66av/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-bowl-lift-56",
+    "nome": "KitchenAid Bowl-Lift 5,6 L",
+    "marca": "KitchenAid",
+    "modelo": "KEC56AV",
+    "categoria": "batedeiras",
+    "resumo": "**350 W** — a maior potência da marca, acima da Profissional de 7,6 L. Onze velocidades e tigela com elevação por alavanca.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 350,
+      "velocidades": 11,
+      "batedores": null,
+      "capacidadeTigelaL": 5.6,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": "Com elevação",
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-bowl-lift-56-oficial",
+        "titulo": "KitchenAid Bowl-Lift 5,6 L — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-kitchenaid-bowl-lift-5-6l-kec56av/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 350 W em 110 V, 375 W em 220 V, **11 velocidades**, tigela de 5.6 L, com elevação, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-bowl-lift-56.webp",
+      "alt": "Batedeira KitchenAid Bowl-Lift vermelha de 5,6 L, com a tigela suspensa por alavanca",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-kitchenaid-bowl-lift-5-6l-kec56av/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-artisan-empire-red",
+    "nome": "KitchenAid Artisan Empire Red",
+    "marca": "KitchenAid",
+    "modelo": "KEA33CV",
+    "categoria": "batedeiras",
+    "resumo": "A clássica: 4,83 L, 275 W, dez velocidades e 1,1 kg de farinha. É a referência contra a qual as outras oito fichas da marca se leem.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 275,
+      "velocidades": 10,
+      "batedores": "Batedores / Protetor de Respingos",
+      "capacidadeTigelaL": 4.83,
+      "capacidadeFarinhaKg": 1.1,
+      "capacidadeMassaPaoKg": 1.8,
+      "elevacaoTigela": "Sem elevação",
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-artisan-empire-red-oficial",
+        "titulo": "KitchenAid Artisan Empire Red — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-empire-red-kea33cv/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: **movimento planetário com 59 pontos de contato**, declarado no campo de diferenciais, 275 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, sem elevação, acessórios: Batedores / Protetor de Respingos, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-artisan-empire-red.webp",
+      "alt": "Batedeira KitchenAid Artisan vermelha, de cabeça basculável, com a tigela de inox encaixada",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-empire-red-kea33cv/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-artisan-black-matte",
+    "nome": "KitchenAid Artisan Black Matte",
+    "marca": "KitchenAid",
+    "modelo": "KEA30CP",
+    "categoria": "batedeiras",
+    "resumo": "Mesma tigela de 4,83 L das irmãs e **1 kg de farinha contra 1,1** delas. Também vem com menos acessórios: batedores e protetor, sem fouet nem gancho.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 275,
+      "velocidades": 10,
+      "batedores": "Batedores / Protetor de Respingos",
+      "capacidadeTigelaL": 4.83,
+      "capacidadeFarinhaKg": 1.0,
+      "capacidadeMassaPaoKg": 1.8,
+      "elevacaoTigela": "Sem elevação",
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-artisan-black-matte-oficial",
+        "titulo": "KitchenAid Artisan Black Matte — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-artisan-black-matte-kea33cp-kea30cp/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: **movimento planetário com 59 pontos de contato**, declarado no campo de diferenciais, 275 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1 kg de farinha**, **1.8 kg de massa de pão**, sem elevação, acessórios: Batedores / Protetor de Respingos, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "capacidadeFarinhaKg",
+        "fonteAdotada": "kitchenaid-artisan-black-matte-oficial",
+        "valorDivergente": "1,1 kg nas demais Artisan de 4,83 L",
+        "fonteDivergente": "kitchenaid-artisan-empire-red-oficial",
+        "observacao": "Esta ficha declara 1 kg de farinha; as outras Artisan de 4,83 L declaram 1,1 kg. Mesma tigela, mesma potência, mesmas dez velocidades. Pode ser arredondamento de quem preencheu ou diferença real de acessório — a página não diz. O valor publicado aqui foi mantido, e a divergência fica registrada."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-artisan-black-matte.webp",
+      "alt": "Batedeira KitchenAid Artisan preto fosco, de cabeça basculável, com a tigela de inox encaixada",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-artisan-black-matte-kea33cp-kea30cp/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-artisan-blue-salt",
+    "nome": "KitchenAid Artisan Blue Salt",
+    "marca": "KitchenAid",
+    "modelo": "KEA38AF",
+    "categoria": "batedeiras",
+    "resumo": "Declara **4,8 L e 300 W** onde as irmãs de mesma linha declaram 4,83 L e 275 W. A cor não muda o motor nem a tigela.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 300,
+      "velocidades": 10,
+      "batedores": "Batedores / Fouet / Gancho / Tigela",
+      "capacidadeTigelaL": 4.8,
+      "capacidadeFarinhaKg": 1.1,
+      "capacidadeMassaPaoKg": 1.8,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-artisan-blue-salt-oficial",
+        "titulo": "KitchenAid Artisan Blue Salt — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-blue-salt-kea38af/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 300 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.8 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, acessórios: Batedores / Fouet / Gancho / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "kitchenaid-artisan-blue-salt-oficial",
+        "valorDivergente": "275 W em 110 V nas demais Artisan",
+        "fonteDivergente": "kitchenaid-artisan-empire-red-oficial",
+        "observacao": "Nas fichas Blue Salt e Butter a potência em 110 V é 300 W e a tigela é 4,8 L. Nas fichas Empire Red, Black Matte, Contour Silver, Dried Rose, Mineral Water, Beetroot e Spearmint, a mesma linha Artisan traz 275 W e 4,83 L. É o mesmo aparelho em cores diferentes; nem o motor nem a tigela mudam com a cor. Uma das duas leituras está errada e a página não diz qual, então cada ficha guarda o que a sua página publica e a divergência fica anotada nas duas."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-artisan-blue-salt.webp",
+      "alt": "Batedeira KitchenAid Artisan azul-claro, de cabeça basculável, com a tigela de inox encaixada",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-blue-salt-kea38af/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-artisan-beetroot",
+    "nome": "KitchenAid Artisan Beetroot",
+    "marca": "KitchenAid",
+    "modelo": "KEA38AR",
+    "categoria": "batedeiras",
+    "resumo": "É a única Artisan cuja ficha diz “com elevação”. As outras seis da mesma linha dizem “sem elevação” — e elevação é mecânica, não cor.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 275,
+      "velocidades": 10,
+      "batedores": "Batedores / Fouet / Gancho / Protetor de Respingos / Tigela",
+      "capacidadeTigelaL": 4.83,
+      "capacidadeFarinhaKg": 1.1,
+      "capacidadeMassaPaoKg": 1.8,
+      "elevacaoTigela": "Com elevação",
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V / 220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-artisan-beetroot-oficial",
+        "titulo": "KitchenAid Artisan Beetroot — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-beetroot-kea38ar/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 275 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, com elevação, acessórios: Batedores / Fouet / Gancho / Protetor de Respingos / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "elevacaoTigela",
+        "fonteAdotada": "kitchenaid-artisan-beetroot-oficial",
+        "valorDivergente": "Sem elevação nas demais Artisan",
+        "fonteDivergente": "kitchenaid-artisan-empire-red-oficial",
+        "observacao": "A Artisan é a linha de cabeça basculante: o corpo inclina para trás e a tigela fica fixa. As fichas Black Matte, Contour Silver, Dried Rose, Empire Red, Mineral Water e Spearmint declaram “Sem elevação”. Esta declara “Com elevação”, que é o arranjo das Bowl-Lift. Duas mecânicas diferentes não convivem no mesmo modelo, e a cor não decide qual é. O valor publicado fica, com a divergência à vista. A foto oficial que a própria KitchenAid publica nesta página mostra o corpo de cabeça basculável, idêntico ao das outras Artisan — o que reforça que o campo está errado. Ainda assim o valor publicado fica na ficha: corrigir o fabricante a partir de uma leitura de foto seria substituir a fonte pela nossa interpretação."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-artisan-beetroot.webp",
+      "alt": "Batedeira KitchenAid Artisan vinho, de cabeça basculável, com a tigela de inox e os batedores ao lado",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-beetroot-kea38ar/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-artisan-contour-silver",
+    "nome": "KitchenAid Artisan Contour Silver",
+    "marca": "KitchenAid",
+    "modelo": "KEA33DS",
+    "categoria": "batedeiras",
+    "resumo": "275 W nas duas tensões — enquanto quatro irmãs declaram 300 W em 220 V. Mesma linha, mesmo ano, mesma tigela.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 275,
+      "velocidades": 10,
+      "batedores": "Batedores / Protetor de Respingos",
+      "capacidadeTigelaL": 4.83,
+      "capacidadeFarinhaKg": 1.1,
+      "capacidadeMassaPaoKg": 1.8,
+      "elevacaoTigela": "Sem elevação",
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-artisan-contour-silver-oficial",
+        "titulo": "KitchenAid Artisan Contour Silver — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-contour-silver-kea33ds/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: **movimento planetário com 59 pontos de contato**, declarado no campo de diferenciais, 275 W em 110 V, 275 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, sem elevação, acessórios: Batedores / Protetor de Respingos, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-artisan-contour-silver.webp",
+      "alt": "Batedeira KitchenAid Artisan prata, de cabeça basculável, com a tigela de inox encaixada",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-contour-silver-kea33ds/p"
+    }
+  },
+  {
+    "slug": "kitchenaid-artisan-plus-juniper",
+    "nome": "KitchenAid Artisan Plus Juniper",
+    "marca": "KitchenAid",
+    "modelo": "KEA40A1ANA",
+    "categoria": "batedeiras",
+    "resumo": "Onze velocidades, uma a mais que a Artisan comum — e a ficha **não publica potência, farinha nem massa de pão**. Só a tigela e a contagem de velocidades.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": null,
+      "velocidades": 11,
+      "batedores": "Batedores / Fouet / Gancho / Protetor de Respingos / Tigela",
+      "capacidadeTigelaL": 4.83,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "110V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "funcaoPortatil",
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "kitchenaid-artisan-plus-juniper-oficial",
+        "titulo": "KitchenAid Artisan Plus Juniper — ficha oficial da KitchenAid Brasil",
+        "url": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-artisan-plus-juniper/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: **movimento planetário com 59 pontos de contato**, declarado no campo de diferenciais, **11 velocidades**, tigela de 4.83 L, tigela de inox, acessórios: Batedores / Fouet / Gancho / Protetor de Respingos / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "kitchenaid-artisan-plus-juniper-oficial",
+        "valorDivergente": "campo ausente",
+        "fonteDivergente": "kitchenaid-artisan-empire-red-oficial",
+        "observacao": "As fichas Artisan Plus não têm campo de potência, de capacidade de farinha nem de massa de pão, que a linha Artisan comum publica. O texto de diferenciais da Plus descreve o movimento planetário com 59 pontos de contato e fala em massas densas, sem número. A ficha fica com os campos vazios: ausência de menção não é zero, é não informa."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kitchenaid-artisan-plus-juniper.webp",
+      "alt": "Batedeira KitchenAid Artisan Plus verde-escura, com a tigela de inox e os batedores ao lado",
+      "credito": "Imagem: KitchenAid",
+      "origem": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-artisan-plus-juniper/p"
     }
   }
 ]

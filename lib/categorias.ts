@@ -146,9 +146,9 @@ export const categorias: Categoria[] = [
     descricao:
       "Batedeiras comuns e planetárias — com o tipo, as velocidades e os batedores ao lado do watt que dá nome ao modelo.",
     dorPrincipal:
-      "De 350 a 550 W, a ficha é a mesma: 4 velocidades, 4,3 L, um par de batedores.",
+      "A premium da categoria tem 275 W. As de 550 W são as baratas.",
     porQueParou:
-      "Fechou em vinte e sete, com quatro marcas. O nó tem 127 batedeiras, e o que limitou a lista não foi produto: foi repetição. Só a Britânia publica vinte e duas “comuns” com a mesma tigela, as mesmas quatro velocidades e o mesmo par de batedores, variando apenas cor e watt — entraram seis, que cobrem toda a faixa de potência. Oster, Cadence, Mallory e Mondial aparecem no nó e publicam só potência, sem velocidade, tigela nem batedor; sem isso não dá para comparar. Ficaram de fora os acessórios e kits que o catálogo mistura com as máquinas.",
+      "Fechou em trinta e seis, com cinco marcas. A KitchenAid entrou depois, com nove fichas, e trouxe o campo que faltava na categoria inteira: **capacidade de farinha e de massa de pão em quilos** — o que a máquina trabalha, não o que a tigela comporta. É também a marca que derruba de vez a conversa de watt: a linha dela vai de 275 a 350 W, abaixo de qualquer batedeira comum de Britânia ou Philco. Da própria Britânia entraram seis das vinte e duas “comuns”, que cobrem toda a faixa de potência; as outras dezesseis repetem a mesma ficha em outra cor. Oster, Cadence, Mallory e Mondial aparecem no nó e publicam só potência, sem velocidade, tigela nem batedor; sem isso não dá para comparar.",
   },
   {
     slug: "secadores",
