@@ -156,9 +156,9 @@ export const categorias: Categoria[] = [
     descricao:
       "Secadores de cabelo — com os níveis de temperatura e velocidade e a grade traseira ao lado do watt que a caixa estampa.",
     dorPrincipal:
-      "Secador morre de fiapo entupindo a grade de trás. Uma marca em quatro diz se a dela sai.",
+      "Secador morre de fiapo entupindo a grade de trás. Duas marcas em cinco dizem se a delas sai.",
     porQueParou:
-      "Fechou em vinte e cinco, com quatro marcas. Nenhuma das cinco marcas com catálogo aberto publica vazão de ar — que é o que seca —, então a categoria compara o que existe: níveis de temperatura e de velocidade, motor, peso e a grade traseira. A WAP tem cinco secadores e publica só potência; ficou de fora por isso. Taiff e Gama, as duas marcas profissionais mais citadas, não têm catálogo que responda.",
+      "Fechou em quarenta e cinco, com cinco marcas. Nenhuma delas publica vazão de ar — que é o que seca —, e isso vale também para a Taiff, que é profissional e publica mais campo que todas: a lacuna é do mercado, não de quem a base alcançava. A Taiff entrou depois, com vinte fichas, e trouxe duas coisas que não existiam aqui — o registro no Inmetro, que dá para conferir fora do site de quem vende, e cabo de 3 metros. A WAP tem cinco secadores e publica só potência; ficou de fora por isso. A Gama continua sem catálogo que responda.",
   },
   {
     slug: "lavadoras-alta-pressao",

@@ -746,3 +746,59 @@ rejeita foto boa.
 ### Marcas que continuam sem catalogo alcancavel
 Black+Decker, Philips Walita (ferros), Taiff, Gama (secadores), Karcher.
 Ventisol (ventiladores) segue sem responder.
+
+## 19/09/2026 — a lista de "marcas sem catalogo" estava errada
+
+**Reveja qualquer conclusao de "marca inalcancavel" antes de usa-la.** A lista
+que eu vinha carregando foi montada a partir de sondagens que falharam, e pelo
+menos duas entradas eram erro meu, nao ausencia de catalogo.
+
+### O que estava errado
+
+- **Taiff**: eu nunca tinha testado. Vi a marca no ranking da Amazon, anotei
+  "sem catalogo alcancavel" e repeti isso por varias rodadas. `www.taiff.com.br`
+  responde a API VTEX normalmente: **32 secadores**, fichas de 14 a 17 campos.
+- **KitchenAid**: tambem nunca testado. `www.kitchenaid.com.br` responde, e as
+  fichas de batedeira tem **41 a 78 campos** — as mais ricas do projeto.
+- **Black+Decker**: testei `www.blackedecker.com.br` (com "e" no meio, de "e
+  Decker") e deu timeout, do que conclui que nao havia catalogo. O host certo e
+  `blackanddecker.com.br`, que existe e responde **403** — bloqueio de WAF. Isso
+  e outra coisa: pede o caminho do navegador, como Logitech e Amazfit.
+
+### Regra nova
+
+Antes de escrever "sem catalogo alcancavel" em qualquer `porQueParou`:
+
+1. testar **pelo menos duas grafias do dominio** (com e sem "and"/"e");
+2. distinguir **404/timeout** (nao existe) de **403** (existe e bloqueia — vai
+   de navegador);
+3. se nunca foi testado, escrever "nao sondado", nao "inalcancavel".
+
+Essa frase vai para a pagina publica e vira afirmacao sobre a marca. Errar nela
+e afirmar que uma empresa nao publica ficha quando ela publica.
+
+### O que a Taiff trouxe de novo para o schema
+
+- **`registroInmetro`**: numero da certificacao compulsoria, consultavel em
+  registro publico. Ate aqui a base tinha 433 fontes de fabricante e 293 de
+  varejo e **zero de regulador**, apesar de `TipoFonte` prever `regulador` e
+  `laboratorio`. E o primeiro dado do site conferivel fora de quem vende.
+  Atencao: o numero vem da Taiff, entao a fonte e `fabricante`. Para ter fonte
+  `regulador` de verdade e preciso consultar o registro do Inmetro — nao foi
+  feito ainda.
+- **Um registro para 14 modelos**: o 218.009/21 cobre de 1.700 a 3.100 W.
+  Registro de familia existe e e legitimo, mas o numero nao identifica o modelo.
+
+### Achados de campo da Taiff (o padrao de sempre)
+
+- Titanium Progress 2400W: campo "Temperatura" = "5 - combinando temperaturas,
+  velocidades e jato de ar frio". O 5 e de **combinacoes**, nao de temperaturas.
+  E o campo "Potencia" esta vazio: os 2.400 W so existem no nome.
+- Fox 3 2200W: seis cores do mesmo aparelho. Mocha, Red e Off-White declaram
+  "5*" em Temperatura; Soft Green, Soft Rose e Kompress declaram "2".
+- Black Ion 2000W: campo "Temperatura" = a letra **"e"**.
+- Fox 3 Mocha: campo "Botao de Ar Frio" preenchido com "Bico direcionador de ar".
+- Fox 3 Kompress: cabo de **1,80 m em 127 V e 3 m em 220 V** — o comprimento
+  muda com a tensao. Nao e erro; e o unico caso assim na base.
+- A "tampa traseira removivel magnetica" aparece no campo **Funcoes**, em prosa,
+  nao em campo proprio. Foi de la que saiu o `gradeTraseiraRemovivel`.

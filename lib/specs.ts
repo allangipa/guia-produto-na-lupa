@@ -4371,6 +4371,15 @@ export const camposSecadorCabelo: Campo[] = [
     contaTransparencia: true,
   },
   {
+    chave: "registroInmetro",
+    rotulo: "Registro no Inmetro",
+    grupo: "Corpo",
+    tipo: "texto",
+    ajuda:
+      "O número da certificação compulsória, consultável no registro público do Inmetro. Uma marca em cinco publica — e é o único dado desta ficha que dá para conferir fora do site de quem vende.",
+    contaTransparencia: true,
+  },
+  {
     chave: "garantiaMeses",
     rotulo: "Garantia",
     grupo: "Corpo",
@@ -4550,6 +4559,7 @@ export function camposDa(categoria: string): Campo[] {
  * categorias diferentes (pesoG, garantiaMeses) ganhar o mesmo ícone sozinha.
  */
 const ICONE_POR_CAMPO: Record<string, string> = {
+  registroInmetro: "escudo",
   batedores: "panela",
   capacidadeTigelaL: "panela",
   capacidadeTigelaExtraL: "panela",
@@ -4840,6 +4850,7 @@ export function iconeDaCategoria(slug: string): string {
 
 /** Rótulo curto para o card, onde "Potência máxima de saída" não cabe. */
 const ROTULO_CURTO: Record<string, string> = {
+  registroInmetro: "Inmetro",
   batedores: "Batedores",
   capacidadeTigelaL: "Tigela",
   capacidadeTigelaExtraL: "Tigela extra",

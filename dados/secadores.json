@@ -20,6 +20,7 @@
       "comprimentoCaboM": 2.5,
       "pesoKg": 0.285,
       "tensao": "127V / 220V",
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -62,6 +63,7 @@
       "comprimentoCaboM": 2.5,
       "pesoKg": 0.36,
       "tensao": "127V / 220V",
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -104,6 +106,7 @@
       "comprimentoCaboM": null,
       "pesoKg": 0.47,
       "tensao": "127V / 220V",
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -146,6 +149,7 @@
       "comprimentoCaboM": null,
       "pesoKg": 0.62,
       "tensao": "127V/220V",
+      "registroInmetro": null,
       "garantiaMeses": null
     },
     "naoSeAplica": [],
@@ -204,6 +208,7 @@
       "comprimentoCaboM": null,
       "pesoKg": 0.62,
       "tensao": "127V/220V",
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -255,6 +260,7 @@
       "comprimentoCaboM": 1.5,
       "pesoKg": 0.53,
       "tensao": "127V/220V",
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -297,6 +303,7 @@
       "comprimentoCaboM": 1.5,
       "pesoKg": 0.34,
       "tensao": "Bivolt",
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -339,6 +346,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -381,6 +389,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -423,6 +432,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -462,9 +472,10 @@
       "gradeTraseiraRemovivel": null,
       "caboGiratorio": null,
       "emiteIons": null,
-      "comprimentoCaboM": 3.0,
+      "comprimentoCaboM": 3,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -507,6 +518,7 @@
       "comprimentoCaboM": 1.9,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -549,6 +561,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": null
     },
     "naoSeAplica": [],
@@ -591,6 +604,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -633,6 +647,7 @@
       "comprimentoCaboM": 1.9,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": null
     },
     "naoSeAplica": [],
@@ -675,6 +690,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -726,6 +742,7 @@
       "comprimentoCaboM": 1.9,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -777,6 +794,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -819,6 +837,7 @@
       "comprimentoCaboM": 1.9,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -861,6 +880,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -903,6 +923,7 @@
       "comprimentoCaboM": 1.9,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -954,6 +975,7 @@
       "comprimentoCaboM": 1.8,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": null
     },
     "naoSeAplica": [],
@@ -996,6 +1018,7 @@
       "comprimentoCaboM": 1.45,
       "pesoKg": null,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -1038,6 +1061,7 @@
       "comprimentoCaboM": null,
       "pesoKg": 0.75,
       "tensao": "127V / 220V",
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -1080,6 +1104,7 @@
       "comprimentoCaboM": null,
       "pesoKg": 0.57,
       "tensao": null,
+      "registroInmetro": null,
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
@@ -1099,6 +1124,909 @@
       "alt": "Secador de cabelo Cadence Eleva cinza-escuro, visto de lado",
       "credito": "Imagem: Cadence",
       "origem": "https://www.cadence.com.br/secador-de-cabelos-cadence-eleva/p"
+    }
+  },
+  {
+    "slug": "taiff-unique-3100",
+    "nome": "Taiff Unique 3100W",
+    "marca": "Taiff",
+    "modelo": "tff-371-pai",
+    "categoria": "secadores",
+    "resumo": "3.100 W — setecentos a mais que o teto de toda a base até agora. Cabo de 3 metros, tampa traseira removível e motor V12, três coisas que nenhuma das outras quatro marcas publica.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 3100,
+      "tipoMotor": "Motor V12",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-unique-3100-oficial",
+        "titulo": "Taiff Unique 3100W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-unique-3100w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 3100 W, motor v12, **2 níveis de temperatura**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-unique-3100.webp",
+      "alt": "Secador de cabelo Taiff Unique 3100W prata, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-unique-3100w/p"
+    }
+  },
+  {
+    "slug": "taiff-unique-digital-3100",
+    "nome": "Taiff Unique Digital 3100W",
+    "marca": "Taiff",
+    "modelo": "tff-379-pai",
+    "categoria": "secadores",
+    "resumo": "A versão digital do topo de linha: mesmos 3.100 W, duas temperaturas e duas velocidades.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 3100,
+      "tipoMotor": "Motor digital",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-unique-digital-3100-oficial",
+        "titulo": "Taiff Unique Digital 3100W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-unique-3100w-digital/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 3100 W, motor digital, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-unique-digital-3100.webp",
+      "alt": "Secador de cabelo Taiff Unique Digital 3100W marrom-acinzentado, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-unique-3100w-digital/p"
+    }
+  },
+  {
+    "slug": "taiff-unique-duo",
+    "nome": "Taiff Unique Duo Bivolt",
+    "marca": "Taiff",
+    "modelo": "tff-341-pai",
+    "categoria": "secadores",
+    "resumo": "2.700 W bivolt, com registro no Inmetro próprio — 218.034/19, diferente do que cobre treze outros modelos da marca.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2700,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.034/19",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-unique-duo-oficial",
+        "titulo": "Taiff Unique Duo Bivolt — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-unique-duo-bivolt/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2700 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.034/19**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-unique-duo.webp",
+      "alt": "Secador de cabelo Taiff Unique Duo prata e branco, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-unique-duo-bivolt/p"
+    }
+  },
+  {
+    "slug": "taiff-vulcan-2500",
+    "nome": "Taiff Vulcan 2500W",
+    "marca": "Taiff",
+    "modelo": "tff-362363-pai",
+    "categoria": "secadores",
+    "resumo": "2.500 W com cabo de 3 metros e tampa traseira magnética. A Taiff declara, em campo próprio, que o cabo **não** é giratório — raro: quase toda ficha omite o que falta.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2500,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-vulcan-2500-oficial",
+        "titulo": "Taiff Vulcan 2500W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-vulcan-2500w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2500 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-vulcan-2500.webp",
+      "alt": "Secador de cabelo Taiff Vulcan prata com bocal e grade em cobre, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-vulcan-2500w/p"
+    }
+  },
+  {
+    "slug": "taiff-vulcan-digital-2500",
+    "nome": "Taiff Vulcan Digital 2500W",
+    "marca": "Taiff",
+    "modelo": "tff-380381-pai",
+    "categoria": "secadores",
+    "resumo": "Mesmos 2.500 W do Vulcan com motor digital. Duas temperaturas e duas velocidades — quatro combinações.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2500,
+      "tipoMotor": "Motor digital",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-vulcan-digital-2500-oficial",
+        "titulo": "Taiff Vulcan Digital 2500W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-vulcan-2500w-digital/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2500 W, motor digital, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-vulcan-digital-2500.webp",
+      "alt": "Secador de cabelo Taiff Vulcan Digital preto com bocal e grade em cobre, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-vulcan-2500w-digital/p"
+    }
+  },
+  {
+    "slug": "taiff-emotion-2500",
+    "nome": "Taiff e.motion Digital 2500W",
+    "marca": "Taiff",
+    "modelo": "e.motion",
+    "categoria": "secadores",
+    "resumo": "Três temperaturas e três velocidades: nove combinações por 2.500 W, o mesmo número de ajustes dos Philco de 1.450 e 1.600 W.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2500,
+      "tipoMotor": "Motor digital",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-emotion-2500-oficial",
+        "titulo": "Taiff e.motion Digital 2500W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-emotion-digital/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2500 W, motor digital, **3 níveis de temperatura**, **3 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-emotion-2500.webp",
+      "alt": "Secador de cabelo Taiff e.motion Digital preto com grade traseira dourada vazada, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-emotion-digital/p"
+    }
+  },
+  {
+    "slug": "taiff-turbe-digital-2400",
+    "nome": "Taiff Turbe Digital 2400W",
+    "marca": "Taiff",
+    "modelo": "tff-000000382-pai",
+    "categoria": "secadores",
+    "resumo": "Motor digital com gerador de íons, 3 × 3 e registro no Inmetro de 2023. É o único da lista que traz dois bicos em vez de um.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2400,
+      "tipoMotor": "Motor digital",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.030/23",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-turbe-digital-2400-oficial",
+        "titulo": "Taiff Turbe Digital 2400W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-turbe-digital/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2400 W, motor digital, **3 níveis de temperatura**, **3 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.030/23**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-turbe-digital-2400.webp",
+      "alt": "Secador de cabelo Taiff Turbe Digital preto com anel vermelho no bocal traseiro, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-turbe-digital/p"
+    }
+  },
+  {
+    "slug": "taiff-titanium-progress-2400",
+    "nome": "Taiff Titanium Progress 2400W",
+    "marca": "Taiff",
+    "modelo": "Titanium",
+    "categoria": "secadores",
+    "resumo": "O campo de temperatura diz “5” — mas o próprio texto explica que são cinco **combinações**, não cinco temperaturas. E a potência não existe em campo nenhum: os 2.400 W estão só no nome.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": null,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": true,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-titanium-progress-2400-oficial",
+        "titulo": "Taiff Titanium Progress 2400W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-taiff-titanium-progress-2400w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: **2 de velocidade**, botão de ar frio, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. O campo “Potência” está vazio nesta ficha; os 2.400 W aparecem apenas no nome do produto. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "niveisTemperatura",
+        "fonteAdotada": "taiff-titanium-progress-2400-oficial",
+        "valorDivergente": "5 - combinando temperaturas, velocidades e jato de ar frio",
+        "fonteDivergente": "taiff-titanium-progress-2400-oficial",
+        "observacao": "O campo “Temperatura” traz “5 - combinando temperaturas, velocidades e jato de ar frio”. O cinco não é o número de temperaturas: é o número de combinações entre temperatura, velocidade e ar frio. Posto na coluna de níveis de temperatura ao lado de um aparelho que declara 5 temperaturas de verdade, seria comparação falsa. O campo fica vazio."
+      },
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "taiff-titanium-progress-2400-oficial",
+        "valorDivergente": "2.400 W, no nome do produto",
+        "fonteDivergente": "taiff-titanium-progress-2400-oficial",
+        "observacao": "O título é “Secador Titanium Progress 2400W” e o campo “Potência” da ficha está vazio. Nome comercial não é campo de especificação — em outros produtos desta mesma base o nome e o campo discordam entre si. Fica em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-titanium-progress-2400.webp",
+      "alt": "Secador de cabelo Taiff Titanium Progress preto, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-taiff-titanium-progress-2400w/p"
+    }
+  },
+  {
+    "slug": "taiff-fox-3-2200-red",
+    "nome": "Taiff Fox 3 2200W Red",
+    "marca": "Taiff",
+    "modelo": "Fox",
+    "categoria": "secadores",
+    "resumo": "Mesmo aparelho do Fox 3 Soft Green, e as duas fichas discordam sobre quantas temperaturas ele tem: esta diz “5*”, a outra diz 2.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-fox-3-2200-red-oficial",
+        "titulo": "Taiff Fox 3 2200W Red — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-fox-red/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2200 W, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "niveisTemperatura",
+        "fonteAdotada": "taiff-fox-3-2200-red-oficial",
+        "valorDivergente": "5*",
+        "fonteDivergente": "taiff-fox-3-2200-soft-green-oficial",
+        "observacao": "O Fox 3 2200W é vendido em seis cores. Nas páginas Mocha, Red e Off-White o campo “Temperatura” traz “5*” — com asterisco, e sem nota explicando o asterisco. Nas páginas Soft Green, Soft Rose e Kompress, o mesmo campo traz “2”. É o mesmo secador com a mesma potência; a cor não muda a chave seletora. Asterisco não é valor, e o campo fica vazio nesta ficha."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-fox-3-2200-red.webp",
+      "alt": "Secador de cabelo Taiff Fox 3 vermelho, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-fox-red/p"
+    }
+  },
+  {
+    "slug": "taiff-fox-3-2200-soft-green",
+    "nome": "Taiff Fox 3 2200W Soft Green",
+    "marca": "Taiff",
+    "modelo": "tff-366-pai",
+    "categoria": "secadores",
+    "resumo": "O mesmo Fox 3 em outra cor — e aqui o campo de temperatura traz 2, um número limpo. É esta a leitura que a ficha sustenta.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-fox-3-2200-soft-green-oficial",
+        "titulo": "Taiff Fox 3 2200W Soft Green — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-fox-3-soft-green/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2200 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-fox-3-2200-soft-green.webp",
+      "alt": "Secador de cabelo Taiff Fox 3 verde-claro, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-fox-3-soft-green/p"
+    }
+  },
+  {
+    "slug": "taiff-fox-3-kompress",
+    "nome": "Taiff Fox 3 Kompress 2200W",
+    "marca": "Taiff",
+    "modelo": "tff-344-pai",
+    "categoria": "secadores",
+    "resumo": "O cabo muda com a tomada: **1,80 m na versão 127 V e 3 metros na de 220 V**, pela própria ficha. É o único produto da base em que o comprimento do cabo depende da tensão.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-fox-3-kompress-oficial",
+        "titulo": "Taiff Fox 3 Kompress 2200W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-fox-kompress-blue/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2200 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, registro no Inmetro **218.009/21**. O campo “Tamanho do Cabo” traz “1,80m (127v), 3 metros (220v)” — dois valores por tensão. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "comprimentoCaboM",
+        "fonteAdotada": "taiff-fox-3-kompress-oficial",
+        "valorDivergente": "1,80 m em 127 V e 3 m em 220 V",
+        "fonteDivergente": "taiff-fox-3-kompress-oficial",
+        "observacao": "A ficha publica “1,80m (127v), 3 metros (220v)”. Não é erro: são duas versões do mesmo modelo com cabos de comprimento diferente. Como a coluna guarda um número e a escolha depende da tomada de quem compra, o campo fica vazio e o valor completo fica aqui — metade do cabo é diferença grande demais para virar média."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-fox-3-kompress.webp",
+      "alt": "Secador de cabelo Taiff Fox 3 Kompress azul-claro, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-fox-kompress-blue/p"
+    }
+  },
+  {
+    "slug": "taiff-fox-s-2100",
+    "nome": "Taiff Fox S 2100W",
+    "marca": "Taiff",
+    "modelo": "tff-218-pai",
+    "categoria": "secadores",
+    "resumo": "2.100 W com cabo de 3 metros e tampa traseira removível — a combinação que separa o secador de salão do doméstico.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-fox-s-2100-oficial",
+        "titulo": "Taiff Fox S 2100W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-fox-s/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-fox-s-2100.webp",
+      "alt": "Secador de cabelo Taiff Fox S branco e prata, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-fox-s/p"
+    }
+  },
+  {
+    "slug": "taiff-titanium-2100",
+    "nome": "Taiff Titanium 2100W",
+    "marca": "Taiff",
+    "modelo": "tff-178-pai",
+    "categoria": "secadores",
+    "resumo": "2.100 W com registro no Inmetro de 2023, próprio deste modelo. Cabo de 3 metros.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.014/23",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-titanium-2100-oficial",
+        "titulo": "Taiff Titanium 2100W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-titanium-colors-laranja/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.014/23**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-titanium-2100.webp",
+      "alt": "Secador de cabelo Taiff Titanium preto com anel laranja no bocal traseiro, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-titanium-colors-laranja/p"
+    }
+  },
+  {
+    "slug": "taiff-tourmaline-ion-2100",
+    "nome": "Taiff Tourmaline Íon 2100W",
+    "marca": "Taiff",
+    "modelo": "tff-388-pai",
+    "categoria": "secadores",
+    "resumo": "Tecnologia tourmaline e íons negativos declarados, com cabo de 3 metros. A Britânia e a Philco vendem tourmaline no nome e não têm campo para isso.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-tourmaline-ion-2100-oficial",
+        "titulo": "Taiff Tourmaline Íon 2100W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-de-cabelo-tourmaline-ion-2100w-127v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-tourmaline-ion-2100.webp",
+      "alt": "Secador de cabelo Taiff Tourmaline Íon preto com grade traseira azulada, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-de-cabelo-tourmaline-ion-2100w-127v/p"
+    }
+  },
+  {
+    "slug": "taiff-fox-2000",
+    "nome": "Taiff Fox 2000W",
+    "marca": "Taiff",
+    "modelo": "tff-64-pai",
+    "categoria": "secadores",
+    "resumo": "2.000 W com cabo de 1,80 m — o modelo em que a Taiff entrega o comprimento que as outras marcas praticam.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-fox-2000-oficial",
+        "titulo": "Taiff Fox 2000W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-fox-ion/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 1.8 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-fox-2000.webp",
+      "alt": "Secador de cabelo Taiff Fox prata e branco, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-fox-ion/p"
+    }
+  },
+  {
+    "slug": "taiff-black-ion-2000",
+    "nome": "Taiff Black Íon 2000W",
+    "marca": "Taiff",
+    "modelo": "tff-386-pai",
+    "categoria": "secadores",
+    "resumo": "O campo de temperatura desta ficha está preenchido com a letra **e**. Não é número, não é palavra, e fica vazio aqui.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": "Motor AC profissional",
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": 2,
+      "jatoArFrio": false,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-black-ion-2000-oficial",
+        "titulo": "Taiff Black Íon 2000W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-de-cabelo-black-ion-2000w-127v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, motor ac profissional, **2 de velocidade**, cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 1.8 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "niveisTemperatura",
+        "fonteAdotada": "taiff-black-ion-2000-oficial",
+        "valorDivergente": "e",
+        "fonteDivergente": "taiff-black-ion-2000-oficial",
+        "observacao": "O campo “Temperatura” traz a letra “e”, sozinha. Não é quantidade, e não dá para inferir de quantos níveis se trata — os irmãos de mesma potência publicam 2. Preencher com 2 por analogia seria estimativa, e este guia não preenche lacuna com estimativa."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-black-ion-2000.webp",
+      "alt": "Secador de cabelo Taiff Black Íon preto com anel vermelho no bocal traseiro, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-de-cabelo-black-ion-2000w-127v/p"
+    }
+  },
+  {
+    "slug": "taiff-style-pro-2000",
+    "nome": "Taiff Style Pro 2000W",
+    "marca": "Taiff",
+    "modelo": "tff-356-pai",
+    "categoria": "secadores",
+    "resumo": "Mesmos 2.000 W dos outros três Style, com **3 metros de cabo contra 1,80** deles. É o único campo que separa o “Pro” do resto da linha.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": "Motor AC profissional",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": false,
+      "emiteIons": null,
+      "comprimentoCaboM": 3,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.066/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-style-pro-2000-oficial",
+        "titulo": "Taiff Style Pro 2000W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-style-pro/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, motor ac profissional, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, **cabo de 3 m**, registro no Inmetro **218.066/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-style-pro-2000.webp",
+      "alt": "Secador de cabelo Taiff Style Pro prata e branco, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-style-pro/p"
+    }
+  },
+  {
+    "slug": "taiff-style-black-2000",
+    "nome": "Taiff Style Black 2000W",
+    "marca": "Taiff",
+    "modelo": "tff-333-pai",
+    "categoria": "secadores",
+    "resumo": "2.000 W e 1,80 m de cabo — a versão sem o “Pro”, que custa 1,20 m de alcance.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": "Motor AC profissional",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": false,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.066/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-style-black-2000-oficial",
+        "titulo": "Taiff Style Black 2000W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-style-black/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, motor ac profissional, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, cabo **não** giratório, declarado, **cabo de 1.8 m**, registro no Inmetro **218.066/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-style-black-2000.webp",
+      "alt": "Secador de cabelo Taiff Style Black preto com anel turquesa no bocal traseiro, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-style-black/p"
+    }
+  },
+  {
+    "slug": "taiff-new-smart-1700",
+    "nome": "Taiff New Smart 1700W",
+    "marca": "Taiff",
+    "modelo": "tff-270-pai",
+    "categoria": "secadores",
+    "resumo": "1.700 W com tampa traseira removível e botão de ar frio — os dois recursos que importam, na menor potência da marca.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 1700,
+      "tipoMotor": "Motor AC profissional",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": false,
+      "emiteIons": true,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.009/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-new-smart-1700-oficial",
+        "titulo": "Taiff New Smart 1700W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-new-smart/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1700 W, motor ac profissional, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 1.8 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-new-smart-1700.webp",
+      "alt": "Secador de cabelo Taiff New Smart preto com grade traseira prateada, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-new-smart/p"
+    }
+  },
+  {
+    "slug": "taiff-easy-1700",
+    "nome": "Taiff Easy 1700W",
+    "marca": "Taiff",
+    "modelo": "tff-329-pai",
+    "categoria": "secadores",
+    "resumo": "O piso da Taiff: 1.700 W, motor AC profissional declarado, sem botão de ar frio e com 1,80 m de cabo. A ficha diz “não” no ar frio em vez de omitir.",
+    "atualizadoEm": "2026-09-19",
+    "specs": {
+      "potenciaW": 1700,
+      "tipoMotor": "Motor AC profissional",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": false,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": false,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": "218.066/21",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {},
+    "fontes": [
+      {
+        "id": "taiff-easy-1700-oficial",
+        "titulo": "Taiff Easy 1700W — ficha oficial da Taiff",
+        "url": "https://secure.taiff.com.br/secador-easy/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha do fabricante: 1700 W, motor ac profissional, **2 níveis de temperatura**, **2 de velocidade**, cabo **não** giratório, declarado, **cabo de 1.8 m**, registro no Inmetro **218.066/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
+        "consultadaEm": "2026-09-19"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/taiff-easy-1700.webp",
+      "alt": "Secador de cabelo Taiff Easy preto, compacto, visto de lado",
+      "credito": "Imagem: Taiff",
+      "origem": "https://secure.taiff.com.br/secador-easy/p"
     }
   }
 ]
