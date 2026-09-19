@@ -1,0 +1,515 @@
+[
+  {
+    "slug": "wap-wce1",
+    "nome": "WAP WCE1",
+    "marca": "WAP",
+    "modelo": "WCE1",
+    "categoria": "chaleiras",
+    "resumo": "A única da lista que publica quanto tempo leva para ferver: de 5 a 7 minutos. Também é uma das duas com dois anos de garantia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.7,
+      "material": "Polímeros e metais",
+      "potenciaW": 1200,
+      "tempoFervuraMin": "5 a 7 min",
+      "controleTemperatura": false,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": true,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": 0.75,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.89,
+      "dimensoesMm": null,
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CH5PTDY1"
+    },
+    "fontes": [
+      {
+        "id": "wap-wce1-oficial",
+        "titulo": "WAP WCE1 — página oficial da WAP",
+        "url": "https://loja.wap.ind.br/chaleira-eletrica-wap-wce1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 1,7 L, potência de 1.200 W em 127 V e 1.850 W em 220 V — a ficha usa o valor de 127 V —, tempo de fervura de 5 a 7 minutos, temperatura máxima de 100 °C, sem controle de temperatura, desligamento automático, luz indicadora, base giratória, segurança contra superaquecimento, corpo em polímeros e metais, cabo de 0,75 m, 0,89 kg líquidos, tomada de 10 A e garantia de 2 anos. A segurança declarada é contra superaquecimento, que não é a mesma coisa que proteção contra ferver sem água — esse campo ficou em branco. As medidas não entraram: ver a divergência.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0CH5PTDY1",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CH5PTDY1",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "WAP",
+        "valorDivergente": "24 × 21,5 × 15 cm rotulados como comprimento × largura × altura",
+        "fonteDivergente": "WAP",
+        "observacao": "Lendo os rótulos como a WAP escreve, a chaleira teria 15 cm de altura — menos que qualquer jarra de 1,7 litro desta lista, que ficam entre 23 e 25 cm. Os três valores têm as magnitudes certas para o produto, mas os rótulos parecem trocados. Em vez de escolher uma leitura, o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/wap-wce1.webp",
+      "alt": "Chaleira elétrica WAP WCE1 de aço inox com a base de aquecimento ao lado",
+      "credito": "Imagem: WAP",
+      "origem": "https://loja.wap.ind.br/chaleira-eletrica-wap-wce1/p"
+    }
+  },
+  {
+    "slug": "walita-hd9350",
+    "nome": "Philips Walita Série 3000 HD9350",
+    "marca": "Philips Walita",
+    "modelo": "HD9350",
+    "categoria": "chaleiras",
+    "resumo": "A única que publica capacidade total e capacidade útil separadas — e nesta as duas são iguais, 1,7 litro. Dois anos de garantia.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.7,
+      "material": "Inox",
+      "potenciaW": 1200,
+      "tempoFervuraMin": null,
+      "controleTemperatura": null,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": null,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": 0.75,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.1,
+      "dimensoesMm": "230 × 243 × 156",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F671617M"
+    },
+    "fontes": [
+      {
+        "id": "walita-hd9350-oficial",
+        "titulo": "Philips Walita HD9350 — página oficial da Walita",
+        "url": "https://www.walita.com.br/chaleira-serie-3000-inox-philips-walita-hd9350-hd9350-90/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de 1,7 L e capacidade útil de 1,7 L publicadas em campos separados — é a única marca da categoria que separa as duas, e nesta elas coincidem. Potência de 1.200 W em 110 V e 1.850 W em 220 V, corpo de inox, desligamento automático, sistema de encaixe, sem porta-fio, fio de 75 cm, 23 × 24,3 × 15,6 cm, 1,1 kg, tomada de 10 A, selo Inmetro 4801017.31 e garantia de 2 anos. A ficha não declara tempo de fervura, base giratória, filtro nem visor de nível.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0F671617M",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F671617M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/walita-hd9350.webp",
+      "alt": "Chaleira elétrica Philips Walita HD9350 de inox, vista de frente",
+      "credito": "Imagem: Philips Walita",
+      "origem": "https://www.walita.com.br/chaleira-serie-3000-inox-philips-walita-hd9350-hd9350-90/p"
+    }
+  },
+  {
+    "slug": "elgin-cha10",
+    "nome": "Elgin Inox 2L CHA10",
+    "marca": "Elgin",
+    "modelo": "CHA10",
+    "categoria": "chaleiras",
+    "resumo": "A única da lista que declara proteção contra funcionamento a seco — a que desliga se a jarra for ligada vazia, e que não é a mesma coisa que o desligamento automático de todo anúncio.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 2,
+      "material": "Aço inox",
+      "potenciaW": 1200,
+      "tempoFervuraMin": null,
+      "controleTemperatura": null,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": true,
+      "baseGiratoria": null,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DCKCN6L6"
+    },
+    "fontes": [
+      {
+        "id": "elgin-cha10-oficial",
+        "titulo": "Elgin CHA10 — página oficial da Elgin",
+        "url": "https://www.elgin.com.br/chaleira-inox-2l-jarra-sem-fio-desligamento-automatico-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 2 L, potência de 1.200 W, corpo de aço inox, jarra sem fio, desligamento automático e proteção contra funcionamento a seco — campo que nenhuma outra marca desta lista publica. Garantia de 12 meses com troca expressa. A página traz um segundo campo de potência com dois valores, 1.200 W e 1.500 W, sem dizer a que tensão cada um corresponde; a ficha usa o 1.200 W do campo explícito, que é o da versão de 127 V anunciada. A Elgin não publica medida, peso, cabo nem base giratória.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DCKCN6L6",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DCKCN6L6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-cha10.webp",
+      "alt": "Chaleira elétrica Elgin CHA10 de aço inox, vista de frente",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/chaleira-inox-2l-jarra-sem-fio-desligamento-automatico-/p"
+    }
+  },
+  {
+    "slug": "electrolux-eek10",
+    "nome": "Electrolux Efficient EEK10",
+    "marca": "Electrolux",
+    "modelo": "EEK10",
+    "categoria": "chaleiras",
+    "resumo": "Um litro e oitocentos, e a única ficha que diz explicitamente que não tem filtro — a Electrolux preenche campo de recurso até para negar.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.8,
+      "material": "Aço inoxidável escovado",
+      "potenciaW": 1200,
+      "tempoFervuraMin": null,
+      "controleTemperatura": null,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": null,
+      "visorNivel": true,
+      "filtro": false,
+      "comprimentoCaboM": 0.75,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.78,
+      "dimensoesMm": "213 × 232 × 159",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09CBTSBQL"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-eek10-oficial",
+        "titulo": "Electrolux EEK10 Efficient — página oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/chaleira-eletrica-electrolux-18l-efficient--eek10-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 1,8 L, potência de 1.200 W, consumo de 1,2 kW/h, corpo de aço inoxidável escovado, desligamento automático, indicador de nível de água, luz indicadora, tampa pop up, sem filtro — declarado no campo próprio como “Possui filtro: Não” —, cabo de 0,75 m, 21,3 × 23,2 × 15,9 cm, 0,78 kg, 127 V ou 220 V e garantia de 1 ano. Não publica tempo de fervura nem base giratória.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09CBTSBQL",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09CBTSBQL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-eek10.webp",
+      "alt": "Chaleira elétrica Electrolux EEK10 de inox escovado, vista de frente",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/chaleira-eletrica-electrolux-18l-efficient--eek10-/p"
+    }
+  },
+  {
+    "slug": "midea-eka20x",
+    "nome": "Midea Inox EKA20X",
+    "marca": "Midea",
+    "modelo": "EKA20X",
+    "categoria": "chaleiras",
+    "resumo": "Mil e duzentos watts em 127 V que viram 1.850 em 220 — e a Midea publica também a corrente de cada versão, 14,57 A contra 8,41 A.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.7,
+      "material": "Inox",
+      "potenciaW": 1200,
+      "tempoFervuraMin": null,
+      "controleTemperatura": null,
+      "manterAquecido": false,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": true,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.8,
+      "dimensoesMm": "220 × 245 × 150",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08SY5KPCW"
+    },
+    "fontes": [
+      {
+        "id": "midea-eka20x-oficial",
+        "titulo": "Midea EKA20X — página oficial da Midea",
+        "url": "https://www.midea.com.br/chaleira-eletrica-inox-midea-1-7-l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade líquida interna de 1,7 L, potência nominal de 1.200 W em 127 V e 1.850 W em 220 V, corrente nominal de 14,57 A e 8,41 A respectivamente, material externo inox, painel mecânico, desligamento automático, base giratória 360°, sem função manter aquecido, 22 × 24,5 × 15 cm, 0,8 kg e garantia de 12 meses. A Midea é a única da lista que publica corrente nominal. Não publica tempo de fervura, cabo, visor nem filtro.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B08SY5KPCW",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08SY5KPCW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/midea-eka20x.webp",
+      "alt": "Chaleira elétrica Midea EKA20X de inox, vista de frente",
+      "credito": "Imagem: Midea",
+      "origem": "https://www.midea.com.br/chaleira-eletrica-inox-midea-1-7-l/p"
+    }
+  },
+  {
+    "slug": "oster-ocel840",
+    "nome": "Oster Ultra OCEL840",
+    "marca": "Oster",
+    "modelo": "OCEL840",
+    "categoria": "chaleiras",
+    "resumo": "Dois litros em jarra de aço inox 304 — o único da lista que especifica a liga do aço.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 2,
+      "material": "Aço inox 304",
+      "potenciaW": 1200,
+      "tempoFervuraMin": null,
+      "controleTemperatura": null,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": null,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.733,
+      "dimensoesMm": "215 × 240 × 150",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DP3HKGHM"
+    },
+    "fontes": [
+      {
+        "id": "oster-ocel840-oficial",
+        "titulo": "Oster OCEL840 Ultra — página oficial da Oster",
+        "url": "https://www.oster.com.br/chaleira-eletrica-oster-inox-2l-ultra/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1.200 W em 127 V e 1.850 W em 220 V, com consumo de 1,2 e 1,85 kW/h; a ficha usa o valor de 127 V. Medidas de 215 × 240 × 150 mm, 0,733 kg, 127 V e 220 V e garantia de 12 meses. A descrição do produto na mesma página declara jarro em aço inox 304, sistema de desligamento automático e capacidade de 2 litros. A Oster não publica tempo de fervura, cabo, base giratória, visor nem filtro.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B0DP3HKGHM",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DP3HKGHM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-ocel840.webp",
+      "alt": "Chaleira elétrica Oster OCEL840 de aço inox, vista de frente",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/chaleira-eletrica-oster-inox-2l-ultra/p"
+    }
+  },
+  {
+    "slug": "cadence-cel810",
+    "nome": "Cadence Pure CEL810",
+    "marca": "Cadence",
+    "modelo": "CEL810",
+    "categoria": "chaleiras",
+    "resumo": "Setecentos e vinte gramas, a mais leve da lista, com jarra de inox e tampa Easy Fill.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.7,
+      "material": "Inox",
+      "potenciaW": 1200,
+      "tempoFervuraMin": null,
+      "controleTemperatura": null,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": null,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.72,
+      "dimensoesMm": "145 × 250 × 222",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09X5W76Z3"
+    },
+    "fontes": [
+      {
+        "id": "cadence-cel810-oficial",
+        "titulo": "Cadence CEL810 Pure — página oficial da Cadence",
+        "url": "https://www.cadence.com.br/chaleira-eletrica-cadence-pure-inox/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1.200 W e 1.850 W conforme a tensão, consumo de 1,2 e 1,85 kW/h, 145 × 250 × 222 mm, 0,720 kg, 127 V e 220 V e garantia de 12 meses. A descrição da mesma página declara 1,7 L de capacidade, jarra de inox, tampa Easy Fill e porta-fio. A foto oficial servida por esta página tem nome de arquivo CEL820 — a Cadence usa o asset do modelo vizinho na página do CEL810, mesmo caso do M170 da Logitech e do EX3000 da TP-Link.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B09X5W76Z3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09X5W76Z3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-cel810.webp",
+      "alt": "Chaleira elétrica Cadence CEL810 de inox, vista em ângulo",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/chaleira-eletrica-cadence-pure-inox/p"
+    }
+  },
+  {
+    "slug": "britania-bch02pi",
+    "nome": "Britânia BCH02PI",
+    "marca": "Britânia",
+    "modelo": "BCH02PI",
+    "categoria": "chaleiras",
+    "resumo": "Mil duzentos e cinquenta watts e jarra de inox, com a Britânia declarando que não tem controle de temperatura — e não declarando medida, peso nem cabo.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 1.8,
+      "material": "Inox",
+      "potenciaW": 1250,
+      "tempoFervuraMin": null,
+      "controleTemperatura": false,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": null,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07K2D5F8Q"
+    },
+    "fontes": [
+      {
+        "id": "britania-bch02pi-oficial",
+        "titulo": "Britânia BCH02PI — página oficial da Britânia",
+        "url": "https://www.britania.com.br/chaleira-eletrica-britania-bch02pi-18l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 1,8 L, potência de 1.250 W, jarra de inox, desligamento automático, base destacável, sem controle de temperatura e garantia de 360 dias. Como em todas as fichas da casa, a página declara a unidade das medidas — centímetros — e não declara o valor de nenhuma: sem dimensão, sem peso, sem cabo. A base é declarada como destacável, que não é o mesmo que giratória — o campo de base 360° ficou em branco.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B07K2D5F8Q",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07K2D5F8Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bch02pi.webp",
+      "alt": "Chaleira elétrica Britânia BCH02PI de inox, vista de frente",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/chaleira-eletrica-britania-bch02pi-18l/p"
+    }
+  },
+  {
+    "slug": "mondial-ce-06",
+    "nome": "Mondial Pratic CE-06",
+    "marca": "Mondial",
+    "modelo": "CE-06",
+    "categoria": "chaleiras",
+    "resumo": "Anunciada como inox, e a própria Mondial declara o material como PP — plástico. O acabamento é de aço; a jarra, não.",
+    "atualizadoEm": "2026-09-18",
+    "specs": {
+      "capacidadeL": 2,
+      "material": "PP (plástico)",
+      "potenciaW": 1200,
+      "tempoFervuraMin": null,
+      "controleTemperatura": null,
+      "manterAquecido": null,
+      "desligamentoAutomatico": true,
+      "protecaoSemAgua": null,
+      "baseGiratoria": null,
+      "visorNivel": null,
+      "filtro": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.75,
+      "dimensoesMm": "220 × 230 × 152",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076MCNZX6"
+    },
+    "fontes": [
+      {
+        "id": "mondial-ce06-oficial",
+        "titulo": "Mondial CE-06 Pratic — página oficial da Mondial",
+        "url": "https://www.mondial.com.br/chaleira-eletrica-mondial-premium-inox-1200w-ce-06-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade de 2 L, potência de 1.200 W em 127 V e 1.500 W em 220 V — a ficha usa a de 127 V —, desligamento automático, guarda-fio, tomada de 10 A, 22 × 23 × 15,2 cm, 0,750 kg, 127 V/220 V e garantia de 1 ano. O campo de material declara PP, que é plástico, enquanto o nome do produto e a descrição falam em acabamento em aço inox: o acabamento é metálico, a jarra não. O comprimento do cabo não entrou: ver a divergência.",
+        "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "amazon-B076MCNZX6",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076MCNZX6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O título do anúncio chama o produto de Pratic Inox. A Mondial declara o material como PP na ficha dela. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-18"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "comprimentoCaboM",
+        "fonteAdotada": "Mondial",
+        "valorDivergente": "0,50 cm",
+        "fonteDivergente": "Mondial",
+        "observacao": "O campo de comprimento do cabo publica 0,50 cm — meio centímetro, menos que a espessura do próprio plugue. A unidade está trocada: os outros produtos da mesma marca publicam cabos em metros, e 0,50 m é o valor que faz sentido. Como a página não corrige, o campo ficou em branco."
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-ce-06.webp",
+      "alt": "Chaleira elétrica Mondial CE-06 preta com acabamento em aço, vista de frente",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/chaleira-eletrica-mondial-premium-inox-1200w-ce-06-1/p"
+    }
+  }
+]

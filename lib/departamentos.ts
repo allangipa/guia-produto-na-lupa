@@ -52,7 +52,8 @@ export const departamentos: Departamento[] = [
     slug: "cozinha",
     nome: "Cozinha",
     descricao: "Eletroportátil de bancada, com a medida do anúncio convertida.",
-    categorias: ["cozinha", "sanduicheiras", "cafeteiras", "liquidificadores", "torradeiras"],
+    categorias: ["cozinha", "sanduicheiras", "cafeteiras", "liquidificadores",
+      "torradeiras", "chaleiras"],
   },
   {
     slug: "eletrodomesticos",

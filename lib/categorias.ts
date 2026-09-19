@@ -123,6 +123,15 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "chaleiras",
+    nome: "Chaleiras elétricas",
+    descricao:
+      "Chaleiras elétricas de 1,7 a 2 litros, com a potência de cada tensão separada e o tempo de fervura quando a marca publica.",
+    dorPrincipal: "Quanto tempo leva para ferver? Uma marca em nove responde.",
+    porQueParou:
+      "Fechou em nove, uma de cada marca — todas as do ranking que têm ficha de fabricante. Metade da lista de mais vendidos é de vendedor sem marca, com títulos que só repetem \"inox, desligamento automático\"; sem página de fabricante não há ficha. Agratto, Black+Decker e BEST aparecem no ranking e não responderam.",
+  },
+  {
     slug: "torradeiras",
     nome: "Torradeiras",
     descricao:

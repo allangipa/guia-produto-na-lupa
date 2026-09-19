@@ -2944,6 +2944,166 @@ export const camposTorradeira: Campo[] = [
   },
 ];
 
+/**
+ * Chaleiras elétricas.
+ *
+ * Duas coisas que a categoria mostra e o anúncio não.
+ *
+ * A primeira: **a potência muda com a tomada**. O mesmo produto que declara
+ * 1.200 W em 127 V declara 1.500 ou 1.850 W em 220 V, e seis das nove marcas
+ * desta lista publicam os dois valores. O anúncio traz um número só — às vezes
+ * o de 127, às vezes o de 220 — e a ficha aqui usa sempre o de 127 V, com os
+ * dois escritos na fonte.
+ *
+ * A segunda: o número pelo qual se compra uma chaleira é **quanto tempo leva
+ * para ferver**, e uma única marca da lista publica.
+ */
+export const camposChaleira: Campo[] = [
+  {
+    chave: "capacidadeL",
+    rotulo: "Capacidade",
+    grupo: "O que é",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "material",
+    rotulo: "Material da jarra",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Inox, vidro ou plástico. Alguns modelos anunciados como inox têm só o acabamento externo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência em 127 V",
+    grupo: "Aquecimento",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "A mesma chaleira costuma ter duas potências, uma por tensão. Esta coluna traz sempre a de 127 V; a de 220 V está na fonte de cada ficha.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tempoFervuraMin",
+    rotulo: "Tempo para ferver",
+    grupo: "Aquecimento",
+    tipo: "texto",
+    ajuda:
+      "O motivo pelo qual se compra uma chaleira elétrica. Uma única marca desta lista publica — as outras deixam a conta por conta da potência.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "controleTemperatura",
+    rotulo: "Controle de temperatura",
+    grupo: "Aquecimento",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "manterAquecido",
+    rotulo: "Manter aquecido",
+    grupo: "Aquecimento",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "desligamentoAutomatico",
+    rotulo: "Desligamento automático",
+    grupo: "Segurança",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "protecaoSemAgua",
+    rotulo: "Proteção contra ferver sem água",
+    grupo: "Segurança",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "Desliga se a jarra for ligada vazia. É a proteção que evita o acidente, e quase nenhuma ficha declara — diferente do desligamento automático, que todo anúncio estampa.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "baseGiratoria",
+    rotulo: "Base giratória 360°",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "visorNivel",
+    rotulo: "Visor de nível",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "filtro",
+    rotulo: "Filtro",
+    grupo: "Uso",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Uso",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Ficha",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Ficha",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Ficha",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Garantia e suporte",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
 /** Cada categoria traz o seu próprio conjunto de campos comparáveis. */
 export const camposPorCategoria: Record<string, Campo[]> = {
   sanduicheiras: camposSanduicheira,
@@ -2951,6 +3111,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   geladeiras: camposGeladeira,
   lavadoras: camposLavadora,
   torradeiras: camposTorradeira,
+  chaleiras: camposChaleira,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
@@ -3157,6 +3318,10 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   desligamentoAutomatico: "relogio",
   bandejaRemovivel: "portas",
   guardaFio: "cabo",
+  tempoFervuraMin: "relogio",
+  protecaoSemAgua: "escudo",
+  baseGiratoria: "seta",
+  visorNivel: "display",
 };
 
 export function iconeDo(chave: string): string {
@@ -3182,6 +3347,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   geladeiras: "termometro",
   lavadoras: "gota",
   torradeiras: "panela",
+  chaleiras: "gota",
   eletrodomesticos: "raio",
 };
 
@@ -3311,6 +3477,10 @@ const ROTULO_CURTO: Record<string, string> = {
   funcaoCancelar: "Cancela",
   desligamentoAutomatico: "Desliga só",
   bandejaRemovivel: "Bandeja",
+  tempoFervuraMin: "Ferve em",
+  protecaoSemAgua: "Sem água",
+  baseGiratoria: "Base 360°",
+  visorNivel: "Visor",
   sanduichesPorVez: "Por vez",
   abertura180: "Abre 180°",
   tipoChapa: "Chapa",
@@ -3344,6 +3514,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   geladeiras: ["capacidadeTotalL", "capacidadeGeladeiraL", "consumoKwhMes"],
   lavadoras: ["capacidadeKg", "consumoAguaL", "rotacaoRpm"],
   torradeiras: ["niveisTostagem", "espessuraPaoMm", "potenciaW"],
+  chaleiras: ["capacidadeL", "tempoFervuraMin", "potenciaW"],
 };
 
 export function destaquesDa(categoria: string): string[] {
