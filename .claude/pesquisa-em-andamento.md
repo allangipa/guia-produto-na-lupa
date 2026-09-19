@@ -412,6 +412,49 @@ API. **Fischer** (1): não testado. **MI41T** e **MO-02-34-W** foram
 colhidos mas **não casam com o ASIN do ranking** — o ranking traz o 31 L
 inox e o 34 L espelhado, e eu tinha o branco dos dois. Não entraram.
 
+## `smartwatches` — reconhecimento de 18/09/2026, **não aberta**
+
+O nó certo é **Smartwatches = 16243897011**, e não o
+`16244073011` ("Smartwatches e Acessórios"), que é 90% pulseira e capa.
+Chegar nele: Wearables `16243802011` → sub-nó Smartwatches.
+
+Ranking: Amazfit 7, Huawei 4, Samsung 3, Xiaomi/Redmi 2, Apple 2, e o
+resto é Bettdow, PEJE e Haiz — marca branca sem página.
+
+### Onde está o dado de cada marca
+
+| marca | fonte | estado |
+|---|---|---|
+| **Huawei** | `consumer.huawei.com/br/wearables/<slug>/specs/` | **funciona**: tabela real com tela, resolução, PPI, material da caixa, sensores, peso, bateria. `band10` e `band11` respondem; `watch-fit-5` dá 404 — achar o slug |
+| **Xiaomi** | `mi.com/br/product/<slug>/specs/` | **funciona** por fetch (62 KB, com mAh) |
+| **Apple** | `apple.com/br/apple-watch-se/specs/` | **funciona** por fetch (182 KB) |
+| **Amazfit** | `br.amazfit.com` é **Shopify** | `/collections/all/products.json?limit=40` lista o catálogo e casa com o ranking (Active Max, Balance 2, Bip 6, Bip Max, T-Rex 3, Active 2). Mas `/products/<handle>.js` devolve **texto de marketing, não ficha**: "até 14 dias de bateria", "tela AMOLED", sem resolução, peso nem resistência à água. **Falta achar a página de especificação da Amazfit** |
+| **Samsung** | `shop.samsung.com/br` | a API VTEX que funcionava para celular devolve **206 com HTML** para smartwatch. Tentar `samsung.com/br/watches/<modelo>/specs/` |
+
+### Por que não abri
+
+Com fonte de ficha confirmada hoje: Huawei 2, Xiaomi 2, Apple 1 ou 2 —
+cinco ou seis produtos. A Amazfit, que é o maior bloco do ranking com
+sete, tem catálogo acessível e **ficha não**. Abrir com cinco seria
+publicar uma comparação que não se sustenta.
+
+O que destrava: achar a página de especificação da Amazfit e o caminho
+da Samsung. Com os dois, a categoria fecha em 15 a 17 com cinco marcas.
+
+### O que este reconhecimento custou, para não repetir
+
+Três categorias foram medidas e descartadas no mesmo turno:
+**purificadores de água** (cinco das trinta posições são anúncios
+Electrolux de título genérico, sem código de modelo — não dá para casar
+ASIN com ficha; Consul tem CPB33AV no catálogo e CPB33AB no anúncio;
+Lorenzetti 404), **batedeiras** (três no nó misto) e, antes,
+**lava e seca**, **fogão de piso** e **cooktop**.
+
+O padrão que ficou: **em categoria de eletrônico, o ranking tem marca
+mas a ficha mora em cinco sites diferentes**; em linha branca, o cluster
+VTEX resolve quase tudo de uma vez. As categorias fáceis da cozinha
+estão acabando.
+
 ## `sanduicheiras` — aberta em 18/09/2026 com 20
 
 Nó **Sanduicheiras = 17124792011**, dentro de Eletroportáteis. **28 dos 30
