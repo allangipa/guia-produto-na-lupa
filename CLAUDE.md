@@ -54,6 +54,35 @@ ali achando que é o site.
 Sai daqui um risco antigo de brinde: a cópia local não fica mais atrás do
 remoto por causa de sincronização de nuvem. O Git é o único sincronizador.
 
+### O `out/` gerado no Windows não serve para publicar
+
+O build local grava errado os arquivos de prefetch do roteador, e só no
+Windows. Verificado em 20/09/2026, Next 16.3.5.
+
+O cliente do Next pede `__next.categorias.$d$slug.__PAGE__.txt` — nome único,
+com pontos no lugar das barras. Quem monta esse nome é
+`convertSegmentPathToStaticExportFilename`, em
+`shared/lib/segment-cache/segment-value-encoding.js`, e ela faz
+`segmentPath.replace(/\//g, '.')`: troca **barra normal**. No Windows, o
+`path.relative` que alimenta essa função devolve `\`, a troca não acha nada, e
+o `path.join` seguinte transforma as barras invertidas em pastas. Resultado:
+`__next.categorias/$d$slug/__PAGE__.txt`, que o navegador nunca pede.
+
+Sintoma: cerca de cinco 404 por página no console, só ao servir o `out/` local.
+Repare que `__next._full.txt` sai correto — ele tem um separador só, e por isso
+o defeito passa despercebido numa olhada rápida.
+
+Não afeta o site publicado: o `deploy.yml` builda em `ubuntu-latest`, onde o
+separador é `/`. Conferido no ar em 20/09/2026 — o nome achatado responde 200,
+a pasta aninhada dá 404, e nenhuma página no domínio tem 404 de prefetch.
+
+Duas consequências práticas:
+
+1. **Nunca subir um `out/` buildado aqui.** Publicação é só por push na `main`.
+2. Esses 404 no servidor local são ruído conhecido. Não gastar tempo com eles
+   de novo, e não "consertar" nada no repositório por causa deles — o defeito
+   é do Next, não nosso.
+
 ## Estrutura de conteúdo
 
 ```
