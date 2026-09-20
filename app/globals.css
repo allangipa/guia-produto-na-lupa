@@ -39,9 +39,9 @@
   --color-faixa-tinta: #eef3f2;
   --color-faixa-suave: #9fb2b1;
 
-  --font-titulo: Fraunces, Georgia, serif;
-  --font-texto: Archivo, ui-sans-serif, system-ui, sans-serif;
-  --font-dado: "IBM Plex Mono", ui-monospace, monospace;
+  --font-titulo: var(--fonte-titulo), Georgia, serif;
+  --font-texto: var(--fonte-texto), ui-sans-serif, system-ui, sans-serif;
+  --font-dado: var(--fonte-dado), ui-monospace, monospace;
 
   --largura-prosa: 48rem;
   --largura-ferramenta: 80rem;
