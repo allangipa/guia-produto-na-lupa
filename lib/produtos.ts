@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Produto } from "./specs";
 import { asinDe, dadosAmazon } from "./amazon";
+import { verificarVariantes } from "./variantes-conferir";
 
 /**
  * Leitura da base de produtos. Só de servidor: usa `node:fs`, então nada que
@@ -60,6 +61,9 @@ export function todosOsProdutos(): Produto[] {
     .filter((f) => f.endsWith(".json"))
     .flatMap((f) => produtosDaCategoria(f.replace(/\.json$/, "")));
   verificarResumos(todos);
+  verificarVariantes(
+    todos.map((p) => p.imagem?.src).filter((s): s is string => Boolean(s)),
+  );
   return todos;
 }
 

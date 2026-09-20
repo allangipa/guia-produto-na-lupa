@@ -5,6 +5,7 @@ import { navegacao } from "@/lib/navegacao";
 import { Icone } from "@/components/icones";
 import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
 import { site } from "@/lib/site";
+import { Foto } from "@/components/foto";
 
 export const metadata: Metadata = {
   title: "Todas as categorias",
@@ -92,7 +93,7 @@ export default function PaginaCategorias() {
                   >
                     <span className="cartao flex h-[7.5rem] w-[7.5rem] items-center justify-center overflow-hidden !rounded-full bg-superficie p-4 group-hover:!border-acao">
                       {i.capa ? (
-                        <img src={i.capa} alt="" className="h-full w-full object-contain" />
+                        <Foto src={i.capa} alt="" tamanhos="88px" className="h-full w-full object-contain" />
                       ) : (
                         <Icone nome={i.slug} className="h-10 w-10 text-acao" />
                       )}

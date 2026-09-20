@@ -1,0 +1,3753 @@
+{
+  "/produtos/alienware-aw2525hm.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 840
+  },
+  "/produtos/amazfit-active-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1103
+  },
+  "/produtos/amazfit-active-max.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 416
+  },
+  "/produtos/amazfit-balance-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 713
+  },
+  "/produtos/amazfit-bip-6.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1083
+  },
+  "/produtos/amazfit-bip-max.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/amazfit-t-rex-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1133
+  },
+  "/produtos/anker-nano-a1653.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 960
+  },
+  "/produtos/aoc-22b35hm23.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/aoc-24g50f-c12.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 818
+  },
+  "/produtos/aoc-24g50f.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/aoc-27g50f-c12.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 818
+  },
+  "/produtos/aoc-27g50f.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/aoc-u27b3a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/apple-ipad-a16-g1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/apple-ipad-a16-g2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1083
+  },
+  "/produtos/apple-ipad-a16.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/apple-ipad-mini-a17-pro.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/arno-bake-easy.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-drygliss-fs31.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-ecogliss-fec1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-essentialgliss-fmq.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-express-force-ssef.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/arno-gpto.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-ln64.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-lq19.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/arno-mini-chef-400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-mini-chef-hm10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-nova-deluxe.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/arno-powergliss-fpo1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-preferita.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-steamgliss-fsgc.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-steamgliss-fsgp.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-suco-express.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-ultragliss-fmv.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-ultragliss-plus-fmy.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-x-treme-7.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/basike-b206a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/basike-ba-2w.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/basike-ba-3w.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1189
+  },
+  "/produtos/basike-bpb65w001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-blf08bb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-blf08bs.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-blf10bb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-blf10br.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-brm46mk.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-bro85mk.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-bwf14ab.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/brastemp-bwj14ab.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bas1010p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bas87.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bbp70a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bbp760.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bbp90a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bbpe01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bbt350.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bbt400p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bcf19b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bcf32b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bch02pi.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bellagio-350.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bellagio-maxx.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bfr50.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bfv07.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bfv08.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bfv70.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bgr16.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bgr25b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bgr27i.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-blq1300p-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-blq1300p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bmo23.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bmo38.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bsc2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bsc2200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bsc2250.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bsc2410.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bsc4050.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bsd15a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-btr05a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bvt301.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bvt450.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-cp15.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 886
+  },
+  "/produtos/britania-crome-inox.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-diamante-550.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-easy-travel.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1181
+  },
+  "/produtos/britania-golden-waffle.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-perola-550-neve.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-perola-maxx-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-sp3100n.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/britania-tosta-pane.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-turbo-pro.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/cadence-bld701.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-caf230.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-cel810.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-san260.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-san400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-sec565.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-sec830.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-tor200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/consul-crb36mb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/consul-crm40mb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/consul-crm44mb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/dell-se2426hg.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 900
+  },
+  "/produtos/electrolux-cyc01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 700
+  },
+  "/produtos/electrolux-dc35a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-eaf40.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ebl1000-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ebl1000-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ebl1000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ebl1500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm10-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm10-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm20-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
+  "/produtos/electrolux-ecm20-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
+  "/produtos/electrolux-ecm20.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
+  "/produtos/electrolux-ecm22-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/electrolux-ecm22-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/electrolux-ecm22.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/electrolux-ecm25-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm25-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm25.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm30-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm30-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecm30.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ecp10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 500
+  },
+  "/produtos/electrolux-eek10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ekm40.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-eqp40.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/electrolux-esg20.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-esi10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-esi50.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-esi60.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-esi70.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-esi80.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ets10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ews1850p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-if44.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-kmp70.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-kmp75.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-lb08e.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-led13.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/electrolux-led15.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-led17.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-les11.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-let13.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ll08s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ll10x.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ll14x.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/electrolux-ls10e.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ls14e.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-me23b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-me23p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-me23s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-me36s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-meo44.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
+  "/produtos/electrolux-ms37r.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-mt30s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/electrolux-qws1600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-qws1650.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-re31.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 900
+  },
+  "/produtos/electrolux-sie60.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-sie70.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-stk17.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-tf38.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-top70.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-upr2300.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-uws2200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-uws2250.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-uws31.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-bbq-show.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-cha10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-essential-coffee.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-facilita-fry.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-lampada-smart-10w.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-super-force.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/huawei-band-10.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 378
+  },
+  "/produtos/huawei-band-11.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 378
+  },
+  "/produtos/huawei-freebuds-se-2-g1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/huawei-freebuds-se-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/huawei-matepad-se-11-g1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/huawei-matepad-se-11-g2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/huawei-matepad-se-11.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 3840
+  },
+  "/produtos/huawei-wifi-ax2s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1041
+  },
+  "/produtos/i2go-plus-10000-4em1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/i2go-pro-10000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/i2go-pro-20000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-im3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 801
+  },
+  "/produtos/iphone-16.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-17-1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-17-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-17.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 724
+  },
+  "/produtos/iphone-17e.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-18-pro-1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-18-pro-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-18-pro.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 724
+  },
+  "/produtos/iphone-air-1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-air-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-air.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 724
+  },
+  "/produtos/iphone-duo-1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-duo-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/iphone-duo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/jbl-c50hi.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/jbl-tune-520bt.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/jbl-tune-530bt-g2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/jbl-tune-530bt-g4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/jbl-tune-530bt.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/jbl-wave-flex-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/kingston-a400-480gb.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 416
+  },
+  "/produtos/kingston-nv3-1tb.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 416
+  },
+  "/produtos/kingston-nv3-500gb.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 416
+  },
+  "/produtos/kitchenaid-artisan-beetroot.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kitchenaid-artisan-black-matte.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/kitchenaid-artisan-blue-salt.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kitchenaid-artisan-contour-silver.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/kitchenaid-artisan-empire-red.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kitchenaid-artisan-plus-juniper.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kitchenaid-bowl-lift-56.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kitchenaid-bowl-lift-66.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kitchenaid-professional-76.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/lenovo-idea-tab-g3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 940
+  },
+  "/produtos/lenovo-idea-tab-g5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lenovo-idea-tab-plus-g2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lenovo-idea-tab-plus.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lenovo-idea-tab.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lenovo-tab-10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/lenovo-tab-m9.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/lg-20u401a.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/lg-24g411a-dz-09.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lg-24g411a-dz-10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lg-24g411a.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/lg-24gs60f.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/lg-24ms500-g9.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lg-24ms500.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/lg-27g411b-dz-09.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lg-27g411b-dz-10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/lg-27g411b.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/lg-27g523b.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/lg-27gs60f.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/lg-27ms500.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 450
+  },
+  "/produtos/logitech-g203.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-g305.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-h111.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/logitech-h390.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/logitech-k120.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-k250.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-k270.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-k400-plus.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-k650-signature.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-lift-vertical.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-m170.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-m190.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-m196.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-m240-silent.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-m330-silent-plus.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-pebble-2-m350s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/logitech-pebble-keys-2-k380s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/mallory-eolo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mallory-max-control.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mercusys-halo-h80x.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 366
+  },
+  "/produtos/mercusys-mr80x.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 590
+  },
+  "/produtos/midea-eka20x.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/midea-m7.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/midea-powerdust.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-afn-40.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-afn-50.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-afn-60.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-afon-12l.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/mondial-c-30.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 706
+  },
+  "/produtos/mondial-c-34.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 677
+  },
+  "/produtos/mondial-c-44.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-ce-06.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-dg-01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-e-01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-e-02.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-l-1400-gi.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 667
+  },
+  "/produtos/mondial-l-550-b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-l-900-fb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-l-99-fb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-lap-01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-lap-02.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-lap-03.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-mo-01-21.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-nvt-40c-8p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/mondial-pg-02.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-s-07.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-s-12.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-s-20.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-sc-10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-sc-25.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-scn-02.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 827
+  },
+  "/produtos/mondial-scn-16.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 827
+  },
+  "/produtos/mondial-scp-01-us.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 687
+  },
+  "/produtos/mondial-scp-ju-04-us.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-sm-01-bldc.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-t-13.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-t-18.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-vt-30c-nb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-vtr-01-b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-vtx-40c-8p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-edge-60-fusion.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-moto-g06-5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-moto-g06.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/motorola-moto-g17.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-moto-g35.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-moto-g56.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-moto-g86-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-moto-g86-5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/motorola-moto-g86.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/multilaser-mo300.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/multilaser-tc193.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-gcstac7002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-gcstbs5002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/oster-gcstdpa8002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-obld100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf300-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf300-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf300.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf600-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf600-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf650-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf650-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocaf650.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ocel840.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ofrt520-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/oster-ofrt520.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ofrt780.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ogrl230.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-ogrl610.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-oliq606.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-oliq610.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-osan500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-otor600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-otor650.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/panasonic-na-f150b1t.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/panasonic-nn-st27lwru.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/panasonic-nn-st55lmru.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/panasonic-nn-st67lsru.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1080
+  },
+  "/produtos/philco-crome-base-550.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-french-toast.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-paf15c.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-paf40a-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-paf40a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-paf65a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1199
+  },
+  "/produtos/philco-paf95a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-paris-350.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-paris-duo-mixer-500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-paris-inox-400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pas1810.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pas4000v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pbp1200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pbp600v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pbp70a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pbp770.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pbp90a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pbt450.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pcf40b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pef700p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pef750p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pfr2200p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/philco-pfv3200v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pfv320az.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pgr21pi.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pgr27a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pgr32.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-ph900-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-ph900-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philco-ph900.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pll10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-plq1350.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pmo23b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pmo30b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pmo30s.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pmo38e.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-psa3250.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-psc10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-psc2300.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1138
+  },
+  "/produtos/philco-psc2400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-psc3500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-psc3600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1199
+  },
+  "/produtos/philco-psde17a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-ptr03a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-sec-travel.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tae2146.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-tah2209-g3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tah2209-g4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tah2209.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 849
+  },
+  "/produtos/philips-tah2300-g2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tah2300-g5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tah2300.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 675
+  },
+  "/produtos/philips-taq2000-g4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-taq2000-g5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-taq2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tat1109-g4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tat1109-g6.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tat1109.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tat1209-g3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tat1209-g5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-tat1209.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-taue101-g2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-taue101.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 504
+  },
+  "/produtos/philips-walita-ai551.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-walita-na130.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-walita-na150.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-walita-na230-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-walita-na230-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-walita-na230.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philips-walita-na341-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-walita-na341-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-walita-na341.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/poco-x8-pro-g1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/poco-x8-pro-g2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/poco-x8-pro.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/positivo-smart-plug.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/positivo-vision-tab-11.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/positivo-vision-tab-7.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-a07.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-a17.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-a37.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-a57-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-a57.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-s25-fe.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-a11-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1004
+  },
+  "/produtos/samsung-galaxy-tab-a11-plus.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-a11.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-s10-fe-plus.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-s10-fe.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-s10-lite.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-s11-ultra.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-s11.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-galaxy-tab-s9.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-odyssey-g5-27.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-odyssey-g5-32-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1001
+  },
+  "/produtos/samsung-odyssey-g5-32-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1001
+  },
+  "/produtos/samsung-odyssey-g5-32.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-odyssey-g5-34.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-s3-24-100hz.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-s3-24-120hz-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-s3-24-120hz-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-s3-24-120hz.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/samsung-s4-24.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/sandisk-cruzer-blade-64gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/sandisk-cruzer-glide-64gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/sandisk-ultra-flair-32gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/sandisk-ultra-shift-32gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/soundcore-p20i.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1198
+  },
+  "/produtos/soundcore-p30i.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/soundcore-sport-x20.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/taiff-black-ion-2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-easy-1700.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/taiff-emotion-2500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-fox-2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-fox-3-2200-red.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/taiff-fox-3-2200-soft-green.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-fox-3-kompress.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-fox-s-2100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-new-smart-1700.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-style-black-2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-style-pro-2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-titanium-2100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-titanium-progress-2400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/taiff-tourmaline-ion-2100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-turbe-digital-2400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-unique-3100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-unique-digital-3100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-unique-duo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-vulcan-2500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/taiff-vulcan-digital-2500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tcl-tab-11-fe.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/tplink-archer-t2u-plus.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-archer-t3u.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-deco-be22.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-deco-be65.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-deco-x10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-deco-x50.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-ex3000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-re305.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 960
+  },
+  "/produtos/tplink-re450.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tapo-c100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tapo-c200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tapo-c500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tapo-p110.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tl-wa850re.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 960
+  },
+  "/produtos/tplink-tl-wn823n.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/walita-hd9350.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/walita-ri2110-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/walita-ri2110-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/walita-ri2110.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/walita-ri2242.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/walita-ri2244.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-5100-turbo-ultra.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-5100-turbo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-agil-1800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-agil-ultra-1800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-ambiance-turbo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-atacama-smart-2200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-barbecue-digital-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-barbecue-digital.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-combate-turbo-2600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-cyclone-max.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-extreme-turbo-2800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-flow-turbo-coluna-50.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-gtw-55.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-gtw-inox-25.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-gtw-inox-50.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-gtw-inox-70-duo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-l-profi-2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-l-profi-2500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-l-profi-4000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-magic-clean.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-magic.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-maxi-plus-1800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-premium-2600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-premium-ultra-2600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-robot-w1000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-robot-w100c.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-robot-w200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-robot-w400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-robot-w96.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-silent-power-2800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-turbo-1600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-turbo-2002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-wcd1500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-wce1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-wj1200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-wl-2660-turbo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-wl-4000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-wte1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/xiaomi-pad-7-g1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 754
+  },
+  "/produtos/xiaomi-pad-7.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/xiaomi-redmi-pad-2-g1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/xiaomi-redmi-pad-2-g3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/xiaomi-redmi-pad-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/xiaomi-redmi-watch-5-active.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/comparativos/iphone-18-pro-vs-iphone-17.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1080
+  }
+}

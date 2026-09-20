@@ -14,6 +14,7 @@ import { jaNasLojas, lancamentos } from "@/lib/lancamentos";
 import { linkAmazon } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
+import { Foto } from "@/components/foto";
 
 /**
  * A home era a única página sem `canonical` — todas as outras declaram a sua.
@@ -247,7 +248,7 @@ export default function Home() {
           <Link href={`/produtos/${heroi.produto!.slug}`} className="relative flex items-center justify-center p-6 md:p-8">
             <span className="relative flex aspect-[4/3] w-full max-w-[22rem] items-center justify-center overflow-hidden rounded-2xl bg-white p-5 shadow-[0_24px_50px_-12px_rgba(0,0,0,0.6)]">
               {heroi.produto!.imagem ? (
-                <img src={heroi.produto!.imagem.src} alt={heroi.produto!.imagem.alt} className="h-full w-full object-contain" />
+                <Foto src={heroi.produto!.imagem.src} alt={heroi.produto!.imagem.alt} tamanhos="(max-width: 640px) 62vw, 312px" prioridade className="h-full w-full object-contain" />
               ) : (
                 <Icone nome="celular" className="h-24 w-24 text-ausente" />
               )}
@@ -295,7 +296,7 @@ export default function Home() {
               <Link href={`/categorias#${dep.slug}`} className="group flex w-[7.5rem] flex-col items-center gap-3 sm:w-auto">
                 <span className="cartao flex h-[7.5rem] w-[7.5rem] items-center justify-center overflow-hidden !rounded-full bg-superficie p-4 group-hover:!border-acao">
                   {capa?.imagem ? (
-                    <img src={capa.imagem.src} alt="" className="h-full w-full object-contain" />
+                    <Foto src={capa.imagem.src} alt="" tamanhos="88px" className="h-full w-full object-contain" />
                   ) : (
                     <Icone nome={iconeDe} className="h-10 w-10 text-acao" />
                   )}
@@ -325,7 +326,7 @@ export default function Home() {
           <ul className="rolo mt-5 grid auto-cols-[14.5rem] grid-flow-col gap-3.5 overflow-x-auto pb-3 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-3 lg:grid-cols-5">
             {itens.slice(0, 5).map((p) => (
               <li key={p.slug}>
-                <CardProduto produto={p} campos={camposDa(p.categoria)} />
+                <CardProduto produto={p} campos={camposDa(p.categoria)} tamanhos="(max-width: 640px) 62vw, 200px" />
               </li>
             ))}
           </ul>
@@ -357,7 +358,7 @@ export default function Home() {
                   </div>
                   <span className="flex h-28 w-full items-center justify-center overflow-hidden rounded-xl bg-white/90 p-2">
                     {m.exemplo?.imagem && (
-                      <img src={m.exemplo.imagem.src} alt="" className="h-full w-full object-contain" />
+                      <Foto src={m.exemplo.imagem.src} alt="" tamanhos="(max-width: 640px) 26vw, 180px" className="h-full w-full object-contain" />
                     )}
                   </span>
                 </Link>
@@ -375,7 +376,7 @@ export default function Home() {
               <li key={l.slugProduto}>
                 <Link href={`/produtos/${l.produto!.slug}`} className="cartao flex items-center gap-5 p-5">
                   <span className="flex h-24 w-28 shrink-0 items-center justify-center rounded-xl bg-superficie p-2">
-                    {l.produto!.imagem && <img src={l.produto!.imagem.src} alt="" className="h-full w-full object-contain" />}
+                    {l.produto!.imagem && <Foto src={l.produto!.imagem.src} alt="" tamanhos="96px" className="h-full w-full object-contain" />}
                   </span>
                   <span className="min-w-0">
                     <span className="pastilha">{l.etapa}</span>

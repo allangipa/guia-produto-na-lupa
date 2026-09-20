@@ -25,10 +25,13 @@ export function CardProduto({
   produto,
   campos,
   destaques,
+  tamanhos,
 }: {
   produto: Produto;
   campos: Campo[];
   destaques?: string[];
+  /** A largura em que este card aparece. Medida, nao estimada — ver Foto. */
+  tamanhos?: string;
 }) {
   const t = transparencia(produto, campos);
   const faixa = faixaTransparencia(t.nota);
@@ -43,7 +46,7 @@ export function CardProduto({
   return (
     <article className="cartao group relative flex h-full flex-col overflow-hidden">
       <div className="relative">
-        <MidiaProduto produto={produto} />
+        <MidiaProduto produto={produto} tamanhos={tamanhos} />
         <span
           className={`${faixa.classe} absolute left-2.5 top-2.5 rounded-full px-2 py-0.5 text-[0.68rem] font-semibold`}
           title={`${t.preenchidos} de ${t.total} campos publicados pelo fabricante`}

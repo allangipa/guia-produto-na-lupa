@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { GrupoNav } from "@/lib/navegacao";
 import { Icone } from "@/components/icones";
+import { Foto } from "@/components/foto";
 
 /**
  * Botão "Todas as categorias" e o painel que ele abre.
@@ -92,7 +93,7 @@ export function MenuDepartamentos({ grupos }: { grupos: GrupoNav[] }) {
                       >
                         <span className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full border border-linha bg-superficie p-1.5 group-hover:border-acao">
                           {i.capa ? (
-                            <img src={i.capa} alt="" className="h-full w-full object-contain" />
+                            <Foto src={i.capa} alt="" tamanhos="32px" className="h-full w-full object-contain" />
                           ) : (
                             <Icone nome={i.slug} className="h-5 w-5 text-acao" />
                           )}

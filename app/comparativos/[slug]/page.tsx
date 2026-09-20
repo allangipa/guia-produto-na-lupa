@@ -15,6 +15,7 @@ import { Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
 import { Fontes } from "@/components/fontes";
 import { TabelaComparativa } from "@/components/tabela-comparativa";
+import { Foto } from "@/components/foto";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -84,11 +85,10 @@ export default async function PaginaComparativo({ params }: Params) {
             primeira tela — que é o que o leitor veio ler. */}
         {c.imagem && (
           <figure className="mt-8">
-            <img
+            <Foto
               src={c.imagem.src}
               alt={c.imagem.alt}
-              width={1080}
-              height={1350}
+              tamanhos="(max-width: 400px) 92vw, 352px"
               className="mx-auto w-full max-w-[22rem] rounded-xl border border-linha"
             />
             <figcaption className="mt-2 text-center text-[0.75rem] text-tinta-suave">

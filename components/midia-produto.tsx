@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Foto } from "@/components/foto";
 import type { Produto } from "@/lib/specs";
 import { Silhueta } from "@/components/silhueta";
 import { Icone } from "@/components/icones";
@@ -17,10 +17,12 @@ export function MidiaProduto({
   produto,
   prioridade = false,
   razao = "aspect-[4/3]",
+  tamanhos = "(max-width: 640px) 89vw, 250px",
 }: {
   produto: Produto;
   prioridade?: boolean;
   razao?: string;
+  tamanhos?: string;
 }) {
   const img = produto.imagem;
   const amazon = produto.amazon;
@@ -49,17 +51,20 @@ export function MidiaProduto({
         </>
       ) : img ? (
         <>
-          <Image
+          {/* O `sizes` anterior dizia `100vw` no celular, e a foto aparece em
+              333 px na grade de categoria e 230 na prateleira da home. O
+              navegador acredita no que a gente declara, entao errar para
+              menos deixa a foto menos nitida no retina e errar para mais
+              anula o ganho. Por isso cada chamada passa a sua largura, e
+              todas saem de medicao na tela. */}
+          <Foto
             src={img.src}
             alt={img.alt}
-            fill
-            priority={prioridade}
-            sizes="(max-width: 640px) 100vw, 320px"
-            className="object-contain p-4"
+            tamanhos={tamanhos}
+            prioridade={prioridade}
+            credito={img.credito}
+            className="absolute inset-0 h-full w-full object-contain p-4"
           />
-          <span className="absolute bottom-1.5 right-2 rounded bg-papel/85 px-1.5 py-0.5 text-[0.62rem] text-tinta-suave backdrop-blur">
-            {img.credito}
-          </span>
         </>
       ) : (
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 p-5">

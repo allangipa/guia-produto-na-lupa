@@ -196,7 +196,7 @@ export default async function PaginaProduto({ params }: Params) {
           {p.imagem && p.galeria?.length ? (
             <GaleriaProduto fotos={[p.imagem, ...p.galeria]} nome={p.nome} />
           ) : (
-            <MidiaProduto produto={p} prioridade razao="aspect-[4/3]" />
+            <MidiaProduto produto={p} prioridade razao="aspect-[4/3]" tamanhos="(max-width: 640px) 89vw, 333px" />
           )}
           {/* A legenda só pode prometer silhueta quando existe silhueta.
               Sem `dimensoesMm` o MidiaProduto desenha o ícone da categoria
