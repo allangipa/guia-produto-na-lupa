@@ -17,3 +17,7 @@ skills-lock.json
 
 # Cache incremental do TypeScript, gerado por `npx tsc`. Local, nao versionado.
 tsconfig.tsbuildinfo
+
+# Peças de rede social: geradas por `npm run carrossel`, refeitas a partir do MDX.
+social/
+scripts/.fontes/

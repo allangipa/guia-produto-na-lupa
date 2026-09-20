@@ -9,7 +9,8 @@
     "start": "next start",
     "amazon:sync": "node scripts/amazon-sync.mjs",
     "amazon:simular": "node scripts/amazon-sync.mjs --simular",
-    "imagens": "node scripts/imagens.mjs"
+    "imagens": "node scripts/imagens.mjs",
+    "carrossel": "node scripts/carrossel.mjs"
   },
   "keywords": [],
   "author": "",
