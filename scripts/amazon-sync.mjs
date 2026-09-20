@@ -108,8 +108,31 @@ async function getItems(token, ids) {
     }),
   });
   if (r.status === 429) throw new Error("Cota da API estourada (429). Tente mais tarde.");
-  if (!r.ok) throw new Error(`GetItems: HTTP ${r.status} ${await r.text()}`);
+  if (!r.ok) {
+    const corpo = await r.text();
+    const e = new Error(`GetItems: HTTP ${r.status} ${corpo}`);
+    e.naoElegivel = ehNaoElegivel(r.status, corpo);
+    throw e;
+  }
   return r.json();
+}
+
+/**
+ * A conta tem credencial valida mas ainda nao tem direito de chamar a API.
+ *
+ * A Creators API exige 10 vendas qualificadas nos ultimos 30 dias para liberar
+ * as operacoes de catalogo — que sao as unicas que ela tem. Antes disso a
+ * chamada volta com `AssociateNotEligible`, e a propria Amazon avisa que a
+ * analise pode levar ate 48 horas depois de gerar a credencial.
+ *
+ * Isso nao e defeito: e o estado normal de quem acabou de gerar as chaves. Sem
+ * este tratamento, colocar as credenciais no GitHub antes de bater as 10 vendas
+ * quebraria o deploy diario, e o site inteiro pararia de publicar por causa de
+ * uma etapa opcional.
+ */
+function ehNaoElegivel(status, corpo) {
+  if (status === 401 || status === 403) return true;
+  return /AssociateNot?Eligible|NotEligible|Unauthorized|AccessDenied/i.test(corpo || "");
 }
 
 /**
@@ -190,7 +213,8 @@ async function main() {
 
   if (SIMULAR && process.env.CI) {
     console.error("Recusando --simular em CI: dado fictício não pode ir para produção.");
-    process.exit(1);
+    process.exitCode = 1;
+    return;
   }
 
   if (!SIMULAR && (!CLIENT_ID || !CLIENT_SECRET)) {
@@ -250,6 +274,22 @@ async function main() {
 }
 
 main().catch((e) => {
+  if (e?.naoElegivel) {
+    console.log(
+      "A Amazon respondeu que a conta ainda nao esta elegivel para a API de catalogo.",
+    );
+    console.log(
+      "Sao necessarias 10 vendas qualificadas nos ultimos 30 dias; a analise leva ate 48 h",
+    );
+    console.log(
+      "depois de gerar a credencial. Seguindo sem preco — o site publica normalmente.",
+    );
+    console.log(e.message ?? e);
+    return; // sai com 0: etapa opcional nao derruba o deploy
+  }
   console.error(e.message ?? e);
-  process.exit(1);
+  // `exitCode` e nao `exit()`: matar o processo com o socket do fetch ainda
+  // aberto faz o libuv estourar uma assercao no Windows e sair com 127 em vez
+  // de 1. Assim o Node fecha o que abriu e sai com o codigo certo.
+  process.exitCode = 1;
 });
