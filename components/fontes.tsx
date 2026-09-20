@@ -1,3 +1,4 @@
+import { negrito } from "@/lib/texto";
 import {
   dataLegivel,
   rotuloTipoFonte,
@@ -39,9 +40,10 @@ export function Fontes({ itens }: { itens: Fonte[] }) {
             >
               {f.titulo}
             </a>
-            <p className="mt-1 text-[0.95rem] text-tinta-suave">
-              {f.oQueSaiuDaqui}
-            </p>
+            <p
+              className="mt-1 text-[0.95rem] text-tinta-suave"
+              dangerouslySetInnerHTML={{ __html: negrito(f.oQueSaiuDaqui) }}
+            />
             <p className="mt-1 font-dado text-[0.8rem] text-tinta-suave">
               {rotuloTipoFonte[f.tipo]}
               {FONTES_INDEPENDENTES.includes(f.tipo) && " · independente"} ·

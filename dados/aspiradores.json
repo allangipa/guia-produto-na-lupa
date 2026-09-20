@@ -146,7 +146,7 @@
     "marca": "WAP",
     "modelo": "FW008971",
     "categoria": "aspiradores",
-    "resumo": "O aparelho que derruba a conversa de watt: **450 W e 220 mbar**, mais vácuo que o GTW Inox 70 Duo de 2.000 W. Sem fio, 30 minutos, motor brushless.",
+    "resumo": "O aparelho que derruba a conversa de watt: 450 W e 220 mbar, mais vácuo que o GTW Inox 70 Duo de 2.000 W. Sem fio, 30 minutos, motor brushless.",
     "atualizadoEm": "2026-09-18",
     "specs": {
       "tipo": "Vertical",
@@ -191,7 +191,7 @@
     "marca": "WAP",
     "modelo": "FW006252",
     "categoria": "aspiradores",
-    "resumo": "Dois motores de 1.000 W cada e **200 mbar** — menos vácuo que o Magic sem fio de 450 W. Quatro vezes os watts, 20 mbar a menos.",
+    "resumo": "Dois motores de 1.000 W cada e 200 mbar — menos vácuo que o Magic sem fio de 450 W. Quatro vezes os watts, 20 mbar a menos.",
     "atualizadoEm": "2026-09-18",
     "specs": {
       "tipo": "Pó e água",
@@ -714,7 +714,7 @@
     "marca": "Midea",
     "modelo": "VVA20P1",
     "categoria": "aspiradores",
-    "resumo": "12.000 Pa declarados e **nenhum watt publicado** — o espelho exato das marcas que publicam watt e escondem sucção. O comprimento na ficha diz 3,1 cm.",
+    "resumo": "12.000 Pa declarados e nenhum watt publicado — o espelho exato das marcas que publicam watt e escondem sucção. O comprimento na ficha diz 3,1 cm.",
     "atualizadoEm": "2026-09-18",
     "specs": {
       "tipo": "Vertical",

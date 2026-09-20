@@ -13,6 +13,33 @@ export * from "./specs";
 
 const RAIZ = path.join(process.cwd(), "dados");
 
+/**
+ * `resumo` e texto puro, e a pagina o imprime como texto.
+ *
+ * Os scripts que montam a base escrevem `**assim**` no `oQueSaiuDaqui`, e o
+ * habito vazou para o `resumo`. Vinte fichas ficaram exibindo os asteriscos na
+ * tela e, pior, mandando-os para a `description` da pagina: o texto que
+ * aparece no resultado do Google.
+ *
+ * O `oQueSaiuDaqui` hoje passa por `negrito()` e so aparece na pagina, nunca
+ * em metadado — por isso la a marcacao e permitida, e aqui e proibida.
+ *
+ * Nao aparece errado para quem escreve o script; so na pagina pronta. Por isso
+ * quebra o build, como os outros `verificar()` do projeto.
+ */
+function verificarResumos(produtos: Produto[]) {
+  const comMarcacao = produtos
+    .filter((p) => /\*\*|__|\[.+?\]\(.+?\)/.test(p.resumo ?? ""))
+    .map((p) => p.slug);
+  if (comMarcacao.length) {
+    throw new Error(
+      `Marcacao de markdown no \`resumo\` de: ${comMarcacao.join(", ")}. ` +
+        `O resumo e impresso como texto puro e vai inteiro para a meta description — ` +
+        `os asteriscos apareceriam na pagina e no resultado de busca. Escreva sem marcacao.`,
+    );
+  }
+}
+
 export function produtosDaCategoria(categoria: string): Produto[] {
   const arquivo = path.join(RAIZ, `${categoria}.json`);
   if (!fs.existsSync(arquivo)) return [];
@@ -28,10 +55,12 @@ export function produtosDaCategoria(categoria: string): Produto[] {
 
 export function todosOsProdutos(): Produto[] {
   if (!fs.existsSync(RAIZ)) return [];
-  return fs
+  const todos = fs
     .readdirSync(RAIZ)
     .filter((f) => f.endsWith(".json"))
     .flatMap((f) => produtosDaCategoria(f.replace(/\.json$/, "")));
+  verificarResumos(todos);
+  return todos;
 }
 
 export function produto(slug: string): Produto | undefined {

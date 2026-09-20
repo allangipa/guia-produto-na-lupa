@@ -1261,7 +1261,7 @@
     "marca": "Taiff",
     "modelo": "tff-362363-pai",
     "categoria": "secadores",
-    "resumo": "2.500 W com cabo de 3 metros e tampa traseira magnética. A Taiff declara, em campo próprio, que o cabo **não** é giratório — raro: quase toda ficha omite o que falta.",
+    "resumo": "2.500 W com cabo de 3 metros e tampa traseira magnética. A Taiff declara, em campo próprio, que o cabo não é giratório — raro: quase toda ficha omite o que falta.",
     "atualizadoEm": "2026-09-19",
     "specs": {
       "potenciaW": 2500,
@@ -1433,7 +1433,7 @@
     "marca": "Taiff",
     "modelo": "Titanium",
     "categoria": "secadores",
-    "resumo": "O campo de temperatura diz “5” — mas o próprio texto explica que são cinco **combinações**, não cinco temperaturas. E a potência não existe em campo nenhum: os 2.400 W estão só no nome.",
+    "resumo": "O campo de temperatura diz “5” — mas o próprio texto explica que são cinco combinações, não cinco temperaturas. E a potência não existe em campo nenhum: os 2.400 W estão só no nome.",
     "atualizadoEm": "2026-09-19",
     "specs": {
       "potenciaW": null,
@@ -1587,7 +1587,7 @@
     "marca": "Taiff",
     "modelo": "tff-344-pai",
     "categoria": "secadores",
-    "resumo": "O cabo muda com a tomada: **1,80 m na versão 127 V e 3 metros na de 220 V**, pela própria ficha. É o único produto da base em que o comprimento do cabo depende da tensão.",
+    "resumo": "O cabo muda com a tomada: 1,80 m na versão 127 V e 3 metros na de 220 V, pela própria ficha. É o único produto da base em que o comprimento do cabo depende da tensão.",
     "atualizadoEm": "2026-09-19",
     "specs": {
       "potenciaW": 2200,
@@ -1811,7 +1811,7 @@
     "marca": "Taiff",
     "modelo": "tff-386-pai",
     "categoria": "secadores",
-    "resumo": "O campo de temperatura desta ficha está preenchido com a letra **e**. Não é número, não é palavra, e fica vazio aqui.",
+    "resumo": "O campo de temperatura desta ficha está preenchido com a letra e. Não é número, não é palavra, e fica vazio aqui.",
     "atualizadoEm": "2026-09-19",
     "specs": {
       "potenciaW": 2000,
@@ -1863,7 +1863,7 @@
     "marca": "Taiff",
     "modelo": "tff-356-pai",
     "categoria": "secadores",
-    "resumo": "Mesmos 2.000 W dos outros três Style, com **3 metros de cabo contra 1,80** deles. É o único campo que separa o “Pro” do resto da linha.",
+    "resumo": "Mesmos 2.000 W dos outros três Style, com 3 metros de cabo contra 1,80 deles. É o único campo que separa o “Pro” do resto da linha.",
     "atualizadoEm": "2026-09-19",
     "specs": {
       "potenciaW": 2000,

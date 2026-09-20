@@ -1,3 +1,4 @@
+import { negrito } from "@/lib/texto";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -128,9 +129,10 @@ export default async function PaginaCategoria({ params }: Params) {
                 {produtos.length === 1 ? "produto" : "produtos"}, e parou aqui de
                 propósito.
               </p>
-              <p className="mt-2 text-[0.95rem] leading-relaxed text-tinta-suave">
-                {c.porQueParou}
-              </p>
+              <p
+                className="mt-2 text-[0.95rem] leading-relaxed text-tinta-suave"
+                dangerouslySetInnerHTML={{ __html: negrito(c.porQueParou) }}
+              />
             </aside>
           )}
         </>

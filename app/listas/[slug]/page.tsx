@@ -1,3 +1,4 @@
+import { negrito } from "@/lib/texto";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -142,17 +143,4 @@ export default async function PaginaRecorte({ params }: Params) {
       </section>
     </div>
   );
-}
-
-/**
- * Só **negrito**, e escapando o resto antes. O texto do recorte é nosso, não
- * vem de fora — mas passar string por `dangerouslySetInnerHTML` sem escapar é
- * o tipo de atalho que sobrevive até o dia em que a origem do texto muda.
- */
-function negrito(s: string): string {
-  return s
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 }
