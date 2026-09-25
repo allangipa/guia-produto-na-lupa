@@ -24,7 +24,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FB9MV2KQ"
+    },
     "fontes": [
       {
         "id": "mondial-scp-ju-04-us-oficial",
@@ -33,6 +35,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1600 W, motor Brushless (BLDC), 110.000 rpm, **5 níveis de temperatura**, jato de ar frio, gerador de íons, cabo de 2.5 m, 0.285 kg. Código do produto: SCP-JU-04-US.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-scp-ju-04-us-amazon",
+        "titulo": "Mondial Ultra Sonic by Juliette SCP-JU-04-US — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FB9MV2KQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Ultra Sonic By Juliette BLDC e o código SCP-JU-04-US no título. BLDC é o brushless que a ficha declara. Listagem de 127 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -67,7 +77,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FB9NY8QJ"
+    },
     "fontes": [
       {
         "id": "mondial-scp-01-us-oficial",
@@ -76,6 +88,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1400 W, motor Brushless (BLDC), 110.000 rpm, **3 níveis de temperatura**, jato de ar frio, gerador de íons, cabo de 2.5 m, 0.36 kg. Código do produto: SCP-01-US.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-scp-01-us-amazon",
+        "titulo": "Mondial Ultra Sonic SCP-01-US — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FB9NY8QJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Ultra Sonic BLDC e o código SCP-01-US no título. Listagem de 110 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -307,7 +327,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B01643M5KY"
+    },
     "fontes": [
       {
         "id": "mondial-sc-10-oficial",
@@ -316,6 +338,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1200 W, jato de ar frio, **grade traseira removível**, cabo de 1.5 m, 0.34 kg. Código do produto: 687.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-sc-10-amazon",
+        "titulo": "Mondial Maxis Travel SC-10 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B01643M5KY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Código SC-10 e 1200 W no título, iguais aos da ficha oficial. Bivolt. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -694,7 +724,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BQRYGS46"
+    },
     "fontes": [
       {
         "id": "britania-bsc2000-oficial",
@@ -703,6 +735,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.8 m. Código do produto: BRI-BSC2000-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bsc2000-amazon",
+        "titulo": "Britânia 6 Combinações BSC2000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BQRYGS46",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Código BSC2000 e 2000 W no título — que é o valor do campo de potência da ficha, e não os 2100 W do título do fabricante. Listagem de 127 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -1065,7 +1105,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B6Y3H2FX"
+    },
     "fontes": [
       {
         "id": "cadence-sec830-oficial",
@@ -1074,6 +1116,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1900 W, 0.75 kg. Código do produto: SEC830.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "cadence-sec830-amazon",
+        "titulo": "Cadence Carbon Hair Titanium SEC830 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B6Y3H2FX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo código SEC830 no título, igual ao da ficha oficial. Listagem de 127 V. A Amazon tem também uma listagem chamada só \"Carbon Hair Titanium\", sem código; escolhemos a que traz o código. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1151,7 +1201,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BZ57GJ8F"
+    },
     "fontes": [
       {
         "id": "taiff-unique-3100-oficial",
@@ -1160,6 +1212,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 3100 W, motor v12, **2 níveis de temperatura**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-unique-3100-amazon",
+        "titulo": "Taiff Unique 3100W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BZ57GJ8F",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Taiff Unique 3100W no título, igual à potência da ficha oficial. Listagem de 220 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
