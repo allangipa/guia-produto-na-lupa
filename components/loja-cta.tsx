@@ -38,9 +38,19 @@ function registrarClique(loja: string, produto: string, posicao: string) {
 
 /**
  * Sem preço em texto: a Amazon só permite exibir preço via Product Advertising
- * API, com horário da consulta. Enquanto a API não estiver ligada, o botão leva
- * o leitor a ver o preço na origem — que é onde ele está correto de qualquer
- * jeito.
+ * API, com horário da consulta. O botão leva o leitor à origem, que é onde o
+ * preço está correto de qualquer jeito.
+ *
+ * O RÓTULO DIZ "COMPRAR", E NÃO "VER PREÇO"
+ *
+ * Decisão do Allan em 25/09/2026, depois de olhar o Promobit: o verbo do botão
+ * é o que anuncia a ação, e "ver preço" convida a espiar quando a meta é
+ * vender. A regra da Amazon é sobre EXIBIR preço e sobre não se passar pela
+ * loja — não sobre o verbo. "Comprar na Amazon" atribui a compra à Amazon, não
+ * a nós, e não afirma preço nenhum.
+ *
+ * A linha de divulgação abaixo continua dizendo que o preço muda e que quem
+ * manda é o da loja. É ela que impede o botão de virar promessa.
  *
  * Os dois botões têm o mesmo peso visual de propósito. Não estamos torcendo por
  * loja. É o único botão sólido da página — a regra da cor de ação.
@@ -72,7 +82,7 @@ export function LojaCta({ lojas, produto, posicao, nasLojasEm }: Props) {
             onClick={() => registrarClique("amazon", produto, posicao)}
             className="botao botao-primario flex-1 !py-3"
           >
-            Ver preço na Amazon
+            Comprar na Amazon
             <Icone nome="seta" className="h-4 w-4" />
           </a>
         )}
@@ -84,7 +94,7 @@ export function LojaCta({ lojas, produto, posicao, nasLojasEm }: Props) {
             onClick={() => registrarClique("mercadolivre", produto, posicao)}
             className="botao botao-secundario flex-1 !py-3"
           >
-            Ver no Mercado Livre
+            Comprar no Mercado Livre
             <Icone nome="seta" className="h-4 w-4" />
           </a>
         )}
