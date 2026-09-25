@@ -10,13 +10,21 @@ export function EscalaCriterios({ criterios }: { criterios: Criterio[] }) {
     <dl className="mt-6 space-y-4">
       {criterios.map((c) => (
         <div key={c.nome} className="grid gap-1 sm:grid-cols-[11rem_1fr]">
-          <dt className="pt-[2px] text-[0.95rem] font-medium">{c.nome}</dt>
+          <dt className="pt-[2px] text-[0.95rem] font-medium">
+            {c.nome}
+            {/* O peso na tela, e nao so no arquivo: a /metodologia promete que
+                "o peso fica escrito na analise", e ate 25/09/2026 nao ficava
+                em lugar nenhum. */}
+            <span className="ml-1.5 font-dado text-[0.72rem] font-normal tabular-nums text-tinta-suave">
+              {Math.round(c.peso * 100)}%
+            </span>
+          </dt>
           <dd>
             <div className="flex items-center gap-3">
               <div
                 className="h-[6px] flex-1 rounded-full bg-linha"
                 role="img"
-                aria-label={`${c.nome}: ${c.nota.toFixed(1)} de 10`}
+                aria-label={`${c.nome}: ${c.nota.toFixed(1)} de 10, com peso de ${Math.round(c.peso * 100)}% na nota final`}
               >
                 <div
                   className="h-full rounded-full bg-acao"

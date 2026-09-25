@@ -12,8 +12,65 @@ export type Loja = {
 export type Criterio = {
   nome: string;
   nota: number; // 0 a 10
+  /**
+   * Quanto este criterio vale na nota final, de 0 a 1. A soma dos cinco tem
+   * que dar 1 — `verificarCriterios()` quebra o build se nao der.
+   *
+   * O campo existe porque a /metodologia sempre prometeu que "cada criterio
+   * tem seu peso, e o peso fica escrito na analise", e ate 25/09/2026 nao
+   * havia onde escrever. A promessa era verdadeira no texto e falsa no
+   * codigo.
+   */
+  peso: number;
   comentario: string;
 };
+
+/**
+ * Os pesos da nota final, e por que cada um e o que e.
+ *
+ * Nao sao arbitrarios: saem da tese do site, que e julgar o que o fabricante
+ * DOCUMENTA, e nao o produto em uso.
+ *
+ *   30%  O que a especificacao entrega — e a promessa principal do produto.
+ *   25%  Transparencia da documentacao — e o eixo deste site. Pesa mais aqui
+ *        do que pesaria em qualquer publicacao que testa produto, e e de
+ *        proposito: marca que publica dado desfavoravel ganha por isso.
+ *   20%  Compatibilidade e limites — e o que decide se o produto serve para
+ *        VOCE, e o que mais gera arrependimento de compra.
+ *   15%  Garantia e suporte no Brasil — importa, mas quase toda marca
+ *        publica o minimo legal, entao separa pouco.
+ *   10%  Materiais e construcao declarados — pesa menos porque e o criterio
+ *        que a documentacao sustenta pior: a maioria das fichas nao diz
+ *        quase nada, e um criterio em que quase todos empatam em branco
+ *        carrega pouca informacao.
+ *
+ * Mudar um numero aqui muda as notas de todas as analises de uma vez, que e
+ * exatamente o que se quer de um criterio publicado.
+ */
+export const PESOS_CRITERIOS: Record<string, number> = {
+  "O que a especificação entrega": 0.3,
+  "Transparência da documentação": 0.25,
+  "Compatibilidade e limites": 0.2,
+  "Garantia e suporte no Brasil": 0.15,
+  "Materiais e construção declarados": 0.1,
+};
+
+/**
+ * A nota final, calculada — nunca digitada.
+ *
+ * Ate 25/09/2026 a `nota` era escrita a mao no frontmatter, e tinha
+ * derivado: em seis das oito analises ela era a media simples (que a
+ * /metodologia jurava nao ser), e no Philips TAT1109 estava 1,4 ACIMA da
+ * media dos proprios criterios — 4,2 publicado contra 2,8 apurado, no
+ * produto pior avaliado da base.
+ *
+ * Numero que e funcao de outros numeros nao se digita. Agora ele e derivado
+ * na leitura do arquivo, e nao ha como divergir.
+ */
+export function notaPonderada(criterios: Criterio[]): number {
+  const soma = criterios.reduce((s, c) => s + c.nota * c.peso, 0);
+  return Math.round(soma * 10) / 10;
+}
 
 /**
  * De onde uma fonte fala, e por isso quanto ela vale como confirmação.
@@ -211,7 +268,11 @@ function ler<T>(pasta: string, tipo: "review" | "comparativo" | "guia"): T[] {
 }
 
 export function todosOsReviews(): Review[] {
-  return ler<Review>("reviews", "review");
+  // A `nota` do frontmatter, se houver, e ignorada: a nota vem dos criterios.
+  return ler<Review>("reviews", "review").map((r) => ({
+    ...r,
+    nota: notaPonderada(r.criterios),
+  }));
 }
 
 export function todosOsComparativos(): Comparativo[] {
@@ -354,6 +415,59 @@ function verificarTitulos() {
 }
 
 verificarTitulos();
+
+/**
+ * Os criterios de toda analise batem com os pesos publicados.
+ *
+ * Sem isto, o campo `peso` seria mais uma coisa escrita a mao que pode
+ * divergir em silencio — que e exatamente o defeito que ele veio corrigir.
+ *
+ * Quebra o build quando: falta criterio, sobra criterio, o nome nao e um dos
+ * cinco, o peso nao e o publicado em PESOS_CRITERIOS, ou a soma nao da 1.
+ */
+function verificarCriterios() {
+  const canonicos = Object.keys(PESOS_CRITERIOS);
+  const problemas: string[] = [];
+
+  for (const r of ler<Review>("reviews", "review")) {
+    const nomes = (r.criterios ?? []).map((c) => c.nome);
+
+    for (const n of canonicos) {
+      if (!nomes.includes(n)) problemas.push(`"${r.slug}" nao tem o criterio "${n}"`);
+    }
+    for (const n of nomes) {
+      if (!canonicos.includes(n)) problemas.push(`"${r.slug}" tem criterio desconhecido "${n}"`);
+    }
+    for (const c of r.criterios ?? []) {
+      const esperado = PESOS_CRITERIOS[c.nome];
+      if (esperado === undefined) continue;
+      if (typeof c.peso !== "number") {
+        problemas.push(`"${r.slug}" > "${c.nome}" esta sem \`peso\``);
+      } else if (Math.abs(c.peso - esperado) > 0.0001) {
+        problemas.push(
+          `"${r.slug}" > "${c.nome}" tem peso ${c.peso}, e o publicado e ${esperado}`,
+        );
+      }
+      if (typeof c.nota !== "number" || c.nota < 0 || c.nota > 10) {
+        problemas.push(`"${r.slug}" > "${c.nome}" tem nota fora de 0 a 10`);
+      }
+    }
+    const soma = (r.criterios ?? []).reduce((s, c) => s + (c.peso ?? 0), 0);
+    if (Math.abs(soma - 1) > 0.0001) {
+      problemas.push(`"${r.slug}" tem pesos somando ${soma.toFixed(3)}, e tem de somar 1`);
+    }
+  }
+
+  if (problemas.length) {
+    throw new Error(
+      "Criterios de analise fora da regra publicada em /metodologia: " +
+        problemas.join("; ") +
+        ". Os pesos moram em PESOS_CRITERIOS, em lib/conteudo.ts.",
+    );
+  }
+}
+
+verificarCriterios();
 
 export function dataLegivel(iso: string): string {
   return new Date(`${iso}T12:00:00`).toLocaleDateString("pt-BR", {

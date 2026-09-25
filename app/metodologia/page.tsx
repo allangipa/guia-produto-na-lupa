@@ -36,33 +36,39 @@ export default function Metodologia() {
 
         <h2>Os critérios que dá para avaliar assim</h2>
         <p>
-          A nota final não é média simples: cada critério tem seu peso, e o peso
-          fica escrito na análise. Os critérios são estes porque são os que a
-          documentação oficial permite comparar com honestidade.
+          A nota final não é média simples: cada critério tem seu peso, o peso
+          está escrito abaixo e repetido em cada análise, ao lado do critério.
+          Os critérios são estes porque são os que a documentação oficial
+          permite comparar com honestidade. A transparência pesa mais aqui do
+          que pesaria numa publicação que testa produto — é de propósito, e é o
+          eixo deste site: marca que publica dado desfavorável ganha por isso.
+          A nota não é digitada por ninguém: ela é calculada a partir dos cinco
+          critérios, e o build recusa análise cujos pesos não batam com os desta
+          página.
         </p>
         <ul>
           <li>
-            <strong>O que a especificação entrega</strong> — o que está prometido
+            <strong>O que a especificação entrega</strong> <span className="dados text-tinta-suave">30%</span> — o que está prometido
             para a tarefa principal, comparado ao que a concorrência promete pelo
             mesmo dinheiro.
           </li>
           <li>
-            <strong>Materiais e construção declarados</strong> — o que o
+            <strong>Materiais e construção declarados</strong> <span className="dados text-tinta-suave">10%</span> — o que o
             fabricante afirma sobre material, vedação, resistência e o que ele
             evita afirmar.
           </li>
           <li>
-            <strong>Compatibilidade e limites</strong> — o que precisa existir
+            <strong>Compatibilidade e limites</strong> <span className="dados text-tinta-suave">20%</span> — o que precisa existir
             para o produto funcionar como anunciado, e o que deixa de funcionar
             fora dessas condições.
           </li>
           <li>
-            <strong>Garantia e suporte no Brasil</strong> — prazo, cobertura,
+            <strong>Garantia e suporte no Brasil</strong> <span className="dados text-tinta-suave">15%</span> — prazo, cobertura,
             rede autorizada e disponibilidade de peças, conforme o que a marca
             assume por escrito.
           </li>
           <li>
-            <strong>Transparência da documentação</strong> — quanto o fabricante
+            <strong>Transparência da documentação</strong> <span className="dados text-tinta-suave">25%</span> — quanto o fabricante
             informa e quanto ele omite. Marca que publica dado desfavorável pontua
             mais alto que marca que só publica o que convém.
           </li>
