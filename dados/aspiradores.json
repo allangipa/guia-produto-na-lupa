@@ -167,7 +167,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BT29KNMV"
+    },
     "fontes": [
       {
         "id": "wap-magic-oficial",
@@ -176,6 +178,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador vertical sem fio com **vácuo de 220 mbar**, 450 W, motor brushless, autonomia de 30 min, recipiente de 260 ml, 5 níveis de filtragem com sistema de filtragem tripla, 3 velocidades, 83 dB(A), 3 kg e 19 × 26 × 112 cm. EAN 7899831310975.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-magic-amazon",
+        "titulo": "WAP Magic — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BT29KNMV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão vendida. Casado com a ficha oficial por quatro números: 260 ml, UV-C, 220 mbar e 450 W.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -409,7 +419,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0777TLJV2"
+    },
     "fontes": [
       {
         "id": "wap-gtw-inox-50-oficial",
@@ -418,6 +430,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 180 mbar**, 1.600 W, filtro HEPA e papel descartável, 9 kg e 46 × 56,5 × 73,5 cm. Códigos WAP FW005574 (127 V) e FW005575 (220 V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-gtw-inox-50-amazon",
+        "titulo": "WAP GTW Inox 50 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0777TLJV2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a versão de 127 V. Casado com a ficha oficial por 180 mbar e 1.600 W. A WAP vende o mesmo aparelho em 127 V (código FW005574) e 220 V (FW005575); esta listagem é a de 127 V.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
