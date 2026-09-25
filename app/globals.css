@@ -435,3 +435,60 @@ body {
   padding: 0.1em 0.35em;
   border-radius: 4px;
 }
+
+/*
+ * Blocos de codigo do corpo dos .mdx — que aqui nao sao codigo, sao as tabelas
+ * de dados alinhadas com espaco.
+ *
+ * Sem `overflow-x`, um bloco mais largo que a coluna empurra a pagina inteira:
+ * em 25/09/2026 o guia de sanduicheiras tinha 143px de rolagem horizontal no
+ * celular, e o de micro-ondas, 307px. O `<pre>` nao quebra linha por definicao,
+ * entao a saida e rolar dentro dele.
+ */
+.prosa pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/*
+ * Tabelas do corpo dos .mdx, habilitadas pelo remark-gfm em 25/09/2026.
+ *
+ * Imitam a TabelaComparativa de proposito: mesma borda, mesmo cabecalho, mesma
+ * listra par. Sem isto a tabela sai sem borda nenhuma, o que e pior que o texto
+ * corrido que havia antes.
+ *
+ * O `display: block` existe para o overflow horizontal funcionar no celular: o
+ * remark gera a <table> solta, sem div em volta, e `overflow-x` nao pega em
+ * elemento com display de tabela.
+ */
+.prosa table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+  border: 1px solid var(--color-linha);
+  border-radius: 0.5rem;
+}
+.prosa thead th {
+  font-weight: 500;
+  vertical-align: bottom;
+}
+.prosa th,
+.prosa td {
+  border-bottom: 1px solid var(--color-linha);
+  padding: 0.7rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+.prosa tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--color-superficie) 50%, transparent);
+}
+.prosa tbody tr:last-child th,
+.prosa tbody tr:last-child td {
+  border-bottom: 0;
+}
+.prosa table code {
+  background: none;
+  padding: 0;
+}

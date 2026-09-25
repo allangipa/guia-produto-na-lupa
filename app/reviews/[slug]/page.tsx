@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { review, todosOsReviews, dataLegivel, fotoDaBase } from "@/lib/conteudo";
 import { tituloSeo, ogImagem, site } from "@/lib/site";
-import { componentesMdx } from "@/components/mdx";
+import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { VereditoRapido, EscalaCriterios } from "@/components/veredito";
 import { ProsContras, Lacunas } from "@/components/pros-contras";
@@ -45,6 +45,7 @@ export default async function PaginaReview({ params }: Params) {
   const { content } = await compileMDX({
     source: r.corpo,
     components: componentesMdx,
+    options: opcoesMdx,
   });
 
   return (

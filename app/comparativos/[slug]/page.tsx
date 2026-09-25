@@ -9,7 +9,7 @@ import {
 } from "@/lib/conteudo";
 import { JsonLd, schemaComparativo, schemaBreadcrumb } from "@/lib/schema";
 import { tituloSeo, ogImagem } from "@/lib/site";
-import { componentesMdx } from "@/components/mdx";
+import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
@@ -59,6 +59,7 @@ export default async function PaginaComparativo({ params }: Params) {
   const { content } = await compileMDX({
     source: c.corpo,
     components: componentesMdx,
+    options: opcoesMdx,
   });
 
   return (

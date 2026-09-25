@@ -5,7 +5,7 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { guia, todosOsGuias, dataLegivel, fotoDaBase } from "@/lib/conteudo";
 import { tituloSeo, ogImagem } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
-import { componentesMdx } from "@/components/mdx";
+import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
@@ -48,6 +48,7 @@ export default async function PaginaGuia({ params }: Params) {
   const { content } = await compileMDX({
     source: g.corpo,
     components: componentesMdx,
+    options: opcoesMdx,
   });
 
   return (
