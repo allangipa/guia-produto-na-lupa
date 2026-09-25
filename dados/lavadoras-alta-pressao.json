@@ -161,7 +161,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07YGFHH53"
+    },
     "fontes": [
       {
         "id": "wap-extreme-turbo-2800-oficial",
@@ -170,6 +172,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2450 PSI**, vazão de **360 L/h**, 1900 W, motor indução, mangueira de 5 m, cabo de 5 m, 15.8 kg. Código do produto: FW006755 (127V) / FW006756 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-extreme-turbo-2800-amazon",
+        "titulo": "WAP Extreme Turbo 2800 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07YGFHH53",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 360 L/h e 2450 psi no título, iguais aos da ficha oficial. A WAP vende em 127 V e 220 V, com código distinto; esta listagem é uma das duas. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -251,7 +261,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07YF5T8W1"
+    },
     "fontes": [
       {
         "id": "wap-5100-turbo-oficial",
@@ -260,6 +272,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2300 PSI**, vazão de **550 L/h**, 2500 W, motor indução, mangueira de 10 m, cabo de 5 m, 18 kg. Código do produto: FW006760 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-5100-turbo-amazon",
+        "titulo": "WAP 5100 Turbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07YF5T8W1",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 550 L/h e 2300 psi no título, iguais aos da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -296,7 +316,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07YF6CJXL"
+    },
     "fontes": [
       {
         "id": "wap-combate-turbo-2600-oficial",
@@ -305,6 +327,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2100 PSI**, vazão de **360 L/h**, 1700 W, motor indução, mangueira de 5 m, cabo de 5 m, 10.8 kg. Código do produto: FW006751 (127V) / FW006752 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-combate-turbo-2600-amazon",
+        "titulo": "WAP Combate Turbo 2600 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07YF6CJXL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 360 L/h, 2100 psi e 1700 W no título, iguais aos da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -386,7 +416,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CNH3NZXG"
+    },
     "fontes": [
       {
         "id": "wap-wl-4000-oficial",
@@ -395,6 +427,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1950 PSI**, vazão de **420 L/h**, 2000 W, motor indução, 89 dB, mangueira de 4 m, cabo de 5 m, 11 kg. Código do produto: FW009479 (127V) / FW009480 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-wl-4000-amazon",
+        "titulo": "WAP WL 4000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CNH3NZXG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 420 L/h no título, igual ao da ficha oficial. A listagem é a versão Profissional, não a ULTRA desobstruidora. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -476,7 +516,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B086N33GZ2"
+    },
     "fontes": [
       {
         "id": "wap-l-profi-2000-oficial",
@@ -485,6 +527,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1700 PSI**, vazão de **750 L/h**, 2300 W, motor indução, mangueira de 10 m, cabo de 5 m, 27.2 kg. Código do produto: FW006924 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-l-profi-2000-amazon",
+        "titulo": "WAP L Profi 2000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B086N33GZ2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 750 L/h no título, igual ao da ficha oficial — é a maior vazão da base depois da L Profi 4000. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -521,7 +571,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076QDQVMJ"
+    },
     "fontes": [
       {
         "id": "wap-atacama-smart-2200-oficial",
@@ -530,6 +582,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1500 PSI**, vazão de **330 L/h**, 1400 W, motor universal, mangueira de 3 m, cabo de 5 m, 4 kg. Código do produto: FW001535 (127V) / FW001536 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-atacama-smart-2200-amazon",
+        "titulo": "WAP Atacama Smart 2200 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076QDQVMJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 330 L/h, 1500 psi e 1400 W no título, iguais aos da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -566,7 +626,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076QF5VJJ"
+    },
     "fontes": [
       {
         "id": "wap-agil-1800-oficial",
@@ -575,6 +637,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1300 PSI**, vazão de **300 L/h**, 1400 W, motor universal, mangueira de 3 m, cabo de 5 m, 5.2 kg. Código do produto: FW004192 (127V) / FW004193 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-agil-1800-amazon",
+        "titulo": "WAP Ágil 1800 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076QF5VJJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 300 L/h e 1300 psi no título, iguais aos da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -804,7 +874,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DD554ZCB"
+    },
     "fontes": [
       {
         "id": "electrolux-uws2250-oficial",
@@ -813,6 +885,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **15,5 MPa (2250 psi)**, vazão de **280 L/h**, 1800 W, mangueira de 5 m, cabo de 5 m, 6.4 kg. Código do produto: UWS2250.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-uws2250-amazon",
+        "titulo": "Electrolux UltraWash UWS2250 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DD554ZCB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 2250 psi e 1800 W no título, iguais aos da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1048,7 +1128,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DFZV1NL6"
+    },
     "fontes": [
       {
         "id": "electrolux-qws1600-oficial",
@@ -1057,6 +1139,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **11.0 MPa (1600 psi)**, vazão de **280 L/h**, 1400 W, mangueira de 3 m, cabo de 5 m, 3.95 kg. Código do produto: QWS1600.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-qws1600-amazon",
+        "titulo": "Electrolux EasyWash QWS1600 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DFZV1NL6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 1600 psi e 1400 W no título, iguais aos da ficha oficial. Listagem de 127 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
