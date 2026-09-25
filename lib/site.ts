@@ -64,6 +64,85 @@ export const site = {
  * O Mercado Livre exige o contrário: o link gerado no painel
  * deve ser usado sem nenhuma modificação — por isso ele passa intacto.
  */
+/**
+ * AS LOJAS QUE O SITE PODE APONTAR, E COMO CADA UMA SE ESCREVE.
+ *
+ * Existe porque o botao vai deixar de ser so da Amazon. Decisao do Allan em
+ * 25/09/2026: "no botao que hoje so tem comprar na amazon, nos outros vai
+ * estar comprar na loja que contem o produto".
+ *
+ * A PREPOSICAO E CAMPO, E NAO SE ADIVINHA
+ *
+ * Em portugues o artigo muda com o nome: e "na Amazon", "no Mercado Livre",
+ * "nas Casas Bahia". Montar a frase com um "na" fixo produziria "na Mercado
+ * Livre" na primeira loja nova que entrasse. Cada loja declara a sua.
+ *
+ * O LINK DE CADA PROGRAMA TEM REGRA PROPRIA
+ *
+ * A Amazon EXIGE que o link carregue a tag de afiliado; o Mercado Livre exige
+ * o contrario, que o link gerado no painel passe sem nenhuma modificacao. Por
+ * isso `link` e opcional: ausente significa "passa intacto", que e o
+ * comportamento seguro por padrao. Loja nova so ganha transformacao se o
+ * programa dela pedir por escrito.
+ *
+ * A ORDEM E DECLARADA, E NAO E NEUTRA
+ *
+ * Quando um produto tem mais de uma loja, a primeira leva o botao solido e as
+ * outras ficam com o contorno - a regra da casa e que exista UMA cor de acao
+ * por pagina. A ordem esta aqui em numero para ser mudada numa linha, e hoje
+ * a Amazon vem primeiro porque e o unico programa aprovado com meta de vendas
+ * em prazo. Mudar o numero muda o site inteiro.
+ */
+export type DefinicaoLoja = {
+  /** Como a loja se chama na frase do botao. */
+  nome: string;
+  /** "na", "no", "nas" ou "nos" — o artigo que antecede o nome. */
+  preposicao: string;
+  /** Menor vem primeiro, e o primeiro leva o botao solido. */
+  ordem: number;
+  /** So quando o programa exigir. Ausente = o link passa intacto. */
+  link?: (url: string) => string;
+};
+
+export const LOJAS: Record<string, DefinicaoLoja> = {
+  amazon: { nome: "Amazon", preposicao: "na", ordem: 1, link: linkAmazon },
+  mercadolivre: { nome: "Mercado Livre", preposicao: "no", ordem: 2 },
+  magalu: { nome: "Magazine Luiza", preposicao: "na", ordem: 3 },
+  americanas: { nome: "Americanas", preposicao: "na", ordem: 4 },
+  casasbahia: { nome: "Casas Bahia", preposicao: "nas", ordem: 5 },
+  shopee: { nome: "Shopee", preposicao: "na", ordem: 6 },
+  aliexpress: { nome: "AliExpress", preposicao: "no", ordem: 7 },
+  kabum: { nome: "KaBuM!", preposicao: "na", ordem: 8 },
+};
+
+/** "Comprar na Amazon", "Comprar no Mercado Livre", "Comprar nas Casas Bahia". */
+export function rotuloCompra(chave: string): string {
+  const l = LOJAS[chave];
+  if (!l) return "Comprar na loja";
+  return `Comprar ${l.preposicao} ${l.nome}`;
+}
+
+/** O link pronto para a loja, com a transformacao que o programa dela exige. */
+export function linkDaLoja(chave: string, url: string): string {
+  const l = LOJAS[chave];
+  return l?.link ? l.link(url) : url;
+}
+
+/**
+ * As lojas que este produto tem, na ordem declarada em LOJAS.
+ *
+ * Chave desconhecida nao e ignorada em silencio: `verificarLojas()`, em
+ * lib/conteudo.ts, quebra o build. Um "magazineluiza" onde se esperava
+ * "magalu" sumiria da tela sem erro nenhum, e o link de afiliado sumiria
+ * junto.
+ */
+export function lojasDe(lojas: Record<string, string | undefined>) {
+  return Object.entries(lojas)
+    .filter(([chave, url]) => url && LOJAS[chave])
+    .sort((a, b) => LOJAS[a[0]].ordem - LOJAS[b[0]].ordem)
+    .map(([chave, url]) => ({ chave, url: url as string }));
+}
+
 export function linkAmazon(url: string): string {
   if (!site.amazonTag) return url;
   try {

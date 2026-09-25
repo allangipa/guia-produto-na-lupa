@@ -1,6 +1,6 @@
 "use client";
 
-import { linkAmazon } from "@/lib/site";
+import { lojasDe, linkDaLoja, rotuloCompra } from "@/lib/site";
 import type { Loja } from "@/lib/conteudo";
 import { Icone } from "@/components/icones";
 
@@ -52,12 +52,25 @@ function registrarClique(loja: string, produto: string, posicao: string) {
  * A linha de divulgação abaixo continua dizendo que o preço muda e que quem
  * manda é o da loja. É ela que impede o botão de virar promessa.
  *
- * Os dois botões têm o mesmo peso visual de propósito. Não estamos torcendo por
- * loja. É o único botão sólido da página — a regra da cor de ação.
+ * O BOTÃO NÃO É MAIS DA AMAZON, É DA LOJA QUE TIVER O PRODUTO
+ *
+ * Decisão do Allan em 25/09/2026, ao planejar entrar em mais programas de
+ * afiliado. O componente não conhece loja nenhuma por dentro: ele percorre o
+ * que o produto declarou, na ordem de `LOJAS` em lib/site.ts, e monta a frase
+ * com o nome e a preposição de lá — "na Amazon", "no Mercado Livre", "nas
+ * Casas Bahia". Loja nova entra no registro, e o site inteiro passa a saber
+ * escrever o nome dela.
+ *
+ * Quando há mais de uma, a primeira leva o botão sólido e as outras ficam com
+ * o contorno — a regra da casa é que exista UMA cor de ação por página, e três
+ * botões verdes lado a lado apagariam os três. A ordem está declarada em
+ * número, e mudar o número muda o site inteiro.
  */
 export function LojaCta({ lojas, produto, posicao, nasLojasEm }: Props) {
-  const temAlguma = lojas.amazon || lojas.mercadolivre;
-  if (!temAlguma) return null;
+  // Na ordem declarada em LOJAS, e sem chave desconhecida — que o build
+  // recusa antes de chegar aqui.
+  const disponiveis = lojasDe(lojas);
+  if (!disponiveis.length) return null;
 
   const porVir = nasLojasEm ? nasLojasEm.split("-") : null;
 
@@ -74,34 +87,24 @@ export function LojaCta({ lojas, produto, posicao, nasLojasEm }: Props) {
         </p>
       )}
       <div className="flex flex-col gap-2.5 sm:flex-row">
-        {lojas.amazon && (
+        {disponiveis.map(({ chave, url }, i) => (
           <a
-            href={linkAmazon(lojas.amazon)}
+            key={chave}
+            href={linkDaLoja(chave, url)}
             rel="sponsored nofollow noopener"
             target="_blank"
-            onClick={() => registrarClique("amazon", produto, posicao)}
-            className="botao botao-primario flex-1 !py-3"
+            onClick={() => registrarClique(chave, produto, posicao)}
+            className={`botao ${i === 0 ? "botao-primario" : "botao-secundario"} flex-1 !py-3`}
           >
-            Comprar na Amazon
+            {rotuloCompra(chave)}
             <Icone nome="seta" className="h-4 w-4" />
           </a>
-        )}
-        {lojas.mercadolivre && (
-          <a
-            href={lojas.mercadolivre}
-            rel="sponsored nofollow noopener"
-            target="_blank"
-            onClick={() => registrarClique("mercadolivre", produto, posicao)}
-            className="botao botao-secundario flex-1 !py-3"
-          >
-            Comprar no Mercado Livre
-            <Icone nome="seta" className="h-4 w-4" />
-          </a>
-        )}
+        ))}
       </div>
       <p className="mt-2.5 text-[0.78rem] text-tinta-suave">
-        Link de afiliado: o site recebe comissão e você paga o mesmo preço. O
-        preço muda ao longo do dia; quem manda é o da loja.
+        {disponiveis.length > 1 ? "Links de afiliado" : "Link de afiliado"}: o
+        site recebe comissão e você paga o mesmo preço. O preço muda ao longo do
+        dia; quem manda é o da loja.
       </p>
     </div>
   );

@@ -2,12 +2,21 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { todosOsProdutos } from "./produtos";
-import { LIMITE_TITULO } from "./site";
+import { LIMITE_TITULO, LOJAS } from "./site";
 
-export type Loja = {
-  amazon?: string;
-  mercadolivre?: string;
-};
+/**
+ * As lojas de um produto, por chave: `{ amazon: "...", magalu: "..." }`.
+ *
+ * Era um tipo fechado com dois campos ate 25/09/2026. Abriu porque o site vai
+ * apontar para varios parceiros, e cada loja nova exigia mexer no tipo, no
+ * componente do botao e na home.
+ *
+ * As chaves validas moram em LOJAS, em lib/site.ts. `verificarLojas()`, no fim
+ * deste arquivo, quebra o build quando aparece uma que nao esta la — senao um
+ * "magazineluiza" escrito onde se esperava "magalu" sumiria da tela sem erro,
+ * e o link de afiliado sumiria junto.
+ */
+export type Loja = Record<string, string | undefined>;
 
 export type Criterio = {
   nome: string;
@@ -468,6 +477,52 @@ function verificarCriterios() {
 }
 
 verificarCriterios();
+
+/**
+ * Toda chave de loja usada no conteudo existe em LOJAS.
+ *
+ * Sem isto, uma chave errada nao daria erro nenhum: o botao simplesmente nao
+ * apareceria, e a pagina iria ao ar sem link de afiliado. E o tipo `Loja` e
+ * aberto de proposito, entao o TypeScript tambem nao pegaria.
+ */
+function verificarLojas() {
+  const validas = Object.keys(LOJAS);
+  const ruins = new Map<string, string[]>();
+
+  const anota = (chave: string, onde: string) => {
+    if (validas.includes(chave)) return;
+    ruins.set(chave, [...(ruins.get(chave) ?? []), onde]);
+  };
+
+  for (const r of ler<Review>("reviews", "review")) {
+    for (const c of Object.keys(r.produto?.lojas ?? {})) anota(c, `analise "${r.slug}"`);
+  }
+  for (const c of ler<Comparativo>("comparativos", "comparativo")) {
+    for (const x of c.concorrentes ?? []) {
+      for (const k of Object.keys(x.lojas ?? {})) anota(k, `comparativo "${c.slug}"`);
+    }
+  }
+  for (const g of ler<Guia>("guias", "guia")) {
+    for (const e of g.escolhas ?? []) {
+      for (const k of Object.keys(e.lojas ?? {})) anota(k, `guia "${g.slug}"`);
+    }
+  }
+  for (const p of todosOsProdutos()) {
+    for (const k of Object.keys(p.lojas ?? {})) anota(k, `produto "${p.slug}"`);
+  }
+
+  if (ruins.size) {
+    const lista = [...ruins.entries()]
+      .map(([chave, ondes]) => `"${chave}" em ${[...new Set(ondes)].slice(0, 3).join(", ")}`)
+      .join("; ");
+    throw new Error(
+      `Chave de loja desconhecida: ${lista}. As chaves validas sao ${validas.join(", ")}, ` +
+        `e moram em LOJAS, no lib/site.ts. Loja nova entra la primeiro, com nome, preposicao e ordem.`,
+    );
+  }
+}
+
+verificarLojas();
 
 export function dataLegivel(iso: string): string {
   return new Date(`${iso}T12:00:00`).toLocaleDateString("pt-BR", {

@@ -11,7 +11,7 @@ import { departamentos } from "@/lib/departamentos";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
 import { jaNasLojas, lancamentos } from "@/lib/lancamentos";
-import { linkAmazon } from "@/lib/site";
+import { LOJAS, linkDaLoja, lojasDe } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
 import { Foto } from "@/components/foto";
@@ -219,17 +219,26 @@ export default function Home() {
               ))}
             </dl>
             <div className="mt-6 flex flex-wrap items-center gap-2.5">
-              {heroi.produto!.lojas.amazon && (
-                <a
-                  href={linkAmazon(heroi.produto!.lojas.amazon)}
-                  rel="sponsored nofollow noopener"
-                  target="_blank"
-                  className="botao botao-primario"
-                >
-                  {heroiJaSaiu ? "Disponível na Amazon" : "Pré-venda na Amazon"}{" "}
-                  <Icone nome="seta" className="h-4 w-4" />
-                </a>
-              )}
+              {/* A loja do herói sai do registro em LOJAS, e não é fixa no
+                  código: o site vai apontar para vários parceiros, e o nome
+                  com a preposição certa vem de lá. Pega a primeira na ordem
+                  declarada. */}
+              {(() => {
+                const loja = lojasDe(heroi.produto!.lojas)[0];
+                if (!loja) return null;
+                const l = LOJAS[loja.chave];
+                return (
+                  <a
+                    href={linkDaLoja(loja.chave, loja.url)}
+                    rel="sponsored nofollow noopener"
+                    target="_blank"
+                    className="botao botao-primario"
+                  >
+                    {heroiJaSaiu ? "Disponível" : "Pré-venda"} {l.preposicao}{" "}
+                    {l.nome} <Icone nome="seta" className="h-4 w-4" />
+                  </a>
+                );
+              })()}
               <Link href={`/produtos/${heroi.produto!.slug}`} className="botao !border-white/25 !bg-white/10 !text-white hover:!bg-white/15">
                 Ficha completa
               </Link>
