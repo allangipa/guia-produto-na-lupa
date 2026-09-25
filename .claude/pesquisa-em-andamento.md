@@ -918,3 +918,99 @@ campo de texto. So 4 das 9 fichas trazem — por isso so 4 entraram no recorte.
   seria trocar a fonte pela nossa interpretacao.
 - Bowl-Lift 5,6 e 6,6 L: nao publicam farinha nem massa de pao. Sao justamente
   as maquinas feitas para massa pesada.
+
+## `torradeiras` — aberta com 12, paginas publicadas em 25/09/2026
+
+No **Torradeiras = 17124796011**, dentro de Eletroportateis. Fechou com 12
+fichas e **sete marcas**, a melhor distribuicao de marca de qualquer
+categoria aberta ate agora: Electrolux 2, Oster 2, Philco 2, Britania 2,
+Mondial 2, Cadence 1, WAP 1.
+
+A apuracao estava so no JSON — esta secao foi escrita ao publicar.
+
+### O angulo: a fenda, e o campo preenchido com o texto de exemplo
+
+Torradeira tem **uma pergunta so**: o seu pao cabe? Pao de forma tem uns
+12 mm; pao frances cortado ao meio passa dos 30.
+
+**Duas das 12 fichas publicam a espessura em numero:** Philco French Toast
+com 35 mm e Britania Tosta Pane com 30 mm.
+
+Outras duas trazem o campo **preenchido com texto que nao e medida**, e
+estao registradas em `divergencias`:
+
+- **Philco PTR03A** — o campo "Espessura dos paes" traz literalmente
+  `"Exemplo: 30mm"`. E o **texto de amostra do formulario de cadastro**,
+  publicado ao vivo na pagina do produto no lugar do valor. Campo em branco:
+  adotar 30 mm seria adotar um exemplo.
+- **Britania BTR05A** — o mesmo campo traz `"diferentes tamanhos e
+  espessuras"`, frase de propaganda num campo numerico.
+
+**A simetria e o achado**: cada uma das duas marcas faz as duas coisas. Num
+modelo o campo vira medida, no modelo vizinho vira texto solto. Nao e
+politica de marca, e cadastro produto a produto sem ninguem conferindo.
+
+### A inversao: quem publica medida nao publica a medida que importa
+
+```
+publicam dimensoes E peso     Electrolux, Oster, Cadence, WAP
+publicam espessura do pao     Philco, Britania
+```
+
+Os dois conjuntos **nao se cruzam em nenhum ponto**. Philco e Britania
+publicam exatamente **seis campos** por torradeira (potencia, quantidade de
+paes, espessura, bandeja, niveis, garantia em dias) e — o detalhe que resume
+a categoria — **declaram a unidade das medidas, "centimetros", sem declarar
+valor nenhum ao lado**.
+
+### A potencia depende da tomada, e 3 de 8 dizem
+
+Oito das 12 declaram bivolt. Tres publicam a potencia de cada tensao:
+
+| modelo | 127 V | 220 V | queda |
+|---|---|---|---|
+| Oster OTOR600 | 750 W | 650 W | 13,3% |
+| Oster OTOR650 | 750 W | 650 W | 13,3% |
+| WAP WTE1 | 900 W | 800 W | 11,1% |
+
+As outras cinco bivolt publicam **um numero so**, sem dizer a que tensao.
+Cuidado ao escrever: isso **nao autoriza** afirmar que as cinco percam
+potencia em 220 V — so que os dois fabricantes que mediram nas duas tensoes
+acharam diferenca, e que a diferenca (100 W) e metade da faixa inteira da
+categoria (700 a 900 W). O JSON guarda o valor de 127 V.
+
+### Dois fabricantes publicam o que nao vende
+
+Raro, e merece credito nominal quando aparecer de novo:
+
+- **Electrolux ETS10** declara `desligamentoAutomatico: false` — campo de
+  seguranca, na mesma marca cujo modelo de cima declara `true`.
+- **Mondial T-13** declara `guardaFio: false`, enquanto a irma T-18 declara
+  `true`.
+
+Contraste com `bandejaRemovivel`: **12 de 12 declaram, e as 12 dizem que
+tem**. Campo que so aparece com resposta boa nao permite ler o silencio.
+
+### Outros numeros uteis
+
+- **Fatias: 8 de 12 declaram, e as oito dizem "2".** As quatro que calam sao
+  as duas Electrolux e as duas Oster. Torradeira de 4 fatias existe e custa
+  mais — o silencio importa.
+- **Niveis: 11 de 12.** So a Oster OTOR650 nao publica, e a OTOR600 da mesma
+  linha publica 7. **Nenhuma das 12 diz o que muda entre um nivel e outro.**
+- **Garantia: 11 declaram 12 meses; a WAP WTE1 declara 24**, a unica.
+- **Cabo: Mondial 1,50 m nos dois modelos, o dobro dos 0,75 m das Electrolux.**
+- **Peso: TOP70 1,87 kg (a mais pesada), Mondial T-18 0,70 kg (a mais leve).**
+- **Zero de 12** publicam tempo de ciclo, temperatura em graus ou o
+  comprimento da fenda.
+
+### Paginas publicadas
+
+`guias/torradeiras.mdx`, `comparativos/philco-french-toast-vs-britania-tosta-pane.mdx`
+e `comparativos/electrolux-top70-vs-wap-wte1.mdx`. Os 53 numeros citados
+foram conferidos por script contra `dados/torradeiras.json`.
+
+**Uma imprecisao que o script nao pega e quase saiu publicada**: escrevi "o
+modelo mais potente da lista" para o TOP70, e ha **tres empatados em 900 W**
+(TOP70, French Toast e WTE1). Superlativo em categoria pequena pede conferir
+empate — o script testava o valor, nao a unicidade.
