@@ -365,11 +365,20 @@ Fischer 1. Fechou em 17, com cinco marcas.
 tem a ficha mais rica da categoria — inclusive **Volume Total e Volume
 Útil em campos separados**, que nenhuma outra marca publica:
 
-| modelo | caixa | útil | sobra |
-|---|---|---|---|
-| NN-ST27LWRU | 21 L | 11 L | 48% do anúncio |
-| NN-ST55LMRU | 27 L | 18 L | 67% |
-| NN-ST67LSRU | 34 L | 23 L | 68% |
+| modelo | caixa | útil | sobra | perde |
+|---|---|---|---|---|
+| NN-ST27LWRU | 21 L | 11 L | 52,4% | **47,6%** |
+| NN-ST55LMRU | 27 L | 18 L | 66,7% | 33,3% |
+| NN-ST67LSRU | 34 L | 23 L | 67,6% | 32,4% |
+
+**Correcao de 25/09/2026.** A versao anterior desta tabela tinha uma coluna
+so, chamada "sobra", com 48%, 67% e 68% — e o 48% era o que o ST27
+**perde**, nao o que sobra. Uma coluna, duas contas.
+
+O padrao que so apareceu depois de corrigir: **o menor e o que perde mais**,
+quase metade contra um terco nos outros dois. Faz sentido fisico (parede e
+magnetron quase nao encolhem quando o aparelho encolhe) e virou um dos eixos
+do guia: comprar o pequeno e o pior negocio proporcional da tabela.
 
 É o mesmo ângulo das airfryers, e foi de onde saiu a `dorPrincipal`.
 
@@ -411,6 +420,46 @@ ausência das fichas mostraria.
 API. **Fischer** (1): não testado. **MI41T** e **MO-02-34-W** foram
 colhidos mas **não casam com o ASIN do ranking** — o ranking traz o 31 L
 inox e o 34 L espelhado, e eu tinha o branco dos dois. Não entraram.
+
+### O numero do MODELO tambem nao e a capacidade — achado de 25/09/2026
+
+Nao estava nestas notas e virou o titulo do guia. Comparando o numero que um
+comprador leria como litros no nome do modelo contra o `capacidadeTotalL`:
+
+**5 de 17 batem. 12 nao batem.**
+
+A Electrolux faz as duas coisas na mesma linha de produtos, o que e o pior
+dos mundos para quem aprende o padrao na prateleira:
+
+| modelo | nome | ficha | |
+|---|---|---|---|
+| ME23S / ME23B / ME23P | 23 | 23 L | bate |
+| ME36S | 36 | 36 L | bate |
+| MT30S | 30 | 20 L | **dez a menos** |
+| MS37R | 37 | 27 L | **dez a menos** |
+| MEO44 | 44 | 34 L | **dez a menos** |
+
+Os tres que erram, erram por **exatamente dez** — e outra serie de nomes, nao
+promessa de volume. Philco e Britania erram sempre para cima, de 2 a 5 L.
+
+Cuidado ao escrever: a Panasonic chama os modelos de ST27, ST55 e ST67, e
+**55 e 67 nao sao leituras plausiveis de litragem** — ninguem le 67 como
+litro. So o ST27 e armadilha, porque 27 e capacidade plausivel de
+micro-ondas e o aparelho tem 21 L de caixa e 11 L uteis. Afirmar que a
+Panasonic "infla" o numero nos tres seria sensacionalismo, e o guia diz
+explicitamente que nao esta afirmando isso.
+
+### Paginas publicadas em 25/09/2026
+
+`guias/microondas.mdx`, `comparativos/panasonic-st67-vs-philco-pmo38e.mdx` e
+`comparativos/panasonic-st27-vs-mondial-mo-01-21.mdx`. Os 46 numeros citados
+foram conferidos por script contra `dados/microondas.json`.
+
+Outros padroes que sairam da base e valem para as proximas categorias:
+grill **6 declaram, 6 dizem que nao tem**; trava **8 declaram, 8 dizem que
+tem e nenhuma diz que nao**; selo energetico **10 declaram, 10 sao A**;
+niveis de potencia **4 declaram, todos dizem 10**. Campo que so aparece com
+resposta boa nao permite ler o silencio de quem o omite.
 
 ## `smartwatches` — reconhecimento de 18/09/2026, **não aberta**
 
