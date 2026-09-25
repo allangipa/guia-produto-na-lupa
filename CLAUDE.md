@@ -155,6 +155,33 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 - Nota editorial de 0 a 10 por critério ponderado, documentada em `/metodologia`.
   Os critérios avaliam só o que a documentação oficial permite julgar — não
   existe nota de durabilidade real, desempenho real ou conforto.
+
+  **Os pesos, desde 25/09/2026, e eles são públicos:**
+
+      30%  O que a especificação entrega
+      25%  Transparência da documentação   ← o eixo do site
+      20%  Compatibilidade e limites
+      15%  Garantia e suporte no Brasil
+      10%  Materiais e construção declarados
+
+  Transparência pesa mais aqui do que pesaria numa publicação que testa
+  produto, de propósito. Materiais pesa menos porque é o critério que a
+  documentação sustenta pior: quase toda ficha é omissa ali, e critério em que
+  todos empatam em branco carrega pouca informação.
+
+  **A nota não se digita.** É derivada dos critérios em `notaPonderada()`, e
+  `nota:` não existe mais no frontmatter. Os pesos moram em `PESOS_CRITERIOS`,
+  em `lib/conteudo.ts`, e `verificarCriterios()` quebra o build quando falta
+  critério, sobra critério, o nome não é um dos cinco, o peso não é o publicado
+  ou a soma não dá 1.
+
+  **Por que isso existe:** até 25/09 a `/metodologia` prometia que "a nota não
+  é média simples" e que "o peso fica escrito na análise", e as duas frases
+  eram falsas. Não havia campo de peso em lugar nenhum, e em seis das oito
+  análises a nota era exatamente a média simples. Pior: o Philips TAT1109 tinha
+  critérios somando 2,80 e nota publicada de 4,2 — 50% de inflação no produto
+  pior avaliado da base, e inflado na direção do fabricante. Hoje vale 3,0.
+  Número que é função de outros números não se escreve à mão.
 - **Produto anunciado não é produto à venda.** Quem ainda não chegou às lojas
   leva `nasLojasEm` (data ISO da página do fabricante) em `dados/*.json`. O
   helper `aindaNaoSaiu` em `lib/specs.ts` compara com a data do build e então:
@@ -294,24 +321,51 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 14/09/2026: 70 produtos, 7 guias, 8 comparativos e 1 review.**
-  O funil desenhado em "Estrutura de conteúdo" é guia → comparativo → review,
-  com o clique de afiliado acontecendo na review, com o leitor já decidido.
-  Hoje existe **uma review para setenta produtos** (`soundcore-p30i`): o funil
-  tem boca e não tem garganta. Cada categoria tem exatamente um guia e um
-  comparativo, o mínimo para a categoria existir.
-  **Antes de abrir categoria nova, escrever review.** Guia ranqueia para
+- **Inventário em 25/09/2026: 463 produtos em 27 categorias, 7 guias,
+  14 comparativos e 18 análises.**
+
+  Este número já esteve errado aqui. Até 25/09 esta linha dizia "70 produtos,
+  7 guias, 8 comparativos e 1 review", de 14/09 — quem lesse só o CLAUDE.md
+  planejava com o mapa de duas semanas antes. **Conferir contando os arquivos
+  antes de confiar nesta linha**, e atualizá-la ao mexer na base:
+
+      python -c "import json,glob;print(sum(len(json.load(open(f,encoding='utf-8'))) for f in glob.glob('dados/*.json')))"
+
+  O funil desenhado em "Estrutura de conteúdo" é guia → comparativo → análise,
+  com o clique de afiliado acontecendo na análise, com o leitor já decidido.
+
+  **O gargalo mudou de lugar, mas continua existindo.** Em 25/09 as dez
+  análises novas fecharam os cinco comparativos que terminavam em beco — havia
+  comparativo sem nenhuma análise para onde mandar quem já decidiu. O que
+  sobrou é largura: **15 das 27 categorias não têm nenhuma peça editorial**, e
+  261 dos 453 produtos categorizados estão paradas nelas.
+
+      batedeiras, chaleiras, energia, espremedores, ferros, lavadoras,
+      lavadoras-alta-pressao, lavaloucas, microondas, perifericos,
+      sanduicheiras, secadores, smartwatches, torradeiras, ventiladores
+
+  **Antes de abrir categoria nova, escrever análise.** Guia ranqueia para
   "melhores X" e comparativo para "X ou Y", mas quem está a um passo de
-  comprar pesquisa o modelo — e é essa página que converte. Abrir a oitava
-  categoria alarga a boca de um funil que já não tem saída.
+  comprar pesquisa o modelo — e é essa página que converte.
+
+  E há uma leitura do Allan que vale registrar, de 25/09: **ele prefere
+  comparativo a análise**, porque "não temos os produtos em mãos". A regra não
+  proíbe a análise — as 18 publicadas nasceram só de documentação, como os
+  comparativos —, mas o comparativo é ficha contra ficha e não sugere posse em
+  momento nenhum. Ao propor peça nova, propor comparativo por padrão.
+
+- **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
+  de 463 e não na de 453 por categoria. Não foram investigados; fica anotado.
 - `contato@guiaprodutonalupa.com.br` está publicado em `/sobre`, `/metodologia` e
   no rodapé de toda análise. **A caixa precisa existir de verdade** — é o único
   canal de correção de um site sem autor-pessoa, e endereço morto derruba a
   credibilidade que o resto da estrutura tenta construir.
 - Nenhuma análise tem imagem ainda. O suporte está pronto (`produto.imagem` +
   `components/foto-produto.tsx`), esperando press kit de fabricante real.
-- A base tem duas categorias abertas, as duas tiradas dos mais vendidos da
-  Amazon Brasil, não de palpite. **Fones de ouvido** (`dados/audio.json`): dez
+- **As duas primeiras categorias**, abertas em 14/09/2026 e mantidas aqui como
+  referência de método — as duas saíram dos mais vendidos da Amazon Brasil, não
+  de palpite. Hoje são 27; o que segue descreve como as primeiras nasceram, e a
+  regra de escolher por ranking continua valendo para as próximas. **Fones de ouvido** (`dados/audio.json`): dez
   modelos, cada um com ASIN, link de loja e foto oficial. **Cozinha**
   (`dados/cozinha.json`, esquema `camposCozinha`): dez airfryers, as dez
   primeiras do ranking de Air Fryers da Amazon Brasil em 14/09/2026 (Walita
@@ -399,6 +453,53 @@ confunde com documento sem folha de estilo.
   preenchido com "Não se aplica"; a Electrolux não publica potência do ECM30.
   Site da Black+Decker Brasil está fora do ar — os dois modelos deles ficaram
   de fora por falta de foto oficial.
+- **Aspiradores** (`dados/aspiradores.json`, esquema `camposAspirador`) tem
+  **TRÊS campos de capacidade**, e não um: `capacidadeTotalL` (o balde),
+  `capacidadeUtilL` (o que cabe de sólido) e `capacidadeUtilLiquidosL`. São
+  três porque aspirador de pó e água tem duas capacidades úteis diferentes, e
+  três dos quatro que publicam separam as duas — forçar um número só seria
+  escolher pelo fabricante.
+
+  Até 25/09/2026 havia um campo só, `capacidadeReservatorioL`, e o site
+  repetia o número do nome do produto. A reapuração das 24 fichas mostrou a
+  razão entre o que cabe e o que o nome anuncia:
+
+      Britânia BAS87        20 L no nome,   5 L úteis  →  25%
+      WAP Cyclone Max      2,5 L no nome,   1 L útil   →  40%
+      WAP Robot W1000      600 ml,        260 de pó    →  43%
+      WAP GTW Inox 50       50 L no nome,  31 L úteis  →  62%
+      WAP Turbo 1600        25 L no nome,  17 L úteis  →  68%
+      os quatro robôs                                  → 100%
+
+  O W1000 é o que mais engana: os 600 ml são a **soma** do tanque de água (350)
+  com o depósito de pó (260).
+
+  **O achado da categoria é sobre quem publica sucção.** Watt é o que o motor
+  consome; vácuo é o que o bocal faz. Dos 24, dezessete declaram vácuo: **WAP
+  em 15 de 15, Midea em 2 de 2, e Electrolux, Philco e Britânia em 0 de 7.**
+  Sem esse número não dá para saber se um Philco de 2.000 W puxa mais que um
+  WAP de 450 — e puxa menos: 22.000 Pa do WAP Magic contra 20.000 do GTW Inox
+  70 Duo, que tem 2.000 W.
+
+  Sete fichas ficaram só com o total migrado, sem útil, porque a página oficial
+  não respondeu. Ver a lista em "Páginas de fabricante que morreram".
+
+- **Páginas de fabricante que morreram, ou publicam a ficha errada.** Levantado
+  em 25/09/2026 ao reapurar aspiradores, e vale como aviso para qualquer
+  categoria — fonte oficial não é permanente:
+
+      britania-bas1010p   devolve o título genérico da loja
+      electrolux-stk17    idem
+      philco-pas1810      redireciona para a página de categoria
+      philco-pas4000v     abre, mas não renderiza linha de capacidade
+      midea-powerdust     a ficha traz "Capacidade BTU: 9.000 BTU" —
+                          especificação de ar-condicionado numa página
+                          de aspirador
+
+  Quando a fonte cai, o campo fica em branco e a lacuna fica escrita. Não se
+  substitui por varejo: cinco lojas com o mesmo número são o texto do
+  fabricante copiado cinco vezes.
+
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem
@@ -422,10 +523,26 @@ confunde com documento sem folha de estilo.
   real tem esses campos ainda: Mercado Livre exige login para mostrar avaliações
   e a Anatel ainda não foi consultada. Preencher é pesquisa, não código.
 - **Amazon Associates aprovado em 14/09/2026.** ID `guiaprodutona-20`, fixado
-  como padrão em `lib/site.ts` (a variável de ambiente só sobrescreve). Prazo:
-  **três vendas qualificadas até 13/03/2027**, senão a conta é encerrada. A
-  Product Advertising API — que traz foto e preço licenciados — só libera depois
-  das primeiras vendas; até lá, nada de preço em texto.
+  como padrão em `lib/site.ts` (a variável de ambiente só sobrescreve).
+
+  **O prazo foi cumprido.** O painel de ganhos em 25/09/2026 mostrava **3
+  produtos pedidos e 3 enviados**, R$ 44,57 em comissão, 44 cliques e 6,82% de
+  conversão no mês. As três vendas qualificadas que a conta precisava até
+  13/03/2027 aconteceram em duas semanas, e a conta deixou de estar em risco.
+
+  A taxa de 6,82% é alta para conteúdo de afiliado, mas 44 cliques é amostra
+  pequena demais para cravar — a direção é boa, o número não é medida.
+
+  **A Product Advertising API continua fechada.** São dois limiares diferentes:
+  3 vendas para manter a conta (cumprido) e **10 vendas qualificadas nos
+  últimos 30 dias** para liberar a API. Até lá, nada de preço em texto.
+
+- **O botão diz "Comprar na Amazon", e não "Ver preço".** Decisão do Allan em
+  25/09/2026, depois de olhar o Promobit. A cláusula da Amazon é sobre EXIBIR
+  preço e sobre não se passar pela loja — não há regra sobre o verbo. A linha
+  de divulgação abaixo do botão continua dizendo que o preço muda e que quem
+  manda é o da loja; é ela que impede o botão de virar promessa. O motivo está
+  escrito no docstring de `components/loja-cta.tsx`.
 - O rodapé carrega a declaração exigida pelo contrato: "Como Associado da
   Amazon, … recebe por compras qualificadas". Não remover nem parafrasear.
 - **Integração com a Creators API está pronta e desligada.**
