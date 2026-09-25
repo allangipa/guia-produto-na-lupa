@@ -196,6 +196,39 @@ tipo de incomparabilidade que a categoria existe para mostrar.
 O G203 é o único com fio da lista, e a Logitech **não publica o sensor
 dele** — só a resolução. O M196 não publica número de botões.
 
+### Correcao de 25/09/2026: o G305 tinha 6 botoes e o JSON nao tinha
+
+Ao escrever as pecas, conferi campo a campo a tabela acima contra
+`dados/perifericos.json`. **Uma divergencia em nove produtos**: a apuracao
+registrou 6 botoes no G305 e o JSON trazia `"botoes": null`.
+
+Era perda na transcricao, nao omissao da Logitech. Corrigido no dado, e nao
+no texto — o guia chegou a dizer "o M196 e o G305 nao dizem" antes da
+conferencia. A nota de transparencia do G305 subiu de 64% para 73%, e a
+media dos mouses de 91% para 92%.
+
+Fica a rotina: **antes de publicar uma categoria, rodar a tabela das notas
+contra o JSON.** Foi o que pegou isso.
+
+### Paginas publicadas em 25/09/2026
+
+`guias/perifericos.mdx`, `comparativos/logitech-g305-vs-m330-silent-plus.mdx`
+e `comparativos/logitech-k120-vs-multilaser-tc193.mdx`. Os 44 numeros citados
+foram conferidos por script contra o JSON.
+
+O angulo que virou titulo nao estava nestas notas: **o campo `layout` esta
+sem resposta nos 7 teclados**, e a palavra ABNT nao aparece uma vez nas 17
+fichas. O K250 e o unico com o campo preenchido, e o valor e o formato
+("Compacto com teclado numerico"), nao ABNT2 nem US. Cuidado ao escrever:
+isso nao autoriza dizer que os teclados vem em layout americano — so que a
+ficha nao confirma, e o guia diz isso explicitamente.
+
+Outros padroes uteis: a Logitech documenta **mouse muito melhor que teclado**
+(media 92% contra 74%, e nenhum teclado chega a 100%); **alcance sem fio: 12
+declaram e os 12 dizem 10 m**; o **G305 perde ponto por publicar autonomia em
+horas** (250 h) numa coluna que e em meses; e **bloco numerico: 2 de 7
+declaram ter, nenhum declara nao ter.**
+
 ### Como tirar a ficha da Logitech — método antigo, mantido por referência
 
 A ficha fica num acordeão fechado, **e o conteúdo não vem no HTML**:

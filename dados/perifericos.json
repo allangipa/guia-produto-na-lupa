@@ -470,7 +470,7 @@
       "conexao": "LIGHTSPEED 2,4 GHz (1.000 Hz)",
       "dpiMax": 12000,
       "sensor": "HERO",
-      "botoes": null,
+      "botoes": 6,
       "layout": null,
       "tipoTecla": null,
       "tecladoNumerico": null,
