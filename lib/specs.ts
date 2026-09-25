@@ -3991,14 +3991,57 @@ export const camposAspirador: Campo[] = [
     ajuda: "Cabo mais mangueira: até onde dá para ir sem trocar de tomada.",
     contaTransparencia: true,
   },
+  // O NUMERO DO NOME E O BALDE, NAO O QUE CABE DENTRO
+  //
+  // Ate 25/09/2026 esta categoria tinha UM campo, "capacidadeReservatorioL",
+  // enquanto airfryer, liquidificador e cafeteira ja separavam a caixa do
+  // cesto. O efeito era o de sempre: o site repetia o numero do nome.
+  //
+  // A reapuracao das 24 fichas mostrou o tamanho do buraco. A razao entre o
+  // que o aparelho segura de solido e o que o nome anuncia:
+  //
+  //     Britania BAS87        20 L no nome,  5 L uteis  ->  25%
+  //     WAP Cyclone Max      2,5 L no nome,  1 L util   ->  40%
+  //     WAP Robot W1000      600 ml no nome, 260 de po  ->  43%
+  //     WAP GTW Inox 70 Duo   70 L no nome, 41 L uteis  ->  59%
+  //     WAP GTW Inox 50       50 L no nome, 31 L uteis  ->  62%
+  //     WAP Turbo 1600        25 L no nome, 17 L uteis  ->  68%
+  //     os quatro robos                                 -> 100%
+  //
+  // O W1000 e o caso que mais engana: os 600 ml sao a SOMA do tanque de agua
+  // (350) com o deposito de po (260). Quem compra pensando em 600 ml de po
+  // leva 260.
+  //
+  // Sao TRES campos e nao dois porque aspirador de po e agua tem duas
+  // capacidades uteis diferentes, e tres dos quatro que publicam separam as
+  // duas. Forcar um numero so seria escolher pelo fabricante.
   {
-    chave: "capacidadeReservatorioL",
-    rotulo: "Reservatório",
+    chave: "capacidadeTotalL",
+    rotulo: "Capacidade total",
     grupo: "Coleta",
     tipo: "numero",
     unidade: "L",
     melhor: "maior",
     filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeUtilL",
+    rotulo: "Capacidade útil (sólidos)",
+    grupo: "Coleta",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeUtilLiquidosL",
+    rotulo: "Capacidade útil (líquidos)",
+    grupo: "Coleta",
+    tipo: "numero",
+    unidade: "L",
+    melhor: "maior",
     contaTransparencia: true,
   },
   {
@@ -4618,7 +4661,7 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   succaoDeclarada: "info",
   semFio: "bateria",
   autonomiaMin: "bateria",
-  capacidadeReservatorioL: "gota",
+  capacidadeUtilLiquidosL: "gota",
   filtroHepa: "info",
   niveisFiltragem: "info",
   aspiraLiquidos: "gota",
@@ -4912,7 +4955,7 @@ const ROTULO_CURTO: Record<string, string> = {
   succaoDeclarada: "Declarado",
   semFio: "Sem fio",
   autonomiaMin: "Autonomia",
-  capacidadeReservatorioL: "Reservatório",
+  capacidadeUtilLiquidosL: "Útil líq.",
   filtroHepa: "HEPA",
   niveisFiltragem: "Filtragem",
   aspiraLiquidos: "Líquidos",

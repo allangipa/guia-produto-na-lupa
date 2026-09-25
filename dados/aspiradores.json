@@ -15,7 +15,6 @@
       "potenciaW": 1600,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 25,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": true,
@@ -23,7 +22,10 @@
       "pesoKg": 7,
       "dimensoesMm": "375 × 375 × 540 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 25,
+      "capacidadeUtilL": 17,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -62,7 +64,6 @@
       "potenciaW": 1600,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 70,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": true,
@@ -70,7 +71,10 @@
       "pesoKg": 30,
       "dimensoesMm": "603 × 600 × 956 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 70,
+      "capacidadeUtilL": 67,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -109,7 +113,6 @@
       "potenciaW": 1600,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": null,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": true,
@@ -117,7 +120,10 @@
       "pesoKg": 6.5,
       "dimensoesMm": "460 × 460 × 650 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 55,
+      "capacidadeUtilL": 49.7,
+      "capacidadeUtilLiquidosL": 34.5
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -156,7 +162,6 @@
       "potenciaW": 450,
       "autonomiaMin": 30,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.26,
       "filtroHepa": null,
       "niveisFiltragem": 5,
       "aspiraLiquidos": false,
@@ -164,7 +169,10 @@
       "pesoKg": 3,
       "dimensoesMm": "190 × 260 × 1120 mm (C × L × A)",
       "tensao": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 0.26,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
     "lojas": {
@@ -211,7 +219,6 @@
       "potenciaW": 2000,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": null,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": true,
@@ -219,7 +226,10 @@
       "pesoKg": 15.2,
       "dimensoesMm": "610 × 570 × 830 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 70,
+      "capacidadeUtilL": 41,
+      "capacidadeUtilLiquidosL": 34.5
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -258,7 +268,6 @@
       "potenciaW": 500,
       "autonomiaMin": 35,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.2,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -266,7 +275,10 @@
       "pesoKg": 4.6,
       "dimensoesMm": null,
       "tensao": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.2,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
     "lojas": {},
@@ -303,7 +315,6 @@
       "potenciaW": 2000,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": null,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": true,
@@ -311,7 +322,10 @@
       "pesoKg": 3.91,
       "dimensoesMm": "330 × 330 × 535 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 25,
+      "capacidadeUtilL": 6.5,
+      "capacidadeUtilLiquidosL": 13.6
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -329,11 +343,11 @@
     ],
     "divergencias": [
       {
-        "campo": "capacidadeReservatorioL",
+        "campo": "capacidadeUtilL",
         "fonteAdotada": "wap-gtw-inox-25-oficial",
         "valorDivergente": "6,5 kg",
         "fonteDivergente": "wap-gtw-inox-25-oficial",
-        "observacao": "O campo “Capacidade do recipiente (total/útil)” da ficha traz “6,5 kg”. Quilo é massa, não volume, e o próprio peso líquido do aparelho aparece como 3,91 kg em outro campo. Como não dá para saber a quantos litros os 6,5 correspondem, o campo fica vazio."
+        "observacao": "A página se contradiz na unidade, e a contradição é dela consigo mesma. A tabela de especificações traz o campo “Capacidade do recipiente (total/útil)” preenchido com “6,5 kg” — quilo é massa, não volume, é um número só num campo que pede dois, e o próprio peso líquido do aparelho aparece como 3,91 kg em outro campo. Numa primeira apuração o campo ficou vazio por isso. Na reapuração de 25/09/2026 o texto corrido da mesma página resolveu: “capacidade útil de 13,6 L para líquidos e de 6,5 L para sólidos”. O 6,5 é litro, e o “kg” da tabela é erro de unidade. Adotamos os litros do texto; os 25 L de capacidade total vêm do título da própria página oficial."
       }
     ],
     "imagem": {
@@ -359,7 +373,6 @@
       "potenciaW": 1600,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 2.5,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -367,7 +380,10 @@
       "pesoKg": 3.7,
       "dimensoesMm": "360 × 270 × 210 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 2.5,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -406,7 +422,6 @@
       "potenciaW": 1600,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": null,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": true,
@@ -414,7 +429,10 @@
       "pesoKg": 9,
       "dimensoesMm": "460 × 565 × 735 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 50,
+      "capacidadeUtilL": 31,
+      "capacidadeUtilLiquidosL": 26
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -463,7 +481,6 @@
       "potenciaW": 1500,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": null,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -471,7 +488,10 @@
       "pesoKg": 2.75,
       "dimensoesMm": "240 × 330 × 275 mm (C × L × A)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 2.5,
+      "capacidadeUtilL": 1,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -510,7 +530,6 @@
       "potenciaW": 36,
       "autonomiaMin": 160,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.6,
       "filtroHepa": true,
       "niveisFiltragem": 3,
       "aspiraLiquidos": false,
@@ -518,7 +537,10 @@
       "pesoKg": 3,
       "dimensoesMm": "320 × 320 × 80 mm (C × L × A)",
       "tensao": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.6,
+      "capacidadeUtilL": 0.26,
+      "capacidadeUtilLiquidosL": 0.35
     },
     "naoSeAplica": [],
     "lojas": {},
@@ -564,7 +586,6 @@
       "potenciaW": 30,
       "autonomiaMin": 100,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.3,
       "filtroHepa": true,
       "niveisFiltragem": 3,
       "aspiraLiquidos": false,
@@ -572,7 +593,10 @@
       "pesoKg": 2.2,
       "dimensoesMm": "300 × 310 × 75 mm (C × L × A)",
       "tensao": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 0.3,
+      "capacidadeUtilL": 0.3,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
     "lojas": {},
@@ -609,7 +633,6 @@
       "potenciaW": 17,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.25,
       "filtroHepa": false,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -617,7 +640,10 @@
       "pesoKg": 1.4,
       "dimensoesMm": "275 × 275 × 75 mm (C × L × A)",
       "tensao": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 0.25,
+      "capacidadeUtilL": 0.25,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
     "lojas": {},
@@ -654,7 +680,6 @@
       "potenciaW": 30,
       "autonomiaMin": 120,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.25,
       "filtroHepa": false,
       "niveisFiltragem": 2,
       "aspiraLiquidos": false,
@@ -662,7 +687,10 @@
       "pesoKg": 1.3,
       "dimensoesMm": "267 × 264 × 75 mm (C × L × A)",
       "tensao": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 0.25,
+      "capacidadeUtilL": 0.25,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
     "lojas": {},
@@ -699,7 +727,6 @@
       "potenciaW": null,
       "autonomiaMin": 75,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.275,
       "filtroHepa": false,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -707,7 +734,10 @@
       "pesoKg": 1.23,
       "dimensoesMm": "272 × 288 × 75 mm (C × L × A)",
       "tensao": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.275,
+      "capacidadeUtilL": 0.275,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
     "lojas": {},
@@ -744,7 +774,6 @@
       "potenciaW": null,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 2,
       "filtroHepa": false,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -752,7 +781,10 @@
       "pesoKg": 4.3,
       "dimensoesMm": null,
       "tensao": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 2,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -800,7 +832,6 @@
       "potenciaW": 55,
       "autonomiaMin": 160,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.4,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -808,7 +839,10 @@
       "pesoKg": 4.18,
       "dimensoesMm": "350 × 350 × 96 mm (C × L × A)",
       "tensao": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.4,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
     "lojas": {},
@@ -845,7 +879,6 @@
       "potenciaW": 1600,
       "autonomiaMin": null,
       "alcanceM": 6,
-      "capacidadeReservatorioL": 0.95,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -853,7 +886,10 @@
       "pesoKg": 2,
       "dimensoesMm": "115 × 135 × 485 mm (L × A × P)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.95,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -892,7 +928,6 @@
       "potenciaW": 1800,
       "autonomiaMin": null,
       "alcanceM": 3.5,
-      "capacidadeReservatorioL": 3,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -900,7 +935,10 @@
       "pesoKg": 5.36,
       "dimensoesMm": "287 × 228 × 416 mm (L × A × P)",
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 3,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -939,7 +977,6 @@
       "potenciaW": 1200,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 1.4,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -947,7 +984,10 @@
       "pesoKg": null,
       "dimensoesMm": null,
       "tensao": "127 V ou 220 V",
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 1.4,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -986,7 +1026,6 @@
       "potenciaW": 2000,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 2,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -994,7 +1033,10 @@
       "pesoKg": null,
       "dimensoesMm": null,
       "tensao": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 2,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -1033,7 +1075,6 @@
       "potenciaW": 1800,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 2.2,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -1041,7 +1082,10 @@
       "pesoKg": null,
       "dimensoesMm": null,
       "tensao": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "capacidadeTotalL": 2.2,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -1080,7 +1124,6 @@
       "potenciaW": 1500,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 20,
       "filtroHepa": null,
       "niveisFiltragem": null,
       "aspiraLiquidos": true,
@@ -1088,7 +1131,10 @@
       "pesoKg": null,
       "dimensoesMm": null,
       "tensao": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 20,
+      "capacidadeUtilL": 5,
+      "capacidadeUtilLiquidosL": 12.5
     },
     "naoSeAplica": [
       "autonomiaMin"
@@ -1127,7 +1173,6 @@
       "potenciaW": 1000,
       "autonomiaMin": null,
       "alcanceM": null,
-      "capacidadeReservatorioL": 0.6,
       "filtroHepa": true,
       "niveisFiltragem": null,
       "aspiraLiquidos": false,
@@ -1135,7 +1180,10 @@
       "pesoKg": null,
       "dimensoesMm": null,
       "tensao": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.6,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [
       "autonomiaMin"
