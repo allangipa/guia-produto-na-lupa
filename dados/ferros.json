@@ -28,7 +28,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C833WFZH"
+    },
     "fontes": [
       {
         "id": "arno-ultragliss-plus-fmy-oficial",
@@ -37,6 +39,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base Durilium Airglide, **96 saídas de vapor**, vazão **contínua de 30 g/min e extra de 130 g/min**, 1.520 W em 127 V e 2.350 W em 220 V, cabo de 200 cm, 1,6 kg, 30,9 × 14,4 × 15,2 cm e garantia de 1 ano. A Arno é a única das cinco marcas que publica furos e vazão em campos de especificação.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-ultragliss-plus-fmy-amazon",
+        "titulo": "Arno Ultragliss Plus FMY — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C833WFZH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Código FMY e 1520 W no título, iguais aos da ficha oficial. Listagem de 110 V — a de 220 V traz 2350 W, e o valor adotado na ficha é 1520. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -75,7 +85,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C81TQT1S"
+    },
     "fontes": [
       {
         "id": "arno-ultragliss-fmv-oficial",
@@ -84,6 +96,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base Durilium Airglide, **67 saídas de vapor**, vazão **contínua de 25 g/min e extra de 110 g/min**, 1.520 W em 127 V e 1.750 W em 220 V, cabo de 200 cm, sem porta-fios, 1,3 kg, 30,0 × 13,0 × 15,0 cm e garantia de 1 ano.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-ultragliss-fmv-amazon",
+        "titulo": "Arno Ultragliss FMV — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C81TQT1S",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Código FMV e 1520 W no título, iguais aos da ficha oficial. Listagem de 110 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -169,7 +189,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FTYQQ9N2"
+    },
     "fontes": [
       {
         "id": "arno-express-force-ssef-oficial",
@@ -178,6 +200,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base cerâmica Xpress Glide, **24 saídas de vapor**, vazão em 127 V **contínua de 90 g/min e extra de 280 g/min** (em 220 V, 120 e 360 g/min), 1.700 W em 127 V e 2.010 W em 220 V, cabo elétrico de 1,6 m e mangueira de vapor, 3,7 kg, 36,2 × 25,6 × 17,9 cm e garantia de 12 meses.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-express-force-ssef-amazon",
+        "titulo": "Arno Express Force SSEF — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FTYQQ9N2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Express Force e \"Estação de Vapor\" no título, iguais ao nome e ao tipo da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -570,7 +600,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BX6W6V32"
+    },
     "fontes": [
       {
         "id": "electrolux-esi60-oficial",
@@ -579,6 +611,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base Glissium ceramic, **175 saídas de vapor**, vapor contínuo de **25 g/min** e jato extra de **160 g/min**, reservatório de 300 ml, 1.500 W, vapor vertical, spray, antigotejamento, auto-limpeza, anticalcário, desligamento automático e garantia de 1 ano.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-esi60-amazon",
+        "titulo": "Electrolux Experience Care ESI60 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BX6W6V32",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Código ESI60 e 1500 W no título, iguais aos da ficha oficial. Listagem de 127 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
