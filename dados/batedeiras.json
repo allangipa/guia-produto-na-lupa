@@ -25,7 +25,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07C5X3M6P"
+    },
     "fontes": [
       {
         "id": "britania-bbt350-oficial",
@@ -34,6 +36,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 350 W, **4 velocidades**, batedores: 1 par, tigela de 4.3 L. Código do produto: BRI-BBT350-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bbt350-amazon",
+        "titulo": "Britânia BBT350 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07C5X3M6P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: BBT350P e 350 W no título, iguais aos da ficha oficial. Listagem de 127 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -430,7 +440,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H4RKJFLZ"
+    },
     "fontes": [
       {
         "id": "britania-bbp90a-oficial",
@@ -439,6 +451,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 900 W, **12 velocidades**, batedores: 3 unidades, tigela de 5 L, função turbo. Código do produto: BRI-BBP90A-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bbp90a-amazon",
+        "titulo": "Britânia Planetária BBP90A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H4RKJFLZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: BBP90A e 900 W no título, iguais aos da ficha oficial. Listagem de 127 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -874,7 +894,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B097LWC9GF"
+    },
     "fontes": [
       {
         "id": "philco-pbp1200-oficial",
@@ -883,6 +905,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 1200 W, **8 velocidades**, batedores: 3 pares, tigela de 5 L, função turbo. Código do produto: PHI-PBP1200-PI.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-pbp1200-amazon",
+        "titulo": "Philco Planetária PBP1200P Turbo Inox — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B097LWC9GF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: PBP1200P, 5 L e 1200 W no título, iguais aos da ficha oficial. Listagem de 220 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -1191,7 +1221,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HGP9LFBF"
+    },
     "fontes": [
       {
         "id": "electrolux-kmp75-oficial",
@@ -1200,6 +1232,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 800 W, **6 velocidades**, batedores: Fouet; Gancho e espátula, tigela de 5 L, 7 kg. Código do produto: KMP75.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-kmp75-amazon",
+        "titulo": "Electrolux TruFlow KMP75 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HGP9LFBF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: TruFlow e o código KMP75 no título, iguais aos da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1238,7 +1278,9 @@
       "funcaoPortatil",
       "capacidadeTigelaExtraL"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07CNFQP6K"
+    },
     "fontes": [
       {
         "id": "kitchenaid-professional-76-oficial",
@@ -1247,6 +1289,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 325 W em 110 V, 325 W em 220 V, **10 velocidades**, tigela de 7.6 L, tigela de inox, **2 kg de farinha**, **4 kg de massa de pão**, com elevação, acessórios: Batedores, garantia de 24 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "kitchenaid-professional-76-amazon",
+        "titulo": "KitchenAid Stand Mixer Profissional 7,6 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07CNFQP6K",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: 7.6L no título, igual à tigela da ficha oficial. Listagem de 220 V, na cor Empire Red. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1388,7 +1438,9 @@
       "funcaoPortatil",
       "capacidadeTigelaExtraL"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B00TAAJZBG"
+    },
     "fontes": [
       {
         "id": "kitchenaid-artisan-empire-red-oficial",
@@ -1397,6 +1449,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: **movimento planetário com 59 pontos de contato**, declarado no campo de diferenciais, 275 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, sem elevação, acessórios: Batedores / Protetor de Respingos, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "kitchenaid-artisan-empire-red-amazon",
+        "titulo": "KitchenAid Artisan Empire Red — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B00TAAJZBG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Artisan Empire Red, listagem de 110 V — que é a tensão cuja ficha declara 275 W e tigela de 4,83 L. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1435,7 +1495,9 @@
       "funcaoPortatil",
       "capacidadeTigelaExtraL"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09JR3VLSQ"
+    },
     "fontes": [
       {
         "id": "kitchenaid-artisan-black-matte-oficial",
@@ -1444,6 +1506,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: **movimento planetário com 59 pontos de contato**, declarado no campo de diferenciais, 275 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1 kg de farinha**, **1.8 kg de massa de pão**, sem elevação, acessórios: Batedores / Protetor de Respingos, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "kitchenaid-artisan-black-matte-amazon",
+        "titulo": "KitchenAid Artisan Black Matte — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09JR3VLSQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Artisan Black Matte, listagem de 110 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -1603,7 +1673,9 @@
       "funcaoPortatil",
       "capacidadeTigelaExtraL"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B077BBVCH2"
+    },
     "fontes": [
       {
         "id": "kitchenaid-artisan-contour-silver-oficial",
@@ -1612,6 +1684,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: **movimento planetário com 59 pontos de contato**, declarado no campo de diferenciais, 275 W em 110 V, 275 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, sem elevação, acessórios: Batedores / Protetor de Respingos, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "kitchenaid-artisan-contour-silver-amazon",
+        "titulo": "KitchenAid Artisan Contour Silver — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B077BBVCH2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo. Casado com a ficha oficial por número: Artisan Contour Silver, listagem de 110 V. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
