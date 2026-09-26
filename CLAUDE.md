@@ -397,8 +397,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 568 produtos em 31 categorias, 31 guias,
-  51 comparativos e 39 análises.**
+- **Inventário em 26/09/2026: 585 produtos em 32 categorias, 32 guias,
+  52 comparativos e 40 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -720,6 +720,42 @@ confunde com documento sem folha de estilo.
   Sete fichas ficaram só com o total migrado, sem útil, porque a página oficial
   não respondeu. Ver a lista em "Páginas de fabricante que morreram".
 
+- **Purificadores de água abriu em 26/09/2026, com dezessete de cinco marcas** —
+  Electrolux 5, Consul 5, IBBL 3, Midea 2, Philco 2.
+
+  **O eixo é a vida útil do refil, e ela vem em duas unidades que brigam.** Oito
+  fichas em dezessete publicam. A Consul é coerente: 1.500 L em 6 meses e 2.250 L
+  em 9 meses dão os mesmos **250 litros por mês** nos cinco modelos. A IBBL dá os
+  **mesmos 6 meses** a um refil de 2.000 litros e a dois de 3.000 — para fechar, a
+  casa de um beberia 333 L/mês e a do outro 500. **Nenhuma das 17 publica o
+  consumo diário que o prazo assume.** O litro é o número honesto; o mês é o litro
+  já dividido por uma suposição não escrita.
+
+  **O segundo eixo é reservatório × taxa de reposição**, o mesmo desenho da air
+  fryer. Compressor repõe 1,2 a 1,4 L/h; pastilha eletrônica repõe 0,2 a 0,27 —
+  seis vezes menos, com o mesmo rótulo "água gelada". O Electrolux PA31G leva
+  **4 horas** para reencher 0,8 litro.
+
+  **As marcas são cegas em lugares complementares**, como no ar-condicionado:
+  Consul publica o refil em 5 de 5 e a taxa de resfriamento em 0 de 5; Electrolux
+  publica a taxa em 5 de 5 e o refil em 0 de 5. Quem quer os dois não tem ninguém.
+
+  **Philco é o piso da base:** 4 campos de 19. Não publica reservatório, taxa,
+  refil, classe de filtragem, consumo, peso nem medidas — num aparelho que filtra
+  a água que a casa bebe.
+
+  **Fontes:** todas VTEX — `loja.electrolux.com.br`, `www.consul.com.br` (71
+  campos, a mais rica), `www.midea.com.br`, `www.ibbl.com.br` (a profundidade
+  varia muito entre modelos da mesma marca: Viváx 17 campos, Novo E-Due 30),
+  `www.philco.com.br`. A **ABNT NBR 16098** entra como fonte `regulador`: P de
+  partícula, C de cloro, B de bactéria, cada letra com o nível. **Ficaram de
+  fora** bebedouro de garrafão, que não liga na rede, e os filtros de parede e
+  torneira da Lorenzetti, cujo site não responde à API.
+
+  **Campo com valor de outro campo, de novo:** as cinco Electrolux trazem
+  "Consumo de energia (kW/h): 0,075 Kw" — potência num campo de energia, com uma
+  unidade que não existe. Campo vazio, divergência escrita.
+
 - **Ar-condicionado abriu em 26/09/2026, com quinze splits de três marcas** —
   Electrolux 6, Midea 5, Elgin 4 — e é a categoria mais bem documentada da base:
   13,7 campos de 17, com a ficha da Electrolux chegando a 104 campos na origem.
@@ -819,7 +855,7 @@ confunde com documento sem folha de estilo.
 - Toda peça editorial (guia, comparativo, análise) precisa existir em pelo menos
   uma unidade: `output: export` recusa rota dinâmica vazia.
 - **`divergencias` está em uso, e virou um dos melhores campos da base.** Em
-  26/09/2026 são **196 registros em 29 categorias** — batedeiras 27,
+  26/09/2026 são **202 registros em 30 categorias** — batedeiras 27,
   sanduicheiras 21, secadores 18, escovas secadoras 14, cozinha 12, mixers 12. Aparecem na ficha sob o título "Onde as
   fontes não batem", via `components/divergencias.tsx`.
 

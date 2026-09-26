@@ -215,6 +215,15 @@ export const categorias: Categoria[] = [
       "Fechou em vinte e quatro, com cinco marcas. O que manteve a lista nesse tamanho não foi falta de produto — foi falta de número: treze das vinte e quatro fichas publicam vazão de vapor, e as onze restantes entram para mostrar exatamente isso. Black+Decker e Philips Walita aparecem bem colocadas no ranking e nenhuma das duas tem catálogo brasileiro que responda; sem ficha de fabricante não há ficha aqui. Ficaram de fora também os itens do nó que não são ferro: vaporizador de roupa, tapete de silício e kit de limpeza.",
   },
   {
+    slug: "purificadores",
+    nome: "Purificadores de água",
+    descricao:
+      "Purificadores de pressão, ligados à rede — com a vida útil do refil em litros ao lado do prazo em meses, e a capacidade de resfriamento ao lado do reservatório.",
+    dorPrincipal: "O refil dura \"6 meses\" em modelos que filtram 2.000 e 3.000 litros. Um dos dois prazos supõe que você bebe 50% mais.",
+    porQueParou:
+      "Abriu com dezessete de cinco marcas. Ficaram de fora os bebedouros de garrafão, que são outro produto, e os filtros de parede e de torneira sem carcaça de purificador — a Lorenzetti aparece bem colocada no ranking com esses, e o site dela não responde à API. Philco entra com quatro campos de dezenove, e isso é o dado: a ficha dela não traz reservatório, refil nem classe de filtragem.",
+  },
+  {
     slug: "ar-condicionado",
     nome: "Ar-condicionado",
     descricao:
@@ -315,6 +324,7 @@ export const ORDEM_NA_HOME: string[] = [
   "espremedores",
   "lavaloucas",
   "smartwatches",
+  "purificadores",
   "ar-condicionado",
   "ventiladores",
   "ferros",

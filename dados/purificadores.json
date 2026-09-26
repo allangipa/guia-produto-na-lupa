@@ -1,0 +1,1144 @@
+[
+  {
+    "slug": "electrolux-pe11b",
+    "nome": "Electrolux Efficient PE11B",
+    "marca": "Electrolux",
+    "categoria": "purificadores",
+    "resumo": "Reservatório de 0,8 litro e resfriamento de 0,24 litro por hora. Acabou a água gelada, são mais de três horas até encher de novo — e o número do anúncio é o reservatório.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Eletrônico",
+      "capacidadeResfriamentoLh": 0.24,
+      "capacidadeReservatorioL": 0.8,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": 2,
+      "classeFiltragem": "PP+CA; P3C1",
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": 10.0,
+      "pressaoOperacao": "10-40 mca",
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": "Bivolt",
+      "pesoKg": 4.7,
+      "dimensoesMm": "330 × 250 × 284 mm (A × L × P)",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076HT9V42"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-pe11b.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/purificador-de-agua-branco-com-painel-touch-pe11b/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-pe11b-oficial",
+        "titulo": "Electrolux Efficient PE11B — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/purificador-de-agua-branco-com-painel-touch-pe11b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Sistema de refrigeração da água, capacidade de resfriamento em L/h, capacidade do reservatório, temperatura média da água gelada, opções de temperatura, tipo de filtro, estágios de purificação, pressão da água, luz indicadora de filtro saturado, tensão, peso e as três medidas do produto, e garantia. O campo \"Consumo de energia (kW/h)\" traz \"0,075 Kw\" — um valor de potência num campo rotulado como energia por tempo — e não foi adotado.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-pe11b-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076HT9V42",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwhMes",
+        "valorDivergente": "Consumo de energia (kW/h) \"0,075 Kw\"",
+        "observacao": "A ficha traz um campo chamado **Consumo de energia (kW/h)** com o valor **\"0,075 Kw\"**. Há dois problemas somados. O valor está em quilowatt, que é potência, num campo rotulado como energia por tempo — e \"kW/h\" não é unidade de nada: energia por tempo se escreve kWh, e potência se escreve W. Setenta e cinco watts é uma potência plausível para um purificador com pastilha eletrônica, então o número provavelmente está certo e o rótulo errado. O campo de consumo ficou vazio: adotar 0,075 como kWh por mês daria um aparelho que gasta menos que um relógio de parede.",
+        "fonteAdotada": "electrolux-pe11b-oficial",
+        "fonteDivergente": "electrolux-pe11b-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-pe11x",
+    "nome": "Electrolux Efficient PE11X",
+    "marca": "Electrolux",
+    "categoria": "purificadores",
+    "resumo": "O mesmo aparelho do PE11B em prata: 0,8 litro de reservatório para 0,24 litro por hora de resfriamento. Declara a pressão de trabalho, que é o limite de instalação.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Eletrônico",
+      "capacidadeResfriamentoLh": 0.24,
+      "capacidadeReservatorioL": 0.8,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": null,
+      "classeFiltragem": "PP+CA; P3C1",
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": 10.0,
+      "pressaoOperacao": "10-40 mca",
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": "Bivolt",
+      "pesoKg": 4.7,
+      "dimensoesMm": "330 × 250 × 284 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076FC681K"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-pe11x.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/purificador-agua-prata-com-painel-touch-e-aviso-troca-filtro-pe11x/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-pe11x-oficial",
+        "titulo": "Electrolux Efficient PE11X — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/purificador-agua-prata-com-painel-touch-e-aviso-troca-filtro-pe11x/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Sistema de refrigeração da água, capacidade de resfriamento em L/h, capacidade do reservatório, temperatura média da água gelada, opções de temperatura, tipo de filtro, estágios de purificação, pressão da água, luz indicadora de filtro saturado, tensão, peso e as três medidas do produto, e garantia. O campo \"Consumo de energia (kW/h)\" traz \"0,075 Kw\" — um valor de potência num campo rotulado como energia por tempo — e não foi adotado.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-pe11x-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076FC681K",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwhMes",
+        "valorDivergente": "Consumo de energia (kW/h) \"0,075 Kw\"",
+        "observacao": "A ficha traz um campo chamado **Consumo de energia (kW/h)** com o valor **\"0,075 Kw\"**. Há dois problemas somados. O valor está em quilowatt, que é potência, num campo rotulado como energia por tempo — e \"kW/h\" não é unidade de nada: energia por tempo se escreve kWh, e potência se escreve W. Setenta e cinco watts é uma potência plausível para um purificador com pastilha eletrônica, então o número provavelmente está certo e o rótulo errado. O campo de consumo ficou vazio: adotar 0,075 como kWh por mês daria um aparelho que gasta menos que um relógio de parede.",
+        "fonteAdotada": "electrolux-pe11x-oficial",
+        "fonteDivergente": "electrolux-pe11x-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-pc01x",
+    "nome": "Electrolux Experience PC01X",
+    "marca": "Electrolux",
+    "categoria": "purificadores",
+    "resumo": "Compressor no lugar da pastilha: 1,4 litro por hora contra 0,24 dos modelos eletrônicos da mesma marca, com reservatório de 3,3 litros. Também entrega água quente.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Compressor",
+      "capacidadeResfriamentoLh": 1.4,
+      "capacidadeReservatorioL": 3.3,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": null,
+      "classeFiltragem": "Particulado classe C com redução de cloro",
+      "temperaturasDisponiveis": "Quente, natural e gelada",
+      "temperaturaAguaGeladaC": 10.0,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": "Bivolt",
+      "pesoKg": 10.2,
+      "dimensoesMm": "423 × 290 × 378 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CZMDNQ4X"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-pc01x.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/purificador-de-agua-electrolux-cinza-com-refrigeracao-por-compressor-e-agua-quente-ph41x/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-pc01x-oficial",
+        "titulo": "Electrolux Experience PC01X — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/purificador-de-agua-electrolux-cinza-com-refrigeracao-por-compressor-e-agua-quente-ph41x/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Sistema de refrigeração da água, capacidade de resfriamento em L/h, capacidade do reservatório, temperatura média da água gelada, opções de temperatura, tipo de filtro, estágios de purificação, pressão da água, luz indicadora de filtro saturado, tensão, peso e as três medidas do produto, e garantia. O campo \"Consumo de energia (kW/h)\" traz \"0,075 Kw\" — um valor de potência num campo rotulado como energia por tempo — e não foi adotado.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-pc01x-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CZMDNQ4X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-pc01b",
+    "nome": "Electrolux Experience PC01B",
+    "marca": "Electrolux",
+    "categoria": "purificadores",
+    "resumo": "Versão branca do purificador com compressor: 3,3 litros de reservatório e 1,4 por hora de reposição, quase seis vezes o dos eletrônicos da Electrolux.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Compressor",
+      "capacidadeResfriamentoLh": 1.4,
+      "capacidadeReservatorioL": 3.3,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": null,
+      "classeFiltragem": "Particulado classe C com redução de Cloro",
+      "temperaturasDisponiveis": "Quente, natural e gelada",
+      "temperaturaAguaGeladaC": 10.0,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": "Bivolt",
+      "pesoKg": 10.2,
+      "dimensoesMm": "423 × 290 × 378 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CZVM745H"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-pc01b.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/purificador-de-agua-electrolux-branco-com-refrigeracao-por-compressor-e-agua-quente-ph41x/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-pc01b-oficial",
+        "titulo": "Electrolux Experience PC01B — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/purificador-de-agua-electrolux-branco-com-refrigeracao-por-compressor-e-agua-quente-ph41x/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Sistema de refrigeração da água, capacidade de resfriamento em L/h, capacidade do reservatório, temperatura média da água gelada, opções de temperatura, tipo de filtro, estágios de purificação, pressão da água, luz indicadora de filtro saturado, tensão, peso e as três medidas do produto, e garantia. O campo \"Consumo de energia (kW/h)\" traz \"0,075 Kw\" — um valor de potência num campo rotulado como energia por tempo — e não foi adotado.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-pc01b-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CZVM745H",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-pa31g",
+    "nome": "Electrolux PA31G com luz UV",
+    "marca": "Electrolux",
+    "categoria": "purificadores",
+    "resumo": "Três estágios mais luz ultravioleta, o único da lista com UV declarado. Em compensação é o mais lento a repor água gelada: 0,2 litro por hora.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Eletrônico",
+      "capacidadeResfriamentoLh": 0.2,
+      "capacidadeReservatorioL": 0.8,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": 3,
+      "classeFiltragem": "UF +Carbon block + UF UV",
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": 10.0,
+      "pressaoOperacao": "4 a 40mca",
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": "Bivolt",
+      "pesoKg": 5.7,
+      "dimensoesMm": "358 × 250 × 314 mm (A × L × P)",
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076FCQVZY"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-pa31g.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/purificador-de-agua-prata-pa31g-electrolux/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-pa31g-oficial",
+        "titulo": "Electrolux PA31G com luz UV — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/purificador-de-agua-prata-pa31g-electrolux/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Sistema de refrigeração da água, capacidade de resfriamento em L/h, capacidade do reservatório, temperatura média da água gelada, opções de temperatura, tipo de filtro, estágios de purificação, pressão da água, luz indicadora de filtro saturado, tensão, peso e as três medidas do produto, e garantia. O campo \"Consumo de energia (kW/h)\" traz \"0,075 Kw\" — um valor de potência num campo rotulado como energia por tempo — e não foi adotado.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-pa31g-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076FCQVZY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwhMes",
+        "valorDivergente": "Consumo de energia (kW/h) \"0,075 Kw\"",
+        "observacao": "A ficha traz um campo chamado **Consumo de energia (kW/h)** com o valor **\"0,075 Kw\"**. Há dois problemas somados. O valor está em quilowatt, que é potência, num campo rotulado como energia por tempo — e \"kW/h\" não é unidade de nada: energia por tempo se escreve kWh, e potência se escreve W. Setenta e cinco watts é uma potência plausível para um purificador com pastilha eletrônica, então o número provavelmente está certo e o rótulo errado. O campo de consumo ficou vazio: adotar 0,075 como kWh por mês daria um aparelho que gasta menos que um relógio de parede.",
+        "fonteAdotada": "electrolux-pa31g-oficial",
+        "fonteDivergente": "electrolux-pa31g-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "consul-cpb33ab",
+    "nome": "Consul CPB33AB",
+    "marca": "Consul",
+    "categoria": "purificadores",
+    "resumo": "Publica a vida útil do refil nas duas unidades: 1.500 litros e 6 meses. Os dois números juntos revelam a conta escondida — 250 litros por mês, ou 8 litros por dia.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": null,
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": 0.8,
+      "vazaoLh": 90.0,
+      "vidaUtilFiltroL": 1500,
+      "vidaUtilFiltroMeses": 6,
+      "estagiosPurificacao": 3,
+      "classeFiltragem": "Classe A",
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "238 × 240 × 296 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09SQ97QT7"
+    },
+    "imagem": {
+      "src": "/produtos/consul-cpb33ab.webp",
+      "credito": "Divulgação/Consul",
+      "origem": "https://www.consul.com.br/purificador-de-agua-consul-eletronico-com-refrigeracao-cpb33ab/p"
+    },
+    "fontes": [
+      {
+        "id": "consul-cpb33ab-oficial",
+        "titulo": "Consul CPB33AB — ficha oficial da Consul",
+        "url": "https://www.consul.com.br/purificador-de-agua-consul-eletronico-com-refrigeracao-cpb33ab/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Refrigeração, vida útil do filtro em litros e em meses, em campos separados, estágios de purificação, vazão em l/h, qualidade da filtragem, retenção de partículas e redução de cloro com as classes da norma, capacidade do reservatório, indicador de troca do refil, material de fabricação, garantia do fornecedor em meses e as três medidas sem embalagem. Não publica capacidade de resfriamento em L/h, nem consumo, nem pressão de operação. O campo \"Refrigeração\" da Consul declara o que sai da torneira — \"Água Natural e Gelada\" — e não o sistema que gela. O campo de sistema de refrigeração ficou vazio: compressor e pastilha eletrônica entregam água gelada igual no rótulo e muito diferente na taxa de reposição.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "consul-cpb33ab-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09SQ97QT7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "consul-cpb36aba",
+    "nome": "Consul Bem Estar CPB36ABA",
+    "marca": "Consul",
+    "categoria": "purificadores",
+    "resumo": "Refil de 2.250 litros e 9 meses. É a única ficha da lista cujo prazo em meses não é seis, e a razão entre litros e meses é a mesma dos outros Consul.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": null,
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": null,
+      "vazaoLh": 40.0,
+      "vidaUtilFiltroL": 2250,
+      "vidaUtilFiltroMeses": 9,
+      "estagiosPurificacao": null,
+      "classeFiltragem": "Classe A (Com redução de Cloro livre)",
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "355 × 253 × 334 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07846W95N"
+    },
+    "imagem": {
+      "src": "/produtos/consul-cpb36aba.webp",
+      "credito": "Divulgação/Consul",
+      "origem": "https://www.consul.com.br/purificador-consul-bem-estar-refrigerado-cpb36af/p"
+    },
+    "fontes": [
+      {
+        "id": "consul-cpb36aba-oficial",
+        "titulo": "Consul Bem Estar CPB36ABA — ficha oficial da Consul",
+        "url": "https://www.consul.com.br/purificador-consul-bem-estar-refrigerado-cpb36af/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Refrigeração, vida útil do filtro em litros e em meses, em campos separados, estágios de purificação, vazão em l/h, qualidade da filtragem, retenção de partículas e redução de cloro com as classes da norma, capacidade do reservatório, indicador de troca do refil, material de fabricação, garantia do fornecedor em meses e as três medidas sem embalagem. Não publica capacidade de resfriamento em L/h, nem consumo, nem pressão de operação. O campo \"Refrigeração\" da Consul declara o que sai da torneira — \"Água Natural e Gelada\" — e não o sistema que gela. O campo de sistema de refrigeração ficou vazio: compressor e pastilha eletrônica entregam água gelada igual no rótulo e muito diferente na taxa de reposição.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "consul-cpb36aba-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07846W95N",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "consul-cpc31af",
+    "nome": "Consul Compacto CPC31AF",
+    "marca": "Consul",
+    "categoria": "purificadores",
+    "resumo": "Não refrigerado, e a ficha diz isso no campo: reservatório \"Não possui\". Publica a classe de filtragem detalhada, P1 e C1, que é o que a ABNT usa.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Não refrigerado",
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": null,
+      "vazaoLh": 60.0,
+      "vidaUtilFiltroL": 1500,
+      "vidaUtilFiltroMeses": 6,
+      "estagiosPurificacao": 3,
+      "classeFiltragem": "Classe A (P1, Sim - C1)",
+      "temperaturasDisponiveis": "Só natural",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "305 × 184 × 176 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B079M9PQD3"
+    },
+    "imagem": {
+      "src": "/produtos/consul-cpc31af.webp",
+      "credito": "Divulgação/Consul",
+      "origem": "https://www.consul.com.br/purificador-de-agua-consul-cpc31af/p"
+    },
+    "fontes": [
+      {
+        "id": "consul-cpc31af-oficial",
+        "titulo": "Consul Compacto CPC31AF — ficha oficial da Consul",
+        "url": "https://www.consul.com.br/purificador-de-agua-consul-cpc31af/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Refrigeração, vida útil do filtro em litros e em meses, em campos separados, estágios de purificação, vazão em l/h, qualidade da filtragem, retenção de partículas e redução de cloro com as classes da norma, capacidade do reservatório, indicador de troca do refil, material de fabricação, garantia do fornecedor em meses e as três medidas sem embalagem. Não publica capacidade de resfriamento em L/h, nem consumo, nem pressão de operação.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "consul-cpc31af-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B079M9PQD3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "consul-cpc31ab",
+    "nome": "Consul Compacto CPC31AB",
+    "marca": "Consul",
+    "categoria": "purificadores",
+    "resumo": "A versão branca do compacto não refrigerado, com 60 a 120 litros por hora de vazão e refil de 1.500 litros. Três estágios de purificação declarados.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Não refrigerado",
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": null,
+      "vazaoLh": 60.0,
+      "vidaUtilFiltroL": 1500,
+      "vidaUtilFiltroMeses": 6,
+      "estagiosPurificacao": 3,
+      "classeFiltragem": "Classe A (P1, C1)",
+      "temperaturasDisponiveis": "Só natural",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "305 × 184 × 176 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HGMCX6PZ"
+    },
+    "imagem": {
+      "src": "/produtos/consul-cpc31ab.webp",
+      "credito": "Divulgação/Consul",
+      "origem": "https://www.consul.com.br/purificador-de-agua-consul-cpc31ab/p"
+    },
+    "fontes": [
+      {
+        "id": "consul-cpc31ab-oficial",
+        "titulo": "Consul Compacto CPC31AB — ficha oficial da Consul",
+        "url": "https://www.consul.com.br/purificador-de-agua-consul-cpc31ab/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Refrigeração, vida útil do filtro em litros e em meses, em campos separados, estágios de purificação, vazão em l/h, qualidade da filtragem, retenção de partículas e redução de cloro com as classes da norma, capacidade do reservatório, indicador de troca do refil, material de fabricação, garantia do fornecedor em meses e as três medidas sem embalagem. Não publica capacidade de resfriamento em L/h, nem consumo, nem pressão de operação.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "consul-cpc31ab-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HGMCX6PZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "consul-cpb34",
+    "nome": "Consul CPB34AF",
+    "marca": "Consul",
+    "categoria": "purificadores",
+    "resumo": "Reservatório de 0,8 litro com vazão de 90 litros por hora e refil de 1.500 litros em 6 meses. Não publica a capacidade de resfriamento, que é o que a água gelada exige.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": null,
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": 0.8,
+      "vazaoLh": 90.0,
+      "vidaUtilFiltroL": 1500,
+      "vidaUtilFiltroMeses": 6,
+      "estagiosPurificacao": 3,
+      "classeFiltragem": "Classe A",
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": true,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": "376 × 261 × 290 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B078S8GX9Q"
+    },
+    "imagem": {
+      "src": "/produtos/consul-cpb34.webp",
+      "credito": "Divulgação/Consul",
+      "origem": "https://www.consul.com.br/purificador-de-agua-consul-placa-eletronica-cpb34af/p"
+    },
+    "fontes": [
+      {
+        "id": "consul-cpb34-oficial",
+        "titulo": "Consul CPB34AF — ficha oficial da Consul",
+        "url": "https://www.consul.com.br/purificador-de-agua-consul-placa-eletronica-cpb34af/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Refrigeração, vida útil do filtro em litros e em meses, em campos separados, estágios de purificação, vazão em l/h, qualidade da filtragem, retenção de partículas e redução de cloro com as classes da norma, capacidade do reservatório, indicador de troca do refil, material de fabricação, garantia do fornecedor em meses e as três medidas sem embalagem. Não publica capacidade de resfriamento em L/h, nem consumo, nem pressão de operação. O campo \"Refrigeração\" da Consul declara o que sai da torneira — \"Água Natural e Gelada\" — e não o sistema que gela. O campo de sistema de refrigeração ficou vazio: compressor e pastilha eletrônica entregam água gelada igual no rótulo e muito diferente na taxa de reposição.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "consul-cpb34-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B078S8GX9Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "midea-slimpure",
+    "nome": "Midea SlimPure",
+    "marca": "Midea",
+    "categoria": "purificadores",
+    "resumo": "Dezesseis campos de dezenove, a ficha mais completa da lista. Publica pressão de operação, consumo mensal, potência e a temperatura da água gelada — e não publica a vida útil do refil.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Eletrônico",
+      "capacidadeResfriamentoLh": 0.27,
+      "capacidadeReservatorioL": 0.8,
+      "vazaoLh": 72.0,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": null,
+      "classeFiltragem": "Classe C de 5 µm até 15 µm",
+      "temperaturasDisponiveis": "Gelada, fria e natural",
+      "temperaturaAguaGeladaC": 10.5,
+      "pressaoOperacao": "100 a 400 kPa",
+      "consumoKwhMes": 5.4,
+      "potenciaW": 55.0,
+      "indicadorFiltroSaturado": true,
+      "tensao": "Bivolt",
+      "pesoKg": 3.3,
+      "dimensoesMm": "360 × 164 × 427 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FPGHYHH5"
+    },
+    "imagem": {
+      "src": "/produtos/midea-slimpure.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/purificador-de-agua-slimpure-cinza-bivolt-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-slimpure-oficial",
+        "titulo": "Midea SlimPure — ficha oficial da Midea",
+        "url": "https://www.midea.com.br/purificador-de-agua-slimpure-cinza-bivolt-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Resfriamento da água, capacidade de refrigeração em L/h, capacidade de armazenamento, vazão máxima, temperatura da água e temperatura média da água gelada, temperaturas de operação, tipo de filtragem com a classe, pressão mínima e máxima de operação em kPa, luz indicadora de filtro saturado, consumo estimado em kWh/mês, potência, tipo de tomada, material interno e externo, peso e as três medidas, e garantia. Não publica a vida útil do refil.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "midea-slimpure-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FPGHYHH5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "midea-slimpure-comp",
+    "nome": "Midea SlimPure com Compressor",
+    "marca": "Midea",
+    "categoria": "purificadores",
+    "resumo": "Compressor com 1,2 litro por hora e reservatório de 1,6. Declara consumo de 3,15 kWh por mês, metade do modelo eletrônico da mesma marca.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Compressor",
+      "capacidadeResfriamentoLh": 1.2,
+      "capacidadeReservatorioL": 1.6,
+      "vazaoLh": 72.0,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": null,
+      "classeFiltragem": "PP + Carbono",
+      "temperaturasDisponiveis": null,
+      "temperaturaAguaGeladaC": 6.0,
+      "pressaoOperacao": null,
+      "consumoKwhMes": 3.15,
+      "potenciaW": 90.0,
+      "indicadorFiltroSaturado": true,
+      "tensao": "Bivolt",
+      "pesoKg": 8.5,
+      "dimensoesMm": "390 × 180 × 456 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FPGHQDQW"
+    },
+    "imagem": {
+      "src": "/produtos/midea-slimpure-comp.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/purificador-de-agua-slimpure-com-compressor-cinza-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-slimpure-comp-oficial",
+        "titulo": "Midea SlimPure com Compressor — ficha oficial da Midea",
+        "url": "https://www.midea.com.br/purificador-de-agua-slimpure-com-compressor-cinza-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Resfriamento da água, capacidade de refrigeração em L/h, capacidade de armazenamento, vazão máxima, temperatura da água e temperatura média da água gelada, temperaturas de operação, tipo de filtragem com a classe, pressão mínima e máxima de operação em kPa, luz indicadora de filtro saturado, consumo estimado em kWh/mês, potência, tipo de tomada, material interno e externo, peso e as três medidas, e garantia. Não publica a vida útil do refil.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "midea-slimpure-comp-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FPGHQDQW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "ibbl-vivax",
+    "nome": "IBBL Viváx",
+    "marca": "IBBL",
+    "categoria": "purificadores",
+    "resumo": "Reservatório de 200 mililitros, o menor da lista. A ficha traz seis campos de dezenove e não diz a capacidade de resfriamento nem o consumo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": null,
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": 0.2,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": 2000,
+      "vidaUtilFiltroMeses": 6,
+      "estagiosPurificacao": null,
+      "classeFiltragem": "Classe C",
+      "temperaturasDisponiveis": null,
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B089N8V96Q"
+    },
+    "imagem": {
+      "src": "/produtos/ibbl-vivax.webp",
+      "credito": "Divulgação/IBBL",
+      "origem": "https://www.ibbl.com.br/purificador-vivax-tipo-domestico-nao-eletrico-branco-77010001/p"
+    },
+    "fontes": [
+      {
+        "id": "ibbl-vivax-oficial",
+        "titulo": "IBBL Viváx — ficha oficial da IBBL",
+        "url": "https://www.ibbl.com.br/purificador-vivax-tipo-domestico-nao-eletrico-branco-77010001/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tipo de refrigeração, capacidade de água gelada por hora, capacidade interna de água do aparelho, vazão máxima, vida útil do filtro num campo único que junta litros e meses, classificação do filtro, voltagem, garantia e, nos modelos mais recentes, consumo em kWh/mês, potência, amperagem, pressão de trabalho, temperatura de resfriamento, grau de proteção e as medidas sem embalagem. A profundidade da ficha varia muito entre modelos da mesma marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "ibbl-vivax-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B089N8V96Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "vidaUtilFiltroMeses",
+        "valorDivergente": "Os mesmos \"6 meses\" para refis de 2.000 e de 3.000 litros",
+        "observacao": "A IBBL publica a vida útil do refil num campo único, que junta as duas unidades: **\"2.000 litros ou até 6 meses\"**. O problema aparece ao comparar os modelos da própria marca — o Viváx traz \"2.000 litros ou até 6 meses\" e o FR600 Speciale e o Novo E-Due trazem \"3.000 litros ou 6 meses\". **Os meses são os mesmos e os litros mudam em 50%.** Ou o prazo de um supõe que a casa bebe 333 litros por mês e o do outro 500, ou um dos dois prazos não saiu de conta nenhuma. Nenhuma ficha da categoria publica o consumo diário que o prazo assume. A Consul, que publica os dois números em campos separados, mantém a razão constante: 1.500 L em 6 meses e 2.250 L em 9 meses dão os mesmos 250 litros por mês nos dois.",
+        "fonteAdotada": "ibbl-vivax-oficial",
+        "fonteDivergente": "ibbl-vivax-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "ibbl-fr600-speciale",
+    "nome": "IBBL FR600 Speciale",
+    "marca": "IBBL",
+    "categoria": "purificadores",
+    "resumo": "Reservatório de 2,18 litros e 1,24 litro por hora de água gelada. O refil dura 3.000 litros ou 6 meses — os mesmos 6 meses que a marca dá a um refil de 2.000.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": null,
+      "capacidadeResfriamentoLh": 1.24,
+      "capacidadeReservatorioL": 2.18,
+      "vazaoLh": 60.0,
+      "vidaUtilFiltroL": 3000,
+      "vidaUtilFiltroMeses": 6,
+      "estagiosPurificacao": null,
+      "classeFiltragem": null,
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": null,
+      "tensao": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076FCGWQK"
+    },
+    "imagem": {
+      "src": "/produtos/ibbl-fr600-speciale.webp",
+      "credito": "Divulgação/IBBL",
+      "origem": "https://www.ibbl.com.br/purificador-de-agua-fr600-speciale-branco---ibbl/p"
+    },
+    "fontes": [
+      {
+        "id": "ibbl-fr600-speciale-oficial",
+        "titulo": "IBBL FR600 Speciale — ficha oficial da IBBL",
+        "url": "https://www.ibbl.com.br/purificador-de-agua-fr600-speciale-branco---ibbl/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tipo de refrigeração, capacidade de água gelada por hora, capacidade interna de água do aparelho, vazão máxima, vida útil do filtro num campo único que junta litros e meses, classificação do filtro, voltagem, garantia e, nos modelos mais recentes, consumo em kWh/mês, potência, amperagem, pressão de trabalho, temperatura de resfriamento, grau de proteção e as medidas sem embalagem. A profundidade da ficha varia muito entre modelos da mesma marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "ibbl-fr600-speciale-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076FCGWQK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "vidaUtilFiltroMeses",
+        "valorDivergente": "Os mesmos \"6 meses\" para refis de 2.000 e de 3.000 litros",
+        "observacao": "A IBBL publica a vida útil do refil num campo único, que junta as duas unidades: **\"3.000 litros ou até 6 meses\"**. O problema aparece ao comparar os modelos da própria marca — o Viváx traz \"2.000 litros ou até 6 meses\" e o FR600 Speciale e o Novo E-Due trazem \"3.000 litros ou 6 meses\". **Os meses são os mesmos e os litros mudam em 50%.** Ou o prazo de um supõe que a casa bebe 333 litros por mês e o do outro 500, ou um dos dois prazos não saiu de conta nenhuma. Nenhuma ficha da categoria publica o consumo diário que o prazo assume. A Consul, que publica os dois números em campos separados, mantém a razão constante: 1.500 L em 6 meses e 2.250 L em 9 meses dão os mesmos 250 litros por mês nos dois.",
+        "fonteAdotada": "ibbl-fr600-speciale-oficial",
+        "fonteDivergente": "ibbl-fr600-speciale-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "ibbl-e-due",
+    "nome": "IBBL Novo E-Due",
+    "marca": "IBBL",
+    "categoria": "purificadores",
+    "resumo": "Quinze campos de dezenove, com pressão de trabalho de 5 a 50 mca, a faixa mais larga da lista. Refil de 3.000 litros, reservatório de 0,8 e reposição de 0,25 litro por hora.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": "Eletrônico",
+      "capacidadeResfriamentoLh": 0.25,
+      "capacidadeReservatorioL": 0.8,
+      "vazaoLh": 60.0,
+      "vidaUtilFiltroL": 3000,
+      "vidaUtilFiltroMeses": 6,
+      "estagiosPurificacao": null,
+      "classeFiltragem": null,
+      "temperaturasDisponiveis": null,
+      "temperaturaAguaGeladaC": 10.0,
+      "pressaoOperacao": "5 a 50mca",
+      "consumoKwhMes": 8.0,
+      "potenciaW": 58.0,
+      "indicadorFiltroSaturado": null,
+      "tensao": "Full Range (127v a 220v)",
+      "pesoKg": 3.8,
+      "dimensoesMm": "374 × 160 × 465 mm (A × L × P)",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08G2L378J"
+    },
+    "imagem": {
+      "src": "/produtos/ibbl-e-due.webp",
+      "credito": "Divulgação/IBBL",
+      "origem": "https://www.ibbl.com.br/purificador-novo-e-due-branco-full-range-a02013001/p"
+    },
+    "fontes": [
+      {
+        "id": "ibbl-e-due-oficial",
+        "titulo": "IBBL Novo E-Due — ficha oficial da IBBL",
+        "url": "https://www.ibbl.com.br/purificador-novo-e-due-branco-full-range-a02013001/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tipo de refrigeração, capacidade de água gelada por hora, capacidade interna de água do aparelho, vazão máxima, vida útil do filtro num campo único que junta litros e meses, classificação do filtro, voltagem, garantia e, nos modelos mais recentes, consumo em kWh/mês, potência, amperagem, pressão de trabalho, temperatura de resfriamento, grau de proteção e as medidas sem embalagem. A profundidade da ficha varia muito entre modelos da mesma marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "ibbl-e-due-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08G2L378J",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "vidaUtilFiltroMeses",
+        "valorDivergente": "Os mesmos \"6 meses\" para refis de 2.000 e de 3.000 litros",
+        "observacao": "A IBBL publica a vida útil do refil num campo único, que junta as duas unidades: **\"3.000L ou 6 meses\"**. O problema aparece ao comparar os modelos da própria marca — o Viváx traz \"2.000 litros ou até 6 meses\" e o FR600 Speciale e o Novo E-Due trazem \"3.000 litros ou 6 meses\". **Os meses são os mesmos e os litros mudam em 50%.** Ou o prazo de um supõe que a casa bebe 333 litros por mês e o do outro 500, ou um dos dois prazos não saiu de conta nenhuma. Nenhuma ficha da categoria publica o consumo diário que o prazo assume. A Consul, que publica os dois números em campos separados, mantém a razão constante: 1.500 L em 6 meses e 2.250 L em 9 meses dão os mesmos 250 litros por mês nos dois.",
+        "fonteAdotada": "ibbl-e-due-oficial",
+        "fonteDivergente": "ibbl-e-due-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "philco-ppu11c",
+    "nome": "Philco PPU11C Dupla Filtragem",
+    "marca": "Philco",
+    "categoria": "purificadores",
+    "resumo": "Quatro campos de dezenove. A ficha diz que sai água natural e gelada, e não diz quanto cabe, quanto repõe por hora, nem o que o filtro retém.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": null,
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": null,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": null,
+      "classeFiltragem": null,
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": null,
+      "tensao": "Bivolt",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FH32M9PL"
+    },
+    "imagem": {
+      "src": "/produtos/philco-ppu11c.webp",
+      "credito": "Divulgação/Philco",
+      "origem": "https://www.philco.com.br/purificador-de-agua-dupla-filtragem-70w-ppu11c/p"
+    },
+    "fontes": [
+      {
+        "id": "philco-ppu11c-oficial",
+        "titulo": "Philco PPU11C Dupla Filtragem — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/purificador-de-agua-dupla-filtragem-70w-ppu11c/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Acionamento, água natural, água gelada e água quente com sim ou não, quantidade de torneiras, bandeja coletora removível, lugar de colocação, cor, modelo e garantia em dias. **A ficha não traz capacidade do reservatório, capacidade de resfriamento, vazão, vida útil do refil, classe de filtragem, consumo, potência, pressão, peso nem medidas.**",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-ppu11c-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FH32M9PL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "philco-ppu11",
+    "nome": "Philco PPU11",
+    "marca": "Philco",
+    "categoria": "purificadores",
+    "resumo": "A ficha não publica reservatório, capacidade de resfriamento, vida útil do refil nem classe de filtragem. Declara que a água sai natural e gelada, e a garantia de 360 dias.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Purificador de água",
+      "sistemaRefrigeracao": null,
+      "capacidadeResfriamentoLh": null,
+      "capacidadeReservatorioL": null,
+      "vazaoLh": null,
+      "vidaUtilFiltroL": null,
+      "vidaUtilFiltroMeses": null,
+      "estagiosPurificacao": null,
+      "classeFiltragem": null,
+      "temperaturasDisponiveis": "Natural e gelada",
+      "temperaturaAguaGeladaC": null,
+      "pressaoOperacao": null,
+      "consumoKwhMes": null,
+      "potenciaW": null,
+      "indicadorFiltroSaturado": null,
+      "tensao": "Bivolt",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D96XPDKJ"
+    },
+    "imagem": {
+      "src": "/produtos/philco-ppu11.webp",
+      "credito": "Divulgação/Philco",
+      "origem": "https://www.philco.com.br/purificador-de-agua-ppu11-055203005/p"
+    },
+    "fontes": [
+      {
+        "id": "philco-ppu11-oficial",
+        "titulo": "Philco PPU11 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/purificador-de-agua-ppu11-055203005/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Acionamento, água natural, água gelada e água quente com sim ou não, quantidade de torneiras, bandeja coletora removível, lugar de colocação, cor, modelo e garantia em dias. **A ficha não traz capacidade do reservatório, capacidade de resfriamento, vazão, vida útil do refil, classe de filtragem, consumo, potência, pressão, peso nem medidas.**",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "abnt-nbr-16098",
+        "titulo": "ABNT NBR 16098 e a classificação de aparelhos de purificação de água",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-de-analise-de-produtos",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que as letras e os números das classes de filtragem significam, e não para tirar número de produto. A classificação usada nas fichas destes fabricantes segue a norma de aparelhos de purificação de água: P para retenção de partículas, C para redução de cloro livre e B para eficiência bacteriológica, cada letra com o nível ao lado. Um aparelho que traz só P e C filtra; um que traz B é o que a norma trata como purificador com eficiência bacteriológica declarada. Nenhum número de ficha de produto saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-ppu11-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D96XPDKJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  }
+]
