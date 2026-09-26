@@ -24,7 +24,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B07C5X3M6P"
     },
@@ -183,7 +185,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {},
     "fontes": [
       {
@@ -348,7 +352,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0CN1PFKTL"
     },
@@ -402,7 +408,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0FKBVM3GQ"
     },
@@ -456,7 +464,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B08K1B2NHM"
     },
@@ -510,7 +520,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0H4RKJFLZ"
     },
@@ -564,7 +576,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {},
     "fontes": [
       {
@@ -615,7 +629,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {},
     "fontes": [
       {
@@ -666,7 +682,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0C95838XT"
     },
@@ -886,7 +904,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {},
     "fontes": [
       {
@@ -937,7 +957,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {},
     "fontes": [
       {
@@ -988,7 +1010,9 @@
       "tensao": null,
       "garantiaMeses": 12
     },
-    "naoSeAplica": [],
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0DY8T1Q6Q"
     },
@@ -1160,7 +1184,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B7CGCJ4V"
+    },
     "fontes": [
       {
         "id": "arno-mini-chef-400-oficial",
@@ -1169,6 +1195,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 400 W, **4 velocidades**, tigela de 4 L, 0.68 kg. Código do produto: 2720015871_PAI.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-mini-chef-400-amazon",
+        "titulo": "Arno Mini Chef Portátil 400W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B7CGCJ4V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo 2720015871, que e exatamente o da ficha, mais Potencia 400 watts, Capacidade 4 litros e garantia de 12 meses do fabricante. Listagem de 127 V.\n\nCorrige o registro de 25/09/2026, que dizia que este produto nao estava na Amazon. O erro foi comparar o codigo da ficha com o da listagem da Mini Chef branca, 2720015873, e concluir ausencia sem abrir a listagem da HM01 Compacta, que traz o codigo certo. A pagina da Arno para 2720015871 se chama \"Mini Chef Portatil 400W Compacta com 4 velocidades e Funcao Pulsar HM01\", e e essa a listagem. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1176,13 +1210,6 @@
       "alt": "Batedeira Arno Mini Chef portátil preta, com a tigela e os batedores ao lado",
       "credito": "Imagem: Arno",
       "origem": "https://www.arno.com.br/-bat-mini-chef-portatil-400w-pt-2720015871-pai-1-p/p"
-    },
-    "buscaDeLoja": {
-      "em": "2026-09-25",
-      "onde": [
-        "amazon"
-      ],
-      "nota": "A Amazon tem a irma branca, codigo 2720015873 (B09YVW6DMF), e nao a preta desta ficha, cujo codigo e 2720015871. Tem tambem a HM01 Compacta de 400 W, que nao traz as duas tigelas, e a HM11 preta, que e de 185 W. Nenhuma e este produto."
     }
   },
   {
