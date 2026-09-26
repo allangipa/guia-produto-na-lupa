@@ -389,7 +389,7 @@ confunde com documento sem folha de estilo.
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
 - **Inventário em 26/09/2026: 540 produtos em 30 categorias, 30 guias,
-  50 comparativos e 21 análises.**
+  50 comparativos e 38 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -402,13 +402,15 @@ confunde com documento sem folha de estilo.
   O funil desenhado em "Estrutura de conteúdo" é guia → comparativo → análise,
   com o clique de afiliado acontecendo na análise, com o leitor já decidido.
 
-  **O gargalo de largura fechou.** As 27 categorias têm peça editorial — em
-  25/09 eram 12. O que sobrou é profundidade: 19 análises para 44 comparativos,
-  e o funil desenhado acima termina na análise.
+  **Os dois gargalos fecharam.** As 30 categorias têm guia, comparativo **e
+  análise** — em 25/09 só 12 tinham qualquer peça, e em 26/09 ainda havia 17
+  categorias sem análise nenhuma. Hoje são 38 análises para 50 comparativos, e
+  o funil desenhado acima termina na análise em toda categoria.
 
   **Antes de abrir categoria nova, escrever análise.** Guia ranqueia para
   "melhores X" e comparativo para "X ou Y", mas quem está a um passo de
-  comprar pesquisa o modelo — e é essa página que converte.
+  comprar pesquisa o modelo — e é essa página que converte. A regra continua
+  valendo para a próxima categoria que abrir: ela nasce com as três peças.
 
   E há uma leitura do Allan que vale registrar, de 25/09: **ele prefere
   comparativo a análise**, porque "não temos os produtos em mãos". A regra não
@@ -515,8 +517,17 @@ confunde com documento sem folha de estilo.
   republicou como se fosse um segundo dado**. Os quatro campos foram
   esvaziados com a divergência escrita.
 
+  Em 26/09/2026 o mesmo padrão apareceu em **cinco de doze torradeiras**, de
+  três marcas — Electrolux ETS10 e TOP70, Oster OTOR600 e OTOR650 e Cadence
+  TOR200 —, e os cinco campos foram esvaziados do mesmo jeito. O guia da
+  categoria creditava a Oster por "publicar até o consumo separado, 0,75 e
+  0,65 kW/h", elogiando o número falso; o trecho foi reescrito. **A contagem
+  pune quem acerta:** a WAP WTE1, ficha mais completa da categoria, não tem o
+  campo, e por isso parecia publicar um dado menos que as cinco erradas.
+
   O erro é do mercado, não de uma marca: Philco, Britânia, Arno, Electrolux,
-  Oster e Cadence fazem isso, em secador, batedeira e sanduicheira. Mas a
+  Oster e Cadence fazem isso, em secador, batedeira, sanduicheira, grelha e
+  torradeira. Mas a
   mesma Cadence publica "36,00 kWh/mês" no grill GRL200 e "24,00 kWh/mês" na
   sanduicheira SAN405, que são contas certas — as duas formas convivem no
   mesmo catálogo, com fator de trinta entre elas. **Ao apurar qualquer
@@ -725,8 +736,8 @@ confunde com documento sem folha de estilo.
 - Toda peça editorial (guia, comparativo, análise) precisa existir em pelo menos
   uma unidade: `output: export` recusa rota dinâmica vazia.
 - **`divergencias` está em uso, e virou um dos melhores campos da base.** Em
-  26/09/2026 são **94 registros em 24 categorias** — cozinha 12, secadores 11,
-  batedeiras 9, liquidificadores 7. Aparecem na ficha sob o título "Onde as
+  26/09/2026 são **173 registros em 28 categorias** — batedeiras 27,
+  sanduicheiras 21, secadores 18, escovas secadoras 14, cozinha 12, mixers 12. Aparecem na ficha sob o título "Onde as
   fontes não batem", via `components/divergencias.tsx`.
 
   A regra que se firmou no uso: **o valor publicado pelo fabricante fica na

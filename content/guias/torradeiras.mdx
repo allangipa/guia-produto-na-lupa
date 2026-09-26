@@ -27,7 +27,7 @@ escolhas:
       amazon: "https://www.amazon.com.br/dp/B07GHCWPWT"
   - perfil: "Quer saber a potência real na tomada que você tem em casa"
     produto: "Oster Simple Life OTOR600"
-    porque: "750 W em 127 V e 650 W em 220 V, publicados separadamente, com o consumo de cada um. É uma das três fichas em doze que fazem essa distinção. Saiba o que falta: a versão preta da mesma linha não publica os níveis de tostagem."
+    porque: "750 W em 127 V e 650 W em 220 V, publicados separadamente. É uma das três fichas em doze que fazem essa distinção, e a tensão muda a potência em 13%. Saiba o que falta: a versão preta da mesma linha não publica os níveis de tostagem."
     lojas:
       amazon: "https://www.amazon.com.br/dp/B09LD7ZMZZ"
 lacunas:
@@ -206,8 +206,34 @@ Oster OTOR650     750 W em 127 V    650 W em 220 V
 WAP WTE1          900 W em 127 V    800 W em 220 V
 ```
 
-São perdas de 13% e de 11% ao trocar de tomada — e a Oster publica até o consumo
-separado, 0,75 e 0,65 kW/h.
+São perdas de 13% e de 11% ao trocar de tomada, e as três fichas dizem qual número
+vale para qual tensão.
+
+## O campo de consumo está preenchido com a potência dividida por mil
+
+Cinco das doze fichas trazem um campo de consumo em kW/h. Nas cinco, o valor é
+**exatamente a potência dividida por mil**:
+
+```
+Electrolux ETS10    800 W    "0,8 kW/h"
+Electrolux TOP70    900 W    "0,9 kW/h"
+Oster OTOR600       750 W    "0,75 kW/h"
+Oster OTOR650       750 W    "0,75 kW/h"
+Cadence TOR200      750 W    "0,75 kWh"
+```
+
+Consumo é energia por tempo, e depende de quantos minutos o aparelho fica ligado.
+Uma torradeira de 800 W ligada por três minutos não gasta 0,8 kWh — gasta 0,04.
+O que está ali é o watt com a unidade trocada, num campo ao lado do de potência,
+com a aparência de ser uma segunda informação.
+
+**Os cinco campos ficaram vazios nas fichas deste site**, com a divergência
+registrada em cada uma. Três marcas diferentes repetem o mesmo erro, e este site
+já o encontrou em sanduicheiras e grelhas.
+
+Vale dizer o incômodo: a WAP, que é a ficha mais completa da lista, **não tem
+esse campo** — e por isso parece publicar menos que as cinco. Campo em branco
+informa menos que campo preenchido, mas informa mais que campo preenchido errado.
 
 **As outras cinco fichas bivolt publicam um número só.** Não dizem a que tensão
 ele se refere.

@@ -12,7 +12,7 @@
       "fatias": null,
       "espessuraPaoMm": null,
       "potenciaW": 800,
-      "consumoKwh": 0.8,
+      "consumoKwh": null,
       "funcaoDescongelar": true,
       "funcaoReaquecer": true,
       "funcaoCancelar": true,
@@ -35,7 +35,7 @@
         "titulo": "Electrolux ETS10 Efficient — página oficial da Electrolux",
         "url": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-efficient-ets10-/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "8 níveis de tostagem, potência de 800 W, consumo de 0,8 kW/h, abertura larga para diversos tipos de pães, função reaquecer, função descongelar, função cancelamento, bandeja de migalhas removível, indicador luminoso, sem suporte para aquecer pães, sem temporizador digital, sem desligamento automático, corpo de plástico com acabamento em aço inox escovado, cabo de 0,75 m, 28,3 × 19,1 × 17,1 cm, 1,06 kg, 127 V ou 220 V e garantia de 1 ano. A ficha não declara quantas fatias cabem nem a espessura de pão.",
+        "oQueSaiuDaqui": "8 níveis de tostagem, potência de 800 W, consumo de 0,8 kW/h, abertura larga para diversos tipos de pães, função reaquecer, função descongelar, função cancelamento, bandeja de migalhas removível, indicador luminoso, sem suporte para aquecer pães, sem temporizador digital, sem desligamento automático, corpo de plástico com acabamento em aço inox escovado, cabo de 0,75 m, 28,3 × 19,1 × 17,1 cm, 1,06 kg, 127 V ou 220 V e garantia de 1 ano. A ficha não declara quantas fatias cabem nem a espessura de pão. O campo de consumo desta página traz a potência dividida por mil e não foi adotado.",
         "consultadaEm": "2026-09-18"
       },
       {
@@ -52,7 +52,16 @@
       "alt": "Torradeira Electrolux ETS10 preta com acabamento inox, vista em perspectiva",
       "credito": "Imagem: Electrolux",
       "origem": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-efficient-ets10-/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "electrolux-ets10-oficial",
+        "valorDivergente": "Consumo \"0,8 kW/h\"",
+        "fonteDivergente": "electrolux-ets10-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,8 kW/h**, que é exatamente a potência declarada de 800 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. O padrão se repete nas cinco fichas desta categoria que preenchem o campo, de três marcas diferentes, e já foi encontrado por este site em sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "electrolux-top70",
@@ -67,7 +76,7 @@
       "fatias": null,
       "espessuraPaoMm": null,
       "potenciaW": 900,
-      "consumoKwh": 0.9,
+      "consumoKwh": null,
       "funcaoDescongelar": true,
       "funcaoReaquecer": true,
       "funcaoCancelar": true,
@@ -90,7 +99,7 @@
         "titulo": "Electrolux TOP70 Expert — página oficial da Electrolux",
         "url": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-expert-top70/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "7 níveis de tostagem, potência de 900 W, consumo de 0,9 kW/h, abertura larga, função reaquecer, descongelar, cancelamento, desligamento automático, suporte para aquecer pães, função Lift-and-check, bandeja de migalhas removível, indicador luminoso, corpo de aço inoxidável, cabo de 0,75 m, 31,4 × 20,1 × 18,3 cm, 1,87 kg, 127 V ou 220 V e garantia de 1 ano. Não declara fatias nem espessura de pão.",
+        "oQueSaiuDaqui": "7 níveis de tostagem, potência de 900 W, consumo de 0,9 kW/h, abertura larga, função reaquecer, descongelar, cancelamento, desligamento automático, suporte para aquecer pães, função Lift-and-check, bandeja de migalhas removível, indicador luminoso, corpo de aço inoxidável, cabo de 0,75 m, 31,4 × 20,1 × 18,3 cm, 1,87 kg, 127 V ou 220 V e garantia de 1 ano. Não declara fatias nem espessura de pão. O campo de consumo desta página traz a potência dividida por mil e não foi adotado.",
         "consultadaEm": "2026-09-18"
       },
       {
@@ -107,7 +116,16 @@
       "alt": "Torradeira Electrolux TOP70 de aço inox, vista em perspectiva",
       "credito": "Imagem: Electrolux",
       "origem": "https://loja.electrolux.com.br/torradeira-eletrica-electrolux-expert-top70/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "electrolux-top70-oficial",
+        "valorDivergente": "Consumo \"0,9 kW/h\"",
+        "fonteDivergente": "electrolux-top70-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,9 kW/h**, que é exatamente a potência declarada de 900 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. O padrão se repete nas cinco fichas desta categoria que preenchem o campo, de três marcas diferentes, e já foi encontrado por este site em sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "oster-otor600",
@@ -122,7 +140,7 @@
       "fatias": null,
       "espessuraPaoMm": null,
       "potenciaW": 750,
-      "consumoKwh": 0.75,
+      "consumoKwh": null,
       "funcaoDescongelar": true,
       "funcaoReaquecer": true,
       "funcaoCancelar": null,
@@ -145,7 +163,7 @@
         "titulo": "Oster OTOR600 Simple Life — página oficial da Oster",
         "url": "https://www.oster.com.br/torradeira-oster-inox-simple-life/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Potência de 750 W em 127 V e 650 W em 220 V, com consumo de 0,75 e 0,65 kW/h respectivamente; a ficha usa os valores de 127 V, que é a versão do anúncio ligado. Medidas de 152 × 172 × 265 mm, 0,880 kg, 127 V e 220 V e garantia de 12 meses. A descrição do produto na mesma página declara 7 níveis de tostagem, função descongelar e aquecer, pés antiaderentes e bandeja coletora. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto.",
+        "oQueSaiuDaqui": "Potência de 750 W em 127 V e 650 W em 220 V, com consumo de 0,75 e 0,65 kW/h respectivamente; a ficha usa os valores de 127 V, que é a versão do anúncio ligado. Medidas de 152 × 172 × 265 mm, 0,880 kg, 127 V e 220 V e garantia de 12 meses. A descrição do produto na mesma página declara 7 níveis de tostagem, função descongelar e aquecer, pés antiaderentes e bandeja coletora. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto. O campo de consumo desta página traz a potência dividida por mil e não foi adotado.",
         "consultadaEm": "2026-09-18"
       },
       {
@@ -162,7 +180,16 @@
       "alt": "Torradeira Oster OTOR600 Simple Life inox, vista de frente",
       "credito": "Imagem: Oster",
       "origem": "https://www.oster.com.br/torradeira-oster-inox-simple-life/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-otor600-oficial",
+        "valorDivergente": "Consumo \"0,75 kW/h\"",
+        "fonteDivergente": "oster-otor600-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 kW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. O padrão se repete nas cinco fichas desta categoria que preenchem o campo, de três marcas diferentes, e já foi encontrado por este site em sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "oster-otor650",
@@ -177,7 +204,7 @@
       "fatias": null,
       "espessuraPaoMm": null,
       "potenciaW": 750,
-      "consumoKwh": 0.75,
+      "consumoKwh": null,
       "funcaoDescongelar": null,
       "funcaoReaquecer": null,
       "funcaoCancelar": null,
@@ -200,7 +227,7 @@
         "titulo": "Oster OTOR650 Black Simple Life — página oficial da Oster",
         "url": "https://www.oster.com.br/torradeira-oster-black-simple-life/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Potência de 750 W em 127 V e 650 W em 220 V, consumo de 0,75 e 0,65 kW/h, 150 × 170 × 260 mm, 0,900 kg, 127 V e 220 V e garantia de 12 meses. A descrição declara design com bandeja coletora de migalhas. Diferente do OTOR600 da mesma linha, esta página **não publica o número de níveis de tostagem** — o campo ficou em branco. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto.",
+        "oQueSaiuDaqui": "Potência de 750 W em 127 V e 650 W em 220 V, consumo de 0,75 e 0,65 kW/h, 150 × 170 × 260 mm, 0,900 kg, 127 V e 220 V e garantia de 12 meses. A descrição declara design com bandeja coletora de migalhas. Diferente do OTOR600 da mesma linha, esta página **não publica o número de níveis de tostagem** — o campo ficou em branco. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto. O campo de consumo desta página traz a potência dividida por mil e não foi adotado.",
         "consultadaEm": "2026-09-18"
       },
       {
@@ -217,7 +244,16 @@
       "alt": "Torradeira Oster OTOR650 Black Simple Life preta, vista de frente",
       "credito": "Imagem: Oster",
       "origem": "https://www.oster.com.br/torradeira-oster-black-simple-life/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-otor650-oficial",
+        "valorDivergente": "Consumo \"0,75 kW/h\"",
+        "fonteDivergente": "oster-otor650-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 kW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. O padrão se repete nas cinco fichas desta categoria que preenchem o campo, de três marcas diferentes, e já foi encontrado por este site em sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "philco-ptr03a",
@@ -351,7 +387,7 @@
       "fatias": 2,
       "espessuraPaoMm": null,
       "potenciaW": 750,
-      "consumoKwh": 0.75,
+      "consumoKwh": null,
       "funcaoDescongelar": null,
       "funcaoReaquecer": null,
       "funcaoCancelar": null,
@@ -374,7 +410,7 @@
         "titulo": "Cadence TOR200 Croc! — página oficial da Cadence",
         "url": "https://www.cadence.com.br/torradeira-preta-croc-cadence/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Potência de 750 W, consumo de 0,75 kWh, 255 × 170 × 140 mm, 0,850 kg, 127 V e 220 V e garantia de 12 meses. A descrição do produto na mesma página declara 2 fatias ao mesmo tempo, 7 níveis de tostagem e bandeja coletora de migalhas. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto.",
+        "oQueSaiuDaqui": "Potência de 750 W, consumo de 0,75 kWh, 255 × 170 × 140 mm, 0,850 kg, 127 V e 220 V e garantia de 12 meses. A descrição do produto na mesma página declara 2 fatias ao mesmo tempo, 7 níveis de tostagem e bandeja coletora de migalhas. Cadence e Oster publicam medida, peso, consumo, potência por tensão e garantia na tabela, e deixam as funções só na descrição do produto. O campo de consumo desta página traz a potência dividida por mil e não foi adotado.",
         "consultadaEm": "2026-09-18"
       },
       {
@@ -391,7 +427,16 @@
       "alt": "Torradeira Cadence Croc! TOR200 preta, vista em ângulo",
       "credito": "Imagem: Cadence",
       "origem": "https://www.cadence.com.br/torradeira-preta-croc-cadence/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-tor200-oficial",
+        "valorDivergente": "Consumo \"0,75 kWh\"",
+        "fonteDivergente": "cadence-tor200-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 kWh**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. O padrão se repete nas cinco fichas desta categoria que preenchem o campo, de três marcas diferentes, e já foi encontrado por este site em sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "britania-btr05a",

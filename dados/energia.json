@@ -5,7 +5,7 @@
     "marca": "Basike",
     "modelo": "B206A",
     "categoria": "energia",
-    "resumo": "Dez mil mAh com dois cabos já presos ao corpo, Lightning e USB-C, e display de porcentagem. A Basike declara 37 Wh — número que quase nenhuma concorrente publica, e o único que companhia aérea aceita.",
+    "resumo": "Dez mil mAh com dois cabos já presos ao corpo, Lightning e USB-C, e display de porcentagem. A Basike declara 37 Wh — o watt-hora é a unidade em que a ANAC escreve o limite de bagagem, e quase nenhuma concorrente publica.",
     "atualizadoEm": "2026-09-18",
     "specs": {
       "capacidadeNominal": 10000,
@@ -43,6 +43,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma 10.000 mAh, os dois cabos integrados e o display. A listagem anuncia \"máx. 20 W PD\" na porta USB-C, enquanto o site declara 22,5 W — são protocolos diferentes (Power Delivery e Quick Charge) e os dois números podem conviver.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "anac-is-175-001",
+        "titulo": "ANAC — Instrução Suplementar nº 175-001, Revisão M, Tabela H-1",
+        "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "A Tabela H-1, de artigos perigosos transportados por passageiros, trata de \"baterias de lítio, incluindo carregadores portáteis (power banks)\". O limite por bateria é escrito em watt-hora: \"para baterias de íon lítio, um valor de Watt-hora de 100 Wh\"; entre 100 Wh e 160 Wh depende de \"aprovação do operador\". O item i) acrescenta que power banks \"devem ser levados como bagagem de mão\", \"não podem ser recarregados enquanto estiverem a bordo\" e que \"no máximo dois carregadores portáteis podem ser levados por passageiro\". Emissão de 1º de abril de 2026, vigência de 6 de abril de 2026.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -58,7 +66,7 @@
     "marca": "Basike",
     "modelo": "Ba-2W",
     "categoria": "energia",
-    "resumo": "Vinte mil mAh, 74 Wh declarados e recarga em cerca de seis horas. Os 74 Wh ficam abaixo do limite de 100 Wh que as companhias aéreas usam — e é raro a marca dizer isso.",
+    "resumo": "Vinte mil mAh, 74 Wh declarados e recarga em cerca de seis horas. O watt-hora é a unidade em que a ANAC escreve o limite de 100 Wh por bateria, e três das oito fichas desta lista publicam esse número.",
     "atualizadoEm": "2026-09-18",
     "specs": {
       "capacidadeNominal": 20000,
@@ -105,6 +113,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma 20.000 mAh, 22,5 W, cabos integrados e LED indicador. Declara 380 g, que diverge do fabricante.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "anac-is-175-001",
+        "titulo": "ANAC — Instrução Suplementar nº 175-001, Revisão M, Tabela H-1",
+        "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "A Tabela H-1, de artigos perigosos transportados por passageiros, trata de \"baterias de lítio, incluindo carregadores portáteis (power banks)\". O limite por bateria é escrito em watt-hora: \"para baterias de íon lítio, um valor de Watt-hora de 100 Wh\"; entre 100 Wh e 160 Wh depende de \"aprovação do operador\". O item i) acrescenta que power banks \"devem ser levados como bagagem de mão\", \"não podem ser recarregados enquanto estiverem a bordo\" e que \"no máximo dois carregadores portáteis podem ser levados por passageiro\". Emissão de 1º de abril de 2026, vigência de 6 de abril de 2026.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
