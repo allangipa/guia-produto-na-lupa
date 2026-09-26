@@ -1304,5 +1304,142 @@
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/ferro-bfv07-127v-063601096/p"
     }
+  },
+  {
+    "slug": "philips-walita-dst2020",
+    "nome": "Philips Walita Série 2000 DST2020/32",
+    "marca": "Philips Walita",
+    "modelo": "DST2020/32",
+    "categoria": "ferros",
+    "resumo": "Dois anos de garantia: só as duas Philips Walita declaram isso em vinte e quatro fichas, e as outras vinte e duas ficam em um ano ou não declaram. Publica vapor contínuo, vapor vertical, antigotejamento, autolimpeza e spray.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "Cerâmica",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": 25,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 250,
+      "vaporVertical": true,
+      "potenciaW": 1400,
+      "consumoKwhMes": null,
+      "tensao": "127 V",
+      "comprimentoCaboM": 1.9,
+      "desligamentoAutomatico": false,
+      "antigotejamento": true,
+      "autoLimpeza": true,
+      "spray": true,
+      "pesoKg": 1.15,
+      "dimensoesMm": "146 × 127 × 290 mm (A × L × P)",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F3QN6FKK"
+    },
+    "imagem": {
+      "src": "/produtos/philips-walita-dst2020.webp",
+      "credito": "Divulgação/Philips Walita",
+      "origem": "https://www.walita.com.br/ferro-a-vapor-serie-2000-philips-walita-roxo-dst2020-32/p"
+    },
+    "fontes": [
+      {
+        "id": "philips-walita-dst2020-oficial",
+        "titulo": "Philips Walita Série 2000 DST2020/32 — ficha oficial da Walita",
+        "url": "https://www.walita.com.br/ferro-a-vapor-serie-2000-philips-walita-roxo-dst2020-32/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Vapor contínuo de 25 g/min, vapor vertical, capacidade útil de 250 ml, material da base em cerâmica, potência de \"1400W 110v | 2000W 220v\" — a ficha usa o valor de 110 V, que é a versão do anúncio ligado —, frequência 50-60 Hz, controle de temperatura com 4 níveis, tempo de aquecimento de 30 s, desligamento automático \"Não\", trava de segurança, função manter aquecido, tecnologia antigotejamento, autolimpeza, spray de água, fio de 1,9 m, tomada de 10 A com 3 pinos, 1,15 kg, 14,6 cm de altura × 12,7 de largura × 29 de profundidade, selo INMETRO 4801013.31 / 4301005.31 e garantia de 2 anos. Não publica número de saídas de vapor nem golpe de vapor. O campo de consumo não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philips-walita-dst2020-amazon",
+        "titulo": "Philips Walita Série 2000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F3QN6FKK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão: \"Série 2000 1400W, Roxo, 110V\", número do modelo DST2020/32. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwhMes",
+        "fonteAdotada": "philips-walita-dst2020-oficial",
+        "valorDivergente": "Consumo \"1,4\"",
+        "fonteDivergente": "philips-walita-dst2020-oficial",
+        "observacao": "A ficha oficial traz um campo **Consumo** com o valor **1,4**, que é exatamente a potência declarada de 1400 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quantos minutos o aparelho fica ligado. É o watt com a unidade trocada, num campo ao lado do de potência, com a aparência de ser uma segunda informação. O campo ficou vazio. Este site já encontrou o mesmo padrão em sanduicheiras, grelhas e torradeiras, e agora em ferros — sempre com a potência dividida por mil."
+      },
+      {
+        "campo": "tipo",
+        "fonteAdotada": "philips-walita-dst2020-oficial",
+        "valorDivergente": "Codigo Ref \"DST2020_30\"",
+        "fonteDivergente": "philips-walita-dst2020-oficial",
+        "observacao": "A mesma página oficial chama o produto de **DST2020/32** no nome e no endereço, e preenche o campo \"Codigo Ref\" com **DST2020_30**. O anúncio na Amazon registra DST2020/32. O sufixo depois da barra identifica a versão de país e de cor num código Philips, então os dois não são o mesmo produto — e é por esse código que se confere se o anúncio corresponde à ficha. A ficha adota DST2020/32, que é o nome que o fabricante usa no título e o que a loja vende."
+      }
+    ]
+  },
+  {
+    "slug": "philips-walita-dst5040",
+    "nome": "Philips Walita Série 5000 DST5040/85",
+    "marca": "Philips Walita",
+    "modelo": "DST5040/85",
+    "categoria": "ferros",
+    "resumo": "O modelo mais caro da linha, com a ficha mais pobre dela: dez campos contra os quinze do Série 2000. Não publica vapor contínuo — o número que o anúncio da própria marca usa para vendê-lo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "A vapor",
+      "materialBase": "SteamGlide Plus (cerâmica)",
+      "saidasVapor": null,
+      "vazaoContinuaGMin": null,
+      "vazaoExtraGMin": null,
+      "reservatorioMl": 320,
+      "vaporVertical": null,
+      "potenciaW": 1470,
+      "consumoKwhMes": null,
+      "tensao": "127 V",
+      "comprimentoCaboM": 2,
+      "desligamentoAutomatico": true,
+      "antigotejamento": null,
+      "autoLimpeza": null,
+      "spray": null,
+      "pesoKg": 1.45,
+      "dimensoesMm": "167 × 126 × 312 mm (A × L × P)",
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09GHL35B3"
+    },
+    "imagem": {
+      "src": "/produtos/philips-walita-dst5040.webp",
+      "credito": "Divulgação/Philips Walita",
+      "origem": "https://www.walita.com.br/ferro-a-vapor-serie-5000-110v_dst5040-85_preto/p"
+    },
+    "fontes": [
+      {
+        "id": "philips-walita-dst5040-oficial",
+        "titulo": "Philips Walita Série 5000 DST5040/85 — ficha oficial da Walita",
+        "url": "https://www.walita.com.br/ferro-a-vapor-serie-5000-110v_dst5040-85_preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1470 W, voltagem 127 V, frequência 60 Hz, capacidade útil de 320 ml, material \"Plástico/Cerâmica\", tecnologia \"Modo ECO, Base SteamGlide Plus, Desligamento Automático\", controle de temperatura, desligamento automático, fio de 2 m, 1,45 kg, 16,7 cm de altura × 12,6 de largura × 31,2 de profundidade, selo INMETRO 4800439.31 e garantia de 2 anos. **Não publica vapor contínuo, golpe de vapor, saídas de vapor, vapor vertical, antigotejamento, autolimpeza nem spray** — todos campos que a ficha do Série 2000 da mesma marca responde. O campo de consumo não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philips-walita-dst5040-amazon",
+        "titulo": "Philips Walita Série 5000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09GHL35B3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência: \"Série 5000 1470W, SteamGlide Plus, Preto\", número do modelo DST5040/85. O título do anúncio declara \"Jato Extra de 180g\" e \"vapor constante de 25 g/min\", dois números que a ficha oficial da mesma marca não publica — não foram adotados, porque varejo não confirma especificação.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwhMes",
+        "fonteAdotada": "philips-walita-dst5040-oficial",
+        "valorDivergente": "Consumo \"1,47\"",
+        "fonteDivergente": "philips-walita-dst5040-oficial",
+        "observacao": "A ficha oficial traz um campo **Consumo** com o valor **1,47**, que é exatamente a potência declarada de 1470 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quantos minutos o aparelho fica ligado. É o watt com a unidade trocada, num campo ao lado do de potência, com a aparência de ser uma segunda informação. O campo ficou vazio. Este site já encontrou o mesmo padrão em sanduicheiras, grelhas e torradeiras, e agora em ferros — sempre com a potência dividida por mil."
+      }
+    ]
   }
 ]

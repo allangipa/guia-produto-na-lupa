@@ -1299,5 +1299,209 @@
       "credito": "Imagem: Mondial",
       "origem": "https://lojamondial.vtexcommercestable.com.br/lavadora-alta-pressao-aqua-power-mondial-1400w-lap-01-gy/p"
     }
+  },
+  {
+    "slug": "karcher-k5",
+    "nome": "Kärcher K5 127V",
+    "marca": "Kärcher",
+    "modelo": "1.994-592.0",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "Dois mil e cem psi com 380 litros por hora e motor de indução declarado. É a Kärcher mais forte da lista, e a ficha dela não publica temperatura de entrada nem tipo de bomba.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 2100,
+      "pressaoDeclarada": "2100 psi",
+      "vazaoLh": 380,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": "Indução",
+      "tipoBomba": null,
+      "potenciaW": 1900,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 6,
+      "comprimentoCaboM": 5,
+      "alcanceM": null,
+      "pesoKg": 13.6,
+      "dimensoesMm": "323 × 409 × 825 mm (C × L × A)",
+      "tensao": "127 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08DKZVSVN"
+    },
+    "imagem": {
+      "src": "/produtos/karcher-k5.webp",
+      "credito": "Divulgação/Kärcher",
+      "origem": "https://www.karcher.com.br/br/residencial/lavadoras-de-alta-pressao/k-5-127v-19945920.html"
+    },
+    "fontes": [
+      {
+        "id": "karcher-k5-oficial",
+        "titulo": "Kärcher K 5 127V — página oficial da Kärcher Brasil",
+        "url": "https://www.karcher.com.br/br/residencial/lavadoras-de-alta-pressao/k-5-127v-19945920.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Dados técnicos: tensão 127 V, frequência 60 Hz, pressão 2100 psi, vazão de água 380 L/h, potência nominal de entrada 1900 W, cabo elétrico 5 m, peso sem acessórios 13,6 kg e medidas 323 × 409 × 825 mm. A mangueira de alta pressão de 6 m vem em \"Itens inclusos\". O motor de indução e o cabeçote de alumínio estão no texto descritivo, não na tabela. A tabela não traz temperatura de alimentação de água, tipo de bomba, ruído nem prazo de garantia. A página carrega o aviso \"Pode conter conteúdo gerado por inteligência artificial\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-garantia",
+        "titulo": "Kärcher — termos de garantia da linha residencial",
+        "url": "https://www.karcher.com.br/br/servicos/garantia.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "A página do produto não traz prazo de garantia. Os termos oficiais trazem: \"Todos os produtos da nossa linha residencial possuem garantia de 1 ano, sendo 3 meses de garantia total obrigatória e mais 9 meses de garantia complementar\". São os mesmos 12 meses das outras marcas da lista, descritos de forma diferente: 90 dias de garantia legal mais 9 meses concedidos pela marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-k5-amazon",
+        "titulo": "Kärcher K5 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08DKZVSVN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão: \"K5 2100PSI/Libras 380L/h 1900W Motor Indução ... 127v\". Registra \"Cor: Preto\", que diverge da tabela oficial. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "tipo",
+        "fonteAdotada": "karcher-k5-oficial",
+        "valorDivergente": "Cor \"Amarelo\" na tabela técnica",
+        "fonteDivergente": "karcher-k5-oficial",
+        "observacao": "A tabela técnica da página oficial declara **Cor: Amarelo**, e a **foto principal da mesma página** mostra o corpo preto com faixas amarelas. O anúncio na Amazon também registra \"Cor: Preto\". O amarelo é a cor institucional da Kärcher e parece ser o valor padrão do catálogo, não o do produto. Não há campo de cor nas fichas deste site; a contradição fica registrada porque é por cor e tensão que se confere se o anúncio corresponde ao modelo documentado."
+      }
+    ]
+  },
+  {
+    "slug": "karcher-pratica-black",
+    "nome": "Kärcher Prática Black 220V",
+    "marca": "Kärcher",
+    "modelo": "1.994-387.0",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "A única da lista que publica a pressão nas duas unidades: 1.500 psi e 103 bar. Em compensação, a página oficial não declara a potência — campo que as outras vinte e cinco declaram.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1500,
+      "pressaoDeclarada": "máx. 1500 psi / máx. 103 bar",
+      "vazaoLh": 300,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": null,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3,
+      "comprimentoCaboM": 5,
+      "alcanceM": null,
+      "pesoKg": 3,
+      "dimensoesMm": "400 × 210 × 200 mm (C × L × A)",
+      "tensao": "220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DYQD8CN1"
+    },
+    "imagem": {
+      "src": "/produtos/karcher-pratica-black.webp",
+      "credito": "Divulgação/Kärcher",
+      "origem": "https://www.karcher.com.br/br/residencial/lavadoras-de-alta-pressao/pratica-black-220v-19943870.html"
+    },
+    "fontes": [
+      {
+        "id": "karcher-pratica-black-oficial",
+        "titulo": "Kärcher Pratica Black 220V — página oficial da Kärcher Brasil",
+        "url": "https://www.karcher.com.br/br/residencial/lavadoras-de-alta-pressao/pratica-black-220v-19943870.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Dados técnicos completos da página, que são seis linhas: pressão máx. 1500 psi / máx. 103 bar, vazão de água máx. 300 L/h, cabo elétrico 5 m, peso sem acessórios 3 kg, peso com embalagem 4,6 kg e medidas 400 × 210 × 200 mm. A mangueira de alta pressão de 3 m vem em \"Itens inclusos\". A tabela não traz potência, tensão nem frequência — a tensão de 220 V foi lida no título da página e no nome do produto. Também não traz temperatura de entrada, motor, bomba, ruído nem garantia.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-garantia",
+        "titulo": "Kärcher — termos de garantia da linha residencial",
+        "url": "https://www.karcher.com.br/br/servicos/garantia.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "A página do produto não traz prazo de garantia. Os termos oficiais trazem: \"Todos os produtos da nossa linha residencial possuem garantia de 1 ano, sendo 3 meses de garantia total obrigatória e mais 9 meses de garantia complementar\". São os mesmos 12 meses das outras marcas da lista, descritos de forma diferente: 90 dias de garantia legal mais 9 meses concedidos pela marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-pratica-black-amazon",
+        "titulo": "Kärcher Prática Black — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DYQD8CN1",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma pressão, vazão e tensão: \"Prática Black, 1500 PSI/Libras, 1400W, 300L/h ... 220V\". O anúncio declara 1400 W, que a página do fabricante não publica — o campo ficou vazio, porque varejo não confirma especificação. Registra \"Cor: Preto\".",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "karcher-k2-plus-turbo",
+    "nome": "Kärcher K2 Plus Turbo 220V",
+    "marca": "Kärcher",
+    "modelo": "1.994-375.0",
+    "categoria": "lavadoras-alta-pressao",
+    "resumo": "Mil setecentos e quarenta psi com 300 litros por hora em 4,5 kg. A página declara bomba de alumínio sem dizer o tipo da bomba, que é o campo que uma ficha em vinte e seis responde.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Lavadora",
+      "pressaoPsi": 1740,
+      "pressaoDeclarada": "máx. 1740 psi",
+      "vazaoLh": 300,
+      "temperaturaMaxEntradaC": null,
+      "tipoMotor": null,
+      "tipoBomba": null,
+      "potenciaW": 1400,
+      "ruidoDb": null,
+      "comprimentoMangueiraM": 3,
+      "comprimentoCaboM": 5,
+      "alcanceM": null,
+      "pesoKg": 4.5,
+      "dimensoesMm": "255 × 281 × 798 mm (C × L × A)",
+      "tensao": "220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BSHBGXRH"
+    },
+    "imagem": {
+      "src": "/produtos/karcher-k2-plus-turbo.webp",
+      "credito": "Divulgação/Kärcher",
+      "origem": "https://www.karcher.com.br/br/residencial/lavadoras-de-alta-pressao/k-2-plus-turbo-220v-19943750.html"
+    },
+    "fontes": [
+      {
+        "id": "karcher-k2-plus-turbo-oficial",
+        "titulo": "Kärcher K 2 Plus Turbo 220V — página oficial da Kärcher Brasil",
+        "url": "https://www.karcher.com.br/br/residencial/lavadoras-de-alta-pressao/k-2-plus-turbo-220v-19943750.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Dados técnicos: tensão 220 V, frequência 60 Hz, pressão máx. 1740 psi, vazão de água máx. 300 L/h, potência nominal de entrada 1400 W, cabo elétrico 5 m, peso sem acessórios 4,5 kg e medidas 255 × 281 × 798 mm. A mangueira de alta pressão de 3 m vem em \"Itens inclusos\". O texto descritivo declara \"bomba de alumínio\", que é o material e não o tipo — o campo de tipo de bomba ficou vazio. A tabela não traz temperatura de entrada, motor, ruído nem garantia.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-garantia",
+        "titulo": "Kärcher — termos de garantia da linha residencial",
+        "url": "https://www.karcher.com.br/br/servicos/garantia.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "A página do produto não traz prazo de garantia. Os termos oficiais trazem: \"Todos os produtos da nossa linha residencial possuem garantia de 1 ano, sendo 3 meses de garantia total obrigatória e mais 9 meses de garantia complementar\". São os mesmos 12 meses das outras marcas da lista, descritos de forma diferente: 90 dias de garantia legal mais 9 meses concedidos pela marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-k2-plus-turbo-amazon",
+        "titulo": "Kärcher K2 Plus Turbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BSHBGXRH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão: \"Karcher K2 Plus Turbo (220)\", com pressão máxima de 1740 psi e 1400 W nos detalhes. Registra \"Cor: Preto\", que diverge da tabela oficial.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "tipo",
+        "fonteAdotada": "karcher-k2-plus-turbo-oficial",
+        "valorDivergente": "Cor \"Amarelo\" na tabela técnica",
+        "fonteDivergente": "karcher-k2-plus-turbo-oficial",
+        "observacao": "A tabela técnica da página oficial declara **Cor: Amarelo**, e a **foto principal da mesma página** mostra o corpo preto com faixas amarelas. O anúncio na Amazon também registra \"Cor: Preto\". O amarelo é a cor institucional da Kärcher e parece ser o valor padrão do catálogo, não o do produto. Não há campo de cor nas fichas deste site; a contradição fica registrada porque é por cor e tensão que se confere se o anúncio corresponde ao modelo documentado."
+      }
+    ]
   }
 ]

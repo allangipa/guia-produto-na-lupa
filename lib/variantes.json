@@ -411,6 +411,20 @@
     ],
     "original": 1200
   },
+  "/produtos/britania-bas1295p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bas30.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/britania-bas87.webp": {
     "larguras": [
       240,
@@ -1146,6 +1160,13 @@
     ],
     "original": 1000
   },
+  "/produtos/electrolux-erg25b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/electrolux-esg20.webp": {
     "larguras": [
       240,
@@ -1802,6 +1823,34 @@
     ],
     "original": 1200
   },
+  "/produtos/karcher-k2-plus-turbo.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/karcher-k5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/karcher-pratica-black.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/karcher-vcl-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/kingston-a400-480gb.webp": {
     "larguras": [
       240
@@ -2188,6 +2237,20 @@
       480
     ],
     "original": 800
+  },
+  "/produtos/mondial-ap-36.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/mondial-ap-41-gi.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/mondial-b-04-np.webp": {
     "larguras": [
@@ -3498,6 +3561,20 @@
     ],
     "original": 1000
   },
+  "/produtos/philips-walita-dst2020.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/philips-walita-dst5040.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/philips-walita-na130.webp": {
     "larguras": [
       240,
@@ -4149,6 +4226,13 @@
     ],
     "original": 1000
   },
+  "/produtos/wap-high-speed-plus.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/wap-l-profi-2000.webp": {
     "larguras": [
       240,
@@ -4171,6 +4255,13 @@
     "original": 1000
   },
   "/produtos/wap-magic.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-power-speed-max.webp": {
     "larguras": [
       240,
       480

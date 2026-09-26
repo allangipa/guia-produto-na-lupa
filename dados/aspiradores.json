@@ -934,5 +934,496 @@
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/aspirador-de-po-britania-bas1010p-2-em-1-filtro-hepa-600ml-1000w-064901062/p"
     }
+  },
+  {
+    "slug": "mondial-ap-36",
+    "nome": "Mondial Turbo Cycle AP-36",
+    "marca": "Mondial",
+    "modelo": "AP-36",
+    "categoria": "aspiradores",
+    "resumo": "Mil e cem watts num vertical de 1,5 kg com coletor de 1,3 litro. A Mondial declara o coletor sem separar o que cabe de fato, e não publica sucção — como Electrolux, Philco e Britânia.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1100,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "filtroHepa": false,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": null,
+      "ruidoDb": null,
+      "pesoKg": 1.5,
+      "dimensoesMm": "1090 × 230 × 135 mm (A × L × P)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 1.3,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07JFTS6BS"
+    },
+    "imagem": {
+      "src": "/produtos/mondial-ap-36.webp",
+      "credito": "Divulgação/Mondial",
+      "origem": "https://www.mondial.com.br/aspirador-de-po-turbo-cycle-mondial-vermelho-preto-1100w-ap-36/p"
+    },
+    "fontes": [
+      {
+        "id": "mondial-ap-36-oficial",
+        "titulo": "Mondial Turbo Cycle AP-36 — ficha oficial da Mondial",
+        "url": "https://www.mondial.com.br/aspirador-de-po-turbo-cycle-mondial-vermelho-preto-1100w-ap-36/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tipo \"Aspirador de Pó Vertical\", potência de 1100 W, voltagem 127 V/220 V, capacidade do coletor de pó de 1,3 L, tipo de coletor translúcido, tipo de filtro \"Cyclone\", indicador de coletor cheio \"Não\", enrolador automático do fio \"Não\", material do corpo PP, dimensões de 109 cm × 23 cm × 13,5 cm (A × L × P), peso de 1,50 kg, cabo de 4 m, cor Vermelho/Preto e garantia de 1 ano. Não publica sucção, nível de ruído nem capacidade útil separada do total — o 1,3 L é declarado como \"capacidade do coletor de pó\", sem dizer quanto disso é aproveitável.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-ap-36-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07JFTS6BS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão: \"Turbo Cycle Vermelho/Preto 1100W, 110V, AP-36\", com \"Cor: Vermelho\" e \"Voltagem: 127 Volts\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-ap-41-gi",
+    "nome": "Mondial Turbo Cycle Hepa AP-41-GI",
+    "marca": "Mondial",
+    "modelo": "AP-41-GI",
+    "categoria": "aspiradores",
+    "resumo": "Mil quinhentos e cinquenta watts com filtro HEPA mais ciclone e coletor de 1,8 litro — o maior dos dois verticais da Mondial. Também não declara sucção.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1550,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": null,
+      "ruidoDb": null,
+      "pesoKg": 1.83,
+      "dimensoesMm": "1110 × 246 × 173 mm (A × L × P)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 1.8,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DPKZK1FC"
+    },
+    "imagem": {
+      "src": "/produtos/mondial-ap-41-gi.webp",
+      "credito": "Divulgação/Mondial",
+      "origem": "https://www.mondial.com.br/aspirador-de-po-turbo-cycle-hepa-mondial-1550w--ap-41-gi-1/p"
+    },
+    "fontes": [
+      {
+        "id": "mondial-ap-41-gi-oficial",
+        "titulo": "Mondial Turbo Cycle Hepa AP-41-GI — ficha oficial da Mondial",
+        "url": "https://www.mondial.com.br/aspirador-de-po-turbo-cycle-hepa-mondial-1550w--ap-41-gi-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tipo \"Aspirador de Pó Vertical\", potência de 1550 W, voltagem 127 V/220 V, capacidade do coletor de pó de 1,8 L, tipo de filtro \"Filtro Hepa + Ciclone\", enrolador automático do fio \"Não\", material do corpo PP, dimensões de 111 cm × 24,60 cm × 17,30 cm (A × L × P), peso de 1,83 kg, cabo de 6 metros, cor Cinza/Inox e garantia de 1 ano. Não publica sucção nem ruído. A versão de cor AP-41-BLI, na mesma loja, traz os mesmos números e preenche \"indicador de coletor cheio\" com \"Não\", campo que a ficha desta cor deixa como traço.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-ap-41-gi-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DPKZK1FC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão: \"Turbo Cycle Hepa, Cinza/Inox, 1550W, 110V - AP-41-GI\", com \"Cor: Cinza/Inox\" e \"Voltagem: 110 Volts\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "britania-bas30",
+    "nome": "Britânia BAS30",
+    "marca": "Britânia",
+    "modelo": "BAS30",
+    "categoria": "aspiradores",
+    "resumo": "Mil e quinhentos watts na ficha do fabricante e mil e quatrocentos no anúncio da loja. Coletor de 1,5 litro, e a Britânia não publica peso, medidas nem sucção.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1500,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 1.5,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin",
+      "capacidadeUtilLiquidosL"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D9PM7MDP"
+    },
+    "imagem": {
+      "src": "/produtos/britania-bas30.webp",
+      "credito": "Divulgação/Britânia",
+      "origem": "https://www.britania.com.br/aspirador-de-po-bas30-127v-064901090/p"
+    },
+    "fontes": [
+      {
+        "id": "britania-bas30-oficial",
+        "titulo": "Britânia BAS30 — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/aspirador-de-po-bas30-127v-064901090/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1500 W, capacidade de 1,5 L, aspira líquidos \"Não\", função soprar \"Não\", comprimento do cordão elétrico de 4,5 m, porta-fio \"Sim\", tipo \"Com rodas\", cor Azul e garantia de 360 dias. Não publica peso, dimensões, nível de ruído, tipo de filtro nem sucção. A ficha traz ainda um campo \"Consumo (kW/h)\" com o valor 0,6, que não corresponde à potência dividida por mil nem vem acompanhado de um período de uso — não foi adotado, e não há campo de consumo nas fichas desta categoria.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bas30-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D9PM7MDP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão: \"BAS30 1,5L Azul 127V\", com \"Cor: Azul\". O título do anúncio declara 1400 W e filtro ciclone; a potência diverge da ficha oficial e o filtro não aparece em campo nenhum do fabricante.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-bas30-oficial",
+        "valorDivergente": "1400 W",
+        "fonteDivergente": "britania-bas30-amazon",
+        "observacao": "A ficha oficial da Britânia declara **1500 W** e o título do anúncio na Amazon declara **1400 W**, para o mesmo modelo, a mesma cor e a mesma tensão. Cem watts de diferença num aparelho cuja única medida de força publicada é o watt. A ficha adota o fabricante, como em toda a base — varejo não confirma especificação."
+      }
+    ]
+  },
+  {
+    "slug": "britania-bas1295p",
+    "nome": "Britânia BAS1295P",
+    "marca": "Britânia",
+    "modelo": "BAS1295P",
+    "categoria": "aspiradores",
+    "resumo": "Oitenta e nove decibéis declarados, num campo que a maioria da lista não publica. Filtro HEPA, coletor de 1 litro e 1250 W — e nenhuma medida de sucção.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1250,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": false,
+      "ruidoDb": 89,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 1.0,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin",
+      "capacidadeUtilLiquidosL"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CBSZ6YXZ"
+    },
+    "imagem": {
+      "src": "/produtos/britania-bas1295p.webp",
+      "credito": "Divulgação/Britânia",
+      "origem": "https://www.britania.com.br/aspirador-de-po-bas1295p-127v-064901084/p"
+    },
+    "fontes": [
+      {
+        "id": "britania-bas1295p-oficial",
+        "titulo": "Britânia BAS1295P — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/aspirador-de-po-bas1295p-127v-064901084/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência de 1250 W, capacidade de 1 L, filtro Hepa, nível de ruído de 89 dB, aspira líquidos \"Não\", função soprar \"Não\", cordão elétrico de 5 m, porta-fio \"Sim\", tipo \"Com rodas\", cor Preto e garantia de 12 meses. Não publica peso, dimensões nem sucção. O campo \"Consumo (kW/h)\" traz 1,25, que é exatamente a potência de 1250 W dividida por mil — não foi adotado, e não há campo de consumo nesta categoria.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bas1295p-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CBSZ6YXZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão: \"BAS1295P 1250W 127V Preto\", com \"Cor: Preto\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "karcher-vcl-2",
+    "nome": "Kärcher VCL 2 Upright 127V",
+    "marca": "Kärcher",
+    "modelo": "9.398-462.0",
+    "categoria": "aspiradores",
+    "resumo": "Recipiente de 500 ml e 89 decibéis declarados — e nenhuma potência. A ficha da Kärcher publica o ruído, que a maioria omite, e omite o watt, que todo o resto publica.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": null,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "filtroHepa": null,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": null,
+      "ruidoDb": 89,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.5,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B004PS7O7K"
+    },
+    "imagem": {
+      "src": "/produtos/karcher-vcl-2.webp",
+      "credito": "Divulgação/Kärcher",
+      "origem": "https://www.karcher.com.br/br/residencial/aspiradores/vcl-2-upright-127v-93984620.html"
+    },
+    "fontes": [
+      {
+        "id": "karcher-vcl-2-oficial",
+        "titulo": "Kärcher VCL 2 Upright 127V — página oficial da Kärcher Brasil",
+        "url": "https://www.karcher.com.br/br/residencial/aspiradores/vcl-2-upright-127v-93984620.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Dados técnicos completos da página, que são sete linhas: capacidade do recipiente de resíduos 500 mL, nível de ruído máx. 89 dB(A), nível de potência sonora 89 dB(A), cabo elétrico 5 m, tensão 127 V, frequência 60 Hz e peso com embalagem 2,1 kg. Em \"Itens inclusos\", material da mangueira de sucção: metal. **Não publica potência em watts**, nem sucção, nem peso do produto sem embalagem, nem dimensões, nem tipo de filtro. A página carrega o aviso \"Pode conter conteúdo gerado por inteligência artificial\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-garantia",
+        "titulo": "Kärcher — termos de garantia da linha residencial",
+        "url": "https://www.karcher.com.br/br/servicos/garantia.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "A página do produto não traz prazo de garantia. Os termos oficiais trazem: \"Todos os produtos da nossa linha residencial possuem garantia de 1 ano, sendo 3 meses de garantia total obrigatória e mais 9 meses de garantia complementar\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "karcher-vcl-2-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B004PS7O7K",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a tensão: \"Kärcher VCL 2 com filtro 127V\", com \"Número do modelo: 93984620\", que é o mesmo código de material da página oficial, e \"Cor: Branco\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-erg25b",
+    "nome": "Electrolux Ergorapido ERG25B",
+    "marca": "Electrolux",
+    "modelo": "ERG25B",
+    "categoria": "aspiradores",
+    "resumo": "Trinta e cinco minutos na potência mínima e treze na máxima — a ficha declara as duas, o que quase ninguém faz. O anúncio da loja promete trinta e oito.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": true,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": null,
+      "autonomiaMin": 35,
+      "alcanceM": null,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": null,
+      "ruidoDb": null,
+      "pesoKg": 3.01,
+      "dimensoesMm": "1145 × 265 × 265 mm (A × L × P)",
+      "tensao": "Bivolt (carregador)",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 0.42,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B7KK3KM2"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-erg25b.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/aspirador-de-po-vertical-18v-ergorapido-electrolux-sem-fio-2-em-1-luz-led-ate-35-min--erg25b-/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-erg25b-oficial",
+        "titulo": "Electrolux Ergorapido ERG25B — ficha oficial da loja Electrolux",
+        "url": "https://loja.electrolux.com.br/aspirador-de-po-vertical-18v-ergorapido-electrolux-sem-fio-2-em-1-luz-led-ate-35-min--erg25b-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tipo de aspirador \"Vertical\", sem fio \"Sim\", bateria Lithium 18 V, duração da bateria de **35 min na potência mínima e 13 min na máxima**, tempo aproximado de recarga de 4 horas, tipo de filtragem HEPA, capacidade total do reservatório de 0,42 L (420 ml, declarada nas duas unidades e coerente entre elas), peso do produto de 3,01 kg, altura 114,5 cm, largura 26,5 cm, profundidade 26,5 cm, cor Shell White e garantia de 1 ano. Não publica potência em watts, sucção nem nível de ruído em decibéis — declara apenas \"baixo nível de ruído (silencioso): Sim\", que é adjetivo, não medida.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-erg25b-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B7KK3KM2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e o reservatório: \"ERG25B Bivolt branco\", \"capacidade 420Ml\", com \"Cor: Branco\" e \"Número do modelo: ERG25B\". O título anuncia \"38 min\", que diverge dos 35 min da ficha oficial.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "autonomiaMin",
+        "fonteAdotada": "electrolux-erg25b-oficial",
+        "valorDivergente": "38 min",
+        "fonteDivergente": "electrolux-erg25b-amazon",
+        "observacao": "O título do anúncio na Amazon promete **38 min** de bateria. A ficha oficial da Electrolux, para o mesmo ERG25B, declara **35 min na potência mínima** e 13 min na máxima, e o próprio nome do produto na loja do fabricante diz \"até 35 min\". Três minutos não mudam a decisão de ninguém, mas o número maior é o que aparece onde se compra. A ficha adota o fabricante."
+      }
+    ]
+  },
+  {
+    "slug": "wap-power-speed-max",
+    "nome": "WAP Power Speed Max 220V",
+    "marca": "WAP",
+    "modelo": "FW012311",
+    "categoria": "aspiradores",
+    "resumo": "Um dos poucos da lista que declara o recipiente como \"total/útil\" — 1,3 litro para os dois. E é um WAP que não publica sucção, o que a marca publica em quase todo o resto.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": null,
+      "succaoDeclarada": null,
+      "potenciaW": 1600,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "filtroHepa": true,
+      "niveisFiltragem": null,
+      "aspiraLiquidos": null,
+      "ruidoDb": null,
+      "pesoKg": 1.7,
+      "dimensoesMm": "255 × 152 × 1120 mm (C × L × A)",
+      "tensao": "220 V",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": 1.3,
+      "capacidadeUtilL": 1.3,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G62CTJCY"
+    },
+    "imagem": {
+      "src": "/produtos/wap-power-speed-max.webp",
+      "credito": "Divulgação/WAP",
+      "origem": "https://loja.wap.ind.br/wap-power-speed-max--1/p"
+    },
+    "fontes": [
+      {
+        "id": "wap-power-speed-max-oficial",
+        "titulo": "WAP Power Speed Max — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/wap-power-speed-max--1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tipo de filtro HEPA, capacidade para pó 1,3 L, **capacidade do recipiente (total/útil) 1,3 L** — a ficha declara que o útil é igual ao total —, potência elétrica 1600 W, frequência 60 Hz, alimentação por cabo, código WAP FW012310 (127 V) / FW012311 (220 V), material polímeros e metais, peso líquido 1,7 kg, peso bruto 2,3 kg, cor Cinza e Vermelho, dimensões do produto 25,5 × 15,2 × 112 cm (C × L × A), cabo elétrico de 5 metros e garantia de 1 ano (3 meses legal mais 9 complementares). **Não publica sucção nem nível de ruído**, que são campos que a WAP preenche na maior parte da linha.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "wap-power-speed-max-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G62CTJCY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão: \"Power Speed Max 1600W ... 220v\", com \"Cor: CINZA E VERMELHO\" e \"Número do modelo: FW012311\", que é o código de 220 V da ficha oficial. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "wap-high-speed-plus",
+    "nome": "WAP High Speed Plus 127V",
+    "marca": "WAP",
+    "modelo": "FW009104",
+    "categoria": "aspiradores",
+    "resumo": "Cento e trinta e quatro milibares de vácuo e 84 decibéis, os dois declarados por tensão. A ficha mede o que o bocal faz — e não traz a potência, que só aparece no nome.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Vertical",
+      "semFio": false,
+      "succaoPa": 13400,
+      "succaoDeclarada": "134 mbar (127 V)",
+      "potenciaW": null,
+      "autonomiaMin": null,
+      "alcanceM": null,
+      "filtroHepa": true,
+      "niveisFiltragem": 2,
+      "aspiraLiquidos": false,
+      "ruidoDb": 84,
+      "pesoKg": 1.25,
+      "dimensoesMm": "250 × 145 × 1080 mm (C × L × A)",
+      "tensao": "127 V",
+      "garantiaMeses": 12,
+      "capacidadeTotalL": null,
+      "capacidadeUtilL": null,
+      "capacidadeUtilLiquidosL": null
+    },
+    "naoSeAplica": [
+      "autonomiaMin",
+      "capacidadeUtilLiquidosL"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BT22CQQ9"
+    },
+    "imagem": {
+      "src": "/produtos/wap-high-speed-plus.webp",
+      "credito": "Divulgação/WAP",
+      "origem": "https://loja.wap.ind.br/aspirador-de-po-vertical-3-em-1-1350w-wap-high-speed-plus-1/p"
+    },
+    "fontes": [
+      {
+        "id": "wap-high-speed-plus-oficial",
+        "titulo": "WAP High Speed Plus — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/aspirador-de-po-vertical-3-em-1-1350w-wap-high-speed-plus-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Motor universal, **vácuo de 134 mbar em 127 V e 131 mbar em 220 V**, nível de ruído de 84 dB(A) em 127 V e 85 dB(A) em 220 V, tipo de filtro HEPA, 2 níveis de filtragem, aspira água \"Não\", classe de isolação II, frequência 60 Hz, código WAP FW009104 (127 V) / FW009105 (220 V), peso líquido 1,25 kg, cor Vermelho e Cinza, dimensões do produto 25 × 14,5 × 108 cm (C × L × A), cabo elétrico de 4 metros e garantia de 1 ano. A ficha usa os valores de 127 V, que é a versão do anúncio ligado. Os 134 mbar foram convertidos para 13.400 Pa, que é conversão exata de unidade (1 mbar = 100 Pa) e não estimativa. **A tabela não traz campo de potência**: os 1350 W aparecem só no nome do produto, e por isso o campo ficou vazio. Também não traz capacidade do recipiente.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "wap-high-speed-plus-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BT22CQQ9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão: \"HIGH SPEED PLUS 3 em 1 ... 134mbar 1350W 127V\", com \"Cor: Vermelho e Cinza\" e \"Número do modelo: FW009104\", que é o código de 127 V da ficha oficial. O anúncio declara 1,2 litro de capacidade e 1350 W, dois números que a ficha do fabricante não traz em campo — não foram adotados.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
   }
 ]
