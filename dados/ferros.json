@@ -1069,69 +1069,6 @@
     }
   },
   {
-    "slug": "oster-gcstdpa8002",
-    "nome": "Oster Diamond Aeroceramic GCSTDPA8002",
-    "marca": "Oster",
-    "modelo": "GCSTDPA8002",
-    "categoria": "ferros",
-    "resumo": "O maior reservatório entre os ferros comuns da lista: 280 ml e 1.700 W. Também traz um “51,00 W” no campo de consumo.",
-    "atualizadoEm": "2026-09-18",
-    "specs": {
-      "tipo": "A vapor",
-      "materialBase": "Diamond Aeroceramic",
-      "saidasVapor": null,
-      "vazaoContinuaGMin": null,
-      "vazaoExtraGMin": null,
-      "reservatorioMl": 280,
-      "vaporVertical": true,
-      "potenciaW": 1700,
-      "consumoKwhMes": null,
-      "tensao": "127 V ou 220 V",
-      "comprimentoCaboM": null,
-      "desligamentoAutomatico": null,
-      "antigotejamento": null,
-      "autoLimpeza": null,
-      "spray": null,
-      "pesoKg": 1.342,
-      "dimensoesMm": "310 × 155 × 130 mm (L × A × P)",
-      "garantiaMeses": 12
-    },
-    "naoSeAplica": [],
-    "lojas": {},
-    "fontes": [
-      {
-        "id": "oster-gcstdpa8002-oficial",
-        "titulo": "Oster Diamond Aeroceramic GCSTDPA8002 — ficha oficial da Oster",
-        "url": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-diamond-aeroceramic-280ml-com-vapor-vertical/p",
-        "tipo": "fabricante",
-        "oQueSaiuDaqui": "Base Diamond Aeroceramic, reservatório de 280 ml, vapor vertical, 1.700 W em 127 V e 2.200 W em 220 V, 1,342 kg, 310 × 155 × 130 mm, certificação UL e Inmetro e garantia de 12 meses. A ficha não publica saídas de vapor nem vazão.",
-        "consultadaEm": "2026-09-18"
-      }
-    ],
-    "divergencias": [
-      {
-        "campo": "consumoKwhMes",
-        "fonteAdotada": "oster-gcstdpa8002-oficial",
-        "valorDivergente": "51,00W",
-        "fonteDivergente": "oster-gcstdpa8002-oficial",
-        "observacao": "Mesmo caso do Aeroceramic 250 ml: o campo “Consumo” traz “51,00W” num ferro de 1.700 W. Fica em branco."
-      }
-    ],
-    "imagem": {
-      "src": "/produtos/oster-gcstdpa8002.webp",
-      "alt": "Ferro a vapor Oster Diamond Aeroceramic azul-petróleo, visto de três quartos",
-      "credito": "Imagem: Oster",
-      "origem": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-diamond-aeroceramic-280ml-com-vapor-vertical/p"
-    },
-    "buscaDeLoja": {
-      "em": "2026-09-25",
-      "onde": [
-        "amazon"
-      ],
-      "nota": "Nao esta na Amazon Brasil: a busca por GCSTDPA8002 e por \"Diamond Aeroceramic 280ml\" nao retorna nada. O que aparece com o nome Diamond e o Steam Generator de 1,5 L, que e outro produto."
-    }
-  },
-  {
     "slug": "philco-pfv3200v",
     "nome": "Philco Titanium Ceramic PFV3200V",
     "marca": "Philco",
@@ -1195,60 +1132,6 @@
       "alt": "Ferro a vapor Philco Titanium Ceramic preto, vermelho e branco, visto de três quartos",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/ferro-philco-titanium-ceramic-pfv3200v/p"
-    }
-  },
-  {
-    "slug": "philco-pfv320az",
-    "nome": "Philco Super Vapor Concentrado PFV320AZ",
-    "marca": "Philco",
-    "modelo": "PFV320AZ",
-    "categoria": "ferros",
-    "resumo": "240 ml, cabo giratório de 1,5 m e cinco funções listadas, incluindo auto-limpante. Furos e vazão, nenhum dos dois.",
-    "atualizadoEm": "2026-09-18",
-    "specs": {
-      "tipo": "A vapor",
-      "materialBase": "Cerâmica",
-      "saidasVapor": null,
-      "vazaoContinuaGMin": null,
-      "vazaoExtraGMin": null,
-      "reservatorioMl": 240,
-      "vaporVertical": null,
-      "potenciaW": 1200,
-      "consumoKwhMes": null,
-      "tensao": "127 V ou 220 V",
-      "comprimentoCaboM": 1.5,
-      "desligamentoAutomatico": null,
-      "antigotejamento": null,
-      "autoLimpeza": true,
-      "spray": true,
-      "pesoKg": null,
-      "dimensoesMm": null,
-      "garantiaMeses": 12
-    },
-    "naoSeAplica": [],
-    "lojas": {},
-    "fontes": [
-      {
-        "id": "philco-pfv320az-oficial",
-        "titulo": "Philco Super Vapor Concentrado PFV320AZ — ficha oficial da Philco",
-        "url": "https://www.philco.com.br/ferro-philco-pfv320az-super-vapor-concentrado-ceramica-240ml/p",
-        "tipo": "fabricante",
-        "oQueSaiuDaqui": "Base de cerâmica, reservatório de 240 ml, 1.200 W em 127 V e 1.800 W em 220 V, cabo giratório de 1,5 m, funções seco, vapor, vapor extra, spray e auto-limpante, garantia de 12 meses. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
-        "consultadaEm": "2026-09-18"
-      }
-    ],
-    "imagem": {
-      "src": "/produtos/philco-pfv320az.webp",
-      "alt": "Ferro a vapor Philco Super Vapor Concentrado azul e branco, visto de três quartos",
-      "credito": "Imagem: Philco",
-      "origem": "https://www.philco.com.br/ferro-philco-pfv320az-super-vapor-concentrado-ceramica-240ml/p"
-    },
-    "buscaDeLoja": {
-      "em": "2026-09-25",
-      "onde": [
-        "amazon"
-      ],
-      "nota": "Nao esta na Amazon Brasil: a busca por PFV320AZ e por \"super vapor concentrado\" nao retorna nada. A Philco tem vários outros ferros na loja (PFV70, PFV71, PFV40, PFV3100AZ, PFV2320V), mas nao este."
     }
   },
   {

@@ -382,28 +382,23 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 25/09/2026: 463 produtos em 27 categorias, 7 guias,
-  14 comparativos e 18 análises.**
+- **Inventário em 26/09/2026: 423 produtos em 27 categorias, 27 guias,
+  44 comparativos e 18 análises.**
 
-  Este número já esteve errado aqui. Até 25/09 esta linha dizia "70 produtos,
-  7 guias, 8 comparativos e 1 review", de 14/09 — quem lesse só o CLAUDE.md
-  planejava com o mapa de duas semanas antes. **Conferir contando os arquivos
-  antes de confiar nesta linha**, e atualizá-la ao mexer na base:
+  Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
+  guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
+  mas manteve "7 guias e 14 comparativos", que já eram 27 e 44. **Conferir
+  contando os arquivos antes de confiar nesta linha**, e atualizá-la ao mexer
+  na base:
 
       python -c "import json,glob;print(sum(len(json.load(open(f,encoding='utf-8'))) for f in glob.glob('dados/*.json')))"
 
   O funil desenhado em "Estrutura de conteúdo" é guia → comparativo → análise,
   com o clique de afiliado acontecendo na análise, com o leitor já decidido.
 
-  **O gargalo mudou de lugar, mas continua existindo.** Em 25/09 as dez
-  análises novas fecharam os cinco comparativos que terminavam em beco — havia
-  comparativo sem nenhuma análise para onde mandar quem já decidiu. O que
-  sobrou é largura: **15 das 27 categorias não têm nenhuma peça editorial**, e
-  261 dos 453 produtos categorizados estão paradas nelas.
-
-      batedeiras, chaleiras, energia, espremedores, ferros, lavadoras,
-      lavadoras-alta-pressao, lavaloucas, microondas, perifericos,
-      sanduicheiras, secadores, smartwatches, torradeiras, ventiladores
+  **O gargalo de largura fechou.** As 27 categorias têm peça editorial — em
+  25/09 eram 12. O que sobrou é profundidade: 18 análises para 44 comparativos,
+  e o funil desenhado acima termina na análise.
 
   **Antes de abrir categoria nova, escrever análise.** Guia ranqueia para
   "melhores X" e comparativo para "X ou Y", mas quem está a um passo de
@@ -416,7 +411,29 @@ confunde com documento sem folha de estilo.
   momento nenhum. Ao propor peça nova, propor comparativo por padrão.
 
 - **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
-  de 463 e não na de 453 por categoria. Não foram investigados; fica anotado.
+  de 423 e não na de 413 por categoria. Não foram investigados; fica anotado.
+- **Produto sem link de afiliado sai da base.** Decisão do Allan em 26/09/2026,
+  depois que a caça de links levou a cobertura de 76% para 91%: "os que não
+  estão no site da Amazon pode apagar no site". Saíram 40 produtos, 120 arquivos
+  de imagem e as entradas deles em `lib/variantes.json` — imagem e manifesto
+  andam juntos, senão o guard de `variantes-conferir.ts` quebra o build.
+
+  **Apagar produto é reescrever texto publicado.** Os guias contam fichas ("13
+  das 24 publicam vazão"), e cada remoção muda todo número de contagem da
+  categoria. Os 40 exigiram 60 reescritas em 5 guias, 2 comparativos e 1
+  análise, mais a troca de uma escolha publicada — o WAP Turbo 1600 era o pick
+  de "maior sucção" e saiu da base, e o lugar passou para o WAP GTW 55. Ao
+  apagar produto, rodar a conferência de números antes de commitar.
+
+  A exceção é produto em pré-venda, que não pode ter link por não ter sido
+  lançado: `nasLojasEm` no futuro fica. Hoje é só o iPhone Duo.
+
+  **O que isso custou, e fica registrado para não se esquecer:** a amostra
+  passou a ser "o que a Amazon vende", e não "o mercado". Em secadores isso
+  encolheu a Taiff de 20 para 10 fichas, e a força do achado "0 de 20 publica
+  peso" caiu junto. Allan ofereceu repor com produtos novos em vez de apagar;
+  fica como trabalho seguinte, começando por secadores e batedeiras, que foram
+  as que mais encolheram.
 - `contato@guiaprodutonalupa.com.br` está publicado em `/sobre`, `/metodologia` e
   no rodapé de toda análise. **A caixa precisa existir de verdade** — é o único
   canal de correção de um site sem autor-pessoa, e endereço morto derruba a

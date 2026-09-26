@@ -194,13 +194,6 @@
     ],
     "original": 1000
   },
-  "/produtos/arno-nova-deluxe.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
   "/produtos/arno-powergliss-fpo1.webp": {
     "larguras": [
       240,
@@ -425,13 +418,6 @@
     ],
     "original": 1200
   },
-  "/produtos/britania-bellagio-maxx.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
   "/produtos/britania-bfr50.webp": {
     "larguras": [
       240,
@@ -530,20 +516,6 @@
     ],
     "original": 1200
   },
-  "/produtos/britania-bsc2410.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/britania-bsc4050.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
   "/produtos/britania-bsd15a.webp": {
     "larguras": [
       240,
@@ -586,20 +558,6 @@
     ],
     "original": 1200
   },
-  "/produtos/britania-diamante-550.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/britania-easy-travel.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1181
-  },
   "/produtos/britania-golden-waffle.webp": {
     "larguras": [
       240,
@@ -608,13 +566,6 @@
     "original": 1200
   },
   "/produtos/britania-perola-550-neve.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/britania-perola-maxx-2.webp": {
     "larguras": [
       240,
       480
@@ -901,13 +852,6 @@
     ],
     "original": 1000
   },
-  "/produtos/electrolux-eqp40.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
   "/produtos/electrolux-esg20.webp": {
     "larguras": [
       240,
@@ -1182,13 +1126,6 @@
     "original": 1000
   },
   "/produtos/electrolux-uws2250.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/electrolux-uws31.webp": {
     "larguras": [
       240,
       480
@@ -1477,13 +1414,6 @@
     ],
     "original": 416
   },
-  "/produtos/kitchenaid-artisan-beetroot.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
   "/produtos/kitchenaid-artisan-black-matte.webp": {
     "larguras": [
       240,
@@ -1506,13 +1436,6 @@
     "original": 1200
   },
   "/produtos/kitchenaid-artisan-empire-red.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/kitchenaid-artisan-plus-juniper.webp": {
     "larguras": [
       240,
       480
@@ -1832,13 +1755,6 @@
     ],
     "original": 1000
   },
-  "/produtos/midea-powerdust.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
   "/produtos/mondial-afn-40.webp": {
     "larguras": [
       240,
@@ -2028,13 +1944,6 @@
     ],
     "original": 827
   },
-  "/produtos/mondial-scn-16.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 827
-  },
   "/produtos/mondial-scp-01-us.webp": {
     "larguras": [
       240,
@@ -2181,13 +2090,6 @@
       480
     ],
     "original": 1200
-  },
-  "/produtos/oster-gcstdpa8002.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
   },
   "/produtos/oster-obld100.webp": {
     "larguras": [
@@ -2420,28 +2322,7 @@
     ],
     "original": 1200
   },
-  "/produtos/philco-paris-350.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
   "/produtos/philco-paris-duo-mixer-500.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/philco-paris-inox-400.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/philco-pas1810.webp": {
     "larguras": [
       240,
       480
@@ -2463,20 +2344,6 @@
     "original": 1200
   },
   "/produtos/philco-pbp600v.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/philco-pbp70a.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/philco-pbp770.webp": {
     "larguras": [
       240,
       480
@@ -2526,13 +2393,6 @@
     "original": 800
   },
   "/produtos/philco-pfv3200v.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/philco-pfv320az.webp": {
     "larguras": [
       240,
       480
@@ -2630,26 +2490,12 @@
     ],
     "original": 1200
   },
-  "/produtos/philco-psc10.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
   "/produtos/philco-psc2300.webp": {
     "larguras": [
       240,
       480
     ],
     "original": 1138
-  },
-  "/produtos/philco-psc2400.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
   },
   "/produtos/philco-psc3500.webp": {
     "larguras": [
@@ -2664,13 +2510,6 @@
       480
     ],
     "original": 1199
-  },
-  "/produtos/philco-psde17a.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
   },
   "/produtos/philco-ptr03a.webp": {
     "larguras": [
@@ -3141,35 +2980,7 @@
     ],
     "original": 1200
   },
-  "/produtos/taiff-black-ion-2000.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
   "/produtos/taiff-easy-1700.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/taiff-emotion-2500.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/taiff-fox-2000.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/taiff-fox-3-2200-red.webp": {
     "larguras": [
       240,
       480
@@ -3211,41 +3022,6 @@
     ],
     "original": 1000
   },
-  "/produtos/taiff-style-pro-2000.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/taiff-titanium-2100.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/taiff-titanium-progress-2400.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1200
-  },
-  "/produtos/taiff-tourmaline-ion-2100.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/taiff-turbe-digital-2400.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
   "/produtos/taiff-unique-3100.webp": {
     "larguras": [
       240,
@@ -3254,13 +3030,6 @@
     "original": 1000
   },
   "/produtos/taiff-unique-digital-3100.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/taiff-unique-duo.webp": {
     "larguras": [
       240,
       480
@@ -3463,13 +3232,6 @@
     ],
     "original": 1000
   },
-  "/produtos/wap-ambiance-turbo.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
   "/produtos/wap-atacama-smart-2200.webp": {
     "larguras": [
       240,
@@ -3568,21 +3330,7 @@
     ],
     "original": 1000
   },
-  "/produtos/wap-magic-clean.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
   "/produtos/wap-magic.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/wap-maxi-plus-1800.webp": {
     "larguras": [
       240,
       480
@@ -3610,13 +3358,6 @@
     ],
     "original": 1000
   },
-  "/produtos/wap-robot-w100c.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
   "/produtos/wap-robot-w200.webp": {
     "larguras": [
       240,
@@ -3637,27 +3378,6 @@
       480
     ],
     "original": 1200
-  },
-  "/produtos/wap-silent-power-2800.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/wap-turbo-1600.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
-  },
-  "/produtos/wap-turbo-2002.webp": {
-    "larguras": [
-      240,
-      480
-    ],
-    "original": 1000
   },
   "/produtos/wap-wcd1500.webp": {
     "larguras": [
