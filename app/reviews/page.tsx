@@ -24,15 +24,12 @@ export const metadata: Metadata = {
  * número mais trabalhoso do site, derivado de cinco critérios ponderados, com
  * o peso visual de um rodapé. Agora é o primeiro elemento do cartão.
  *
- * A cor da nota segue a mesma lógica dos selos de transparência: é dado sobre
- * a documentação, e por isso usa `atencao` e `ausente` em vez da cor de ação,
- * que no site inteiro pertence só ao botão de compra.
+ * A nota não leva cor. A primeira versão pintava de `atencao` tudo entre 5 e 7,
+ * e como quase toda nota do site cai nessa faixa a página virou uma parede de
+ * âmbar — além de usar errado o token: `atencao` é de contra e de divergência
+ * entre fontes, e uma nota é medição, não alerta. Tamanho e peso bastam para
+ * ela ser o primeiro elemento que o olho pega.
  */
-function corDaNota(nota: number) {
-  if (nota >= 7) return "text-tinta";
-  if (nota >= 5) return "text-atencao";
-  return "text-ausente";
-}
 
 export default function ListaReviews() {
   const reviews = todosOsReviews();
@@ -70,7 +67,7 @@ export default function ListaReviews() {
 
               <div className="flex flex-1 flex-col p-4">
                 <div className="flex items-baseline gap-2">
-                  <span className={`dados text-2xl font-semibold leading-none ${corDaNota(r.nota)}`}>
+                  <span className="dados text-2xl font-semibold leading-none">
                     {notaLegivel(r.nota)}
                   </span>
                   <span className="text-[0.72rem] text-tinta-suave">de 10</span>
