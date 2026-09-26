@@ -389,7 +389,7 @@ confunde com documento sem folha de estilo.
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
 - **Inventário em 26/09/2026: 480 produtos em 28 categorias, 28 guias,
-  46 comparativos e 19 análises.**
+  46 comparativos e 20 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
