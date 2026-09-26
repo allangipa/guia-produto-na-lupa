@@ -397,7 +397,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 540 produtos em 30 categorias, 30 guias,
+- **Inventário em 26/09/2026: 553 produtos em 30 categorias, 30 guias,
   50 comparativos e 38 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -535,8 +535,9 @@ confunde com documento sem folha de estilo.
   campo, e por isso parecia publicar um dado menos que as cinco erradas.
 
   O erro é do mercado, não de uma marca: Philco, Britânia, Arno, Electrolux,
-  Oster e Cadence fazem isso, em secador, batedeira, sanduicheira, grelha e
-  torradeira. Mas a
+  Oster e Cadence fazem isso, em secador, batedeira, sanduicheira, grelha,
+  torradeira e ferro — a Philips Walita traz "Consumo 1,47" para 1470 W e
+  "Consumo 1,4" para 1400 W. Mas a
   mesma Cadence publica "36,00 kWh/mês" no grill GRL200 e "24,00 kWh/mês" na
   sanduicheira SAN405, que são contas certas — as duas formas convivem no
   mesmo catálogo, com fator de trinta entre elas. **Ao apurar qualquer
@@ -566,12 +567,21 @@ confunde com documento sem folha de estilo.
   encolheu a Taiff de 20 para 10 fichas, e a força do achado "0 de 20 publica
   peso" caiu junto.
 
-  **As duas categorias foram repostas em 26/09/2026**, com marca nova em vez de
+  **Os 40 saíram de CINCO categorias, não duas** — secadores 17, batedeiras 10,
+  aspiradores 8, lavadoras de alta pressão 3 e ferros 2. As duas primeiras foram
+  repostas de manhã e as outras três só à tarde, depois que o Allan pediu a
+  reposição de novo e a conferência mostrou que faltavam. **Ao apagar produto,
+  anotar todas as categorias afetadas**, senão as menores somem da conta.
+
+  **As cinco estão repostas em 26/09/2026**, com marca nova em vez de
   mais modelos das mesmas, e voltaram ao tamanho de antes da remoção:
   **batedeiras 26 → 40** (7 Mondial, 3 Oster, 1 Philco, 1 Electrolux, 2 Arno) e
   **secadores 28 → 45** (7 GA.MA Italy, 4 Mondial, 2 Philco, 2 Britânia,
-  2 Elgin). Entraram três marcas que a base não tinha: Mondial e Oster em
-  batedeiras, GA.MA Italy e Elgin em secadores. O casamento foi feito pela página oficial
+  2 Elgin); **aspiradores 16 → 24** (2 Mondial, 2 Britânia, 2 WAP, 1 Electrolux,
+  1 Kärcher); **lavadoras de alta pressão 23 → 26** (3 Kärcher); **ferros 22 → 24**
+  (2 Philips Walita). Entraram cinco marcas que a base não tinha: Mondial e Oster
+  em batedeiras, GA.MA Italy e Elgin em secadores, Kärcher em lavadoras e
+  aspiradores, Philips Walita em ferros. O casamento foi feito pela página oficial
   primeiro e pelo ASIN depois — a Amazon vende variantes de cor que o
   fabricante não documenta, e essas ficaram de fora.
 
@@ -710,6 +720,29 @@ confunde com documento sem folha de estilo.
   Sete fichas ficaram só com o total migrado, sem útil, porque a página oficial
   não respondeu. Ver a lista em "Páginas de fabricante que morreram".
 
+- **Kärcher e Philips Walita entraram em 26/09/2026, e as duas surpreenderam.**
+
+  A **Kärcher** é líder do segmento de lavadora de alta pressão e **publica
+  menos que as marcas brasileiras**: a Prática Black não traz potência nem
+  tensão na tabela, o aspirador VCL 2 não traz potência, e o VCL 1 Stick tem
+  **uma única linha** de dados técnicos — por isso ficou de fora. O prazo de
+  garantia não está em página de produto nenhuma; está só nos termos
+  (`/br/servicos/garantia.html`), que dizem "1 ano, sendo 3 meses de garantia
+  total obrigatória e mais 9 meses de garantia complementar". As páginas
+  carregam o aviso "Pode conter conteúdo gerado por inteligência artificial".
+
+  Duas fichas da Kärcher declaram **"Cor: Amarelo"** enquanto a foto principal
+  da mesma página e o anúncio na Amazon mostram preto — amarelo é a cor
+  institucional da marca e parece ser o padrão do catálogo. Fica registrado como
+  divergência porque **é por cor e tensão que se confere se o ASIN corresponde à
+  ficha**, e foi assim que dois casamentos errados foram pegos neste dia.
+
+  A **Philips Walita** publica em `walita.com.br`, que é VTEX com
+  `window.__STATE__` e tem API de catálogo (`?ft=DST2020`, sem "+"). O modelo
+  **mais caro documenta menos**: Série 5000 com 10 campos contra 15 do Série
+  2000. O vapor contínuo de 25 g/min e o jato de 180 g estão no título do
+  anúncio da própria marca e **não na tabela dela**.
+
 - **Páginas de fabricante que morreram, ou publicam a ficha errada.** Levantado
   em 25/09/2026 ao reapurar aspiradores, e vale como aviso para qualquer
   categoria — fonte oficial não é permanente:
@@ -721,6 +754,11 @@ confunde com documento sem folha de estilo.
       midea-powerdust     a ficha traz "Capacidade BTU: 9.000 BTU" —
                           especificação de ar-condicionado numa página
                           de aspirador
+      philips.com.br      as páginas de produto do Brasil carregam o título
+                          certo e então redirecionam para /c-w/error-404.
+                          A fonte que funciona é walita.com.br
+      mondial AP-37       9º mais vendido do ranking e sem página no site
+                          da Mondial — só os acessórios dele têm ficha
 
   Quando a fonte cai, o campo fica em branco e a lacuna fica escrita. Não se
   substitui por varejo: cinco lojas com o mesmo número são o texto do
@@ -745,7 +783,7 @@ confunde com documento sem folha de estilo.
 - Toda peça editorial (guia, comparativo, análise) precisa existir em pelo menos
   uma unidade: `output: export` recusa rota dinâmica vazia.
 - **`divergencias` está em uso, e virou um dos melhores campos da base.** Em
-  26/09/2026 são **173 registros em 28 categorias** — batedeiras 27,
+  26/09/2026 são **180 registros em 28 categorias** — batedeiras 27,
   sanduicheiras 21, secadores 18, escovas secadoras 14, cozinha 12, mixers 12. Aparecem na ficha sob o título "Onde as
   fontes não batem", via `components/divergencias.tsx`.
 
