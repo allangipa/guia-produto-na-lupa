@@ -130,7 +130,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GSS9L6NF"
+    },
     "fontes": [
       {
         "id": "mondial-sm-01-bldc-oficial",
@@ -139,6 +141,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1500 W, motor Brushless (BLDC), **3 níveis de temperatura**, **3 de velocidade**, jato de ar frio, **grade traseira removível**, cabo giratório, gerador de íons, 0.47 kg. Código do produto: SM-01-BLDC-CP.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-sm-01-bldc-amazon",
+        "titulo": "Mondial Multifuncional 5 em 1 SM-01-BLDC — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GSS9L6NF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo SM-01-BLDC-CP no fim do titulo, igual ao da ficha, e pelos 1500 W. Listagem de 110 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -173,7 +183,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CKK2KL74"
+    },
     "fontes": [
       {
         "id": "mondial-scn-02-oficial",
@@ -182,6 +194,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, jato de ar frio, **grade traseira removível**, 0.62 kg. A ficha traz “Garantia: 1,030kg” e “Comprimento do cabo: 1,70cm”; os dois campos ficam vazios aqui. Código do produto: SCN-02.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-scn-02-amazon",
+        "titulo": "Mondial Black Gold SCN-02 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CKK2KL74",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo SCN-02, que o titulo repete duas vezes, e pela voltagem de 127 V. A listagem e magra e nao tem campo estruturado nenhum — nem potencia, nem modelo —, entao o casamento e pelo codigo no titulo. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "divergencias": [
@@ -257,6 +277,13 @@
       "alt": "Secador de cabelo Mondial Black Tiff preto com detalhe turquesa, visto de lado",
       "credito": "Imagem: Mondial",
       "origem": "https://lojamondial.vtexcommercestable.com.br/secador-de-cabelos-scn-16-127v-60hz/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo SCN-16 nao retorna nada. A Mondial tem SCN-01, SCN-02 e SCN-11 la, nao o 16."
     }
   },
   {
@@ -284,7 +311,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B077TDV2M7"
+    },
     "fontes": [
       {
         "id": "mondial-sc-25-oficial",
@@ -293,6 +322,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1900 W, jato de ar frio, **grade traseira removível**, cabo de 1.5 m, 0.53 kg. Código do produto: 689.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-sc-25-amazon",
+        "titulo": "Mondial Infinity 2500 SC-25 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B077TDV2M7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo SC-12 no fim do titulo, que e o modelo da ficha, e pelos 1900 W, que tambem batem. Listagem de 110 V.\n\nAtencao ao slug: este produto se chama mondial-sc-25 na base mas tem modelo SC-12. Existe uma segunda listagem, B0CFBBYM9K, \"Infinity Ion 2000W SC-12 220V\", com o mesmo codigo e 2000 W — cem watts a mais que a ficha. Ficou a de 1900 W, que e a que casa. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -380,7 +417,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DNKPT15H"
+    },
     "fontes": [
       {
         "id": "philco-psc3600-oficial",
@@ -389,6 +428,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1600 W, **4 níveis de temperatura**, **2 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSC3600-CZ.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-psc3600-amazon",
+        "titulo": "Philco PSC3600 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DNKPT15H",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo PSC3600 e pelos 1600 W do titulo, iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -439,6 +486,13 @@
       "alt": "Secador de cabelo Philco Fast Dry bege, com escova e dois modeladores ao lado",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/secador-cabelo-philco-bldc-fast-dry-1600w-psde17a/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo PSDE17A nao retorna nada. Existe um PSD16A, que e outro modelo."
     }
   },
   {
@@ -466,7 +520,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F63LXZL5"
+    },
     "fontes": [
       {
         "id": "philco-psc3500-oficial",
@@ -475,6 +531,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1450 W, **3 níveis de temperatura**, **3 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSC3500-S.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-psc3500-amazon",
+        "titulo": "Philco 4 em 1 Dobrável PSC3500 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F63LXZL5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por dois campos estruturados: Numero do modelo PSC3500 e Potencia 1450 watts, os dois iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -525,6 +589,13 @@
       "alt": "Secador de cabelo Philco Expert Pro prata e preto, com difusor de dedos encaixado",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/secador-de-cabelos-philco-expert-pro-psc2400-2400w/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo PSC2400 nao retorna nada. A Philco tem varios outros secadores la (PSC3600, PSC3500, PSC2300, PSA3250, PSA3300, PSC2450, PSC2350, PSD16A, PSC3050), nao este."
     }
   },
   {
@@ -552,7 +623,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D9R6WVM4"
+    },
     "fontes": [
       {
         "id": "philco-psc2300-oficial",
@@ -561,6 +634,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2200 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: PHI-PSC2300-V.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-psc2300-amazon",
+        "titulo": "Philco Motor DC PSC2300 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D9R6WVM4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo PSC2300 e pelos 2200 W do titulo, iguais aos da ficha. Listagem bivolt. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -595,7 +676,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CWLKZ1XN"
+    },
     "fontes": [
       {
         "id": "philco-psa3250-oficial",
@@ -604,6 +687,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **3 de velocidade**, cabo de 1.8 m. Código do produto: PHI-PSA3250-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-psa3250-amazon",
+        "titulo": "Philco Íons Tourmaline PSA3250 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CWLKZ1XN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo PSA3250 e pelos 2100 W do titulo, iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -654,6 +745,13 @@
       "alt": "Secador de cabelo Philco Star Bright branco e dourado, visto de lado",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/secador-de-cabelos-philco-star-bright-psc10/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo PSC10 nao retorna nada."
     }
   },
   {
@@ -681,7 +779,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076J12M27"
+    },
     "fontes": [
       {
         "id": "philco-sec-travel-oficial",
@@ -690,6 +790,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 750 W, **2 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: PHI-SEC-TN-TRAVEL-V.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-sec-travel-amazon",
+        "titulo": "Philco Titanium Travel 750W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076J12M27",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o produto pelo nome Titanium Travel, que e o modelo da ficha. O campo Numero do modelo traz o codigo interno da Philco, 53503002. A listagem nao declara potencia; os 750 W da ficha vem da pagina do fabricante. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -786,7 +894,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D9R7SVZ9"
+    },
     "fontes": [
       {
         "id": "britania-bsc2250-oficial",
@@ -795,6 +905,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **3 de velocidade**, cabo de 1.9 m. Código do produto: BRI-BSC2250-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bsc2250-amazon",
+        "titulo": "Britânia BSC2250 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D9R7SVZ9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo BSC2250 e pelos 2100 W do titulo, iguais aos da ficha. Listagem bivolt. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "divergencias": [
@@ -854,6 +972,13 @@
       "alt": "Secador de cabelo Britânia Power Max preto e prata, visto de lado",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/secador-de-cabelos-britania-bsc2410-power-max-2400w-063501069/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo BSC2410 nao retorna nada."
     }
   },
   {
@@ -881,7 +1006,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D9R86J12"
+    },
     "fontes": [
       {
         "id": "britania-bsc2200-oficial",
@@ -890,6 +1017,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: BRI-BSC2200-CR.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bsc2200-amazon",
+        "titulo": "Britânia BSC2200 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D9R86J12",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo BSC2200 e pelos 2100 W do titulo, iguais aos da ficha. Listagem bivolt. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -940,6 +1075,13 @@
       "alt": "Secador de cabelo Britânia Tourmaline Íon vermelho e prata, visto de lado",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/secador-de-cabelos-britania-bsc4050-tourmaline-ion-2100w-063501073/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo BSC4050 nao retorna nada. Existe um BSC4000, que e outro modelo."
     }
   },
   {
@@ -967,7 +1109,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B075XM63GM"
+    },
     "fontes": [
       {
         "id": "britania-sp3100n-oficial",
@@ -976,6 +1120,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, **3 níveis de temperatura**, **2 de velocidade**, cabo de 1.9 m. Código do produto: BRI-SP3100N-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-sp3100n-amazon",
+        "titulo": "Britânia SP3100N — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B075XM63GM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo SP3100 no titulo e pela Potencia de 2000 watts no campo estruturado, iguais aos da ficha. O campo Numero do modelo traz o codigo interno da Britania, 63501027. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "divergencias": [
@@ -1019,7 +1171,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GHZ9WLHB"
+    },
     "fontes": [
       {
         "id": "britania-bsd15a-oficial",
@@ -1028,6 +1182,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1450 W, **3 níveis de temperatura**, **3 de velocidade**, cabo de 1.8 m. Código do produto: BRI-BSD15A-RS.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bsd15a-amazon",
+        "titulo": "Britânia Multifuncional BSD15A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GHZ9WLHB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo BSD15A e pelos 1450 W do titulo, iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1078,6 +1240,13 @@
       "alt": "Secador de cabelo Britânia Easy Travel preto, compacto, visto de lado",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/secador-de-cabelo-britania-easy-travel/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por \"Britania Easy Travel\" nao retorna este secador."
     }
   },
   {
@@ -1158,7 +1327,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G7NMPLCL"
+    },
     "fontes": [
       {
         "id": "cadence-sec565-oficial",
@@ -1167,6 +1338,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, 0.57 kg. Código do produto: SEC565.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "cadence-sec565-amazon",
+        "titulo": "Cadence Eleva SEC565 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G7NMPLCL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo SEC565-127, que e metade exata do modelo da ficha (\"SEC565-127 / SEC565-220\"). Listagem de 127 V. A listagem declara 2200 watts e a ficha traz 2000 W da pagina da Cadence; vale o do fabricante. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1254,7 +1433,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CMW94FDQ"
+    },
     "fontes": [
       {
         "id": "taiff-unique-digital-3100-oficial",
@@ -1263,6 +1444,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 3100 W, motor digital, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-unique-digital-3100-amazon",
+        "titulo": "Taiff Unique Digital 3100W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CMW94FDQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O numero do slug da nossa ficha (tff-NNN-pai) e o codigo de modelo da Taiff, e a Amazon o publica no campo Numero do modelo quando o vendedor preenche. Foi assim que esta ficha casou. O campo traz TFF-379, igual ao tff-379-pai da ficha, e a potencia de 3100 watts confere. Listagem de 220 V. O campo Nome do modelo da listagem diz \"Duo\", que e outro produto da linha — o numero e que manda. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1313,6 +1502,13 @@
       "alt": "Secador de cabelo Taiff Unique Duo prata e branco, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-unique-duo-bivolt/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. Cuidado ao repetir a busca: a listagem do Unique Digital 3100 (B0CMW94FDQ) tem o campo Nome do modelo preenchido com \"Duo\", mas o Numero do modelo dela e TFF-379, que e o Unique Digital. Nao e este produto."
     }
   },
   {
@@ -1340,7 +1536,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09QNW695Y"
+    },
     "fontes": [
       {
         "id": "taiff-vulcan-2500-oficial",
@@ -1349,6 +1547,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2500 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-vulcan-2500-amazon",
+        "titulo": "Taiff Vulcan 2500W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09QNW695Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O numero do slug da nossa ficha (tff-NNN-pai) e o codigo de modelo da Taiff, e a Amazon o publica no campo Numero do modelo quando o vendedor preenche. Foi assim que esta ficha casou. O campo traz 362, que e a primeira metade do tff-362363-pai da ficha (a Taiff usa um numero por voltagem). Potencia de 2500 watts e 127 V conferem. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1383,7 +1589,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CMW4HZ3N"
+    },
     "fontes": [
       {
         "id": "taiff-vulcan-digital-2500-oficial",
@@ -1392,6 +1600,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2500 W, motor digital, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-vulcan-digital-2500-amazon",
+        "titulo": "Taiff Vulcan Digital 2500W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CMW4HZ3N",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Casa pelo nome e pelos numeros: Vulcan Digital, 2500 W e 127 V, iguais aos da ficha. O campo Numero do modelo desta listagem traz \"1\", que e nao-valor, entao nao deu para casar pelo codigo como nas irmas. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1442,6 +1658,13 @@
       "alt": "Secador de cabelo Taiff e.motion Digital preto com grade traseira dourada vazada, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-emotion-digital/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por \"e.motion\" nao retorna este secador."
     }
   },
   {
@@ -1485,6 +1708,13 @@
       "alt": "Secador de cabelo Taiff Turbe Digital preto com anel vermelho no bocal traseiro, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-turbe-digital/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por \"Turbe Digital 2400\" nao retorna nada. O que aparece com 2400 W e o Vulcan Kompress, que e outro produto."
     }
   },
   {
@@ -1544,6 +1774,13 @@
       "alt": "Secador de cabelo Taiff Titanium Progress preto, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-taiff-titanium-progress-2400w/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por \"Titanium Progress\" nao retorna nada."
     }
   },
   {
@@ -1596,6 +1833,13 @@
       "alt": "Secador de cabelo Taiff Fox 3 vermelho, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-fox-red/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. O Fox 3 vendido la e o Rose (B0789S2FQ6), cujo campo Numero do modelo traz 244 — nem a cor nem o numero sao os desta ficha."
     }
   },
   {
@@ -1623,7 +1867,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B097HZJB1L"
+    },
     "fontes": [
       {
         "id": "taiff-fox-3-2200-soft-green-oficial",
@@ -1632,6 +1878,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2200 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-fox-3-2200-soft-green-amazon",
+        "titulo": "Taiff Fox 3 2200W Soft Green — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B097HZJB1L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O numero do slug da nossa ficha (tff-NNN-pai) e o codigo de modelo da Taiff, e a Amazon o publica no campo Numero do modelo quando o vendedor preenche. Foi assim que esta ficha casou. O campo traz 366, igual ao tff-366-pai da ficha, e somam-se a cor Soft Green no titulo e os 2200 watts. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1666,7 +1920,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0869M4WNS"
+    },
     "fontes": [
       {
         "id": "taiff-fox-3-kompress-oficial",
@@ -1675,6 +1931,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2200 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, registro no Inmetro **218.009/21**. O campo “Tamanho do Cabo” traz “1,80m (127v), 3 metros (220v)” — dois valores por tensão. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-fox-3-kompress-amazon",
+        "titulo": "Taiff Fox 3 Kompress 2200W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0869M4WNS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O numero do slug da nossa ficha (tff-NNN-pai) e o codigo de modelo da Taiff, e a Amazon o publica no campo Numero do modelo quando o vendedor preenche. Foi assim que esta ficha casou. O campo traz 344, igual ao tff-344-pai da ficha, e a potencia de 2200 watts confere. Listagem de 127 V. Preterida a B0869LYL7G, que o proprio titulo chama de \"Fox 3 Kompress 345\" — outro numero, outro produto. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "divergencias": [
@@ -1718,7 +1982,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B077BY4TN2"
+    },
     "fontes": [
       {
         "id": "taiff-fox-s-2100-oficial",
@@ -1727,6 +1993,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2100 W, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, **tampa traseira removível** (declarada no campo de funções), cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 3 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-fox-s-2100-amazon",
+        "titulo": "Taiff Fox S 2100W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B077BY4TN2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Casa pelo nome Fox Ion S e pelos 2100 W e 127 V, iguais aos da ficha. O campo Numero do modelo traz \"mqb2022\", que e SKU de vendedor e nao serve para conferir — e o unico Fox S da base, e a potencia bate. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1777,6 +2051,13 @@
       "alt": "Secador de cabelo Taiff Titanium preto com anel laranja no bocal traseiro, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-titanium-colors-laranja/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. O Titanium vendido la e o Titanium Pink (B077C3WCZM), que e outra cor e nao publica numero de modelo para conferir contra o tff-178 da ficha."
     }
   },
   {
@@ -1820,6 +2101,13 @@
       "alt": "Secador de cabelo Taiff Tourmaline Íon preto com grade traseira azulada, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-de-cabelo-tourmaline-ion-2100w-127v/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. A busca traz \"SECADOR Taiff TOURMALINE 2100W 127V\" (B097HYQPJ1), que parecia ser este — mas o campo Numero do modelo dela traz 358, e a ficha e tff-388-pai. Numeros diferentes, produtos diferentes."
     }
   },
   {
@@ -1863,6 +2151,13 @@
       "alt": "Secador de cabelo Taiff Fox prata e branco, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-fox-ion/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. O que se aproxima e o \"Fox Ion Prata\" (B01643O8D6), de 2000 W, que nao publica numero de modelo para conferir contra o tff-64 da ficha."
     }
   },
   {
@@ -1915,6 +2210,13 @@
       "alt": "Secador de cabelo Taiff Black Íon preto com anel vermelho no bocal traseiro, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-de-cabelo-black-ion-2000w-127v/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil com certeza suficiente. Ha duas listagens de Black Ion 2000 W: a de 220 V (B07VPFHSDT) se chama \"BLACK ION 338\" no titulo, e a ficha e tff-386-pai; a de 127 V (B07VKQKHVK) nao publica numero. Com o unico numero visivel divergindo, nao da para afirmar que e o mesmo produto."
     }
   },
   {
@@ -1958,6 +2260,13 @@
       "alt": "Secador de cabelo Taiff Style Pro prata e branco, visto de lado",
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-style-pro/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. Os Style vendidos la sao o 333 (que e o Style Black da base) e o 334; a ficha do Style Pro e tff-356-pai, que nao aparece."
     }
   },
   {
@@ -1985,7 +2294,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07VPFC6RN"
+    },
     "fontes": [
       {
         "id": "taiff-style-black-2000-oficial",
@@ -1994,6 +2305,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 2000 W, motor ac profissional, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, cabo **não** giratório, declarado, **cabo de 1.8 m**, registro no Inmetro **218.066/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-style-black-2000-amazon",
+        "titulo": "Taiff Style Black 2000W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07VPFC6RN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Casa pelo numero do modelo que esta no titulo: \"Style 333\", e a ficha e tff-333-pai. Potencia de 2000 W e 127 V conferem. O campo Potencia da listagem declara 1875 watts enquanto o texto dela diz 2000 W — divergencia interna da listagem; vale a ficha do fabricante. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -2028,7 +2347,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07FJ17KN7"
+    },
     "fontes": [
       {
         "id": "taiff-new-smart-1700-oficial",
@@ -2037,6 +2358,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1700 W, motor ac profissional, **2 níveis de temperatura**, **2 de velocidade**, botão de ar frio, cabo **não** giratório, declarado, gerador de íons negativos, **cabo de 1.8 m**, registro no Inmetro **218.009/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-new-smart-1700-amazon",
+        "titulo": "Taiff New Smart 1700W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07FJ17KN7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O numero do slug da nossa ficha (tff-NNN-pai) e o codigo de modelo da Taiff, e a Amazon o publica no campo Numero do modelo quando o vendedor preenche. Foi assim que esta ficha casou. O campo traz 270, igual ao tff-270-pai da ficha, com Potencia de 1700 watts e 110 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -2071,7 +2400,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07VNBN6Q1"
+    },
     "fontes": [
       {
         "id": "taiff-easy-1700-oficial",
@@ -2080,6 +2411,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 1700 W, motor ac profissional, **2 níveis de temperatura**, **2 de velocidade**, cabo **não** giratório, declarado, **cabo de 1.8 m**, registro no Inmetro **218.066/21**. A Taiff não publica peso, tensão nem prazo de garantia nesta página, e nenhum secador da marca publica vazão de ar.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "taiff-easy-1700-amazon",
+        "titulo": "Taiff Easy 1700W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07VNBN6Q1",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O numero do slug da nossa ficha (tff-NNN-pai) e o codigo de modelo da Taiff, e a Amazon o publica no campo Numero do modelo quando o vendedor preenche. Foi assim que esta ficha casou. O campo traz 329, igual ao tff-329-pai da ficha, com Potencia de 1700 watts e 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
