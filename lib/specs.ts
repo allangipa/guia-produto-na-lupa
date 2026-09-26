@@ -4560,7 +4560,7 @@ export const camposBatedeira: Campo[] = [
     unidade: "L",
     melhor: "maior",
     filtro: "faixa",
-    ajuda: "Algumas comuns vêm com uma segunda tigela menor. Uma marca publica esse campo.",
+    ajuda: "Algumas vêm com uma segunda tigela menor, e a ficha só declara quando ela existe. Fica vazio quando a página não lista o conteúdo da embalagem.",
     contaTransparencia: true,
   },
   {

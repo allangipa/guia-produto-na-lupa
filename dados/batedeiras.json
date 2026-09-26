@@ -1535,8 +1535,7 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [
-      "funcaoPortatil",
-      "capacidadeTigelaExtraL"
+      "funcaoPortatil"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0CRZBP4VK"
@@ -1601,8 +1600,7 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [
-      "funcaoPortatil",
-      "capacidadeTigelaExtraL"
+      "funcaoPortatil"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0CFCF4VJB"
@@ -1772,7 +1770,7 @@
       "capacidadeFarinhaKg": 1.1,
       "capacidadeMassaPaoKg": 1.8,
       "elevacaoTigela": null,
-      "capacidadeTigelaExtraL": null,
+      "capacidadeTigelaExtraL": 2.8,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
       "pesoKg": null,
@@ -1781,8 +1779,7 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [
-      "funcaoPortatil",
-      "capacidadeTigelaExtraL"
+      "funcaoPortatil"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0CY5S16DQ"
@@ -1793,8 +1790,8 @@
         "titulo": "KitchenAid Artisan Blue Salt — ficha oficial da KitchenAid Brasil",
         "url": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-blue-salt-kea38af/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Ficha do fabricante: 300 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.8 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, acessórios: Batedores / Fouet / Gancho / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
-        "consultadaEm": "2026-09-25"
+        "oQueSaiuDaqui": "Ficha do fabricante: 300 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.8 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, acessórios: Batedores / Fouet / Gancho / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação. Reconferida em 26/09/2026 pelo campo “Itens inclusos na embalagem”, que declara “duas tigelas em aço inox de 4,83 litros e 2,8 litros” — é de lá que sai a tigela extra de 2,8 L. O módulo de texto da mesma página repete que a tigela principal tem “capacidade para 4.83L”.",
+        "consultadaEm": "2026-09-26"
       },
       {
         "id": "kitchenaid-artisan-blue-salt-amazon",
@@ -1838,7 +1835,7 @@
       "capacidadeFarinhaKg": 1.1,
       "capacidadeMassaPaoKg": 1.8,
       "elevacaoTigela": "Com elevação",
-      "capacidadeTigelaExtraL": null,
+      "capacidadeTigelaExtraL": 2.8,
       "funcaoTurbo": null,
       "funcaoPortatil": null,
       "pesoKg": null,
@@ -1847,8 +1844,7 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [
-      "funcaoPortatil",
-      "capacidadeTigelaExtraL"
+      "funcaoPortatil"
     ],
     "lojas": {},
     "fontes": [
@@ -1857,8 +1853,8 @@
         "titulo": "KitchenAid Artisan Beetroot — ficha oficial da KitchenAid Brasil",
         "url": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-beetroot-kea38ar/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Ficha do fabricante: 275 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, com elevação, acessórios: Batedores / Fouet / Gancho / Protetor de Respingos / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
-        "consultadaEm": "2026-09-19"
+        "oQueSaiuDaqui": "Ficha do fabricante: 275 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.83 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, com elevação, acessórios: Batedores / Fouet / Gancho / Protetor de Respingos / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação. Reconferida em 26/09/2026 pelo campo “Itens inclusos na embalagem”, que declara “Duas tigelas em aço inox de 4,83 litros e 2,8 litros” — é de lá que sai a tigela extra de 2,8 L. O módulo de texto da mesma página repete que a tigela principal tem “capacidade para 4.83L”.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "divergencias": [
@@ -1967,8 +1963,7 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [
-      "funcaoPortatil",
-      "capacidadeTigelaExtraL"
+      "funcaoPortatil"
     ],
     "lojas": {},
     "fontes": [
