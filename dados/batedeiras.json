@@ -79,7 +79,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BL859181"
+    },
     "fontes": [
       {
         "id": "britania-bbt400p-oficial",
@@ -88,6 +90,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 400 W, **4 velocidades**, batedores: 1 par, tigela de 4 L, tigela extra de 3.1 L, corpo que sai da base. Código do produto: BRI-BBT400-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bbt400p-amazon",
+        "titulo": "Britânia Concept BBT400P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BL859181",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo, que diz \"BBT400P Concept\", e pelo fabricante Britania. Os 400 W do titulo sao os da ficha. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -139,6 +149,13 @@
       "alt": "Batedeira Britânia Bellagio Maxx preta e cinza, com duas tigelas e dois pares de batedores",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/batedeira-britania-bellagio-maxx-neve-350w/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por \"Bellagio\" e por \"Bellagio Maxx Neve\" nao retorna nenhuma batedeira Britania com esse nome."
     }
   },
   {
@@ -183,6 +200,13 @@
       "alt": "Batedeira Britânia Diamante preta, de pedestal, com a tigela encaixada",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/batedeira-britania-diamante-preta-400w-4l/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "A Amazon tem a linha Diamante em duas cores, Inox Turbo Duo (B0CFMDW915) e Neve Turbo Duo (B0CFG57PK2), as duas com 4,3 L e 550 W — mas nao a Preta, que e a desta ficha. Como a base trata cor como identidade, nenhuma das duas serve."
     }
   },
   {
@@ -211,7 +235,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CLBGH4VK"
+    },
     "fontes": [
       {
         "id": "britania-perola-550-neve-oficial",
@@ -220,6 +246,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 500 W, **4 velocidades**, batedores: 1 par, tigela de 4.3 L, tigela extra de 3.1 L, função turbo, corpo que sai da base. Código do produto: BRI-BAT-PER-NEVE-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-perola-550-neve-amazon",
+        "titulo": "Britânia Pérola 550 Neve — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CLBGH4VK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Quatro campos estruturados batem com a ficha: Numero do modelo \"Perola 550\", Potencia 500 watts, Capacidade 4,3 litros e a cor Neve no titulo. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -280,6 +314,13 @@
       "alt": "Batedeira Britânia Pérola Maxx 2 preta, com as duas tigelas e os batedores ao lado",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/batedeira-britania-perola-maxx-2-400w-britania/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. A busca traz varias Perola (550, 550 Turbo, 550P Double Bowl, Cristal Duo Turbo), nao a Maxx 2."
     }
   },
   {
@@ -308,7 +349,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CN1PFKTL"
+    },
     "fontes": [
       {
         "id": "britania-bbpe01-oficial",
@@ -317,6 +360,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 500 W, **12 velocidades**, batedores: 3 unidades, tigela de 4 L, função turbo. Código do produto: BRI-BBPE01-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bbpe01-amazon",
+        "titulo": "Britânia Planetária BBPE01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CN1PFKTL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por tres numeros da ficha: Potencia 500 watts e Capacidade 4 litros nos campos estruturados, e as 12 velocidades no titulo, junto do codigo BBPE01. Listagem de 127 V. A listagem nao traz campo de modelo. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -352,7 +403,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FKBVM3GQ"
+    },
     "fontes": [
       {
         "id": "britania-bbp70a-oficial",
@@ -361,6 +414,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 700 W, **12 velocidades**, batedores: 3 unidades, tigela de 4 L, função turbo. Código do produto: BRI-BBP70A-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bbp70a-amazon",
+        "titulo": "Britânia Planetária BBP70A Turbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FKBVM3GQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por quatro elementos: Numero do modelo BBP70A, Potencia 700 watts, Capacidade 4 litros e as 12 velocidades do titulo, todos iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -396,7 +457,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08K1B2NHM"
+    },
     "fontes": [
       {
         "id": "britania-bbp760-oficial",
@@ -405,6 +468,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 700 W, **12 velocidades**, tigela de 4.5 L. Código do produto: BRI-BBP760-T-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bbp760-amazon",
+        "titulo": "Britânia Power Plus BBP760 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08K1B2NHM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo titulo, que traz BBP760P Power Plus Turbo, e por dois campos: Potencia 700 watts e garantia de 12 meses, iguais aos da ficha. Listagem de 127 V. O codigo interno da listagem e 33401137 e o da URL da ficha oficial e 063401035 — a Britania usa numeracao propria por canal, e o casamento aqui e pela designacao do modelo. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -510,6 +581,13 @@
       "alt": "Batedeira Philco Paris vermelha, de pedestal, com a tigela encaixada",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/bat-paris-vm/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. A busca por Paris traz Power Mixer Turbo, Duo Mixer Turbo e Cristal Maxx, que sao outros modelos."
     }
   },
   {
@@ -554,6 +632,13 @@
       "alt": "Batedeira Philco Paris Inox vermelha, com a tigela de inox encaixada",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/batedeira-philco-paris-inox-vermelha-400w/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. A busca por \"Paris Inox 400W\" nao retorna este modelo."
     }
   },
   {
@@ -582,7 +667,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C95838XT"
+    },
     "fontes": [
       {
         "id": "philco-paris-duo-mixer-500-oficial",
@@ -591,6 +678,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 500 W, **4 velocidades**, batedores: 2 pares, tigela de 4 L, função turbo, corpo que sai da base. Código do produto: PHI-BAT-PAR-DM-T-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-paris-duo-mixer-500-amazon",
+        "titulo": "Philco Paris Duo Mixer Turbo 500W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C95838XT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por dois campos estruturados iguais aos da ficha, Potencia 500 watts e Capacidade 4 litros, mais o nome \"Paris Duo Mixer Turbo\" no titulo, que e o modelo da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -626,7 +721,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09XC1KHPY"
+    },
     "fontes": [
       {
         "id": "philco-crome-base-550-oficial",
@@ -635,6 +732,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 550 W, **4 velocidades**, batedores: 1 par, tigela de 4 L, tigela extra de 3.1 L, função turbo, corpo que sai da base. Código do produto: PHI-BAT-CRBAS-D-T-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-crome-base-550-amazon",
+        "titulo": "Philco Crome Base Cristal 550W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09XC1KHPY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O campo Numero do modelo da listagem diz \"CRISTAL DUO TURBO\", que e o modelo da ficha (\"CRISTAL DUO TURBO PR\", com o PR da cor preta que o titulo tambem traz). A Potencia de 550 watts confere. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -674,7 +779,9 @@
       "capacidadeTigelaExtraL",
       "funcaoPortatil"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09XBM2ZSR"
+    },
     "fontes": [
       {
         "id": "philco-pbt450-oficial",
@@ -683,6 +790,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **comum**, 550 W, **4 velocidades**, batedores: 1 par, função turbo, corpo que sai da base. Código do produto: PHI-PBT450-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-pbt450-amazon",
+        "titulo": "Philco Portátil Crome Case PBT450 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09XBM2ZSR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo PBT450P, igual ao da ficha, e pelo nome Crome Case no titulo. Listagem de 127 V; a de 220 V declara os 550 W da ficha. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -718,7 +833,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07ZJS7LVW"
+    },
     "fontes": [
       {
         "id": "philco-pbp600v-oficial",
@@ -727,6 +844,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 600 W, **11 velocidades**, tigela de 4 L, tigela extra de 4 L. Código do produto: PHI-PBP600V-V.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-pbp600v-amazon",
+        "titulo": "Philco Planetária PBP600V Turbo Inox — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07ZJS7LVW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por tres elementos: Nome do modelo PBP600, Potencia 600 watts e Capacidade 4 litros, iguais aos da ficha, com o codigo PBP600V no titulo. Listagem de 127 V. O campo de peso da listagem traz um nao-valor, \"40 Gramas\", numa batedeira planetaria. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -778,6 +903,13 @@
       "alt": "Batedeira planetária Philco PBP70A cinza e preta, com a tigela e os três batedores ao lado",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/batedeira-planetaria-pbp70a-127v-103401184/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo PBP70A nao retorna nada. Cuidado ao repetir a busca — a Britania tem uma BBP70A, que e outro produto e ja esta na base com link."
     }
   },
   {
@@ -822,6 +954,13 @@
       "alt": "Batedeira planetária Philco PBP770 preta, com a tigela de inox e os três batedores ao lado",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/batedeira-planetaria-pbp770pi-turbo-inox-127v-103401182/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca pelo codigo PBP770 e por PBP770PI nao retorna nada."
     }
   },
   {
@@ -850,7 +989,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DY8T1Q6Q"
+    },
     "fontes": [
       {
         "id": "philco-pbp90a-oficial",
@@ -859,6 +1000,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: batedeira **planetária**, 900 W, **12 velocidades**, batedores: 3 unidades, tigela de 5 L, função turbo. Código do produto: PHI-PBP90A-P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-pbp90a-amazon",
+        "titulo": "Philco Concept PBP90A Turbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DY8T1Q6Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por quatro campos estruturados iguais aos da ficha: Numero do modelo PBP90A, Potencia 900 watts, Capacidade 5 litros e garantia de 12 meses. Listagem de 220 V, escolhida porque a de 110 V (B0DY8WB3KN) declara 800 W e nao os 900 W da ficha. O campo Fabricante da listagem diz Britania num produto Philco — as duas marcas sao do mesmo grupo. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -957,7 +1106,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H7L6NR33"
+    },
     "fontes": [
       {
         "id": "arno-mini-chef-hm10-oficial",
@@ -966,6 +1117,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 185 W, **4 velocidades**, tigela de 4 L. Código do produto: 2720019162.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-mini-chef-hm10-amazon",
+        "titulo": "Arno Mini Chef HM10 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H7L6NR33",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por cinco elementos: Nome do modelo \"Mini Chef Hm10\", Potencia 185 watts, Capacidade 4 litros, garantia de 12 meses e as 4 velocidades do titulo, todos iguais aos da ficha. Listagem de 127 V, cor branca. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1017,6 +1176,13 @@
       "alt": "Batedeira Arno Mini Chef portátil preta, com a tigela e os batedores ao lado",
       "credito": "Imagem: Arno",
       "origem": "https://www.arno.com.br/-bat-mini-chef-portatil-400w-pt-2720015871-pai-1-p/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "A Amazon tem a irma branca, codigo 2720015873 (B09YVW6DMF), e nao a preta desta ficha, cujo codigo e 2720015871. Tem tambem a HM01 Compacta de 400 W, que nao traz as duas tigelas, e a HM11 preta, que e de 185 W. Nenhuma e este produto."
     }
   },
   {
@@ -1045,7 +1211,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPSVYXMF"
+    },
     "fontes": [
       {
         "id": "arno-bake-easy-oficial",
@@ -1054,6 +1222,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 500 W, **12 velocidades**, tigela de 3.5 L. Código do produto: 8010001506.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-bake-easy-amazon",
+        "titulo": "Arno Planetária Bake Easy — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GPSVYXMF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O campo Numero do modelo da listagem traz 8010001506, que e exatamente o modelo da ficha, e a cor confere: a pagina da Arno para esse codigo se chama \"Bake Easy 500W Marfim KM14\". Somam-se Potencia 500 watts e Capacidade 3,5 litros. Listagem de 110 V. Havia tres variantes na Amazon — KM10 Preto Azulado, KM13 Verde Eucalipto e KM14 Marfim — com a mesma ficha tecnica; so o codigo do fabricante separa. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1105,6 +1281,13 @@
       "alt": "Batedeira planetária Arno Nova Deluxe branca, com a tigela encaixada",
       "credito": "Imagem: Arno",
       "origem": "https://www.arno.com.br/batedeira-planetaria-arno-nova-deluxe-270w-branca-sx33-2720019168-pai-p/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. O que existe la e a Nova Deluxe SX34, de 600 W (B0937JLFC6 e B0937LNJTD); esta ficha e a SX33 de 270 W. Modelos diferentes."
     }
   },
   {
@@ -1133,7 +1316,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B5YSQ8TJ"
+    },
     "fontes": [
       {
         "id": "electrolux-ekm40-oficial",
@@ -1142,6 +1327,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 750 W, **12 velocidades**, batedores: Fouet; Gancho e Plano, tigela de 5 L, 3.85 kg. Código do produto: EKM40.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-ekm40-amazon",
+        "titulo": "Electrolux Experience EKM40 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B5YSQ8TJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por quatro elementos: Nome e Numero do modelo EKM40, Potencia 750 watts, Capacidade 5 litros e as 12 velocidades do titulo, iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1177,7 +1370,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09SVS68SQ"
+    },
     "fontes": [
       {
         "id": "electrolux-kmp70-oficial",
@@ -1186,6 +1381,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 800 W, **6 velocidades**, batedores: Fouet; Gancho e Plano, tigela de 5 L, 7 kg. Código do produto: KMP70.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-kmp70-amazon",
+        "titulo": "Electrolux Experience KMP70 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09SVS68SQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por quatro elementos: Nome do modelo KMP70, Potencia 800 watts, Capacidade 5 litros e as 6 velocidades do titulo, iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1335,7 +1538,9 @@
       "funcaoPortatil",
       "capacidadeTigelaExtraL"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CRZBP4VK"
+    },
     "fontes": [
       {
         "id": "kitchenaid-bowl-lift-66-oficial",
@@ -1344,6 +1549,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 350 W em 110 V, 375 W em 220 V, **11 velocidades**, tigela de 6.6 L, com elevação, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "kitchenaid-bowl-lift-66-amazon",
+        "titulo": "KitchenAid Bowl-Lift 6,6 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CRZBP4VK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma por tres numeros da ficha: Capacidade 6,6 litros, Potencia 350 watts e garantia de 12 meses, com o codigo KEC66AV no titulo. Listagem de 110 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -1391,7 +1604,9 @@
       "funcaoPortatil",
       "capacidadeTigelaExtraL"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFCF4VJB"
+    },
     "fontes": [
       {
         "id": "kitchenaid-bowl-lift-56-oficial",
@@ -1400,6 +1615,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 350 W em 110 V, 375 W em 220 V, **11 velocidades**, tigela de 5.6 L, com elevação, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "kitchenaid-bowl-lift-56-amazon",
+        "titulo": "KitchenAid Bowl-Lift 5,6 L — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CFCF4VJB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo KEC56AVBNA, que e o KEC56AV da ficha com o sufixo de cor, e pela Capacidade de 5,6 litros. Listagem de 220 V, cor Empire Red — a ficha nao registra cor. A listagem declara 375 watts contra os 350 W que a KitchenAid publica; vale o do fabricante. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1561,7 +1784,9 @@
       "funcaoPortatil",
       "capacidadeTigelaExtraL"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CY5S16DQ"
+    },
     "fontes": [
       {
         "id": "kitchenaid-artisan-blue-salt-oficial",
@@ -1570,6 +1795,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 300 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.8 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, acessórios: Batedores / Fouet / Gancho / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
         "consultadaEm": "2026-09-19"
+      },
+      {
+        "id": "kitchenaid-artisan-blue-salt-amazon",
+        "titulo": "KitchenAid Artisan Blue Salt — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CY5S16DQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo KEA38AF, igual ao da ficha, e pela cor Blue Salt no titulo. Listagem de 110 V. A listagem declara 275 watts e 4,83 L, onde a ficha traz 300 W e 4,8 L — os mesmos numeros que a nossa ficha do Artisan Beetroot (KEA38AR) carrega. Vale conferir se as duas cores, que sao a mesma maquina, deveriam ter a mesma potencia na base. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -1642,6 +1875,13 @@
       "alt": "Batedeira KitchenAid Artisan vinho, de cabeça basculável, com a tigela de inox e os batedores ao lado",
       "credito": "Imagem: KitchenAid",
       "origem": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-beetroot-kea38ar/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. As cores de Artisan vendidas la em 25/09/2026 eram Empire Red, Contour Silver, Black Matte, Mineral Water, Hibiscus, Blue Salt, Kyoto Glow e Spearmint. Beetroot nao aparece."
     }
   },
   {
@@ -1755,6 +1995,13 @@
       "alt": "Batedeira KitchenAid Artisan Plus verde-escura, com a tigela de inox e os batedores ao lado",
       "credito": "Imagem: KitchenAid",
       "origem": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-artisan-plus-juniper/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil. A unica Artisan Plus vendida la e a Sun Dried Tomato. Aparece um KSM150PS \"zimbro\" (B0D1DNF2F6), que e o Artisan Series americano de 5 quartos, e nao o KEA40A1ANA desta ficha."
     }
   }
 ]
