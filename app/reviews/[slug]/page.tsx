@@ -69,9 +69,14 @@ export default async function PaginaReview({ params }: Params) {
         </p>
       </header>
 
-      {r.produto.imagem && (
-        <FotoProduto imagem={r.produto.imagem} prioridade />
-      )}
+      {/* A foto vem da base quando o frontmatter não traz — que era o caso dos
+          18 reviews até 26/09/2026. O mesmo casamento já alimentava a imagem de
+          compartilhamento desta página; só a página em si ficava sem. */}
+      {(() => {
+        const foto =
+          r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome]);
+        return foto ? <FotoProduto imagem={foto} prioridade /> : null;
+      })()}
 
       <VereditoRapido nota={r.nota} para={r.para} naoPara={r.naoPara} />
 

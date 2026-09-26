@@ -546,3 +546,19 @@ export function dataLegivel(iso: string): string {
     year: "numeric",
   });
 }
+
+/**
+ * A nota editorial escrita como se escreve número em português: com vírgula.
+ *
+ * `toFixed(1)` devolve "6.2", e o site publicava isso — na barra de critério,
+ * no veredito em corpo 36 e na listagem de análises. Passava despercebido em
+ * texto miúdo; em corpo grande, um decimal com ponto num site em português
+ * denuncia que ninguém olhou. O resto do site já usa `toLocaleString("pt-BR")`
+ * para valor de ficha, e esta função põe a nota na mesma régua.
+ */
+export function notaLegivel(nota: number): string {
+  return nota.toLocaleString("pt-BR", {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  });
+}

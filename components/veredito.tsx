@@ -1,4 +1,5 @@
 import type { Criterio } from "@/lib/conteudo";
+import { notaLegivel } from "@/lib/conteudo";
 
 /**
  * A escala por critério é o elemento visual forte da página: uma leitura de
@@ -24,7 +25,7 @@ export function EscalaCriterios({ criterios }: { criterios: Criterio[] }) {
               <div
                 className="h-[6px] flex-1 rounded-full bg-linha"
                 role="img"
-                aria-label={`${c.nome}: ${c.nota.toFixed(1)} de 10, com peso de ${Math.round(c.peso * 100)}% na nota final`}
+                aria-label={`${c.nome}: ${notaLegivel(c.nota)} de 10, com peso de ${Math.round(c.peso * 100)}% na nota final`}
               >
                 <div
                   className="h-full rounded-full bg-acao"
@@ -32,7 +33,7 @@ export function EscalaCriterios({ criterios }: { criterios: Criterio[] }) {
                 />
               </div>
               <span className="font-dado text-[0.85rem] tabular-nums text-tinta-suave">
-                {c.nota.toFixed(1)}
+                {notaLegivel(c.nota)}
               </span>
             </div>
             <p className="mt-1 max-w-[60ch] text-[0.92rem] text-tinta-suave">
@@ -61,7 +62,7 @@ export function VereditoRapido({
     >
       <div className="flex items-baseline gap-3">
         <span className="font-dado text-4xl tabular-nums leading-none">
-          {nota.toFixed(1)}
+          {notaLegivel(nota)}
         </span>
         <span className="text-tinta-suave">de 10 na nossa escala</span>
       </div>

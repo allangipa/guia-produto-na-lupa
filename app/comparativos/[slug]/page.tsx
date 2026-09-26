@@ -13,6 +13,7 @@ import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
+import { FrenteAFrente } from "@/components/frente-a-frente";
 import { Fontes } from "@/components/fontes";
 import { TabelaComparativa } from "@/components/tabela-comparativa";
 import { Foto } from "@/components/foto";
@@ -80,6 +81,17 @@ export default async function PaginaComparativo({ params }: Params) {
         <p className="mt-4 max-w-[62ch] text-lg text-tinta-suave">
           {c.subtitulo}
         </p>
+
+        {/* Os dois produtos antes do texto: é o que faz a página se ler como
+            comparação. A foto vem da base — nenhum comparativo declara imagem
+            por concorrente —, pelo mesmo casamento que a imagem de
+            compartilhamento já usava aqui. */}
+        <FrenteAFrente
+          concorrentes={c.concorrentes}
+          fotos={c.concorrentes.map(
+            (p) => p.imagem ?? fotoDaBase([p.lojas], [p.nome]),
+          )}
+        />
 
         {/* Largura limitada de propósito: a arte é retrato 4:5, feita para
             rede social, e em tamanho cheio empurraria a tabela para fora da
