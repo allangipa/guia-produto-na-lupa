@@ -159,6 +159,27 @@
     ],
     "original": 1200
   },
+  "/produtos/arno-ggra.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/arno-gnox.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/arno-gp01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/arno-gpto.webp": {
     "larguras": [
       240,
@@ -216,6 +237,20 @@
     "original": 1000
   },
   "/produtos/arno-preferita.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-sacb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-sacs.webp": {
     "larguras": [
       240,
       480
@@ -446,6 +481,13 @@
     ],
     "original": 1200
   },
+  "/produtos/britania-bello-pane.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/britania-ber20pd.webp": {
     "larguras": [
       240,
@@ -509,7 +551,21 @@
     ],
     "original": 1200
   },
+  "/produtos/britania-bgr01p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/britania-bgr16.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bgr20.webp": {
     "larguras": [
       240,
       480
@@ -524,6 +580,13 @@
     "original": 1200
   },
   "/produtos/britania-bgr27i.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bgr28a.webp": {
     "larguras": [
       240,
       480
@@ -719,6 +782,34 @@
     ],
     "original": 1000
   },
+  "/produtos/cadence-grl200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-grl616.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-grl621.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-san230.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/cadence-san260.webp": {
     "larguras": [
       240,
@@ -726,7 +817,21 @@
     ],
     "original": 1000
   },
+  "/produtos/cadence-san265.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/cadence-san400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/cadence-san615.webp": {
     "larguras": [
       240,
       480
@@ -1258,6 +1363,13 @@
     ],
     "original": 1000
   },
+  "/produtos/elgin-duo-time.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/elgin-essential-coffee.webp": {
     "larguras": [
       240,
@@ -1266,6 +1378,13 @@
     "original": 1000
   },
   "/produtos/elgin-facilita-fry.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-fast-time.webp": {
     "larguras": [
       240,
       480
@@ -2189,6 +2308,27 @@
     ],
     "original": 1200
   },
+  "/produtos/mondial-pg-01-180.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-pg-01-rc.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-pg-01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/mondial-pg-02.webp": {
     "larguras": [
       240,
@@ -2805,7 +2945,28 @@
     ],
     "original": 1200
   },
+  "/produtos/philco-pgr25a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pgr26a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/philco-pgr27a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pgr31.webp": {
     "larguras": [
       240,
       480

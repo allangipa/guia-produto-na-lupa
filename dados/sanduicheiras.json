@@ -710,7 +710,7 @@
       "tipoChapa": null,
       "revestimento": "Antiaderente",
       "potenciaW": 750,
-      "consumoKwh": 0.75,
+      "consumoKwh": null,
       "controleTemperatura": null,
       "luzIndicadora": null,
       "bandejaColetora": null,
@@ -748,7 +748,16 @@
       "alt": "Sanduicheira Cadence Click SAN400, preta e quadrada, vista de cima",
       "credito": "Imagem: Cadence",
       "origem": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-click/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-san400-oficial",
+        "valorDivergente": "Consumo \"0,75 KW/h\"",
+        "fonteDivergente": "cadence-san400-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 KW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ]
   },
   {
     "slug": "cadence-san260",
@@ -765,7 +774,7 @@
       "tipoChapa": null,
       "revestimento": "Antiaderente",
       "potenciaW": 750,
-      "consumoKwh": 0.75,
+      "consumoKwh": null,
       "controleTemperatura": null,
       "luzIndicadora": true,
       "bandejaColetora": null,
@@ -803,7 +812,16 @@
       "alt": "Sanduicheira Cadence Toast & Grill SAN260, preta, vista em ângulo",
       "credito": "Imagem: Cadence",
       "origem": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-san260-oficial",
+        "valorDivergente": "Consumo \"0,75 KW/h\"",
+        "fonteDivergente": "cadence-san260-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 KW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ]
   },
   {
     "slug": "oster-ogrl230",
@@ -820,7 +838,7 @@
       "tipoChapa": "Uma lisa e uma ondulada",
       "revestimento": "Antiaderente",
       "potenciaW": 1000,
-      "consumoKwh": 1.0,
+      "consumoKwh": null,
       "controleTemperatura": null,
       "luzIndicadora": null,
       "bandejaColetora": null,
@@ -858,7 +876,16 @@
       "alt": "Mini grill Oster OGRL230, preto com tampa em inox, fechado",
       "credito": "Imagem: Oster",
       "origem": "https://www.oster.com.br/mini-grill-eletrico-oster-inox-2-em-1/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-ogrl230-oficial",
+        "valorDivergente": "Consumo \"1,0 KW/H\"",
+        "fonteDivergente": "oster-ogrl230-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **1,0 KW/H**, que é exatamente a potência declarada de 1000 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ]
   },
   {
     "slug": "oster-osan500",
@@ -930,7 +957,7 @@
       "tipoChapa": null,
       "revestimento": "Antiaderente",
       "potenciaW": 1200,
-      "consumoKwh": 1.2,
+      "consumoKwh": null,
       "controleTemperatura": true,
       "luzIndicadora": null,
       "bandejaColetora": null,
@@ -968,7 +995,16 @@
       "alt": "Grill Oster OGRL610 aberto em 180 graus, com as duas chapas à mostra",
       "credito": "Imagem: Oster",
       "origem": "https://www.oster.com.br/grill-eletrico-multiuso-inox-oster-2-em-1/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-ogrl610-oficial",
+        "valorDivergente": "Consumo \"1,2 KW/H\"",
+        "fonteDivergente": "oster-ogrl610-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **1,2 KW/H**, que é exatamente a potência declarada de 1200 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ]
   },
   {
     "slug": "electrolux-esg20",
@@ -1142,6 +1178,1356 @@
       "alt": "Churrasqueira elétrica de mesa Elgin BBQ Show, com grelha e espetinhos",
       "credito": "Imagem: Elgin",
       "origem": "https://www.elgin.com.br/churrasqueira-bbq-show---amplo-grill-controle-de-temperatura/p"
+    }
+  },
+  {
+    "slug": "mondial-pg-01",
+    "nome": "Mondial Master Press PG-01",
+    "marca": "Mondial",
+    "modelo": "PG-01",
+    "categoria": "sanduicheiras",
+    "resumo": "1.000 W com chapa dupla ajustável, luz indicadora e 1,1 kg. Declara \"controle de temperatura: não\" e \"bandeja coletora: não\" — duas ausências ditas.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": "Dupla antiaderente e ajustável",
+      "revestimento": "Antiaderente",
+      "potenciaW": 1000,
+      "consumoKwh": null,
+      "controleTemperatura": false,
+      "luzIndicadora": true,
+      "bandejaColetora": false,
+      "travaFechamento": null,
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.1,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07QK9H4W4"
+    },
+    "fontes": [
+      {
+        "id": "mondial-pg-01-oficial",
+        "titulo": "Mondial Master Press PG-01 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/press-grill-mondial-pg-01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, chapa dupla antiaderente e ajustável, luz indicadora, **controle de temperatura: Não**, **bandeja coletora: Não**, guarda-fio: Não, cabo de 1,50 m, corpo em PP, 1,100 kg, 127V/220V e 1 ano de garantia. Não declara quantos sanduíches cabem por vez nem as dimensões.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-pg-01-amazon",
+        "titulo": "Mondial Master Press PG-01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07QK9H4W4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"MONDIAL Press Grill Sanduicheira Master Press, Preto/Inox, 1000W, 220V - PG-01\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-pg-01.webp",
+      "alt": "Grill Mondial Master Press PG-01 aberto, com hambúrgueres na chapa",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/press-grill-mondial-pg-01/p"
+    }
+  },
+  {
+    "slug": "mondial-pg-01-180",
+    "nome": "Mondial Master Press Duo 180 PG-01-180",
+    "marca": "Mondial",
+    "modelo": "PG-01-180",
+    "categoria": "sanduicheiras",
+    "resumo": "Mesmos 1.000 W do PG-01, com bandeja coletora e guarda-fio — e um cabo de 70 cm, menos da metade do da irmã.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": "Antiaderente",
+      "revestimento": "Antiaderente",
+      "potenciaW": 1000,
+      "consumoKwh": null,
+      "controleTemperatura": false,
+      "luzIndicadora": true,
+      "bandejaColetora": true,
+      "travaFechamento": null,
+      "comprimentoCaboM": 0.7,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.17,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CKGCHWQN"
+    },
+    "divergencias": [
+      {
+        "campo": "comprimentoCaboM",
+        "fonteAdotada": "mondial-pg-01-180-oficial",
+        "valorDivergente": "1,50 m nas fichas do PG-01 e do PG-01-RC",
+        "fonteDivergente": "mondial-pg-01-180-oficial",
+        "observacao": "O campo de cabo desta ficha traz **0,70 M**, enquanto as duas irmãs da mesma linha e da mesma potência declaram 1,50 m. Setenta centímetros é curto para um aparelho de bancada, e por isso o número foi adotado como está: não é impossível, é só metade do padrão da própria linha. Fica registrado porque é a diferença que decide se o grill alcança a tomada da cozinha."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-pg-01-180-oficial",
+        "titulo": "Mondial Master Press Duo 180 PG-01-180 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/master-press-grill-duo-mondial-preto-inox-pg-01-180/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, chapa antiaderente, **bandeja coletora: Sim**, luz indicadora, **controle de temperatura: Não**, guarda-fio: Sim, cabo de 0,70 m, corpo em PP e inox, 1,17 kg, 127V/220V e 1 ano de garantia. Funciona como grill, chapa e sanduicheira, segundo o campo de tipo de preparo. Não declara quantos sanduíches cabem por vez.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-pg-01-180-amazon",
+        "titulo": "Mondial Master Press Duo 180 PG-01-180 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CKGCHWQN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"MONDIAL Master Press Duo 180, Preto/Inox, 1000W, 220V - PG-01-180\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-pg-01-180.webp",
+      "alt": "Grill Mondial PG-01-180 aberto em 180 graus, com hambúrgueres e pães nas duas chapas",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/master-press-grill-duo-mondial-preto-inox-pg-01-180/p"
+    }
+  },
+  {
+    "slug": "mondial-pg-01-rc",
+    "nome": "Mondial Press Grill Red Ceramic PG-01-RC",
+    "marca": "Mondial",
+    "modelo": "PG-01-RC",
+    "categoria": "sanduicheiras",
+    "resumo": "O único dos três Press Grill que declara controle de temperatura, com chapa de cerâmica. O campo de cor diz \"Prata\" num produto chamado Red Ceramic.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": "Antiaderente em cerâmica e ajustável",
+      "revestimento": "Cerâmico",
+      "potenciaW": 1000,
+      "consumoKwh": null,
+      "controleTemperatura": true,
+      "luzIndicadora": true,
+      "bandejaColetora": false,
+      "travaFechamento": null,
+      "comprimentoCaboM": 1.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.1,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B099FF3T7X"
+    },
+    "divergencias": [
+      {
+        "campo": "tipoChapa",
+        "fonteAdotada": "mondial-pg-01-rc-oficial",
+        "valorDivergente": "campo \"Cor\" com \"Prata\"",
+        "fonteDivergente": "mondial-pg-01-rc-oficial",
+        "observacao": "O produto se chama **Press Grill Red Ceramic** e o anúncio da Amazon o vende como \"Vermelho/Inox\". O campo \"Cor\" da ficha oficial traz **\"Prata\"**. A ficha do irmão PG-01, que a Mondial anuncia como Preto/Inox, também traz \"Prata\" no mesmo campo — o que sugere um valor padrão repetido, e não a cor de cada aparelho."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-pg-01-rc-oficial",
+        "titulo": "Mondial Press Grill Red Ceramic PG-01-RC — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/press-grill-red-ceramic-mondial-pg-01-rc/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, chapa antiaderente em cerâmica e ajustável, **controle de temperatura: Sim**, luz indicadora, bandeja coletora: Não, guarda-fio: Não, cabo de 1,50 m, corpo em PP e inox, 1,100 kg, 127V/220V e 1 ano de garantia. O campo \"Cor\" traz \"Prata\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-pg-01-rc-amazon",
+        "titulo": "Mondial Press Grill Red Ceramic PG-01-RC — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B099FF3T7X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"MONDIAL Press Grill Master Press, Vermelho/Inox, 1000W, 127V - PG-01-RC\". A cor do anúncio diverge da do campo oficial, e está registrada como divergência. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-pg-01-rc.webp",
+      "alt": "Grill Mondial PG-01-RC vermelho, aberto, com sanduíches nas chapas",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/press-grill-red-ceramic-mondial-pg-01-rc/p"
+    }
+  },
+  {
+    "slug": "britania-bgr20",
+    "nome": "Britânia BGR20",
+    "marca": "Britânia",
+    "modelo": "BGR20",
+    "categoria": "sanduicheiras",
+    "resumo": "1500 W e dois sanduíches por vez, com trava de fechamento. Como em toda sanduicheira da Britânia, a ficha não traz peso, medida nem comprimento de cabo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": "Retangular",
+      "revestimento": "Antiaderente",
+      "potenciaW": 1500,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CJ3V4GNS"
+    },
+    "fontes": [
+      {
+        "id": "britania-bgr20-oficial",
+        "titulo": "Britânia BGR20 — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/sanduicheira-e-grill-bgr20-127v-066701196/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1500 W, dois sanduíches por vez, trava de fechamento, revestimento antiaderente, chapa retangular e 360 dias de garantia. A ficha não traz peso, dimensões, comprimento de cabo, luz indicadora, bandeja coletora nem controle de temperatura.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bgr20-amazon",
+        "titulo": "Britânia BGR20 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CJ3V4GNS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Britânia Sanduicheira e Grill BGR20 2 em 1 1500W 127V Moderno Plástico\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bgr20.webp",
+      "alt": "Sanduicheira e grill Britânia BGR20 preta, fechada",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/sanduicheira-e-grill-bgr20-127v-066701196/p"
+    }
+  },
+  {
+    "slug": "britania-bgr01p",
+    "nome": "Britânia Toast BGR01P",
+    "marca": "Britânia",
+    "modelo": "BGR01P",
+    "categoria": "sanduicheiras",
+    "resumo": "750 W e dois sanduíches por vez, com trava de fechamento. Como em toda sanduicheira da Britânia, a ficha não traz peso, medida nem comprimento de cabo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076HVGJNH"
+    },
+    "fontes": [
+      {
+        "id": "britania-bgr01p-oficial",
+        "titulo": "Britânia Toast BGR01P — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/grill-e-sanduicheira-britania-toast-bgr01p-preto-750w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 W, dois sanduíches por vez, trava de fechamento, revestimento antiaderente e 360 dias de garantia. A ficha não traz peso, dimensões, comprimento de cabo, luz indicadora, bandeja coletora nem controle de temperatura.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bgr01p-amazon",
+        "titulo": "Britânia Toast BGR01P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076HVGJNH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Britânia Grill, Toast Bgr01p, 750W, Preto, 220v\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bgr01p.webp",
+      "alt": "Sanduicheira e grill Britânia Toast BGR01P preta, fechada",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/grill-e-sanduicheira-britania-toast-bgr01p-preto-750w/p"
+    }
+  },
+  {
+    "slug": "britania-bgr28a",
+    "nome": "Britânia BGR28A",
+    "marca": "Britânia",
+    "modelo": "BGR28A",
+    "categoria": "sanduicheiras",
+    "resumo": "1200 W e dois sanduíches por vez, com trava de fechamento. Como em toda sanduicheira da Britânia, a ficha não traz peso, medida nem comprimento de cabo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": 2,
+      "abertura180": true,
+      "tipoChapa": "Retangular",
+      "revestimento": "Antiaderente Redstone",
+      "potenciaW": 1200,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GHZHB64V"
+    },
+    "fontes": [
+      {
+        "id": "britania-bgr28a-oficial",
+        "titulo": "Britânia BGR28A — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/grill-sanduicheira-britania-2-em-1-bgr28a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1200 W, dois sanduíches por vez, trava de fechamento, revestimento antiaderente redstone, chapa retangular e 360 dias de garantia. A ficha não traz peso, dimensões, comprimento de cabo, luz indicadora, bandeja coletora nem controle de temperatura.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bgr28a-amazon",
+        "titulo": "Britânia BGR28A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GHZHB64V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Britânia Grill e Sanduicheira 2 em 1 c/Abertura 180º BGR28A 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bgr28a.webp",
+      "alt": "Grill e sanduicheira Britânia BGR28A aberto em 180 graus",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/grill-sanduicheira-britania-2-em-1-bgr28a/p"
+    }
+  },
+  {
+    "slug": "britania-bello-pane",
+    "nome": "Britânia Bello Pane",
+    "marca": "Britânia",
+    "modelo": "Bello Pane",
+    "categoria": "sanduicheiras",
+    "resumo": "750 W e dois sanduíches por vez, com trava de fechamento. Como em toda sanduicheira da Britânia, a ficha não traz peso, medida nem comprimento de cabo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B079BX665Z"
+    },
+    "fontes": [
+      {
+        "id": "britania-bello-pane-oficial",
+        "titulo": "Britânia Bello Pane — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/066701096-sand-bello-pane-inox/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 W, dois sanduíches por vez, trava de fechamento, revestimento antiaderente e 360 dias de garantia. A ficha não traz peso, dimensões, comprimento de cabo, luz indicadora, bandeja coletora nem controle de temperatura.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bello-pane-amazon",
+        "titulo": "Britânia Bello Pane — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B079BX665Z",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Britânia Sanduicheira Bello Pane Britania Portateis Importados Compacto Branco/Inox\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bello-pane.webp",
+      "alt": "Sanduicheira Britânia Bello Pane branca, fechada",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/066701096-sand-bello-pane-inox/p"
+    }
+  },
+  {
+    "slug": "philco-pgr31",
+    "nome": "Philco PGR31",
+    "marca": "Philco",
+    "modelo": "PGR31",
+    "categoria": "sanduicheiras",
+    "resumo": "1500 W com chapa quadrada. A ficha da Philco para esta categoria não traz peso, medida nem cabo. O \"7 níveis de temperatura\" está no nome.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": "Quadrada",
+      "revestimento": "Antiaderente",
+      "potenciaW": 1500,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": false,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CWLMNZCP"
+    },
+    "fontes": [
+      {
+        "id": "philco-pgr31-oficial",
+        "titulo": "Philco PGR31 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/grill-pgr31-127v-056701052/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1500 W, chapa quadrada, revestimento antiaderente e 360 dias de garantia. O nome do produto anuncia \"7 Níveis de temperatura\", e a ficha não tem campo de níveis de temperatura. A ficha não traz peso, dimensões, comprimento de cabo, luz indicadora nem bandeja coletora.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pgr31-amazon",
+        "titulo": "Philco PGR31 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CWLMNZCP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Philco Grill PGR31 7 Níveis de temperatura 1500W 127V Moderno Aço inoxidável\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pgr31.webp",
+      "alt": "Grill Philco PGR31 de chapa quadrada, inox, visto de frente",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/grill-pgr31-127v-056701052/p"
+    }
+  },
+  {
+    "slug": "philco-pgr26a",
+    "nome": "Philco Maxx Clean PGR26A",
+    "marca": "Philco",
+    "modelo": "PGR26A",
+    "categoria": "sanduicheiras",
+    "resumo": "800 W com chapa retangular. A ficha da Philco para esta categoria não traz peso, medida nem cabo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": 2,
+      "abertura180": null,
+      "tipoChapa": "Retangular",
+      "revestimento": "Antiaderente",
+      "potenciaW": 800,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": true,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H1D9727F"
+    },
+    "fontes": [
+      {
+        "id": "philco-pgr26a-oficial",
+        "titulo": "Philco Maxx Clean PGR26A — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/sanduicheira-grill-philco-2-em-1-inox-800w-pgr26a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, chapa retangular, revestimento antiaderente e 360 dias de garantia. A ficha não traz peso, dimensões, comprimento de cabo, luz indicadora nem bandeja coletora.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pgr26a-amazon",
+        "titulo": "Philco Maxx Clean PGR26A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H1D9727F",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Philco Sanduicheira e Grill 2 em 1 Inox 800W 127v PGR26A - Revestimento Maxx Clean\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pgr26a.webp",
+      "alt": "Sanduicheira e grill Philco PGR26A inox, fechada",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/sanduicheira-grill-philco-2-em-1-inox-800w-pgr26a/p"
+    }
+  },
+  {
+    "slug": "philco-pgr25a",
+    "nome": "Philco PGR25A",
+    "marca": "Philco",
+    "modelo": "PGR25A",
+    "categoria": "sanduicheiras",
+    "resumo": "750 W com chapa quadrada. A ficha da Philco para esta categoria não traz peso, medida nem cabo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": "Quadrada",
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DXMWLH8L"
+    },
+    "fontes": [
+      {
+        "id": "philco-pgr25a-oficial",
+        "titulo": "Philco PGR25A — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/sanduicheira-e-grill-pgr25a-127v-056701055/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 W, chapa quadrada, revestimento antiaderente e 360 dias de garantia. A ficha não traz peso, dimensões, comprimento de cabo, luz indicadora nem bandeja coletora.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pgr25a-amazon",
+        "titulo": "Philco PGR25A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DXMWLH8L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Philco Sanduicheira e Grill 2 em 1 Antiaderente 750W PGR25A 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pgr25a.webp",
+      "alt": "Sanduicheira e grill Philco PGR25A preta, fechada",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/sanduicheira-e-grill-pgr25a-127v-056701055/p"
+    }
+  },
+  {
+    "slug": "cadence-san230",
+    "nome": "Cadence SanduGrill SAN230",
+    "marca": "Cadence",
+    "modelo": "SAN230",
+    "categoria": "sanduicheiras",
+    "resumo": "750 W, 0,850 kg e as três dimensões declaradas. A Cadence publica peso e medida em toda a linha, e um campo de consumo que repete a potência dividida por mil.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.85,
+      "dimensoesMm": "217 × 72 × 217 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DKZ1W335"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-san230-oficial",
+        "valorDivergente": "Consumo \"0,75 KW/h\"",
+        "fonteDivergente": "cadence-san230-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 KW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-san230-oficial",
+        "titulo": "Cadence SanduGrill SAN230 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-sandugrill-preta/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 W, 0,850 kg, 217 × 72 × 217 mm (L × A × P), bivolt e 12 meses de garantia. Publica também o código de barras, as medidas da embalagem e o código do produto. O campo \"Consumo\" traz \"0,75 KW/h\", que é a potência dividida por mil, e não foi adotado. Não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem comprimento do cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-san230-amazon",
+        "titulo": "Cadence SanduGrill SAN230 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DKZ1W335",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Sanduicheira Elétrica Cadence SanduGrill Preta SAN230 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-san230.webp",
+      "alt": "Sanduicheira Cadence SanduGrill SAN230 preta, fechada",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-sandugrill-preta/p"
+    }
+  },
+  {
+    "slug": "cadence-san615",
+    "nome": "Cadence Toast & Grill Prime Inox SAN615",
+    "marca": "Cadence",
+    "modelo": "SAN615",
+    "categoria": "sanduicheiras",
+    "resumo": "750 W, 0,950 kg e as três dimensões declaradas. A Cadence publica peso e medida em toda a linha, e um campo de consumo que repete a potência dividida por mil.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.95,
+      "dimensoesMm": "215 × 85 × 220 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B71TXZQB"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-san615-oficial",
+        "valorDivergente": "Consumo \"0,75KW/h\"",
+        "fonteDivergente": "cadence-san615-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75KW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-san615-oficial",
+        "titulo": "Cadence Toast & Grill Prime Inox SAN615 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill-prime-inox/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 W, 0,950 kg, 215 × 85 × 220 mm (L × A × P), bivolt e 12 meses de garantia. Publica também o código de barras, as medidas da embalagem e o código do produto. O campo \"Consumo\" traz \"0,75KW/h\", que é a potência dividida por mil, e não foi adotado. Não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem comprimento do cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-san615-amazon",
+        "titulo": "Cadence Toast & Grill Prime Inox SAN615 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B71TXZQB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Sanduicheira Cadence Com Inox 127V - SAN615\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-san615.webp",
+      "alt": "Sanduicheira Cadence SAN615 com tampa de inox, fechada",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill-prime-inox/p"
+    }
+  },
+  {
+    "slug": "cadence-san265",
+    "nome": "Cadence Toast & Grill Branca SAN265",
+    "marca": "Cadence",
+    "modelo": "SAN265",
+    "categoria": "sanduicheiras",
+    "resumo": "750 W, 0,900 kg e as três dimensões declaradas. A Cadence publica peso e medida em toda a linha, e um campo de consumo que repete a potência dividida por mil.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 750,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 0.9,
+      "dimensoesMm": "215 × 80 × 215 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09RNBGJNC"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-san265-oficial",
+        "valorDivergente": "Consumo \"0,75 KW/h\"",
+        "fonteDivergente": "cadence-san265-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 KW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-san265-oficial",
+        "titulo": "Cadence Toast & Grill Branca SAN265 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill-branca/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 W, 0,900 kg, 215 × 80 × 215 mm (L × A × P), bivolt e 12 meses de garantia. Publica também o código de barras, as medidas da embalagem e o código do produto. O campo \"Consumo\" traz \"0,75 KW/h\", que é a potência dividida por mil, e não foi adotado. Não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem comprimento do cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-san265-amazon",
+        "titulo": "Cadence Toast & Grill Branca SAN265 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09RNBGJNC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Sanduicheira Elétrica Cadence Toast & Grill Branca - 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-san265.webp",
+      "alt": "Sanduicheira Cadence SAN265 branca, fechada",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill-branca/p"
+    }
+  },
+  {
+    "slug": "cadence-grl616",
+    "nome": "Cadence Grill Multiuso Contrast GRL616",
+    "marca": "Cadence",
+    "modelo": "GRL616",
+    "categoria": "sanduicheiras",
+    "resumo": "1000 W, 1,240 kg e as três dimensões declaradas. A Cadence publica peso e medida em toda a linha, e um campo de consumo que repete a potência dividida por mil.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 1000,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.24,
+      "dimensoesMm": "280 × 90 × 245 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B7SMZ8G6"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-grl616-oficial",
+        "valorDivergente": "Consumo \"1,0 KW/H\"",
+        "fonteDivergente": "cadence-grl616-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **1,0 KW/H**, que é exatamente a potência declarada de 1000 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-grl616-oficial",
+        "titulo": "Cadence Grill Multiuso Contrast GRL616 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/grill-cadence-multiuso-contrast/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1000 W, 1,240 kg, 280 × 90 × 245 mm (L × A × P), bivolt e 12 meses de garantia. Publica também o código de barras, as medidas da embalagem e o código do produto. O campo \"Consumo\" traz \"1,0 KW/H\", que é a potência dividida por mil, e não foi adotado. Não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem comprimento do cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-grl616-amazon",
+        "titulo": "Cadence Grill Multiuso Contrast GRL616 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B7SMZ8G6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Grill Cadence duas chapas, 220V, GRL616\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-grl616.webp",
+      "alt": "Grill Cadence GRL616 aberto, com alimentos nas duas chapas",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/grill-cadence-multiuso-contrast/p"
+    }
+  },
+  {
+    "slug": "cadence-grl621",
+    "nome": "Cadence Grill Inox Chapa Firme GRL621",
+    "marca": "Cadence",
+    "modelo": "GRL621",
+    "categoria": "sanduicheiras",
+    "resumo": "1200 W, 2,100 kg e as três dimensões declaradas. A Cadence publica peso e medida em toda a linha, e um campo de consumo que repete a potência dividida por mil.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 1200,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.1,
+      "dimensoesMm": "315 × 125 × 362 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B7SP6TD4"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-grl621-oficial",
+        "valorDivergente": "Consumo \"1,2 kW/h | 1,6 kW/h\"",
+        "fonteDivergente": "cadence-grl621-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **1,2 kW/h | 1,6 kW/h**, que é exatamente a potência declarada de 1200 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio. A própria marca publica, em outros modelos da mesma loja, estimativas mensais coerentes — 24 kWh/mês para 800 W, 36 kWh/mês para 1.200 W —, o que mostra que as duas formas convivem no mesmo catálogo."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-grl621-oficial",
+        "titulo": "Cadence Grill Inox Chapa Firme GRL621 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/grill-cadence-inox-chapa-firme/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1200 W, 2,100 kg, 315 × 125 × 362 mm (L × A × P), bivolt e 12 meses de garantia. Publica também o código de barras, as medidas da embalagem e o código do produto. O campo \"Consumo\" traz \"1,2 kW/h | 1,6 kW/h\", que é a potência dividida por mil, e não foi adotado. Não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem comprimento do cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-grl621-amazon",
+        "titulo": "Cadence Grill Inox Chapa Firme GRL621 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B7SP6TD4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Grill Cadence, 127V, GRL621\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-grl621.webp",
+      "alt": "Grill Cadence GRL621 aberto, com hambúrgueres e pães",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/grill-cadence-inox-chapa-firme/p"
+    }
+  },
+  {
+    "slug": "cadence-grl200",
+    "nome": "Cadence Grill Click Inox GRL200",
+    "marca": "Cadence",
+    "modelo": "GRL200",
+    "categoria": "sanduicheiras",
+    "resumo": "1.200 W, e o único grill da Cadence cujo campo de consumo traz uma estimativa mensal coerente: 36 kWh/mês, que é uma hora por dia.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": "Uma lisa e uma ondulada",
+      "revestimento": "Antiaderente",
+      "potenciaW": 1200,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 1.314,
+      "dimensoesMm": "270 × 76 × 227 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FXBF4VVZ"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-grl200-oficial",
+        "valorDivergente": "Consumo \"36,00 kWh/mês\"",
+        "fonteDivergente": "cadence-grl200-oficial",
+        "observacao": "Este campo traz **36,00 kWh/mês**, que é uma estimativa coerente: 1.200 W ligados por uma hora ao dia dão 36 kWh no mês. É o valor correto — e é a exceção na própria loja. Os outros cinco grills e sanduicheiras da Cadence nesta base trazem no mesmo campo a potência dividida por mil: \"0,75 KW/h\" para 750 W, \"1,0 KW/H\" para 1.000 W, \"1,2 kW/h\" para 1.200 W. **Duas formas convivem no mesmo catálogo, com um fator de trinta entre elas**, e por isso nenhuma foi adotada em ficha nenhuma da categoria."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-grl200-oficial",
+        "titulo": "Cadence Grill Click Inox GRL200 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/grill-eletrico-cadence-click-inox/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.200 W, 1,314 kg, 270 × 76 × 227 mm, chapas antiaderentes lisa e ondulada, bivolt e 12 meses de garantia. O campo \"Consumo\" traz **36,00 kWh/mês**, que é a forma coerente. Não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem comprimento do cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-grl200-amazon",
+        "titulo": "Cadence Grill Click Inox GRL200 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FXBF4VVZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Cadence Grill Elétrico Click, 1200W, GRL200, 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-grl200.webp",
+      "alt": "Grill Cadence Click Inox GRL200 aberto, com tampa de inox",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/grill-eletrico-cadence-click-inox/p"
+    }
+  },
+  {
+    "slug": "arno-gp01",
+    "nome": "Arno Perfect Grill GP01",
+    "marca": "Arno",
+    "modelo": "GP01",
+    "categoria": "sanduicheiras",
+    "resumo": "1830 W em 127 V, com registro no INMETRO declarado. A Arno é a única marca da categoria que publica o número do certificado.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 1830,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 5.2,
+      "dimensoesMm": "365 × 175 × 365 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DWV9JTWK"
+    },
+    "fontes": [
+      {
+        "id": "arno-gp01-oficial",
+        "titulo": "Arno Perfect Grill GP01 — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/-grill-arno-perfect-grill-gp01-7211005240-p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1830 W em 127 V, registro no INMETRO UL-BR 24.1876, revestimento antiaderente, 5,2 kg e 1 ano de garantia. A ficha não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem controle de temperatura em campo próprio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-gp01-amazon",
+        "titulo": "Arno Perfect Grill GP01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DWV9JTWK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Grill Elétrico Arno Perfect Grill GP01, Inox, com 6 Programas\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-gp01.webp",
+      "alt": "Grill Arno Perfect Grill GP01 inox, aberto, com painel de programas",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/-grill-arno-perfect-grill-gp01-7211005240-p/p"
+    }
+  },
+  {
+    "slug": "arno-gnox",
+    "nome": "Arno Dual Inox GNOX",
+    "marca": "Arno",
+    "modelo": "GNOX",
+    "categoria": "sanduicheiras",
+    "resumo": "1100 W em 127 V, com registro no INMETRO declarado. A Arno é a única marca da categoria que publica o número do certificado.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 1100,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": 0.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 2.0,
+      "dimensoesMm": "250 × 130 × 200 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07GF7D9JD"
+    },
+    "fontes": [
+      {
+        "id": "arno-gnox-oficial",
+        "titulo": "Arno Dual Inox GNOX — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/grill-arno-dual-inox-gnox-8010000261-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1100 W em 127 V, registro no INMETRO UL-BR 122017-101463314/3, revestimento antiaderente, cabo de 50 cm, 2,0 kg e 1 ano de garantia. O campo \"Consumo (kW/h*/mês)\" traz \"0,83 kW/h*/mês\". A ficha não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem controle de temperatura em campo próprio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-gnox-amazon",
+        "titulo": "Arno Dual Inox GNOX — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07GF7D9JD",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Grill Arno Dual Inox GNOX - Abertura 180°, Ajuste Altura e Controle de Temperatura, 110V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-gnox.webp",
+      "alt": "Grill Arno Dual Inox GNOX aberto, com sanduíches na chapa",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/grill-arno-dual-inox-gnox-8010000261-pai/p"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "arno-gnox-oficial",
+        "valorDivergente": "Consumo \"0,83 kW/h*/mês\"",
+        "fonteDivergente": "arno-gnox-oficial",
+        "observacao": "O campo \"Consumo (kW/h*/mês)\" traz **0,83 kW/h*/mês** para um aparelho de 1100 W. O asterisco não tem nota de rodapé na página, então não há como saber quantas horas de uso a conta assume. E os números da própria Arno não guardam proporção entre si: 700 W dão 0,56, 1.100 W dão 0,83 e 1.200 W dão 4,8 — um salto de seis vezes entre os dois últimos, para 100 W de diferença. O campo não foi adotado."
+      }
+    ]
+  },
+  {
+    "slug": "arno-ggra",
+    "nome": "Arno Super Grill XL GGRA",
+    "marca": "Arno",
+    "modelo": "GGRA",
+    "categoria": "sanduicheiras",
+    "resumo": "1200 W em 127 V, com registro no INMETRO declarado. A Arno é a única marca da categoria que publica o número do certificado.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Grill 2 em 1 com abertura 180°",
+      "sanduichesPorVez": null,
+      "abertura180": true,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 1200,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": 0.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": 3.0,
+      "dimensoesMm": "175 × 391 × 365 mm (L × A × P)",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B085M2W6JY"
+    },
+    "fontes": [
+      {
+        "id": "arno-ggra-oficial",
+        "titulo": "Arno Super Grill XL GGRA — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/super-grill-arno-inox-ggra-2100116273-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1200 W em 127 V, registro no INMETRO UL-BR 122017-101463314/1, revestimento antiaderente, cabo de 50 cm, 3,0 kg e 1 ano de garantia. O campo \"Consumo (kW/h*/mês)\" traz \"4,8 kW/h*/mês\". A ficha não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem controle de temperatura em campo próprio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-ggra-amazon",
+        "titulo": "Arno Super Grill XL GGRA — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B085M2W6JY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Grill Super Inox Arno XL GGRA - Grande Capacidade com Abertura 180° e Placas Antiaderentes\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-ggra.webp",
+      "alt": "Grill Arno Super Grill XL GGRA inox, aberto",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/super-grill-arno-inox-ggra-2100116273-pai/p"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "arno-ggra-oficial",
+        "valorDivergente": "Consumo \"4,8 kW/h*/mês\"",
+        "fonteDivergente": "arno-ggra-oficial",
+        "observacao": "O campo \"Consumo (kW/h*/mês)\" traz **4,8 kW/h*/mês** para um aparelho de 1200 W. O asterisco não tem nota de rodapé na página, então não há como saber quantas horas de uso a conta assume. E os números da própria Arno não guardam proporção entre si: 700 W dão 0,56, 1.100 W dão 0,83 e 1.200 W dão 4,8 — um salto de seis vezes entre os dois últimos, para 100 W de diferença. O campo não foi adotado."
+      }
+    ]
+  },
+  {
+    "slug": "arno-sacs",
+    "nome": "Arno Sanduicheira Inox SACS",
+    "marca": "Arno",
+    "modelo": "SACS",
+    "categoria": "sanduicheiras",
+    "resumo": "700 W em 127 V, com registro no INMETRO declarado. A Arno é a única marca da categoria que publica o número do certificado.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 700,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": 0.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076X6K3Z7"
+    },
+    "fontes": [
+      {
+        "id": "arno-sacs-oficial",
+        "titulo": "Arno Sanduicheira Inox SACS — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/sanduicheira-arno-inox-sacs-110v-8000035846-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "700 W em 127 V, registro no INMETRO UL-BR 19.1344, revestimento antiaderente, cabo de 50 cm e 1 ano de garantia. O campo \"Consumo (kW/h*/mês)\" traz \"0,56 kW/h*/mês\". A ficha não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem controle de temperatura em campo próprio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-sacs-amazon",
+        "titulo": "Arno Sanduicheira Inox SACS — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076X6K3Z7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Sanduicheira e Grill Arno SACS, Antiaderente, Inox, 110V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-sacs.webp",
+      "alt": "Sanduicheira Arno SACS com tampa de inox, fechada",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/sanduicheira-arno-inox-sacs-110v-8000035846-pai/p"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "arno-sacs-oficial",
+        "valorDivergente": "Consumo \"0,56 kW/h*/mês\"",
+        "fonteDivergente": "arno-sacs-oficial",
+        "observacao": "O campo \"Consumo (kW/h*/mês)\" traz **0,56 kW/h*/mês** para um aparelho de 700 W. O asterisco não tem nota de rodapé na página, então não há como saber quantas horas de uso a conta assume. E os números da própria Arno não guardam proporção entre si: 700 W dão 0,56, 1.100 W dão 0,83 e 1.200 W dão 4,8 — um salto de seis vezes entre os dois últimos, para 100 W de diferença. O campo não foi adotado."
+      }
+    ]
+  },
+  {
+    "slug": "arno-sacb",
+    "nome": "Arno Sanduicheira SACB",
+    "marca": "Arno",
+    "modelo": "SACB",
+    "categoria": "sanduicheiras",
+    "resumo": "700 W em 127 V, com registro no INMETRO declarado. A Arno é a única marca da categoria que publica o número do certificado.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": "Antiaderente",
+      "potenciaW": 700,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": null,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": 0.5,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076X81YCR"
+    },
+    "fontes": [
+      {
+        "id": "arno-sacb-oficial",
+        "titulo": "Arno Sanduicheira SACB — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/-sanduicheira-arno-sacb-preta-8000035844-pai-p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "700 W em 127 V, registro no INMETRO UL-BR 19.1344, revestimento antiaderente, cabo de 50 cm e 1 ano de garantia. O campo \"Consumo (kW/h*/mês)\" traz \"0,56 kW/h*/mês\". A ficha não declara quantos sanduíches cabem por vez, luz indicadora, bandeja coletora nem controle de temperatura em campo próprio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-sacb-amazon",
+        "titulo": "Arno Sanduicheira SACB — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076X81YCR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Sanduicheira e Grill Arno SACB, Antiaderente, Preta, 110V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-sacb.webp",
+      "alt": "Sanduicheira Arno SACB preta, fechada",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/-sanduicheira-arno-sacb-preta-8000035844-pai-p/p"
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "arno-sacb-oficial",
+        "valorDivergente": "Consumo \"0,56 kW/h*/mês\"",
+        "fonteDivergente": "arno-sacb-oficial",
+        "observacao": "O campo \"Consumo (kW/h*/mês)\" traz **0,56 kW/h*/mês** para um aparelho de 700 W. O asterisco não tem nota de rodapé na página, então não há como saber quantas horas de uso a conta assume. E os números da própria Arno não guardam proporção entre si: 700 W dão 0,56, 1.100 W dão 0,83 e 1.200 W dão 4,8 — um salto de seis vezes entre os dois últimos, para 100 W de diferença. O campo não foi adotado."
+      }
+    ]
+  },
+  {
+    "slug": "elgin-duo-time",
+    "nome": "Elgin Duo Time",
+    "marca": "Elgin",
+    "modelo": "Duo Time",
+    "categoria": "sanduicheiras",
+    "resumo": "800 W, e a única marca da categoria que declara proteção contra superaquecimento e armazenamento vertical em campo próprio.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": null,
+      "potenciaW": 800,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GRCH1MJR"
+    },
+    "fontes": [
+      {
+        "id": "elgin-duo-time-oficial",
+        "titulo": "Elgin Duo Time — ficha oficial do fabricante",
+        "url": "https://www.elgin.com.br/sanduicheira-duo-time-800w-aquecimento-duplo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, duas chapas com formatos diferentes, **proteção contra superaquecimento: Sim**, luz indicadora de funcionamento, porta-fios, **armazenamento vertical: Sim**, pés antiderrapantes e dispositivo de segurança. A Elgin é a única marca da categoria com esses campos. Em compensação, a ficha não traz peso, dimensões, comprimento de cabo, quantos sanduíches cabem por vez nem prazo de garantia em campo — os 12 meses vieram do padrão declarado pela marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-duo-time-amazon",
+        "titulo": "Elgin Duo Time — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GRCH1MJR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Sanduicheira Duo Time Elgin – 800W Aquecimento Duplo - 220v\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-duo-time.webp",
+      "alt": "Sanduicheira Elgin Duo Time preta, fechada",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/sanduicheira-duo-time-800w-aquecimento-duplo/p"
+    }
+  },
+  {
+    "slug": "elgin-fast-time",
+    "nome": "Elgin Fast Time",
+    "marca": "Elgin",
+    "modelo": "Fast Time",
+    "categoria": "sanduicheiras",
+    "resumo": "800 W, e a única marca da categoria que declara proteção contra superaquecimento e armazenamento vertical em campo próprio.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Sanduicheira e grill 2 em 1",
+      "sanduichesPorVez": null,
+      "abertura180": null,
+      "tipoChapa": null,
+      "revestimento": null,
+      "potenciaW": 800,
+      "consumoKwh": null,
+      "controleTemperatura": null,
+      "luzIndicadora": true,
+      "bandejaColetora": null,
+      "travaFechamento": null,
+      "comprimentoCaboM": null,
+      "tensao": "127 V ou 220 V",
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GXWP2P6N"
+    },
+    "fontes": [
+      {
+        "id": "elgin-fast-time-oficial",
+        "titulo": "Elgin Fast Time — ficha oficial do fabricante",
+        "url": "https://www.elgin.com.br/sanduicheira-fast-time-800w-placas-duplas/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, placas duplas, **proteção contra superaquecimento: Sim**, luz indicadora de funcionamento, porta-fios, **armazenamento vertical: Sim**, pés antiderrapantes e dispositivo de segurança. A Elgin é a única marca da categoria com esses campos. Em compensação, a ficha não traz peso, dimensões, comprimento de cabo, quantos sanduíches cabem por vez nem prazo de garantia em campo — os 12 meses vieram do padrão declarado pela marca.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-fast-time-amazon",
+        "titulo": "Elgin Fast Time — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GXWP2P6N",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Sanduicheira Fast Time Elgin – 800W Placas Duplas 110V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-fast-time.webp",
+      "alt": "Sanduicheira Elgin Fast Time preta com detalhe inox, fechada",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/sanduicheira-fast-time-800w-placas-duplas/p"
     }
   }
 ]

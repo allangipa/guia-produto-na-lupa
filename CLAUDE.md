@@ -388,7 +388,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 480 produtos em 28 categorias, 28 guias,
+- **Inventário em 26/09/2026: 503 produtos em 28 categorias, 28 guias,
   46 comparativos e 21 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -466,6 +466,22 @@ confunde com documento sem folha de estilo.
   **`lib/departamentos.ts`** (sem isso a categoria não aparece na navegação e o
   build para) e `dados/<slug>.json`. Mais as três peças editoriais que a regra
   do projeto pede.
+
+- **O campo "consumo" é armadilha de mercado, e o site já caiu nela.** Em
+  26/09/2026, quatro fichas de sanduicheira publicavam `consumoKwh` com um
+  valor que era exatamente a potência dividida por mil — Cadence SAN400 e
+  SAN260, Oster OGRL230 e OGRL610. Não é consumo: consumo depende de quanto
+  tempo o aparelho fica ligado. Era o watt renomeado, e **este site o
+  republicou como se fosse um segundo dado**. Os quatro campos foram
+  esvaziados com a divergência escrita.
+
+  O erro é do mercado, não de uma marca: Philco, Britânia, Arno, Electrolux,
+  Oster e Cadence fazem isso, em secador, batedeira e sanduicheira. Mas a
+  mesma Cadence publica "36,00 kWh/mês" no grill GRL200 e "24,00 kWh/mês" na
+  sanduicheira SAN405, que são contas certas — as duas formas convivem no
+  mesmo catálogo, com fator de trinta entre elas. **Ao apurar qualquer
+  categoria, conferir se o campo de consumo é potência/1000 antes de
+  publicá-lo.**
 
 - **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
   de 423 e não na de 413 por categoria. Não foram investigados; fica anotado.
