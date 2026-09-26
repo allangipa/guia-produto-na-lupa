@@ -128,7 +128,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07D3DDVKS"
+    },
     "fontes": [
       {
         "id": "wap-gtw-55-oficial",
@@ -137,6 +139,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Soprador e aspirador de pó e água 3 em 1 com **vácuo de 230 mbar**, 1.600 W, filtro HEPA e espuma, 6,5 kg e 46 × 46 × 65 cm. Códigos WAP FW005734 (127 V) e FW005735 (220 V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP GTW 55 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07D3DDVKS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por 55 litros, 230 mbar e 1.600 W do titulo. A pagina traz as variantes de 110 V e 220 V, e a potencia declarada e a mesma nas duas. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -234,7 +243,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0849R8ST5"
+    },
     "fontes": [
       {
         "id": "wap-gtw-inox-70-duo-oficial",
@@ -243,6 +254,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 200 mbar** e **2.000 W em dois motores de 1.000 W cada**, filtro HEPA, 15,2 kg e 61 × 57 × 83 cm. Códigos WAP FW006252 (127 V) e FW006253 (220 V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP GTW Inox 70 Duo — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0849R8ST5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelos 70 litros e 200 mbar do titulo. A listagem e a de 220 V, a unica disponivel: a variante de 127 V aparece como indisponivel. A tabela da propria pagina declara \"2000W (127V) - 2800W (220V)\", o que confirma que os 2.000 W da nossa ficha sao os de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -330,7 +348,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DQ5CZHKQ"
+    },
     "fontes": [
       {
         "id": "wap-gtw-inox-25-oficial",
@@ -339,6 +359,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador de pó e água com **vácuo de 185 mbar**, 2.000 W, filtro de espuma e saco coletor, 3,91 kg, 33 × 33 × 53,5 cm e garantia de 1 ano. Códigos WAP FW010527 (127 V) e FW010528 (220 V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP GTW Inox 25 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DQ5CZHKQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a versao de 127 V. Casado com a ficha oficial por tres numeros do titulo: 25 litros, 185 mbar e 2.000 W. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -496,7 +523,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GSGKG17R"
+    },
     "fontes": [
       {
         "id": "wap-cyclone-max-oficial",
@@ -505,6 +534,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador de pó ciclônico com **vácuo de 170 mbar**, 1.500 W, enrolador de cabos, 2,75 kg, 24 × 33 × 27,5 cm e garantia de 1 ano. Códigos WAP FW012763 (127 V) e FW012764 (220 V), EAN 7899831345151 e 7899831345168.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP Cyclone Max — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GSGKG17R",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo nome Cyclone Max e pelos 1.500 W, na versao de 110 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -543,7 +579,9 @@
       "capacidadeUtilLiquidosL": 0.35
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DCW2976L"
+    },
     "fontes": [
       {
         "id": "wap-robot-w1000-oficial",
@@ -552,6 +590,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Robô aspirador com **2.400 Pa de vácuo**, 36 W, bateria de 2.600 mAh, autonomia de até 2h40, recipiente de 600 ml (350 ml de água + 260 de pó), filtro HEPA + espuma + tela em 3 níveis, comandos de voz Alexa e Google, 65 dB(A), 3 kg e 32 × 32 × 8 cm. EAN 7899831332618.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP Robot W1000 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DCW2976L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo nome ROBOT W1000 no titulo. Nenhum numero da ficha saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -599,7 +644,9 @@
       "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CGBR6QFC"
+    },
     "fontes": [
       {
         "id": "wap-robot-w400-oficial",
@@ -608,6 +655,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Robô aspirador com **1.400 Pa de vácuo**, 30 W, bateria de 2.500 mAh, autonomia de até 1h40, recipiente de 300 ml, reservatório de água de 170 ml, filtro HEPA + tela + espuma em 3 níveis, duas escovas laterais, turbo brush, sensores anticolisão e antiqueda, 72 dB(A), 2,2 kg e 30 × 31 × 7,5 cm. EAN 7899831312047.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP Robot W400 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CGBR6QFC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres elementos do titulo: nome ROBOT W400, 300 ml e 30 W — que sao os 0,3 L e os 30 W da ficha. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -693,7 +747,9 @@
       "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F4MNC75D"
+    },
     "fontes": [
       {
         "id": "wap-robot-w96-oficial",
@@ -702,6 +758,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Robô aspirador com **400 Pa de vácuo**, 30 W, bateria Li-Ion de 4.000 mAh, autonomia de até 2h, carga em até 5h, recipiente de 250 ml, filtro lavável em 2 níveis, MOP, sensores anticolisão e antiqueda, 70 dB(A), 1,3 kg e 26,7 × 26,4 × 7,5 cm. EAN 7899831312931.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP Robot W96 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F4MNC75D",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelos campos Nome do Modelo e Numero do modelo da pagina, os dois com W96, e pelos 30 W do titulo. Listagem de 220 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -740,7 +803,9 @@
       "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H8ZYFMPT"
+    },
     "fontes": [
       {
         "id": "wap-robot-w200-oficial",
@@ -749,6 +814,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Robô aspirador com **360 Pa de vácuo**, autonomia de até 1h15, recipiente de 275 ml, filtro de tela, 68 dBA, 1,23 kg, 27,2 × 28,8 × 7,5 cm e garantia de 1 ano. A ficha não publica a potência elétrica.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "WAP Robot W200 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H8ZYFMPT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo nome ROBOT W200 e pela autonomia de 1h15 declarada no titulo, que sao os 75 minutos da ficha. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -845,7 +917,9 @@
       "capacidadeUtilLiquidosL": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H2K7HDYG"
+    },
     "fontes": [
       {
         "id": "midea-m7-oficial",
@@ -854,6 +928,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Robô aspirador 2 em 1 com **pressão de sucção de 8.000 Pa**, 55 W, motor sem escova BLDC, autonomia de 160 minutos, carga em 3 a 4 horas, coletor de 0,4 L, dois filtros HEPA, escova central, reservatório de água, Wi-Fi com Alexa e Google, 71 dB(A), 4,18 kg, 9,6 × 34 × 35 cm e garantia de 12 meses.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "Midea M7 2 em 1 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H2K7HDYG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o produto pelo nome, que e o mesmo da pagina do fabricante: robo aspirador M7 2 em 1 da Midea. A listagem nao traz o codigo VRA92PB — o campo de modelo dela diz apenas \"UNIDADE\" —, entao o casamento e por nome e marca. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -894,7 +975,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DZR84Z5X"
+    },
     "fontes": [
       {
         "id": "electrolux-stk17-oficial",
@@ -903,6 +986,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador vertical 2 em 1 de 1.600 W, sem saco, filtragem ciclônica com filtro HEPA, recipiente de 0,95 L, alcance total de 6 m, enrolador manual, protetor térmico, 1 velocidade, 2 kg, 11,5 × 13,5 × 48,5 cm e garantia de 1 ano. A ficha **não publica sucção nem nível de ruído**.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "Electrolux STK17 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DZR84Z5X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres elementos do titulo: codigo STK17, 1.600 W e 950 ml de reservatorio. Versao de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -992,7 +1082,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07CPJYVBV"
+    },
     "fontes": [
       {
         "id": "electrolux-cyc01-oficial",
@@ -1001,6 +1093,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador sem saco de 1.200 W com tecnologia ciclônica, recipiente de 1,4 L, 76 dB em 127 V e garantia de 1 ano. A ficha **não publica sucção**.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "Electrolux Cyclonic CYC01 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07CPJYVBV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo CYC01 no titulo, na versao de 110 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1041,7 +1140,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B088MVWBM9"
+    },
     "fontes": [
       {
         "id": "philco-pas4000v-oficial",
@@ -1050,6 +1151,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador de 2.000 W com recipiente de 2 L e 87 dB de ruído. A ficha **não publica sucção**.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "Philco Power Clean PAS4000V — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B088MVWBM9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo PAS4000V e pelos 2.000 W do titulo, na versao de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1139,7 +1247,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F3YQN2RM"
+    },
     "fontes": [
       {
         "id": "britania-bas87-oficial",
@@ -1148,6 +1258,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador de pó e água de 1.500 W, recipiente de 20 L, função soprar, 94 dB de ruído e garantia de 12 meses. A ficha **não publica sucção**.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "Britânia BAS87 — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F3YQN2RM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres elementos do titulo: codigo BAS87, 20 litros e 1.500 W. Versao de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1188,7 +1305,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B088MVFPZN"
+    },
     "fontes": [
       {
         "id": "britania-bas1010p-oficial",
@@ -1197,6 +1316,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador 2 em 1 de 1.000 W com filtro HEPA, recipiente de 0,6 L, 84 dB de ruído e garantia de 12 meses. A ficha **não publica sucção**.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "Britânia BAS1010P — pagina do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B088MVFPZN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo BAS1010P no titulo, na versao de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {

@@ -1426,14 +1426,42 @@ alterei; as pecas novas nao usam esse percentual.
   e 2 dos 4 nao publicam velocidade nenhuma. O USB 3.2 Gen 1 le menos que o
   USB 3.0 (100 x 150), porque 3.2 Gen 1 e renomeacao do mesmo barramento.
 
-### PENDENCIA COMERCIAL: aspiradores tem 2 links em 24
+### Resolvido em parte: aspiradores passou de 2 para 16 links em 24
 
-`aspiradores` e a unica categoria com cobertura de loja baixa: **so WAP Magic
-e WAP GTW Inox 50 tem link**. As outras quatro categorias estao em 100%.
+Em 25/09/2026 levantei os ASINs. **14 dos 22 sem link foram encontrados e
+confirmados**; a categoria foi de 2 para **16 de 24**.
 
-Tres dos cinco picks do guia saem **sem botao de compra** — o componente
-`LojaCta` retorna `null` quando `lojas` esta vazio, entao a pagina fica limpa,
-mas nao converte. **E a maior oportunidade de receita aberta do site.**
+Regra usada, a mesma do caso ESI80: so entra ASIN cujo titulo ou ficha da
+Amazon confirme o modelo. Preferencia pela variante de **127 V**, que e a
+convencao herdada do GTW Inox 50.
+
+**As 8 que nao estao na Amazon Brasil** (buscadas com varias consultas, so
+acessorio ou modelo vizinho aparece): `wap-turbo-1600`, `wap-turbo-2002`,
+`wap-magic-clean`, `wap-ambiance-turbo`, `wap-robot-w100c`, `electrolux-eqp40`,
+`philco-pas1810`, `midea-powerdust`.
+
+**Dois casos que exigiram cuidado:**
+
+- **GTW Inox 70 Duo**: o titulo da Amazon diz 2800 W e a nossa ficha diz 2000.
+  Nao e contradicao — a tabela da propria pagina declara "2000W (127V) -
+  2800W (220V)". So a variante de 220 V esta disponivel, e isso esta escrito
+  na fonte, que aparece no bloco de Fontes da pagina do produto.
+- **Midea M7**: o campo de modelo da listagem diz apenas "UNIDADE", sem o
+  codigo VRA92PB. O casamento e por nome exato e marca, e a fonte diz isso.
+
+**O pick do Turbo 1600 continua sem botao de proposito.** Ele e a maior succao
+da lista (26.500 Pa) e nao esta na Amazon. Trocar o pick por um que da
+comissao seria escolher pelo link, nao pelo merito — e e exatamente o que este
+site nao faz. O guia foi de 2 para 4 botoes.
+
+### ROTINA: auditoria de link de afiliado
+
+Depois do ASIN que escrevi de memoria, todo commit que toca conteudo roda o
+verificador: **todo link dentro de bloco `lojas:` tem que existir em
+`dados/*.json`**. Hoje: **246 links, zero fora da base.**
+
+E toda pagina de produto com `lojas` preenchido renderiza botao: conferido,
+**16 de 16**.
 
 ### ERRO MEU, E A ROTINA QUE NASCEU DELE
 
