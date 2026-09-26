@@ -141,6 +141,14 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "processadores",
+    nome: "Processadores de alimentos",
+    descricao:
+      "O motor com jarra e l\u00e2minas que pica, rala e fatia. Vendido sempre como \"X em 1\" \u2014 e o X quase nunca est\u00e1 em campo nenhum.",
+    dorPrincipal:
+      "O an\u00fancio diz \"9 em 1\". Nove o qu\u00ea, e o que muda para o 5 em 1 do lado?",
+  },
+  {
     slug: "mixers",
     nome: "Mixers",
     descricao:
@@ -306,6 +314,7 @@ export const ORDEM_NA_HOME: string[] = [
   "escovas-secadoras",
   "batedeiras",
   "mixers",
+  "processadores",
 ];
 
 /** A posicao de uma categoria na home. Quem nao esta na lista vai para o fim. */

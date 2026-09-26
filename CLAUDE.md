@@ -388,8 +388,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 523 produtos em 29 categorias, 29 guias,
-  48 comparativos e 21 análises.**
+- **Inventário em 26/09/2026: 540 produtos em 30 categorias, 30 guias,
+  50 comparativos e 21 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -466,6 +466,29 @@ confunde com documento sem folha de estilo.
   **`lib/departamentos.ts`** (sem isso a categoria não aparece na navegação e o
   build para) e `dados/<slug>.json`. Mais as três peças editoriais que a regra
   do projeto pede.
+
+- **Processadores abriu em 26/09/2026, com 17 fichas de quatro marcas.**
+  Mondial 7, Philco 4, Britânia 3, Arno 3.
+
+  **O achado é o "X em 1".** A Mondial vende o MESMO MPN-01 como 5 em 1, 7 em 1
+  e 9 em 1, em duas cores — seis páginas — e as seis fichas são idênticas campo
+  a campo, incluindo a frase que descreve as funções. As FOTOS oficiais mostram
+  conjuntos de acessórios diferentes, então os produtos diferem de verdade; o
+  que não existe é a diferença escrita em campo. **Isso torna a falta pior, não
+  melhor** — e é assim que o guia escreve.
+
+  A Arno é o contraponto na mesma categoria: vende MP62 "16 funções" e MP72
+  "24 funções" e lista o conteúdo da embalagem peça por peça, quatro contra
+  sete. Só 3 fichas em 17 listam, e as três são Arno.
+
+  **Philco e Britânia não têm campo de potência em processador.** Nenhuma das
+  sete fichas delas. O watt vive no título. Campos preenchidos: Mondial 11,0 e
+  Arno 10,0 contra Philco 2,8 e Britânia 2,7 — a maior distância entre marcas
+  já medida neste site.
+
+  Mas elas ganham um crédito que o guia dá: **as cinco únicas fichas que
+  declaram trava de segurança são Philco ou Britânia.** Num motor que gira
+  lâmina exposta, é o campo mais consequente — e Mondial e Arno não o têm.
 
 - **Mixers abriu em 26/09/2026, com 20 fichas de quatro marcas.** Mondial 7,
   Britânia 5, Philco 5, Elgin 3. **Mixer não é batedeira** — dividem o mesmo nó

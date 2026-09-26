@@ -1,0 +1,1001 @@
+[
+  {
+    "slug": "mondial-mpn-01-b",
+    "nome": "Mondial Turbo Chef 5 em 1 MPN-01-B",
+    "marca": "Mondial",
+    "modelo": "MPN-01-B",
+    "categoria": "processadores",
+    "resumo": "Vendido como \"5 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": 1000,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": 3.0,
+      "capacidadeJarraSecundariaL": 3.2,
+      "materialLaminas": "Aço inox",
+      "materialJarra": "PP e inox",
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 3.0,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CJJV71ZP"
+    },
+    "divergencias": [
+      {
+        "campo": "pecasNaCaixa",
+        "fonteAdotada": "mondial-mpn-01-b-oficial",
+        "valorDivergente": "\"5 em 1\" no nome do produto",
+        "fonteDivergente": "mondial-mpn-01-b-oficial",
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-mpn-01-b-oficial",
+        "titulo": "Mondial Turbo Chef 5 em 1 MPN-01-B — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-5-em-1-mondial-mpn-01-b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-mpn-01-b-amazon",
+        "titulo": "Mondial Turbo Chef 5 em 1 MPN-01-B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CJJV71ZP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"MONDIAL Multiprocessador Turbo Chef 5 em 1, Preto, 1000W, 110V - MPN-01-B\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mpn-01-b.webp",
+      "alt": "Multiprocessador Mondial MPN-01-B preto com jarra e acessórios",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/multiprocessador-turbo-chef-5-em-1-mondial-mpn-01-b/p"
+    }
+  },
+  {
+    "slug": "mondial-mpn-01-be",
+    "nome": "Mondial Turbo Chef 7 em 1 MPN-01-BE",
+    "marca": "Mondial",
+    "modelo": "MPN-01-BE",
+    "categoria": "processadores",
+    "resumo": "Vendido como \"7 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": 1000,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": 3.0,
+      "capacidadeJarraSecundariaL": 3.2,
+      "materialLaminas": "Aço inox",
+      "materialJarra": "PP e inox",
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 3.0,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09NX8NZRW"
+    },
+    "divergencias": [
+      {
+        "campo": "pecasNaCaixa",
+        "fonteAdotada": "mondial-mpn-01-be-oficial",
+        "valorDivergente": "\"7 em 1\" no nome do produto",
+        "fonteDivergente": "mondial-mpn-01-be-oficial",
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-mpn-01-be-oficial",
+        "titulo": "Mondial Turbo Chef 7 em 1 MPN-01-BE — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-7-em-1-mondial-mpn-01-be/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-mpn-01-be-amazon",
+        "titulo": "Mondial Turbo Chef 7 em 1 MPN-01-BE — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09NX8NZRW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"MONDIAL Multiprocessador Turbo Chef 7 em 1, Preto, 1000W, 220V - MPN-01-BE\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mpn-01-be.webp",
+      "alt": "Multiprocessador Mondial MPN-01-BE preto com jarra e acessórios",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/multiprocessador-turbo-chef-7-em-1-mondial-mpn-01-be/p"
+    }
+  },
+  {
+    "slug": "mondial-mpn-01-bf",
+    "nome": "Mondial Turbo Chef 9 em 1 MPN-01-BF",
+    "marca": "Mondial",
+    "modelo": "MPN-01-BF",
+    "categoria": "processadores",
+    "resumo": "Vendido como \"9 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": 1000,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": 3.0,
+      "capacidadeJarraSecundariaL": 3.2,
+      "materialLaminas": "Aço inox",
+      "materialJarra": "PP e inox",
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 3.0,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09NX12VCH"
+    },
+    "divergencias": [
+      {
+        "campo": "pecasNaCaixa",
+        "fonteAdotada": "mondial-mpn-01-bf-oficial",
+        "valorDivergente": "\"9 em 1\" no nome do produto",
+        "fonteDivergente": "mondial-mpn-01-bf-oficial",
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-mpn-01-bf-oficial",
+        "titulo": "Mondial Turbo Chef 9 em 1 MPN-01-BF — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-9-em-1-mondial-mpn-01-bf/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-mpn-01-bf-amazon",
+        "titulo": "Mondial Turbo Chef 9 em 1 MPN-01-BF — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09NX12VCH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"MONDIAL Multiprocessador Turbo Chef 9 em 1, Preto, 1000W, 110V - MPN-01-BF\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mpn-01-bf.webp",
+      "alt": "Multiprocessador Mondial MPN-01-BF preto com jarra e acessórios",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/multiprocessador-turbo-chef-9-em-1-mondial-mpn-01-bf/p"
+    }
+  },
+  {
+    "slug": "mondial-mpn-01-rf",
+    "nome": "Mondial Turbo Chef 9 em 1 MPN-01-RF",
+    "marca": "Mondial",
+    "modelo": "MPN-01-RF",
+    "categoria": "processadores",
+    "resumo": "Vendido como \"9 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": 1000,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": 3.0,
+      "capacidadeJarraSecundariaL": 3.2,
+      "materialLaminas": "Aço inox",
+      "materialJarra": "PP e inox",
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 3.0,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B61TP5JC"
+    },
+    "divergencias": [
+      {
+        "campo": "pecasNaCaixa",
+        "fonteAdotada": "mondial-mpn-01-rf-oficial",
+        "valorDivergente": "\"9 em 1\" no nome do produto",
+        "fonteDivergente": "mondial-mpn-01-rf-oficial",
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-mpn-01-rf-oficial",
+        "titulo": "Mondial Turbo Chef 9 em 1 MPN-01-RF — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-9-em-1-mondial-mpn-01-rf/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Vermelho. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-mpn-01-rf-amazon",
+        "titulo": "Mondial Turbo Chef 9 em 1 MPN-01-RF — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B61TP5JC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"MONDIAL Multiprocessador Turbo Chef 9 em 1, Vermelho, 1000W, 110V - MPN-01-RF\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mpn-01-rf.webp",
+      "alt": "Multiprocessador Mondial MPN-01-RF vermelho com jarra e acessórios",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/multiprocessador-turbo-chef-9-em-1-mondial-mpn-01-rf/p"
+    }
+  },
+  {
+    "slug": "mondial-mpn-02-be",
+    "nome": "Mondial Turbo Chef 3 em 1 MPN-02-BE",
+    "marca": "Mondial",
+    "modelo": "MPN-02-BE",
+    "categoria": "processadores",
+    "resumo": "O único Mondial da base que diz o que são as jarras: 2 L a do multiprocessador e 2,1 L a do liquidificador. O irmão MPN-01 traz só \"3L e 3,2L\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": 1000,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": 2.0,
+      "capacidadeJarraSecundariaL": 2.1,
+      "materialLaminas": "Aço inox",
+      "materialJarra": "PP e inox",
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 3.0,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GJFR6S68"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeJarraL",
+        "fonteAdotada": "mondial-mpn-02-be-oficial",
+        "valorDivergente": "\"3L e 3,2L\" sem rótulo, nas fichas do MPN-01",
+        "fonteDivergente": "mondial-mpn-02-be-oficial",
+        "observacao": "Esta ficha escreve **\"2L (Jarra do Multiprocessador) e 2,1L (Jarra do Liquidificador)\"** — diz qual número é de qual recipiente. As seis fichas do irmão MPN-01 escrevem apenas **\"3L e 3,2L\"**, sem dizer qual é qual. São o mesmo campo, na mesma loja, com e sem rótulo. Os números do MPN-01 foram adotados na ordem em que aparecem, seguindo esta ficha como referência. O campo \"Antiaderente\" desta traz um traço, onde as do MPN-01 trazem \"Não se aplica\"."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-mpn-02-be-oficial",
+        "titulo": "Mondial Turbo Chef 3 em 1 MPN-02-BE — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/multiprocessador-mondial-turbo-chef-3-em-1-1000w-preto/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais turbo, **\"2L (Jarra do Multiprocessador) e 2,1L (Jarra do Liquidificador)\"**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses. O campo \"Antiaderente\" traz um traço. Não declara quantas peças acompanham.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-mpn-02-be-amazon",
+        "titulo": "Mondial Turbo Chef 3 em 1 MPN-02-BE — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GJFR6S68",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Multiprocessador Turbo Chef 3 em 1, Mondial, Preto, 1000W, 127V - MPN-02-BE\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mpn-02-be.webp",
+      "alt": "Multiprocessador Mondial MPN-02-BE preto com as duas jarras",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/multiprocessador-mondial-turbo-chef-3-em-1-1000w-preto/p"
+    }
+  },
+  {
+    "slug": "mondial-mp-16-b",
+    "nome": "Mondial Mini Turbo Pratic MP-16-B",
+    "marca": "Mondial",
+    "modelo": "MP-16-B",
+    "categoria": "processadores",
+    "resumo": "Mini processador de 300 W e copo de 500 ml, com função pulsar, guarda-fio e 940 g declarados. Dezoito campos preenchidos.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mini processador",
+      "potenciaW": 300,
+      "velocidades": 1,
+      "funcaoPulsar": true,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": 0.5,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": "Aço inox",
+      "materialJarra": "PP e inox",
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 0.94,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08PPRYWZG"
+    },
+    "fontes": [
+      {
+        "id": "mondial-mp-16-b-oficial",
+        "titulo": "Mondial Mini Turbo Pratic MP-16-B — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/miniprocessador-mondial-mp-16-b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "300 W, copo de 500 ml, **1 velocidade mais função pulsar**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 0,940 kg, cor Preto, 127V/220V e 1 ano de garantia. O campo \"Antiaderente\" traz \"Não se aplica\", que é correto para um copo de processador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-mp-16-b-amazon",
+        "titulo": "Mondial Mini Turbo Pratic MP-16-B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08PPRYWZG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"MONDIAL Mini Processador Turbo Pratic, Preto, 300W, 110V - MP-16-B\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mp-16-b.webp",
+      "alt": "Mini processador Mondial MP-16-B preto com copo",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/miniprocessador-mondial-mp-16-b/p"
+    }
+  },
+  {
+    "slug": "mondial-mp-16-r",
+    "nome": "Mondial Mini Turbo Pratic MP-16-R",
+    "marca": "Mondial",
+    "modelo": "MP-16-R",
+    "categoria": "processadores",
+    "resumo": "Mini processador de 300 W e copo de 500 ml, com função pulsar, guarda-fio e 940 g declarados. Dezoito campos preenchidos.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mini processador",
+      "potenciaW": 300,
+      "velocidades": 1,
+      "funcaoPulsar": true,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": 0.5,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": "Aço inox",
+      "materialJarra": "PP e inox",
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 0.94,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C2VWGPQB"
+    },
+    "fontes": [
+      {
+        "id": "mondial-mp-16-r-oficial",
+        "titulo": "Mondial Mini Turbo Pratic MP-16-R — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/miniprocessador-mondial-mp-16-r/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "300 W, copo de 500 ml, **1 velocidade mais função pulsar**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 0,940 kg, cor Vermelho, 127V/220V e 1 ano de garantia. O campo \"Antiaderente\" traz \"Não se aplica\", que é correto para um copo de processador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-mp-16-r-amazon",
+        "titulo": "Mondial Mini Turbo Pratic MP-16-R — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C2VWGPQB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"Mini Processador Turbo Pratic, Mondial, Vermelho, 300W, 220V - MP-16-R\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-mp-16-r.webp",
+      "alt": "Mini processador Mondial MP-16-R vermelho com copo",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/miniprocessador-mondial-mp-16-r/p"
+    }
+  },
+  {
+    "slug": "philco-pmp1600p",
+    "nome": "Philco PMP1600P",
+    "marca": "Philco",
+    "modelo": "PMP1600P",
+    "categoria": "processadores",
+    "resumo": "A ficha oficial da Philco para este processador não tem campo de potência, de capacidade nem de velocidades. O \"1700W 9 em 1\" do título é tudo o que se sabe.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": null,
+      "velocidades": null,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": true,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07QN1RW8K"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmp1600p-oficial",
+        "titulo": "Philco PMP1600P — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/multiprocessador-philco-1700w-pmp1600p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Preto e 360 dias de garantia. A ficha declara trava de segurança e a regra de funcionamento (\"o aparelho só funciona com a jarra encaixada na posição correta\"). A ficha desta página **não tem campo de potência**. Ela traz garantia, estado, marca, cor, modelo, trava de segurança e as unidades de medida — e a potência aparece só no título do produto, como \"1700W 9 em 1\". Nome não é campo, e este site não converte um no outro: o campo ficou vazio. Isso vale para quase toda a linha de processador da Philco e da Britânia, que são do mesmo grupo — das dezenove fichas de processador que as duas têm no ar, uma publica potência em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmp1600p-amazon",
+        "titulo": "Philco PMP1600P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07QN1RW8K",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Multiprocessador, Pmp1600p, 1700W, Preto, 127v\". A potência do anúncio não foi adotada: varejo não substitui campo de fabricante. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmp1600p.webp",
+      "alt": "Processador Philco PMP1600P preto",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/multiprocessador-philco-1700w-pmp1600p/p"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "philco-pmp1600p-oficial",
+        "valorDivergente": "1.400 W na outra página do mesmo modelo",
+        "fonteDivergente": "philco-pmp1600p-oficial",
+        "observacao": "A loja da Philco tem **duas páginas para o modelo PMP1600P**, e elas declaram potências diferentes no título: uma diz \"Multiprocessador Philco **1700W** 9 em 1 Preto PMP1600P\" e a outra diz \"Multiprocessador Philco 9 em 1 **1400W** PMP1600P Glass Turbo\". Como nenhuma das duas tem campo de potência, não há valor para adotar — e há trezentos watts de diferença entre dois títulos do mesmo código. O anúncio da Amazon diz 1700 W."
+      }
+    ]
+  },
+  {
+    "slug": "philco-pmp1600v",
+    "nome": "Philco PMP1600V",
+    "marca": "Philco",
+    "modelo": "PMP1600V",
+    "categoria": "processadores",
+    "resumo": "A ficha oficial da Philco para este processador não tem campo de potência, de capacidade nem de velocidades. O \"9 em 1 1400W\" do título é tudo o que se sabe.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": null,
+      "velocidades": null,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": true,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07V68WPC9"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmp1600v-oficial",
+        "titulo": "Philco PMP1600V — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/multiprocessador-philco-pmp1600v-1400w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Vermelho e 360 dias de garantia. A ficha declara trava de segurança e a regra de funcionamento (\"o aparelho só funciona com a jarra encaixada na posição correta\"). A ficha desta página **não tem campo de potência**. Ela traz garantia, estado, marca, cor, modelo, trava de segurança e as unidades de medida — e a potência aparece só no título do produto, como \"9 em 1 1400W\". Nome não é campo, e este site não converte um no outro: o campo ficou vazio. Isso vale para quase toda a linha de processador da Philco e da Britânia, que são do mesmo grupo — das dezenove fichas de processador que as duas têm no ar, uma publica potência em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmp1600v-amazon",
+        "titulo": "Philco PMP1600V — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07V68WPC9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco 103301040, Multiprocessador, Pmp1600v, 1400W, Vermelho, 127v\". A potência do anúncio não foi adotada: varejo não substitui campo de fabricante. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmp1600v.webp",
+      "alt": "Processador Philco PMP1600V vermelho",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/multiprocessador-philco-pmp1600v-1400w/p"
+    }
+  },
+  {
+    "slug": "philco-pmp10a",
+    "nome": "Philco Concept PMP10A",
+    "marca": "Philco",
+    "modelo": "PMP10A",
+    "categoria": "processadores",
+    "resumo": "A ficha oficial da Philco para este processador não tem campo de potência, de capacidade nem de velocidades. O \"1000W 5 em 1\" do título é tudo o que se sabe.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": null,
+      "velocidades": null,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": true,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DXMYPZB8"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmp10a-oficial",
+        "titulo": "Philco Concept PMP10A — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/multiprocessador-pmp10a-127v-103301060/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Preto e 360 dias de garantia. A ficha declara trava de segurança e a regra de funcionamento (\"o aparelho só funciona com a jarra encaixada na posição correta\"). A ficha desta página **não tem campo de potência**. Ela traz garantia, estado, marca, cor, modelo, trava de segurança e as unidades de medida — e a potência aparece só no título do produto, como \"1000W 5 em 1\". Nome não é campo, e este site não converte um no outro: o campo ficou vazio. Isso vale para quase toda a linha de processador da Philco e da Britânia, que são do mesmo grupo — das dezenove fichas de processador que as duas têm no ar, uma publica potência em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmp10a-amazon",
+        "titulo": "Philco Concept PMP10A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DXMYPZB8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Multiprocessador 1000W 5 em 1 PMP10A 127W 2 Litros Preto com Inox\". A potência do anúncio não foi adotada: varejo não substitui campo de fabricante. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmp10a.webp",
+      "alt": "Processador Philco PMP10A preto",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/multiprocessador-pmp10a-127v-103301060/p"
+    }
+  },
+  {
+    "slug": "philco-ph900v",
+    "nome": "Philco Compacto PH900V Turbo",
+    "marca": "Philco",
+    "modelo": "PH900V",
+    "categoria": "processadores",
+    "resumo": "A ficha oficial da Philco para este processador não tem campo de potência, de capacidade nem de velocidades. O \"250W\" do título é tudo o que se sabe.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Processador compacto",
+      "potenciaW": null,
+      "velocidades": null,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": null,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07D93ZBL5"
+    },
+    "fontes": [
+      {
+        "id": "philco-ph900v-oficial",
+        "titulo": "Philco Compacto PH900V Turbo — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/processador-compacto-philco-ph900v-turbo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Vermelho e 360 dias de garantia. A ficha declara trava de segurança e a regra de funcionamento (\"o aparelho só funciona com a jarra encaixada na posição correta\"). A ficha desta página **não tem campo de potência**. Ela traz garantia, estado, marca, cor, modelo, trava de segurança e as unidades de medida — e a potência aparece só no título do produto, como \"250W\". Nome não é campo, e este site não converte um no outro: o campo ficou vazio. Isso vale para quase toda a linha de processador da Philco e da Britânia, que são do mesmo grupo — das dezenove fichas de processador que as duas têm no ar, uma publica potência em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-ph900v-amazon",
+        "titulo": "Philco Compacto PH900V Turbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07D93ZBL5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Processador Compacto, Ph900v Turbo, 250w, Vermelho, 110V\". A potência do anúncio não foi adotada: varejo não substitui campo de fabricante. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-ph900v.webp",
+      "alt": "Processador Philco PH900V vermelho",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/processador-compacto-philco-ph900v-turbo/p"
+    }
+  },
+  {
+    "slug": "britania-bmp900p",
+    "nome": "Britânia All In One BMP900P",
+    "marca": "Britânia",
+    "modelo": "BMP900P",
+    "categoria": "processadores",
+    "resumo": "Como em toda a linha de processador da Britânia, a ficha não tem campo de potência nem de capacidade. O \"900W 5 em 1\" fica no título.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": null,
+      "velocidades": null,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": true,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07L9FD8TH"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmp900p-oficial",
+        "titulo": "Britânia All In One BMP900P — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/multipro-all-in-one-bmp900p-127v-033301105/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Preto e 360 dias de garantia. A ficha desta página **não tem campo de potência**. Ela traz garantia, estado, marca, cor, modelo, trava de segurança e as unidades de medida — e a potência aparece só no título do produto, como \"900W 5 em 1\". Nome não é campo, e este site não converte um no outro: o campo ficou vazio. Isso vale para quase toda a linha de processador da Philco e da Britânia, que são do mesmo grupo — das dezenove fichas de processador que as duas têm no ar, uma publica potência em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bmp900p-amazon",
+        "titulo": "Britânia All In One BMP900P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07L9FD8TH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Multiprocessador All In One, Bmp900p, 900W, Preto, 110v\". A potência do anúncio não foi adotada. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmp900p.webp",
+      "alt": "Processador Britânia BMP900P preto",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/multipro-all-in-one-bmp900p-127v-033301105/p"
+    }
+  },
+  {
+    "slug": "britania-bmn04a",
+    "nome": "Britânia BMN04A",
+    "marca": "Britânia",
+    "modelo": "BMN04A",
+    "categoria": "processadores",
+    "resumo": "Como em toda a linha de processador da Britânia, a ficha não tem campo de potência nem de capacidade. O \"420W, 1 velocidade + pulsar\" fica no título.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Processador compacto",
+      "potenciaW": null,
+      "velocidades": null,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": null,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FSFYFYTV"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmn04a-oficial",
+        "titulo": "Britânia BMN04A — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/processador-britania-preto-bmn04a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Preto e 360 dias de garantia. A ficha desta página **não tem campo de potência**. Ela traz garantia, estado, marca, cor, modelo, trava de segurança e as unidades de medida — e a potência aparece só no título do produto, como \"420W, 1 velocidade + pulsar\". Nome não é campo, e este site não converte um no outro: o campo ficou vazio. Isso vale para quase toda a linha de processador da Philco e da Britânia, que são do mesmo grupo — das dezenove fichas de processador que as duas têm no ar, uma publica potência em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bmn04a-amazon",
+        "titulo": "Britânia BMN04A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FSFYFYTV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Processador 1 Velocidade + Pulsar 420W BMN04A 127V\". A potência do anúncio não foi adotada. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmn04a.webp",
+      "alt": "Processador Britânia BMN04A preto",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/processador-britania-preto-bmn04a/p"
+    }
+  },
+  {
+    "slug": "britania-mini-2p",
+    "nome": "Britânia Mini 2P",
+    "marca": "Britânia",
+    "modelo": "Mini 2P",
+    "categoria": "processadores",
+    "resumo": "Como em toda a linha de processador da Britânia, a ficha não tem campo de potência nem de capacidade. O \"160W, 360 ml\" fica no título.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mini processador",
+      "potenciaW": null,
+      "velocidades": null,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": null,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": true,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076HYT63G"
+    },
+    "fontes": [
+      {
+        "id": "britania-mini-2p-oficial",
+        "titulo": "Britânia Mini 2P — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/mini-processador-de-alimentos-britania-2pbritania/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Preto e 360 dias de garantia. A ficha desta página **não tem campo de potência**. Ela traz garantia, estado, marca, cor, modelo, trava de segurança e as unidades de medida — e a potência aparece só no título do produto, como \"160W, 360 ml\". Nome não é campo, e este site não converte um no outro: o campo ficou vazio. Isso vale para quase toda a linha de processador da Philco e da Britânia, que são do mesmo grupo — das dezenove fichas de processador que as duas têm no ar, uma publica potência em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-mini-2p-amazon",
+        "titulo": "Britânia Mini 2P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076HYT63G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Mini processador, 2p, 160W, Preto, 127v\". A potência do anúncio não foi adotada. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-mini-2p.webp",
+      "alt": "Processador Britânia Mini 2P preto",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/mini-processador-de-alimentos-britania-2pbritania/p"
+    }
+  },
+  {
+    "slug": "arno-choppeo-ch01",
+    "nome": "Arno Choppeo CH01",
+    "marca": "Arno",
+    "modelo": "CH01",
+    "categoria": "processadores",
+    "resumo": "500 W, jarra de vidro de 2 L, INMETRO declarado e 2,1 kg. O campo de velocidades se chama \"Velocidade de Rotação Máxima (rpm)\" e traz 2.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Processador compacto",
+      "potenciaW": 500,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": 1,
+      "capacidadeJarraL": 2.0,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": "Vidro",
+      "travaSeguranca": null,
+      "desmontavel": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 2.1,
+      "dimensoesMm": "217 × 250 × 175 mm (L × A × P)",
+      "registroInmetro": "UL-BR 25.0884",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FTYQ5L7R"
+    },
+    "divergencias": [
+      {
+        "campo": "velocidades",
+        "fonteAdotada": "arno-choppeo-ch01-oficial",
+        "valorDivergente": "\"Velocidade de Rotação Máxima (rpm): 2\"",
+        "fonteDivergente": "arno-choppeo-ch01-oficial",
+        "observacao": "O campo de velocidades desta ficha se chama **\"Velocidade de Rotação Máxima (rpm)\"** e traz o valor **2** — duas rotações por minuto seria meio giro a cada quinze segundos. O 2 é contagem de velocidades com o rótulo errado, e o anúncio da Amazon confirma \"2 Velocidades\". **A Arno comete o mesmo erro na batedeira KM10**, cujo campo de rpm traz 12 num aparelho de 12 velocidades. Foi adotado como velocidades."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "arno-choppeo-ch01-oficial",
+        "titulo": "Arno Choppeo CH01 — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/-processador-de-alimentos-arno-choppeo-ch01-7211419903_pai-1-p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, jarra de vidro de 2 L, corpo em plástico, metal e vidro, registro no INMETRO UL-BR 25.0884, 2,1 kg, 21,7 × 25 × 17,5 cm e 12 meses de garantia. O conteúdo da embalagem é \"1 processador + 1 manual\", sem acessórios. O campo de velocidades se chama \"Velocidade de Rotação Máxima (rpm)\" e traz 2.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-choppeo-ch01-amazon",
+        "titulo": "Arno Choppeo CH01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FTYQ5L7R",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a potência, a jarra e as velocidades: \"Processador de Alimentos Arno Choppeo CH01, 500W, Recipiente de Vidro 2L, 2 Velocidades\". Usada para confirmar que o 2 da ficha é contagem de velocidades.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-choppeo-ch01.webp",
+      "alt": "Processador Arno Choppeo CH01 cinza com jarra de vidro",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/-processador-de-alimentos-arno-choppeo-ch01-7211419903_pai-1-p/p"
+    }
+  },
+  {
+    "slug": "arno-mp72",
+    "nome": "Arno Multichef MP72",
+    "marca": "Arno",
+    "modelo": "MP72",
+    "categoria": "processadores",
+    "resumo": "Vendido como \"24 funções\" — e é o único da base cuja ficha lista o que vem na caixa: sete peças, nome por nome.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": 700,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": 7,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.0,
+      "pesoKg": 2.08,
+      "dimensoesMm": "226 × 218 × 381 mm (L × A × P)",
+      "registroInmetro": "UL-BR 24.0718",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DCMT9PHF"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "arno-mp72-oficial",
+        "valorDivergente": "2,8 kg na ficha do irmão MP62",
+        "fonteDivergente": "arno-mp72-oficial",
+        "observacao": "O MP62 e o MP72 declaram a mesma potência, as mesmas duas velocidades, o mesmo cabo e **as mesmas três dimensões** — e pesos diferentes: **2,08 kg neste e 2,8 kg no MP62**. O MP72 acompanha **mais** acessórios que o MP62 (sete contra quatro), o que torna o número menor mais estranho. Os dois valores foram adotados como estão, porque nenhum é impossível; fica registrado que a diferença de 720 g entre aparelhos de mesma medida não tem explicação na ficha."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "arno-mp72-oficial",
+        "titulo": "Arno Multichef MP72 — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/multiprocessador-arno-700w-24-funcoes-preto-mp72-2720018173/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "700 W, 2 velocidades, desmontável, cabo de 100 cm, 2,08 kg, 22,60 × 21,80 × 38,10 cm, registro no INMETRO UL-BR 24.0718 e 1 ano de garantia. O conteúdo da embalagem é listado peça por peça: **\"1 Multiprocessador, 2 Ralador, Fatiador, Jarra Liquidificador, Emulssificador, Espremedor De Suco\"** — sete itens, contra quatro do irmão MP62.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-mp72-amazon",
+        "titulo": "Arno Multichef MP72 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DCMT9PHF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a potência e as funções vendidas: \"Multiprocessador Arno Multichef 700W MP72, com 24 Funções, Preto, 7 Acessórios, 2 Velocidades\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-mp72.webp",
+      "alt": "Multiprocessador Arno Multichef MP72 preto com os acessórios",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/multiprocessador-arno-700w-24-funcoes-preto-mp72-2720018173/p"
+    }
+  },
+  {
+    "slug": "arno-mp62",
+    "nome": "Arno Multichef MP62",
+    "marca": "Arno",
+    "modelo": "MP62",
+    "categoria": "processadores",
+    "resumo": "\"16 funções\" com quatro peças listadas na ficha. A Amazon vende o mesmo MP62 como 1000 W em dois anúncios e 700 W noutro.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiprocessador",
+      "potenciaW": 700,
+      "velocidades": 2,
+      "funcaoPulsar": null,
+      "pecasNaCaixa": 4,
+      "capacidadeJarraL": null,
+      "capacidadeJarraSecundariaL": null,
+      "materialLaminas": null,
+      "materialJarra": null,
+      "travaSeguranca": null,
+      "desmontavel": true,
+      "comprimentoCaboM": 1.0,
+      "pesoKg": 2.8,
+      "dimensoesMm": "226 × 218 × 381 mm (L × A × P)",
+      "registroInmetro": "UL-BR 24.0718",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DCN7JBFW"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "arno-mp62-oficial",
+        "valorDivergente": "1.000 W, em dois anúncios da Amazon",
+        "fonteDivergente": "arno-mp62-amazon",
+        "observacao": "A Arno declara **700 W**. Na Amazon o mesmo MP62 aparece como \"Multiprocessador Arno Multichef **700W** MP62\" num anúncio e como \"Multiprocessador Arno 16 Funções **1000w** Marfim Mp62\" em outros dois, um por tensão. Ficou o número do fabricante. São 300 W de diferença, ou 43% do aparelho."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "arno-mp62-oficial",
+        "titulo": "Arno Multichef MP62 — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/multiprocessador-arno-700w-16-funcoes-marfim-mp62-2720018171/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "700 W, 2 velocidades, desmontável, cabo de 100 cm, 2,8 kg, 22,60 × 21,80 × 38,10 cm, registro no INMETRO UL-BR 24.0718, cor marfim e 1 ano de garantia. O conteúdo da embalagem lista **\"1 Multiprocessador, Ralador, Fatiador, Jarra Liquidificador\"** — quatro itens, contra sete do MP72.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-mp62-amazon",
+        "titulo": "Arno Multichef MP62 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DCN7JBFW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a potência e as funções: \"Multiprocessador Arno Multichef 700W MP62, com 16 Funções, Marfim, 4 Acessórios, 2 Velocidades\". Outros dois anúncios do mesmo modelo dizem 1000w e estão registrados como divergência.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-mp62.webp",
+      "alt": "Multiprocessador Arno Multichef MP62 marfim com os acessórios",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/multiprocessador-arno-700w-16-funcoes-marfim-mp62-2720018171/p"
+    }
+  }
+]

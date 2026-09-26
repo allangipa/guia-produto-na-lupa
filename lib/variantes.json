@@ -131,6 +131,13 @@
     ],
     "original": 1000
   },
+  "/produtos/arno-choppeo-ch01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/arno-drygliss-fs31.webp": {
     "larguras": [
       240,
@@ -223,6 +230,20 @@
     "original": 1000
   },
   "/produtos/arno-mini-chef-hm10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-mp62.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-mp72.webp": {
     "larguras": [
       240,
       480
@@ -607,6 +628,13 @@
     ],
     "original": 1200
   },
+  "/produtos/britania-bmn04a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/britania-bmo23.webp": {
     "larguras": [
       240,
@@ -615,6 +643,13 @@
     "original": 1200
   },
   "/produtos/britania-bmo38.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bmp900p.webp": {
     "larguras": [
       240,
       480
@@ -739,6 +774,13 @@
       480
     ],
     "original": 1200
+  },
+  "/produtos/britania-mini-2p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/britania-perola-550-neve.webp": {
     "larguras": [
@@ -2406,6 +2448,55 @@
     ],
     "original": 1000
   },
+  "/produtos/mondial-mp-16-b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-mp-16-r.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-mpn-01-b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-mpn-01-be.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-mpn-01-bf.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-mpn-01-rf.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-mpn-02-be.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/mondial-nvt-40c-8p.webp": {
     "larguras": [
       240,
@@ -3106,6 +3197,13 @@
     ],
     "original": 1200
   },
+  "/produtos/philco-ph900v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/philco-php500.webp": {
     "larguras": [
       240,
@@ -3149,6 +3247,27 @@
     "original": 1200
   },
   "/produtos/philco-pmo38e.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pmp10a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pmp1600p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pmp1600v.webp": {
     "larguras": [
       240,
       480

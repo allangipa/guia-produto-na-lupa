@@ -3945,6 +3945,174 @@ export const camposMixer: Campo[] = [
   },
 ];
 
+/**
+ * Processador de alimentos: o motor com jarra e laminas que pica, rala e fatia.
+ *
+ * O campo que define a categoria e `pecasNaCaixa`. Todo processador e vendido
+ * como "5 em 1", "9 em 1" ou "24 funcoes", e o numero quase nunca aparece em
+ * campo: mora no nome do produto. A Mondial vende o MESMO MPN-01, com ficha
+ * identica campo a campo, como 5 em 1, 7 em 1 e 9 em 1.
+ */
+export const camposProcessador: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que \u00e9",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Mini processador de copo, processador compacto ou multiprocessador com jarra de liquidificador junto.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Pot\u00eancia",
+    grupo: "Motor",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    ajuda:
+      "O n\u00famero da caixa. Philco e Brit\u00e2nia n\u00e3o t\u00eam este campo em quase nenhuma ficha de processador \u2014 a pot\u00eancia delas vive no nome do produto.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidades",
+    rotulo: "Velocidades",
+    grupo: "Motor",
+    tipo: "numero",
+    filtro: "faixa",
+    ajuda: "Quantas posi\u00e7\u00f5es o seletor tem, sem contar a fun\u00e7\u00e3o pulsar.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcaoPulsar",
+    rotulo: "Fun\u00e7\u00e3o pulsar",
+    grupo: "Motor",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "O bot\u00e3o que gira a l\u00e2mina em pulsos enquanto pressionado. Em processador \u00e9 o controle que evita virar pur\u00ea o que era para ficar picado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pecasNaCaixa",
+    rotulo: "Pe\u00e7as na caixa",
+    grupo: "O que vem junto",
+    tipo: "numero",
+    filtro: "faixa",
+    ajuda:
+      "Quantos acess\u00f3rios acompanham \u2014 \u00e9 o n\u00famero do \"5 em 1\" e do \"24 fun\u00e7\u00f5es\" do an\u00fancio. S\u00f3 a Arno lista o conte\u00fado da embalagem; as outras tr\u00eas marcas p\u00f5em o n\u00famero no nome e n\u00e3o dizem do que ele \u00e9 feito.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeJarraL",
+    rotulo: "Jarra do processador",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    filtro: "faixa",
+    ajuda: "O volume da jarra principal, onde ficam as l\u00e2minas de picar.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeJarraSecundariaL",
+    rotulo: "Jarra secund\u00e1ria",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "L",
+    filtro: "faixa",
+    ajuda:
+      "A jarra de liquidificador, quando acompanha. \u00c9 o acess\u00f3rio que transforma o processador em multiprocessador.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialLaminas",
+    rotulo: "Material das l\u00e2minas",
+    grupo: "Constru\u00e7\u00e3o",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Quase toda ficha que responde diz a\u00e7o inox.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialJarra",
+    rotulo: "Material da jarra",
+    grupo: "Constru\u00e7\u00e3o",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Vidro ou pl\u00e1stico. Muda o peso, a durabilidade e se pode ir ao micro-ondas.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "travaSeguranca",
+    rotulo: "Trava de seguran\u00e7a",
+    grupo: "Constru\u00e7\u00e3o",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "Se o aparelho s\u00f3 liga com a jarra encaixada. Num motor que gira l\u00e2mina exposta, \u00e9 o campo mais consequente da ficha \u2014 e \u00e9 o \u00fanico que Philco e Brit\u00e2nia respondem com consist\u00eancia.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "desmontavel",
+    rotulo: "Desmont\u00e1vel",
+    grupo: "Constru\u00e7\u00e3o",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda: "Se as partes saem para lavar.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Constru\u00e7\u00e3o",
+    tipo: "numero",
+    unidade: "m",
+    filtro: "faixa",
+    ajuda: "Quanto o fio alcan\u00e7a da tomada at\u00e9 a bancada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Constru\u00e7\u00e3o",
+    tipo: "numero",
+    unidade: "kg",
+    filtro: "faixa",
+    ajuda:
+      "Num aparelho de bancada que fica guardado no arm\u00e1rio entre um uso e outro, o peso decide se ele \u00e9 tirado de l\u00e1.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimens\u00f5es",
+    grupo: "Constru\u00e7\u00e3o",
+    tipo: "texto",
+    ajuda: "Largura, altura e profundidade do aparelho montado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "registroInmetro",
+    rotulo: "Registro no INMETRO",
+    grupo: "Energia",
+    tipo: "texto",
+    ajuda:
+      "O n\u00famero que d\u00e1 para conferir fora do site de quem vende. S\u00f3 a Arno declara nesta categoria.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "meses",
+    filtro: "faixa",
+    ajuda: "Prazo declarado pelo fabricante.",
+    contaTransparencia: true,
+  },
+];
+
 export const camposVentilador: Campo[] = [
   {
     chave: "tipo",
@@ -4990,6 +5158,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   "escovas-secadoras": camposEscovaSecadora,
   batedeiras: camposBatedeira,
   mixers: camposMixer,
+  processadores: camposProcessador,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,
