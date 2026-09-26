@@ -15,7 +15,11 @@ import {
 import { aindaNaoSaiu } from "@/lib/specs";
 import { ogImagem, tituloLongoDemais, tituloSeo } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
-import { conteudoDoProduto, dataLegivel } from "@/lib/conteudo";
+import {
+  conteudoDoProduto,
+  conteudoDaCategoria,
+  dataLegivel,
+} from "@/lib/conteudo";
 import { FichaSpecs, NotaTransparencia } from "@/components/ficha-specs";
 import { Divergencias } from "@/components/divergencias";
 import { Relatos } from "@/components/relatos";
@@ -114,6 +118,37 @@ export default async function PaginaProduto({ params }: Params) {
   // daqui, que existe um comparativo deste mesmo produto.
   const citam = conteudoDoProduto(p.lojas.amazon);
   const nCitam = citam.reviews.length + citam.comparativos.length + citam.guias.length;
+
+  // As peças da MESMA CATEGORIA que não citam este produto.
+  //
+  // `conteudoDoProduto` só acha o que cita a ficha — escolha de guia,
+  // concorrente de comparativo, sujeito de análise. Medido em 26/09/2026: dois
+  // em cada três produtos não são escolha de ninguém, e a ficha deles não
+  // levava a peça editorial nenhuma. Só 34% linkavam para o guia da categoria
+  // e 4% para uma análise.
+  //
+  // O rótulo do bloco diz a verdade: estas páginas são sobre a mesma
+  // categoria, e não sobre este produto. Prometer o contrário seria o tipo de
+  // link que o leitor clica uma vez e não clica de novo.
+  const jaCitadas = new Set([
+    ...citam.guias.map((g) => `g:${g.slug}`),
+    ...citam.comparativos.map((c) => `c:${c.slug}`),
+    ...citam.reviews.map((r) => `r:${r.slug}`),
+  ]);
+  const pecasDaCategoria = conteudoDaCategoria(p.categoria);
+  const deLeitura = [
+    // O guia primeiro: é a página que responde "qual eu compro", que é a
+    // pergunta de quem chegou numa ficha pelo nome do modelo.
+    ...pecasDaCategoria.guias
+      .filter((g) => !jaCitadas.has(`g:${g.slug}`))
+      .map((g) => ({ tipo: "Guia", href: `/guias/${g.slug}`, titulo: g.titulo, sub: g.subtitulo })),
+    ...pecasDaCategoria.comparativos
+      .filter((c) => !jaCitadas.has(`c:${c.slug}`))
+      .map((c) => ({ tipo: "Comparativo", href: `/comparativos/${c.slug}`, titulo: c.titulo, sub: c.subtitulo })),
+    ...pecasDaCategoria.reviews
+      .filter((r) => !jaCitadas.has(`r:${r.slug}`))
+      .map((r) => ({ tipo: "Análise", href: `/reviews/${r.slug}`, titulo: r.titulo, sub: r.subtitulo })),
+  ].slice(0, 4);
 
   const relacionados = [
     ...daCategoria.filter((o) => o.marca === p.marca),
@@ -378,6 +413,34 @@ export default async function PaginaProduto({ params }: Params) {
                 sub: g.subtitulo,
               })),
             ].map((i) => (
+              <li key={i.href}>
+                <Link
+                  href={i.href}
+                  className="painel block h-full p-5 transition hover:border-acao"
+                >
+                  <span className="pastilha">{i.tipo}</span>
+                  <span className="mt-2.5 block font-titulo text-[1.05rem] leading-snug">
+                    {i.titulo}
+                  </span>
+                  <span className="mt-1.5 block text-[0.85rem] leading-relaxed text-tinta-suave">
+                    {i.sub}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {deLeitura.length > 0 && cat && (
+        <section className="mt-12">
+          <h2 className="titulo-ui text-xl">Para escolher {cat.nome.toLowerCase()}</h2>
+          <p className="mt-1 max-w-[62ch] text-[0.9rem] text-tinta-suave">
+            Estas páginas não são sobre este modelo — são sobre a categoria
+            dele, com o critério escrito e as fontes listadas.
+          </p>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+            {deLeitura.map((i) => (
               <li key={i.href}>
                 <Link
                   href={i.href}
