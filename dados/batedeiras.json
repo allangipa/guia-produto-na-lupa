@@ -1794,7 +1794,7 @@
         "url": "https://www.kitchenaid.com.br/batedeira-kitchenaid-artisan-blue-salt-kea38af/p",
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: 300 W em 110 V, 300 W em 220 V, **10 velocidades**, tigela de 4.8 L, tigela de inox, **1.1 kg de farinha**, **1.8 kg de massa de pão**, acessórios: Batedores / Fouet / Gancho / Tigela, garantia de 12 meses. A KitchenAid não publica peso nem dimensões nesta página, e classifica o produto só como “Batedeira” no campo de tipo — a palavra planetário aparece no texto de diferenciais, não em campo de especificação.",
-        "consultadaEm": "2026-09-19"
+        "consultadaEm": "2026-09-25"
       },
       {
         "id": "kitchenaid-artisan-blue-salt-amazon",
@@ -1811,7 +1811,7 @@
         "fonteAdotada": "kitchenaid-artisan-blue-salt-oficial",
         "valorDivergente": "275 W em 110 V nas demais Artisan",
         "fonteDivergente": "kitchenaid-artisan-empire-red-oficial",
-        "observacao": "Nas fichas Blue Salt e Butter a potência em 110 V é 300 W e a tigela é 4,8 L. Nas fichas Empire Red, Black Matte, Contour Silver, Dried Rose, Mineral Water, Beetroot e Spearmint, a mesma linha Artisan traz 275 W e 4,83 L. É o mesmo aparelho em cores diferentes; nem o motor nem a tigela mudam com a cor. Uma das duas leituras está errada e a página não diz qual, então cada ficha guarda o que a sua página publica e a divergência fica anotada nas duas."
+        "observacao": "Nas fichas Blue Salt e Butter a potência em 110 V é 300 W e a tigela é 4,8 L. Nas fichas Empire Red, Black Matte, Contour Silver, Dried Rose, Mineral Water, Beetroot e Spearmint, a mesma linha Artisan traz 275 W e 4,83 L. É o mesmo aparelho em cores diferentes; nem o motor nem a tigela mudam com a cor.\n\nReapurado em 25/09/2026, e a estrutura da ficha ficou clara: cada página Artisan publica DOIS campos de potência, \"Potência (W) 110V\" e \"Potência (W) 220V\". Nas outras cores eles trazem 275 e 300; aqui trazem 300 nos dois. Como as três páginas conferidas (esta, Beetroot e Empire Red) são as de 110 V, a divergência não é de tensão: é o campo de 110 V desta ficha repetindo o valor de 220 V.\n\nA tigela, por outro lado, a própria página resolve. O campo de especificação diz 4,8 L, e o conteúdo da embalagem, na mesma página, diz \"duas tigelas em aço inox de 4,83 litros e 2,8 litros\". São os 4,83 L das outras cores. O valor publicado no campo fica na ficha, pela mesma razão da elevação da Beetroot: trocar o campo do fabricante pela leitura de outro trecho da página seria substituir a fonte pela nossa escolha de qual trecho vale. O que muda é que agora se sabe qual dos dois números a própria KitchenAid contradiz."
       }
     ],
     "imagem": {
