@@ -389,7 +389,7 @@ confunde com documento sem folha de estilo.
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
 - **Inventário em 26/09/2026: 423 produtos em 27 categorias, 27 guias,
-  44 comparativos e 18 análises.**
+  44 comparativos e 19 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -403,7 +403,7 @@ confunde com documento sem folha de estilo.
   com o clique de afiliado acontecendo na análise, com o leitor já decidido.
 
   **O gargalo de largura fechou.** As 27 categorias têm peça editorial — em
-  25/09 eram 12. O que sobrou é profundidade: 18 análises para 44 comparativos,
+  25/09 eram 12. O que sobrou é profundidade: 19 análises para 44 comparativos,
   e o funil desenhado acima termina na análise.
 
   **Antes de abrir categoria nova, escrever análise.** Guia ranqueia para
@@ -415,6 +415,24 @@ confunde com documento sem folha de estilo.
   proíbe a análise — as 18 publicadas nasceram só de documentação, como os
   comparativos —, mas o comparativo é ficha contra ficha e não sugere posse em
   momento nenhum. Ao propor peça nova, propor comparativo por padrão.
+
+- **A peça editorial leva de volta para a ficha, desde 26/09/2026.** O caminho
+  ficha → peça foi aberto mais cedo no mesmo dia; a volta não existia. Medido
+  antes: os 27 guias linkavam para a ficha das escolhas deles, e **nenhum dos 44
+  comparativos e nenhuma das 19 análises** linkava para ficha nenhuma. A peça
+  citava o número, dizia de qual fonte ele saiu, e não dava ao leitor como
+  chegar aos outros vinte campos da mesma ficha.
+
+  `components/leva-a-ficha.tsx` entra depois das lacunas nas duas: quem acabou
+  de ler "o que o fabricante não informa" tem como pergunta seguinte o que ele
+  informa. O rótulo carrega o contador de campos ("15 de 22 campos") porque
+  "ver a ficha" não diz o que se ganha ao clicar — e o contador fala na mesma
+  unidade do selo de transparência do topo da página.
+
+  **Não é CTA e não usa cor de ação**, logo não conta para o teto de três blocos
+  por página. Num site que não testa produto a ficha campo a campo não é
+  apêndice: é a matéria-prima do texto, e é onde moram as divergências entre
+  fontes e a data de cada consulta. Mandar o leitor conferir é parte do método.
 
 - **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
   de 423 e não na de 413 por categoria. Não foram investigados; fica anotado.

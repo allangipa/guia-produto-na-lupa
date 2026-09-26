@@ -16,6 +16,7 @@ import { ProsContras, Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
 import { FotoProduto } from "@/components/foto-produto";
 import { SeloTransparencia } from "@/components/selo-transparencia";
+import { LevaAFicha } from "@/components/leva-a-ficha";
 import { Fontes } from "@/components/fontes";
 import { JsonLd, schemaReview, schemaBreadcrumb } from "@/lib/schema";
 
@@ -48,6 +49,9 @@ export default async function PaginaReview({ params }: Params) {
   const { slug } = await params;
   const r = review(slug);
   if (!r) notFound();
+
+  // A mesma ficha alimenta o selo do topo e o link do fim da página.
+  const ficha = produtoDaBase([r.produto.lojas], [r.produto.nome]);
 
   const { content } = await compileMDX({
     source: r.corpo,
@@ -87,14 +91,11 @@ export default async function PaginaReview({ params }: Params) {
 
       {/* O selo antes do veredito: quem lê "não informa" no texto precisa saber
           se aquilo é deslize ou o padrão da ficha inteira. */}
-      {(() => {
-        const ficha = produtoDaBase([r.produto.lojas], [r.produto.nome]);
-        return ficha ? (
-          <div className="mt-8">
-            <SeloTransparencia produto={ficha} />
-          </div>
-        ) : null;
-      })()}
+      {ficha ? (
+        <div className="mt-8">
+          <SeloTransparencia produto={ficha} />
+        </div>
+      ) : null}
 
       <VereditoRapido nota={r.nota} para={r.para} naoPara={r.naoPara} />
 
@@ -120,6 +121,8 @@ export default async function PaginaReview({ params }: Params) {
       />
 
       <Lacunas itens={r.lacunas} />
+
+      <LevaAFicha produtos={ficha ? [ficha] : []} />
 
       <Fontes itens={r.fontes} />
 

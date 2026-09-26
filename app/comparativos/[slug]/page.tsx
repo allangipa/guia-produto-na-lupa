@@ -16,6 +16,7 @@ import { Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
 import { FrenteAFrente } from "@/components/frente-a-frente";
 import { Fontes } from "@/components/fontes";
+import { LevaAFicha } from "@/components/leva-a-ficha";
 import { TabelaComparativa } from "@/components/tabela-comparativa";
 import { Foto } from "@/components/foto";
 
@@ -132,6 +133,12 @@ export default async function PaginaComparativo({ params }: Params) {
       <div className="prosa">{content}</div>
 
       <Lacunas itens={c.lacunas} />
+
+      <LevaAFicha
+        produtos={c.concorrentes
+          .map((p) => produtoDaBase([p.lojas], [p.nome]))
+          .filter((p): p is NonNullable<typeof p> => Boolean(p))}
+      />
 
       {c.concorrentes.map((p) => (
         <div key={p.nome}>
