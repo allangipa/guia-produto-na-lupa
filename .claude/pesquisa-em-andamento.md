@@ -1488,3 +1488,61 @@ nenhuma das nove.
 ### Conferencia
 
 108 verificacoes nas cinco categorias, zero falha. Build em **629 paginas**.
+
+## Mercado Livre: como o link de afiliado funciona — apurado em 25/09/2026
+
+Fui atras dos 8 aspiradores que nao existem na Amazon. **Dois existem no
+Mercado Livre e estao confirmados**; cinco nao existem; um foi recusado.
+
+### Confirmados, esperando o link atribuido
+
+| produto | pagina | o que confirmou |
+|---|---|---|
+| `wap-robot-w100c` | `/p/MLB19561637` | o campo **"Modelo alfanumerico FW008615"** e o modelo exato da nossa ficha. Tambem "Modelo Robot W100C" e 127/220V |
+| `electrolux-eqp40` | `/p/MLB45695281` | "Modelo EQP40", "Capacidade em volume 3 L" (a ficha diz 3 L), 1800 W, HEPA, 127 V |
+
+Cuidado no W100C: existe um **W100 sem o C** (MLB15711832) na mesma busca.
+
+### Recusado
+
+`midea-powerdust` — a busca traz "Aspirador Vertical Midea **VVA20 1.5L**". O
+nosso e **VVA20P1 com 2 L**. Sufixo e capacidade diferentes: caso ESI80.
+
+### Nao existem no Mercado Livre
+
+`wap-turbo-1600` (busca devolve Power Speed Max AZ20), `wap-turbo-2002` (devolve
+pecas de Audi A3 — o "2002" casa com o ano), `wap-magic-clean` (so o WAP Magic
+de 450 W, que ja temos na Amazon), `wap-ambiance-turbo` (so enrolador de cabo e
+extensao), `philco-pas1810` (so mangueira e bocal).
+
+### O ACHADO TECNICO: nao da para montar tag do ML em codigo
+
+O Allan pediu para tentar o molde da Amazon — uma funcao `link` no registro de
+lojas que anexa a tag na URL. **Nao funciona para o Mercado Livre**, e a prova
+esta na pagina:
+
+- A barra confirma o cadastro: **"Afiliados | GANHOS 5% | Compartilhar"**, com
+  links para `/afiliados/dashboard`, `/afiliados/tools` e `/afiliados/hub`.
+- O unico parametro na pagina e `matt_tool=38524122`, e ele esta dentro do
+  bloco `"share"` do permalink de "Compartilhe este produto", acompanhado de
+  `ua=<token>`. E o compartilhamento **generico**, nao o afiliado, e o `ua` e
+  token de sessao.
+- O evento de share traz `"user_type":"affiliates"` e `internal_tags` com
+  `is_affiliate`: e o botao **Compartilhar** que gera o link atribuido, no
+  servidor, **um por produto**.
+- Zero ocorrencias de `mercadolivre.com/sec/` antes do clique.
+
+**Conclusao**: a Amazon tem tag constante (`?tag=guiaprodutona-20`) e por isso
+cabe numa funcao. O ML gera link por produto e nao expoe nada constante.
+Inventar um parametro mandaria o clique sem atribuicao e manteria a linha "o
+site recebe comissao" falsa — o mesmo erro do ASIN escrito de memoria.
+
+**E nao precisa de codigo**: o registro em `lib/site.ts` ja trata `mercadolivre`
+sem funcao `link`, entao a URL gerada entra como esta. Basta o Allan clicar em
+Compartilhar nas duas paginas acima e colar os links.
+
+Nota operacional: o painel recusa acesso de ferramenta a `mercadolivre.com.br`
+("This site is not approved for tool access"), entao eu nao clico nada la — e
+gerar link de afiliado seria acao na conta dele de qualquer forma.
+
+Se os dois entrarem, aspiradores fecha em **18 de 24**.
