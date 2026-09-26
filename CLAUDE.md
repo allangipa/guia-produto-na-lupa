@@ -388,7 +388,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 437 produtos em 27 categorias, 27 guias,
+- **Inventário em 26/09/2026: 454 produtos em 27 categorias, 27 guias,
   44 comparativos e 19 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -458,8 +458,11 @@ confunde com documento sem folha de estilo.
   peso" caiu junto.
 
   **As duas categorias foram repostas em 26/09/2026**, com marca nova em vez de
-  mais modelos das mesmas: batedeiras 26 → 33 com sete Mondial, secadores
-  28 → 35 com sete GA.MA Italy. O casamento foi feito pela página oficial
+  mais modelos das mesmas, e voltaram ao tamanho de antes da remoção:
+  **batedeiras 26 → 40** (7 Mondial, 3 Oster, 1 Philco, 1 Electrolux, 2 Arno) e
+  **secadores 28 → 45** (7 GA.MA Italy, 4 Mondial, 2 Philco, 2 Britânia,
+  2 Elgin). Entraram três marcas que a base não tinha: Mondial e Oster em
+  batedeiras, GA.MA Italy e Elgin em secadores. O casamento foi feito pela página oficial
   primeiro e pelo ASIN depois — a Amazon vende variantes de cor que o
   fabricante não documenta, e essas ficaram de fora.
 

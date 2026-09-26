@@ -1941,5 +1941,604 @@
       "credito": "Imagem: GA.MA Italy",
       "origem": "https://www.gamaitaly.com.br/secador-iq3-perfetto-rose-gold-127v-gam-bechd0000002961_pai/p"
     }
+  },
+  {
+    "slug": "mondial-scn-01",
+    "nome": "Mondial SCN-01",
+    "marca": "Mondial",
+    "modelo": "SCN-01",
+    "categoria": "secadores",
+    "resumo": "2.000 W, 620 g e grade traseira removível declarada. O campo de cabo traz \"1,70cm\", com a unidade trocada.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.62,
+      "tensao": "127V/220V",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B094X8RLDT"
+    },
+    "divergencias": [
+      {
+        "campo": "comprimentoCaboM",
+        "fonteAdotada": "mondial-scn-01-oficial",
+        "valorDivergente": "1,70cm",
+        "fonteDivergente": "mondial-scn-01-oficial",
+        "observacao": "O campo \"Comprimento do cabo\" traz **1,70cm**. Um cabo de um centímetro e sete não alcança tomada nenhuma — são 1,70 m com a unidade errada. É o mesmo erro que a Mondial comete no SCN-02, no SCN-11 e no SCN-04. O campo ficou vazio: número impossível não é dado, e preencher com a nossa leitura seria trocar a fonte pela nossa interpretação."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-scn-01-oficial",
+        "titulo": "Mondial SCN-01 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/secador-de-cabelos-mondial-preto-2000w-scn-01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.000 W, cor Preto/Roxo, 620 g, 127V/220V, controle de temperatura, grade traseira removível, jato de ar frio e 1 ano de garantia. O campo de cabo traz \"1,70cm\". Não declara tipo de motor, rotação, quantos níveis de temperatura nem quantas velocidades.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-scn-01-amazon",
+        "titulo": "Mondial SCN-01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B094X8RLDT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"MONDIAL Secador de Cabelos, Preto, 2000W, 220V - SCN-01\". A Mondial descreve a cor como \"Preto/Roxo\" e a Amazon só como \"Preto\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-scn-01.webp",
+      "alt": "Secador Mondial SCN-01 preto com detalhes em roxo, com o bico direcionador",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/secador-de-cabelos-mondial-preto-2000w-scn-01/p"
+    }
+  },
+  {
+    "slug": "mondial-sc-47-gr",
+    "nome": "Mondial Travel SC-47-GR",
+    "marca": "Mondial",
+    "modelo": "SC-47-GR",
+    "categoria": "secadores",
+    "resumo": "300 g de viagem, e a única ficha da base que responde não em dois campos ao mesmo tempo: sem jato de ar frio e sem grade traseira removível.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": false,
+      "gradeTraseiraRemovivel": false,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 0.3,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09HJSJ3LB"
+    },
+    "fontes": [
+      {
+        "id": "mondial-sc-47-gr-oficial",
+        "titulo": "Mondial Travel SC-47-GR — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/secador-de-cabelos-travel-mondial-golden-rose-1200w-sc-47-gr/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.200 W, cor Preto/Golden Rose, 300 g, bivolt, cabo de 1,50 m, controle de temperatura, **grade traseira removível: Não**, **jato de ar frio: Não** e 1 ano de garantia. Não declara tipo de motor, rotação, níveis de temperatura nem velocidades.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-sc-47-gr-amazon",
+        "titulo": "Mondial Travel SC-47-GR — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09HJSJ3LB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"MONDIAL Secador de Cabelos Travel, Golden Rose, 1200W, Bivolt - SC-47-GR\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-sc-47-gr.webp",
+      "alt": "Secador de viagem Mondial SC-47-GR rosa e prata, com o bico direcionador",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/secador-de-cabelos-travel-mondial-golden-rose-1200w-sc-47-gr/p"
+    }
+  },
+  {
+    "slug": "mondial-scp-ju-03",
+    "nome": "Mondial By Juliette SCP-JU-03",
+    "marca": "Mondial",
+    "modelo": "SCP-JU-03",
+    "categoria": "secadores",
+    "resumo": "2.000 W, 700 g e cabo de 2,5 m — o cabo mais longo entre os Mondial convencionais da base.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2000,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 2.5,
+      "pesoKg": 0.7,
+      "tensao": "127V/220V",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C6FMFNHJ"
+    },
+    "fontes": [
+      {
+        "id": "mondial-scp-ju-03-oficial",
+        "titulo": "Mondial By Juliette SCP-JU-03 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/secador-de-cabelo-by-juliette-mondial-azul-rosa-2000w-scp-ju-03/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.000 W, cor Rosa/Azul, 700 g, 127V/220V, cabo de 2,5 m, controle de temperatura, grade traseira removível, jato de ar frio e 12 meses de garantia. Não declara tipo de motor, rotação, níveis de temperatura nem velocidades.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-scp-ju-03-amazon",
+        "titulo": "Mondial By Juliette SCP-JU-03 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C6FMFNHJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"MONDIAL Secador de Cabelo By Juliette, Duo Colors, 2000W, 110V - SCP-JU-03\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-scp-ju-03.webp",
+      "alt": "Secador Mondial By Juliette SCP-JU-03 em degradê azul e rosa, com bico e difusor",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/secador-de-cabelo-by-juliette-mondial-azul-rosa-2000w-scp-ju-03/p"
+    }
+  },
+  {
+    "slug": "mondial-sc-37-bi",
+    "nome": "Mondial SC-37-BI",
+    "marca": "Mondial",
+    "modelo": "SC-37-BI",
+    "categoria": "secadores",
+    "resumo": "2.200 W com motor DC declarado, três temperaturas e duas velocidades. Seis campos da ficha vêm preenchidos com um traço.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2200,
+      "tipoMotor": "DC",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": true,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.55,
+      "tensao": "127V - 220V",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FMS4VXLF"
+    },
+    "divergencias": [
+      {
+        "campo": "comprimentoCaboM",
+        "fonteAdotada": "mondial-sc-37-bi-oficial",
+        "valorDivergente": "um traço, \"-\"",
+        "fonteDivergente": "mondial-sc-37-bi-oficial",
+        "observacao": "Seis campos desta ficha trazem o caractere \"-\" como valor: comprimento do cabo, tipo de tomada, funções, cabo giratório e revestimento. Outros quatro trazem \"Não Aplicável\" para lâmina, recarregável, chapas e trava de segurança — esses fazem sentido, são campos de barbeador e de chapinha num molde compartilhado. O traço não: é campo que caberia neste produto e não foi respondido. Campo preenchido com pontuação não é dado informado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-sc-37-bi-oficial",
+        "titulo": "Mondial SC-37-BI — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/secador-de-cabelos-sc-37-bi-bivolt-60hz/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.200 W, **motor DC**, 3 níveis de temperatura, 2 velocidades, Tourmaline Íon, grade traseira removível, jato de ar frio, 0,55 kg, 127V-220V, 28,5 × 28,5 × 8,5 cm e 12 meses de garantia. O campo de comprimento do cabo traz um traço.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-sc-37-bi-amazon",
+        "titulo": "Mondial SC-37-BI — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FMS4VXLF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"MONDIAL Secador de Cabelos, Preto/Golden Rose, 2200W, Bivolt - SC-37-BI\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-sc-37-bi.webp",
+      "alt": "Secador Mondial SC-37-BI preto com detalhes em rosa dourado",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/secador-de-cabelos-sc-37-bi-bivolt-60hz/p"
+    }
+  },
+  {
+    "slug": "philco-psc2450",
+    "nome": "Philco Tourmaline PSC2450",
+    "marca": "Philco",
+    "modelo": "PSC2450",
+    "categoria": "secadores",
+    "resumo": "2.200 W, três temperaturas e duas velocidades. O nome diz Tourmaline e a lista de características da mesma ficha não menciona íons.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.9,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D9R7NYPG"
+    },
+    "divergencias": [
+      {
+        "campo": "emiteIons",
+        "fonteAdotada": "philco-psc2450-oficial",
+        "valorDivergente": "\"Tourmaline\" no nome do produto",
+        "fonteDivergente": "philco-psc2450-oficial",
+        "observacao": "O produto se chama \"Secador de Cabelos Philco Tourmaline 2200W\" e o campo \"Características do Produto\" da mesma página lista jato de ar frio, grade traseira removível e alça para pendurar — e **não lista \"Libera Íons\"**, que é o item que a própria Philco usa no PSA3300. Nome não é campo: o campo de íons ficou vazio."
+      },
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "philco-psc2450-oficial",
+        "valorDivergente": "Consumo (kW/h) 2,2",
+        "fonteDivergente": "philco-psc2450-oficial",
+        "observacao": "A ficha traz o campo \"Consumo (kW/h)\" com o valor 2,2, que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, e aparece assim em toda ficha de secador do grupo. O campo não foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philco-psc2450-oficial",
+        "titulo": "Philco Tourmaline PSC2450 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/secador-de-cabelos-psc2450-biv-053503082/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.200 W, 3 níveis de temperatura, 2 níveis de velocidade, cordão elétrico de 1,9 m, cor Preto, 360 dias de garantia. Características: jato de ar frio, grade traseira removível e alça para pendurar. Acessórios: bocal concentrador e bocal difusor. Não declara peso, tipo de motor, rotação nem tensão em campo próprio, e traz \"Consumo (kW/h): 2,2\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-psc2450-amazon",
+        "titulo": "Philco Tourmaline PSC2450 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D9R7NYPG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Philco Secador de Cabelos Bivolt 2200W PSC2450 Íons Tourmaline\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psc2450.webp",
+      "alt": "Secador Philco PSC2450 preto com detalhes dourados, com o bico direcionador",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-psc2450-biv-053503082/p"
+    }
+  },
+  {
+    "slug": "philco-psa3300",
+    "nome": "Philco Íons Tourmaline PSA3300",
+    "marca": "Philco",
+    "modelo": "PSA3300",
+    "categoria": "secadores",
+    "resumo": "2.100 W com três velocidades e duas temperaturas — mais velocidades que temperaturas, o inverso do resto da linha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 3,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": true,
+      "comprimentoCaboM": 1.8,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D2Y52D5X"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "philco-psa3300-oficial",
+        "valorDivergente": "Consumo (kW/h) 2,1",
+        "fonteDivergente": "philco-psa3300-oficial",
+        "observacao": "A ficha traz o campo \"Consumo (kW/h)\" com o valor 2,1, que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, e aparece assim em toda ficha de secador do grupo. O campo não foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philco-psa3300-oficial",
+        "titulo": "Philco Íons Tourmaline PSA3300 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/secador-de-cabelos-psa3300-127v-053501077/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.100 W, 2 níveis de temperatura, 3 níveis de velocidade, cordão elétrico de 1,8 m, cor Rosa/Cinza e 360 dias de garantia. Características: jato de ar frio, grade traseira removível, **libera íons** e alça para pendurar. Não declara peso, tipo de motor nem rotação, e traz \"Consumo (kW/h): 2,1\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-psa3300-amazon",
+        "titulo": "Philco Íons Tourmaline PSA3300 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D2Y52D5X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a potência vendidos: \"Philco Secador de Cabelos PSA3300 Íons Tourmaline 2100W 220V, Cinza e Rosa\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-psa3300.webp",
+      "alt": "Secador Philco PSA3300 cinza com detalhe rosa, com o bico direcionador",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/secador-de-cabelos-psa3300-127v-053501077/p"
+    }
+  },
+  {
+    "slug": "britania-bsc2150",
+    "nome": "Britânia Tourmaline Íons BSC2150",
+    "marca": "Britânia",
+    "modelo": "BSC2150",
+    "categoria": "secadores",
+    "resumo": "2.100 W, três temperaturas e duas velocidades. A lista de características traz grade removível e íons, e não menciona jato de ar frio.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": true,
+      "comprimentoCaboM": 1.9,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D79NCJZD"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-bsc2150-oficial",
+        "valorDivergente": "Consumo (kW/h) 2,1",
+        "fonteDivergente": "britania-bsc2150-oficial",
+        "observacao": "A ficha traz o campo \"Consumo (kW/h)\" com o valor 2,1, que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, e aparece assim em toda ficha de secador do grupo. O campo não foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "britania-bsc2150-oficial",
+        "titulo": "Britânia Tourmaline Íons BSC2150 — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-tourmaline-ions-2100w-bsc2150/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.100 W, 3 níveis de temperatura, 2 níveis de velocidade, cordão elétrico de 1,9 m, cor Preto e 360 dias de garantia. Características: grade traseira removível e libera íons — **jato de ar frio não aparece na lista**, e por isso o campo ficou vazio, sem virar um \"não\". Não declara peso, tipo de motor nem rotação, e traz \"Consumo (kW/h): 2,1\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bsc2150-amazon",
+        "titulo": "Britânia Tourmaline Íons BSC2150 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D79NCJZD",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Britânia Secador de Cabelos BSC2150 2100W Preto e fumê Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsc2150.webp",
+      "alt": "Secador Britânia BSC2150 preto, com o bico direcionador",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-tourmaline-ions-2100w-bsc2150/p"
+    }
+  },
+  {
+    "slug": "britania-bsc1200",
+    "nome": "Britânia BSC1200",
+    "marca": "Britânia",
+    "modelo": "BSC1200",
+    "categoria": "secadores",
+    "resumo": "1.200 W com cabo dobrável — a única característica que a ficha lista. É também a única Britânia que declara a garantia em meses e em dias ao mesmo tempo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1200,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.7,
+      "pesoKg": null,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D2Y6VH12"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-bsc1200-oficial",
+        "valorDivergente": "Consumo (kW/h) 1,2",
+        "fonteDivergente": "britania-bsc1200-oficial",
+        "observacao": "A ficha traz o campo \"Consumo (kW/h)\" com o valor 1,2, que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo o aparelho fica ligado. É o watt com a unidade trocada, e aparece assim em toda ficha de secador do grupo. O campo não foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "britania-bsc1200-oficial",
+        "titulo": "Britânia BSC1200 — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/secador-de-cabelos-britania-2-temperaturas-1200w-bsc1200/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.200 W, 2 níveis de temperatura, 2 níveis de velocidade, cordão elétrico de 1,70 m, cor Preto, 12 meses e 360 dias de garantia nos dois campos. Característica única listada: cabo dobrável. Não declara jato de ar frio, grade traseira removível, íons, peso, motor nem rotação, e traz \"Consumo (kW/h): 1,2\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bsc1200-amazon",
+        "titulo": "Britânia BSC1200 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D2Y6VH12",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Britânia Secador de Cabelos BSC1200 Íon Tourmaline 1200W Preto Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bsc1200.webp",
+      "alt": "Secador Britânia BSC1200 preto, compacto, com o bico direcionador",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/secador-de-cabelos-britania-2-temperaturas-1200w-bsc1200/p"
+    }
+  },
+  {
+    "slug": "elgin-super-ionic-chumbo",
+    "nome": "Elgin Super Ionic Chumbo",
+    "marca": "Elgin",
+    "modelo": "ELG-42SES20",
+    "categoria": "secadores",
+    "resumo": "O nome do produto diz \"Motor BLDC 3 Temperaturas Jato Frio\". A ficha técnica não tem campo de motor, de temperatura nem de jato de ar frio.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1700,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "tensao": "110V",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FFPJ9HC7"
+    },
+    "divergencias": [
+      {
+        "campo": "tipoMotor",
+        "fonteAdotada": "elgin-super-ionic-chumbo-oficial",
+        "valorDivergente": "\"Motor BLDC 3 Temperaturas Jato Frio\", no nome do produto",
+        "fonteDivergente": "elgin-super-ionic-chumbo-oficial",
+        "observacao": "O nome comercial anuncia três coisas que a tabela de especificação da mesma página não tem campo para responder: tipo de motor, números de temperatura e jato de ar frio. A tabela traz voltagem, potência, cor, velocidades, EAN e garantia, e só. **Nome não é campo**, e este site não converte um no outro — os três ficaram vazios. Vale notar que o único campo numérico além da potência é \"Velocidades=3\", o mesmo 3 que o nome atribui às temperaturas."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "elgin-super-ionic-chumbo-oficial",
+        "titulo": "Elgin Super Ionic Chumbo — ficha oficial do fabricante",
+        "url": "https://www.elgin.com.br/secador-super-ionic-chumbo-motor-bldc-3-temperaturas-jato-frio-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.700 W, 110V, cor Chumbo, 3 velocidades, EAN 7908412504662, código ELG-42SES20 e 1 ano de garantia. A tabela não tem campo de tipo de motor, níveis de temperatura, jato de ar frio, peso, comprimento de cabo nem rotação — embora o nome do produto anuncie motor BLDC, 3 temperaturas e jato frio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-super-ionic-chumbo-amazon",
+        "titulo": "Elgin Super Ionic Chumbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FFPJ9HC7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor, a potência e a tensão vendidos: \"Secador Super Ionic Chumbo - 1.700W Motor BLDC 3 Temperaturas Jato Frio 110V, Elgin\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-super-ionic-chumbo.webp",
+      "alt": "Secador Elgin Super Ionic chumbo, de corpo curto, ao lado do bico direcionador",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/secador-super-ionic-chumbo-motor-bldc-3-temperaturas-jato-frio-/p"
+    }
+  },
+  {
+    "slug": "elgin-super-ionic-branco",
+    "nome": "Elgin Super Ionic Branco",
+    "marca": "Elgin",
+    "modelo": "ELG-42SES2W",
+    "categoria": "secadores",
+    "resumo": "Mesma ficha do Super Ionic chumbo, em branco e com difusor. A Amazon o vende como \"Super Ionic Plus\"; a Elgin não usa o \"Plus\" em lugar nenhum.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1700,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "tensao": "110V",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FFPLC4L7"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "elgin-super-ionic-branco-oficial",
+        "valorDivergente": "\"Super Ionic Plus\", no título da Amazon",
+        "fonteDivergente": "elgin-super-ionic-branco-amazon",
+        "observacao": "A Amazon vende como \"Super Ionic Plus Branco\" e a Elgin chama de \"Super Ionic 1.700W Branco\". Potência, tensão, cor e o difusor incluso batem nos dois, e o código ELG-42SES2W é único na loja da Elgin — é o mesmo produto com um \"Plus\" no varejo. Fica registrado porque sufixo comercial que só existe numa das pontas é o tipo de coisa que faz comprar o modelo errado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "elgin-super-ionic-branco-oficial",
+        "titulo": "Elgin Super Ionic Branco — ficha oficial do fabricante",
+        "url": "https://www.elgin.com.br/secador-de-cabelo-super-ionic-1700w-branco-motor-bldc-3-temperaturas-jato-frio-com-difusor-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.700 W, 110V, cor Branco, 3 velocidades, EAN 7908412537288, código ELG-42SES2W e 1 ano de garantia. Como no irmão chumbo, a tabela não tem campo de motor, de níveis de temperatura, de jato de ar frio, de peso nem de comprimento de cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-super-ionic-branco-amazon",
+        "titulo": "Elgin Super Ionic Branco — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FFPLC4L7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma a cor, a potência, a tensão e o difusor incluso: \"Secador de Cabelo Super Ionic Plus Branco - 1.700W Motor BLDC 3 Temperaturas Jato Frio e Difusor 110V, Elgin\". O \"Plus\" do título não existe na loja da Elgin e está registrado como divergência.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-super-ionic-branco.webp",
+      "alt": "Secador Elgin Super Ionic branco, de corpo curto, ao lado do difusor",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/secador-de-cabelo-super-ionic-1700w-branco-motor-bldc-3-temperaturas-jato-frio-com-difusor-/p"
+    }
   }
 ]

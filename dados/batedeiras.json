@@ -1955,5 +1955,477 @@
       "credito": "Imagem: Mondial",
       "origem": "https://www.mondial.com.br/batedeira-planetaria-mondial-branco-inox-700w-bp-01p-w-1/p"
     }
+  },
+  {
+    "slug": "oster-obat641",
+    "nome": "Oster Bowl Inox III OBAT641",
+    "marca": "Oster",
+    "modelo": "OBAT641",
+    "categoria": "batedeiras",
+    "resumo": "850 W, 3,955 kg e as três dimensões declaradas, com registro no INMETRO. Não declara quantos litros a tigela comporta.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 850,
+      "velocidades": null,
+      "batedores": null,
+      "capacidadeTigelaL": null,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 3.955,
+      "dimensoesMm": "383 × 344 × 238 mm (L × A × P)",
+      "tensao": "127V / 220V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C4CFLZPB"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTigelaL",
+        "fonteAdotada": "oster-obat641-oficial",
+        "valorDivergente": "campo ausente da ficha",
+        "fonteDivergente": "oster-obat641-oficial",
+        "observacao": "A ficha desta batedeira publica as dimensões da embalagem individual, as da embalagem master, o código de barras DUN-14, a classificação fiscal NCM e o CEST — e **não publica quantos litros a tigela comporta**, que é a primeira pergunta de quem compra uma batedeira. Também não publica número de velocidades nem quais batedores acompanham. O campo ficou vazio."
+      },
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "oster-obat641-oficial",
+        "valorDivergente": "Consumo 0,85 KW/h",
+        "fonteDivergente": "oster-obat641-oficial",
+        "observacao": "A ficha traz \"Consumo: 0,85 KW/h\", que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo a máquina fica ligada. É o watt com a unidade trocada. O campo não foi adotado, e o mesmo erro aparece nas fichas de Philco, Britânia, Arno e Electrolux — quatro grupos diferentes, o mesmo engano."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "oster-obat641-oficial",
+        "titulo": "Oster Bowl Inox III OBAT641 — ficha oficial do fabricante",
+        "url": "https://www.oster.com.br/batedeira-planetaria-oster-bowl-inox-iii/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Planetária, 850 W, 3,955 kg, 383 × 344 × 238 mm (L × A × P), 127V/220V, certificação INMETRO com laudo SGS e 12 meses de garantia. Códigos OBAT641-127 e OBAT641-220. **Não publica capacidade da tigela, número de velocidades nem quais batedores acompanham**, e traz \"Consumo: 0,85 KW/h\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "oster-obat641-amazon",
+        "titulo": "Oster Bowl Inox III OBAT641 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C4CFLZPB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Batedeira Planetária Oster Bowl Inox III, OBAT641, 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-obat641.webp",
+      "alt": "Batedeira planetária Oster OBAT641 preta com tigela de inox",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/batedeira-planetaria-oster-bowl-inox-iii/p"
+    }
+  },
+  {
+    "slug": "oster-obat640",
+    "nome": "Oster Black III OBAT640",
+    "marca": "Oster",
+    "modelo": "OBAT640",
+    "categoria": "batedeiras",
+    "resumo": "O OBAT641 com tigela preta no lugar da de inox: mesmos 850 W, mesmas dimensões, 255 gramas a menos.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 850,
+      "velocidades": null,
+      "batedores": null,
+      "capacidadeTigelaL": null,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 3.7,
+      "dimensoesMm": "383 × 344 × 238 mm (L × A × P)",
+      "tensao": "127V / 220V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C5YCW65C"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTigelaL",
+        "fonteAdotada": "oster-obat640-oficial",
+        "valorDivergente": "campo ausente da ficha",
+        "fonteDivergente": "oster-obat640-oficial",
+        "observacao": "A ficha desta batedeira publica as dimensões da embalagem individual, as da embalagem master, o código de barras DUN-14, a classificação fiscal NCM e o CEST — e **não publica quantos litros a tigela comporta**, que é a primeira pergunta de quem compra uma batedeira. Também não publica número de velocidades nem quais batedores acompanham. O campo ficou vazio."
+      },
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "oster-obat640-oficial",
+        "valorDivergente": "Consumo 0,85 KW/h",
+        "fonteDivergente": "oster-obat640-oficial",
+        "observacao": "A ficha traz \"Consumo: 0,85 KW/h\", que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo a máquina fica ligada. É o watt com a unidade trocada. O campo não foi adotado, e o mesmo erro aparece nas fichas de Philco, Britânia, Arno e Electrolux — quatro grupos diferentes, o mesmo engano."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "oster-obat640-oficial",
+        "titulo": "Oster Black III OBAT640 — ficha oficial do fabricante",
+        "url": "https://www.oster.com.br/batedeira-planetaria-oster-black-iii/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Planetária, 850 W, 3,700 kg, 383 × 344 × 238 mm (L × A × P), 127V/220V, certificação INMETRO com laudo SGS e 12 meses de garantia. Códigos OBAT640-127 e OBAT640-220, e o manual é o mesmo do OBAT641. **Não publica capacidade da tigela, velocidades nem batedores**, e traz \"Consumo: 0,85 KW/h\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "oster-obat640-amazon",
+        "titulo": "Oster Black III OBAT640 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C5YCW65C",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Batedeira Planetária Oster Black III, OBAT640, 110v\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-obat640.webp",
+      "alt": "Batedeira planetária Oster OBAT640 preta com tigela preta",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/batedeira-planetaria-oster-black-iii/p"
+    }
+  },
+  {
+    "slug": "oster-obat911",
+    "nome": "Oster Planetária Digital OBAT911",
+    "marca": "Oster",
+    "modelo": "OBAT911",
+    "categoria": "batedeiras",
+    "resumo": "1.000 W e 6,75 kg — a mais pesada da base. O \"5L\" está no nome do produto e não em campo nenhum da ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 1000,
+      "velocidades": null,
+      "batedores": null,
+      "capacidadeTigelaL": null,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": null,
+      "funcaoPortatil": null,
+      "pesoKg": 6.75,
+      "dimensoesMm": "290 × 360 × 410 mm (L × A × P)",
+      "tensao": "127V / 220V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09CV4Q6CM"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTigelaL",
+        "fonteAdotada": "oster-obat911-oficial",
+        "valorDivergente": "\"5L\", no nome do produto",
+        "fonteDivergente": "oster-obat911-oficial",
+        "observacao": "O produto se chama \"Batedeira Planetária Digital Oster Bowl Inox 5L\" e a tabela de especificação da mesma página não tem campo de capacidade — tem as medidas da embalagem master e o código NCM. **Nome não é campo**, e este site não converte um no outro. Vale para as três Oster da base: nenhuma publica litros de tigela."
+      },
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "oster-obat911-oficial",
+        "valorDivergente": "Consumo 1 KWh",
+        "fonteDivergente": "oster-obat911-oficial",
+        "observacao": "A ficha traz \"Consumo: 1 KWh\", que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo a máquina fica ligada. É o watt com a unidade trocada. O campo não foi adotado, e o mesmo erro aparece nas fichas de Philco, Britânia, Arno e Electrolux — quatro grupos diferentes, o mesmo engano."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "oster-obat911-oficial",
+        "titulo": "Oster Planetária Digital OBAT911 — ficha oficial do fabricante",
+        "url": "https://www.oster.com.br/batedeira-planetaria-digital-oster-bowl-inox-5l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Planetária digital, 1.000 W, 6,75 kg, 290 × 360 × 410 mm (L × A × P), 127V/220V, certificação INMETRO com laudo SGS e 12 meses de garantia. Códigos OBAT911-127 e OBAT911-220. **Não publica capacidade da tigela, velocidades nem batedores**, e traz \"Consumo: 1 KWh\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "oster-obat911-amazon",
+        "titulo": "Oster Planetária Digital OBAT911 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09CV4Q6CM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor, a potência e a tensão vendidos: \"Oster Batedeira Planetária Digital, Bowl Inox, 5L, 110V, Vermelha, 1000W, OBAT911\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/oster-obat911.webp",
+      "alt": "Batedeira planetária digital Oster OBAT911 vermelha com tigela de inox",
+      "credito": "Imagem: Oster",
+      "origem": "https://www.oster.com.br/batedeira-planetaria-digital-oster-bowl-inox-5l/p"
+    }
+  },
+  {
+    "slug": "philco-php500",
+    "nome": "Philco Planetária PHP500 Turbo",
+    "marca": "Philco",
+    "modelo": "PHP500",
+    "categoria": "batedeiras",
+    "resumo": "700 W, tigela de 4,5 L e 11 velocidades — segundo esta página. A Philco mantém sete páginas do PHP500 no ar, com 4 e 4,5 litros e 11 e 12 velocidades.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 700,
+      "velocidades": 11,
+      "batedores": "3 unidades",
+      "capacidadeTigelaL": 4.5,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07664S9YG"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTigelaL",
+        "fonteAdotada": "philco-php500-oficial",
+        "valorDivergente": "4 L, em quatro páginas irmãs do mesmo PHP500",
+        "fonteDivergente": "philco-php500-oficial",
+        "observacao": "A loja da Philco mantém **sete páginas** para o PHP500 no ar. A adotada aqui — \"Batedeira Philco Planetária PHP500 Turbo\", cor Preto, que é a que casa com o anúncio da Amazon — declara **4,5 L**. As páginas do PHP500 vermelho, do PHP500V, do PHP500P Turbo Glass e do PHP500T declaram **4 L**. Mesma família, mesmo nome, meio litro de diferença."
+      },
+      {
+        "campo": "velocidades",
+        "fonteAdotada": "philco-php500-oficial",
+        "valorDivergente": "12 velocidades, em três páginas irmãs",
+        "fonteDivergente": "philco-php500-oficial",
+        "observacao": "Esta página declara **11 velocidades**. A página \"Batedeira Planetária Philco 700W 12 Velocidades PHP500P Turbo\", que também traz Modelo=PHP500, cor Preto e tigela de 4,5 L, declara **12**. E o PHP500V, que se chama \"Turbo\" no nome do produto, traz **\"Função turbo: Não\"** no campo."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philco-php500-oficial",
+        "titulo": "Philco Planetária PHP500 Turbo — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/batedeira-philco-planetaria-php500-turbo/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Planetária, 700 W, tigela de 4,5 L, 11 velocidades, 3 batedores, função turbo sim, função portátil não, tigela extra não, cor Preto e 360 dias de garantia. Não declara peso, dimensões, tensão, capacidade em farinha nem em massa de pão.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-php500-amazon",
+        "titulo": "Philco Planetária PHP500 Turbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07664S9YG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendidos: \"Batedeira Planetaria Philco Php500 Turbo - 127V - Preta\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-php500.webp",
+      "alt": "Batedeira planetária Philco PHP500 preta com tigela de inox e os três batedores",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/batedeira-philco-planetaria-php500-turbo/p"
+    }
+  },
+  {
+    "slug": "electrolux-ekm30",
+    "nome": "Electrolux Experience EKM30",
+    "marca": "Electrolux",
+    "modelo": "EKM30",
+    "categoria": "batedeiras",
+    "resumo": "A ficha mais completa da categoria fora a KitchenAid: 750 W, 12 velocidades mais pulsar, tigela de 5 L, peso, as três dimensões, o cabo e até o material dos batedores.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 750,
+      "velocidades": 12,
+      "batedores": "Fouet; Gancho e Plano",
+      "capacidadeTigelaL": 5.0,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": false,
+      "funcaoPortatil": false,
+      "pesoKg": 3.45,
+      "dimensoesMm": "379 × 337 × 226 mm (L × A × P)",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B4KQPSTH"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "electrolux-ekm30-oficial",
+        "valorDivergente": "Consumo de energia (kW/h) 0,75",
+        "fonteDivergente": "electrolux-ekm30-oficial",
+        "observacao": "A ficha traz \"Consumo: 0,75 kW/h\", que é exatamente a potência declarada dividida por mil. Não é consumo: consumo é energia por tempo e depende de quanto tempo a máquina fica ligada. É o watt com a unidade trocada. O campo não foi adotado, e o mesmo erro aparece nas fichas de Philco, Britânia, Arno e Electrolux — quatro grupos diferentes, o mesmo engano."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "electrolux-ekm30-oficial",
+        "titulo": "Electrolux Experience EKM30 — ficha oficial do fabricante",
+        "url": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-750w-preta-experience-com-tigela-5l--ekm30-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Planetária, 750 W, 12 velocidades mais pulsar, tigela de 5,0 L em plástico, 3 batedores (fouet, gancho e plano) em aço com revestimento de teflon, 3,45 kg, 37,9 × 33,7 × 22,6 cm (L × A × P), cabo de 1,0 m, tampa antirrespingos, trava de segurança, pés emborrachados, livre de BPA, compatível com lava-louças e 1 ano de garantia. Não declara capacidade em farinha nem em massa de pão, e não traz campo de tensão — que a ficha do irmão EKM40 traz. Publica \"Consumo de energia (kW/h): 0,75\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-ekm30-amazon",
+        "titulo": "Electrolux Experience EKM30 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B4KQPSTH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a potência e a tigela: \"Batedeira planetária Electrolux potente capacidade 5L 750W 12 velocidades função pulsar massa pesada pés antiderrapante EKM30\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/electrolux-ekm30.webp",
+      "alt": "Batedeira planetária Electrolux EKM30 preta ao lado dos três batedores",
+      "credito": "Imagem: Electrolux",
+      "origem": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-750w-preta-experience-com-tigela-5l--ekm30-/p"
+    }
+  },
+  {
+    "slug": "arno-km10",
+    "nome": "Arno Bake Easy KM10",
+    "marca": "Arno",
+    "modelo": "KM10",
+    "categoria": "batedeiras",
+    "resumo": "500 W e tigela de 3,5 L, com registro no INMETRO declarado. O campo que deveria trazer as velocidades se chama \"Velocidade de Rotação Máxima (rpm)\" e traz 12.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 500,
+      "velocidades": 12,
+      "batedores": null,
+      "capacidadeTigelaL": 3.5,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": false,
+      "funcaoPortatil": false,
+      "pesoKg": 3.7,
+      "dimensoesMm": "209 × 321 × 353 mm (L × A × P)",
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FTYQ63T5"
+    },
+    "divergencias": [
+      {
+        "campo": "velocidades",
+        "fonteAdotada": "arno-km10-oficial",
+        "valorDivergente": "\"Velocidade de Rotação Máxima (rpm): 12\"",
+        "fonteDivergente": "arno-km10-oficial",
+        "observacao": "Esta ficha não tem campo \"Número de Velocidades\". No lugar dele há **\"Velocidade de Rotação Máxima (rpm)\", com o valor 12** — e 12 rotações por minuto seria menos de uma volta a cada cinco segundos. O 12 é contagem de velocidades com o rótulo errado: a ficha do irmão KM14, o mesmo Bake Easy de 500 W em marfim, traz \"Número de Velocidades: 12 velocidades\", e o anúncio da Amazon também diz 12 velocidades. Foi adotado como velocidades, e fica registrado para ninguém ler como rotação."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "arno-km10-oficial",
+        "titulo": "Arno Bake Easy KM10 — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/batedeira-arno-planetaria-bake-easy-km10-8010001426-pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Planetária, 500 W, tigela de 3,5 L, cor Inox e Preto Azulado, 3,7 kg, 20,9 × 32,1 × 35,3 cm (L × A × P), registro no INMETRO UL-BR 25.0887 e 12 meses de garantia. O conteúdo da embalagem diz \"1 batedeira + acessórios + 1 manual\", sem listar os batedores. O campo de velocidades se chama \"Velocidade de Rotação Máxima (rpm)\" e traz 12.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-km10-amazon",
+        "titulo": "Arno Bake Easy KM10 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FTYQ63T5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor, a potência, a tigela e as velocidades: \"Batedeira Arno Planetária Bake Easy KM10, 500W, Preto Azulado com Tigela Inox, 3,5L, 12 Velocidades\". Usada para confirmar que o 12 da ficha oficial é contagem de velocidades, não rotação.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-km10.webp",
+      "alt": "Batedeira planetária Arno Bake Easy KM10 preta com tigela de inox",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/batedeira-arno-planetaria-bake-easy-km10-8010001426-pai/p"
+    }
+  },
+  {
+    "slug": "arno-hm11",
+    "nome": "Arno Mini Chef HM11",
+    "marca": "Arno",
+    "modelo": "HM11",
+    "categoria": "batedeiras",
+    "resumo": "Portátil de 400 W com duas tigelas de 4 litros. O mesmo HM11 aparece na Amazon com 400, 200 e 185 W, em anúncios diferentes.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 400,
+      "velocidades": 4,
+      "batedores": null,
+      "capacidadeTigelaL": 4,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": 4,
+      "funcaoTurbo": false,
+      "funcaoPortatil": true,
+      "pesoKg": 0.87,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09YVW86RC"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "arno-hm11-oficial",
+        "valorDivergente": "200 W e 185 W, em anúncios da Amazon",
+        "fonteDivergente": "arno-hm11-amazon",
+        "observacao": "A Arno declara **400 W**. Na Amazon o mesmo HM11 preto aparece como \"Portátil 200W com 2 Tigelas de 4 Litros\" num anúncio e como \"Batedeira Plástico Preta 4 Velocidades + Pulsar 4 Litros 127V 185W\" noutro. **Três potências para um modelo.** Ficou o número do fabricante, que é a fonte que este site adota; varejo não confirma nem corrige ficha."
+      },
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "arno-hm11-oficial",
+        "valorDivergente": "35,6 × 48,64 × 22 cm",
+        "fonteDivergente": "arno-hm11-oficial",
+        "observacao": "A ficha declara 48,64 cm de altura para uma batedeira portátil de 870 gramas. A página traz, em campos separados, as medidas com embalagem: 36 × 32 × 23 cm — menores que as \"do produto\". As duas não podem estar certas ao mesmo tempo, e o campo ficou vazio. A ficha do irmão HM01 tem o mesmo problema, e por isso também está sem dimensões aqui."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "arno-hm11-oficial",
+        "titulo": "Arno Mini Chef HM11 — ficha oficial do fabricante",
+        "url": "https://www.arno.com.br/bat-mini-chef-400w-pt-2720015875-pai-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batedeira portátil, 400 W, 4 velocidades mais pulsar, duas tigelas de 4 litros, cor Preto, corpo de plástico, cabo de 120 cm, 0,87 kg e 1 ano de garantia. Declara \"Consumo (kW/h*/mês): 2,4\". As dimensões do produto (35,6 × 48,64 × 22 cm) são maiores que as da própria embalagem e não foram adotadas.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "arno-hm11-amazon",
+        "titulo": "Arno Mini Chef HM11 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09YVW86RC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor, as duas tigelas de 4 litros e as 4 velocidades com pulsar: \"Batedeira Arno Mini Chef Portátil 200W com 2 Tigelas de 4 Litros 4 velocidades Função Pulsar Preta HM11\". A potência do título diverge da oficial e está registrada como divergência.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/arno-hm11.webp",
+      "alt": "Batedeira Arno Mini Chef HM11 preta, portátil, encaixada na base com as duas tigelas",
+      "credito": "Imagem: Arno",
+      "origem": "https://www.arno.com.br/bat-mini-chef-400w-pt-2720015875-pai-1/p"
+    }
   }
 ]

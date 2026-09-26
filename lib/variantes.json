@@ -166,6 +166,20 @@
     ],
     "original": 1000
   },
+  "/produtos/arno-hm11.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/arno-km10.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/arno-ln64.webp": {
     "larguras": [
       240,
@@ -495,7 +509,21 @@
     ],
     "original": 1200
   },
+  "/produtos/britania-bsc1200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/britania-bsc2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/britania-bsc2150.webp": {
     "larguras": [
       240,
       480
@@ -845,6 +873,13 @@
     ],
     "original": 1000
   },
+  "/produtos/electrolux-ekm30.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/electrolux-ekm40.webp": {
     "larguras": [
       240,
@@ -1168,6 +1203,20 @@
     "original": 1000
   },
   "/produtos/elgin-super-force.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-super-ionic-branco.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/elgin-super-ionic-chumbo.webp": {
     "larguras": [
       240,
       480
@@ -2056,6 +2105,27 @@
     ],
     "original": 1000
   },
+  "/produtos/mondial-sc-37-bi.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-sc-47-gr.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-scn-01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 993
+  },
   "/produtos/mondial-scn-02.webp": {
     "larguras": [
       240,
@@ -2069,6 +2139,13 @@
       480
     ],
     "original": 687
+  },
+  "/produtos/mondial-scp-ju-03.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/mondial-scp-ju-04-us.webp": {
     "larguras": [
@@ -2209,6 +2286,27 @@
       480
     ],
     "original": 1200
+  },
+  "/produtos/oster-obat640.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-obat641.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-obat911.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/oster-obld100.webp": {
     "larguras": [
@@ -2560,6 +2658,13 @@
     ],
     "original": 1200
   },
+  "/produtos/philco-php500.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/philco-pll10.webp": {
     "larguras": [
       240,
@@ -2609,12 +2714,26 @@
     ],
     "original": 1200
   },
+  "/produtos/philco-psa3300.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/philco-psc2300.webp": {
     "larguras": [
       240,
       480
     ],
     "original": 1138
+  },
+  "/produtos/philco-psc2450.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
   },
   "/produtos/philco-psc3500.webp": {
     "larguras": [
