@@ -1,0 +1,1514 @@
+[
+  {
+    "slug": "mondial-es-ju-01",
+    "nome": "Mondial By Juliette ES-JU-01",
+    "marca": "Mondial",
+    "modelo": "ES-JU-01",
+    "categoria": "escovas-secadoras",
+    "resumo": "1.300 W, 0,55 kg de peso declarado, 3 níveis de temperatura e 3 velocidades. A Mondial é a marca que mais responde campo nesta categoria.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "caboGiratorio": true,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.55,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BJHGBJHS"
+    },
+    "fontes": [
+      {
+        "id": "mondial-es-ju-01-oficial",
+        "titulo": "Mondial By Juliette ES-JU-01 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-golden-rose-1300w-es-ju-01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Golden Rose, 0,55 kg, controle de temperatura com **3 níveis**, **3 velocidades**, cabo giratório, sem visor LCD, bivolt e 12 meses de garantia. Não declara quantas pontas acompanham, o diâmetro da escova, o revestimento, o comprimento do cabo nem jato de ar frio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-es-ju-01-amazon",
+        "titulo": "Mondial By Juliette ES-JU-01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BJHGBJHS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Escova Secadora Mondial Golden Rose Bivolt - ES-JU-01\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-es-ju-01.webp",
+      "alt": "Escova secadora Mondial ES-JU-01 dourada e rosa, apoiada na base",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-golden-rose-1300w-es-ju-01/p"
+    }
+  },
+  {
+    "slug": "mondial-es-ju-02",
+    "nome": "Mondial By Juliette ES-JU-02",
+    "marca": "Mondial",
+    "modelo": "ES-JU-02",
+    "categoria": "escovas-secadoras",
+    "resumo": "1.300 W, 0,55 kg de peso declarado, 3 níveis de temperatura e 3 velocidades. A Mondial é a marca que mais responde campo nesta categoria.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "caboGiratorio": true,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.55,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BJH7DBPK"
+    },
+    "fontes": [
+      {
+        "id": "mondial-es-ju-02-oficial",
+        "titulo": "Mondial By Juliette ES-JU-02 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-verde-oliva-1300w-es-ju-02-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Verde, 0,55 kg, controle de temperatura com **3 níveis**, **3 velocidades**, cabo giratório, sem visor LCD, bivolt e 12 meses de garantia. Não declara quantas pontas acompanham, o diâmetro da escova, o revestimento, o comprimento do cabo nem jato de ar frio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-es-ju-02-amazon",
+        "titulo": "Mondial By Juliette ES-JU-02 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BJH7DBPK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Escova Secadora Verde, Bivolt - ES-JU-02\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-es-ju-02.webp",
+      "alt": "Escova secadora Mondial ES-JU-02 verde oliva com detalhes dourados",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-verde-oliva-1300w-es-ju-02-1/p"
+    }
+  },
+  {
+    "slug": "mondial-es-ju-03",
+    "nome": "Mondial By Juliette ES-JU-03",
+    "marca": "Mondial",
+    "modelo": "ES-JU-03",
+    "categoria": "escovas-secadoras",
+    "resumo": "1.300 W, 0,55 kg de peso declarado, 3 níveis de temperatura e 2 velocidades. A Mondial é a marca que mais responde campo nesta categoria.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": null,
+      "caboGiratorio": true,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.55,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C8BVGCSM"
+    },
+    "fontes": [
+      {
+        "id": "mondial-es-ju-03-oficial",
+        "titulo": "Mondial By Juliette ES-JU-03 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-azul-rosa-1300w-es-ju-03/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Rosa/Azul, 0,55 kg, controle de temperatura com **3 níveis**, **2 velocidades**, cabo giratório, sem visor LCD, bivolt e 12 meses de garantia. Não declara quantas pontas acompanham, o diâmetro da escova, o revestimento, o comprimento do cabo nem jato de ar frio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-es-ju-03-amazon",
+        "titulo": "Mondial By Juliette ES-JU-03 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C8BVGCSM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Escova Secadora By Juliette, Azul/Rosa, Bivolt - ES-JU-03\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-es-ju-03.webp",
+      "alt": "Escova secadora Mondial ES-JU-03 em degradê azul e rosa",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-azul-rosa-1300w-es-ju-03/p"
+    }
+  },
+  {
+    "slug": "mondial-es-50",
+    "nome": "Mondial ES-50",
+    "marca": "Mondial",
+    "modelo": "ES-50",
+    "categoria": "escovas-secadoras",
+    "resumo": "1.300 W, 0,50 kg de peso declarado, 3 níveis de temperatura e 3 velocidades. A Mondial é a marca que mais responde campo nesta categoria.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 3,
+      "jatoArFrio": null,
+      "caboGiratorio": true,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.5,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09W9QBGBX"
+    },
+    "fontes": [
+      {
+        "id": "mondial-es-50-oficial",
+        "titulo": "Mondial ES-50 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/escova-secadora-mondial-branco-rose-gold-1200w-es-50-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Branco/Rose Gold, 0,50 kg, controle de temperatura com **3 níveis**, **3 velocidades**, cabo giratório, sem visor LCD, bivolt e 12 meses de garantia. Não declara quantas pontas acompanham, o diâmetro da escova, o revestimento, o comprimento do cabo nem jato de ar frio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-es-50-amazon",
+        "titulo": "Mondial ES-50 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09W9QBGBX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Escova Secadora, Branco/Rose Gold, Bivolt - ES-50\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-es-50.webp",
+      "alt": "Escova secadora Mondial ES-50 branca com detalhes em rose gold",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/escova-secadora-mondial-branco-rose-gold-1200w-es-50-1/p"
+    }
+  },
+  {
+    "slug": "mondial-es-11-bi",
+    "nome": "Mondial Keratin ES-11-BI",
+    "marca": "Mondial",
+    "modelo": "ES-11-BI",
+    "categoria": "escovas-secadoras",
+    "resumo": "1.300 W e três níveis de temperatura. O campo de velocidades vem preenchido com \"não se aplica\", num aparelho cuja função é soprar ar.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": true,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.55,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09YDR4C89"
+    },
+    "divergencias": [
+      {
+        "campo": "niveisVelocidade",
+        "fonteAdotada": "mondial-es-11-bi-oficial",
+        "valorDivergente": "\"Não se aplica\"",
+        "fonteDivergente": "mondial-es-11-bi-oficial",
+        "observacao": "O campo \"Número de velocidades\" desta ficha traz **\"Não se aplica\"**. Escova secadora seca soprando ar, e as irmãs ES-JU-01, ES-JU-02 e ES-50, da mesma loja, respondem 3 velocidades. O campo \"Visor Lcd\" da mesma ficha também traz \"Não se aplica\", onde as irmãs respondem \"Não\". **\"Não se aplica\" e \"não tem\" são coisas diferentes**, e a primeira, usada no lugar da segunda, apaga a informação em vez de dará-la."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-es-11-bi-oficial",
+        "titulo": "Mondial Keratin ES-11-BI — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/escova-secadora-mondial-keratin-es-11-bi-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Grafite/Golden Rose, 0,55 kg, funções \"Alisar, Secar e Modelar\", **3 níveis de temperatura**, cabo giratório, bivolt e 1 ano de garantia. Os campos \"Número de velocidades\" e \"Visor Lcd\" trazem \"Não se aplica\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-es-11-bi-amazon",
+        "titulo": "Mondial Keratin ES-11-BI — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09YDR4C89",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Escova Secadora Keratin, Bivolt, Grafite/Golden Rose - ES-11-BI\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-es-11-bi.webp",
+      "alt": "Escova secadora Mondial ES-11-BI grafite com detalhes em rose gold",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/escova-secadora-mondial-keratin-es-11-bi-1/p"
+    }
+  },
+  {
+    "slug": "mondial-es-20",
+    "nome": "Mondial Space Shine ES-20",
+    "marca": "Mondial",
+    "modelo": "ES-20",
+    "categoria": "escovas-secadoras",
+    "resumo": "A Mondial que publica menos: cinco campos, contra onze das irmãs By Juliette. E o peso vem como \"0,480g\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DHT7J1ZM"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "mondial-es-20-oficial",
+        "valorDivergente": "\"0,480g\"",
+        "fonteDivergente": "mondial-es-20-oficial",
+        "observacao": "O campo de peso traz **\"0,480g\"** — quase meio grama, que é peso de clipe de papel. As irmãs da mesma loja declaram entre 0,50 e 0,55 kg, e é disso que se trata: 0,480 kg com a unidade errada. Número impossível não é dado, e o campo ficou vazio para ninguém preencher depois com o valor descartado. A Mondial comete o mesmo erro de unidade no comprimento do cabo de quatro secadores."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-es-20-oficial",
+        "titulo": "Mondial Space Shine ES-20 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/escova-secadora-space-shine-mondial-grafite-1300w-es-20/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Grafite, bivolt e 1 ano de garantia. A ficha traz cinco campos preenchidos, contra onze das irmãs By Juliette na mesma loja: não declara níveis de temperatura, velocidades, cabo giratório nem visor. O peso vem como \"0,480g\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-es-20-amazon",
+        "titulo": "Mondial Space Shine ES-20 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DHT7J1ZM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Escova Secadora Space Shine, Grafite, Bivolt - ES-20\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-es-20.webp",
+      "alt": "Escova secadora Mondial Space Shine ES-20 grafite, apoiada na base",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/escova-secadora-space-shine-mondial-grafite-1300w-es-20/p"
+    }
+  },
+  {
+    "slug": "mondial-es-21",
+    "nome": "Mondial Space Shine ES-21",
+    "marca": "Mondial",
+    "modelo": "ES-21",
+    "categoria": "escovas-secadoras",
+    "resumo": "A Mondial que publica menos: cinco campos, contra onze das irmãs By Juliette. E o peso vem como \"0,480g\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DHT38G68"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "mondial-es-21-oficial",
+        "valorDivergente": "\"0,480g\"",
+        "fonteDivergente": "mondial-es-21-oficial",
+        "observacao": "O campo de peso traz **\"0,480g\"** — quase meio grama, que é peso de clipe de papel. As irmãs da mesma loja declaram entre 0,50 e 0,55 kg, e é disso que se trata: 0,480 kg com a unidade errada. Número impossível não é dado, e o campo ficou vazio para ninguém preencher depois com o valor descartado. A Mondial comete o mesmo erro de unidade no comprimento do cabo de quatro secadores."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-es-21-oficial",
+        "titulo": "Mondial Space Shine ES-21 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/escova-secadora-slim-es-21/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Lilás, bivolt e 1 ano de garantia. A ficha traz cinco campos preenchidos, contra onze das irmãs By Juliette na mesma loja: não declara níveis de temperatura, velocidades, cabo giratório nem visor. O peso vem como \"0,480g\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-es-21-amazon",
+        "titulo": "Mondial Space Shine ES-21 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DHT38G68",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Escova Secadora Space Shine, Lilás, Bivolt - ES-21\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-es-21.webp",
+      "alt": "Escova secadora Mondial Space Shine ES-21 lilás, apoiada na base",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/escova-secadora-slim-es-21/p"
+    }
+  },
+  {
+    "slug": "britania-bec07r",
+    "nome": "Britânia Soft BEC07R",
+    "marca": "Britânia",
+    "modelo": "BEC07R",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. A ficha da Britânia para escova secadora traz seis campos, e o \"4 em 1\" do anúncio não é um deles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08L6YHZ75"
+    },
+    "fontes": [
+      {
+        "id": "britania-bec07r-oficial",
+        "titulo": "Britânia Soft BEC07R — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/escova-secadora-britania-1300w-infrared-bivolt-bec07r/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Rosa, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bec07r-amazon",
+        "titulo": "Britânia Soft BEC07R — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08L6YHZ75",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Escova Secadora Soft 4 em 1 1300W BEC07R Bivolt Plástico Rosa\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bec07r.webp",
+      "alt": "Escova secadora Britânia BEC07R rosa claro",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/escova-secadora-britania-1300w-infrared-bivolt-bec07r/p"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-bec07r-oficial",
+        "valorDivergente": "campo \"Modelo\" com \"Soft BEC07R\"",
+        "fonteDivergente": "britania-bec07r-oficial",
+        "observacao": "O campo \"Modelo\" desta ficha traz **\"Soft BEC07R\"**, que mistura o nome comercial da linha com o código. O modelo é BEC07R, e é por ele que se procura peça e assistência. A Britânia faz o mesmo no BES12V, cujo campo de modelo diz \"Soft BES12\", sem o V."
+      }
+    ]
+  },
+  {
+    "slug": "britania-bec02pr",
+    "nome": "Britânia BEC02PR",
+    "marca": "Britânia",
+    "modelo": "BEC02PR",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. A ficha da Britânia para escova secadora traz seis campos, e o \"4 em 1\" do anúncio não é um deles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BZLJLQ58"
+    },
+    "fontes": [
+      {
+        "id": "britania-bec02pr-oficial",
+        "titulo": "Britânia BEC02PR — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/escova-secadora-britania-1300w-bivolt-bec02pr/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Preto, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bec02pr-amazon",
+        "titulo": "Britânia BEC02PR — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BZLJLQ58",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Escova Secadora BEC02PR Bivolt 4 em 1 1300W Plástico Rosa/Preto\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bec02pr.webp",
+      "alt": "Escova secadora Britânia BEC02PR preta com detalhes em rosa",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/escova-secadora-britania-1300w-bivolt-bec02pr/p"
+    }
+  },
+  {
+    "slug": "britania-bes26sr",
+    "nome": "Britânia BES26SR",
+    "marca": "Britânia",
+    "modelo": "BES26SR",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. A ficha da Britânia para escova secadora traz seis campos, e o \"4 em 1\" do anúncio não é um deles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CBL5VXTB"
+    },
+    "fontes": [
+      {
+        "id": "britania-bes26sr-oficial",
+        "titulo": "Britânia BES26SR — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/escova-secadora-britania-1300w-bivolt-bes26sr/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Cinza, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bes26sr-amazon",
+        "titulo": "Britânia BES26SR — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CBL5VXTB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Escova Secadora BES26SR 4 em 1 1300W Bivolt Prata e rosa\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bes26sr.webp",
+      "alt": "Escova secadora Britânia BES26SR prata com detalhes em rosa",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/escova-secadora-britania-1300w-bivolt-bes26sr/p"
+    }
+  },
+  {
+    "slug": "britania-bes35",
+    "nome": "Britânia BES35",
+    "marca": "Britânia",
+    "modelo": "BES35",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. A ficha da Britânia para escova secadora traz seis campos, e o \"4 em 1\" do anúncio não é um deles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CWLMPX1P"
+    },
+    "fontes": [
+      {
+        "id": "britania-bes35-oficial",
+        "titulo": "Britânia BES35 — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/escova-secadora-britania-1300w-bivolt-bes35/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Preto, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bes35-amazon",
+        "titulo": "Britânia BES35 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CWLMPX1P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Escova Secadora 4 em 1 BES35 1300W Bivolt Plástico Preto e Roxo\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bes35.webp",
+      "alt": "Escova secadora Britânia BES35 preta com detalhes em roxo",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/escova-secadora-britania-1300w-bivolt-bes35/p"
+    }
+  },
+  {
+    "slug": "britania-bes36",
+    "nome": "Britânia Viih Tube BES36",
+    "marca": "Britânia",
+    "modelo": "BES36",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. A ficha da Britânia para escova secadora traz seis campos, e o \"nanocerâmica\" do anúncio não é um deles.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DXMZB5GB"
+    },
+    "fontes": [
+      {
+        "id": "britania-bes36-oficial",
+        "titulo": "Britânia Viih Tube BES36 — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/escova-secadora-britania-1300w-infrared-bivolt-bes36/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Rosa, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"nanocerâmica\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bes36-amazon",
+        "titulo": "Britânia Viih Tube BES36 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DXMZB5GB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Escova Secadora Linha Viih Tube Nanocerâmica BES36 Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bes36.webp",
+      "alt": "Escova secadora Britânia BES36 rosa, da linha Viih Tube",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/escova-secadora-britania-1300w-infrared-bivolt-bes36/p"
+    }
+  },
+  {
+    "slug": "britania-bes12v",
+    "nome": "Britânia Soft BES12V",
+    "marca": "Britânia",
+    "modelo": "BES12V",
+    "categoria": "escovas-secadoras",
+    "resumo": "1.300 W, e o campo de modelo da própria ficha traz \"Soft BES12\" — sem o V que distingue esta versão.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B097LW7VWG"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-bes12v-oficial",
+        "valorDivergente": "campo \"Modelo\" com \"Soft BES12\"",
+        "fonteDivergente": "britania-bes12v-oficial",
+        "observacao": "O produto se chama BES12V no título e no endereço da página, e o campo \"Modelo\" traz **\"Soft BES12\"**, sem o V. Numa categoria em que a mesma marca vende BES12V, BES13VD, BES24P, BES26SR, BES33SD, BES35 e BES36, uma letra a menos no campo de modelo é o suficiente para comprar errado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "britania-bes12v-oficial",
+        "titulo": "Britânia Soft BES12V — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/escova-secadora-britania-1300w-infrared-bivolt-bes12v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.300 W, cor Vermelho, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"Infrared\" e o revestimento estão no nome do produto, não em campo. O campo \"Modelo\" traz \"Soft BES12\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bes12v-amazon",
+        "titulo": "Britânia Soft BES12V — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B097LW7VWG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Escova Secadora BES12V Soft 1300w Bivolt Cerâmica Vermelho\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bes12v.webp",
+      "alt": "Escova secadora Britânia BES12V vermelha",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/escova-secadora-britania-1300w-infrared-bivolt-bes12v/p"
+    }
+  },
+  {
+    "slug": "britania-ber20pd",
+    "nome": "Britânia Gold BER20PD",
+    "marca": "Britânia",
+    "modelo": "BER20PD",
+    "categoria": "escovas-secadoras",
+    "resumo": "O título da própria página diz 1300W e o campo de potência diz 1200 W. O campo ficou vazio.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": null,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C7N2B3PP"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "britania-ber20pd-oficial",
+        "valorDivergente": "1.300 W no título da página, 1.200 W no campo",
+        "fonteDivergente": "britania-ber20pd-oficial",
+        "observacao": "O título do produto na loja da Britânia é \"Escova Rotativa Britânia 4 em 1 Gold **1300W** BER20PD\" e o campo \"Potência (W)\" da mesma página traz **1200 W**. A listagem da Amazon repete 1300W. Não é varejo contradizendo fabricante: é a mesma página dizendo as duas coisas, e por isso o campo ficou vazio — escolher um dos dois seria decidir pela marca."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "britania-ber20pd-oficial",
+        "titulo": "Britânia Gold BER20PD — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/escova-rotativa-britania-1300w-bivolt-ber20pd/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cor Preto, bivolt e 360 dias de garantia. O título declara 1300W e o campo de potência declara 1200 W. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-ber20pd-amazon",
+        "titulo": "Britânia Gold BER20PD — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C7N2B3PP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Britânia Escova Rotativa BER20PD 3 Temperaturas 1300W Bivolt Preto e dourado\". O título do varejo também anuncia \"3 Temperaturas\", que a ficha oficial não tem campo para responder. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-ber20pd.webp",
+      "alt": "Escova secadora Britânia BER20PD preta com detalhes dourados",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/escova-rotativa-britania-1300w-bivolt-ber20pd/p"
+    }
+  },
+  {
+    "slug": "philco-pes19sg",
+    "nome": "Philco PES19SG",
+    "marca": "Philco",
+    "modelo": "PES19SG",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"3 acessórios\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFMB9TB3"
+    },
+    "fontes": [
+      {
+        "id": "philco-pes19sg-oficial",
+        "titulo": "Philco PES19SG — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-secadora-pes19sg-biv-055403043/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Prata, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"3 acessórios\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pes19sg-amazon",
+        "titulo": "Philco PES19SG — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CFMB9TB3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Escova Secadora PES19SG 3 acessórios 1300W\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pes19sg.webp",
+      "alt": "Escova secadora Philco PES19SG prata, com três acessórios ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-secadora-pes19sg-biv-055403043/p"
+    }
+  },
+  {
+    "slug": "philco-pes33a",
+    "nome": "Philco Íons Tourmaline PES33A",
+    "marca": "Philco",
+    "modelo": "PES33A",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"Íons Tourmaline\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FSFYHZ7R"
+    },
+    "fontes": [
+      {
+        "id": "philco-pes33a-oficial",
+        "titulo": "Philco Íons Tourmaline PES33A — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-secadora-tourmaline-1300w-bivolt-pes33a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Dourado/Preto, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"Íons Tourmaline\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pes33a-amazon",
+        "titulo": "Philco Íons Tourmaline PES33A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FSFYHZ7R",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Escova Secadora Bivolt 1300W Íons Tourmaline PES33A\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pes33a.webp",
+      "alt": "Escova secadora Philco PES33A preta com detalhes dourados",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-secadora-tourmaline-1300w-bivolt-pes33a/p"
+    }
+  },
+  {
+    "slug": "philco-per03",
+    "nome": "Philco PER03",
+    "marca": "Philco",
+    "modelo": "PER03",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"5 em 1\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F63SK1LJ"
+    },
+    "fontes": [
+      {
+        "id": "philco-per03-oficial",
+        "titulo": "Philco PER03 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-rotativa-philco-bivolt-1300w-per03/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Cinza/Dourado, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"5 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-per03-amazon",
+        "titulo": "Philco PER03 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F63SK1LJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Escova Rotativa 5 em 1 Bivolt 1300W PER03 Cerâmica Cinza com Dourado\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-per03.webp",
+      "alt": "Escova rotativa Philco PER03 com as cinco pontas ao lado",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-rotativa-philco-bivolt-1300w-per03/p"
+    }
+  },
+  {
+    "slug": "philco-per02",
+    "nome": "Philco PER02",
+    "marca": "Philco",
+    "modelo": "PER02",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"2 em 1\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F63SJMJM"
+    },
+    "fontes": [
+      {
+        "id": "philco-per02-oficial",
+        "titulo": "Philco PER02 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-rotativa-philco-1300w-bivolt-per02/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Cinza, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"2 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-per02-amazon",
+        "titulo": "Philco PER02 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F63SJMJM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Escova Rotativa PER02 com Íons Tourmaline Revestimento Cerâmico Cinza 1300W Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-per02.webp",
+      "alt": "Escova rotativa Philco PER02 cinza com detalhe rosa",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-rotativa-philco-1300w-bivolt-per02/p"
+    }
+  },
+  {
+    "slug": "philco-pes25sr",
+    "nome": "Philco Advance PES25SR",
+    "marca": "Philco",
+    "modelo": "PES25SR",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"4 em 1\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C512S3FC"
+    },
+    "fontes": [
+      {
+        "id": "philco-pes25sr-oficial",
+        "titulo": "Philco Advance PES25SR — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-secadora-pes25sr-advance-biv-055403044/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Cinza, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pes25sr-amazon",
+        "titulo": "Philco Advance PES25SR — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C512S3FC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Escova Secadora Philco 4 em 1 PES25SR Advance Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pes25sr.webp",
+      "alt": "Escova secadora Philco PES25SR prata com detalhes em rosa",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-secadora-pes25sr-advance-biv-055403044/p"
+    }
+  },
+  {
+    "slug": "philco-pes30",
+    "nome": "Philco Multicerdas PES30",
+    "marca": "Philco",
+    "modelo": "PES30",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"4 em 1\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F63SVC3T"
+    },
+    "fontes": [
+      {
+        "id": "philco-pes30-oficial",
+        "titulo": "Philco Multicerdas PES30 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-secadora-pes30-biv-051153004/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Prata, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pes30-amazon",
+        "titulo": "Philco Multicerdas PES30 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F63SVC3T",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Escova Secadora Bivolt 1300W Multicerdas 4 em 1 PES30\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pes30.webp",
+      "alt": "Escova secadora Philco PES30 prata",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-secadora-pes30-biv-051153004/p"
+    }
+  },
+  {
+    "slug": "philco-pec03r",
+    "nome": "Philco Beauty Shine PEC03R",
+    "marca": "Philco",
+    "modelo": "PEC03R",
+    "categoria": "escovas-secadoras",
+    "resumo": "1100 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"2 rotações\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1100,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07V5WYJST"
+    },
+    "fontes": [
+      {
+        "id": "philco-pec03r-oficial",
+        "titulo": "Philco Beauty Shine PEC03R — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-rotativa-philco-beauty-shine-single-pec03r-1100w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1100 W, cor Rosa, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"2 rotações\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pec03r-amazon",
+        "titulo": "Philco Beauty Shine PEC03R — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07V5WYJST",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Escova Rotativa, Beauty Shine Single Pec03R, 1000W, Rosa, 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pec03r.webp",
+      "alt": "Escova rotativa Philco PEC03R rosa",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-rotativa-philco-beauty-shine-single-pec03r-1100w/p"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "philco-pec03r-oficial",
+        "valorDivergente": "1.000 W, na listagem da Amazon",
+        "fonteDivergente": "philco-pec03r-amazon",
+        "observacao": "A Philco declara **1.100 W** e a Amazon anuncia o mesmo PEC03R com **1.000 W**. Ficou o número do fabricante, que é a fonte que este site adota. A ficha oficial também não traz campo de tensão, e a listagem diz 220V — por isso o campo de tensão ficou vazio."
+      }
+    ]
+  },
+  {
+    "slug": "philco-pec13",
+    "nome": "Philco Soft Beauty Cherry PEC13",
+    "marca": "Philco",
+    "modelo": "PEC13",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W e 12 meses de garantia. Como em toda escova secadora da Philco, o \"4 em 1\" do anúncio não tem campo na ficha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "Bivolt",
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08L6ZW2FT"
+    },
+    "fontes": [
+      {
+        "id": "philco-pec13-oficial",
+        "titulo": "Philco Soft Beauty Cherry PEC13 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/escova-secadora-philco-soft-beauty-cherry-pec13/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, cor Rosa, bivolt e 360 dias de garantia. A ficha desta escova publica **tipo, marca, modelo, cor, potência e garantia**, e mais nada. Não tem campo de níveis de temperatura, de velocidades, de peso, de comprimento de cabo, de diâmetro da escova nem de quantas pontas acompanham. O \"4 em 1\" e o revestimento estão no nome do produto, não em campo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pec13-amazon",
+        "titulo": "Philco Soft Beauty Cherry PEC13 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08L6ZW2FT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Philco Escova Secadora PEC13 4 em 1 Soft Beauty Cherry Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pec13.webp",
+      "alt": "Escova secadora Philco PEC13 vermelha",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/escova-secadora-philco-soft-beauty-cherry-pec13/p"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "philco-pec13-oficial",
+        "valorDivergente": "campo \"Modelo\" com \"Soft Beauty Cherry\"",
+        "fonteDivergente": "philco-pec13-oficial",
+        "observacao": "O campo \"Modelo\" desta ficha traz **\"Soft Beauty Cherry\"**, que é o nome comercial, e não o código PEC13 que está no título e no endereço da página. Outra ficha da mesma loja, a da PEC06S, traz o campo \"Modelo\" preenchido com **um traço**."
+      }
+    ]
+  },
+  {
+    "slug": "cadence-esc710",
+    "nome": "Cadence Tô Pront@ ESC710",
+    "marca": "Cadence",
+    "modelo": "ESC710",
+    "categoria": "escovas-secadoras",
+    "resumo": "1200 W, 0,600 kg e as três dimensões declaradas, com registro no INMETRO. A Cadence é a única da categoria que publica peso e medida.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1200,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.6,
+      "dimensoesMm": "340 × 85 × 95 mm (C × A × P)",
+      "tensao": "Bivolt",
+      "registroInmetro": "Certificado INMETRO, laudo SGS",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BK23JWHG"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "cadence-esc710-oficial",
+        "valorDivergente": "Consumo \"1,2KW/H\"",
+        "fonteDivergente": "cadence-esc710-oficial",
+        "observacao": "O campo \"Consumo\" desta ficha traz **\"1,2KW/H\"**, e a Cadence usa **quatro unidades diferentes no mesmo campo** nas quatro escovas que vende: a ESC750 (1.300 W) diz \"39,00 kWh/mês\", a ESC720 (1.200 W) diz \"36,00 kWh/mês\", a ESC710 (1.200 W) diz \"1,2 KW/H\" e a ESC800 (1.200 W) diz \"1,2 kWh\". As duas primeiras são estimativa de consumo mensal, que faz sentido: 1.200 W por uma hora ao dia dão 36 kWh no mês. As duas últimas são a potência dividida por mil. **A ESC710 e a ESC720 têm a mesma potência e discordam entre si por um fator de trinta.** Nenhum dos números foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-esc710-oficial",
+        "titulo": "Cadence Tô Pront@ ESC710 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/escova-secadora-cadence-to-pronta-4-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1200 W, 0,600 kg, 340 × 85 × 95 mm (C × A × P), bivolt, certificação INMETRO com laudo SGS e 12 meses de garantia. Publica também as medidas da embalagem individual e da master, o código de barras DUN-14, a classificação fiscal NCM e o CEST — e não publica níveis de temperatura, velocidades, diâmetro da escova nem quantas pontas acompanham. O campo \"Consumo\" traz \"1,2KW/H\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-esc710-amazon",
+        "titulo": "Cadence Tô Pront@ ESC710 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BK23JWHG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Escova Secadora Cadence 4 em 1 - ESC 710, Cinza/Preto Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-esc710.webp",
+      "alt": "Escova secadora Cadence ESC710 preta e cinza",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/escova-secadora-cadence-to-pronta-4-em-1/p"
+    }
+  },
+  {
+    "slug": "cadence-esc720",
+    "nome": "Cadence Linda&Leve ESC720",
+    "marca": "Cadence",
+    "modelo": "ESC720",
+    "categoria": "escovas-secadoras",
+    "resumo": "1200 W, 0,510 kg e as três dimensões declaradas, com registro no INMETRO. A Cadence é a única da categoria que publica peso e medida.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1200,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.51,
+      "dimensoesMm": "95 × 410 × 80 mm (C × A × P)",
+      "tensao": "Bivolt",
+      "registroInmetro": "Certificado INMETRO, laudo SGS",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FLZPMFNR"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "cadence-esc720-oficial",
+        "valorDivergente": "Consumo \"36,00 kWh/mês\"",
+        "fonteDivergente": "cadence-esc720-oficial",
+        "observacao": "O campo \"Consumo\" desta ficha traz **\"36,00 kWh/mês\"**, e a Cadence usa **quatro unidades diferentes no mesmo campo** nas quatro escovas que vende: a ESC750 (1.300 W) diz \"39,00 kWh/mês\", a ESC720 (1.200 W) diz \"36,00 kWh/mês\", a ESC710 (1.200 W) diz \"1,2 KW/H\" e a ESC800 (1.200 W) diz \"1,2 kWh\". As duas primeiras são estimativa de consumo mensal, que faz sentido: 1.200 W por uma hora ao dia dão 36 kWh no mês. As duas últimas são a potência dividida por mil. **A ESC710 e a ESC720 têm a mesma potência e discordam entre si por um fator de trinta.** Nenhum dos números foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-esc720-oficial",
+        "titulo": "Cadence Linda&Leve ESC720 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/escova-secadora-cadence-linda-e-leve-4-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1200 W, 0,510 kg, 95 × 410 × 80 mm (C × A × P), bivolt, certificação INMETRO com laudo SGS e 12 meses de garantia. Publica também as medidas da embalagem individual e da master, o código de barras DUN-14, a classificação fiscal NCM e o CEST — e não publica níveis de temperatura, velocidades, diâmetro da escova nem quantas pontas acompanham. O campo \"Consumo\" traz \"36,00 kWh/mês\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-esc720-amazon",
+        "titulo": "Cadence Linda&Leve ESC720 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FLZPMFNR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Cadence Escova Secadora Linda & Leve, 1200W, ESC720, 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-esc720.webp",
+      "alt": "Escova secadora Cadence ESC720 preta",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/escova-secadora-cadence-linda-e-leve-4-em-1/p"
+    }
+  },
+  {
+    "slug": "cadence-esc750",
+    "nome": "Cadence Musa ESC750",
+    "marca": "Cadence",
+    "modelo": "ESC750",
+    "categoria": "escovas-secadoras",
+    "resumo": "1300 W, 0,700 kg e as três dimensões declaradas, com registro no INMETRO. A Cadence é a única da categoria que publica peso e medida.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1300,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.7,
+      "dimensoesMm": "345 × 105 × 87 mm (C × A × P)",
+      "tensao": "Bivolt",
+      "registroInmetro": "Certificado INMETRO, laudo SGS",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0G82SK3DJ"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "cadence-esc750-oficial",
+        "valorDivergente": "Consumo \"39,00 kWh/mês\"",
+        "fonteDivergente": "cadence-esc750-oficial",
+        "observacao": "O campo \"Consumo\" desta ficha traz **\"39,00 kWh/mês\"**, e a Cadence usa **quatro unidades diferentes no mesmo campo** nas quatro escovas que vende: a ESC750 (1.300 W) diz \"39,00 kWh/mês\", a ESC720 (1.200 W) diz \"36,00 kWh/mês\", a ESC710 (1.200 W) diz \"1,2 KW/H\" e a ESC800 (1.200 W) diz \"1,2 kWh\". As duas primeiras são estimativa de consumo mensal, que faz sentido: 1.200 W por uma hora ao dia dão 36 kWh no mês. As duas últimas são a potência dividida por mil. **A ESC710 e a ESC720 têm a mesma potência e discordam entre si por um fator de trinta.** Nenhum dos números foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-esc750-oficial",
+        "titulo": "Cadence Musa ESC750 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/escova-secadora-cadence-musa-3-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1300 W, 0,700 kg, 345 × 105 × 87 mm (C × A × P), bivolt, certificação INMETRO com laudo SGS e 12 meses de garantia. Publica também as medidas da embalagem individual e da master, o código de barras DUN-14, a classificação fiscal NCM e o CEST — e não publica níveis de temperatura, velocidades, diâmetro da escova nem quantas pontas acompanham. O campo \"Consumo\" traz \"39,00 kWh/mês\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-esc750-amazon",
+        "titulo": "Cadence Musa ESC750 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0G82SK3DJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"CADENCE - Escova Secadora Cadence Musa 3 em 1 Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-esc750.webp",
+      "alt": "Escova secadora Cadence Musa ESC750 vinho",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/escova-secadora-cadence-musa-3-em-1/p"
+    }
+  },
+  {
+    "slug": "cadence-esc800",
+    "nome": "Cadence Uau ESC800",
+    "marca": "Cadence",
+    "modelo": "ESC800",
+    "categoria": "escovas-secadoras",
+    "resumo": "1200 W, 0,650 kg e as três dimensões declaradas, com registro no INMETRO. A Cadence é a única da categoria que publica peso e medida.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1200,
+      "pontasNaCaixa": null,
+      "diametroEscovaMm": null,
+      "niveisTemperatura": null,
+      "niveisVelocidade": null,
+      "jatoArFrio": null,
+      "caboGiratorio": null,
+      "revestimento": null,
+      "emiteIons": null,
+      "cerdasRemoviveis": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.65,
+      "dimensoesMm": "93 × 423 × 76 mm (C × A × P)",
+      "tensao": "Bivolt",
+      "registroInmetro": "Certificado INMETRO, laudo SGS",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D1GJJRFW"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "cadence-esc800-oficial",
+        "valorDivergente": "Consumo \"1,2kWh\"",
+        "fonteDivergente": "cadence-esc800-oficial",
+        "observacao": "O campo \"Consumo\" desta ficha traz **\"1,2kWh\"**, e a Cadence usa **quatro unidades diferentes no mesmo campo** nas quatro escovas que vende: a ESC750 (1.300 W) diz \"39,00 kWh/mês\", a ESC720 (1.200 W) diz \"36,00 kWh/mês\", a ESC710 (1.200 W) diz \"1,2 KW/H\" e a ESC800 (1.200 W) diz \"1,2 kWh\". As duas primeiras são estimativa de consumo mensal, que faz sentido: 1.200 W por uma hora ao dia dão 36 kWh no mês. As duas últimas são a potência dividida por mil. **A ESC710 e a ESC720 têm a mesma potência e discordam entre si por um fator de trinta.** Nenhum dos números foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "cadence-esc800-oficial",
+        "titulo": "Cadence Uau ESC800 — ficha oficial do fabricante",
+        "url": "https://www.cadence.com.br/escova-secadora-cadence-uau-4-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1200 W, 0,650 kg, 93 × 423 × 76 mm (C × A × P), bivolt, certificação INMETRO com laudo SGS e 12 meses de garantia. Publica também as medidas da embalagem individual e da master, o código de barras DUN-14, a classificação fiscal NCM e o CEST — e não publica níveis de temperatura, velocidades, diâmetro da escova nem quantas pontas acompanham. O campo \"Consumo\" traz \"1,2kWh\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "cadence-esc800-amazon",
+        "titulo": "Cadence Uau ESC800 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D1GJJRFW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Escova Secadora Cadence Uau 4 em 1 - Bivolt ESC800\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/cadence-esc800.webp",
+      "alt": "Escova secadora Cadence Uau ESC800 preta com cabo",
+      "credito": "Imagem: Cadence",
+      "origem": "https://www.cadence.com.br/escova-secadora-cadence-uau-4-em-1/p"
+    }
+  }
+]

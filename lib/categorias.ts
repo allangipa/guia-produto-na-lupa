@@ -151,6 +151,14 @@ export const categorias: Categoria[] = [
       "Fechou em trinta e seis, com cinco marcas. A KitchenAid entrou depois, com nove fichas, e trouxe o campo que faltava na categoria inteira: **capacidade de farinha e de massa de pão em quilos** — o que a máquina trabalha, não o que a tigela comporta. É também a marca que derruba de vez a conversa de watt: a linha dela vai de 275 a 350 W, abaixo de qualquer batedeira comum de Britânia ou Philco. Da própria Britânia entraram seis das vinte e duas “comuns”, que cobrem toda a faixa de potência; as outras dezesseis repetem a mesma ficha em outra cor. Oster, Cadence, Mallory e Mondial aparecem no nó e publicam só potência, sem velocidade, tigela nem batedor; sem isso não dá para comparar.",
   },
   {
+    slug: "escovas-secadoras",
+    nome: "Escovas secadoras",
+    descricao:
+      "A escova que sopra ar quente e seca enquanto penteia. Não confundir com a escova alisadora, que esquenta as cerdas e não sopra ar.",
+    dorPrincipal:
+      "O \"4 em 1\" do anúncio são quatro do quê — e por que todas têm a mesma potência?",
+  },
+  {
     slug: "secadores",
     nome: "Secadores de cabelo",
     descricao:
@@ -287,6 +295,7 @@ export const ORDEM_NA_HOME: string[] = [
   "aspiradores",
   "lavadoras-alta-pressao",
   "secadores",
+  "escovas-secadoras",
   "batedeiras",
 ];
 

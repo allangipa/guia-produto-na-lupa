@@ -3589,6 +3589,184 @@ export const camposSmartwatch: Campo[] = [
  * e uma marca em cinco publica. O resto oferece watts, que medem o que entra
  * pela tomada, e contagem de pás, que não se compara entre desenhos diferentes.
  */
+/**
+ * Escova secadora: a escova que sopra ar quente e seca enquanto penteia.
+ *
+ * NAO entra aqui a escova alisadora (chapinha em forma de escova, que esquenta
+ * as cerdas e nao sopra ar, com 47 a 75 W) nem a escova termica passiva, que
+ * nao tem tomada. Sao tres produtos com a mesma palavra no nome e fichas que
+ * nao se comparam: a alisadora de 47 W e a secadora de 1.300 W nao estao na
+ * mesma conversa.
+ *
+ * O campo que define a categoria e `pontasNaCaixa`, e ele existe porque e o
+ * numero que o mercado inteiro anuncia e nenhuma marca publica.
+ */
+export const camposEscovaSecadora: Campo[] = [
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Motor",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    ajuda:
+      "O número da caixa. É o campo que todas as marcas publicam — e quase todas publicam o mesmo: a categoria inteira vive entre 1.100 e 1.300 W. Watt aqui separa muito pouca coisa.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pontasNaCaixa",
+    rotulo: "Pontas na caixa",
+    grupo: "O que vem junto",
+    tipo: "numero",
+    filtro: "faixa",
+    ajuda:
+      "Quantas cabeças acompanham o aparelho — é o número do \"4 em 1\" e do \"5 em 1\" do anúncio. Nenhuma das quatro marcas da base publica isso num campo: mora só no nome do produto, onde ninguém precisa sustentá-lo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "diametroEscovaMm",
+    rotulo: "Diâmetro da escova",
+    grupo: "O que vem junto",
+    tipo: "numero",
+    unidade: "mm",
+    filtro: "faixa",
+    ajuda:
+      "A grossura do cilindro, que é o que decide se o resultado é liso ou com volume na raiz. Escova grande faz onda larga; escova fina alcança a raiz de cabelo curto.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "niveisTemperatura",
+    rotulo: "Níveis de temperatura",
+    grupo: "Controles",
+    tipo: "numero",
+    filtro: "faixa",
+    ajuda:
+      "Quantas posições o botão tem. Não é quanto calor sai: nenhuma ficha da categoria publica a temperatura em graus.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "niveisVelocidade",
+    rotulo: "Níveis de velocidade",
+    grupo: "Controles",
+    tipo: "numero",
+    filtro: "faixa",
+    ajuda:
+      "Quantas velocidades de ar o aparelho tem. Duas fichas da Mondial respondem \"Não se aplica\" neste campo, num aparelho cuja função é soprar ar.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "jatoArFrio",
+    rotulo: "Jato de ar frio",
+    grupo: "Controles",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "O ar frio no fim é o que fixa o penteado. Poucas fichas da categoria declaram se existe.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "caboGiratorio",
+    rotulo: "Cabo giratório",
+    grupo: "Construção",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "Num aparelho que gira na mão enquanto enrola o cabelo, o cabo que não gira vira torção. A Mondial declara; Philco e Britânia não têm o campo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "revestimento",
+    rotulo: "Revestimento",
+    grupo: "Construção",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Cerâmica, nanocerâmica ou turmalina, que é o que a marca diz sobre a superfície que toca o cabelo. Na maioria das fichas a palavra aparece no nome do produto e não em campo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "emiteIons",
+    rotulo: "Emite íons",
+    grupo: "Construção",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "Íon negativo é a promessa de menos frizz. O site registra se a marca declara, não se funciona — isso ninguém aqui mediu.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "cerdasRemoviveis",
+    rotulo: "Cabeça removível",
+    grupo: "Construção",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "Se a escova sai do corpo, para trocar de ponta ou para limpar o cabelo preso nas cerdas.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Construção",
+    tipo: "numero",
+    unidade: "m",
+    filtro: "faixa",
+    ajuda:
+      "Quanto o fio alcança da tomada até o espelho. É o campo que a Mondial erra de unidade com mais frequência na linha de cabelo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Construção",
+    tipo: "numero",
+    unidade: "kg",
+    filtro: "faixa",
+    ajuda:
+      "O aparelho fica no ar, preso ao braço, enquanto se puxa mecha por mecha. Duas fichas da Mondial declaram \"0,480g\" — meio grama, que é peso de clipe de papel.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Construção",
+    tipo: "texto",
+    ajuda:
+      "Comprimento, altura e profundidade. Só a Cadence publica, e publica também as medidas da caixa e o código fiscal.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Energia",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Bivolt ou uma tensão só. Em aparelho de 1.300 W, ligar em 127 o que é 220 não se resolve com adaptador.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "registroInmetro",
+    rotulo: "Registro no INMETRO",
+    grupo: "Energia",
+    tipo: "texto",
+    ajuda:
+      "O número que dá para conferir fora do site de quem vende. Na categoria, só a Cadence declara certificação.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "meses",
+    filtro: "faixa",
+    ajuda:
+      "Prazo declarado pelo fabricante. As quatro marcas declaram doze meses, umas em meses e outras em dias.",
+    contaTransparencia: true,
+  },
+];
+
 export const camposVentilador: Campo[] = [
   {
     chave: "tipo",
@@ -4631,6 +4809,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   aspiradores: camposAspirador,
   "lavadoras-alta-pressao": camposLavadoraAltaPressao,
   secadores: camposSecadorCabelo,
+  "escovas-secadoras": camposEscovaSecadora,
   batedeiras: camposBatedeira,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,

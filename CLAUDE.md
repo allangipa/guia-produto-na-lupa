@@ -388,8 +388,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 454 produtos em 27 categorias, 27 guias,
-  44 comparativos e 19 análises.**
+- **Inventário em 26/09/2026: 480 produtos em 28 categorias, 28 guias,
+  46 comparativos e 19 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -433,6 +433,39 @@ confunde com documento sem folha de estilo.
   por página. Num site que não testa produto a ficha campo a campo não é
   apêndice: é a matéria-prima do texto, e é onde moram as divergências entre
   fontes e a data de cada consulta. Mandar o leitor conferir é parte do método.
+
+- **Escovas secadoras abriu em 26/09/2026, com 26 fichas de quatro marcas.**
+  Saiu do nó "Escovas Rotativas" do ranking da Amazon, onde 27 dos 30 mais
+  vendidos são de marca com página oficial. Mondial 7, Philco 8, Britânia 7,
+  Cadence 4.
+
+  **Não entra aqui a escova alisadora** (esquenta as cerdas, não sopra ar, 47 a
+  75 W) nem a escova térmica passiva. São três produtos com a mesma palavra no
+  nome, lado a lado no mesmo ranking, e as fichas não se comparam.
+
+  **O achado da categoria é que a ficha quase não existe.** Vinte e uma das 26
+  declaram exatamente 1.300 W, e os campos que decidiriam a compra estão todos
+  em zero: pontas na caixa (0 de 26), diâmetro da escova (0), revestimento (0),
+  jato de ar frio (0), comprimento do cabo (0). O "4 em 1" mora no nome do
+  produto — e a Britânia BEC05T diz "4 em 1" no título e "3-em-1" no próprio
+  endereço da página.
+
+  **Philco e Britânia publicam 2,9 campos de 16, em média; Mondial 5,7 e
+  Cadence 6,0.** O contraste está dentro da própria casa: as mesmas Philco e
+  Britânia publicam temperatura, velocidade, grade removível, íons e cabo na
+  ficha de SECADOR. O molde existe e não foi aplicado à escova.
+
+  A Cadence usa **quatro unidades diferentes no campo "Consumo"** das quatro
+  escovas que vende — 39 kWh/mês, 36 kWh/mês, "1,2 KW/H" e "1,2 kWh" —, e a
+  ESC710 e a ESC720 têm a mesma potência e discordam entre si por um fator de
+  trinta.
+
+- **Abrir categoria nova exige mexer em quatro lugares**, e dois deles quebram
+  o build com mensagem clara: `lib/specs.ts` (o Campo[] e o registro em
+  `camposPorCategoria`), `lib/categorias.ts` (a entrada e a ordem),
+  **`lib/departamentos.ts`** (sem isso a categoria não aparece na navegação e o
+  build para) e `dados/<slug>.json`. Mais as três peças editoriais que a regra
+  do projeto pede.
 
 - **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
   de 423 e não na de 413 por categoria. Não foram investigados; fica anotado.
