@@ -180,10 +180,11 @@ export default function Home() {
       sub: g.subtitulo,
       data: g.atualizadoEm,
       nota: undefined as number | undefined,
+      // Todas as escolhas viram candidatas: a foto e escolhida depois, ja
+      // sabendo o que os outros cartoes da faixa estao mostrando.
       fotos: g.escolhas
         .map((e) => fotoDaBase([e.lojas], [e.produto]))
-        .filter(Boolean)
-        .slice(0, 1),
+        .filter(Boolean),
     })),
     ...comparativos.map((c) => ({
       tipo: "Comparativo",
@@ -220,6 +221,22 @@ export default function Home() {
         .slice(0, 2),
     )
     .sort((a, b) => b.data.localeCompare(a.data));
+
+  // Foto repetida na mesma faixa: o guia de aspiradores mostrava a WAP Magic
+  // porque ela e a primeira escolha dele, e a analise da WAP Magic mostrava a
+  // mesma foto no cartao ao lado. Comparativo e analise sao sobre produtos
+  // determinados e ficam com a foto que tem; o guia escolhe entre as fotos das
+  // escolhas dele, e prefere uma que ainda nao esteja na tela.
+  const usadas = new Set(
+    editorial.filter((e) => e.tipo !== "Guia").flatMap((e) => e.fotos.map((f) => f!.src)),
+  );
+  for (const e of editorial) {
+    if (e.tipo !== "Guia") continue;
+    const livre = e.fotos.find((f) => !usadas.has(f!.src));
+    // Sem alternativa livre, repetir e melhor que ficar sem foto.
+    e.fotos = [livre ?? e.fotos[0]].filter(Boolean);
+    if (e.fotos[0]) usadas.add(e.fotos[0]!.src);
+  }
 
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 pb-8">
