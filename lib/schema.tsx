@@ -189,6 +189,111 @@ export function schemaCategoria(
   };
 }
 
+/**
+ * Product para a ficha de produto.
+ *
+ * As 423 fichas carregavam so BreadcrumbList ate 26/09/2026 — eram 76% do site
+ * e as paginas que respondem a busca por modelo ("WAP Magic ficha tecnica"),
+ * sem declarar ao buscador que sao produto. Comparativo e analise ja emitiam
+ * Product; a ficha, nao.
+ *
+ * SEM PRECO E SEM aggregateRating, e isso limita o rich result de proposito.
+ * Preco so pode sair da Product Advertising API, com horario da consulta, e ela
+ * ainda nao esta liberada; agregado exige avaliacao real de leitor, que o site
+ * nao tem. Inventar qualquer um dos dois e o caminho mais curto para uma acao
+ * manual do Google.
+ *
+ * O que entra e o que a ficha de fato sustenta: marca, modelo, imagem
+ * licenciada, a descricao editorial e os campos de especificacao como
+ * `additionalProperty` — que e onde mora o trabalho do site, e o unico lugar
+ * do schema que aceita "quantos pascal" e "quantos litros uteis".
+ */
+export function schemaProduto(
+  p: {
+    nome: string;
+    marca: string;
+    modelo?: string | string[];
+    resumo?: string;
+    slug: string;
+    imagem?: { src: string };
+    lojas?: Record<string, string | undefined>;
+    specs: Record<string, unknown>;
+  },
+  campos: { chave: string; rotulo: string; unidade?: string }[],
+) {
+  const lojas = Object.entries(p.lojas ?? {})
+    .filter(([, url]) => url)
+    .map(([chave]) => chave);
+
+  // So campo preenchido: `additionalProperty` com "nao informa" viraria ruido,
+  // e a lacuna ja e dita na pagina, para gente, com todas as letras.
+  const propriedades = campos
+    .filter((c) => p.specs[c.chave] !== null && p.specs[c.chave] !== undefined)
+    .map((c) => {
+      const v = p.specs[c.chave];
+      return {
+        "@type": "PropertyValue",
+        name: c.rotulo,
+        // Booleano vira Sim/Nao: `String(true)` daria "true", que nao diz nada
+        // a quem le o schema. Numero fica cru, sem separador de milhar, que e o
+        // formato que a maquina entende — o separador e para a tela.
+        value: typeof v === "boolean" ? (v ? "Sim" : "Não") : String(v),
+        ...(c.unidade ? { unitText: c.unidade } : {}),
+      };
+    });
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: p.nome,
+    brand: { "@type": "Brand", name: p.marca },
+    ...(p.modelo
+      ? { model: Array.isArray(p.modelo) ? p.modelo.join(" / ") : p.modelo }
+      : {}),
+    ...(p.resumo ? { description: p.resumo } : {}),
+    url: `${site.url}/produtos/${p.slug}/`,
+    ...(p.imagem ? { image: `${site.url}${p.imagem.src}` } : {}),
+    ...(propriedades.length ? { additionalProperty: propriedades } : {}),
+    ...(lojas.length
+      ? {
+          offers: {
+            "@type": "AggregateOffer",
+            priceCurrency: "BRL",
+            availability: "https://schema.org/InStock",
+            offerCount: lojas.length,
+          },
+        }
+      : {}),
+  };
+}
+
+/**
+ * ItemList para o guia: a lista de escolhas, na ordem em que a pagina as mostra.
+ *
+ * O comparativo ja emitia ItemList e o guia nao, embora o guia SEJA uma lista —
+ * uma escolha por perfil de leitor. Inconsistencia interna, nao falta de dado.
+ */
+export function schemaGuia(g: {
+  titulo: string;
+  slug: string;
+  escolhas: { produto: string; perfil: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: g.titulo,
+    url: `${site.url}/guias/${g.slug}/`,
+    numberOfItems: g.escolhas.length,
+    itemListOrder: "https://schema.org/ItemListUnordered",
+    itemListElement: g.escolhas.map((e, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: e.produto,
+      description: e.perfil,
+    })),
+  };
+}
+
 export function schemaBreadcrumb(trilha: { nome: string; url: string }[]) {
   return {
     "@context": "https://schema.org",

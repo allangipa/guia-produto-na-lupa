@@ -29,7 +29,7 @@ import { LojaCta } from "@/components/loja-cta";
 import { Divulgacao } from "@/components/divulgacao";
 import { Icone } from "@/components/icones";
 import { PrecoAmazon } from "@/components/preco-amazon";
-import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
+import { JsonLd, schemaBreadcrumb, schemaProduto } from "@/lib/schema";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -166,6 +166,7 @@ export default async function PaginaProduto({ params }: Params) {
 
   return (
     <article className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-6">
+      <JsonLd data={schemaProduto(p, campos)} />
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },

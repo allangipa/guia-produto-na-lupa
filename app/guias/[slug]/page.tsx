@@ -18,7 +18,7 @@ import { Lacunas } from "@/components/pros-contras";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 import { EscolhaDoGuia } from "@/components/escolha-do-guia";
 import { Fontes } from "@/components/fontes";
-import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
+import { JsonLd, schemaBreadcrumb, schemaGuia } from "@/lib/schema";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -66,6 +66,7 @@ export default async function PaginaGuia({ params }: Params) {
 
   return (
     <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
+      <JsonLd data={schemaGuia(g)} />
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },
