@@ -8,6 +8,7 @@ import {
   dataLegivel,
   fotoDaBase,
   chegadaDe,
+  produtoDaBase,
 } from "@/lib/conteudo";
 import { tituloSeo, ogImagem, lojasDe } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
@@ -15,6 +16,7 @@ import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
+import { EscolhaDoGuia } from "@/components/escolha-do-guia";
 import { Fontes } from "@/components/fontes";
 import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
 
@@ -81,27 +83,21 @@ export default async function PaginaGuia({ params }: Params) {
 
       <section className="my-10 border-y border-linha py-8">
         <h2 className="font-titulo text-xl">A escolha certa depende de quem você é</h2>
-        <ol className="mt-5 space-y-6">
-          {g.escolhas.map((e) => (
-            <li key={e.perfil} className="grid gap-1 sm:grid-cols-[14rem_1fr]">
-              <p className="font-medium">{e.perfil}</p>
-              <div>
-                <p className="font-titulo text-lg leading-snug">
-                  {e.reviewSlug ? (
-                    <Link
-                      href={`/reviews/${e.reviewSlug}`}
-                      className="underline decoration-linha underline-offset-4 hover:decoration-acao"
-                    >
-                      {e.produto}
-                    </Link>
-                  ) : (
-                    e.produto
-                  )}
-                </p>
-                <p className="mt-1 max-w-[56ch] text-tinta-suave">{e.porque}</p>
-              </div>
-            </li>
-          ))}
+        <ol className="mt-5 grid gap-3.5">
+          {g.escolhas.map((e) => {
+            const ficha = produtoDaBase([e.lojas], [e.produto]);
+            return (
+              <EscolhaDoGuia
+                key={e.perfil}
+                perfil={e.perfil}
+                produto={e.produto}
+                porque={e.porque}
+                reviewSlug={e.reviewSlug}
+                foto={ficha?.imagem ?? fotoDaBase([e.lojas], [e.produto])}
+                ficha={ficha}
+              />
+            );
+          })}
         </ol>
       </section>
 
