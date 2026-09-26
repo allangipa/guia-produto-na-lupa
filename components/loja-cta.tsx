@@ -15,7 +15,41 @@ type Props = {
    * produto é pré-venda é deixar a descoberta para depois do clique.
    */
   nasLojasEm?: string;
+  /**
+   * Peso visual do bloco. "solido" dá o botão cheio à primeira loja; "contorno"
+   * deixa todas com o contorno.
+   *
+   * Existe por causa do bloco "Onde comprar cada um" dos guias, que empilha um
+   * CTA por escolha. Oito botões cheios em fila apagam os oito — é a mesma
+   * razão pela qual as lojas seguintes de um mesmo produto já ficavam com
+   * contorno, aplicada um nível acima. Decisão do Allan em 25/09/2026.
+   */
+  enfase?: "solido" | "contorno";
+  /**
+   * Se este bloco imprime a linha de divulgação. Só passe `false` quando ela
+   * já estiver visível no mesmo bloco de conteúdo — como na seção dos guias,
+   * onde aparece uma vez para a lista toda em vez de se repetir abaixo de cada
+   * botão. Nunca deixe uma tela com botão e sem divulgação.
+   */
+  divulgacao?: boolean;
 };
+
+/**
+ * A linha que impede o botão de virar promessa: diz que há comissão, que o
+ * leitor não paga mais caro por ela e que o preço de verdade é o da loja.
+ *
+ * Mora aqui, e não solta no meio das páginas, para que exista uma única
+ * redação dela no site.
+ */
+export function DivulgacaoComissao({ plural = false }: { plural?: boolean }) {
+  return (
+    <p className="mt-2.5 text-[0.78rem] text-tinta-suave">
+      {plural ? "Links de afiliado" : "Link de afiliado"}: o site recebe comissão
+      e você paga o mesmo preço. O preço muda ao longo do dia; quem manda é o da
+      loja.
+    </p>
+  );
+}
 
 /**
  * O único evento que o site mede: qual botão de loja foi clicado, em qual
@@ -65,8 +99,19 @@ function registrarClique(loja: string, produto: string, posicao: string) {
  * o contorno — a regra da casa é que exista UMA cor de ação por página, e três
  * botões verdes lado a lado apagariam os três. A ordem está declarada em
  * número, e mudar o número muda o site inteiro.
+ *
+ * Quando a PÁGINA empilha vários blocos, como a seção "Onde comprar cada um" de
+ * um guia, a mesma regra vale um nível acima: só o primeiro bloco vem com
+ * `enfase="solido"`. Ver a prop.
  */
-export function LojaCta({ lojas, produto, posicao, nasLojasEm }: Props) {
+export function LojaCta({
+  lojas,
+  produto,
+  posicao,
+  nasLojasEm,
+  enfase = "solido",
+  divulgacao = true,
+}: Props) {
   // Na ordem declarada em LOJAS, e sem chave desconhecida — que o build
   // recusa antes de chegar aqui.
   const disponiveis = lojasDe(lojas);
@@ -94,18 +139,16 @@ export function LojaCta({ lojas, produto, posicao, nasLojasEm }: Props) {
             rel="sponsored nofollow noopener"
             target="_blank"
             onClick={() => registrarClique(chave, produto, posicao)}
-            className={`botao ${i === 0 ? "botao-primario" : "botao-secundario"} flex-1 !py-3`}
+            className={`botao ${
+              i === 0 && enfase === "solido" ? "botao-primario" : "botao-secundario"
+            } flex-1 !py-3`}
           >
             {rotuloCompra(chave)}
             <Icone nome="seta" className="h-4 w-4" />
           </a>
         ))}
       </div>
-      <p className="mt-2.5 text-[0.78rem] text-tinta-suave">
-        {disponiveis.length > 1 ? "Links de afiliado" : "Link de afiliado"}: o
-        site recebe comissão e você paga o mesmo preço. O preço muda ao longo do
-        dia; quem manda é o da loja.
-      </p>
+      {divulgacao && <DivulgacaoComissao plural={disponiveis.length > 1} />}
     </div>
   );
 }

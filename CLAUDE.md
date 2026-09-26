@@ -225,10 +225,40 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 - Link da Amazon recebe a tag via `lib/site.ts`; o do Mercado Livre passa intacto,
   como o programa exige (nada de encurtador ou redirect interno).
 - `rel="sponsored nofollow"` em todo link de loja.
-- Máximo de três CTAs por página, sempre depois de uma entrega de valor.
+- **Um CTA por produto por página**, e todo CTA depois de uma entrega de valor.
+  Exceção declarada: o review repete o mesmo produto duas vezes, depois do
+  veredito e depois dos prós e contras.
+- **Máximo de três blocos de CTA por página.** Num guia, os botões das escolhas
+  contam como **um** bloco: ficam todos juntos em "Onde comprar cada um", depois
+  do corpo e das lacunas.
+- Num bloco com vários botões, **só o primeiro é sólido**; os outros levam
+  contorno. Vale entre lojas do mesmo produto e entre produtos do mesmo bloco —
+  uma cor de ação por página.
+- A linha de comissão (`DivulgacaoComissao`) aparece **uma vez por bloco**, não
+  uma vez por botão. Nunca uma tela com botão e sem ela.
 - JSON-LD com `Product` + `Review` usando a nota editorial. **Sem
   `aggregateRating`** até existir avaliação real de leitores no site.
 - Divulgação de afiliado acima da dobra em toda página de conteúdo.
+
+#### Por que o teto virou "três blocos" e não "três botões"
+
+A regra dizia "máximo de três CTAs por página", e foi escrita no primeiro commit
+do repositório, antes de o formato de guia existir. Em 25/09/2026 a contagem
+mostrou que **os 27 guias passavam dela**, de 4 a 8 CTAs, e que os outros tipos
+de página ficavam em 2.
+
+A causa não era descuido: um guia rende um botão por escolha, e a escolha é o
+produto. Um botão a mais num review é pressão sobre o mesmo produto; um botão a
+mais num guia é o próximo produto da lista. O número antigo tratava as duas
+coisas como iguais.
+
+Decisão do Allan: reescrever a regra em vez de cortar 64 dos 145 botões. Nenhuma
+regra externa entra aqui — o Operating Agreement da Amazon não limita quantidade
+de link, e a política do Google mira página de afiliado sem conteúdo próprio, não
+contagem de botão. O que a regra protegia era o leitor: não ser interrompido
+antes da entrega e não ser empurrado pelo mesmo botão três vezes. Os limites
+acima protegem isso, e o de cor sólida resolve o que a contagem nem via — oito
+botões verdes em fila apagavam os oito.
 
 ### Auditoria semanal dos links — `npm run afiliados`
 

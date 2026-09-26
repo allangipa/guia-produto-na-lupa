@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { todosOsProdutos } from "./produtos";
+import { aindaNaoSaiu } from "./specs";
 import { LIMITE_TITULO, LOJAS } from "./site";
 
 /**
@@ -377,6 +378,20 @@ export function fotoDaBase(
     if (achado?.imagem) return achado.imagem;
   }
   return undefined;
+}
+
+/**
+ * A data em que um produto chega às lojas, quando ela ainda não passou.
+ *
+ * Existe para a seção "Onde comprar cada um" de um guia. Escolha sem link
+ * aparecia ali como nome pelado, sem botão e sem explicação, o que parece
+ * defeito — e às vezes não é falta de pesquisa, é produto que ainda não saiu.
+ * Casada por nome exato, como a reserva de `fotoDaBase`: o nome no MDX e o de
+ * `dados/` são escritos no mesmo lugar.
+ */
+export function chegadaDe(nome: string): string | undefined {
+  const achado = todosOsProdutos().find((p) => p.nome === nome);
+  return achado && aindaNaoSaiu(achado) ? achado.nasLojasEm : undefined;
 }
 
 export function review(slug: string): Review | undefined {
