@@ -1014,3 +1014,97 @@ foram conferidos por script contra `dados/torradeiras.json`.
 modelo mais potente da lista" para o TOP70, e ha **tres empatados em 900 W**
 (TOP70, French Toast e WTE1). Superlativo em categoria pequena pede conferir
 empate — o script testava o valor, nao a unicidade.
+
+## `lavaloucas` — aberta com 11, paginas publicadas em 25/09/2026
+
+Onze maquinas e tres marcas: **Electrolux 6, Brastemp 4, Philco 1**. A
+apuracao estava so no JSON — esta secao foi escrita ao publicar.
+
+### O angulo: cada marca publica metade da conta, e nunca a mesma metade
+
+Lava-louca se vende por economia, e o custo de um ciclo tem duas parcelas:
+agua e energia. **Nenhuma das 11 fichas publica as duas.**
+
+```
+Electrolux (6)   publica AGUA (5 de 6)   nunca energia, nunca selo Inmetro
+Brastemp   (4)   publica ENERGIA (4/4)   nunca agua
+Philco     (1)   nenhuma das duas        so servicos, programas e garantia
+```
+
+Separacao limpa, **sem uma unica excecao**. Nao da para comparar custo de
+operacao entre marcas com a documentacao oficial, e o guia diz isso em vez de
+estimar o lado que falta.
+
+### O campo de litros preenchido com "Sim"
+
+**Electrolux LL08S** — o campo "Consumo de agua (L/ciclo)" esta preenchido com
+a palavra **"Sim"**. Resposta de sim-ou-nao num campo de medida. Nos outros
+cinco modelos da marca o mesmo campo traz numero, entao e cadastro daquele
+produto, nao politica da casa. Campo em branco, registrado em `divergencias`.
+
+**E o segundo caso do genero em duas categorias abertas no mesmo dia**: na
+torradeira Philco PTR03A o campo de espessura traz `"Exemplo: 30mm"`. Marcas
+diferentes, sistemas diferentes, a mesma falha — campo de especificacao
+publicado sem ninguem conferir o que entrou. Vale procurar esse padrao nas
+proximas categorias.
+
+### A pequena gasta mais que a grande, nas duas marcas e nos dois recursos
+
+**Agua (Electrolux):**
+
+| modelo | servicos | L/ciclo | L por servico |
+|---|---|---|---|
+| LL14X | 14 | 9,5 | **0,68** |
+| LS14E | 14 | 11 | 0,79 |
+| LS10E | 10 | 9 | 0,90 |
+| LL10X | 10 | 9,5 | 0,95 |
+| **LB08E** | **8** | **12** | **1,50** |
+
+A de 8 gasta **26,3% mais agua por ciclo** que a de 14, para lavar 43% menos
+louca. Por servico, **2,2x mais**.
+
+**Energia (Brastemp):** BLF08 (bancada) 0,95 kWh; BLF10 (piso) 0,83 kWh. A de
+8 gasta **14,5% mais por ciclo** e **43,1% mais por servico**.
+
+Duas marcas, dois recursos, o mesmo resultado. Explicacao fisica: ha um volume
+minimo para encher bomba e molhar o braco giratorio, e ele nao encolhe na
+proporcao da maquina.
+
+### Outros achados
+
+- **LL10X e LL14X gastam os mesmos 9,5 L** — 40% mais louca pela mesma agua.
+  Recomendacao mais simples da categoria: se ha vao de 60 cm, leve a maior.
+- **LS14E gasta 11 L contra 9,5 do LL14X**: mesma marca, mesma capacidade,
+  15,8% mais agua, e a ficha nao explica.
+- **Brastemp BLF10 publica energia por tensao**: 0,83 kWh em 127 V e 0,74 em
+  220 V. Mesmo cuidado das torradeiras Oster e WAP. O JSON guarda o de 127 V.
+- **Dois "nao" publicados, os dois na Electrolux**: o LB08E declara que NAO
+  tem cesto de talheres (unico das 11) e o LL08S que NAO tem trava de painel
+  (unico das 11). Credito nominal.
+- **Ruido em decibeis: 0 de 11.** A palavra dB nao aparece no arquivo. E a
+  especificacao classica da categoria no resto do mundo.
+- **Duracao de ciclo: 0 de 11** publicam tabela. Tres modelos trazem o tempo
+  no nome de um programa ("Lava & Seca 50 minutos") e nada dos outros.
+- **O numero do nome bate com os servicos em 11 de 11** — o contrario de
+  micro-ondas, onde 12 de 17 nao batiam. Vale registrar quando a categoria
+  acerta.
+- **Philco declara a unidade das medidas, "centimetros", sem valor nenhum** —
+  exatamente o que a ficha dela faz em torradeiras. E comportamento da casa,
+  nao da categoria.
+
+### Paginas publicadas
+
+`guias/lavaloucas.mdx`, `comparativos/electrolux-ll10x-vs-brastemp-blf10br.mdx`
+e `comparativos/electrolux-lb08e-vs-ll08s.mdx`. Os 56 numeros citados foram
+conferidos por script contra `dados/lavaloucas.json`.
+
+### PENDENCIA: numero sem fonte num resumo ja publicado
+
+O resumo do **`electrolux-ls10e`** termina com *"Lavar a mesma louca na pia
+passa de cem."* **Cem litros e um numero, e ele nao tem fonte em nenhuma das
+`fontes` do produto.** A regra da casa e que todo numero tem fonte e data.
+
+Nao alterei: e copia ja publicada e o Allan pode ter a fonte em mente. As tres
+pecas novas **nao repetem** essa afirmacao — falam da promessa de economia sem
+citar litros de lavagem manual. Decidir entre achar a fonte (ha estudos de
+fabricante e de agencias de agua) ou cortar o numero.
