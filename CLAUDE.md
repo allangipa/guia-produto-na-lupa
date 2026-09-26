@@ -231,9 +231,15 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 - **Máximo de três blocos de CTA por página.** Num guia, os botões das escolhas
   contam como **um** bloco: ficam todos juntos em "Onde comprar cada um", depois
   do corpo e das lacunas.
-- Num bloco com vários botões, **só o primeiro é sólido**; os outros levam
-  contorno. Vale entre lojas do mesmo produto e entre produtos do mesmo bloco —
-  uma cor de ação por página.
+- **Dentro de um produto com mais de uma loja**, só o primeiro botão é sólido;
+  as outras lojas levam contorno, porque são alternativas para a mesma compra.
+  **Entre produtos diferentes, todos os botões são sólidos.** Na seção "Onde
+  comprar cada um" de um guia cada botão é a resposta para um perfil de leitor;
+  pôr quatro com contorno diria que aquelas quatro recomendações valem menos.
+
+  Tentado ao contrário em 26/09/2026, com a regra de "uma cor de ação por
+  página" aplicada ao bloco inteiro, e desfeito no mesmo dia — o Allan viu na
+  tela que o "Comprar na Amazon" tinha duas aparências no site.
 - A linha de comissão (`DivulgacaoComissao`) aparece **uma vez por bloco**, não
   uma vez por botão. Nunca uma tela com botão e sem ela.
 - JSON-LD com `Product` + `Review` usando a nota editorial. **Sem

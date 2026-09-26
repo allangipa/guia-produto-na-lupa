@@ -16,16 +16,6 @@ type Props = {
    */
   nasLojasEm?: string;
   /**
-   * Peso visual do bloco. "solido" dá o botão cheio à primeira loja; "contorno"
-   * deixa todas com o contorno.
-   *
-   * Existe por causa do bloco "Onde comprar cada um" dos guias, que empilha um
-   * CTA por escolha. Oito botões cheios em fila apagam os oito — é a mesma
-   * razão pela qual as lojas seguintes de um mesmo produto já ficavam com
-   * contorno, aplicada um nível acima. Decisão do Allan em 25/09/2026.
-   */
-  enfase?: "solido" | "contorno";
-  /**
    * Se este bloco imprime a linha de divulgação. Só passe `false` quando ela
    * já estiver visível no mesmo bloco de conteúdo — como na seção dos guias,
    * onde aparece uma vez para a lista toda em vez de se repetir abaixo de cada
@@ -100,16 +90,17 @@ function registrarClique(loja: string, produto: string, posicao: string) {
  * botões verdes lado a lado apagariam os três. A ordem está declarada em
  * número, e mudar o número muda o site inteiro.
  *
- * Quando a PÁGINA empilha vários blocos, como a seção "Onde comprar cada um" de
- * um guia, a mesma regra vale um nível acima: só o primeiro bloco vem com
- * `enfase="solido"`. Ver a prop.
+ * A hierarquia vale DENTRO de um produto, e não entre produtos. Na seção "Onde
+ * comprar cada um" de um guia cada bloco é um produto diferente, um por perfil
+ * de leitor: lá todos os botões são sólidos, porque nenhuma daquelas
+ * recomendações vale menos que as outras. Tentado ao contrário em 26/09/2026 e
+ * desfeito no mesmo dia.
  */
 export function LojaCta({
   lojas,
   produto,
   posicao,
   nasLojasEm,
-  enfase = "solido",
   divulgacao = true,
 }: Props) {
   // Na ordem declarada em LOJAS, e sem chave desconhecida — que o build
@@ -139,9 +130,7 @@ export function LojaCta({
             rel="sponsored nofollow noopener"
             target="_blank"
             onClick={() => registrarClique(chave, produto, posicao)}
-            className={`botao ${
-              i === 0 && enfase === "solido" ? "botao-primario" : "botao-secundario"
-            } flex-1 !py-3`}
+            className={`botao ${i === 0 ? "botao-primario" : "botao-secundario"} flex-1 !py-3`}
           >
             {rotuloCompra(chave)}
             <Icone nome="seta" className="h-4 w-4" />

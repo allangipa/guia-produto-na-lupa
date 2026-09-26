@@ -114,9 +114,15 @@ export default async function PaginaGuia({ params }: Params) {
         para blocos de interrupção, não para tabela de onde comprar. Ver
         "Regras técnicas de afiliado" no CLAUDE.md.
 
-        Só o primeiro botão é sólido: uma cor de ação por página. E a divulgação
-        aparece uma vez para a lista toda, em vez de se repetir sob cada botão,
-        que numa lista de oito viraria oito parágrafos idênticos.
+        Todos os botões são sólidos. Deixar só o primeiro cheio foi tentado em
+        26/09/2026 e estava errado: aqui cada botão é um produto diferente, um
+        por perfil de leitor, e pôr quatro com contorno dizia que aquelas quatro
+        recomendações valem menos. Dentro de UM produto com várias lojas a
+        hierarquia existe e continua — a segunda loja é alternativa da primeira.
+        Entre produtos que são resposta para perguntas diferentes, não.
+
+        A divulgação aparece uma vez para a lista toda, em vez de se repetir sob
+        cada botão, que numa lista de oito viraria oito parágrafos idênticos.
 
         Escolha sem link não entra como nome pelado: ou diz quando chega às
         lojas, ou fica de fora daqui e continua acessível pela ficha, linkada
@@ -143,9 +149,6 @@ export default async function PaginaGuia({ params }: Params) {
                     lojas={e.lojas}
                     produto={e.produto}
                     posicao="fechamento"
-                    enfase={
-                      e.produto === comLink[0].produto ? "solido" : "contorno"
-                    }
                     divulgacao={false}
                   />
                 )}
