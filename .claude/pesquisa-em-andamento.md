@@ -1241,3 +1241,158 @@ resumos (rotina nova) voltou limpa.
 lista" para o Air Tower. Watt e potencia, nao consumo — e o consumo em kWh so
 existe em 3 das 10 fichas, nenhuma delas a do Air Tower. Era exatamente o erro
 que o guia critica na secao de vazao. Trocado por "a menor potencia da lista".
+
+## As cinco ultimas categorias sem nada publicado — abertas em 25/09/2026
+
+`chaleiras`, `energia`, `espremedores`, `lavadoras` e `smartwatches`. Nenhuma
+tinha secao de apuracao; as cinco foram escritas ao publicar. Guia + dois
+comparativos cada, 15 pecas.
+
+**Correcao de contagem**: eu vinha dizendo que faltavam 4 categorias. Eram
+**10** sem guia — 5 sem nada publicado (estas) e 5 com comparativo e analise
+mas sem guia (`aspiradores`, `conectividade`, `geladeiras`, `casa-conectada`,
+`armazenamento`). Estava decrementando um numero herdado sem recalcular.
+
+### `chaleiras` — 9 produtos, 9 marcas
+
+Melhor distribuicao de marca do site: uma marca por produto.
+
+**O angulo**: 6 das 9 publicam **duas potencias**, uma por tensao — 1.200 W em
+127 V e **1.850 W em 220 V**, que sao **54% a mais**. Num aparelho cuja unica
+funcao e ferver agua, a potencia e o produto inteiro. O numero do anuncio e
+sempre o menor.
+
+Proporcao muito melhor que a das torradeiras (3 de 12). A Midea publica ate a
+**corrente** de cada versao, 14,57 A e 8,41 A.
+
+**A ironia**: a **Britania BCH02PI** e a unica que declara mais de 1.200 W
+(1.250) — e a unica que **nao publica nada sobre 220 V**, nem tensao, peso,
+dimensao ou cabo.
+
+**Tempo de fervura: 1 de 9** (WAP, 5 a 7 min). E o fim; o watt e o meio.
+
+**Campos que so uma marca publica**, sem sobreposicao nenhuma: protecao a
+seco (Elgin), corrente (Midea), liga do aco 304 (Oster), capacidade util
+separada da total (Walita), ausencia de filtro (Electrolux).
+
+**Tres fichas quebradas**: Mondial cabo de "0,50 cm" (unidade trocada), WAP
+tres medidas com rotulos trocados (daria 15 cm de altura), Elgin dois valores
+de potencia sem dizer a tensao.
+
+**A "Premium Inox" da Mondial declara PP no campo de material** — o acabamento
+e metalico, a jarra nao.
+
+### `energia` — 8 power banks, 3 marcas
+
+**O angulo**: existe um campo `capacidadeReal` no esquema, com texto de ajuda,
+e ele esta **vazio nos oito**. As oito publicam a capacidade nominal da
+celula; nenhuma diz quanto chega ao aparelho depois da conversao de tensao.
+
+**Wh: 3 de 8.** E a unidade em que energia se mede e a que as companhias
+aereas regulam. A Basike faz certo: "20.000 mAh (74 Wh a 3,7 V)", com a tensao
+da conta. Cuidado: o guia **nao publica limiar de bagagem** por falta de
+fonte; fala so de qual unidade e regulada.
+
+**Anker**: o nome do produto diz **22,5 W** e a tabela tecnica da **mesma
+pagina** diz **18 W** (5 V x 3,6 A). A ficha adota os 18.
+
+Ciclos: 1 de 8. Quimica: 1 de 8. Garantia: 3 de 8, todas i2GO — a Basike nao
+publica prazo em nenhum dos quatro.
+
+### `espremedores` — 9 produtos, 6 marcas
+
+**A categoria com mais ficha quebrada do site**: 4 em 9.
+
+- **Mondial E-01**: o campo "Potencia" contem **as dimensoes do produto**.
+  As medidas foram aproveitadas (unica fonte de dimensao da marca) e a
+  potencia ficou vazia.
+- **Electrolux ECP10**: o campo "Compativel com lava-loucas" traz **"800mlz"**.
+- **Mondial E-02**: **seis campos** preenchidos com um traco.
+- **Arno**: 46,8 cm de altura para um produto cuja caixa, na mesma pagina, tem
+  20,8 cm — nao caberia dentro da propria embalagem.
+
+**Potencia de 30 a 260 W (8,7x)**, e o de 260 W e o unico Britania que **nao**
+gira nos dois sentidos, enquanto o de 35 W gira. Rotacao alternada e o recurso
+que solta mais suco, e nao anda junto com watt.
+
+**Bellagio 350 declara 35 W** — o 350 do nome nao e watt.
+
+Philco publica "2 cones" no **nome do produto** e nao tem campo de cones.
+
+### `lavadoras` — 8 maquinas, 3 marcas, todas de carga superior
+
+**O angulo**: o mesmo 15 kg gasta **110 ou 160 litros** (Panasonic x
+Electrolux LED15) — 45% a mais. E dentro da Electrolux, o mesmo 13 kg gasta
+**150 ou 110** (LED13 x LET13) — 36%.
+
+Litros por quilo, do melhor ao pior: **7,3 (Panasonic) a 12,4 (Brastemp)**,
+**68,5% de diferenca**. Ressalva publicada: nenhuma diz em que condicao mediu.
+
+**Brastemp publica energia como "kW/ano": 0,39 e 0,41** — a ordem de grandeza
+e de um ciclo. Campo vazio. E publica a **capacidade como faixa de filtro**,
+"12kg - 14kg"; os 14 kg saem do nome.
+
+**LED15 e LED17**: dimensoes, peso e rotacao **identicos** para 15 e 17 kg.
+
+**LES11**: dois campos de programas na mesma pagina, 10 e 8. Adotado o 8.
+
+**LET13 declara NAO ter filtro de fiapos** — unica das 8. Credito.
+
+### `smartwatches` — 9 aparelhos, 3 marcas (Amazfit 6)
+
+**Categoria que inverte o padrao do site**: as marcas publicam varios regimes
+de autonomia, nao escondem o numero ruim. O problema e **qual vai para a
+caixa**.
+
+- **Amazfit Active Max**: cinco regimes (25 tipico, 13 intenso, 10 always-on...)
+- **Amazfit Bip 6**: **26 dias no modo economia e 6 em uso intenso** — 4,3x
+- **Xiaomi**: **um regime so**, 18 dias
+- **T-Rex 3**: 27 dias tipicos, o maior — e **nao publica uso intenso**
+
+`autonomiaIntensaDias`: 4 de 9, todas Amazfit.
+
+**Huawei publica dias e nao publica mAh** nas duas pulseiras — entao nao da
+para coloca-las na reta mAh x dias, que nos outros sete e quase linear.
+
+**Polegada e PPI nao andam juntas**: o Active 2 de **1,32"** tem **353 PPI**,
+o maior; a Xiaomi de **2,0"** tem **250**, o menor, e e a unica LCD.
+
+### O padrao do dia: campo publicado sem ninguem conferir
+
+Sete casos, em cinco categorias abertas no mesmo dia. A tabela esta publicada
+no guia de espremedores:
+
+| categoria | campo | valor publicado |
+|---|---|---|
+| Torradeiras | Espessura do pao | "Exemplo: 30mm" |
+| Lava-loucas | Consumo de agua (L/ciclo) | "Sim" |
+| Ventiladores | Quantidade de pas | "*" |
+| Chaleiras | Comprimento do cabo | "0,50 cm" |
+| Espremedores | Potencia | as dimensoes do produto |
+| Espremedores | Compativel com lava-loucas | "800mlz" |
+| Espremedores | Seis campos | um traco |
+| Lavadoras | Consumo de energia | "kW/ano" |
+
+**Vale procurar em toda categoria nova, e rende secao de guia.**
+
+### Conferencia
+
+Cinco scripts, um por categoria, contra os JSON: chaleiras 46, energia 48,
+espremedores 45, lavadoras 59, smartwatches 57. **255 verificacoes, zero
+falha de conteudo** (houve quatro falsos negativos dos proprios testes, por
+acento e maiuscula, conferidos a mao).
+
+A varredura de resumos atras de comparacao sem fonte voltou limpa nas cinco.
+
+Build em **624 paginas**.
+
+### O que ainda falta
+
+Cinco categorias **sem guia**, mas com comparativo e analise ja publicados:
+`aspiradores` (24 produtos), `conectividade` (14), `geladeiras` (9),
+`casa-conectada` (8), `armazenamento` (7).
+
+**Pendencia anotada**: o texto de ajuda do campo `capacidadeReal`, em
+lib/specs.ts, afirma "Costuma ser 60% a 65% da nominal" sem fonte. E a mesma
+classe de problema dos resumos corrigidos hoje, noutra superficie. Nao
+alterei; as pecas novas nao usam esse percentual.
