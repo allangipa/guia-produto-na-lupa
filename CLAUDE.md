@@ -388,7 +388,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 423 produtos em 27 categorias, 27 guias,
+- **Inventário em 26/09/2026: 437 produtos em 27 categorias, 27 guias,
   44 comparativos e 19 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -455,9 +455,21 @@ confunde com documento sem folha de estilo.
   **O que isso custou, e fica registrado para não se esquecer:** a amostra
   passou a ser "o que a Amazon vende", e não "o mercado". Em secadores isso
   encolheu a Taiff de 20 para 10 fichas, e a força do achado "0 de 20 publica
-  peso" caiu junto. Allan ofereceu repor com produtos novos em vez de apagar;
-  fica como trabalho seguinte, começando por secadores e batedeiras, que foram
-  as que mais encolheram.
+  peso" caiu junto.
+
+  **As duas categorias foram repostas em 26/09/2026**, com marca nova em vez de
+  mais modelos das mesmas: batedeiras 26 → 33 com sete Mondial, secadores
+  28 → 35 com sete GA.MA Italy. O casamento foi feito pela página oficial
+  primeiro e pelo ASIN depois — a Amazon vende variantes de cor que o
+  fabricante não documenta, e essas ficaram de fora.
+
+  **A reposição achou o que a remoção tinha deixado para trás.** O guia de
+  batedeiras ainda contava Philco 10 e Britânia 10 na tabela de marcas; o de
+  secadores dizia "quarenta e cinco" no subtítulo e "28" nas lacunas, na mesma
+  página, e a seção de contradições descrevia três produtos que já tinham
+  saído da base. Os dois comparativos de secadores estavam inteiros com os
+  números de antes. **Ao mexer no tamanho de uma categoria, reconferir também
+  os comparativos e as análises dela, não só o guia.**
 - `contato@guiaprodutonalupa.com.br` está publicado em `/sobre`, `/metodologia` e
   no rodapé de toda análise. **A caixa precisa existir de verdade** — é o único
   canal de correção de um site sem autor-pessoa, e endereço morto derruba a

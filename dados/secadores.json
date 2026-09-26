@@ -1534,5 +1534,412 @@
       "credito": "Imagem: Taiff",
       "origem": "https://secure.taiff.com.br/secador-easy/p"
     }
+  },
+  {
+    "slug": "gama-lichia",
+    "nome": "GA.MA Lichia Ceramic Íon 2100W",
+    "marca": "GA.MA Italy",
+    "modelo": "GAM-BECHD0000002791",
+    "categoria": "secadores",
+    "resumo": "2.100 W com motor AC declarado, duas velocidades, três temperaturas e 641 g. A garantia é de seis meses, metade do que a categoria inteira declara.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": "AC profissional",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": true,
+      "comprimentoCaboM": 2.0,
+      "pesoKg": 0.641,
+      "tensao": "127V e 220V",
+      "registroInmetro": null,
+      "garantiaMeses": 6
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C9FJQ1WQ"
+    },
+    "fontes": [
+      {
+        "id": "gama-lichia-oficial",
+        "titulo": "GA.MA Lichia Ceramic Íon 2100W — ficha oficial da loja GA.MA Italy",
+        "url": "https://www.gamaitaly.com.br/secador-de-cabelo-lichia-ceramic-ion-2100w-gm-bechd0000002791bechd0000002792/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.100 W, motor \"AC Profissional\", 2 velocidades, 3 temperaturas, jato de ar frio, tecnologias Ceramic Ion e Essencial Oil, cabo de 2 metros, 641 g, 127V e 220V e **6 meses de garantia**. Acessórios: 1 bico direcionador e 1 difusor. Não declara rotação do motor, grade traseira removível, cabo giratório nem registro no INMETRO.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "gama-lichia-amazon",
+        "titulo": "GA.MA Lichia Ceramic Íon 2100W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C9FJQ1WQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a potência e a tensão vendidos: \"Secador de Cabelo Gama Lichia Ceramic Ion 2100W 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/gama-lichia.webp",
+      "alt": "Secador GA.MA Lichia vermelho, com o bico direcionador encaixado e o difusor ao lado",
+      "credito": "Imagem: GA.MA Italy",
+      "origem": "https://www.gamaitaly.com.br/secador-de-cabelo-lichia-ceramic-ion-2100w-gm-bechd0000002791bechd0000002792/p"
+    }
+  },
+  {
+    "slug": "gama-babosa",
+    "nome": "GA.MA Babosa Ceramic Íon 2100W",
+    "marca": "GA.MA Italy",
+    "modelo": "GAM-BECHD0000002810",
+    "categoria": "secadores",
+    "resumo": "O irmão do Lichia com óleo de babosa na grade: mesma potência, mesmo motor AC, 48 g mais leve. Seis meses de garantia.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 2100,
+      "tipoMotor": "AC profissional",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": true,
+      "comprimentoCaboM": 2.0,
+      "pesoKg": 0.593,
+      "tensao": "127V e 220V",
+      "registroInmetro": null,
+      "garantiaMeses": 6
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C9JSZKDJ"
+    },
+    "fontes": [
+      {
+        "id": "gama-babosa-oficial",
+        "titulo": "GA.MA Babosa Ceramic Íon 2100W — ficha oficial da loja GA.MA Italy",
+        "url": "https://www.gamaitaly.com.br/secador-de-cabelo-babosa-ceramic-ion-2100w-gm-bechd0000002810bechd0000002811/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.100 W, motor \"AC Profissional\", 2 velocidades, 3 temperaturas, jato de ar frio, tecnologias Ceramic Ion e Essencial Oil, cabo de 2 metros, 593 g, 127V e 220V e **6 meses de garantia**. A página traz dois conjuntos de medidas diferentes: \"8,5cm x 23cm x 21,5cm\" no campo de dimensões do produto e \"Largura 10 / Altura 27 / Comprimento 22\" em campos soltos. Nenhum dos dois entrou: esta categoria não tem campo de dimensões.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "gama-babosa-amazon",
+        "titulo": "GA.MA Babosa Ceramic Íon 2100W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C9JSZKDJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a potência e a tensão vendidos: \"Secador de Cabelo Babosa Ceramic Ion 2100W 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/gama-babosa.webp",
+      "alt": "Secador GA.MA Babosa preto com detalhe verde, com o bico direcionador e o difusor",
+      "credito": "Imagem: GA.MA Italy",
+      "origem": "https://www.gamaitaly.com.br/secador-de-cabelo-babosa-ceramic-ion-2100w-gm-bechd0000002810bechd0000002811/p"
+    },
+    "galeria": [
+      {
+        "src": "/produtos/gama-babosa-b.webp",
+        "alt": "Secador GA.MA Babosa visto de trás, mostrando a grade traseira",
+        "credito": "Imagem: GA.MA Italy",
+        "origem": "https://www.gamaitaly.com.br/secador-de-cabelo-babosa-ceramic-ion-2100w-gm-bechd0000002810bechd0000002811/p"
+      }
+    ]
+  },
+  {
+    "slug": "gama-eolic-travel",
+    "nome": "GA.MA Eolic Travel",
+    "marca": "GA.MA Italy",
+    "modelo": "GAM-BECHD0000001630",
+    "categoria": "secadores",
+    "resumo": "Secador de viagem de 1.600 W e 384 g. A ficha declara \"Ar Frio: Não\" — é o único da base que responde esse campo com uma negativa em vez de deixar em branco.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1600,
+      "tipoMotor": null,
+      "rotacaoRpm": null,
+      "niveisTemperatura": 2,
+      "niveisVelocidade": 2,
+      "jatoArFrio": false,
+      "gradeTraseiraRemovivel": null,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 1.6,
+      "pesoKg": 0.384,
+      "tensao": "Bivolt, chaveado à mão",
+      "registroInmetro": null,
+      "garantiaMeses": 6
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07BNS1C1L"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "gama-eolic-travel-oficial",
+        "valorDivergente": "\"7cm x 23,5cm x 13,5,5cm\" no campo de dimensões",
+        "fonteDivergente": "gama-eolic-travel-oficial",
+        "observacao": "O campo de dimensões da página traz \"13,5,5cm\", com duas vírgulas. Não afeta nenhum campo desta ficha — secador não tem campo de dimensões aqui — e fica registrado porque é o tipo de erro de digitação que passa despercebido numa tabela e derruba a confiança nos números vizinhos."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "gama-eolic-travel-oficial",
+        "titulo": "GA.MA Eolic Travel Bivolt — ficha oficial da loja GA.MA Italy",
+        "url": "https://www.gamaitaly.com.br/secador-de-cabelo-eolic-travel-bivolt/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.600 W, 2 velocidades, 2 temperaturas, **\"Ar Frio: Não\"**, tecnologia Nano Silver, cabo de 1,60 m, 384 g, bivolt chaveado à mão e **6 meses de garantia**. Acessório: 1 bico direcionador. Não declara tipo de motor nem rotação. O campo de dimensões traz \"13,5,5cm\", com duas vírgulas.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "gama-eolic-travel-amazon",
+        "titulo": "GA.MA Eolic Travel Bivolt — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07BNS1C1L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Secador de Cabelo Eolic Travel Bivolt\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/gama-eolic-travel.webp",
+      "alt": "Secador de viagem GA.MA Eolic Travel preto, com o cabo enrolado",
+      "credito": "Imagem: GA.MA Italy",
+      "origem": "https://www.gamaitaly.com.br/secador-de-cabelo-eolic-travel-bivolt/p"
+    }
+  },
+  {
+    "slug": "gama-iq-lite-silver",
+    "nome": "GA.MA Professional iQ Lite Silver",
+    "marca": "GA.MA Italy",
+    "modelo": "iQ Lite",
+    "categoria": "secadores",
+    "resumo": "300 g com motor brushless de 29 mm declarado, e 1.600 W — menos da metade da potência dos 2.100 W da linha de consumo da própria marca.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1600,
+      "tipoMotor": "Brushless profissional, 29 mm",
+      "rotacaoRpm": null,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 3.0,
+      "pesoKg": 0.3,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DH6DBPF3"
+    },
+    "divergencias": [
+      {
+        "campo": "tipoMotor",
+        "fonteAdotada": "gama-iq-lite-silver-oficial",
+        "valorDivergente": "o campo \"Plug\" repete as dimensões do produto",
+        "fonteDivergente": "gama-iq-lite-silver-oficial",
+        "observacao": "O campo \"Plug\" desta ficha traz \"Altura 21 - Largura ura 5 1 - Comprimento 19\", que é exatamente o conteúdo do campo de dimensões logo acima — e traz também o \"Largura ura\" duplicado. É campo colado no lugar errado: a ficha do irmão iQ Lite Max, na mesma loja, traz ali \"16A - 250V - Plug Hexagonal\". Nenhum dado de plug foi adotado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "gama-iq-lite-silver-oficial",
+        "titulo": "GA.MA Professional iQ Lite Silver — ficha oficial da loja GA.MA Italy",
+        "url": "https://www.gamaitaly.com.br/secador-iq-lite-cinza-gam-bechd0000003184_pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.600 W, **motor brushless profissional de 29 mm**, 3 temperaturas, 2 velocidades, jato de ar frio, filtro removível com três unidades reutilizáveis e laváveis, cabo de 3 metros, 300 g e 1 ano de garantia. Não declara rotação do motor nem tensão. O campo \"Plug\" está preenchido com as dimensões do produto.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "gama-iq-lite-silver-amazon",
+        "titulo": "GA.MA Professional iQ Lite Silver — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DH6DBPF3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendidos: \"Secador iQ Lite Silver - 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/gama-iq-lite-silver.webp",
+      "alt": "Secador GA.MA iQ Lite prateado, de corpo curto, visto de lado",
+      "credito": "Imagem: GA.MA Italy",
+      "origem": "https://www.gamaitaly.com.br/secador-iq-lite-cinza-gam-bechd0000003184_pai/p"
+    },
+    "galeria": [
+      {
+        "src": "/produtos/gama-iq-lite-silver-b.webp",
+        "alt": "Secador GA.MA iQ Lite prateado com o difusor, os dois bicos e os filtros de reposição",
+        "credito": "Imagem: GA.MA Italy",
+        "origem": "https://www.gamaitaly.com.br/secador-iq-lite-cinza-gam-bechd0000003184_pai/p"
+      }
+    ]
+  },
+  {
+    "slug": "gama-iq-lite-max-black",
+    "nome": "GA.MA Professional iQ Lite Max Black",
+    "marca": "GA.MA Italy",
+    "modelo": "iQ Lite Max",
+    "categoria": "secadores",
+    "resumo": "85.000 rpm declarados num motor brushless de 32 mm — uma das quatro fichas da base que publicam rotação. Em 220 V a potência vem como faixa, não como número.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1650,
+      "tipoMotor": "Brushless profissional, 32 mm",
+      "rotacaoRpm": 85000,
+      "niveisTemperatura": 3,
+      "niveisVelocidade": 2,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": null,
+      "pesoKg": 0.307,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DHDP8VGP"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "gama-iq-lite-max-black-oficial",
+        "valorDivergente": "\"127 - 1650   220 - 1500-1700\"",
+        "fonteDivergente": "gama-iq-lite-max-black-oficial",
+        "observacao": "O campo de potência traz os dois valores de tensão numa linha só, e o de 220 V vem como **faixa**: 1500 a 1700 W. Ficou o número de 127 V, 1.650 W, que é a tensão do modelo vendido na Amazon. Potência declarada como intervalo não se compara com a de ninguém. O campo \"Modelo\" da mesma ficha traz \"iQ ite Max\", sem o L."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "gama-iq-lite-max-black-oficial",
+        "titulo": "GA.MA Professional iQ Lite Max Black — ficha oficial da loja GA.MA Italy",
+        "url": "https://www.gamaitaly.com.br/secador-iq-lite-max-black-bechd0000003040_pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "**Motor brushless profissional de 32 mm e 85.000 rpm**, 3 temperaturas, 2 velocidades, jato de ar frio, filtro removível com três de tecido adicionais, 307 g e 1 ano de garantia. A potência vem como \"127 - 1650  220 - 1500-1700\": 1.650 W em 127 V e uma faixa de 1.500 a 1.700 W em 220 V. Não declara comprimento de cabo nem tensão em campo próprio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "gama-iq-lite-max-black-amazon",
+        "titulo": "GA.MA Professional iQ Lite Max Black — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DHDP8VGP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendidos: \"Secador iQ Lite Max Black - 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/gama-iq-lite-max-black.webp",
+      "alt": "Secador GA.MA iQ Lite Max preto, de corpo curto, visto de lado",
+      "credito": "Imagem: GA.MA Italy",
+      "origem": "https://www.gamaitaly.com.br/secador-iq-lite-max-black-bechd0000003040_pai/p"
+    }
+  },
+  {
+    "slug": "gama-iq3-black",
+    "nome": "GA.MA Professional iQ3 Perfetto Black",
+    "marca": "GA.MA Italy",
+    "modelo": "iQ3",
+    "categoria": "secadores",
+    "resumo": "110.000 rpm declarados, quatro temperaturas, três velocidades e 294 g. É a ficha mais completa da categoria — e ainda assim não traz o tipo de motor num campo próprio.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1600,
+      "tipoMotor": null,
+      "rotacaoRpm": 110000,
+      "niveisTemperatura": 4,
+      "niveisVelocidade": 3,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 3.0,
+      "pesoKg": 0.294,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FWFF1ZK4"
+    },
+    "fontes": [
+      {
+        "id": "gama-iq3-black-oficial",
+        "titulo": "GA.MA Professional iQ3 Perfetto Black — ficha oficial da loja GA.MA Italy",
+        "url": "https://www.gamaitaly.com.br/secador-iq3-perfetto-black-127v-gam-bechd0000002960_pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.600 W, **110.000 rpm** de rotação padrão (120.000 rpm por 30 segundos na função turbo), 4 temperaturas, 3 velocidades, jato de ar frio, fluxo de ar de 74 m³/h, filtro com autolimpeza, cabo de 3 metros, 294 g e 1 ano de garantia. A página descreve \"motor digital\" em prosa e **não tem campo de tipo de motor** — o irmão iQ Lite, na mesma loja, tem. Não declara tensão.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "gama-iq3-black-amazon",
+        "titulo": "GA.MA Professional iQ3 Perfetto Black — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FWFF1ZK4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendidos: \"Secador iQ3 Perfetto Black - 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/gama-iq3-black.webp",
+      "alt": "Secador GA.MA iQ3 preto, de corpo curto e cabo longo, visto de lado",
+      "credito": "Imagem: GA.MA Italy",
+      "origem": "https://www.gamaitaly.com.br/secador-iq3-perfetto-black-127v-gam-bechd0000002960_pai/p"
+    }
+  },
+  {
+    "slug": "gama-iq3-rose-gold",
+    "nome": "GA.MA Professional iQ3 Perfetto Rose Gold",
+    "marca": "GA.MA Italy",
+    "modelo": "iQ3",
+    "categoria": "secadores",
+    "resumo": "O iQ3 em rose gold: ficha idêntica à da versão preta, campo a campo, com 110.000 rpm e 294 g.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "potenciaW": 1600,
+      "tipoMotor": null,
+      "rotacaoRpm": 110000,
+      "niveisTemperatura": 4,
+      "niveisVelocidade": 3,
+      "jatoArFrio": true,
+      "gradeTraseiraRemovivel": true,
+      "caboGiratorio": null,
+      "emiteIons": null,
+      "comprimentoCaboM": 3.0,
+      "pesoKg": 0.294,
+      "tensao": null,
+      "registroInmetro": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FWDVF6K7"
+    },
+    "fontes": [
+      {
+        "id": "gama-iq3-rose-gold-oficial",
+        "titulo": "GA.MA Professional iQ3 Perfetto Rose Gold — ficha oficial da loja GA.MA Italy",
+        "url": "https://www.gamaitaly.com.br/secador-iq3-perfetto-rose-gold-127v-gam-bechd0000002961_pai/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.600 W, **110.000 rpm** de rotação padrão (120.000 rpm por 30 segundos na função turbo), 4 temperaturas, 3 velocidades, jato de ar frio, fluxo de ar de 74 m³/h, filtro com autolimpeza, cabo de 3 metros, 294 g e 1 ano de garantia. Mesma ficha da versão preta, campo a campo. Não tem campo de tipo de motor e não declara tensão.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "gama-iq3-rose-gold-amazon",
+        "titulo": "GA.MA Professional iQ3 Perfetto Rose Gold — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FWDVF6K7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendidos: \"Secador iQ3 Perfetto Rose Gold - 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/gama-iq3-rose-gold.webp",
+      "alt": "Secador GA.MA iQ3 rose gold, de corpo curto e cabo longo, visto de lado",
+      "credito": "Imagem: GA.MA Italy",
+      "origem": "https://www.gamaitaly.com.br/secador-iq3-perfetto-rose-gold-127v-gam-bechd0000002961_pai/p"
+    }
   }
 ]
