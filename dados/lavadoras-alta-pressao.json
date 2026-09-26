@@ -26,7 +26,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B086PDJV36"
+    },
     "fontes": [
       {
         "id": "wap-l-profi-4000-oficial",
@@ -35,6 +37,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **4350 PSI**, vazão de **1140 L/h**, 7500 W, motor indução, mangueira de 10 m, cabo de 5 m, 77.2 kg. Código do produto: FW006927 (380V Tri).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-l-profi-4000-amazon",
+        "titulo": "WAP L Profi 4000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B086PDJV36",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo FW006927, igual ao da ficha, e por mais quatro numeros que batem: 4350 PSI de pressao maxima, vazao de 1140 L/h, 7500 W e peso de 77,2 kg. Motor de inducao e 380 V trifasico tambem conferem. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {

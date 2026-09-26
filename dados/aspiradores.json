@@ -46,6 +46,14 @@
       "alt": "Aspirador de pó e água WAP Turbo 1600 laranja e preto, com mangueira e bocal",
       "credito": "Imagem: WAP",
       "origem": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-turbo-1600/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por \"WAP Turbo 1600\" e pelo codigo FW20000225 traz outros modelos da linha, nao este. Tambem nao apareceu no Mercado Livre."
     }
   },
   {
@@ -95,6 +103,14 @@
       "alt": "Aspirador de pó e água WAP Turbo 2002 laranja, sobre rodas, com alça alta",
       "credito": "Imagem: WAP",
       "origem": "https://loja.wap.ind.br/aspirador-de-po-e-agua-1600w-wap-turbo-2002/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil, nem por nome nem pelo codigo FW20200201. Tambem nao apareceu no Mercado Livre."
     }
   },
   {
@@ -315,6 +331,14 @@
       "alt": "Aspirador vertical sem fio WAP Magic Clean azul e cinza, em pé",
       "credito": "Imagem: WAP",
       "origem": "https://loja.wap.ind.br/aspirador-de-po-vertical-sem-fio-wap-magic-clean-1/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil. Tambem nao apareceu no Mercado Livre."
     }
   },
   {
@@ -431,6 +455,14 @@
       "alt": "Aspirador de pó WAP Ambiance Turbo branco e amarelo, com mangueira e bocal",
       "credito": "Imagem: WAP",
       "origem": "https://loja.wap.ind.br/aspirador-de-po-1600w-wap-ambiance-turbo/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil. Tambem nao apareceu no Mercado Livre."
     }
   },
   {
@@ -716,6 +748,14 @@
       "alt": "Robô aspirador WAP Robot W100C cinza, visto de cima, com as escovas laterais",
       "credito": "Imagem: WAP",
       "origem": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w100c/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil. EXISTE no Mercado Livre, em /p/MLB19561637, mas o programa de afiliados gera link por produto no painel e nenhum dos links gerados em 25/09/2026 caiu na pagina do produto: todos resolveram para o perfil de afiliado. Sem link proprio, nao entra."
     }
   },
   {
@@ -886,6 +926,14 @@
       "alt": "Aspirador vertical Midea PowerDust preto e cobre, em pé",
       "credito": "Imagem: Midea",
       "origem": "https://www.midea.com.br/aspirador-de-po-vertical-powerdust-midea-preto/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca traz outros aspiradores da Midea, nao o PowerDust VVA20P1. Tambem nao apareceu no Mercado Livre."
     }
   },
   {
@@ -1049,6 +1097,14 @@
       "alt": "Aspirador de pó com saco Electrolux EQP40 azul-escuro, com mangueira e tubo",
       "credito": "Imagem: Electrolux",
       "origem": "https://loja.electrolux.com.br/eqp40-eqp40-aspirador-de-po/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil. EXISTE no Mercado Livre, em /p/MLB45695281, mas vale o mesmo do W100C: os links gerados em 25/09/2026 resolveram para o perfil de afiliado, nao para o produto."
     }
   },
   {
@@ -1214,6 +1270,14 @@
       "alt": "Aspirador de pó Philco PAS1810 preto, com os acessórios ao lado",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/aspirador-de-po-philco-turbo-pr/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon",
+        "mercadolivre"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por PAS1810 traz outros modelos Philco. Tambem nao apareceu no Mercado Livre."
     }
   },
   {

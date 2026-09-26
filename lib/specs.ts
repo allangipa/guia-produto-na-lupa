@@ -148,6 +148,26 @@ export type Produto = {
    * leva o aviso na ficha e continua na categoria.
    */
   nasLojasEm?: string;
+  /**
+   * A última vez que se procurou link de afiliado para este produto e não se
+   * achou. Só existe em produto sem `lojas`.
+   *
+   * Existe porque a auditoria semanal (`npm run afiliados`) enfileira todo
+   * produto sem link, e sem esta marca ela mandaria repetir de graça, toda
+   * semana, uma busca que já foi feita e deu em nada. Com a marca, o produto
+   * sai da fila por trinta dias — prazo curto de propósito, porque catálogo de
+   * varejo muda, e ausência hoje não é ausência no mês que vem.
+   *
+   * Não aparece na tela: é anotação de redação. A nota diz o que se viu, para a
+   * próxima busca não refazer o mesmo caminho.
+   */
+  buscaDeLoja?: {
+    /** Data ISO da busca. */
+    em: string;
+    /** Onde se procurou, pelas chaves de `LOJAS` em `lib/site.ts`. */
+    onde: string[];
+    nota: string;
+  };
   atualizadoEm: string;
 };
 

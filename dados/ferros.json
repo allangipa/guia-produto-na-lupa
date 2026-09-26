@@ -340,7 +340,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07SRYMN8P"
+    },
     "fontes": [
       {
         "id": "arno-ecogliss-fec1-oficial",
@@ -349,6 +351,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base cerâmica Glide, **22 saídas de vapor**, vazão **contínua de 24 g/min e extra de 80 g/min**, 1.200 W em 127 V e 1.740 W em 220 V, cabo de 180 cm, 1,0 kg e garantia de 12 meses. A ficha não publica as medidas.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-ecogliss-fec1-amazon",
+        "titulo": "Arno Ecogliss FEC1 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07SRYMN8P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres elementos: campo Numero do modelo FEC1, fabricante Groupe Seb (dona da Arno), base de ceramica e vapor continuo de 24 g/min, que e o da ficha. Listagem de 220 V — a variante de 110 V aparece como indisponivel. O titulo traz 1740 W, e a tabela de especificacoes da Arno declara \"127V - 1200W | 220V - 1740W\": os 1.200 W adotados na ficha sao os de 127 V, pela mesma convencao usada no Ultragliss Plus FMY. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -443,7 +453,9 @@
       "autoLimpeza",
       "spray"
     ],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DS6DGGNP"
+    },
     "fontes": [
       {
         "id": "arno-drygliss-fs31-oficial",
@@ -452,6 +464,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente, **sem vapor** (o campo de vazão da própria ficha traz “N/A”), 1.200 W em 127 V e 1.100 W em 220 V, cabo de 180 cm, 0,6 kg, 27,0 × 14,0 × 12,2 cm e garantia de 12 meses.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-drygliss-fs31-amazon",
+        "titulo": "Arno Drygliss FS31 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DS6DGGNP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo, que diz \"FS31 Drygliss\", e pelo titulo, que declara base antiaderente como a ficha. A listagem nao informa voltagem nem potencia, e o campo de material da base dela traz um nao-valor (\"Plastico resistente ao calor ou Ceramica\"), por isso o casamento e pelo codigo do modelo. Preferida a outra candidata (B0DR2WC1LX), que tem Numero do modelo como \"Nao Aplicavel\" e declara base de ceramica contra o antiaderente do proprio titulo. Estoque baixo na consulta: 2 unidades. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -490,7 +510,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BX6X5WMW"
+    },
     "fontes": [
       {
         "id": "electrolux-esi80-oficial",
@@ -499,6 +521,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base Resilium SKI, **400 saídas de vapor**, vapor contínuo de **30 g/min em 127 V** (35 em 220 V) e jato extra de **210 g/min**, reservatório de 330 ml, 1.500 W, cabo de 1,95 m, vapor vertical, spray, antigotejamento, auto-limpeza, sistema anticalcário, desligamento automático, 1,18 kg, 29,5 × 14,5 × 12,7 cm e garantia de 1 ano. Código comercial 127 V: 4810ASBR401.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-esi80-amazon",
+        "titulo": "Electrolux Experience Care ESI80 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BX6X5WMW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelos campos estruturados da pagina: Numero do modelo ESI80, fabricante Electrolux, Potencia 1500 watts e garantia de 12 meses com o fabricante — os mesmos 1.500 W e 12 meses da ficha oficial. Listagem de 127 V. O titulo da listagem diz 1200W e a variante de 220 V diz 2200W, mas a tabela de especificacoes da propria pagina traz 1500 watts, que e o valor da ficha. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {

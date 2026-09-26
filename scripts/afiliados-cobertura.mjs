@@ -197,24 +197,56 @@ for (const c of buracos) {
 }
 if (buracos.length === 0) diga("     todas as categorias cobertas");
 
-// Os citados doem mais: o leitor já viu a recomendação.
+// Nem todo produto sem link é trabalho pendente. Dois casos saem da fila:
+// o que ainda não chegou às lojas, e o que já foi procurado há pouco.
+const HOJE = new Date();
+const DIAS = 24 * 60 * 60 * 1000;
+const VALIDADE_DA_BUSCA = 30; // catálogo de varejo muda; um mês é prazo curto
+
+const porVir = semLoja.filter(
+  (p) => p.nasLojasEm && new Date(`${p.nasLojasEm}T00:00:00Z`) > HOJE,
+);
+const jaProcurados = semLoja.filter(
+  (p) =>
+    !porVir.includes(p) &&
+    p.buscaDeLoja?.em &&
+    (HOJE - new Date(`${p.buscaDeLoja.em}T00:00:00Z`)) / DIAS < VALIDADE_DA_BUSCA,
+);
+const fila = semLoja.filter((p) => !porVir.includes(p) && !jaProcurados.includes(p));
+
+diga();
+if (porVir.length) {
+  diga(`   ${porVir.length} ainda não chegaram às lojas (não são lacuna):`);
+  for (const p of porVir) diga(`     ${p.categoria}/${p.slug} — a partir de ${p.nasLojasEm}`);
+}
+if (jaProcurados.length) {
+  diga(`   ${jaProcurados.length} procurados nos últimos ${VALIDADE_DA_BUSCA} dias, sem achar:`);
+  for (const p of jaProcurados) {
+    diga(`     ${p.categoria}/${p.slug} — ${p.buscaDeLoja.em}, em ${p.buscaDeLoja.onde.join(" e ")}`);
+  }
+}
+
+// Dentro da fila, os já citados doem mais: o leitor viu a recomendação.
 const citados = [];
-for (const p of semLoja) {
+for (const p of fila) {
   const onde = conteudo.filter((c) => c.texto.includes(p.nome)).map((c) => c.caminho);
   if (onde.length) citados.push({ produto: p, onde });
 }
 diga();
-diga(`   sem link mas citados em conteúdo publicado: ${citados.length}`);
-if (!RESUMO) {
+diga(`   FILA DE PESQUISA: ${fila.length} produtos`);
+if (citados.length === 0) {
+  diga("   nenhum deles citado em conteúdo publicado — ninguém lê recomendação sem saída");
+} else {
+  diga(`   ${citados.length} já citados em conteúdo publicado — comece por estes:`);
   for (const { produto, onde } of citados) {
     diga(`     ${produto.categoria}/${produto.slug} — ${onde.join(", ")}`);
   }
 }
-if (!RESUMO && semLoja.length) {
+if (!RESUMO && fila.length) {
   diga();
-  diga("   fila de pesquisa, por categoria:");
+  diga("   fila completa, por categoria:");
   let atual = null;
-  for (const p of semLoja) {
+  for (const p of fila) {
     if (p.categoria !== atual) {
       atual = p.categoria;
       diga(`     ${atual}`);
