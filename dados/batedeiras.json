@@ -1210,7 +1210,23 @@
       "alt": "Batedeira Arno Mini Chef portátil preta, com a tigela e os batedores ao lado",
       "credito": "Imagem: Arno",
       "origem": "https://www.arno.com.br/-bat-mini-chef-portatil-400w-pt-2720015871-pai-1-p/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeTigelaL",
+        "fonteAdotada": "arno-mini-chef-400-oficial",
+        "valorDivergente": "nenhuma tigela no conteúdo da embalagem",
+        "fonteDivergente": "arno-mini-chef-400-oficial",
+        "observacao": "A página publica “Volume: 4 L”, que é o campo de onde sai a tigela desta ficha — é o mesmo campo que dá os 3,5 L da Bake Easy e os 4,1 L da Nova Deluxe. Mas o campo “Conteúdo da Embalagem” da mesma página diz apenas “1 Batedeira, Manual de Instruções, Certificado de Garantia”, sem tigela e sem batedores.\n\nQuem está incompleto é o conteúdo da embalagem, e a própria Arno mostra isso: a foto oficial desta página traz a tigela, a batedeira e dois batedores lado a lado. O valor de 4 L fica, porque sai de campo de especificação; a foto não entra como fonte de número, só mostra que a lista de itens não é confiável para concluir ausência.\n\nVale para a linha toda: a lista da Mini Chef HM10 cita os dois batedores e omite a tigela; a da Bake Easy resolve tudo com “acessórios”; a da Nova Deluxe cita três batedores e nenhuma tigela. É por isso que `capacidadeTigelaExtraL` fica vazio nas quatro Arno em vez de ir para `naoSeAplica`: não se conclui ausência de uma lista que omite o que a foto mostra."
+      },
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "arno-mini-chef-400-oficial",
+        "valorDivergente": "40,5 × 50,1 × 33 cm, maior que a própria caixa",
+        "fonteDivergente": "arno-mini-chef-400-oficial",
+        "observacao": "A página declara largura 40,5 cm, altura 50,1 cm e profundidade 33 cm para um aparelho de 0,68 kg — e, logo abaixo, caixa de 21,7 × 21,7 × 20,8 cm. O produto não cabe na embalagem que a mesma ficha descreve. São quase certamente as medidas de um volume de transporte no lugar das do produto.\n\nPor isso o campo fica vazio nesta ficha em vez de receber os números publicados: número impossível não é dado, e preencher aqui faria a batedeira de mão aparecer como o maior aparelho da categoria em qualquer ordenação por tamanho."
+      }
+    ]
   },
   {
     "slug": "arno-bake-easy",

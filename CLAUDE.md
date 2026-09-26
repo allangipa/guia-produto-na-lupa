@@ -579,10 +579,22 @@ confunde com documento sem folha de estilo.
   rodar sempre depois de baixar foto nova.
 - Toda peça editorial (guia, comparativo, análise) precisa existir em pelo menos
   uma unidade: `output: export` recusa rota dinâmica vazia.
-- `relatos` e `divergencias` **estão implementados e vazios**. Os componentes
-  foram testados com dados temporários e renderizam certo, mas nenhum produto
-  real tem esses campos ainda: Mercado Livre exige login para mostrar avaliações
-  e a Anatel ainda não foi consultada. Preencher é pesquisa, não código.
+- **`divergencias` está em uso, e virou um dos melhores campos da base.** Em
+  26/09/2026 são **94 registros em 24 categorias** — cozinha 12, secadores 11,
+  batedeiras 9, liquidificadores 7. Aparecem na ficha sob o título "Onde as
+  fontes não batem", via `components/divergencias.tsx`.
+
+  A regra que se firmou no uso: **o valor publicado pelo fabricante fica na
+  ficha, e a contradição fica à vista ao lado dele.** Corrigir o fabricante a
+  partir da nossa leitura — de uma foto, de outro trecho da página, do bom senso
+  — seria substituir a fonte pela nossa interpretação. A exceção é número
+  impossível, que não é dado: aí o campo fica vazio e a divergência explica por
+  quê, para ninguém "preencher a lacuna" depois com o valor descartado. Os dois
+  casos estão no `arno-mini-chef-400`, um de cada.
+- `relatos` **está implementado e vazio**. O componente foi testado com dados
+  temporários e renderiza certo, mas nenhum produto real tem o campo: Mercado
+  Livre exige login para mostrar avaliações e a Anatel ainda não foi consultada.
+  Preencher é pesquisa, não código.
 - **Amazon Associates aprovado em 14/09/2026.** ID `guiaprodutona-20`, fixado
   como padrão em `lib/site.ts` (a variável de ambiente só sobrescreve).
 
