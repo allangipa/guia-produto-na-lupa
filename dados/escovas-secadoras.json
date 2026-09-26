@@ -51,7 +51,16 @@
       "alt": "Escova secadora Mondial ES-JU-01 dourada e rosa, apoiada na base",
       "credito": "Imagem: Mondial",
       "origem": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-golden-rose-1300w-es-ju-01/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "niveisVelocidade",
+        "fonteAdotada": "mondial-es-ju-01-oficial",
+        "valorDivergente": "\"seca, alisa e modela\", no campo \"Funções\" da ES-JU-02",
+        "fonteDivergente": "mondial-es-ju-01-oficial",
+        "observacao": "A ES-JU-01 e a ES-JU-02 são o mesmo aparelho em duas cores: mesma potência, mesmo peso, mesmos três níveis de temperatura, mesmas três velocidades, mesmo cabo giratório. O campo \"Funções\" das duas, porém, diz coisas diferentes: a ES-JU-01 traz **\"Seca, escova e modela\"** e a ES-JU-02 traz **\"seca, alisa e modela\"**. Escovar e alisar não são a mesma coisa — uma dá forma, a outra tira o cacho —, e são justamente a pergunta que leva alguém a comprar uma escova secadora. Nenhuma ficha da categoria tem campo que separe as duas funções, então não há o que adotar: fica registrado que a própria linha se descreve de dois jeitos."
+      }
+    ]
   },
   {
     "slug": "mondial-es-ju-02",
@@ -105,7 +114,16 @@
       "alt": "Escova secadora Mondial ES-JU-02 verde oliva com detalhes dourados",
       "credito": "Imagem: Mondial",
       "origem": "https://www.mondial.com.br/escova-secadora-by-juliette-mondial-verde-oliva-1300w-es-ju-02-1/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "niveisVelocidade",
+        "fonteAdotada": "mondial-es-ju-02-oficial",
+        "valorDivergente": "\"Seca, escova e modela\", no campo \"Funções\" da ES-JU-01",
+        "fonteDivergente": "mondial-es-ju-02-oficial",
+        "observacao": "A ES-JU-01 e a ES-JU-02 são o mesmo aparelho em duas cores: mesma potência, mesmo peso, mesmos três níveis de temperatura, mesmas três velocidades, mesmo cabo giratório. O campo \"Funções\" das duas, porém, diz coisas diferentes: a ES-JU-01 traz **\"Seca, escova e modela\"** e a ES-JU-02 traz **\"seca, alisa e modela\"**. Escovar e alisar não são a mesma coisa — uma dá forma, a outra tira o cacho —, e são justamente a pergunta que leva alguém a comprar uma escova secadora. Nenhuma ficha da categoria tem campo que separe as duas funções, então não há o que adotar: fica registrado que a própria linha se descreve de dois jeitos."
+      }
+    ]
   },
   {
     "slug": "mondial-es-ju-03",
