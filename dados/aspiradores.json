@@ -1033,7 +1033,9 @@
     "naoSeAplica": [
       "autonomiaMin"
     ],
-    "lojas": {},
+    "lojas": {
+      "mercadolivre": "https://meli.la/15LcAxu"
+    },
     "fontes": [
       {
         "id": "electrolux-eqp40-oficial",
@@ -1042,6 +1044,13 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Aspirador com saco de 1.800 W, saco de 3 L, filtro HEPA na entrada e na saída de ar, mangueira de 3,5 m, cabo de 3,5 m com enrolador automático, indicador de reservatório cheio, velocidade ajustável por discador, 5,36 kg, 28,7 × 22,8 × 41,6 cm e garantia de 1 ano. A ficha **não publica sucção**.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "titulo": "Electrolux Compacto Experience EQP40 — pagina do produto no Mercado Livre",
+        "url": "https://www.mercadolivre.com.br/aspirador-de-po-com-saco-descartavel-1800w-electrolux-eqp40-com-filtro-hepa-azul-127v/p/MLB45695281",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por quatro campos da propria pagina: \"Modelo EQP40\", \"Capacidade em volume 3 L\" — os 3 L da nossa ficha —, 1.800 W e filtro HEPA, na versao de 127 V. O botao usa o link curto de afiliado que redireciona para esta pagina. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
