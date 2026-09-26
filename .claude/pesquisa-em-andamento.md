@@ -1123,3 +1123,121 @@ Dois falsos positivos da varredura, que conferi e mantive:
 comparacao com baseline externo ("passa de", "a maioria", "na pia", "em
 media"). Numero que compara com algo fora da ficha precisa de fonte, ou sai.
 O script da varredura esta no scratchpad da sessao.
+
+## `ventiladores` — aberta com 10, paginas publicadas em 25/09/2026
+
+Dez ventiladores e cinco marcas: **Mondial 4, Mallory 2, Britania 2, WAP 1,
+Arno 1**. A apuracao estava so no JSON — esta secao foi escrita ao publicar.
+(A nota antiga de que "Ventisol segue sem responder" continua valendo: a marca
+nao entrou.)
+
+### O angulo: a grade tem 50 cm, a helice tem 40
+
+O esquema tem **dois campos de diametro**, e e a chave da categoria:
+`diametroDeclaradoCm` (a grade, a tela que protege a mao) e
+`diametroHeliceCm` (a pa que gira).
+
+**Tres fichas em dez publicam os dois**, e nas tres a diferenca e identica:
+
+```
+Mallory Max Control       grade 50    helice 40
+Mallory EOLO              grade 50    helice 40
+WAP Flow Turbo Coluna 50  grade 50    helice 40
+```
+
+O produto da WAP se chama "Ventilador 50 cm" na loja da propria WAP.
+
+**Conta derivada publicada no guia**: o diametro cai 20%, mas a area varrida
+cai **36%** (pi*25^2 = 1.963 cm2; pi*20^2 = 1.257 cm2). Apresentada como
+"conta nossa", e com a ressalva de que area varrida nao e vazao.
+
+### Os quatro grupos do diametro
+
+| situacao | quantos | quem |
+|---|---|---|
+| grade **e** helice | 3 | Mallory x2, WAP |
+| **um** diametro, sem dizer qual | 3 | Arno (40), Britania (40 e 30) |
+| centimetros **so no nome** do produto | 3 | Mondial NVT-40C-8P, VTX-40C-8P, VT-30C-NB |
+| torre, sem helice a mostra | 1 | Mondial Air Tower (naoSeAplica) |
+
+A fonte da Britania e a do Arno registram literalmente "nao publica se o
+diametro e da grade ou da helice". A da Mondial registra "os 40 cm do nome do
+produto nao aparecem em campo nenhum".
+
+**O par que mostra a armadilha**: WAP anunciado 50 (helice 40 declarada) x
+Arno anunciado 40 (nao diz qual). Se os 40 do Arno forem da helice, os dois
+tem a mesma pa. Se forem da grade, a helice dele fica perto de 30. A ficha nao
+permite escolher, e o comparativo diz isso em vez de estimar.
+
+### Vazao: 2 de 10, e o teste das pas
+
+So as duas Mallory publicam m3/s. E elas permitem o teste que a categoria
+inteira deveria permitir:
+
+| | EOLO | Max Control |
+|---|---|---|
+| pas | 6 | **15** |
+| helice | 40 cm | 40 cm |
+| potencia | 126 W | 140 W |
+| vazao | 1,00 m3/s | **1,11 m3/s** |
+
+**150% mais pas, 11,0% mais ar — e 11,1% mais watts.** Dividindo vazao por
+potencia os dois dao **0,0079 m3/s por W**, diferenca menor que 1%.
+
+Cuidado ao escrever, e o guia toma esse cuidado: os dados **nao** provam que
+as pas nao facam diferenca. Provam que a contagem de pas, sozinha, nao preve
+o vento. Mesmo padrao dos 96 furos do ferro de passar.
+
+### A TERCEIRA ficha do dia com o campo preenchido errado
+
+Padrao que agora esta confirmado em tres categorias abertas no mesmo dia:
+
+| categoria | produto | campo | valor publicado |
+|---|---|---|---|
+| Torradeiras | Philco PTR03A | Espessura do pao | `"Exemplo: 30mm"` |
+| Lava-loucas | Electrolux LL08S | Consumo de agua (L/ciclo) | `"Sim"` |
+| **Ventiladores** | **Mondial VT-30C-NB** | **Quantidade de pas** | `"*"` |
+
+Texto de exemplo do formulario, resposta de sim-ou-nao, e um simbolo. Tres
+marcas, tres sistemas de cadastro. **Vale procurar esse padrao em toda
+categoria nova**, e vale como secao de guia sempre que aparecer.
+
+No caso do Mondial, o nome do produto diz "6 pas Turbo" — adotar esse 6 seria
+promover marketing a dado. Campo vazio.
+
+### Outras anomalias registradas
+
+- **Arno X-TREME 7**: a ficha publica **43 cm de altura** para um ventilador
+  de coluna; o X-TREME 9 da mesma marca, mesma helice, publica 153 cm. Parece
+  medida da caixa. Campo de dimensoes vazio.
+- **Mondial VT-30C-NB**: medidas publicadas **sem unidade**, ao contrario dos
+  outros modelos da marca.
+- **Arno** declara "alcance de ar de ate 11 m" de **teste proprio**, sem
+  metodo publicado — nao entrou na ficha. Decisao correta, manter.
+
+### Numeros que so uma ficha traz
+
+- **Rotacao**: so o Arno, 1.470 rpm.
+- **Angulo de oscilacao em graus**: so a WAP, 90 de oscilacao e 45 de
+  inclinacao. Cinco outras declaram so sim-ou-nao.
+- **Garantia de 24 meses**: so o Arno. Os outros nove, 12.
+
+### O que ninguem publica
+
+**Ruido em decibeis: 0 de 10.** A palavra nao aparece no arquivo. E a
+reclamacao numero um da categoria — aparelho que fica ligado a noite inteira.
+
+**Em que velocidade mediram: 0 de 10.** As duas vazoes, os tres consumos em
+kWh e a rotacao do Arno vem sem dizer se e velocidade 1, 3 ou turbo.
+
+### Paginas publicadas
+
+`guias/ventiladores.mdx`, `comparativos/mallory-max-control-vs-eolo.mdx` e
+`comparativos/wap-flow-turbo-50-vs-arno-x-treme-7.mdx`. Os 56 numeros citados
+foram conferidos por script contra `dados/ventiladores.json`, e a varredura de
+resumos (rotina nova) voltou limpa.
+
+**Deslize corrigido antes de publicar**: escrevi "45 W, o menor consumo da
+lista" para o Air Tower. Watt e potencia, nao consumo — e o consumo em kWh so
+existe em 3 das 10 fichas, nenhuma delas a do Air Tower. Era exatamente o erro
+que o guia critica na secao de vazao. Trocado por "a menor potencia da lista".
