@@ -1499,5 +1499,461 @@
       "credito": "Imagem: KitchenAid",
       "origem": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-contour-silver-kea33ds/p"
     }
+  },
+  {
+    "slug": "mondial-b-44-b",
+    "nome": "Mondial Prática B-44-B",
+    "marca": "Mondial",
+    "modelo": "B-44-B",
+    "categoria": "batedeiras",
+    "resumo": "400 W, três velocidades mais turbo e uma tigela de 3,6 L. A Mondial publica peso e as três dimensões, que a maioria da categoria não publica.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 400,
+      "velocidades": 3,
+      "batedores": "Aço cromado",
+      "capacidadeTigelaL": 3.6,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": 1.8,
+      "dimensoesMm": "330 × 210 × 270 mm (A × L × P)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08BXBFCTN"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "mondial-b-44-b-oficial",
+        "valorDivergente": "33 × 27 × 21 cm, na página do B-44-R",
+        "fonteDivergente": "mondial-b-44-b-oficial",
+        "observacao": "O B-44-R é o mesmo aparelho em vermelho, com a mesma potência, a mesma tigela e o mesmo peso. As duas páginas declaram \"A × L × P\" e trocam largura e profundidade entre si. Fica o número desta página."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-b-44-b-oficial",
+        "titulo": "Mondial B-44-B — ficha oficial da loja Mondial",
+        "url": "https://www.mondial.com.br/batedeira-pratica-mondial-preto-400w-b-44-b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batedeira comum, 400 W, 3 velocidades mais turbo, uma tigela de 3,6 L, batedores em aço cromado, 1,800 kg, 33 cm × 21 cm × 27 cm (A × L × P), 127V/220V, cabo de 1,50 m e 1 ano de garantia. Não declara capacidade em farinha nem em massa de pão.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-b-44-b-amazon",
+        "titulo": "Mondial Prática B-44-B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08BXBFCTN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Batedeira Prática, Preto, 400W, 110V - B-44-B\", iguais aos da ficha oficial. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-b-44-b.webp",
+      "alt": "Batedeira Mondial B-44-B preta, com a tigela encaixada e os batedores levantados",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/batedeira-pratica-mondial-preto-400w-b-44-b/p"
+    }
+  },
+  {
+    "slug": "mondial-b-44-r",
+    "nome": "Mondial Power Prática B-44-R",
+    "marca": "Mondial",
+    "modelo": "B-44-R",
+    "categoria": "batedeiras",
+    "resumo": "O B-44-B em vermelho: mesmos 400 W, mesma tigela de 3,6 L e mesmo peso. As duas páginas discordam só na ordem das dimensões.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 400,
+      "velocidades": 3,
+      "batedores": "Aço cromado",
+      "capacidadeTigelaL": 3.6,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": 1.8,
+      "dimensoesMm": "330 × 270 × 210 mm (A × L × P)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08BXC9219"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "mondial-b-44-r-oficial",
+        "valorDivergente": "33 × 21 × 27 cm, na página do B-44-B",
+        "fonteDivergente": "mondial-b-44-r-oficial",
+        "observacao": "O B-44-B é o mesmo aparelho em preto, com a mesma potência, a mesma tigela e o mesmo peso. As duas páginas declaram \"A × L × P\" e trocam largura e profundidade entre si. Fica o número desta página."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-b-44-r-oficial",
+        "titulo": "Mondial B-44-R — ficha oficial da loja Mondial",
+        "url": "https://www.mondial.com.br/batedeira-power-pratica-mondial-vermelho-400w-b-44-r-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batedeira comum, 400 W, 3 velocidades mais turbo, uma tigela de 3,6 L, batedores em aço cromado, 1,800 kg, 33 cm × 27 cm × 21 cm (A × L × P), 127V/220V, cabo de 1,50 m e 1 ano de garantia. Não declara capacidade em farinha nem em massa de pão.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-b-44-r-amazon",
+        "titulo": "Mondial Power Prática B-44-R — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08BXC9219",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Batedeira Power Prática, Vermelho, 400W, 110V - B-44-R\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-b-44-r.webp",
+      "alt": "Batedeira Mondial B-44-R vermelha, com a tigela encaixada e os batedores levantados",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/batedeira-power-pratica-mondial-vermelho-400w-b-44-r-1/p"
+    }
+  },
+  {
+    "slug": "mondial-b-23-np",
+    "nome": "Mondial Bella Massa B-23 NP",
+    "marca": "Mondial",
+    "modelo": "B-23 NP",
+    "categoria": "batedeiras",
+    "resumo": "Duas tigelas, de 4 L e 2,3 L, e quatro velocidades mais turbo. A potência fica em branco: a mesma página da Mondial declara 400 W na tabela e 500 W na arte.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": null,
+      "velocidades": 4,
+      "batedores": "Aço cromado",
+      "capacidadeTigelaL": 4,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": 2.3,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": 2,
+      "dimensoesMm": "346 × 220 × 324 mm (A × L × P)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07FXVWNJ6"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "mondial-b-23-np-oficial",
+        "valorDivergente": "500 W, na arte da galeria e no endereço da página",
+        "fonteDivergente": "mondial-b-23-np-oficial",
+        "observacao": "A tabela de especificação desta página declara 400 W. A arte da própria Mondial, na galeria da mesma página, imprime \"POTÊNCIA 500W\", o endereço da página traz \"500w\" e a listagem da Amazon também diz 500 W. Não é varejo contradizendo fabricante: é a mesma página dizendo as duas coisas. Sem saber qual das duas a Mondial sustenta, o campo fica vazio — preencher com uma delas seria escolher pelo fabricante."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-b-23-np-oficial",
+        "titulo": "Mondial B-23 NP — ficha oficial da loja Mondial",
+        "url": "https://www.mondial.com.br/batedeira-bella-massa-mondial-preto-inox-500w-b-23-np/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batedeira comum, 4 velocidades mais turbo, duas tigelas de 4 L e 2,3 L, batedores em aço cromado, 2 kg, 34,6 cm × 22 cm × 32,4 cm (A × L × P), 127V/220V, cabo de 1,50 m e 1 ano de garantia. A tabela declara 400 W e a arte da galeria imprime 500 W; por isso o campo de potência ficou vazio.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-b-23-np-amazon",
+        "titulo": "Mondial Bella Massa B-23 NP — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07FXVWNJ6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Bella Massa, Preto/Inox, 500W, 110V - B-23 NP\". O 500 W da listagem entrou só como reforço da divergência; nenhum dado técnico da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-b-23-np.webp",
+      "alt": "Batedeira Mondial Bella Massa B-23 NP preta com detalhes em inox, com as duas tigelas",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/batedeira-bella-massa-mondial-preto-inox-500w-b-23-np/p"
+    }
+  },
+  {
+    "slug": "mondial-b-04-np",
+    "nome": "Mondial Premium B-04 NP",
+    "marca": "Mondial",
+    "modelo": "B-04 NP",
+    "categoria": "batedeiras",
+    "resumo": "Ficha idêntica à do Bella Massa B-23 NP, campo a campo, com outro nome. Carrega a mesma contradição de potência — 400 W na tabela, 500 W na arte.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": null,
+      "velocidades": 4,
+      "batedores": "Aço cromado",
+      "capacidadeTigelaL": 4,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": 2.3,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": 2,
+      "dimensoesMm": "346 × 220 × 324 mm (A × L × P)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07GH96GWH"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "mondial-b-04-np-oficial",
+        "valorDivergente": "500 W, na arte da galeria e no endereço da página",
+        "fonteDivergente": "mondial-b-04-np-oficial",
+        "observacao": "A tabela de especificação desta página declara 400 W. A arte da própria Mondial, na galeria da mesma página, imprime \"POTÊNCIA 500W\", o endereço da página traz \"500w\" e a listagem da Amazon também diz 500 W. Não é varejo contradizendo fabricante: é a mesma página dizendo as duas coisas. Sem saber qual das duas a Mondial sustenta, o campo fica vazio — preencher com uma delas seria escolher pelo fabricante."
+      },
+      {
+        "campo": "tipo",
+        "fonteAdotada": "mondial-b-04-np-oficial",
+        "valorDivergente": "Preto/Inox, na listagem da Amazon",
+        "fonteDivergente": "mondial-b-04-np-amazon",
+        "observacao": "A Mondial declara a cor como \"Preto/Prata\" e a Amazon anuncia \"Preto/Inox\". É o mesmo aparelho, e a diferença está no nome do acabamento, não no produto. Fica registrado porque inox e prata têm preço e manutenção diferentes numa tigela."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-b-04-np-oficial",
+        "titulo": "Mondial B-04 NP — ficha oficial da loja Mondial",
+        "url": "https://www.mondial.com.br/batedeira-premium-mondial-preto-inox-500w-b-04-np/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batedeira comum, 4 velocidades mais turbo, duas tigelas de 4 L e 2,3 L, batedores em aço cromado, 2 kg, 34,6 cm × 22 cm × 32,4 cm (A × L × P), cor \"Preto/Prata\", 127V/220V, cabo de 1,50 m e 1 ano de garantia. A tabela declara 400 W e a arte da galeria imprime 500 W.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-b-04-np-amazon",
+        "titulo": "Mondial Premium B-04 NP — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07GH96GWH",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Batedeira Premium, Mondial, Preto/Inox, 500W, 220V - B-04 NP\". Usada para as duas divergências registradas; nenhum dado técnico da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-b-04-np.webp",
+      "alt": "Batedeira Mondial Premium B-04 NP preta, com as duas tigelas ao lado",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/batedeira-premium-mondial-preto-inox-500w-b-04-np/p"
+    }
+  },
+  {
+    "slug": "mondial-b-55-r",
+    "nome": "Mondial Bella Massa B-55-R",
+    "marca": "Mondial",
+    "modelo": "B-55-R",
+    "categoria": "batedeiras",
+    "resumo": "500 W declarados sem contradição — o único Bella Massa em que tabela e arte batem. Duas tigelas, de 4 L e 2 L.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Comum",
+      "potenciaW": 500,
+      "velocidades": 4,
+      "batedores": "Aço cromado",
+      "capacidadeTigelaL": 4,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": 2,
+      "funcaoTurbo": true,
+      "funcaoPortatil": false,
+      "pesoKg": 2,
+      "dimensoesMm": "350 × 320 × 220 mm (A × L × P)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B099GHVG3P"
+    },
+    "fontes": [
+      {
+        "id": "mondial-b-55-r-oficial",
+        "titulo": "Mondial B-55-R — ficha oficial da loja Mondial",
+        "url": "https://www.mondial.com.br/batedeira-mondial-b-55-r/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batedeira comum, 500 W, 4 velocidades mais turbo, duas tigelas de 4 L e 2 L, batedores em aço cromado, 2,000 kg, 35 cm × 32 cm × 22 cm (A × L × P), 127V/220V, cabo de 1,50 m e 1 ano de garantia. Não declara capacidade em farinha nem em massa de pão.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-b-55-r-amazon",
+        "titulo": "Mondial Bella Massa B-55-R — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B099GHVG3P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Bella Massa, Vermelha/Inox, 500W, 110V - B-55-R\", iguais aos da ficha oficial, potência incluída. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-b-55-r.webp",
+      "alt": "Batedeira Mondial Bella Massa B-55-R vermelha com detalhes em inox, com as duas tigelas",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/batedeira-mondial-b-55-r/p"
+    }
+  },
+  {
+    "slug": "mondial-bsp-01",
+    "nome": "Mondial São Paulo BSP-01",
+    "marca": "Mondial",
+    "modelo": "BSP-01",
+    "categoria": "batedeiras",
+    "resumo": "Edição licenciada do São Paulo, 400 W e três velocidades sem turbo. É a única ficha da categoria em que o campo de tipo está preenchido com um ponto.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 400,
+      "velocidades": 3,
+      "batedores": "Comuns",
+      "capacidadeTigelaL": 3.6,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": false,
+      "funcaoPortatil": false,
+      "pesoKg": 1.8,
+      "dimensoesMm": "346 × 220 × 324 mm (ordem não declarada)",
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "capacidadeTigelaExtraL"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BYTKKT6L"
+    },
+    "divergencias": [
+      {
+        "campo": "tipo",
+        "fonteAdotada": "mondial-bsp-01-oficial",
+        "valorDivergente": "um ponto final, no campo \"Tipo de batedeira\"",
+        "fonteDivergente": "mondial-bsp-01-oficial",
+        "observacao": "O campo existe na ficha e está preenchido com o caractere \".\". As outras batedeiras comuns da Mondial trazem \"Batedeira Comum\" ali. O peso vem como \"1,80\", sem unidade, e as dimensões sem dizer qual número é altura. Campo preenchido com pontuação não é dado informado: é dado em falta com o espaço ocupado."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-bsp-01-oficial",
+        "titulo": "Mondial BSP-01 — ficha oficial da loja Mondial",
+        "url": "https://www.mondial.com.br/batedeira-eletrica-mondial-sao-paulo-400w-bsp-01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "400 W, 3 velocidades (sem menção a turbo), uma tigela de 3,6 L, batedores \"Comuns\", peso \"1,80\" sem unidade, \"34,60x22,00x32,40\" sem dizer a ordem dos eixos, 127V/220V, cabo de 1,05 m e 1 ano de garantia. O campo \"Tipo de batedeira\" traz um ponto final.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-bsp-01-amazon",
+        "titulo": "Mondial São Paulo BSP-01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BYTKKT6L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Batedeira SPFC, São Paulo, Vermelho/Branco, 400W, 220V - BSP-01\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-bsp-01.webp",
+      "alt": "Batedeira Mondial BSP-01 vermelha e branca, com o escudo do São Paulo e a tigela de inox",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/batedeira-eletrica-mondial-sao-paulo-400w-bsp-01/p"
+    },
+    "galeria": [
+      {
+        "src": "/produtos/mondial-bsp-01-2.webp",
+        "alt": "Batedeira Mondial BSP-01 vista de outro ângulo, com os batedores levantados",
+        "credito": "Imagem: Mondial",
+        "origem": "https://www.mondial.com.br/batedeira-eletrica-mondial-sao-paulo-400w-bsp-01/p"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-bp-01p-w",
+    "nome": "Mondial Planetária BP-01P-W",
+    "marca": "Mondial",
+    "modelo": "BP-01P-W",
+    "categoria": "batedeiras",
+    "resumo": "A planetária de 700 W e 12 velocidades da Mondial, com três batedores. As dimensões ficam em branco: a largura declarada é menor que a tigela que o aparelho carrega.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Planetária",
+      "potenciaW": 700,
+      "velocidades": 12,
+      "batedores": "3 (massas leves, médias e pesadas)",
+      "capacidadeTigelaL": 4.5,
+      "capacidadeFarinhaKg": null,
+      "capacidadeMassaPaoKg": null,
+      "elevacaoTigela": null,
+      "capacidadeTigelaExtraL": null,
+      "funcaoTurbo": false,
+      "funcaoPortatil": false,
+      "pesoKg": 3.9,
+      "dimensoesMm": null,
+      "tensao": "127V/220V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07WHM3V2Q"
+    },
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "mondial-bp-01p-w-oficial",
+        "valorDivergente": "33,5 × 17 × 38 cm (A × L × P)",
+        "fonteDivergente": "mondial-bp-01p-w-oficial",
+        "observacao": "A largura declarada é de 17 cm, para um aparelho que carrega uma tigela de 4,5 L — uma tigela desse volume tem mais de 20 cm de boca. As outras duas planetárias da Mondial, que repetem 33,5 e 38 nos outros dois eixos, declaram 22 cm de largura. Número impossível não é dado: o campo fica vazio, e fica escrito aqui para ninguém preencher com o valor descartado."
+      },
+      {
+        "campo": "capacidadeTigelaExtraL",
+        "fonteAdotada": "mondial-bp-01p-w-oficial",
+        "valorDivergente": "duas tigelas declaradas, uma capacidade publicada",
+        "fonteDivergente": "mondial-bp-01p-w-oficial",
+        "observacao": "A ficha declara \"Quantidade de tigelas: 2\" e \"Capacidade em litros: 4,5L\", um número só. A irmã BP-02P-W-TI escreve \"02 tigelas de 4,5L\" nos itens inclusos; esta não escreve. Sem saber se a segunda tigela tem 4,5 L ou outro volume, o campo fica vazio."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-bp-01p-w-oficial",
+        "titulo": "Mondial BP-01P-W — ficha oficial da loja Mondial",
+        "url": "https://www.mondial.com.br/batedeira-planetaria-mondial-branco-inox-700w-bp-01p-w-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Planetária de 700 W, 12 velocidades, tigela de 4,5 L, duas tigelas, três batedores (massas leves, médias e pesadas), corpo em PP e inox, 3,9 kg, 127V/220V, cabo de 1,50 m e 12 meses de garantia. As dimensões declaradas são 33,5 cm × 17 cm × 38 cm (A × L × P) e não foram adotadas. Não declara capacidade em farinha, capacidade em massa de pão nem elevação de tigela.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-bp-01p-w-amazon",
+        "titulo": "Mondial Planetária BP-01P-W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07WHM3V2Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Batedeira Planetária, Mondial, Branco/Inox, 700W, 110V - BP-01P-W\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-bp-01p-w.webp",
+      "alt": "Batedeira planetária Mondial BP-01P-W branca, com tigela de inox e braço levantado",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/batedeira-planetaria-mondial-branco-inox-700w-bp-01p-w-1/p"
+    }
   }
 ]
