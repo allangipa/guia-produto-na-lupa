@@ -1546,3 +1546,47 @@ Nota operacional: o painel recusa acesso de ferramenta a `mercadolivre.com.br`
 gerar link de afiliado seria acao na conta dele de qualquer forma.
 
 Se os dois entrarem, aspiradores fecha em **18 de 24**.
+
+
+## CORRECAO: os links curtos do ML iam todos para o perfil — 25/09/2026
+
+Publiquei o `meli.la/15LcAxu` como link do Electrolux EQP40 e **estava errado**.
+Ele nao aponta para o produto: para em `mercadolivre.com.br/social/allangipa2008`,
+o perfil de afiliado do Allan.
+
+**Como me enganei.** Na primeira resolucao a aba acabou no EQP40 e eu li isso
+como destino. Nao era: o perfil mostra itens em destaque, e a pagina navegou
+para o card. Os parametros na URL final diziam isso com todas as letras —
+`source=affiliate-profile`, `reco_client=home_affiliate-profile`,
+`c_id=/home/card-featured/element`. **Eu li esses parametros e os citei**, mas
+ao analisar o link seguinte, e nao voltei para reexaminar o primeiro.
+
+Testado depois em aba limpa, sem navegacao anterior, com 9 segundos de espera:
+os tres codigos curtos gerados ate agora — `15LcAxu`, `1C1kwQ4` e `1mcAWDY` —
+**param todos no perfil**. Nenhum e link de produto.
+
+**Regra que fica**: resolver link curto sempre em **aba nova**, esperar, e so
+aceitar se a URL final casar com `/p/MLB` E a pagina trouxer um campo que
+confirme o modelo. Aba reaproveitada sofre com redirecionamento atrasado — vi a
+aba anterior ser sequestrada no meio de outra navegacao.
+
+**O que falta descobrir**: qual controle do Mercado Livre gera link de produto.
+A pagina do produto tem dois botoes "Compartilhar", os dois na extrema direita:
+um na barra escura de Afiliados (y=12) e o do proprio produto (y=233). O
+segundo gera link generico com `matt_tool=38524122`, que nao paga comissao. O
+primeiro e o de afiliado, e aparentemente compartilha o perfil — talvez abra um
+painel com opcao de produto. Alternativa a testar: a ferramenta em
+`mercadolivre.com.br/afiliados/tools`, que monta link a partir de URL colada.
+
+### E um erro meu de dado, que derrubou o build
+
+Ao remover o link eu apaguei a chave `lojas` do EQP40 com `pop`. **A convencao
+do site e `"lojas": {}`** — 462 dos 463 produtos tem a chave, vazia quando nao
+ha link. Sem ela, `lib/conteudo.ts:368` faz `p.lojas.amazon` e estoura.
+
+O build falhou em `/guias/liquidificadores` e `/guias/qual-iphone-2026`, paginas
+que nao tem nada a ver com aspiradores, com "Cannot read properties of undefined
+(reading 'amazon')" e **sem dizer qual produto**. Vale saber disso na proxima:
+esse erro significa produto sem a chave `lojas`, em qualquer categoria.
+
+Deixei o codigo como esta: ele e fragil, mas pegou um problema real de dado.
