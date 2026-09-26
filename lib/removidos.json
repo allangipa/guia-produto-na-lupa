@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "arno-nova-deluxe",
+    "nome": "Arno Planetária Nova Deluxe",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "britania-bellagio-maxx",
+    "nome": "Britânia Bellagio Maxx Neve",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "britania-bsc2410",
+    "nome": "Britânia Power Max BSC2410",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "britania-bsc4050",
+    "nome": "Britânia Tourmaline Íon BSC4050",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "britania-diamante-550",
+    "nome": "Britânia Diamante Preta 550W",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "britania-easy-travel",
+    "nome": "Britânia Easy Travel",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "britania-perola-maxx-2",
+    "nome": "Britânia Pérola Maxx 2",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "electrolux-eqp40",
+    "nome": "Electrolux Compacto Experience EQP40",
+    "categoria": "aspiradores"
+  },
+  {
+    "slug": "electrolux-uws31",
+    "nome": "Electrolux UltraWash UWS31",
+    "categoria": "lavadoras-alta-pressao"
+  },
+  {
+    "slug": "kitchenaid-artisan-beetroot",
+    "nome": "KitchenAid Artisan Beetroot",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "kitchenaid-artisan-plus-juniper",
+    "nome": "KitchenAid Artisan Plus Juniper",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "midea-powerdust",
+    "nome": "Midea PowerDust",
+    "categoria": "aspiradores"
+  },
+  {
+    "slug": "mondial-scn-16",
+    "nome": "Mondial Black Tiff SCN-16",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "oster-gcstdpa8002",
+    "nome": "Oster Diamond Aeroceramic GCSTDPA8002",
+    "categoria": "ferros"
+  },
+  {
+    "slug": "philco-paris-350",
+    "nome": "Philco Paris Vermelha 350W",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "philco-paris-inox-400",
+    "nome": "Philco Paris Inox 400W",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "philco-pas1810",
+    "nome": "Philco PAS1810",
+    "categoria": "aspiradores"
+  },
+  {
+    "slug": "philco-pbp70a",
+    "nome": "Philco Planetária PBP70A",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "philco-pbp770",
+    "nome": "Philco Planetária PBP770 Turbo Inox",
+    "categoria": "batedeiras"
+  },
+  {
+    "slug": "philco-pfv320az",
+    "nome": "Philco Super Vapor Concentrado PFV320AZ",
+    "categoria": "ferros"
+  },
+  {
+    "slug": "philco-psc10",
+    "nome": "Philco Star Bright PSC10",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "philco-psc2400",
+    "nome": "Philco Expert Pro PSC2400",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "philco-psde17a",
+    "nome": "Philco Fast Dry PSDE17A",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-black-ion-2000",
+    "nome": "Taiff Black Íon 2000W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-emotion-2500",
+    "nome": "Taiff e.motion Digital 2500W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-fox-2000",
+    "nome": "Taiff Fox 2000W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-fox-3-2200-red",
+    "nome": "Taiff Fox 3 2200W Red",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-style-pro-2000",
+    "nome": "Taiff Style Pro 2000W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-titanium-2100",
+    "nome": "Taiff Titanium 2100W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-titanium-progress-2400",
+    "nome": "Taiff Titanium Progress 2400W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-tourmaline-ion-2100",
+    "nome": "Taiff Tourmaline Íon 2100W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-turbe-digital-2400",
+    "nome": "Taiff Turbe Digital 2400W",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "taiff-unique-duo",
+    "nome": "Taiff Unique Duo Bivolt",
+    "categoria": "secadores"
+  },
+  {
+    "slug": "wap-ambiance-turbo",
+    "nome": "WAP Ambiance Turbo",
+    "categoria": "aspiradores"
+  },
+  {
+    "slug": "wap-magic-clean",
+    "nome": "WAP Magic Clean",
+    "categoria": "aspiradores"
+  },
+  {
+    "slug": "wap-maxi-plus-1800",
+    "nome": "WAP Maxi Plus 1800",
+    "categoria": "lavadoras-alta-pressao"
+  },
+  {
+    "slug": "wap-robot-w100c",
+    "nome": "WAP Robot W100C",
+    "categoria": "aspiradores"
+  },
+  {
+    "slug": "wap-silent-power-2800",
+    "nome": "WAP Silent Power 2800",
+    "categoria": "lavadoras-alta-pressao"
+  },
+  {
+    "slug": "wap-turbo-1600",
+    "nome": "WAP Turbo 1600",
+    "categoria": "aspiradores"
+  },
+  {
+    "slug": "wap-turbo-2002",
+    "nome": "WAP Turbo 2002",
+    "categoria": "aspiradores"
+  }
+]

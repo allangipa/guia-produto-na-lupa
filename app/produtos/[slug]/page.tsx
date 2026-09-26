@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { removidos, removido, destinoDe } from "@/lib/removidos";
 import {
   produto as buscarProduto,
   todosOsProdutos,
@@ -38,13 +39,28 @@ import { JsonLd, schemaBreadcrumb, schemaProduto } from "@/lib/schema";
 type Params = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return todosOsProdutos().map((p) => ({ slug: p.slug }));
+  // Os removidos entram junto: a rota precisa existir para servir o
+  // redirecionamento no endereço antigo. Ver lib/removidos.ts.
+  return [
+    ...todosOsProdutos().map((p) => ({ slug: p.slug })),
+    ...removidos.map((r) => ({ slug: r.slug })),
+  ];
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const p = buscarProduto(slug);
-  if (!p) return {};
+  if (!p) {
+    const r = removido(slug);
+    if (!r) return {};
+    const destino = destinoDe(r);
+    return {
+      title: `${r.nome} saiu do Guia Produto na Lupa`,
+      description: `Esta ficha saiu do ar. Veja ${destino.nome}.`,
+      alternates: { canonical: destino.url },
+      robots: { index: false, follow: true },
+    };
+  }
   return {
     // "Nome: ficha tecnica oficial" e o titulo que se quer no resultado. Em seis
     // produtos de nome comprido ele estoura o limite, e ai o sufixo descritivo
@@ -74,7 +90,36 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function PaginaProduto({ params }: Params) {
   const { slug } = await params;
   const p = buscarProduto(slug);
-  if (!p) notFound();
+  if (!p) {
+    const r = removido(slug);
+    if (!r) notFound();
+    const destino = destinoDe(r);
+    return (
+      <div className="mx-auto max-w-[var(--largura-prosa)] px-5 py-16">
+        {/* Redirecionamento em site estático: sem servidor para responder 301,
+            o que sobra é o meta refresh de zero segundo com o canonical
+            apontando para o destino. O Google trata como redirecionamento. */}
+        <meta httpEquiv="refresh" content={`0; url=${destino.url}`} />
+        <h1 className="font-titulo text-2xl leading-snug">
+          A ficha do {r.nome} saiu do ar
+        </h1>
+        <p className="mt-4 max-w-[62ch] text-tinta-suave">
+          Este produto deixou de ser vendido nas lojas que o site acompanha, e a
+          ficha dele saiu da base em 26 de setembro de 2026. Em vez de manter uma
+          página que manda o leitor para lugar nenhum, o endereço passou a levar
+          para onde a pergunta continua respondida.
+        </p>
+        <p className="mt-6">
+          <Link
+            href={destino.url}
+            className="botao botao-primario"
+          >
+            Ir para {destino.nome}
+          </Link>
+        </p>
+      </div>
+    );
+  }
 
   const campos = camposDa(p.categoria);
   const cat = buscarCategoria(p.categoria);
