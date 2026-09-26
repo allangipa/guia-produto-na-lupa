@@ -230,6 +230,30 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
   `aggregateRating`** até existir avaliação real de leitores no site.
 - Divulgação de afiliado acima da dobra em toda página de conteúdo.
 
+### Auditoria semanal dos links — `npm run afiliados`
+
+Decisão do Allan em 25/09/2026: rodar **uma vez por semana**, "para não ficarmos
+com produtos no nosso site que não existem na Amazon ou outro afiliado".
+
+`scripts/afiliados-cobertura.mjs` checa quatro coisas, e sai com código 1 nas três
+que são erro de fato:
+
+1. **Link publicado que não existe na base.** Um ASIN dentro de um `lojas:` de MDX
+   que não corresponde a produto nenhum de `dados/`. Foi o que aconteceu em
+   25/09/2026 com o WAP GTW Inox 50: ASIN escrito de memória, pego antes do
+   commit. **Link de afiliado se copia da base, nunca se digita.**
+2. **ASIN repetido** em dois produtos — quase sempre link colado na ficha errada.
+3. **Chave de loja** fora de `LOJAS` em `lib/site.ts`. O build já quebra nesse
+   caso, mas com mensagem que não diz qual produto.
+4. **Cobertura**, que não é erro e sim fila de pesquisa: quantos produtos estão
+   sem link, por categoria, e quais deles já foram citados em conteúdo publicado
+   — esses são os que doem, porque o leitor viu a recomendação e não tem onde
+   comprar.
+
+Produto sem link **continua na base**. As contas dos guias ("13 das 24 publicam
+sucção") medem o mercado, não o nosso estoque de comissão; tirar da amostra o que
+não dá comissão trocaria em silêncio a pergunta que o site faz.
+
 ## Identidade visual
 
 Uma única cor de ação no site inteiro: verde-petróleo `#0F6E6C`. Tinta `#14181B`,

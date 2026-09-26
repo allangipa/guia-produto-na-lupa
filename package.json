@@ -9,6 +9,8 @@
     "start": "next start",
     "amazon:sync": "node scripts/amazon-sync.mjs",
     "amazon:simular": "node scripts/amazon-sync.mjs --simular",
+    "afiliados": "node scripts/afiliados-cobertura.mjs",
+    "afiliados:resumo": "node scripts/afiliados-cobertura.mjs --resumo",
     "imagens": "node scripts/imagens.mjs",
     "carrossel": "node scripts/carrossel.mjs"
   },
