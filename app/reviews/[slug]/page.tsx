@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
-import { review, todosOsReviews, dataLegivel, fotoDaBase } from "@/lib/conteudo";
+import {
+  review,
+  todosOsReviews,
+  dataLegivel,
+  fotoDaBase,
+  produtoDaBase,
+} from "@/lib/conteudo";
 import { tituloSeo, ogImagem, site } from "@/lib/site";
 import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
@@ -9,6 +15,7 @@ import { VereditoRapido, EscalaCriterios } from "@/components/veredito";
 import { ProsContras, Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
 import { FotoProduto } from "@/components/foto-produto";
+import { SeloTransparencia } from "@/components/selo-transparencia";
 import { Fontes } from "@/components/fontes";
 import { JsonLd, schemaReview, schemaBreadcrumb } from "@/lib/schema";
 
@@ -76,6 +83,17 @@ export default async function PaginaReview({ params }: Params) {
         const foto =
           r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome]);
         return foto ? <FotoProduto imagem={foto} prioridade /> : null;
+      })()}
+
+      {/* O selo antes do veredito: quem lê "não informa" no texto precisa saber
+          se aquilo é deslize ou o padrão da ficha inteira. */}
+      {(() => {
+        const ficha = produtoDaBase([r.produto.lojas], [r.produto.nome]);
+        return ficha ? (
+          <div className="mt-8">
+            <SeloTransparencia produto={ficha} />
+          </div>
+        ) : null;
       })()}
 
       <VereditoRapido nota={r.nota} para={r.para} naoPara={r.naoPara} />

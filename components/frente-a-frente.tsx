@@ -3,6 +3,8 @@ import { Foto } from "@/components/foto";
 // completa de `lib/specs`. São dois tipos com o mesmo nome, e o comparativo
 // carrega o primeiro.
 import type { Produto, Imagem } from "@/lib/conteudo";
+import type { Produto as Ficha } from "@/lib/specs";
+import { SeloTransparencia } from "@/components/selo-transparencia";
 
 /**
  * As fotos dos concorrentes, lado a lado, no topo do comparativo.
@@ -24,9 +26,13 @@ import type { Produto, Imagem } from "@/lib/conteudo";
 export function FrenteAFrente({
   concorrentes,
   fotos,
+  fichas,
 }: {
   concorrentes: Produto[];
   fotos: (Imagem | undefined)[];
+  /** As fichas da base, para o selo de transparência. Opcional: sem elas o
+   *  bloco continua funcionando, só sem o selo. */
+  fichas?: (Ficha | undefined)[];
 }) {
   // Sem as duas fotos não há confronto: uma só desequilibra a página e sugere
   // que o outro produto é menos importante. Melhor não mostrar nenhuma.
@@ -53,6 +59,9 @@ export function FrenteAFrente({
                 {p.marca}
               </span>
               <p className="mt-0.5 titulo-ui text-[0.9rem] leading-snug">{p.nome}</p>
+              {fichas?.[i] && (
+                <SeloTransparencia produto={fichas[i]!} className="mt-2" />
+              )}
             </div>
           </div>
         ))}

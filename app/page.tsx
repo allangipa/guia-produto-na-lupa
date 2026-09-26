@@ -4,6 +4,8 @@ import {
   todosOsReviews,
   todosOsComparativos,
   todosOsGuias,
+  fotoDaBase,
+  notaLegivel,
   dataLegivel,
 } from "@/lib/conteudo";
 import { categorias, posicaoNaHome } from "@/lib/categorias";
@@ -166,13 +168,58 @@ export default function Home() {
     .slice(0, 3);
   const tons = ["faixa text-faixa-tinta", "bg-medio-suave text-tinta", "bg-acao-suave text-tinta"];
 
-  const editorial = [
-    ...guias.map((g) => ({ tipo: "Guia", href: `/guias/${g.slug}`, titulo: g.titulo, sub: g.subtitulo, data: g.atualizadoEm })),
-    ...comparativos.map((c) => ({ tipo: "Comparativo", href: `/comparativos/${c.slug}`, titulo: c.titulo, sub: c.subtitulo, data: c.atualizadoEm })),
-    ...reviews.map((r) => ({ tipo: "Análise", href: `/reviews/${r.slug}`, titulo: r.titulo, sub: r.subtitulo, data: r.atualizadoEm })),
-  ]
-    .sort((a, b) => b.data.localeCompare(a.data))
-    .slice(0, 6);
+  // As peças editoriais, com foto. O guia usa a foto da primeira escolha que
+  // tiver uma; o comparativo, as fotos dos dois concorrentes; a análise, a do
+  // produto. Sem isso a faixa seria mais uma lista de títulos — que é
+  // exatamente o que ela era no rodapé da página até 26/09/2026.
+  const pecas = [
+    ...guias.map((g) => ({
+      tipo: "Guia",
+      href: `/guias/${g.slug}`,
+      titulo: g.titulo,
+      sub: g.subtitulo,
+      data: g.atualizadoEm,
+      nota: undefined as number | undefined,
+      fotos: g.escolhas
+        .map((e) => fotoDaBase([e.lojas], [e.produto]))
+        .filter(Boolean)
+        .slice(0, 1),
+    })),
+    ...comparativos.map((c) => ({
+      tipo: "Comparativo",
+      href: `/comparativos/${c.slug}`,
+      titulo: c.titulo,
+      sub: c.subtitulo,
+      data: c.atualizadoEm,
+      nota: undefined as number | undefined,
+      fotos: c.concorrentes
+        .map((p) => p.imagem ?? fotoDaBase([p.lojas], [p.nome]))
+        .filter(Boolean)
+        .slice(0, 2),
+    })),
+    ...reviews.map((r) => ({
+      tipo: "Análise",
+      href: `/reviews/${r.slug}`,
+      titulo: r.titulo,
+      sub: r.subtitulo,
+      data: r.atualizadoEm,
+      nota: r.nota as number | undefined,
+      fotos: [r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome])].filter(Boolean),
+    })),
+  ];
+
+  // Dois de cada tipo, e não os seis mais recentes. A primeira versão ordenava
+  // só por data e saiu com cinco guias e um comparativo: mexer em vários guias
+  // no mesmo dia bastava para as análises sumirem da home — que é o oposto do
+  // que esta faixa existe para fazer.
+  const editorial = ["Comparativo", "Análise", "Guia"]
+    .flatMap((tipo) =>
+      pecas
+        .filter((p) => p.tipo === tipo)
+        .sort((a, b) => b.data.localeCompare(a.data))
+        .slice(0, 2),
+    )
+    .sort((a, b) => b.data.localeCompare(a.data));
 
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 pb-8">
@@ -275,14 +322,17 @@ export default function Home() {
 
       {/* A tese do site e os números da base, numa tira — o herói é do produto. */}
       <section className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="cartao flex items-center gap-3.5 p-4 lg:col-span-1">
+        {/* Link, e não div: este card ficava no meio de três clicáveis e era o
+            único que não levava a lugar nenhum. A frase dele é a tese do site,
+            e /metodologia é onde ela é provada. */}
+        <Link href="/metodologia" className="cartao flex items-center gap-3.5 p-4 lg:col-span-1">
           <img src="/marca/simbolo.svg" alt="" aria-hidden width={44} height={44} className="so-claro h-11 w-11 shrink-0" />
           <img src="/marca/simbolo-fundo-escuro.svg" alt="" aria-hidden width={44} height={44} className="so-escuro h-11 w-11 shrink-0" />
           <p className="text-[0.88rem] leading-snug">
             <strong className="titulo-ui">Fichas oficiais, lado a lado.</strong>{" "}
             <span className="text-tinta-suave">Cada número com a fonte, e o que o fabricante omite escrito.</span>
           </p>
-        </div>
+        </Link>
         {[
           { v: produtos.length, r: "produtos com ficha oficial", href: "/comparar/" + (prateleiras[0]?.cat.slug ?? "audio") },
           { v: marcas.length, r: "fabricantes no ranking", href: "/transparencia" },
@@ -294,6 +344,61 @@ export default function Home() {
           </Link>
         ))}
       </section>
+
+
+      {/* A faixa editorial vem ANTES das prateleiras de ficha.
+          Medido em 26/09/2026: a home tinha 63 links para ficha de produto, 5
+          para guia, 2 para comparativo e nenhum para análise, e a seção
+          editorial era a penúltima da página, depois de doze prateleiras. O
+          trabalho que dá autoridade ao site estava no rodapé. */}
+      {editorial.length > 0 && (
+        <section className="mt-12">
+          <TituloSecao
+            antes="Guias, comparativos e"
+            destaque="análises"
+            href="/guias"
+            acao="Ver tudo"
+            sub="Ficha contra ficha, com a fonte de cada número e o que o fabricante não informa."
+          />
+          <ul className="mt-5 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+            {editorial.map((e) => (
+              <li key={e.href} className="cartao group relative flex flex-col overflow-hidden">
+                {e.fotos.length > 0 && (
+                  <div className="flex items-center justify-center gap-2 border-b border-linha bg-superficie px-3 py-3">
+                    {e.fotos.map((foto, i) => (
+                      <Foto
+                        key={i}
+                        src={foto!.src}
+                        alt={foto!.alt}
+                        tamanhos="(max-width: 640px) 40vw, 160px"
+                        className="h-20 w-auto max-w-[45%] object-contain"
+                      />
+                    ))}
+                  </div>
+                )}
+                <div className="flex flex-1 flex-col p-5">
+                  <div className="flex items-center gap-2">
+                    <span className="pastilha pastilha-neutra">{e.tipo}</span>
+                    {e.nota !== undefined && (
+                      <span className="dados text-[0.95rem] font-semibold">
+                        {notaLegivel(e.nota)}
+                        <span className="ml-1 text-[0.7rem] font-normal text-tinta-suave">de 10</span>
+                      </span>
+                    )}
+                  </div>
+                  <span className="mt-3 line-clamp-2 titulo-ui text-[1.05rem] leading-snug">
+                    <Link href={e.href} className="after:absolute after:inset-0 group-hover:text-acao-forte">
+                      {e.titulo}
+                    </Link>
+                  </span>
+                  <span className="mt-2 line-clamp-2 text-[0.88rem] text-tinta-suave">{e.sub}</span>
+                  <span className="mt-auto pt-4 text-[0.75rem] text-tinta-suave">Atualizado em {dataLegivel(e.data)}</span>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* Departamentos em círculo, como a fileira "comprar por categoria" das
           lojas: a foto de um produto de dentro vira o ícone do departamento. */}
@@ -399,23 +504,6 @@ export default function Home() {
         </section>
       )}
 
-      {editorial.length > 0 && (
-        <section className="mt-12">
-          <TituloSecao antes="Guias e" destaque="comparativos" href="/guias" acao="Ver tudo" />
-          <ul className="mt-5 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
-            {editorial.map((e) => (
-              <li key={e.href}>
-                <Link href={e.href} className="cartao group flex h-full flex-col p-5">
-                  <span className="pastilha pastilha-neutra self-start">{e.tipo}</span>
-                  <span className="mt-3 line-clamp-2 titulo-ui text-[1.05rem] leading-snug group-hover:text-acao-forte">{e.titulo}</span>
-                  <span className="mt-2 line-clamp-2 text-[0.88rem] text-tinta-suave">{e.sub}</span>
-                  <span className="mt-auto pt-4 text-[0.75rem] text-tinta-suave">Atualizado em {dataLegivel(e.data)}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
     </div>
   );
 }

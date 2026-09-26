@@ -6,6 +6,7 @@ import {
   todosOsComparativos,
   dataLegivel,
   fotoDaBase,
+  produtoDaBase,
 } from "@/lib/conteudo";
 import { JsonLd, schemaComparativo, schemaBreadcrumb } from "@/lib/schema";
 import { tituloSeo, ogImagem } from "@/lib/site";
@@ -91,6 +92,7 @@ export default async function PaginaComparativo({ params }: Params) {
           fotos={c.concorrentes.map(
             (p) => p.imagem ?? fotoDaBase([p.lojas], [p.nome]),
           )}
+          fichas={c.concorrentes.map((p) => produtoDaBase([p.lojas], [p.nome]))}
         />
 
         {/* Largura limitada de propósito: a arte é retrato 4:5, feita para

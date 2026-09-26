@@ -358,10 +358,42 @@ export function conteudoDoProduto(amazonUrl?: string) {
  * Aceita vários produtos e devolve a primeira foto encontrada, porque num
  * comparativo qualquer um dos dois serve de capa.
  */
+/**
+ * A ficha da base que corresponde a um produto citado em peça editorial.
+ *
+ * Casa por ASIN e, na falta dele, por nome exato — produto sem link de loja não
+ * tem ASIN para casar, e o nome no MDX é o mesmo que está em `dados/` porque os
+ * dois são escritos aqui. Exato de propósito: normalizar nome foi testado e
+ * erra em 56 de 131 referências.
+ *
+ * Era privado dentro de `fotoDaBase` até 26/09/2026. Virou função própria
+ * quando o selo de transparência passou a aparecer nas peças: são três lugares
+ * precisando da mesma ficha, e não só da foto dela.
+ */
+export function produtoDaBase(
+  lojas: (Loja | undefined)[],
+  nomes: string[] = [],
+) {
+  const base = todosOsProdutos();
+  for (const l of lojas) {
+    const alvo = asinDe(l?.amazon);
+    if (!alvo) continue;
+    const achado = base.find((p) => asinDe(p.lojas.amazon) === alvo);
+    if (achado) return achado;
+  }
+  for (const n of nomes) {
+    const achado = base.find((p) => p.nome === n);
+    if (achado) return achado;
+  }
+  return undefined;
+}
+
 export function fotoDaBase(
   lojas: (Loja | undefined)[],
   nomes: string[] = [],
 ): Imagem | undefined {
+  // Percorre ASIN e nome separadamente, e não pelo produto achado: uma ficha
+  // pode casar e não ter foto, e nesse caso a próxima referência ainda vale.
   const base = todosOsProdutos();
   for (const l of lojas) {
     const alvo = asinDe(l?.amazon);
@@ -369,10 +401,6 @@ export function fotoDaBase(
     const achado = base.find((p) => asinDe(p.lojas.amazon) === alvo);
     if (achado?.imagem) return achado.imagem;
   }
-  // Reserva: nome exato. Produto sem link de loja — os WAP, por exemplo — nao
-  // tem ASIN para casar, e o nome no MDX e o mesmo que esta em `dados/` porque
-  // os dois sao escritos aqui. Exato de proposito: normalizar nome foi testado
-  // e erra em 56 de 131 referencias.
   for (const n of nomes) {
     const achado = base.find((p) => p.nome === n);
     if (achado?.imagem) return achado.imagem;
