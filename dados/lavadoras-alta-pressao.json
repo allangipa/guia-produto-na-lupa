@@ -97,6 +97,13 @@
       "alt": "Lavadora de alta pressão WAP Maxi Plus 1800 amarela e preta, sobre chassi de rodas",
       "credito": "Imagem: WAP",
       "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-2700w-2610psi-wap-maxi-plus-1800/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por \"Maxi Plus\" e pelo codigo FW004214 nao retorna esta lavadora."
     }
   },
   {
@@ -126,7 +133,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07D3DTWQ9"
+    },
     "fontes": [
       {
         "id": "wap-l-profi-2500-oficial",
@@ -135,6 +144,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2500 PSI**, vazão de **700 L/h**, 3200 W, motor indução, mangueira de 10 m, cabo de 5 m, 41 kg. Código do produto: FW005860 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-l-profi-2500-amazon",
+        "titulo": "WAP L Profi 2500 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07D3DTWQ9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo FW005860, igual ao da ficha, e por mais quatro numeros que batem: 2500 PSI de pressao maxima, vazao de 700 L/h, 3200 W e peso de 41 kg. Listagem de 220 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -226,7 +243,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B079Z973PM"
+    },
     "fontes": [
       {
         "id": "wap-premium-2600-oficial",
@@ -235,6 +254,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2400 PSI**, vazão de **360 L/h**, 1900 W, motor indução, mangueira de 5 m, cabo de 5 m, 15.2 kg. Código do produto: 31020011 (127V) / 31020022 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-premium-2600-amazon",
+        "titulo": "WAP Premium 2600 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B079Z973PM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo 31020011, igual ao da ficha, e por tres numeros: 1900 W, 2400 PSI e 360 L/h. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -381,7 +408,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CNBKKKCW"
+    },
     "fontes": [
       {
         "id": "wap-wl-2660-turbo-oficial",
@@ -390,6 +419,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2000 PSI**, vazão de **420 L/h**, 1800 W, motor universal, bomba axial, 90 dB, mangueira de 5 m, cabo de 5 m, 8.2 kg. Código do produto: FW009595 (127V) / FW009596 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-wl-2660-turbo-amazon",
+        "titulo": "WAP WL 2660 Turbo — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CNBKKKCW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo FW009595, igual ao da ficha, mais 2000 PSI e peso de 8,2 kg. Listagem de 127 V, escolhida no lugar da de 220 V (B0CNBJ6DHQ), que traz FW009596 — a WAP muda o ultimo digito do codigo entre as voltagens. Nao confundir com a WL 2660 Turbo Ultra, que e outro produto. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -497,6 +534,13 @@
       "alt": "Lavadora de alta pressão WAP Silent Power 2800 amarela e preta, com carrinho e mangueira enrolada",
       "credito": "Imagem: WAP",
       "origem": "https://loja.wap.ind.br/lavadora-de-alta-pressao-1900w-1800psi-wap-silent-power-2800/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "A maquina nao esta na Amazon Brasil. O que a busca por \"Silent Power 2800\" retorna sao apenas pecas de reposicao dela — roda, cabecote da bomba, rolamento axial, kit de valvulas, kit de pistao e kit de vedacoes, cada uma com o proprio codigo FW."
     }
   },
   {
@@ -691,7 +735,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08DH8ZY8V"
+    },
     "fontes": [
       {
         "id": "wap-agil-ultra-1800-oficial",
@@ -700,6 +746,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1300 PSI**, vazão de **300 L/h**, 1400 W, motor universal, cabo de 5 m, 5.2 kg. Código do produto: FW007658 (127V) / FW007659 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-agil-ultra-1800-amazon",
+        "titulo": "WAP Ágil Ultra 1800 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08DH8ZY8V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo FW007658, igual ao da ficha, mais 1400 W, 1300 PSI, 300 L/h e peso de 5,2 kg. Listagem de 127 V. Nao confundir com a Agil 1800 comum, que ja esta na base com codigo FW004192. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -736,7 +790,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D79HC66G"
+    },
     "fontes": [
       {
         "id": "wap-premium-ultra-2600-oficial",
@@ -745,6 +801,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2400 PSI**, 1900 W, motor indução, cabo de 5 m, 15.2 kg. Código do produto: FW007650 (127V) / FW007651 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-premium-ultra-2600-amazon",
+        "titulo": "WAP Premium Ultra 2600 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D79HC66G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo FW007650, igual ao da ficha, mais 1900 W, 2400 PSI e peso de 15,2 kg. Listagem de 127 V. Nao confundir com a Premium 2600 comum, que e outro produto da base e tem codigo 31020011.\n\nAtencao para quem for mexer nesta ficha depois: a listagem declara vazao de 360 l/h, e o campo vazaoLh da ficha esta em branco de proposito. O motivo esta na divergencia do produto: o campo de vazao da pagina da WAP traz \"2400 PSI\", que e pressao no lugar de vazao. Numero de varejo nao preenche lacuna de fabricante. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "divergencias": [
@@ -790,7 +854,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D79GS7PG"
+    },
     "fontes": [
       {
         "id": "wap-5100-turbo-ultra-oficial",
@@ -799,6 +865,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2300 PSI**, vazão de **550 L/h**, 2500 W, motor indução, cabo de 5 m, 18 kg. Código do produto: FW007680 (220V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "wap-5100-turbo-ultra-amazon",
+        "titulo": "WAP 5100 Turbo Ultra — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D79GS7PG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo FW007680, igual ao da ficha, mais 2500 W, 2300 PSI, 550 L/h e peso de 18 kg. Listagem de 220 V.\n\nO casamento por codigo foi essencial aqui: a 5100 Turbo comum, que ja esta na base com link, tem exatamente a mesma pressao, vazao e potencia desta, e so o codigo separa as duas (FW006760 contra FW007680). Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -837,7 +911,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H4HVGF8Z"
+    },
     "fontes": [
       {
         "id": "electrolux-upr2300-oficial",
@@ -846,6 +922,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2300 PSI**, vazão de **327 L/h**, 1650 W, mangueira de 6 m, cabo de 5 m, 12.5 kg. Código do produto: UPR2300.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-upr2300-amazon",
+        "titulo": "Electrolux UPR2300 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H4HVGF8Z",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o produto pelo codigo UPR2300 no titulo e pelo peso de 12,5 kg, igual ao da ficha. Listagem de 127 V; o campo Numero do modelo dela traz o codigo interno 3412AABR401. A irma de 220 V (B0H4MHG4WM) traz \"Upr2300\" no campo de modelo e repete os numeros da ficha nos destaques: 2300 PSI, vazao de 327 L/h, 1650 W e 12,5 kg. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -941,7 +1025,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DFZS15ZZ"
+    },
     "fontes": [
       {
         "id": "electrolux-uws2200-oficial",
@@ -950,6 +1036,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **15.2 MPa (2200 psi)**, vazão de **280 L/h**, 1800 W, mangueira de 5 m, cabo de 5 m, 8.15 kg. Código do produto: UWS2200.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-uws2200-amazon",
+        "titulo": "Electrolux UltraWash UWS2200 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DFZS15ZZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo UWS2200 no titulo e por tres campos estruturados iguais aos da ficha: 2200 PSI, 1800 W e vazao de 280 l/h. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1004,6 +1098,13 @@
       "alt": "Lavadora de alta pressão Electrolux UltraWash UWS31 preta e amarela, ao lado da mangueira, do aplicador de detergente e das lanças",
       "credito": "Imagem: Electrolux",
       "origem": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-ultra-wash-uws31-electrolux/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-26",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "A maquina nao esta na Amazon Brasil. A busca por UWS31 retorna acessorios que a citam — kit de vedacao e reparo, e um canhao de espuma \"para Electrolux Ultra Wash 2220psi UWS31\" —, nao a lavadora."
     }
   },
   {
@@ -1035,7 +1136,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DF31T1J9"
+    },
     "fontes": [
       {
         "id": "electrolux-ews1850p-oficial",
@@ -1044,6 +1147,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **12.7 MPa (1850 psi)**, vazão de **280 L/h**, 1500 W, mangueira de 3 m, cabo de 5 m, 5.6 kg. Código do produto: EWS1850P.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-ews1850p-amazon",
+        "titulo": "Electrolux PowerWash EWS1850P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DF31T1J9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo EWS1850P no titulo e por tres campos estruturados iguais aos da ficha: 1850 PSI, 1500 W e vazao de 280 l/h. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1082,7 +1193,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DD5K1G13"
+    },
     "fontes": [
       {
         "id": "electrolux-qws1650-oficial",
@@ -1090,7 +1203,15 @@
         "url": "https://loja.electrolux.com.br/lavadora-de-alta-pressao-electrolux-1650psi-1400w-easywash-com-engate-rapido--qws1650-/p",
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **12,4 MPa (1800 psi)**, vazão de **280 L/h**, 1400 W, mangueira de 3 m, cabo de 5 m, 3.95 kg. Código do produto: QWS1650.",
-        "consultadaEm": "2026-09-18"
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-qws1650-amazon",
+        "titulo": "Electrolux EasyWash QWS1650 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DD5K1G13",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo codigo QWS1650 no titulo e por dois campos iguais aos da ficha: 1400 W e vazao de 280 l/h. Listagem de 220 V. A pressao da listagem, 1650 PSI, nao bate com os 1800 psi da ficha — a divergencia esta registrada no produto e ela nasce na propria pagina da Electrolux, nao aqui. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "divergencias": [
@@ -1099,7 +1220,7 @@
         "fonteAdotada": "electrolux-qws1650-oficial",
         "valorDivergente": "1.650 psi no nome do produto",
         "fonteDivergente": "electrolux-qws1650-oficial",
-        "observacao": "O título do produto é “Lavadora de Alta Pressão Electrolux 1650PSI” e o campo “Pressão máxima (PSI/Libras)” traz “12,4 MPa (1800 psi)” — o mesmo valor que a EWS1800, um modelo acima. Um dos dois está errado e a página não diz qual. A ficha adota o campo de especificação, que é o lugar da medida, e registra aqui que o nome comercial discorda."
+        "observacao": "O título do produto é “Lavadora de Alta Pressão Electrolux 1650PSI” e o campo “Pressão máxima (PSI/Libras)” traz “12,4 MPa (1800 psi)” — o mesmo valor que a EWS1800, um modelo acima. Um dos dois está errado e a página não diz qual. A ficha adota o campo de especificação, que é o lugar da medida, e registra aqui que o nome comercial discorda.\n\nReconferido em 26/09/2026, e a página segue igual. Dois reforços: a conversão do campo está internamente correta, porque 12,4 MPa são mesmo 1.798 psi; e a irmã QWS1600 não tem o problema, porque declara 11,0 MPa, que dão 1.595 psi, e o nome dela diz 1600. Só nesta o número do nome não corresponde ao campo. A listagem da Amazon repete o 1650 do nome, e não o do campo."
       }
     ],
     "imagem": {
@@ -1195,7 +1316,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D8RDWQND"
+    },
     "fontes": [
       {
         "id": "mondial-lap-03-oficial",
@@ -1204,6 +1327,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **2000 PSI**, vazão de **360 L/h**, 1800 W, mangueira de 5 m, 7.4 kg. Código do produto: LAP-03-GY.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-lap-03-amazon",
+        "titulo": "Mondial Aqua Power III LAP-03 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D8RDWQND",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo LAP-03-GY, igual ao da ficha, e por tres numeros dos destaques: 1800 W, 2000 PSI e vazao de 360 L/h. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1242,7 +1373,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D8RH7VXW"
+    },
     "fontes": [
       {
         "id": "mondial-lap-02-oficial",
@@ -1251,6 +1384,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1800 PSI**, vazão de **330 L/h**, 1500 W, mangueira de 5 m, 5.8 kg. Código do produto: LAP-02-GY.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-lap-02-amazon",
+        "titulo": "Mondial Aqua Power II LAP-02 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D8RH7VXW",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo LAP-02-GY, igual ao da ficha, e por tres numeros dos destaques: 1500 W, 1800 PSI e vazao de 330 L/h. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
@@ -1289,7 +1430,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D8R64M7W"
+    },
     "fontes": [
       {
         "id": "mondial-lap-01-oficial",
@@ -1298,6 +1441,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Ficha do fabricante: pressão máxima de **1600 PSI**, vazão de **330 L/h**, 1400 W, mangueira de 3 m, 4.8 kg. Código do produto: LAP-01-GY.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-lap-01-amazon",
+        "titulo": "Mondial Aqua Power I LAP-01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D8R64M7W",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo LAP-01-GY, igual ao da ficha, e por tres numeros dos destaques: 1400 W, 1600 PSI e vazao de 330 L/h. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
       }
     ],
     "imagem": {
