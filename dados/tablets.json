@@ -267,7 +267,7 @@
     "marca": "Samsung",
     "modelo": "SM-X133",
     "categoria": "tablets",
-    "resumo": "O menor da base: 8,7 polegadas, 335 g, 5.100 mAh e 64 GB. A Samsung declara \"carregamento rápido: não\" — com 15 W na caixa, é o tablet que mais demora a encher.",
+    "resumo": "Tablet de 8,7 polegadas, 335 g, 5.100 mAh e 64 GB. A Samsung declara \"carregamento rápido: não\": é a única ficha da base que responde esse campo com uma negativa em vez de omiti-lo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
       "src": "/produtos/samsung-galaxy-tab-a11.webp",
