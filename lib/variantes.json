@@ -348,6 +348,19 @@
     ],
     "original": 1200
   },
+  "/produtos/bosch-gsb-13-re.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 533
+  },
+  "/produtos/bosch-gsb-450.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 440
+  },
   "/produtos/brastemp-blf08bb.webp": {
     "larguras": [
       240,
@@ -2616,6 +2629,27 @@
     ],
     "original": 1000
   },
+  "/produtos/mondial-fi-rh-01m.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 777
+  },
+  "/produtos/mondial-fpf-05.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-fpf-06m.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 667
+  },
   "/produtos/mondial-l-1400-gi.webp": {
     "larguras": [
       240,
@@ -2770,6 +2804,13 @@
     ],
     "original": 1000
   },
+  "/produtos/mondial-nffi-07m.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/mondial-nvt-40c-8p.webp": {
     "larguras": [
       240,
@@ -2799,6 +2840,13 @@
     "original": 1000
   },
   "/produtos/mondial-pg-02.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/mondial-pi-10ma.webp": {
     "larguras": [
       240,
       480
@@ -3400,6 +3448,13 @@
     ],
     "original": 800
   },
+  "/produtos/philco-pfu04.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/philco-pfv3200v.webp": {
     "larguras": [
       240,
@@ -3576,6 +3631,13 @@
     "original": 1200
   },
   "/produtos/philco-pmxe01.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-ppf120mf.webp": {
     "larguras": [
       240,
       480
@@ -4394,6 +4456,20 @@
     ],
     "original": 1000
   },
+  "/produtos/wap-bpf-12v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-bpfi-12k4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/wap-combate-turbo-2600.webp": {
     "larguras": [
       240,
@@ -4402,6 +4478,13 @@
     "original": 1000
   },
   "/produtos/wap-cyclone-max.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/wap-efpi-1000.webp": {
     "larguras": [
       240,
       480
@@ -4542,6 +4625,13 @@
     "original": 1200
   },
   "/produtos/wap-wce1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wap-wf-700k10.webp": {
     "larguras": [
       240,
       480

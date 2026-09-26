@@ -66,6 +66,13 @@ export const departamentos: Departamento[] = [
       "ferros", "aspiradores", "lavadoras-alta-pressao", "secadores",
       "escovas-secadoras"],
   },
+  {
+    slug: "ferramentas",
+    nome: "Ferramentas",
+    descricao:
+      "A ferramenta elétrica de casa, onde o número do anúncio quase nunca é o número do trabalho.",
+    categorias: ["furadeiras"],
+  },
 ];
 
 /** O departamento de uma categoria, ou `undefined` se ela ficou órfã. */

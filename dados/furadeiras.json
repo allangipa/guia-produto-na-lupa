@@ -1,0 +1,790 @@
+[
+  {
+    "slug": "mondial-fpf-05",
+    "nome": "Mondial FPF-05",
+    "marca": "Mondial",
+    "categoria": "furadeiras",
+    "resumo": "A página do fabricante chama o produto de 48V e a tabela técnica dela declara 4,8 V — o mesmo número com a vírgula apagada. O torque declarado é 3 newton-metro.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira",
+      "semFio": true,
+      "torqueMaxNm": 3.0,
+      "posicoesTorque": null,
+      "potenciaW": null,
+      "tensaoBateriaV": 4.8,
+      "capacidadeBateriaMah": 600,
+      "rotacaoMaxRpm": null,
+      "impactosPorMinuto": null,
+      "velocidades": null,
+      "funcaoImpacto": false,
+      "capacidadeMandrilMm": null,
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": 0.6,
+      "tensao": "Bivolt",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "furacaoConcretoMm",
+      "furacaoMadeiraMm",
+      "furacaoAcoMm",
+      "capacidadeMandrilMm",
+      "potenciaW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076MFFR5Y"
+    },
+    "imagem": {
+      "src": "/produtos/mondial-fpf-05.webp",
+      "credito": "Divulgação/Mondial",
+      "origem": "https://www.mondial.com.br/parafusadeira-eletrica-mondial-power-tools-fpf-05/p"
+    },
+    "fontes": [
+      {
+        "id": "mondial-fpf-05-oficial",
+        "titulo": "Mondial FPF-05 — ficha oficial da Mondial",
+        "url": "https://www.mondial.com.br/parafusadeira-eletrica-mondial-power-tools-fpf-05/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo, voltagem, itens inclusos, acessórios, mandril, dimensões, peso, garantia, sem fio, voltagem da bateria, tipo de bateria, indicador de nível, função furadeira, função furadeira com impacto, mandril de aperto rápido, torque e controle de torque, e tensão do carregador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-fpf-05-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076MFFR5Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "tensaoBateriaV",
+        "fonteAdotada": "mondial-fpf-05-oficial",
+        "fonteDivergente": "mondial-fpf-05-oficial",
+        "valorDivergente": "Nome do produto: \"48V\"",
+        "observacao": "A página oficial chama o produto de **\"Parafusadeira Recarregável Mondial Vermelho/Preto 48V Bivolt\"** e a tabela técnica da mesma página declara **\"Voltagem da bateria: 4,8V\"**. É o mesmo número com a vírgula apagada, e a diferença entre os dois é de dez vezes. O anúncio na Amazon, do mesmo produto, escreve \"4,8V\" — o varejo acertou e o nome do fabricante não. A ficha adota os 4,8 V da tabela, que é onde o fabricante declara a especificação. Para escala: a parafusadeira a bateria mais forte desta lista tem 12 V e declara 30 Nm; esta declara 3 Nm."
+      }
+    ]
+  },
+  {
+    "slug": "mondial-fpf-06m",
+    "nome": "Mondial FPF-06M",
+    "marca": "Mondial",
+    "categoria": "furadeiras",
+    "resumo": "Doze volts, dez newton-metro de torque e dezesseis posições de embreagem. É a ficha da Mondial que publica os três números que definem uma parafusadeira.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira e furadeira",
+      "semFio": true,
+      "torqueMaxNm": 10.0,
+      "posicoesTorque": 16,
+      "potenciaW": null,
+      "tensaoBateriaV": 12,
+      "capacidadeBateriaMah": 1300,
+      "rotacaoMaxRpm": null,
+      "impactosPorMinuto": null,
+      "velocidades": null,
+      "funcaoImpacto": false,
+      "capacidadeMandrilMm": "10 mm (3/8\")",
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": 1.0,
+      "tensao": "Bivolt",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B077VW15YL"
+    },
+    "imagem": {
+      "src": "/produtos/mondial-fpf-06m.webp",
+      "credito": "Divulgação/Mondial",
+      "origem": "https://www.mondial.com.br/parafusadeira-e-furadeira-mondial-power-tools-fpf-06m/p"
+    },
+    "fontes": [
+      {
+        "id": "mondial-fpf-06m-oficial",
+        "titulo": "Mondial FPF-06M — ficha oficial da Mondial",
+        "url": "https://www.mondial.com.br/parafusadeira-e-furadeira-mondial-power-tools-fpf-06m/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo, voltagem, itens inclusos, acessórios, mandril, dimensões, peso, garantia, sem fio, voltagem da bateria, tipo de bateria, indicador de nível, função furadeira, função furadeira com impacto, mandril de aperto rápido, torque e controle de torque, e tensão do carregador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-fpf-06m-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B077VW15YL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-nffi-07m",
+    "nome": "Mondial NFFI-07M",
+    "marca": "Mondial",
+    "categoria": "furadeiras",
+    "resumo": "Seiscentos e cinquenta watts com duas velocidades declaradas, 2.200 e 2.800 rpm. Não publica nenhum diâmetro de perfuração, que é o limite real de uma furadeira de impacto.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Furadeira de impacto",
+      "semFio": false,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": 650,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": 2800,
+      "impactosPorMinuto": null,
+      "velocidades": 2,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "10 mm (3/8\")",
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": 1.65,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "tensaoBateriaV",
+      "capacidadeBateriaMah"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0778WSF2D"
+    },
+    "imagem": {
+      "src": "/produtos/mondial-nffi-07m.webp",
+      "credito": "Divulgação/Mondial",
+      "origem": "https://www.mondial.com.br/furadeira-de-impacto-mondial-power-tools-nffi-07/p"
+    },
+    "fontes": [
+      {
+        "id": "mondial-nffi-07m-oficial",
+        "titulo": "Mondial NFFI-07M — ficha oficial da Mondial",
+        "url": "https://www.mondial.com.br/furadeira-de-impacto-mondial-power-tools-nffi-07/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo, voltagem, itens inclusos, acessórios, mandril, dimensões, peso, garantia, sem fio, voltagem da bateria, tipo de bateria, indicador de nível, função furadeira, função furadeira com impacto, mandril de aperto rápido, torque e controle de torque, e tensão do carregador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-nffi-07m-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0778WSF2D",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "mondial-pi-10ma",
+    "nome": "Mondial PI-10MA",
+    "marca": "Mondial",
+    "categoria": "furadeiras",
+    "resumo": "O campo de torque desta ficha está preenchido com a palavra \"Sim\". Num aparelho cuja função é apertar parafuso, é o número que define o trabalho — e ele não está lá.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira e furadeira de impacto",
+      "semFio": true,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": null,
+      "tensaoBateriaV": 12,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": null,
+      "impactosPorMinuto": null,
+      "velocidades": null,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "10 mm (3/8\")",
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": 1.8,
+      "tensao": "Bivolt",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CPTH12MN"
+    },
+    "imagem": {
+      "src": "/produtos/mondial-pi-10ma.webp",
+      "credito": "Divulgação/Mondial",
+      "origem": "https://www.mondial.com.br/furadeira-parafusadeira-de-impacto-mondial-pi-10ma/p"
+    },
+    "fontes": [
+      {
+        "id": "mondial-pi-10ma-oficial",
+        "titulo": "Mondial PI-10MA — ficha oficial da Mondial",
+        "url": "https://www.mondial.com.br/furadeira-parafusadeira-de-impacto-mondial-pi-10ma/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo, voltagem, itens inclusos, acessórios, mandril, dimensões, peso, garantia, sem fio, voltagem da bateria, tipo de bateria, indicador de nível, função furadeira, função furadeira com impacto, mandril de aperto rápido, torque e controle de torque, e tensão do carregador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-pi-10ma-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CPTH12MN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "torqueMaxNm",
+        "fonteAdotada": "mondial-pi-10ma-oficial",
+        "fonteDivergente": "mondial-pi-10ma-oficial",
+        "valorDivergente": "Torque \"Sim\"",
+        "observacao": "O campo **Torque** desta ficha está preenchido com a palavra **\"Sim\"**, e o campo **Controle de torque** também. Torque é uma grandeza: mede-se em newton-metro, e é o número que diz o que a ferramenta aperta. \"Sim\" responde se existe, não quanto é. A mesma Mondial publica \"10 Nm\" e \"16 posições\" na ficha do FPF-06M, então o formato certo existe no catálogo dela. O campo ficou vazio."
+      }
+    ]
+  },
+  {
+    "slug": "mondial-fi-rh-01m",
+    "nome": "Mondial FI-RH-01M",
+    "marca": "Mondial",
+    "categoria": "furadeiras",
+    "resumo": "Seiscentos e cinquenta watts e dezenove acessórios na maleta. O campo de velocidade traz \"Sim\" no lugar da rotação, e não há diâmetro de perfuração em campo nenhum.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Furadeira de impacto",
+      "semFio": false,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": 650,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": null,
+      "impactosPorMinuto": null,
+      "velocidades": null,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "10 mm (3/8\")",
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": 1.275,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "tensaoBateriaV",
+      "capacidadeBateriaMah"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09KF6GLRM"
+    },
+    "imagem": {
+      "src": "/produtos/mondial-fi-rh-01m.webp",
+      "credito": "Divulgação/Mondial",
+      "origem": "https://www.mondial.com.br/furadeira-com-impacto-650w-mondial-fi-rh-01m/p"
+    },
+    "fontes": [
+      {
+        "id": "mondial-fi-rh-01m-oficial",
+        "titulo": "Mondial FI-RH-01M — ficha oficial da Mondial",
+        "url": "https://www.mondial.com.br/furadeira-com-impacto-650w-mondial-fi-rh-01m/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo, voltagem, itens inclusos, acessórios, mandril, dimensões, peso, garantia, sem fio, voltagem da bateria, tipo de bateria, indicador de nível, função furadeira, função furadeira com impacto, mandril de aperto rápido, torque e controle de torque, e tensão do carregador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-fi-rh-01m-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09KF6GLRM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "rotacaoMaxRpm",
+        "fonteAdotada": "mondial-fi-rh-01m-oficial",
+        "fonteDivergente": "mondial-fi-rh-01m-oficial",
+        "valorDivergente": "Velocidade \"Sim\"",
+        "observacao": "O campo **Velocidade** traz **\"Sim\"** no lugar de uma rotação. O modelo NFFI-07 da mesma marca preenche o mesmo campo com \"Velocidade de 2200 rpm e 2800 rpm\". O campo ficou vazio nesta ficha."
+      }
+    ]
+  },
+  {
+    "slug": "wap-wf-700k10",
+    "nome": "WAP WF-700K10",
+    "marca": "WAP",
+    "categoria": "furadeiras",
+    "resumo": "Quarenta newton-metro de torque, o maior desta lista, com os três diâmetros de perfuração publicados e 48 mil impactos por minuto. É a ficha mais completa da categoria.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira e furadeira de impacto",
+      "semFio": false,
+      "torqueMaxNm": 40.0,
+      "posicoesTorque": null,
+      "potenciaW": 700,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": 3000,
+      "impactosPorMinuto": 48000,
+      "velocidades": 2,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "1 a 10 mm (3/8\")",
+      "furacaoConcretoMm": 10,
+      "furacaoMadeiraMm": 20,
+      "furacaoAcoMm": 10,
+      "pesoKg": 2.6,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "tensaoBateriaV",
+      "capacidadeBateriaMah"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CYCJ66Y8"
+    },
+    "imagem": {
+      "src": "/produtos/wap-wf-700k10.webp",
+      "credito": "Divulgação/WAP",
+      "origem": "https://loja.wap.ind.br/parafusadeira-e-furadeira-de-impacto-wap-wf-700k10/p"
+    },
+    "fontes": [
+      {
+        "id": "wap-wf-700k10-oficial",
+        "titulo": "WAP WF-700K10 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/parafusadeira-e-furadeira-de-impacto-wap-wf-700k10/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "wap-wf-700k10-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CYCJ66Y8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "wap-bpfi-12k4",
+    "nome": "WAP BPFI-12K4",
+    "marca": "WAP",
+    "categoria": "furadeiras",
+    "resumo": "Trinta newton-metro com bateria de 12 volts. É o contraexemplo da categoria: metade da voltagem que as marcas sem ficha anunciam, com torque declarado e conferível.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira e furadeira de impacto",
+      "semFio": true,
+      "torqueMaxNm": 30.0,
+      "posicoesTorque": null,
+      "potenciaW": null,
+      "tensaoBateriaV": 12,
+      "capacidadeBateriaMah": 1500,
+      "rotacaoMaxRpm": 1500,
+      "impactosPorMinuto": null,
+      "velocidades": 2,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "10 mm (3/8\")",
+      "furacaoConcretoMm": 12,
+      "furacaoMadeiraMm": 35,
+      "furacaoAcoMm": 10,
+      "pesoKg": 1.1,
+      "tensao": "Bivolt",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BHJC5GGJ"
+    },
+    "imagem": {
+      "src": "/produtos/wap-bpfi-12k4.webp",
+      "credito": "Divulgação/WAP",
+      "origem": "https://loja.wap.ind.br/parafusadeira-e-furadeira-a-bateria-12v-wap-bpfi-12k4-li-ion/p"
+    },
+    "fontes": [
+      {
+        "id": "wap-bpfi-12k4-oficial",
+        "titulo": "WAP BPFI-12K4 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/parafusadeira-e-furadeira-a-bateria-12v-wap-bpfi-12k4-li-ion/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "wap-bpfi-12k4-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BHJC5GGJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "wap-efpi-1000",
+    "nome": "WAP EFPI-1000",
+    "marca": "WAP",
+    "categoria": "furadeiras",
+    "resumo": "Mil watts, a maior potência da lista, e nove newton-metro de torque — menos de um quarto do modelo de 700 W da mesma marca. Watt e torque não são a mesma coisa, e esta ficha prova.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira e furadeira de impacto",
+      "semFio": false,
+      "torqueMaxNm": 9.0,
+      "posicoesTorque": null,
+      "potenciaW": 1000,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": 3000,
+      "impactosPorMinuto": 48000,
+      "velocidades": null,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "13 mm (1/2\")",
+      "furacaoConcretoMm": 13,
+      "furacaoMadeiraMm": 25,
+      "furacaoAcoMm": 10,
+      "pesoKg": 2.3,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "tensaoBateriaV",
+      "capacidadeBateriaMah"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B9QDHT6G"
+    },
+    "imagem": {
+      "src": "/produtos/wap-efpi-1000.webp",
+      "credito": "Divulgação/WAP",
+      "origem": "https://loja.wap.ind.br/furadeira-e-parafusadeira-de-impacto-wap-efpi1000/p"
+    },
+    "fontes": [
+      {
+        "id": "wap-efpi-1000-oficial",
+        "titulo": "WAP EFPI-1000 — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/furadeira-e-parafusadeira-de-impacto-wap-efpi1000/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "wap-efpi-1000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0B9QDHT6G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "wap-bpf-12v",
+    "nome": "WAP BPF-12V",
+    "marca": "WAP",
+    "categoria": "furadeiras",
+    "resumo": "A ficha mais curta da WAP: publica peso, dimensões e acessórios, e deixa torque, rotação e perfuração de fora. O mandril de 0,8 a 10 mm aparece só na lista de componentes.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira e furadeira",
+      "semFio": true,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": null,
+      "tensaoBateriaV": 12,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": null,
+      "impactosPorMinuto": null,
+      "velocidades": null,
+      "funcaoImpacto": false,
+      "capacidadeMandrilMm": "0,8 a 10 mm (3/8\")",
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": 1.1,
+      "tensao": "Bivolt",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09V1SM8QB"
+    },
+    "imagem": {
+      "src": "/produtos/wap-bpf-12v.webp",
+      "credito": "Divulgação/WAP",
+      "origem": "https://loja.wap.ind.br/parafusadeira-e-furadeira-a-bateria-wap-bpf-12v-li-ion/p"
+    },
+    "fontes": [
+      {
+        "id": "wap-bpf-12v-oficial",
+        "titulo": "WAP BPF-12V — ficha oficial da WAP",
+        "url": "https://loja.wap.ind.br/parafusadeira-e-furadeira-a-bateria-wap-bpf-12v-li-ion/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "wap-bpf-12v-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09V1SM8QB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "bosch-gsb-13-re",
+    "nome": "Bosch GSB 13 RE",
+    "marca": "Bosch",
+    "categoria": "furadeiras",
+    "resumo": "Cinco diâmetros de perfuração em campos separados — madeira, concreto, aço, tijolo e alvenaria. Nenhuma outra ficha desta lista chega a três.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Furadeira de impacto",
+      "semFio": false,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": 750,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": 3800,
+      "impactosPorMinuto": 57000,
+      "velocidades": null,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "1,5 a 13 mm",
+      "furacaoConcretoMm": 13,
+      "furacaoMadeiraMm": 25,
+      "furacaoAcoMm": 10,
+      "pesoKg": 1.7,
+      "tensao": "127 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "tensaoBateriaV",
+      "capacidadeBateriaMah"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C51C4ZTZ"
+    },
+    "imagem": {
+      "src": "/produtos/bosch-gsb-13-re.webp",
+      "credito": "Divulgação/Bosch",
+      "origem": "https://www.bosch-professional.com/br/pt/products/gsb-13re-06012B80D0"
+    },
+    "fontes": [
+      {
+        "id": "bosch-gsb-13-re-oficial",
+        "titulo": "Bosch GSB 13 RE — ficha oficial da Bosch",
+        "url": "https://www.bosch-professional.com/br/pt/products/gsb-13re-06012B80D0",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência nominal absorvida, tensão elétrica, número de rotações em vazio, número máximo de impactos em vazio, amplitude de aperto do mandril, peso, e a faixa de perfuração com o diâmetro em madeira, concreto, aço, tijolo e alvenaria em campos separados. **A ficha não traz torque em newton-metro**: a Bosch publica torque nas parafusadeiras a bateria e não nas furadeiras de tomada.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "bosch-gsb-13-re-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C51C4ZTZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "bosch-gsb-450",
+    "nome": "Bosch GSB 450",
+    "marca": "Bosch",
+    "categoria": "furadeiras",
+    "resumo": "Quatrocentos e cinquenta watts em 1,2 quilo, a mais leve de tomada desta lista. Publica os três diâmetros de perfuração e não publica torque, como toda furadeira de cabo da Bosch.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Furadeira de impacto",
+      "semFio": false,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": 450,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": 3100,
+      "impactosPorMinuto": 49600,
+      "velocidades": null,
+      "funcaoImpacto": true,
+      "capacidadeMandrilMm": "1 a 10 mm",
+      "furacaoConcretoMm": 10,
+      "furacaoMadeiraMm": 20,
+      "furacaoAcoMm": 10,
+      "pesoKg": 1.2,
+      "tensao": "127 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "tensaoBateriaV",
+      "capacidadeBateriaMah"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07JK2YZTY"
+    },
+    "imagem": {
+      "src": "/produtos/bosch-gsb-450.webp",
+      "credito": "Divulgação/Bosch",
+      "origem": "https://www.bosch-professional.com/br/pt/products/gsb-450-06011B50D1"
+    },
+    "fontes": [
+      {
+        "id": "bosch-gsb-450-oficial",
+        "titulo": "Bosch GSB 450 — ficha oficial da Bosch",
+        "url": "https://www.bosch-professional.com/br/pt/products/gsb-450-06011B50D1",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência nominal absorvida, tensão elétrica, número de rotações em vazio, número máximo de impactos em vazio, amplitude de aperto do mandril, peso, e a faixa de perfuração com o diâmetro em madeira, concreto, aço, tijolo e alvenaria em campos separados. **A ficha não traz torque em newton-metro**: a Bosch publica torque nas parafusadeiras a bateria e não nas furadeiras de tomada.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "bosch-gsb-450-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07JK2YZTY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "philco-pfu04",
+    "nome": "Philco Force PFU04",
+    "marca": "Philco",
+    "categoria": "furadeiras",
+    "resumo": "A ficha oficial tem quatro linhas: potência, tipo, modelo e cor. Os 3.000 rpm e o mandril de 13 mm do nome do produto não aparecem em campo nenhum.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Furadeira",
+      "semFio": false,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": 850,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": null,
+      "impactosPorMinuto": null,
+      "velocidades": null,
+      "funcaoImpacto": null,
+      "capacidadeMandrilMm": null,
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": null,
+      "tensao": "127 V",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "tensaoBateriaV",
+      "capacidadeBateriaMah"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DP5N9HS6"
+    },
+    "imagem": {
+      "src": "/produtos/philco-pfu04.webp",
+      "credito": "Divulgação/Philco",
+      "origem": "https://www.philco.com.br/furadeira-pfu04-127v-051101029/p"
+    },
+    "fontes": [
+      {
+        "id": "philco-pfu04-oficial",
+        "titulo": "Philco Force PFU04 — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/furadeira-pfu04-127v-051101029/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência ou tensão da bateria, tipo de produto, modelo, cor, alimentação e garantia em dias. **A ficha não traz torque, rotação, mandril, perfuração, peso nem dimensões.**",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pfu04-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DP5N9HS6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "philco-ppf120mf",
+    "nome": "Philco Force PPF120MF",
+    "marca": "Philco",
+    "categoria": "furadeiras",
+    "resumo": "O campo \"Tensão da bateria\" desta ficha traz \"Bivolt\". Bivolt é característica de tomada, não de bateria — e o campo que diria a voltagem real ficou sem resposta.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Parafusadeira e furadeira",
+      "semFio": true,
+      "torqueMaxNm": null,
+      "posicoesTorque": null,
+      "potenciaW": null,
+      "tensaoBateriaV": null,
+      "capacidadeBateriaMah": null,
+      "rotacaoMaxRpm": null,
+      "impactosPorMinuto": null,
+      "velocidades": null,
+      "funcaoImpacto": null,
+      "capacidadeMandrilMm": null,
+      "furacaoConcretoMm": null,
+      "furacaoMadeiraMm": null,
+      "furacaoAcoMm": null,
+      "pesoKg": null,
+      "tensao": "Bivolt",
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaW"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CXQ7BY7M"
+    },
+    "imagem": {
+      "src": "/produtos/philco-ppf120mf.webp",
+      "credito": "Divulgação/Philco",
+      "origem": "https://www.philco.com.br/parafusadeira-philco-force-bivolt-ppf120mf-051103031/p"
+    },
+    "fontes": [
+      {
+        "id": "philco-ppf120mf-oficial",
+        "titulo": "Philco Force PPF120MF — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/parafusadeira-philco-force-bivolt-ppf120mf-051103031/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência ou tensão da bateria, tipo de produto, modelo, cor, alimentação e garantia em dias. **A ficha não traz torque, rotação, mandril, perfuração, peso nem dimensões.**",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-ppf120mf-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CXQ7BY7M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a cor e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "tensaoBateriaV",
+        "fonteAdotada": "philco-ppf120mf-oficial",
+        "fonteDivergente": "philco-ppf120mf-oficial",
+        "valorDivergente": "Tensão da bateria \"Bivolt\"",
+        "observacao": "O campo **Tensão da bateria** traz **\"Bivolt\"**. Bivolt descreve um aparelho que aceita 127 e 220 V na tomada — é característica de alimentação de rede, e não existe bateria bivolt. O valor provavelmente é do carregador. O campo ficou vazio: a voltagem da bateria, que é o número que o anúncio desta categoria usa para vender, não está publicada em lugar nenhum da ficha."
+      }
+    ]
+  }
+]

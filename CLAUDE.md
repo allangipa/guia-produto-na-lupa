@@ -397,8 +397,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 585 produtos em 32 categorias, 32 guias,
-  52 comparativos e 40 análises.**
+- **Inventário em 26/09/2026: 598 produtos em 33 categorias, 33 guias,
+  53 comparativos e 41 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -720,6 +720,44 @@ confunde com documento sem folha de estilo.
   Sete fichas ficaram só com o total migrado, sem útil, porque a página oficial
   não respondeu. Ver a lista em "Páginas de fabricante que morreram".
 
+- **Furadeiras e parafusadeiras abriu em 26/09/2026, com treze de quatro marcas** —
+  Mondial 5, WAP 4, Bosch 2, Philco 2. Departamento novo: **Ferramentas**.
+
+  **O eixo é torque contra voltagem, e a prova está numa ficha só.** A Mondial
+  vende a FPF-05 com o nome **"Parafusadeira Recarregável 48V"** e a tabela
+  técnica da mesma página declara **"Voltagem da bateria: 4,8V"** — o mesmo
+  número com a vírgula apagada. O anúncio na Amazon escreve 4,8V: o varejo
+  acertou e o nome do fabricante não. Para escala, ela declara 3 Nm; a
+  parafusadeira a bateria mais forte da base tem 12 V e declara 30 Nm.
+
+  **E o watt também não mede força.** Dois produtos da mesma linha da WAP:
+  WF-700K10 com **700 W e 40 Nm**, EFPI-1000 com **1.000 W e 9 Nm**. Os dois
+  giram a 3.000 rpm; o que muda é a redução, e o watt não registra redução.
+
+  **Cegueira complementar de novo:** torque aparece em 5 de 13 fichas (Mondial 2,
+  WAP 3) e diâmetro de perfuração em 5 de 13 (WAP 3, Bosch 2). **Só a WAP
+  WF-700K10 publica os dois.** A Bosch, referência técnica da categoria, publica
+  CINCO diâmetros de perfuração por produto — madeira, concreto, aço, tijolo e
+  alvenaria — e nenhum torque nas furadeiras de tomada: ela reserva o torque para
+  as parafusadeiras a bateria.
+
+  **A maior concentração de campo-com-valor-errado já encontrada:** Mondial
+  PI-10MA com "Torque: Sim", Mondial FI-RH-01M com "Velocidade: Sim", Philco
+  PPF120MF com "Tensão da bateria: Bivolt" — bateria não é bivolt, o valor é do
+  carregador. Três divergências em treze fichas, mais a do 48V.
+
+  **Fontes:** Mondial, WAP e Philco por API VTEX. **Bosch exige o número de
+  pedido de cada produto** (`/br/pt/products/<slug>-<numero>`) e um clique em
+  "Mostrar mais" para abrir a faixa de perfuração — não responde a consulta em
+  lote, e por isso entraram só dois modelos. **Black+Decker, DeWalt, Makita e
+  Vonder** aparecem no ranking e não têm catálogo que responda. **Martelete não
+  entra:** encaixe SDS e energia de impacto em joules, outra ficha.
+
+  **Os anúncios sem marca lideram as duas listas** e declaram "48V", "36V",
+  "Torque 32Nm" e "Torque 55Nm" nos títulos. Sem página de fabricante não entram
+  — e o guia diz isso, apontando que a única ficha da categoria que explica de
+  onde sai um "48V" é a da Mondial, que diz 4,8.
+
 - **Purificadores de água abriu em 26/09/2026, com dezessete de cinco marcas** —
   Electrolux 5, Consul 5, IBBL 3, Midea 2, Philco 2.
 
@@ -855,7 +893,7 @@ confunde com documento sem folha de estilo.
 - Toda peça editorial (guia, comparativo, análise) precisa existir em pelo menos
   uma unidade: `output: export` recusa rota dinâmica vazia.
 - **`divergencias` está em uso, e virou um dos melhores campos da base.** Em
-  26/09/2026 são **202 registros em 30 categorias** — batedeiras 27,
+  26/09/2026 são **206 registros em 31 categorias** — batedeiras 27,
   sanduicheiras 21, secadores 18, escovas secadoras 14, cozinha 12, mixers 12. Aparecem na ficha sob o título "Onde as
   fontes não batem", via `components/divergencias.tsx`.
 

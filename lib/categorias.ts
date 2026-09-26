@@ -215,6 +215,15 @@ export const categorias: Categoria[] = [
       "Fechou em vinte e quatro, com cinco marcas. O que manteve a lista nesse tamanho não foi falta de produto — foi falta de número: treze das vinte e quatro fichas publicam vazão de vapor, e as onze restantes entram para mostrar exatamente isso. Black+Decker e Philips Walita aparecem bem colocadas no ranking e nenhuma das duas tem catálogo brasileiro que responda; sem ficha de fabricante não há ficha aqui. Ficaram de fora também os itens do nó que não são ferro: vaporizador de roupa, tapete de silício e kit de limpeza.",
   },
   {
+    slug: "furadeiras",
+    nome: "Furadeiras e parafusadeiras",
+    descricao:
+      "Furadeiras de impacto e parafusadeiras a bateria, com o torque em newton-metro ao lado da voltagem que vira nome de produto.",
+    dorPrincipal: "A Mondial chama de \"48V\" uma parafusadeira cuja própria ficha declara 4,8 V.",
+    porQueParou:
+      "Abriu com catorze de quatro marcas. Bosch entra com dois modelos: as páginas brasileiras dela têm tabela técnica boa, mas exigem o número de pedido de cada produto e não respondem a consulta em lote. Black+Decker, DeWalt, Makita e Vonder aparecem no ranking e não têm catálogo que responda. Martelete não entra: é outra ferramenta, com encaixe SDS e energia de impacto em joules.",
+  },
+  {
     slug: "purificadores",
     nome: "Purificadores de água",
     descricao:
@@ -324,6 +333,7 @@ export const ORDEM_NA_HOME: string[] = [
   "espremedores",
   "lavaloucas",
   "smartwatches",
+  "furadeiras",
   "purificadores",
   "ar-condicionado",
   "ventiladores",
