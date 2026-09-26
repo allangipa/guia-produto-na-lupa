@@ -1098,13 +1098,28 @@ proporcao da maquina.
 e `comparativos/electrolux-lb08e-vs-ll08s.mdx`. Os 56 numeros citados foram
 conferidos por script contra `dados/lavaloucas.json`.
 
-### PENDENCIA: numero sem fonte num resumo ja publicado
+### Resolvido: dois resumos com afirmacao sem fonte
 
-O resumo do **`electrolux-ls10e`** termina com *"Lavar a mesma louca na pia
-passa de cem."* **Cem litros e um numero, e ele nao tem fonte em nenhuma das
-`fontes` do produto.** A regra da casa e que todo numero tem fonte e data.
+O resumo do `electrolux-ls10e` terminava com *"Lavar a mesma louca na pia
+passa de cem."* Cem litros e um numero e nao tinha fonte em `fontes`. Allan
+decidiu em 25/09/2026: **retirar**. Trocado por dado da propria ficha
+(programa Lava & Seca de 50 minutos e painel mecanico).
 
-Nao alterei: e copia ja publicada e o Allan pode ter a fonte em mente. As tres
-pecas novas **nao repetem** essa afirmacao — falam da promessa de economia sem
-citar litros de lavagem manual. Decidir entre achar a fonte (ha estudos de
-fabricante e de agencias de agua) ou cortar o numero.
+A varredura que fiz em seguida, em **todos os resumos de todas as
+categorias**, achou mais um do mesmo tipo: o `wap-atacama-smart-2200` dizia
+*"E a faixa que a maioria das casas compra"* — afirmacao de mercado sem
+fonte, e ainda por cima em tensao com a nossa propria base, onde 1.500 psi
+fica perto do piso da distribuicao. Retirado. A outra metade da frase ("a
+mesma vazao da Mondial de 1.600 psi") **e verdade e sai da nossa base**, e
+ficou.
+
+Dois falsos positivos da varredura, que conferi e mantive:
+- `philco-paf95a`: *"contra os 80 da maioria"* — verdade, 12 das 16 fichas de
+  airfryer que declaram temperatura minima dizem 80 C.
+- `logitech-g203`: *"costuma ser o dado que mais se pergunta"* — e contexto
+  editorial, nao numero.
+
+**Rotina para as proximas categorias**: varrer os resumos atras de
+comparacao com baseline externo ("passa de", "a maioria", "na pia", "em
+media"). Numero que compara com algo fora da ficha precisa de fonte, ou sai.
+O script da varredura esta no scratchpad da sessao.
