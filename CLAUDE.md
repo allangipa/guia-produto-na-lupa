@@ -397,8 +397,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 553 produtos em 30 categorias, 30 guias,
-  50 comparativos e 38 análises.**
+- **Inventário em 26/09/2026: 568 produtos em 31 categorias, 31 guias,
+  51 comparativos e 39 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -720,6 +720,42 @@ confunde com documento sem folha de estilo.
   Sete fichas ficaram só com o total migrado, sem útil, porque a página oficial
   não respondeu. Ver a lista em "Páginas de fabricante que morreram".
 
+- **Ar-condicionado abriu em 26/09/2026, com quinze splits de três marcas** —
+  Electrolux 6, Midea 5, Elgin 4 — e é a categoria mais bem documentada da base:
+  13,7 campos de 17, com a ficha da Electrolux chegando a 104 campos na origem.
+
+  **O eixo é a área em metros quadrados.** O anúncio vende BTU; a pergunta de quem
+  compra é se serve para o cômodo. **Seis fichas em quinze publicam a área, e as
+  seis são da linha MaxComfort da Electrolux.** A régua de mercado — 600 a 800 BTU
+  por m², que a própria LG publica na página dela — tem 33% entre os extremos.
+
+  **Cada marca publica um terço, e um terço diferente.** Área: só Electrolux.
+  IDRS, o índice sazonal oficial do INMETRO: só Midea, 4 de 15. Garantia do
+  compressor: só Electrolux. Ruído: 5 Electrolux e 1 Elgin. Só dois campos são
+  unânimes: faixa do INMETRO e vazão de ar. Não dá para comparar as quinze pelo
+  mesmo critério, e isso é o guia.
+
+  **A garantia aqui não é 12 meses.** Electrolux declara 5 anos no produto e 10 no
+  compressor, em campos separados; Elgin, 3 anos; Midea preenche o campo com
+  "90 dias (Prazo Legal)" e chega a 2 anos com a estendida. E a **foto oficial da
+  Midea traz um adesivo de "10 anos de garantia no compressor"** que não existe em
+  campo nenhum da tabela — registrado como divergência nas cinco fichas dela, sem
+  adotar o prazo: ler garantia num adesivo seria trocar a fonte pela nossa leitura.
+
+  **Campo preenchido com valor de outro campo, de novo.** A Electrolux tem
+  "Eficiência EER: 80%" — EER é razão, não porcentagem — e o mesmo campo aparece
+  no catálogo dela com "550 W", "350 W", "3,24" e a letra "A". A Midea põe o
+  consumo anual no campo de IDRS no modelo de 12.000 e deixa o de consumo vazio.
+  A Elgin declara os mesmos 600 m³/h de vazão em três capacidades diferentes.
+
+  **Fontes:** Electrolux e Midea têm API VTEX rica (`loja.electrolux.com.br`,
+  `www.midea.com.br`); Elgin também, com 25 campos. **LG e Samsung ficaram de
+  fora**: a página brasileira da LG entrega quatro linhas de "Especificação chave"
+  e o botão de ver todas não abre tabela legível; a loja da Samsung publica treze
+  campos, quase todos de título e descrição. **Climatizador é outra categoria** —
+  sete dos trinta mais vendidos do nó são climatizador, que não tem compressor,
+  BTU nem etiqueta de condicionador de ar. Mesmo caso da escova alisadora.
+
 - **Kärcher e Philips Walita entraram em 26/09/2026, e as duas surpreenderam.**
 
   A **Kärcher** é líder do segmento de lavadora de alta pressão e **publica
@@ -783,7 +819,7 @@ confunde com documento sem folha de estilo.
 - Toda peça editorial (guia, comparativo, análise) precisa existir em pelo menos
   uma unidade: `output: export` recusa rota dinâmica vazia.
 - **`divergencias` está em uso, e virou um dos melhores campos da base.** Em
-  26/09/2026 são **180 registros em 28 categorias** — batedeiras 27,
+  26/09/2026 são **196 registros em 29 categorias** — batedeiras 27,
   sanduicheiras 21, secadores 18, escovas secadoras 14, cozinha 12, mixers 12. Aparecem na ficha sob o título "Onde as
   fontes não batem", via `components/divergencias.tsx`.
 

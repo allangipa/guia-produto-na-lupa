@@ -215,6 +215,15 @@ export const categorias: Categoria[] = [
       "Fechou em vinte e quatro, com cinco marcas. O que manteve a lista nesse tamanho não foi falta de produto — foi falta de número: treze das vinte e quatro fichas publicam vazão de vapor, e as onze restantes entram para mostrar exatamente isso. Black+Decker e Philips Walita aparecem bem colocadas no ranking e nenhuma das duas tem catálogo brasileiro que responda; sem ficha de fabricante não há ficha aqui. Ficaram de fora também os itens do nó que não são ferro: vaporizador de roupa, tapete de silício e kit de limpeza.",
   },
   {
+    slug: "ar-condicionado",
+    nome: "Ar-condicionado",
+    descricao:
+      "Splits de parede, com a área em metros quadrados ao lado dos BTU que todo anúncio estampa — e o consumo anual da etiqueta do INMETRO.",
+    dorPrincipal: "O anúncio vende BTU. A pergunta é quantos metros quadrados, e uma linha de uma marca responde.",
+    porQueParou:
+      "Abriu com quinze splits de três marcas. LG e Samsung estão entre os mais vendidos e ficaram de fora: a página brasileira da LG entrega quatro linhas de especificação e o botão de ver todas não abre tabela legível; a loja oficial da Samsung publica treze campos, quase todos de título e descrição. Climatizador não entra: divide o mesmo nó do ranking e não tem um campo em comum com split.",
+  },
+  {
     slug: "ventiladores",
     nome: "Ventiladores",
     descricao:
@@ -306,6 +315,7 @@ export const ORDEM_NA_HOME: string[] = [
   "espremedores",
   "lavaloucas",
   "smartwatches",
+  "ar-condicionado",
   "ventiladores",
   "ferros",
   "aspiradores",

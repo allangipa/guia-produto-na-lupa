@@ -1,0 +1,1078 @@
+[
+  {
+    "slug": "electrolux-maxcomfort-9000",
+    "nome": "Split Electrolux MaxComfort Inverter Frio 9.000 BTUs (NI09F/NE09F)",
+    "marca": "Electrolux",
+    "modelo": "NI09F/NE09F",
+    "categoria": "ar-condicionado",
+    "resumo": "Nove mil BTU para até 18 m², com a área declarada em campo próprio — o que só a linha MaxComfort faz nesta lista. É a única das seis Electrolux que não publica o ruído.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 9000,
+      "areaRecomendadaM2": "Entre 12 e 18 m²",
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "C",
+      "consumoKwhAno": 416.0,
+      "idrsWhWh": null,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 540,
+      "tipoCompressor": "Rotativo de velocidade variável (inverter)",
+      "wifi": null,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.5,
+      "dimensoesEvaporadoraMm": "299 × 768 × 200 mm (A × L × P)",
+      "garantiaMeses": 60,
+      "garantiaCompressorMeses": 120
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H5CSX7ZS"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-maxcomfort-9000.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-frio-9-000-btus-ni09f-ne09f/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-maxcomfort-9000-oficial",
+        "titulo": "Split Electrolux MaxComfort Inverter Frio 9.000 BTUs (NI09 — ficha oficial da loja Electrolux",
+        "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-frio-9-000-btus-ni09f-ne09f/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de refrigeração, área do ambiente recomendada, consumo de energia em kWh/ano, classificação energética, tipo de gás, tipo de compressor, vazão de ar declarada por velocidade, tensão, peso e medidas da unidade interna, garantia do produto de 5 anos e garantia do compressor de 10 anos, em campos separados. A vazão adotada é a da velocidade turbo, que é a maior publicada. O campo \"Eficiência EER\" não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-maxcomfort-9000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H5CSX7ZS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "idrsWhWh",
+        "valorDivergente": "Eficiência EER \"80%\"",
+        "observacao": "A ficha traz um campo **Eficiência EER** preenchido com **80%**. EER é uma razão entre energia de refrigeração e energia consumida, medida em Wh/Wh — um número em torno de 3, não uma porcentagem. E o mesmo campo, em outros modelos do catálogo da própria Electrolux, aparece preenchido com **\"550 W\"**, **\"350 W\"**, **\"3,24\"** e com a letra **\"A\"**: quatro formatos diferentes, um deles uma unidade de potência e outro uma faixa de etiqueta. O campo ficou vazio nesta ficha. Vale registrar também que o EER foi substituído pelo IDRS na etiqueta brasileira, então nem o valor certo seria comparável ao que a Midea publica.",
+        "fonteAdotada": "electrolux-maxcomfort-9000-oficial",
+        "fonteDivergente": "electrolux-maxcomfort-9000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-maxcomfort-12000",
+    "nome": "Split Electrolux MaxComfort Inverter Frio 12.000 BTUs (NI12F/NE12F)",
+    "marca": "Electrolux",
+    "modelo": "NI12F/NE12F",
+    "categoria": "ar-condicionado",
+    "resumo": "Doze mil BTU para até 23 m², 541 kWh por ano e 44 decibéis na unidade interna. Publica área, consumo e ruído, os três campos que a lista inteira não reúne.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 12000,
+      "areaRecomendadaM2": "Entre 16 e 23 m²",
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "C",
+      "consumoKwhAno": 541.0,
+      "idrsWhWh": null,
+      "ruidoDb": 44,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 650,
+      "tipoCompressor": "Rotativo de velocidade variável (inverter)",
+      "wifi": null,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.5,
+      "dimensoesEvaporadoraMm": "299 × 768 × 200 mm (A × L × P)",
+      "garantiaMeses": 60,
+      "garantiaCompressorMeses": 120
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H51W1L8W"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-maxcomfort-12000.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-frio-12-000-btus-ni12f-ne12f/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-maxcomfort-12000-oficial",
+        "titulo": "Split Electrolux MaxComfort Inverter Frio 12.000 BTUs (NI1 — ficha oficial da loja Electrolux",
+        "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-frio-12-000-btus-ni12f-ne12f/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de refrigeração, área do ambiente recomendada, consumo de energia em kWh/ano, classificação energética, tipo de gás, tipo de compressor, vazão de ar declarada por velocidade, tensão, peso e medidas da unidade interna, garantia do produto de 5 anos e garantia do compressor de 10 anos, em campos separados. A vazão adotada é a da velocidade turbo, que é a maior publicada. O campo \"Eficiência EER\" não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-maxcomfort-12000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H51W1L8W",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "idrsWhWh",
+        "valorDivergente": "Eficiência EER \"80%\"",
+        "observacao": "A ficha traz um campo **Eficiência EER** preenchido com **80%**. EER é uma razão entre energia de refrigeração e energia consumida, medida em Wh/Wh — um número em torno de 3, não uma porcentagem. E o mesmo campo, em outros modelos do catálogo da própria Electrolux, aparece preenchido com **\"550 W\"**, **\"350 W\"**, **\"3,24\"** e com a letra **\"A\"**: quatro formatos diferentes, um deles uma unidade de potência e outro uma faixa de etiqueta. O campo ficou vazio nesta ficha. Vale registrar também que o EER foi substituído pelo IDRS na etiqueta brasileira, então nem o valor certo seria comparável ao que a Midea publica.",
+        "fonteAdotada": "electrolux-maxcomfort-12000-oficial",
+        "fonteDivergente": "electrolux-maxcomfort-12000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-maxcomfort-18000",
+    "nome": "Electrolux MaxComfort Inverter Frio 18.000 BTUs (NI18F/NE18F)",
+    "marca": "Electrolux",
+    "modelo": "NI18F/NE18F",
+    "categoria": "ar-condicionado",
+    "resumo": "Dezoito mil BTU para até 35 m². Cinco anos de garantia no produto e dez no compressor, contra três anos da Elgin e noventa dias no campo de garantia da Midea.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 18000,
+      "areaRecomendadaM2": "Entre 24 e 35 m²",
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "C",
+      "consumoKwhAno": 810.0,
+      "idrsWhWh": null,
+      "ruidoDb": 50,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 950,
+      "tipoCompressor": "Rotativo de velocidade variável (inverter)",
+      "wifi": null,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 10.5,
+      "dimensoesEvaporadoraMm": "315 × 960 × 222 mm (A × L × P)",
+      "garantiaMeses": 60,
+      "garantiaCompressorMeses": 120
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H5CV388H"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-maxcomfort-18000.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/ar-condicionado-electrolux-maxcomfort-full-inverter-frio-18-000-btus-ni18f-ne18f/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-maxcomfort-18000-oficial",
+        "titulo": "Electrolux MaxComfort Inverter Frio 18.000 BTUs (NI18F/NE1 — ficha oficial da loja Electrolux",
+        "url": "https://loja.electrolux.com.br/ar-condicionado-electrolux-maxcomfort-full-inverter-frio-18-000-btus-ni18f-ne18f/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de refrigeração, área do ambiente recomendada, consumo de energia em kWh/ano, classificação energética, tipo de gás, tipo de compressor, vazão de ar declarada por velocidade, tensão, peso e medidas da unidade interna, garantia do produto de 5 anos e garantia do compressor de 10 anos, em campos separados. A vazão adotada é a da velocidade turbo, que é a maior publicada. O campo \"Eficiência EER\" não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-maxcomfort-18000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H5CV388H",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "idrsWhWh",
+        "valorDivergente": "Eficiência EER \"80%\"",
+        "observacao": "A ficha traz um campo **Eficiência EER** preenchido com **80%**. EER é uma razão entre energia de refrigeração e energia consumida, medida em Wh/Wh — um número em torno de 3, não uma porcentagem. E o mesmo campo, em outros modelos do catálogo da própria Electrolux, aparece preenchido com **\"550 W\"**, **\"350 W\"**, **\"3,24\"** e com a letra **\"A\"**: quatro formatos diferentes, um deles uma unidade de potência e outro uma faixa de etiqueta. O campo ficou vazio nesta ficha. Vale registrar também que o EER foi substituído pelo IDRS na etiqueta brasileira, então nem o valor certo seria comparável ao que a Midea publica.",
+        "fonteAdotada": "electrolux-maxcomfort-18000-oficial",
+        "fonteDivergente": "electrolux-maxcomfort-18000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-maxcomfort-23000",
+    "nome": "Split Electrolux MaxComfort Inverter Frio 23.000 BTUs (NI24F/NE24F)",
+    "marca": "Electrolux",
+    "modelo": "NI24F/NE24F",
+    "categoria": "ar-condicionado",
+    "resumo": "O modelo se chama NI24F e a ficha declara 23.000 BTU. Atende até 47 m², o maior desta lista, com 1.003 kWh por ano.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 23000,
+      "areaRecomendadaM2": "Entre 32 e 47 m²",
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "C",
+      "consumoKwhAno": 1003.0,
+      "idrsWhWh": null,
+      "ruidoDb": 50,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 1300,
+      "tipoCompressor": "Rotativo de velocidade variável (inverter)",
+      "wifi": null,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 10.5,
+      "dimensoesEvaporadoraMm": "315 × 960 × 222 mm (A × L × P)",
+      "garantiaMeses": 60,
+      "garantiaCompressorMeses": 120
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H51PLLXZ"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-maxcomfort-23000.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-frio-23-000-btus-ni24f-ne24f/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-maxcomfort-23000-oficial",
+        "titulo": "Split Electrolux MaxComfort Inverter Frio 23.000 BTUs (NI2 — ficha oficial da loja Electrolux",
+        "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-frio-23-000-btus-ni24f-ne24f/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de refrigeração, área do ambiente recomendada, consumo de energia em kWh/ano, classificação energética, tipo de gás, tipo de compressor, vazão de ar declarada por velocidade, tensão, peso e medidas da unidade interna, garantia do produto de 5 anos e garantia do compressor de 10 anos, em campos separados. A vazão adotada é a da velocidade turbo, que é a maior publicada. O campo \"Eficiência EER\" não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-maxcomfort-23000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H51PLLXZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "idrsWhWh",
+        "valorDivergente": "Eficiência EER \"80%\"",
+        "observacao": "A ficha traz um campo **Eficiência EER** preenchido com **80%**. EER é uma razão entre energia de refrigeração e energia consumida, medida em Wh/Wh — um número em torno de 3, não uma porcentagem. E o mesmo campo, em outros modelos do catálogo da própria Electrolux, aparece preenchido com **\"550 W\"**, **\"350 W\"**, **\"3,24\"** e com a letra **\"A\"**: quatro formatos diferentes, um deles uma unidade de potência e outro uma faixa de etiqueta. O campo ficou vazio nesta ficha. Vale registrar também que o EER foi substituído pelo IDRS na etiqueta brasileira, então nem o valor certo seria comparável ao que a Midea publica.",
+        "fonteAdotada": "electrolux-maxcomfort-23000-oficial",
+        "fonteDivergente": "electrolux-maxcomfort-23000-oficial"
+      },
+      {
+        "campo": "capacidadeBtus",
+        "valorDivergente": "Modelo NI24F/NE24F",
+        "observacao": "O código do modelo é **NI24F/NE24F** e a ficha declara **23.000 BTU/h**. O anúncio na Amazon também diz 23.000 BTUs e repete o código NI24F. O \"24\" do nome sugere 24.000, que é a capacidade comercial padrão dessa faixa, e a capacidade declarada é mil BTU menor. A ficha adota o valor da tabela técnica, que é o que o fabricante afirma sobre o desempenho; o nome do modelo fica registrado aqui porque é por ele que se confere se o anúncio corresponde ao produto.",
+        "fonteAdotada": "electrolux-maxcomfort-23000-oficial",
+        "fonteDivergente": "electrolux-maxcomfort-23000-amazon"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-maxcomfort-18000-qf",
+    "nome": "Split Electrolux MaxComfort Inverter Quente/Frio 18.000 BTUs (NI18R/NE18",
+    "marca": "Electrolux",
+    "modelo": "NI18R/NE18R",
+    "categoria": "ar-condicionado",
+    "resumo": "Ciclo quente e frio para até 35 m², com 803 kWh por ano — sete a menos que a versão só frio de mesma capacidade, o que é contraintuitivo e está declarado.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 18000,
+      "areaRecomendadaM2": "Entre 24 e 35 m²",
+      "ciclo": "Quente e Frio",
+      "classificacaoEnergetica": "C",
+      "consumoKwhAno": 803.0,
+      "idrsWhWh": null,
+      "ruidoDb": 50,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 950,
+      "tipoCompressor": "Rotativo de velocidade variável (inverter)",
+      "wifi": null,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 10.5,
+      "dimensoesEvaporadoraMm": "315 × 960 × 222 mm (A × L × P)",
+      "garantiaMeses": 60,
+      "garantiaCompressorMeses": 120
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H522H54K"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-maxcomfort-18000-qf.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-quente-frio-18-000-btus-ni18r-ne18r/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-maxcomfort-18000-qf-oficial",
+        "titulo": "Split Electrolux MaxComfort Inverter Quente/Frio 18.000 BT — ficha oficial da loja Electrolux",
+        "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-quente-frio-18-000-btus-ni18r-ne18r/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de refrigeração, área do ambiente recomendada, consumo de energia em kWh/ano, classificação energética, tipo de gás, tipo de compressor, vazão de ar declarada por velocidade, tensão, peso e medidas da unidade interna, garantia do produto de 5 anos e garantia do compressor de 10 anos, em campos separados. A vazão adotada é a da velocidade turbo, que é a maior publicada. O campo \"Eficiência EER\" não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-maxcomfort-18000-qf-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H522H54K",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "idrsWhWh",
+        "valorDivergente": "Eficiência EER \"80%\"",
+        "observacao": "A ficha traz um campo **Eficiência EER** preenchido com **80%**. EER é uma razão entre energia de refrigeração e energia consumida, medida em Wh/Wh — um número em torno de 3, não uma porcentagem. E o mesmo campo, em outros modelos do catálogo da própria Electrolux, aparece preenchido com **\"550 W\"**, **\"350 W\"**, **\"3,24\"** e com a letra **\"A\"**: quatro formatos diferentes, um deles uma unidade de potência e outro uma faixa de etiqueta. O campo ficou vazio nesta ficha. Vale registrar também que o EER foi substituído pelo IDRS na etiqueta brasileira, então nem o valor certo seria comparável ao que a Midea publica.",
+        "fonteAdotada": "electrolux-maxcomfort-18000-qf-oficial",
+        "fonteDivergente": "electrolux-maxcomfort-18000-qf-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-maxcomfort-23000-qf",
+    "nome": "Split Electrolux MaxComfort Inverter Quente/Frio 23.000 BTUs (NI24R/NE24",
+    "marca": "Electrolux",
+    "modelo": "NI24R/NE24R",
+    "categoria": "ar-condicionado",
+    "resumo": "Quente e frio para até 47 m². Gasta 28 kWh por ano a mais que a versão só frio da mesma capacidade, e é a única diferença declarada entre as duas.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 23000,
+      "areaRecomendadaM2": "Entre 32 e 47 m²",
+      "ciclo": "Quente e Frio",
+      "classificacaoEnergetica": "C",
+      "consumoKwhAno": 1031.0,
+      "idrsWhWh": null,
+      "ruidoDb": 50,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 1300,
+      "tipoCompressor": "Rotativo de velocidade variável (inverter)",
+      "wifi": null,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 10.5,
+      "dimensoesEvaporadoraMm": "315 × 960 × 222 mm (A × L × P)",
+      "garantiaMeses": 60,
+      "garantiaCompressorMeses": 120
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H51NGRB4"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-maxcomfort-23000-qf.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-quente-frio-23-000-btus-ni24r-ne24r/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-maxcomfort-23000-qf-oficial",
+        "titulo": "Split Electrolux MaxComfort Inverter Quente/Frio 23.000 BT — ficha oficial da loja Electrolux",
+        "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-quente-frio-23-000-btus-ni24r-ne24r/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade total de refrigeração, área do ambiente recomendada, consumo de energia em kWh/ano, classificação energética, tipo de gás, tipo de compressor, vazão de ar declarada por velocidade, tensão, peso e medidas da unidade interna, garantia do produto de 5 anos e garantia do compressor de 10 anos, em campos separados. A vazão adotada é a da velocidade turbo, que é a maior publicada. O campo \"Eficiência EER\" não foi adotado: ver a divergência.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "electrolux-maxcomfort-23000-qf-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H51NGRB4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "idrsWhWh",
+        "valorDivergente": "Eficiência EER \"80%\"",
+        "observacao": "A ficha traz um campo **Eficiência EER** preenchido com **80%**. EER é uma razão entre energia de refrigeração e energia consumida, medida em Wh/Wh — um número em torno de 3, não uma porcentagem. E o mesmo campo, em outros modelos do catálogo da própria Electrolux, aparece preenchido com **\"550 W\"**, **\"350 W\"**, **\"3,24\"** e com a letra **\"A\"**: quatro formatos diferentes, um deles uma unidade de potência e outro uma faixa de etiqueta. O campo ficou vazio nesta ficha. Vale registrar também que o EER foi substituído pelo IDRS na etiqueta brasileira, então nem o valor certo seria comparável ao que a Midea publica.",
+        "fonteAdotada": "electrolux-maxcomfort-23000-qf-oficial",
+        "fonteDivergente": "electrolux-maxcomfort-23000-qf-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "midea-ecomaster-9000",
+    "nome": "Split 9000 BTUs Inverter AI Ecomaster Frio Midea",
+    "marca": "Midea",
+    "categoria": "ar-condicionado",
+    "resumo": "Publica o IDRS, o índice sazonal do INMETRO: 7,60 Wh por Wh. É a medida oficial de eficiência, e nenhuma outra marca desta lista publica.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 9000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": 286.8,
+      "idrsWhWh": 7.6,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 751,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.0,
+      "dimensoesEvaporadoraMm": "286 × 723 × 199 mm (A × L × P)",
+      "garantiaMeses": 24,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F9HDVB86"
+    },
+    "imagem": {
+      "src": "/produtos/midea-ecomaster-9000.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/ar-condicionado-9000-btus-inverter-ai-ecomaster-frio-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-ecomaster-9000-oficial",
+        "titulo": "Split 9000 BTUs Inverter AI Ecomaster Frio Midea — ficha oficial da Midea Brasil",
+        "url": "https://www.midea.com.br/ar-condicionado-9000-btus-inverter-ai-ecomaster-frio-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade, ciclo, classificação energética, consumo de energia em kWh/ano, IDRS em Wh/Wh, fluido refrigerante, compressor, vazão de ar, tensão, produto conectado, peso e medidas da evaporadora e da condensadora em campos separados. A garantia aparece em dois campos: \"Garantia do Produto: 90 dias (Prazo Legal)\" e \"Garantia Estendida ou Adicional: três meses de prazo legal mais vinte e um meses de garantia estendida, totalizando 2 anos de garantia\" — a ficha adota os 24 meses, que é o prazo que a marca diz entregar. Não publica área do ambiente nem nível de ruído. A foto principal da página traz o nome de arquivo do modelo de 12.000 BTU (38EZVCA12M5), inclusive nas páginas dos modelos de 9.000 e 18.000 — a mesma imagem serve a capacidades diferentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "midea-ecomaster-9000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F9HDVB86",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "garantiaCompressorMeses",
+        "valorDivergente": "Selo \"10 ANOS DE GARANTIA NO COMPRESSOR\" no produto",
+        "observacao": "A **foto oficial da Midea** mostra um selo colado na unidade interna e outro na externa com os dizeres \"10 anos de garantia no compressor\". A tabela técnica da mesma página declara \"Garantia do Produto: 90 dias (Prazo Legal)\" e, em campo separado, 21 meses de garantia estendida que totalizam 2 anos — e **não traz campo nenhum de garantia do compressor**. O campo ficou vazio nesta ficha: ler um prazo de garantia a partir de um adesivo numa fotografia seria trocar a fonte pela nossa interpretação, e é justamente o tipo de número que precisa estar escrito para valer. A Electrolux, na mesma lista, declara os dez anos de compressor em campo próprio.",
+        "fonteAdotada": "midea-ecomaster-9000-oficial",
+        "fonteDivergente": "midea-ecomaster-9000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "midea-ecomaster-9000-qf",
+    "nome": "Split 9000 BTUs Inverter AI Ecomaster Q/F Midea",
+    "marca": "Midea",
+    "categoria": "ar-condicionado",
+    "resumo": "Mesmos 7,60 de IDRS e 286,8 kWh por ano da versão só frio, com 48 m³/h a menos de vazão. A ficha não diz quanto consome no modo quente.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 9000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Quente e Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": 286.8,
+      "idrsWhWh": 7.6,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 703,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.2,
+      "dimensoesEvaporadoraMm": "286 × 723 × 199 mm (A × L × P)",
+      "garantiaMeses": 24,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F9X9D1TQ"
+    },
+    "imagem": {
+      "src": "/produtos/midea-ecomaster-9000-qf.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/ar-condicionado-9000-btus-inverter-ai-ecomaster-quente-e-frio-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-ecomaster-9000-qf-oficial",
+        "titulo": "Split 9000 BTUs Inverter AI Ecomaster Q/F Midea — ficha oficial da Midea Brasil",
+        "url": "https://www.midea.com.br/ar-condicionado-9000-btus-inverter-ai-ecomaster-quente-e-frio-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade, ciclo, classificação energética, consumo de energia em kWh/ano, IDRS em Wh/Wh, fluido refrigerante, compressor, vazão de ar, tensão, produto conectado, peso e medidas da evaporadora e da condensadora em campos separados. A garantia aparece em dois campos: \"Garantia do Produto: 90 dias (Prazo Legal)\" e \"Garantia Estendida ou Adicional: três meses de prazo legal mais vinte e um meses de garantia estendida, totalizando 2 anos de garantia\" — a ficha adota os 24 meses, que é o prazo que a marca diz entregar. Não publica área do ambiente nem nível de ruído. A foto principal da página traz o nome de arquivo do modelo de 12.000 BTU (38EZVCA12M5), inclusive nas páginas dos modelos de 9.000 e 18.000 — a mesma imagem serve a capacidades diferentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "midea-ecomaster-9000-qf-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F9X9D1TQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "garantiaCompressorMeses",
+        "valorDivergente": "Selo \"10 ANOS DE GARANTIA NO COMPRESSOR\" no produto",
+        "observacao": "A **foto oficial da Midea** mostra um selo colado na unidade interna e outro na externa com os dizeres \"10 anos de garantia no compressor\". A tabela técnica da mesma página declara \"Garantia do Produto: 90 dias (Prazo Legal)\" e, em campo separado, 21 meses de garantia estendida que totalizam 2 anos — e **não traz campo nenhum de garantia do compressor**. O campo ficou vazio nesta ficha: ler um prazo de garantia a partir de um adesivo numa fotografia seria trocar a fonte pela nossa interpretação, e é justamente o tipo de número que precisa estar escrito para valer. A Electrolux, na mesma lista, declara os dez anos de compressor em campo próprio.",
+        "fonteAdotada": "midea-ecomaster-9000-qf-oficial",
+        "fonteDivergente": "midea-ecomaster-9000-qf-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "midea-ecomaster-12000",
+    "nome": "Split 12000 BTUs Inverter AI Ecomaster Frio Midea",
+    "marca": "Midea",
+    "categoria": "ar-condicionado",
+    "resumo": "O campo de IDRS desta ficha traz 382,5, que é um valor de consumo anual e não um índice — e o campo de consumo ficou vazio. Os dois trocaram de lugar.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 12000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": null,
+      "idrsWhWh": null,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 826,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.5,
+      "dimensoesEvaporadoraMm": "286 × 723 × 199 mm (A × L × P)",
+      "garantiaMeses": 24,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FCSVKFBV"
+    },
+    "imagem": {
+      "src": "/produtos/midea-ecomaster-12000.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/ar-condicionado-split-12000-btus-inverter-ai-ecomaster-frio-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-ecomaster-12000-oficial",
+        "titulo": "Split 12000 BTUs Inverter AI Ecomaster Frio Midea — ficha oficial da Midea Brasil",
+        "url": "https://www.midea.com.br/ar-condicionado-split-12000-btus-inverter-ai-ecomaster-frio-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade, ciclo, classificação energética, consumo de energia em kWh/ano, IDRS em Wh/Wh, fluido refrigerante, compressor, vazão de ar, tensão, produto conectado, peso e medidas da evaporadora e da condensadora em campos separados. A garantia aparece em dois campos: \"Garantia do Produto: 90 dias (Prazo Legal)\" e \"Garantia Estendida ou Adicional: três meses de prazo legal mais vinte e um meses de garantia estendida, totalizando 2 anos de garantia\" — a ficha adota os 24 meses, que é o prazo que a marca diz entregar. Não publica área do ambiente nem nível de ruído. A foto principal da página traz o nome de arquivo do modelo de 12.000 BTU (38EZVCA12M5), inclusive nas páginas dos modelos de 9.000 e 18.000 — a mesma imagem serve a capacidades diferentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "midea-ecomaster-12000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FCSVKFBV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "idrsWhWh",
+        "valorDivergente": "IDRS \"382,5\"",
+        "observacao": "O campo **Índice de Desempenho de Resfriamento Sazonal — IDRS (Wh/Wh)** desta ficha traz **382,5**. IDRS é uma razão e fica entre 3 e 8 nos outros modelos da mesma marca, que declaram 7,60. O número 382,5 é da mesma ordem dos consumos anuais em kWh publicados pela Midea nesta faixa — e o campo de consumo desta ficha está **vazio**. Os dois trocaram de lugar. Os dois campos ficaram em branco: preencher o consumo com um valor tirado do campo errado seria adivinhar qual dos dois está certo.",
+        "fonteAdotada": "midea-ecomaster-12000-oficial",
+        "fonteDivergente": "midea-ecomaster-12000-oficial"
+      },
+      {
+        "campo": "garantiaCompressorMeses",
+        "valorDivergente": "Selo \"10 ANOS DE GARANTIA NO COMPRESSOR\" no produto",
+        "observacao": "A **foto oficial da Midea** mostra um selo colado na unidade interna e outro na externa com os dizeres \"10 anos de garantia no compressor\". A tabela técnica da mesma página declara \"Garantia do Produto: 90 dias (Prazo Legal)\" e, em campo separado, 21 meses de garantia estendida que totalizam 2 anos — e **não traz campo nenhum de garantia do compressor**. O campo ficou vazio nesta ficha: ler um prazo de garantia a partir de um adesivo numa fotografia seria trocar a fonte pela nossa interpretação, e é justamente o tipo de número que precisa estar escrito para valer. A Electrolux, na mesma lista, declara os dez anos de compressor em campo próprio.",
+        "fonteAdotada": "midea-ecomaster-12000-oficial",
+        "fonteDivergente": "midea-ecomaster-12000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "midea-ecomaster-18000",
+    "nome": "Split 18000 BTUs Inverter AI Ecomaster Frio Midea",
+    "marca": "Midea",
+    "categoria": "ar-condicionado",
+    "resumo": "Dezoito mil BTU com 573,7 kWh por ano e IDRS de 7,60, o mesmo do modelo de 9.000. Não publica ruído nem área, como nenhuma Midea da lista.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 18000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": 573.7,
+      "idrsWhWh": 7.6,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 975,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 10.1,
+      "dimensoesEvaporadoraMm": "308 × 975 × 218 mm (A × L × P)",
+      "garantiaMeses": 24,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F9LQ9G5N"
+    },
+    "imagem": {
+      "src": "/produtos/midea-ecomaster-18000.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/ar-condicionado-18000-btus-inverter-ai-ecomaster-frio-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-ecomaster-18000-oficial",
+        "titulo": "Split 18000 BTUs Inverter AI Ecomaster Frio Midea — ficha oficial da Midea Brasil",
+        "url": "https://www.midea.com.br/ar-condicionado-18000-btus-inverter-ai-ecomaster-frio-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade, ciclo, classificação energética, consumo de energia em kWh/ano, IDRS em Wh/Wh, fluido refrigerante, compressor, vazão de ar, tensão, produto conectado, peso e medidas da evaporadora e da condensadora em campos separados. A garantia aparece em dois campos: \"Garantia do Produto: 90 dias (Prazo Legal)\" e \"Garantia Estendida ou Adicional: três meses de prazo legal mais vinte e um meses de garantia estendida, totalizando 2 anos de garantia\" — a ficha adota os 24 meses, que é o prazo que a marca diz entregar. Não publica área do ambiente nem nível de ruído. A foto principal da página traz o nome de arquivo do modelo de 12.000 BTU (38EZVCA12M5), inclusive nas páginas dos modelos de 9.000 e 18.000 — a mesma imagem serve a capacidades diferentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "midea-ecomaster-18000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F9LQ9G5N",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "garantiaCompressorMeses",
+        "valorDivergente": "Selo \"10 ANOS DE GARANTIA NO COMPRESSOR\" no produto",
+        "observacao": "A **foto oficial da Midea** mostra um selo colado na unidade interna e outro na externa com os dizeres \"10 anos de garantia no compressor\". A tabela técnica da mesma página declara \"Garantia do Produto: 90 dias (Prazo Legal)\" e, em campo separado, 21 meses de garantia estendida que totalizam 2 anos — e **não traz campo nenhum de garantia do compressor**. O campo ficou vazio nesta ficha: ler um prazo de garantia a partir de um adesivo numa fotografia seria trocar a fonte pela nossa interpretação, e é justamente o tipo de número que precisa estar escrito para valer. A Electrolux, na mesma lista, declara os dez anos de compressor em campo próprio.",
+        "fonteAdotada": "midea-ecomaster-18000-oficial",
+        "fonteDivergente": "midea-ecomaster-18000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "midea-ecomaster-18000-qf",
+    "nome": "Split 18000 BTUs Inverter AI Ecomaster Q/F Midea",
+    "marca": "Midea",
+    "categoria": "ar-condicionado",
+    "resumo": "Quente e frio com 1.239 m³/h de vazão, a maior da lista. O consumo declarado é o mesmo da versão só frio, e a ficha não separa o modo quente.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 18000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Quente e Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": 573.7,
+      "idrsWhWh": 7.6,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 1239,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 10.1,
+      "dimensoesEvaporadoraMm": "308 × 975 × 218 mm (A × L × P)",
+      "garantiaMeses": 24,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FBHXZQJZ"
+    },
+    "imagem": {
+      "src": "/produtos/midea-ecomaster-18000-qf.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/ar-condicionado-18000-btus-inverter-ai-ecomaster-quente-e-frio-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-ecomaster-18000-qf-oficial",
+        "titulo": "Split 18000 BTUs Inverter AI Ecomaster Q/F Midea — ficha oficial da Midea Brasil",
+        "url": "https://www.midea.com.br/ar-condicionado-18000-btus-inverter-ai-ecomaster-quente-e-frio-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade, ciclo, classificação energética, consumo de energia em kWh/ano, IDRS em Wh/Wh, fluido refrigerante, compressor, vazão de ar, tensão, produto conectado, peso e medidas da evaporadora e da condensadora em campos separados. A garantia aparece em dois campos: \"Garantia do Produto: 90 dias (Prazo Legal)\" e \"Garantia Estendida ou Adicional: três meses de prazo legal mais vinte e um meses de garantia estendida, totalizando 2 anos de garantia\" — a ficha adota os 24 meses, que é o prazo que a marca diz entregar. Não publica área do ambiente nem nível de ruído. A foto principal da página traz o nome de arquivo do modelo de 12.000 BTU (38EZVCA12M5), inclusive nas páginas dos modelos de 9.000 e 18.000 — a mesma imagem serve a capacidades diferentes.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "midea-ecomaster-18000-qf-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FBHXZQJZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "garantiaCompressorMeses",
+        "valorDivergente": "Selo \"10 ANOS DE GARANTIA NO COMPRESSOR\" no produto",
+        "observacao": "A **foto oficial da Midea** mostra um selo colado na unidade interna e outro na externa com os dizeres \"10 anos de garantia no compressor\". A tabela técnica da mesma página declara \"Garantia do Produto: 90 dias (Prazo Legal)\" e, em campo separado, 21 meses de garantia estendida que totalizam 2 anos — e **não traz campo nenhum de garantia do compressor**. O campo ficou vazio nesta ficha: ler um prazo de garantia a partir de um adesivo numa fotografia seria trocar a fonte pela nossa interpretação, e é justamente o tipo de número que precisa estar escrito para valer. A Electrolux, na mesma lista, declara os dez anos de compressor em campo próprio.",
+        "fonteAdotada": "midea-ecomaster-18000-qf-oficial",
+        "fonteDivergente": "midea-ecomaster-18000-qf-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-eco-3-9000",
+    "nome": "High Wall Eco Inverter 3 WiFi - 9.000 BTU/H Frio 220V",
+    "marca": "Elgin",
+    "categoria": "ar-condicionado",
+    "resumo": "Três anos de garantia, o dobro do que a maioria do mercado oferece. Não publica consumo, nem ruído, nem área — e declara a mesma vazão dos modelos de 12.000 da mesma linha.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 9000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": null,
+      "idrsWhWh": null,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 600,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.4,
+      "dimensoesEvaporadoraMm": "295 × 755 × 200 mm (A × L × P)",
+      "garantiaMeses": 36,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GNZRSP66"
+    },
+    "imagem": {
+      "src": "/produtos/elgin-eco-3-9000.webp",
+      "credito": "Divulgação/Elgin",
+      "origem": "https://www.elgin.com.br/ar-condicionado-high-wall-eco-inverter-3-wifi-9000-btuh-frio-220v/p"
+    },
+    "fontes": [
+      {
+        "id": "elgin-eco-3-9000-oficial",
+        "titulo": "High Wall Eco Inverter 3 WiFi - 9.000 BTU/H Frio 220V — ficha oficial da Elgin",
+        "url": "https://www.elgin.com.br/ar-condicionado-high-wall-eco-inverter-3-wifi-9000-btuh-frio-220v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade em BTUs, ciclo, gás, faixa INMETRO, vazão de ar, dimensões e peso separados por unidade interna e externa, garantia total de 3 anos, voltagem, WiFi e tecnologia inverter. Não publica consumo em kWh/ano, nem IDRS, nem área do ambiente recomendada.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-eco-3-9000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GNZRSP66",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "vazaoM3h",
+        "valorDivergente": "Mesmos 600 m³/h em três capacidades",
+        "observacao": "A Elgin declara **600 m³/h** de vazão de ar nesta ficha e também nas de 12.000 BTU só frio e 12.000 BTU quente e frio da mesma linha Eco Inverter 3 — três capacidades diferentes com o mesmo número. Um aparelho de 12.000 BTU que movesse o mesmo ar que um de 9.000 teria de resfriá-lo mais, e a ficha não afirma isso em lugar nenhum. O valor foi adotado como está publicado, porque não é impossível e a marca não oferece outro; a coincidência fica registrada porque ela sugere um valor padrão de catálogo, não uma medição por modelo. Na mesma marca, a linha Eco Inverter II declara 921,74 m³/h no modelo de 18.000 — um número com duas casas decimais, que não parece padrão de catálogo.",
+        "fonteAdotada": "elgin-eco-3-9000-oficial",
+        "fonteDivergente": "elgin-eco-3-9000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-eco-3-12000",
+    "nome": "High Wall Eco Inverter 3 WiFi - 12.000 BTU/H Frio 220V",
+    "marca": "Elgin",
+    "categoria": "ar-condicionado",
+    "resumo": "Doze mil BTU com 600 m³/h declarados, o mesmo valor do modelo de 9.000 da mesma linha. Três anos de garantia e nenhum número de consumo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 12000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": null,
+      "idrsWhWh": null,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 600,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.67,
+      "dimensoesEvaporadoraMm": "295 × 755 × 200 mm (A × L × P)",
+      "garantiaMeses": 36,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H6Y153G3"
+    },
+    "imagem": {
+      "src": "/produtos/elgin-eco-3-12000.webp",
+      "credito": "Divulgação/Elgin",
+      "origem": "https://www.elgin.com.br/ar-condicionado-high-wall-eco-inverter-3-wifi-12000-btuh-frio-220v-/p"
+    },
+    "fontes": [
+      {
+        "id": "elgin-eco-3-12000-oficial",
+        "titulo": "High Wall Eco Inverter 3 WiFi - 12.000 BTU/H Frio 220V — ficha oficial da Elgin",
+        "url": "https://www.elgin.com.br/ar-condicionado-high-wall-eco-inverter-3-wifi-12000-btuh-frio-220v-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade em BTUs, ciclo, gás, faixa INMETRO, vazão de ar, dimensões e peso separados por unidade interna e externa, garantia total de 3 anos, voltagem, WiFi e tecnologia inverter. Não publica consumo em kWh/ano, nem IDRS, nem área do ambiente recomendada.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-eco-3-12000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H6Y153G3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "vazaoM3h",
+        "valorDivergente": "Mesmos 600 m³/h em três capacidades",
+        "observacao": "A Elgin declara **600 m³/h** de vazão de ar nesta ficha e também nas de 12.000 BTU só frio e 12.000 BTU quente e frio da mesma linha Eco Inverter 3 — três capacidades diferentes com o mesmo número. Um aparelho de 12.000 BTU que movesse o mesmo ar que um de 9.000 teria de resfriá-lo mais, e a ficha não afirma isso em lugar nenhum. O valor foi adotado como está publicado, porque não é impossível e a marca não oferece outro; a coincidência fica registrada porque ela sugere um valor padrão de catálogo, não uma medição por modelo. Na mesma marca, a linha Eco Inverter II declara 921,74 m³/h no modelo de 18.000 — um número com duas casas decimais, que não parece padrão de catálogo.",
+        "fonteAdotada": "elgin-eco-3-12000-oficial",
+        "fonteDivergente": "elgin-eco-3-12000-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-eco-3-12000-qf",
+    "nome": "High Wall Eco Inverter 3 WiFi - 12.000 BTU/H Quente/Frio 220V",
+    "marca": "Elgin",
+    "categoria": "ar-condicionado",
+    "resumo": "Quente e frio com os mesmos 600 m³/h que a Elgin declara em três capacidades diferentes desta linha. Publica faixa A do INMETRO sem publicar o consumo que a sustenta.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 12000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Quente e Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": null,
+      "idrsWhWh": null,
+      "ruidoDb": null,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 600,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 7.6,
+      "dimensoesEvaporadoraMm": "295 × 755 × 200 mm (A × L × P)",
+      "garantiaMeses": 36,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GP1F45V4"
+    },
+    "imagem": {
+      "src": "/produtos/elgin-eco-3-12000-qf.webp",
+      "credito": "Divulgação/Elgin",
+      "origem": "https://www.elgin.com.br/ar-condicionado-high-wall-eco-inverter-3-wifi-12000-btuh-quentefrio-220v-/p"
+    },
+    "fontes": [
+      {
+        "id": "elgin-eco-3-12000-qf-oficial",
+        "titulo": "High Wall Eco Inverter 3 WiFi - 12.000 BTU/H Quente/Frio 2 — ficha oficial da Elgin",
+        "url": "https://www.elgin.com.br/ar-condicionado-high-wall-eco-inverter-3-wifi-12000-btuh-quentefrio-220v-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade em BTUs, ciclo, gás, faixa INMETRO, vazão de ar, dimensões e peso separados por unidade interna e externa, garantia total de 3 anos, voltagem, WiFi e tecnologia inverter. Não publica consumo em kWh/ano, nem IDRS, nem área do ambiente recomendada.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-eco-3-12000-qf-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GP1F45V4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "vazaoM3h",
+        "valorDivergente": "Mesmos 600 m³/h em três capacidades",
+        "observacao": "A Elgin declara **600 m³/h** de vazão de ar nesta ficha e também nas de 12.000 BTU só frio e 12.000 BTU quente e frio da mesma linha Eco Inverter 3 — três capacidades diferentes com o mesmo número. Um aparelho de 12.000 BTU que movesse o mesmo ar que um de 9.000 teria de resfriá-lo mais, e a ficha não afirma isso em lugar nenhum. O valor foi adotado como está publicado, porque não é impossível e a marca não oferece outro; a coincidência fica registrada porque ela sugere um valor padrão de catálogo, não uma medição por modelo. Na mesma marca, a linha Eco Inverter II declara 921,74 m³/h no modelo de 18.000 — um número com duas casas decimais, que não parece padrão de catálogo.",
+        "fonteAdotada": "elgin-eco-3-12000-qf-oficial",
+        "fonteDivergente": "elgin-eco-3-12000-qf-oficial"
+      }
+    ]
+  },
+  {
+    "slug": "elgin-eco-2-18000",
+    "nome": "Eco Inverter II Wi-Fi - 18.000 BTU/H Frio 220V Compatível com Alexa e Go",
+    "marca": "Elgin",
+    "categoria": "ar-condicionado",
+    "resumo": "A única Elgin da lista que publica ruído: 47 dB na unidade interna e 57 na externa. Também é a única com vazão que não é 600 — declara 921,74 m³/h.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Split Hi Wall",
+      "capacidadeBtus": 18000,
+      "areaRecomendadaM2": null,
+      "ciclo": "Só Frio",
+      "classificacaoEnergetica": "A",
+      "consumoKwhAno": null,
+      "idrsWhWh": null,
+      "ruidoDb": 47,
+      "gasRefrigerante": "R32",
+      "vazaoM3h": 922,
+      "tipoCompressor": "Inverter",
+      "wifi": true,
+      "tensao": "220 V",
+      "pesoEvaporadoraKg": 10.55,
+      "dimensoesEvaporadoraMm": "310 × 960 × 225 mm (A × L × P)",
+      "garantiaMeses": 36,
+      "garantiaCompressorMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GQHM5MGS"
+    },
+    "imagem": {
+      "src": "/produtos/elgin-eco-2-18000.webp",
+      "credito": "Divulgação/Elgin",
+      "origem": "https://www.elgin.com.br/ar-condicionado-split-high-wall-eco-inverter-ii-18000-btus-frio-wifi-220v/p"
+    },
+    "fontes": [
+      {
+        "id": "elgin-eco-2-18000-oficial",
+        "titulo": "Eco Inverter II Wi-Fi - 18.000 BTU/H Frio 220V Compatível  — ficha oficial da Elgin",
+        "url": "https://www.elgin.com.br/ar-condicionado-split-high-wall-eco-inverter-ii-18000-btus-frio-wifi-220v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Capacidade em BTUs, ciclo, gás, faixa INMETRO, vazão de ar, dimensões e peso separados por unidade interna e externa, garantia total de 3 anos, voltagem, WiFi e tecnologia inverter. Não publica consumo em kWh/ano, nem IDRS, nem área do ambiente recomendada.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "inmetro-pbe-ar",
+        "titulo": "INMETRO — Programa Brasileiro de Etiquetagem, condicionadores de ar",
+        "url": "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem",
+        "tipo": "regulador",
+        "oQueSaiuDaqui": "Consultada para saber o que cada campo da etiqueta significa, e não para tirar número de produto. A classificação de A a G e o consumo anual em kWh que aparecem nas fichas vêm da Etiqueta Nacional de Conservação de Energia, medidos em regime padronizado de uso — não são a conta de luz de ninguém. O índice de eficiência que o programa usa hoje para condicionadores de ar é o IDRS, Índice de Desempenho de Resfriamento Sazonal, expresso em Wh/Wh; ele substituiu o EER, que media um ponto único de operação. Por isso um valor no campo \"EER\" não é comparável a um valor de IDRS.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-eco-2-18000-amazon",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GQHM5MGS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a capacidade, o ciclo e a tensão vendida. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  }
+]

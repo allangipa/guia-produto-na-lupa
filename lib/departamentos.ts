@@ -61,7 +61,8 @@ export const departamentos: Departamento[] = [
     nome: "Eletrodomésticos",
     descricao:
       "O aparelho grande da casa e o que cuida dela: refrigeração, lavagem, climatização e limpeza. A ficha dele importa mais, e costuma ser mais curta.",
-    categorias: ["geladeiras", "lavadoras", "lavaloucas", "microondas", "ventiladores",
+    categorias: ["geladeiras", "lavadoras", "lavaloucas", "microondas", "ar-condicionado",
+      "ventiladores",
       "ferros", "aspiradores", "lavadoras-alta-pressao", "secadores",
       "escovas-secadoras"],
   },
