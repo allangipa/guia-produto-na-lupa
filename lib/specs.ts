@@ -3767,6 +3767,184 @@ export const camposEscovaSecadora: Campo[] = [
   },
 ];
 
+/**
+ * Mixer de mao: o motor com haste que vai dentro da panela.
+ *
+ * NAO e batedeira. A batedeira tem tigela propria, fica parada na bancada e se
+ * mede em litros de tigela e em quilos de farinha; o mixer e segurado na mao e
+ * se mede em quanto cabe no copo que o acompanha. Os dois dividem o mesmo no
+ * do ranking da Amazon e nao tem um campo em comum.
+ *
+ * O par `capacidadeCopoTotalMl` / `capacidadeCopoUtilMl` e o eixo da categoria,
+ * e existe porque so uma marca publica os dois.
+ */
+export const camposMixer: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Mixer simples, com copo, ou com processador e batedor de claras junto — o que os anúncios chamam de \"3 em 1\" e \"5 em 1\".",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaW",
+    rotulo: "Potência",
+    grupo: "Motor",
+    tipo: "numero",
+    unidade: "W",
+    filtro: "faixa",
+    ajuda:
+      "O número da caixa. Nesta categoria ele varia de verdade, de 200 a 1.000 W — diferente da escova secadora, em que quase todas declaram o mesmo valor.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "velocidades",
+    rotulo: "Velocidades",
+    grupo: "Motor",
+    tipo: "numero",
+    filtro: "faixa",
+    ajuda:
+      "Quantas posições o seletor tem. Metade das fichas da base declara uma só, que é o mesmo que dizer que não há seletor.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "funcaoTurbo",
+    rotulo: "Função turbo",
+    grupo: "Motor",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "O botão que leva o motor ao máximo enquanto estiver pressionado. Num aparelho de uma velocidade só, é ele que faz o papel da segunda.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeCopoTotalMl",
+    rotulo: "Copo: capacidade total",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "ml",
+    filtro: "faixa",
+    ajuda:
+      "O volume do copo até a borda. É o número que vai no anúncio — \"copo de 1.050 ml\" — e não é o que dá para usar.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "capacidadeCopoUtilMl",
+    rotulo: "Copo: capacidade útil",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "ml",
+    filtro: "faixa",
+    ajuda:
+      "Quanto cabe de verdade com a haste dentro, sem espirrar. Uma marca em cinco publica este número, e onde ele existe é cerca de um quarto menor que o total.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "processadorMl",
+    rotulo: "Processador",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "ml",
+    filtro: "faixa",
+    ajuda:
+      "O volume da jarra de processar, quando ela acompanha. É o acessório que transforma o \"2 em 1\" em \"3 em 1\".",
+    contaTransparencia: true,
+  },
+  {
+    chave: "batedorClaras",
+    rotulo: "Batedor de claras",
+    grupo: "O que vem junto",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "O fouet, que é o arame em forma de balão. É o terceiro item do \"3 em 1\" na maioria das linhas.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "hasteRemovivel",
+    rotulo: "Haste removível",
+    grupo: "Construção",
+    tipo: "booleano",
+    filtro: "opcoes",
+    ajuda:
+      "Se a haste sai do motor, para lavar. Num aparelho que entra em panela quente, é a diferença entre lavar a haste e passar pano no motor.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialHaste",
+    rotulo: "Material da haste",
+    grupo: "Construção",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Inox ou plástico. Haste de plástico em panela no fogo é o limite de uso que quase nenhuma ficha declara.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "materialLaminas",
+    rotulo: "Material das lâminas",
+    grupo: "Construção",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Quase toda ficha responde \"aço inox\", e é por isso que o campo separa pouco — mas a ausência dele, quando aparece, é significativa.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comprimentoCaboM",
+    rotulo: "Comprimento do cabo",
+    grupo: "Construção",
+    tipo: "numero",
+    unidade: "m",
+    filtro: "faixa",
+    ajuda:
+      "Quanto o fio alcança da tomada até a panela no fogão. Duas fichas da Mondial respondem \"não informado\", que é melhor que deixar em branco.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Construção",
+    tipo: "numero",
+    unidade: "kg",
+    filtro: "faixa",
+    ajuda:
+      "O aparelho fica na mão, apontado para baixo, enquanto o braço trabalha contra a resistência do alimento.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Construção",
+    tipo: "texto",
+    ajuda: "Altura, largura e profundidade do aparelho montado.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensao",
+    rotulo: "Tensão",
+    grupo: "Energia",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Bivolt ou uma tensão só. As sete fichas de mixer da Elgin trazem este campo preenchido com \"1 ano\", que é o prazo de garantia.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "meses",
+    filtro: "faixa",
+    ajuda: "Prazo declarado pelo fabricante.",
+    contaTransparencia: true,
+  },
+];
+
 export const camposVentilador: Campo[] = [
   {
     chave: "tipo",
@@ -4811,6 +4989,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   secadores: camposSecadorCabelo,
   "escovas-secadoras": camposEscovaSecadora,
   batedeiras: camposBatedeira,
+  mixers: camposMixer,
   energia: camposEnergia,
   armazenamento: camposArmazenamento,
   conectividade: camposRede,

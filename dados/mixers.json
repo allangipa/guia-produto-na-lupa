@@ -1,0 +1,1188 @@
+[
+  {
+    "slug": "mondial-m-15-b",
+    "nome": "Mondial Pratic M-15-B",
+    "marca": "Mondial",
+    "modelo": "M-15-B",
+    "categoria": "mixers",
+    "resumo": "350 W na ficha oficial e 200 W no anúncio da Amazon, para o mesmo modelo. Uma velocidade, haste desmontável e 580 g.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer de mão",
+      "potenciaW": 350,
+      "velocidades": 1,
+      "funcaoTurbo": false,
+      "capacidadeCopoTotalMl": null,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "PP",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": 1.0,
+      "pesoKg": 0.58,
+      "dimensoesMm": "355 × 60 × 65 mm (A × L × C)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09N4Y5XTT"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "mondial-m-15-b-oficial",
+        "valorDivergente": "200 W, nos anúncios da Amazon",
+        "fonteDivergente": "mondial-m-15-b-amazon",
+        "observacao": "A Mondial declara **350 W** na ficha oficial. Os três anúncios do M-15 na Amazon — preto 127 V, preto 220 V e vermelho — anunciam **200 W**. Ficou o número do fabricante, que é a fonte que este site adota; varejo não confirma nem corrige ficha. Fica registrado porque 150 W de diferença é 43% do aparelho."
+      },
+      {
+        "campo": "funcaoTurbo",
+        "fonteAdotada": "mondial-m-15-b-oficial",
+        "valorDivergente": "\"Botão liga-desliga: Não\" nas versões branca e vermelha",
+        "fonteDivergente": "mondial-m-15-b-oficial",
+        "observacao": "Esta ficha declara **\"Botão liga-desliga: Sim\"**. As fichas do M-15-W (branco) e do M-15-R (vermelho), que são o mesmo aparelho em outra cor e trazem todos os outros campos idênticos, declaram **\"Não\"**. Um mixer sem botão de liga-desliga não liga; as três fichas não podem estar certas ao mesmo tempo. O campo de liga-desliga não existe neste site, e a contradição fica registrada aqui porque ela mostra que as três cores foram preenchidas sem uma passar pela outra — a de ação do produto também diverge: esta diz \"bate e tritura\" e as outras duas dizem \"bater e misturar\"."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-m-15-b-oficial",
+        "titulo": "Mondial Pratic M-15-B — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/mixer-pratic-mondial-preto-350w-m-15-b/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "**350 W**, uma velocidade, lâminas em aço inox, corpo em PP, desmontável, sem botão turbo, cabo de 1 metro, 0,580 kg, 35,50 × 6,00 × 6,50 cm, 127V/220V e 1 ano de garantia. Os campos \"Tipo\" e \"Capacidade (L)\" trazem \"Não se aplica\" — este modelo não acompanha copo. A ação do produto é descrita como \"bate e tritura alimentos\".",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-m-15-b-amazon",
+        "titulo": "Mondial Pratic M-15-B — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09N4Y5XTT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"Mixer Pratic Design Ergonômico Mondial 200w M-15-B Preto - 127v\". A potência do anúncio diverge da oficial e está registrada como divergência. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-m-15-b.webp",
+      "alt": "Mixer Mondial Pratic M-15-B preto, de haste",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/mixer-pratic-mondial-preto-350w-m-15-b/p"
+    }
+  },
+  {
+    "slug": "mondial-m-15-r",
+    "nome": "Mondial Pratic M-15-R",
+    "marca": "Mondial",
+    "modelo": "M-15-R",
+    "categoria": "mixers",
+    "resumo": "O M-15 em vermelho, e a ficha dele declara \"botão liga-desliga: não\" onde a versão preta declara \"sim\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer de mão",
+      "potenciaW": 350,
+      "velocidades": 1,
+      "funcaoTurbo": false,
+      "capacidadeCopoTotalMl": null,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "PP",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": 1.0,
+      "pesoKg": 0.58,
+      "dimensoesMm": "355 × 60 × 65 mm (A × L × C)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09N55QYS7"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "mondial-m-15-r-oficial",
+        "valorDivergente": "200 W, no anúncio da Amazon",
+        "fonteDivergente": "mondial-m-15-r-amazon",
+        "observacao": "A Mondial declara 350 W e a Amazon anuncia o mesmo M-15-R com **200 W**. Ficou o número do fabricante. A ficha desta cor também declara **\"Botão liga-desliga: Não\"**, enquanto a do M-15-B declara \"Sim\", com todos os outros campos idênticos."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-m-15-r-oficial",
+        "titulo": "Mondial Pratic M-15-R — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/mixer-pratic-mondial-vermelho-350w-m-15-r/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "350 W, uma velocidade, lâminas em aço inox, corpo em PP, desmontável, **botão liga-desliga: Não**, sem botão turbo, cabo de 1 metro, 0,580 kg, 35,50 × 6,00 × 6,50 cm, 127V/220V e 1 ano de garantia. A ação do produto é descrita como \"bater e misturar alimentos\", contra \"bate e tritura\" na versão preta.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-m-15-r-amazon",
+        "titulo": "Mondial Pratic M-15-R — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09N55QYS7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a cor vendidos: \"MONDIAL Mixer Pratic, Vermelho, 200W, 110V - M-15-R\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-m-15-r.webp",
+      "alt": "Mixer Mondial Pratic M-15-R vermelho, de haste",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/mixer-pratic-mondial-vermelho-350w-m-15-r/p"
+    }
+  },
+  {
+    "slug": "mondial-m-14",
+    "nome": "Mondial Turbo 3 em 1 M-14",
+    "marca": "Mondial",
+    "modelo": "M-14",
+    "categoria": "mixers",
+    "resumo": "500 W com copo de 600 ml. Os campos \"Tipo\" e \"Tipo de lâminas\" desta ficha vêm preenchidos com um ponto final.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 500,
+      "velocidades": 1,
+      "funcaoTurbo": false,
+      "capacidadeCopoTotalMl": 600,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "PP",
+      "materialLaminas": null,
+      "comprimentoCaboM": 1.05,
+      "pesoKg": 1.1,
+      "dimensoesMm": "200 × 220 × 130 mm",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BZQCGBMN"
+    },
+    "divergencias": [
+      {
+        "campo": "tipo",
+        "fonteAdotada": "mondial-m-14-oficial",
+        "valorDivergente": "um ponto final, \".\"",
+        "fonteDivergente": "mondial-m-14-oficial",
+        "observacao": "Os campos **\"Tipo\"** e **\"Tipo de lâminas\"** desta ficha trazem o caractere \".\". As irmãs da mesma loja respondem \"Multiuso\" e \"Lâmina em Aço Inox\" nos mesmos campos. Campo preenchido com pontuação não é dado informado: é dado em falta com o espaço ocupado, e por isso os dois ficaram vazios. A Mondial faz o mesmo na batedeira BSP-01 e no secador SC-37-BI."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-m-14-oficial",
+        "titulo": "Mondial Turbo 3 em 1 M-14 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/mixer-turbo-3-em-1--mondial-preto-500w-m-14-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, uma velocidade, copo de 600 ml, corpo em PP, desmontável, sem botão turbo, cabo de 1,05 m, 1,10 kg, 20,00 × 22,00 × 13,00, 127V/220V e 1 ano de garantia. Os campos \"Tipo\" e \"Tipo de lâminas\" trazem um ponto final. Não declara capacidade útil do copo nem processador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-m-14-amazon",
+        "titulo": "Mondial Turbo 3 em 1 M-14 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BZQCGBMN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"MONDIAL Mixer Turbo 3 em 1, Preto, 500W, 110V - M-14\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-m-14.webp",
+      "alt": "Mixer Mondial Turbo 3 em 1 M-14 preto com copo",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/mixer-turbo-3-em-1--mondial-preto-500w-m-14-1/p"
+    }
+  },
+  {
+    "slug": "mondial-m-16-bi",
+    "nome": "Mondial Turbo Inox M-16-BI",
+    "marca": "Mondial",
+    "modelo": "M-16-BI",
+    "categoria": "mixers",
+    "resumo": "500 W com copo de 800 ml, haste de inox e botão turbo. O campo \"Tipo\" vem preenchido com um traço.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": null,
+      "potenciaW": 500,
+      "velocidades": 1,
+      "funcaoTurbo": true,
+      "capacidadeCopoTotalMl": 800,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "PP e inox",
+      "materialLaminas": "Inox",
+      "comprimentoCaboM": 1.0,
+      "pesoKg": 0.72,
+      "dimensoesMm": "375 × 65 × 65 mm (A × L × P)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D9KHRVS4"
+    },
+    "divergencias": [
+      {
+        "campo": "tipo",
+        "fonteAdotada": "mondial-m-16-bi-oficial",
+        "valorDivergente": "um traço, \"-\"",
+        "fonteDivergente": "mondial-m-16-bi-oficial",
+        "observacao": "O campo **\"Tipo\"** desta ficha traz o caractere \"-\". É o mesmo espaço em que o M-17-BI responde \"Mixer de Mão (Portátil)\" e o M-10 responde \"Multiuso\". Campo preenchido com pontuação não é dado informado, e o campo ficou vazio."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-m-16-bi-oficial",
+        "titulo": "Mondial Turbo Inox M-16-BI — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/mixer-turbo-inox-mondial-500w-m-16-bi/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, uma velocidade, botão turbo, copo de 800 ml, lâminas de inox, corpo em PP e inox, desmontável, cabo de 1 m, 0,720 kg, 37,50 × 6,50 × 6,50 cm, 127V/220V e 12 meses de garantia. O campo \"Tipo\" traz um traço. Não declara capacidade útil do copo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-m-16-bi-amazon",
+        "titulo": "Mondial Turbo Inox M-16-BI — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D9KHRVS4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"MONDIAL Mixer Turbo Inox, Preto/Inox, 500W, 110V - M-16-BI\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-m-16-bi.webp",
+      "alt": "Mixer Mondial Turbo Inox M-16-BI preto e inox",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/mixer-turbo-inox-mondial-500w-m-16-bi/p"
+    }
+  },
+  {
+    "slug": "mondial-m-18-bi",
+    "nome": "Mondial Turbo 3 em 1 M-18-BI",
+    "marca": "Mondial",
+    "modelo": "M-18-BI",
+    "categoria": "mixers",
+    "resumo": "O campo de velocidades desta ficha traz \"Função Turbo\" — uma função no lugar de um número. 500 W, quatro lâminas, 520 g.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 3 em 1",
+      "potenciaW": 500,
+      "velocidades": null,
+      "funcaoTurbo": true,
+      "capacidadeCopoTotalMl": 800,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "Inox",
+      "materialLaminas": "4 lâminas em inox",
+      "comprimentoCaboM": null,
+      "pesoKg": 0.52,
+      "dimensoesMm": "140 × 135 × 135 mm",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GVTZ9BJ8"
+    },
+    "divergencias": [
+      {
+        "campo": "velocidades",
+        "fonteAdotada": "mondial-m-18-bi-oficial",
+        "valorDivergente": "\"Função Turbo\"",
+        "fonteDivergente": "mondial-m-18-bi-oficial",
+        "observacao": "O campo **\"Velocidades\"** desta ficha traz **\"Função Turbo\"**, que é o nome de uma função e não uma contagem. As irmãs da mesma loja respondem \"01 velocidade\" ou \"2 velocidades\" no mesmo campo. O turbo já tem campo próprio nesta ficha, e vem \"Sim\" — então o valor não acrescenta nada e apaga a resposta que o campo pedia. Ficou vazio."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-m-18-bi-oficial",
+        "titulo": "Mondial Turbo 3 em 1 M-18-BI — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/mixer-m-18-bi-127v-60hz/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, copo de 800 ml, quatro lâminas em inox, haste de inox, desmontável, botão turbo, 0,52 kg, 14 × 13,5 × 13,5 cm, 127V/220V e 1 ano de garantia. O campo \"Velocidades\" traz \"Função Turbo\" e o de cabo traz \"Não informado\". Não declara capacidade útil do copo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-m-18-bi-amazon",
+        "titulo": "Mondial Turbo 3 em 1 M-18-BI — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GVTZ9BJ8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"MONDIAL, Mixer Turbo 3 em 1, Preto/Inox, 500W, 220V - M-18-BI\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-m-18-bi.webp",
+      "alt": "Mixer Mondial M-18-BI preto e inox com copo",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/mixer-m-18-bi-127v-60hz/p"
+    }
+  },
+  {
+    "slug": "mondial-m-07",
+    "nome": "Mondial Power Mixer Premium M-07",
+    "marca": "Mondial",
+    "modelo": "M-07",
+    "categoria": "mixers",
+    "resumo": "500 W com duas velocidades, turbo e copo de 800 ml. É o mais pesado dos Mondial da base, com 1,18 kg.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiuso",
+      "potenciaW": 500,
+      "velocidades": 2,
+      "funcaoTurbo": true,
+      "capacidadeCopoTotalMl": 800,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "PP e inox",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 1.18,
+      "dimensoesMm": "245 × 145 × 218 mm (A × L × P)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07574M6MR"
+    },
+    "fontes": [
+      {
+        "id": "mondial-m-07-oficial",
+        "titulo": "Mondial Power Mixer Premium M-07 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/power-mixer-premium-mondial-preto-inox-500w-m-07/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, **2 velocidades**, botão turbo, copo de 800 ml, lâmina em aço inox, corpo em PP e inox, desmontável, cabo de 1,50 m, 1,180 kg, 24,5 × 14,5 × 21,8 cm, 127V/220V e 1 ano de garantia. Não declara capacidade útil do copo nem processador.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-m-07-amazon",
+        "titulo": "Mondial Power Mixer Premium M-07 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07574M6MR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Mixer Power Premium Mondial Preto/inox 500w M-07-127v\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-m-07.webp",
+      "alt": "Mixer Mondial Power Premium M-07 preto e inox com copo",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/power-mixer-premium-mondial-preto-inox-500w-m-07/p"
+    }
+  },
+  {
+    "slug": "mondial-m-10",
+    "nome": "Mondial Power Mixer Premium M-10",
+    "marca": "Mondial",
+    "modelo": "M-10",
+    "categoria": "mixers",
+    "resumo": "O M-07 em vermelho: ficha idêntica campo a campo, 500 W, duas velocidades e copo de 800 ml.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Multiuso",
+      "potenciaW": 500,
+      "velocidades": 2,
+      "funcaoTurbo": true,
+      "capacidadeCopoTotalMl": 800,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "PP e inox",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": 1.5,
+      "pesoKg": 1.18,
+      "dimensoesMm": "245 × 145 × 218 mm (A × L × P)",
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076X7RQFQ"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "mondial-m-10-oficial",
+        "valorDivergente": "\"750W\" no endereço da página oficial",
+        "fonteDivergente": "mondial-m-10-oficial",
+        "observacao": "O endereço da página oficial deste produto é `power-mixer-premium-mondial-vermelho-inox-**750w**-m-10`, e o campo de potência da mesma página declara **500 W** — igual ao do irmão M-07, com quem ela divide todos os outros campos. O anúncio da Amazon também diz 500 W. Ficou o valor do campo; o 750 do endereço não aparece em lugar nenhum da ficha."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "mondial-m-10-oficial",
+        "titulo": "Mondial Power Mixer Premium M-10 — ficha oficial do fabricante",
+        "url": "https://www.mondial.com.br/power-mixer-premium-mondial-vermelho-inox-750w-m-10/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, 2 velocidades, botão turbo, copo de 800 ml, lâmina em aço inox, corpo em PP e inox, desmontável, cabo de 1,50 m, 1,180 kg, 24,5 × 14,5 × 21,8 cm, 127V/220V e 1 ano de garantia. O endereço da página traz \"750w\", que não aparece em campo nenhum.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "mondial-m-10-amazon",
+        "titulo": "Mondial Power Mixer Premium M-10 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076X7RQFQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Mixer MONDIAL, Power Red, 110V, 2 em 1, 500W - M-10\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/mondial-m-10.webp",
+      "alt": "Mixer Mondial Power Premium M-10 vermelho com copo",
+      "credito": "Imagem: Mondial",
+      "origem": "https://www.mondial.com.br/power-mixer-premium-mondial-vermelho-inox-750w-m-10/p"
+    }
+  },
+  {
+    "slug": "britania-bmx400p",
+    "nome": "Britânia Turbo 3 em 1 BMX400P",
+    "marca": "Britânia",
+    "modelo": "BMX400P",
+    "categoria": "mixers",
+    "resumo": "500 W com copo de 1050 ml declarado — e só o total. A Britânia publica o volume até a borda em todas as cinco fichas e a capacidade útil em nenhuma.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 3 em 1",
+      "potenciaW": 500,
+      "velocidades": 2,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": 1200,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": null,
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08YHR9C4S"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmx400p-oficial",
+        "titulo": "Britânia Turbo 3 em 1 BMX400P — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/mixer-britania-500w-turbo-3-em-1-bmx400p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, 2 velocidades, corpo desmontável, lâminas em aço inox, copo de 1050 ml e processador de 1200 ml, cor preto e 360 dias de garantia. **Não declara a capacidade útil do copo** — só o total. Também não declara peso, dimensões, comprimento de cabo, função turbo nem batedor de claras.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bmx400p-amazon",
+        "titulo": "Britânia Turbo 3 em 1 BMX400P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08YHR9C4S",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Mixer 3 em 1, 500W, 2 velocidades, Bmx400, Preto, 110v, Britânia\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmx400p.webp",
+      "alt": "Mixer Britânia BMX400P preto com copo e processador",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/mixer-britania-500w-turbo-3-em-1-bmx400p/p"
+    }
+  },
+  {
+    "slug": "britania-bmx40a",
+    "nome": "Britânia BMX40A",
+    "marca": "Britânia",
+    "modelo": "BMX40A",
+    "categoria": "mixers",
+    "resumo": "400 W com copo de 1050 ml declarado — e só o total. A Britânia publica o volume até a borda em todas as cinco fichas e a capacidade útil em nenhuma.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer com copo",
+      "potenciaW": 400,
+      "velocidades": 2,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": null,
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GT6VRS8G"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmx40a-oficial",
+        "titulo": "Britânia BMX40A — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/mixer-britania-bmx40a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "400 W, 2 velocidades, corpo desmontável, lâminas em aço inox, copo de 1050 ml, cor preto e 360 dias de garantia. **Não declara a capacidade útil do copo** — só o total. Também não declara peso, dimensões, comprimento de cabo, função turbo nem batedor de claras.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bmx40a-amazon",
+        "titulo": "Britânia BMX40A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GT6VRS8G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Mixer Britânia 2 Velocidades 400W BMX40A 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmx40a.webp",
+      "alt": "Mixer Britânia BMX40A preto, de haste",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/mixer-britania-bmx40a/p"
+    }
+  },
+  {
+    "slug": "britania-bmx355p",
+    "nome": "Britânia Inox Maxx BMX355P",
+    "marca": "Britânia",
+    "modelo": "BMX355P",
+    "categoria": "mixers",
+    "resumo": "350 W com copo de 1050 ml declarado — e só o total. A Britânia publica o volume até a borda em todas as cinco fichas e a capacidade útil em nenhuma.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer com copo",
+      "potenciaW": 350,
+      "velocidades": 1,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": null,
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B097KPB52F"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmx355p-oficial",
+        "titulo": "Britânia Inox Maxx BMX355P — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/mixer-britania-inox-maxx-bmx355p-350w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "350 W, 1 velocidade, corpo desmontável, lâminas em aço inox, copo de 1050 ml, cor preto e 360 dias de garantia. **Não declara a capacidade útil do copo** — só o total. Também não declara peso, dimensões, comprimento de cabo, função turbo nem batedor de claras.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bmx355p-amazon",
+        "titulo": "Britânia Inox Maxx BMX355P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B097KPB52F",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Britânia Mixer Inox Maxx BMX355P 350W 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmx355p.webp",
+      "alt": "Mixer Britânia Inox Maxx BMX355P preto com copo",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/mixer-britania-inox-maxx-bmx355p-350w/p"
+    }
+  },
+  {
+    "slug": "britania-bmx360",
+    "nome": "Britânia Pro Maxx 2 em 1 BMX360",
+    "marca": "Britânia",
+    "modelo": "BMX360",
+    "categoria": "mixers",
+    "resumo": "350 W com copo de 1050 ml declarado — e só o total. A Britânia publica o volume até a borda em todas as cinco fichas e a capacidade útil em nenhuma.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer com copo",
+      "potenciaW": 350,
+      "velocidades": 1,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": null,
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFM5SW5Q"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmx360-oficial",
+        "titulo": "Britânia Pro Maxx 2 em 1 BMX360 — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/mixer-britania-laminas-pro-maxx-2-em-1-350w-bmx360/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "350 W, 1 velocidade, corpo desmontável, lâminas em aço inox, copo de 1050 ml, cor preto e 360 dias de garantia. **Não declara a capacidade útil do copo** — só o total. Também não declara peso, dimensões, comprimento de cabo, função turbo nem batedor de claras.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bmx360-amazon",
+        "titulo": "Britânia Pro Maxx 2 em 1 BMX360 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CFM5SW5Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Mixer Britânia BMX360 2 em 1 350W\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmx360.webp",
+      "alt": "Mixer Britânia BMX360 preto com copo",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/mixer-britania-laminas-pro-maxx-2-em-1-350w-bmx360/p"
+    }
+  },
+  {
+    "slug": "britania-bmx350p",
+    "nome": "Britânia Pro Maxx BMX350P",
+    "marca": "Britânia",
+    "modelo": "BMX350P",
+    "categoria": "mixers",
+    "resumo": "350 W com copo de 1050 ml declarado — e só o total. A Britânia publica o volume até a borda em todas as cinco fichas e a capacidade útil em nenhuma.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer com copo",
+      "potenciaW": 350,
+      "velocidades": 1,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": null,
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B097KNL4X6"
+    },
+    "fontes": [
+      {
+        "id": "britania-bmx350p-oficial",
+        "titulo": "Britânia Pro Maxx BMX350P — ficha oficial do fabricante",
+        "url": "https://www.britania.com.br/mixer-britania-bmx350p-350w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "350 W, 1 velocidade, corpo desmontável, lâminas em aço inox, copo de 1050 ml, cor preto e 360 dias de garantia. **Não declara a capacidade útil do copo** — só o total. Também não declara peso, dimensões, comprimento de cabo, função turbo nem batedor de claras.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "britania-bmx350p-amazon",
+        "titulo": "Britânia Pro Maxx BMX350P — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B097KNL4X6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo vendido: \"Britânia Mixer BMX350P 3 em 1 Preto 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/britania-bmx350p.webp",
+      "alt": "Mixer Britânia BMX350P preto, de haste",
+      "credito": "Imagem: Britânia",
+      "origem": "https://www.britania.com.br/mixer-britania-bmx350p-350w/p"
+    }
+  },
+  {
+    "slug": "philco-pmxe01",
+    "nome": "Philco Inox PMXE01",
+    "marca": "Philco",
+    "modelo": "PMXE01",
+    "categoria": "mixers",
+    "resumo": "A única ficha da categoria que publica as duas capacidades do copo: 1.050 ml até a borda e 800 ml de útil. São 750 W.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer com copo",
+      "potenciaW": 750,
+      "velocidades": 2,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": 800,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "Inox",
+      "materialLaminas": "Inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CYQFGVFG"
+    },
+    "divergencias": [
+      {
+        "campo": "capacidadeCopoTotalMl",
+        "fonteAdotada": "philco-pmxe01-oficial",
+        "valorDivergente": "\"1050ml\" no nome do produto, sem o útil",
+        "fonteDivergente": "philco-pmxe01-oficial",
+        "observacao": "O copo deste aparelho tem **1050 ml até a borda e 800 ml de capacidade útil** — 24% a menos. O número do anúncio é o primeiro. A Philco é a única marca desta base que publica os dois; Britânia, Mondial e Elgin publicam só o total, com o mesmo copo de 1.050 ml. É o mesmo padrão que este site já achou na air fryer, onde o litro da caixa não é o do cesto, e no aspirador, onde o balde não é o que cabe de pó."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philco-pmxe01-oficial",
+        "titulo": "Philco Inox PMXE01 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/mixer-philco-inox-com-copo-1050ml-750w-pmxe01/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "750 W, 2 velocidades, corpo desmontável, lâminas de inox, **\"Capacidade Total: 1050ml / Capacidade Útil: 800ml\"**, cor preto e aço inox e 360 dias de garantia. É a única ficha desta base que publica as duas capacidades. Não declara peso, dimensões, cabo nem batedor de claras.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmxe01-amazon",
+        "titulo": "Philco Inox PMXE01 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CYQFGVFG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Mixer Philco PMXE01 Inox com Copo 750W 127V\". O título anuncia o copo como \"1050ml\", que é o total. Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmxe01.webp",
+      "alt": "Mixer Philco PMXE01 preto e inox com copo",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/mixer-philco-inox-com-copo-1050ml-750w-pmxe01/p"
+    }
+  },
+  {
+    "slug": "philco-pmx80a",
+    "nome": "Philco Velocidade Variável PMX80A",
+    "marca": "Philco",
+    "modelo": "PMX80A",
+    "categoria": "mixers",
+    "resumo": "Seis velocidades declaradas, o maior número da categoria — onde metade das fichas declara uma só. São 800 W.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer com copo",
+      "potenciaW": 800,
+      "velocidades": 6,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": null,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "Inox",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H8FNDLL8"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmx80a-oficial",
+        "titulo": "Philco Velocidade Variável PMX80A — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/mixer-philco-800w-velocidade-variavel-pmx80a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, **6 velocidades**, corpo desmontável, copo de 1,05 L, lâminas em aço inox, cor preto e aço inox e 360 dias de garantia. Esta ficha traz só o total do copo, diferente da PMXE01 e da PMX40A da mesma marca, que trazem total e útil. Não declara peso, dimensões nem cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmx80a-amazon",
+        "titulo": "Philco Velocidade Variável PMX80A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H8FNDLL8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo, a potência e as velocidades vendidas: \"Mixer Philco 3 em 1 com 6 Níveis de Velocidade 800W PMX80A 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmx80a.webp",
+      "alt": "Mixer Philco PMX80A preto e inox",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/mixer-philco-800w-velocidade-variavel-pmx80a/p"
+    }
+  },
+  {
+    "slug": "philco-pmx81a",
+    "nome": "Philco Velocity Pro Control PMX81A",
+    "marca": "Philco",
+    "modelo": "PMX81A",
+    "categoria": "mixers",
+    "resumo": "800 W, seis velocidades e processador de 1,15 L. A ficha traz só o total dos copos, ao contrário de duas irmãs da mesma marca.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 3 em 1",
+      "potenciaW": 800,
+      "velocidades": 6,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": 1150,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": "Inox",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H8FG5827"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmx81a-oficial",
+        "titulo": "Philco Velocity Pro Control PMX81A — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/mixer-philco-800w-3-em-1-velocity-pro-control-pmx81a/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, 6 velocidades, corpo desmontável, copo de 1,05 L e processador de 1,150 L, lâminas em aço inox e 360 dias de garantia. Traz só o total dos recipientes, enquanto a PMXE01 e a PMX40A da mesma marca trazem total e útil. Não declara peso, dimensões nem cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmx81a-amazon",
+        "titulo": "Philco Velocity Pro Control PMX81A — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H8FG5827",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Mixer Philco 3 em 1 Velocity Pro Control 800W PMX81A 127V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmx81a.webp",
+      "alt": "Mixer Philco PMX81A preto e inox com processador",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/mixer-philco-800w-3-em-1-velocity-pro-control-pmx81a/p"
+    }
+  },
+  {
+    "slug": "philco-pmx1000",
+    "nome": "Philco Pro Maxx PMX1000",
+    "marca": "Philco",
+    "modelo": "PMX1000",
+    "categoria": "mixers",
+    "resumo": "Copo de 950 ml total e 600 de útil, e jarra de 1,2 L total e 600 de útil. A jarra maior não rende mais que o copo.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 2 em 1",
+      "potenciaW": 500,
+      "velocidades": 2,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 950,
+      "capacidadeCopoUtilMl": 600,
+      "processadorMl": 1200,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": null,
+      "materialLaminas": "Inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFM7XGTQ"
+    },
+    "divergencias": [
+      {
+        "campo": "processadorMl",
+        "fonteAdotada": "philco-pmx1000-oficial",
+        "valorDivergente": "jarra de 1,2 L com 600 ml de útil",
+        "fonteDivergente": "philco-pmx1000-oficial",
+        "observacao": "A ficha declara **\"Jarra — Capacidade total de 1,2 litro e útil de 600ml\"**. São 50% do volume anunciado. E o copo do mixer, de 950 ml totais, tem **os mesmos 600 ml de útil** — a jarra, que é 26% maior por fora, não rende um mililitro a mais por dentro. O campo da jarra guarda o total, porque é o que a ficha chama de capacidade do processador, e o número útil está aqui."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "philco-pmx1000-oficial",
+        "titulo": "Philco Pro Maxx PMX1000 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/mixer-pmx1000-127v-053201029/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "500 W, 2 velocidades, quatro lâminas em inox, corpo desmontável, cor branco e 360 dias de garantia. O campo de capacidade traz **\"Copo — total de 950ml e útil de 600ml. Jarra — total de 1,2 litro e útil de 600ml\"**. Não declara peso, dimensões nem cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmx1000-amazon",
+        "titulo": "Philco Pro Maxx PMX1000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CFM7XGTQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Philco Mixer PMX1000 4 Lâminas Pro Maxx 2 e 1 500W 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmx1000.webp",
+      "alt": "Mixer Philco PMX1000 branco com copo e jarra",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/mixer-pmx1000-127v-053201029/p"
+    }
+  },
+  {
+    "slug": "philco-pmx2000",
+    "nome": "Philco 3 em 1 Inox PMX2000",
+    "marca": "Philco",
+    "modelo": "PMX2000",
+    "categoria": "mixers",
+    "resumo": "800 W com copo de 1.050 ml e jarra de 1,2 L. Esta ficha da Philco não traz o número de velocidades nem a capacidade útil.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 3 em 1",
+      "potenciaW": 800,
+      "velocidades": null,
+      "funcaoTurbo": null,
+      "capacidadeCopoTotalMl": 1050,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": 1200,
+      "batedorClaras": null,
+      "hasteRemovivel": true,
+      "materialHaste": null,
+      "materialLaminas": "Inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": "127 V ou 220 V",
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFM67MPS"
+    },
+    "fontes": [
+      {
+        "id": "philco-pmx2000-oficial",
+        "titulo": "Philco 3 em 1 Inox PMX2000 — ficha oficial do fabricante",
+        "url": "https://www.philco.com.br/mixer-pmx2000-127v-053201030/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "800 W, corpo desmontável, lâminas de inox, **\"Copo 1050 ml / Jarra 1,2L\"**, cor preto e 360 dias de garantia. **Não traz o campo de velocidades**, que as outras cinco Philco da base trazem, nem a capacidade útil, que duas delas trazem. Não declara peso, dimensões nem cabo.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "philco-pmx2000-amazon",
+        "titulo": "Philco 3 em 1 Inox PMX2000 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CFM67MPS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Philco Mixer PMX2000 3 em 1 Inox 800W 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/philco-pmx2000.webp",
+      "alt": "Mixer Philco PMX2000 preto e inox com copo e jarra",
+      "credito": "Imagem: Philco",
+      "origem": "https://www.philco.com.br/mixer-pmx2000-127v-053201030/p"
+    }
+  },
+  {
+    "slug": "elgin-power-inox-1000",
+    "nome": "Elgin Power Inox 3 em 1 1000W",
+    "marca": "Elgin",
+    "modelo": "Power Inox 3 em 1",
+    "categoria": "mixers",
+    "resumo": "1000 W com processador de 400 ml e batedor de claras na caixa. O campo de tensão desta ficha vem preenchido com \"1 ano\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 3 em 1",
+      "potenciaW": 1000,
+      "velocidades": null,
+      "funcaoTurbo": true,
+      "capacidadeCopoTotalMl": 800,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": 400,
+      "batedorClaras": true,
+      "hasteRemovivel": null,
+      "materialHaste": "Inox",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GXL3NV84"
+    },
+    "divergencias": [
+      {
+        "campo": "tensao",
+        "fonteAdotada": "elgin-power-inox-1000-oficial",
+        "valorDivergente": "campo \"Voltagem\" com \"1 ano\"",
+        "fonteDivergente": "elgin-power-inox-1000-oficial",
+        "observacao": "O campo **\"Voltagem\"** desta ficha traz **\"1 ano\"**, que é o prazo de garantia. **As sete fichas de mixer da Elgin trazem o mesmo valor no mesmo campo** — não é deslize de uma página, é o campo errado preenchido na linha inteira. Sem saber a tensão, o campo ficou vazio; o prazo de 12 meses foi adotado porque a própria Elgin o declara, ainda que no lugar errado. É o mesmo tipo de troca de campo que a GA.MA comete no iQ Lite Silver, cujo campo \"Plug\" traz as dimensões do produto."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "elgin-power-inox-1000-oficial",
+        "titulo": "Elgin Power Inox 3 em 1 1000W — ficha oficial do fabricante",
+        "url": "https://www.elgin.com.br/mixer-power-inox-3-em-1-mistura-tritura-e-bate-1000w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1000 W, seletor de velocidade, processador de 400 ml, copo dosador de 800 ml, batedor de claras (fouet), lâminas em aço inox, acabamento em inox, desligamento automático e função turbo. O campo \"Voltagem\" traz \"1 ano\". Não declara peso, dimensões, comprimento de cabo nem capacidade útil.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-power-inox-1000-amazon",
+        "titulo": "Elgin Power Inox 3 em 1 1000W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GXL3NV84",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Elgin Mixer Power Inox 3 em 1, 1000W, Aço Inox, com Processador e Batedor de Claras\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-power-inox-1000.webp",
+      "alt": "Mixer Elgin Power Inox 3 em 1 com processador e batedor de claras",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/mixer-power-inox-3-em-1-mistura-tritura-e-bate-1000w/p"
+    }
+  },
+  {
+    "slug": "elgin-power-inox-lunar",
+    "nome": "Elgin Power Inox Lunar 600W",
+    "marca": "Elgin",
+    "modelo": "MIX3G",
+    "categoria": "mixers",
+    "resumo": "600 W com processador de 400 ml e batedor de claras na caixa. O campo de tensão desta ficha vem preenchido com \"1 ano\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 3 em 1",
+      "potenciaW": 600,
+      "velocidades": 2,
+      "funcaoTurbo": true,
+      "capacidadeCopoTotalMl": 700,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": 400,
+      "batedorClaras": true,
+      "hasteRemovivel": null,
+      "materialHaste": "Inox",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DCKDXPV6"
+    },
+    "divergencias": [
+      {
+        "campo": "tensao",
+        "fonteAdotada": "elgin-power-inox-lunar-oficial",
+        "valorDivergente": "campo \"Voltagem\" com \"1 ano\"",
+        "fonteDivergente": "elgin-power-inox-lunar-oficial",
+        "observacao": "O campo **\"Voltagem\"** desta ficha traz **\"1 ano\"**, que é o prazo de garantia. **As sete fichas de mixer da Elgin trazem o mesmo valor no mesmo campo** — não é deslize de uma página, é o campo errado preenchido na linha inteira. Sem saber a tensão, o campo ficou vazio; o prazo de 12 meses foi adotado porque a própria Elgin o declara, ainda que no lugar errado. É o mesmo tipo de troca de campo que a GA.MA comete no iQ Lite Silver, cujo campo \"Plug\" traz as dimensões do produto."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "elgin-power-inox-lunar-oficial",
+        "titulo": "Elgin Power Inox Lunar 600W — ficha oficial do fabricante",
+        "url": "https://www.elgin.com.br/mixer-power-inox-lunar-3-em-1-mistura-tritura-e-bate-600w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "600 W, 2 velocidades, processador de 400 ml, copo dosador de 700 ml, batedor de claras (fouet), lâminas em aço inox, acabamento em inox, desligamento automático e função turbo. O campo \"Voltagem\" traz \"1 ano\". Não declara peso, dimensões, comprimento de cabo nem capacidade útil.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-power-inox-lunar-amazon",
+        "titulo": "Elgin Power Inox Lunar 600W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DCKDXPV6",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Mixer Power Inox 3 em 1 600W Elgin Lunar 220V\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-power-inox-lunar.webp",
+      "alt": "Mixer Elgin Power Inox Lunar com copo dosador e processador",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/mixer-power-inox-lunar-3-em-1-mistura-tritura-e-bate-600w/p"
+    }
+  },
+  {
+    "slug": "elgin-turbo-chef",
+    "nome": "Elgin Turbo Chef 3 em 1 200W",
+    "marca": "Elgin",
+    "modelo": "MIX20",
+    "categoria": "mixers",
+    "resumo": "200 W com processador de 400 ml e batedor de claras na caixa. O campo de tensão desta ficha vem preenchido com \"1 ano\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Mixer 3 em 1",
+      "potenciaW": 200,
+      "velocidades": 1,
+      "funcaoTurbo": true,
+      "capacidadeCopoTotalMl": 700,
+      "capacidadeCopoUtilMl": null,
+      "processadorMl": 400,
+      "batedorClaras": true,
+      "hasteRemovivel": null,
+      "materialHaste": "Inox",
+      "materialLaminas": "Aço inox",
+      "comprimentoCaboM": null,
+      "pesoKg": null,
+      "dimensoesMm": null,
+      "tensao": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09VQ39F41"
+    },
+    "divergencias": [
+      {
+        "campo": "tensao",
+        "fonteAdotada": "elgin-turbo-chef-oficial",
+        "valorDivergente": "campo \"Voltagem\" com \"1 ano\"",
+        "fonteDivergente": "elgin-turbo-chef-oficial",
+        "observacao": "O campo **\"Voltagem\"** desta ficha traz **\"1 ano\"**, que é o prazo de garantia. **As sete fichas de mixer da Elgin trazem o mesmo valor no mesmo campo** — não é deslize de uma página, é o campo errado preenchido na linha inteira. Sem saber a tensão, o campo ficou vazio; o prazo de 12 meses foi adotado porque a própria Elgin o declara, ainda que no lugar errado. É o mesmo tipo de troca de campo que a GA.MA comete no iQ Lite Silver, cujo campo \"Plug\" traz as dimensões do produto."
+      }
+    ],
+    "fontes": [
+      {
+        "id": "elgin-turbo-chef-oficial",
+        "titulo": "Elgin Turbo Chef 3 em 1 200W — ficha oficial do fabricante",
+        "url": "https://www.elgin.com.br/mixer-turbo-chef-3-em-1-preto-mistura-tritura-e-bate-200w/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "200 W, 1 velocidades, processador de 400 ml, copo dosador de 700 ml, batedor de claras (fouet), lâminas em aço inox, acabamento em inox, desligamento automático e função turbo. O campo \"Voltagem\" traz \"1 ano\". Não declara peso, dimensões, comprimento de cabo nem capacidade útil.",
+        "consultadaEm": "2026-09-26"
+      },
+      {
+        "id": "elgin-turbo-chef-amazon",
+        "titulo": "Elgin Turbo Chef 3 em 1 200W — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09VQ39F41",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo e a potência vendidos: \"Mixer Vertical Turbo Chef Elgin 3 em 1 200W Preto 110v\". Nenhum dado técnico saiu daqui.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/elgin-turbo-chef.webp",
+      "alt": "Mixer Elgin Turbo Chef preto com copo dosador e processador",
+      "credito": "Imagem: Elgin",
+      "origem": "https://www.elgin.com.br/mixer-turbo-chef-3-em-1-preto-mistura-tritura-e-bate-200w/p"
+    }
+  }
+]

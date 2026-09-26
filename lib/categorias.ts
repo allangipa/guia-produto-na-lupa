@@ -141,6 +141,14 @@ export const categorias: Categoria[] = [
       "Fechou em 17 porque só cinco marcas do ranking publicam ficha. Midea e Fischer aparecem entre as mais vendidas e não têm página com especificação alcançável; o site da Panasonic responde 403 e a loja dela, que é a fonte usada aqui, responde. Britânia e Philco entram com cinco campos cada — é pouco, mas é o que elas publicam, e a nota de transparência delas mostra isso melhor do que a ausência mostraria.",
   },
   {
+    slug: "mixers",
+    nome: "Mixers",
+    descricao:
+      "O motor com haste que vai dentro da panela. Não é batedeira: não tem tigela própria e não fica parado na bancada.",
+    dorPrincipal:
+      "O copo é de 1.050 ml, mas quanto cabe com a haste dentro sem espirrar?",
+  },
+  {
     slug: "batedeiras",
     nome: "Batedeiras",
     descricao:
@@ -297,6 +305,7 @@ export const ORDEM_NA_HOME: string[] = [
   "secadores",
   "escovas-secadoras",
   "batedeiras",
+  "mixers",
 ];
 
 /** A posicao de uma categoria na home. Quem nao esta na lista vai para o fim. */

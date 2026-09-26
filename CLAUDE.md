@@ -388,8 +388,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 503 produtos em 28 categorias, 28 guias,
-  46 comparativos e 21 análises.**
+- **Inventário em 26/09/2026: 523 produtos em 29 categorias, 29 guias,
+  48 comparativos e 21 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -466,6 +466,23 @@ confunde com documento sem folha de estilo.
   **`lib/departamentos.ts`** (sem isso a categoria não aparece na navegação e o
   build para) e `dados/<slug>.json`. Mais as três peças editoriais que a regra
   do projeto pede.
+
+- **Mixers abriu em 26/09/2026, com 20 fichas de quatro marcas.** Mondial 7,
+  Britânia 5, Philco 5, Elgin 3. **Mixer não é batedeira** — dividem o mesmo nó
+  do ranking da Amazon e não têm um campo em comum. A batedeira tem tigela e
+  fica na bancada; o mixer vai dentro da panela.
+
+  **O eixo da categoria é o par total × útil do copo**, que é o mesmo truque da
+  air fryer (caixa × cesto) e do aspirador (balde × útil). Nove fichas declaram
+  o mesmo copo de 1.050 ml; **duas dizem quanto cabe dentro** — 800 ml, 24% a
+  menos — e as duas são Philco. O caso mais claro é a PMX1000: jarra de 1,2 L
+  com 600 ml úteis, e copo de 950 ml com os mesmos 600. A jarra é 26% maior por
+  fora e não rende um mililitro a mais.
+
+  **A Mondial responde 12,0 campos de 16 — o número mais alto já medido neste
+  site em qualquer categoria** — e é também a que mais se contradiz: o M-15 em
+  três cores tem três fichas que discordam sobre haver botão de liga-desliga e
+  sobre o aparelho triturar ou misturar.
 
 - **O campo "consumo" é armadilha de mercado, e o site já caiu nela.** Em
   26/09/2026, quatro fichas de sanduicheira publicavam `consumoKwh` com um
