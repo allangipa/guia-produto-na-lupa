@@ -1396,3 +1396,67 @@ Cinco categorias **sem guia**, mas com comparativo e analise ja publicados:
 lib/specs.ts, afirma "Costuma ser 60% a 65% da nominal" sem fonte. E a mesma
 classe de problema dos resumos corrigidos hoje, noutra superficie. Nao
 alterei; as pecas novas nao usam esse percentual.
+
+## As cinco ultimas categorias sem guia — fechadas em 25/09/2026
+
+`aspiradores`, `conectividade`, `geladeiras`, `casa-conectada` e
+`armazenamento`. As cinco ja tinham comparativo e analise; faltava o guia.
+**Com elas, as 27 categorias de dados do site tem guia.**
+
+### Os angulos
+
+- **aspiradores** (24, WAP 15): succao e a grandeza que importa e a divisao e
+  por marca — WAP 15/15 e Midea 2/2 publicam; Electrolux, Philco e Britania
+  **0 de 7 somados**. A ficha do STK17 tem mais de 50 campos e nenhum e
+  succao. Util x balde varia de **25% a 96%**. Tres fichas quebradas: "6,5 kg"
+  num campo de volume, "Vacuo (Pa) 2400" e "Vacuo (mbar) 2400" na mesma
+  pagina, e 3,1 cm de comprimento num aparelho de 106 cm.
+- **conectividade** (14): o nome soma as bandas e ninguem usa duas ao mesmo
+  tempo. O BE11000 entrega **5.765 no melhor caso, 52% do nome**. Os dois
+  unicos nomes honestos sao os de banda unica, Wi-Fi 4, 300 Mb/s. E o nome nem
+  e a soma exata: AC600 soma 633 (arredonda para BAIXO) e AX3000 soma 2.976.
+- **geladeiras** (9): a de 320 L gasta mais que a de 400, e a de 260 tambem.
+  Por 100 L o melhor e o pior dobram (5,5 x 11,0). **9 de 9 respondem o alarme
+  de porta aberta, 6 dizendo que nao tem** — raro. Campo de ruido do IF44
+  publica **463 dB**.
+- **casa-conectada** (8): 2 de 8 declaram se funcionam sem a nuvem — e as duas
+  sao TP-Link, que **cala nos outros dois produtos dela**, inclusive na C200,
+  a camera interna mais vendida do pais.
+- **armazenamento** (7): **0 de 4 pen drives publicam velocidade de escrita**,
+  e 2 dos 4 nao publicam velocidade nenhuma. O USB 3.2 Gen 1 le menos que o
+  USB 3.0 (100 x 150), porque 3.2 Gen 1 e renomeacao do mesmo barramento.
+
+### PENDENCIA COMERCIAL: aspiradores tem 2 links em 24
+
+`aspiradores` e a unica categoria com cobertura de loja baixa: **so WAP Magic
+e WAP GTW Inox 50 tem link**. As outras quatro categorias estao em 100%.
+
+Tres dos cinco picks do guia saem **sem botao de compra** — o componente
+`LojaCta` retorna `null` quando `lojas` esta vazio, entao a pagina fica limpa,
+mas nao converte. **E a maior oportunidade de receita aberta do site.**
+
+### ERRO MEU, E A ROTINA QUE NASCEU DELE
+
+Escrevi o ASIN do GTW Inox 50 **de memoria** no pick do guia: `B0DG4MHRSH`,
+quando o real e `B0777TLJV2`. Era um link de afiliado **fabricado**, que
+levaria o leitor ao produto errado. Peguei conferindo contra a base, antes do
+commit.
+
+Criei entao um verificador de todo o conteudo: **todo link dentro de bloco
+`lojas:` tem que existir em `dados/*.json`**. Rodado no site inteiro: **244
+links de afiliado, zero fora da base**. O do GTW era o unico, e ja esta certo.
+
+**Rodar esse verificador antes de todo commit que toque conteudo.** Link de
+afiliado nunca se escreve de cabeca; copia-se da base.
+
+### Outra correcao antes de publicar
+
+No guia de geladeiras eu atribui a economia do IF44 a motor Inverter. A
+palavra "Inverter" aparece **so na URL da pagina**, em campo nenhum — e o
+Deco... nao, o TF38 nao diz o que usa. Reescrevi: a ficha publica o resultado
+(25,9 x 30,9 kWh) e nao publica a causa, e o tipo de compressor nao e campo em
+nenhuma das nove.
+
+### Conferencia
+
+108 verificacoes nas cinco categorias, zero falha. Build em **629 paginas**.
