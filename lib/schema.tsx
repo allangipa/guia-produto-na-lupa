@@ -119,16 +119,14 @@ export function schemaComparativo(c: {
     about: {
       "@type": "ItemList",
       numberOfItems: c.concorrentes.length,
+      // Sem Product aninhado, pela mesma razao da pagina de categoria: o
+      // Google valida todo Product declarado e exige preco, avaliacao ou nota
+      // agregada. O assunto desta pagina e a comparacao; quem e produto e a
+      // ficha, e e la que o Product fica.
       itemListElement: c.concorrentes.map((x, i) => ({
         "@type": "ListItem",
         position: i + 1,
-        item: {
-          "@type": "Product",
-          name: x.nome,
-          brand: { "@type": "Brand", name: x.marca },
-          description: x.linhaResumo,
-          ...(x.imagem ? { image: `${site.url}${x.imagem.src}` } : {}),
-        },
+        name: x.nome,
       })),
     },
     ...(c.fontes?.length
@@ -174,16 +172,24 @@ export function schemaCategoria(
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: produtos.length,
+      // ListItem com nome e URL, e NUNCA um Product aninhado.
+      //
+      // Ate 26/09/2026 cada item trazia um objeto Product completo aqui, e o
+      // Search Console recusou: "Especifique offers, review ou
+      // aggregateRating". Um Product declarado e uma promessa de que ha algo
+      // a comprar, e o Google cobra preco, avaliacao ou nota agregada. Este
+      // site nao publica preco (so a Product Advertising API autoriza, com
+      // horario da consulta) e nao tem agregado de leitor.
+      //
+      // Pagina de lista nao precisa disso: a recomendacao do proprio Google
+      // para pagina-resumo e ListItem apontando para a pagina de detalhe, que
+      // e onde o Product mora. A ficha continua emitindo Product, com o
+      // AggregateOffer sem preco.
       itemListElement: produtos.map((p, i) => ({
         "@type": "ListItem",
         position: i + 1,
+        name: p.nome,
         url: `${site.url}/produtos/${p.slug}/`,
-        item: {
-          "@type": "Product",
-          name: p.nome,
-          brand: { "@type": "Brand", name: p.marca },
-          ...(p.imagem ? { image: `${site.url}${p.imagem.src}` } : {}),
-        },
       })),
     },
   };
@@ -225,6 +231,15 @@ export function schemaProduto(
     .filter(([, url]) => url)
     .map(([chave]) => chave);
 
+  // Produto sem loja nenhuma nao emite Product, e devolve null.
+  //
+  // O Google exige que todo Product traga offers, review ou aggregateRating. O
+  // unico caso hoje e o iPhone Duo, em pre-venda: nao ha onde comprar, entao
+  // nao ha oferta que declarar, e declarar uma vazia seria afirmar uma
+  // disponibilidade que nao existe. Quando a loja entrar, o Product volta
+  // sozinho. A pagina continua no ar com o BreadcrumbList.
+  if (!lojas.length) return null;
+
   // So campo preenchido: `additionalProperty` com "nao informa" viraria ruido,
   // e a lacuna ja e dita na pagina, para gente, com todas as letras.
   const propriedades = campos
@@ -254,16 +269,12 @@ export function schemaProduto(
     url: `${site.url}/produtos/${p.slug}/`,
     ...(p.imagem ? { image: `${site.url}${p.imagem.src}` } : {}),
     ...(propriedades.length ? { additionalProperty: propriedades } : {}),
-    ...(lojas.length
-      ? {
-          offers: {
-            "@type": "AggregateOffer",
-            priceCurrency: "BRL",
-            availability: "https://schema.org/InStock",
-            offerCount: lojas.length,
-          },
-        }
-      : {}),
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "BRL",
+      availability: "https://schema.org/InStock",
+      offerCount: lojas.length,
+    },
   };
 }
 

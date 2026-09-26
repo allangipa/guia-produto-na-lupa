@@ -45,7 +45,12 @@ export default async function PaginaRecorte({ params }: Params) {
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-12">
       {/* ItemList, não Product: a página é sobre um conjunto, e nenhum dos itens
           é o assunto dela. Sem aggregateRating, pela mesma razão do resto do
-          site — agregado exige avaliação real de terceiro coletada aqui. */}
+          site — agregado exige avaliação real de terceiro coletada aqui.
+
+          E sem Product aninhado dentro do ListItem: até 26/09/2026 havia um, e
+          o Search Console recusou com "Especifique offers, review ou
+          aggregateRating". Todo Product declarado é validado como produto à
+          venda. O ListItem leva nome e URL, e o Product mora na ficha. */}
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -56,13 +61,8 @@ export default async function PaginaRecorte({ params }: Params) {
           itemListElement: produtos.map((p, i) => ({
             "@type": "ListItem",
             position: i + 1,
+            name: p.nome,
             url: `${site.url}/produtos/${p.slug}/`,
-            item: {
-              "@type": "Product",
-              name: p.nome,
-              brand: { "@type": "Brand", name: p.marca },
-              ...(p.imagem ? { image: `${site.url}${p.imagem.src}` } : {}),
-            },
           })),
         }}
       />

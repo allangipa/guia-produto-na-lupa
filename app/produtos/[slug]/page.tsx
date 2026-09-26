@@ -246,7 +246,13 @@ export default async function PaginaProduto({ params }: Params) {
 
   return (
     <article className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-6">
-      <JsonLd data={schemaProduto(p, campos)} />
+      {/* Sem loja, sem Product: `schemaProduto` devolve null para produto em
+          pre-venda, porque todo Product precisa de offers, review ou
+          aggregateRating, e nao ha oferta que declarar. */}
+      {(() => {
+        const schema = schemaProduto(p, campos);
+        return schema ? <JsonLd data={schema} /> : null;
+      })()}
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },
