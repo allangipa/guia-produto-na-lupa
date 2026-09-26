@@ -12,18 +12,23 @@
  *   2. Dois produtos apontam para o mesmo ASIN?  (erro grave)
  *      Quase sempre é link colado na ficha errada.
  *
- *   3. Que produtos não têm loja nenhuma, e quais deles já foram citados em
- *      guia, comparativo ou review? Produto citado sem link é o que mais
- *      incomoda o leitor: ele leu a recomendação e não tem onde comprar.
+ *   3. Algum produto ganhou link na base depois de a peça sair no ar? O front
+ *      matter carrega o link em cópia, não por referência, e então a escolha
+ *      publicada fica sem botão enquanto a página do produto tem um.
  *
- *   4. Que chave de loja aparece sem estar registrada em `lib/site.ts`?
+ *   4. Que produtos não têm loja nenhuma, e quais deles já foram citados em
+ *      guia, comparativo ou review? Produto citado sem link é o que mais
+ *      incomoda o leitor: ele leu a recomendação e não tem onde comprar. Este
+ *      é o único item que não é erro: é fila de pesquisa.
+ *
+ *   5. Que chave de loja aparece sem estar registrada em `lib/site.ts`?
  *      O build já quebra nesse caso, mas com mensagem que não diz o produto.
  *
  * Uso:
  *   node scripts/afiliados-cobertura.mjs            # relatório completo
  *   node scripts/afiliados-cobertura.mjs --resumo   # só as contas
  *
- * Sai com código 1 se achar erro grave (1, 2 ou 4), para poder entrar em CI.
+ * Sai com código 1 se achar erro grave (1, 2, 3 ou 5), para poder entrar em CI.
  * Produto sem loja não é erro: é pesquisa pendente, e o relatório a enfileira.
  *
  * Nada de dependência: fs e path do próprio Node.
@@ -92,28 +97,44 @@ async function lerConteudo() {
 }
 
 /**
- * Extrai os pares chave/url de dentro de cada bloco `lojas:` do front matter.
+ * Extrai os blocos `lojas:` do front matter, cada um com o nome do produto a
+ * que pertence.
+ *
  * É YAML por indentação: entra no bloco ao ver `lojas:` e sai na primeira linha
- * que não seja mais indentada que ele.
+ * que não seja mais indentada que ele. O nome vem da última linha `produto:` ou
+ * `nome:` antes do bloco, o que cobre os três formatos do site — `produto:` com
+ * o nome direto nas escolhas de um guia, `nome:` em cada concorrente de um
+ * comparativo, e `produto:` com `nome:` aninhado num review.
  */
-function lojasNoTexto(texto) {
-  const pares = [];
+function blocosDeLojas(texto) {
+  const blocos = [];
   let indentacao = null;
+  let atual = null;
+  let ultimoNome = null;
   for (const linha of texto.split("\n")) {
+    const nome = linha.match(/^\s*(?:-\s*)?(?:produto|nome):\s*"([^"]+)"\s*$/);
+    if (nome) ultimoNome = nome[1];
     const abre = linha.match(/^(\s*)lojas:\s*(\{\s*\})?\s*$/);
     if (abre) {
       indentacao = abre[1].length;
+      atual = { produto: ultimoNome, pares: [] };
+      blocos.push(atual);
       continue;
     }
     if (indentacao === null) continue;
     const item = linha.match(/^(\s*)([a-z]+):\s*"([^"]+)"\s*$/);
     if (item && item[1].length > indentacao) {
-      pares.push({ chave: item[2], url: item[3] });
+      atual.pares.push({ chave: item[2], url: item[3] });
     } else {
       indentacao = null;
     }
   }
-  return pares;
+  return blocos;
+}
+
+/** Os pares de todos os blocos, quando o produto não importa. */
+function lojasNoTexto(texto) {
+  return blocosDeLojas(texto).flatMap((b) => b.pares);
 }
 
 /** As chaves registradas em `lib/site.ts`, lidas do próprio arquivo. */
@@ -175,9 +196,39 @@ if (repetidos.length === 0) {
   }
 }
 
-// 3. Cobertura: produto sem loja nenhuma.
+// 3. Produto que ganhou link na base e continua sem botão no conteúdo.
+//
+// O front matter de guia, comparativo e review carrega o link em cópia, e não
+// por referência: quem cadastra o link na base depois de a peça sair no ar
+// deixa a escolha publicada sem botão enquanto a página do produto tem um. Foi
+// o que aconteceu com o Arno Drygliss FS31 em 25/09/2026.
 diga();
-diga("3. COBERTURA DE AFILIADOS");
+diga("3. CONTEÚDO COM LINK DESATUALIZADO");
+const porNome = new Map(produtos.map((p) => [p.nome, p]));
+const desatualizados = [];
+for (const { caminho, texto } of conteudo) {
+  for (const bloco of blocosDeLojas(texto)) {
+    const base = porNome.get(bloco.produto);
+    if (!base) continue;
+    const tem = new Set(bloco.pares.map((x) => x.chave));
+    const faltam = Object.entries(base.lojas ?? {})
+      .filter(([chave, url]) => url && !tem.has(chave))
+      .map(([chave]) => chave);
+    if (faltam.length) desatualizados.push({ caminho, produto: bloco.produto, faltam });
+  }
+}
+if (desatualizados.length === 0) {
+  diga("   nenhum — todo link da base já está no conteúdo que cita o produto");
+} else {
+  grave += desatualizados.length;
+  for (const d of desatualizados) {
+    diga(`   ERRO  ${d.caminho}  ${d.produto} não leva ${d.faltam.join(", ")}`);
+  }
+}
+
+// 4. Cobertura: produto sem loja nenhuma. Único item que não é erro.
+diga();
+diga("4. COBERTURA DE AFILIADOS");
 const semLoja = produtos.filter((p) => linksDe(p).length === 0);
 const cobertos = produtos.length - semLoja.length;
 diga(
@@ -257,7 +308,7 @@ if (!RESUMO && fila.length) {
 
 // 4. Chave de loja não registrada.
 diga();
-diga("4. CHAVES DE LOJA");
+diga("5. CHAVES DE LOJA");
 if (!registradas) {
   diga("   não consegui ler LOJAS de lib/site.ts — confira à mão");
 } else {

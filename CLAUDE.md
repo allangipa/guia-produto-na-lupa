@@ -235,20 +235,27 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 Decisão do Allan em 25/09/2026: rodar **uma vez por semana**, "para não ficarmos
 com produtos no nosso site que não existem na Amazon ou outro afiliado".
 
-`scripts/afiliados-cobertura.mjs` checa quatro coisas, e sai com código 1 nas três
-que são erro de fato:
+`scripts/afiliados-cobertura.mjs` checa cinco coisas, e sai com código 1 nas
+quatro que são erro de fato:
 
 1. **Link publicado que não existe na base.** Um ASIN dentro de um `lojas:` de MDX
    que não corresponde a produto nenhum de `dados/`. Foi o que aconteceu em
    25/09/2026 com o WAP GTW Inox 50: ASIN escrito de memória, pego antes do
    commit. **Link de afiliado se copia da base, nunca se digita.**
 2. **ASIN repetido** em dois produtos — quase sempre link colado na ficha errada.
-3. **Chave de loja** fora de `LOJAS` em `lib/site.ts`. O build já quebra nesse
+3. **Conteúdo com link desatualizado.** O front matter carrega o link em cópia,
+   não por referência: quando um produto ganha link na base depois de a peça sair
+   no ar, a escolha publicada fica com `lojas: {}` e sem botão, enquanto a página
+   do produto tem um. Aconteceu duas vezes em 25/09/2026, no comparativo
+   WAP Magic × GTW Inox 50 e na escolha do Arno Drygliss FS31.
+4. **Chave de loja** fora de `LOJAS` em `lib/site.ts`. O build já quebra nesse
    caso, mas com mensagem que não diz qual produto.
-4. **Cobertura**, que não é erro e sim fila de pesquisa: quantos produtos estão
+5. **Cobertura**, que não é erro e sim fila de pesquisa: quantos produtos estão
    sem link, por categoria, e quais deles já foram citados em conteúdo publicado
    — esses são os que doem, porque o leitor viu a recomendação e não tem onde
-   comprar.
+   comprar. Produto com `nasLojasEm` no futuro e produto com `buscaDeLoja` dos
+   últimos trinta dias saem da fila: o primeiro não pode ter link, o segundo já
+   foi procurado.
 
 Produto sem link **continua na base**. As contas dos guias ("13 das 24 publicam
 sucção") medem o mercado, não o nosso estoque de comissão; tirar da amostra o que

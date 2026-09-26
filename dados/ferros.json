@@ -142,7 +142,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08JX7TD4L"
+    },
     "fontes": [
       {
         "id": "arno-powergliss-fpo1-oficial",
@@ -151,6 +153,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base cerâmica XGlide, **33 saídas de vapor**, vazão **contínua de 25 g/min e extra de 110 g/min**, reservatório de 270 ml, 1.520 W em 127 V e 1.750 W em 220 V, cabo de 180 cm, 1,3 kg, 30,0 × 13,0 × 15,0 cm e garantia de 1 ano.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-powergliss-fpo1-amazon",
+        "titulo": "Arno Powergliss FPO1 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08JX7TD4L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelos campos estruturados: Numero do modelo FPO1, Nome do Modelo Powergliss, Potencia 1520 watts - os mesmos 1.520 W da ficha - e base de ceramica. Listagem de 110 V; a de 220 V existe e traz 1750 W, e a tabela da Arno declara \"127V - 1520W | 220V - 1750W\". A listagem diz garantia de 2 anos onde a ficha da Arno traz 12 meses; a ficha fica com o prazo do fabricante. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -246,7 +256,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B085M2NKKY"
+    },
     "fontes": [
       {
         "id": "arno-steamgliss-fsgp-oficial",
@@ -255,6 +267,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente com ponta de precisão, **27 saídas de vapor**, vazão **contínua de 20 g/min e extra de 100 g/min**, 1.200 W nas duas tensões, cabo de 180 cm, 0,9 kg, 26,6 × 11,7 × 12,7 cm e garantia de 12 meses.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-steamgliss-fsgp-amazon",
+        "titulo": "Arno Steamgliss FSGP — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B085M2NKKY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres elementos: Numero do modelo FSGP, Potencia 1200 watts e vapor continuo de 20 g/min, que e o da ficha. Fabricante Groupe Seb, dona da Arno. Listagem de 110 V. O campo de material da base traz um nao-valor (\"Plastico resistente ao calor ou Ceramica\") num ferro que o titulo e a ficha dizem ser antiaderente. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -293,7 +313,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B085M2QXVQ"
+    },
     "fontes": [
       {
         "id": "arno-steamgliss-fsgc-oficial",
@@ -302,6 +324,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base ampla de cerâmica Glide com ponta de precisão, **27 saídas de vapor**, vazão **contínua de 20 g/min e extra de 100 g/min**, 1.200 W nas duas tensões, cabo de 180 cm, 0,9 kg, 26,6 × 11,7 × 12,7 cm e garantia de 12 meses.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-steamgliss-fsgc-amazon",
+        "titulo": "Arno Steamgliss Cerâmica FSGC — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B085M2QXVQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por quatro elementos: Numero do modelo FSGC, Nome do modelo Steamgliss, Potencia 1200 watts e vapor continuo de 20 g/min, iguais aos da ficha. Base de ceramica, como a Ceramica Glide da ficha. Listagem de 110 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -397,7 +427,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CV5T6LPF"
+    },
     "fontes": [
       {
         "id": "arno-essentialgliss-fmq-oficial",
@@ -406,6 +438,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente, **19 saídas de vapor**, vazão **contínua de 15 g/min e extra de 80 g/min**, 1.200 W em 127 V e 1.100 W em 220 V, cabo de 170 cm, 0,8 kg, 25,1 × 11,1 × 12,5 cm e garantia de 12 meses.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "arno-essentialgliss-fmq-amazon",
+        "titulo": "Arno Essentialgliss FMQ — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CV5T6LPF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "O casamento mais firme da categoria: o campo Numero do modelo traz 1830009066, que e o mesmo codigo da URL da ficha oficial da Arno. Somam-se o Nome do modelo Essentialgliss, os 1200 watts e o vapor continuo de 15 g/min, os dois iguais aos da ficha. Listagem de 110 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -567,7 +607,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F1V5B1SP"
+    },
     "fontes": [
       {
         "id": "electrolux-esi70-oficial",
@@ -576,6 +618,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base Glissium ceramic, **175 saídas de vapor**, vapor contínuo de **30 g/min em 127 V** (35 em 220 V) e jato extra de **200 g/min**, 1.500 W, cabo de 1,95 m, vapor vertical, spray, antigotejamento, auto-limpeza, anticalcário, desligamento automático, 1,18 kg e garantia de 1 ano. EAN 7896347196765.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-esi70-amazon",
+        "titulo": "Electrolux Experience ESI70 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F1V5B1SP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres campos estruturados: Numero do modelo ESI70, Potencia 1500 watts e peso de 1,18 kg, os tres iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -687,7 +737,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CCJXMYSR"
+    },
     "fontes": [
       {
         "id": "electrolux-esi50-oficial",
@@ -696,6 +748,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base Glissium ceramic, **175 saídas de vapor**, vapor contínuo de **25 g/min** e jato extra de **160 g/min**, 1.500 W, cabo de 1,8 m, vapor vertical, spray e auto-limpeza; **sem** antigotejamento, **sem** anticalcário e **sem** desligamento automático. 1,18 kg, 29,5 × 14,5 × 12,7 cm e garantia de 1 ano. Código comercial 127 V: 4814AKBR401.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-esi50-amazon",
+        "titulo": "Electrolux Lavanda Experience ESI50 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CCJXMYSR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres campos: Nome do modelo ESI50, Potencia 1500 watts e peso de 1,18 kg, iguais aos da ficha. Listagem de 127 V; a de 220 V (B0CCJX21V3) declara 2200 watts no campo de potencia, e por isso foi preterida. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -743,7 +803,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0778VYHBT"
+    },
     "fontes": [
       {
         "id": "electrolux-sie70-oficial",
@@ -752,6 +814,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base de cerâmica, **26 saídas de vapor**, reservatório de 250 ml, 1.200 W, cabo de 1,65 m, vapor vertical e spray; sem antigotejamento e sem desligamento automático. 1,28 kg e garantia de 1 ano. EAN 7896347149365 e 7896347149372.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-sie70-amazon",
+        "titulo": "Electrolux Easyline SIE70 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0778VYHBT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por quatro elementos: Nome do modelo SIE70, Potencia 1200 watts, garantia de 12 meses com o fabricante e base de ceramica, todos iguais aos da ficha. Listagem de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -790,7 +860,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B076X72MJP"
+    },
     "fontes": [
       {
         "id": "electrolux-sie60-oficial",
@@ -799,6 +871,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente, **26 saídas de vapor**, reservatório de 250 ml, 1.200 W, cabo de 1,65 m, vapor vertical e spray; sem antigotejamento e sem desligamento automático. 1,24 kg e garantia de 1 ano.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-sie60-amazon",
+        "titulo": "Electrolux Easyline SIE60 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B076X72MJP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por quatro campos: Nome do modelo SIE60, Potencia 1200 watts, peso de 1,24 kg e garantia de 12 meses, iguais aos da ficha. Listagem de 127 V, escolhida no lugar da de 220 V (B076X9BSPT), que declara 1500 watts: os 1.200 W da ficha sao os de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -837,7 +917,9 @@
       "garantiaMeses": null
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09K3FNS7W"
+    },
     "fontes": [
       {
         "id": "electrolux-esi10-oficial",
@@ -846,6 +928,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente, reservatório de 200 ml, 1.200 W em 127 V e 1.500 W em 220 V, **cabo de 1,35 m**, vapor vertical e spray; sem antigotejamento e sem desligamento automático. 0,79 kg, 24,9 × 12,4 × 11,2 cm. A ficha não publica o número de saídas de vapor nem a vazão. EAN 7896347184229.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "electrolux-esi10-amazon",
+        "titulo": "Electrolux Efficient ESI10 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09K3FNS7W",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres elementos: Nome do modelo ESI10, Potencia 1200 watts e cabo de 1,35 m no titulo, iguais aos da ficha. Listagem de 127 V. A listagem declara garantia de 1 ano; a ficha mantem o campo vazio porque a pagina da Electrolux nao publica prazo para este modelo. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -884,7 +974,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09LNKQYND"
+    },
     "fontes": [
       {
         "id": "oster-gcstbs5002-oficial",
@@ -893,6 +985,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente colorida, **25 saídas de vapor** e vazão de **17 g/min** (ambos informados na descrição do produto, não em campo próprio), mais jato de vapor multiuso. 1.200 W em 127 V e 1.400 W em 220 V, 0,78 kg, 115 × 243 × 145 mm e garantia de 12 meses. Códigos de barras 053891160315 (127 V) e 053891160308 (220 V).",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "oster-gcstbs5002-amazon",
+        "titulo": "Oster Antiaderente GCSTBS5002 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09LNKQYND",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelos campos Nome do modelo e Numero do modelo, os dois com GCSTBS5002-017, pela Potencia de 1200 watts e pela garantia de 12 meses, iguais aos da ficha. Listagem de 127 V. O campo de material da base traz \"Aco inoxidavel\" onde o titulo e a ficha dizem antiaderente - nao-valor, e o casamento e pelo codigo. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -931,7 +1031,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H3PMQYD8"
+    },
     "fontes": [
       {
         "id": "oster-gcstac7002-oficial",
@@ -940,6 +1042,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base Aeroceramic, reservatório de 250 ml, vapor vertical, 1.600 W, 0,95 kg, 270 × 150 × 115 mm, certificação UL e Inmetro e garantia de 12 meses. Códigos de barras 53891180733 (127 V) e 53891180740 (220 V). A ficha não publica saídas de vapor nem vazão.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "oster-gcstac7002-amazon",
+        "titulo": "Oster Aeroceramic GCSTAC7002 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H3PMQYD8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo GCSTAC7002-017, na versao de 127 V. A listagem e magra e nao declara potencia nem capacidade. Existe uma segunda listagem, B0H3Q24CSB, com o sufixo -057 e 220 V, cujo titulo repete o nome da pagina oficial; preferida a de 127 V. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -1012,6 +1122,13 @@
       "alt": "Ferro a vapor Oster Diamond Aeroceramic azul-petróleo, visto de três quartos",
       "credito": "Imagem: Oster",
       "origem": "https://www.oster.com.br/ferro-de-passar-a-vapor-oster-diamond-aeroceramic-280ml-com-vapor-vertical/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por GCSTDPA8002 e por \"Diamond Aeroceramic 280ml\" nao retorna nada. O que aparece com o nome Diamond e o Steam Generator de 1,5 L, que e outro produto."
     }
   },
   {
@@ -1043,7 +1160,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08L6ZCL7R"
+    },
     "fontes": [
       {
         "id": "philco-pfv3200v-oficial",
@@ -1052,6 +1171,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base de cerâmica, reservatório de 300 ml, 1.200 W em 127 V e 2.000 W em 220 V, cabo giratório de 1,6 m, funções seco e vapor. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-pfv3200v-amazon",
+        "titulo": "Philco Titanium Ceramic PFV3200V — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08L6ZCL7R",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres numeros da ficha: Potencia 1200 watts, e a linha de capacidade que declara \"300ml de agua e cordao giratorio de 1,60 metros\" - os 300 ml e 1,6 m da ficha. Base de ceramica tambem confere, e o codigo PFV3200V esta no titulo. O campo Numero do modelo traz o codigo interno da Philco, 53602040. Listagem de 220 V, a unica encontrada. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "divergencias": [
@@ -1115,6 +1242,13 @@
       "alt": "Ferro a vapor Philco Super Vapor Concentrado azul e branco, visto de três quartos",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/ferro-philco-pfv320az-super-vapor-concentrado-ceramica-240ml/p"
+    },
+    "buscaDeLoja": {
+      "em": "2026-09-25",
+      "onde": [
+        "amazon"
+      ],
+      "nota": "Nao esta na Amazon Brasil: a busca por PFV320AZ e por \"super vapor concentrado\" nao retorna nada. A Philco tem vários outros ferros na loja (PFV70, PFV71, PFV40, PFV3100AZ, PFV2320V), mas nao este."
     }
   },
   {
@@ -1146,7 +1280,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FSG7J2GN"
+    },
     "fontes": [
       {
         "id": "britania-bfv08-oficial",
@@ -1155,6 +1291,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente, reservatório de 190 ml, 1.250 W em 127 V e 2.000 W em 220 V, cabo giratório de 1,50 m, funções vapor, vapor extra, spray e auto-limpante, garantia de 12 meses. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bfv08-amazon",
+        "titulo": "Britânia Super Carbon BFV08 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FSG7J2GN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo BFV08 e pelo nome Super Carbon no titulo, na versao de 127 V. Atencao: o campo de potencia da listagem diz \"127 watts\", que e a voltagem escrita no lugar da potencia - nao-valor, e a ficha mantem os 1.250 W da Britania. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1193,7 +1337,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F643K92J"
+    },
     "fontes": [
       {
         "id": "britania-bfv70-oficial",
@@ -1202,6 +1348,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base de cerâmica, reservatório de 320 ml, 1.200 W em 127 V e 2.200 W em 220 V, cabo giratório de 1,6 m, funções vapor e vapor extra. A ficha publica garantia em dias (360) e não publica saídas de vapor, vazão, peso nem medidas.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bfv70-amazon",
+        "titulo": "Britânia BFV70 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F643K92J",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo por tres elementos: Numero do modelo BFV70, base de ceramica e reservatorio de 320 ml no titulo, iguais aos da ficha. Listagem de 127 V. A listagem declara 1210 watts contra os 1.200 W da ficha da Britania, e tambem 92 saidas de vapor, numero que a ficha da fabricante nao publica e que por isso nao entra. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
@@ -1240,7 +1394,9 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
-    "lojas": {},
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DXNB311Z"
+    },
     "fontes": [
       {
         "id": "britania-bfv07-oficial",
@@ -1249,6 +1405,14 @@
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Base antiaderente, reservatório de 210 ml, 1.200 W em 127 V e 1.600 W em 220 V, cabo giratório de 1,5 m, função vapor extra, garantia de 12 meses. A ficha não publica saídas de vapor, vazão, peso nem medidas.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bfv07-amazon",
+        "titulo": "Britânia BFV07 — página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DXNB311Z",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo campo Numero do modelo BFV07, pelo fabricante Britania e pelo reservatorio de 210 ml no titulo, iguais aos da ficha. Listagem de 127 V. O campo Marca da listagem diz PHILCO num produto Britania - as duas marcas sao do mesmo grupo, e o erro e da listagem; o casamento e pelo codigo do modelo e pelo campo de fabricante. Nenhum dado tecnico saiu daqui.",
+        "consultadaEm": "2026-09-25"
       }
     ],
     "imagem": {
