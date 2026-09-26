@@ -175,6 +175,15 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
   critério, sobra critério, o nome não é um dos cinco, o peso não é o publicado
   ou a soma não dá 1.
 
+  **Nota não se cita por posição.** Escrever "a segunda mais alta do site" numa
+  análise cria uma afirmação que a próxima análise torna falsa, sem ninguém
+  tocar no arquivo. Aconteceu em 26/09/2026: a ST27 dizia "a segunda mais alta",
+  a torradeira WAP entrou com 6,98 e empurrou a ST27 para terceiro no mesmo
+  commit. Onde a comparação importa, **nomear o produto** ("empatada com a da
+  cafeteira Oster OCAF300") — isso só fica falso se aquele produto mudar.
+  E conferir por código, porque a nota exibida arredonda: 6,875 e 6,900 aparecem
+  as duas como "6,9" e não são a mesma posição.
+
   **Por que isso existe:** até 25/09 a `/metodologia` prometia que "a nota não
   é média simples" e que "o peso fica escrito na análise", e as duas frases
   eram falsas. Não havia campo de peso em lugar nenhum, e em seis das oito
