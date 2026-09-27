@@ -4113,6 +4113,54 @@ export const camposProcessador: Campo[] = [
   },
 ];
 
+export const camposCooktop: Campo[] = [
+  { chave: "tipo", rotulo: "Instalação", grupo: "O que é", tipo: "texto", filtro: "opcoes", contaTransparencia: true },
+  { chave: "bocas", rotulo: "Bocas", grupo: "O que é", tipo: "numero", melhor: "maior", filtro: "faixa", contaTransparencia: true },
+  {
+    chave: "potenciaTotalW",
+    rotulo: "Potência total",
+    grupo: "Potência",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O teto do aparelho inteiro. É ele que o disjuntor precisa aguentar — e é com ele que a soma das zonas tem de caber.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaPorZona",
+    rotulo: "Potência por zona",
+    grupo: "Potência",
+    tipo: "texto",
+    ajuda:
+      "Quanto cada boca entrega sozinha. Somadas, elas costumam passar do total — o que significa que ligar tudo no máximo ao mesmo tempo não é possível.",
+    contaTransparencia: true,
+  },
+  { chave: "niveisPotencia", rotulo: "Níveis de potência", grupo: "Potência", tipo: "numero", melhor: "maior", filtro: "faixa", contaTransparencia: true },
+  { chave: "funcaoTurbo", rotulo: "Função turbo ou boost", grupo: "Potência", tipo: "booleano", filtro: "opcoes", contaTransparencia: true },
+  {
+    chave: "disjuntorA",
+    rotulo: "Disjuntor exigido",
+    grupo: "Instalação",
+    tipo: "numero",
+    unidade: "A",
+    filtro: "faixa",
+    ajuda:
+      "A corrente que o circuito precisa suportar. Num aparelho de 7.000 W, é a diferença entre instalar e chamar eletricista — e quase nenhuma ficha informa.",
+    contaTransparencia: true,
+  },
+  { chave: "tensao", rotulo: "Tensão", grupo: "Instalação", tipo: "texto", filtro: "opcoes", contaTransparencia: true },
+  { chave: "dimensoesMm", rotulo: "Medidas", grupo: "Instalação", tipo: "texto", contaTransparencia: true },
+  { chave: "materialMesa", rotulo: "Mesa", grupo: "Instalação", tipo: "texto", filtro: "opcoes", contaTransparencia: true },
+  { chave: "zonaFlexivel", rotulo: "Zona flexível", grupo: "Uso", tipo: "booleano", filtro: "opcoes", ajuda: "Duas zonas que se unem numa só para panela grande ou chapa.", contaTransparencia: true },
+  { chave: "painelTouch", rotulo: "Painel touch", grupo: "Uso", tipo: "booleano", filtro: "opcoes", contaTransparencia: true },
+  { chave: "travaSeguranca", rotulo: "Trava de segurança", grupo: "Uso", tipo: "booleano", filtro: "opcoes", contaTransparencia: true },
+  { chave: "detectorPanela", rotulo: "Detector de panela", grupo: "Uso", tipo: "booleano", filtro: "opcoes", ajuda: "Desliga a zona quando não há panela de material compatível em cima.", contaTransparencia: true },
+  { chave: "timer", rotulo: "Timer", grupo: "Uso", tipo: "booleano", filtro: "opcoes", contaTransparencia: true },
+  { chave: "garantiaMeses", rotulo: "Garantia", grupo: "Garantia", tipo: "numero", unidade: "meses", melhor: "maior", filtro: "faixa", contaTransparencia: true },
+];
+
 export const camposFuradeira: Campo[] = [
   { chave: "tipo", rotulo: "Tipo", grupo: "O que é", tipo: "texto", filtro: "opcoes", contaTransparencia: true },
   { chave: "semFio", rotulo: "Sem fio", grupo: "O que é", tipo: "booleano", filtro: "opcoes", contaTransparencia: true },
@@ -5593,6 +5641,7 @@ export const camposPorCategoria: Record<string, Campo[]> = {
   espremedores: camposEspremedor,
   lavaloucas: camposLavaLouca,
   smartwatches: camposSmartwatch,
+  cooktops: camposCooktop,
   furadeiras: camposFuradeira,
   purificadores: camposPurificador,
   "ar-condicionado": camposArCondicionado,

@@ -1,0 +1,839 @@
+[
+  {
+    "slug": "electrolux-ie4tw",
+    "nome": "Electrolux Efficient IE4TW",
+    "marca": "Electrolux",
+    "categoria": "cooktops",
+    "resumo": "Única ficha da base que publica a potência de cada zona. As quatro somam 7.400 W no nominal — exatamente o total declarado —, e 8.000 W quando as quatro entram em Boost.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 4,
+      "potenciaTotalW": 7400,
+      "potenciaPorZona": "1.900 W · 1.800 W · 1.800 W · 1.900 W (2.000 W cada em Boost)",
+      "niveisPotencia": 9,
+      "funcaoTurbo": true,
+      "disjuntorA": null,
+      "tensao": "220 V",
+      "dimensoesMm": "62 × 590 × 520 (A × L × P)",
+      "materialMesa": "Vitrocerâmica",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": null,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GTRTZHTY"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-ie4tw.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/cooktop-4-bocas-de-inducao-electrolux-efficient-ie4tw/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ie4tw-oficial",
+        "titulo": "Electrolux Efficient IE4TW — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/cooktop-4-bocas-de-inducao-electrolux-efficient-ie4tw/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bocas 4, tipo cooktop de indução, potência 7.400 W, potências das zonas de indução \"Zona Traseira Esquerda: 1.900/2.000W (Boost) Zona Dianteira Esquerda: 1.800/2.000W (Boost) Zona Traseira Direita: 1.800/2.000W (Boost) Zona Dianteira Direita: 1900/2000W (Boost)\", 9 níveis de potência, painel touch, timer, função manter aquecido, indicador de calor residual, tecnologia PowerBoost descrita no campo Características, mesa vitrocerâmica, tensão 220 V, frequência 50/60 Hz, 6,2 × 59 × 52 cm, nicho interno 10,8 × 56 × 49 cm, 8 kg, importado e garantia de 1 ano. Não declara disjuntor, detector de panela nem trava de segurança.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaTotalW",
+        "fonteAdotada": "electrolux-ie4tw-oficial",
+        "valorDivergente": "Zonas somando 8.000 W em Boost contra total de 7.400 W",
+        "fonteDivergente": "electrolux-ie4tw-oficial",
+        "observacao": "A mesma ficha declara **7.400 W** de potência e quatro zonas de **1.900, 1.800, 1.800 e 1.900 W**, que somam exatamente 7.400. E declara que cada uma das quatro vai a **2.000 W em Boost**, o que dá **8.000 W** — 600 acima do total. Não é erro de conta da Electrolux: é assim que cooktop de indução funciona, a central de potência divide o que tem entre as zonas. O que falta na ficha é a frase que diz isso. Publicamos o total como a Electrolux publica e deixamos a soma à vista."
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ie60p",
+    "nome": "Electrolux Experience IE60P",
+    "marca": "Electrolux",
+    "categoria": "cooktops",
+    "resumo": "Quatro bocas, catorze níveis de potência e nenhum watt na ficha. A mesma Electrolux que publica zona por zona na IE4TW não publica nem o total aqui.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 4,
+      "potenciaTotalW": null,
+      "potenciaPorZona": null,
+      "niveisPotencia": 14,
+      "funcaoTurbo": null,
+      "disjuntorA": null,
+      "tensao": "220 V",
+      "dimensoesMm": "44 × 590 × 520 (A × L × P)",
+      "materialMesa": "Vitrocerâmica",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": null,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": null
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B082FQD17H"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-ie60p.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/cooktop-de-inducao-4-zonas-unicook-preto-electrolux-ie60p/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ie60p-oficial",
+        "titulo": "Electrolux Experience IE60P — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/cooktop-de-inducao-4-zonas-unicook-preto-electrolux-ie60p/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bocas 4, tipo cooktop de indução, 14 níveis de potência, painel touch, timer individual por zona e tecnologia Unicook descritos no campo Características, mesa vitrocerâmica, tensão 220 V, frequência 60 Hz, 4,4 × 59 × 52 cm, nicho 6 × 56 × 49 cm, 10,3 kg, importado. A ficha não traz campo de potência em watt, não traz prazo de garantia e não traz disjuntor, trava de segurança nem detector de panela.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ie8fb",
+    "nome": "Electrolux Expert IE8FB",
+    "marca": "Electrolux",
+    "categoria": "cooktops",
+    "resumo": "A zona flexível de quatro seções está descrita em campo, o que quase nenhum concorrente faz. A potência, de novo, não está em lugar nenhum.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 4,
+      "potenciaTotalW": null,
+      "potenciaPorZona": null,
+      "niveisPotencia": 14,
+      "funcaoTurbo": null,
+      "disjuntorA": null,
+      "tensao": "220 V",
+      "dimensoesMm": "67 × 780 × 520 (A × L × P)",
+      "materialMesa": "Vitrocerâmica",
+      "zonaFlexivel": true,
+      "painelTouch": true,
+      "travaSeguranca": null,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B083X6799Y"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-ie8fb.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/cooktop-de-inducao-4-zonas-com-unicook-flexivel-preto-electrolux--ie8fb-/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ie8fb-oficial",
+        "titulo": "Electrolux Expert IE8FB — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/cooktop-de-inducao-4-zonas-com-unicook-flexivel-preto-electrolux--ie8fb-/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bocas 4, tipo cooktop de indução, 14 níveis de potência, painel touch, timer, mesa vitrocerâmica, grafismo na mesa, queimadores selados \"Não\", tensão 220 V, frequência 60 Hz, 6,7 × 78 × 52 cm, nicho 6 × 75 × 49 cm, 11,2 kg, importado, garantia de 1 ano. O campo Características descreve a Zona Unicook Flexível como \"zona de cozimento flexível composta por quatro seções, que podem ser combinadas\". Não traz campo de potência em watt, disjuntor, trava de segurança nem detector de panela.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "electrolux-ic30",
+    "nome": "Electrolux Dominó IC30",
+    "marca": "Electrolux",
+    "categoria": "cooktops",
+    "resumo": "Três campos de potência na mesma ficha, com três números diferentes: 3.700 W, 3.600 W e 1.800 W. E duas zonas que a própria página diz irem a 2.800 W cada.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 2,
+      "potenciaTotalW": 3600,
+      "potenciaPorZona": "1.800 W por zona",
+      "niveisPotencia": 14,
+      "funcaoTurbo": true,
+      "disjuntorA": null,
+      "tensao": "220 V",
+      "dimensoesMm": "55 × 300 × 520 (A × L × P)",
+      "materialMesa": "Vitrocerâmica",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07DP4C721"
+    },
+    "imagem": {
+      "src": "/produtos/electrolux-ic30.webp",
+      "credito": "Divulgação/Electrolux",
+      "origem": "https://loja.electrolux.com.br/cooktop-domino-2-zonas--de-inducao--ic30-electrolux/p"
+    },
+    "fontes": [
+      {
+        "id": "electrolux-ic30-oficial",
+        "titulo": "Electrolux Dominó IC30 — ficha oficial da Electrolux",
+        "url": "https://loja.electrolux.com.br/cooktop-domino-2-zonas--de-inducao--ic30-electrolux/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bocas 2, tipo cooktop de indução, campo \"Potência (W)\" preenchido com \"3700W / 1.800W a 2.800W (x2)\", campo \"Potência total (W)\" com 3600 W, campo \"Potências das zonas de indução\" com 1800 W, 14 níveis de potência, função turbo potência, painel white touch, timer, função manter aquecido, indicador de calor residual, trava de funções no campo Diferenciais, mesa vitrocerâmica, acendimento automático \"Não\", tensão 220 V, 60 Hz, 5,5 × 30 × 52 cm, nicho 5 × 27 × 49 cm, 6,5 kg, garantia de 1 ano. Não declara disjuntor nem detector de panela.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaTotalW",
+        "fonteAdotada": "electrolux-ic30-oficial",
+        "valorDivergente": "\"Potência (W)\": 3700W / 1.800W a 2.800W (x2)",
+        "fonteDivergente": "electrolux-ic30-oficial",
+        "observacao": "A página declara potência em **três campos e três números**: \"Potência (W)\" diz 3.700 W, \"Potência total (W)\" diz 3.600 W e \"Potências das zonas de indução\" diz 1.800 W. Publicamos o do campo que se chama total. O primeiro campo ainda acrescenta \"1.800W a 2.800W (x2)\", o que colocaria as duas zonas somando **5.600 W** — 2.000 acima do total declarado. Não é possível, a partir desta ficha, saber quanto o aparelho entrega com as duas bocas ligadas no máximo."
+      }
+    ]
+  },
+  {
+    "slug": "midea-e3-even-pro-4",
+    "nome": "Midea E3 Even Pro",
+    "marca": "Midea",
+    "categoria": "cooktops",
+    "resumo": "Declara 7.400 W em três campos de tensão diferentes — 127 V, 220 V e bivolt — com o mesmo número nos três. A 127 V isso seria uma corrente de 58 ampères.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 4,
+      "potenciaTotalW": 7400,
+      "potenciaPorZona": null,
+      "niveisPotencia": 9,
+      "funcaoTurbo": true,
+      "disjuntorA": null,
+      "tensao": null,
+      "dimensoesMm": "58 × 590 × 520 (A × L × P)",
+      "materialMesa": "Vitrocerâmico",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DWT88S1T"
+    },
+    "imagem": {
+      "src": "/produtos/midea-e3-even-pro-4.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/cooktop-4-bocas-de-inducao-e3-even-pro-midea-1/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-e3-even-pro-oficial",
+        "titulo": "Midea E3 Even Pro — ficha oficial da Midea",
+        "url": "https://www.midea.com.br/cooktop-4-bocas-de-inducao-e3-even-pro-midea-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Quantidade de bocas 4, tipo indução, \"Potência (127v)\" 7400W, \"Potência (220v)\" 7400W e \"Potência (Bivolt)\" 7400W, 9 níveis de potência + Turbo, painel touch, timer, função turbo, trava de segurança, sensor de desligamento automático, produto conectado \"Sim\", material da mesa vitrocerâmico, 5,8 × 59 × 52 cm, 7,5 kg, tipo de tomada \"Não Informado\", frequência 60 Hz, código CFBE42, garantia de 12 meses. Não publica a potência por zona, o disjuntor exigido nem o detector de panela.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "tensao",
+        "fonteAdotada": "midea-e3-even-pro-oficial",
+        "valorDivergente": "7.400 W declarados igualmente em 127 V, 220 V e bivolt",
+        "fonteDivergente": "midea-e3-even-pro-oficial",
+        "observacao": "A ficha tem três campos de potência por tensão e os três trazem **7.400 W**. Potência não muda com a tensão, mas a **corrente** muda: 7.400 W a 220 V puxam 34 A; a 127 V puxariam **58 A**, acima do que a instalação doméstica brasileira costuma oferecer num circuito. Some-se que o campo \"Tipo de tomada\" está preenchido com \"Não Informado\". O campo de tensão ficou vazio nesta ficha: não dá para saber, pela página, em que tensão o aparelho é vendido."
+      }
+    ]
+  },
+  {
+    "slug": "midea-freezone-2",
+    "nome": "Midea Built In FreeZone",
+    "marca": "Midea",
+    "categoria": "cooktops",
+    "resumo": "O único campo de potência da ficha está preenchido com \"220v\". O de frequência, com uma mensagem de erro da área de transferência do Windows.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 2,
+      "potenciaTotalW": null,
+      "potenciaPorZona": null,
+      "niveisPotencia": 9,
+      "funcaoTurbo": true,
+      "disjuntorA": null,
+      "tensao": "220 V",
+      "dimensoesMm": "59 × 288 × 520 (A × L × P)",
+      "materialMesa": "Vitrocerâmico",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DVHWP8PV"
+    },
+    "imagem": {
+      "src": "/produtos/midea-freezone-2.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/cooktop-2-bocas-de-inducao-freezone-midea/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-freezone-oficial",
+        "titulo": "Midea Built In FreeZone — ficha oficial da Midea",
+        "url": "https://www.midea.com.br/cooktop-2-bocas-de-inducao-freezone-midea/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Quantidade de bocas 2, tipo indução, 9 níveis de potência, painel touch, timer, função turbo, trava de segurança, sensor de desligamento automático, material da mesa vitrocerâmico, 5,9 × 28,8 × 52 cm, 4,38 kg, código CFBD22, frequência operacional 60 Hz, tipo de tomada \"Não Informado\", garantia de 12 meses. O campo \"Potência (220v)\" está preenchido com o texto \"220v\" e o campo \"Frequência (Hz)\" com \"A obter dados. Aguarde alguns segundos e experimente cortar ou copiar novamente\". A palavra FreeZone aparece no nome do produto e não em campo nenhum.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaTotalW",
+        "fonteAdotada": "midea-freezone-oficial",
+        "valorDivergente": "\"Potência (220v)\": 220v",
+        "fonteDivergente": "midea-freezone-oficial",
+        "observacao": "O único campo de potência da página está preenchido com **\"220v\"** — a tensão dentro do campo do watt. Não existe, nesta ficha, nenhum número de potência, e o campo ficou vazio aqui. Na mesma página, o campo **\"Frequência (Hz)\"** traz *\"A obter dados. Aguarde alguns segundos e experimente cortar ou copiar novamente\"*, que é a mensagem de erro da área de transferência do Windows. Os dois juntos dizem como a ficha foi preenchida: copiando e colando, sem ninguém reler."
+      }
+    ]
+  },
+  {
+    "slug": "midea-cyad11-portatil",
+    "nome": "Midea CYAD11 Portátil",
+    "marca": "Midea",
+    "categoria": "cooktops",
+    "resumo": "Publica o disjuntor exigido, que quase ninguém publica. E declara, em três campos medidos em centímetros, um aparelho de 3,8 metros de profundidade.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Portátil",
+      "bocas": 1,
+      "potenciaTotalW": 2000,
+      "potenciaPorZona": null,
+      "niveisPotencia": 10,
+      "funcaoTurbo": false,
+      "disjuntorA": 20,
+      "tensao": "127 V ou 220 V",
+      "dimensoesMm": "40 × 295 × 380 (A × L × P)",
+      "materialMesa": "Vitrocerâmico",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaPorZona",
+      "zonaFlexivel"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B086TSHWWJ"
+    },
+    "imagem": {
+      "src": "/produtos/midea-cyad11-portatil.webp",
+      "credito": "Divulgação/Midea",
+      "origem": "https://www.midea.com.br/cooktop-de-inducao-midea-portatil-1-boca/p"
+    },
+    "fontes": [
+      {
+        "id": "midea-cyad11-oficial",
+        "titulo": "Midea CYAD11 Portátil — ficha oficial da Midea",
+        "url": "https://www.midea.com.br/cooktop-de-inducao-midea-portatil-1-boca/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Quantidade de bocas 1, tipo indução, \"Potência (127v)\" 1500 e \"Potência (220v)\" 2000, 10 níveis de potência, painel touch, timer, função turbo \"Não\", trava de segurança, sensor de desligamento automático, material da mesa vitrocerâmico, tipo de tomada \"20 A\", frequência 60 Hz, tipo de montagem portátil, \"Dimensões do Produto (A x L x C), sem embalagem\" 4 cm × 29,5 cm × 38 cm, 2,8 kg, código CYAD11.CYAD12, garantia de 12 meses. Os campos avulsos \"Produto Altura (cm)\", \"Produto Largura (cm)\" e \"Produto Profundidade (cm)\" trazem 40, 295 e 380.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "dimensoesMm",
+        "fonteAdotada": "midea-cyad11-oficial",
+        "valorDivergente": "Altura 40 cm, largura 295 cm, profundidade 380 cm",
+        "fonteDivergente": "midea-cyad11-oficial",
+        "observacao": "A ficha traz as medidas duas vezes. O campo \"Dimensões do Produto (A x L x C), sem embalagem\" diz **4 cm × 29,5 cm × 38 cm**, que é o tamanho de um cooktop portátil. Os três campos avulsos rotulados **(cm)** dizem **40, 295 e 380** — os mesmos números em milímetro, com o rótulo errado. Ao pé da letra, um aparelho de **3,8 metros de profundidade**. Publicamos a medida do campo consolidado."
+      }
+    ]
+  },
+  {
+    "slug": "dako-diplomata-4",
+    "nome": "Dako Diplomata",
+    "marca": "Dako",
+    "categoria": "cooktops",
+    "resumo": "Uma das duas fichas da base que dizem qual disjuntor a instalação exige: 32 ampères. Em compensação, o campo \"Potência dos Queimadores\" está preenchido com \"9 níveis\".",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 4,
+      "potenciaTotalW": 7000,
+      "potenciaPorZona": null,
+      "niveisPotencia": 9,
+      "funcaoTurbo": true,
+      "disjuntorA": 32,
+      "tensao": "220 V",
+      "dimensoesMm": "60 × 590 × 520 (A × L × P)",
+      "materialMesa": "Vidro cerâmico",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": true,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DF8Q9WX4"
+    },
+    "imagem": {
+      "src": "/produtos/dako-diplomata-4.webp",
+      "credito": "Divulgação/Dako",
+      "origem": "https://www.dako.com.br/cooktop-de-inducao-4-bocas-com-zona-flexivel-220v-diplomata/p"
+    },
+    "fontes": [
+      {
+        "id": "dako-diplomata-oficial",
+        "titulo": "Dako Diplomata — ficha oficial da Dako",
+        "url": "https://www.dako.com.br/cooktop-de-inducao-4-bocas-com-zona-flexivel-220v-diplomata/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem 220 V, potência 7000 W, 4 bocas, 9 níveis de potência, função turbo, detector de panela, trava de segurança, indicador de calor residual, função manter aquecido, função play/pause, painel touch screen, timer, acabamento da mesa vidro cerâmico, \"Padrão de Tomada: Instalação direta, disjuntor de 32 A\", nicho 56,5 × 5,8 × 49,5 cm, produto 6 × 59 × 52 cm, 8,5 kg, importado, garantia de 12 meses, manual em PDF. O campo \"Potência dos Queimadores\" está preenchido com \"9 níveis\". A zona flexível aparece no nome do produto e não em campo.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaPorZona",
+        "fonteAdotada": "dako-diplomata-oficial",
+        "valorDivergente": "\"Potência dos Queimadores\": 9 níveis",
+        "fonteDivergente": "dako-diplomata-oficial",
+        "observacao": "O campo chamado **\"Potência dos Queimadores\"** — o único da ficha que poderia dizer quanto cada zona entrega — está preenchido com **\"9 níveis\"**, que é a contagem de posições do controle e já ocupa o campo \"Níveis de Potência\" logo abaixo, com o mesmo texto. O campo ficou vazio aqui. O mesmo acontece na Dako Select 5."
+      }
+    ]
+  },
+  {
+    "slug": "dako-supreme-4",
+    "nome": "Dako Supreme",
+    "marca": "Dako",
+    "categoria": "cooktops",
+    "resumo": "Mesma marca e mesmo tamanho da Diplomata, 200 W a mais — e sem o disjuntor e sem o material da mesa, que as irmãs publicam.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 4,
+      "potenciaTotalW": 7200,
+      "potenciaPorZona": null,
+      "niveisPotencia": 9,
+      "funcaoTurbo": true,
+      "disjuntorA": null,
+      "tensao": "220 V",
+      "dimensoesMm": "60 × 590 × 520 (A × L × P)",
+      "materialMesa": null,
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": true,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CDQCPBVC"
+    },
+    "imagem": {
+      "src": "/produtos/dako-supreme-4.webp",
+      "credito": "Divulgação/Dako",
+      "origem": "https://www.dako.com.br/cooktop-de-inducao-4-bocas-preto-supreme-220v/p"
+    },
+    "fontes": [
+      {
+        "id": "dako-supreme-oficial",
+        "titulo": "Dako Supreme — ficha oficial da Dako",
+        "url": "https://www.dako.com.br/cooktop-de-inducao-4-bocas-preto-supreme-220v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem 220 V, potência 7200 W, 4 bocas, \"9 níveis + turbo\", função turbo, detector de panela, trava de segurança, indicador de calor residual, função manter aquecido, função play/pause, painel touch screen, timer, nicho 56 × 5,6 × 48 cm, produto 6 × 59 × 52 cm, 8,6 kg, importado, garantia de 12 meses. Esta ficha não traz o campo \"Padrão de Tomada\" nem o campo \"Acabamento da Mesa\", que as outras duas Dako da base trazem.",
+        "consultadaEm": "2026-09-26"
+      }
+    ]
+  },
+  {
+    "slug": "dako-select-5",
+    "nome": "Dako Select 5 Zonas",
+    "marca": "Dako",
+    "categoria": "cooktops",
+    "resumo": "Cinco bocas com os mesmos 7.200 W da Supreme de quatro. O disjuntor sobe de 32 para 40 ampères, e é a ficha que mais diz sobre a instalação.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir",
+      "bocas": 5,
+      "potenciaTotalW": 7200,
+      "potenciaPorZona": null,
+      "niveisPotencia": 9,
+      "funcaoTurbo": true,
+      "disjuntorA": 40,
+      "tensao": "220 V",
+      "dimensoesMm": "60 × 900 × 520 (A × L × P)",
+      "materialMesa": "Vidro cerâmico",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": true,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D8QFDZ1F"
+    },
+    "imagem": {
+      "src": "/produtos/dako-select-5.webp",
+      "credito": "Divulgação/Dako",
+      "origem": "https://www.dako.com.br/cooktop-de-inducao-5-bocas-com-2-zonas-flexiveis-dako-select-220v/p"
+    },
+    "fontes": [
+      {
+        "id": "dako-select-oficial",
+        "titulo": "Dako Select 5 Zonas — ficha oficial da Dako",
+        "url": "https://www.dako.com.br/cooktop-de-inducao-5-bocas-com-2-zonas-flexiveis-dako-select-220v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Voltagem 220 V, potência 7200 W, 5 bocas, 9 níveis de potência, função turbo, detector de panela, trava de segurança, indicador de calor residual, função manter aquecido, função play/pause, painel touch screen, timer, acabamento da mesa vidro cerâmico, \"Padrão de Tomada: Instalação direta, disjuntor de 40 A\", nicho 87 × 5,6 × 49 cm, produto 6 × 90 × 52 cm, 13 kg, importado, garantia de 12 meses, manual em PDF. O campo \"Potência dos Queimadores\" está preenchido com \"9 níveis\". As duas zonas flexíveis aparecem no nome do produto e não em campo.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaPorZona",
+        "fonteAdotada": "dako-select-oficial",
+        "valorDivergente": "\"Potência dos Queimadores\": 9 níveis",
+        "fonteDivergente": "dako-select-oficial",
+        "observacao": "Mesmo caso da Dako Diplomata: o campo **\"Potência dos Queimadores\"** traz **\"9 níveis\"**, que é a contagem do controle e não a potência de zona nenhuma. Pesa mais aqui, porque esta é a única ficha de **cinco bocas** da base e entrega os mesmos 7.200 W da Supreme de quatro — a pergunta de quanto cada zona recebe é justamente a que o campo deveria responder."
+      }
+    ]
+  },
+  {
+    "slug": "oster-otop402",
+    "nome": "Oster OTOP402",
+    "marca": "Oster",
+    "categoria": "cooktops",
+    "resumo": "Seis mil watts e um campo \"Consumo\" preenchido com 6.0 kW/h — que é a potência dividida por mil, não consumo de nada.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": null,
+      "bocas": 4,
+      "potenciaTotalW": 6000,
+      "potenciaPorZona": null,
+      "niveisPotencia": 14,
+      "funcaoTurbo": true,
+      "disjuntorA": null,
+      "tensao": "220 V, sem plugue",
+      "dimensoesMm": "64 × 590 × 520 (A × L × P)",
+      "materialMesa": "Vidro temperado",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09LHVCPPY"
+    },
+    "imagem": {
+      "src": "/produtos/oster-otop402.webp",
+      "credito": "Divulgação/Oster",
+      "origem": "https://www.oster.com.br/cooktop-de-inducao-4-bocas-oster-touch-screen/p"
+    },
+    "fontes": [
+      {
+        "id": "oster-otop402-oficial",
+        "titulo": "Oster OTOP402 — ficha oficial da Oster",
+        "url": "https://www.oster.com.br/cooktop-de-inducao-4-bocas-oster-touch-screen/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo OTOP402-220, tensão \"220V | Sem Plugue\", potência 6000 W, campo Consumo \"6.0kW/h\", dimensões 590 × 64 × 520 mm, 10,5 kg, 4 bocas, certificação Inmetro, garantia de 12 meses. O campo \"Descrição do Produto\" acrescenta: 6000 W de potência total, 4 zonas de indução de 190 e 165 mm, vidro temperado, 14 níveis de potência mais função Booster, controles individuais com timer de até 99 min, painel touchscreen slide touch, trava de segurança e indicação de panela de ferro, fundo triplo ou aço inox magnético. Não declara a potência de cada zona, o disjuntor exigido nem o tipo de instalação.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaTotalW",
+        "fonteAdotada": "oster-otop402-oficial",
+        "valorDivergente": "Consumo: 6.0kW/h",
+        "fonteDivergente": "oster-otop402-oficial",
+        "observacao": "O campo **\"Consumo\"** traz **6,0 kW/h** ao lado de uma potência de **6.000 W**. É o mesmo número com a vírgula deslocada três casas — a potência renomeada, não consumo. Consumo depende de quanto tempo o aparelho fica ligado, e a ficha não diz nada sobre isso. Não republicamos o valor como se fosse um segundo dado."
+      }
+    ]
+  },
+  {
+    "slug": "oster-otop202",
+    "nome": "Oster OTOP202",
+    "marca": "Oster",
+    "categoria": "cooktops",
+    "resumo": "O mesmo aparelho entrega 1.800 W na tomada de 127 V e 3.000 W na de 220 — 67% a mais. É a única ficha da base que declara as duas.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De embutir ou portátil",
+      "bocas": 2,
+      "potenciaTotalW": 1800,
+      "potenciaPorZona": null,
+      "niveisPotencia": 14,
+      "funcaoTurbo": true,
+      "disjuntorA": null,
+      "tensao": "127 V ou 220 V",
+      "dimensoesMm": "87 × 295 × 511 (A × L × P)",
+      "materialMesa": "Vidro temperado",
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": true,
+      "detectorPanela": null,
+      "timer": true,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09LHWQ68V"
+    },
+    "imagem": {
+      "src": "/produtos/oster-otop202.webp",
+      "credito": "Divulgação/Oster",
+      "origem": "https://www.oster.com.br/cooktop-de-inducao-2-bocas-oster-touch-screen-2-em-1/p"
+    },
+    "fontes": [
+      {
+        "id": "oster-otop202-oficial",
+        "titulo": "Oster OTOP202 — ficha oficial da Oster",
+        "url": "https://www.oster.com.br/cooktop-de-inducao-2-bocas-oster-touch-screen-2-em-1/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo OTOP202-127 / OTOP202-220, tensão 127 / 220, potência \"127V 1800W / 220V – 3000W\", campo Consumo \"127V 1,8kW/h / 220V – 3.0kW/h\", dimensões 295 × 87 × 511 mm, 4,3 kg, 2 bocas, certificação Inmetro, garantia de 12 meses. O campo \"Descrição do Produto\" acrescenta: 2 em 1, de embutir ou portátil, 2 zonas de indução de 190 e 165 mm, vidro temperado, 14 níveis de potência mais função Booster, controles individuais com timer de até 99 min, painel touchscreen slide touch, trava de segurança, e a nota \"*Potência para o produto em 220v. Em 127v: 1800W\". Publicamos a potência da versão de 127 V, que é a do anúncio pareado.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaTotalW",
+        "fonteAdotada": "oster-otop202-oficial",
+        "valorDivergente": "Consumo: 127V 1,8kW/h / 220V – 3.0kW/h",
+        "fonteDivergente": "oster-otop202-oficial",
+        "observacao": "Como na OTOP402, o campo **\"Consumo\"** é a potência dividida por mil, nas duas tensões. O dado que vale nesta ficha é outro, e a Oster o publica com honestidade: o mesmo modelo entrega **1.800 W a 127 V e 3.000 W a 220 V**. Quem comprar a versão de tomada comum leva **40% menos potência** que o número do anúncio da versão 220."
+      }
+    ]
+  },
+  {
+    "slug": "oster-otop100",
+    "nome": "Oster OTOP100 Portátil",
+    "marca": "Oster",
+    "categoria": "cooktops",
+    "resumo": "O campo de consumo declara \"37,50kWh (127V) / 60,00W (220V)\" — a segunda metade em watt dentro de um campo em quilowatt-hora.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "Portátil",
+      "bocas": 1,
+      "potenciaTotalW": 2000,
+      "potenciaPorZona": null,
+      "niveisPotencia": null,
+      "funcaoTurbo": null,
+      "disjuntorA": null,
+      "tensao": "127 V ou 220 V",
+      "dimensoesMm": "55 × 280 × 360 (A × L × P)",
+      "materialMesa": null,
+      "zonaFlexivel": null,
+      "painelTouch": true,
+      "travaSeguranca": null,
+      "detectorPanela": null,
+      "timer": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaPorZona",
+      "zonaFlexivel"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DVTSGYL5"
+    },
+    "imagem": {
+      "src": "/produtos/oster-otop100.webp",
+      "credito": "Divulgação/Oster",
+      "origem": "https://www.oster.com.br/cooktop-de-inducao-1-boca--oster-touch-screen-portatil/p"
+    },
+    "fontes": [
+      {
+        "id": "oster-otop100-oficial",
+        "titulo": "Oster OTOP100 Portátil — ficha oficial da Oster",
+        "url": "https://www.oster.com.br/cooktop-de-inducao-1-boca--oster-touch-screen-portatil/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo OTOP100-127 / OTOP100-220, tensão 127 / 220, potência \"1250W (127V) / 2000W (220V)\", campo Consumo \"37,50kWh (127V) / 60,00W (220V)\", dimensões 280 × 360 × 55 mm, 2,12 kg, certificação Inmetro, garantia de 12 meses. A descrição do produto fala em \"diferentes seleções de temperatura e controle touch\" e não traz número de níveis, trava de segurança nem timer. Publicamos a potência da versão de 220 V, que é a do anúncio pareado. Não declara material da mesa nem disjuntor.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaTotalW",
+        "fonteAdotada": "oster-otop100-oficial",
+        "valorDivergente": "Consumo: 37,50kWh (127V) / 60,00W (220V)",
+        "fonteDivergente": "oster-otop100-oficial",
+        "observacao": "Este é o único campo de consumo da base que traz uma conta de verdade — e traz a unidade errada em metade dela. **37,50 kWh** são 1.250 W ligados por 30 horas; **60,00** seriam 2.000 W pelas mesmas 30 horas, mas estão escritos com a unidade **W**, que é de potência. A ficha em nenhum momento diz que a conta pressupõe trinta horas por mês. Nas outras duas Oster da base o mesmo campo é só a potência dividida por mil."
+      }
+    ]
+  },
+  {
+    "slug": "philco-pct05ifp",
+    "nome": "Philco Zona Flex PCT05IFP",
+    "marca": "Philco",
+    "categoria": "cooktops",
+    "resumo": "A ficha não publica um único watt. O número 9300w está no endereço da página, e em nenhum campo dentro dela.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De sobrepor",
+      "bocas": 5,
+      "potenciaTotalW": null,
+      "potenciaPorZona": null,
+      "niveisPotencia": null,
+      "funcaoTurbo": null,
+      "disjuntorA": null,
+      "tensao": "220 V",
+      "dimensoesMm": null,
+      "materialMesa": null,
+      "zonaFlexivel": null,
+      "painelTouch": null,
+      "travaSeguranca": null,
+      "detectorPanela": null,
+      "timer": null,
+      "garantiaMeses": 12
+    },
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09GH9J5DB"
+    },
+    "imagem": {
+      "src": "/produtos/philco-pct05ifp.webp",
+      "credito": "Divulgação/Philco",
+      "origem": "https://www.philco.com.br/cooktop-philco-de-inducao-pct05ifp-5-queimadores-9300w-220v/p"
+    },
+    "fontes": [
+      {
+        "id": "philco-pct05ifp-oficial",
+        "titulo": "Philco Zona Flex PCT05IFP — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/cooktop-philco-de-inducao-pct05ifp-5-queimadores-9300w-220v/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Quantidade de bocas 5, marca Philco, modelo PCT05IFP, tipo de montagem \"De sobrepor\", cor preto, tipos de alimentação energia elétrica, garantia 360 dias, \"Tripla chama: Não\", e as unidades de medida (centímetros) sem os números correspondentes. O endereço da página é \".../cooktop-philco-de-inducao-pct05ifp-5-queimadores-9300w-220v/p\" e o nome do produto termina em \"220V\". Nenhum campo da ficha traz potência, níveis, material da mesa, dimensões, timer, trava de segurança, detector de panela ou painel touch.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "potenciaTotalW",
+        "fonteAdotada": "philco-pct05ifp-oficial",
+        "valorDivergente": "9300w, só no endereço da página",
+        "fonteDivergente": "philco-pct05ifp-oficial",
+        "observacao": "O endereço da própria página declara **9300w**, e nenhum campo da ficha traz potência. Um número que vive na URL não é dado publicado: não tem unidade escrita, não diz se é total ou de pico, e não aparece em lugar nenhum que o comprador leia. O campo ficou vazio. Na mesma ficha existe um campo **\"Tripla chama: Não\"** — especificação de queimador a gás num cooktop de indução, que não tem chama nenhuma."
+      }
+    ]
+  },
+  {
+    "slug": "philco-pct10a",
+    "nome": "Philco PCT10A Portátil",
+    "marca": "Philco",
+    "categoria": "cooktops",
+    "resumo": "Seis campos na ficha inteira, e um deles é \"Tripla chama: Não\" — especificação de fogão a gás num cooktop que não tem chama.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De sobrepor",
+      "bocas": 1,
+      "potenciaTotalW": null,
+      "potenciaPorZona": null,
+      "niveisPotencia": null,
+      "funcaoTurbo": null,
+      "disjuntorA": null,
+      "tensao": "127 V",
+      "dimensoesMm": null,
+      "materialMesa": null,
+      "zonaFlexivel": null,
+      "painelTouch": null,
+      "travaSeguranca": null,
+      "detectorPanela": null,
+      "timer": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaPorZona",
+      "zonaFlexivel"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F2JMT8MN"
+    },
+    "imagem": {
+      "src": "/produtos/philco-pct10a.webp",
+      "credito": "Divulgação/Philco",
+      "origem": "https://www.philco.com.br/cooktop-de-inducao-pct10a-127v-055901016/p"
+    },
+    "fontes": [
+      {
+        "id": "philco-pct10a-oficial",
+        "titulo": "Philco PCT10A — ficha oficial da Philco",
+        "url": "https://www.philco.com.br/cooktop-de-inducao-pct10a-127v-055901016/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Quantidade de bocas 1, marca Philco, modelo PCT10A, tipo de montagem \"De sobrepor\", cor preto, tipos de alimentação energia elétrica, garantia 360 dias, \"Tripla chama: Não\", manual de instruções em PDF. O endereço e o nome do produto indicam a versão de 127 V. Nenhum campo traz potência, níveis, timer, trava de segurança, material da mesa ou dimensões.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "bocas",
+        "fonteAdotada": "philco-pct10a-oficial",
+        "valorDivergente": "\"Tripla chama: Não\"",
+        "fonteDivergente": "philco-pct10a-oficial",
+        "observacao": "A ficha declara que o produto **não tem tripla chama**, que é um tipo de queimador a gás. Um cooktop de indução não tem chama de espécie alguma. O campo mostra que a ficha foi montada no molde do fogão a gás — e o molde trouxe a ausência de um recurso irrelevante enquanto deixou de fora potência, níveis, timer e trava. Os quatro produtos Philco e Britânia desta base trazem o mesmo campo."
+      }
+    ]
+  },
+  {
+    "slug": "britania-bcte10a",
+    "nome": "Britânia BCTE10A Portátil",
+    "marca": "Britânia",
+    "categoria": "cooktops",
+    "resumo": "As fotos oficiais mostram o mesmo aparelho da Philco PCT10A, com outro logotipo. As duas fichas são igualmente vazias.",
+    "atualizadoEm": "2026-09-26",
+    "specs": {
+      "tipo": "De sobrepor",
+      "bocas": 1,
+      "potenciaTotalW": null,
+      "potenciaPorZona": null,
+      "niveisPotencia": null,
+      "funcaoTurbo": null,
+      "disjuntorA": null,
+      "tensao": "127 V",
+      "dimensoesMm": null,
+      "materialMesa": null,
+      "zonaFlexivel": null,
+      "painelTouch": null,
+      "travaSeguranca": null,
+      "detectorPanela": null,
+      "timer": null,
+      "garantiaMeses": 12
+    },
+    "naoSeAplica": [
+      "potenciaPorZona",
+      "zonaFlexivel"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F2JM8QSY"
+    },
+    "imagem": {
+      "src": "/produtos/britania-bcte10a.webp",
+      "credito": "Divulgação/Britânia",
+      "origem": "https://www.britania.com.br/cooktop-de-inducao-bcte10a-127v-065901009/p"
+    },
+    "fontes": [
+      {
+        "id": "britania-bcte10a-oficial",
+        "titulo": "Britânia BCTE10A — ficha oficial da Britânia",
+        "url": "https://www.britania.com.br/cooktop-de-inducao-bcte10a-127v-065901009/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Quantidade de bocas 1, marca Britânia, modelo BCTE10A, tipo de montagem \"De sobrepor\", cor preto, tipos de alimentação energia elétrica, garantia 360 dias, \"Tripla chama: Não\", manual de instruções em PDF. O endereço e o nome do produto indicam a versão de 127 V. Nenhum campo traz potência, níveis, timer, trava de segurança, material da mesa ou dimensões. O painel touch aparece no nome do produto e não em campo.",
+        "consultadaEm": "2026-09-26"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "painelTouch",
+        "fonteAdotada": "britania-bcte10a-oficial",
+        "valorDivergente": "\"Painel Touch\" só no nome do produto",
+        "fonteDivergente": "britania-bcte10a-oficial",
+        "observacao": "O produto se chama \"Cooktop de Indução Britânia Portátil **Painel Touch** BCTE10A\" e a ficha não tem campo de painel. Recurso que só existe no nome do produto não é campo publicado, e o site não o conta como tal — é a mesma regra aplicada ao \"X em 1\" dos processadores. A foto oficial mostra o painel, e mostra também que este aparelho e a Philco PCT10A são o mesmo produto: painel idêntico, avisos impressos idênticos e os mesmos seis programas na serigrafia."
+      }
+    ]
+  }
+]

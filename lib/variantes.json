@@ -508,6 +508,13 @@
     ],
     "original": 1200
   },
+  "/produtos/britania-bcte10a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/britania-bec02pr.webp": {
     "larguras": [
       240,
@@ -1019,6 +1026,27 @@
     ],
     "original": 1200
   },
+  "/produtos/dako-diplomata-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/dako-select-5.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/dako-supreme-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/dell-se2426hg.webp": {
     "larguras": [
       240,
@@ -1265,6 +1293,34 @@
     "original": 1000
   },
   "/produtos/electrolux-ews1850p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ic30.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ie4tw.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ie60p.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/electrolux-ie8fb.webp": {
     "larguras": [
       240,
       480
@@ -2370,6 +2426,20 @@
     ],
     "original": 590
   },
+  "/produtos/midea-cyad11-portatil.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/midea-e3-even-pro-4.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/midea-ecomaster-12000.webp": {
     "larguras": [
       240,
@@ -2406,6 +2476,13 @@
     "original": 1000
   },
   "/produtos/midea-eka20x.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/midea-freezone-2.webp": {
     "larguras": [
       240,
       480
@@ -3231,6 +3308,27 @@
     ],
     "original": 1000
   },
+  "/produtos/oster-otop100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-otop202.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/oster-otop402.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/oster-otor600.webp": {
     "larguras": [
       240,
@@ -3365,6 +3463,20 @@
     "original": 1200
   },
   "/produtos/philco-pcf40b.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pct05ifp.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/philco-pct10a.webp": {
     "larguras": [
       240,
       480

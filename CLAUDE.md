@@ -397,8 +397,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 598 produtos em 33 categorias, 33 guias,
-  53 comparativos e 41 análises.**
+- **Inventário em 26/09/2026: 614 produtos em 34 categorias, 34 guias,
+  54 comparativos e 42 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -513,10 +513,17 @@ confunde com documento sem folha de estilo.
   com 600 ml úteis, e copo de 950 ml com os mesmos 600. A jarra é 26% maior por
   fora e não rende um mililitro a mais.
 
-  **A Mondial responde 12,0 campos de 16 — o número mais alto já medido neste
-  site em qualquer categoria** — e é também a que mais se contradiz: o M-15 em
-  três cores tem três fichas que discordam sobre haver botão de liga-desliga e
-  sobre o aparelho triturar ou misturar.
+  **A Mondial responde 12,0 campos de 16 nesta categoria** — e é também a que
+  mais se contradiz: o M-15 em três cores tem três fichas que discordam sobre
+  haver botão de liga-desliga e sobre o aparelho triturar ou misturar.
+
+  **Aqui estava escrito que 12,0 era "o número mais alto já medido neste site em
+  qualquer categoria", e era falso** — conferido em 26/09/2026 contra a base
+  inteira. A Apple responde 19,3 campos de 23 em celulares, a Motorola 18,5, a
+  Samsung 18,3 de 24 em tablets e a LG 16,9 de 21 em monitores. Eletroportátil
+  publica menos que eletrônico, e média de marca não se compara entre categorias
+  com número de campos diferente. **Superlativo de categoria se confere contra
+  `dados/*.json` inteiro antes de escrever.**
 
 - **O campo "consumo" é armadilha de mercado, e o site já caiu nela.** Em
   26/09/2026, quatro fichas de sanduicheira publicavam `consumoKwh` com um
@@ -543,6 +550,13 @@ confunde com documento sem folha de estilo.
   mesmo catálogo, com fator de trinta entre elas. **Ao apurar qualquer
   categoria, conferir se o campo de consumo é potência/1000 antes de
   publicá-lo.**
+
+  Em 26/09/2026 o padrão reapareceu em **ferro, torradeira e cooktop**, e a
+  Oster OTOP100 acrescentou uma variação nova: **"37,50kWh (127V) / 60,00W
+  (220V)"**. A primeira metade é uma conta certa — 1.250 W por trinta horas —, e
+  a segunda é o mesmo cálculo com a unidade trocada por watt. Quando o campo
+  parecer uma conta de verdade, **conferir as duas metades**: as trinta horas
+  não estão escritas em lugar nenhum da ficha.
 
 - **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
   de 423 e não na de 413 por categoria. Não foram investigados; fica anotado.
@@ -747,6 +761,92 @@ confunde com documento sem folha de estilo.
   listar purificador de ar, ou se a Xiaomi passar de um modelo. O esquema já
   está desenhado na cabeça do problema: CADR, área em m², ruído, classe do
   filtro (H11/H13), vida útil do refil e consumo.
+
+- **Cooktops de indução abriu em 26/09/2026, com dezesseis de seis marcas** —
+  Electrolux 4, Midea 3, Dako 3, Oster 3, Philco 2, Britânia 1. Dako é marca
+  nova na base. Todas as fichas vieram de catálogo VTEX
+  (`/api/catalog_system/pub/products/search?ft=`), inclusive `www.dako.com.br`.
+
+  **O eixo é a soma das zonas contra a potência total.** A Electrolux IE4TW é a
+  única de quatro bocas que publica zona por zona: 1.900, 1.800, 1.800 e
+  1.900 W, que somam **exatamente** os 7.400 W declarados — e cada uma vai a
+  2.000 W em boost, o que daria 8.000. Não é erro de conta da marca: a central
+  de potência reparte o que tem, e o boost de uma boca sai de outra. **O que
+  nenhuma das dezesseis fichas escreve é essa frase**, e sem ela quem lê quatro
+  zonas de 2.000 W conclui que pode usar as quatro assim.
+
+  A Electrolux IC30 leva ao extremo: **três campos de potência com 3.700 W,
+  3.600 W e 1.800 W na mesma ficha**, mais "1.800W a 2.800W (x2)", que colocaria
+  duas zonas em 5.600 contra um total de 3.600. Publicamos o do campo chamado
+  total.
+
+  **Seis das dezesseis não publicam um único watt**, e duas delas são Electrolux
+  de quatro bocas — a mesma marca da IE4TW, mesmo ano, mesmo modelo de página.
+  A IE60P também não traz prazo de garantia.
+
+  **Cegueira complementar, de novo** — o mesmo padrão de ar-condicionado,
+  purificadores e furadeiras. Electrolux publica potência por zona (2 de 4) e
+  zona flexível em campo (1 de 4), e nunca disjuntor nem detector de panela.
+  Dako publica detector de panela (3 de 3) e disjuntor (2 de 3), e nunca a
+  potência de zona nenhuma. Dako responde 13,3 campos de 16 por ficha, contra
+  10,8 da Electrolux e **4,0 de Philco e Britânia**.
+
+  **Três fichas em dezesseis dizem qual disjuntor a instalação pede:** Dako
+  Select 40 A, Dako Diplomata 32 A, Midea CYAD11 20 A. Num aparelho de 7.400 W
+  a 220 V são 34 ampères, e treze fichas deixam o comprador descobrir na hora.
+  A Dako Supreme, do mesmo catálogo e com os mesmos 7.200 W da Select, **não
+  traz o campo** — nem o de acabamento da mesa.
+
+  Achados avulsos que valem para outras categorias:
+
+  - A Midea E3 Even Pro declara **7.400 W nos três campos de tensão**, 127 V,
+    220 V e bivolt, com "Tipo de tomada: Não Informado". A 127 V seriam 58 A. O
+    campo de tensão ficou vazio: não dá para saber pela página em que tensão o
+    produto é vendido.
+  - A Midea FreeZone tem o campo **"Potência (220v)" preenchido com "220v"** e o
+    campo "Frequência (Hz)" com **"A obter dados. Aguarde alguns segundos e
+    experimente cortar ou copiar novamente"** — a mensagem de erro da área de
+    transferência do Windows. Os dois juntos dizem como a ficha foi montada.
+  - A Philco PCT05IFP declara **9300w no endereço da página** e em campo nenhum.
+    Mesmo caso do "3-em-1" na URL da Britânia BEC05T.
+  - **Philco e Britânia trazem "Tripla chama: Não"** nas três fichas — campo de
+    queimador a gás num cooktop que não tem chama. O molde do fogão foi
+    aplicado à indução e trouxe a ausência de um recurso irrelevante enquanto
+    deixou de fora potência, níveis, timer e trava. As fotos oficiais mostram
+    que a Philco PCT10A e a Britânia BCTE10A são **o mesmo aparelho com
+    logotipos diferentes**: mesmo painel, mesmos seis programas na serigrafia.
+  - A Dako tem o campo **"Potência dos Queimadores" preenchido com "9 níveis"**
+    na Diplomata e na Select — o único campo que diria a potência de zona,
+    ocupado pela contagem do controle, que já está no campo de baixo.
+  - **As três Oster repetem a armadilha do consumo.** OTOP402: 6.000 W e
+    "Consumo 6.0kW/h". OTOP202: 1.800/3.000 W e "1,8kW/h / 3.0kW/h". A OTOP100
+    é o caso novo: **"37,50kWh (127V) / 60,00W (220V)"** — a primeira metade é
+    uma conta certa de 1.250 W por 30 horas, a segunda é 60 kWh escrito em
+    **watt**. Nenhuma das três declara as trinta horas.
+  - A Midea CYAD11 declara nos campos avulsos **"Produto Profundidade (cm): 380"**
+    — milímetro com rótulo de centímetro, um cooktop portátil de 3,8 metros. O
+    campo consolidado da mesma página diz 4 × 29,5 × 38 cm.
+
+  **Zona flexível: 1 ficha em 12 declara em campo** (Electrolux IE8FB). Outros
+  quatro produtos trazem "Zona Flex", "FreeZone" ou "Zona Flexível" no nome e em
+  campo nenhum — mesma régua do "X em 1" dos processadores.
+
+  **A Britânia BCT04P ficou de fora**: única de quatro bocas da marca, sem
+  anúncio na Amazon. Sai pela regra de 26/09. Cooktop a gás e vitrocerâmico
+  elétrico também não entram: não têm zona, nem nível de potência, nem dependem
+  de panela ferrosa.
+
+  **Erro pego antes de publicar:** a ficha em `/cooktop-de-inducao-4-zonas-com-
+  unicook-flexivel-preto-electrolux--ie8fb-/p` é o modelo **IE8FB**
+  (B083X6799Y), e eu tinha pareado com o ASIN do IE80P (B082FQCN5W). São
+  produtos diferentes no mesmo catálogo. **Link de afiliado se confere contra o
+  título do anúncio, não contra o slug da página do fabricante.**
+
+  **Foto rejeitada na auditoria:** a principal da Oster OTOP202 e a da Philco
+  PCT05IFP eram peças de campanha com texto de venda sobreposto ("COOKTOP 2 EM
+  1... Pode ser utilizado no formato embutido", "FUNÇÃO TURBO", "AQUECIMENTO POR
+  INDUÇÃO"). Trocadas por foto de produto da mesma página. As três Dako, marca
+  nova, passaram limpas.
 
 - **Furadeiras e parafusadeiras abriu em 26/09/2026, com treze de quatro marcas** —
   Mondial 5, WAP 4, Bosch 2, Philco 2. Departamento novo: **Ferramentas**.

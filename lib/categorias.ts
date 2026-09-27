@@ -215,6 +215,15 @@ export const categorias: Categoria[] = [
       "Fechou em vinte e quatro, com cinco marcas. O que manteve a lista nesse tamanho não foi falta de produto — foi falta de número: treze das vinte e quatro fichas publicam vazão de vapor, e as onze restantes entram para mostrar exatamente isso. Black+Decker e Philips Walita aparecem bem colocadas no ranking e nenhuma das duas tem catálogo brasileiro que responda; sem ficha de fabricante não há ficha aqui. Ficaram de fora também os itens do nó que não são ferro: vaporizador de roupa, tapete de silício e kit de limpeza.",
   },
   {
+    slug: "cooktops",
+    nome: "Cooktops de indução",
+    descricao:
+      "Cooktops de indução de bancada e de embutir, com a potência de cada zona ao lado da potência total — que costuma ser menor que a soma delas.",
+    dorPrincipal: "As quatro zonas somam exatamente o total declarado. Não sobra nada para o boost.",
+    porQueParou:
+      "Abriu com dezesseis de seis marcas. Philco e Britânia entram sem nenhuma potência publicada, o que num cooktop de indução é a ausência mais cara possível — e é o dado. Agratto, Eos e Suggar aparecem no ranking e não têm catálogo que responda com especificação. A Britânia BCT04P, única de quatro bocas da marca, ficou de fora por não ter anúncio na Amazon. Cooktop a gás não entra: não tem zona, não tem nível de potência e não depende de panela de material ferroso.",
+  },
+  {
     slug: "furadeiras",
     nome: "Furadeiras e parafusadeiras",
     descricao:
@@ -333,6 +342,7 @@ export const ORDEM_NA_HOME: string[] = [
   "espremedores",
   "lavaloucas",
   "smartwatches",
+  "cooktops",
   "furadeiras",
   "purificadores",
   "ar-condicionado",
