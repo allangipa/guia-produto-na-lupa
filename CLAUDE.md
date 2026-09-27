@@ -1099,10 +1099,11 @@ confunde com documento sem folha de estilo.
   anterior do mesmo dia. Não é obrigatório (o Google relê sozinho), mas é
   barato e tira a dúvida.
 
-  **Há uma segunda entrada quebrada na lista**, `.../sitemap.xm` sem o `l`,
-  com status "Não foi possível buscar o sitemap" e 0 páginas. Não atrapalha o
-  rastreamento, e continua ali até alguém removê-la. Ao enviar sitemap,
-  conferir o campo antes de clicar — foi assim que ela nasceu.
+  Havia uma segunda entrada, `.../sitemap.xm` sem o `l`, com status "Não foi
+  possível buscar o sitemap" e 0 páginas — erro de digitação no envio.
+  **Removida em 26/09/2026**, e a lista hoje tem uma linha só. Ao enviar
+  sitemap, conferir o campo antes de clicar em enviar: foi assim que ela
+  nasceu, e é a conferência de um segundo.
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
 
