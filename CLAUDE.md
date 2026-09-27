@@ -1089,7 +1089,20 @@ confunde com documento sem folha de estilo.
   clique no botão de afiliado.
   **A Hostinger não serve:** ela é só registradora e DNS deste domínio; o
   tráfego vai direto para o GitHub Pages e não passa por ela.
-- Falta cadastrar o sitemap no Search Console.
+- **O sitemap está cadastrado no Search Console**, na propriedade de domínio
+  `sc-domain:guiaprodutonalupa.com.br`. Reenviado em 26/09/2026 depois do
+  commit dos cooktops: **795 páginas encontradas**, status "Processado". O
+  `robots.txt` também aponta para ele.
+
+  Reenviar o mesmo URL depois de um lote grande de páginas novas força uma
+  releitura — antes do reenvio o painel ainda mostrava as 556 de uma leitura
+  anterior do mesmo dia. Não é obrigatório (o Google relê sozinho), mas é
+  barato e tira a dúvida.
+
+  **Há uma segunda entrada quebrada na lista**, `.../sitemap.xm` sem o `l`,
+  com status "Não foi possível buscar o sitemap" e 0 páginas. Não atrapalha o
+  rastreamento, e continua ali até alguém removê-la. Ao enviar sitemap,
+  conferir o campo antes de clicar — foi assim que ela nasceu.
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
 
