@@ -720,6 +720,34 @@ confunde com documento sem folha de estilo.
   Sete fichas ficaram só com o total migrado, sem útil, porque a página oficial
   não respondeu. Ver a lista em "Páginas de fabricante que morreram".
 
+- **Purificadores de AR foram investigados em 26/09/2026 e NÃO abrem.** Fica
+  registrado para não se gastar a pesquisa de novo.
+
+  **Zero das sete marcas brasileiras com catálogo vende um purificador de ar
+  documentado** — Electrolux, Philco, Britânia, Midea, Mondial, WAP e Consul,
+  todas zero. A Electrolux vende o **filtro HEPA de reposição** para um
+  purificador de ar que não lista mais: o consumível sobreviveu à página do
+  produto.
+
+  **Existe uma ficha documentada no país**: a Xiaomi Smart Air Purifier 4 Lite,
+  em `mi.com/br`, e ela é boa — área de cobertura de 25 a 43 m², **PM CADR de
+  360 m³/h** e ruído de ≤ 61 dB(A). O CADR é o eixo que a categoria teria: mede
+  o ar limpo entregue por hora, contra os m² que o anúncio estampa. Uma marca
+  não é categoria: sem segunda ficha não há comparativo nem contagem, e a nota
+  de transparência mediria uma amostra de um.
+
+  **O ranking é de importador sem página.** LEVOIT, Purivortex, MOOKA,
+  FULMINARE, Tailulu, Priestley e Ropo lideram; `levoit.com.br` e
+  `coway.com.br` não resolvem. O nó mistura quatro produtos — purificador,
+  umidificador/aromatizador, ozonizador e desumidificador — e vários anúncios
+  declaram a área em **pés quadrados** ("1.035 pés²", "1.680 pés²"), listagem
+  americana traduzida sem adaptar.
+
+  **Quando reabrir a investigação:** se alguma das marcas brasileiras voltar a
+  listar purificador de ar, ou se a Xiaomi passar de um modelo. O esquema já
+  está desenhado na cabeça do problema: CADR, área em m², ruído, classe do
+  filtro (H11/H13), vida útil do refil e consumo.
+
 - **Furadeiras e parafusadeiras abriu em 26/09/2026, com treze de quatro marcas** —
   Mondial 5, WAP 4, Bosch 2, Philco 2. Departamento novo: **Ferramentas**.
 
