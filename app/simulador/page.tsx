@@ -7,9 +7,9 @@ import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
 import { RedirecionaProjeto } from "@/components/simulador-redireciona";
 
 export const metadata: Metadata = {
-  title: tituloSeo("Simulador de compra: câmeras, Wi-Fi, automação, ar, nobreak e cozinha"),
+  title: tituloSeo("Simulador de compra: monte o projeto e veja o que comprar"),
   description:
-    "Oito ferramentas para montar o projeto antes de comprar — câmeras de segurança, Wi-Fi, automação, BTUs do ar-condicionado, nobreak, air fryer, refil do purificador e cooktop de indução —, com a lista tirada das fichas oficiais dos fabricantes.",
+    "Oito ferramentas para montar o projeto antes de comprar: câmeras, Wi-Fi, automação, ar-condicionado, nobreak, air fryer, refil e cooktop.",
   alternates: { canonical: "/simulador" },
 };
 

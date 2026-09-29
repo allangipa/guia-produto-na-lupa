@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { site, tituloSeo } from "@/lib/site";
+import { ogImagem, site, tituloSeo } from "@/lib/site";
 import { dataLegivel } from "@/lib/conteudo";
 import { FOCOS, SLUG_DO_FOCO, focoDoSlug, hrefDoFoco, type Foco } from "@/lib/simulador";
 import { baseDoFoco } from "@/lib/simulador-base";
@@ -30,11 +30,23 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const foco = focoDoSlug((await params).projeto);
   if (!foco) return {};
   const p = PAGINAS[foco];
+  // A capa do compartilhamento é a foto de um produto da própria ferramenta.
+  // Declarar `openGraph` aqui substitui o do layout inteiro, e por isso tipo,
+  // idioma e nome do site vão repetidos: sem eles o link chega sem marca.
+  const foto = Object.values(baseDoFoco(foco)).find((x) => x.imagem)?.imagem;
   return {
     title: tituloSeo(p.seo),
     description: p.descricao,
     alternates: { canonical: hrefDoFoco(foco) },
-    openGraph: { title: p.seo, description: p.descricao },
+    openGraph: {
+      type: "website",
+      locale: "pt_BR",
+      siteName: site.nome,
+      url: hrefDoFoco(foco),
+      title: p.seo,
+      description: p.descricao,
+      ...ogImagem(foto),
+    },
   };
 }
 

@@ -15,6 +15,13 @@ import { COBERTURA, KIT_VENDIDO } from "./simulador-wifi";
  * ferramenta faz, e a tabela muda sozinha quando a base muda.
  */
 
+/**
+ * A descrição vai para o resultado de busca, e o Google corta perto de 155
+ * caracteres. O build para se passar de 160 — descrição cortada no meio da
+ * frase custa clique.
+ */
+export const LIMITE_DESCRICAO = 160;
+
 export type PaginaFerramenta = {
   /** Título da aba e do resultado de busca. */
   seo: string;
@@ -31,7 +38,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Calculadora de BTU: quantos BTUs o seu cômodo precisa",
     h1: "Calculadora de BTU para ar-condicionado",
     descricao:
-      "Calcule os BTUs do ar-condicionado pelo tamanho do cômodo, pessoas, sol e aparelhos, com a conta publicada pela LG, e veja os splits da base que atendem — com a área que cada fabricante declara.",
+      "Calcule os BTUs do ar-condicionado pelo tamanho do cômodo, pessoas, sol e aparelhos, com a conta da LG, e veja os splits que atendem.",
     intro: [
       "A conta não é nossa: é a do simulador de capacidade da LG — 600 BTU por metro quadrado, mais 600 por pessoa, mais 15% com muito sol e 20% no Norte, Nordeste e Centro-Oeste, mais a carga de TV, computador e geladeira.",
       "Quando o fabricante do split declara a área que o aparelho atende, ela aparece ao lado do resultado. Hoje só a Electrolux escreve a área na ficha; Midea e Elgin vendem por BTU e deixam a conversão para o comprador.",
@@ -43,7 +50,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Qual nobreak comprar: calcule a potência pelos seus aparelhos",
     h1: "Calculadora de nobreak",
     descricao:
-      "Some os watts do computador, do modem e da TV e veja qual nobreak aguenta a carga, em watts e não em VA, com forma de onda e compatibilidade com fonte PFC tiradas da ficha oficial.",
+      "Some os watts dos seus aparelhos e veja qual nobreak aguenta a carga — em watts, não em VA —, com forma de onda e PFC tirados da ficha oficial.",
     intro: [
       "O número grande da caixa é o VA; o que o aparelho consome é watt. Nesta base, os nobreaks de 600 VA que publicam o watt declaram entre 250 e 300 W. O simulador soma a carga em watts, compara com o watt que o fabricante declara e avisa quando a ficha só publica o VA.",
       "Para fonte de computador com PFC ativo, o simulador só indica nobreak de onda senoidal. A tabela abaixo mostra o que cada ficha declara sobre isso — e onde ela não diz nada.",
@@ -55,7 +62,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Qual tamanho de air fryer comprar: quanta batata cabe",
     h1: "Qual air fryer para a sua família",
     descricao:
-      "Descubra o tamanho de air fryer para quantas pessoas: o litro do nome é a caixa, e o que decide é o cesto e quanta batata o fabricante declara que cabe de uma vez.",
+      "Qual tamanho de air fryer para quantas pessoas: o litro do nome é a caixa; decide o cesto e quanta batata o fabricante diz que cabe.",
     intro: [
       "O litro que vai no nome da air fryer é a capacidade da caixa. O que cabe de comida é o cesto — e poucas fichas dizem quanto de batata ele leva de uma vez.",
       "O simulador pergunta quantas pessoas comem e escolhe pelo que o fabricante declara, não pelo litro do nome. A tabela abaixo põe os três números lado a lado.",
@@ -67,7 +74,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Quanto tempo dura o refil do purificador de água",
     h1: "Quanto dura o refil do purificador de água",
     descricao:
-      "Calcule de quanto em quanto tempo trocar o refil do purificador de água pelo consumo da sua casa: o fabricante declara litros, e o prazo em meses já é o litro dividido por um consumo que ele não escreve.",
+      "Calcule de quanto em quanto tempo trocar o refil do purificador de água pelo consumo da sua casa, em litros, e não pelo prazo em meses.",
     intro: [
       "O prazo de troca em meses é o litro dividido por um consumo diário que nenhuma ficha escreve. A Consul dá 1.500 litros em 6 meses — 250 litros por mês; a IBBL dá os mesmos 6 meses a refis de 2.000 e 3.000 litros.",
       "O simulador faz a conta com o litro, que é o número que o fabricante declara, e o consumo que você informa. A tabela abaixo mostra a duração em três consumos diferentes.",
@@ -79,7 +86,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Disjuntor do cooktop de indução: corrente e instalação",
     h1: "Cooktop de indução: a corrente e o disjuntor",
     descricao:
-      "Veja a corrente que o cooktop de indução puxa na sua tensão e o disjuntor que o fabricante declara — a conta que 13 das 16 fichas deixam para o comprador descobrir na instalação.",
+      "Veja a corrente que o cooktop de indução puxa na sua tensão e o disjuntor que o fabricante declara — a conta que a maioria das fichas não faz.",
     intro: [
       "Corrente é potência dividida por tensão: um cooktop de 7.400 W puxa 34 ampères a 220 V. Acima de 20 A não há tomada no padrão brasileiro, e a ligação é direta, num circuito só dele.",
       "O simulador dá a corrente e o disjuntor que o fabricante declara, quando declara. O dimensionamento do disjuntor e do fio é trabalho do eletricista, pela NBR 5410 — e a página diz isso em vez de fingir que sabe.",
@@ -91,7 +98,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Simulador de câmeras de segurança: DVR, HD, cabo e fonte",
     h1: "Monte o sistema de câmeras de segurança",
     descricao:
-      "Monte o projeto de câmeras de segurança peça por peça — câmeras, DVR, HD, cabo, conectores, fonte e nobreak — com o detalhe da imagem calculado pela distância e as fichas oficiais da Intelbras e da Hikvision.",
+      "Monte o sistema de câmeras de segurança peça por peça — câmeras, DVR, HD, cabo, conectores e fonte —, com as fichas da Intelbras e da Hikvision.",
     intro: [
       "Cada resposta vira uma peça ou uma quantidade: os pontos definem as câmeras e os canais do gravador, a distância define os metros de cabo, e cada cabo leva um conector em cada ponta. Peça que o site ainda não apurou aparece na lista com a especificação que o projeto exige e sem link.",
       "O detalhe da imagem é conta, não promessa: na distância informada, a cena tem uma largura que depende do ângulo declarado, e os pixels da câmera se repartem por ela, nos degraus da norma IEC 62676-4. Em 1080p Lite o DVR grava metade da largura da câmera, e o detalhe gravado cai à metade.",
@@ -103,7 +110,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Wi-Fi não chega em toda a casa: mesh, repetidor ou roteador",
     h1: "Wi-Fi para a casa inteira: mesh, repetidor ou roteador",
     descricao:
-      "Descubra se a sua casa precisa de mesh, repetidor ou roteador novo, e quantas unidades, pela cobertura em m² que cada fabricante declara para o kit — com os cabos e o switch da lista.",
+      "Mesh, repetidor ou roteador? Veja quantas unidades a sua casa pede pela cobertura em m² que cada fabricante declara para o kit.",
     intro: [
       "A área da casa é comparada com a cobertura que o fabricante declara para cada número de unidades. Quando o anúncio vende menos unidades do que a conta pede, a unidade que falta entra na lista.",
       "Nenhum roteador nem repetidor desta base declara área, e a lista diz isso em vez de estimar. A tabela abaixo mostra os únicos números de cobertura publicados.",
@@ -115,7 +122,7 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     seo: "Simulador de automação residencial: o que comprar",
     h1: "Monte a automação residencial da sua casa",
     descricao:
-      "Monte a casa inteligente cômodo por cômodo — interruptor, tomada, lâmpada, sensor, fechadura e portão — num aplicativo só, com Zigbee ou Wi-Fi, com ou sem fio neutro, só com produto que tem ficha oficial.",
+      "Monte a casa inteligente — interruptor, tomada, lâmpada, sensor, fechadura e portão — num app só, Zigbee ou Wi-Fi, com ou sem fio neutro.",
     intro: [
       "A primeira escolha é o aplicativo: o simulador procura o que cobre mais peças do projeto, para a casa não ficar com três apps no celular, e avisa onde uma peça obriga a um segundo. Central (hub) só entra quando a ficha de uma peça a exige.",
       "Fio neutro e funcionamento sem internet só contam quando o fabricante escreve — e a lista diz quantas peças escrevem. A tabela abaixo mostra o que a base tem de cada tipo.",
@@ -124,6 +131,12 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     categoria: { slug: "casa-conectada", nome: "Casa conectada" },
   },
 };
+
+for (const [foco, p] of Object.entries(PAGINAS)) {
+  if (p.descricao.length > LIMITE_DESCRICAO) {
+    throw new Error(`Descrição do simulador "${foco}" tem ${p.descricao.length} caracteres; o limite é ${LIMITE_DESCRICAO}.`);
+  }
+}
 
 export type Tabela = {
   titulo: string;
