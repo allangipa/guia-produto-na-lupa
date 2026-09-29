@@ -1372,6 +1372,10 @@ confunde com documento sem folha de estilo.
   conectada (87 fichas) e dos oito projetos do /simulador — build com 1.024
   páginas.
 
+  **E de novo no mesmo 29/09/2026**, depois do push das URLs próprias do
+  simulador (`/simulador/<slug>`, oito páginas novas) — build com 1.032
+  páginas.
+
   Reenviar o mesmo URL depois de um lote grande de páginas novas força uma
   releitura — antes do reenvio o painel ainda mostrava as 556 de uma leitura
   anterior do mesmo dia. Não é obrigatório (o Google relê sozinho), mas é
