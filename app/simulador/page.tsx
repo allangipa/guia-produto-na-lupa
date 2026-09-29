@@ -134,7 +134,7 @@ export default function PaginaSimulador() {
           escreve — e a lista diz quantas peças escrevem.
         </p>
         <p className="mt-2">
-          Cada peça mostra até cinco modelos da base que atendem ao projeto: o
+          Cada peça mostra até três modelos da base que atendem ao projeto: o
           indicado, com o porquê, e os outros com o que muda em relação a ele.
           Para ver todos lado a lado, use o <Link href="/comparar/conectividade" className="underline underline-offset-4">comparador de conectividade</Link> ou o
           de <Link href="/comparar/casa-conectada" className="underline underline-offset-4">casa conectada</Link>.

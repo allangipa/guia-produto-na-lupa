@@ -852,9 +852,12 @@ confunde com documento sem folha de estilo.
   Tapo (sem anúncio nacional ou só 100–120 V); sensores 433 MHz da Positivo (sem
   anúncio); Tuya/Zemismart/Sonoff (sem página oficial no Brasil).
 
-  **Cada peça da lista mostra até 5 opções da base** (`OPCOES_POR_ITEM` em
-  `lib/simulador-lista.ts`), pedido do Allan: a indicada com o porquê, as outras
-  com o que muda. No bloco de compra, agrupadas por peça, cada produto uma vez.
+  **Cada peça da lista mostra até 3 opções da base** (`OPCOES_POR_ITEM` em
+  `lib/simulador-lista.ts`), decisão do Allan: a indicada com o porquê, as outras
+  com o que muda, para o visitante ter escolha. No bloco de compra, agrupadas por
+  peça, cada produto uma vez. **Sem link para busca geral da Amazon** — mostraria
+  produto sem ficha. O Allan confirmou em 29/09/2026 que a comissão vale para
+  outra compra feita na Amazon depois do clique no link do site.
 
 - **Nobreaks abriu em 29/09/2026, com 18 fichas de sete marcas** — Intelbras 4,
   Ragtech 4, TS Shara 3, SMS 3, JBR 2, NHS 1, Coletek 1 — e as três peças: guia
