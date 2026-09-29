@@ -1110,6 +1110,13 @@ confunde com documento sem folha de estilo.
   da LG está no código do simulador dela (600/m² + 600/pessoa, +15% sol, +20%
   N/NE/CO, TV 400, computador e frigobar 600) e é a base da calculadora.
 
+  **Air fryer no /simulador desde 29/09/2026.** Achado que vale para o guia da
+  categoria: o manual da Mondial AFON-12L, de 12 litros, aceita 400 g de batata
+  por vez — menos que a AFN-40, de 4 L (500 g) —, e Philco PAF65A (6,5 L),
+  PAF95A (9,5 L) e Britânia BFR50 (5,5 L) têm a mesma tabela, com 800 g. Campos
+  novos `batataMaxKg` e `pessoasDeclaradas`, com `contaTransparencia: false`
+  para não mudar as contas já publicadas no guia.
+
   **A calculadora de ar-condicionado está no /simulador desde 29/09/2026**, como
   quarto projeto. Usa a conta da LG como fonte de fabricante — não é regra
   nossa, e por isso não leva o rótulo "regra do simulador". Split pelo menor

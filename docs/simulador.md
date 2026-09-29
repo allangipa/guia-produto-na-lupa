@@ -270,8 +270,14 @@ vista, produto da base com fonte, lacuna escrita. Ordem proposta:
    valor típico. Folga de 50% (a mesma do projeto de câmeras); só nobreaks que
    declaram watts; com PFC ativo, só quem declara servir; "não sei" põe esses
    primeiro. Autonomia só a declarada, com a carga do fabricante.
-3. **Air fryer pelo tamanho da família.** Pela capacidade útil do cesto, não
-   pela da caixa; só 6 de 10 fichas publicam o útil.
+3. ~~**Air fryer pelo tamanho da família.**~~ **Feito em 29/09/2026**
+   (`lib/simulador-airfryer.ts`, sexto projeto do /simulador). Só 3 das 20
+   fichas dizem para quantas pessoas servem; 11 dizem no manual quanta batata
+   frita cabe por vez, e esse número não acompanha o litro (AFON-12L: 12 L e
+   400 g; AFN-40: 4 L e 500 g). A escolha é pela batata declarada
+   (`batataMaxKg`, novo campo, fora da nota de transparência); as pessoas
+   (`pessoasDeclaradas`) pesam só onde declaradas. Sem conversão de pessoas em
+   gramas: nenhuma fonte sustenta porção por pessoa.
 4. **Refil do purificador de água.** Consumo da casa em litros por dia contra a
    vida útil do refil em litros, e não o "6 meses" da ficha.
 5. **Disjuntor do cooktop de indução.** Potência declarada ÷ tensão; só 3 de 16

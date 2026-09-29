@@ -6,7 +6,7 @@
     "modelo": "NA341/00",
     "categoria": "cozinha",
     "resumo": "Airfryer de cesto com visor e 7,2 litros na caixa — 4,7 de comida. A Walita e a Amazon discordam da temperatura mínima e do timer; a ficha adota o fabricante e registra a diferença.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-09-29",
     "imagem": {
       "src": "/produtos/philips-walita-na341.webp",
       "alt": "Airfryer Philips Walita NA341 preta, de cesto, com visor transparente na frente",
@@ -17,6 +17,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 7.2,
       "capacidadeUtilL": 4.7,
+      "batataMaxKg": 1.0,
+      "pessoasDeclaradas": null,
       "potenciaW": 1800,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -65,6 +67,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão 110 V, painel de toque, visor com iluminação interna, dimensões de 45,3 × 33,3 × 30,3 cm e 12 funções mais 1 personalizável. A temperatura mínima (40 °C) e o timer (24 h) da listagem divergem do fabricante e estão registrados como divergência.",
         "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "philips-walita-na341-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://ot-dam.versuni.com/adaptivemedia/rendition?id=4b8bf6bf2e98a2045737db934982012bb0409c8e",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 1,0 kg. Trecho: Manual NA34X, coluna 'Quantidade máx.': \"Batatas fritas finas congeladas (7 x 7 mm) 1000 g 180 °C\" / \"Frango inteiro (1200 g/42 oz) 1 unidade\". Página: \"Capacidade de 7,2L: perfeita para famílias grandes ou quem gosta de preparar porções maiores.\" A página do produto não dá número de pessoas nem kg ('famílias grandes'). O manual linkado pela Walita é global, em português de Portugal, e cobre NA32X/NA33X/NA34X, com uma tabela por família; os números são da tabela NA34X. Página: https://www.walita.com.br/fritadeira-airfryer-serie-3000-7-2l-digi",
+        "consultadaEm": "2026-09-29"
       }
     ],
     "galeria": [
@@ -89,7 +99,7 @@
     "modelo": "NA130/00",
     "categoria": "cozinha",
     "resumo": "A analógica da Walita: dois botões giratórios, 6,2 litros e 1700 W. Sem display — e a ficha não diz quantos litros de comida cabem no cesto nem até quanto vai o timer.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-09-29",
     "imagem": {
       "src": "/produtos/philips-walita-na130.webp",
       "alt": "Airfryer Philips Walita NA130 preta, de cesto, com dois botões giratórios na frente",
@@ -100,6 +110,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 6.2,
       "capacidadeUtilL": null,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": "1 a 6",
       "potenciaW": 1700,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -124,6 +136,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "1700 W, 6,2 L, versão 110 V, controle analógico de tempo e temperatura, temperatura de 80 °C a 200 °C, 12 modos de preparo, timer com desligamento automático, cesto e gaveta na lava-louças, 40,3 × 30,9 × 30,8 cm, 5,35 kg e 2 anos de garantia. A página oficial da Philips não expõe a tabela técnica sem JavaScript, por isso a ficha vem da listagem.",
         "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "philips-walita-na130-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://www.walita.com.br/fritadeira-airfryer-serie-1000-xl-philips-walita-preta-1700w-na130-na130_00/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Para quantas pessoas: 1 a 6. Trecho: \"Ideal para 1 a 6 pessoas: Capacidade total de 6,2L. Prepara até 1,2 kg de alimento.\" e \"1700W e capacidade total de 6,2L (1,2kg). [...] preparando perfeitamente refeições para até 6 pessoas.\" Em dados/cozinha.json este produto só tem fonte de varejo (Amazon). Esta URL é a página oficial, achada pela API VTEX da Walita. O '1,2 kg' não diz de qual alimento. O manual do NA230, que tem a mesma cuba de 6,2 L, dá 800 g de batata e frango inteiro de 1,2 kg, então o 1,2 kg corresponde ao frango,",
+        "consultadaEm": "2026-09-29"
       }
     ]
   },
@@ -134,7 +154,7 @@
     "modelo": "AFON-12L-BI",
     "categoria": "cozinha",
     "resumo": "Forno de 12 litros com porta frontal, cesto de 5 litros e três assadeiras. A Mondial publica a ficha mais completa da base: potência, peso, dimensões, timer, tomada e garantia, tudo com número.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-09-29",
     "imagem": {
       "src": "/produtos/mondial-afon-12l.webp",
       "alt": "Airfryer Mondial Oven 12 L preta com inox, formato de forno com porta de vidro e painel digital",
@@ -145,6 +165,8 @@
       "formato": "Forno (porta frontal)",
       "capacidadeTotalL": 12,
       "capacidadeUtilL": 5,
+      "batataMaxKg": 0.4,
+      "pessoasDeclaradas": null,
       "potenciaW": 2000,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -186,6 +208,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão 110 V, cesto de 5 L e três assadeiras, painel digital com 10 funções predefinidas, temperatura mínima de 80 °C e peças que vão na lava-louças. A altura da listagem (36 cm) diverge do fabricante e está registrada como divergência.",
         "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "mondial-afon-12l-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://manuais.emondial.com/Manual-AFON-12L-BI.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,4 kg. Trecho: Manual, 'Tabela de alimentos — Quantidade mín./máx. (g)': \"Batatas Palitos Congeladas 200 a 400\"; \"NOTA: Os tempos predefinidos são referentes à quantidade mínima de preparo.\" Contradição de escala: a página vende \"São 12 litros de capacidade [...] Prepare grandes porções e de uma só vez\", e o manual limita a batata congelada a 400 g. É metade do máximo da AFN-50 de 5 L (800 g) e menos que o da AFN-40 de 4 L (500 g). Não declara número de pessoas. A tabela do PDF sai com ",
+        "consultadaEm": "2026-09-29"
       }
     ]
   },
@@ -207,6 +237,8 @@
       "formato": "Forno (porta frontal)",
       "capacidadeTotalL": 12,
       "capacidadeUtilL": null,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": null,
       "potenciaW": 1800,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -260,6 +292,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 4,
       "capacidadeUtilL": null,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": null,
       "potenciaW": 1500,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -322,7 +356,7 @@
     "modelo": "NA230/00",
     "categoria": "cozinha",
     "resumo": "A Walita do meio: visor com luz, painel de toque com 8 predefinições e 6,2 litros. A Walita declara 4,05 kg; a Amazon, 5,47. E a tabela oficial repete 6,2 L como capacidade útil — o mesmo número da caixa.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-09-29",
     "imagem": {
       "src": "/produtos/philips-walita-na230.webp",
       "alt": "Airfryer Philips Walita NA230 preta, de cesto, com visor transparente e painel de toque",
@@ -333,6 +367,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 6.2,
       "capacidadeUtilL": 6.2,
+      "batataMaxKg": 0.8,
+      "pessoasDeclaradas": "1 a 6",
       "potenciaW": 1700,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -371,7 +407,7 @@
         "titulo": "Philips Walita NA230/00 — página oficial do produto",
         "url": "https://www.walita.com.br/fritadeira-airfryer-digital-serie-2000-xl-philips-walita-preta-1700w-na230-na230_00/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "6,2 L (a tabela repete 6,2 L como capacidade útil), 1700 W, 80 a 200 graus, timer sonoro de 60 minutos, display de toque com 8 predefinições e manter aquecido, visor, peças na lava-louças, 40,3 × 30,8 × 30,8 cm, 4,05 kg, cabo de 80 cm, tomada de 20 A em 127 V e 2 anos de garantia.",
+        "oQueSaiuDaqui": "6,2 L (a tabela repete 6,2 L como capacidade útil), 1700 W, 80 a 200 graus, timer sonoro de 60 minutos, display de toque com 8 predefinições e manter aquecido, visor, peças na lava-louças, 40,3 × 30,8 × 30,8 cm, 4,05 kg, cabo de 80 cm, tomada de 20 A em 127 V e 2 anos de garantia. Batata frita por vez, máximo declarado: 0,8 kg. Para quantas pessoas: 1 a 6. Trecho: Página: \"Ideal para 1 a 6 pessoas: Capacidade total de 6,2L. Prepara até 1,2 kg de alimento.\" Manual: \"Frango inteiro (1,2 kg) 1 unidade\"; \"Batatas fritas finas congeladas [...] 200 - 800 g\". A descrição curta da página do NA230 é o texto de outro modelo: \"Airfryer Série 1000 XL, agora com grelha removível! [...] refeições para até 6 pessoas\" — texto da Série 1000 na página da Série 2000. O manual recomenda porções de até 500 g para a batata caseira ficar crocante, embora a tabela vá até",
         "consultadaEm": "2026-09-14"
       },
       {
@@ -405,7 +441,7 @@
     "modelo": "OFRT520",
     "categoria": "cozinha",
     "resumo": "Cesto retangular de 4,6 litros pela Oster — a Amazon anuncia 4,96. Analógica, 1500 W, timer de 60 minutos e a mais leve da base com número declarado: 4,08 kg.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-09-29",
     "imagem": {
       "src": "/produtos/oster-ofrt520.webp",
       "alt": "Airfryer Oster OFRT520 preta com frente em inox, cesto retangular e dois botões giratórios",
@@ -416,6 +452,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 4.6,
       "capacidadeUtilL": null,
+      "batataMaxKg": 0.5,
+      "pessoasDeclaradas": null,
       "potenciaW": 1500,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -460,6 +498,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão 127 V e peças que não vão na lava-louças. A capacidade da listagem (4,96 L) diverge do fabricante e está registrada como divergência.",
         "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "oster-ofrt520-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://catalog-newellbrands.s3.amazonaws.com/oster/OFRT520/manual/OFRT520-manual-01.zip",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,5 kg. Trecho: Manual, 'Sugestões para assar, fritar e descongelar', Quantidade (g) mín./máx.: \"Batata frita fresca 200/500g 25-30min 180°C\" / \"Batata frita congelada 200/500g 20-35min 200°C\" A página e a ficha comercial falam em \"receitas tamanho família\", sem número de pessoas. O manual vem em ZIP, com o PDF dentro. Página: https://www.oster.com.br/fritadeira-inox-compact-46l-oster/p",
+        "consultadaEm": "2026-09-29"
       }
     ],
     "galeria": [
@@ -478,7 +524,7 @@
     "modelo": "PAF65A",
     "categoria": "cozinha",
     "resumo": "A Philco de cesto com visor e painel digital: 6,5 litros, 1700 W e temperatura a partir de 40 °C — a única da base, com a Walita NA341 pela Amazon, que desce o suficiente para desidratar.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-09-29",
     "imagem": {
       "src": "/produtos/philco-paf65a.webp",
       "alt": "Airfryer Philco PAF65A preta com acabamento inox, cesto com janela de vidro e painel digital",
@@ -489,6 +535,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 6.5,
       "capacidadeUtilL": null,
+      "batataMaxKg": 0.8,
+      "pessoasDeclaradas": null,
       "potenciaW": 1700,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 40,
@@ -521,6 +569,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Versão 127 V, painel digital com 8 funções, visor de vidro, timer de até 60 minutos, desligamento automático e 30,2 × 28,4 × 30,5 cm.",
         "consultadaEm": "2026-09-14"
+      },
+      {
+        "id": "philco-paf65a-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://britaniaeletro-my.sharepoint.com/:b:/g/personal/marketing_britaniaeletro_onmicrosoft_com/EQssfBzKApZNsOJYMIdO48oBU9wYR2Tphr9CvTtC3VRSIA?e=jyoyvr",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,8 kg. Trecho: Manual, 'Tabela de ajustes': \"Batatas fritas finas e grossas congeladas [...] 200 a 800\" (g); \"Batatas fritas caseiras (8 x 8mm) 300 a 800\". Página: \"prepara grandes quantidades de alimentos de uma só vez, ideal para refeições em família\" — sem número de pessoas. A tabela de ajustes é idêntica, número a número, à da PAF95A (9,5 L) e à do manual unificado da Britânia BFR50 (5,5 L): três capacidades com o mesmo máximo de 800 g. Manual link",
+        "consultadaEm": "2026-09-29"
       }
     ]
   },
@@ -531,7 +587,7 @@
     "modelo": "AFN-50-BI",
     "categoria": "cozinha",
     "resumo": "A Mondial de cesto: 5 litros, 1900 W, analógica. A própria Mondial publica dois pesos e duas alturas em páginas diferentes; a Amazon publica um terceiro peso. A ficha adota a página do produto e registra o resto.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-09-29",
     "imagem": {
       "src": "/produtos/mondial-afn-50.webp",
       "alt": "Airfryer Mondial AFN-50-BI preta com painel em inox, cesto com dois botões giratórios",
@@ -542,6 +598,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 5,
       "capacidadeUtilL": null,
+      "batataMaxKg": 0.8,
+      "pessoasDeclaradas": null,
       "potenciaW": 1900,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -583,7 +641,7 @@
         "titulo": "Mondial AFN-50-BI — página oficial do produto",
         "url": "https://www.mondial.com.br/fritadeira-sem-oleo-air-fryer-5l-mondial-preto-inox-1900w-afn-50-bi/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "5 L, 1900 W, 127 V ou 220 V, até 200 °C, timer de 60 minutos, aviso sonoro com desligamento automático, cesto na lava-louças, 33 × 28,5 × 36 cm (A × L × P) e 4,6 kg no texto da página, 1 ano de garantia. A tabela técnica da mesma página diz 36 × 36,5 × 36 cm e 5,250 kg.",
+        "oQueSaiuDaqui": "5 L, 1900 W, 127 V ou 220 V, até 200 °C, timer de 60 minutos, aviso sonoro com desligamento automático, cesto na lava-louças, 33 × 28,5 × 36 cm (A × L × P) e 4,6 kg no texto da página, 1 ano de garantia. A tabela técnica da mesma página diz 36 × 36,5 × 36 cm e 5,250 kg. Batata frita por vez, máximo declarado: 0,8 kg. Trecho: Página: \"CAPACIDADE: 5 LITROS — O cesto com a maior área plana da categoria*, acomoda melhor os alimentos [...] 16 Mini-hambúrgueres / 5 Postas de salmão / 16 Tulipas de frango / 1 Bolo médio\". Manual: \"Batatas palito congeladas 300 a 800\"; \"Frango à passarinho 500 a 1000\" (g). É o único dos 20 produtos que declara capacidade em unidades na própria página. O asterisco remete a um comparativo interno \"até Agosto/2022\". Não declara número de pessoas. Manual: https://manuais.emondial.com/Manual-AFN-50-BI.pdf",
         "consultadaEm": "2026-09-14"
       },
       {
@@ -614,6 +672,8 @@
       "formato": "Cesto com chapa (tampa superior)",
       "capacidadeTotalL": 10,
       "capacidadeUtilL": null,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": null,
       "potenciaW": 1700,
       "temperaturaMaxC": 230,
       "temperaturaMinC": 50,
@@ -669,6 +729,8 @@
       "formato": "Forno (porta frontal)",
       "capacidadeTotalL": 12,
       "capacidadeUtilL": 12,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": null,
       "potenciaW": 1600,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -726,11 +788,13 @@
     "modelo": "NA150/00",
     "categoria": "cozinha",
     "resumo": "A única de cesto duplo da base: dois compartimentos somando 7,1 litros, para preparar dois alimentos ao mesmo tempo. É também a de maior potência declarada, 1850 W em 127 V.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "formato": "Cesto duplo (duas gavetas)",
       "capacidadeTotalL": 7.1,
       "capacidadeUtilL": 7.1,
+      "batataMaxKg": 0.8,
+      "pessoasDeclaradas": null,
       "potenciaW": 1850,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 40,
@@ -772,6 +836,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Os 10 modos de preparo, que a Walita não conta na ficha. O peso daqui diverge do fabricante.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philips-walita-na150-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://ot-dam.versuni.com/adaptivemedia/rendition?id=1477962291f422d95a2e72b963c17268f66acbdc",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,8 kg. Trecho: \"Tabela de alimentos para o recipiente XXL [...] Batatas fritas finas congeladas (7 x 7 mm) 800 g\" e \"Use 800 g de batatas descascadas para o recipiente XXL e 400 g para o recipiente pequeno.\" A página do produto não declara pessoas nem kg ('toda a família', 'grandes porções'). Com a divisória, os dois cestos de 3,55 L somam 800 g de batata (2 × 400), o mesmo que o recipiente XXL. Página: https://www.walita.com.br/fritadeira-airfryer-serie-1000-duplo-cesto-7-1l-philips-walita-na150-na150-",
+        "consultadaEm": "2026-09-29"
       }
     ],
     "imagem": {
@@ -788,11 +860,13 @@
     "modelo": "AFN-40-BI",
     "categoria": "cozinha",
     "resumo": "A menor desta leva, com 4 litros e 1500 W. A Mondial declara o timer em minutos e a temperatura máxima, mas não diz a mínima nem a capacidade útil do cesto.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 4,
       "capacidadeUtilL": null,
+      "batataMaxKg": 0.5,
+      "pessoasDeclaradas": null,
       "potenciaW": 1500,
       "temperaturaMaxC": 200,
       "temperaturaMinC": null,
@@ -825,6 +899,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo AFN-40-BI e a versão 110 V. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-afn-40-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://manuais.emondial.com/Manual-AFN-40-BI.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,5 kg. Trecho: Manual, 'Quantidade mín./máx. (g)': \"Batatas palito congeladas 200 a 500 12 - 20 200\" A página não declara pessoas nem kg. Manual linkado na página: https://www.mondial.com.br/fritadeira-sem-oleo-air-fryer-4-litros-afn-40-bi-mondial/p",
+        "consultadaEm": "2026-09-29"
       }
     ],
     "imagem": {
@@ -841,11 +923,13 @@
     "modelo": "AFN-60-BI",
     "categoria": "cozinha",
     "resumo": "Seis litros e 1900 W, a mesma potência da AFN-50 que já está na base num corpo maior. A Mondial publica as medidas sem dizer qual eixo é qual — foi preciso comparar com a ficha da irmã de 4 litros para ordenar.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 6,
       "capacidadeUtilL": null,
+      "batataMaxKg": 0.85,
+      "pessoasDeclaradas": null,
       "potenciaW": 1900,
       "temperaturaMaxC": 200,
       "temperaturaMinC": null,
@@ -878,6 +962,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo AFN-60-BI. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mondial-afn-60-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://manuais.emondial.com/Manual-AFN-60-BI.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,85 kg. Trecho: Manual, 'Tabela de alimentos': \"Batatas Palitos Congeladas 850 25 200°C Agitar a cada 5 minutos.\" A página não declara pessoas nem kg. A tabela de carnes do PDF sai com colunas desalinhadas (há um '100 a 1350' que pode ser do bacon ou de outra linha), mas a de batata está legível. Página: https://www.mondial.com.br/air-fryer-afn-60-bi-127v-60hz/p",
+        "consultadaEm": "2026-09-29"
       }
     ],
     "imagem": {
@@ -894,11 +986,13 @@
     "modelo": "BFR50",
     "categoria": "cozinha",
     "resumo": "Controle analógico e 5,5 litros por 1500 W. A Britânia declara a faixa de temperatura inteira, de 80 a 200 graus, mas não publica peso nem dimensões — preenche as unidades e deixa os valores em branco, como faz nas cafeteiras.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 5.5,
       "capacidadeUtilL": null,
+      "batataMaxKg": 0.8,
+      "pessoasDeclaradas": null,
       "potenciaW": 1500,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -931,6 +1025,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "36 × 28 × 33 cm — as dimensões que o fabricante não publica — e a versão 220 V.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "britania-bfr50-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://britaniaeletro-my.sharepoint.com/:b:/g/personal/marketing_britaniaeletro_onmicrosoft_com/EfOKJOCOe3JEtrroz6flSu8BVGnc6s6FHBV7cwJ7wluVNA?e=ol7hbH",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,8 kg. Trecho: Manual, 'Tabela de ajustes': \"Batatas fritas finas e grossas congeladas [...] 200 a 800\" (g); \"Batatas fritas caseiras (8 x 8mm) 300 a 800\". Página: \"grandes porções [...] ideal para toda a família!\"; na arte da descrição: \"Com 5,5L, prepare grandes refeições para todos, sem estresse!\" — sem número. O manual é UNIFICADO para BFR50, BFR51, BAF52, BAFE53 e BAF55A, com uma única tabela, que é a mesma dos manuais das Philco PAF65A e PAF95A.",
+        "consultadaEm": "2026-09-29"
       }
     ],
     "imagem": {
@@ -952,6 +1054,8 @@
       "formato": "Forno (porta frontal)",
       "capacidadeTotalL": 15,
       "capacidadeUtilL": null,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": null,
       "potenciaW": 1900,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,
@@ -1000,11 +1104,13 @@
     "modelo": "PAF95A",
     "categoria": "cozinha",
     "resumo": "Cesto de 9,5 litros com visor de vidro e painel digital. Começa a esquentar a partir de 40 graus — a faixa mais baixa desta lista, contra os 80 da maioria.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 9.5,
       "capacidadeUtilL": null,
+      "batataMaxKg": 0.8,
+      "pessoasDeclaradas": null,
       "potenciaW": 1800,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 40,
@@ -1037,6 +1143,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "40 × 30,5 × 33 cm — as dimensões que o fabricante não publica.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "philco-paf95a-capacidade-alimento",
+        "titulo": "Manual ou página oficial — quantidade de alimento",
+        "url": "https://britaniaeletro-my.sharepoint.com/:b:/g/personal/marketing_britaniaeletro_onmicrosoft_com/IQCRYSMWqJc6SZo2KWwItWfUAZiSRhvztVyRJUXZLyzrpHY?e=0g0c6f",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Batata frita por vez, máximo declarado: 0,8 kg. Trecho: Manual, 'Tabela de ajustes': \"Batatas fritas finas e grossas congeladas [...] 200 a 800\" (g); \"Batatas fritas caseiras (8 x 8mm) 300 a 800\". Página: \"permitindo preparar grandes porções de uma só vez. Perfeita para famílias ou para quem gosta de receber.\" — sem número. No manual, o supercesto de 9,5 L tem o mesmo máximo de 800 g de batata da PAF65A de 6,5 L; a tabela de ajustes e a de predefinições são idênticas nos dois manuais.",
+        "consultadaEm": "2026-09-29"
       }
     ],
     "imagem": {
@@ -1058,6 +1172,8 @@
       "formato": "Forno (porta frontal)",
       "capacidadeTotalL": 12,
       "capacidadeUtilL": null,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": null,
       "potenciaW": 1800,
       "temperaturaMaxC": null,
       "temperaturaMinC": null,
@@ -1106,11 +1222,13 @@
     "modelo": "ELG-42AFG35",
     "categoria": "cozinha",
     "resumo": "A ficha mais pobre desta categoria, e o #4 do ranking. A Elgin publica capacidade, potência e tensão — e mais nada: nem faixa de temperatura, nem timer, nem peso, nem garantia. Numa fritadeira, a temperatura é o controle principal.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 3.5,
       "capacidadeUtilL": null,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": "1 a 2",
       "potenciaW": 1400,
       "temperaturaMaxC": null,
       "temperaturaMinC": null,
@@ -1133,7 +1251,7 @@
         "titulo": "Elgin Air Fryer Facilita Fry 3,5 L — página oficial do produto",
         "url": "https://www.elgin.com.br/fritadeira-air-fryer-facilita-fry-35-litros-1400w-preta-grelha-removivel-/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "3,5 litros, 1400 W, versões de 110 V e 220 V, grelha removível e antiaderente e a promessa de cozinhar com até 80% menos gordura. A tabela de especificações da Elgin tem três campos: voltagem, EAN e palavras-chave. Faixa de temperatura, timer, capacidade útil, funções, painel, visor, lava-louças, peso, dimensões e garantia não aparecem em lugar nenhum da página.",
+        "oQueSaiuDaqui": "3,5 litros, 1400 W, versões de 110 V e 220 V, grelha removível e antiaderente e a promessa de cozinhar com até 80% menos gordura. A tabela de especificações da Elgin tem três campos: voltagem, EAN e palavras-chave. Faixa de temperatura, timer, capacidade útil, funções, painel, visor, lava-louças, peso, dimensões e garantia não aparecem em lugar nenhum da página. Para quantas pessoas: 1 a 2. Trecho: \"Com um design compacto e moderno, ela conta com uma capacidade de 3,5 litros, ideal para refeições individuais ou para compartilhar a dois.\" e, na descrição curta, \"Ideal para solteiros ou casais\" A página não linka manual e não dá quantidade em g ou kg.",
         "consultadaEm": "2026-09-18"
       },
       {
@@ -1164,6 +1282,8 @@
       "formato": "Cesto (gaveta)",
       "capacidadeTotalL": 5.6,
       "capacidadeUtilL": 4.08,
+      "batataMaxKg": null,
+      "pessoasDeclaradas": null,
       "potenciaW": 1400,
       "temperaturaMaxC": 200,
       "temperaturaMinC": 80,

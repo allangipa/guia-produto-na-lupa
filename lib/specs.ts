@@ -578,6 +578,27 @@ export const camposCozinha: Campo[] = [
     contaTransparencia: true,
   },
   {
+    chave: "batataMaxKg",
+    rotulo: "Batata por vez (manual)",
+    grupo: "Capacidade",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "maior",
+    ajuda:
+      "O máximo de batata frita que o manual manda pôr de uma vez. É o número que diz quanto cabe de verdade: há air fryer de 12 litros que aceita menos batata que uma de 4.",
+    // Entrou em 29/09/2026 para o simulador. Fora da nota de transparência de
+    // propósito, para não mudar em silêncio as contas já publicadas no guia.
+    contaTransparencia: false,
+  },
+  {
+    chave: "pessoasDeclaradas",
+    rotulo: "Para quantas pessoas (declarado)",
+    grupo: "Capacidade",
+    tipo: "texto",
+    ajuda: "Só 3 das 20 fichas dizem para quantas pessoas a air fryer serve.",
+    contaTransparencia: false,
+  },
+  {
     chave: "potenciaW",
     rotulo: "Potência",
     grupo: "Desempenho declarado",

@@ -8,9 +8,9 @@ import { SLUGS as SLUGS_CAMERAS } from "@/lib/simulador-cameras";
 import { Divulgacao } from "@/components/divulgacao";
 
 export const metadata: Metadata = {
-  title: tituloSeo("Simulador: monte o projeto de câmeras, Wi-Fi, automação ou ar-condicionado"),
+  title: tituloSeo("Simulador: câmeras, Wi-Fi, automação, ar-condicionado, nobreak e air fryer"),
   description:
-    "Monte o projeto de câmeras de segurança, rede Wi-Fi, automação ou ar-condicionado e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
+    "Monte o projeto de câmeras de segurança, rede Wi-Fi, automação, ar-condicionado, nobreak ou air fryer e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
   alternates: { canonical: "/simulador" },
 };
 
@@ -65,7 +65,7 @@ export default function PaginaSimulador() {
   const base = baseCameras(
     buscarProduto,
     [...porSlug.values()].filter((p) =>
-      ["cftv", "conectividade", "nobreaks", "casa-conectada", "ar-condicionado"].includes(p.categoria ?? ""),
+      ["cftv", "conectividade", "nobreaks", "casa-conectada", "ar-condicionado", "cozinha"].includes(p.categoria ?? ""),
     ),
   );
   const usados = Object.values(base);
@@ -79,7 +79,8 @@ export default function PaginaSimulador() {
           Monte o projeto e veja o que comprar
         </h1>
         <p className="mt-3 max-w-[62ch] text-[0.95rem] text-tinta-suave">
-          Câmeras de segurança, rede Wi-Fi, automação ou ar-condicionado. Você responde sobre a
+          Câmeras de segurança, rede Wi-Fi, automação, ar-condicionado, nobreak
+          ou air fryer. Você responde sobre a
           casa, e o simulador devolve a lista de compras do projeto, peça por
           peça — das câmeras aos conectores, da central ao interruptor. Cada justificativa é o que o
           fabricante declara, e não teste nosso; quando a documentação não
