@@ -53,6 +53,13 @@ Decisões do Allan que moldam tudo abaixo:
 - Pontos fora de casa (0–16)
 - Fora: até quantos metros ver à noite (se houver ponto externo)
 - Dentro: comprimento do maior cômodo (se houver ponto interno)
+- Fora e dentro: **o que precisa dar para ver nessa distância** — que passou
+  alguém / o que a pessoa faz / quem é, se conheço / quem é, mesmo estranho.
+  São os degraus DORI da IEC 62676-4: 25, 62,5, 125 e 250 pixels por metro.
+  Desde 29/09/2026; a ideia veio do Di.Ca Next, calculadora de campo de visão
+  da Intelbras (programa Windows, examinado sem instalar: câmera + altura +
+  distância → PPM e o degrau DORI). Dele não entra nada além da geometria
+  pública: nem imagem, nem base de câmeras, nem layout.
 
 **Passo 2 — Instalação**
 - Dá para passar cabo até as câmeras? sim / só com obra / não
@@ -99,7 +106,8 @@ A única relação horas/GB declarada na base é a da Tapo C500: 954 h em 512 GB
 | Peça | Como escolhe |
 |---|---|
 | DVR | menor número de canais da base que cabe (+1 com folga); dentro dele, o que grava 1920 × 1080 em todos os canais, depois em parte, depois menor consumo. A alternativa é o de outra marca no mesmo tamanho. |
-| Câmera externa | bullet, 1080p, instalação externa, alcance noturno ≥ pedido, colorida se pedido; a de menor consumo declarado |
+| Câmera externa | bullet, 1080p, instalação externa, alcance noturno ≥ pedido, colorida se pedido, **pixels por metro na distância ≥ o degrau pedido**; a de menor consumo declarado. Se nenhuma chega ao degrau, a de ângulo mais fechado, com a distância em que ela chegaria. PPM = pixels de largura ÷ (2 × distância × tan(ângulo/2)), centro da imagem, câmera de frente; altura, inclinação e distorção ficam fora e a tela diz |
+| Detalhe gravado | em 1080p Lite o DVR grava 960 px de largura: o PPM gravado é metade do ao vivo. Avisa quando a gravação cai abaixo do degrau pedido e diz se o modo Full HD resolve (e o que ele desliga) |
 | Câmera interna | dome, mesmos filtros; a de menor consumo |
 | HD | bit rate declarado do DVR × câmeras × 24 h × dias (1 Mb/s o dia todo = 10,8 GB); o menor HD da base que comporta, sem passar do máximo do DVR; no empate, o de menor consumo. Confere o que o gravador escreve por ano contra a carga de trabalho declarada do disco |
 | Fonte | soma do consumo declarado das câmeras escolhidas ÷ 12 V, +20% (regra rotulada); a menor fonte da base com corrente acima disso. A promessa "alimenta N câmeras" da fonte não entra: ela supõe câmeras de 250 ou 300 mA |

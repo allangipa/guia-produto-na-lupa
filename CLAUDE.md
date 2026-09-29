@@ -860,8 +860,10 @@ confunde com documento sem folha de estilo.
   1200 tem duas versões com o mesmo nome e as mesmas fotos (7 e 9 Ah); o
   anúncio é a SAFE1200BK, conferida pelo número da peça. A JBR é importadora
   (o manual diz), o site é `jbrenergy.com.br` e os PDFs ficam no Google Drive.
-  Dimensionamento de câmera (PPM/DORI) é o próximo passo do simulador — ver
-  `docs/simulador.md`.
+  Desde 29/09/2026 o simulador pergunta também **o que precisa dar para ver**
+  em cada distância (degraus DORI da IEC 62676-4) e escolhe a câmera pelos
+  pixels por metro que o ângulo e a resolução declarados dão ali — e avisa
+  quando o DVR em 1080p Lite grava metade disso. Ver `docs/simulador.md`.
 
 - **Cooktops de indução abriu em 26/09/2026, com dezesseis de seis marcas** —
   Electrolux 4, Midea 3, Dako 3, Oster 3, Philco 2, Britânia 1. Dako é marca

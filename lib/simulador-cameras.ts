@@ -38,6 +38,9 @@ export type Respostas = {
   visaoNoturnaInternaM: number;
   /** Imagem colorida à noite (câmera com luz branca). */
   noturnaColorida: boolean;
+  /** O que precisa dar para ver na distância pedida, lá fora e dentro. */
+  nivelExterno: Nivel;
+  nivelInterno: Nivel;
   /**
    * No gravador, o que vence quando não dá para ter os dois: na linha MHDX
    * 13xx, gravar 1920 × 1080 desliga a detecção de pessoas.
@@ -72,6 +75,8 @@ export const RESPOSTAS_INICIAIS: Respostas = {
   visaoNoturnaM: 8,
   visaoNoturnaInternaM: 5,
   noturnaColorida: false,
+  nivelExterno: "observar",
+  nivelInterno: "observar",
   prioridadeDvr: "deteccao",
   cabo: "sim",
   internetEstavel: true,
@@ -91,6 +96,62 @@ export const RESPOSTAS_INICIAIS: Respostas = {
   instalador: "profissional",
   wifiChegaLonge: "naoSei",
 };
+
+/**
+ * NÍVEL DE DETALHE — a pergunta "o que precisa dar para ver ali?".
+ *
+ * Os quatro degraus e os pixels por metro de cada um são os da norma IEC
+ * 62676-4 (DORI): detectar 25, observar 62,5, reconhecer 125, identificar 250.
+ * A conta é geometria sobre dois números que o fabricante declara — a
+ * resolução e o ângulo horizontal: na distância d, a cena tem 2·d·tan(ângulo/2)
+ * metros de largura, e os pixels horizontais se repartem por ela.
+ *
+ * É o centro da imagem, com a câmera de frente para o alvo. Altura de
+ * instalação, inclinação e distorção da lente ficam fora da conta, e a tela
+ * diz isso. A ideia veio do Di.Ca Next, a calculadora da Intelbras; o que ela
+ * não trata e este simulador trata é o que o gravador guarda: em 1080p Lite o
+ * DVR grava 960 pixels de largura, e o detalhe gravado cai à metade.
+ */
+export type Nivel = "detectar" | "observar" | "reconhecer" | "identificar";
+
+export const NIVEIS: Record<Nivel, { ppm: number; verbo: string; rotulo: string; detalhe: string }> = {
+  detectar: { ppm: 25, verbo: "detectar", rotulo: "Que passou alguém", detalhe: "Saber que há uma pessoa, sem ver quem é." },
+  observar: { ppm: 62.5, verbo: "observar", rotulo: "O que a pessoa faz", detalhe: "Roupa, cores e o que ela está fazendo." },
+  reconhecer: { ppm: 125, verbo: "reconhecer", rotulo: "Quem é, se eu conheço", detalhe: "Reconhecer um rosto que você já viu." },
+  identificar: { ppm: 250, verbo: "identificar", rotulo: "Quem é, mesmo um estranho", detalhe: "Detalhe para identificar alguém que você nunca viu." },
+};
+
+const ORDEM_NIVEIS: Nivel[] = ["detectar", "observar", "reconhecer", "identificar"];
+
+/** Pixels horizontais da resolução declarada. */
+export function pixelsHorizontais(resolucao: unknown): number | null {
+  const t = typeof resolucao === "string" ? resolucao : "";
+  if (t.startsWith("720p")) return 1280;
+  if (t.startsWith("1080p")) return 1920;
+  if (t.startsWith("2160p")) return 3840;
+  return null;
+}
+
+/** Pixels por metro no centro da cena, a `distanciaM` metros. */
+export function pixelsPorMetro(px: number, anguloGraus: number, distanciaM: number): number {
+  return px / (2 * distanciaM * Math.tan((anguloGraus * Math.PI) / 360));
+}
+
+/** Até quantos metros a câmera chega a `ppm` pixels por metro. */
+export function distanciaParaNivel(px: number, anguloGraus: number, ppm: number): number {
+  return px / (ppm * 2 * Math.tan((anguloGraus * Math.PI) / 360));
+}
+
+/** O maior nível que um PPM alcança, ou null abaixo de detectar. */
+export function nivelAlcancado(ppm: number): Nivel | null {
+  return [...ORDEM_NIVEIS].reverse().find((k) => ppm >= NIVEIS[k].ppm) ?? null;
+}
+
+function ppmDa(p: Produto, distanciaM: number): number | null {
+  const px = pixelsHorizontais(p.specs.resolucao);
+  const ang = num(p.specs.anguloHorizontalGraus);
+  return px && ang ? pixelsPorMetro(px, ang, distanciaM) : null;
+}
 
 export type Grupo = "principal" | "gravacao" | "cabos" | "energia" | "extras";
 
@@ -213,6 +274,9 @@ export function montarProjeto(
 function projetoWifi(r: Respostas, base: Record<string, Produto>) {
   const itens: Item[] = [];
   const avisos: string[] = [];
+  avisos.push(
+    "O nível de detalhe que você pediu não entrou na escolha: as fichas das câmeras Wi-Fi da base não trazem o ângulo de visão em campo, e sem ele não há conta de pixels por metro.",
+  );
   const escolhidas: { p: Produto; qtd: number }[] = [];
 
   if (r.externos > 0) {
@@ -410,6 +474,11 @@ function projetoCabeado(
       ? "HD coaxial compatível com a tecnologia do DVR (HDCVI, AHD ou HDTVI — confira na ficha do gravador)"
       : "IP com alimentação PoE";
 
+  if (sistema === "nvr") {
+    avisos.push(
+      `Para câmera IP a base ainda não tem ficha. Ao escolher, procure na ficha a resolução e o ângulo horizontal: a ${n(r.externos > 0 ? r.visaoNoturnaM : r.visaoNoturnaInternaM)} m, ${NIVEIS[r.externos > 0 ? r.nivelExterno : r.nivelInterno].verbo} pede ${decimal(NIVEIS[r.externos > 0 ? r.nivelExterno : r.nivelInterno].ppm)} pixels por metro — largura em pixels ÷ (2 × distância × tangente da metade do ângulo).`,
+    );
+  }
   const cftv = Object.values(base).filter((p) => p.categoria === "cftv");
   const nobreaks = Object.values(base).filter((p) => p.categoria === "nobreaks");
   const escolhidas: { p: Produto; qtd: number }[] = [];
@@ -425,7 +494,8 @@ function projetoCabeado(
         qtd: r.externos,
         produto: e.p.slug,
         porque: e.porque,
-        confira: e.confira,
+        regra: e.regra,
+        confira: e.confira?.length ? e.confira : undefined,
         alternativa: e.alternativa,
       });
     } else {
@@ -450,7 +520,8 @@ function projetoCabeado(
         qtd: r.internos,
         produto: e.p.slug,
         porque: e.porque,
-        confira: e.confira,
+        regra: e.regra,
+        confira: e.confira?.length ? e.confira : undefined,
         alternativa: e.alternativa,
       });
     } else {
@@ -504,6 +575,8 @@ function projetoCabeado(
       }
     }
   }
+
+  if (gravador?.p) avisos.push(...avisosDetalheGravado(r, gravador.p, escolhidas));
 
   itens.push(itemHd(r, total, gravador?.p, res, avisos, cftv));
 
@@ -713,6 +786,7 @@ const watts = (v: number) => v.toLocaleString("pt-BR", { maximumFractionDigits: 
 type Escolha = {
   p?: Produto;
   porque: string;
+  regra?: string;
   confira?: string[];
   alternativa?: { produto: string; motivo: string };
   /** Quando a base não tem candidata: por quê, para a linha sem ficha. */
@@ -753,6 +827,18 @@ export function escolherCamera(
   const emAlcance = lista.length;
   if (r.noturnaColorida) lista = lista.filter((p) => p.specs.noturnaColorida === true);
 
+  // Nível de detalhe: entre as que atendem alcance e cor, as que chegam aos
+  // pixels por metro pedidos na distância informada. Se nenhuma chega, fica a
+  // que mais se aproxima (ângulo mais fechado), e a lista diz até onde ela vai.
+  const nivel = NIVEIS[onde === "externa" ? r.nivelExterno : r.nivelInterno];
+  const atendemNivel = lista.filter((p) => (ppmDa(p, alcance) ?? 0) >= nivel.ppm);
+  const semNivel = lista.length > 0 && atendemNivel.length === 0;
+  if (semNivel) {
+    lista = [...lista].sort((a, b) => (ppmDa(b, alcance) ?? 0) - (ppmDa(a, alcance) ?? 0)).slice(0, 1);
+  } else if (lista.length) {
+    lista = atendemNivel;
+  }
+
   if (!lista.length) {
     const motivo = !emResolucao
       ? `Nenhuma câmera ${onde} 1080p na base.`
@@ -775,8 +861,24 @@ export function escolherCamera(
     "1080p",
     `alcance noturno de pelo menos ${n(alcance)} m`,
     ...(r.noturnaColorida ? ["imagem colorida à noite"] : []),
+    ...(semNivel ? [] : [`detalhe para ${nivel.verbo} a ${n(alcance)} m`]),
   ].join(", ");
   const confira: string[] = [];
+  const ppm = ppmDa(p, alcance);
+  const px = pixelsHorizontais(s.resolucao);
+  const ang = num(s.anguloHorizontalGraus);
+  const nivelPedido = onde === "externa" ? r.nivelExterno : r.nivelInterno;
+  const acima = ppm != null ? nivelAlcancado(ppm) : null;
+  const detalhe =
+    ppm != null && px && ang
+      ? ` A ${n(alcance)} m, os ${n(px)} pixels de largura e o ângulo de ${n(ang)}° declarados dão cerca de ${n(Math.round(ppm))} pixels por metro${semNivel ? "" : ` — o bastante para ${nivel.verbo} (${decimal(nivel.ppm)})${acima && acima !== nivelPedido ? `, e chega a ${NIVEIS[acima].verbo} (${decimal(NIVEIS[acima].ppm)})` : ""}`}.`
+      : "";
+  if (semNivel && ppm != null && px && ang) {
+    const chega = nivelAlcancado(ppm);
+    confira.push(
+      `Nenhuma câmera da base com ${filtros} chega a ${decimal(nivel.ppm)} pixels por metro a ${n(alcance)} m, o que ${nivel.verbo} pede. Esta é a que mais se aproxima: ${n(Math.round(ppm))}${chega ? `, que basta para ${NIVEIS[chega].verbo}` : ", abaixo até de detectar"}. Para ${nivel.verbo}, ela precisa estar a até ${decimal(distanciaParaNivel(px, ang, nivel.ppm))} m do alvo.`,
+    );
+  }
   if (txt(s.alimentacao).includes("10,8") && r.distanciaMaxM >= 50 && !r.tomadaPerto) {
     confira.push(
       `A Intelbras declara que ela aceita só de 10,8 a 13,2 V. Com ${n(r.distanciaMaxM)} m de cabo desde uma fonte centralizada, a queda de tensão pode passar disso — confira, ou use fonte perto da câmera.`,
@@ -785,7 +887,10 @@ export function escolherCamera(
   const plural = onde === "externa" ? "bullets" : "domes";
   return {
     p,
-    porque: `${lista.length === 1 ? `É a única ${plural.slice(0, -1)} da base com ${filtros}, e declara ${watts(num(s.consumoW)!)} W de consumo.` : `Entre as ${lista.length} ${plural} da base com ${filtros}, é a de menor consumo declarado: ${watts(num(s.consumoW)!)} W.`} ${s.resolucao}, alcance noturno de ${n(num(s.alcanceNoturnoM)!)} m${s.protecaoIp ? `, ${s.protecaoIp}` : ""}, ${txt(s.tecnologias).startsWith("HDCVI,") ? "Multi HD" : "só HDCVI"}.`,
+    porque: `${semNivel ? `Entre as ${plural} da base com ${filtros}, é a de ângulo mais fechado, a que mais concentra pixels na distância pedida; declara ${watts(num(s.consumoW)!)} W.` : lista.length === 1 ? `É a única ${plural.slice(0, -1)} da base com ${filtros}, e declara ${watts(num(s.consumoW)!)} W de consumo.` : `Entre as ${lista.length} ${plural} da base com ${filtros}, é a de menor consumo declarado: ${watts(num(s.consumoW)!)} W.`} ${s.resolucao}, alcance noturno de ${n(num(s.alcanceNoturnoM)!)} m${s.protecaoIp ? `, ${s.protecaoIp}` : ""}, ${txt(s.tecnologias).startsWith("HDCVI,") ? "Multi HD" : "só HDCVI"}.${detalhe}`,
+    regra: detalhe
+      ? "Pixels por metro no centro da imagem, com a câmera de frente para o alvo: largura em pixels ÷ (2 × distância × tangente da metade do ângulo). Os degraus são os da norma IEC 62676-4. Altura de instalação, inclinação e distorção da lente ficam fora da conta."
+      : undefined,
     confira,
     alternativa: alt ? { produto: alt.slug, motivo: diferencaCamera(p, alt) } : undefined,
   };
@@ -1133,4 +1238,44 @@ export function itemNobreak(
     confira,
     alternativa: alt,
   };
+}
+
+/**
+ * O detalhe que o DVR GUARDA, e não o que a câmera entrega. Em 1080p Lite o
+ * gravador grava 960 pixels de largura — metade dos 1.920 da câmera —, e os
+ * pixels por metro gravados caem à metade. Grava cheio só com gravador que
+ * grava 1920 × 1080, com o leitor priorizando resolução e, na linha 13xx, com
+ * câmera da lista de compatíveis do modo Full HD.
+ */
+function avisosDetalheGravado(
+  r: Respostas,
+  dvr: Produto,
+  escolhidas: { p: Produto; qtd: number }[],
+): string[] {
+  const avisos: string[] = [];
+  for (const e of escolhidas) {
+    const onde = e.p.specs.tipo === "Câmera dome" ? "interna" : "externa";
+    const alcance = onde === "externa" ? r.visaoNoturnaM : r.visaoNoturnaInternaM;
+    const nivel = NIVEIS[onde === "externa" ? r.nivelExterno : r.nivelInterno];
+    const px = pixelsHorizontais(e.p.specs.resolucao);
+    const ppm = ppmDa(e.p, alcance);
+    if (px !== 1920 || ppm == null) continue;
+    const podeCheio =
+      gravaCheio(dvr) && (!LINHA_13XX.test(dvr.slug) || MODO_FULL_HD_13XX.has(e.p.slug));
+    const gravaCheioAqui = podeCheio && r.prioridadeDvr === "resolucao";
+    const gravado = gravaCheioAqui ? ppm : ppm / 2;
+    if (gravado >= nivel.ppm) continue;
+    const chega = nivelAlcancado(gravado);
+    const aoVivo = nivelAlcancado(ppm);
+    // Se ao vivo já não chegava ao pedido, o aviso da câmera disse; aqui só
+    // importa se a gravação cai mais um degrau.
+    if (ppm < nivel.ppm && chega === aoVivo) continue;
+    const parcial = gravaCheioAqui && !gravaCheioEmTodos(dvr) ? " nos canais que ele grava cheio" : "";
+    avisos.push(
+      gravaCheioAqui
+        ? `O ${dvr.modelo} grava 1920 × 1080 só em parte dos canais. Nos outros, a ${e.p.modelo} fica gravada em 1080p Lite: cerca de ${n(Math.round(ppm / 2))} pixels por metro a ${n(alcance)} m${chega ? `, o bastante para ${NIVEIS[chega].verbo}` : ""}, abaixo dos ${decimal(nivel.ppm)} de ${nivel.verbo}.`
+        : `Ao vivo, a ${e.p.modelo} entrega cerca de ${n(Math.round(ppm))} pixels por metro a ${n(alcance)} m${aoVivo ? `, o bastante para ${NIVEIS[aoVivo].verbo}` : ""}. Mas o ${dvr.modelo} grava em 1080p Lite, 960 pixels de largura: a gravação guarda cerca de ${n(Math.round(gravado))}${chega ? `, o bastante só para ${NIVEIS[chega].verbo}` : ""}.${podeCheio ? ` No modo Full HD, que desliga a detecção de pessoas, a gravação volta aos ${n(Math.round(ppm))}${parcial}.` : " Este gravador não grava 1920 × 1080."}`,
+    );
+  }
+  return avisos;
 }

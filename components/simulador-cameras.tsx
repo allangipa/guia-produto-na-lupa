@@ -5,13 +5,21 @@ import type { Produto } from "@/lib/specs";
 import {
   GRUPOS,
   MARGEM_CABO,
+  NIVEIS,
   NOME_SISTEMA,
   RESPOSTAS_INICIAIS,
   montarProjeto,
   sistemaRecomendado,
+  type Nivel,
   type Respostas,
   type Sistema,
 } from "@/lib/simulador-cameras";
+
+const OPCOES_NIVEL = (Object.keys(NIVEIS) as Nivel[]).map((valor) => ({
+  valor,
+  rotulo: NIVEIS[valor].rotulo,
+  detalhe: NIVEIS[valor].detalhe,
+}));
 import { Numero, Opcoes } from "@/components/simulador-campos";
 import { ListaDeCompras } from "@/components/simulador-lista";
 
@@ -122,8 +130,8 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
             <div className="grid gap-6 sm:grid-cols-2">
               {r.externos > 0 && (
                 <Numero
-                  titulo="Lá fora, até onde ver à noite"
-                  ajuda="A distância do ponto mais longe que a câmera externa precisa enxergar no escuro."
+                  titulo="Lá fora, até onde a câmera precisa ver"
+                  ajuda="A distância do ponto mais longe que a câmera externa precisa enxergar, de dia e no escuro."
                   valor={r.visaoNoturnaM}
                   min={1}
                   max={60}
@@ -133,7 +141,7 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
               )}
               {r.internos > 0 && (
                 <Numero
-                  titulo="Dentro, até onde ver à noite"
+                  titulo="Dentro, até onde a câmera precisa ver"
                   ajuda="O comprimento do maior cômodo com câmera."
                   valor={r.visaoNoturnaInternaM}
                   min={1}
@@ -143,6 +151,23 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
                 />
               )}
             </div>
+            {r.externos > 0 && (
+              <Opcoes
+                titulo={`Lá fora, a ${r.visaoNoturnaM} m, o que precisa dar para ver?`}
+                ajuda="Quanto mais detalhe, mais pixels a câmera precisa pôr em cada metro da cena."
+                valor={r.nivelExterno}
+                opcoes={OPCOES_NIVEL}
+                aoMudar={muda("nivelExterno")}
+              />
+            )}
+            {r.internos > 0 && (
+              <Opcoes
+                titulo={`Dentro, a ${r.visaoNoturnaInternaM} m, o que precisa dar para ver?`}
+                valor={r.nivelInterno}
+                opcoes={OPCOES_NIVEL}
+                aoMudar={muda("nivelInterno")}
+              />
+            )}
             <Opcoes
               titulo="À noite, a imagem precisa ser colorida?"
               ajuda="Câmera colorida à noite acende uma luz branca. Sem ela, a imagem noturna é em preto e branco, com infravermelho."

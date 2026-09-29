@@ -183,6 +183,18 @@ export default function PaginaSimulador() {
           indicar o que tem fonte oficial.
         </p>
         <p className="mt-2">
+          O detalhe da imagem é conta, não promessa: na distância que você
+          informa, a cena tem uma largura que depende do ângulo de visão
+          declarado pelo fabricante, e os pixels de largura da câmera se
+          repartem por ela. Os degraus — 25 pixels por metro para detectar,
+          62,5 para observar, 125 para reconhecer e 250 para identificar — são
+          os da norma IEC 62676-4. A conta vale para o centro da imagem, com a
+          câmera de frente para o alvo; altura, inclinação e distorção da lente
+          ficam de fora. E ela considera o que o gravador guarda: em 1080p Lite,
+          o DVR grava metade da largura da câmera, e o detalhe gravado cai à
+          metade.
+        </p>
+        <p className="mt-2">
           O simulador só recomenda produto que tem ficha no site, com fonte
           oficial e link de loja. Em Wi-Fi, a área da casa é comparada com a
           cobertura que o fabricante declara para cada número de unidades — o
