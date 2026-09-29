@@ -397,9 +397,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 635 produtos em 35 categorias, 34 guias,
-  54 comparativos e 42 análises.** A 35ª é CFTV, aberta com as fichas e
-  ainda sem as três peças editoriais — ver o item dela abaixo.
+- **Inventário em 29/09/2026: 635 produtos em 35 categorias, 35 guias,
+  55 comparativos e 43 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -763,12 +762,21 @@ confunde com documento sem folha de estilo.
   está desenhado na cabeça do problema: CADR, área em m², ruído, classe do
   filtro (H11/H13), vida útil do refil e consumo.
 
-- **CFTV (câmeras e gravadores) entrou em 29/09/2026 com 21 fichas, e ainda
-  NÃO tem as três peças editoriais** que a regra exige para abrir categoria.
-  Foi apurada para o /simulador montar o projeto de câmeras com produto de
-  verdade (DVR, câmera, HD em TB, fonte em A). **Antes de promover a
-  categoria, escrever guia, comparativo e análise.** 10 DVRs (7 Intelbras,
-  3 Hikvision) e 11 câmeras cabeadas Intelbras.
+- **CFTV (câmeras e gravadores) abriu em 29/09/2026 com 21 fichas e as três
+  peças**: guia `dvr-para-casa`, comparativo MHDX 1304 × Hikvision
+  DS-7204HGHI-K1 e análise do MHDX 1316. Foi apurada para o /simulador montar o
+  projeto de câmeras com produto de verdade (DVR, câmera, HD em TB, fonte em A).
+  10 DVRs (7 Intelbras, 3 Hikvision) e 11 câmeras cabeadas Intelbras.
+
+  **O modo Full HD só vale para câmera da lista.** A Intelbras publica, num PDF
+  à parte, as câmeras compatíveis com a gravação em 1080p cheio da linha 13xx.
+  Das seis câmeras 1080p da base, a VHD 3220 Full Color+ (B e D) e a VHD 1230
+  Full Color MIC não estão — com elas o gravador grava 1080p Lite mesmo com o
+  modo ligado. O datasheet do MHDX 1304 diz o contrário ("todas as câmeras
+  intelbras com resolução full hd"); os do 1308 e do 1316 remetem à lista, e
+  vale a lista. O simulador avisa (`MODO_FULL_HD_13XX` em
+  `lib/simulador-cameras.ts`) — ao entrar câmera Intelbras nova, conferir se
+  ela está no PDF.
 
   **O eixo é o "1080p" que o DVR grava.** A Intelbras define no rodapé do
   datasheet: 1080p Lite é **960 × 1080**, metade da largura da câmera Full HD.

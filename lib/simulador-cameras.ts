@@ -482,6 +482,16 @@ function projetoCabeado(
     });
   }
 
+  if (gravador?.p && LINHA_13XX.test(gravador.p.slug) && r.prioridadeDvr === "resolucao") {
+    for (const e of escolhidas) {
+      if (!MODO_FULL_HD_13XX.has(e.p.slug)) {
+        avisos.push(
+          `A ${e.p.modelo} não está na lista de câmeras que a Intelbras declara compatíveis com o modo Full HD do ${gravador.p.modelo}. Com ela, o gravador grava 1080p Lite mesmo com o modo ligado.`,
+        );
+      }
+    }
+  }
+
   itens.push(itemHd(r, total, gravador?.p, res, avisos));
 
   if (sistema === "nvr") {
@@ -663,6 +673,25 @@ export const FOLGA_FONTE = 0.2;
  * os 2 dos sete canais; a conta do HD soma a diferença do canal 1.
  */
 const BITRATE_CANAL_1: Record<string, number> = { "intelbras-mhdx-1308": 4 };
+
+/**
+ * Câmeras da base que a Intelbras lista como compatíveis com o modo Full HD
+ * dos MHDX 13xx, no documento "Câmeras compatíveis com a gravação em 1080p"
+ * (backend.intelbras.com, 2026-06, consultado em 29/09/2026). Fora da lista,
+ * o gravador grava a câmera em 1080p Lite mesmo com o modo ligado. A VHD 3220
+ * Full Color+ e a VHD 1230 B Full Color MIC são 1080p e não estão na lista.
+ *
+ * O datasheet do MHDX 1304 diz o contrário — "compatível com todas as câmeras
+ * intelbras com resolução full hd" — e o do 1308 e do 1316 remetem à lista.
+ * Vale a lista, que é o documento específico e o mais restritivo.
+ */
+const MODO_FULL_HD_13XX = new Set([
+  "intelbras-vhl-1220-b-g8",
+  "intelbras-vhd-1220-d-g8",
+  "intelbras-vhd-1220-b-full-color",
+  "intelbras-vhd-1220-d-full-color",
+]);
+const LINHA_13XX = /^intelbras-mhdx-13\d\d$/;
 
 const num = (v: unknown) => (typeof v === "number" ? v : null);
 const txt = (v: unknown) => (typeof v === "string" ? v : "");
@@ -851,7 +880,7 @@ export function itemHd(
     especificacao: `HD de vigilância de ${n(tamanho)} TB.`,
     porque: `O ${dvr.modelo} declara ${n(bitrate)} Mb/s por canal${canal1 ? ` (${n(canal1)} no canal 1)` : ""}. ${n(total)} ${total === 1 ? "câmera" : "câmeras"} gravando 24 h por ${n(r.dias)} dias dão cerca de ${decimal(tb)} TB.`,
     regra:
-      "Arredondado para o tamanho de HD de mercado logo acima, sem passar do máximo que o gravador aceita. A taxa declarada é a máxima; na prática o HD dura igual ou mais.",
+      "Arredondado para o tamanho de HD de mercado logo acima, sem passar do máximo que o gravador aceita. Como a taxa declarada é a máxima, o HD dura isso ou mais.",
     confira: movimento,
   };
 }
