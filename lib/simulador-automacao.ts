@@ -359,11 +359,25 @@ export function montarProjetoAutomacao(r: RespostasAutomacao, baseTodas: Record<
     const caixas = Math.ceil(r.luzes / r.teclas);
     const comTeclas = (p: Produto) => num(p.specs.teclas) === r.teclas;
     const semNeutro = (p: Produto) => p.specs.precisaNeutro === false;
-    const lista =
+    let lista =
       r.neutro === "sim"
         ? escolher(TIPOS.interruptor, comTeclas)
         : escolher(TIPOS.interruptor, (p) => comTeclas(p) && semNeutro(p));
     const confiraNeutro: string[] = [];
+    // Sem neutro e sem interruptor desse número de teclas que dispense o fio:
+    // vale o que dispensa com MAIS teclas — sobra tecla, mas a caixa sem neutro
+    // funciona. O de teclas mais próximas vem primeiro.
+    if (r.neutro !== "sim" && !lista.length) {
+      const maiores = escolher(TIPOS.interruptor, (p) => semNeutro(p) && (num(p.specs.teclas) ?? 0) > r.teclas).sort(
+        (a, b) => (num(a.specs.teclas) ?? 0) - (num(b.specs.teclas) ?? 0),
+      );
+      if (maiores.length) {
+        lista = maiores;
+        confiraNeutro.push(
+          `Nenhum interruptor da base de ${r.teclas} ${r.teclas === 1 ? "tecla" : "teclas"} declara dispensar o neutro. O indicado dispensa e tem ${n(num(maiores[0].specs.teclas)!)} teclas: sobra ${num(maiores[0].specs.teclas)! - r.teclas === 1 ? "uma" : "mais de uma"}, e a caixa sem neutro funciona.`,
+        );
+      }
+    }
     if (r.neutro !== "sim" && !lista.length) {
       const comNeutro = escolher(TIPOS.interruptor, comTeclas);
       if (comNeutro.length) {

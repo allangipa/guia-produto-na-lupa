@@ -397,7 +397,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 747 produtos em 36 categorias, 36 guias,
+- **Inventário em 29/09/2026: 752 produtos em 36 categorias, 36 guias,
   56 comparativos e 44 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -839,9 +839,17 @@ confunde com documento sem folha de estilo.
   que não nomeia herda o app mais comum da marca (a Intelbras tem dois de
   verdade: Mibo Cam na câmera, Mibo Smart no resto).
 
-  **Achado que vira resposta na tela: nenhum interruptor com ficha declara
-  dispensar o neutro.** Os que respondem declaram precisar; para quem não tem
-  neutro, a lista manda para a lâmpada inteligente. **Funcionar sem internet é
+  **Neutro, corrigido na mesma noite:** a primeira rodada achou só interruptor
+  que precisa de neutro (Intelbras, Positivo, WEG, Tramontina, Ekaza, PPA, Fame,
+  Avant, AGL, Steck, Haiz, Nova Digital — por frase ou por diagrama). A varredura
+  seguinte achou **três marcas que declaram dispensar**: Legrand MatixGO
+  JB4413CM2 (dimmer Zigbee, 5 W mínimo, 75 W a 110 V e 125 W a 240 V; o gateway
+  JB4510C que ele exige PRECISA de neutro), Panda Plus AMG-NS01/03/04 (Wi-Fi,
+  capacitor na caixa; marca da importadora AMG Group; garantia só a legal) e
+  Coibeu. **A Coibeu ficou de fora**: o CNPJ do rodapé é de atacado de
+  vestuário, com endereço diferente do publicado, e a loja não publica garantia
+  nem Anatel — decisão pendente do Allan. Sem o número exato de teclas sem
+  neutro, o motor indica o sem neutro com mais teclas (sobra tecla) e diz isso. **Funcionar sem internet é
   raro por escrito**: MCR 1001 e MCP 1001 declaram PRECISAR de internet; a
   central MCA 1002 declara que os Zigbee seguem sem ela.
 

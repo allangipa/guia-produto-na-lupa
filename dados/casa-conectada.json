@@ -7470,5 +7470,447 @@
       "origem": "https://press.aboutamazon.com/search/devices?f1=00000199-99a9-d2a5-a199-dbbdd7b80000"
     },
     "divergencias": []
+  },
+  {
+    "slug": "legrand-matixgo-jb4413cm2",
+    "nome": "Legrand MatixGO dimmer sem neutro JB4413CM2",
+    "marca": "Legrand",
+    "modelo": "JB4413CM2",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor com dimmer que a Legrand declara dispensar o fio neutro — vem com um resistor de descarga na caixa — e o único desta base que declara carga mínima: 5 W. A carga máxima de LED é 75 W a 110 V e 125 W a 240 V, até 10 lâmpadas; nenhuma fonte diz o limite a 127 V. Precisa do gateway MatixGO, que por sua vez precisa de neutro na caixa em que for instalado.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Zigbee 2,4 GHz (controle remoto e por voz só através do gateway Wi-Fi da linha)",
+      "appProprio": "Home + Control",
+      "assistentes": "Amazon Alexa, Google Assistant e Apple Siri (declarado; via gateway)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 75,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": true,
+      "precisaNeutro": false,
+      "teclas": 1,
+      "alimentacao": "110–240 V~ 50/60 Hz pela própria linha da carga (sem neutro); acompanha bleeder/resistor de descarga ('purgador' no catálogo) para compatibilidade com LED; standby 0,3 W",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F6VT9WNB"
+    },
+    "fontes": [
+      {
+        "id": "legrand-matixgo-jb4413cm2-1",
+        "titulo": "Legrand Brasil — página de produto JB4413CM2",
+        "url": "https://www.legrand.com.br/pt-pt/catalogo/products/matixgo-dimmer-universal-conectado-sneutro-75w-2-modulos-preta-controle-por-voz-compativel-led-instalacao-sem-neutro-jb4413cm2?category_id=255741",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Lida no navegador (dá 403 fora dele). Frases literais: 'Não requer neutro, é compatível com LEDs'; 'Instalação sem necessidade de neutro, faixa de potência de 5VA to 125VA, fornecido com resistor de descarga para maior compatibilidade com LEDs'; 'Não requer neutro. Acompanha um bleeder'; tabela: 'Neutro obrigatório: Não', 'Tensão nominal: 230 V', 'Capacidade de comutação (intervalo): 5-125 W', 'Número de canais: 1', 'Tipo de operação: Zigbee', 'Nome da aplicação: Home + Control', 'Assistentes de voz compatíveis: Google Assistant, Amazon Alexa, Apple Siri', 'Consumo em modo de espera: 2.2 mA'. Restrição: 'primeiro é necessário adquirir e instalar um kit inicial MatixGO with Netatmo conectado'. Título da página: 's/neutro 75W'. Sem prazo de garantia.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "legrand-matixgo-jb4413cm2-2",
+        "titulo": "Catálogo MatixGO Legrand Brasil (PDF), p. 29–30",
+        "url": "https://assets.legrand.com/webf/br/Br_Pt_MatixGo.pdf",
+        "tipo": "catalogo-oficial",
+        "oQueSaiuDaqui": "Refs. JW4413CM2/JG4413CM2/JB4413CM2 'Dimmer universal conectado sem neutro'. Texto literal: 'Interruptor sem neutro, LED de 125 W, com opção de dimmer, com fio, 2 módulos'; cargas: 'Lâmpadas LEDs e CFL reguláveis: LED DE 125 W', 'Lâmpadas incandescentes e halógenas: 125 W', 'Lâmpadas ELV halógenas e CFL com reator separado: 125 VA', 'Fornecido com um purgador'. Nota: 'o gateway, ref. JW/JG/JB4500CG, JW/JG/JB4510C deve ser instalado como parte do sistema'. Cabeçalho da p. 29: 'DISPOSITIVOS CONECTADOS (230V A.C.)'. Baixado por curl, lido com pdftotext.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "legrand-matixgo-jb4413cm2-3",
+        "titulo": "Ficha técnica BTicino ST-00001444-EN (19/07/2023)",
+        "url": "https://assets.legrand.com/pim/NP-FT-GT/ST-00001444-EN.pdf",
+        "tipo": "ficha-tecnica-oficial",
+        "oQueSaiuDaqui": "'Connected switch 125 W LED without neutral with dimmer option'; cobre JB4413CM2, JG4413CM2 e JW4413CM2. Tensão 110-240 V~ 50/60 Hz; standby 0,3 W; tabela de cargas: 240 VAC 5–125 W (filamento/halógena) e 5–125 VA (LED/transformador eletrônico); 110 VAC 5–75 W e 5–75 VA; '(*) Or max 10 lamps'; 'Supplied with a bleeder'; Zigbee 2,4–2,4835 GHz, < 100 mW, alcance 200 m em campo aberto / 10 m entre produtos em ambiente interno; temperatura de uso 5–35 °C; IP20, IK04; 45 × 45 × 44 mm.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0f6vt9wnb",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F6VT9WNB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Dimmer Universal Conectado S/neutro 75W 2M Preta - - Matix Go Conectada - - Jb4413cm2\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/legrand-matixgo-jb4413cm2.webp",
+      "alt": "Legrand MatixGO dimmer sem neutro JB4413CM2",
+      "credito": "Imagem: Legrand",
+      "origem": "https://www.legrand.com.br/pt-pt/catalogo/products/matixgo-dimmer-universal-conectado-sneutro-75w-2-modulos-preta-controle-por-voz-compativel-led-instalacao-sem-neutro-jb4413cm2?category_id=255741"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "Ficha técnica ST-00001444 e catálogo p. 30: 125 W LED (a 240 V~)",
+        "valorDivergente": "75W",
+        "fonteDivergente": "Título da página oficial ('s/neutro 75W') e título do anúncio na Amazon",
+        "observacao": "Não é contradição de número e sim de condição: a própria ficha técnica dá 75 W a 110 V~. O título publica o limite de 110 V sem dizer a tensão; a descrição da mesma página diz 5–125 VA. Nenhuma fonte informa o limite a 127 V."
+      },
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Ficha técnica: 110-240 V~",
+        "valorDivergente": "230 V (tabela 'Tensão nominal' da página) / '230V A.C.' (cabeçalho do catálogo p. 29)",
+        "fonteDivergente": "Página de produto legrand.com.br e catálogo MatixGO",
+        "observacao": "A página brasileira declara só 230 V, o que excluiria as redes de 127 V; a ficha técnica, que traz a tabela de 110 V, declara 110–240 V~."
+      }
+    ]
+  },
+  {
+    "slug": "legrand-matixgo-jb4510c",
+    "nome": "Legrand MatixGO gateway JB4510C",
+    "marca": "Legrand",
+    "modelo": "JB4510C",
+    "categoria": "casa-conectada",
+    "resumo": "Gateway Wi-Fi e Zigbee da linha MatixGO, para até 100 dispositivos, com um interruptor mestre Casa/Fora sem fio. É ele que liga os interruptores sem neutro ao celular e à voz — e ele próprio precisa de fase e neutro na caixa 4x2 onde vai.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Hub",
+      "conexao": "Wi-Fi 2,4 GHz (802.11 b/g/n) + Zigbee (IEEE 802.15.4)",
+      "appProprio": "Home + Control",
+      "assistentes": "Amazon Alexa, Google Assistant e Apple Siri",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "100/240 V~ 50/60 Hz, fase + neutro, embutido em caixa 4x2 (2 módulos); interruptor mestre sem fio a pilha CR2032 (8 anos a 10 acionamentos/dia)",
+      "alcanceM": null,
+      "dispositivosHub": 100
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F6VRL5MM"
+    },
+    "fontes": [
+      {
+        "id": "legrand-matixgo-jb4510c-1",
+        "titulo": "Legrand Brasil — página de produto JB4510C",
+        "url": "https://www.legrand.com.br/pt-pt/catalogo/products/matixgo-startkit-conectado-mastergateway-2m-preta-wi-fi-24g-zigbee-compativel-alexasirigoogle-assistant-jb4510c?category_id=255741",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Lida no navegador. 'Gateway com indicador LED localizador ativável via aplicativo, conectividade Wi-Fi 2.4GHz 802.11b/g/n e suporte ao protocolo Zigbee'; 'É necessária uma conexão Wi-Fi através do seu roteador'; 'é facilmente instalado no lugar de uma tomada padrão existente ou de um interruptor padrão existente'; 'Ela requer apenas a fiação do cabo neutro e é colocada em uma caixa padrão'; tabela: 'Tensão de funcionamento (intervalo): 230-250 V', 'Número max. de aparelhos por canal: 100', 'Tipo de operação: Rede Wifi 2.4G, Zigbee', 'Grau de proteção (IP): IP40', 'Nome da aplicação: Home + Control', assistentes Google Assistant, Amazon Alexa e Apple Siri; interruptor mestre sem fio com pilha CR2032 de 8 anos. Sem prazo de garantia.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "legrand-matixgo-jb4510c-2",
+        "titulo": "Ficha técnica BTicino IDP001779_02-EN (04/10/2023)",
+        "url": "https://assets.legrand.com/pim/NP-FT-GT/IDP001779_02-EN.pdf",
+        "tipo": "ficha-tecnica-oficial",
+        "oQueSaiuDaqui": "Cobre JW4510C/JG4510C/JB4510C. Gateway: 100/240 V~ 50/60 Hz, standby 0,1 mA, Wi-Fi 2,4 GHz IEEE 802.11 b/g/n, Zigbee IEEE 802.15.4 com AES 128, < 100 mW, 200 m em campo aberto / 10 m recomendados entre produtos; IP20, IK04; 2 módulos. Interruptor geral sem fio: pilha CR2032 3 V fornecida, 8 anos a 10 acionamentos por dia; IK02. 'the starter pack is pre-paired at the factory'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "legrand-matixgo-jb4510c-3",
+        "titulo": "Catálogo MatixGO Legrand Brasil (PDF), p. 28 e 32",
+        "url": "https://assets.legrand.com/webf/br/Br_Pt_MatixGo.pdf",
+        "tipo": "catalogo-oficial",
+        "oQueSaiuDaqui": "'Gateway com interruptor sem fio Home/Away'; controla iluminação, persianas e tomadas conectadas pelo app Home + Control e assistentes de voz; 'Fornecido com o interruptor mestre sem fio Casa/Fora item JW/JG/JB4570CWI necessário para o procedimento de associação de todos os dispositivos conectados'; 'Fonte de alimentação 110-230 Va.c. - 2 módulos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0f6vrl5mm",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F6VRL5MM",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Startkit Conectado Master+gateway 2M Preta - Matix - Matix Go Conectada - - JB4510C\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/legrand-matixgo-jb4510c.webp",
+      "alt": "Gateway Legrand MatixGO JB4510C, módulo preto de embutir visto de lado",
+      "credito": "Imagem: Legrand",
+      "origem": "https://www.legrand.com.br/pt-pt/catalogo/products/matixgo-startkit-conectado-mastergateway-2m-preta-wi-fi-24g-zigbee-compativel-alexasirigoogle-assistant-jb4510c?category_id=255741"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Ficha técnica IDP001779: 100/240 V~",
+        "valorDivergente": "230-250 V (página) / 110-230 Va.c. (catálogo)",
+        "fonteDivergente": "Página de produto legrand.com.br e catálogo MatixGO p. 32",
+        "observacao": "Três faixas de tensão em três documentos oficiais. A da página excluiria 127 V."
+      }
+    ]
+  },
+  {
+    "slug": "pandaplus-amg-ns01",
+    "nome": "Panda Plus AMG-NS01 sem neutro",
+    "marca": "Panda Plus",
+    "modelo": "AMG-NS01",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor Wi-Fi de uma tecla que a loja da marca declara funcionar com ou sem fio neutro, usando o capacitor que vem na caixa. Declara 600 W de LED por tecla e não declara carga mínima; a garantia é só a legal, de 90 dias. A Panda Plus é marca da importadora AMG Group.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": "Panda Plus",
+      "assistentes": "Alexa e Google Assistant",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 600,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 3,
+      "precisaHub": false,
+      "precisaNeutro": false,
+      "teclas": 1,
+      "alimentacao": "110–240 V bivolt automático; no modo sem neutro usa o capacitor que vem na caixa ('No modo sem fio neutro, utilizar o capacitor conforme orientação do manual')",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GVKY8G3Y"
+    },
+    "fontes": [
+      {
+        "id": "pandaplus-amg-ns01-1",
+        "titulo": "Loja oficial Panda Plus — página do interruptor sem fio neutro",
+        "url": "https://shop.pandaplus.com.br/produtos/interruptor-inteligente-sem-fio-neutro-1-2-3-e-4-botoes-wifi-padrao-4x2-panda-plus-alexa-google-home-tuya/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Frases literais: 'Funciona com ou SEM fio neutro'; 'a linha AMG-NS01 / NS02 / NS03 / NS04 é que ela funciona sem necessidade de fio neutro'; 'Não requer hub adicional'; 'Conectividade: Wi-Fi 2.4 GHz'; 'Tensão de entrada: 110-240V (Bivolt automático)'; 'Corrente máxima: 10A'; 'Carga indutiva LED: 600W por tecla'; 'Carga resistiva: 1500W por tecla'; 'Integração com Tuya / Panda Plus e Smart Life'; 'Compatível com Alexa e Google Assistant'; 'Dimensões (mm): 35x72x118 - Padrão 4x2'; 'No modo sem fio neutro, utilizar o capacitor conforme orientação do manual'; embalagem: '1 Capacitor'. Variações: Branco 1, 2, 3 e 4 Botões. Diagrama da galeria: 'Atenção: opcional com ou sem o fio neutro'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "pandaplus-amg-ns01-2",
+        "titulo": "Panda Plus — Entregas, Devoluções, Trocas e Garantia",
+        "url": "https://shop.pandaplus.com.br/entregas-devolucoes-trocas-garantia/",
+        "tipo": "termos-de-garantia",
+        "oQueSaiuDaqui": "Só a garantia legal: 'conforme o artigo 26 do Código de Defesa do Consumidor ... 90 dias para produtos duráveis'. Nenhum prazo contratual.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gvky8g3y",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GVKY8G3Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Sem Fio Neutro Panda Plus Touch Smart Wifi App Alexa Google Home Tuya Smart Life Padrão 4x2 Casa Automatizada Bivolt Vidro Temperado (Branco 1 Botão)\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/pandaplus-amg-ns01.webp",
+      "alt": "Panda Plus AMG-NS01 sem neutro",
+      "credito": "Imagem: Panda Plus",
+      "origem": "https://shop.pandaplus.com.br/produtos/interruptor-inteligente-sem-fio-neutro-1-2-3-e-4-botoes-wifi-padrao-4x2-panda-plus-alexa-google-home-tuya/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "pandaplus-amg-ns03",
+    "nome": "Panda Plus AMG-NS03 sem neutro",
+    "marca": "Panda Plus",
+    "modelo": "AMG-NS03",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor Wi-Fi de três teclas que a loja da marca declara funcionar com ou sem fio neutro, com capacitor na caixa. 600 W de LED por tecla; a página diz 1.500 W resistivos por tecla e 10 A de corrente máxima, que não fecham a 127 V. Garantia legal de 90 dias.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": "Panda Plus",
+      "assistentes": "Alexa e Google Assistant",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 600,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 3,
+      "precisaHub": false,
+      "precisaNeutro": false,
+      "teclas": 3,
+      "alimentacao": "110–240 V bivolt automático; no modo sem neutro usa o capacitor que vem na caixa ('No modo sem fio neutro, utilizar o capacitor conforme orientação do manual')",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GVL6YPSK"
+    },
+    "fontes": [
+      {
+        "id": "pandaplus-amg-ns03-1",
+        "titulo": "Loja oficial Panda Plus — página do interruptor sem fio neutro",
+        "url": "https://shop.pandaplus.com.br/produtos/interruptor-inteligente-sem-fio-neutro-1-2-3-e-4-botoes-wifi-padrao-4x2-panda-plus-alexa-google-home-tuya/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Frases literais: 'Funciona com ou SEM fio neutro'; 'a linha AMG-NS01 / NS02 / NS03 / NS04 é que ela funciona sem necessidade de fio neutro'; 'Não requer hub adicional'; 'Conectividade: Wi-Fi 2.4 GHz'; 'Tensão de entrada: 110-240V (Bivolt automático)'; 'Corrente máxima: 10A'; 'Carga indutiva LED: 600W por tecla'; 'Carga resistiva: 1500W por tecla'; 'Integração com Tuya / Panda Plus e Smart Life'; 'Compatível com Alexa e Google Assistant'; 'Dimensões (mm): 35x72x118 - Padrão 4x2'; 'No modo sem fio neutro, utilizar o capacitor conforme orientação do manual'; embalagem: '1 Capacitor'. Variações: Branco 1, 2, 3 e 4 Botões. Diagrama da galeria: 'Atenção: opcional com ou sem o fio neutro'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "pandaplus-amg-ns03-2",
+        "titulo": "Panda Plus — Entregas, Devoluções, Trocas e Garantia",
+        "url": "https://shop.pandaplus.com.br/entregas-devolucoes-trocas-garantia/",
+        "tipo": "termos-de-garantia",
+        "oQueSaiuDaqui": "Só a garantia legal: 'conforme o artigo 26 do Código de Defesa do Consumidor ... 90 dias para produtos duráveis'. Nenhum prazo contratual.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gvl6ypsk",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GVL6YPSK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Sem Fio Neutro Panda Plus Touch Smart Wifi App Alexa Google Home Tuya Smart Life Padrão 4x2 Casa Automatizada Bivolt Vidro Temperado (Branco 3 Botões)\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/pandaplus-amg-ns03.webp",
+      "alt": "Panda Plus AMG-NS03 sem neutro",
+      "credito": "Imagem: Panda Plus",
+      "origem": "https://shop.pandaplus.com.br/produtos/interruptor-inteligente-sem-fio-neutro-1-2-3-e-4-botoes-wifi-padrao-4x2-panda-plus-alexa-google-home-tuya/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "pandaplus-amg-ns04",
+    "nome": "Panda Plus AMG-NS04 sem neutro",
+    "marca": "Panda Plus",
+    "modelo": "AMG-NS04",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor Wi-Fi de quatro teclas que a loja da marca declara funcionar com ou sem fio neutro, com capacitor na caixa. 600 W de LED por tecla, sem carga mínima declarada; garantia legal de 90 dias.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": "Panda Plus",
+      "assistentes": "Alexa e Google Assistant",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 600,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 3,
+      "precisaHub": false,
+      "precisaNeutro": false,
+      "teclas": 4,
+      "alimentacao": "110–240 V bivolt automático; no modo sem neutro usa o capacitor que vem na caixa ('No modo sem fio neutro, utilizar o capacitor conforme orientação do manual')",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GT1NRZFR"
+    },
+    "fontes": [
+      {
+        "id": "pandaplus-amg-ns04-1",
+        "titulo": "Loja oficial Panda Plus — página do interruptor sem fio neutro",
+        "url": "https://shop.pandaplus.com.br/produtos/interruptor-inteligente-sem-fio-neutro-1-2-3-e-4-botoes-wifi-padrao-4x2-panda-plus-alexa-google-home-tuya/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Frases literais: 'Funciona com ou SEM fio neutro'; 'a linha AMG-NS01 / NS02 / NS03 / NS04 é que ela funciona sem necessidade de fio neutro'; 'Não requer hub adicional'; 'Conectividade: Wi-Fi 2.4 GHz'; 'Tensão de entrada: 110-240V (Bivolt automático)'; 'Corrente máxima: 10A'; 'Carga indutiva LED: 600W por tecla'; 'Carga resistiva: 1500W por tecla'; 'Integração com Tuya / Panda Plus e Smart Life'; 'Compatível com Alexa e Google Assistant'; 'Dimensões (mm): 35x72x118 - Padrão 4x2'; 'No modo sem fio neutro, utilizar o capacitor conforme orientação do manual'; embalagem: '1 Capacitor'. Variações: Branco 1, 2, 3 e 4 Botões. Diagrama da galeria: 'Atenção: opcional com ou sem o fio neutro'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "pandaplus-amg-ns04-2",
+        "titulo": "Panda Plus — Entregas, Devoluções, Trocas e Garantia",
+        "url": "https://shop.pandaplus.com.br/entregas-devolucoes-trocas-garantia/",
+        "tipo": "termos-de-garantia",
+        "oQueSaiuDaqui": "Só a garantia legal: 'conforme o artigo 26 do Código de Defesa do Consumidor ... 90 dias para produtos duráveis'. Nenhum prazo contratual.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gt1nrzfr",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GT1NRZFR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Sem Fio Neutro Panda Plus Touch Smart Wifi App Alexa Google Home Tuya Smart Life Padrão 4x2 Casa Automatizada Bivolt Vidro Temperado (Branco 4 Botões)\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/pandaplus-amg-ns04.webp",
+      "alt": "Panda Plus AMG-NS04 sem neutro",
+      "credito": "Imagem: Panda Plus",
+      "origem": "https://shop.pandaplus.com.br/produtos/interruptor-inteligente-sem-fio-neutro-1-2-3-e-4-botoes-wifi-padrao-4x2-panda-plus-alexa-google-home-tuya/"
+    },
+    "divergencias": []
   }
 ]
