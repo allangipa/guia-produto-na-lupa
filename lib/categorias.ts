@@ -72,6 +72,16 @@ export const categorias: Categoria[] = [
       "Casa inteligente não é uma lista de mais vendidos na Amazon Brasil: tomada e lâmpada aparecem em Elétrica e Iluminação, câmera em Proteção e Segurança. Em cada uma dessas listas, os aparelhos conectados são três a cinco entre vinte — o resto é extensão, adaptador e luva. Estes são os que sobraram com fabricante e ficha publicada.",
   },
   {
+    slug: "cftv",
+    nome: "Câmeras e gravadores (CFTV)",
+    descricao:
+      "DVRs e câmeras cabeadas de segurança, com a resolução que o gravador grava de fato ao lado da que a caixa anuncia.",
+    dorPrincipal:
+      "O DVR diz 1080p. Grava 1920 × 1080 ou 960 × 1080 — e o que ele desliga para gravar o cheio?",
+    porQueParou:
+      "A Amazon Brasil não tem lista de mais vendidos de gravador: os DVRs aparecem espalhados em Câmeras de Vigilância, DVD Players e Gravadores, Interfones Residenciais e Proteção e Segurança, e posição em listas diferentes não se compara. A seleção seguiu as séries completas de 4, 8 e 16 canais das duas marcas que dominam os anúncios. Nas câmeras cabeadas que apareceram nas buscas, as vinte mais bem colocadas no nó de Câmeras de Vigilância são todas Intelbras; a primeira de outra marca, uma HiLook, está na posição 1.077. Tecvoz, HiLook e Positivo aparecem nos anúncios de gravador e não entraram nesta primeira leva.",
+  },
+  {
     slug: "smartwatches",
     nome: "Smartwatches",
     descricao:
@@ -331,6 +341,7 @@ export const ORDEM_NA_HOME: string[] = [
   "energia",
   "conectividade",
   "casa-conectada",
+  "cftv",
   "armazenamento",
   "perifericos",
   "sanduicheiras",

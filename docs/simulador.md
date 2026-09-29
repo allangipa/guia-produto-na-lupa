@@ -19,7 +19,7 @@ Decisões do Allan que moldam tudo abaixo:
 
 | Frente | Questionário | Motor | Onde |
 |---|---|---|---|
-| Câmeras de segurança | completo, 5 passos | lista de compras | `lib/simulador-cameras.ts`, `components/simulador-cameras.tsx` |
+| Câmeras de segurança | completo, 5 passos | lista de compras; no sistema DVR, peças da categoria CFTV | `lib/simulador-cameras.ts`, `components/simulador-cameras.tsx` |
 | Rede Wi-Fi | simples (tamanho + perfil) | matriz fixa | `lib/simulador.ts`, `components/setup-simulator.tsx` |
 | Automação | simples (perfil) | matriz fixa | idem |
 
@@ -94,7 +94,23 @@ Decisões do Allan que moldam tudo abaixo:
 A única relação horas/GB declarada na base é a da Tapo C500: 954 h em 512 GB
 (fonte `tapo-c500-oficial`). Fica em `HORAS_POR_GB`, com a origem escrita.
 
-**Cabeado (DVR ou NVR)**
+**Cabeado com DVR — peças da base (desde 29/09/2026)**
+
+| Peça | Como escolhe |
+|---|---|
+| DVR | menor número de canais da base que cabe (+1 com folga); dentro dele, o que grava 1920 × 1080 em todos os canais, depois em parte, depois menor consumo. A alternativa é o de outra marca no mesmo tamanho. |
+| Câmera externa | bullet, 1080p, instalação externa, alcance noturno ≥ pedido, colorida se pedido; a de menor consumo declarado |
+| Câmera interna | dome, mesmos filtros; a de menor consumo |
+| HD | bit rate declarado do DVR × câmeras × 24 h × dias (1 Mb/s o dia todo = 10,8 GB), arredondado para o HD de mercado acima e limitado ao máximo que o DVR aceita |
+| Fonte | soma do consumo declarado das câmeras escolhidas ÷ 12 V, +20% (regra rotulada), arredondada para a fonte de mercado acima |
+| Distância | a informada contra o `alcanceCoaxialM` do manual da câmera escolhida |
+
+Novas perguntas: imagem colorida à noite (passo 1) e, no DVR, o que importa mais
+— 1080p cheio ou alerta de pessoas (passo 4). A segunda existe porque, na linha
+MHDX 13xx, o modo que grava 1920 × 1080 desliga a detecção de pessoas; a lista
+diz como configurar conforme a resposta.
+
+**Cabeado (DVR ou NVR) — especificação quando não há ficha**
 
 | Peça | Qtd. | Regra |
 |---|---|---|
@@ -154,9 +170,9 @@ do site: página oficial, link na Amazon conferido pelo título do anúncio, fot
 licenciada.
 
 **Câmeras (fecha o cabeado)**
-1. DVR Intelbras (4 e 8 canais) — precisa declarar a taxa de gravação e o HD máximo
-2. Câmeras HDCVI Intelbras, bullet e dome
-3. HD de vigilância (Seagate SkyHawk, WD Purple)
+1. ~~DVR Intelbras~~ — **feito em 29/09/2026**: 7 Intelbras e 3 Hikvision, categoria `cftv`
+2. ~~Câmeras HDCVI Intelbras, bullet e dome~~ — **feito**: 11 câmeras
+3. HD de vigilância (Seagate SkyHawk, WD Purple) — agora o simulador já calcula o tamanho
 4. Cartão microSD de vigilância (fecha também o Wi-Fi)
 5. NVR e câmeras IP Intelbras
 6. Switch PoE

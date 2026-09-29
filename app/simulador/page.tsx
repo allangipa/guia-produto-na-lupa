@@ -50,14 +50,21 @@ function resolver(
  */
 function baseCameras(
   buscarProduto: (slug: string) => Produto | undefined,
+  cftv: Produto[],
 ): Record<string, Produto> {
   const faltando: string[] = [];
+  const fixos = Object.values(SLUGS_CAMERAS).map((slug) => {
+    const p = buscarProduto(slug);
+    if (!p || !lojasDe(p.lojas).length) faltando.push(slug);
+    return p!;
+  });
+  // A categoria CFTV entra inteira: o motor escolhe DVR e câmera pelos campos.
+  // Produto sem loja não entra, pela mesma regra dos fixos.
   const base = Object.fromEntries(
-    Object.values(SLUGS_CAMERAS).map((slug) => {
-      const p = buscarProduto(slug);
-      if (!p || !lojasDe(p.lojas).length) faltando.push(slug);
-      return [slug, p!];
-    }),
+    [...fixos, ...cftv.filter((p) => lojasDe(p.lojas).length)].map((p) => [
+      p.slug,
+      leve(p),
+    ]),
   );
   if (faltando.length) {
     throw new Error(
@@ -66,6 +73,16 @@ function baseCameras(
     );
   }
   return base;
+}
+
+/**
+ * O motor roda no navegador e só lê ficha, loja e foto. Fontes, divergências e
+ * resumo ficam na página do produto — mandá-los junto multiplicaria o peso da
+ * página por nada.
+ */
+function leve(p: Produto): Produto {
+  const { slug, nome, marca, modelo, categoria, specs, lojas, imagem, naoSeAplica, atualizadoEm } = p;
+  return { slug, nome, marca, modelo, categoria, specs, lojas, imagem, naoSeAplica, atualizadoEm, resumo: "", fontes: [] };
 }
 
 function Cards({ r, produtos }: { r: Resultado; produtos: Produto[] }) {
@@ -119,7 +136,10 @@ export default function PaginaSimulador() {
       <Cards key={chave} r={r} produtos={produtos} />,
     ]),
   );
-  const cameras = baseCameras(buscarProduto);
+  const cameras = baseCameras(
+    buscarProduto,
+    [...porSlug.values()].filter((p) => p.categoria === "cftv"),
+  );
   const usados = [
     ...combinacoes.flatMap(([, , ps]) => ps),
     ...Object.values(cameras),

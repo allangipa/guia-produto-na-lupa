@@ -137,6 +137,16 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
                 />
               )}
             </div>
+            <Opcoes
+              titulo="À noite, a imagem precisa ser colorida?"
+              ajuda="Câmera colorida à noite acende uma luz branca. Sem ela, a imagem noturna é em preto e branco, com infravermelho."
+              valor={r.noturnaColorida}
+              opcoes={[
+                { valor: true, rotulo: "Sim, colorida" },
+                { valor: false, rotulo: "Preto e branco serve" },
+              ]}
+              aoMudar={muda("noturnaColorida")}
+            />
           </>
         )}
 
@@ -230,6 +240,18 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
               ]}
               aoMudar={muda("modo")}
             />
+            {sistema === "dvr" && (
+              <Opcoes
+                titulo="No gravador, o que importa mais?"
+                ajuda="Nos DVRs da base que gravam 1920 × 1080, ligar esse modo desliga a detecção de pessoas. A lista diz como configurar."
+                valor={r.prioridadeDvr}
+                opcoes={[
+                  { valor: "resolucao", rotulo: "Imagem em 1080p cheio" },
+                  { valor: "deteccao", rotulo: "Alerta de pessoas e veículos", detalhe: "O celular não apita por folha ou gato" },
+                ]}
+                aoMudar={muda("prioridadeDvr")}
+              />
+            )}
           </>
         )}
 

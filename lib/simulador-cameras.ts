@@ -36,6 +36,13 @@ export type Respostas = {
   visaoNoturnaM: number;
   /** Até quantos metros a câmera interna precisa enxergar à noite — o maior cômodo. */
   visaoNoturnaInternaM: number;
+  /** Imagem colorida à noite (câmera com luz branca). */
+  noturnaColorida: boolean;
+  /**
+   * No gravador, o que vence quando não dá para ter os dois: na linha MHDX
+   * 13xx, gravar 1920 × 1080 desliga a detecção de pessoas.
+   */
+  prioridadeDvr: "resolucao" | "deteccao";
   cabo: "sim" | "obra" | "nao";
   internetEstavel: boolean;
   gravarSemInternet: boolean;
@@ -64,6 +71,8 @@ export const RESPOSTAS_INICIAIS: Respostas = {
   externos: 1,
   visaoNoturnaM: 8,
   visaoNoturnaInternaM: 5,
+  noturnaColorida: false,
+  prioridadeDvr: "deteccao",
   cabo: "sim",
   internetEstavel: true,
   gravarSemInternet: true,
@@ -389,26 +398,58 @@ function projetoCabeado(
       ? "HD coaxial compatível com a tecnologia do DVR (HDCVI, AHD ou HDTVI — confira na ficha do gravador)"
       : "IP com alimentação PoE";
 
+  const cftv = Object.values(base).filter((p) => p.categoria === "cftv");
+  const escolhidas: { p: Produto; qtd: number }[] = [];
+
   if (r.externos > 0) {
-    itens.push({
-      id: "bullet",
-      grupo: "principal",
-      papel: "Câmera externa (bullet)",
-      qtd: r.externos,
-      especificacao: `Câmera ${tecnologia}, ${res}, proteção IP declarada para uso externo e visão noturna de pelo menos ${n(r.visaoNoturnaM)} m.`,
-      porque:
-        "O formato bullet é o de área externa: corpo vedado e alcance noturno maior.",
-    });
+    const e = sistema === "dvr" ? escolherCamera(cftv, r, "externa") : null;
+    if (e?.p) {
+      escolhidas.push({ p: e.p, qtd: r.externos });
+      itens.push({
+        id: "bullet",
+        grupo: "principal",
+        papel: "Câmera externa",
+        qtd: r.externos,
+        produto: e.p.slug,
+        porque: e.porque,
+        confira: e.confira,
+        alternativa: e.alternativa,
+      });
+    } else {
+      itens.push({
+        id: "bullet",
+        grupo: "principal",
+        papel: "Câmera externa (bullet)",
+        qtd: r.externos,
+        especificacao: `Câmera ${tecnologia}, ${res}, proteção IP declarada para uso externo e visão noturna de pelo menos ${n(r.visaoNoturnaM)} m${r.noturnaColorida ? ", colorida à noite" : ""}.`,
+        porque: e?.semBase ?? "O formato bullet é o de área externa: corpo vedado e alcance noturno maior.",
+      });
+    }
   }
   if (r.internos > 0) {
-    itens.push({
-      id: "dome",
-      grupo: "principal",
-      papel: "Câmera interna (dome)",
-      qtd: r.internos,
-      especificacao: `Câmera ${tecnologia}, ${res}, formato dome, visão noturna de pelo menos ${n(r.visaoNoturnaInternaM)} m.`,
-      porque: "O formato dome é o de teto, para ambiente interno.",
-    });
+    const e = sistema === "dvr" ? escolherCamera(cftv, r, "interna") : null;
+    if (e?.p) {
+      escolhidas.push({ p: e.p, qtd: r.internos });
+      itens.push({
+        id: "dome",
+        grupo: "principal",
+        papel: "Câmera interna",
+        qtd: r.internos,
+        produto: e.p.slug,
+        porque: e.porque,
+        confira: e.confira,
+        alternativa: e.alternativa,
+      });
+    } else {
+      itens.push({
+        id: "dome",
+        grupo: "principal",
+        papel: "Câmera interna (dome)",
+        qtd: r.internos,
+        especificacao: `Câmera ${tecnologia}, ${res}, formato dome, visão noturna de pelo menos ${n(r.visaoNoturnaInternaM)} m${r.noturnaColorida ? ", colorida à noite" : ""}.`,
+        porque: e?.semBase ?? "O formato dome é o de teto, para ambiente interno.",
+      });
+    }
   }
 
   const minimoCanais = r.folga ? total + 1 : total;
@@ -416,33 +457,32 @@ function projetoCabeado(
   if (minimoCanais > CANAIS.at(-1)!) {
     avisos.push(`São ${total} câmeras; acima de 32 canais o projeto pede mais de um gravador.`);
   }
-  itens.push({
-    id: "gravador",
-    grupo: "gravacao",
-    papel: sistema === "dvr" ? "Gravador DVR" : "Gravador NVR",
-    qtd: 1,
-    especificacao: `${sistema === "dvr" ? "DVR" : "NVR"} de ${canais} canais, que grave em ${res}.`,
-    porque: `Você tem ${total} ${total === 1 ? "câmera" : "câmeras"}${r.folga ? " e pediu folga para crescer" : ""}; ${canais} canais é o menor tamanho de mercado que cabe.`,
-    regra: r.folga
-      ? "Folga, na regra do simulador, é pelo menos um canal livre."
-      : undefined,
-  });
+  const gravador = sistema === "dvr" ? escolherDvr(cftv, minimoCanais, r) : null;
+  if (gravador?.p) {
+    itens.push({
+      id: "gravador",
+      grupo: "gravacao",
+      papel: "Gravador DVR",
+      qtd: 1,
+      produto: gravador.p.slug,
+      porque: gravador.porque,
+      regra: r.folga ? "Folga, na regra do simulador, é pelo menos um canal livre." : undefined,
+      confira: gravador.confira,
+      alternativa: gravador.alternativa,
+    });
+  } else {
+    itens.push({
+      id: "gravador",
+      grupo: "gravacao",
+      papel: sistema === "dvr" ? "Gravador DVR" : "Gravador NVR",
+      qtd: 1,
+      especificacao: `${sistema === "dvr" ? "DVR" : "NVR"} de ${canais} canais, que grave em ${res}.`,
+      porque: `Você tem ${total} ${total === 1 ? "câmera" : "câmeras"}${r.folga ? " e pediu folga para crescer" : ""}; ${canais} canais é o menor tamanho de mercado que cabe.`,
+      regra: r.folga ? "Folga, na regra do simulador, é pelo menos um canal livre." : undefined,
+    });
+  }
 
-  itens.push({
-    id: "hd",
-    grupo: "gravacao",
-    papel: "HD de vigilância",
-    qtd: 1,
-    especificacao: `HD próprio para gravação contínua (linha de vigilância), com capacidade para ${n(total)} câmeras × 24 h × ${n(r.dias)} dias.`,
-    porque:
-      "O tamanho do HD é a taxa de gravação do gravador vezes as horas. O site ainda não tem ficha de gravador, e sem a taxa declarada o simulador não calcula os terabytes.",
-    confira: [
-      "Na ficha do gravador escolhido: a taxa de gravação em " + res + " e o maior HD que ele aceita.",
-      r.modo === "movimento"
-        ? "Gravando só com movimento o HD dura mais; a conta de referência é a contínua."
-        : "",
-    ].filter(Boolean),
-  });
+  itens.push(itemHd(r, total, gravador?.p, res, avisos));
 
   if (sistema === "nvr") {
     const portas = menorQueCabe(PORTAS_SWITCH, total);
@@ -477,9 +517,22 @@ function projetoCabeado(
     );
   }
   if (!utp) {
-    avisos.push(
-      `O ponto mais longe fica a ${n(r.distanciaMaxM)} m. O alcance do cabo coaxial depende da tecnologia do DVR e da câmera, e vem declarado na ficha deles.`,
-    );
+    // O limite declarado vem do manual de cada câmera escolhida; vale o menor.
+    const limites = escolhidas
+      .map((e) => ({ p: e.p, m: typeof e.p.specs.alcanceCoaxialM === "number" ? e.p.specs.alcanceCoaxialM : null }))
+      .filter((x): x is { p: Produto; m: number } => x.m != null);
+    const menorLimite = limites.sort((a, b) => a.m - b.m)[0];
+    if (menorLimite && limites.length === escolhidas.length) {
+      if (r.distanciaMaxM > menorLimite.m) {
+        avisos.push(
+          `O ponto mais longe fica a ${n(r.distanciaMaxM)} m, e a Intelbras declara ${n(menorLimite.m)} m como distância máxima da ${menorLimite.p.modelo} em cabo coaxial. Aproxime o gravador ou use outra câmera nesse ponto.`,
+        );
+      }
+    } else {
+      avisos.push(
+        `O ponto mais longe fica a ${n(r.distanciaMaxM)} m. O alcance do cabo coaxial depende da tecnologia do DVR e da câmera, e vem declarado no manual da câmera.`,
+      );
+    }
   }
 
   if (sistema === "nvr") {
@@ -521,28 +574,7 @@ function projetoCabeado(
       especificacao: "Conector P4 macho com borne.",
       porque: "Um por câmera, para ligar a energia na ponta da câmera.",
     });
-    itens.push(
-      r.tomadaPerto
-        ? {
-            id: "fonte",
-            grupo: "energia",
-            papel: "Fonte 12 V individual",
-            qtd: total,
-            especificacao: "Fonte 12 V com corrente acima do consumo declarado da câmera.",
-            porque: "Há tomada perto das câmeras, então cada uma tem a própria fonte.",
-            confira: ["O consumo declarado da câmera escolhida, em ampères ou watts."],
-          }
-        : {
-            id: "fonte",
-            grupo: "energia",
-            papel: "Fonte 12 V centralizada",
-            qtd: 1,
-            especificacao: `Fonte 12 V centralizada, com corrente acima da soma do consumo das ${n(total)} câmeras.`,
-            porque:
-              "Sem tomada perto das câmeras, uma fonte só, junto do gravador, alimenta todas pelo mesmo cabo.",
-            confira: ["O consumo declarado de cada câmera: sem ele não dá para dizer a amperagem."],
-          },
-    );
+    itens.push(itemFonte(r, total, escolhidas));
   }
 
   if (r.conectoresExpostos && r.externos > 0) {
@@ -614,4 +646,269 @@ function projetoCabeado(
   }
 
   return { itens, avisos };
+}
+
+// ---------------------------------------------------------------------------
+// Escolha de peças da base (sistema com DVR). Desde 29/09/2026 a base tem
+// DVRs e câmeras cabeadas (categoria cftv), e a lista deixa de dizer só "que
+// especificação comprar" para dizer "qual produto" — com a regra à vista.
+
+/** Tamanhos de HD e de fonte de mercado, para arredondar a conta para cima. */
+const HDS_TB = [1, 2, 3, 4, 6, 8, 10, 12, 14, 16, 18];
+const FONTES_A = [1, 2, 3, 5, 10, 15, 20, 30];
+/** Regra do simulador: folga sobre a soma do consumo declarado das câmeras. */
+export const FOLGA_FONTE = 0.2;
+/**
+ * O MHDX 1308 declara 4 Mbps no canal 1 e 2 Mbps nos demais. A ficha guarda
+ * os 2 dos sete canais; a conta do HD soma a diferença do canal 1.
+ */
+const BITRATE_CANAL_1: Record<string, number> = { "intelbras-mhdx-1308": 4 };
+
+const num = (v: unknown) => (typeof v === "number" ? v : null);
+const txt = (v: unknown) => (typeof v === "string" ? v : "");
+const decimal = (v: number) => v.toLocaleString("pt-BR", { maximumFractionDigits: 1 });
+/** Watt com as duas casas que a ficha publica: 1,56 W não vira 1,6. */
+const watts = (v: number) => v.toLocaleString("pt-BR", { maximumFractionDigits: 2 });
+
+type Escolha = {
+  p?: Produto;
+  porque: string;
+  confira?: string[];
+  alternativa?: { produto: string; motivo: string };
+  /** Quando a base não tem candidata: por quê, para a linha sem ficha. */
+  semBase?: string;
+};
+
+/** O que a segunda colocada tem a mais e a menos — em números da ficha. */
+function diferencaCamera(escolhida: Produto, alt: Produto): string {
+  const a = alt.specs;
+  const e = escolhida.specs;
+  const mais: string[] = [];
+  if ((num(a.alcanceNoturnoM) ?? 0) > (num(e.alcanceNoturnoM) ?? 0))
+    mais.push(`alcance noturno de ${n(num(a.alcanceNoturnoM)!)} m`);
+  if (a.microfone === true && e.microfone !== true) mais.push("microfone");
+  if ((num(a.anguloHorizontalGraus) ?? 0) > (num(e.anguloHorizontalGraus) ?? 0))
+    mais.push(`ângulo de ${n(num(a.anguloHorizontalGraus)!)}°`);
+  const consumo =
+    (num(a.consumoW) ?? 0) > (num(e.consumoW) ?? 0)
+      ? `consome ${watts(num(a.consumoW)!)} W, contra ${watts(num(e.consumoW)!)}`
+      : "";
+  if (mais.length && consumo) return `${mais.join(" e ")}, mas ${consumo}`;
+  if (mais.length) return mais.join(" e ");
+  return consumo || "ficha parecida, com consumo igual ou maior";
+}
+
+export function escolherCamera(
+  cftv: Produto[],
+  r: Respostas,
+  onde: "externa" | "interna",
+): Escolha {
+  const formato = onde === "externa" ? "Câmera bullet" : "Câmera dome";
+  const alcance = onde === "externa" ? r.visaoNoturnaM : r.visaoNoturnaInternaM;
+  let lista = cftv.filter((p) => p.specs.tipo === formato);
+  if (onde === "externa") lista = lista.filter((p) => txt(p.specs.instalacao) !== "Interno");
+  lista = lista.filter((p) => txt(p.specs.resolucao).startsWith("1080p"));
+  const emResolucao = lista.length;
+  lista = lista.filter((p) => (num(p.specs.alcanceNoturnoM) ?? 0) >= alcance);
+  const emAlcance = lista.length;
+  if (r.noturnaColorida) lista = lista.filter((p) => p.specs.noturnaColorida === true);
+
+  if (!lista.length) {
+    const motivo = !emResolucao
+      ? `Nenhuma câmera ${onde} 1080p na base.`
+      : !emAlcance
+        ? `Nenhuma câmera ${onde} 1080p da base declara alcance noturno de ${n(alcance)} m.`
+        : `Nenhuma câmera ${onde} 1080p da base declara imagem colorida à noite com alcance de ${n(alcance)} m.`;
+    return { porque: motivo, semBase: motivo };
+  }
+
+  // Regra do simulador: entre as que atendem, a de menor consumo declarado —
+  // é a que pede a menor fonte. Empate vai para o maior alcance.
+  lista.sort(
+    (a, b) =>
+      (num(a.specs.consumoW) ?? 99) - (num(b.specs.consumoW) ?? 99) ||
+      (num(b.specs.alcanceNoturnoM) ?? 0) - (num(a.specs.alcanceNoturnoM) ?? 0),
+  );
+  const [p, alt] = lista;
+  const s = p.specs;
+  const filtros = [
+    "1080p",
+    `alcance noturno de pelo menos ${n(alcance)} m`,
+    ...(r.noturnaColorida ? ["imagem colorida à noite"] : []),
+  ].join(", ");
+  const confira: string[] = [];
+  if (txt(s.alimentacao).includes("10,8") && r.distanciaMaxM >= 50 && !r.tomadaPerto) {
+    confira.push(
+      `A Intelbras declara que ela aceita só de 10,8 a 13,2 V. Com ${n(r.distanciaMaxM)} m de cabo desde uma fonte centralizada, a queda de tensão pode passar disso — confira, ou use fonte perto da câmera.`,
+    );
+  }
+  const plural = onde === "externa" ? "bullets" : "domes";
+  return {
+    p,
+    porque: `${lista.length === 1 ? `É a única ${plural.slice(0, -1)} da base com ${filtros}, e declara ${watts(num(s.consumoW)!)} W de consumo.` : `Entre as ${lista.length} ${plural} da base com ${filtros}, é a de menor consumo declarado: ${watts(num(s.consumoW)!)} W.`} ${s.resolucao}, alcance noturno de ${n(num(s.alcanceNoturnoM)!)} m${s.protecaoIp ? `, ${s.protecaoIp}` : ""}, ${txt(s.tecnologias).startsWith("HDCVI,") ? "Multi HD" : "só HDCVI"}.`,
+    confira,
+    alternativa: alt ? { produto: alt.slug, motivo: diferencaCamera(p, alt) } : undefined,
+  };
+}
+
+/** Se o gravador grava 1920 × 1080, e se em todos os canais — pela ficha. */
+function gravaCheioEmTodos(p: Produto): boolean {
+  return /^Nos \d+ canais/.test(txt(p.specs.gravacao1080p));
+}
+function gravaCheio(p: Produto): boolean {
+  const t = txt(p.specs.gravacao1080p);
+  return t !== "" && !t.startsWith("Não grava");
+}
+
+export function escolherDvr(cftv: Produto[], minimo: number, r: Respostas): Escolha | null {
+  const cabem = cftv.filter(
+    (p) => p.specs.tipo === "Gravador DVR" && (num(p.specs.canais) ?? 0) >= minimo,
+  );
+  if (!cabem.length) return null;
+  const menor = Math.min(...cabem.map((p) => num(p.specs.canais)!));
+  const doTamanho = cabem.filter((p) => num(p.specs.canais) === menor);
+  // Regra do simulador: no menor tamanho que cabe, o que grava 1920 × 1080 em
+  // todos os canais; depois o que grava em parte deles; depois o de menor
+  // consumo. Gravador que só grava 1080p Lite fica como alternativa.
+  const ordem = [...doTamanho].sort(
+    (a, b) =>
+      Number(gravaCheioEmTodos(b)) - Number(gravaCheioEmTodos(a)) ||
+      Number(gravaCheio(b)) - Number(gravaCheio(a)) ||
+      (num(a.specs.consumoW) ?? 99) - (num(b.specs.consumoW) ?? 99),
+  );
+  const p = ordem[0];
+  const alt = ordem.find((x) => x.marca !== p.marca) ?? ordem[1];
+  const s = p.specs;
+  const confira: string[] = [];
+  if (txt(s.gravacao1080p).includes("desliga a detecção")) {
+    confira.push(
+      r.prioridadeDvr === "resolucao"
+        ? "Você priorizou a imagem: ligue o modo Full HD no menu do gravador. Ele desliga a detecção de pessoas e as câmeras IP a mais — o alerta no celular passa a ser de qualquer movimento."
+        : "Você priorizou o alerta: deixe o modo Full HD desligado. A gravação fica em 1080p Lite (960 × 1080), metade da largura da câmera, e a detecção de pessoas funciona.",
+    );
+  }
+  if (!gravaCheio(p)) {
+    confira.push("Este gravador não grava 1920 × 1080: a câmera Full HD fica em 1080p Lite (960 × 1080).");
+  }
+  let motivoAlt = "";
+  if (alt) {
+    const a = alt.specs;
+    const pontos: string[] = [];
+    if ((num(a.garantiaMeses) ?? 0) > (num(s.garantiaMeses) ?? 0))
+      pontos.push(`${n(num(a.garantiaMeses)!)} meses de garantia, contra ${n(num(s.garantiaMeses)!)}`);
+    if (!gravaCheio(alt) && gravaCheio(p)) pontos.push("mas só grava 1080p Lite");
+    motivoAlt = pontos.join(", ") || "mesmo número de canais, ficha diferente";
+  }
+  const grav = txt(s.gravacao1080p);
+  return {
+    p,
+    porque: `${n(menor)} canais, o menor tamanho da base que cabe o projeto. Em 1920 × 1080: ${grav.charAt(0).toLowerCase()}${grav.slice(1)}. Declara ${n(num(s.bitrateMbps)!)} Mb/s por canal e HD de até ${n(num(s.hdMaxTb)!)} TB.`,
+    confira,
+    alternativa: alt ? { produto: alt.slug, motivo: motivoAlt } : undefined,
+  };
+}
+
+export function itemHd(
+  r: Respostas,
+  total: number,
+  dvr: Produto | undefined,
+  res: string,
+  avisos: string[],
+): Item {
+  const bitrate = dvr ? num(dvr.specs.bitrateMbps) : null;
+  const movimento =
+    r.modo === "movimento"
+      ? ["Gravando só com movimento cabe mais; a conta usa gravação contínua, o pior caso."]
+      : [];
+  if (!dvr || bitrate == null) {
+    return {
+      id: "hd",
+      grupo: "gravacao",
+      papel: "HD de vigilância",
+      qtd: 1,
+      especificacao: `HD próprio para gravação contínua (linha de vigilância), com capacidade para ${n(total)} câmeras × 24 h × ${n(r.dias)} dias.`,
+      porque:
+        "O tamanho do HD é a taxa de gravação do gravador vezes as horas. Sem gravador com ficha no site, não há taxa declarada para fazer a conta.",
+      confira: [`Na ficha do gravador escolhido: a taxa de gravação em ${res} e o maior HD que ele aceita.`, ...movimento],
+    };
+  }
+  const canal1 = BITRATE_CANAL_1[dvr.slug];
+  const mbps = bitrate * total + (canal1 && total > 0 ? canal1 - bitrate : 0);
+  // 1 Mb/s o dia inteiro = 86.400 s × 1 Mb ÷ 8 = 10,8 GB.
+  const tb = (mbps * 10.8 * r.dias) / 1000;
+  const maximo = num(dvr.specs.hdMaxTb) ?? HDS_TB.at(-1)!;
+  const tamanho = Math.min(menorQueCabe(HDS_TB, tb), maximo);
+  if (tb > maximo) {
+    avisos.push(
+      `A conta dá ${decimal(tb)} TB, mais que os ${n(maximo)} TB que o ${dvr.modelo} declara aceitar. Diminua os dias guardados ou grave só com movimento.`,
+    );
+  }
+  return {
+    id: "hd",
+    grupo: "gravacao",
+    papel: "HD de vigilância",
+    qtd: 1,
+    especificacao: `HD de vigilância de ${n(tamanho)} TB.`,
+    porque: `O ${dvr.modelo} declara ${n(bitrate)} Mb/s por canal${canal1 ? ` (${n(canal1)} no canal 1)` : ""}. ${n(total)} ${total === 1 ? "câmera" : "câmeras"} gravando 24 h por ${n(r.dias)} dias dão cerca de ${decimal(tb)} TB.`,
+    regra:
+      "Arredondado para o tamanho de HD de mercado logo acima, sem passar do máximo que o gravador aceita. A taxa declarada é a máxima; na prática o HD dura igual ou mais.",
+    confira: movimento,
+  };
+}
+
+export function itemFonte(
+  r: Respostas,
+  total: number,
+  escolhidas: { p: Produto; qtd: number }[],
+): Item {
+  const cobertas = escolhidas.reduce((s, e) => s + e.qtd, 0) === total;
+  const consumos = escolhidas.map((e) => num(e.p.specs.consumoW));
+  if (!cobertas || consumos.some((c) => c == null)) {
+    return r.tomadaPerto
+      ? {
+          id: "fonte",
+          grupo: "energia",
+          papel: "Fonte 12 V individual",
+          qtd: total,
+          especificacao: "Fonte 12 V com corrente acima do consumo declarado da câmera.",
+          porque: "Há tomada perto das câmeras, então cada uma tem a própria fonte.",
+          confira: ["O consumo declarado da câmera escolhida, em ampères ou watts."],
+        }
+      : {
+          id: "fonte",
+          grupo: "energia",
+          papel: "Fonte 12 V centralizada",
+          qtd: 1,
+          especificacao: `Fonte 12 V centralizada, com corrente acima da soma do consumo das ${n(total)} câmeras.`,
+          porque:
+            "Sem tomada perto das câmeras, uma fonte só, junto do gravador, alimenta todas pelo mesmo cabo.",
+          confira: ["O consumo declarado de cada câmera: sem ele não dá para dizer a amperagem."],
+        };
+  }
+  const regra = `Folga de ${n(FOLGA_FONTE * 100)}% sobre o consumo declarado, arredondada para a fonte de mercado logo acima.`;
+  const fmt = (v: number) => v.toLocaleString("pt-BR", { maximumFractionDigits: 2 });
+  if (r.tomadaPerto) {
+    const maior = Math.max(...(consumos as number[]));
+    const a = maior / 12;
+    return {
+      id: "fonte",
+      grupo: "energia",
+      papel: "Fonte 12 V individual",
+      qtd: total,
+      especificacao: `Fonte 12 V de ${n(menorQueCabe(FONTES_A, a * (1 + FOLGA_FONTE)))} A, uma por câmera.`,
+      porque: `A câmera que mais consome no projeto declara ${fmt(maior)} W — ${fmt(a)} A a 12 V.`,
+      regra,
+    };
+  }
+  const watts = escolhidas.reduce((s, e) => s + num(e.p.specs.consumoW)! * e.qtd, 0);
+  const a = watts / 12;
+  return {
+    id: "fonte",
+    grupo: "energia",
+    papel: "Fonte 12 V centralizada",
+    qtd: 1,
+    especificacao: `Fonte 12 V de ${n(menorQueCabe(FONTES_A, a * (1 + FOLGA_FONTE)))} A.`,
+    porque: `As ${n(total)} câmeras escolhidas declaram ${fmt(watts)} W somados — ${fmt(a)} A a 12 V, alimentadas pelo mesmo cabo a partir do gravador.`,
+    regra,
+  };
 }

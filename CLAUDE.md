@@ -397,8 +397,9 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 26/09/2026: 614 produtos em 34 categorias, 34 guias,
-  54 comparativos e 42 análises.**
+- **Inventário em 29/09/2026: 635 produtos em 35 categorias, 34 guias,
+  54 comparativos e 42 análises.** A 35ª é CFTV, aberta com as fichas e
+  ainda sem as três peças editoriais — ver o item dela abaixo.
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -762,6 +763,48 @@ confunde com documento sem folha de estilo.
   está desenhado na cabeça do problema: CADR, área em m², ruído, classe do
   filtro (H11/H13), vida útil do refil e consumo.
 
+- **CFTV (câmeras e gravadores) entrou em 29/09/2026 com 21 fichas, e ainda
+  NÃO tem as três peças editoriais** que a regra exige para abrir categoria.
+  Foi apurada para o /simulador montar o projeto de câmeras com produto de
+  verdade (DVR, câmera, HD em TB, fonte em A). **Antes de promover a
+  categoria, escrever guia, comparativo e análise.** 10 DVRs (7 Intelbras,
+  3 Hikvision) e 11 câmeras cabeadas Intelbras.
+
+  **O eixo é o "1080p" que o DVR grava.** A Intelbras define no rodapé do
+  datasheet: 1080p Lite é **960 × 1080**, metade da largura da câmera Full HD.
+  A série 1000-C e os três Hikvision K1 não gravam 1920 × 1080 em canal
+  nenhum. A linha MHDX 13xx grava — no "modo Full HD", que **desliga a
+  detecção de pessoas e as câmeras IP a mais** (escrito no datasheet). O MHDX
+  1316 grava 1080p cheio em só 8 dos 16 canais, a 10 qps. O campo
+  `gravacao1080p` guarda isso por extenso, e o simulador pergunta ao leitor o
+  que ele prioriza e diz como configurar.
+
+  **Os dois DVRs Intelbras mais bem ranqueados na Amazon estão
+  descontinuados** pela tabela comparativa da própria Intelbras (MHDX 1004-C
+  e 1016-C), e a página de produto deles redireciona para Ajuda e Downloads.
+
+  **A Amazon não tem nó de DVR.** O MHDX 1008-C ranqueia em Interfones
+  Residenciais, o 1308 em DVD Players e Gravadores. Posição em nós diferentes
+  não se compara; a seleção seguiu séries completas de 4/8/16 canais. Nas
+  câmeras cabeadas, as 20 mais bem colocadas que apareceram nas buscas são
+  todas Intelbras.
+
+  **Onde mora cada dado Intelbras:** datasheet em PDF (`backend.intelbras.com`,
+  baixa por curl; o `www` devolve 403 fora do navegador e os links de PDF só
+  aparecem depois de a página renderizar), garantia no manual (1 ano = 90 dias
+  legais + 9 contratuais), **HD máximo na "Tabela comparativa de gravadores
+  2025"** (o datasheet remete a outro documento) e **distância máxima de cabo
+  coaxial no manual da câmera**, não no datasheet. Hikvision: página
+  `hikvision.com/pt-br` em HTML estático (curl funciona), duas das três em
+  inglês; garantia na tabela de Troca Expressa — **24 meses para DVR série 72,
+  o dobro da Intelbras**. Leia tabela de datasheet pelo PDF renderizado quando
+  o layout em colunas embaralhar: aconteceu com três câmeras e com o iMHDX 3108.
+
+  Datasheets que se contradizem, registrados em `divergencias`: VHD 3220 D é
+  "câmera bullet analógica" no título e dome na tabela; as Full Color+ se
+  chamam "analógica" no título e declaram HDCVI/AHD/HDTVI; as 3220 Full Color+
+  têm "Full Color" no nome e "Função Luz Branca: –" na tabela (campo vazio).
+
 - **Cooktops de indução abriu em 26/09/2026, com dezesseis de seis marcas** —
   Electrolux 4, Midea 3, Dako 3, Oster 3, Philco 2, Britânia 1. Dako é marca
   nova na base. Todas as fichas vieram de catálogo VTEX
@@ -1059,6 +1102,12 @@ confunde com documento sem folha de estilo.
     da base declarar a taxa de gravação.
   - Wi-Fi e automação continuam na matriz simples de `lib/simulador.ts` até
     ganharem o questionário deles.
+  - **Desde 29/09 o sistema com DVR escolhe peças da categoria CFTV**: DVR pelo
+    menor tamanho que cabe e que grava 1920 × 1080, câmera pela de menor
+    consumo que atende alcance e cor, HD pelo bit rate declarado do DVR
+    (1 Mb/s o dia inteiro = 10,8 GB), fonte pela soma do consumo declarado
+    (+20%, regra rotulada), e a distância informada contra o limite de cabo
+    coaxial do manual. HD, fonte, cabo e conectores seguem sem ficha.
 - **Lançamentos na home** vêm de `lib/lancamentos.ts`: produto da base em
   pré-venda, com datas declaradas pelo fabricante e a fonte escrita. Sem
   contagem regressiva. Quando a data de loja passar, tirar da lista — o

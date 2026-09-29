@@ -1,0 +1,1702 @@
+[
+ {
+  "slug": "intelbras-mhdx-1004-c",
+  "nome": "Intelbras MHDX 1004-C",
+  "marca": "Intelbras",
+  "modelo": "MHDX 1004-C",
+  "categoria": "cftv",
+  "resumo": "Quatro canais, detecção de pessoas nos quatro e bit rate de 4 Mb/s por canal. O limite está na coluna de 2 MP: vazia. Câmera Full HD ligada nele grava em 1080p Lite, 960 × 1080. A própria Intelbras o lista como descontinuado.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDCVI, AHD, HDTVI e IP",
+   "canais": 4,
+   "canaisIpExtras": 1,
+   "gravacao1080p": "Não grava. Em câmera HDCVI, AHD ou HDTVI o máximo é 1080p Lite (960 × 1080), nos 4 canais a 30 qps",
+   "bitrateMbps": 4,
+   "hdMaxTb": 14,
+   "saidasVideo": "HDMI e VGA",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 1,5 A (fonte externa)",
+   "consumoW": 7,
+   "garantiaMeses": 12,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0BX783DK8"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-mhdx-1004-c-datasheet",
+    "titulo": "Ficha técnica (datasheet) do MHDX 1004-C — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-05/Datasheet%20MHDX%201004-C.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "4 canais BNC mais 1 IP, ou 5 IP no modo NVR; HDCVI, AHD, HDTVI e IP, sem analógica. Bit rate de 4 Mbps por canal. Tabela de gravação: coluna 2 MP (1080p) vazia para HDCVI, HDTVI e AHD; 1080p Lite em 4 canais a 30 qps. Detecção inteligente de pessoas e veículos em 4 canais. Saídas HDMI e VGA, 1 porta SATA — o datasheet remete a capacidade do HD a outro documento. Fonte externa de 12 VDC, 1,5 A, e 7 W sem HD. A página de produto do endereço oficial redireciona para Ajuda e Downloads, onde ficam este datasheet e o manual.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-mhdx-1004-c-manual",
+    "titulo": "Manual do usuário do MHDX 1004-C — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-06/Manual_MHDX_1004_1008_1016C_02-26_site_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da entrega ao consumidor. Quando o gravador é vendido com HD, o manual dá 3 anos ao HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-tabela-gravadores-2025",
+    "titulo": "Tabela comparativa de gravadores 2025 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-06/Tabela_comparativa_gravadores_2025.pdf",
+    "tipo": "fabricante",
+    "consultadaEm": "2026-09-29",
+    "oQueSaiuDaqui": "Status do MHDX 1004-C: Descontinuado com substituto. Capacidade máxima por HD: 14 TB, 1 HD."
+   },
+   {
+    "id": "amazon-b0bx783dk8",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0BX783DK8",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo MHDX 1004-C, 4 canais, sem HD. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-mhdx-1004-c.webp",
+   "alt": "Gravador DVR Intelbras MHDX 1004-C, gabinete preto de mesa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/ajuda-download/download/gravador-de-video-da-serie-1000-com-4-canais-mhdx-1004-c"
+  }
+ },
+ {
+  "slug": "intelbras-mhdx-1008-c",
+  "nome": "Intelbras MHDX 1008-C",
+  "marca": "Intelbras",
+  "modelo": "MHDX 1008-C",
+  "categoria": "cftv",
+  "resumo": "Oito canais e detecção de pessoas em só quatro deles. Grava câmera Full HD em 1080p Lite, 960 × 1080, e só um canal passa de 15 quadros por segundo.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDCVI, AHD, HDTVI e IP",
+   "canais": 8,
+   "canaisIpExtras": 2,
+   "gravacao1080p": "Não grava. Em câmera HDCVI, AHD ou HDTVI o máximo é 1080p Lite (960 × 1080): 1 canal a 25 qps e os outros 7 a 15 qps",
+   "bitrateMbps": 4,
+   "hdMaxTb": 14,
+   "saidasVideo": "HDMI e VGA",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 1,5 A (fonte externa)",
+   "consumoW": 7,
+   "garantiaMeses": 12,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0BX78JJYC"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-mhdx-1008-c-datasheet",
+    "titulo": "Ficha técnica (datasheet) do MHDX 1008-C — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-05/Datasheet%20MHDX%201008-C.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "8 canais BNC mais 2 IP, ou 10 IP no modo NVR; HDCVI, AHD, HDTVI e IP. Bit rate de 4 Mbps por canal. Tabela de gravação: coluna 2 MP vazia; 1080p Lite com 1 canal a 25 qps e 7 canais a 15 qps. Detecção inteligente de pessoas e veículos realizada pelo gravador em 4 canais. Saídas HDMI e VGA, 1 porta SATA. Fonte de 12 VDC, 1,5 A, e 7 W sem HD. A página de produto redireciona para Ajuda e Downloads.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-mhdx-1008-c-manual",
+    "titulo": "Manual do usuário do MHDX 1008-C — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-06/Manual_MHDX_1004_1008_1016C_02-26_site_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da entrega ao consumidor. Quando o gravador é vendido com HD, o manual dá 3 anos ao HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-tabela-gravadores-2025",
+    "titulo": "Tabela comparativa de gravadores 2025 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-06/Tabela_comparativa_gravadores_2025.pdf",
+    "tipo": "fabricante",
+    "consultadaEm": "2026-09-29",
+    "oQueSaiuDaqui": "Capacidade máxima por HD do MHDX 1008-C: 14 TB, 1 HD. Na linha de 8 canais o layout da tabela não permite ler com segurança o status de cada modelo, e por isso ele não é afirmado aqui."
+   },
+   {
+    "id": "amazon-b0bx78jjyc",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0BX78JJYC",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo MHDX 1008-C, 8 canais. Na Amazon ele está classificado em Interfones Residenciais. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-mhdx-1008-c.webp",
+   "alt": "Gravador DVR Intelbras MHDX 1008-C, gabinete preto de mesa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/ajuda-download/download/gravador-de-video-da-serie-1000-com-8-canais-mhdx-1008-c"
+  }
+ },
+ {
+  "slug": "intelbras-mhdx-1016-c",
+  "nome": "Intelbras MHDX 1016-C",
+  "marca": "Intelbras",
+  "modelo": "MHDX 1016-C",
+  "categoria": "cftv",
+  "resumo": "Dezesseis canais a 15 quadros por segundo, em 1080p Lite, e detecção de pessoas em metade deles. Aceita câmera analógica, que o irmão de 4 canais não aceita. A Intelbras o lista como descontinuado.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDCVI, AHD, HDTVI, analógica e IP",
+   "canais": 16,
+   "canaisIpExtras": 2,
+   "gravacao1080p": "Não grava. Em câmera HDCVI, AHD ou HDTVI o máximo é 1080p Lite (960 × 1080), nos 16 canais a 15 qps",
+   "bitrateMbps": 4,
+   "hdMaxTb": 14,
+   "saidasVideo": "HDMI e VGA",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 2 A (fonte externa)",
+   "consumoW": 10,
+   "garantiaMeses": 12,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0BX76YB5F"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-mhdx-1016-c-datasheet",
+    "titulo": "Ficha técnica (datasheet) do MHDX 1016-C — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-09/Datasheet%20MHDX%201016-C.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "16 canais BNC mais 2 IP, ou 18 IP no modo NVR; HDCVI, AHD, HDTVI, analógica e IP. Bit rate de 4 Mbps por canal HD e 3 Mbps por canal analógico. Tabela de gravação: coluna 2 MP vazia para HDCVI; 1080p Lite nos 16 canais a 15 qps. Detecção inteligente em até 8 canais. Saídas HDMI e VGA, 1 porta SATA. Fonte de 12 VDC, 2 A, e menos de 10 W sem HD. A página de produto redireciona para Ajuda e Downloads.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-mhdx-1016-c-manual",
+    "titulo": "Manual do usuário do MHDX 1016-C — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-06/Manual_MHDX_1004_1008_1016C_02-26_site_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da entrega ao consumidor. Quando o gravador é vendido com HD, o manual dá 3 anos ao HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-tabela-gravadores-2025",
+    "titulo": "Tabela comparativa de gravadores 2025 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-06/Tabela_comparativa_gravadores_2025.pdf",
+    "tipo": "fabricante",
+    "consultadaEm": "2026-09-29",
+    "oQueSaiuDaqui": "Status do MHDX 1016-C: Descontinuado. Capacidade máxima por HD: 14 TB, 1 HD."
+   },
+   {
+    "id": "amazon-b0bx76yb5f",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0BX76YB5F",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo MHDX 1016-C, 16 canais. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-mhdx-1016-c.webp",
+   "alt": "Gravador DVR Intelbras MHDX 1016-C, gabinete preto de mesa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/ajuda-download/download/gravador-de-video-da-serie-1000-com-16-canais-mhdx-1016-c"
+  }
+ },
+ {
+  "slug": "intelbras-mhdx-1304",
+  "nome": "Intelbras MHDX 1304",
+  "marca": "Intelbras",
+  "modelo": "MHDX 1304",
+  "categoria": "cftv",
+  "resumo": "Grava 1920 × 1080 nos quatro canais a 30 quadros por segundo — mas só no modo Full HD, que desliga a detecção de pessoas. O gravador escolhe: imagem cheia ou alerta inteligente. Nunca os dois.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDCVI, AHD, HDTVI, analógica e IP",
+   "canais": 4,
+   "canaisIpExtras": 1,
+   "gravacao1080p": "Nos 4 canais a 30 qps, no modo Full HD — que desliga a detecção de pessoas e as câmeras IP a mais",
+   "bitrateMbps": 4,
+   "hdMaxTb": 14,
+   "saidasVideo": "HDMI, VGA e BNC",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 1,5 A (fonte externa)",
+   "consumoW": 10,
+   "garantiaMeses": 12,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0DSQP5BQW"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-mhdx-1304-datasheet",
+    "titulo": "Ficha técnica (datasheet) do MHDX 1304 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-07/Datasheet%20-%20MHDX%201304%20_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "4 canais BNC mais 1 IP, ou 5 IP no modo NVR; HDCVI, AHD, HDTVI, analógica e IP. Bit rate de 4 Mbps por canal HD e 3 Mbps por canal analógico. Tabela de gravação: 2 MP (1080p) em 4 canais a 30 qps e 1080p Lite em 4 canais a 30 qps. Rodapé: ao ativar o modo Full HD, a gravação passa de 1080p Lite (960×1080) para 1080p (1920×1080), e ficam desabilitados a detecção inteligente e os canais IP adicionais. Detecção inteligente em 4 canais. Saídas HDMI, VGA e BNC. Disponível em versões com HD e com SSD Intelbras de 512 GB. Fonte de 12 VDC, 1,5 A, e 10 W sem HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-mhdx-1304-manual",
+    "titulo": "Manual do usuário do MHDX 1304 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-07/Manual_MHDX_1304_1308_1316_1332_01-26_site_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da entrega ao consumidor. Quando o gravador é vendido com HD, o manual dá 3 anos ao HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-tabela-gravadores-2025",
+    "titulo": "Tabela comparativa de gravadores 2025 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-06/Tabela_comparativa_gravadores_2025.pdf",
+    "tipo": "fabricante",
+    "consultadaEm": "2026-09-29",
+    "oQueSaiuDaqui": "Status do MHDX 1304: Em linha. Capacidade máxima por HD: 14 TB, 1 HD ou 1 SSD."
+   },
+   {
+    "id": "amazon-b0dsqp5bqw",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0DSQP5BQW",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo MHDX 1304, 4 canais. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-mhdx-1304.webp",
+   "alt": "Gravador DVR Intelbras MHDX 1304, gabinete preto de mesa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/gravador-de-video-multi-hd-com-4-canais-mhdx-1304"
+  }
+ },
+ {
+  "slug": "intelbras-mhdx-1308",
+  "nome": "Intelbras MHDX 1308",
+  "marca": "Intelbras",
+  "modelo": "MHDX 1308",
+  "categoria": "cftv",
+  "resumo": "Oito canais em 1080p cheio a 15 quadros por segundo no modo Full HD, que desliga a detecção de pessoas. O bit rate cai para 2 Mb/s a partir do segundo canal, metade do irmão de 4 canais.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDCVI, AHD, HDTVI, analógica e IP",
+   "canais": 8,
+   "canaisIpExtras": 2,
+   "gravacao1080p": "Nos 8 canais a 15 qps, no modo Full HD — que desliga a detecção de pessoas e as câmeras IP a mais",
+   "bitrateMbps": 2,
+   "hdMaxTb": 14,
+   "saidasVideo": "HDMI, VGA e BNC",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 1,5 A (fonte externa)",
+   "consumoW": 10,
+   "garantiaMeses": 12,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0DSM6JWCM"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-mhdx-1308-datasheet",
+    "titulo": "Ficha técnica (datasheet) do MHDX 1308 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-07/Datasheet%20-%20MHDX%201308%20.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "8 canais BNC mais 2 IP, ou 10 IP no modo NVR; HDCVI, AHD, HDTVI, analógica e IP. Bit rate de 4 Mbps no canal 1 e 2 Mbps nos demais canais HD; 3 Mbps por canal analógico — a ficha registra os 2 Mbps dos sete canais restantes. Tabela de gravação: 2 MP (1080p) em 8 canais a 15 qps; 1080p Lite com 1 canal a 30 qps e 7 a 15 qps. Mesmo rodapé do modo Full HD: desabilita detecção inteligente e canais IP adicionais. Detecção inteligente em 8 canais. Saídas HDMI, VGA e BNC. Fonte de 12 VDC, 1,5 A, e 10 W sem HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-mhdx-1308-manual",
+    "titulo": "Manual do usuário do MHDX 1308 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-07/Manual_MHDX_1304_1308_1316_1332_01-26_site_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da entrega ao consumidor. Quando o gravador é vendido com HD, o manual dá 3 anos ao HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-tabela-gravadores-2025",
+    "titulo": "Tabela comparativa de gravadores 2025 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-06/Tabela_comparativa_gravadores_2025.pdf",
+    "tipo": "fabricante",
+    "consultadaEm": "2026-09-29",
+    "oQueSaiuDaqui": "Capacidade máxima por HD do MHDX 1308: 14 TB, 1 HD."
+   },
+   {
+    "id": "amazon-b0dsm6jwcm",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0DSM6JWCM",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo MHDX 1308, 8 canais. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-mhdx-1308.webp",
+   "alt": "Gravador DVR Intelbras MHDX 1308, gabinete preto de mesa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/gravador-de-video-multi-hd-com-8-canais-mhdx-1308"
+  }
+ },
+ {
+  "slug": "intelbras-mhdx-1316",
+  "nome": "Intelbras MHDX 1316",
+  "marca": "Intelbras",
+  "modelo": "MHDX 1316",
+  "categoria": "cftv",
+  "resumo": "Dezesseis canais, mas o 1080p cheio vale para oito, a 10 quadros por segundo. Nos outros oito, e em qualquer canal com detecção de pessoas ligada, a gravação é 1080p Lite: 960 × 1080.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDCVI, AHD, HDTVI, analógica e IP",
+   "canais": 16,
+   "canaisIpExtras": 2,
+   "gravacao1080p": "Em só 8 dos 16 canais, a 10 qps, no modo Full HD — que desliga a detecção de pessoas e as câmeras IP a mais",
+   "bitrateMbps": 2,
+   "hdMaxTb": 14,
+   "saidasVideo": "HDMI, VGA e BNC",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 2 A (fonte externa)",
+   "consumoW": 10,
+   "garantiaMeses": 12,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0DT1KYTJF"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-mhdx-1316-datasheet",
+    "titulo": "Ficha técnica (datasheet) do MHDX 1316 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-07/Datasheet%20-%20MHDX%201316%20.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "16 canais BNC mais 2 IP, ou 18 IP no modo NVR; HDCVI, AHD, HDTVI, analógica e IP. Bit rate de 2 Mbps por canal HD e 3 Mbps por canal analógico. Tabela de gravação: 2 MP (1080p) em 8 canais a 10 qps; 1080p Lite em 16 canais a 15 qps. Mesmo rodapé do modo Full HD. Detecção inteligente em 16 canais. Saídas HDMI, VGA e BNC. Fonte de 12 VDC, 2 A, e 10 W sem HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-mhdx-1316-manual",
+    "titulo": "Manual do usuário do MHDX 1316 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-07/Manual_MHDX_1304_1308_1316_1332_01-26_site_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da entrega ao consumidor. Quando o gravador é vendido com HD, o manual dá 3 anos ao HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-tabela-gravadores-2025",
+    "titulo": "Tabela comparativa de gravadores 2025 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-06/Tabela_comparativa_gravadores_2025.pdf",
+    "tipo": "fabricante",
+    "consultadaEm": "2026-09-29",
+    "oQueSaiuDaqui": "Capacidade máxima por HD do MHDX 1316: 14 TB, 1 HD."
+   },
+   {
+    "id": "amazon-b0dt1kytjf",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0DT1KYTJF",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo MHDX 1316, 16 canais. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-mhdx-1316.webp",
+   "alt": "Gravador DVR Intelbras MHDX 1316, gabinete preto de mesa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/gravador-de-video-multi-hd-com-16-canais-mhdx-1316"
+  }
+ },
+ {
+  "slug": "intelbras-imhdx-3108",
+  "nome": "Intelbras iMHDX 3108",
+  "marca": "Intelbras",
+  "modelo": "iMHDX 3108",
+  "categoria": "cftv",
+  "resumo": "O único desta leva com reconhecimento facial e cerca virtual, e o que mais aceita câmera IP além dos canais de cabo: quatro. O 1080p cheio a 25 quadros vale para dois canais; os outros seis caem para 7.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDCVI, AHD, HDTVI, analógica e IP",
+   "canais": 8,
+   "canaisIpExtras": 4,
+   "gravacao1080p": "Nos canais 1 e 5 a 25 qps; nos outros 6, a 7 qps",
+   "bitrateMbps": 4,
+   "hdMaxTb": 14,
+   "saidasVideo": "HDMI, VGA e BNC",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 2 A (fonte externa)",
+   "consumoW": 7,
+   "garantiaMeses": 12,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0FYSYTQ2Y"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-imhdx-3108-datasheet",
+    "titulo": "Ficha técnica (datasheet) do iMHDX 3108 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-09/Datasheet%20iMHDX%203108%20rev1.0_2.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "8 canais BNC mais 4 IP, ou 12 IP no modo NVR; HDCVI, AHD, HDTVI, analógica e IP, até 5 MP em HDCVI. Bit rate de 4 Mbps por canal HD e 2 Mbps por canal analógico. Tabela de gravação: 2 MP (1080p) nos canais 1 e 5 a 25 qps e demais a 7 qps; 1080p Lite nos 8 canais a 25 qps. Detecção inteligente de pessoas e veículos em até 8 canais; reconhecimento facial e detecção de face em 2 canais; linha e cerca virtual. Rodapé: com detecção inteligente em 8 canais, a reprodução simultânea cai para 4. Saídas HDMI, VGA e BNC, 1 porta SATA. Fonte de 12 VDC, 2 A, menos de 7 W sem HD, ventilação ativa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-imhdx-3108-manual",
+    "titulo": "Manual do usuário do iMHDX 3108 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-07/Manual_iMHDX_3108_02-26_site.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da entrega ao consumidor. Quando o gravador é vendido com HD, o manual dá 3 anos ao HD.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-tabela-gravadores-2025",
+    "titulo": "Tabela comparativa de gravadores 2025 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-06/Tabela_comparativa_gravadores_2025.pdf",
+    "tipo": "fabricante",
+    "consultadaEm": "2026-09-29",
+    "oQueSaiuDaqui": "Status do iMHDX 3108: Em linha. Capacidade máxima por HD: 14 TB, 1 HD."
+   },
+   {
+    "id": "amazon-b0fysytq2y",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0FYSYTQ2Y",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo iMHDX 3108, 8 canais, sem HD. O anúncio mais bem classificado deste modelo tem a marca registrada como \"Genérico\"; foi usado o anúncio com a marca Intelbras. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-imhdx-3108.webp",
+   "alt": "Gravador DVR Intelbras iMHDX 3108, gabinete preto de mesa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/gravador-de-video-com-inteligencia-artificial-imhdx-3108"
+  }
+ },
+ {
+  "slug": "hikvision-ds-7204hghi-k1",
+  "nome": "Hikvision DS-7204HGHI-K1",
+  "marca": "Hikvision",
+  "modelo": "DS-7204HGHI-K1",
+  "categoria": "cftv",
+  "resumo": "Garantia de 24 meses, o dobro da Intelbras, e o HD máximo escrito na própria página: 4 TB. Grava em 1080p Lite. Declara consumir até 16 W, mais que o irmão de 16 canais.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDTVI, AHD, HDCVI, analógica e IP",
+   "canais": 4,
+   "canaisIpExtras": 1,
+   "gravacao1080p": "Não grava. Para câmera de 1080p o máximo é 1080p Lite, a 30 qps",
+   "bitrateMbps": 4,
+   "hdMaxTb": 4,
+   "saidasVideo": "HDMI e VGA",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 1,5 A",
+   "consumoW": 16,
+   "garantiaMeses": 24,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B09KZ3RHJW"
+  },
+  "fontes": [
+   {
+    "id": "hikvision-ds-7204hghi-k1-oficial",
+    "titulo": "DS-7204HGHI-K1 — página oficial da Hikvision Brasil",
+    "url": "https://www.hikvision.com/pt-br/products/Turbo-HD-Products/DVR/Value-Series/ds-7204hghi-k1/",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Entrada HDTVI, AHD, CVI, CVBS e IP; 4 canais analógicos mais 1 IP (até 5). Resolução de codificação para câmera de 1080p: 1080p Lite, 720p Lite e menores, a 30 qps em NTSC. Taxa de bits de 32 Kbps a 4 Mbps. Detecção de movimento 2.0 com análise humana e veicular. Saídas HDMI e VGA. 1 porta SATA, até 4 TB por disco. Fonte de 12 VDC, 1,5 A; consumo de até 16 W sem HD. A página não define em pixels o que chama de 1080p Lite. Boa parte da tabela desta página brasileira está em inglês.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "hikvision-troca-expressa",
+    "titulo": "Tabela de prazos da Troca Expressa — Hikvision Brasil",
+    "url": "https://www.hikvision.com/content/dam/hikvision/pt-br/rma/troca-expressa.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Gravador DVR série 71 e 72 (DS-71xx / DS-72xx): 24 meses, com Troca Expressa. A página de garantia da Hikvision diz que os prazos vão de 12 a 60 meses conforme o modelo; é esta tabela que diz qual vale para cada linha. HiLook, marca da mesma empresa, tem 12 meses.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b09kz3rhjw",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B09KZ3RHJW",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo DS-7204HGHI-K1, 4 canais. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/hikvision-ds-7204hghi-k1.webp",
+   "alt": "Gravador DVR Hikvision DS-7204HGHI-K1, gabinete preto de mesa com botões frontais",
+   "credito": "Imagem: Hikvision",
+   "origem": "https://www.hikvision.com/pt-br/products/Turbo-HD-Products/DVR/Value-Series/ds-7204hghi-k1/"
+  }
+ },
+ {
+  "slug": "hikvision-ds-7208hghi-k1",
+  "nome": "Hikvision DS-7208HGHI-K1",
+  "marca": "Hikvision",
+  "modelo": "DS-7208HGHI-K1",
+  "categoria": "cftv",
+  "resumo": "Oito canais em 1080p Lite a 15 quadros por segundo, HD de até 4 TB e 24 meses de garantia. A ficha brasileira está em português, ao contrário da dos irmãos de 4 e 16 canais.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDTVI, AHD, HDCVI, analógica e IP",
+   "canais": 8,
+   "canaisIpExtras": 2,
+   "gravacao1080p": "Não grava. Para câmera de 1080p o máximo é 1080p Lite, a 15 qps",
+   "bitrateMbps": 4,
+   "hdMaxTb": 4,
+   "saidasVideo": "HDMI e VGA",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 1,5 A",
+   "consumoW": 17,
+   "garantiaMeses": 24,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0C8ZPH7Z7"
+  },
+  "fontes": [
+   {
+    "id": "hikvision-ds-7208hghi-k1-oficial",
+    "titulo": "DS-7208HGHI-K1 — página oficial da Hikvision Brasil",
+    "url": "https://www.hikvision.com/pt-br/products/Turbo-HD-Products/DVR/Value-Series/ds-7208hghi-k1/",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Entrada HDTVI, AHD, CVI, CVBS e IP; 8 canais analógicos mais 2 IP (até 10). Capacidade de codificação de até 1080p Lite a 15 qps. Taxa de bits de 32 Kbps a 4 Mbps. Análise humano/veículo. Saídas HDMI e VGA. 1 porta SATA, até 4 TB por disco. Fonte de 12 VCC, 1,5 A; consumo de até 17 W sem HD. Esta é a única das três páginas K1 com a tabela em português.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "hikvision-troca-expressa",
+    "titulo": "Tabela de prazos da Troca Expressa — Hikvision Brasil",
+    "url": "https://www.hikvision.com/content/dam/hikvision/pt-br/rma/troca-expressa.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Gravador DVR série 71 e 72 (DS-71xx / DS-72xx): 24 meses, com Troca Expressa. A página de garantia da Hikvision diz que os prazos vão de 12 a 60 meses conforme o modelo; é esta tabela que diz qual vale para cada linha. HiLook, marca da mesma empresa, tem 12 meses.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0c8zph7z7",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0C8ZPH7Z7",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo DS-7208HGHI-K1, 8 canais, sem HD. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/hikvision-ds-7208hghi-k1.webp",
+   "alt": "Gravador DVR Hikvision DS-7208HGHI-K1, gabinete preto de mesa com botões frontais",
+   "credito": "Imagem: Hikvision",
+   "origem": "https://www.hikvision.com/pt-br/products/Turbo-HD-Products/DVR/Value-Series/ds-7208hghi-k1/"
+  }
+ },
+ {
+  "slug": "hikvision-ds-7216hghi-k1",
+  "nome": "Hikvision DS-7216HGHI-K1",
+  "marca": "Hikvision",
+  "modelo": "DS-7216HGHI-K1",
+  "categoria": "cftv",
+  "resumo": "Dezesseis canais em 1080p Lite a 15 quadros por segundo e HD de até 10 TB. A página oficial o marca como descontinuado, e declara um consumo menor que o do irmão de 4 canais.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Gravador DVR",
+   "tecnologias": "HDTVI, AHD, HDCVI, analógica e IP",
+   "canais": 16,
+   "canaisIpExtras": 2,
+   "gravacao1080p": "Não grava. Para câmera de 1080p o máximo é 1080p Lite, a 15 qps",
+   "bitrateMbps": 4,
+   "hdMaxTb": 10,
+   "saidasVideo": "HDMI e VGA",
+   "deteccaoPessoas": true,
+   "alimentacao": "12 VDC, 1,6 A",
+   "consumoW": 10,
+   "garantiaMeses": 24,
+   "resolucao": null,
+   "alcanceNoturnoM": null,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": null,
+   "instalacao": null,
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": null
+  },
+  "naoSeAplica": [
+   "resolucao",
+   "alcanceNoturnoM",
+   "noturnaColorida",
+   "anguloHorizontalGraus",
+   "instalacao",
+   "protecaoIp",
+   "microfone",
+   "alcanceCoaxialM"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0CQMFJC6K"
+  },
+  "fontes": [
+   {
+    "id": "hikvision-ds-7216hghi-k1-oficial",
+    "titulo": "DS-7216HGHI-K1 — página oficial da Hikvision Brasil",
+    "url": "https://www.hikvision.com/pt-br/products/Turbo-HD-Products/DVR/Value-Series/ds-7216hghi-k1/",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Entrada HDTVI, AHD, CVI, CVBS e IP; 16 canais analógicos mais 2 IP (até 18). Capacidade de codificação de até 1080p Lite a 15 qps. Taxa de bits de 32 Kbps a 4 Mbps. Análise humana/veicular. Saídas HDMI e VGA. 1 porta SATA, até 10 TB por disco. Fonte de 12 VDC, 1,6 A; consumo de até 10 W sem HD. A página traz a marcação \"Discontinued\". Boa parte da tabela desta página brasileira está em inglês.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "hikvision-troca-expressa",
+    "titulo": "Tabela de prazos da Troca Expressa — Hikvision Brasil",
+    "url": "https://www.hikvision.com/content/dam/hikvision/pt-br/rma/troca-expressa.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Gravador DVR série 71 e 72 (DS-71xx / DS-72xx): 24 meses, com Troca Expressa. A página de garantia da Hikvision diz que os prazos vão de 12 a 60 meses conforme o modelo; é esta tabela que diz qual vale para cada linha. HiLook, marca da mesma empresa, tem 12 meses.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0cqmfjc6k",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0CQMFJC6K",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo DS-7216HGHI-K1, 16 canais. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/hikvision-ds-7216hghi-k1.webp",
+   "alt": "Gravador DVR Hikvision DS-7216HGHI-K1, gabinete preto de mesa com botões frontais",
+   "credito": "Imagem: Hikvision",
+   "origem": "https://www.hikvision.com/pt-br/products/Turbo-HD-Products/DVR/Value-Series/ds-7216hghi-k1/"
+  }
+ },
+ {
+  "slug": "intelbras-vhl-1220-b-g8",
+  "nome": "Intelbras VHL 1220 B G8",
+  "marca": "Intelbras",
+  "modelo": "VHL 1220 B G8",
+  "categoria": "cftv",
+  "resumo": "Full HD que só fala HDCVI: não troca de protocolo como as Multi HD. Infravermelho de 20 metros, IP66 e o ângulo mais fechado desta leva, 99 graus. O datasheet lista os DVRs em que ela grava 1080p cheio e a quantos quadros.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera bullet",
+   "tecnologias": "HDCVI",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "1080p (2 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": false,
+   "anguloHorizontalGraus": 99,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP66",
+   "microfone": null,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 10,8 a 13,2 V)",
+   "consumoW": 2.2,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0FZLK9YC6"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhl-1220-b-g8-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHL 1220 B G8 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-05/Datasheet%20-%20VHL%201220%20B%20G8_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/2,7\" e 2 MP, resolução real 1080p, lente de 2,8 mm, ângulo de 99° na horizontal e 57° na vertical, infravermelho de 20 m a 850 nm. Protocolo de vídeo só HDCVI. Compatibilidade com o modo Full HD dos MHDX 1304 (gravação a 30 qps), 1308 (15 qps) e 1316 (gravação a 10 qps). Conector P4 fêmea, 12 Vdc com tolerância de 10% (10,8 a 13,2 V), 220 mA e 2,2 W no máximo. Proteção antissurto de 15 kV. Case bullet de plástico, IP66, instalação interna ou externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhl-1220-b-g8-manual",
+    "titulo": "Manual do usuário da VHL 1220 B G8 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_VHL_1220BD_G8_02-25_site.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: em HDCVI, câmera 1080p vai a 300 m em cabo coaxial e 200 m em UTP; câmera 720p, 500 e 350 m. A nota diz que são distâncias de laboratório, com cabo coaxial de 4 mm e 85% de malha de cobre.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0fzlk9yc6",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0FZLK9YC6",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHL 1220 B G8. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhl-1220-b-g8.webp",
+   "alt": "Câmera bullet Intelbras VHL 1220 B G8 branca, presa em parede externa",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-bullet-hdcvi-full-hd-vhl-1220-b-g8"
+  }
+ },
+ {
+  "slug": "intelbras-vhd-1130-b-g7",
+  "nome": "Intelbras VHD 1130 B G7",
+  "marca": "Intelbras",
+  "modelo": "VHD 1130 B G7",
+  "categoria": "cftv",
+  "resumo": "720p com infravermelho de 30 metros, IP67 e 2,3 W. Troca entre HDCVI, AHD, HDTVI e analógico pelo menu, e aceita de 8,4 a 15,6 volts na entrada.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera bullet",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "720p (1 MP)",
+   "alcanceNoturnoM": 30,
+   "noturnaColorida": false,
+   "anguloHorizontalGraus": 109,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP67",
+   "microfone": null,
+   "alcanceCoaxialM": 500,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 8,4 a 15,6 V)",
+   "consumoW": 2.3,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0BB164MBZ"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-1130-b-g7-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 1130 B G7 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-10/Novo%20Datasheet%20-%20VHD%201130%20B%20G7_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/2,8\" e 1 MP, resolução real 720p (600 TVL no analógico), lente de 2,8 mm, 109° na horizontal e 48° na vertical, infravermelho inteligente de 30 m com 2 LEDs a 850 nm. Protocolos HDCVI, AHD-M, HDTVI e analógico. Conector P4, 12 Vdc com tolerância de 30% (8,4 a 15,6 V), 190 mA e 2,3 W. Case bullet de plástico, IP67, instalação interna e externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-1130-b-g7-manual",
+    "titulo": "Manual do usuário da VHD 1130 B G7 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-02/Manual_VHD_VHL_1015BD_1130BD_3230DB_G7-01-25.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: em HDCVI, câmera 720p vai a 500 m em cabo coaxial, e 1080p a 300 m, medidas em laboratório com cabo coaxial de 4 mm e 85% de malha de cobre.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0bb164mbz",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0BB164MBZ",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 1130 B, 720p, 30 m e IP67. O título não traz a geração; a ficha adotada é a da G7, que é a que a Intelbras publica com esses números. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-1130-b-g7.webp",
+   "alt": "Câmera bullet Intelbras VHD 1130 B G7 branca em suporte de parede",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-infravermelho-multi-hd-vhd-1130-b-g7"
+  }
+ },
+ {
+  "slug": "intelbras-vhd-5830-b-4k",
+  "nome": "Intelbras VHD 5830 B 4K",
+  "marca": "Intelbras",
+  "modelo": "VHD 5830 B 4K",
+  "categoria": "cftv",
+  "resumo": "A única 4K desta leva, com 8 megapixels e corpo de metal e plástico. Só fala HDCVI, e nenhum dos DVRs desta categoria grava 8 MP: ela pede um gravador 4K.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera bullet",
+   "tecnologias": "HDCVI",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "2160p (8 MP)",
+   "alcanceNoturnoM": 30,
+   "noturnaColorida": false,
+   "anguloHorizontalGraus": 110,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP66",
+   "microfone": null,
+   "alcanceCoaxialM": 200,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 10,8 a 13,2 V)",
+   "consumoW": 3.6,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B098582YJK"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-5830-b-4k-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 5830 B 4K — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-01/VHD%205830%20B%204K%20DATASHEET_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/2,7\" e 8 MP, resolução real 8 MP (2160p), lente de 2,8 mm, 110° na horizontal e 60° na vertical, infravermelho inteligente de 30 m com 2 LEDs. Protocolo só HDCVI. Conector P4, 12 Vdc com tolerância de 10% (10,8 a 13,2 V), 300 mA e 3,6 W. Case bullet de metal e plástico, IP66, instalação interna ou externa; opera de -10 °C a 60 °C.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-5830-b-4k-manual",
+    "titulo": "Manual do usuário da VHD 5830 B 4K — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-03/Manual_VHD_5830B_5820D_4K_02-26_site_1.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima em HDCVI: 200 m em cabo coaxial e 120 m em UTP, medidas em laboratório com cabo coaxial de 4 mm e 85% de malha e cabo CAT5e.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b098582yjk",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B098582YJK",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 5830 B 4K. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-5830-b-4k.webp",
+   "alt": "Câmera bullet Intelbras VHD 5830 B 4K branca com para-sol, presa em parede",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-bullet-hdcvi-com-infravermelho-vhd-5830-b-4k"
+  }
+ },
+ {
+  "slug": "intelbras-vhd-1230-b-full-color-mic",
+  "nome": "Intelbras VHD 1230 B Full Color MIC",
+  "marca": "Intelbras",
+  "modelo": "VHD 1230 B Full Color MIC",
+  "categoria": "cftv",
+  "resumo": "Imagem colorida à noite até 30 metros e microfone que capta a 8 metros. É também a que mais consome desta leva: 5 W, mais que o dobro de uma câmera só com infravermelho.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera bullet",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "1080p (2 MP)",
+   "alcanceNoturnoM": 30,
+   "noturnaColorida": true,
+   "anguloHorizontalGraus": 107,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP67",
+   "microfone": true,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 8,4 a 15,6 V)",
+   "consumoW": 5,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0HJMPZ6S1"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-1230-b-full-color-mic-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 1230 B Full Color MIC — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-08/VHD%201230%20FULL%20COLOR%20MIC_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 2 MP (o datasheet não declara o tamanho), resolução real 1080p, lente de 2,8 mm, 107° na horizontal e 59° na vertical, alcance noturno e full color de 30 m com 2 LEDs. Microfone embutido com distância de 8 m. Protocolos HDCVI, AHD-H, HDTVI e analógico. Conector P4, 12 VDC ± 30% (8,4 a 15,6 V), 470 mA e 5 W. Case bullet de plástico, IP67, instalação interna e externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-1230-b-full-color-mic-manual",
+    "titulo": "Manual do usuário da VHD 1230 B Full Color MIC — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-04/Manual_VHD1230D_Full_Color_MIC_01-26_site.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima em HDCVI: 300 m em cabo coaxial e 200 m em UTP, medidas em laboratório.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0hjmpz6s1",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0HJMPZ6S1",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "O título não nomeia o modelo; o campo de número do modelo diz VHD 1230 B Full Color, e o título diz \"com microfone\". Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-1230-b-full-color-mic.webp",
+   "alt": "Câmera bullet Intelbras VHD 1230 B Full Color MIC preta, presa em parede",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-bullet-full-color-com-microfone-vhd-1230-b-full-color-mic"
+  }
+ },
+ {
+  "slug": "intelbras-vhd-1120-b-full-color",
+  "nome": "Intelbras VHD 1120 B Full Color",
+  "marca": "Intelbras",
+  "modelo": "VHD 1120 B Full Color",
+  "categoria": "cftv",
+  "resumo": "Colorida à noite com luz branca até 20 metros, mas em 720p, frente às Full Color de 1080p da mesma marca. Ângulo de 112 graus, o mais aberto desta leva, empatado com a dome da mesma linha e com as 3220 Full Color+.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera bullet",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "720p (1 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": true,
+   "anguloHorizontalGraus": 112,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP67",
+   "microfone": null,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 10,8 a 13,2 V)",
+   "consumoW": 3.3,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0D5RMBCCC"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-1120-b-full-color-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 1120 B Full Color — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-02/datasheet-vhd-1120-b-full-color-pt.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/3\" e 1 MP, resolução real 720p, lente de 2,8 mm, 112° na horizontal e 62° na vertical, alcance de LED de 20 m com 2 LEDs e função luz branca. Protocolos HDCVI, AHD-M, HDTVI e analógico. Conector P4, 12 Vdc com tolerância de 10% (10,8 a 13,2 V), 275 mA e 3,3 W. Case bullet de plástico, IP67, instalação interna e externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-1120-b-full-color-manual",
+    "titulo": "Manual do usuário da VHD 1120 B Full Color — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_VHD_1120BD_Full_Color_01-26_site.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: HDCVI a 300 m em cabo coaxial e 200 m em UTP; AHD e HDTVI a 250 m nos dois. Medidas em laboratório.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0d5rmbccc",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0D5RMBCCC",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 1120 B Full Color, 720p. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-1120-b-full-color.webp",
+   "alt": "Câmera bullet Intelbras VHD 1120 B Full Color branca e preta, presa no teto",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-full-color-hd-vhd-1120-b-full-color"
+  }
+ },
+ {
+  "slug": "intelbras-vhd-1120-d-full-color",
+  "nome": "Intelbras VHD 1120 D Full Color",
+  "marca": "Intelbras",
+  "modelo": "VHD 1120 D Full Color",
+  "categoria": "cftv",
+  "resumo": "A versão dome da 1120 Full Color: mesmos 720p, mesma luz branca de 20 metros, IP67 e liberada para área externa — ao contrário das domes VHD 1220 D G8 e 1220 D Full Color+, que são só internas.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera dome",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "720p (1 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": true,
+   "anguloHorizontalGraus": 112,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP67",
+   "microfone": null,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 10,8 a 13,2 V)",
+   "consumoW": 3.3,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0D5RN48MX"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-1120-d-full-color-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 1120 D Full Color — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-03/Novo%20Datasheet%20-%20VHD%201120%20D%20FULL%20COLOR%20%20-%20CKD.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/3\" e 1 MP, resolução real 720p, lente de 2,8 mm, 112° na horizontal, alcance de LED de 20 m e função luz branca. O datasheet escreve AHD-H no destaque e AHD-M na tabela de protocolos. Conector P4, 12 Vdc com tolerância de 10% (10,8 a 13,2 V), 275 mA e 3,3 W. Case dome de plástico, IP67, instalação interna e externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-1120-d-full-color-manual",
+    "titulo": "Manual do usuário da VHD 1120 D Full Color — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_VHD_1120BD_Full_Color_01-26_site.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: HDCVI a 300 m em cabo coaxial e 200 m em UTP; AHD e HDTVI a 250 m nos dois. Medidas em laboratório.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0d5rn48mx",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0D5RN48MX",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 1120 D Full Color, 720p. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-1120-d-full-color.webp",
+   "alt": "Câmera dome Intelbras VHD 1120 D Full Color branca, presa no teto",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-full-color-hd-vhd-1120-d-full-color"
+  }
+ },
+ {
+  "slug": "intelbras-vhd-1220-d-g8",
+  "nome": "Intelbras VHD 1220 D G8",
+  "marca": "Intelbras",
+  "modelo": "VHD 1220 D G8",
+  "categoria": "cftv",
+  "resumo": "A que menos consome desta leva, 1,56 W. O datasheet lista em que DVR ela grava 1080p cheio e a quantos quadros: 30 no MHDX 1304, 10 no 1316. Só para ambiente interno.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera dome",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "1080p (2 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": false,
+   "anguloHorizontalGraus": 109,
+   "instalacao": "Interno",
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 8,4 a 15,6 V)",
+   "consumoW": 1.56,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas",
+   "protecaoIp"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0F22DXVY9"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-1220-d-g8-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 1220 D G8 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-01/VHD%201220%20D%20G8%20V2.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/2,8\" e 2 MP, resolução real 1080p, lente de 2,8 mm, 109° na horizontal e 61° na vertical, infravermelho inteligente de 20 m a 850 nm. Protocolos HDCVI (padrão de fábrica), AHD-H, HDTVI e analógico. Compatibilidade com o modo Full HD dos MHDX 1304 (gravação a 30 qps), 1308 (15 qps) e 1316 (gravação a 10 qps). Conector P4, 12 Vdc com tolerância de 30% (8,4 a 15,6 V), 130 mA e 1,56 W. Case dome de plástico, instalação interna, sem grau de proteção declarado.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-1220-d-g8-manual",
+    "titulo": "Manual do usuário da VHD 1220 D G8 — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-07/Manual_VHD_1230BD_G8_BLACK-01-25_site%20%282%29.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "O link de manual da página da VHD 1220 D G8 abre o manual da VHD 1230 B/D G8. Termo de garantia desse manual: 1 ano, sendo 90 dias de garantia legal e 9 meses contratuais. A foto principal da página é um arquivo com o nome da geração anterior, G7. Tabela de distância máxima desse manual: em HDCVI, câmera 1080p vai a 300 m em cabo coaxial, medida em laboratório com cabo de 4 mm e 85% de malha.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0f22dxvy9",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0F22DXVY9",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "O anúncio é da versão preta (Black) do mesmo modelo. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-1220-d-g8.webp",
+   "alt": "Câmera dome Intelbras VHD 1220 D G8 branca, presa no teto",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-infravermelho-multi-hd-vhd-1220-d-g8"
+  }
+ },
+ {
+  "slug": "intelbras-vhd-3220-b-full-color",
+  "nome": "Intelbras VHD 3220 B Full Color+",
+  "marca": "Intelbras",
+  "modelo": "VHD 3220 B Full Color+",
+  "categoria": "cftv",
+  "resumo": "Full HD com microfone e alcance noturno de 20 metros. O nome promete Full Color, e a linha de função luz branca do datasheet vem com um traço.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera bullet",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "1080p (2 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": 112,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP67",
+   "microfone": true,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 10,8 a 13,2 V)",
+   "consumoW": 3.3,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0D5RP7SFH"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-3220-b-full-color-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 3220 B Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-01/Novo%20Datasheet%20-%20VHD%203220%20B%20FULL%20COLOR%20%2B.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 2 MP — o tamanho vem escrito como \"1/\", sem o denominador. Resolução real 1080p, lente de 2,8 mm, 112° na horizontal, alcance noturno de 20 m, função luz branca \"-\", microfone embutido. Protocolos HDCVI, AHD-H, HDTVI e analógico. Conector P4, 12 Vdc com tolerância de 10% (10,8 a 13,2 V), 275 mA e 3,3 W. Case bullet de plástico, IP67, instalação interna e externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-3220-b-full-color-manual",
+    "titulo": "Manual do usuário da VHD 3220 B Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-02/Manual_VHD_3220BD_Full_Color_01-25.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: HDCVI a 300 m em cabo coaxial e 200 m em UTP; AHD e HDTVI a 250 m. Medidas em laboratório.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0d5rp7sfh",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0D5RP7SFH",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 3220 B Full Color+, com microfone. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-3220-b-full-color.webp",
+   "alt": "Câmera bullet Intelbras VHD 3220 B Full Color+ branca, presa no teto",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-full-color-full-hd-vhd-3220-b-full-color"
+  },
+  "divergencias": [
+   {
+    "campo": "noturnaColorida",
+    "fonteAdotada": "intelbras-vhd-3220-b-full-color-datasheet",
+    "valorDivergente": "Full Color+ (nome do produto)",
+    "fonteDivergente": "intelbras-vhd-3220-b-full-color-datasheet",
+    "observacao": "O produto se chama Full Color+ e o datasheet traz \"Tecnologia FULL COLOR +\" entre os destaques, mas a linha \"Função Luz Branca\" da tabela vem preenchida com um traço. O campo fica vazio: o nome não é especificação, e a tabela não confirma a luz."
+   },
+   {
+    "campo": "tecnologias",
+    "fonteAdotada": "intelbras-vhd-3220-b-full-color-datasheet",
+    "valorDivergente": "Câmera bullet analógica Full Color +",
+    "fonteDivergente": "intelbras-vhd-3220-b-full-color-datasheet",
+    "observacao": "O título do próprio datasheet chama a câmera de \"Câmera bullet analógica Full Color +\", e a tabela do mesmo documento declara os protocolos HDCVI, AHD-H, HDTVI e analógico (CVBS). Publicamos a tabela. Para quem vai ligar num DVR, a diferença importa: câmera só analógica não grava em Full HD."
+   }
+  ]
+ },
+ {
+  "slug": "intelbras-vhd-3220-d-full-color",
+  "nome": "Intelbras VHD 3220 D Full Color+",
+  "marca": "Intelbras",
+  "modelo": "VHD 3220 D Full Color+",
+  "categoria": "cftv",
+  "resumo": "A dome da 3220 Full Color+, com microfone e liberada para área externa. O datasheet dela a chama de câmera bullet no título.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera dome",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "1080p (2 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": null,
+   "anguloHorizontalGraus": 112,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP67",
+   "microfone": true,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 10,8 a 13,2 V)",
+   "consumoW": 3.3,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0F5RH1ZQS"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-3220-d-full-color-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 3220 D Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-01/Novo%20Datasheet%20-%20VHD%203220%20D%20FULL%20COLOR%20%2B_0.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/3\" e 2 MP, resolução real 1080p, lente de 2,8 mm, 112° na horizontal, alcance noturno de 20 m, função luz branca \"-\", microfone embutido. Protocolos HDCVI, AHD-H, HDTVI e analógico. Conector P4, 12 Vdc com tolerância de 10% (10,8 a 13,2 V), 275 mA e 3,3 W. Case dome de plástico, IP67, instalação interna e externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-3220-d-full-color-manual",
+    "titulo": "Manual do usuário da VHD 3220 D Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2025-02/Manual_VHD_3220BD_Full_Color_01-25.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: HDCVI a 300 m em cabo coaxial e 200 m em UTP; AHD e HDTVI a 250 m. Medidas em laboratório.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0f5rh1zqs",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0F5RH1ZQS",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 3220 D Full Color+, IP67, com microfone. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-3220-d-full-color.webp",
+   "alt": "Câmera dome Intelbras VHD 3220 D Full Color+ branca, presa no teto",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-full-color-full-hd-vhd-3220-d-full-color"
+  },
+  "divergencias": [
+   {
+    "campo": "tipo",
+    "fonteAdotada": "intelbras-vhd-3220-d-full-color-datasheet",
+    "valorDivergente": "Câmera bullet (título do datasheet)",
+    "fonteDivergente": "intelbras-vhd-3220-d-full-color-datasheet",
+    "observacao": "O título do datasheet diz \"Câmera bullet analógica Full Color +\" e o campo \"Tipo case / material\" do mesmo documento diz \"Dome / Plástico\". A foto e o nome do modelo (D de dome) confirmam o segundo. Publicamos dome."
+   },
+   {
+    "campo": "noturnaColorida",
+    "fonteAdotada": "intelbras-vhd-3220-d-full-color-datasheet",
+    "valorDivergente": "Full Color+ (nome do produto)",
+    "fonteDivergente": "intelbras-vhd-3220-d-full-color-datasheet",
+    "observacao": "Mesmo caso da VHD 3220 B: o nome diz Full Color+, e a linha \"Função Luz Branca\" da tabela vem com um traço. O campo fica vazio."
+   },
+   {
+    "campo": "tecnologias",
+    "fonteAdotada": "intelbras-vhd-3220-d-full-color-datasheet",
+    "valorDivergente": "Câmera bullet analógica Full Color +",
+    "fonteDivergente": "intelbras-vhd-3220-d-full-color-datasheet",
+    "observacao": "O título do próprio datasheet chama a câmera de \"Câmera bullet analógica Full Color +\", e a tabela do mesmo documento declara os protocolos HDCVI, AHD-H, HDTVI e analógico (CVBS). Publicamos a tabela. Para quem vai ligar num DVR, a diferença importa: câmera só analógica não grava em Full HD."
+   }
+  ]
+ },
+ {
+  "slug": "intelbras-vhd-1220-b-full-color",
+  "nome": "Intelbras VHD 1220 B Full Color+",
+  "marca": "Intelbras",
+  "modelo": "VHD 1220 B Full Color+",
+  "categoria": "cftv",
+  "resumo": "Full HD com infravermelho e luz no mesmo alcance, 20 metros, e imagem colorida à noite. Aceita de 8,4 a 15,6 volts na entrada, contra 10,8 a 13,2 da 3220 Full Color+ — folga que conta no fim de um cabo comprido.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera bullet",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "1080p (2 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": true,
+   "anguloHorizontalGraus": 110,
+   "instalacao": "Interno e externo",
+   "protecaoIp": "IP67",
+   "microfone": null,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 8,4 a 15,6 V)",
+   "consumoW": 3.3,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0F22DF86K"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-1220-b-full-color-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 1220 B Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-12/datasheet-vhd-1220-b-full-color%2B-pt.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/3\" e 2 MP, resolução real 1080p, lente de 2,8 mm, 110° na horizontal e 62° na vertical, IR inteligente, alcance de IR e luz de 20 m com 2 LEDs, day & night automático com modo colorido. Protocolos HDCVI, AHD-H, HDTVI e analógico. Conector P4, 12 Vdc com tolerância de 30% (8,4 a 15,6 V), 275 mA e 3,3 W. Case bullet de plástico, IP67, instalação interna e externa.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-1220-b-full-color-manual",
+    "titulo": "Manual do usuário da VHD 1220 B Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-08/Manual_VHD_1220BD_Full_Color_01-25_siteV3.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: HDCVI a 300 m em cabo coaxial e 200 m em UTP; AHD e HDTVI a 250 m. Medidas em laboratório.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0f22df86k",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0F22DF86K",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 1220 B Full Color+. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-1220-b-full-color.webp",
+   "alt": "Câmera bullet Intelbras VHD 1220 B Full Color+ preta, presa em parede",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-full-color-inteligente-vhd-1220-b-full-color"
+  },
+  "divergencias": [
+   {
+    "campo": "tecnologias",
+    "fonteAdotada": "intelbras-vhd-1220-b-full-color-datasheet",
+    "valorDivergente": "Câmera bullet analógica Full Color +",
+    "fonteDivergente": "intelbras-vhd-1220-b-full-color-datasheet",
+    "observacao": "O título do próprio datasheet chama a câmera de \"Câmera bullet analógica Full Color +\", e a tabela do mesmo documento declara os protocolos HDCVI, AHD-H, HDTVI e analógico (CVBS). Publicamos a tabela. Para quem vai ligar num DVR, a diferença importa: câmera só analógica não grava em Full HD."
+   }
+  ]
+ },
+ {
+  "slug": "intelbras-vhd-1220-d-full-color",
+  "nome": "Intelbras VHD 1220 D Full Color+",
+  "marca": "Intelbras",
+  "modelo": "VHD 1220 D Full Color+",
+  "categoria": "cftv",
+  "resumo": "A dome da 1220 Full Color+: 1080p, imagem colorida à noite até 20 metros, só para ambiente interno. É a par interna da bullet 1220 B, com a mesma ficha elétrica.",
+  "atualizadoEm": "2026-09-29",
+  "specs": {
+   "tipo": "Câmera dome",
+   "tecnologias": "HDCVI, AHD, HDTVI e analógica (Multi HD)",
+   "canais": null,
+   "canaisIpExtras": null,
+   "gravacao1080p": null,
+   "bitrateMbps": null,
+   "hdMaxTb": null,
+   "saidasVideo": null,
+   "deteccaoPessoas": null,
+   "resolucao": "1080p (2 MP)",
+   "alcanceNoturnoM": 20,
+   "noturnaColorida": true,
+   "anguloHorizontalGraus": 110,
+   "instalacao": "Interno",
+   "protecaoIp": null,
+   "microfone": null,
+   "alcanceCoaxialM": 300,
+   "alimentacao": "12 Vdc, conector P4 (aceita de 8,4 a 15,6 V)",
+   "consumoW": 3.3,
+   "garantiaMeses": 12
+  },
+  "naoSeAplica": [
+   "canais",
+   "canaisIpExtras",
+   "gravacao1080p",
+   "bitrateMbps",
+   "hdMaxTb",
+   "saidasVideo",
+   "deteccaoPessoas",
+   "protecaoIp"
+  ],
+  "lojas": {
+   "amazon": "https://www.amazon.com.br/dp/B0F22CWH5S"
+  },
+  "fontes": [
+   {
+    "id": "intelbras-vhd-1220-d-full-color-datasheet",
+    "titulo": "Ficha técnica (datasheet) da VHD 1220 D Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2024-12/datasheet-vhd-1220-d-full-color%2B%20.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Sensor CMOS de 1/3\" e 2 MP, resolução real 1080p, lente de 2,8 mm, 110° na horizontal e 62° na vertical, IR inteligente, alcance de IR e luz de 20 m com 2 LEDs. Protocolos HDCVI, AHD-H, HDTVI e analógico. Conector P4, 12 Vdc com tolerância de 30% (8,4 a 15,6 V), 275 mA e 3,3 W. Case dome de plástico, grau de proteção \"-\", instalação interna.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "intelbras-vhd-1220-d-full-color-manual",
+    "titulo": "Manual do usuário da VHD 1220 D Full Color+ — Intelbras",
+    "url": "https://backend.intelbras.com/sites/default/files/2026-08/Manual_VHD_1220BD_Full_Color_01-25_siteV3.pdf",
+    "tipo": "fabricante",
+    "oQueSaiuDaqui": "Termo de garantia: 1 ano, sendo 90 dias de garantia legal e 9 meses de garantia contratual, contado da data da compra. Tabela de distância máxima: HDCVI a 300 m em cabo coaxial e 200 m em UTP; AHD e HDTVI a 250 m. Medidas em laboratório.",
+    "consultadaEm": "2026-09-29"
+   },
+   {
+    "id": "amazon-b0f22cwh5s",
+    "titulo": "Página do produto na Amazon Brasil",
+    "url": "https://www.amazon.com.br/dp/B0F22CWH5S",
+    "tipo": "varejo",
+    "oQueSaiuDaqui": "Confirma o modelo VHD 1220 D Full Color (número do modelo) e Full Color+ no título. Nenhum número da ficha saiu daqui.",
+    "consultadaEm": "2026-09-29"
+   }
+  ],
+  "imagem": {
+   "src": "/produtos/intelbras-vhd-1220-d-full-color.webp",
+   "alt": "Câmera dome Intelbras VHD 1220 D Full Color+ branca, presa no teto",
+   "credito": "Imagem: Intelbras",
+   "origem": "https://www.intelbras.com/pt-br/camera-full-color-inteligente-vhd-1220-d-full-color"
+  },
+  "divergencias": [
+   {
+    "campo": "tecnologias",
+    "fonteAdotada": "intelbras-vhd-1220-d-full-color-datasheet",
+    "valorDivergente": "Câmera dome analógica Full Color +",
+    "fonteDivergente": "intelbras-vhd-1220-d-full-color-datasheet",
+    "observacao": "O título do próprio datasheet chama a câmera de \"Câmera dome analógica Full Color +\", e a tabela do mesmo documento declara os protocolos HDCVI, AHD-H, HDTVI e analógico (CVBS). Publicamos a tabela. Para quem vai ligar num DVR, a diferença importa: câmera só analógica não grava em Full HD."
+   }
+  ]
+ }
+]

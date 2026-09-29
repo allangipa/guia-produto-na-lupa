@@ -39,9 +39,15 @@ export function CardProduto({
   // ninguém abrir a ficha achando que é só escolher a cor.
   const porVir = aindaNaoSaiu(produto) ? produto.nasLojasEm!.split("-") : null;
   const chaves = destaques ?? destaquesDa(produto.categoria);
+  // Categoria que mistura dois tipos de produto (gravador e câmera, em CFTV)
+  // declara mais de três destaques: o card mostra os três primeiros que se
+  // aplicam a este produto, senão o gravador exibiria "alcance noturno —".
+  // Lista de três fica como está — ali o destaque vale para a categoria toda.
   const linhas = chaves
+    .filter((chave) => chaves.length <= 3 || !produto.naoSeAplica?.includes(chave))
     .map((chave) => campos.find((c) => c.chave === chave))
-    .filter((c): c is Campo => Boolean(c));
+    .filter((c): c is Campo => Boolean(c))
+    .slice(0, 3);
 
   return (
     <article className="cartao group relative flex h-full flex-col overflow-hidden">

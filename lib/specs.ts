@@ -5631,7 +5631,232 @@ export const camposBatedeira: Campo[] = [
   },
 ];
 
+/**
+ * CFTV: gravadores DVR e câmeras cabeadas na mesma categoria, porque um não
+ * funciona sem o outro e o /simulador monta os dois no mesmo projeto. Os
+ * campos de um tipo entram em `naoSeAplica` no outro, como em casa conectada.
+ *
+ * O EIXO É A RESOLUÇÃO QUE O GRAVADOR GRAVA DE FATO. "1080p" na caixa do DVR
+ * quase sempre é 1080p Lite, que a própria Intelbras define como 960 × 1080 —
+ * metade da largura da câmera Full HD que vai ligada nele. O campo
+ * `gravacao1080p` diz em quantos canais, a quantos quadros e com que custo o
+ * gravador chega aos 1920 × 1080: na linha MHDX 13xx, ligar o modo Full HD
+ * desliga a detecção de pessoas.
+ *
+ * O SEGUNDO EIXO É O BIT RATE, porque é ele que decide o tamanho do HD — e é
+ * o número que o /simulador usa para calcular os terabytes.
+ */
+export const camposCftv: Campo[] = [
+  {
+    chave: "tipo",
+    rotulo: "Tipo",
+    grupo: "O que é",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tecnologias",
+    rotulo: "Tecnologias de vídeo",
+    grupo: "O que é",
+    tipo: "texto",
+    ajuda:
+      "Câmera e gravador precisam falar a mesma língua. HDCVI, AHD e HDTVI são três padrões diferentes de vídeo pelo cabo coaxial; câmera \"Multi HD\" troca entre eles pelo menu.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "canais",
+    rotulo: "Canais de câmera",
+    grupo: "Gravador",
+    tipo: "numero",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "Quantas câmeras cabeadas o gravador recebe pelo conector BNC.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "canaisIpExtras",
+    rotulo: "Câmeras IP a mais",
+    grupo: "Gravador",
+    tipo: "numero",
+    melhor: "maior",
+    ajuda: "Câmeras de rede que ele aceita além dos canais de cabo coaxial, sem trocar de modo.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "gravacao1080p",
+    rotulo: "Gravação em 1080p cheio",
+    grupo: "Gravador",
+    tipo: "texto",
+    ajuda:
+      "O \"1080p Lite\" que quase todo DVR usa por padrão tem 960 × 1080 pixels: metade da largura de uma câmera Full HD. Este campo diz quando o gravador grava os 1920 × 1080 inteiros.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bitrateMbps",
+    rotulo: "Taxa de gravação por canal",
+    grupo: "Gravador",
+    tipo: "numero",
+    unidade: "Mb/s",
+    ajuda:
+      "É o que decide o tamanho do HD. Cada 1 Mb/s gravado o dia inteiro ocupa cerca de 10,8 GB por dia, por câmera.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "hdMaxTb",
+    rotulo: "HD máximo aceito",
+    grupo: "Gravador",
+    tipo: "numero",
+    unidade: "TB",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "saidasVideo",
+    rotulo: "Saídas para monitor",
+    grupo: "Gravador",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "deteccaoPessoas",
+    rotulo: "Detecção de pessoas e veículos",
+    grupo: "Gravador",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "Separa o movimento de uma pessoa ou carro do de uma folha ou de um gato. É o que decide se o celular apita a noite inteira.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "resolucao",
+    rotulo: "Resolução",
+    grupo: "Câmera",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alcanceNoturnoM",
+    rotulo: "Alcance noturno declarado",
+    grupo: "Câmera",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "Até onde o infravermelho ou a luz da câmera alcançam no escuro, segundo o fabricante. Além disso a imagem existe, mas escura.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "noturnaColorida",
+    rotulo: "Imagem colorida à noite",
+    grupo: "Câmera",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "Câmera \"Full Color\" acende uma luz branca para gravar em cores no escuro. Sem ela, a imagem noturna é em preto e branco, com infravermelho.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "anguloHorizontalGraus",
+    rotulo: "Ângulo de visão horizontal",
+    grupo: "Câmera",
+    tipo: "numero",
+    unidade: "°",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "instalacao",
+    rotulo: "Onde pode ser instalada",
+    grupo: "Câmera",
+    tipo: "texto",
+    filtro: "opcoes",
+    contaTransparencia: true,
+  },
+  {
+    chave: "protecaoIp",
+    rotulo: "Proteção contra água e poeira",
+    grupo: "Câmera",
+    tipo: "texto",
+    ajuda: "IP66 e IP67 aguentam chuva direta. Sem grau declarado, é câmera de ambiente interno.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "microfone",
+    rotulo: "Microfone embutido",
+    grupo: "Câmera",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alcanceCoaxialM",
+    rotulo: "Distância máxima em cabo coaxial (HDCVI)",
+    grupo: "Câmera",
+    tipo: "numero",
+    unidade: "m",
+    melhor: "maior",
+    ajuda:
+      "Até onde o sinal HDCVI vai no cabo coaxial sem perder imagem, segundo o fabricante — medido em laboratório, com cabo de 4 mm e 85% de malha de cobre. A Intelbras publica no manual, não no datasheet.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "alimentacao",
+    rotulo: "Alimentação",
+    grupo: "Energia",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoW",
+    rotulo: "Consumo máximo declarado",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "menor",
+    ajuda:
+      "Na câmera, é o número que decide o tamanho da fonte: some o de todas e a fonte de 12 V precisa passar disso. No gravador, é sem o HD.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia",
+    grupo: "Energia",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+];
+
+/** Campos que só existem no gravador; na câmera entram em `naoSeAplica`. */
+export const CFTV_SO_GRAVADOR = [
+  "canais",
+  "canaisIpExtras",
+  "gravacao1080p",
+  "bitrateMbps",
+  "hdMaxTb",
+  "saidasVideo",
+  "deteccaoPessoas",
+];
+/** Campos que só existem na câmera; no gravador entram em `naoSeAplica`. */
+export const CFTV_SO_CAMERA = [
+  "resolucao",
+  "alcanceNoturnoM",
+  "noturnaColorida",
+  "anguloHorizontalGraus",
+  "instalacao",
+  "protecaoIp",
+  "microfone",
+  "alcanceCoaxialM",
+];
+
 export const camposPorCategoria: Record<string, Campo[]> = {
+  cftv: camposCftv,
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
   geladeiras: camposGeladeira,
@@ -5928,6 +6153,11 @@ const ICONE_POR_CAMPO: Record<string, string> = {
   oscilante: "seta",
   controleRemoto: "controle",
   alturaAjustavel: "regua",
+  canais: "camera",
+  hdMaxTb: "portas",
+  bitrateMbps: "grade",
+  alcanceNoturnoM: "camera",
+  instalacao: "escudo",
 };
 
 export function iconeDo(chave: string): string {
@@ -5948,6 +6178,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   armazenamento: "portas",
   conectividade: "bluetooth",
   "casa-conectada": "display",
+  cftv: "camera",
   celular: "celular",
   cozinha: "panela",
   liquidificadores: "panela",
@@ -6161,6 +6392,10 @@ const ROTULO_CURTO: Record<string, string> = {
   bandejaColetora: "Bandeja",
   travaFechamento: "Trava",
   comprimentoCaboM: "Cabo",
+  alcanceNoturnoM: "Visão noturna",
+  bitrateMbps: "Taxa/canal",
+  hdMaxTb: "HD máximo",
+  anguloHorizontalGraus: "Ângulo",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -6174,6 +6409,9 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   conectividade: ["velocidadeNominalMbps", "velocidade5ghzMbps", "padraoWifi"],
   perifericos: ["tipo", "conexao", "duracaoPilhaMeses"],
   "casa-conectada": ["tipo", "assistentes", "funcionaSemNuvem"],
+  // Gravador e câmera na mesma categoria: o card mostra os três primeiros que
+  // se aplicam ao produto (ver card-produto.tsx).
+  cftv: ["canais", "hdMaxTb", "bitrateMbps", "alcanceNoturnoM", "resolucao", "protecaoIp", "instalacao"],
   audio: ["horasFone", "driverMm", "protecaoAgua"],
   cozinha: ["capacidadeUtilL", "potenciaW", "tensao"],
   celular: ["telaPol", "horasVideo", "pesoG"],
