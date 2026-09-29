@@ -69,6 +69,7 @@ export function Numero({
   min = 0,
   max,
   unidade,
+  passo = 1,
   aoMudar,
 }: {
   titulo: string;
@@ -77,6 +78,8 @@ export function Numero({
   min?: number;
   max: number;
   unidade?: string;
+  /** De quanto em quanto os botões − e + andam. Digitar aceita qualquer valor. */
+  passo?: number;
   aoMudar: (v: number) => void;
 }) {
   const id = useId();
@@ -93,7 +96,7 @@ export function Numero({
         <button
           type="button"
           aria-label={`Menos — ${titulo}`}
-          onClick={() => ajusta(valor - 1)}
+          onClick={() => ajusta(valor - passo)}
           disabled={valor <= min}
           className={botao}
         >
@@ -112,7 +115,7 @@ export function Numero({
         <button
           type="button"
           aria-label={`Mais — ${titulo}`}
-          onClick={() => ajusta(valor + 1)}
+          onClick={() => ajusta(valor + passo)}
           disabled={valor >= max}
           className={botao}
         >

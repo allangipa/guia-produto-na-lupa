@@ -20,7 +20,7 @@ Decisões do Allan que moldam tudo abaixo:
 | Frente | Questionário | Motor | Onde |
 |---|---|---|---|
 | Câmeras de segurança | completo, 5 passos | lista de compras; no sistema DVR, peças da categoria CFTV | `lib/simulador-cameras.ts`, `components/simulador-cameras.tsx` |
-| Rede Wi-Fi | simples (tamanho + perfil) | matriz fixa | `lib/simulador.ts`, `components/setup-simulator.tsx` |
+| Rede Wi-Fi | completo, 2 a 4 passos | lista de compras com peças da categoria conectividade | `lib/simulador-wifi.ts`, `components/simulador-wifi.tsx` |
 | Automação | simples (perfil) | matriz fixa | idem |
 
 ## Regras que valem para as três frentes
@@ -135,20 +135,44 @@ Avisos: lance de cabo de rede acima de 100 m (padrão Ethernet); alcance do
 coaxial depende da tecnologia do DVR; cartão máximo que não cobre os dias
 pedidos; internet instável com gravação em nuvem.
 
-## 2. Rede Wi-Fi — a fazer
+## 2. Rede Wi-Fi — implementado em 29/09/2026
 
-1. Área em m² e número de andares
-2. Paredes: alvenaria / concreto ou laje / drywall
-3. Área externa que precisa de sinal
-4. Velocidade do plano (até 300 / 500 / 1 Gb+) → porta gigabit em todo o caminho
-5. Aparelhos conectados ao mesmo tempo → `dispositivosSimultaneos`
-6. O que ligar por cabo (TV, videogame, PC) → pontos cabeados
-7. Já existe cabo de rede entre os cômodos → mesh com retorno por cabo
-8. Computador sem Wi-Fi ou com Wi-Fi antigo → adaptador USB
+### Questionário
 
-Lista: mesh (unidades pela cobertura declarada **do kit à venda**), adaptador,
-switch se faltar porta, cabos com metragem, RJ45, unidade extra para a área
-externa.
+**Passo 1 — O que resolver:** o Wi-Fi não chega em vários lugares (mesh) /
+falta sinal num cômodo só (repetidor) / trocar o roteador da operadora.
+
+**Passo 2 — A casa** (não aparece para o repetidor): área em m², andares,
+paredes (tijolo / concreto ou laje / drywall), sinal fora de casa e a área de
+fora.
+
+**Passo 3 — A internet:** plano (até 300 / 500 / 1 Giga+) e aparelhos
+conectados ao mesmo tempo.
+
+**Passo 4 — Cabos e computadores** (não aparece para o repetidor): aparelhos
+por cabo perto do roteador e computadores sem Wi-Fi ou com Wi-Fi antigo.
+
+**Ficou de fora do roteiro:** "já existe cabo de rede entre os cômodos". Nenhuma
+ficha da base diz se as unidades mesh aceitam retorno por cabo; a pergunta não
+mudaria a lista com honestidade.
+
+### Regras
+
+| Regra | Espécie |
+|---|---|
+| Cobertura por número de unidades, lida das fontes (`COBERTURA`): Deco X10 190/360/520 m² com 1/2/3; X50 e BE22 600 m² com 3; Halo H80X 460 m² com 2 | fabricante |
+| Kit vendido pelo anúncio (`KIT_VENDIDO`); se a conta pede mais unidades, a avulsa entra na lista sem ficha | fabricante + topologia |
+| Pelo menos uma unidade por andar | regra do simulador |
+| 5 GHz declarado ≥ 2 × plano (`FATOR_PLANO`) | regra do simulador |
+| Aparelhos declarados ≥ aparelhos da casa; quem não declara passa com "confira" | fabricante |
+| Entre os que atendem: primeiro quem cobre com o kit anunciado, depois o de menor velocidade declarada | regra do simulador |
+| Portas livres = LAN declaradas, menos a WAN quando a detecção é automática (`WAN_AUTOMATICA`); faltando porta, entra switch (que ocupa uma) | topologia |
+| Repetidor: primeiro o de porta gigabit, depois o de maior 5 GHz | regra do simulador |
+| Adaptador: o de maior 5 GHz; avisa quando fica abaixo do plano | fabricante |
+
+Nenhum roteador ou repetidor da base declara área; o roteador avisa quando a
+casa passa de 190 m² (a cobertura do Deco X10 com uma unidade, a única por
+unidade declarada) ou de um andar.
 
 ## 3. Automação — a fazer
 
@@ -181,4 +205,4 @@ licenciada.
 
 **Automação:** hub Zigbee, interruptor/relé, sensores, controle IR.
 
-**Wi-Fi:** switch, cabo de rede.
+**Wi-Fi:** switch, cabo de rede, unidade avulsa do Deco X10 e do Deco X50.

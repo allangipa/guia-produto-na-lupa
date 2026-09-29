@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Produto } from "@/lib/specs";
 import {
@@ -10,13 +9,11 @@ import {
   RESPOSTAS_INICIAIS,
   montarProjeto,
   sistemaRecomendado,
-  type Item,
   type Respostas,
   type Sistema,
 } from "@/lib/simulador-cameras";
 import { Numero, Opcoes } from "@/components/simulador-campos";
-import { Foto } from "@/components/foto";
-import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
+import { ListaDeCompras } from "@/components/simulador-lista";
 
 /**
  * O questionário de câmeras do /simulador e a lista de compras que sai dele.
@@ -63,8 +60,17 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
 
   if (projeto) {
     return (
-      <Lista
-        projeto={projeto}
+      <ListaDeCompras
+        titulo={`O seu projeto: ${NOME_SISTEMA[projeto.sistema]}`}
+        motivos={projeto.motivos}
+        avisos={projeto.avisos}
+        itens={projeto.itens}
+        grupos={GRUPOS}
+        nota={
+          projeto.sistema !== "wifi"
+            ? `A margem de cabo é de ${MARGEM_CABO * 100}%, e os conectores contam as pontas: dois por cabo.`
+            : undefined
+        }
         base={base}
         tituloRef={titulo}
         aoAjustar={() => {
@@ -379,172 +385,5 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
         )}
       </div>
     </div>
-  );
-}
-
-function Lista({
-  projeto,
-  base,
-  tituloRef,
-  aoAjustar,
-  aoRefazer,
-}: {
-  projeto: ReturnType<typeof montarProjeto>;
-  base: Record<string, Produto>;
-  tituloRef: React.RefObject<HTMLHeadingElement | null>;
-  aoAjustar: () => void;
-  aoRefazer: () => void;
-}) {
-  const comFicha = projeto.itens.filter((i) => i.produto);
-  const semFicha = projeto.itens.length - comFicha.length;
-  const paraComprar = [...new Set(comFicha.map((i) => i.produto!))].map((s) => base[s]);
-
-  return (
-    <div className="surgir">
-      <h2 ref={tituloRef} tabIndex={-1} className="titulo-ui text-2xl outline-none">
-        O seu projeto: {NOME_SISTEMA[projeto.sistema]}
-      </h2>
-      <p className="mt-1 text-[0.9rem] text-tinta-suave">
-        <span className="dados text-tinta">{projeto.itens.length}</span> itens na lista ·{" "}
-        <span className="dados text-tinta">{comFicha.length}</span> com ficha no site ·{" "}
-        <span className="dados text-tinta">{semFicha}</span> ainda sem ficha
-      </p>
-      <ul className="mt-3 list-disc space-y-1 pl-5 text-[0.9rem]">
-        {projeto.motivos.map((m) => (
-          <li key={m}>{m}</li>
-        ))}
-      </ul>
-
-      {projeto.avisos.length > 0 && (
-        <div className="mt-5 border-l-[3px] border-atencao bg-papel px-4 py-3 text-[0.9rem]">
-          <p className="font-medium">Atenção</p>
-          <ul className="mt-1 space-y-1">
-            {projeto.avisos.map((a) => (
-              <li key={a}>{a}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {GRUPOS.map(({ grupo, titulo }) => {
-        const itens = projeto.itens.filter((i) => i.grupo === grupo);
-        if (!itens.length) return null;
-        return (
-          <section key={grupo} className="mt-8">
-            <h3 className="titulo-ui text-[1.1rem]">{titulo}</h3>
-            <ul className="mt-3 space-y-3">
-              {itens.map((i) => (
-                <Linha key={i.id} item={i} base={base} />
-              ))}
-            </ul>
-          </section>
-        );
-      })}
-
-      {paraComprar.length > 0 && (
-        <section className="painel mt-10 p-5 sm:p-6">
-          <h3 className="titulo-ui text-[1.1rem]">Onde comprar as peças com ficha</h3>
-          <DivulgacaoComissao plural={paraComprar.length > 1} />
-          {paraComprar.map((p) => (
-            <div key={p.slug} className="mt-5">
-              <p className="font-medium">{p.nome}</p>
-              <LojaCta lojas={p.lojas} produto={p.nome} posicao="simulador" divulgacao={false} />
-            </div>
-          ))}
-          {semFicha > 0 && (
-            <p className="mt-2 text-[0.85rem] text-tinta-suave">
-              As outras {semFicha} peças da lista ainda não têm ficha apurada no
-              site. A especificação delas está acima, e o link entra aqui quando a
-              ficha entrar.
-            </p>
-          )}
-        </section>
-      )}
-
-      <p className="mt-8 text-[0.82rem] text-tinta-suave">
-        Número com “declara” é do fabricante, com fonte na ficha do produto.
-        “Regra do simulador” é conta nossa, com o valor à vista.
-        {projeto.sistema !== "wifi" &&
-          ` A margem de cabo é de ${MARGEM_CABO * 100}%, e os conectores contam as pontas: dois por cabo.`}
-      </p>
-
-      <div className="mt-6 flex flex-wrap gap-3">
-        <button type="button" onClick={aoAjustar} className="botao botao-secundario">
-          Ajustar as respostas
-        </button>
-        <button type="button" onClick={aoRefazer} className="botao botao-secundario">
-          Refazer do zero
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function Linha({ item: i, base }: { item: Item; base: Record<string, Produto> }) {
-  const p = i.produto ? base[i.produto] : undefined;
-  const alt = i.alternativa ? base[i.alternativa.produto] : undefined;
-  return (
-    <li className="painel flex gap-4 p-4">
-      <div className="flex w-16 shrink-0 flex-col items-center gap-2">
-        <span className="dados rounded-md bg-realce px-2 py-1 text-[0.95rem] font-semibold">
-          {i.qtd}
-          {i.unidade === "m" ? " m" : "×"}
-        </span>
-        {p?.imagem && (
-          <div className="relative h-14 w-14">
-            <Foto
-              src={p.imagem.src}
-              alt={p.imagem.alt}
-              tamanhos="56px"
-              className="absolute inset-0 h-full w-full object-contain"
-            />
-          </div>
-        )}
-      </div>
-      <div className="min-w-0 flex-1">
-        <p className="text-[0.8rem] text-tinta-suave">
-          {i.papel}
-          {i.unidade === "pares" && " · pares"}
-        </p>
-        {p ? (
-          <Link
-            href={`/produtos/${p.slug}`}
-            className="titulo-ui text-[1.05rem] underline decoration-linha underline-offset-4 hover:decoration-acao"
-          >
-            {p.nome}
-          </Link>
-        ) : (
-          <p className="text-[0.98rem] font-medium">
-            {i.especificacao}{" "}
-            <span className="pastilha-neutra ml-1 align-middle text-[0.7rem]">ainda sem ficha no site</span>
-          </p>
-        )}
-        <p className="mt-1.5 text-[0.9rem]">{i.porque}</p>
-        {i.regra && (
-          <p className="mt-1.5 text-[0.82rem] text-tinta-suave">
-            <strong className="font-medium">Regra do simulador:</strong> {i.regra}
-          </p>
-        )}
-        {i.confira && i.confira.length > 0 && (
-          <div className="mt-2 text-[0.85rem]">
-            <p className="font-medium text-ausente">Confira antes de comprar</p>
-            <ul className="mt-0.5 list-disc pl-5 text-tinta-suave">
-              {i.confira.map((c) => (
-                <li key={c}>{c}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-        {alt && i.alternativa && (
-          <p className="mt-2 text-[0.85rem] text-tinta-suave">
-            Alternativa na base:{" "}
-            <Link href={`/produtos/${alt.slug}`} className="underline underline-offset-4">
-              {alt.nome}
-            </Link>{" "}
-            — {i.alternativa.motivo}.
-          </p>
-        )}
-      </div>
-    </li>
   );
 }

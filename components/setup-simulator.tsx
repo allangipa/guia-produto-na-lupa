@@ -1,21 +1,15 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import {
-  TAMANHOS,
-  PERFIS,
-  chaveDo,
-  type Foco,
-  type Tamanho,
-  type Perfil,
-} from "@/lib/simulador";
+import { PERFIS, chaveDo, type Perfil } from "@/lib/simulador";
 import { Opcoes } from "@/components/simulador-campos";
 
 /**
- * O simulador simples, de Wi-Fi e automação: duas perguntas e uma indicação.
- * Câmeras saíram daqui em 29/09/2026 para o questionário completo de
- * `simulador-cameras.tsx`, que monta a lista de compras do projeto; as outras
- * duas frentes seguem este formato até ganharem o delas (docs/simulador.md).
+ * O simulador simples, que hoje só atende automação: uma pergunta e uma
+ * indicação. Câmeras e Wi-Fi saíram daqui em 29/09/2026 para os questionários
+ * completos (`simulador-cameras.tsx`, `simulador-wifi.tsx`), que montam a lista
+ * de compras do projeto; automação segue neste formato até ganhar o dela
+ * (docs/simulador.md).
  *
  * Os resultados chegam prontos do servidor, um por combinação, e aqui só se
  * escolhe qual mostrar.
@@ -23,13 +17,10 @@ import { Opcoes } from "@/components/simulador-campos";
  * O botão de gerar NÃO é sólido: a cor de ação é exclusiva do CTA de loja.
  */
 export function SetupSimulator({
-  foco,
   resultados,
 }: {
-  foco: Exclude<Foco, "seguranca">;
   resultados: Record<string, ReactNode>;
 }) {
-  const [tamanho, setTamanho] = useState<Tamanho | "">("");
   const [perfil, setPerfil] = useState<Perfil | "">("");
   const [chave, setChave] = useState<string | null>(null);
   const tituloResultado = useRef<HTMLHeadingElement>(null);
@@ -38,8 +29,7 @@ export function SetupSimulator({
     if (chave) tituloResultado.current?.focus();
   }, [chave]);
 
-  const pedeTamanho = foco === "wifi";
-  const completo = Boolean(perfil && (!pedeTamanho || tamanho));
+  const completo = Boolean(perfil);
 
   if (chave && resultados[chave]) {
     return (
@@ -48,14 +38,12 @@ export function SetupSimulator({
           O seu projeto recomendado
         </h2>
         <p className="mt-1 text-[0.9rem] text-tinta-suave">
-          {pedeTamanho && `${TAMANHOS.find((t) => t.valor === tamanho)?.rotulo} · `}
           {PERFIS.find((p) => p.valor === perfil)?.rotulo}
         </p>
         {resultados[chave]}
         <button
           type="button"
           onClick={() => {
-            setTamanho("");
             setPerfil("");
             setChave(null);
           }}
@@ -71,18 +59,10 @@ export function SetupSimulator({
     <form
       onSubmit={(e) => {
         e.preventDefault();
-        if (completo) setChave(chaveDo(foco, perfil as Perfil, (tamanho || "ate50") as Tamanho));
+        if (completo) setChave(chaveDo("automacao", perfil as Perfil));
       }}
       className="painel surgir space-y-6 p-5 sm:p-7"
     >
-      {pedeTamanho && (
-        <Opcoes
-          titulo="Tamanho do ambiente"
-          valor={tamanho}
-          opcoes={TAMANHOS}
-          aoMudar={setTamanho}
-        />
-      )}
       <Opcoes titulo="O que pesa mais" valor={perfil} opcoes={PERFIS} aoMudar={setPerfil} />
       <button
         type="submit"

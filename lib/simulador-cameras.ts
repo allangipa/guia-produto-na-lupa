@@ -102,24 +102,8 @@ export const GRUPOS: { grupo: Grupo; titulo: string }[] = [
   { grupo: "extras", titulo: "Extras do projeto" },
 ];
 
-export type Item = {
-  id: string;
-  grupo: Grupo;
-  papel: string;
-  qtd: number;
-  unidade?: string;
-  /** Produto da base. Sem ele, o item sai com `especificacao`. */
-  produto?: string;
-  /** O que comprar, quando o site ainda não tem ficha da peça. */
-  especificacao?: string;
-  porque: string;
-  /** Regra nossa usada no cálculo — sempre à vista. */
-  regra?: string;
-  /** O que a documentação não responde e importa para este projeto. */
-  confira?: string[];
-  /** A segunda colocada, e o que a tirou. */
-  alternativa?: { produto: string; motivo: string };
-};
+export type { Item } from "./simulador-lista";
+import type { Item } from "./simulador-lista";
 
 export type Projeto = {
   sistema: Sistema;

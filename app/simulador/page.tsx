@@ -136,9 +136,10 @@ export default function PaginaSimulador() {
       <Cards key={chave} r={r} produtos={produtos} />,
     ]),
   );
+  // Câmeras escolhem entre as fichas de CFTV; Wi-Fi, entre as de conectividade.
   const cameras = baseCameras(
     buscarProduto,
-    [...porSlug.values()].filter((p) => p.categoria === "cftv"),
+    [...porSlug.values()].filter((p) => p.categoria === "cftv" || p.categoria === "conectividade"),
   );
   const usados = [
     ...combinacoes.flatMap(([, , ps]) => ps),
@@ -182,10 +183,12 @@ export default function PaginaSimulador() {
         </p>
         <p className="mt-2">
           O simulador só recomenda produto que tem ficha no site, com fonte
-          oficial e link de loja. Em Wi-Fi, o tamanho do ambiente é comparado com
-          a cobertura que o fabricante declara — e só conta a cobertura do kit que
-          está à venda: o Deco X50 e o Deco BE22 publicam 600 m² para o kit de
-          três unidades, e o anúncio é o de duas.
+          oficial e link de loja. Em Wi-Fi, a área da casa é comparada com a
+          cobertura que o fabricante declara para cada número de unidades — o
+          Deco X10, por exemplo, publica 190, 360 e 520 m² para uma, duas e três.
+          Quando o anúncio vende menos unidades do que a conta pede, a unidade
+          que falta entra na lista. Nenhum roteador nem repetidor desta base
+          declara área, e a lista diz isso.
         </p>
         <p className="mt-2">
           “Mais recursos” quer dizer mais itens declarados na ficha, não preço

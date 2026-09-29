@@ -1108,8 +1108,12 @@ confunde com documento sem folha de estilo.
     topologia (dois conectores por cabo). Nada que dependa de número não
     publicado é calculado: o HD não sai em terabytes enquanto nenhum gravador
     da base declarar a taxa de gravação.
-  - Wi-Fi e automação continuam na matriz simples de `lib/simulador.ts` até
-    ganharem o questionário deles.
+  - **Wi-Fi ganhou o questionário completo em 29/09/2026** (`lib/simulador-wifi.ts`):
+    mesh, repetidor ou roteador conforme o problema; cobertura por número de
+    unidades como cada fabricante declara, e unidade avulsa na lista quando o
+    kit do anúncio não basta. Só automação segue na matriz simples de
+    `lib/simulador.ts`. A lista de compras é um componente só para as frentes
+    (`components/simulador-lista.tsx`).
   - **Desde 29/09 o sistema com DVR escolhe peças da categoria CFTV**: DVR pelo
     menor tamanho que cabe e que grava 1920 × 1080, câmera pela de menor
     consumo que atende alcance e cor, HD pelo bit rate declarado do DVR

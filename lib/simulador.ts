@@ -10,9 +10,11 @@ import type { Produto } from "./specs";
  * daqui só recomenda o que tem ficha apurada, e a justificativa sai dos campos
  * da ficha: quando o número muda na base, a frase muda junto.
  *
- * Câmeras saíram desta matriz em 29/09/2026: viraram o questionário completo
- * de lib/simulador-cameras.ts, que monta a lista de compras do projeto. Wi-Fi e
- * automação seguem aqui até ganharem o deles — ver docs/simulador.md.
+ * Câmeras e Wi-Fi saíram desta matriz em 29/09/2026: viraram os questionários
+ * completos de lib/simulador-cameras.ts e lib/simulador-wifi.ts, que montam a
+ * lista de compras do projeto. Só automação segue aqui até ganhar o dela — ver
+ * docs/simulador.md. As três decisões abaixo nasceram com a matriz de Wi-Fi; a
+ * primeira e a terceira hoje moram no motor de Wi-Fi, e a segunda vale aqui.
  *
  * TRÊS DECISÕES QUE NÃO ESTAVAM NO ROTEIRO
  *
@@ -31,19 +33,12 @@ import type { Produto } from "./specs";
  */
 
 export type Foco = "wifi" | "automacao" | "seguranca";
-export type Tamanho = "ate50" | "50a150" | "mais150";
 export type Perfil = "essencial" | "recursos";
 
 export const FOCOS: { valor: Foco; rotulo: string }[] = [
   { valor: "wifi", rotulo: "Rede Wi-Fi" },
   { valor: "automacao", rotulo: "Automação residencial" },
   { valor: "seguranca", rotulo: "Câmeras de segurança" },
-];
-
-export const TAMANHOS: { valor: Tamanho; rotulo: string }[] = [
-  { valor: "ate50", rotulo: "Até 50 m²" },
-  { valor: "50a150", rotulo: "De 50 a 150 m²" },
-  { valor: "mais150", rotulo: "Mais de 150 m²" },
 ];
 
 export const PERFIS: { valor: Perfil; rotulo: string }[] = [
@@ -66,39 +61,7 @@ export type Resultado = {
 const n = (v: unknown) =>
   typeof v === "number" ? v.toLocaleString("pt-BR") : String(v);
 
-const decoX10: Indicacao = {
-  slug: "tplink-deco-x10",
-  porque: (p) =>
-    `A TP-Link declara ${n(p.specs.coberturaM2)} m² de cobertura para o kit de duas unidades, que é o anunciado — e publica o número unidade por unidade, coisa rara na categoria. É ${p.specs.padraoWifi}, com o sinal espalhado por módulos em vez de repetidor.`,
-};
-
-const haloH80x: Indicacao = {
-  slug: "mercusys-halo-h80x",
-  porque: (p) =>
-    `A Mercusys declara ${n(p.specs.coberturaM2)} m² para o kit de duas unidades, que é o anunciado. Entre os sistemas mesh da base, é a maior cobertura declarada para o kit que está de fato à venda. ${p.specs.padraoWifi}, ${n(p.specs.velocidade5ghzMbps)} Mb/s declarados em 5 GHz.`,
-};
-
-const decoBe22 = (tamanho: Tamanho): Indicacao => ({
-  slug: "tplink-deco-be22",
-  porque: (p) =>
-    `${p.specs.padraoWifi}, com ${n(p.specs.velocidade5ghzMbps)} Mb/s declarados em 5 GHz e MLO. A TP-Link declara ${n(p.specs.coberturaM2)} m² para o kit de três unidades; o anúncio é o de duas, e para ele a marca não publica área.` +
-    (tamanho === "mais150"
-      ? " Acima de 150 m², meça a casa antes: o único número de cobertura publicado não é o do produto vendido."
-      : ""),
-});
-
 const MATRIZ: Record<string, Resultado> = {
-  "wifi:essencial:ate50": { indicacoes: [decoX10] },
-  "wifi:essencial:50a150": { indicacoes: [decoX10] },
-  "wifi:essencial:mais150": { indicacoes: [haloH80x] },
-  "wifi:recursos:ate50": { indicacoes: [decoBe22("ate50")] },
-  "wifi:recursos:50a150": { indicacoes: [decoBe22("50a150")] },
-  "wifi:recursos:mais150": {
-    indicacoes: [decoBe22("mais150")],
-    foraDaBase:
-      "O Deco BE65 é mais rápido e tem quatro portas de 2,5 Gb/s, mas a TP-Link não declara a cobertura dele — só \"cobertura ampliada para a casa toda\", sem número. Sem área declarada, não há como dizer se ele cobre o seu espaço.",
-  },
-
   "automacao:essencial": {
     indicacoes: [
       {
@@ -131,9 +94,9 @@ const MATRIZ: Record<string, Resultado> = {
   },
 };
 
-/** A chave da combinação. O tamanho só entra quando o foco é Wi-Fi. */
-export function chaveDo(foco: Foco, perfil: Perfil, tamanho: Tamanho) {
-  return foco === "wifi" ? `${foco}:${perfil}:${tamanho}` : `${foco}:${perfil}`;
+/** A chave da combinação. */
+export function chaveDo(foco: Foco, perfil: Perfil) {
+  return `${foco}:${perfil}`;
 }
 
 export function todasAsCombinacoes(): [string, Resultado][] {
