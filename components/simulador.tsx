@@ -10,6 +10,7 @@ import { SimuladorAutomacao } from "@/components/simulador-automacao";
 import { SimuladorAr } from "@/components/simulador-ar";
 import { SimuladorNobreak } from "@/components/simulador-nobreak";
 import { SimuladorAirfryer } from "@/components/simulador-airfryer";
+import { SimuladorRefil } from "@/components/simulador-refil";
 
 /**
  * A primeira pergunta do /simulador, que escolhe qual questionário abre.
@@ -27,6 +28,7 @@ export function Simulador({ base }: { base: Record<string, Produto> }) {
       {foco === "ar" && <SimuladorAr key={foco} base={base} />}
       {foco === "nobreak" && <SimuladorNobreak key={foco} base={base} />}
       {foco === "airfryer" && <SimuladorAirfryer key={foco} base={base} />}
+      {foco === "purificador" && <SimuladorRefil key={foco} base={base} />}
     </div>
   );
 }

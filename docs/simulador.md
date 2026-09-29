@@ -278,7 +278,11 @@ vista, produto da base com fonte, lacuna escrita. Ordem proposta:
    (`batataMaxKg`, novo campo, fora da nota de transparência); as pessoas
    (`pessoasDeclaradas`) pesam só onde declaradas. Sem conversão de pessoas em
    gramas: nenhuma fonte sustenta porção por pessoa.
-4. **Refil do purificador de água.** Consumo da casa em litros por dia contra a
-   vida útil do refil em litros, e não o "6 meses" da ficha.
+4. ~~**Refil do purificador de água.**~~ **Feito em 29/09/2026**
+   (`lib/simulador-refil.ts`, sétimo projeto do /simulador). Consumo da casa
+   em litros por dia contra a vida útil do refil em litros; só as 8 fichas que
+   declaram litros (Consul e IBBL). O prazo em meses do fabricante aparece ao
+   lado, e a lista avisa que nenhuma ficha diz se ele vale como limite com
+   pouco uso. Ordem: o refil que filtra mais litros.
 5. **Disjuntor do cooktop de indução.** Potência declarada ÷ tensão; só 3 de 16
    fichas escrevem o disjuntor.
