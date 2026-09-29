@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/listas",
     "/categorias",
     "/transparencia",
+    "/simulador",
     "/metodologia",
     "/sobre",
     "/privacidade",

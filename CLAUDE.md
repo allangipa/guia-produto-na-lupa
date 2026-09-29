@@ -1008,6 +1008,35 @@ confunde com documento sem folha de estilo.
   texto editorial por marca, de propósito: a nota mede documentação, não
   produto, e a página repete isso. Linkado no trilho, no cabeçalho, no
   rodapé e no sitemap.
+- **`/simulador`, desde 28/09/2026**: três perguntas (foco, tamanho, perfil)
+  e uma indicação de Wi-Fi, automação ou câmera. A matriz mora em
+  `lib/simulador.ts`, o formulário em `components/setup-simulator.tsx`
+  (client) e os cards são montados no servidor, um por combinação.
+
+  Nasceu de um roteiro pronto de "setup simulator" que o Allan colou, e **o
+  roteiro não entrou como veio**, porque quebrava as regras da casa:
+  recomendava produto sem ficha (Deco M4, UniFi U6, relés Zemismart, DVR, HD
+  SkyHawk), justificava no indicativo ("elimine zonas mortas", "imune a
+  inibidores de sinal") e apontava o botão para `href="#"`. O que ficou:
+
+  - **Só recomenda produto da base com link de loja**, e o build quebra se
+    uma indicação sair da base ou perder o link. Ao apagar produto de
+    conectividade ou casa conectada, conferir a matriz.
+  - **A justificativa lê os campos da ficha** ("a marca declara X"), não
+    número digitado.
+  - **O tamanho só é perguntado para Wi-Fi**, o único caso em que a
+    documentação liga produto a área. Perguntar a metragem para escolher
+    tomada seria personalização fingida.
+  - **"Custo-benefício × Premium" virou "O essencial × Mais recursos
+    declarados"**: sem preço em texto, o site não sabe o que é barato.
+  - **Cobertura só conta se for a do kit à venda.** Deco X50 e BE22 declaram
+    600 m² para o kit de três e o anúncio é o de duas; por isso o essencial
+    acima de 150 m² é o Halo H80X (460 m² do kit anunciado).
+  - O que o roteiro pedia e a base não tem fica escrito em "O que ficou de
+    fora, e por quê" — Zigbee/relé/medidor DIN, DVR/bullet/HD de vigilância,
+    e o BE65, que não declara cobertura.
+  - O botão de gerar é `botao-secundario`: verde só no CTA de loja. Os cards
+    formam **um** bloco de CTA, com uma linha de comissão.
 - **Lançamentos na home** vêm de `lib/lancamentos.ts`: produto da base em
   pré-venda, com datas declaradas pelo fabricante e a fonte escrita. Sem
   contagem regressiva. Quando a data de loja passar, tirar da lista — o

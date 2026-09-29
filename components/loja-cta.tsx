@@ -8,7 +8,7 @@ type Props = {
   lojas: Loja;
   produto: string;
   /** Onde o bloco está na página — usado só para medir qual posição converte. */
-  posicao: "veredito" | "prosContras" | "fechamento";
+  posicao: "veredito" | "prosContras" | "fechamento" | "simulador";
   /**
    * Data ISO em que o produto chega às lojas, quando ela ainda não passou.
    * O aviso vem antes do botão: mandar alguém para a loja sem dizer que o

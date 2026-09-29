@@ -66,6 +66,7 @@ export function SiteFooter() {
             <li><Link href="/guias" className={link}>Guias de compra</Link></li>
             <li><Link href="/comparativos" className={link}>Comparativos</Link></li>
             <li><Link href="/reviews" className={link}>Análises</Link></li>
+            <li><Link href="/simulador" className={link}>Simulador</Link></li>
           </ul>
         </nav>
 

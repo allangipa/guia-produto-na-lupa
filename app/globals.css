@@ -492,3 +492,19 @@ body {
   background: none;
   padding: 0;
 }
+
+/* Troca pedida pelo leitor (formulário ↔ resultado do simulador). Só roda no
+   clique; o bloco de prefers-reduced-motion acima a zera. */
+@keyframes surgir {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.surgir {
+  animation: surgir 260ms ease-out;
+}
