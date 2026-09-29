@@ -325,6 +325,17 @@ export function SimuladorAutomacao({ base }: { base: Record<string, Produto> }) 
                 aoMudar={muda("temAssistente")}
               />
             )}
+            <Opcoes<RespostasAutomacao["protocolo"]>
+              titulo="Prefere Zigbee, com central, ou Wi-Fi direto?"
+              ajuda="No Zigbee as peças falam com uma central, e não com o roteador: sobra Wi-Fi para o resto da casa. No Wi-Fi direto não há central para comprar."
+              valor={r.protocolo}
+              opcoes={[
+                { valor: "zigbee", rotulo: "Zigbee", detalhe: "Uma central para as peças" },
+                { valor: "wifi", rotulo: "Wi-Fi direto", detalhe: "Cada peça no roteador" },
+                { valor: "tantoFaz", rotulo: "Tanto faz", detalhe: "O simulador escolhe pelo aplicativo" },
+              ]}
+              aoMudar={muda("protocolo")}
+            />
             <Opcoes
               titulo="Precisa continuar funcionando se a internet cair?"
               ajuda="Poucas fichas dizem, por escrito, que o aparelho funciona sem o servidor da marca. A lista dá preferência a quem diz."

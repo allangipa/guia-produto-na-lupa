@@ -28,6 +28,7 @@ import { OPCOES_POR_ITEM, type Item } from "./simulador-lista";
 export type ComoLuz = "lampada" | "interruptor";
 export type Assistente = "alexa" | "google" | "apple" | "nenhum";
 export type Ambiente = "sala" | "quarto" | "casa";
+export type Protocolo = "zigbee" | "wifi" | "tantoFaz";
 
 export type RespostasAutomacao = {
   /** Só dá o título e o ponto de partida das quantidades; o leitor ajusta. */
@@ -59,6 +60,12 @@ export type RespostasAutomacao = {
   /** Se já há na casa um alto-falante com o assistente escolhido. */
   temAssistente: boolean;
   semInternet: boolean;
+  /**
+   * Zigbee: as peças falam com uma central, não com o roteador — tira carga do
+   * Wi-Fi e, nas centrais que declaram, segue sem internet. Wi-Fi: cada peça
+   * liga direto no roteador, sem central para comprar.
+   */
+  protocolo: Protocolo;
 };
 
 export const RESPOSTAS_AUTOMACAO: RespostasAutomacao = {
@@ -84,6 +91,7 @@ export const RESPOSTAS_AUTOMACAO: RespostasAutomacao = {
   assistente: "alexa",
   temAssistente: true,
   semInternet: false,
+  protocolo: "tantoFaz",
 };
 
 /**
@@ -208,8 +216,20 @@ function declaraAssistente(p: Produto, a: Assistente): boolean | null {
  * primeiro; depois quem declara funcionar sem internet, se o leitor pediu;
  * depois quem declara o assistente pedido; depois a garantia declarada maior.
  */
+export const ehZigbee = (p: Produto) => /zigbee/i.test(txt(p.specs.conexao));
+const ehWifiDireto = (p: Produto) => /wi-?fi/i.test(txt(p.specs.conexao)) && p.specs.precisaHub !== true;
+
+/** Se a ficha é do protocolo que o leitor pediu. "Tanto faz" nunca pesa. */
+function doProtocolo(p: Produto, r: RespostasAutomacao): boolean {
+  if (r.protocolo === "zigbee") return ehZigbee(p);
+  if (r.protocolo === "wifi") return ehWifiDireto(p);
+  return false;
+}
+
 function ordenar(lista: Produto[], app: string | null, r: RespostasAutomacao): Produto[] {
+  // O protocolo pedido pesa mais que o aplicativo: foi uma escolha explícita.
   const pontos = (p: Produto) =>
+    (doProtocolo(p, r) ? 16 : 0) +
     (app && appDe(p) === app ? 8 : 0) +
     (r.semInternet && p.specs.funcionaSemNuvem === true ? 4 : 0) +
     (declaraAssistente(p, r.assistente) === true ? 2 : 0);
@@ -249,13 +269,18 @@ export function escolherApp(r: RespostasAutomacao, base: Produto[]): { app: stri
   const nota = (app: string) => {
     const doApp = base.filter((p) => appDe(p) === app);
     const cobertos = ped.filter((x) => doApp.some((p) => eDoTipo(p, x.tipo))).length;
+    // Com protocolo pedido, conta primeiro quantos tipos o app cobre NELE.
+    const noProtocolo = ped.filter((x) => doApp.some((p) => eDoTipo(p, x.tipo) && doProtocolo(p, r))).length;
     const semNuvem = doApp.filter((p) => p.specs.funcionaSemNuvem === true).length;
     const assist = doApp.filter((p) => declaraAssistente(p, r.assistente) === true).length;
-    return { app, cobertos, semNuvem, assist };
+    return { app, cobertos, noProtocolo, semNuvem, assist };
   };
   const notas = apps
     .map(nota)
-    .sort((a, b) => b.cobertos - a.cobertos || b.semNuvem - a.semNuvem || b.assist - a.assist);
+    .sort(
+      (a, b) =>
+        b.noProtocolo - a.noProtocolo || b.cobertos - a.cobertos || b.semNuvem - a.semNuvem || b.assist - a.assist,
+    );
   const melhor = notas[0];
   return { app: melhor && melhor.cobertos > 0 ? melhor.app : null, cobertos: melhor?.cobertos ?? 0, total: ped.length };
 }
@@ -621,8 +646,13 @@ export function montarProjetoAutomacao(r: RespostasAutomacao, baseTodas: Record<
   }
 
   // AVISOS DO PROJETO -------------------------------------------------------
+  // Ocupa conexão do roteador: o que fala Wi-Fi e não é Zigbee — menos as
+  // centrais, que são Zigbee de um lado e Wi-Fi do outro. O dimmer Legrand cita
+  // o "gateway Wi-Fi" na ficha e não entra na conta.
+  const ocupaWifi = (p?: Produto) =>
+    !!p && /Wi-?Fi/i.test(txt(p.specs.conexao)) && (!ehZigbee(p) || eDoTipo(p, TIPOS.hub));
   const noWifi = itens
-    .filter((it) => it.produto && /Wi-?Fi/i.test(txt(baseTodas[it.produto]?.specs.conexao)))
+    .filter((it) => it.produto && ocupaWifi(baseTodas[it.produto]))
     .reduce((s, it) => s + it.qtd, 0);
   if (noWifi > 0) {
     avisos.push(
@@ -636,6 +666,21 @@ export function montarProjetoAutomacao(r: RespostasAutomacao, baseTodas: Record<
         ? "Todas as peças com ficha declaram funcionar sem a nuvem do fabricante."
         : `${n(declaram)} de ${n(usados.length)} peças com ficha declaram funcionar sem a nuvem do fabricante. As outras não dizem — e sem essa frase escrita, a regra é supor que param com a internet.`,
     );
+  }
+  if (r.protocolo !== "tantoFaz") {
+    const comFicha = itens.filter((it) => it.produto && baseTodas[it.produto] && it.grupo !== "central" && it.grupo !== "voz");
+    const fora = comFicha.filter((it) => !doProtocolo(baseTodas[it.produto!], r));
+    const nome = r.protocolo === "zigbee" ? "Zigbee" : "Wi-Fi direto, sem central";
+    motivos.push(
+      r.protocolo === "zigbee"
+        ? "Você prefere Zigbee: as peças falam com uma central, e não com o roteador. Onde a base tem opção Zigbee, ela vem primeiro."
+        : "Você prefere Wi-Fi direto: cada peça liga no roteador, sem central para comprar. Onde a base tem essa opção, ela vem primeiro.",
+    );
+    if (fora.length) {
+      avisos.push(
+        `${fora.length === 1 ? "Uma peça não tem" : `${n(fora.length)} peças não têm`} opção ${nome} com ficha no site e ${fora.length === 1 ? "vai" : "vão"} por outro caminho: ${fora.map((it) => it.papel.toLowerCase()).join(", ")}.`,
+      );
+    }
   }
   if (!itens.length) {
     avisos.push("Nenhuma peça marcada: volte e diga o que quer automatizar.");

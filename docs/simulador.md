@@ -204,8 +204,9 @@ não sei).
 **Passo 4 — Tomadas** (se houver): o aparelho mais forte (até 1.000 W, até
 2.400 W, mais) · quer medir consumo?
 
-**Passo 5 — Voz e internet:** Alexa / Google / só celular · precisa funcionar
-sem internet?
+**Passo 5 — Voz e internet:** Alexa / Google / Apple / só celular · já tem
+alto-falante? · **Zigbee com central, Wi-Fi direto ou tanto faz** (desde
+29/09/2026) · precisa funcionar sem internet?
 
 ### Regras
 
@@ -217,7 +218,8 @@ sem internet?
 | Tomada | `cargaMaxW` ≥ o aparelho mais forte; `medeConsumo` se pedido. Acima da maior carga da base → relé de potência, sem ficha |
 | Controle IR | um por cômodo: o infravermelho não atravessa parede |
 | Central (hub) | só entra se uma peça escolhida tem `precisaHub: true`; do mesmo app; `dispositivosHub` confere a capacidade |
-| Wi-Fi | aviso com o número de aparelhos novos no 2,4 GHz, e o link para o simulador de Wi-Fi |
+| Protocolo | Zigbee ou Wi-Fi direto pesa mais que o aplicativo na ordem das candidatas (foi pedido explícito), e a escolha do app conta primeiro os tipos que ele cobre no protocolo. A lista diz quais peças não têm opção no protocolo pedido |
+| Wi-Fi | aviso com o número de aparelhos novos no 2,4 GHz — Zigbee só conta se for a central —, e o link para o simulador de Wi-Fi |
 | Sem internet | conta quantas peças declaram `funcionaSemNuvem`; as outras "a regra é supor que param" |
 | Fechadura e cortina | sem ficha: especificação e o que conferir |
 
