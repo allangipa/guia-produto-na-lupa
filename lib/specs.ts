@@ -6619,9 +6619,22 @@ export function transparencia(p: Produto, campos: Campo[]) {
   };
 }
 
-/** Formata um valor para leitura, com o "não informa" explícito. */
+/**
+ * O que a tela diz quando o campo está vazio. A frase nomeia o fabricante de
+ * propósito: "Não informa", sozinho, deixava a dúvida de quem não informou, e
+ * parecia que o site não tinha conseguido apurar. Decisão do Allan em
+ * 29/09/2026 — a responsabilidade pela lacuna é de quem publica a ficha.
+ */
+export const TEXTO_AUSENTE = "Não informado pelo fabricante";
+/**
+ * Campo esvaziado por divergência: o fabricante publicou um número, e o número
+ * não fecha (ver `divergencias`). Não é omissão, e a tela não pode dizer que é.
+ */
+export const TEXTO_DIVERGENTE = "Divergente na ficha do fabricante";
+
+/** Formata um valor para leitura, com a lacuna atribuída ao fabricante. */
 export function valorLegivel(valor: ValorSpec, campo: Campo): string {
-  if (valor === null || valor === undefined) return "Não informa";
+  if (valor === null || valor === undefined) return TEXTO_AUSENTE;
   if (typeof valor === "boolean") return valor ? "Sim" : "Não";
   if (typeof valor === "number") {
     const n = valor.toLocaleString("pt-BR");

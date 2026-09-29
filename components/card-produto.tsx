@@ -3,6 +3,7 @@ import type { Campo, Produto } from "@/lib/specs";
 import {
   transparencia,
   valorLegivel,
+  TEXTO_DIVERGENTE,
   iconeDo,
   destaquesDa,
   faixaTransparencia,
@@ -93,14 +94,14 @@ export function CardProduto({
                   nome={iconeDo(campo.chave)}
                   className={`h-3.5 w-3.5 shrink-0 ${ausente ? "text-ausente" : "text-acao"}`}
                 />
-                <span className="truncate text-tinta-suave">{rotuloCurto(campo)}</span>
+                <span className={`text-tinta-suave ${ausente ? "shrink-0" : "truncate"}`}>{rotuloCurto(campo)}</span>
                 <span
-                  className={`dados ml-auto shrink-0 ${ausente ? "text-ausente" : "font-semibold"}`}
+                  className={`dados ml-auto ${ausente ? "min-w-0 text-right text-[0.72rem] leading-tight text-ausente" : "shrink-0 font-semibold"}`}
                 >
                   {/* Campo esvaziado por divergência não é omissão do
                       fabricante: ele publicou um número que não fecha. */}
                   {ausente && produto.divergencias?.some((d) => d.campo === campo.chave)
-                    ? "sem valor confiável"
+                    ? TEXTO_DIVERGENTE
                     : valorLegivel(valor, campo)}
                 </span>
               </li>

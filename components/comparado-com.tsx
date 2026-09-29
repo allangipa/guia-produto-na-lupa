@@ -19,7 +19,7 @@ import { transparencia, valorLegivel, rotuloCurto } from "@/lib/specs";
  * jarra" ou "tensão" não existe vencedor, e fingir que existe seria inventar
  * juízo onde o dado não sustenta.
  *
- * Célula vazia é "Não informa", em cinza de ausência — a mesma constatação que
+ * Célula vazia é "Não informado pelo fabricante", em cinza de ausência — a mesma constatação que
  * a nota de transparência mede. Aqui ela fica lado a lado com quem informou, o
  * que é a forma mais direta de mostrar a lacuna.
  */

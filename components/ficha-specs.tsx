@@ -1,5 +1,5 @@
 import type { Campo, Produto } from "@/lib/produtos";
-import { transparencia, valorLegivel } from "@/lib/produtos";
+import { transparencia, valorLegivel, TEXTO_DIVERGENTE } from "@/lib/produtos";
 
 /**
  * A ficha completa de um produto, agrupada por bloco.
@@ -52,7 +52,11 @@ export function FichaSpecs({
                   <dd
                     className={`dados text-[0.95rem] ${ausente ? "text-ausente" : ""}${naoSeAplica ? "text-tinta-suave" : ""}`}
                   >
-                    {naoSeAplica ? "Não se aplica" : valorLegivel(valor, campo)}
+                    {naoSeAplica
+                      ? "Não se aplica"
+                      : ausente && produto.divergencias?.some((d) => d.campo === campo.chave)
+                        ? TEXTO_DIVERGENTE
+                        : valorLegivel(valor, campo)}
                     {/* Só conta como confirmação o que veio de fonte que mediu
                         ou registrou por conta própria — varejo copia a marca. */}
                     {produto.confirmadoPor?.[campo.chave]?.length ? (

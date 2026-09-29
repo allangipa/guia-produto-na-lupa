@@ -89,8 +89,8 @@ export function MidiaProduto({
               />
               <span className="text-[0.7rem] text-ausente">
                 {produto.divergencias?.some((d) => d.campo === "dimensoesMm")
-                  ? "dimensões sem valor confiável"
-                  : "dimensões não publicadas"}
+                  ? "dimensões divergentes na ficha do fabricante"
+                  : "dimensões não informadas pelo fabricante"}
               </span>
             </>
           )}
