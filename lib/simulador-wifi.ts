@@ -67,14 +67,14 @@ export const NOME_OBJETIVO: Record<Objetivo, string> = {
  *   Halo H80X: 460 m² com 2 unidades
  * O Deco BE65 fala em "cobertura ampliada para a casa toda", sem número.
  */
-const COBERTURA: Record<string, Record<number, number>> = {
+export const COBERTURA: Record<string, Record<number, number>> = {
   "tplink-deco-x10": { 1: 190, 2: 360, 3: 520 },
   "tplink-deco-x50": { 3: 600 },
   "tplink-deco-be22": { 3: 600 },
   "mercusys-halo-h80x": { 2: 460 },
 };
 /** Unidades no anúncio que o site linka — o kit que se compra com um clique. */
-const KIT_VENDIDO: Record<string, number> = {
+export const KIT_VENDIDO: Record<string, number> = {
   "tplink-deco-x10": 2,
   "tplink-deco-x50": 2,
   "tplink-deco-be22": 2,

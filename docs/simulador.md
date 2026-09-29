@@ -23,6 +23,11 @@ Decisões do Allan que moldam tudo abaixo:
 | Rede Wi-Fi | completo, 2 a 4 passos | lista de compras com peças da categoria conectividade | `lib/simulador-wifi.ts`, `components/simulador-wifi.tsx` |
 | Automação | completo, 3 a 5 passos | lista de compras com peças da categoria casa conectada, num app só | `lib/simulador-automacao.ts`, `components/simulador-automacao.tsx` |
 
+Desde 29/09/2026 cada ferramenta tem página própria em `/simulador/<slug>`
+(`SLUG_DO_FOCO`, `lib/simulador.ts`), com texto e tabela estáticos montados da
+base em `lib/simulador-paginas.ts`. `/simulador` lista as oito e redireciona o
+endereço antigo `?projeto=`.
+
 ## Regras que valem para as três frentes
 
 1. **Três espécies de número, que não se misturam na tela.**

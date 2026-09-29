@@ -12,6 +12,7 @@ import {
 import { categorias } from "@/lib/categorias";
 import { recortes } from "@/lib/recortes";
 import { todosOsProdutos, produtosDaCategoria } from "@/lib/produtos";
+import { FOCOS, hrefDoFoco } from "@/lib/simulador";
 
 /**
  * O site é exportado com `trailingSlash: true`: a URL canônica de cada página
@@ -46,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/categorias",
     "/transparencia",
     "/simulador",
+    ...FOCOS.map((f) => hrefDoFoco(f.valor)),
     "/metodologia",
     "/sobre",
     "/privacidade",

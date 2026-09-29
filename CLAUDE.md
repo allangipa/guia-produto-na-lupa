@@ -1114,11 +1114,23 @@ confunde com documento sem folha de estilo.
   rodapé: "Simulador" no cabeçalho, uma faixa com os oito projetos na home
   (depois da tira de números) e um aviso nas fichas das oito categorias que
   ele atende (`components/leva-ao-simulador.tsx`, mapa em
-  `FOCO_DA_CATEGORIA`, `lib/simulador.ts`). O projeto vai no endereço
-  (`/simulador?projeto=ar`), e a ficha abre direto a ferramenta certa. Não é
-  CTA e não usa cor de ação. **Próximo passo de SEO, proposto e não feito:**
-  uma URL por ferramenta, com texto e tabela estáticos (BTU por área, batata
-  por litro, corrente por cooktop) que o Google consiga ler.
+  `FOCO_DA_CATEGORIA`, `lib/simulador.ts`). Não é CTA e não usa cor de ação.
+
+  **Uma URL por ferramenta, desde 29/09/2026** — `/simulador/ar-condicionado`,
+  `/nobreak`, `/air-fryer`, `/refil-purificador`, `/cooktop-inducao`,
+  `/cameras-de-seguranca`, `/wi-fi` e `/automacao-residencial`. Antes as oito
+  dividiam `/simulador`, e o Google via uma página com título genérico para
+  oito buscas diferentes. Cada página tem título e H1 da busca ("Calculadora
+  de BTU"), o questionário e **uma tabela montada da base no build** (BTU por
+  área, VA × W × onda, litro × cesto × batata, refil a 5/8/12 L/dia, corrente
+  por cooktop, DVRs, cobertura por unidades, peças de automação por tipo) —
+  é o HTML que o buscador lê, e muda sozinho quando a base muda. Textos e
+  tabelas em `lib/simulador-paginas.ts`; base de cada página em
+  `lib/simulador-base.ts` (só as categorias que o motor lê); slugs em
+  `SLUG_DO_FOCO`. **Mudar um slug quebra link indexado.** `/simulador` virou
+  a porta de entrada com os oito cards e redireciona o endereço antigo
+  `?projeto=ar` no navegador (`components/simulador-redireciona.tsx`). As oito
+  estão no sitemap.
 
   **Air fryer no /simulador desde 29/09/2026.** Achado que vale para o guia da
   categoria: o manual da Mondial AFON-12L, de 12 litros, aceita 400 g de batata

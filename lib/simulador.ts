@@ -6,8 +6,10 @@
  * viraram questionários completos, com lista de compras, e a matriz saiu. A
  * especificação de cada um está em docs/simulador.md.
  *
- * O projeto vai no endereço (`/simulador?projeto=ar`), para a ficha, a home e
- * o cabeçalho levarem direto à ferramenta certa.
+ * Desde 29/09/2026 cada projeto tem a própria página (`/simulador/ar-condicionado`),
+ * com título, texto e tabela voltados à busca de quem procura aquela conta. O
+ * endereço antigo (`/simulador?projeto=ar`) ainda funciona: o /simulador
+ * redireciona.
  */
 
 export type Foco = "wifi" | "automacao" | "seguranca" | "ar" | "nobreak" | "airfryer" | "purificador" | "cooktop";
@@ -35,7 +37,22 @@ export const CHAMADAS: Record<Foco, string> = {
   cooktop: "A corrente que o cooktop puxa e o disjuntor que a ficha declara.",
 };
 
-export const hrefDoFoco = (f: Foco) => `/simulador?projeto=${f}`;
+/** O endereço de cada ferramenta. Mudar um slug quebra link já indexado. */
+export const SLUG_DO_FOCO: Record<Foco, string> = {
+  wifi: "wi-fi",
+  automacao: "automacao-residencial",
+  seguranca: "cameras-de-seguranca",
+  ar: "ar-condicionado",
+  nobreak: "nobreak",
+  airfryer: "air-fryer",
+  purificador: "refil-purificador",
+  cooktop: "cooktop-inducao",
+};
+
+export const hrefDoFoco = (f: Foco) => `/simulador/${SLUG_DO_FOCO[f]}`;
+
+export const focoDoSlug = (slug: string): Foco | undefined =>
+  FOCOS.find((f) => SLUG_DO_FOCO[f.valor] === slug)?.valor;
 
 export const ehFoco = (v: string | null): v is Foco => FOCOS.some((f) => f.valor === v);
 
