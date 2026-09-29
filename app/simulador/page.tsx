@@ -8,9 +8,9 @@ import { SLUGS as SLUGS_CAMERAS } from "@/lib/simulador-cameras";
 import { Divulgacao } from "@/components/divulgacao";
 
 export const metadata: Metadata = {
-  title: tituloSeo("Simulador: monte o projeto de câmeras, Wi-Fi ou automação"),
+  title: tituloSeo("Simulador: monte o projeto de câmeras, Wi-Fi, automação ou ar-condicionado"),
   description:
-    "Monte o projeto de câmeras de segurança, rede Wi-Fi ou automação e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
+    "Monte o projeto de câmeras de segurança, rede Wi-Fi, automação ou ar-condicionado e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
   alternates: { canonical: "/simulador" },
 };
 
@@ -60,11 +60,12 @@ export default function PaginaSimulador() {
   const porSlug = new Map(todosOsProdutos().map((p) => [p.slug, p]));
   const buscarProduto = (slug: string) => porSlug.get(slug);
   // Câmeras escolhem entre as fichas de CFTV e de nobreaks; Wi-Fi, entre as de
-  // conectividade; automação, entre as de casa conectada.
+  // conectividade; automação, entre as de casa conectada; ar-condicionado,
+  // entre os splits.
   const base = baseCameras(
     buscarProduto,
     [...porSlug.values()].filter((p) =>
-      ["cftv", "conectividade", "nobreaks", "casa-conectada"].includes(p.categoria ?? ""),
+      ["cftv", "conectividade", "nobreaks", "casa-conectada", "ar-condicionado"].includes(p.categoria ?? ""),
     ),
   );
   const usados = Object.values(base);
@@ -78,7 +79,7 @@ export default function PaginaSimulador() {
           Monte o projeto e veja o que comprar
         </h1>
         <p className="mt-3 max-w-[62ch] text-[0.95rem] text-tinta-suave">
-          Câmeras de segurança, rede Wi-Fi ou automação. Você responde sobre a
+          Câmeras de segurança, rede Wi-Fi, automação ou ar-condicionado. Você responde sobre a
           casa, e o simulador devolve a lista de compras do projeto, peça por
           peça — das câmeras aos conectores, da central ao interruptor. Cada justificativa é o que o
           fabricante declara, e não teste nosso; quando a documentação não
@@ -132,6 +133,16 @@ export default function PaginaSimulador() {
           segundo. Central (hub) só entra quando a ficha de uma peça a exige.
           Fio neutro e funcionamento sem internet só contam quando o fabricante
           escreve — e a lista diz quantas peças escrevem.
+        </p>
+        <p className="mt-2">
+          No ar-condicionado, a conta não é nossa: é a do{" "}
+          <a href="https://www.lg.com/br/suporte/simulador-ar-condicionado/" className="underline underline-offset-4" rel="noopener">
+            simulador de capacidade da LG
+          </a>{" "}
+          — 600 BTU por m², mais 600 por pessoa, mais 15% com muito sol e 20% no
+          Norte, Nordeste e Centro-Oeste, mais TV, computador e frigobar. Quando o
+          fabricante do split declara a área que o aparelho atende, ela aparece
+          ao lado.
         </p>
         <p className="mt-2">
           Cada peça mostra até três modelos da base que atendem ao projeto: o

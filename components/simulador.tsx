@@ -7,6 +7,7 @@ import { Opcoes } from "@/components/simulador-campos";
 import { SimuladorCameras } from "@/components/simulador-cameras";
 import { SimuladorWifi } from "@/components/simulador-wifi";
 import { SimuladorAutomacao } from "@/components/simulador-automacao";
+import { SimuladorAr } from "@/components/simulador-ar";
 
 /**
  * A primeira pergunta do /simulador, que escolhe qual questionário abre.
@@ -21,6 +22,7 @@ export function Simulador({ base }: { base: Record<string, Produto> }) {
       {foco === "seguranca" && <SimuladorCameras key={foco} base={base} />}
       {foco === "wifi" && <SimuladorWifi key={foco} base={base} />}
       {foco === "automacao" && <SimuladorAutomacao key={foco} base={base} />}
+      {foco === "ar" && <SimuladorAr key={foco} base={base} />}
     </div>
   );
 }

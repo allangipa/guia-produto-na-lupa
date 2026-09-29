@@ -847,8 +847,9 @@ confunde com documento sem folha de estilo.
 
   **Ficaram de fora, e por quê:** Nova Digital LITE, WS-US8, NFZB-3 e o hub
   HNZ-PRO3 (fotos oficiais com selo "Powered by tuya"/"Works with Alexa"); Elgin
-  (foto com celular e logo montados ao lado do produto — **decisão pendente do
-  Allan**); Nova Digital ZC-GM42 (foto com a caixa); Tapo H100 e interruptores
+  (foto com celular e logo montados ao lado do produto — **decisão do Allan em
+  29/09/2026: fica de fora até a Elgin publicar foto só do produto**, porque
+  "produto sem foto dá uma impressão de site falso"); Nova Digital ZC-GM42 (foto com a caixa); Tapo H100 e interruptores
   Tapo (sem anúncio nacional ou só 100–120 V); sensores 433 MHz da Positivo (sem
   anúncio); Tuya/Zemismart/Sonoff (sem página oficial no Brasil).
 
@@ -1064,7 +1065,17 @@ confunde com documento sem folha de estilo.
   **O eixo é a área em metros quadrados.** O anúncio vende BTU; a pergunta de quem
   compra é se serve para o cômodo. **Seis fichas em quinze publicam a área, e as
   seis são da linha MaxComfort da Electrolux.** A régua de mercado — 600 a 800 BTU
-  por m², que a própria LG publica na página dela — tem 33% entre os extremos.
+  por m², que a LG atribui a "muitos profissionais" — tem 33% entre os extremos.
+  **Corrigido em 29/09/2026:** o guia, o comparativo MaxComfort 9000 × Ecomaster
+  e a análise do MaxComfort 12000 diziam que a LG manda usar 600 com pouco sol e
+  800 com muito, e a LG não diz isso; nem estava nas fontes. A conta de verdade
+  da LG está no código do simulador dela (600/m² + 600/pessoa, +15% sol, +20%
+  N/NE/CO, TV 400, computador e frigobar 600) e é a base da calculadora.
+
+  **A calculadora de ar-condicionado está no /simulador desde 29/09/2026**, como
+  quarto projeto. Usa a conta da LG como fonte de fabricante — não é regra
+  nossa, e por isso não leva o rótulo "regra do simulador". Split pelo menor
+  tamanho que cobre a conta; dentro dele, menor consumo anual declarado.
 
   **Cada marca publica um terço, e um terço diferente.** Área: só Electrolux.
   IDRS, o índice sazonal oficial do INMETRO: só Midea, 4 de 15. Garantia do

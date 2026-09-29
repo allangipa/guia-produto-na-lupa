@@ -9,10 +9,11 @@
  * está em docs/simulador.md.
  */
 
-export type Foco = "wifi" | "automacao" | "seguranca";
+export type Foco = "wifi" | "automacao" | "seguranca" | "ar";
 
 export const FOCOS: { valor: Foco; rotulo: string }[] = [
   { valor: "wifi", rotulo: "Rede Wi-Fi" },
   { valor: "automacao", rotulo: "Automação residencial" },
   { valor: "seguranca", rotulo: "Câmeras de segurança" },
+  { valor: "ar", rotulo: "Ar-condicionado" },
 ];

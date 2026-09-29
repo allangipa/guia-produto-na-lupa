@@ -254,12 +254,14 @@ licenciada.
 Ferramentas de ajuda à compra, no mesmo método: pergunta sobre a casa, conta à
 vista, produto da base com fonte, lacuna escrita. Ordem proposta:
 
-1. **Ar-condicionado para o tamanho do cômodo.** Área, sol da tarde, pessoas,
-   aparelhos que esquentam, andar alto. Base da conta: a régua de 600 a 800 BTU
-   por m² que a LG publica (fonte citada); cada acréscimo rotulado como regra do
-   simulador. Resultado: BTU mínimo, os splits da base que atendem, a área que
-   seis fichas Electrolux declaram contra a conta, IDRS e faixa do INMETRO; e
-   quantas fichas não publicam área (9 de 15).
+1. ~~**Ar-condicionado para o tamanho do cômodo.**~~ **Feito em 29/09/2026**
+   (`lib/simulador-ar.ts`, `components/simulador-ar.tsx`, quarto projeto do
+   /simulador). A conta é a do simulador de capacidade da LG Brasil, lida no
+   código da página: 600 BTU/m² + 600 por pessoa, +20% no Norte, Nordeste e
+   Centro-Oeste, +15% com muito sol, +400 por TV, +600 por computador e por
+   geladeira; área até 100 m². Escolhe o menor tamanho da base que cobre a
+   conta e, dentro dele, o menor consumo anual declarado; a área que a
+   Electrolux declara aparece ao lado, porque as duas regras nem sempre batem.
 2. **Nobreak para qualquer carga.** O motor do projeto de câmeras aberto para
    computador, roteador e TV: watts somados, os que aguentam, onda e PFC.
 3. **Air fryer pelo tamanho da família.** Pela capacidade útil do cesto, não

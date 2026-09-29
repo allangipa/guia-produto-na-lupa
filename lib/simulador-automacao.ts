@@ -129,6 +129,7 @@ export const TIPOS = {
   presenca: "Sensor de presença",
   cameraInterna: "Câmera Wi-Fi interna",
   cameraExterna: "Câmera Wi-Fi externa",
+  voz: "Alto-falante inteligente",
 } as const;
 
 /**
@@ -289,7 +290,7 @@ export function montarProjetoAutomacao(r: RespostasAutomacao, baseTodas: Record<
   /** O que a ficha não garante para as duas perguntas do leitor. */
   const conferir = (p: Produto): string[] => {
     const c: string[] = [];
-    if (app && appDe(p) !== app) {
+    if (app && appDe(p) !== app && !eDoTipo(p, TIPOS.voz)) {
       c.push(`É de outro aplicativo (${appDe(p)}): entra um segundo app no celular, e automação entre as duas marcas só por assistente de voz, se as duas declararem o mesmo.`);
     }
     const a = declaraAssistente(p, r.assistente);
@@ -539,14 +540,25 @@ export function montarProjetoAutomacao(r: RespostasAutomacao, baseTodas: Record<
 
   if (r.assistente !== "nenhum" && !r.temAssistente) {
     const qual = { alexa: "com a Alexa (linha Echo)", google: "com o Google Assistente (linha Nest)", apple: "com a Siri (HomePod)", nenhum: "" }[r.assistente];
-    itens.push({
-      id: "voz",
-      grupo: "voz",
-      papel: "Alto-falante inteligente",
-      qtd: 1,
-      especificacao: `Um alto-falante inteligente ${qual}.`,
-      porque: "É por ele que o comando de voz chega às peças. O site ainda não apurou as fichas dos alto-falantes.",
-    });
+    // O alto-falante é do assistente, não do aplicativo das peças: a ordem
+    // aqui ignora o app escolhido e filtra pelo assistente que a ficha declara.
+    const falantes = ordenar(
+      base.filter((p) => eDoTipo(p, TIPOS.voz) && declaraAssistente(p, r.assistente) === true),
+      null,
+      r,
+    );
+    item(
+      "voz",
+      "voz",
+      "Alto-falante inteligente",
+      1,
+      falantes,
+      (p) => `É por ele que o comando de voz chega às peças. A ${p.marca} declara ${txt(p.specs.assistentes) || "o assistente"}.`,
+      {
+        especificacao: `Um alto-falante inteligente ${qual}.`,
+        porque: "É por ele que o comando de voz chega às peças. Nenhum alto-falante com ficha no site declara esse assistente.",
+      },
+    );
   }
 
   // CENTRAL -----------------------------------------------------------------
