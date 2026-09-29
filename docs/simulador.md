@@ -262,8 +262,12 @@ vista, produto da base com fonte, lacuna escrita. Ordem proposta:
    geladeira; área até 100 m². Escolhe o menor tamanho da base que cobre a
    conta e, dentro dele, o menor consumo anual declarado; a área que a
    Electrolux declara aparece ao lado, porque as duas regras nem sempre batem.
-2. **Nobreak para qualquer carga.** O motor do projeto de câmeras aberto para
-   computador, roteador e TV: watts somados, os que aguentam, onda e PFC.
+2. ~~**Nobreak para qualquer carga.**~~ **Feito em 29/09/2026** (`lib/simulador-nobreak.ts`,
+   `components/simulador-nobreak.tsx`, quinto projeto do /simulador). A pessoa
+   digita os watts da etiqueta de cada aparelho — o site não tem fonte para um
+   valor típico. Folga de 50% (a mesma do projeto de câmeras); só nobreaks que
+   declaram watts; com PFC ativo, só quem declara servir; "não sei" põe esses
+   primeiro. Autonomia só a declarada, com a carga do fabricante.
 3. **Air fryer pelo tamanho da família.** Pela capacidade útil do cesto, não
    pela da caixa; só 6 de 10 fichas publicam o útil.
 4. **Refil do purificador de água.** Consumo da casa em litros por dia contra a
