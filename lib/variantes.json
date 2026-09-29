@@ -320,6 +320,20 @@
     ],
     "original": 1000
   },
+  "/produtos/avant-neo-pera-10w.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 578
+  },
+  "/produtos/avant-tomada-smart-neo-10a.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 578
+  },
   "/produtos/basike-b206a.webp": {
     "larguras": [
       240,
@@ -1060,6 +1074,13 @@
       480
     ],
     "original": 900
+  },
+  "/produtos/ekaza-ekac-t217.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
   },
   "/produtos/ekaza-eknh-t216.webp": {
     "larguras": [
@@ -1824,6 +1845,13 @@
     ],
     "original": 1000
   },
+  "/produtos/garen-a00611.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 768
+  },
   "/produtos/hikvision-ds-7204hghi-k1.webp": {
     "larguras": [
       240,
@@ -2067,6 +2095,27 @@
     ],
     "original": 1000
   },
+  "/produtos/intelbras-elw-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 655
+  },
+  "/produtos/intelbras-etw-1002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-ews-301.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/intelbras-iac-110.webp": {
     "larguras": [
       240,
@@ -2088,12 +2137,40 @@
     ],
     "original": 801
   },
+  "/produtos/intelbras-im4-c.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 846
+  },
+  "/produtos/intelbras-im5-sc.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/intelbras-imhdx-3108.webp": {
     "larguras": [
       240,
       480
     ],
     "original": 700
+  },
+  "/produtos/intelbras-imx-c.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 620
+  },
+  "/produtos/intelbras-isi-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/intelbras-mca-1002.webp": {
     "larguras": [
@@ -2428,6 +2505,34 @@
     "original": 1200
   },
   "/produtos/jbr-guard-800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kabum-kssg007.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kabum-kssg008.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kabum-kssg009.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/kabum-kssg011.webp": {
     "larguras": [
       240,
       480
@@ -4473,6 +4578,13 @@
     ],
     "original": 1000
   },
+  "/produtos/positivo-smart-camera-externa.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/positivo-smart-controle-universal.webp": {
     "larguras": [
       240,
@@ -4515,6 +4627,13 @@
     ],
     "original": 818
   },
+  "/produtos/positivo-smart-plug-max.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/positivo-smart-plug.webp": {
     "larguras": [
       240,
@@ -4535,6 +4654,12 @@
       480
     ],
     "original": 1000
+  },
+  "/produtos/ppa-contatto-wifi.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 400
   },
   "/produtos/ragtech-easy-pro-nep-3200.webp": {
     "larguras": [
@@ -4837,6 +4962,13 @@
     ],
     "original": 1200
   },
+  "/produtos/steck-slamp1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/taiff-easy-1700.webp": {
     "larguras": [
       240,
@@ -4984,7 +5116,42 @@
     ],
     "original": 1000
   },
+  "/produtos/tplink-tapo-c113.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/tplink-tapo-c200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tapo-c210.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tapo-c216.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/tplink-tapo-c310.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 590
+  },
+  "/produtos/tplink-tapo-c320ws.webp": {
     "larguras": [
       240,
       480
@@ -4998,12 +5165,26 @@
     ],
     "original": 1000
   },
+  "/produtos/tplink-tapo-c510w.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/tplink-tapo-h110.webp": {
     "larguras": [
       240,
       480
     ],
     "original": 590
+  },
+  "/produtos/tplink-tapo-l530e.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/tplink-tapo-p110.webp": {
     "larguras": [
@@ -5053,6 +5234,27 @@
       480
     ],
     "original": 1000
+  },
+  "/produtos/tramontina-lampada-smart-10w.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/tramontina-ts-101.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/tramontina-ts-441.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
   },
   "/produtos/tsshara-concept-1400.webp": {
     "larguras": [
@@ -5438,6 +5640,41 @@
       480
     ],
     "original": 700
+  },
+  "/produtos/weg-hub-zigbee.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 960
+  },
+  "/produtos/weg-modulo-portao-17797010.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 540
+  },
+  "/produtos/weg-rele-15718934.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 560
+  },
+  "/produtos/weg-sensor-movimento-zigbee.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 540
+  },
+  "/produtos/weg-sensor-porta-janela-zigbee.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 540
   },
   "/produtos/xiaomi-pad-7-g1.webp": {
     "larguras": [

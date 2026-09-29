@@ -397,7 +397,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 709 produtos em 36 categorias, 36 guias,
+- **Inventário em 29/09/2026: 743 produtos em 36 categorias, 36 guias,
   56 comparativos e 44 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -852,6 +852,19 @@ confunde com documento sem folha de estilo.
   "produto sem foto dá uma impressão de site falso"); Nova Digital ZC-GM42 (foto com a caixa); Tapo H100 e interruptores
   Tapo (sem anúncio nacional ou só 100–120 V); sensores 433 MHz da Positivo (sem
   anúncio); Tuya/Zemismart/Sonoff (sem página oficial no Brasil).
+
+  **Segunda rodada, no mesmo 29/09/2026: casa conectada foi a 78 fichas**, com
+  meta de três opções por tipo. Entraram lâmpadas (Tapo L530E, Intelbras ELW
+  1001, Tramontina, Steck, Avant), tomadas (Positivo Plug Max, Intelbras EWS 301,
+  Tramontina TS 441, Avant), tomadas de embutir (Intelbras ETW 1002, Ekaza T217 —
+  tipo próprio, "Tomada de embutir inteligente", para não concorrer com as de
+  encaixar), relés WEG e Tramontina, módulos de portão WEG, Garen e PPA, câmeras
+  Wi-Fi (Tapo C310, C320WS, C510W, C113, C216, C210; Intelbras iM5 SC, iMX C,
+  iM4 C; Positivo externa), sensores KaBuM! smart e WEG Home com as centrais
+  deles, e a sirene Intelbras ISI 1001. **Sensor de vazamento: zero** — ninguém
+  com página oficial e anúncio vende. Ficaram de fora Rossi (foto com QR code
+  de instalação), JWCOM (fotos com nome de arquivo do Mercado Livre, licença
+  incerta), Google Nest (não é vendido oficialmente no Brasil).
 
   **Cada peça da lista mostra até 3 opções da base** (`OPCOES_POR_ITEM` em
   `lib/simulador-lista.ts`), decisão do Allan: a indicada com o porquê, as outras

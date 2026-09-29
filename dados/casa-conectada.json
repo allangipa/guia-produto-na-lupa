@@ -6,7 +6,7 @@
     "modelo": "Tapo P110",
     "categoria": "casa-conectada",
     "resumo": "A única desta lista que diz, por escrito, que o controle local funciona sem internet e sem a nuvem. Também é a única que mede consumo — e aguenta 2.400 W, contra os 1.000 W da concorrente da Positivo.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "tipo": "Tomada inteligente",
       "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
@@ -22,7 +22,7 @@
       "visaoNoturnaM": null,
       "armazenamentoVideo": null,
       "protecaoIp": null,
-      "garantiaMeses": null,
+      "garantiaMeses": 24,
       "precisaHub": null,
       "precisaNeutro": null,
       "teclas": null,
@@ -63,6 +63,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo e a versão bivolt. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-29",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'."
       }
     ],
     "imagem": {
@@ -223,7 +231,7 @@
     "modelo": "Tapo C500",
     "categoria": "casa-conectada",
     "resumo": "A de fora de casa: IP65 e visão noturna de quase 30 metros, contra os 9 das internas. A TP-Link diz que ela funciona com o cartão local, sem depender obrigatoriamente da nuvem.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-09-29",
     "specs": {
       "tipo": "Câmera Wi-Fi externa",
       "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
@@ -239,7 +247,7 @@
       "visaoNoturnaM": 29.9,
       "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
       "protecaoIp": "IP65",
-      "garantiaMeses": null,
+      "garantiaMeses": 24,
       "precisaHub": null,
       "precisaNeutro": null,
       "teclas": null,
@@ -279,6 +287,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo externo com giro de 360°. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-29",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'."
       }
     ],
     "imagem": {
@@ -3949,6 +3965,3165 @@
       "alt": "Ekaza EKNH-T216",
       "credito": "Imagem: Ekaza",
       "origem": "https://www.ekaza.com.br/cortina-inteligente/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "tplink-tapo-l530e",
+    "nome": "TP-Link Tapo L530E",
+    "marca": "TP-Link",
+    "modelo": "Tapo L530E",
+    "categoria": "casa-conectada",
+    "resumo": "Lâmpada Wi-Fi colorida, 806 lúmens, rosca E27, 2 anos de garantia pela política da TP-Link Brasil. A potência aparece de quatro jeitos: 8,2 W na tabela e no datasheet, 8,7 W no título da própria página, 8,3 W no título da Amazon e 60 W no anúncio do kit, que põe a \"equivalência\" no campo de consumo.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Lâmpada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Amazon Alexa e Google Assistant",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": 806,
+      "temperaturaCorK": "2.500 K a 6.500 K, mais RGB (16 milhões de cores)",
+      "corRgb": true,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Rosca E27 (versão UE/TW; a E26 é das versões US/KR/JP), 100–240 V, 50/60 Hz, 73 mA",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08GDC99PX"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-l530e-1",
+        "titulo": "Tapo L530E — página oficial da TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/home-networking/smart-bulb/tapo-l530e/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Título '806 lumens 8,7 W'; tabela: Wi-Fi 2,4 GHz b/g/n, consumo ponderado 8,7 kWh/1000 h, IRC ≥ 80, 15.000 'círculos de troca', base E27 (UE/TW), 115 × 60 mm, vida útil 15.000 h, entrada 100–240 V 50/60 Hz 73 mA, 806 lm, potência de entrada 8,2 W, 2.500–6.500 K, ângulo 220°, regulável; texto: 16 milhões de cores, 'equivalente a 60 watts', sem hub, Alexa e Google Assistant, app Tapo.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-l530e-2",
+        "titulo": "Tapo L530E — página oficial Tapo Brasil",
+        "url": "https://www.tapo.com/br/product/smart-light-bulb/tapo-l530e/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Mesma tabela da TP-Link BR (versão em inglês) e links do datasheet e do guia rápido BR; certificação listada: só CE.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-l530e-3",
+        "titulo": "Tapo L530E(BR) V1.0 — Datasheet (PDF)",
+        "url": "https://static.tp-link.com/upload/product-overview/2023/202305/20230525/Tapo%20L530E(BR)_V1.0_Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "A60/E27, 220°, 100–240 V, 'ciclo de comutação 15.000 horas', equivalente a 60 W, 2.500–6.500 K, IRC 80, aquecimento ≤ 1 s, dimerizável só via app e voz, 806 lm, consumo ponderado 9 kWh/1000 h, potência 8,2 W, SDCM 6, classe F, standby 0,4 W, 68 g, certificações CE/ERP/RoHS/SAA/RCM, 0–40 °C.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-l530e-4",
+        "titulo": "TP-Link Brasil — Política de Garantia (Linha Tapo)",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-l530e-5",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08GDC99PX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título ('8,3 W'), ranking (Nº 23 em Lâmpadas). Nenhum número da ficha saiu daqui; a tabela do anúncio diz 'Voltagem 110' e 'Temperatura de cor 2700 Kelvin', que é só o padrão de fábrica.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-l530e.webp",
+      "alt": "TP-Link Tapo L530E",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/smart-bulb/tapo-l530e/"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Ciclo de comutação: 15.000 (página, 'Círculos de Troca')",
+        "valorDivergente": "15.000 horas",
+        "fonteDivergente": "Datasheet BR",
+        "observacao": "Ciclo de comutação é número de acendimentos, não horas; o datasheet troca a unidade. A vida útil, separada, também é 15.000 h."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-elw-1001",
+    "nome": "Intelbras ELW 1001",
+    "marca": "Intelbras",
+    "modelo": "ELW 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Lâmpada Wi-Fi e Bluetooth colorida de 10 W, 806 lúmens, exclusiva do app Mibo Smart. A temperatura de cor é 3.000 a 6.000 K no datasheet e chega a 6.500 K no manual.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Lâmpada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n) e Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": 806,
+      "temperaturaCorK": "3.000 K a 6.000 K (datasheet), mais RGB (16 milhões de cores)",
+      "corRgb": true,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Rosca E27, formato A60, 100–240 Vca 50/60 Hz (bivolt automático)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GZ5GK5PQ"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-elw-1001-1",
+        "titulo": "Lâmpada LED smart Wi-Fi EWS 410 & ELW 1001 — página oficial Intelbras",
+        "url": "https://www.intelbras.com/pt-br/lampada-led-smart-wi-fi-ews-410-elw-1001",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Página única para os dois modelos; texto sobre compatibilidade de app (EWS 410 Izy e Mibo; ELW 1001 só Mibo); links do datasheet e do manual.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-elw-1001-2",
+        "titulo": "ELW 1001 — Datasheet (PDF)",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-05/ELW%201001%20-%20Datasheet%2008.10.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "App Mibo Smart exclusivo, 100–240 Vca, 806 lm, 10 W ± 10%, RGB + branco quente e frio, 3.000–6.000 K, dimerizável via app, A60, E27, 25.000 h, 0–40 °C, Wi-Fi b/g/n 2,4 GHz, Bluetooth 5.1, alcance 15–20 m, Anatel 11000-24-00160, 60 × 118 × 60 mm, 48 g; foto do produto.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-elw-1001-3",
+        "titulo": "ELW 1001 — Manual do usuário (PDF)",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-03/Manual_ELW_1001_01-26_site.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Termo de garantia (1 ano: 90 dias legais + 9 meses contratuais); especificação '3000-6500 K' e 60 × 119 × 60 mm; uso em luminárias abertas; exige Wi-Fi 2,4 GHz com internet.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-elw-1001-4",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GZ5GK5PQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking; vendido pela Loja Intelbras Oficial. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-elw-1001.webp",
+      "alt": "Intelbras ELW 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/lampada-led-smart-wi-fi-ews-410-elw-1001"
+    },
+    "divergencias": [
+      {
+        "campo": "temperaturaCorK",
+        "fonteAdotada": "3.000 K a 6.000 K — datasheet ELW 1001",
+        "valorDivergente": "3.000–6.500 K",
+        "fonteDivergente": "Manual do usuário ELW 1001",
+        "observacao": "Datasheet e manual do mesmo modelo discordam no limite frio."
+      }
+    ]
+  },
+  {
+    "slug": "tramontina-lampada-smart-10w",
+    "nome": "Tramontina Smart LED 10 W",
+    "marca": "Tramontina",
+    "modelo": "58020030 (Smart LED 10 W Wi-Fi + Bluetooth)",
+    "categoria": "casa-conectada",
+    "resumo": "Lâmpada colorida de 10 W e 810 lúmens, com 24 meses de garantia. A ficha da Tramontina diz por escrito que ela usa a plataforma Tuya (módulo CB2L); 1ª em Lâmpadas especiais na Amazon em 29/09/2026.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Lâmpada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz e Bluetooth LE (módulo Tuya CB2L)",
+      "appProprio": "T smart",
+      "assistentes": "Google Assistente, Amazon Alexa e Siri",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": 810,
+      "temperaturaCorK": "2.700 K a 6.500 K, mais RGB (16 milhões de cores)",
+      "corRgb": true,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Rosca E27, 100–240 V, 50–60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09HXWRWB4"
+    },
+    "fontes": [
+      {
+        "id": "tramontina-lampada-smart-10w-1",
+        "titulo": "Lâmpada de LED Smart Tramontina Base E27 10 W Bivolt RGBW Wi-Fi + Bluetooth — loja oficial Tramontina",
+        "url": "https://www.tramontina.com.br/lampada-de-led-smart-tramontina-base-e27-10-w-bivolt-com-16-milhoes-de-cores-rgbw-wi-fi-bluetooth/58020117.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "100–240 V, Wi-Fi 2,4 GHz, não usar com dimmer (dimeriza pelo app), comando por Google Assistant e Alexa, 11,8 × 6 × 6 cm, 50 g, garantia de 2 anos. A página tem código 58020117 na URL e usa os arquivos (ficha, manual, fotos) do código 58020030.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tramontina-lampada-smart-10w-2",
+        "titulo": "Ficha técnica 58020030 (PDF, DT-088 Rev.03)",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/ELT/58020030FIP001.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "10 W, 100–240 V, 50–60 Hz, FP > 0,70, 810 lm, 80 lm/W, 2.700–6.500 K + RGB, IRC > 80, 200°, bulbo, Wi-Fi/Bluetooth 2,4 GHz, comando de voz Google, Alexa e Siri, E27, 25.000 h, −10 a 45 °C, IP20, plataforma Tuya, módulo CB2L, Anatel 08207-21-11765, app T smart Tramontina, 120 mm × 60 mm, 45 g.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tramontina-lampada-smart-10w-3",
+        "titulo": "Guia rápido 58020030 (PDF)",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/ELT/58020030MIM001.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "10 W, 810 lm, 2.700–6.500 K + RGB, IRC 80, garantia de 2 anos, função do Bluetooth.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tramontina-lampada-smart-10w-4",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09HXWRWB4",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking (Nº 1 em Lâmpadas especiais); o vídeo do anúncio cita o código 58020030. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tramontina-lampada-smart-10w.webp",
+      "alt": "Tramontina Smart LED 10 W",
+      "credito": "Imagem: Tramontina",
+      "origem": "https://www.tramontina.com.br/lampada-de-led-smart-tramontina-base-e27-10-w-bivolt-com-16-milhoes-de-cores-rgbw-wi-fi-bluetooth/58020117.html"
+    },
+    "divergencias": [
+      {
+        "campo": "fluxoLumens",
+        "fonteAdotada": "IRC > 80 — ficha técnica Tramontina",
+        "valorDivergente": "Índice de renderização de cor 60; 'Consumo de energia: 1 Watt'",
+        "fonteDivergente": "Tabela do anúncio na Amazon",
+        "observacao": "Varejo; não conta como confirmação nem contradição da marca. Registrado porque o anúncio contradiz a ficha."
+      },
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Página oficial com código 58020117 na URL",
+        "valorDivergente": "Ficha, manual e fotos com código 58020030",
+        "fonteDivergente": "Arquivos da mesma página",
+        "observacao": "Dois códigos para o mesmo produto na mesma página; o anúncio da Amazon usa 58020030."
+      }
+    ]
+  },
+  {
+    "slug": "steck-slamp1",
+    "nome": "Steck SLAMP1",
+    "marca": "Steck",
+    "modelo": "SLAMP1",
+    "categoria": "casa-conectada",
+    "resumo": "Lâmpada Wi-Fi colorida de 12 W e 1.055 lúmens declarados. A mesma página dá 2.700 K no campo técnico e 3.000 K na descrição, e não traz prazo de garantia.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Lâmpada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n) ou BLE",
+      "appProprio": "Steck",
+      "assistentes": "Google Home, Amazon Alexa e Apple Siri",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": 1055,
+      "temperaturaCorK": "2.700 K a 6.500 K (campo técnico), mais RGB (16 milhões de cores)",
+      "corRgb": true,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Rosca E27, 100–240 Vca 50/60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F6YT9B5Y"
+    },
+    "fontes": [
+      {
+        "id": "steck-slamp1-1",
+        "titulo": "Lâmpada Rgb+ 12W Wi-Fi Ble Steck Ambiente Conectado — página oficial Steck",
+        "url": "https://www.steck.com.br/produto/lampada-rgb-12w-wi-fi-ble-steck-ambiente-conectado",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Descrição: RGB CCT 3.000–6.500 K, Wi-Fi com internet ou BLE sem gateway, Google Home/Alexa/Siri. Campo técnico: 12 W, 100–240 Vca 50/60 Hz, 1.055 lm, 2.700–6.500 K, ~25.000 h, Wi-Fi b/g/n 2,4 GHz, E27. Peso 77 g, EAN. (Lido do JSON embutido da página, renderizada por JavaScript.)",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "steck-slamp1-2",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F6YT9B5Y",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking. O anúncio fala em '12 meses de garantia' e 'equivalente a 80 W' — nenhum dos dois está na página da Steck, e não entraram na ficha.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/steck-slamp1.webp",
+      "alt": "Steck SLAMP1",
+      "credito": "Imagem: Steck",
+      "origem": "https://www.steck.com.br/produto/lampada-rgb-12w-wi-fi-ble-steck-ambiente-conectado"
+    },
+    "divergencias": [
+      {
+        "campo": "temperaturaCorK",
+        "fonteAdotada": "2.700 K a 6.500 K — campo 'técnico' da página Steck",
+        "valorDivergente": "3.000 K a 6.500 K",
+        "fonteDivergente": "Descrição da mesma página Steck",
+        "observacao": "A mesma página traz duas faixas de temperatura de cor."
+      }
+    ]
+  },
+  {
+    "slug": "avant-neo-pera-10w",
+    "nome": "Avant NEO Pera 10 W",
+    "marca": "Avant",
+    "modelo": "290018079 (LED-PER-NEO-AM2700K-BR6500K-10W-BIVOLT)",
+    "categoria": "casa-conectada",
+    "resumo": "Lâmpada Wi-Fi de 10 W e 810 lúmens que ajusta o branco de 2.700 a 6.500 K e não muda de cor — a única sem RGB desta leva.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Lâmpada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": "Avant",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": 810,
+      "temperaturaCorK": "2.700 K a 6.500 K (branco quente a frio, sem RGB)",
+      "corRgb": false,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Rosca E27, bivolt automático 100–240 V",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09RWDX6BQ"
+    },
+    "fontes": [
+      {
+        "id": "avant-neo-pera-10w-1",
+        "titulo": "Pera NEO — página oficial Avant",
+        "url": "https://avantlux.com.br/produtos/pera-neo/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência 10 W e 15 W; temperatura 2.700–6.500 K ou 2.700–6.500 K + RGB; bivolt; E27; garantia 1 ano; IP20; dimerizável; configuração pelo aplicativo Avant.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "avant-neo-pera-10w-2",
+        "titulo": "Ficha técnica da Linha Inteligente NEO (PDF, nov/2024)",
+        "url": "https://img.avantlux.com.br/fichastecnicas/ficha-tecnica-familia-neo-2.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Código 290018079 = LED-PER-NEO-AM2700K-BR6500K-10W-BIVOLT; 810 lm; Wi-Fi 2,4 GHz; app Avant, Alexa e Google Assistente; IP20; bivolt automático 100–240 V; vida útil até 25 mil horas; dimerizável através do aplicativo.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "avant-neo-pera-10w-3",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09RWDX6BQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, número de peça 290018079, ranking; vendido pela própria Avant. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/avant-neo-pera-10w.webp",
+      "alt": "Avant NEO Pera 10 W",
+      "credito": "Imagem: Avant",
+      "origem": "https://avantlux.com.br/produtos/pera-neo/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "positivo-smart-plug-max",
+    "nome": "Positivo Smart Plug Max 16 A",
+    "marca": "Positivo",
+    "modelo": "Smart Plug Max Wi-Fi (11185636)",
+    "categoria": "casa-conectada",
+    "resumo": "Tomada Wi-Fi de 16 A que mede consumo. A Positivo declara 1.600 W e 16 A, números que só batem a 100 V; a 127 V, 16 A dariam mais que isso, e a ficha não diz qual vale.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Tomada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n)",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1600,
+      "medeConsumo": true,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BNSVWWDR"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-plug-max-1",
+        "titulo": "Smart Plug Max Wi-Fi — loja oficial Positivo Casa Inteligente (VTEX)",
+        "url": "https://www.positivocasainteligente.com.br/smart-plug-max-wi-fi-11185636/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência máxima 1.600 W, 100–240 Vca 50/60 Hz, 16 A carga resistiva, Wi-Fi b/g/n 2,4 GHz, WPA/WPA2, plugue NBR 14136, pinos 4,8 mm, Anatel e RoHS, 0–50 °C, 62,3 × 42,3 × 68 mm, 95 g; app Positivo Casa Inteligente; monitoramento de consumo em tempo real. Lido pela API /api/catalog_system/pub/products/search.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-plug-max-2",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BNSVWWDR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking. A tabela do anúncio diz 'IP54', 'Montagem na parede' e '1600 Watt-hours' — nada disso entrou.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-plug-max.webp",
+      "alt": "Positivo Smart Plug Max 16 A",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-plug-max-wi-fi-11185636/p"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "1.600 W, 16 A — loja oficial Positivo",
+        "valorDivergente": "'1600 Watt-hours', 'IP54'",
+        "fonteDivergente": "Tabela do anúncio na Amazon",
+        "observacao": "Varejo transforma potência em energia (Wh) e inventa grau de proteção; não entra."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-ews-301",
+    "nome": "Intelbras EWS 301",
+    "marca": "Intelbras",
+    "modelo": "EWS 301",
+    "categoria": "casa-conectada",
+    "resumo": "Tomada Wi-Fi que mede consumo, do app Izy Smart. O datasheet declara 2.200 W sem dizer a tensão; o manual completo diz 2.200 W em 220 V e 1.100 W em 110 V.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Tomada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n)",
+      "appProprio": "Izy Smart",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1100,
+      "medeConsumo": true,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B096YCKT8C"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-ews-301-1",
+        "titulo": "Conector smart Wi-Fi universal EWS 301 & ETW 3001 — página oficial Intelbras",
+        "url": "https://www.intelbras.com/pt-br/conector-smart-wi-fi-universal-ews-301-etw-3001",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Página dos dois modelos, fotos do EWS 301, links de datasheet e manuais.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ews-301-2",
+        "titulo": "EWS 301 — Datasheet (PDF)",
+        "url": "https://backend.intelbras.com/sites/default/files/2021-06/EWS%20301%20-%20Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "100–240 Vac 50/60 Hz, 10 A, 2.200 W FP1, 1,2 W de consumo próprio, NBR 14136, Wi-Fi b/g/n 2,4 GHz, 20–30 m, app Izy Smart, medição de consumo, Alexa e Google Assistente, botão físico, 0–40 °C, dimensões e peso, Anatel 11012-20-11765.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ews-301-3",
+        "titulo": "EWS 301 — Manual completo (PDF)",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_completo_EWS_301_01-26_site_0.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "2.200 W (FP=1) em 220 Vac e 1.100 W (FP=1) em 110 Vac; app Izy Smart; termo de garantia de 1 ano (90 dias + 9 meses).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ews-301-4",
+        "titulo": "ETW 3001 — Manual do usuário (PDF)",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-08/Manual_ETW_3001_01-26_site.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Só para a nota sobre o sucessor: 10 A, 1.270 W (FP=1) em 127 Vac e 2.200 W em 220 Vac, incerteza de medição 5%, app Mibo Smart, 76 × 38 × 65 mm.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ews-301-5",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B096YCKT8C",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking. O anúncio diz 'distância máxima do roteador de 15 a 20 m', contra 20–30 m do datasheet; não entrou.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-ews-301.webp",
+      "alt": "Intelbras EWS 301",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/conector-smart-wi-fi-universal-ews-301-etw-3001"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "2.200 W (FP=1) em 220 Vac; 1.100 W em 110 Vac — manual completo",
+        "valorDivergente": "2.200 W FP1, sem tensão",
+        "fonteDivergente": "Datasheet EWS 301",
+        "observacao": "O datasheet omite que o número vale só a 220 V. Adotado 2.200 W com a condição escrita na nota."
+      },
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "20 a 30 m sem obstáculos — datasheet",
+        "valorDivergente": "15 a 20 m",
+        "fonteDivergente": "Anúncio na Amazon",
+        "observacao": "Alcance Wi-Fi; varejo não conta."
+      }
+    ]
+  },
+  {
+    "slug": "tramontina-ts-441",
+    "nome": "Tramontina TS 441",
+    "marca": "Tramontina",
+    "modelo": "TS 441 (57498030)",
+    "categoria": "casa-conectada",
+    "resumo": "Tomada Wi-Fi de 10 A que mede consumo, 24 meses de garantia. A Tramontina não declara carga em watts; o \"1.000 W\" existe só no anúncio da Amazon.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Tomada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz (b/g/n); Bluetooth para configuração (texto da página)",
+      "appProprio": "T smart",
+      "assistentes": "Alexa e Google Home",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": true,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFYVPJWJ"
+    },
+    "fontes": [
+      {
+        "id": "tramontina-ts-441-1",
+        "titulo": "Plugue Smart Tomada 2P+T 10 A 250 V Tramontina — loja oficial",
+        "url": "https://www.tramontina.com.br/plugue-smart-tomada-2p-t-10-a-250-v-tramontina/57498030.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Medição de consumo mês a mês, Wi-Fi 2,4 GHz, configuração com Bluetooth, 10 A, bivolt, 62 g, garantia de 2 anos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tramontina-ts-441-2",
+        "titulo": "Ficha técnica TS 441 (PDF)",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/ELT/57498030FIP001.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "90–250 V AC, 10 A, Wi-Fi 2.4 GHz b/g/n, 50/60 Hz, −10 a 40 °C, Android/iOS, botão/aplicativo/Alexa/Google Home, 80 × 38 × 64,5 mm, 62 g, módulo CB2S (Anatel 08206-21-11765), garantia 2 anos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tramontina-ts-441-3",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CFYVPJWJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título (modelo TS-441), ranking. '1.000 W' e 'app T Smart' vêm só daqui e não entraram.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tramontina-ts-441.webp",
+      "alt": "Tramontina TS 441",
+      "credito": "Imagem: Tramontina",
+      "origem": "https://www.tramontina.com.br/plugue-smart-tomada-2p-t-10-a-250-v-tramontina/57498030.html"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "Não declarada — só 10 A na ficha e na página",
+        "valorDivergente": "1.000 W",
+        "fonteDivergente": "Tópicos do anúncio na Amazon",
+        "observacao": "Número sem fonte oficial; campo fica vazio."
+      }
+    ]
+  },
+  {
+    "slug": "avant-tomada-smart-neo-10a",
+    "nome": "Avant Tomada Smart NEO 10 A",
+    "marca": "Avant",
+    "modelo": "290600076 (TOMADA-SMART-NEO-10A)",
+    "categoria": "casa-conectada",
+    "resumo": "Tomada Wi-Fi de 10 A. A página não declara carga em watts, tensão nem se mede consumo, e a garantia não está escrita.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Tomada inteligente",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": "Avant",
+      "assistentes": "Amazon Alexa e Google Assistente (ficha da linha NEO)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DG62SSMK"
+    },
+    "fontes": [
+      {
+        "id": "avant-tomada-smart-neo-10a-1",
+        "titulo": "Tomada Smart NEO — página oficial Avant",
+        "url": "https://avantlux.com.br/produtos/tomada-smart-neo/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Corrente 10 A ou 20 A, cor branca, configuração pelo aplicativo Avant, controle por Wi-Fi ou internet móvel.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "avant-tomada-smart-neo-10a-2",
+        "titulo": "Ficha técnica da Linha Inteligente NEO (PDF, nov/2024)",
+        "url": "https://img.avantlux.com.br/fichastecnicas/ficha-tecnica-familia-neo-2.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "290600076 TOMADA-SMART-NEO-10A, EAN 7899452038722, 10 A, 70 × 40 × 78 mm, 69 g; Wi-Fi 2,4 GHz; app Avant, Alexa e Google Assistente.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "avant-tomada-smart-neo-10a-3",
+        "titulo": "Anúncio na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DG62SSMK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, EAN, ranking. Nada da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/avant-tomada-smart-neo-10a.webp",
+      "alt": "Avant Tomada Smart NEO 10 A",
+      "credito": "Imagem: Avant",
+      "origem": "https://avantlux.com.br/produtos/tomada-smart-neo/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "weg-modulo-portao-17797010",
+    "nome": "WEG Módulo de Portão Wi-Fi",
+    "marca": "WEG",
+    "modelo": "17797010",
+    "categoria": "casa-conectada",
+    "resumo": "Módulo Wi-Fi para abrir o portão pelo celular, no app WEG Home. A página diz \"compatível com assistentes de voz\" sem nomear quais, e o anúncio da Amazon publica tensão e corrente que a página não publica.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Módulo de portão",
+      "conexao": "Wi-Fi IEEE 802.11 b/g/n 2,4 GHz",
+      "appProprio": "WEG Home",
+      "assistentes": "Não nomeados: a página diz apenas \"Compatível com assistentes de voz para comandos práticos\"",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F6VX28H5"
+    },
+    "fontes": [
+      {
+        "id": "weg-modulo-portao-17797010-1",
+        "titulo": "Página oficial WEG Home — Módulo Portão de Garagem Wi-Fi",
+        "url": "https://www.weg.net/weghome/produto/modulo-portao-de-garagem-wi-fi/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Descrição, sensor reed switch, \"sem hubs adicionais\", \"assistentes de voz\", IP20, dimensões, Wi-Fi 2,4 GHz. Página só abre no navegador (Akamai bloqueia curl).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-modulo-portao-17797010-2",
+        "titulo": "Catálogo de produtos WEG Smart Home 50112096 (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/h66/h96/WEG-weg-home-catalogo-50112096-pt.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Ficha resumida do produto no catálogo (seção Soluções Wi-Fi).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-modulo-portao-17797010-3",
+        "titulo": "Termo de garantia limitada WEG Home / WCAM (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/hce/hb2/WEG-termo-de-garantia-tomadas-e-interruptores-WEG-Home-WCAM-pt.pdf",
+        "tipo": "garantia",
+        "oQueSaiuDaqui": "Prazo total de 12 meses para produtos conectados da linha WEG Home, contados da entrega, limitado a 24 meses da fabricação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-modulo-portao-17797010-4",
+        "titulo": "Anúncio Amazon B0F6VX28H5",
+        "url": "https://www.amazon.com.br/dp/B0F6VX28H5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo 17797010, ranking. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/weg-modulo-portao-17797010.webp",
+      "alt": "WEG Módulo de Portão Wi-Fi",
+      "credito": "Imagem: WEG",
+      "origem": "https://www.weg.net/weghome/produto/modulo-portao-de-garagem-wi-fi/"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Página oficial e catálogo WEG (não declaram)",
+        "valorDivergente": "100–240 Vac, corrente máxima 5 A, standby < 0,5 W, conexão Fase (L) e Neutro (N)",
+        "fonteDivergente": "Anúncio Amazon B0F6VX28H5",
+        "observacao": "O varejo publica uma tabela mais completa que a do fabricante. Não se adota: campo fica null e a lacuna fica escrita."
+      }
+    ]
+  },
+  {
+    "slug": "garen-a00611",
+    "nome": "Garen A00611",
+    "marca": "Garen",
+    "modelo": "A00611",
+    "categoria": "casa-conectada",
+    "resumo": "Módulo Wi-Fi de portão, e o único desta base que declara funcionar sem internet, na rede local depois de pareado. O manual torna a fotocélula obrigatória, dá 12 V DC em três trechos e 90–240 VCA em outro, e chama o app por dois nomes.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Módulo de portão",
+      "conexao": "Wi-Fi 802.11 b/g/n20 2,4 GHz (5 GHz não suportado)",
+      "appProprio": "G.Smart 4.0",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "12 V DC",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HDJMLYPZ"
+    },
+    "fontes": [
+      {
+        "id": "garen-a00611-1",
+        "titulo": "Página oficial Garen — Módulo Wi-Fi 1 Canal",
+        "url": "https://garen.com.br/produto/modulo-wi-fi-1-canal/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Código A00611, alimentação 12 V DC, 1 canal, Wi-Fi 802.11 b/g/n20 2,4 GHz, sensor aberto/fechado, app G.Smart 4.0.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "garen-a00611-2",
+        "titulo": "Manual do usuário Módulo Wi-Fi 1 Canal (PDF oficial, rev. 01)",
+        "url": "https://garen.com.br/wp-content/uploads/2023/12/manual-livreto-modulo-wi-fi-1-canal-C0XXXX-PT-ES-multimarcas-IMP-rev01.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Bornes, requisitos de rede, funcionamento sem internet após pareamento, parâmetros elétricos do relé, fotocélula obrigatória, garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "garen-a00611-3",
+        "titulo": "Manual Módulo Wi-Fi 1 Canal em docs.garen.com.br (versão C02412)",
+        "url": "https://docs.garen.com.br/manuais/manual_modulo_wifi_1canal.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Mesmo texto do manual acima; muda só o código da capa (C02412 em vez de C0XXXX).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "garen-a00611-4",
+        "titulo": "Anúncio Amazon B0HDJMLYPZ",
+        "url": "https://www.amazon.com.br/dp/B0HDJMLYPZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo A00611. Sem ranking exibido. Nenhum número saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/garen-a00611.webp",
+      "alt": "Garen A00611",
+      "credito": "Imagem: Garen",
+      "origem": "https://garen.com.br/produto/modulo-wi-fi-1-canal/"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Página oficial (\"12V DC\") e o próprio manual (\"Borne de Alimentação +12V DC\"; \"Deve-se utilizar uma fonte de alimentação 12 Volts\")",
+        "valorDivergente": "Alimentação de 90~240VAC",
+        "fonteDivergente": "Manual, seção Parâmetros elétricos",
+        "observacao": "O manual se contradiz: três trechos dizem 12 V DC e a lista de parâmetros diz 90–240 VCA. Adotado 12 V DC, que é também o que a página e o título do anúncio (\"Fonte 12V\") dizem."
+      },
+      {
+        "campo": "appProprio",
+        "fonteAdotada": "Página e manual, seção de configuração (\"G.SMART 4.0\")",
+        "valorDivergente": "G.MOBILE",
+        "fonteDivergente": "Manual, item 4 das Características (\"CONFIGURANDO O APLICATIVO G.MOBILE\")",
+        "observacao": "O mesmo manual chama o app por dois nomes."
+      }
+    ]
+  },
+  {
+    "slug": "ppa-contatto-wifi",
+    "nome": "PPA Contatto Wi-Fi",
+    "marca": "PPA",
+    "modelo": "Contatto Wi-Fi",
+    "categoria": "casa-conectada",
+    "resumo": "Módulo Wi-Fi da PPA para portão, alimentado em 12 V pela central. O anúncio da Amazon diz \"4 saídas de relé, 5 A\"; o manual descreve uma saída, sem corrente declarada.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Módulo de portão",
+      "conexao": "Wi-Fi (padrão e faixa não declarados)",
+      "appProprio": "Contatto",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "12 Vdc (borne da central ou fonte externa de 12 Vdc 1 A)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B088ZM5PVV"
+    },
+    "fontes": [
+      {
+        "id": "ppa-contatto-wifi-1",
+        "titulo": "Página oficial PPA — Módulo Contatto Wi-Fi",
+        "url": "https://www.ppa.com.br/brasil/products/modulos/produto/modulo-contatto-wi-fi",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Descrição, 1 saída de relê, compatibilidade com alarme, cerca e portão.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ppa-contatto-wifi-2",
+        "titulo": "Manual Contatto Wi-Fi P06809 REV6, 05/2023 (PDF oficial)",
+        "url": "https://media.ppa.com.br/files/P06809_MANUAL_CONTATTO_WI-FI_REV6_1782152594574.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Conexões, jumper de aplicação, consumo de 120 mA, fonte externa 12 Vdc 1 A, app \"Contatto\", garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ppa-contatto-wifi-3",
+        "titulo": "Guia de instalação Contatto Wi-Fi (PDF oficial)",
+        "url": "https://media.ppa.com.br/files/GUIA_DE_INSTALACAO_CONTATTO_WIFI_1680182626855.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Tabela de fios por aplicação; consumo declarado de 100 mA.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ppa-contatto-wifi-4",
+        "titulo": "Anúncio Amazon B088ZM5PVV",
+        "url": "https://www.amazon.com.br/dp/B088ZM5PVV",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, marca PPA, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/ppa-contatto-wifi.webp",
+      "alt": "PPA Contatto Wi-Fi",
+      "credito": "Imagem: PPA",
+      "origem": "https://www.ppa.com.br/brasil/products/modulos/produto/modulo-contatto-wi-fi"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Manual REV6: \"O Contatto Wi-Fi tem um consumo relativamente de 120mA\"",
+        "valorDivergente": "\"consumo relativamente alto de corrente, de 100mA\"",
+        "fonteDivergente": "Guia de instalação Contatto Wi-Fi (PDF oficial)",
+        "observacao": "Os dois documentos oficiais discordam do consumo; o manual mais recente (REV6) foi adotado na nota."
+      }
+    ]
+  },
+  {
+    "slug": "weg-rele-15718934",
+    "nome": "WEG Relé Interruptor Wi-Fi + RF",
+    "marca": "WEG",
+    "modelo": "15718934",
+    "categoria": "casa-conectada",
+    "resumo": "Relé Wi-Fi com receptor de controle remoto de 433 MHz, que precisa de fio neutro. Declara 2.200 W; o módulo de rádio tem a mesma homologação Anatel de relés da Tramontina e da JWCOM.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Relé inteligente",
+      "conexao": "Wi-Fi IEEE 802.11 b/g/n 2,4 GHz + RF 433 MHz (controle vendido separadamente)",
+      "appProprio": "WEG Home",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 2200,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": null,
+      "alimentacao": "90–250 Vac (bivolt automático) 50/60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09GTBSJ3P"
+    },
+    "fontes": [
+      {
+        "id": "weg-rele-15718934-1",
+        "titulo": "Página oficial WEG Home — Relé de Contato Seco 1 Canal Wi-Fi + RF",
+        "url": "https://www.weg.net/weghome/produto/interruptor-wi-fi-whome/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Alimentação 90–250 Vca, 10 A, contato seco, trilho DIN, Alexa e Google. Só abre no navegador.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-rele-15718934-2",
+        "titulo": "Datasheet Relé INT 1C Bivolt Wi-Fi+RF WEG Home, cód. 15718934 (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/hdb/hd3/weg-whome-datasheet-rele-interruptor-wi-fi-rf-pt.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Tabela técnica completa, conexão com neutro, potência por tensão, consumo, 1 ano de garantia.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-rele-15718934-3",
+        "titulo": "Manual de instalação Relé Interruptor Wi-Fi+RF WHOME EMB 10 (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/h45/hcc/weg-whome-manual-rele-interruptor-wi-fi-rf-pt.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Diagramas, pareamento do controle RF, termo de garantia.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-rele-15718934-4",
+        "titulo": "Catálogo de produtos WEG Smart Home 50112096 (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/h66/h96/WEG-weg-home-catalogo-50112096-pt.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Ficha resumida do produto no catálogo (seção Soluções Wi-Fi).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-rele-15718934-5",
+        "titulo": "Termo de garantia limitada WEG Home / WCAM (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/hce/hb2/WEG-termo-de-garantia-tomadas-e-interruptores-WEG-Home-WCAM-pt.pdf",
+        "tipo": "garantia",
+        "oQueSaiuDaqui": "Prazo total de 12 meses para produtos conectados da linha WEG Home, contados da entrega, limitado a 24 meses da fabricação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-rele-15718934-6",
+        "titulo": "Anúncio Amazon B09GTBSJ3P",
+        "url": "https://www.amazon.com.br/dp/B09GTBSJ3P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo 15718934, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/weg-rele-15718934.webp",
+      "alt": "WEG Relé Interruptor Wi-Fi + RF",
+      "credito": "Imagem: WEG",
+      "origem": "https://www.weg.net/weghome/produto/interruptor-wi-fi-whome/"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "Datasheet: 1270 W (127 V) e 2200 W (220 V)",
+        "valorDivergente": "2500 watts",
+        "fonteDivergente": "Anúncio Amazon B09GTBSJ3P (campo 'Potência em watts')",
+        "observacao": "Varejo arredonda para cima; adotado o datasheet."
+      }
+    ]
+  },
+  {
+    "slug": "tramontina-ts-101",
+    "nome": "Tramontina TS-101",
+    "marca": "Tramontina",
+    "modelo": "TS-101 (ref. 57498000)",
+    "categoria": "casa-conectada",
+    "resumo": "Relé Wi-Fi que precisa de fio neutro, com 24 meses de garantia. A ficha traz um diagrama chamado \"Sem neutro\" em que a entrada recebe fase e neutro — o \"sem\" vale só para o lado da lâmpada.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Relé inteligente",
+      "conexao": "Wi-Fi 2,4 GHz b/g/n + BLE + RF 433 MHz",
+      "appProprio": "T smart",
+      "assistentes": "Amazon Alexa e Google Home",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 2200,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": true,
+      "teclas": null,
+      "alimentacao": "90–250 V AC, 50/60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFYSPC2B"
+    },
+    "fontes": [
+      {
+        "id": "tramontina-ts-101-1",
+        "titulo": "Página oficial Tramontina — Módulo Smart Tramontina (ref. 57498000)",
+        "url": "https://www.tramontina.com.br/modulo-smart-tramontina/57498000.html",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Frase sobre neutro, medidas, peso, garantia de 2 anos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tramontina-ts-101-2",
+        "titulo": "Ficha técnica Módulo Smart TS-101, DT-110 rev. 00 (PDF oficial)",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/ELT/57498000FIP001.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Tabela técnica completa, módulo CB2S e Anatel, app T smart, Alexa e Google Home, diagramas 'com neutro' e 'sem neutro'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tramontina-ts-101-3",
+        "titulo": "Anúncio Amazon B0CFYSPC2B",
+        "url": "https://www.amazon.com.br/dp/B0CFYSPC2B",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo TS-101, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tramontina-ts-101.webp",
+      "alt": "Tramontina TS-101",
+      "credito": "Imagem: Tramontina",
+      "origem": "https://www.tramontina.com.br/modulo-smart-tramontina/57498000.html"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-etw-1002",
+    "nome": "Intelbras ETW 1002",
+    "marca": "Intelbras",
+    "modelo": "ETW 1002",
+    "categoria": "casa-conectada",
+    "resumo": "Tomada dupla de embutir, que substitui a da parede e precisa de fio neutro. Os 10 A são das duas tomadas somadas; a página cita só a Alexa, e o datasheet, Alexa, Google e SmartThings.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Tomada de embutir inteligente",
+      "conexao": "Wi-Fi IEEE 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings (datasheet)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 2200,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPXRJVKR"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-etw-1002-1",
+        "titulo": "Página oficial Intelbras — Tomada Dupla Inteligente Wi-Fi ETS 1002 & ETW 1002",
+        "url": "https://www.intelbras.com/pt-br/tomada-dupla-inteligente-wi-fi-ets-1002-etw-1002",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Diferença ETS × ETW (ETW só Mibo Smart), recursos, 'comando de voz com Alexa'. Só abre no navegador.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-etw-1002-2",
+        "titulo": "Datasheet ETW 1002 (PDF oficial, 2026-04)",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/ETW%201002%20-%20Datasheet%2008.10.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Tabela técnica, neutro, 10 A combinados, potência por tensão, assistentes, Anatel, medidas, peso 146 g.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-etw-1002-3",
+        "titulo": "Manual ETW 1002 (PDF oficial)",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_ETW_1002_01-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-etw-1002-4",
+        "titulo": "Loja oficial Intelbras (VTEX) — ETW 1002 Branco",
+        "url": "https://loja.intelbras.com.br/tomada-dupla-10a-wi-fi-etw-1002-branco/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Foto do produto, 'requer fio neutro', garantia 12 meses, peso 0,156 kg.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-etw-1002-5",
+        "titulo": "Anúncio Amazon B0GPXRJVKR",
+        "url": "https://www.amazon.com.br/dp/B0GPXRJVKR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-etw-1002.webp",
+      "alt": "Intelbras ETW 1002",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://loja.intelbras.com.br/tomada-dupla-10a-wi-fi-etw-1002-branco/p"
+    },
+    "divergencias": [
+      {
+        "campo": "assistentes",
+        "fonteAdotada": "Datasheet: \"Compatível com Amazon Alexa, Google Assistente e Samsung SmartThings\"",
+        "valorDivergente": "\"via comando de voz com Alexa\" (só Alexa)",
+        "fonteDivergente": "Página oficial intelbras.com/pt-br",
+        "observacao": "A página cita um assistente; o datasheet, três. Adotado o datasheet, mais recente e mais específico."
+      }
+    ]
+  },
+  {
+    "slug": "ekaza-ekac-t217",
+    "nome": "Ekaza EKAC-T217",
+    "marca": "Ekaza",
+    "modelo": "EKAC-T217-WB",
+    "categoria": "casa-conectada",
+    "resumo": "Tomada dupla de embutir Wi-Fi, 2.500 W declarados. A faixa de tensão publicada, \"10~240V AC\", não é possível, e o campo ficou vazio com a divergência escrita.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Tomada de embutir inteligente",
+      "conexao": "Wi-Fi 2,4 GHz IEEE 802.11 b/g/n + Bluetooth",
+      "appProprio": "Ekaza",
+      "assistentes": "Amazon Alexa e Google Home (catálogo Ekaza 2024)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 2500,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BLJ2P99Z"
+    },
+    "fontes": [
+      {
+        "id": "ekaza-ekac-t217-1",
+        "titulo": "Página oficial Ekaza — Tomada de Parede Inteligente Dupla EKAC-T217-WB",
+        "url": "https://www.ekaza.com.br/seguranca/tomada-de-parede-inteligente-dupla-10a-ekac-t217-wb/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela de especificação, USB, controle individual, 'substituição direta'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ekaza-ekac-t217-2",
+        "titulo": "Catálogo Ekaza Casa e Iluminação 2024 (PDF oficial)",
+        "url": "https://www.ekaza.com.br/wp-content/uploads/2023/07/catalogo_ekaza_2024_web.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Linha de tomadas embutidas 4x2 (T217/T218/T219), 'Fase / Neutro', 1200 W por tomada (T217), Alexa e Google Home.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ekaza-ekac-t217-3",
+        "titulo": "Anúncio Amazon B0BLJ2P99Z",
+        "url": "https://www.amazon.com.br/dp/B0BLJ2P99Z",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo EKAC-T217-WB, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/ekaza-ekac-t217.webp",
+      "alt": "Ekaza EKAC-T217",
+      "credito": "Imagem: Ekaza",
+      "origem": "https://www.ekaza.com.br/seguranca/tomada-de-parede-inteligente-dupla-10a-ekac-t217-wb/"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Nenhuma (campo vazio)",
+        "valorDivergente": "\"10~240V AC, 50~60 Hz\"",
+        "fonteDivergente": "Página oficial EKAC-T217-WB",
+        "observacao": "10 V não é tensão de rede: número impossível, provável '100' ou '110' com um dígito a menos — a T219 da mesma Ekaza diz '110~240V AC'. Não se corrige pelo bom senso: o campo fica vazio para ninguém preencher depois com o valor descartado."
+      },
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "Página e catálogo Ekaza (não publicam)",
+        "valorDivergente": "\"Nossa garantia é de 1 ano a partir da data de compra\"",
+        "fonteDivergente": "Anúncio Amazon B0BLJ2P99Z",
+        "observacao": "Garantia só no varejo."
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-c310",
+    "nome": "TP-Link Tapo C310",
+    "marca": "TP-Link",
+    "modelo": "Tapo C310",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera externa fixa de 3 MP, IP66, com Wi-Fi ou cabo de rede e visão noturna declarada de 30 m. Grava em microSD de até 512 GB, na nuvem por assinatura ou em NVR; 2 anos de garantia pela política da TP-Link Brasil.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n) ou cabo Ethernet",
+      "appProprio": "Tapo",
+      "assistentes": "Google Assistant e Amazon Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "3 MP (2304 × 1296) a 15 qps, H.264; câmera fixa",
+      "visaoNoturnaM": 30,
+      "armazenamentoVideo": "microSD de até 512 GB (requer atualização de firmware), nuvem Tapo Care por assinatura (30 dias de teste) ou NVR via ONVIF",
+      "protecaoIp": "IP66",
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador 100–240 VCA → 9,0 V / 0,6 A; cabo de alimentação de 3 m",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08JLR2751"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-c310-1",
+        "titulo": "Página oficial TP-Link Brasil — Tapo C310",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c310/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Tabela: sensor 1/2.7\", 3 MP 2304×1296, 15 fps, LED IR 850 nm até 30 m, Wi-Fi 2,4 GHz, adaptador 9 V/0,6 A, cabo 3 m, 142,3×103,4×64,3 mm, −20 a 45 °C. Bloco de destaques: IP66, microSD até 512 GB, Tapo Care, Alexa/Google, ONVIF.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c310-2",
+        "titulo": "TP-Link Brasil — Garantia e política RMA",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c310-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B08JLR2751",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Câmera de Segurança Externa Wi-Fi TP-Link TAPO C310, 3MP, ...\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c310.webp",
+      "alt": "TP-Link Tapo C310",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tapo.com/br/product/smart-camera/tapo-c310/"
+    },
+    "divergencias": [
+      {
+        "campo": "resolucaoVideo",
+        "fonteAdotada": "Tabela de especificações da página BR: 3 MP (2304 × 1296)",
+        "valorDivergente": "'Resolução 2K para ver todos os detalhes'",
+        "fonteDivergente": "Galeria da mesma página (IMG01)",
+        "observacao": "A peça gráfica chama os 3 MP de '2K'; o número declarado na tabela é 2304 × 1296."
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-c320ws",
+    "nome": "TP-Link Tapo C320WS",
+    "marca": "TP-Link",
+    "modelo": "Tapo C320WS",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera externa fixa de 4 MP, IP66, com Wi-Fi ou cabo de rede. Grava em microSD de até 512 GB, na nuvem por assinatura ou em NVR; 2 anos de garantia pela política da TP-Link Brasil.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n) ou cabo Ethernet",
+      "appProprio": "Tapo",
+      "assistentes": "Google Assistant e Amazon Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "4 MP (2560 × 1440) a 15 qps, H.264; câmera fixa",
+      "visaoNoturnaM": 30,
+      "armazenamentoVideo": "microSD de até 512 GB (requer atualização de firmware), nuvem Tapo Care por assinatura ou NVR via ONVIF",
+      "protecaoIp": "IP66",
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador 100–240 VCA (bivolt) → 9,0 V / 0,6 A; cabo de 3 m",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B098TVZ6TS"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-c320ws-1",
+        "titulo": "Página oficial TP-Link Brasil — Tapo C320WS",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c320ws/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Tabela: sensor 1/3\", lente 3,18 mm F1.61, LED IR 850 nm até 30 m, 4 MP 2560×1440, 15 fps, 2 LEDs de luz branca, adaptador bivolt → 9 V/0,6 A, 142,3×103,4×64,3 mm. Destaques: IP66, visão noturna colorida, microSD 512 GB, Tapo Care, ONVIF, Alexa/Google.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c320ws-2",
+        "titulo": "TP-Link Brasil — Garantia e política RMA",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c320ws-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B098TVZ6TS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"TP-Link Tapo C320WS Câmera de Segurança Wi-Fi Externa Tipo Bullet, 2K QHD 4MP, ...\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c320ws.webp",
+      "alt": "TP-Link Tapo C320WS",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c320ws/"
+    },
+    "divergencias": [
+      {
+        "campo": "visaoNoturnaM",
+        "fonteAdotada": "Tabela: LED IR 850 nm até 30 m",
+        "valorDivergente": "'Visão Noturna Colorida Starlight até 30 m'",
+        "fonteDivergente": "Título do anúncio na Amazon",
+        "observacao": "O fabricante declara 30 m para o infravermelho (preto e branco); o anúncio pendura o número na visão colorida, que a página não quantifica."
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-c510w",
+    "nome": "TP-Link Tapo C510W",
+    "marca": "TP-Link",
+    "modelo": "Tapo C510W",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera externa de 3 MP que gira 360°, IP65, visão noturna declarada de 29,9 m, só por Wi-Fi. Grava em microSD de até 512 GB ou na nuvem por assinatura.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n); sem Ethernet",
+      "appProprio": "Tapo",
+      "assistentes": "Google Assistant e Amazon Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "2304 × 1296 (3 MP) a 15 qps, H.264; giro 360° / inclinação 135°",
+      "visaoNoturnaM": 29.9,
+      "armazenamentoVideo": "microSD de até 512 GB ou nuvem Tapo Care por assinatura; RTSP e ONVIF",
+      "protecaoIp": "IP65",
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador 100–240 V → 12 V / 1 A",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H62Z5QWK"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-c510w-1",
+        "titulo": "Página oficial TP-Link Brasil — Tapo C510W",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c510w/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Tabela: sensor 1/2.8\", lente 3,9 mm F2.0, 82,3° H, LED IR 850 nm (29,9 m), 2 holofotes, pan 340° (cobertura 360°), tilt 90° (cobertura 135°), 2304×1296 a 15 fps, sirene 90 dB a 10 cm, microSD 512 GB, Tapo Care, RTSP/ONVIF, 12 V/1 A, IP65, −30 a 60 °C, 123,8×123×90 mm.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c510w-2",
+        "titulo": "TP-Link Brasil — Garantia e política RMA",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c510w-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H62Z5QWK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"TP-Link Tapo C510W Câmera de Segurança Wi-Fi Externa 2K 3MP, ...\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c510w.webp",
+      "alt": "TP-Link Tapo C510W",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c510w/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "tplink-tapo-c113",
+    "nome": "TP-Link Tapo C113",
+    "marca": "TP-Link",
+    "modelo": "Tapo C113",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera fixa de 3 MP que a TP-Link declara para uso interno e externo, IP65, alimentada por USB-C com consumo típico de 1,9 W. Visão noturna declarada de 12 m.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Amazon Alexa, Google Assistant e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "2K 3 MP (2304 × 1296), 15/20/25/30 qps, H.264; câmera fixa",
+      "visaoNoturnaM": 12,
+      "armazenamentoVideo": "microSD de até 512 GB ou nuvem Tapo Care por assinatura",
+      "protecaoIp": "IP65",
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador 100–240 V → 5 V / 1 A, USB-C, cabo de 2 m; consumo típico 1,9 W, máximo 3,4 W",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GGVD5RB3"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-c113-1",
+        "titulo": "Página oficial TP-Link Brasil — Tapo C113",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c113/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Tabela: 'Interna e Externa', sensor 1/3\" sem Starlight, lente 3,16 mm F1.6, 97° H, LED IR 850 nm (12 m), 2 luzes brancas, 2304×1296, consumo 1,9/3,4 W, 5 V/1 A USB-C, IP65, −20 a 45 °C, 90 g; Alexa, Google, SmartThings; microSD 512 GB e Tapo Care.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c113-2",
+        "titulo": "TP-Link Brasil — Garantia e política RMA",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c113-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GGVD5RB3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"TP-Link Tapo C113 Câmera de Segurança Wi-Fi 2K 3MP para Ambientes Internos e Externos, ...\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c113.webp",
+      "alt": "TP-Link Tapo C113",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c113/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "tplink-tapo-c216",
+    "nome": "TP-Link Tapo C216",
+    "marca": "TP-Link",
+    "modelo": "Tapo C216",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera de 3 MP que gira 360°, declarada para uso interno e externo, IP65, alimentada por USB-C. Visão noturna declarada de 12 m.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Google Assistente, Amazon Alexa e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "2304 × 1296 (3 MP) a 30 qps, H.264; giro 360° / inclinação 152°",
+      "visaoNoturnaM": 12,
+      "armazenamentoVideo": "microSD de até 512 GB ou nuvem Tapo Care por assinatura; RTSP e ONVIF",
+      "protecaoIp": "IP65",
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador 100–240 V → 5 V / 1 A, USB-C, cabo de 2 m; consumo típico 2,3 W, máximo 5 W",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GH2DQ2H2"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-c216-1",
+        "titulo": "Página oficial TP-Link Brasil — Tapo C216",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c216/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Tabela: sensor Starlight 1/3\", lente 4 mm F2.0, 83° H, LED IR 850 nm (12 m) e visão colorida, 2304×1296 a 30 fps, RTSP/ONVIF, 5 V/1 A USB-C, consumo 2,3/5 W, IP65, −20 a 50 °C, 220 g; destaques: uso interno e externo, 360° H / 152° V.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c216-2",
+        "titulo": "TP-Link Brasil — Garantia e política RMA",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c216-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GH2DQ2H2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"TP-Link Tapo C216 Câmera de Segurança Wi-Fi 2K 3MP Interna e Externa, ...\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c216.webp",
+      "alt": "TP-Link Tapo C216",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c216/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "tplink-tapo-c210",
+    "nome": "TP-Link Tapo C210",
+    "marca": "TP-Link",
+    "modelo": "Tapo C210",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera interna de 3 MP que gira 360°, visão noturna declarada de 9 m. A tabela oficial traz uma linha sobre a distância entre hub e fechadura, herdada de outro produto.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi interna",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n)",
+      "appProprio": "Tapo",
+      "assistentes": "Google Assistant e Amazon Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "3 MP (2304 × 1296), 15 qps padrão e até 30 qps, H.264; giro 360° / 114° vertical",
+      "visaoNoturnaM": 9,
+      "armazenamentoVideo": "microSD de até 512 GB ou nuvem Tapo Care por assinatura; RTSP e ONVIF",
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador 100–240 V → 9,0 V / 0,6 A; cabo de 3 m",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B095CLQ1PT"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-c210-1",
+        "titulo": "Página oficial TP-Link Brasil — Tapo C210",
+        "url": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c210/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Tabela: sensor 1/2.8\", LED IR 850 nm até 9 m, 2304×1296, 15/30 fps, sirene 88 dB a 10 cm, RTSP/ONVIF, adaptador 9 V/0,6 A, 0–40 °C, 85,4×86,8×117,7 mm; 'Weather Resistance: /'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c210-2",
+        "titulo": "TP-Link Brasil — Garantia e política RMA",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-c210-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B095CLQ1PT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"TP-Link Tapo C210 Câmera de Segurança Wi-Fi Interna 2K 3MP, ...\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-c210.webp",
+      "alt": "TP-Link Tapo C210",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tp-link.com/br/home-networking/cloud-camera/tapo-c210/"
+    },
+    "divergencias": [
+      {
+        "campo": "resolucaoVideo",
+        "fonteAdotada": "Tabela: 'Suporta 15 fps por padrão, máximo de 30 fps'",
+        "valorDivergente": "'Taxa de Frame: 15fps'",
+        "fonteDivergente": "Segundo bloco 'VÍDEO' da mesma tabela",
+        "observacao": "A tabela tem dois blocos de vídeo de gerações diferentes do template; um diz máximo de 30 qps, o outro só 15."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-im5-sc",
+    "nome": "Intelbras iM5 SC",
+    "marca": "Intelbras",
+    "modelo": "iM5 SC",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera externa fixa Full HD, IP67, com Wi-Fi ou cabo de rede e visão noturna declarada de 30 m. Grava em microSD de até 256 GB, na nuvem ou em gravador por RTSP/ONVIF; a garantia vem do guia de instalação da linha, 1 ano.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n) ou cabo de rede RJ45",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "Full HD 1920 × 1080, até 20 qps (iM5 SC), H.264; câmera fixa, lente 2,8 mm, 106° H",
+      "visaoNoturnaM": 30,
+      "armazenamentoVideo": "microSD de 8 a 256 GB (classe 10), nuvem (página oficial) ou gravador via RTSP/ONVIF — não compatível com gravadores Intelbras de firmware de 2017 ou anterior",
+      "protecaoIp": "IP67",
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "12 Vdc, consumo máximo 0,29 A / < 3,5 W",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09SPGZHMP"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-im5-sc-1",
+        "titulo": "Página oficial Intelbras — iM5 SC",
+        "url": "https://www.intelbras.com/pt-br/camera-externa-inteligente-wi-fi-im5-sc",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Compatível com Alexa, visão noturna IR de 30 m, Full HD, armazenamento em nuvem. A ficha da página carrega por JavaScript; os números vêm do datasheet.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im5-sc-2",
+        "titulo": "Datasheet iM5 S / iM5 SC (PDF oficial, 11/2024)",
+        "url": "https://backend.intelbras.com/sites/default/files/2024-11/Datasheet%20-%20iM5%20S%20e%20iM5%20SC%20-%20C%C3%A2mera%20externa%20inteligente%20Wi-Fi%20Full%20HD_0.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Sensor 1/2.8\" 2 MP, 1920×1080, lente 2,8 mm, 106° H, microSD 8–256 GB, IR 30 m, 12 Vdc, 0,29 A, < 3,5 W, IP67, −30 a 60 °C, RJ45, RTMP/RTSP/ONVIF, 20 fps máx. e H.264 no iM5 SC, Anatel 12641-21-10749.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im5-sc-3",
+        "titulo": "Guia de Instalação — Mibo Smart (PDF oficial Intelbras, 02/2025)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-02/Guia%20de%20Instala%C3%A7%C3%A3o%20-%20Mibo%20Smart.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Termo de garantia das câmeras Mibo (iM3/iMX, iM4/iME 360, iM5): 1 ano (3 meses legal + 9 meses contratual); aplicativo Mibo Smart.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im5-sc-4",
+        "titulo": "Comparativo técnico linha Mibo IM (PDF oficial Intelbras, 08/2023)",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-08/comparativo-cameras-mibo-08-2023.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Tabela comparativa iM3 C / iM4 C / iM5 SC / iMX C: cartão SD, IP, zoom, modo de áudio, tensão.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im5-sc-5",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09SPGZHMP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Câmera Inteligente Compatível com Alexa Wi-Fi Full HD iM5 SC Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-im5-sc.webp",
+      "alt": "Intelbras iM5 SC",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/camera-externa-inteligente-wi-fi-im5-sc"
+    },
+    "divergencias": [
+      {
+        "campo": "armazenamentoVideo",
+        "fonteAdotada": "Datasheet: microSD mínimo 8 GB / máximo 256 GB",
+        "valorDivergente": "128 GB",
+        "fonteDivergente": "Comparativo técnico Mibo 08/2023, página da linha sem 'C'",
+        "observacao": "Na página da linha C o mesmo comparativo diz 256 GB para o iM5 SC; o 128 GB é do iM5 S."
+      },
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "Guia de Instalação Mibo Smart: 1 ano (90 dias + 9 meses)",
+        "valorDivergente": "2 anos",
+        "fonteDivergente": "Página e datasheet do iMX C, da mesma linha Mibo",
+        "observacao": "Nem a página nem o datasheet do iM5 SC declaram prazo; o único documento que cobre o iM5 SC é o guia geral, com 1 ano."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-imx-c",
+    "nome": "Intelbras iMX C",
+    "marca": "Intelbras",
+    "modelo": "iMX C",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera interna fixa Full HD, do app Mibo Cam. A página e o datasheet dão 2 anos de garantia; o guia de instalação que cobre a mesma câmera dá 1.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi interna",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n); sem cabo de rede",
+      "appProprio": "Mibo Cam",
+      "assistentes": "Amazon Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "Full HD 1920 × 1080, até 20 qps (iMX C), H.264; câmera fixa, lente 2,8 mm, 112° H",
+      "visaoNoturnaM": 10,
+      "armazenamentoVideo": "microSD de 8 a 256 GB (classe 10), nuvem ou gravadores de vídeo (RTMP/RTSP/ONVIF)",
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "5 Vdc (conector USB), consumo máximo 0,62 A / 3,1 W",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BCJ6RV9G"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-imx-c-1",
+        "titulo": "Página oficial Intelbras — iMX C",
+        "url": "https://www.intelbras.com/pt-br/camera-interna-wi-fi-full-hd-imx-c",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "'2 anos de garantia', compatível com Amazon Alexa, Full HD.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-imx-c-2",
+        "titulo": "Datasheet iMX / iMX C (PDF oficial, 11/2024)",
+        "url": "https://backend.intelbras.com/sites/default/files/2024-11/Datasheet%20-%20iMX%20e%20iMX%20C%20-%20C%C3%A2mera%20Inteligente%20Interna%20Wi-Fi%20Full%20HD.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "'2 anos de garantia', 'Aplicativo Mibo Cam', sensor 1/2.7\" 2 MP, 1920×1080, lente 2,8 mm, 112° H, IR 10 m, microSD 8–256 GB, 5 Vdc, 0,62 A, 3,1 W, uso interno, sem rede cabeada, 20 fps/H.264 no iMX C.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-imx-c-3",
+        "titulo": "Guia de Instalação — Mibo Smart (PDF oficial Intelbras, 02/2025)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-02/Guia%20de%20Instala%C3%A7%C3%A3o%20-%20Mibo%20Smart.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Termo de garantia das câmeras Mibo (iM3/iMX, iM4/iME 360, iM5): 1 ano (3 meses legal + 9 meses contratual); aplicativo Mibo Smart.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-imx-c-4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BCJ6RV9G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Câmera de Segurança Interna Wi-FI FULL HD IMX C - Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-imx-c.webp",
+      "alt": "Intelbras iMX C",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/camera-interna-wi-fi-full-hd-imx-c"
+    },
+    "divergencias": [
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "Página oficial e datasheet do iMX C: 2 anos",
+        "valorDivergente": "1 ano (90 dias legal + 9 meses contratual)",
+        "fonteDivergente": "Termo de garantia no Guia de Instalação Mibo Smart, que cobre 'Câmera iM3 / iMX'",
+        "observacao": "Dois documentos oficiais da Intelbras dão prazos diferentes para a mesma câmera. Adotado o da página e do datasheet do produto."
+      },
+      {
+        "campo": "appProprio",
+        "fonteAdotada": "Datasheet (11/2024): 'Aplicativo Mibo Cam'",
+        "valorDivergente": "Mibo Smart",
+        "fonteDivergente": "Guia de Instalação Mibo Smart (02/2025)",
+        "observacao": "A Intelbras trocou o app das câmeras; o datasheet ainda cita o anterior."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-im4-c",
+    "nome": "Intelbras iM4 C",
+    "marca": "Intelbras",
+    "modelo": "iM4 C",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera interna Full HD que gira, com Wi-Fi ou cabo de rede e visão noturna declarada de 10 m. Grava em microSD de até 256 GB, na nuvem ou em gravador.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi interna",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n) ou cabo de rede RJ45",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "Full HD 1920 × 1080, até 20 qps (iM4 C), H.264; giro 0–355° / inclinação −5° a 80°, lente 3,6 mm, 86° H",
+      "visaoNoturnaM": 10,
+      "armazenamentoVideo": "microSD de 8 a 256 GB (classe 10), nuvem ou gravadores de vídeo (RTSP/ONVIF)",
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "5 Vdc (conector USB), consumo máximo 0,7 A / 3,5 W",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09Q3K3VR1"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-im4-c-1",
+        "titulo": "Página oficial Intelbras — iM4 C",
+        "url": "https://www.intelbras.com/pt-br/camera-interna-inteligente-wi-fi-full-hd-360deg-im4-c",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Full HD, compatível com Amazon Alexa, sensor de movimento inteligente, armazenamento em nuvem, autotracking.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im4-c-2",
+        "titulo": "Datasheet iM4 / iM4 C (PDF oficial, 11/2024)",
+        "url": "https://backend.intelbras.com/sites/default/files/2024-11/Datasheet%20-%20iM4%20e%20iM4%20C%20-%20C%C3%A2mera%20Inteligente%20Interna%20Wi-Fi%20Full%20HD%20360.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Sensor 1/2.7\" 2 MP, 1920×1080, lente 3,6 mm, 86° H, IR 10 m, microSD 8–256 GB, rotação 0–355° H e −5° a 80° V, RJ45, 5 Vdc, 0,7 A, 3,5 W, uso interno, 20 fps/H.264 no iM4 C.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im4-c-3",
+        "titulo": "Guia de Instalação — Mibo Smart (PDF oficial Intelbras, 02/2025)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-02/Guia%20de%20Instala%C3%A7%C3%A3o%20-%20Mibo%20Smart.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Termo de garantia das câmeras Mibo (iM3/iMX, iM4/iME 360, iM5): 1 ano (3 meses legal + 9 meses contratual); aplicativo Mibo Smart.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im4-c-4",
+        "titulo": "Comparativo técnico linha Mibo IM (PDF oficial Intelbras, 08/2023)",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-08/comparativo-cameras-mibo-08-2023.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Tabela comparativa iM3 C / iM4 C / iM5 SC / iMX C: cartão SD, IP, zoom, modo de áudio, tensão.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-im4-c-5",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09Q3K3VR1",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Câmera Inteligente Interna 360° Compatível com Alexa Wi-Fi Full HD IM4 C Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-im4-c.webp",
+      "alt": "Intelbras iM4 C",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/camera-interna-inteligente-wi-fi-full-hd-360deg-im4-c"
+    },
+    "divergencias": [
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "Guia de Instalação Mibo Smart: 1 ano",
+        "valorDivergente": "2 anos",
+        "fonteDivergente": "Página e datasheet do iMX C, da mesma linha",
+        "observacao": "Nem a página nem o datasheet do iM4 C declaram prazo; o guia geral, que cobre 'Câmera iM4 / iME 360', dá 1 ano."
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-camera-externa",
+    "nome": "Positivo Smart Câmera Externa",
+    "marca": "Positivo",
+    "modelo": "Smart Câmera Externa Wi-Fi (SKU 11194587)",
+    "categoria": "casa-conectada",
+    "resumo": "Câmera externa Full HD que gira, IP66, com cartão de 32 GB na caixa. A mesma ficha declara infravermelho de 9 m e de 15 m, alimentação de 5 V e de 12 V e temperatura mínima de +10 °C numa câmera vendida como externa.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Câmera Wi-Fi externa",
+      "conexao": "Wi-Fi 2,4 GHz (IEEE 802.11b/g/n)",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": "Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": "1080p (1920 × 1080) a no máximo 15 qps, H.264; pan 360° / tilt 93°, lente 3,5 mm, 120°",
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": "microSD de até 128 GB (acompanha cartão de 32 GB) e Smart Nuvem; ONVIF para gravadores",
+      "protecaoIp": "IP66",
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFWFL1LZ"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-camera-externa-1",
+        "titulo": "Página oficial Positivo Casa Inteligente — Smart Câmera Externa Wi-Fi (SKU 11194587)",
+        "url": "https://www.positivocasainteligente.com.br/smart-camera-externa-wi-fi-11194587/p",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Lida pela API VTEX (/api/catalog_system/pub/products/search?ft=camera): especificações técnicas, diferenciais (IP66, ONVIF, cartão de 32 GB incluso, Smart Nuvem), Alexa e Google Assistente, potência máxima 8 W.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-camera-externa-2",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CFWFL1LZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Smart Câmera Externa Wi-Fi Positivo Casa Inteligente, ... Acompanha Cartão MicroSD 32GB\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-camera-externa.webp",
+      "alt": "Positivo Smart Câmera Externa",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-camera-externa-wi-fi-11194587/p"
+    },
+    "divergencias": [
+      {
+        "campo": "visaoNoturnaM",
+        "fonteAdotada": "Campo vazio",
+        "valorDivergente": "'Alcance do infravermelho: Máximo de 9m (smart IR), 940nm' e, na mesma lista, 'Alcance do Infravermelho: 15m'",
+        "fonteDivergente": "Especificações da própria página oficial",
+        "observacao": "Dois números para o mesmo campo na mesma ficha; nenhum é adotado."
+      },
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Campo vazio",
+        "valorDivergente": "'Alimentação: 5V CC, 2A' e 'Tensão Elétrica: 12V' / 'Tipo de saída: 12V'",
+        "fonteDivergente": "Especificações da própria página oficial",
+        "observacao": "A ficha declara 5 V e 12 V para a mesma câmera. Potência máxima declarada: 8 W."
+      }
+    ]
+  },
+  {
+    "slug": "kabum-kssg007",
+    "nome": "KaBuM! smart Sniffer KSSG007",
+    "marca": "KaBuM! smart",
+    "modelo": "KSSG007 (Sniffer)",
+    "categoria": "casa-conectada",
+    "resumo": "Detector de fumaça Zigbee a pilhas AA, que precisa da central KaBuM! smart KSSG011. Declara vida útil de até 10 anos e não declara quanto duram as pilhas; o alarme de \"85 dB a 3 m\" vira, na foto, \"pode ser ouvido a até 3 metros\".",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de fumaça",
+      "conexao": "Zigbee (até 70 m em área aberta)",
+      "appProprio": "KABUM! smart",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "DC 3,0 V — 2 pilhas AA; duração das pilhas não declarada (a página declara 'vida útil do sensor: máx. 10 anos' e alerta de bateria fraca no app)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HCCP2MRG"
+    },
+    "fontes": [
+      {
+        "id": "kabum-kssg007-1",
+        "titulo": "Página oficial KaBuM! — Alarme de Fumaça KABUM! smart Sniffer KSSG007",
+        "url": "https://www.kabum.com.br/produto/617570",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "KaBuM! smart é marca própria do KaBuM!; esta é a página do fabricante. Sensor fotoelétrico, ≥ 85 dB a 3 m, LED vermelho, vida útil máx. 10 anos, cobertura até 40 m², sensibilidade 0,3 dB/m, 0–55 °C, Zigbee até 70 m, 2 pilhas AA, ~225 g; garantia 1 ano (3 meses legal + 9 contratual).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg007-2",
+        "titulo": "Manual KSSG007 (PDF oficial no Google Drive, linkado na página)",
+        "url": "https://drive.google.com/file/d/14J2agA1RETnnYX0ljmdSyGdVa29ulSBI/view",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "PDF de 18 páginas só com imagem, sem camada de texto — nada extraído.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg007-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HCCP2MRG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Alarme de Fumaça Kabum! smart Sniffer, Sem Fio, Conxeão Zigbee, 85db, Pilha Aa, App Kabum! smart - Kssg007\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kabum-kssg007.webp",
+      "alt": "KaBuM! smart Sniffer KSSG007",
+      "credito": "Imagem: KaBuM! smart",
+      "origem": "https://www.kabum.com.br/produto/617570"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "kabum-kssg009",
+    "nome": "KaBuM! smart Percepta KSSG009",
+    "marca": "KaBuM! smart",
+    "modelo": "KSSG009 (Percepta)",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de porta e janela Zigbee que precisa da central KaBuM! smart. A seção de problemas do manual foi copiada de uma câmera, e a duração da bateria não é declarada para o produto.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de porta e janela",
+      "conexao": "Zigbee",
+      "appProprio": "KABUM! smart",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "2 baterias CR1632; duração não declarada para o produto (o manual diz, genericamente, que com Zigbee 'um sensor pode funcionar com uma bateria comum por 1 ou 2 anos')",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HCCPXH6L"
+    },
+    "fontes": [
+      {
+        "id": "kabum-kssg009-1",
+        "titulo": "Página oficial KaBuM! — Sensor de Abertura KABUM! smart Percepta KSSG009",
+        "url": "https://www.kabum.com.br/produto/617572",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "CR1632 ×2, −10 a 50 °C, 0–95% UR, Zigbee, corpo 23,5×55,6×11,5 mm e ímã 10,6×33,6×11,0 mm; garantia 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg009-2",
+        "titulo": "Manual KSSG009 (PDF oficial no Google Drive, linkado na página)",
+        "url": "https://drive.google.com/file/d/18notJpJvUz7yLjEYKt84p654pzMU8wsM/view",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Mesmas especificações; exige Hub Gateway Zigbee; termo de garantia de 12 meses (3 legal + 9 contratual) e 3 meses para acessórios.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg009-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HCCPXH6L",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Sensor de Abertura Kabum! smart Percepta,conexão Zigbee, Sem Fio, Magnético, App Kabum! smart - Kssg009\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kabum-kssg009.webp",
+      "alt": "KaBuM! smart Percepta KSSG009",
+      "credito": "Imagem: KaBuM! smart",
+      "origem": "https://www.kabum.com.br/produto/617572"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "kabum-kssg008",
+    "nome": "KaBuM! smart Percepta KSSG008",
+    "marca": "KaBuM! smart",
+    "modelo": "KSSG008 (Percepta)",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor Zigbee que o título vende como de \"presença real\", que detecta pessoa parada; a ficha e o manual só falam em movimento e mostram uma lente, sem radar declarado. Detecção de 7 m; precisa da central KaBuM! smart.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de movimento",
+      "conexao": "Zigbee 3.0, 2,4 GHz (alcance de comunicação: interno 10–30 m, externo 30–50 m, conforme ambiente)",
+      "appProprio": "KABUM! smart",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Bateria CR2450 (3 V, pré-instalada); duração declarada: ≥ 12 meses ('baseado em uso típico')",
+      "alcanceM": 7,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HCCQ7NCX"
+    },
+    "fontes": [
+      {
+        "id": "kabum-kssg008-1",
+        "titulo": "Página oficial KaBuM! — Sensor de Movimento KABUM! smart Percepta KSSG008",
+        "url": "https://www.kabum.com.br/produto/617573",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Zigbee 3.0, até 7 m, ângulo 110°, CR2450, bateria ≥ 12 meses, dimensões e pesos, Anatel 06809-25-11765; texto de venda com 'presença real'; garantia 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg008-2",
+        "titulo": "Manual KSSG008 (PDF oficial no Google Drive, linkado na página)",
+        "url": "https://drive.google.com/file/d/1FvbRsbtu84s01vtKchEopJDn_dMLVQm9/view",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "2,4 GHz, 2,5–3,3 V, 110°, até 7 m, comunicação interno 10–30 m / externo 30–50 m, −10 a 45 °C; uso em ambiente interno; altura de instalação 1,8–2,2 m.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg008-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HCCQ7NCX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Sensor de Movimento Kabum! smart Percepta, Conexão Zigbee, Presença Real, Sem Fio, App Kabum! smart - Kssg008\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kabum-kssg008.webp",
+      "alt": "KaBuM! smart Percepta KSSG008",
+      "credito": "Imagem: KaBuM! smart",
+      "origem": "https://www.kabum.com.br/produto/617573"
+    },
+    "divergencias": [
+      {
+        "campo": "tipo",
+        "fonteAdotada": "Manual e ficha técnica: 'detecta movimentos'",
+        "valorDivergente": "'detecção de presença real ... identificar a presença humana ... tanto em pleno movimento quanto totalmente paradas'",
+        "fonteDivergente": "Texto de venda da página oficial e título do anúncio ('Presença Real')",
+        "observacao": "Detectar pessoa parada é o que separa sensor de presença (radar) de sensor de movimento. Nenhuma tabela declara radar; o manual mostra uma 'lente' e fala só em movimento. Classificado como sensor de movimento."
+      }
+    ]
+  },
+  {
+    "slug": "weg-sensor-movimento-zigbee",
+    "nome": "WEG Home Sensor de Movimento Zigbee",
+    "marca": "WEG",
+    "modelo": "Sensor de Movimento Zigbee WHOME (código 18065811)",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de movimento Zigbee, detecção de 6 m, pilha CR2032 que não vem na caixa. Precisa da central Zigbee da WEG, que aceita até 40 dispositivos.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de movimento",
+      "conexao": "Zigbee 3.0",
+      "appProprio": "WEG Home",
+      "assistentes": "Alexa e Google Assistente (declarado para o app WEG Home, não para o sensor)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "1 bateria CR2032 (não inclusa); duração aproximada declarada: 1 ano com uso moderado",
+      "alcanceM": 6,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F6VX24TJ"
+    },
+    "fontes": [
+      {
+        "id": "weg-sensor-movimento-zigbee-1",
+        "titulo": "Página oficial WEG Home — Sensor de Movimento Zigbee",
+        "url": "https://www.weg.net/weghome/produto/sensor-de-movimento-zigbee/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Infravermelho passivo, detecção de 6 m, CR2032 não inclusa, ~1 ano com uso moderado, Zigbee 3.0, exige Hub de Automação Zigbee, garantia 1 ano. Abre só no navegador (curl recebe 403).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-sensor-movimento-zigbee-2",
+        "titulo": "Catálogo de Produtos WEG Smart Home (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/h66/h96/WEG-weg-home-catalogo-50112096-pt.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Confirma as especificações da página e dá o código do produto.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-sensor-movimento-zigbee-3",
+        "titulo": "Termo de garantia WEG — Tomadas e Interruptores, WEG Home e WCAM (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/hce/hb2/WEG-termo-de-garantia-tomadas-e-interruptores-WEG-Home-WCAM-pt.pdf",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "Prazo total de 12 meses da entrega, limitado a 24 meses da data de fabricação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-sensor-movimento-zigbee-4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F6VX24TJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Sensor de Movimento Zigbee WEG HOME\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/weg-sensor-movimento-zigbee.webp",
+      "alt": "WEG Home Sensor de Movimento Zigbee",
+      "credito": "Imagem: WEG",
+      "origem": "https://www.weg.net/weghome/produto/sensor-de-movimento-zigbee/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "weg-sensor-porta-janela-zigbee",
+    "nome": "WEG Home Sensor de Porta e Janela Zigbee",
+    "marca": "WEG",
+    "modelo": "Sensor Porta/Janela Zigbee WHOME (código 18065812)",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de porta e janela Zigbee, duas pilhas CR1632 que não vêm na caixa, duração declarada de cerca de 1 ano com uso moderado. Precisa da central Zigbee da WEG.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de porta e janela",
+      "conexao": "Zigbee 3.0",
+      "appProprio": "WEG Home",
+      "assistentes": "Alexa e Google Assistente (declarado para o app WEG Home, não para o sensor)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "2 baterias CR1632 (não inclusas); duração aproximada declarada: 1 ano com uso moderado",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FHJDFCJC"
+    },
+    "fontes": [
+      {
+        "id": "weg-sensor-porta-janela-zigbee-1",
+        "titulo": "Página oficial WEG Home — Sensor Porta/Janela Zigbee",
+        "url": "https://www.weg.net/weghome/produto/sensor-porta-janela-zigbee/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Distância de detecção 30 mm (vão ímã–sensor), 2× CR1632 não inclusas, ~1 ano com uso moderado, Zigbee 3.0, exige Hub Zigbee, garantia 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-sensor-porta-janela-zigbee-2",
+        "titulo": "Catálogo de Produtos WEG Smart Home (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/h66/h96/WEG-weg-home-catalogo-50112096-pt.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Confirma as especificações da página e dá o código do produto.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-sensor-porta-janela-zigbee-3",
+        "titulo": "Termo de garantia WEG — Tomadas e Interruptores, WEG Home e WCAM (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/hce/hb2/WEG-termo-de-garantia-tomadas-e-interruptores-WEG-Home-WCAM-pt.pdf",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "Prazo total de 12 meses da entrega, limitado a 24 meses da data de fabricação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-sensor-porta-janela-zigbee-4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0FHJDFCJC",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"SENSOR PORTA/JANELA ZIGBEE WHOME\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/weg-sensor-porta-janela-zigbee.webp",
+      "alt": "WEG Home Sensor de Porta e Janela Zigbee",
+      "credito": "Imagem: WEG",
+      "origem": "https://www.weg.net/weghome/produto/sensor-porta-janela-zigbee/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-isi-1001",
+    "nome": "Intelbras ISI 1001",
+    "marca": "Intelbras",
+    "modelo": "ISI 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Sirene Zigbee alimentada na tomada, com bateria interna para falta de energia. O manual exige a central ICA 1001; o guia de compatibilidade da Intelbras aceita também a MCA 1002. A página do produto já redireciona para a de downloads.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sirene",
+      "conexao": "Zigbee (IEEE 802.15.4), alcance de 100 m sem barreiras",
+      "appProprio": "Izy Smart",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Fonte DC 12 V (entrada 100–240 V, 50/60 Hz) + bateria interna de lítio 3,7 V para falta de energia, com o hub energizado; duração da bateria não declarada",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0961KSNFZ"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-isi-1001-1",
+        "titulo": "Página oficial Intelbras — Sirene smart ISI 1001 (redireciona para Ajuda e Downloads)",
+        "url": "https://www.intelbras.com/pt-br/sirene-smart-isi-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "O endereço de produto redireciona para /ajuda-download/download/sirene-smart-isi-1001, com datasheet, manual e guia de hubs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-isi-1001-2",
+        "titulo": "Datasheet ISI 1001 (PDF oficial)",
+        "url": "https://backend.intelbras.com/sites/default/files/2021-02/datasheet-ISI-1001.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Zigbee 802.15.4, 100 m sem barreiras, 100 dB, DC 12 V por fonte 100–240 V, bateria interna 3,7 V lítio, alarme de bateria baixa (3,5 ± 0,2 V), −10 a 55 °C, embalagem 80×80×35 mm, 0,178 kg.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-isi-1001-3",
+        "titulo": "Manual ISI 1001 (PDF oficial, 01/2026)",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Manual_ISI_1001_01-26_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Uso interno; central ICA 1001 obrigatória; produto Φ 80 × 34,5 mm; garantia 1 ano (90 dias + 9 meses).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-isi-1001-4",
+        "titulo": "Guia de Compatibilidade de Hubs Intelbras (PDF oficial, 07/2025)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-07/Guia%20de%20Compatibilidade%20Hub%27s.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "ISI 1001 compatível com ICA 1001, MCA 1001 e MCA 1002.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-isi-1001-5",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0961KSNFZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Sirene Inteligente Izy Smart ISI 1001 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-isi-1001.webp",
+      "alt": "Intelbras ISI 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/ajuda-download/download/sirene-smart-isi-1001"
+    },
+    "divergencias": [
+      {
+        "campo": "appProprio",
+        "fonteAdotada": "Manual e datasheet: app Izy Smart",
+        "valorDivergente": "Mibo Smart",
+        "fonteDivergente": "Guia de Compatibilidade de Hubs (os hubs MCA 1001/1002 usam o app Mibo Smart)",
+        "observacao": "A sirene é da linha Izy, mas o guia a aceita nos hubs Mibo; o app que a opera depende do hub."
+      }
+    ]
+  },
+  {
+    "slug": "kabum-kssg011",
+    "nome": "KaBuM! smart Hub KSSG011",
+    "marca": "KaBuM! smart",
+    "modelo": "KSSG011",
+    "categoria": "casa-conectada",
+    "resumo": "Central Wi-Fi, Zigbee e Bluetooth dos sensores KaBuM! smart. A KaBuM! declara que as automações locais continuam sem internet; não declara quantos dispositivos a central aceita nem compatibilidade com Alexa ou Google.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Hub",
+      "conexao": "Wi-Fi (2,4 GHz no título), Zigbee e Bluetooth",
+      "appProprio": "KABUM! smart",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "5 V ⎓ 1 A por cabo USB-C (cabo de 0,5 m incluso; fonte não listada na embalagem)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HCCVN198"
+    },
+    "fontes": [
+      {
+        "id": "kabum-kssg011-1",
+        "titulo": "Página oficial KaBuM! — Hub Gateway Multimodo KABUM! smart KSSG011",
+        "url": "https://www.kabum.com.br/produto/617567",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "KaBuM! smart é marca própria do KaBuM!. Entrada 5 V ⎓ 1 A, −10 a +45 °C, 10–90% UR, protocolos Wi-Fi/Zigbee/Bluetooth, 62×61,8×15,3 mm, ~30 g, embalagem com cabo de 0,5 m e manual; automações locais funcionando sem internet; Anatel 08097-25-11765; garantia 1 ano (3 meses legal + 9 contratual).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg011-2",
+        "titulo": "Manual KSSG011 (PDF oficial no Google Drive, linkado na página)",
+        "url": "https://drive.google.com/file/d/1ebyUwWhWoVvIA07vVtjkNy0zWUsZW3Ah/view",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "PDF de uma página com o texto convertido em curvas, sem camada de texto — nada foi extraído (nem o número máximo de dispositivos).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "kabum-kssg011-3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HCCVN198",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Hub Gateway Multimodo Kabum! smart Zigbee, Wi-fi 2.4ghz, Bluetooth, Usb-c, Wpa3 - Kssg011\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/kabum-kssg011.webp",
+      "alt": "KaBuM! smart Hub KSSG011",
+      "credito": "Imagem: KaBuM! smart",
+      "origem": "https://www.kabum.com.br/produto/617567"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "weg-hub-zigbee",
+    "nome": "WEG Home Hub Zigbee",
+    "marca": "WEG",
+    "modelo": "Hub de Automação Zigbee WHOME (código 16584763)",
+    "categoria": "casa-conectada",
+    "resumo": "Central Zigbee dos sensores WEG Home, para até 40 dispositivos, alimentada por Micro USB. A página não diz se as automações seguem sem internet, e o datasheet que os buscadores indexam dá 404.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Hub",
+      "conexao": "Zigbee (IEEE 802.15.4) + Wi-Fi IEEE 802.11 b/g/n 2,4 GHz",
+      "appProprio": "WEG Home",
+      "assistentes": "Alexa e Google Assistente (declarado para o app WEG Home)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "5 Vcc por Micro USB",
+      "alcanceM": null,
+      "dispositivosHub": 40
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DGVVX7CD"
+    },
+    "fontes": [
+      {
+        "id": "weg-hub-zigbee-1",
+        "titulo": "Página oficial WEG Home — Hub de Automação Zigbee",
+        "url": "https://www.weg.net/weghome/produto/hub-de-automacao-zigbee/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Até 40 dispositivos, 65,09×65,09×14,6 mm, Zigbee IEEE 802.15.4, Wi-Fi 802.11 b/g/n 2,4 GHz, 5 Vcc (Micro USB), garantia 1 ano, código 16584763. Página abre só no navegador (curl recebe 403).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-hub-zigbee-2",
+        "titulo": "Catálogo de Produtos WEG Smart Home (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/h66/h96/WEG-weg-home-catalogo-50112096-pt.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Confirma as especificações da página e dá o código do produto.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-hub-zigbee-3",
+        "titulo": "Termo de garantia WEG — Tomadas e Interruptores, WEG Home e WCAM (PDF oficial)",
+        "url": "https://static.weg.net/medias/downloadcenter/hce/hb2/WEG-termo-de-garantia-tomadas-e-interruptores-WEG-Home-WCAM-pt.pdf",
+        "tipo": "termos-garantia",
+        "oQueSaiuDaqui": "Prazo total de 12 meses da entrega, limitado a 24 meses da data de fabricação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "weg-hub-zigbee-4",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DGVVX7CD",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Zigbee 3.0 WEG Smart Home Automation Center | Hub Wi-Fi 2.4 GHz ...\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/weg-hub-zigbee.webp",
+      "alt": "WEG Home Hub Zigbee",
+      "credito": "Imagem: WEG",
+      "origem": "https://www.weg.net/weghome/produto/hub-de-automacao-zigbee/"
     },
     "divergencias": []
   }
