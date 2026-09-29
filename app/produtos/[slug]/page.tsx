@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LevaAoSimulador } from "@/components/leva-ao-simulador";
 import { notFound } from "next/navigation";
 import { removidos, removido, destinoDe } from "@/lib/removidos";
 import {
@@ -405,6 +406,8 @@ export default async function PaginaProduto({ params }: Params) {
           <NotaTransparencia produto={p} campos={campos} />
         </section>
       </div>
+
+      <LevaAoSimulador categoria={p.categoria} />
 
       {p.divergencias?.length ? (
         <Divergencias itens={p.divergencias} campos={campos} fontes={p.fontes} specs={p.specs} />

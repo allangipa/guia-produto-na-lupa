@@ -17,6 +17,7 @@ import { LOJAS, linkDaLoja, lojasDe } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
 import { Foto } from "@/components/foto";
+import { CHAMADAS, FOCOS, hrefDoFoco } from "@/lib/simulador";
 
 /**
  * A home era a única página sem `canonical` — todas as outras declaram a sua.
@@ -362,6 +363,28 @@ export default function Home() {
         ))}
       </section>
 
+
+      {/* O simulador, desde 29/09/2026 — antes só estava no rodapé. É a
+          ferramenta de quem já decidiu comprar e tem medo da peça errada. */}
+      <section className="mt-12">
+        <TituloSecao
+          antes="Monte o projeto e veja"
+          destaque="o que comprar"
+          href="/simulador"
+          acao="Abrir o simulador"
+          sub="Você responde sobre a casa; a lista sai das fichas oficiais, com a conta à vista."
+        />
+        <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {FOCOS.map((f) => (
+            <li key={f.valor}>
+              <Link href={hrefDoFoco(f.valor)} className="cartao flex h-full flex-col p-4 transition hover:border-tinta-suave">
+                <span className="titulo-ui text-[1rem]">{f.rotulo}</span>
+                <span className="mt-1 text-[0.84rem] leading-snug text-tinta-suave">{CHAMADAS[f.valor]}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       {/* A faixa editorial vem ANTES das prateleiras de ficha.
           Medido em 26/09/2026: a home tinha 63 links para ficha de produto, 5

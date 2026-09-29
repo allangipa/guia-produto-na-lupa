@@ -1110,6 +1110,16 @@ confunde com documento sem folha de estilo.
   da LG está no código do simulador dela (600/m² + 600/pessoa, +15% sol, +20%
   N/NE/CO, TV 400, computador e frigobar 600) e é a base da calculadora.
 
+  **Atalhos para o simulador, desde 29/09/2026** — antes ele só estava no
+  rodapé: "Simulador" no cabeçalho, uma faixa com os oito projetos na home
+  (depois da tira de números) e um aviso nas fichas das oito categorias que
+  ele atende (`components/leva-ao-simulador.tsx`, mapa em
+  `FOCO_DA_CATEGORIA`, `lib/simulador.ts`). O projeto vai no endereço
+  (`/simulador?projeto=ar`), e a ficha abre direto a ferramenta certa. Não é
+  CTA e não usa cor de ação. **Próximo passo de SEO, proposto e não feito:**
+  uma URL por ferramenta, com texto e tabela estáticos (BTU por área, batata
+  por litro, corrente por cooktop) que o Google consiga ler.
+
   **Air fryer no /simulador desde 29/09/2026.** Achado que vale para o guia da
   categoria: o manual da Mondial AFON-12L, de 12 litros, aceita 400 g de batata
   por vez — menos que a AFN-40, de 4 L (500 g) —, e Philco PAF65A (6,5 L),

@@ -73,6 +73,7 @@ export function SiteHeader() {
           <MenuDepartamentos grupos={grupos} />
           <span aria-hidden className="mx-1 shrink-0 text-linha">|</span>
           <ul className="rolo flex gap-2 overflow-x-auto">
+            <li className="shrink-0"><Link href="/simulador" className="pilula">Simulador</Link></li>
             <li className="shrink-0"><Link href="/guias" className="pilula">Guias de compra</Link></li>
             <li className="shrink-0"><Link href="/comparativos" className="pilula">Comparativos</Link></li>
             <li className="shrink-0"><Link href="/reviews" className="pilula">Análises</Link></li>
