@@ -397,7 +397,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 743 produtos em 36 categorias, 36 guias,
+- **Inventário em 29/09/2026: 747 produtos em 36 categorias, 36 guias,
   56 comparativos e 44 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -865,6 +865,14 @@ confunde com documento sem folha de estilo.
   com página oficial e anúncio vende. Ficaram de fora Rossi (foto com QR code
   de instalação), JWCOM (fotos com nome de arquivo do Mercado Livre, licença
   incerta), Google Nest (não é vendido oficialmente no Brasil).
+
+  **Os Echo entraram com foto da sala de imprensa da Amazon**
+  (press.aboutamazon.com), que vale como press kit do fabricante — nunca a foto
+  da página de produto da loja. A sala de imprensa não tem foto de toda cor:
+  **o link do Echo Show 5 e do Echo Dot Max foi trocado para o anúncio da cor
+  da foto** (preto e branco), porque foto de outra cor engana quem compra. A
+  página de produto da Amazon é a fonte de fabricante dos Echo, já que a Amazon
+  é a fabricante. O Echo Dot Max é o único Echo que declara hub Zigbee.
 
   **Cada peça da lista mostra até 3 opções da base** (`OPCOES_POR_ITEM` em
   `lib/simulador-lista.ts`), decisão do Allan: a indicada com o porquê, as outras

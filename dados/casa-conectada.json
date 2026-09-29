@@ -7126,5 +7126,349 @@
       "origem": "https://www.weg.net/weghome/produto/hub-de-automacao-zigbee/"
     },
     "divergencias": []
+  },
+  {
+    "slug": "amazon-echo-pop",
+    "nome": "Amazon Echo Pop",
+    "marca": "Amazon",
+    "modelo": "Echo Pop (2023)",
+    "categoria": "casa-conectada",
+    "resumo": "Alto-falante compacto com Alexa, Wi-Fi de banda dupla e Bluetooth, que controla aparelhos por Wi-Fi, Bluetooth e Matter. A Amazon não declara hub Zigbee neste modelo: sensores Zigbee precisam da central da marca deles.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Alto-falante inteligente",
+      "conexao": "Wi-Fi de banda dupla 802.11 a/b/g/n/ac (2,4 e 5 GHz); Bluetooth (A2DP, AVRCP); casa inteligente por Wi-Fi, Bluetooth Low Energy e Matter",
+      "appProprio": "Alexa",
+      "assistentes": "Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador de energia bivolt de 15 W, incluso",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09WXVH7WK"
+    },
+    "fontes": [
+      {
+        "id": "amazon-echo-pop-1",
+        "titulo": "Amazon Echo Pop — página do produto na Amazon Brasil (fabricante)",
+        "url": "https://www.amazon.com.br/dp/B09WXVH7WK",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Seção 'Detalhes técnicos' da página do produto, que é a página do fabricante: dimensões, peso, alto-falante de 1,95\", Wi-Fi dual band, Wi-Fi/BLE/Matter, Bluetooth, adaptador de 15 W, garantia limitada de 1 ano, Anatel.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-echo-pop-2",
+        "titulo": "Amazon Press Center — Devices, imagens",
+        "url": "https://press.aboutamazon.com/search/devices?f1=00000188-305e-db4b-abdc-bf7f63070000",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Só a foto (press kit). Nenhum dado técnico.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b09wxvh7wk",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09WXVH7WK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Echo Pop (Geração mais recente) | Smart speaker compacto com som envolvente e Alexa | Cor Preta\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazon-echo-pop.webp",
+      "alt": "Amazon Echo Pop",
+      "credito": "Imagem: Amazon (sala de imprensa)",
+      "origem": "https://press.aboutamazon.com/search/devices?f1=00000188-305e-db4b-abdc-bf7f63070000"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "amazon-echo-dot-5",
+    "nome": "Amazon Echo Dot 5ª geração",
+    "marca": "Amazon",
+    "modelo": "Echo Dot 5ª geração (2022)",
+    "categoria": "casa-conectada",
+    "resumo": "Alto-falante com Alexa, Wi-Fi de banda dupla e Bluetooth, casa inteligente por Wi-Fi, Bluetooth e Matter. Sem hub Zigbee declarado.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Alto-falante inteligente",
+      "conexao": "Wi-Fi de banda dupla 802.11 a/b/g/n/ac (2,4 e 5 GHz); Bluetooth (A2DP, AVRCP); casa inteligente por Wi-Fi, Bluetooth Low Energy e Matter",
+      "appProprio": "Alexa",
+      "assistentes": "Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador de energia bivolt de 15 W, incluso",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09B8VGCR8"
+    },
+    "fontes": [
+      {
+        "id": "amazon-echo-dot-5-1",
+        "titulo": "Amazon Echo Dot (5ª geração) — página do produto na Amazon Brasil (fabricante)",
+        "url": "https://www.amazon.com.br/dp/B09B8VGCR8",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Seção 'Detalhes técnicos' da página do produto, que é a página do fabricante: dimensões, peso, driver de 1,73\", Wi-Fi dual band, Wi-Fi/BLE/Matter, adaptador de 15 W, garantia limitada de 1 ano, Anatel.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-echo-dot-5-2",
+        "titulo": "Amazon Press Center — Devices, imagens",
+        "url": "https://press.aboutamazon.com/search/devices?f1=00000186-385a-d973-a1fe-fb5f89470000",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Só a foto (press kit). Nenhum dado técnico.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b09b8vgcr8",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09B8VGCR8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazon-echo-dot-5.webp",
+      "alt": "Amazon Echo Dot 5ª geração",
+      "credito": "Imagem: Amazon (sala de imprensa)",
+      "origem": "https://press.aboutamazon.com/search/devices?f1=00000186-385a-d973-a1fe-fb5f89470000"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Detalhes técnicos: 100 × 100 × 89 mm",
+        "valorDivergente": "99 × 99 × 90 mm",
+        "fonteDivergente": "Tabela comparativa da mesma página",
+        "observacao": "Medidas diferentes do mesmo aparelho na mesma página; não afeta os campos do simulador."
+      }
+    ]
+  },
+  {
+    "slug": "amazon-echo-show-5",
+    "nome": "Amazon Echo Show 5 3ª geração",
+    "marca": "Amazon",
+    "modelo": "Echo Show 5 3ª geração (2023)",
+    "categoria": "casa-conectada",
+    "resumo": "Tela de 5,5 polegadas com Alexa, que mostra as câmeras compatíveis e controla a casa por Wi-Fi, Bluetooth e Matter. Sem hub Zigbee declarado. A foto da sala de imprensa é da cor preta, e o link é do anúncio preto.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Alto-falante inteligente",
+      "conexao": "Wi-Fi de banda dupla 802.11 a/b/g/n/ac; Bluetooth (A2DP, AVRCP); protocolos de casa inteligente: Wi-Fi, Bluetooth Low Energy e Matter",
+      "appProprio": "Alexa",
+      "assistentes": "Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Adaptador de energia bivolt de 22 W e cabo de 1,5 m, inclusos",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09B2TSNNN"
+    },
+    "fontes": [
+      {
+        "id": "amazon-echo-show-5-1",
+        "titulo": "Amazon Echo Show 5 (3ª geração) — página do produto na Amazon Brasil (fabricante)",
+        "url": "https://www.amazon.com.br/dp/B09B2TSNNN",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Seção 'Detalhes técnicos' da página do produto, que é a página do fabricante: tela, câmera, alto-falante, processador, dimensões, peso, Wi-Fi dual band, Wi-Fi/BLE/Matter, adaptador de 22 W, garantia limitada de 1 ano, Anatel.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-echo-show-5-2",
+        "titulo": "Amazon Press Center — Devices, imagens",
+        "url": "https://press.aboutamazon.com/search/devices?f1=0000018f-7445-dc47-a7df-fedd123a0000",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Só a foto (press kit). Nenhum dado técnico.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b09b2tsnnn",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09B2TSNNN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Echo Show 5 (Geração mais recente) | Smart display com Alexa, graves 2x mais potentes e som mais nítido | Cor Preta, com Acesso Antecipado à Alexa+\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazon-echo-show-5.webp",
+      "alt": "Amazon Echo Show 5 3ª geração",
+      "credito": "Imagem: Amazon (sala de imprensa)",
+      "origem": "https://press.aboutamazon.com/search/devices?f1=0000018f-7445-dc47-a7df-fedd123a0000"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "amazon-echo-dot-max",
+    "nome": "Amazon Echo Dot Max",
+    "marca": "Amazon",
+    "modelo": "Echo Dot Max (2025)",
+    "categoria": "casa-conectada",
+    "resumo": "Alto-falante com Alexa e hub integrado de Zigbee, Matter e Thread — o único Echo desta leva que serve de central para sensores Zigbee, pela declaração da Amazon. Wi-Fi 6E. A foto da sala de imprensa é da cor branca, e o link é do anúncio branco.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Alto-falante inteligente",
+      "conexao": "Wi-Fi 6E 1x1 (802.11 a/b/g/n/ac/ax); Bluetooth/BLE 5.3; hub integrado Zigbee + Matter + roteador de borda Thread",
+      "appProprio": "Alexa",
+      "assistentes": "Alexa",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Fonte de energia bivolt de 22 W e cabo, inclusos",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DKLPWQKS"
+    },
+    "fontes": [
+      {
+        "id": "amazon-echo-dot-max-1",
+        "titulo": "Amazon Echo Dot Max — página do produto na Amazon Brasil (fabricante)",
+        "url": "https://www.amazon.com.br/dp/B0DKLPWQKS",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Seção 'Detalhes técnicos' da página do produto, que é a página do fabricante: hub Zigbee + Matter + Thread, Wi-Fi 6E, BT 5.3, áudio, sensores, processador, dimensões, peso, fonte de 22 W, garantia limitada de 1 ano, Anatel.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-echo-dot-max-2",
+        "titulo": "Amazon Press Center — Devices, imagens",
+        "url": "https://press.aboutamazon.com/search/devices?f1=00000199-99a9-d2a5-a199-dbbdd7b80000",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Só a foto (press kit). Nenhum dado técnico.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0dklpwqks",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DKLPWQKS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Amazon Echo Dot Max (Geração mais recente), smart speaker com Alexa, som envolvente e hub de casa inteligente integrado, ideal para sua sala de estar, Cor Branca, com Acesso Antecipado à Alexa+\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/amazon-echo-dot-max.webp",
+      "alt": "Amazon Echo Dot Max",
+      "credito": "Imagem: Amazon (sala de imprensa)",
+      "origem": "https://press.aboutamazon.com/search/devices?f1=00000199-99a9-d2a5-a199-dbbdd7b80000"
+    },
+    "divergencias": []
   }
 ]
