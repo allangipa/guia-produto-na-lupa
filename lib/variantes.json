@@ -970,6 +970,13 @@
     ],
     "original": 1000
   },
+  "/produtos/coletek-safe-1200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1080
+  },
   "/produtos/consul-cpb33ab.webp": {
     "larguras": [
       240,
@@ -1927,6 +1934,27 @@
     ],
     "original": 1000
   },
+  "/produtos/intelbras-attiv-1200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/intelbras-attiv-600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/intelbras-attiv-seno-700.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/intelbras-ef-1201l.webp": {
     "larguras": [
       240,
@@ -2106,6 +2134,12 @@
     ],
     "original": 700
   },
+  "/produtos/intelbras-xnb-720.webp": {
+    "larguras": [
+      240
+    ],
+    "original": 400
+  },
   "/produtos/iphone-16.webp": {
     "larguras": [
       240,
@@ -2245,6 +2279,20 @@
       480
     ],
     "original": 1200
+  },
+  "/produtos/jbr-guard-600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/jbr-guard-800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/karcher-k2-plus-turbo.webp": {
     "larguras": [
@@ -3326,6 +3374,13 @@
     ],
     "original": 1000
   },
+  "/produtos/nhs-mini-4-600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/oster-gcstac7002.webp": {
     "larguras": [
       240,
@@ -4264,6 +4319,34 @@
     ],
     "original": 1000
   },
+  "/produtos/ragtech-easy-pro-nep-3200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1176
+  },
+  "/produtos/ragtech-easy-way-new-1200.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/ragtech-one-up-nitro-2000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1080
+  },
+  "/produtos/ragtech-save-home-nsh-600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/samsung-galaxy-a07.webp": {
     "larguras": [
       240,
@@ -4495,6 +4578,27 @@
     ],
     "original": 600
   },
+  "/produtos/sms-lite-600.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/sms-pro-1800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/sms-tech-800.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/soundcore-p20i.webp": {
     "larguras": [
       240,
@@ -4697,6 +4801,27 @@
       480
     ],
     "original": 1000
+  },
+  "/produtos/tsshara-concept-1400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1024
+  },
+  "/produtos/tsshara-senno-vt-1kva.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1024
+  },
+  "/produtos/tsshara-xpro-senoidal-1400.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1024
   },
   "/produtos/walita-hd9350.webp": {
     "larguras": [

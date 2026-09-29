@@ -82,6 +82,13 @@ export const categorias: Categoria[] = [
       "A Amazon Brasil não tem lista de mais vendidos de gravador: os DVRs aparecem espalhados em Câmeras de Vigilância, DVD Players e Gravadores, Interfones Residenciais e Proteção e Segurança, e posição em listas diferentes não se compara. A seleção seguiu as séries completas de 4, 8 e 16 canais das duas marcas que dominam os anúncios. Nas câmeras cabeadas que apareceram nas buscas, as vinte mais bem colocadas no nó de Câmeras de Vigilância são todas Intelbras; a primeira de outra marca, uma HiLook, está na posição 1.077. Tecvoz, HiLook e Positivo aparecem nos anúncios de gravador e não entraram nesta primeira leva.",
   },
   {
+    slug: "nobreaks",
+    nome: "Nobreaks",
+    descricao:
+      "Nobreaks para computador, roteador e câmeras, com os watts ao lado dos VA do nome e a forma de onda chamada pelo que é.",
+    dorPrincipal: "\"600 VA\" são quantos watts — e o meu computador pode ligar nele?",
+  },
+  {
     slug: "smartwatches",
     nome: "Smartwatches",
     descricao:
@@ -342,6 +349,7 @@ export const ORDEM_NA_HOME: string[] = [
   "conectividade",
   "casa-conectada",
   "cftv",
+  "nobreaks",
   "armazenamento",
   "perifericos",
   "sanduicheiras",

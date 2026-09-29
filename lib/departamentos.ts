@@ -45,8 +45,8 @@ export const departamentos: Departamento[] = [
   {
     slug: "casa-e-redes",
     nome: "Casa conectada e redes",
-    descricao: "O Wi-Fi da casa, os aparelhos que dependem dele e as câmeras que vigiam tudo.",
-    categorias: ["conectividade", "casa-conectada", "cftv"],
+    descricao: "O Wi-Fi da casa, os aparelhos que dependem dele, as câmeras que vigiam tudo e o nobreak que mantém tudo ligado.",
+    categorias: ["conectividade", "casa-conectada", "cftv", "nobreaks"],
   },
   {
     slug: "cozinha",

@@ -129,7 +129,7 @@ diz como configurar conforme a resposta.
 | Caixa de passagem | 1 por ponto externo | se as emendas ficam expostas |
 | Cabo gravador → roteador | 1 | se quer ver pelo celular |
 | Monitor + HDMI | 1 + 1 | menor tela da base com HDMI declarado |
-| Nobreak | 1 | potência ≥ gravador + fonte/switch — confira |
+| Nobreak | 1 | da categoria `nobreaks`: watts declarados de gravador + HD + câmeras, +50% (regra rotulada); vale primeiro o que declara autonomia com gravador e câmeras (XNB 720), senão o menor que cabe; com fonte PFC ativo (EF 1210+), só onda senoidal |
 | Ferramentas | 1 kit | se a pessoa instala |
 
 Avisos: lance de cabo de rede acima de 100 m (padrão Ethernet); alcance do
@@ -203,7 +203,11 @@ licenciada.
 6. NVR e câmeras IP Intelbras
 7. Switch PoE
 8. Cabo coaxial bipolar, UTP, conectores, balun
-9. Nobreak (categoria própria: serve a câmera, roteador e computador)
+9. ~~Nobreak~~ — **feito em 29/09/2026**: categoria `nobreaks`, 18 fichas de 7 marcas.
+   O motor soma só watts declarados — nunca o VA do nome — e só escolhe entre
+   nobreaks que declaram watts (9 de 18). Com fonte perto de cada câmera, o
+   nobreak segura só o gravador, e a lista diz isso. Autonomia não é calculada:
+   só aparece quando o fabricante declara um cenário com câmeras.
 
 **Automação:** hub Zigbee, interruptor/relé, sensores, controle IR.
 

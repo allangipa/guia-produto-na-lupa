@@ -5982,8 +5982,199 @@ export const CFTV_SO_ACESSORIO = [
   "autonomia",
 ];
 
+/**
+ * Nobreaks. A categoria nasceu em 29/09/2026 para o /simulador de câmeras (o
+ * nobreak que segura gravador e câmeras quando a energia cai) e serve também a
+ * roteador e computador.
+ *
+ * O EIXO É O WATT, NÃO O VA. O número do nome ("600 VA") é potência aparente;
+ * o que a carga consome é potência ativa, em watts, e a razão entre os dois é
+ * o fator de potência. Nos nobreaks de entrada ele é 0,5: um "600 VA" entrega
+ * 300 W. Quem soma o consumo dos aparelhos em watts e compara com o VA do nome
+ * compra metade do que precisa.
+ *
+ * O SEGUNDO EIXO É A FORMA DE ONDA. "Senoidal por aproximação", "semissenoidal"
+ * e "retangular PWM" são a mesma família: não são senoide. A diferença importa
+ * para fonte de computador com PFC ativo, que o próprio fabricante costuma
+ * desaconselhar nesses modelos — por isso o campo `compativelPfc`.
+ */
+export const camposNobreak: Campo[] = [
+  {
+    chave: "potenciaW",
+    rotulo: "Potência ativa",
+    grupo: "Potência",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda:
+      "O que conta para somar o consumo dos aparelhos. É o número que o nome esconde: \"600 VA\" costuma ser 300 W.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "potenciaVa",
+    rotulo: "Potência aparente",
+    grupo: "Potência",
+    tipo: "numero",
+    unidade: "VA",
+    melhor: "maior",
+    filtro: "faixa",
+    ajuda: "O número do nome do produto. Não se soma com o consumo dos aparelhos, que vem em watts.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "fatorPotencia",
+    rotulo: "Fator de potência",
+    grupo: "Potência",
+    tipo: "numero",
+    melhor: "maior",
+    ajuda: "Watts divididos por VA. Em 0,5, metade do número do nome vira potência útil.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "topologia",
+    rotulo: "Topologia",
+    grupo: "Funcionamento",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "Interativo só entra na bateria quando a rede falha. Online de dupla conversão alimenta a carga sempre pelo inversor, sem tempo de transferência.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "formaOnda",
+    rotulo: "Forma de onda na bateria",
+    grupo: "Funcionamento",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda:
+      "\"Senoidal por aproximação\", \"semissenoidal\" e \"retangular PWM\" não são senoide. Senoidal pura é o que imita a tomada.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "compativelPfc",
+    rotulo: "Serve para fonte com PFC ativo",
+    grupo: "Funcionamento",
+    tipo: "booleano",
+    filtro: "booleano",
+    ajuda:
+      "Muitas fontes de computador têm PFC ativo — a etiqueta da fonte diz. Intelbras e TS Shara desaconselham, por escrito, nobreak de onda não senoidal para elas.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensaoEntrada",
+    rotulo: "Tensão de entrada",
+    grupo: "Tomadas",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tensaoSaida",
+    rotulo: "Tensão de saída",
+    grupo: "Tomadas",
+    tipo: "texto",
+    filtro: "opcoes",
+    ajuda: "Bivolt na entrada não quer dizer bivolt na saída: muitos saem só em 115 ou 120 V.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tomadas",
+    rotulo: "Tomadas",
+    grupo: "Tomadas",
+    tipo: "numero",
+    melhor: "maior",
+    contaTransparencia: true,
+  },
+  {
+    chave: "bateria",
+    rotulo: "Bateria",
+    grupo: "Bateria",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "autonomia",
+    rotulo: "Autonomia declarada",
+    grupo: "Bateria",
+    tipo: "texto",
+    ajuda: "Só vale com a carga que o fabricante usou para medir. Autonomia sem carga não é número.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "expansaoAutonomia",
+    rotulo: "Aceita bateria externa",
+    grupo: "Bateria",
+    tipo: "booleano",
+    filtro: "booleano",
+    contaTransparencia: true,
+  },
+  {
+    chave: "tempoRecargaH",
+    rotulo: "Tempo de recarga",
+    grupo: "Bateria",
+    tipo: "numero",
+    unidade: "h",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "consumoStandbyW",
+    rotulo: "Consumo em espera",
+    grupo: "Bateria",
+    tipo: "numero",
+    unidade: "W",
+    melhor: "menor",
+    ajuda: "O que o nobreak gasta sozinho, ligado na tomada, o ano inteiro.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "comunicacao",
+    rotulo: "Comunicação com o computador",
+    grupo: "Recursos",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaMeses",
+    rotulo: "Garantia do aparelho",
+    grupo: "Garantia",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    filtro: "faixa",
+    contaTransparencia: true,
+  },
+  {
+    chave: "garantiaBateriaMeses",
+    rotulo: "Garantia da bateria",
+    grupo: "Garantia",
+    tipo: "numero",
+    unidade: "meses",
+    melhor: "maior",
+    ajuda: "Quase sempre menor que a do aparelho, e é a bateria que se gasta primeiro.",
+    contaTransparencia: true,
+  },
+  {
+    chave: "pesoKg",
+    rotulo: "Peso",
+    grupo: "Físico",
+    tipo: "numero",
+    unidade: "kg",
+    melhor: "menor",
+    contaTransparencia: true,
+  },
+  {
+    chave: "dimensoesMm",
+    rotulo: "Dimensões",
+    grupo: "Físico",
+    tipo: "texto",
+    contaTransparencia: true,
+  },
+];
+
 export const camposPorCategoria: Record<string, Campo[]> = {
   cftv: camposCftv,
+  nobreaks: camposNobreak,
   sanduicheiras: camposSanduicheira,
   microondas: camposMicroondas,
   geladeiras: camposGeladeira,
@@ -6306,6 +6497,7 @@ const ICONE_POR_CATEGORIA: Record<string, string> = {
   conectividade: "bluetooth",
   "casa-conectada": "display",
   cftv: "camera",
+  nobreaks: "bateria",
   celular: "celular",
   cozinha: "panela",
   liquidificadores: "panela",
@@ -6531,6 +6723,8 @@ const ROTULO_CURTO: Record<string, string> = {
   correnteA: "Corrente",
   tensaoSaida: "Saída",
   gravacaoMbs: "Gravação",
+  formaOnda: "Onda",
+  compativelPfc: "PFC ativo",
 };
 
 export function rotuloCurto(campo: Campo): string {
@@ -6546,6 +6740,7 @@ const DESTAQUES_POR_CATEGORIA: Record<string, string[]> = {
   "casa-conectada": ["tipo", "assistentes", "funcionaSemNuvem"],
   // Gravador e câmera na mesma categoria: o card mostra os três primeiros que
   // se aplicam ao produto (ver card-produto.tsx).
+  nobreaks: ["potenciaW", "formaOnda", "tomadas"],
   cftv: [
     "canais", "hdMaxTb", "bitrateMbps",
     "alcanceNoturnoM", "resolucao", "protecaoIp", "instalacao",

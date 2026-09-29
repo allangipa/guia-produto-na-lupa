@@ -411,6 +411,7 @@ function projetoCabeado(
       : "IP com alimentação PoE";
 
   const cftv = Object.values(base).filter((p) => p.categoria === "cftv");
+  const nobreaks = Object.values(base).filter((p) => p.categoria === "nobreaks");
   const escolhidas: { p: Produto; qtd: number }[] = [];
 
   if (r.externos > 0) {
@@ -642,15 +643,7 @@ function projetoCabeado(
   }
 
   if (r.nobreak) {
-    itens.push({
-      id: "nobreak",
-      grupo: "energia",
-      papel: "Nobreak",
-      qtd: 1,
-      especificacao: `Nobreak com potência acima da soma do gravador e ${sistema === "nvr" ? "do switch PoE" : "da fonte das câmeras"}.`,
-      porque: "Mantém o sistema gravando durante a queda de energia.",
-      confira: ["O consumo declarado do gravador e da fonte ou switch."],
-    });
+    itens.push(itemNobreak(r, sistema, gravador?.p, itens, escolhidas, base, nobreaks, avisos));
   }
 
   if (r.instalador === "eu") {
@@ -680,6 +673,12 @@ const HDS_TB = [1, 2, 3, 4, 6, 8, 10, 12, 14, 16, 18];
 const FONTES_A = [1, 2, 3, 5, 10, 15, 20, 30];
 /** Regra do simulador: folga sobre a soma do consumo declarado das câmeras. */
 export const FOLGA_FONTE = 0.2;
+/**
+ * Folga do nobreak sobre a soma dos watts declarados: cobre a perda da fonte
+ * das câmeras (a Intelbras declara eficiência de 78% na EF 1201L e não declara
+ * nas outras) e tira o nobreak do limite. É regra do simulador.
+ */
+export const FOLGA_NOBREAK = 0.5;
 /**
  * O MHDX 1308 declara 4 Mbps no canal 1 e 2 Mbps nos demais. A ficha guarda
  * os 2 dos sete canais; a conta do HD soma a diferença do canal 1.
@@ -1006,5 +1005,132 @@ export function itemFonte(
     porque: `As ${n(total)} câmeras escolhidas declaram ${fmt(somaW)} W somados — ${fmt(a)} A a 12 V, alimentadas pelo mesmo cabo a partir do gravador.${f ? ` A ${f.modelo} é a menor fonte da base com corrente acima disso: ${n(f.specs.correnteA as number)} A.` : ""}`,
     regra,
     confira: confiraTensao,
+  };
+}
+
+/**
+ * O nobreak do projeto, desde 29/09/2026 escolhido na base de nobreaks.
+ *
+ * A carga é a soma dos watts DECLARADOS de gravador, HD e câmeras — nunca o VA
+ * do nome do nobreak, que não se soma com watt. A escolha é o menor nobreak em
+ * watts que cabe a carga com a folga; no empate, o de menor consumo em espera
+ * declarado. Quando a fonte central declara PFC ativo, só entra nobreak de onda
+ * senoidal: os de onda retangular vêm com aviso do fabricante contra fonte PFC.
+ *
+ * Autonomia não é calculada. Ela depende da bateria, da carga e da curva de
+ * descarga, e só uma ficha da base publica minutos com câmeras. Quando o
+ * escolhido não tem esse número, a lista diz isso e aponta a que tem.
+ */
+export function itemNobreak(
+  r: Respostas,
+  sistema: Sistema,
+  dvr: Produto | undefined,
+  itens: Item[],
+  escolhidas: { p: Produto; qtd: number }[],
+  base: Record<string, Produto>,
+  nobreaks: Produto[],
+  avisos: string[],
+): Item {
+  const semBase: Item = {
+    id: "nobreak",
+    grupo: "energia",
+    papel: "Nobreak",
+    qtd: 1,
+    especificacao: `Nobreak com potência em watts acima da soma do gravador e ${sistema === "nvr" ? "do switch PoE" : "da fonte das câmeras"}.`,
+    porque: "Mantém o sistema gravando durante a queda de energia. Compare watts com watts: o VA do nome do nobreak não se soma com o consumo dos aparelhos.",
+    confira: ["O consumo declarado do gravador e da fonte ou switch, em watts."],
+  };
+  if (sistema !== "dvr" || !dvr) return semBase;
+
+  const hd = base[itens.find((i) => i.id === "hd")?.produto ?? ""];
+  const fonte = base[itens.find((i) => i.id === "fonte")?.produto ?? ""];
+  const wDvr = num(dvr.specs.consumoW);
+  const wHd = hd ? num(hd.specs.consumoW) : null;
+  const camerasW = escolhidas.map((e) => num(e.p.specs.consumoW));
+  // Com fonte perto de cada câmera, elas ficam fora do nobreak: ele fica junto
+  // do gravador e as tomadas das câmeras estão espalhadas pela casa.
+  const cameras = r.tomadaPerto ? 0 : escolhidas.reduce((s, e) => s + (num(e.p.specs.consumoW) ?? 0) * e.qtd, 0);
+  if (wDvr == null || (!r.tomadaPerto && camerasW.some((w) => w == null))) return semBase;
+
+  const carga = wDvr + (wHd ?? 0) + cameras;
+  const pedido = carga * (1 + FOLGA_NOBREAK);
+  const pfc = !r.tomadaPerto && fonte && txt(fonte.specs.alimentacao).includes("PFC ativo");
+  const candidatos = nobreaks
+    .filter((p) => typeof p.specs.potenciaW === "number" && (p.specs.potenciaW as number) >= pedido)
+    .filter((p) => !pfc || p.specs.compativelPfc === true)
+    .sort(
+      (a, b) =>
+        (a.specs.potenciaW as number) - (b.specs.potenciaW as number) ||
+        (num(a.specs.consumoStandbyW) ?? 99) - (num(b.specs.consumoStandbyW) ?? 99),
+    );
+  // Vale primeiro o nobreak que declara watts E autonomia com gravador e
+  // câmeras, se ele couber a carga: é o único caso em que a lista pode dizer
+  // quanto tempo o projeto fica de pé. Sem ele, o menor que cabe.
+  const comAutonomia = candidatos.find((p) => /câmera/i.test(txt(p.specs.autonomia)));
+  const nb = comAutonomia ?? candidatos[0];
+  const w = (v: number) => v.toLocaleString("pt-BR", { maximumFractionDigits: 1 });
+  const partes = [
+    `o ${dvr.modelo} declara ${w(wDvr)} W`,
+    wHd != null ? `o HD ${hd!.modelo}, ${w(wHd)} W` : null,
+    !r.tomadaPerto ? `as câmeras somam ${w(cameras)} W` : null,
+  ].filter(Boolean);
+  const conta = `Na ficha, ${partes.join("; ")}: ${w(carga)} W no total.`;
+  const regra = `Folga de ${n(FOLGA_NOBREAK * 100)}% sobre a soma, para a perda na fonte das câmeras e para o nobreak não trabalhar no limite. A comparação é em watts, nunca em VA. Entre os que cabem, vale primeiro o que declara autonomia com gravador e câmeras; sem ele, o menor.`;
+  const confira: string[] = [];
+  if (r.tomadaPerto) {
+    confira.push(
+      "Com uma fonte perto de cada câmera, o nobreak fica junto do gravador e só segura ele: na queda de energia o gravador continua ligado e as câmeras apagam. Para manter as câmeras, a fonte precisa ser centralizada, ao lado do nobreak.",
+    );
+  }
+  if (!nb) {
+    return {
+      ...semBase,
+      especificacao: `Nobreak de pelo menos ${n(Math.ceil(pedido))} W${pfc ? ", de onda senoidal" : ""}.`,
+      porque: conta,
+      regra,
+      confira,
+    };
+  }
+
+  if (nb === comAutonomia) {
+    confira.push(
+      "A autonomia declarada vale para o cenário do fabricante, que descreve os aparelhos e não diz os watts. Com câmeras de consumo diferente, o tempo muda.",
+    );
+  } else {
+    confira.push(
+      `A ${nb.marca} não declara autonomia do ${nb.nome} com câmeras, e o simulador não calcula minutos: eles dependem da bateria, da carga e da idade da bateria.`,
+    );
+  }
+  if (pfc) {
+    avisos.push(
+      `A ${fonte!.modelo} declara PFC ativo, e os nobreaks de onda retangular da base trazem aviso do fabricante contra fonte com PFC ativo. Por isso o simulador indica só nobreak de onda senoidal neste projeto.`,
+    );
+  }
+  const menor = candidatos[0];
+  const outraMarca = candidatos.find((p) => p.marca !== nb.marca);
+  const alt =
+    menor.slug !== nb.slug
+      ? {
+          produto: menor.slug,
+          motivo: `o menor nobreak da base que cabe a carga, com ${n(menor.specs.potenciaW as number)} W declarados, mas sem autonomia declarada com câmeras`,
+        }
+      : outraMarca
+        ? { produto: outraMarca.slug, motivo: `${n(outraMarca.specs.potenciaW as number)} W declarados, de outra marca` }
+        : undefined;
+  const va = typeof nb.specs.potenciaVa === "number" ? ` (os ${n(nb.specs.potenciaVa as number)} VA do nome)` : "";
+  return {
+    id: "nobreak",
+    grupo: "energia",
+    papel: "Nobreak",
+    qtd: 1,
+    produto: nb.slug,
+    porque: `${conta} ${
+      nb === comAutonomia
+        ? `O ${nb.nome} cabe essa carga com a folga e é o único da base que declara os watts e a autonomia com gravador e câmeras: ${txt(nb.specs.autonomia)}.`
+        : `O ${nb.nome} é o menor nobreak da base que cabe essa carga com a folga.`
+    } A ${nb.marca} declara ${n(nb.specs.potenciaW as number)} W${va}.`,
+    regra,
+    confira,
+    alternativa: alt,
   };
 }

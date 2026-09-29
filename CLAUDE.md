@@ -397,8 +397,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 655 produtos em 35 categorias, 35 guias,
-  55 comparativos e 43 análises.**
+- **Inventário em 29/09/2026: 673 produtos em 36 categorias, 36 guias,
+  56 comparativos e 44 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -826,6 +826,42 @@ confunde com documento sem folha de estilo.
   "câmera bullet analógica" no título e dome na tabela; as Full Color+ se
   chamam "analógica" no título e declaram HDCVI/AHD/HDTVI; as 3220 Full Color+
   têm "Full Color" no nome e "Função Luz Branca: –" na tabela (campo vazio).
+
+- **Nobreaks abriu em 29/09/2026, com 18 fichas de sete marcas** — Intelbras 4,
+  Ragtech 4, TS Shara 3, SMS 3, JBR 2, NHS 1, Coletek 1 — e as três peças: guia
+  `nobreak-para-casa`, comparativo Attiv 600 × Attiv Seno 700 e análise do XNB
+  720. Apurada para o /simulador pôr nobreak de verdade no projeto de câmeras.
+  Saiu do nó No-Breaks para Computador da Amazon (16364776011), que mistura
+  nobreak com DPS, estabilizador e bateria avulsa.
+
+  **O eixo é VA contra watt.** 14 das 18 declaram fator de potência 0,5: o
+  "600 VA" entrega 300 W. **Só 9 declaram os watts**; nas outras nove, os watts
+  do anúncio não saem do fabricante — a Amazon lista "Potência máxima: 1400
+  Watt" para os TS Shara de 1400 VA, e o título do Ragtech NEP 3200 diz
+  2.240 W que a Ragtech não publica. O NHS Mini 4 declara 600 VA, fator 0,5 e
+  "250 W contínuos": a conta dá 300, que a ficha chama de pico.
+
+  **O segundo eixo é a onda e a fonte com PFC ativo.** 13 das 18 não são
+  senoide, com cinco nomes para a mesma coisa (semissenoidal, senoidal por
+  aproximação, senoidal modificada, PWM, retangular). Só 3 autorizam fonte PFC
+  por escrito, 4 desaconselham e 11 não dizem. A ficha do Attiv 600 lista
+  "computador desktop" como ideal e avisa no rodapé contra fonte PFC.
+  **Não escrever "a maioria das fontes tem PFC ativo"**: não há fonte listada
+  que sustente; a frase da casa é "muitas fontes têm, e a etiqueta diz".
+
+  **Autonomia só vale com a carga.** 5 de 18 dão a carga em watts; 6 dão em
+  aparelhos; 7 não dão nada. O manual do XNB 720 tem 16 cenários, 6 de CFTV
+  (60 min com 8 câmeras de IR ligado) — e dá ao XNB 1440, com o dobro de
+  bateria, menos minutos em dois cenários. O simulador indica o XNB 720 quando
+  ele cabe, por ser o único que declara watts e autonomia com câmeras.
+
+  **Ficaram de fora:** Ragtech NEP 600 e NEP 1200 (17º do ranking), porque a
+  única foto na página da Ragtech é a caixa com frase de venda. A Coletek SAFE
+  1200 tem duas versões com o mesmo nome e as mesmas fotos (7 e 9 Ah); o
+  anúncio é a SAFE1200BK, conferida pelo número da peça. A JBR é importadora
+  (o manual diz), o site é `jbrenergy.com.br` e os PDFs ficam no Google Drive.
+  Dimensionamento de câmera (PPM/DORI) é o próximo passo do simulador — ver
+  `docs/simulador.md`.
 
 - **Cooktops de indução abriu em 26/09/2026, com dezesseis de seis marcas** —
   Electrolux 4, Midea 3, Dako 3, Oster 3, Philco 2, Britânia 1. Dako é marca

@@ -1,0 +1,1551 @@
+[
+  {
+    "slug": "intelbras-xnb-720",
+    "nome": "Intelbras XNB 720 VA",
+    "marca": "Intelbras",
+    "modelo": "XNB 720 BI",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 720 VA que entrega 360 W, com seis tomadas e onda retangular na bateria. O manual traz uma tabela de autonomia com gravador e câmeras de 8, 16 e 32 canais: 60 minutos com 8 câmeras de infravermelho ligado.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 360,
+      "potenciaVa": 720,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Semissenoidal (retangular)",
+      "compativelPfc": false,
+      "tensaoEntrada": "Bivolt automático (120 / 220 V)",
+      "tensaoSaida": "120 V",
+      "tomadas": 6,
+      "bateria": "1 × 12 V 7 Ah, chumbo-ácido selada",
+      "autonomia": "60 min com gravador de 8 canais e 8 câmeras HDCVI de infravermelho ligado; 35 min com 16 e 16",
+      "expansaoAutonomia": false,
+      "tempoRecargaH": 10,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 24,
+      "garantiaBateriaMeses": 12,
+      "pesoKg": 6.2,
+      "dimensoesMm": "96 × 163 × 338 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07LGMQPKY"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-xnb-720-datasheet",
+        "titulo": "Ficha técnica do XNB 720 BI — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2024-08/XNB%20720%20VA%20BI%20-%20Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "720 VA / 360 W, escritos como \"potência nominal de pico\"; fator de potência 0,5; topologia interativa; entrada bivolt automática, 90-145 / 180-270 V; saída de 120 V, ±5% no modo bateria; transferência abaixo de 8 ms; onda \"semissenoidal (retangular)\" na bateria; 6 tomadas de 10 A; bateria de 12 V 7 Ah sem conector para bateria externa; carga em até 10 h; 96 × 163 × 338 mm, 6,2 kg. Aviso de que não deve alimentar computador com fonte PFC ativo. Não declara consumo em espera nem porta de comunicação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-xnb-manual",
+        "titulo": "Manual do XNB 720 BI e XNB 1440 BI — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-08/Manual_XNB_720_1440BI_01-23_site_0.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela de autonomia em minutos por cenário, com equipamentos Intelbras: 60 min com DVR HDCVI de 8 canais e 8 câmeras de IR ligado, 79 com IR desligado; 35 min com 16 canais e 16 câmeras de IR ligado. Onda descrita como \"não senoidal (retangular PWM)\". Termo de garantia: 2 anos para o aparelho (90 dias legais mais 1 ano e 9 meses contratuais) e 1 ano para a bateria (90 dias legais mais 9 meses contratuais).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b07lgmqpky",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07LGMQPKY",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo XNB 720 BI. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-xnb-720.webp",
+      "alt": "Nobreak Intelbras XNB 720 BI, gabinete preto em pé, com botão frontal e três LEDs",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/nobreak-interativo-bivolt-xnb-720-va-bi"
+    },
+    "divergencias": [
+      {
+        "campo": "compativelPfc",
+        "fonteAdotada": "Aviso no rodapé da ficha técnica",
+        "valorDivergente": "\"Computador desktop\" entre os cenários de aplicação ideais",
+        "fonteDivergente": "Quadro \"Cenário de aplicação\" da ficha técnica do XNB 720 BI",
+        "observacao": "A mesma página põe o computador desktop entre as aplicações ideais e avisa, no rodapé, que o nobreak não deve alimentar computador com fonte PFC ativo. Muitas fontes de computador têm PFC ativo; a etiqueta da fonte diz. A ficha fica com o aviso, que é a condição de uso."
+      },
+      {
+        "campo": "autonomia",
+        "fonteAdotada": "Tabela de autonomia do manual, coluna do XNB 720",
+        "valorDivergente": "XNB 1440, com o dobro da bateria, 87 min contra 101 do XNB 720 com modem e roteador",
+        "fonteDivergente": "A mesma tabela, coluna do XNB 1440",
+        "observacao": "Na tabela do manual o modelo de duas baterias aparece com menos autonomia que o de uma em dois cenários (modem e roteador: 87 contra 101 min; câmera Wi-Fi e modem: 87 contra 102) e empatado em outro (8 câmeras de IR desligado: 79 e 79). O manual não explica. A ficha publica os minutos do XNB 720 como estão."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-attiv-600",
+    "nome": "Intelbras Attiv 600 VA",
+    "marca": "Intelbras",
+    "modelo": "ATTIV 600 BI",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 600 VA que entrega 300 W, com quatro tomadas e onda retangular na bateria. A Intelbras declara o consumo em espera, 11 W, e não publica autonomia: o manual manda para uma calculadora no site.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 300,
+      "potenciaVa": 600,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Semissenoidal (retangular)",
+      "compativelPfc": false,
+      "tensaoEntrada": "Bivolt automático (120 / 220 V)",
+      "tensaoSaida": "120 V",
+      "tomadas": 4,
+      "bateria": "1 × 12 V 7 Ah, chumbo-ácido selada",
+      "autonomia": null,
+      "expansaoAutonomia": false,
+      "tempoRecargaH": 10,
+      "consumoStandbyW": 11,
+      "comunicacao": null,
+      "garantiaMeses": 24,
+      "garantiaBateriaMeses": 12,
+      "pesoKg": 6.142,
+      "dimensoesMm": "124 × 214 × 269 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B095X5GLDR"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-attiv-600-datasheet",
+        "titulo": "Ficha técnica do ATTIV 600 BI — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2022-03/ATTIV%20600%20VA%20BI%20-%20Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "600 VA / 300 W, como \"potência nominal de pico\"; fator de potência 0,5; interativo; entrada bivolt automática, 96-149 / 176-264 V; consumo em stand by de 11 W; saída de 120 V; transferência abaixo de 8 ms; onda \"semissenoidal (retangular)\"; 4 tomadas de 10 A; bateria de 12 V 7 Ah sem expansão; carga em até 10 h; 124 × 214 × 269 mm, 6,142 kg. Aviso de que não deve alimentar computador com fonte PFC.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-attiv-600-manual",
+        "titulo": "Manual do ATTIV 600 VA e 700 VA — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_ATTIV_600VA_700VA_01-26_site.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Não traz tabela de autonomia: remete à calculadora do site. Onda descrita como retangular no modo bateria. Termo de garantia: 2 anos para o aparelho (90 dias legais mais 1 ano e 9 meses contratuais) e 1 ano para a bateria (90 dias legais mais 9 meses contratuais).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b095x5gldr",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B095X5GLDR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo ATTIV 600 BI. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-attiv-600.webp",
+      "alt": "Nobreak Intelbras Attiv 600 BI, gabinete preto compacto com painel frontal recuado e LEDs",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/nobreak-interativo-bivolt-attiv-600-va-bi"
+    },
+    "divergencias": [
+      {
+        "campo": "compativelPfc",
+        "fonteAdotada": "Aviso no rodapé da ficha técnica",
+        "valorDivergente": "\"Computador desktop\" entre os cenários de aplicação ideais",
+        "fonteDivergente": "Quadro \"Cenário de aplicação\" da ficha técnica do ATTIV 600 BI",
+        "observacao": "A mesma página põe o computador desktop entre as aplicações ideais e avisa, no rodapé, que o nobreak não deve alimentar computador com fonte PFC ativo. Muitas fontes de computador têm PFC ativo; a etiqueta da fonte diz. A ficha fica com o aviso, que é a condição de uso."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-attiv-seno-700",
+    "nome": "Intelbras Attiv Seno 700 VA",
+    "marca": "Intelbras",
+    "modelo": "ATTIV SENO 700 BI",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 700 VA que entrega 350 W com onda senoidal na bateria, vendido pela Intelbras para computador com fonte PFC ativo. A mesma ficha avisa que ele pode ser incompatível com algumas dessas fontes.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 350,
+      "potenciaVa": 700,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Senoidal",
+      "compativelPfc": true,
+      "tensaoEntrada": "Bivolt automático (120 / 220 V)",
+      "tensaoSaida": "120 V",
+      "tomadas": 4,
+      "bateria": "1 × 12 V 7 Ah, chumbo-ácido selada",
+      "autonomia": null,
+      "expansaoAutonomia": false,
+      "tempoRecargaH": 10,
+      "consumoStandbyW": 11,
+      "comunicacao": null,
+      "garantiaMeses": 24,
+      "garantiaBateriaMeses": 12,
+      "pesoKg": 6.31,
+      "dimensoesMm": "124 × 214 × 269 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CC9RNZVB"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-attiv-seno-700-datasheet",
+        "titulo": "Ficha técnica do ATTIV SENO 700 BI — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-12/ATTIV%20SENO%20700%20VA%20BI%20-%20Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "700 VA / 350 W, como \"potência de pico\"; fator de potência 0,5; interativo; \"ideal para eletrônicos com fonte PFC ativo\"; entrada bivolt automática, 96-149 / 176-264 V; consumo em stand by de 11 W; saída de 120 V; transferência abaixo de 8 ms; onda senoidal na bateria; 4 tomadas de 10 A; bateria de 12 V 7 Ah, conector e expansão para bateria externa \"não possui\"; carga em até 10 h; 124 × 214 × 269 mm, 6,310 kg. Rodapé: \"O produto pode apresentar incompatibilidade com algumas fontes PFC\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-attiv-seno-700-manual",
+        "titulo": "Manual do ATTIV SENO 700 VA — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_ATTIV_SENO_700VA_01-26_site.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Não traz tabela de autonomia: remete à calculadora do site. Termo de garantia: 2 anos para o aparelho (90 dias legais mais 1 ano e 9 meses contratuais) e 1 ano para a bateria (90 dias legais mais 9 meses contratuais).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0cc9rnzvb",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CC9RNZVB",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo ATTIV SENO 700 BI. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-attiv-seno-700.webp",
+      "alt": "Nobreak Intelbras Attiv Seno 700 BI, gabinete preto com frente texturizada e três LEDs",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/nobreak-senoidal-bivolt-attiv-seno-700-va-bi"
+    },
+    "divergencias": [
+      {
+        "campo": "compativelPfc",
+        "fonteAdotada": "Título e cenário de aplicação da ficha técnica: \"ideal para eletrônicos com fonte PFC ativo\"",
+        "valorDivergente": "\"O produto pode apresentar incompatibilidade com algumas fontes PFC\"",
+        "fonteDivergente": "Rodapé da mesma ficha técnica",
+        "observacao": "A ficha vende o aparelho para fonte PFC ativo e ressalva, no rodapé, que ele pode não funcionar com algumas delas, sem dizer quais. Fica o que o fabricante declara no título, com a ressalva à vista."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-attiv-1200",
+    "nome": "Intelbras Attiv 1200 VA",
+    "marca": "Intelbras",
+    "modelo": "ATTIV 1200 BI",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 1.200 VA que entrega 600 W, com oito tomadas, duas baterias e onda retangular. O dobro de potência do Attiv 600 com o mesmo consumo em espera declarado, 11 W.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 600,
+      "potenciaVa": 1200,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Semissenoidal (retangular)",
+      "compativelPfc": false,
+      "tensaoEntrada": "Bivolt automático (120 / 220 V)",
+      "tensaoSaida": "120 V",
+      "tomadas": 8,
+      "bateria": "2 × 12 V 7 Ah, chumbo-ácido selada",
+      "autonomia": null,
+      "expansaoAutonomia": false,
+      "tempoRecargaH": 10,
+      "consumoStandbyW": 11,
+      "comunicacao": null,
+      "garantiaMeses": 24,
+      "garantiaBateriaMeses": 12,
+      "pesoKg": 10.4,
+      "dimensoesMm": "130 × 220 × 362 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09MCXLXZN"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-attiv-1200-datasheet",
+        "titulo": "Ficha técnica do ATTIV 1200 BI — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2022-03/ATTIV%201200%20VA%20BI%20-%20Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "1.200 VA / 600 W, como \"potência nominal de pico\"; fator de potência 0,5; interativo; entrada bivolt automática, 96-149 / 176-264 V; consumo em stand by de 11 W; saída de 120 V; transferência abaixo de 8 ms; onda \"semissenoidal (retangular)\"; 8 tomadas de 10 A; 2 baterias de 12 V 7 Ah, barramento de 24 V, sem expansão; carga em até 10 h; 130 × 220 × 362 mm, 10,4 kg. Aviso de que não deve alimentar computador com fonte PFC.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-attiv-1200-manual",
+        "titulo": "Manual do ATTIV 1200 VA e 1500 VA — Intelbras",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_ATTIV_1200VA_1500VA_01-26_site.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Não traz tabela de autonomia: remete à calculadora do site. Termo de garantia: 2 anos para o aparelho (90 dias legais mais 1 ano e 9 meses contratuais) e 1 ano para a bateria (90 dias legais mais 9 meses contratuais).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b09mcxlxzn",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09MCXLXZN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo ATTIV 1200 BI. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-attiv-1200.webp",
+      "alt": "Nobreak Intelbras Attiv 1200 BI, gabinete preto em perspectiva com painel frontal e LEDs",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/nobreak-interativo-bivolt-attiv-1200-va-bi"
+    },
+    "divergencias": [
+      {
+        "campo": "compativelPfc",
+        "fonteAdotada": "Aviso no rodapé da ficha técnica",
+        "valorDivergente": "\"Computador desktop\" entre os cenários de aplicação ideais",
+        "fonteDivergente": "Quadro \"Cenário de aplicação\" da ficha técnica do ATTIV 1200 BI",
+        "observacao": "A mesma página põe o computador desktop entre as aplicações ideais e avisa, no rodapé, que o nobreak não deve alimentar computador com fonte PFC ativo. Muitas fontes de computador têm PFC ativo; a etiqueta da fonte diz. A ficha fica com o aviso, que é a condição de uso."
+      }
+    ]
+  },
+  {
+    "slug": "tsshara-xpro-senoidal-1400",
+    "nome": "TS Shara XPRO Senoidal 1400 VA",
+    "marca": "TS Shara",
+    "modelo": "UPS Senoidal 1400VA BIV/BIV EXP12V (4551)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 1.400 VA com onda senoidal pura, saída de 115 ou 220 V por chave e entrada para bateria externa. A TS Shara não publica a potência em watts; o fator de potência que ela declara, 0,5, deixa o número do nome pela metade.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 1400,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "tensaoEntrada": "Bivolt automático (115 / 220 V)",
+      "tensaoSaida": "115 ou 220 V, por chave seletora",
+      "tomadas": 6,
+      "bateria": "1 × 12 V 7 Ah, chumbo-ácido selada",
+      "autonomia": "35 min com uma carga de 50 W",
+      "expansaoAutonomia": true,
+      "tempoRecargaH": 6,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaBateriaMeses": 12,
+      "pesoKg": 7.8,
+      "dimensoesMm": "135 × 206 × 360 mm",
+      "formaOnda": "Senoidal pura",
+      "compativelPfc": null,
+      "garantiaMeses": 24
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D6WK1NND"
+    },
+    "fontes": [
+      {
+        "id": "tsshara-4551-1",
+        "titulo": "Página oficial — NOBREAK UPS SENOIDAL 1400VA BIV/BIV EXP12V (#4551)",
+        "url": "https://tsshara.com.br/produto/nobreak-ts-1400va-senoidal-universal-1bs-7ah/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Código #4551, potência 1400VA, 'Forma da onda no inversor: Senoidal pura', entrada 115V/220V bivolt automático e faixas 91V-143V / 174V-272V, saída 115V ou 220V por chave, 6 tomadas 10A NBR 14136, 1 bateria 12V 7Ah AGM/VRLA, bateria externa indicada 12V/45Ah, 'Autonomia média de 35 minutos com referência ao uso de 1 carga de 50W', 'Fator de potência saída: 0,5', 'Tempo de transferência: 0,8 ms', rendimento >96% em rede e >85% em inversor (meia carga), peso 7.8kg, 206 x 135 x 360 mm, garantia de 2 anos no produto e 1 ano na bateria.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tsshara-4551-2",
+        "titulo": "Página oficial — NOBREAK UPS SENOIDAL 1400VA BIV/BIV EXP12V USB (#4527)",
+        "url": "https://tsshara.com.br/produto/nobreak-ups-senoidal-1400va-biv-biv-exp12v-usb/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Ficha idêntica à do #4551, com uma única linha a mais: 'Comunicação Inteligente: Conexão USB'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tsshara-4551-3",
+        "titulo": "Manual de Instruções Nobreak NB Concept 1200VA/1400VA e NB Senoidal 1200VA/1400VA (MKT/f009 - 11/25 - Rev 1 - COD. 56651)",
+        "url": "https://tsshara.com.br/wp-content/uploads/2024/04/Manual-Nobreak-UPS-Concept-cod-56651-WEB.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela de códigos (4551 = NB SENOIDAL 1400VA; 4527 = versão USB), 'Line interactive (topologia interativa)', 'Senoidal Pura' na tabela, 'Potência máxima de pico' 1400 (escrito sem a unidade VA na coluna do Senoidal 1400), tempo de 80% de recarga (≈6 h só com a interna; ≈24 h com a externa), exemplos de autonomia (35 min com 'Computador on board + Monitor 15,6\"'), bateria externa 'de 12V de até 45Ah', certificado de garantia de 24 meses (produto) e 12 meses (bateria).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0d6wk1nnd",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D6WK1NND",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo número da peça, 4551. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tsshara-xpro-senoidal-1400.webp",
+      "alt": "Nobreak TS Shara Senoidal 1400 VA, gabinete preto com frente texturizada, visto de cima em perspectiva",
+      "credito": "Imagem: TS Shara",
+      "origem": "https://tsshara.com.br/produto/nobreak-ts-1400va-senoidal-universal-1bs-7ah/"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaVa",
+        "fonteAdotada": "Página oficial e manual: 1400 VA, fator de potência 0,5",
+        "valorDivergente": "\"Potência máxima: 1400 Watt\" e \"Potência de saída: 1400 Watts\"",
+        "fonteDivergente": "Ficha do anúncio na Amazon (ASIN B0D6WK1NND)",
+        "observacao": "O anúncio escreve o número do nome como se fosse watt. O fabricante declara 1400 VA e fator de potência 0,5, e não publica o valor em watts em nenhuma das duas fontes."
+      },
+      {
+        "campo": "autonomia",
+        "fonteAdotada": "Página oficial do produto: \"35 minutos com referência ao uso de 1 carga de 50W\"",
+        "valorDivergente": "35 min com \"Computador on board + Monitor 15,6\"\", sem watt declarado",
+        "fonteDivergente": "Manual do Concept e Senoidal 1200/1400 VA",
+        "observacao": "Os mesmos 35 minutos aparecem com duas cargas diferentes nas duas fontes do fabricante, e só a da página diz quantos watts. Fica a da página, que é a única que permite comparar."
+      },
+      {
+        "campo": "tempoRecargaH",
+        "fonteAdotada": "Manual: cerca de 6 horas para 80% da carga, só com a bateria interna",
+        "valorDivergente": "Cerca de 24 horas com uma bateria externa ligada",
+        "fonteDivergente": "O mesmo manual",
+        "observacao": "Não é contradição, é condição: o tempo de 6 horas vale para a bateria interna e para 80% da carga. Com bateria externa o manual declara quatro vezes mais."
+      }
+    ]
+  },
+  {
+    "slug": "tsshara-senno-vt-1kva",
+    "nome": "TS Shara Senno VT 1 kVA",
+    "marca": "TS Shara",
+    "modelo": "UPS Senno VT 1KVA Mono 115V (6867)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak online de dupla conversão: a carga passa sempre pelo inversor, sem tempo de transferência na queda. Declara 900 W de 1.000 VA, com fator de potência 0,9, e a autonomia vem com a carga escrita: 1 h 14 min com 90 W.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 900,
+      "potenciaVa": 1000,
+      "fatorPotencia": 0.9,
+      "topologia": "Online de dupla conversão",
+      "formaOnda": "Senoidal pura",
+      "compativelPfc": null,
+      "tensaoEntrada": "115 V",
+      "tensaoSaida": "115 V",
+      "tomadas": 4,
+      "bateria": "2 × 12 V 9 Ah, chumbo-ácido selada",
+      "autonomia": "1 h 14 min com carga de 90 W",
+      "expansaoAutonomia": true,
+      "tempoRecargaH": 4,
+      "consumoStandbyW": null,
+      "comunicacao": "USB e RS-232 (não funcionam ao mesmo tempo); cartão SNMP opcional",
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 9.5,
+      "dimensoesMm": "145 × 220 × 282 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B09851ZWXG"
+    },
+    "fontes": [
+      {
+        "id": "tsshara-6867-1",
+        "titulo": "Página oficial — NOBREAK UPS SENNO VT 1KVA – Mono 115V (#6867)",
+        "url": "https://tsshara.com.br/produto/nobreak-ups-senno-vt-1kva-mono-115v/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Código #6867, 'Potência de saída 1KVA / 900W', 'Topologia: On-line de dupla conversão', 'Fator de potência saída: 0,9', entrada e saída 115V, 'Tempo de transferência: zero', 'Senoidal pura', 4 tomadas 10A NBR 14136, '2 baterias VRLA 12V 9Ah', engate rápido para expansão, 'Tempo de recarga típica em 4 horas', 'Autonomia Média: 1h14min - com carga de 90W', comunicação (duas redações diferentes, ver achados), 'Ruido audível: 50db a 1 metro', fator de crista 3:1, peso 9.50kg, 220 x 145 x 282 mm, 'Garantia de 1 ano', módulo bivolt de código 6827.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tsshara-6867-2",
+        "titulo": "Manual do Usuário UPS SENNO VT 1, 2, 3KVA (capa 'Versão: 1.9'; arquivo 'ver2.0')",
+        "url": "https://tsshara.com.br/wp-content/uploads/2020/08/Manual-Senno-VT-1-2-e-3Kva-ver2.0.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela de especificações do modelo 1k: '1000 VA / 900 W', fator de potência de saída 0,9 e de entrada ≧ 0,99, transferência 'Zero' (modo AC para bateria) e '4 ms (típico)' (inversor para bypass), THD ≦ 3% com carga linear e ≦ 6% com não linear, eficiência de 88% em modo AC e 83% em bateria, 2 baterias 12 V / 9 AH, '4 horas para recuperar a capacidade de 90%', corrente de carga de 1,0 A no máximo, 282 x 145 x 220 mm, 'Peso Líquido (kg) 9,8', ruído 'Menos de 50 dBA @ 1 metro', portas USB e RS-232 ('não podem funcionar ao mesmo tempo') e slot SNMP opcional.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b09851zwxg",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B09851ZWXG",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo número da peça, 6867. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tsshara-senno-vt-1kva.webp",
+      "alt": "Nobreak TS Shara Senno VT 1 kVA, gabinete torre preto com visor digital e grade frontal",
+      "credito": "Imagem: TS Shara",
+      "origem": "https://tsshara.com.br/produto/nobreak-ups-senno-vt-1kva-mono-115v/"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "Página oficial do produto: 9,50 kg",
+        "valorDivergente": "9,8 kg (peso líquido)",
+        "fonteDivergente": "Manual do Senno VT 1, 2 e 3 kVA",
+        "observacao": "As duas fontes do fabricante discordam em 300 g. Fica o da página do produto."
+      },
+      {
+        "campo": "comunicacao",
+        "fonteAdotada": "Aba Características da página oficial e manual: USB e RS-232 de série",
+        "valorDivergente": "\"Serial RS-232 - conector DB9 (opcional)\"",
+        "fonteDivergente": "Aba Especificações da mesma página",
+        "observacao": "A mesma página dá a porta RS-232 como de série numa aba e como opcional na outra. O manual mostra as duas portas no painel traseiro e avisa que não funcionam ao mesmo tempo."
+      },
+      {
+        "campo": "autonomia",
+        "fonteAdotada": "Página oficial: 1 h 14 min com carga de 90 W",
+        "valorDivergente": "90 W são 10% dos 900 W declarados",
+        "fonteDivergente": "A mesma página",
+        "observacao": "A condição está escrita, o que já é mais do que a maioria das fichas publica, mas é uma carga de 10% da capacidade. Com o nobreak perto do limite, a autonomia é uma fração disso, e o manual não traz tabela."
+      }
+    ]
+  },
+  {
+    "slug": "tsshara-concept-1400",
+    "nome": "TS Shara Concept 1400 VA",
+    "marca": "TS Shara",
+    "modelo": "UPS Concept 1400VA BIV/BIV (4513)",
+    "categoria": "nobreaks",
+    "resumo": "O mesmo gabinete, a mesma bateria e a mesma tabela do Senoidal 1400, com inversor de onda PWM. A página do produto não diz a forma de onda nem os watts, e dá 1 ano de garantia onde o manual dá 2.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 1400,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "tensaoEntrada": "Bivolt automático (115 / 220 V)",
+      "tensaoSaida": "115 ou 220 V, por chave seletora",
+      "tomadas": 6,
+      "bateria": "1 × 12 V 7 Ah, chumbo-ácido selada",
+      "autonomia": "35 min com uma carga de 50 W",
+      "expansaoAutonomia": true,
+      "tempoRecargaH": 6,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaBateriaMeses": 12,
+      "pesoKg": 7.8,
+      "dimensoesMm": "135 × 206 × 360 mm",
+      "formaOnda": "Semissenoidal (PWM)",
+      "compativelPfc": false,
+      "garantiaMeses": null
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0D6WKSX3P"
+    },
+    "fontes": [
+      {
+        "id": "tsshara-4513-1",
+        "titulo": "Página oficial — NOBREAK UPS CONCEPT 1400VA BIV/BIV (#4513)",
+        "url": "https://tsshara.com.br/produto/nobreak-ts-1400va-universal-1bs-7ah/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Código #4513, 1400VA, entrada bivolt automática (91V-143V / 174V-272V), saída 115V ou 220V por chave, 6 tomadas 10A NBR 14136, 1 bateria 12V 7Ah AGM/VRLA, externa indicada 12V/45Ah, 'Autonomia média de 35 minutos com referência ao uso de 1 carga de 50W', 'Fator de potência saída: 0,5', 'Tempo de transferência: 0,8 ms', rendimento >96% / >85%, peso 7.8kg, 206 x 135 x 360 mm, 'Garantia de 1 ano'. Não declara a forma de onda.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tsshara-4513-2",
+        "titulo": "Página oficial — NOBREAK UPS CONCEPT 1400VA BIV/BIV USB (#4525)",
+        "url": "https://tsshara.com.br/produto/nobreak-ups-concept-1400va-biv-biv-usb/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Confirma que a versão com USB é outro código (#4525).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tsshara-4513-3",
+        "titulo": "Manual de Instruções Nobreak NB Concept 1200VA/1400VA e NB Senoidal 1200VA/1400VA (MKT/f009 - 11/25 - Rev 1 - COD. 56651)",
+        "url": "https://tsshara.com.br/wp-content/uploads/2024/04/Manual-Nobreak-UPS-Concept-cod-56651-WEB.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Código 4513 = 'NB CONCEPT 1400VA'; 'Line interactive (topologia interativa)'; 'Forma de onda no inversor: Semissenoidal (PWM)' para os dois Concept; 'Potência máxima de pico' 1400VA; fator de potência 0,5; 80% de recarga em ≈6 h; certificado de garantia de 24 meses (produto) e 12 meses (bateria).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0d6wksx3p",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0D6WKSX3P",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo número da peça, 4513. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tsshara-concept-1400.webp",
+      "alt": "Nobreak TS Shara Concept 1400 VA, gabinete preto com frente texturizada, visto de frente",
+      "credito": "Imagem: TS Shara",
+      "origem": "https://tsshara.com.br/produto/nobreak-ts-1400va-universal-1bs-7ah/"
+    },
+    "divergencias": [
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "Nenhuma: as duas fontes do fabricante se contradizem",
+        "valorDivergente": "\"Garantia de 1 ano\" na página do produto; 24 meses para o produto e 12 para a bateria no certificado do manual",
+        "fonteDivergente": "Página oficial do Concept 1400 e manual do Concept e Senoidal 1200/1400 VA",
+        "observacao": "A página do Senoidal 1400, com o mesmo manual, diz 2 anos. Sem saber qual das duas a TS Shara honra para o Concept, o campo fica vazio."
+      },
+      {
+        "campo": "compativelPfc",
+        "fonteAdotada": "Manual: nobreaks com onda PWM não devem ser usados em computadores com fonte PFC ativo",
+        "valorDivergente": "\"Computadores ou Notebooks\" e \"Microcomputadores\" entre as aplicações",
+        "fonteDivergente": "Página oficial do Concept 1400",
+        "observacao": "A forma de onda, que é o que decide a questão, não aparece na página do Concept — só no manual. A ficha fica com o aviso do manual."
+      },
+      {
+        "campo": "potenciaVa",
+        "fonteAdotada": "Página oficial e manual: 1400 VA, fator de potência 0,5",
+        "valorDivergente": "\"Potência máxima: 1400 Watt\" e \"Potência de saída: 700 Watts\"",
+        "fonteDivergente": "Ficha do anúncio na Amazon (ASIN B0D6WKSX3P)",
+        "observacao": "O anúncio escreve o número do nome como se fosse watt. O fabricante declara 1400 VA e fator de potência 0,5, e não publica o valor em watts em nenhuma das duas fontes."
+      },
+      {
+        "campo": "autonomia",
+        "fonteAdotada": "Página oficial do produto: \"35 minutos com referência ao uso de 1 carga de 50W\"",
+        "valorDivergente": "35 min com \"Computador on board + Monitor 15,6\"\", sem watt declarado",
+        "fonteDivergente": "Manual do Concept e Senoidal 1200/1400 VA",
+        "observacao": "Os mesmos 35 minutos aparecem com duas cargas diferentes nas duas fontes do fabricante, e só a da página diz quantos watts. Fica a da página, que é a única que permite comparar."
+      }
+    ]
+  },
+  {
+    "slug": "ragtech-one-up-nitro-2000",
+    "nome": "Ragtech One Up Nitro 2000 VA",
+    "marca": "Ragtech",
+    "modelo": "OneUP Nitro 2000 (4590)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 2.000 VA que declara 1.400 W, com onda senoidal pura e aval explícito da Ragtech para fonte com PFC. Traz duas baterias de 9 Ah, USB e entrada para módulo externo — e nenhum minuto de autonomia em número, só um gráfico de curvas sem valores.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 1400,
+      "potenciaVa": 2000,
+      "fatorPotencia": 0.7,
+      "topologia": null,
+      "formaOnda": "Senoidal pura",
+      "compativelPfc": true,
+      "tensaoEntrada": "Automática, de 90 a 240 V",
+      "tensaoSaida": "115 V",
+      "tomadas": 9,
+      "bateria": "2 × 12 V 9 Ah",
+      "autonomia": null,
+      "expansaoAutonomia": true,
+      "tempoRecargaH": 8,
+      "consumoStandbyW": null,
+      "comunicacao": "USB, com o software Supervise Personal",
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 19.2,
+      "dimensoesMm": "125 × 224 × 375 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0846MKD82"
+    },
+    "fontes": [
+      {
+        "id": "ragtech-4590-1",
+        "titulo": "One Up Nitro — página do produto",
+        "url": "https://ragtech.com.br/produtos/one-up-nitro/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'OneUP Nitro 2.000VA / 1.400W [Cód.:4590]', 'Fator de potência 0,7', forma de onda, entrada '90 até 240VCA', saída '115VCA / 60Hz', tomadas, 'Baterias internas 2x9Ah/12VCC no modelo 2.000VA', expansão '24VCC até 80Ah', comunicação, 'Garantia 12 meses contra defeitos de fabricação' e os códigos 4590 (Trivolt) e 4589 (M2 – 220V).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ragtech-4590-2",
+        "titulo": "Lâmina One Up Nitro (PDF)",
+        "url": "http://ragtech.com.br/laminas/LAMINA_ONE_UP_%20NITRO.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações técnicas: faixas de correção e de operação, 0,8 ms de acionamento, 8 horas de carga, 'Senoidal pura', 1% de distorção harmônica, 'Modelo LT: 2x 12V 5Ah / Modelo GT: 2x 12V 7Ah / Modelo XT: 2x 12V 9Ah', peso 19,2/20,0 kg, 224 x 125 x 375 mm, configurações Monovolt 220V (M2) e Trivolt (Ti) com saída 115V, e o gráfico 'Tabela de autonomia genérica'.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0846mkd82",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0846MKD82",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo número da peça, 4590. Nenhum número da ficha saiu daqui. O anúncio lista \"Tensão de saída: 2000 Volts\", o número do nome no campo de tensão.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/ragtech-one-up-nitro-2000.webp",
+      "alt": "Nobreak Ragtech One Up Nitro, gabinete torre preto com painel frontal vermelho iluminado e visor",
+      "credito": "Imagem: Ragtech",
+      "origem": "https://ragtech.com.br/produtos/one-up-nitro/"
+    },
+    "divergencias": [
+      {
+        "campo": "tensaoEntrada",
+        "fonteAdotada": "Página do produto: \"Full Range, de 90 até 240VCA\"",
+        "valorDivergente": "80 V até 266 V em modo rede (modelos Ti)",
+        "fonteDivergente": "Lâmina técnica do One Up Nitro",
+        "observacao": "As duas fontes da Ragtech dão faixas de entrada diferentes para o mesmo produto. Fica a da página, a mais estreita."
+      }
+    ]
+  },
+  {
+    "slug": "ragtech-save-home-nsh-600",
+    "nome": "Ragtech Save Home NSH 600 VA",
+    "marca": "Ragtech",
+    "modelo": "NSH 600 STD TI (4125)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 600 VA com onda senoidal modificada. A Ragtech não publica os watts nem a bateria — só \"bateria interna: sim\" —, e a ficha que a página oferece é de maio de 2015. Os 300 W e a bateria de 5 Ah do anúncio não aparecem em fonte do fabricante.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 600,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Senoidal modificada (PWM)",
+      "compativelPfc": null,
+      "tensaoEntrada": "Trivolt automático (115, 127 e 220 V)",
+      "tensaoSaida": "115 V",
+      "tomadas": 6,
+      "bateria": null,
+      "autonomia": "20 min com computador desktop e impressora jato de tinta; 7 min com servidor de vigilância e 4 câmeras (cargas sem watts declarados)",
+      "expansaoAutonomia": null,
+      "tempoRecargaH": 12,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 5.2,
+      "dimensoesMm": "95 × 200 × 277 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B075B2G6RX"
+    },
+    "fontes": [
+      {
+        "id": "ragtech-4125-1",
+        "titulo": "Save Home 500VA | 600VA — página do produto",
+        "url": "https://ragtech.com.br/produtos/save-home/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Forma de onda Senoidal modificada (PWM)', 'Fator de potência 0,5', 'Seleção da tensão de entrada Automática', '6 tomadas', 'Protetor telefônico Não possui', '2 leds multifunção', '• Nobreak line interactive', '• Trivolt automático', 'Garantia total 1 ano' e os códigos 4125, 4114 e 4126 do NSH 600.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ragtech-4125-2",
+        "titulo": "Ficha técnica Nobreak Save Home (Rev. Mai/15)",
+        "url": "http://ragtech.com.br/wp-content/uploads/2017/03/Save-Home.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência nominal 600VA, fator 0,5, 'atende à norma NBR 15014', faixas de entrada, 0,7 ms de acionamento, 12 horas de carga, 'senoidal modificada', 6 tomadas, peso 5,2/5,5 kg [Ti], 200 x 95 x 277 mm, tabela de autonomia (20/10/7 min), tabela comparativa USB/STD e as configurações trivolt [Ti] (saída 115V) e monovolt 115V [M1]. O PDF é imagem e foi lido pela página renderizada.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b075b2g6rx",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B075B2G6RX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo número da peça, 4125. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/ragtech-save-home-nsh-600.webp",
+      "alt": "Nobreak Ragtech Save Home, gabinete preto estreito com botão frontal iluminado em verde",
+      "credito": "Imagem: Ragtech",
+      "origem": "https://ragtech.com.br/produtos/save-home/"
+    },
+    "divergencias": [
+      {
+        "campo": "formaOnda",
+        "fonteAdotada": "Página do produto e tabela técnica da ficha: \"senoidal modificada\"",
+        "valorDivergente": "\"tecnologia Senoidal por aproximação\"",
+        "fonteDivergente": "Recursos gerais da ficha técnica do Save Home",
+        "observacao": "A mesma ficha usa dois nomes para a onda do inversor. Os dois descrevem onda que não é senoide; fica o da tabela técnica, que é o que a página também usa."
+      },
+      {
+        "campo": "potenciaVa",
+        "fonteAdotada": "Página e ficha da Ragtech: 600 VA, fator de potência 0,5, \"bateria interna: sim\"",
+        "valorDivergente": "\"600VA/300W – 1 bateria 12V/5Ah\"",
+        "fonteDivergente": "Título e ficha do anúncio na Amazon (ASIN B075B2G6RX)",
+        "observacao": "Os 300 W e a bateria de 12 V 5 Ah estão no título do anúncio e em nenhuma fonte da Ragtech."
+      }
+    ]
+  },
+  {
+    "slug": "ragtech-easy-way-new-1200",
+    "nome": "Ragtech Easy Way NEW 1200 VA",
+    "marca": "Ragtech",
+    "modelo": "NEW 1200 STD TI Black (4137)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 1.200 VA com onda senoidal modificada e uma tabela de autonomia com a carga escrita em watts em cada linha: de 1 h 20 min a 30 W até 12 min a 180 W. Não declara os watts do aparelho, a bateria nem o peso desta versão.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 1200,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Senoidal modificada (PWM)",
+      "compativelPfc": null,
+      "tensaoEntrada": "Trivolt automático (115, 127 e 220 V)",
+      "tensaoSaida": "115 V",
+      "tomadas": 6,
+      "bateria": "1 bateria interna (tensão e capacidade não declaradas)",
+      "autonomia": "1 h 20 min a 30 W; 38 min a 65 W; 32 min a 75 W; 30 min a 90 W; 19 min a 130 W; 12 min a 180 W",
+      "expansaoAutonomia": false,
+      "tempoRecargaH": 8,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": null,
+      "dimensoesMm": "138 × 168 × 375 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0754KZM7B"
+    },
+    "fontes": [
+      {
+        "id": "ragtech-4137-1",
+        "titulo": "Easy Way 700VA | 1200VA | 1400VA | 1450VA | 1500VA — página do produto",
+        "url": "https://ragtech.com.br/produtos/easy-way-700va-1500va/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Forma de onda Senoidal modificada (PWM)', 'Fator de potência 0,5 (0,7 na versão 700VA e 1400VA)', '6 tomadas', '• Nobreak line interactive', '• Trivolt automático', '• Bivolt manual na saída (modelos BIV)', 'Garantia total 1 ano' e os códigos do NEW 1200 (4133, 4137, 4155, 4142, 4200, 4203).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ragtech-4137-2",
+        "titulo": "Ficha técnica Nobreak Easy Way 700–1500 (REV. OUT./2025_LICIT. 21.10)",
+        "url": "https://ragtech.com.br/wp-content/uploads/2017/01/FICHA-TECNICA-EASY-WAY_LICT.-OUT.25.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Fator de potência, faixas de operação, 55–65 Hz, 0,7 ms de acionamento, 8 horas de carga, 'Senoidal Modificada', 1 bateria, 6 tomadas, ruído máximo de 56 dB a um metro, peso só na coluna '1200(XT)', 168 x 138 x 375 mm, tabela de autonomia com watts, tabela comparativa CB/CBu/USB/STD e configurações M1/M2/Ti/BIV.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ragtech-4137-3",
+        "titulo": "Nobreak com Tecnologia Senoidal por Aproximação Easy Way 1200–1800 — página do produto",
+        "url": "https://ragtech.com.br/produtos/easy_way/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Consultada só para descartar: é outro 'NEW 1200' (códigos 4211/4210), com '2 baterias', '8 tomadas' e 'Senoidal por Aproximação'. Não corresponde ao anúncio de 1 bateria e 6 tomadas.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0754kzm7b",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0754KZM7B",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo número da peça, 4137. Nenhum número da ficha saiu daqui. O anúncio lista \"Duração da bateria: 180 minutos\", que não está na tabela da Ragtech para a versão sem módulo.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/ragtech-easy-way-new-1200.webp",
+      "alt": "Nobreak Ragtech Easy Way, gabinete preto deitado com botão superior, em perspectiva",
+      "credito": "Imagem: Ragtech",
+      "origem": "https://ragtech.com.br/produtos/easy-way-700va-1500va/"
+    },
+    "divergencias": [
+      {
+        "campo": "formaOnda",
+        "fonteAdotada": "Página do produto e tabela técnica da ficha: \"senoidal modificada\"",
+        "valorDivergente": "\"tecnologia Senoidal por aproximação\"",
+        "fonteDivergente": "Recursos gerais da ficha técnica do Easy Way 700–1500",
+        "observacao": "A mesma ficha usa dois nomes para a onda do inversor. Os dois descrevem onda que não é senoide; fica o da tabela técnica, que é o que a página também usa."
+      },
+      {
+        "campo": "potenciaVa",
+        "fonteAdotada": "Página e ficha da Ragtech: 1200 VA e fator de potência 0,5, sem watts nem capacidade de bateria",
+        "valorDivergente": "\"1.200VA/600W – 1 bateria 12V/7Ah\"",
+        "fonteDivergente": "Título e ficha do anúncio na Amazon (ASIN B0754KZM7B)",
+        "observacao": "Os 600 W e a bateria de 12 V 7 Ah estão no título do anúncio e em nenhuma fonte da Ragtech. A Ragtech vende ainda um segundo \"NEW 1200\", de duas baterias e oito tomadas, em outra página."
+      }
+    ]
+  },
+  {
+    "slug": "ragtech-easy-pro-nep-3200",
+    "nome": "Ragtech Easy Pro NEP 3200 VA",
+    "marca": "Ragtech",
+    "modelo": "NEP 3200D GT CBU-TI BL (4061)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 3.200 VA com onda senoidal pura, dez tomadas, USB e RS-232, indicado pela Ragtech para fonte com ou sem PFC. Não declara os watts, e a própria Ragtech o põe em duas topologias diferentes: interativo no site, online de simples conversão na ficha.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 3200,
+      "fatorPotencia": 0.7,
+      "topologia": null,
+      "formaOnda": "Senoidal pura",
+      "compativelPfc": true,
+      "tensaoEntrada": "Automática, de 80 a 266 V",
+      "tensaoSaida": "115 V",
+      "tomadas": 10,
+      "bateria": "2 baterias internas de 12 V, de 7 ou 9 Ah (a ficha não diz qual)",
+      "autonomia": "80 min com um computador e impressora jato de tinta; 8 min com quatro computadores (cargas sem watts declarados)",
+      "expansaoAutonomia": true,
+      "tempoRecargaH": 8,
+      "consumoStandbyW": null,
+      "comunicacao": "USB e RS-232C, com o software Supervise Personal",
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 15.7,
+      "dimensoesMm": "170 × 215 × 485 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C3JMV7P5"
+    },
+    "fontes": [
+      {
+        "id": "ragtech-4061-1",
+        "titulo": "Easy Pro 1400VA | 1600VA | 2000VA | 3200VA — página do produto",
+        "url": "https://ragtech.com.br/produtos/easy-pro-1400va-2000va/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Forma de onda Senoidal pura', 'Fator de potência 0,7', '10 tomadas', 'Protetor telefônico Sim', 'Porta de comunicação USB e RS-232C — Modelos USB, CBu e VIO', 'Conector de bateria — Modelos CB, CBu e VIO', 'Full range 80V a 266V automático', 'Garantia total 1 ano' e os códigos 4061, 4062 e 20PAP24002 do 3200VA.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ragtech-4061-2",
+        "titulo": "Ficha técnica Nobreak Easy Pro Senoidal Digital 1400–3200VA (REV. OUT./2025_LICIT. 21.10)",
+        "url": "https://ragtech.com.br/wp-content/uploads/2017/01/FICHA-TECNICA-NEP_LICT.OUT_.25.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Fator de potência por modelo (0,7 no 3200), 'on-line simples conversão', faixas de tensão, 0,8 ms de acionamento, 8 horas de carga, '8 tomadas de 10A e 2 tomadas de 20A', peso 15,7/16,0 kg, 215 x 170 x 485 mm, tabela de autonomia EP2000/EP3200, '2 Baterias internas de 7Ah ou 9Ah', e as configurações trivolt [Ti] (saída 115V) e monovolt 220V [M2]. O PDF tem o texto em curvas e foi lido pela página renderizada.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0c3jmv7p5",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C3JMV7P5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo número da peça, 4061. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/ragtech-easy-pro-nep-3200.webp",
+      "alt": "Nobreak Ragtech Easy Pro Digital, gabinete preto deitado com visor digital, em perspectiva",
+      "credito": "Imagem: Ragtech",
+      "origem": "https://ragtech.com.br/produtos/easy-pro-1400va-2000va/"
+    },
+    "divergencias": [
+      {
+        "campo": "topologia",
+        "fonteAdotada": "Nenhuma: as duas fontes da Ragtech se contradizem",
+        "valorDivergente": "\"Line Interactive Senoidal\" no menu do site; \"on-line simples conversão de acordo com a norma NBR 15014\" na ficha técnica",
+        "fonteDivergente": "Site da Ragtech e ficha técnica do Easy Pro Digital 1400–3200 VA",
+        "observacao": "A ficha do Easy Pro menor, de 600 a 1200 VA, cita a mesma norma e se diz interativo. Sem saber qual das duas vale, o campo fica vazio."
+      },
+      {
+        "campo": "potenciaVa",
+        "fonteAdotada": "Página e ficha da Ragtech: 3200 VA e fator de potência 0,7, sem watts; baterias \"de 7Ah ou 9Ah\"",
+        "valorDivergente": "\"3.200VA/2.240W – 2 baterias 12V/9Ah\"",
+        "fonteDivergente": "Título e ficha do anúncio na Amazon (ASIN B0C3JMV7P5)",
+        "observacao": "Os 2.240 W do anúncio são a conta do VA pelo fator de potência, e a Ragtech não a publica. A capacidade de 9 Ah também é do anúncio: a ficha diz 7 ou 9."
+      }
+    ]
+  },
+  {
+    "slug": "sms-lite-600",
+    "nome": "SMS Lite 600 VA",
+    "marca": "SMS",
+    "modelo": "LITE 600Bi/115 (0029202)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 600 VA com onda senoidal por aproximação, quatro tomadas e bateria de 5 Ah. A SMS não publica os watts nem o tempo de recarga, e a tabela de autonomia descreve as cargas por aparelho, sem watts. A garantia incondicional é de 1 ano; os meses a mais que a página anuncia dependem de cadastro em até 90 dias, e o manual diz que a extensão não vale para a bateria.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 600,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Senoidal por aproximação (retangular PWM)",
+      "compativelPfc": null,
+      "tensaoEntrada": "Bivolt automático (115 / 127 / 220 V)",
+      "tensaoSaida": "115 V",
+      "tomadas": 4,
+      "bateria": "1 × 12 V 5 Ah",
+      "autonomia": "25 min com computador e monitor LED de 15,6\" (carga sem watts declarados)",
+      "expansaoAutonomia": null,
+      "tempoRecargaH": null,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 5.2,
+      "dimensoesMm": "127 × 179 × 343 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0C9X9Z65V"
+    },
+    "fontes": [
+      {
+        "id": "sms-0029202-1",
+        "titulo": "Nobreak SMS LITE 600 VA — página do produto",
+        "url": "https://www.sms.com.br/produtos/detalhe/nobreaks-ups-1/line-interactive/nobreak-sms-lite-600-va/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência 600 VA; topologia \"Nobreak (UPS) interativo com regulação on-line\"; forma de onda \"Senoidal por aproximação - retangular PWM\"; tensão de entrada \"Bivolt automático 115/127/220V~\"; saída 115V~; \"4 tomadas NBR 14136\"; fator de potência de saída 0,5; peso líquido 5,2 kg; dimensões AxLxP 179x127x343 mm; garantia \"18 meses (1 ano + 6 meses mediante cadastro)\"; autonomia máxima \"25 minutos para computador on board + monitor LED 15,6\"\" e a tabela de autonomia por configuração.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "sms-0029202-2",
+        "titulo": "Catálogo Nobreak SMS LITE (CAT.01-05/23)",
+        "url": "https://legrand-sms.s3.amazonaws.com/catalogos/catalogo-nobreak-sms-lite-03-24.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bateria interna \"1 bateria 12VDC / 5Ah\"; faixas de entrada 89 a 140 V~ / 175 a 260 V~; tomadas 10A; rendimento \"Até 94%\" (modo rede); acionamento do inversor < 0,8 ms; mesma tabela de autonomia da página.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "sms-0029202-3",
+        "titulo": "Manual do Usuário Nobreak SMS LITE (DOVI051432)",
+        "url": "https://legrand-sms.s3.amazonaws.com/manuais/manual-nobreak-sms-lite-dovi051432.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações técnicas (cap. 12) repetem bateria 12VDC/5Ah, peso líquido 5,2 kg, peso bruto 5,5 kg e dimensões; termo de garantia (cap. 14): 1 ano incluindo os 90 dias legais, +6 meses mediante solicitação em até 90 dias, extensão não vale para bateria. Recomenda deixar ligado \"por no mínimo 12 horas\" antes do primeiro uso (não é tempo de recarga declarado).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0c9x9z65v",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0C9X9Z65V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo: o título descreve a versão de entrada bivolt e saída 115 V, que é a 600Bi/115. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/sms-lite-600.webp",
+      "alt": "Nobreak SMS Lite, gabinete preto com frente texturizada em triângulos e logotipo SMS",
+      "credito": "Imagem: SMS / Legrand",
+      "origem": "https://www.sms.com.br/produtos/detalhe/nobreaks-ups-1/line-interactive/nobreak-sms-lite-600-va/"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "sms-tech-800",
+    "nome": "SMS Tech 800 VA",
+    "marca": "SMS",
+    "modelo": "TECH 800Bi/220 (0029303)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 800 VA com saída de 220 V, seis tomadas e bateria de 7 Ah. Como no Lite, a SMS não publica os watts, a recarga nem a carga em watts da tabela de autonomia. A garantia incondicional é de 1 ano; os meses a mais que a página anuncia dependem de cadastro em até 90 dias, e o manual diz que a extensão não vale para a bateria.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 800,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Senoidal por aproximação (retangular PWM)",
+      "compativelPfc": null,
+      "tensaoEntrada": "Bivolt automático (115 / 127 / 220 V)",
+      "tensaoSaida": "220 V",
+      "tomadas": 6,
+      "bateria": "1 × 12 V 7 Ah",
+      "autonomia": "30 min com computador e monitor LED de 15,6\" (carga sem watts declarados)",
+      "expansaoAutonomia": null,
+      "tempoRecargaH": null,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 5.7,
+      "dimensoesMm": "127 × 179 × 343 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CCK35MX7"
+    },
+    "fontes": [
+      {
+        "id": "sms-0029303-1",
+        "titulo": "Nobreak SMS TECH 800 VA — página do produto",
+        "url": "https://www.sms.com.br/produtos/detalhe/nobreaks-ups-1/line-interactive/nobreak-sms-tech-800-va/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência 800 VA; topologia; forma de onda; entrada \"Bivolt automático 115/127/220V~\"; saída 220V~ (Ref. 0029303); \"6 tomadas NBR 14136\"; fator de potência 0,5; \"Porta fusível externo com unidade reserva\"; peso líquido 5,7 kg; dimensões 179x127x343 mm; garantia \"24 meses (1 ano + 1 ano mediante cadastro)\"; autonomia máxima de 30 minutos e tabela por configuração.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "sms-0029303-2",
+        "titulo": "Catálogo Nobreak SMS TECH",
+        "url": "https://legrand-sms.s3.amazonaws.com/catalogos/catalogo-nobreak-sms-tech-03-24_dnr4sRq.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bateria interna \"1 bateria 12VDC / 7Ah\"; tomadas 10A; rendimento; acionamento do inversor < 0,8 ms; \"24 MESES\" de garantia; linha de peso líquido \"5,6 5,8 9,5 12,8\" para oito códigos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "sms-0029303-3",
+        "titulo": "Manual do Usuário Nobreak SMS TECH (DOVI051532)",
+        "url": "https://legrand-sms.s3.amazonaws.com/manuais/manual-nobreak-sms-tech-dovi051532_R61OehZ.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela de 600Bi/115 a 800Bi/220: bateria 12VDC/7Ah; pesos líquidos 5,6 e 5,8 kg e brutos 5,9 e 6,1 kg sem atribuição clara por coluna; faixa de entrada do 800Bi/220; termo de garantia com 1 ano adicional mediante solicitação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0cck35mx7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CCK35MX7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo: número do modelo 0029303, saída de 220 V. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/sms-tech-800.webp",
+      "alt": "Nobreak SMS Tech, gabinete preto com painel frontal branco e logotipo SMS",
+      "credito": "Imagem: SMS / Legrand",
+      "origem": "https://www.sms.com.br/produtos/detalhe/nobreaks-ups-1/line-interactive/nobreak-sms-tech-800-va/"
+    },
+    "divergencias": [
+      {
+        "campo": "pesoKg",
+        "fonteAdotada": "Página do produto: 5,7 kg",
+        "valorDivergente": "5,6 e 5,8 kg, para os quatro modelos de 600 a 800 VA",
+        "fonteDivergente": "Manual e catálogo da linha TECH",
+        "observacao": "O manual e o catálogo trazem só dois pesos para a linha, e nenhum é o 5,7 da página. Fica o da página, que é a do modelo."
+      }
+    ]
+  },
+  {
+    "slug": "sms-pro-1800",
+    "nome": "SMS Pro 1800 VA",
+    "marca": "SMS",
+    "modelo": "PRO 1800Bi/Bi WiFi (0029403)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 1.800 VA com oito tomadas, duas baterias de 9 Ah, Wi-Fi e USB, e entrada para bateria externa. O \"até 26 horas\" exige dois módulos externos vendidos à parte: com a bateria interna, a mesma carga dura 1 h 30 min. A garantia incondicional é de 1 ano; os meses a mais que a página anuncia dependem de cadastro em até 90 dias, e o manual diz que a extensão não vale para a bateria.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 1800,
+      "fatorPotencia": 0.7,
+      "topologia": "Interativo",
+      "formaOnda": "Senoidal por aproximação (retangular PWM)",
+      "compativelPfc": null,
+      "tensaoEntrada": "Bivolt automático (115 / 127 / 220 V)",
+      "tensaoSaida": "115 ou 220 V, por chave (sai de fábrica em 115 V)",
+      "tomadas": 8,
+      "bateria": "2 × 12 V 9 Ah",
+      "autonomia": "1 h 30 min com computador e monitor LED de 15,6\", só com a bateria interna (carga sem watts declarados)",
+      "expansaoAutonomia": true,
+      "tempoRecargaH": null,
+      "consumoStandbyW": null,
+      "comunicacao": "Wi-Fi (app SMS PowerView) e USB",
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 14.2,
+      "dimensoesMm": "140 × 233 × 386 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CCC3N8G7"
+    },
+    "fontes": [
+      {
+        "id": "sms-0029403-1",
+        "titulo": "Nobreak SMS PRO 1800 VA — página do produto",
+        "url": "https://www.sms.com.br/produtos/detalhe/nobreaks-ups-1/line-interactive/nobreak-sms-pro-1800-va/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Potência 1800 VA; topologia; forma de onda; entrada \"Bivolt automático 115/127/220V~\"; saída \"Bivolt 115/220V~ com seleção manual\"; \"8 tomadas NBR 14136 (6 tomadas de 10A + 2 tomadas de 20A)\"; fator de potência 0,7; \"Fusível rearmável\"; peso líquido 14,2 kg; dimensões 233x140x386 mm; garantia \"24 meses (1 ano + 1 ano mediante cadastro)\"; autonomia \"90 minutos expansível até 26h para computador on board + monitor LED 15,6\"\"; gerenciamento Wi-Fi e USB; tabela de autonomia com bateria interna e com 1 ou 2 módulos de 24V/17Ah e de 24V/40Ah.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "sms-0029403-2",
+        "titulo": "Catálogo Nobreak SMS PRO",
+        "url": "https://legrand-sms.s3.amazonaws.com/catalogos/catalogo-nobreak-sms-pro-03-24_M1kUWr3.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "\"90 min* *MODELO 1800VA\" e \"EXPANSÍVEL ATÉ 26h\"; \"24 MESES\" de garantia; mesma tabela de autonomia do 1800VA; lista de módulos de bateria (24Vdc/17Ah = duas baterias seladas de 17Ah; 24Vdc/40Ah = duas estacionárias de 40Ah).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "sms-0029403-3",
+        "titulo": "Manual do Usuário Nobreak SMS PRO (DOVI051632)",
+        "url": "https://legrand-sms.s3.amazonaws.com/manuais/manual-nobreak-sms-pro-dovi051632_6Ylm9KG.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações (cap. 14): bateria interna \"2 baterias 12VDC / 9Ah\"; bateria externa opcional \"24VDC / máximo 80Ah\"; peso líquido 14,2 kg, bruto 14,6 kg; dimensões 233x140x386 mm e embalagem 242x160x445 mm; rendimento \"Até 97%\" (modo rede); saída \"115 / 220 (manual) (configurado de fábrica: 115V~)\"; USB + Wi-Fi nos modelos Wi-Fi; termo de garantia de 1 ano + 12 meses adicionais mediante solicitação.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0ccc3n8g7",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CCC3N8G7",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo: número do modelo 0029403. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/sms-pro-1800.webp",
+      "alt": "Nobreak SMS Pro, gabinete preto com frente texturizada e friso azul, logotipo SMS",
+      "credito": "Imagem: SMS / Legrand",
+      "origem": "https://www.sms.com.br/produtos/detalhe/nobreaks-ups-1/line-interactive/nobreak-sms-pro-1800-va/"
+    },
+    "divergencias": [
+      {
+        "campo": "autonomia",
+        "fonteAdotada": "Tabela de autonomia da página e do catálogo, coluna da bateria interna",
+        "valorDivergente": "Mesmos tempos nas 13 linhas para dois módulos de 24 V 17 Ah e para um módulo de 24 V 40 Ah (por exemplo, 11 h 12 min e 11 h 12 min)",
+        "fonteDivergente": "A mesma tabela, colunas com módulos externos",
+        "observacao": "Dois módulos de 17 Ah somam 34 Ah, e um de 40 Ah tem 40: as duas colunas não deveriam coincidir linha a linha. A documentação não explica. A ficha fica com a coluna da bateria interna, que é a que vem na caixa."
+      }
+    ]
+  },
+  {
+    "slug": "nhs-mini-4-600",
+    "nome": "NHS Mini 4 600 VA",
+    "marca": "NHS",
+    "modelo": "Mini 4 Mono 600VA (90.A1.006000)",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 600 VA, 120 V, com seis tomadas e bateria de 7 Ah. A NHS declara 250 W contínuos, recarga em 10 horas e autonomia com a carga definida — 7 min na carga plena, 17 na meia —, e deixa o prazo de garantia para uma etiqueta no aparelho.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 250,
+      "potenciaVa": 600,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Semissenoidal",
+      "compativelPfc": null,
+      "tensaoEntrada": "120 V",
+      "tensaoSaida": "120 V",
+      "tomadas": 6,
+      "bateria": "1 × 12 V 7 Ah, chumbo-ácido selada",
+      "autonomia": "17 min a meia carga e 7 min a plena carga, de 250 W",
+      "expansaoAutonomia": false,
+      "tempoRecargaH": 10,
+      "consumoStandbyW": null,
+      "comunicacao": "USB opcional, sob consulta",
+      "garantiaMeses": null,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 5.4,
+      "dimensoesMm": "98 × 170 × 292 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BHKNKC37"
+    },
+    "fontes": [
+      {
+        "id": "nhs-90a1006000-1",
+        "titulo": "Nobreak Mini 4 Mono (600VA/b.7Ah) — página do produto",
+        "url": "https://nhs.com.br/produto/nobreak-mini-4-mono-600va-b-7ah/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Código 90.A1.006000; \"Nobreak tecnologia Line Interactive Semi-Senoidal\"; 6 tomadas; bateria \"1 x 7Ah/12V\"; dimensão \"292mm x 98mm x 170mm\"; peso \"5,40Kg\"; tensão nominal de saída 120V; \"Interface USB: Sim (opcional sob consulta)\"; tempo de transferência \"Menor que 4ms/Tempo de acionamento do inversor menor que 0,8ms\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "nhs-90a1006000-2",
+        "titulo": "Ficha técnica de produto 90.A1.006000 (07/07/2026)",
+        "url": "https://nhs.com.br/wp-content/uploads/2026/07/ficha-102260399-894e2f43.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Pot. nominal 600VA; \"Pot. contínua: 250W\"; \"Pot. pico: 300W\"; \"Fator de pot. saída: 0,5\"; carga de informática \"1 micro + 1 impressora\"; entrada 120V, faixa 95V - 145V, 45Hz - 65Hz; saída 120V +-5%, 60Hz +-0,1%, semi-senoidal; 6 tomadas 10A; 2 estágios de regulação; rendimento >= 95% (rede) e >= 80% (inversor); autonomias típica 11 min, meia carga 17 min, plena 7 min; \"Tempo de recarga: 10h após 90% descarregada\"; peso líquido 5,40 kg; ruído \"Menor que 45dBA (a 1m)\"; MTBF 10.000 horas; gráfico de autonomia por watts; termo de garantia com prazo \"indicado na Etiqueta de Número de Série\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "nhs-90a1006000-3",
+        "titulo": "Manual do Usuário Mini 4 600/700/800VA (761004 - V04 10/25)",
+        "url": "https://nhs.com.br/wp-content/uploads/2026/06/manual-102260399-37e161f6.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "\"600VA/250W\" e pico 300W; faixa de entrada 95V - 145V (120V); tempo de recarga \"10h após 90% descarregada\"; autonomia 11min/17min/7min (típica/meia/plena) no 600VA; peso \"5,75kg / 5,40kg*\" (o asterisco marca os modelos 120V); \"USB (opcional)\"; garantia de 90 dias + \"1 ano ou 2 anos - descrita na etiqueta de número de série\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "nhs-90a1006000-4",
+        "titulo": "Garantia de produtos — NHS",
+        "url": "https://nhs.com.br/garantia-de-produtos/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Texto genérico: \"O tempo de garantia deste equipamento (excluindo as baterias) é de 2 anos\" e \"O tempo de garantia das baterias … é de 1 ano\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0bhknkc37",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BHKNKC37",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo: código 90.A1.006000 no título. Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/nhs-mini-4-600.webp",
+      "alt": "Nobreak NHS Mini 4, gabinete preto compacto com botão e três LEDs na frente",
+      "credito": "Imagem: NHS",
+      "origem": "https://nhs.com.br/produto/nobreak-mini-4-mono-600va-b-7ah/"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaW",
+        "fonteAdotada": "Ficha técnica: \"Pot. contínua: 250W\"",
+        "valorDivergente": "600 VA × fator de potência 0,5 = 300 W, que a mesma ficha chama de \"Pot. pico\"",
+        "fonteDivergente": "A mesma ficha técnica",
+        "observacao": "O fator de potência declarado e a potência contínua declarada não fecham: um dá 300 W, o outro diz 250. A ficha fica com os 250 W contínuos, que são o número menor e o que a NHS também escreve no manual (\"600VA/250W\")."
+      },
+      {
+        "campo": "garantiaMeses",
+        "fonteAdotada": "Nenhuma: três documentos da NHS dão três respostas",
+        "valorDivergente": "Manual: 90 dias mais \"1 ano ou 2 anos - descrita na etiqueta de número de série\"; ficha: prazo \"indicado na Etiqueta de Número de Série\"; página de garantia: 2 anos para o equipamento e 1 para as baterias",
+        "fonteDivergente": "Manual, ficha técnica e página \"Garantia de produtos\" da NHS",
+        "observacao": "Nenhum dos três fixa o prazo deste modelo antes da compra, e o manual ainda condiciona a garantia complementar à ativação por um técnico da rede. O campo fica vazio."
+      }
+    ]
+  },
+  {
+    "slug": "coletek-safe-1200",
+    "nome": "Coletek Safe 1200 VA",
+    "marca": "Coletek",
+    "modelo": "SAFE1200BK",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 1.200 VA com oito tomadas e bateria de 9 Ah. A página e a ficha da linha, as duas da Coletek, discordam no fator de potência, na forma de onda e no cabo; o manual não está publicado, e a página avisa que baterias e tomadas podem mudar \"conforme demanda de licitações\".",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": null,
+      "potenciaVa": 1200,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Semissenoidal",
+      "compativelPfc": null,
+      "tensaoEntrada": "Bivolt automático (115 / 220 V)",
+      "tensaoSaida": "115 V",
+      "tomadas": 8,
+      "bateria": "1 × 12 V 9 Ah",
+      "autonomia": null,
+      "expansaoAutonomia": null,
+      "tempoRecargaH": 6,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": null,
+      "dimensoesMm": "127 × 150 × 350 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H1YFLC6K"
+    },
+    "fontes": [
+      {
+        "id": "coletek-safe1200bk-1",
+        "titulo": "Nobreak UPS SAFE 1200VA — página do produto (SAFE1200BK)",
+        "url": "https://www.coletek.com.br/nobreak-ups-safe-1200va-bivolt-1-bateria-9ah-coletek-energia/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Modelo SAFE1200BK; potência máxima 1200VA; \"Fator de Potência (FP 0,5)\"; \"Número de tomadas: 8 (Padrão NBR14136)\"; \"Bivolt automático: 115 / 220V (Entrada)\"; \"Tensão de saída: 115V (De linha)\"; regulação +/- 5% em bateria e +/- 6% em rede; forma de onda \"Semi-Senoidal no modo inversor\"; rendimento 95% (rede) e 85% (bateria); bateria interna; \"Autonomia: de até 45 minutos (dependendo da carga de informática)\"; cabo 1,30m; \"Garantia: 1 Ano\" / \"365 dias\"; medidas e peso só da embalagem.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "coletek-safe1200bk-2",
+        "titulo": "Ficha técnica SAFE1200BK (PDF gerado pelo site)",
+        "url": "https://www.coletek.com.br/fichatecnica/SAFE1200BK",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Mesmo texto da página, palavra por palavra.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "coletek-safe1200bk-3",
+        "titulo": "Ficha técnica da linha SAFE 600/700/800/1200/1400/1500",
+        "url": "https://coletek.com.br/ficha_tecnica/fichatecnica_safe.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Não está linkada na página do SAFE1200 (aparece nos registros do SAFE600 e do SAFE-PRO no próprio site). Declara: \"NOBREAK LINE INTERACTIVE\"; \"POTÊNCIA MÁXIMA (VA/W) F.P. 0,6\" com \"1200/720\"; entrada 115V: 90V a 137V e 220V: 187V a 253V; regulação \"+ 6% - 10% (PARA OPERAÇÃO EM REDE)\"; forma de onda \"SENOIDAL POR APROXIMAÇÃO - PWM\"; acionamento 0,8 ms; baterias \"1 x 12V/7Ah ou 1 x 12V/9Ah\"; autonomia \"ATÉ 45 MINUTOS\" e \"ATÉ 60 MINUTOS *DEPENDENDO DA CARGA DE INFORMÁTICA\" (sem atribuição clara de coluna); recarga \"6 HORAS PARA 90% DA CARGA\"; cabo \"1100 mm (1,1 METRO)\"; dimensões \"127x150x350\" (L x A x P) mm; peso bruto com baterias de 6,4 kg (B) para o SAFE 1200; \"6 estágios de regulação\"; \"Disjuntor rearmável\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0h1yflc6k",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H1YFLC6K",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo: número da peça SAFE1200BK, a versão de 9 Ah. Nenhum número da ficha saiu daqui. O anúncio lista \"Duração da bateria: 45 minutos\" e 600 W, que não saem da página do modelo.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/coletek-safe-1200.webp",
+      "alt": "Nobreak Coletek Safe 1200, gabinete preto em perspectiva com frente brilhante",
+      "credito": "Imagem: Coletek",
+      "origem": "https://www.coletek.com.br/nobreak-ups-safe-1200va-bivolt-1-bateria-9ah-coletek-energia/p"
+    },
+    "divergencias": [
+      {
+        "campo": "fatorPotencia",
+        "fonteAdotada": "Página do produto: \"FP 0,5\"",
+        "valorDivergente": "F.P. 0,6 e \"1200/720\" (VA/W)",
+        "fonteDivergente": "Ficha técnica da linha SAFE 600 a 1500",
+        "observacao": "A página dá 0,5, que faria 600 W; a ficha da linha dá 0,6 e escreve 720 W. Sem saber qual vale para a unidade vendida, a ficha fica com a página do modelo e não publica os watts."
+      },
+      {
+        "campo": "formaOnda",
+        "fonteAdotada": "Página e ficha do produto: \"Semi-Senoidal no modo inversor\"",
+        "valorDivergente": "\"SENOIDAL POR APROXIMAÇÃO - PWM\"",
+        "fonteDivergente": "Ficha técnica da linha SAFE",
+        "observacao": "São dois nomes para onda que não é senoide. Fica o da página do modelo."
+      },
+      {
+        "campo": "autonomia",
+        "fonteAdotada": "Nenhuma",
+        "valorDivergente": "\"de até 45 minutos (dependendo da carga de informática)\"",
+        "fonteDivergente": "Página do produto",
+        "observacao": "A página não diz com que carga, em watts ou em aparelhos, e a versão de 7 Ah da mesma página promete os mesmos 45 minutos. Autonomia sem carga não é número, e o campo fica vazio."
+      }
+    ]
+  },
+  {
+    "slug": "jbr-guard-600",
+    "nome": "JBR Guard 600 VA",
+    "marca": "JBR",
+    "modelo": "Guard 600VA Mono 120 V",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 600 VA que entrega 300 W, com três tomadas e bateria de 4,5 Ah — a menor bateria da base. A JBR é importadora, não publica autonomia nenhuma, e a página e o manual discordam na tensão de entrada, na recarga e no nome da onda.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 300,
+      "potenciaVa": 600,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Retangular",
+      "compativelPfc": null,
+      "tensaoEntrada": "120 V",
+      "tensaoSaida": "120 V",
+      "tomadas": 3,
+      "bateria": "1 × 12 V 4,5 Ah",
+      "autonomia": null,
+      "expansaoAutonomia": null,
+      "tempoRecargaH": 10,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 3.5,
+      "dimensoesMm": "137 × 205 × 330 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07YMT7L95"
+    },
+    "fontes": [
+      {
+        "id": "jbr-guard-600-1",
+        "titulo": "JBR Guard 600VA Mono 110v — página do produto",
+        "url": "https://jbrenergy.com.br/produto/jbr-guard-600va-mono-110v/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela intitulada \"JBR 600VA BIVOLT\": \"600VA / 300W\"; topologia \"Interativo\"; entrada \"120v~\", variação \"95-150 V~\", \"55-65Hz\"; fusível 10A; fator de potência 0.5; saída \"120V~\"; \"Regulação de Tensão 120 V± 1Hz\"; \"Onda retangular\"; 3 tomadas; \"Descarga até 20V\"; bateria \"1 x 4,5Ah\", barramento 12V, corrente de carga 1A, \"Tempo de Carga 10h\"; \"13,7 x 20,5 x 33cm\"; \"3,5 Kg\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "jbr-guard-600-2",
+        "titulo": "Datasheet JBR 600VA MONO (link 'Download Datasheet' da página, Google Drive)",
+        "url": "https://drive.google.com/file/d/1dAimSHqX-S31WTQlJ5MiJ-fkpRWNgg53/view",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "\"ENTRADA E SAÍDA 120V\"; 600VA / 300W; \"NÍVEIS DE PROTEÇÃO 3\" no cabeçalho e \"6 níveis de proteção\" no texto; 3 tomadas; 1 x 4,5Ah, 12V; 13,7 x 20,5 x 33cm; 3,5 Kg.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "jbr-guard-600-3",
+        "titulo": "Manual do Usuário JBR Guard 600VA a 2400VA (link 'Download Manual' da página, hospedado no Google Drive)",
+        "url": "https://drive.google.com/file/d/1pyKFyOqkI78jIiXxOkt-F9RJ5gIJ9W0U/view",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Topologia \"Interativo de simples conversão\" / capa \"Semi-senoidal\"; forma de onda no modo bateria \"Senoidal por aproximação (retangular PWM - controle de largura de pulso)\"; tensão 115V, variação 103V~ – 139,7V~; frequência 60Hz; fator de potência 0.5; tempo de transferência \"< 8 ms\"; tempo de carga 12h; cabo 1000 ± 50 mm; termo de garantia: \"prazo total de 1 (um) ano, sendo 90 (noventa) dias de garantia legal e 9 (nove) meses de garantia contratual\"; \"Importado e Distribuído por: JBR GLOBAL IMPORTAÇÃO E EXPORTAÇÃO LTDA\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b07ymt7l95",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07YMT7L95",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo: Guard 600 VA, entrada e saída de 120 V. Nenhum número da ficha saiu daqui. O anúncio lista \"Potência de saída: 360 Watts\" e \"Potência máxima: 12 Watt\".",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/jbr-guard-600.webp",
+      "alt": "Nobreak JBR Guard 600, gabinete preto deitado com painel frontal de LEDs",
+      "credito": "Imagem: JBR",
+      "origem": "https://jbrenergy.com.br/produto/jbr-guard-600va-mono-110v/"
+    },
+    "divergencias": [
+      {
+        "campo": "formaOnda",
+        "fonteAdotada": "Página do produto: \"Onda retangular\" no modo bateria",
+        "valorDivergente": "\"Semi-senoidal\" na capa do manual e \"Senoidal por aproximação (retangular PWM)\" na tabela",
+        "fonteDivergente": "Manual do usuário JBR Guard 600 VA a 2400 VA",
+        "observacao": "Três nomes para a mesma onda na documentação da mesma marca. Todos descrevem onda que não é senoide; fica o da página do modelo."
+      },
+      {
+        "campo": "tempoRecargaH",
+        "fonteAdotada": "Página do produto: 10 h",
+        "valorDivergente": "12 h",
+        "fonteDivergente": "Manual do usuário JBR Guard 600 VA a 2400 VA",
+        "observacao": "As duas fontes da JBR dão tempos de carga diferentes. Fica o da página do modelo."
+      }
+    ]
+  },
+  {
+    "slug": "jbr-guard-800",
+    "nome": "JBR Guard 800 VA",
+    "marca": "JBR",
+    "modelo": "Guard 800VA Mono 120 V",
+    "categoria": "nobreaks",
+    "resumo": "Nobreak de 800 VA que entrega 400 W, com seis tomadas e bateria de 7 Ah. O datasheet escreve \"800VA\" no cabeçalho e \"600VA / 400W\" na tabela, e nenhum documento da JBR declara autonomia.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "potenciaW": 400,
+      "potenciaVa": 800,
+      "fatorPotencia": 0.5,
+      "topologia": "Interativo",
+      "formaOnda": "Retangular",
+      "compativelPfc": null,
+      "tensaoEntrada": "120 V",
+      "tensaoSaida": "120 V",
+      "tomadas": 6,
+      "bateria": "1 × 12 V 7 Ah",
+      "autonomia": null,
+      "expansaoAutonomia": null,
+      "tempoRecargaH": 10,
+      "consumoStandbyW": null,
+      "comunicacao": null,
+      "garantiaMeses": 12,
+      "garantiaBateriaMeses": null,
+      "pesoKg": 4.5,
+      "dimensoesMm": "137 × 205 × 330 mm"
+    },
+    "naoSeAplica": [],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B07YSYSR5G"
+    },
+    "fontes": [
+      {
+        "id": "jbr-guard-800-1",
+        "titulo": "JBR Guard 800VA Mono 110v — página do produto",
+        "url": "https://jbrenergy.com.br/produto/jbr-guard-800va-mono-110v/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "\"800VA / 400W\"; \"Interativo\"; entrada \"120v~\", \"95-150 V~\", \"55-65Hz\"; fator de potência 0.5; saída \"120V~\"; \"Onda retangular\"; 6 tomadas; \"Descarga até 20V\"; \"1 x 7Ah\", 12V; \"Tempo de Carga 10h\"; \"13,7 x 20,5 x 33cm\"; peso \"4,5 Kg\" (rótulo impresso como \"Peso4\").",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "jbr-guard-800-2",
+        "titulo": "Datasheet JBR 800VA MONO (Google Drive, linkado pela página)",
+        "url": "https://drive.google.com/file/d/1dLIKiOAGmR8HTXHxAyRPVmdBZ5T3rIbA/view",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Cabeçalho \"800VA\" / \"400W\" / \"6 TOMADAS\"; tabela final \"600VA / 400W\"; 1 x 7Ah, 12V; \"13,7 x 20,5 x 33,5cm\"; 4,5 Kg.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "jbr-guard-800-3",
+        "titulo": "Manual do Usuário JBR Guard 600VA a 2400VA (link 'Download Manual' da página, hospedado no Google Drive)",
+        "url": "https://drive.google.com/file/d/1pyKFyOqkI78jIiXxOkt-F9RJ5gIJ9W0U/view",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Topologia \"Interativo de simples conversão\" / capa \"Semi-senoidal\"; forma de onda no modo bateria \"Senoidal por aproximação (retangular PWM - controle de largura de pulso)\"; tensão 115V, variação 103V~ – 139,7V~; frequência 60Hz; fator de potência 0.5; tempo de transferência \"< 8 ms\"; tempo de carga 12h; cabo 1000 ± 50 mm; termo de garantia: \"prazo total de 1 (um) ano, sendo 90 (noventa) dias de garantia legal e 9 (nove) meses de garantia contratual\"; \"Importado e Distribuído por: JBR GLOBAL IMPORTAÇÃO E EXPORTAÇÃO LTDA\".",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b07ysysr5g",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B07YSYSR5G",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo: Guard 800 VA, entrada e saída de 120 V. Nenhum número da ficha saiu daqui. A galeria da página oficial reúne a foto frontal, usada aqui, e uma foto traseira com as seis tomadas.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/jbr-guard-800.webp",
+      "alt": "Nobreak JBR Guard, gabinete preto visto de frente, com três LEDs e botão",
+      "credito": "Imagem: JBR",
+      "origem": "https://jbrenergy.com.br/produto/jbr-guard-800va-mono-110v/"
+    },
+    "divergencias": [
+      {
+        "campo": "potenciaVa",
+        "fonteAdotada": "Página do produto e cabeçalho do datasheet: 800 VA / 400 W",
+        "valorDivergente": "\"600VA / 400W\"",
+        "fonteDivergente": "Tabela de especificações do datasheet JBR 800VA Mono",
+        "observacao": "O mesmo documento traz dois números para a potência aparente. Com o fator de potência de 0,5 declarado, 400 W fecham com 800 VA, não com 600."
+      },
+      {
+        "campo": "formaOnda",
+        "fonteAdotada": "Página do produto: \"Onda retangular\" no modo bateria",
+        "valorDivergente": "\"Semi-senoidal\" na capa do manual e \"Senoidal por aproximação (retangular PWM)\" na tabela",
+        "fonteDivergente": "Manual do usuário JBR Guard 600 VA a 2400 VA",
+        "observacao": "Três nomes para a mesma onda na documentação da mesma marca. Todos descrevem onda que não é senoide; fica o da página do modelo."
+      },
+      {
+        "campo": "tempoRecargaH",
+        "fonteAdotada": "Página do produto: 10 h",
+        "valorDivergente": "12 h",
+        "fonteDivergente": "Manual do usuário JBR Guard 600 VA a 2400 VA",
+        "observacao": "As duas fontes da JBR dão tempos de carga diferentes. Fica o da página do modelo."
+      }
+    ]
+  }
+]

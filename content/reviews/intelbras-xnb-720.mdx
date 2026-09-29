@@ -1,0 +1,171 @@
+---
+titulo: "XNB 720: o nobreak que diz quanto tempo segura as câmeras"
+tituloCurto: "Intelbras XNB 720: 360 W e a tabela de CFTV"
+subtitulo: "720 VA no nome, 360 W na mesma linha da ficha. O manual traz uma tabela de autonomia com gravador e câmeras — 60 minutos com oito câmeras de infravermelho ligado —, e a mesma tabela dá ao irmão de duas baterias menos minutos em dois cenários, sem explicar."
+categoria: "nobreaks"
+publicadoEm: "2026-09-29"
+atualizadoEm: "2026-09-29"
+produto:
+  nome: "Intelbras XNB 720 VA"
+  marca: "Intelbras"
+  linhaResumo: "Nobreak interativo de 720 VA / 360 W, entrada bivolt automática e saída de 120 V, seis tomadas, uma bateria de 12 V 7 Ah, onda retangular na bateria e 2 anos de garantia (1 na bateria)."
+  lojas:
+    amazon: "https://www.amazon.com.br/dp/B07LGMQPKY"
+criterios:
+  - nome: "O que a especificação entrega"
+    nota: 5.5
+    peso: 0.3
+    comentario: "360 W para seis tomadas, com uma bateria de 7 Ah e transferência abaixo de 8 ms. É folga para gravador e câmeras: um DVR de oito canais da base declara 10 W e cada câmera, de 1,56 a 5 W. O limite está na onda, retangular na bateria, e na ausência de conector para bateria externa e de porta de comunicação."
+  - nome: "Transparência da documentação"
+    nota: 7.5
+    peso: 0.25
+    comentario: "Escreve VA e watt na mesma linha, declara o fator de potência e traz no manual dezesseis cenários de autonomia, com gravador e câmeras de 8, 16 e 32 canais, IR ligado e desligado. Perde porque os cenários vêm em aparelhos, não em watts, porque a tabela dá ao XNB 1440 menos minutos que a ele em dois cenários sem explicar, e porque não declara o consumo em espera, que as Attiv da mesma marca declaram."
+  - nome: "Compatibilidade e limites"
+    nota: 6.0
+    peso: 0.2
+    comentario: "Avisa por escrito o que não pode ligar nele: computador com fonte PFC ativo, equipamento de sustentação à vida, motor e impressora laser. Mas o mesmo datasheet põe \"computador desktop\" entre as aplicações ideais, e o nome da onda muda de documento para documento — \"semissenoidal (retangular)\" no datasheet, \"não senoidal (retangular PWM)\" no manual."
+  - nome: "Garantia e suporte no Brasil"
+    nota: 7.0
+    peso: 0.15
+    comentario: "2 anos para o aparelho e 1 para a bateria, escritos no termo do manual com a divisão entre prazo legal e contratual. É o dobro do 1 ano de Ragtech, JBR e Coletek nesta base e da garantia sem condição da SMS, que chega a 24 meses só com cadastro; e um dos dois fabricantes da base que dão prazo separado para a bateria."
+  - nome: "Materiais e construção declarados"
+    nota: 4.0
+    peso: 0.1
+    comentario: "Declara dimensões (96 × 163 × 338 mm), peso (6,2 kg), bateria selada VRLA e disjuntor de 6 A. Não declara o material do gabinete, que o Attiv Seno da mesma marca declara (ABS antichama V0)."
+para:
+  - "Vai ligar gravador e câmeras e quer um número de autonomia escrito pelo fabricante"
+  - "Precisa de seis tomadas: gravador, fonte das câmeras, roteador e modem cabem nele"
+  - "Quer 2 anos de garantia, com prazo escrito para a bateria"
+  - "A rede da casa é 127 ou 220 V: a entrada é bivolt automática"
+naoPara:
+  - "Vai ligar computador com fonte PFC ativo: o próprio datasheet diz que não deve"
+  - "Precisa de autonomia longa: não aceita bateria externa"
+  - "Quer que o computador desligue sozinho quando a bateria acabar: não tem porta de comunicação"
+  - "Precisa de saída em 220 V: a saída é só 120 V"
+pros:
+  - "VA e watt na mesma linha da ficha: 720 VA / 360 W"
+  - "Tabela de autonomia com gravador e câmeras, com IR ligado e desligado"
+  - "Seis tomadas"
+  - "2 anos de garantia no aparelho e 1 na bateria, com o prazo da bateria escrito"
+  - "Aviso claro do que não ligar nele"
+contras:
+  - "Onda retangular na bateria"
+  - "Não serve para fonte com PFC ativo, e o datasheet lista \"computador desktop\" como aplicação ideal"
+  - "Sem conector para bateria externa"
+  - "Sem porta de comunicação com o computador"
+  - "A tabela de autonomia não diz os watts de cada cenário"
+  - "Não declara o consumo em espera"
+lacunas:
+  - "Quantos watts cada cenário da tabela de autonomia consome. \"DVR HDCVI 8 canais + 8 câmeras HDCVI (IR ligado)\" são 60 minutos, mas com quais câmeras e quantos watts o manual não diz — e é essa conta que permite comparar com outro projeto."
+  - "Por que o XNB 1440, com o dobro de bateria, dura menos que o XNB 720 em dois cenários da mesma tabela (87 contra 101 minutos com modem e roteador; 87 contra 102 com câmera Wi-Fi e modem) e empata em outro."
+  - "Quanto o próprio nobreak consome ligado na tomada. As Attiv da Intelbras declaram 11 W; o XNB não declara."
+  - "Se os 720 VA / 360 W são potência contínua. O datasheet escreve \"potência nominal de pico\" e não publica outro número."
+  - "O material do gabinete."
+fontes:
+  - titulo: "Ficha técnica (datasheet) do XNB 720 BI — Intelbras"
+    url: "https://backend.intelbras.com/sites/default/files/2024-08/XNB%20720%20VA%20BI%20-%20Datasheet.pdf"
+    tipo: "fabricante"
+    oQueSaiuDaqui: "720 VA / 360 W como \"potência nominal de pico\"; topologia interativa; entrada bivolt automática, 90-145 / 180-270 V; disjuntor de 6 A; fator de potência 0,5; saída de 120 V, ±10% em rede e ±5% em bateria; transferência abaixo de 8 ms; onda \"semissenoidal (retangular)\"; 6 tomadas de 10 A; bateria VRLA de 12 V 7 Ah, sem conector nem expansão para bateria externa; corrente de carga de 1 A e carga em até 10 h; 96 × 163 × 338 mm, 6,2 kg. Cenários de aplicação, entre eles \"Sistema de segurança CFTV\" e \"Computador desktop\"; no rodapé, \"o nobreak não deve ser utilizado para alimentar computadores dotados de fontes com função PFC ativo\"."
+    consultadaEm: "2026-09-29"
+  - titulo: "Manual do XNB 720 BI e XNB 1440 BI — Intelbras"
+    url: "https://backend.intelbras.com/sites/default/files/2023-08/Manual_XNB_720_1440BI_01-23_site_0.pdf"
+    tipo: "fabricante"
+    oQueSaiuDaqui: "Onda \"não senoidal (retangular PWM)\"; tabela de autonomia em minutos, com equipamentos Intelbras como referência: XNB 720 com DVR HDCVI de 8 canais e 8 câmeras, 79 min com IR desligado e 60 com IR ligado; 16 canais e 16 câmeras, 71 e 35; 32 e 32, 43 e 12; modem e roteador, 101 min (XNB 1440: 87); câmera Wi-Fi e modem, 102 (XNB 1440: 87). Termo de garantia: 2 anos para o produto (90 dias legais mais 1 ano e 9 meses contratuais) e 1 ano para a bateria (90 dias legais mais 9 meses)."
+    consultadaEm: "2026-09-29"
+  - titulo: "Ficha técnica do ATTIV SENO 700 BI — Intelbras"
+    url: "https://backend.intelbras.com/sites/default/files/2023-12/ATTIV%20SENO%20700%20VA%20BI%20-%20Datasheet.pdf"
+    tipo: "fabricante"
+    oQueSaiuDaqui: "Para comparação: consumo em stand by de 11 W e gabinete de plástico ABS antichama V0, dois dados que a ficha do XNB 720 não traz."
+    consultadaEm: "2026-09-29"
+---
+
+## Por que esta análise existe
+
+Ninguém aqui ligou este nobreak. Não cronometramos bateria nem ligamos câmera
+nele. Tudo abaixo saiu do datasheet e do manual da Intelbras, listados no fim
+com a data da consulta.
+
+O XNB 720 é o 4º mais vendido no nó de No-Breaks da Amazon Brasil em
+29/09/2026, e é o nobreak que o [simulador de câmeras](/simulador) aponta como
+referência de autonomia. A razão está no manual.
+
+## 720 VA, 360 W — na mesma linha
+
+A ficha escreve as duas potências juntas: **720 VA / 360 W**, com fator de
+potência 0,5. O VA é o número do nome; os watts são o que se soma com o
+consumo dos aparelhos. Nove das dezoito fichas de nobreak desta base não
+declaram os watts, e o [guia da categoria](/guias/nobreak-para-casa) mostra o
+que os anúncios escrevem no lugar.
+
+Para um projeto de câmeras, 360 W é folga. Um DVR de oito canais da base
+declara 10 W; as câmeras cabeadas Intelbras declaram de 1,56 a 5 W cada. Oito
+câmeras de 3,3 W e um gravador de 10 W somam 36 W, um décimo do que o XNB
+declara.
+
+## A tabela que quase ninguém publica
+
+O manual tem uma seção de autonomia com dezesseis cenários, em minutos, e seis
+deles são de CFTV:
+
+```
+                                              XNB 720    XNB 1440
+DVR  8 canais +  8 câmeras, IR desligado          79          79
+DVR 16 canais + 16 câmeras, IR desligado          71          76
+DVR 32 canais + 32 câmeras, IR desligado          43          62
+DVR  8 canais +  8 câmeras, IR ligado             60          70
+DVR 16 canais + 16 câmeras, IR ligado             35          57
+DVR 32 canais + 32 câmeras, IR ligado             12          37
+```
+
+A diferença entre IR ligado e desligado é o dado que interessa a quem instala
+câmera: o infravermelho acende à noite, e a tabela mostra quanto ele custa.
+Com oito câmeras, a Intelbras declara 79 minutos com o IR desligado e 60 com
+ele ligado.
+
+Nenhum outro nobreak desta base publica uma tabela com gravador e câmeras em
+vários tamanhos. O Ragtech Save Home tem uma linha só, "servidor de vigilância
+e 4 câmeras", 7 minutos, e não declara os watts do próprio nobreak.
+
+## O que a tabela não diz
+
+Os cenários vêm em aparelhos, não em watts. "DVR HDCVI 8 canais + 8 câmeras
+HDCVI" não diz quais câmeras, e câmera Intelbras vai de 1,56 a 5 W nesta base
+— uma diferença de três vezes. Sem os watts, a tabela vale para um projeto
+parecido com o dela, não para qualquer um.
+
+E a mesma tabela tem uma linha que o manual não explica. O **XNB 1440**, com
+duas baterias contra uma, aparece com **menos** autonomia que o XNB 720 em dois
+cenários:
+
+```
+modem + roteador              XNB 720: 101 min    XNB 1440: 87 min
+câmera Wi-Fi + modem          XNB 720: 102 min    XNB 1440: 87 min
+DVR 8 + 8 câmeras, IR desl.   XNB 720:  79 min    XNB 1440: 79 min
+```
+
+A ficha deste site publica os minutos do XNB 720 como estão, e deixa a
+contradição registrada nela.
+
+## A onda, e o computador
+
+Na bateria, o XNB 720 entrega onda retangular — "semissenoidal (retangular)"
+no datasheet, "não senoidal (retangular PWM)" no manual. Para gravador,
+câmera e roteador, a Intelbras o põe na lista de aplicações ideais.
+
+Para computador, a mesma página diz duas coisas. O quadro de aplicações lista
+"computador desktop". O rodapé avisa que ele **não deve alimentar computador
+com fonte PFC ativo**. Muitas fontes de computador têm PFC ativo — a etiqueta
+ou a ficha da fonte diz se é o caso. Para esse uso, a Intelbras vende o Attiv
+Seno 700, que o [comparativo com o Attiv 600](/comparativos/intelbras-attiv-600-vs-attiv-seno-700)
+detalha.
+
+## O resto
+
+- **Seis tomadas.** Gravador, fonte das câmeras, roteador e modem cabem com
+  folga.
+- **2 anos de garantia, e a bateria com prazo próprio: 1 ano.** Só Intelbras
+  e TS Shara escrevem o prazo da bateria nesta base.
+- **Sem bateria externa e sem porta de comunicação.** A autonomia é a da
+  bateria de 7 Ah que vem dentro, e o computador não recebe aviso para
+  desligar sozinho.
+- **Recarga em até 10 horas**, com corrente de 1 A.

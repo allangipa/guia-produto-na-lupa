@@ -136,10 +136,11 @@ export default function PaginaSimulador() {
       <Cards key={chave} r={r} produtos={produtos} />,
     ]),
   );
-  // Câmeras escolhem entre as fichas de CFTV; Wi-Fi, entre as de conectividade.
+  // Câmeras escolhem entre as fichas de CFTV e de nobreaks; Wi-Fi, entre as de
+  // conectividade.
   const cameras = baseCameras(
     buscarProduto,
-    [...porSlug.values()].filter((p) => p.categoria === "cftv" || p.categoria === "conectividade"),
+    [...porSlug.values()].filter((p) => ["cftv", "conectividade", "nobreaks"].includes(p.categoria ?? "")),
   );
   const usados = [
     ...combinacoes.flatMap(([, , ps]) => ps),

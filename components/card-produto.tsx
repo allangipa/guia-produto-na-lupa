@@ -94,9 +94,11 @@ export function CardProduto({
                   nome={iconeDo(campo.chave)}
                   className={`h-3.5 w-3.5 shrink-0 ${ausente ? "text-ausente" : "text-acao"}`}
                 />
-                <span className={`text-tinta-suave ${ausente ? "shrink-0" : "truncate"}`}>{rotuloCurto(campo)}</span>
+                <span className="max-w-[50%] shrink-0 truncate text-tinta-suave">{rotuloCurto(campo)}</span>
+                {/* Valor longo ("Semissenoidal (retangular)") quebra linha em
+                    vez de vazar do card. */}
                 <span
-                  className={`dados ml-auto ${ausente ? "min-w-0 text-right text-[0.72rem] leading-tight text-ausente" : "shrink-0 font-semibold"}`}
+                  className={`dados ml-auto min-w-0 text-right leading-tight [overflow-wrap:anywhere] ${ausente ? "text-[0.72rem] text-ausente" : "font-semibold"}`}
                 >
                   {/* Campo esvaziado por divergência não é omissão do
                       fabricante: ele publicou um número que não fecha. */}
