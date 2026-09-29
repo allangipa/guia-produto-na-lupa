@@ -9,7 +9,7 @@
  * está em docs/simulador.md.
  */
 
-export type Foco = "wifi" | "automacao" | "seguranca" | "ar" | "nobreak" | "airfryer" | "purificador";
+export type Foco = "wifi" | "automacao" | "seguranca" | "ar" | "nobreak" | "airfryer" | "purificador" | "cooktop";
 
 export const FOCOS: { valor: Foco; rotulo: string }[] = [
   { valor: "wifi", rotulo: "Rede Wi-Fi" },
@@ -19,4 +19,5 @@ export const FOCOS: { valor: Foco; rotulo: string }[] = [
   { valor: "nobreak", rotulo: "Nobreak" },
   { valor: "airfryer", rotulo: "Air fryer" },
   { valor: "purificador", rotulo: "Refil do purificador" },
+  { valor: "cooktop", rotulo: "Cooktop e instalação" },
 ];

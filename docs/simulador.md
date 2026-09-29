@@ -284,5 +284,10 @@ vista, produto da base com fonte, lacuna escrita. Ordem proposta:
    declaram litros (Consul e IBBL). O prazo em meses do fabricante aparece ao
    lado, e a lista avisa que nenhuma ficha diz se ele vale como limite com
    pouco uso. Ordem: o refil que filtra mais litros.
-5. **Disjuntor do cooktop de indução.** Potência declarada ÷ tensão; só 3 de 16
-   fichas escrevem o disjuntor.
+5. ~~**Disjuntor do cooktop de indução.**~~ **Feito em 29/09/2026**
+   (`lib/simulador-cooktop.ts`, oitavo projeto do /simulador). Tensão da casa e
+   bocas; a lista dá a corrente (potência declarada ÷ tensão, física) e o
+   disjuntor quando o fabricante declara (3 de 16), e avisa acima de 20 A que
+   não há tomada no padrão brasileiro (NBR 14136). **Não indica disjuntor nem
+   fio**: é dimensionamento de instalação (NBR 5410), trabalho do eletricista.
+   Ordem: quem declara disjuntor, depois quem declara potência.

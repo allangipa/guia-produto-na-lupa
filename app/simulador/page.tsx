@@ -8,9 +8,9 @@ import { SLUGS as SLUGS_CAMERAS } from "@/lib/simulador-cameras";
 import { Divulgacao } from "@/components/divulgacao";
 
 export const metadata: Metadata = {
-  title: tituloSeo("Simulador de compra: câmeras, Wi-Fi, automação, ar, nobreak, air fryer e refil"),
+  title: tituloSeo("Simulador de compra: câmeras, Wi-Fi, automação, ar, nobreak e cozinha"),
   description:
-    "Monte o projeto de câmeras de segurança, rede Wi-Fi, automação, ar-condicionado, nobreak, air fryer ou purificador de água e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
+    "Monte o projeto de câmeras de segurança, rede Wi-Fi, automação, ar-condicionado, nobreak, air fryer, purificador de água ou cooktop de indução e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
   alternates: { canonical: "/simulador" },
 };
 
@@ -65,7 +65,7 @@ export default function PaginaSimulador() {
   const base = baseCameras(
     buscarProduto,
     [...porSlug.values()].filter((p) =>
-      ["cftv", "conectividade", "nobreaks", "casa-conectada", "ar-condicionado", "cozinha", "purificadores"].includes(p.categoria ?? ""),
+      ["cftv", "conectividade", "nobreaks", "casa-conectada", "ar-condicionado", "cozinha", "purificadores", "cooktops"].includes(p.categoria ?? ""),
     ),
   );
   const usados = Object.values(base);
@@ -80,7 +80,8 @@ export default function PaginaSimulador() {
         </h1>
         <p className="mt-3 max-w-[62ch] text-[0.95rem] text-tinta-suave">
           Câmeras de segurança, rede Wi-Fi, automação, ar-condicionado, nobreak,
-          air fryer ou o refil do purificador. Você responde sobre a
+          air fryer, o refil do purificador ou o cooktop de indução. Você
+          responde sobre a
           casa, e o simulador devolve a lista de compras do projeto, peça por
           peça — das câmeras aos conectores, da central ao interruptor. Cada justificativa é o que o
           fabricante declara, e não teste nosso; quando a documentação não
