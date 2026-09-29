@@ -1346,6 +1346,10 @@ confunde com documento sem folha de estilo.
   commit dos cooktops: **795 páginas encontradas**, status "Processado". O
   `robots.txt` também aponta para ele.
 
+  **Reenviado de novo em 29/09/2026 pelo Allan**, depois de nobreaks, casa
+  conectada (87 fichas) e dos oito projetos do /simulador — build com 1.024
+  páginas.
+
   Reenviar o mesmo URL depois de um lote grande de páginas novas força uma
   releitura — antes do reenvio o painel ainda mostrava as 556 de uma leitura
   anterior do mesmo dia. Não é obrigatório (o Google relê sozinho), mas é
