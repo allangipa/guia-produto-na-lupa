@@ -120,6 +120,15 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
   `lacunas` e aparece como "O que o fabricante não informa". Num site que não
   testa, essa seção é o produto editorial — é o único lugar com trabalho que o
   fabricante não fez por nós. Nunca preencher com estimativa.
+- **Marca de operador suspeito, ou sem venda oficial no Brasil, não entra.**
+  Decisão do Allan em 29/09/2026: "essas meio suspeitas e sem venda no Brasil
+  deixa de fora". Suspeito é a loja "oficial" cujo CNPJ não bate com o negócio
+  (a Coibeu: atacado de vestuário vendendo interruptor), sem razão social, sem
+  garantia nem homologação publicadas. Sem venda no Brasil é o produto que só
+  chega por importação (Google Nest, os Tapo de parede americanos de 100–120 V).
+  Página oficial não basta: precisa ter alguém identificável respondendo por
+  ela no país. Importadora com marca própria e CNPJ coerente (JBR, Panda Plus)
+  entra, com a garantia que publicar escrita na ficha.
 - **Imagem só com licença conhecida.** Press kit do fabricante, Product
   Advertising API da Amazon ou banco com licença aberta. O tipo `Imagem` exige
   `credito` e `origem` para que não exista caminho fácil. Foto salva da página da
@@ -848,7 +857,7 @@ confunde com documento sem folha de estilo.
   capacitor na caixa; marca da importadora AMG Group; garantia só a legal) e
   Coibeu. **A Coibeu ficou de fora**: o CNPJ do rodapé é de atacado de
   vestuário, com endereço diferente do publicado, e a loja não publica garantia
-  nem Anatel — decisão pendente do Allan. Sem o número exato de teclas sem
+  nem Anatel. Sem o número exato de teclas sem
   neutro, o motor indica o sem neutro com mais teclas (sobra tecla) e diz isso. **Funcionar sem internet é
   raro por escrito**: MCR 1001 e MCP 1001 declaram PRECISAR de internet; a
   central MCA 1002 declara que os Zigbee seguem sem ela.
