@@ -1927,6 +1927,55 @@
     ],
     "original": 1000
   },
+  "/produtos/intelbras-ef-1201l.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 800
+  },
+  "/produtos/intelbras-ef-1202.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-ef-1203.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-ef-1205.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-ef-1210.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-efb-0501.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 700
+  },
+  "/produtos/intelbras-efb-1201.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
   "/produtos/intelbras-im3.webp": {
     "larguras": [
       240,
@@ -4418,6 +4467,34 @@
     ],
     "original": 1200
   },
+  "/produtos/seagate-skyhawk-1tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
+  "/produtos/seagate-skyhawk-2tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
+  "/produtos/seagate-skyhawk-4tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
+  "/produtos/seagate-skyhawk-6tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 600
+  },
   "/produtos/soundcore-p20i.webp": {
     "larguras": [
       240,
@@ -4921,6 +4998,69 @@
       480
     ],
     "original": 1000
+  },
+  "/produtos/wd-purple-1tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 652
+  },
+  "/produtos/wd-purple-2tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 652
+  },
+  "/produtos/wd-purple-4tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 652
+  },
+  "/produtos/wd-purple-6tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 652
+  },
+  "/produtos/wd-purple-8tb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 652
+  },
+  "/produtos/wd-purple-microsd-128gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wd-purple-microsd-256gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/wd-purple-microsd-32gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 700
+  },
+  "/produtos/wd-purple-microsd-64gb.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 700
   },
   "/produtos/xiaomi-pad-7-g1.webp": {
     "larguras": [

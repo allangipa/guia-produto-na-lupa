@@ -97,7 +97,11 @@ export function CardProduto({
                 <span
                   className={`dados ml-auto shrink-0 ${ausente ? "text-ausente" : "font-semibold"}`}
                 >
-                  {valorLegivel(valor, campo)}
+                  {/* Campo esvaziado por divergência não é omissão do
+                      fabricante: ele publicou um número que não fecha. */}
+                  {ausente && produto.divergencias?.some((d) => d.campo === campo.chave)
+                    ? "sem valor confiável"
+                    : valorLegivel(valor, campo)}
                 </span>
               </li>
             );

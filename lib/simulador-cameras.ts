@@ -293,25 +293,42 @@ function projetoWifi(r: Respostas, base: Record<string, Produto>) {
 
   // Um cartão por câmera escolhida, do tamanho que a gravação pede quando a
   // ficha permite a conta, ou do maior que a câmera aceita quando não permite.
+  // Desde 29/09/2026 o cartão vem da base (WD Purple, categoria CFTV) quando
+  // há um do tamanho certo; a especificação continua valendo quando não há.
+  const cartoes = Object.values(base)
+    .filter((c) => c.specs.tipo === "Cartão microSD de vigilância" && typeof c.specs.capacidadeCartaoGb === "number")
+    .sort((a, b) => (a.specs.capacidadeCartaoGb as number) - (b.specs.capacidadeCartaoGb as number));
+  const maiorCartao = cartoes.at(-1);
   for (const { p, qtd } of escolhidas) {
     const maximo = cartaoMaximoGb(p);
     const horasPorGb = HORAS_POR_GB[p.slug];
     const horas = r.dias * 24;
-    let especificacao: string;
+    const precisa = horasPorGb ? Math.ceil(horas / horasPorGb) : (maximo ?? 0);
+    const desejado = Math.min(menorQueCabe(CARTOES_GB, precisa), maximo ?? Infinity);
+    // Só entra o cartão da base que atende o tamanho pedido. Se nenhum atende,
+    // a linha fica com a especificação que atende, e o maior cartão da base
+    // aparece como alternativa, dizendo quanto guarda.
+    const cabe = (c: Produto) => (c.specs.capacidadeCartaoGb as number) <= (maximo ?? Infinity);
+    const cartao = cartoes.find((c) => (c.specs.capacidadeCartaoGb as number) >= desejado && cabe(c));
+    const menorAlternativo = !cartao && maiorCartao && cabe(maiorCartao) ? maiorCartao : undefined;
+    const gb = cartao ? (cartao.specs.capacidadeCartaoGb as number) : desejado;
     let porque: string;
-    if (horasPorGb && maximo) {
-      const precisa = Math.ceil(horas / horasPorGb);
-      const gb = Math.min(menorQueCabe(CARTOES_GB, precisa), maximo);
+    const confira: string[] = [];
+    if (horasPorGb) {
       const cabemDias = Math.floor((gb * horasPorGb) / 24);
-      especificacao = `Cartão microSD de ${n(gb)} GB, próprio para gravação contínua.`;
       porque = `A TP-Link declara 954 horas em 512 GB. ${n(r.dias)} dias contínuos são ${n(horas)} horas, e ${n(gb)} GB guardam cerca de ${n(cabemDias)} dias.`;
-      if (precisa > maximo) {
+      if (cabemDias < r.dias) {
         avisos.push(
           `O maior cartão que a ${p.nome} aceita guarda cerca de ${n(cabemDias)} dias contínuos, menos que os ${n(r.dias)} que você pediu.`,
         );
       }
+      const ciclos = cartao && typeof cartao.specs.ciclosGravacao === "number" ? cartao.specs.ciclosGravacao : null;
+      if (ciclos) {
+        const gbPorDia = 24 / horasPorGb;
+        const anos = (ciclos * gb) / gbPorDia / 365;
+        porque += ` A ${cartao!.marca} declara no mínimo ${n(ciclos)} ciclos de gravação: gravando sem parar na taxa que a TP-Link declara, são cerca de ${n(Math.floor(anos))} anos até o limite.`;
+      }
     } else {
-      especificacao = `Cartão microSD de ${n(maximo ?? 0)} GB, o maior que a câmera aceita${/classe 10/i.test(String(p.specs.armazenamentoVideo)) ? ", classe 10" : ""}.`;
       porque = `A ${p.marca} declara cartão de até ${n(maximo ?? 0)} GB, mas não declara quantas horas cabem nele. Sem essa relação não dá para calcular os ${n(r.dias)} dias; o simulador indica o maior aceito.`;
     }
     if (r.modo === "movimento") {
@@ -322,8 +339,19 @@ function projetoWifi(r: Respostas, base: Record<string, Produto>) {
       grupo: "gravacao",
       papel: `Cartão de memória para a ${p.modelo}`,
       qtd,
-      especificacao,
+      ...(cartao
+        ? { produto: cartao.slug }
+        : {
+            especificacao: `Cartão microSD de ${n(gb)} GB, próprio para gravação contínua${/classe 10/i.test(String(p.specs.armazenamentoVideo)) ? ", classe 10" : ""}.`,
+          }),
       porque,
+      confira: confira.length ? confira : undefined,
+      alternativa: menorAlternativo
+        ? {
+            produto: menorAlternativo.slug,
+            motivo: `cartão de vigilância com ficha no site, de ${n(menorAlternativo.specs.capacidadeCartaoGb as number)} GB${horasPorGb ? `: guarda cerca de ${n(Math.floor(((menorAlternativo.specs.capacidadeCartaoGb as number) * horasPorGb) / 24))} dias contínuos nesta câmera` : ", menor que o máximo que a câmera aceita"}`,
+          }
+        : undefined,
     });
   }
 
@@ -476,7 +504,7 @@ function projetoCabeado(
     }
   }
 
-  itens.push(itemHd(r, total, gravador?.p, res, avisos));
+  itens.push(itemHd(r, total, gravador?.p, res, avisos, cftv));
 
   if (sistema === "nvr") {
     const portas = menorQueCabe(PORTAS_SWITCH, total);
@@ -568,7 +596,7 @@ function projetoCabeado(
       especificacao: "Conector P4 macho com borne.",
       porque: "Um por câmera, para ligar a energia na ponta da câmera.",
     });
-    itens.push(itemFonte(r, total, escolhidas));
+    itens.push(itemFonte(r, total, escolhidas, cftv));
   }
 
   if (r.conectoresExpostos && r.externos > 0) {
@@ -827,6 +855,7 @@ export function itemHd(
   dvr: Produto | undefined,
   res: string,
   avisos: string[],
+  cftv: Produto[] = [],
 ): Item {
   const bitrate = dvr ? num(dvr.specs.bitrateMbps) : null;
   const movimento =
@@ -856,16 +885,50 @@ export function itemHd(
       `A conta dá ${decimal(tb)} TB, mais que os ${n(maximo)} TB que o ${dvr.modelo} declara aceitar. Diminua os dias guardados ou grave só com movimento.`,
     );
   }
+  const porqueConta = `O ${dvr.modelo} declara ${n(bitrate)} Mb/s por canal${canal1 ? ` (${n(canal1)} no canal 1)` : ""}. ${n(total)} ${total === 1 ? "câmera" : "câmeras"} gravando 24 h por ${n(r.dias)} dias dão cerca de ${decimal(tb)} TB.`;
+  const regra =
+    "Arredondado para o tamanho de HD de mercado logo acima, sem passar do máximo que o gravador aceita. Como a taxa declarada é a máxima, o HD dura isso ou mais.";
+
+  // Desde 29/09/2026 o HD vem da base (WD Purple, Seagate SkyHawk): o menor que
+  // comporta a conta; no empate de capacidade, o de menor consumo declarado.
+  const hds = cftv
+    .filter((p) => p.specs.tipo === "HD de vigilância" && typeof p.specs.capacidadeTb === "number")
+    .filter((p) => (p.specs.capacidadeTb as number) >= Math.min(tb, maximo) && (p.specs.capacidadeTb as number) <= maximo)
+    .sort(
+      (a, b) =>
+        (a.specs.capacidadeTb as number) - (b.specs.capacidadeTb as number) ||
+        (num(a.specs.consumoW) ?? 99) - (num(b.specs.consumoW) ?? 99),
+    );
+  const hd = hds[0];
+  // O que o gravador escreve num ano, contra a carga que o disco declara aguentar.
+  const tbAno = (mbps * 10.8 * 365) / 1000;
+  if (!hd) {
+    return { id: "hd", grupo: "gravacao", papel: "HD de vigilância", qtd: 1, especificacao: `HD de vigilância de ${n(tamanho)} TB.`, porque: porqueConta, regra, confira: movimento };
+  }
+  const carga = num(hd.specs.cargaTrabalhoTbAno);
+  if (carga != null && tbAno > carga) {
+    avisos.push(
+      `O gravador escreve cerca de ${n(Math.round(tbAno))} TB por ano nesta configuração, e o ${hd.modelo} declara carga de trabalho de ${n(carga)} TB por ano.`,
+    );
+  }
+  const alt =
+    hds.find((x) => x.marca !== hd.marca && x.specs.capacidadeTb === hd.specs.capacidadeTb) ??
+    hds.find((x) => x.marca !== hd.marca);
   return {
     id: "hd",
     grupo: "gravacao",
     papel: "HD de vigilância",
     qtd: 1,
-    especificacao: `HD de vigilância de ${n(tamanho)} TB.`,
-    porque: `O ${dvr.modelo} declara ${n(bitrate)} Mb/s por canal${canal1 ? ` (${n(canal1)} no canal 1)` : ""}. ${n(total)} ${total === 1 ? "câmera" : "câmeras"} gravando 24 h por ${n(r.dias)} dias dão cerca de ${decimal(tb)} TB.`,
-    regra:
-      "Arredondado para o tamanho de HD de mercado logo acima, sem passar do máximo que o gravador aceita. Como a taxa declarada é a máxima, o HD dura isso ou mais.",
+    produto: hd.slug,
+    porque: `${porqueConta} O ${hd.modelo} tem ${n(hd.specs.capacidadeTb as number)} TB${carga != null ? `, e a ${hd.marca} declara ${n(carga)} TB por ano de carga de trabalho; este gravador escreve cerca de ${n(Math.round(tbAno))} TB` : ""}.`,
+    regra,
     confira: movimento,
+    alternativa: alt
+      ? {
+          produto: alt.slug,
+          motivo: `${n(alt.specs.capacidadeTb as number)} TB e ${watts(num(alt.specs.consumoW)!)} W em operação, contra ${watts(num(hd.specs.consumoW)!)}`,
+        }
+      : undefined,
   };
 }
 
@@ -873,6 +936,7 @@ export function itemFonte(
   r: Respostas,
   total: number,
   escolhidas: { p: Produto; qtd: number }[],
+  cftv: Produto[] = [],
 ): Item {
   const cobertas = escolhidas.reduce((s, e) => s + e.qtd, 0) === total;
   const consumos = escolhidas.map((e) => num(e.p.specs.consumoW));
@@ -900,28 +964,47 @@ export function itemFonte(
   }
   const regra = `Folga de ${n(FOLGA_FONTE * 100)}% sobre o consumo declarado, arredondada para a fonte de mercado logo acima.`;
   const fmt = (v: number) => v.toLocaleString("pt-BR", { maximumFractionDigits: 2 });
+  // Desde 29/09/2026 a fonte vem da base (Intelbras EF): a menor com corrente
+  // declarada acima do pedido. A promessa de "N câmeras" da fonte não entra na
+  // conta: ela vale para câmeras de 250 ou 300 mA, e a conta usa a corrente
+  // declarada de cada câmera do projeto.
+  const fontes = cftv
+    .filter((p) => p.specs.tipo === "Fonte 12 V" && typeof p.specs.correnteA === "number")
+    .sort((x, y) => (x.specs.correnteA as number) - (y.specs.correnteA as number));
+  const confiraTensao = escolhidas.some((e) => txt(e.p.specs.alimentacao).includes("10,8"))
+    ? [
+        "As fontes Intelbras saem com 12,8 V ± 5% — até 13,44 V sem carga — e parte das câmeras escolhidas declara aceitar até 13,2 V. Com o cabo a tensão cai, mas nenhuma das duas fichas diz quanto: confira antes de ligar.",
+      ]
+    : undefined;
+  const escolher = (pedido: number) => fontes.find((x) => (x.specs.correnteA as number) >= pedido);
   if (r.tomadaPerto) {
     const maior = Math.max(...(consumos as number[]));
     const a = maior / 12;
+    const pedido = a * (1 + FOLGA_FONTE);
+    const f = escolher(pedido);
     return {
       id: "fonte",
       grupo: "energia",
       papel: "Fonte 12 V individual",
       qtd: total,
-      especificacao: `Fonte 12 V de ${n(menorQueCabe(FONTES_A, a * (1 + FOLGA_FONTE)))} A, uma por câmera.`,
-      porque: `A câmera que mais consome no projeto declara ${fmt(maior)} W — ${fmt(a)} A a 12 V.`,
+      ...(f ? { produto: f.slug } : { especificacao: `Fonte 12 V de ${n(menorQueCabe(FONTES_A, pedido))} A, uma por câmera.` }),
+      porque: `A câmera que mais consome no projeto declara ${fmt(maior)} W — ${fmt(a)} A a 12 V.${f ? ` A ${f.modelo} declara ${n(f.specs.correnteA as number)} A de saída.` : ""}`,
       regra,
+      confira: confiraTensao,
     };
   }
-  const watts = escolhidas.reduce((s, e) => s + num(e.p.specs.consumoW)! * e.qtd, 0);
-  const a = watts / 12;
+  const somaW = escolhidas.reduce((s, e) => s + num(e.p.specs.consumoW)! * e.qtd, 0);
+  const a = somaW / 12;
+  const pedido = a * (1 + FOLGA_FONTE);
+  const f = escolher(pedido);
   return {
     id: "fonte",
     grupo: "energia",
     papel: "Fonte 12 V centralizada",
     qtd: 1,
-    especificacao: `Fonte 12 V de ${n(menorQueCabe(FONTES_A, a * (1 + FOLGA_FONTE)))} A.`,
-    porque: `As ${n(total)} câmeras escolhidas declaram ${fmt(watts)} W somados — ${fmt(a)} A a 12 V, alimentadas pelo mesmo cabo a partir do gravador.`,
+    ...(f ? { produto: f.slug } : { especificacao: `Fonte 12 V de ${n(menorQueCabe(FONTES_A, pedido))} A.` }),
+    porque: `As ${n(total)} câmeras escolhidas declaram ${fmt(somaW)} W somados — ${fmt(a)} A a 12 V, alimentadas pelo mesmo cabo a partir do gravador.${f ? ` A ${f.modelo} é a menor fonte da base com corrente acima disso: ${n(f.specs.correnteA as number)} A.` : ""}`,
     regra,
+    confira: confiraTensao,
   };
 }

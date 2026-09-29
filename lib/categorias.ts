@@ -75,7 +75,7 @@ export const categorias: Categoria[] = [
     slug: "cftv",
     nome: "Câmeras e gravadores (CFTV)",
     descricao:
-      "DVRs e câmeras cabeadas de segurança, com a resolução que o gravador grava de fato ao lado da que a caixa anuncia.",
+      "DVRs, câmeras cabeadas e o que o projeto pede junto — HD e cartão de vigilância, fonte 12 V —, com a resolução que o gravador grava de fato ao lado da que a caixa anuncia.",
     dorPrincipal:
       "O DVR diz 1080p. Grava 1920 × 1080 ou 960 × 1080 — e o que ele desliga para gravar o cheio?",
     porQueParou:

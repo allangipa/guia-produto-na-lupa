@@ -101,8 +101,9 @@ A única relação horas/GB declarada na base é a da Tapo C500: 954 h em 512 GB
 | DVR | menor número de canais da base que cabe (+1 com folga); dentro dele, o que grava 1920 × 1080 em todos os canais, depois em parte, depois menor consumo. A alternativa é o de outra marca no mesmo tamanho. |
 | Câmera externa | bullet, 1080p, instalação externa, alcance noturno ≥ pedido, colorida se pedido; a de menor consumo declarado |
 | Câmera interna | dome, mesmos filtros; a de menor consumo |
-| HD | bit rate declarado do DVR × câmeras × 24 h × dias (1 Mb/s o dia todo = 10,8 GB), arredondado para o HD de mercado acima e limitado ao máximo que o DVR aceita |
-| Fonte | soma do consumo declarado das câmeras escolhidas ÷ 12 V, +20% (regra rotulada), arredondada para a fonte de mercado acima |
+| HD | bit rate declarado do DVR × câmeras × 24 h × dias (1 Mb/s o dia todo = 10,8 GB); o menor HD da base que comporta, sem passar do máximo do DVR; no empate, o de menor consumo. Confere o que o gravador escreve por ano contra a carga de trabalho declarada do disco |
+| Fonte | soma do consumo declarado das câmeras escolhidas ÷ 12 V, +20% (regra rotulada); a menor fonte da base com corrente acima disso. A promessa "alimenta N câmeras" da fonte não entra: ela supõe câmeras de 250 ou 300 mA |
+| Cartão (Wi-Fi) | o cartão da base só entra se tiver o tamanho pedido; senão fica a especificação e o maior cartão da base vira alternativa, com quantos dias guarda. Vida útil pelos ciclos de gravação declarados |
 | Distância | a informada contra o `alcanceCoaxialM` do manual da câmera escolhida |
 
 Novas perguntas: imagem colorida à noite (passo 1) e, no DVR, o que importa mais
@@ -196,12 +197,13 @@ licenciada.
 **Câmeras (fecha o cabeado)**
 1. ~~DVR Intelbras~~ — **feito em 29/09/2026**: 7 Intelbras e 3 Hikvision, categoria `cftv`
 2. ~~Câmeras HDCVI Intelbras, bullet e dome~~ — **feito**: 11 câmeras
-3. HD de vigilância (Seagate SkyHawk, WD Purple) — agora o simulador já calcula o tamanho
-4. Cartão microSD de vigilância (fecha também o Wi-Fi)
-5. NVR e câmeras IP Intelbras
-6. Switch PoE
-7. Fonte 12 V, cabo coaxial bipolar, UTP, conectores, balun
-8. Nobreak
+3. ~~HD de vigilância~~ — **feito em 29/09/2026**: WD Purple 1, 2, 4, 6 e 8 TB; SkyHawk 1, 2, 4 e 6 TB
+4. ~~Cartão microSD de vigilância~~ — **feito**: WD Purple 32, 64, 128 e 256 GB (Intelbras)
+5. ~~Fonte 12 V~~ — **feito**: Intelbras EF 1201L, 1202, 1203, 1205 e 1210+, mais as fontes nobreak EFB 1201 e EFB 0501
+6. NVR e câmeras IP Intelbras
+7. Switch PoE
+8. Cabo coaxial bipolar, UTP, conectores, balun
+9. Nobreak (categoria própria: serve a câmera, roteador e computador)
 
 **Automação:** hub Zigbee, interruptor/relé, sensores, controle IR.
 

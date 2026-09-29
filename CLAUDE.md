@@ -397,7 +397,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 635 produtos em 35 categorias, 35 guias,
+- **Inventário em 29/09/2026: 655 produtos em 35 categorias, 35 guias,
   55 comparativos e 43 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -767,6 +767,20 @@ confunde com documento sem folha de estilo.
   DS-7204HGHI-K1 e análise do MHDX 1316. Foi apurada para o /simulador montar o
   projeto de câmeras com produto de verdade (DVR, câmera, HD em TB, fonte em A).
   10 DVRs (7 Intelbras, 3 Hikvision) e 11 câmeras cabeadas Intelbras.
+
+  **Desde 29/09/2026 a categoria tem também os acessórios do projeto**: 9 HDs
+  de vigilância (WD Purple 1–8 TB, Seagate SkyHawk 1–6 TB), 4 cartões microSD
+  WD Purple (Intelbras) e 7 fontes Intelbras (EF 1201L a EF 1210+, e as fontes
+  nobreak EFB 1201 e EFB 0501). Ficaram em CFTV, e não em `armazenamento`, porque
+  o guia de armazenamento conta "7 fichas" em quase todo parágrafo. Achados:
+  **as duas marcas de HD prometem 64 câmeras e 180 TB/ano, e as duas coisas
+  não cabem no mesmo ano** (a WD define a câmera como 3,2 Mb/s: 64 delas escrevem
+  ~807 TB/ano); **a EF 1205 promete 20 câmeras de 300 mA com 5 A de saída**
+  (6 A — campo vazio, divergência); as fontes saem com 12,8 V ± 5% e parte das
+  câmeras Intelbras declara aceitar até 13,2 V; os dois datasheets de HD não
+  declaram rotação. O cartão WD Purple de 32 GB é o 1º mais vendido de microSD
+  na Amazon; o datasheet declara 500 ciclos de gravação, e o simulador calcula a
+  vida útil com isso.
 
   **O modo Full HD só vale para câmera da lista.** A Intelbras publica, num PDF
   à parte, as câmeras compatíveis com a gravação em 1080p cheio da linha 13xx.
