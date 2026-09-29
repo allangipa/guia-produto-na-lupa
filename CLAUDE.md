@@ -1037,6 +1037,28 @@ confunde com documento sem folha de estilo.
     e o BE65, que não declara cobertura.
   - O botão de gerar é `botao-secundario`: verde só no CTA de loja. Os cards
     formam **um** bloco de CTA, com uma linha de comissão.
+
+  **Em 29/09/2026 virou montador de projeto, começando pelas câmeras.** O Allan
+  achou a primeira versão pobre ("teve um que só apareceu uma tomada") e
+  definiu: o simulador monta o projeto e **sugere tudo o que o cliente vai
+  precisar comprar** — no caso das câmeras, além delas, gravador, HD, cabo,
+  conectores, fonte. **A especificação inteira está em `docs/simulador.md`**:
+  o questionário de cada frente, as regras de cálculo, o que está feito e a
+  fila de fichas a apurar. Ler antes de mexer no simulador.
+
+  O que não é óbvio e está decidido:
+
+  - **Peça sem ficha entra na lista** com a especificação mínima e sem link
+    ("opção A", 28/09). Hoje o sistema cabeado sai quase todo assim: a base
+    não tem DVR, câmera HDCVI, HD, fonte nem conector. A fila de apuração está
+    no documento, começando por DVR Intelbras.
+  - **Três espécies de número:** do fabricante ("declara"), regra do simulador
+    (rotulada e com o valor à vista — margem de 10% no cabo, folga de canal) e
+    topologia (dois conectores por cabo). Nada que dependa de número não
+    publicado é calculado: o HD não sai em terabytes enquanto nenhum gravador
+    da base declarar a taxa de gravação.
+  - Wi-Fi e automação continuam na matriz simples de `lib/simulador.ts` até
+    ganharem o questionário deles.
 - **Lançamentos na home** vêm de `lib/lancamentos.ts`: produto da base em
   pré-venda, com datas declaradas pelo fabricante e a fonte escrita. Sem
   contagem regressiva. Quando a data de loja passar, tirar da lista — o

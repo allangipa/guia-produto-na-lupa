@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { tituloSeo, lojasDe } from "@/lib/site";
-import { produto as buscarProduto, type Produto } from "@/lib/produtos";
+import { todosOsProdutos, type Produto } from "@/lib/produtos";
 import { todasAsCombinacoes, type Resultado } from "@/lib/simulador";
 import { dataLegivel } from "@/lib/conteudo";
-import { SetupSimulator } from "@/components/setup-simulator";
+import { Simulador } from "@/components/simulador";
+import { SLUGS as SLUGS_CAMERAS } from "@/lib/simulador-cameras";
 import { MidiaProduto } from "@/components/midia-produto";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 import { Divulgacao } from "@/components/divulgacao";
 
 export const metadata: Metadata = {
-  title: tituloSeo("Simulador: qual Wi-Fi, automação ou câmera para a sua casa"),
+  title: tituloSeo("Simulador: monte o projeto de câmeras, Wi-Fi ou automação"),
   description:
-    "Três perguntas e uma recomendação de rede Wi-Fi, automação ou câmera, tirada só das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
+    "Monte o projeto de câmeras de segurança, rede Wi-Fi ou automação e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
   alternates: { canonical: "/simulador" },
 };
 
@@ -22,7 +23,9 @@ export const metadata: Metadata = {
  * o leitor com um card sem botão no fim de um simulador de compra. Quebra o
  * build, como os outros `verificar()` do projeto.
  */
-function resolver(): [string, Resultado, Produto[]][] {
+function resolver(
+  buscarProduto: (slug: string) => Produto | undefined,
+): [string, Resultado, Produto[]][] {
   const faltando: string[] = [];
   const saida = todasAsCombinacoes().map(([chave, r]) => {
     const produtos = r.indicacoes.map((i) => {
@@ -39,6 +42,30 @@ function resolver(): [string, Resultado, Produto[]][] {
     );
   }
   return saida;
+}
+
+/**
+ * A base do questionário de câmeras. Mesma regra da matriz: o que o motor
+ * pode indicar precisa existir e ter loja, senão o build para.
+ */
+function baseCameras(
+  buscarProduto: (slug: string) => Produto | undefined,
+): Record<string, Produto> {
+  const faltando: string[] = [];
+  const base = Object.fromEntries(
+    Object.values(SLUGS_CAMERAS).map((slug) => {
+      const p = buscarProduto(slug);
+      if (!p || !lojasDe(p.lojas).length) faltando.push(slug);
+      return [slug, p!];
+    }),
+  );
+  if (faltando.length) {
+    throw new Error(
+      `Simulador de câmeras indica produto fora da base ou sem loja: ${faltando.join(", ")}. ` +
+        `Troque em SLUGS, em lib/simulador-cameras.ts.`,
+    );
+  }
+  return base;
 }
 
 function Cards({ r, produtos }: { r: Resultado; produtos: Produto[] }) {
@@ -81,33 +108,36 @@ function Cards({ r, produtos }: { r: Resultado; produtos: Produto[] }) {
   );
 }
 
-export default function Simulador() {
-  const combinacoes = resolver();
+export default function PaginaSimulador() {
+  // Uma leitura da base para a página inteira, e não uma por indicação.
+  const porSlug = new Map(todosOsProdutos().map((p) => [p.slug, p]));
+  const buscarProduto = (slug: string) => porSlug.get(slug);
+  const combinacoes = resolver(buscarProduto);
   const resultados = Object.fromEntries(
     combinacoes.map(([chave, r, produtos]) => [
       chave,
       <Cards key={chave} r={r} produtos={produtos} />,
     ]),
   );
-  const atualizadoEm = combinacoes
-    .flatMap(([, , ps]) => ps.map((p) => p.atualizadoEm))
-    .sort()
-    .at(-1)!;
-  const totalProdutos = new Set(
-    combinacoes.flatMap(([, , ps]) => ps.map((p) => p.slug)),
-  ).size;
+  const cameras = baseCameras(buscarProduto);
+  const usados = [
+    ...combinacoes.flatMap(([, , ps]) => ps),
+    ...Object.values(cameras),
+  ];
+  const atualizadoEm = usados.map((p) => p.atualizadoEm).sort().at(-1)!;
 
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 pb-12">
       <section className="banner mt-5 p-6 md:p-8">
         <span className="pastilha">Simulador</span>
         <h1 className="mt-3 max-w-[24ch] font-titulo text-[1.9rem] leading-[1.1] tracking-tight sm:text-[2.4rem]">
-          Wi-Fi, automação ou câmeras: por onde começar
+          Monte o projeto e veja o que comprar
         </h1>
         <p className="mt-3 max-w-[62ch] text-[0.95rem] text-tinta-suave">
-          Três perguntas e uma indicação, escolhida entre {totalProdutos} produtos
-          com ficha apurada no site. A justificativa de cada uma é o que o
-          fabricante declara, e não teste nosso — e, quando a documentação não
+          Câmeras de segurança, rede Wi-Fi ou automação. Você responde sobre a
+          casa, e o simulador devolve a lista de compras do projeto, peça por
+          peça — das câmeras aos conectores. Cada justificativa é o que o
+          fabricante declara, e não teste nosso; quando a documentação não
           sustenta uma resposta, a página diz isso em vez de preencher.
         </p>
         <div className="mt-4">
@@ -116,11 +146,20 @@ export default function Simulador() {
       </section>
 
       <section className="mt-8">
-        <SetupSimulator resultados={resultados} />
+        <Simulador resultados={resultados} baseCameras={cameras} />
       </section>
 
       <section className="mx-auto mt-14 max-w-[var(--largura-prosa)] text-[0.93rem] text-tinta-suave">
-        <h2 className="titulo-ui text-[1.15rem] text-tinta">Como a indicação é escolhida</h2>
+        <h2 className="titulo-ui text-[1.15rem] text-tinta">Como a lista é montada</h2>
+        <p className="mt-2">
+          No projeto de câmeras, cada resposta vira uma peça ou uma quantidade:
+          os pontos definem as câmeras e os canais do gravador, a distância
+          define os metros de cabo, e cada cabo leva um conector em cada ponta.
+          Peça que o site ainda não apurou aparece na lista com a especificação
+          que o projeto exige e sem link — esconder a peça faria você comprar
+          câmera sem cartão, e inventar um produto quebraria a regra de só
+          indicar o que tem fonte oficial.
+        </p>
         <p className="mt-2">
           O simulador só recomenda produto que tem ficha no site, com fonte
           oficial e link de loja. Em Wi-Fi, o tamanho do ambiente é comparado com

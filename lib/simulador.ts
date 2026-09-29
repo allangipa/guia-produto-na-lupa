@@ -10,6 +10,10 @@ import type { Produto } from "./specs";
  * daqui só recomenda o que tem ficha apurada, e a justificativa sai dos campos
  * da ficha: quando o número muda na base, a frase muda junto.
  *
+ * Câmeras saíram desta matriz em 29/09/2026: viraram o questionário completo
+ * de lib/simulador-cameras.ts, que monta a lista de compras do projeto. Wi-Fi e
+ * automação seguem aqui até ganharem o deles — ver docs/simulador.md.
+ *
  * TRÊS DECISÕES QUE NÃO ESTAVAM NO ROTEIRO
  *
  * 1. O tamanho do ambiente só é perguntado para rede Wi-Fi. É a única das três
@@ -33,7 +37,7 @@ export type Perfil = "essencial" | "recursos";
 export const FOCOS: { valor: Foco; rotulo: string }[] = [
   { valor: "wifi", rotulo: "Rede Wi-Fi" },
   { valor: "automacao", rotulo: "Automação residencial" },
-  { valor: "seguranca", rotulo: "Segurança e câmeras" },
+  { valor: "seguranca", rotulo: "Câmeras de segurança" },
 ];
 
 export const TAMANHOS: { valor: Tamanho; rotulo: string }[] = [
@@ -124,32 +128,6 @@ const MATRIZ: Record<string, Resultado> = {
     ],
     foraDaBase:
       "Hub Zigbee, relé para interruptor e medidor de energia de quadro (trilho DIN) ainda não têm ficha apurada no site. Quando tiverem, entram aqui.",
-  },
-
-  "seguranca:essencial": {
-    indicacoes: [
-      {
-        slug: "tplink-tapo-c100",
-        porque: (p) =>
-          `Câmera interna fixa, ${p.specs.resolucaoVideo}, com visão noturna declarada de ${n(p.specs.visaoNoturnaM)} m. Grava em ${p.specs.armazenamentoVideo}. A TP-Link não diz se ela funciona sem a nuvem.`,
-      },
-    ],
-  },
-  "seguranca:recursos": {
-    indicacoes: [
-      {
-        slug: "intelbras-im3",
-        porque: (p) =>
-          `A única câmera da base que grava em DVR ou NVR de terceiros pelo padrão ONVIF, além de cartão e nuvem. ${p.specs.resolucaoVideo}, visão noturna declarada de ${n(p.specs.visaoNoturnaM)} m. A Intelbras não promete que ela funciona sem a nuvem dela.`,
-      },
-      {
-        slug: "tplink-tapo-c500",
-        porque: (p) =>
-          `Para fora de casa: ${p.specs.protecaoIp}, visão noturna declarada de ${n(p.specs.visaoNoturnaM)} m e giro de 360°. A TP-Link declara que ela funciona com o cartão local, sem depender obrigatoriamente da nuvem.`,
-      },
-    ],
-    foraDaBase:
-      "Kit de DVR, câmera bullet cabeada e HD de vigilância ainda não têm ficha apurada no site.",
   },
 };
 
