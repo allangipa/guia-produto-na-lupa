@@ -164,7 +164,7 @@ export const GRUPOS: { grupo: Grupo; titulo: string }[] = [
 ];
 
 export type { Item } from "./simulador-lista";
-import type { Item } from "./simulador-lista";
+import { OPCOES_POR_ITEM, type Item } from "./simulador-lista";
 
 export type Projeto = {
   sistema: Sistema;
@@ -497,6 +497,7 @@ function projetoCabeado(
         regra: e.regra,
         confira: e.confira?.length ? e.confira : undefined,
         alternativa: e.alternativa,
+        outras: e.outras,
       });
     } else {
       itens.push({
@@ -523,6 +524,7 @@ function projetoCabeado(
         regra: e.regra,
         confira: e.confira?.length ? e.confira : undefined,
         alternativa: e.alternativa,
+        outras: e.outras,
       });
     } else {
       itens.push({
@@ -789,6 +791,7 @@ type Escolha = {
   regra?: string;
   confira?: string[];
   alternativa?: { produto: string; motivo: string };
+  outras?: { produto: string; motivo: string }[];
   /** Quando a base não tem candidata: por quê, para a linha sem ficha. */
   semBase?: string;
 };
@@ -893,6 +896,7 @@ export function escolherCamera(
       : undefined,
     confira,
     alternativa: alt ? { produto: alt.slug, motivo: diferencaCamera(p, alt) } : undefined,
+    outras: lista.slice(2, OPCOES_POR_ITEM).map((o) => ({ produto: o.slug, motivo: diferencaCamera(p, o) })),
   };
 }
 

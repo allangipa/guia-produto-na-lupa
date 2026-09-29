@@ -397,7 +397,7 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 673 produtos em 36 categorias, 36 guias,
+- **Inventário em 29/09/2026: 709 produtos em 36 categorias, 36 guias,
   56 comparativos e 44 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
@@ -826,6 +826,35 @@ confunde com documento sem folha de estilo.
   "câmera bullet analógica" no título e dome na tabela; as Full Color+ se
   chamam "analógica" no título e declaram HDCVI/AHD/HDTVI; as 3220 Full Color+
   têm "Full Color" no nome e "Função Luz Branca: –" na tabela (campo vazio).
+
+- **O simulador de automação ficou completo em 29/09/2026**, e casa conectada
+  foi de 8 para 44 fichas: Intelbras 19 (linha Mibo Smart — interruptores Wi-Fi e
+  Zigbee, relés ECW, controle MCR, central Zigbee MCA 1002, sensores, módulo de
+  portão, detector de fumaça, acionador de cortina, fechaduras MFR), Positivo 10,
+  TP-Link Tapo 5, Nova Digital 4, Ekaza 1. Campos novos: `precisaHub`,
+  `precisaNeutro`, `teclas`, `alimentacao`, `alcanceM`, `dispositivosHub`.
+
+  **A regra do motor é "um aplicativo só"**: escolhe o app que cobre mais peças
+  do projeto e avisa onde entra um segundo. App vem do campo `appProprio`; ficha
+  que não nomeia herda o app mais comum da marca (a Intelbras tem dois de
+  verdade: Mibo Cam na câmera, Mibo Smart no resto).
+
+  **Achado que vira resposta na tela: nenhum interruptor com ficha declara
+  dispensar o neutro.** Os que respondem declaram precisar; para quem não tem
+  neutro, a lista manda para a lâmpada inteligente. **Funcionar sem internet é
+  raro por escrito**: MCR 1001 e MCP 1001 declaram PRECISAR de internet; a
+  central MCA 1002 declara que os Zigbee seguem sem ela.
+
+  **Ficaram de fora, e por quê:** Nova Digital LITE, WS-US8, NFZB-3 e o hub
+  HNZ-PRO3 (fotos oficiais com selo "Powered by tuya"/"Works with Alexa"); Elgin
+  (foto com celular e logo montados ao lado do produto — **decisão pendente do
+  Allan**); Nova Digital ZC-GM42 (foto com a caixa); Tapo H100 e interruptores
+  Tapo (sem anúncio nacional ou só 100–120 V); sensores 433 MHz da Positivo (sem
+  anúncio); Tuya/Zemismart/Sonoff (sem página oficial no Brasil).
+
+  **Cada peça da lista mostra até 5 opções da base** (`OPCOES_POR_ITEM` em
+  `lib/simulador-lista.ts`), pedido do Allan: a indicada com o porquê, as outras
+  com o que muda. No bloco de compra, agrupadas por peça, cada produto uma vez.
 
 - **Nobreaks abriu em 29/09/2026, com 18 fichas de sete marcas** — Intelbras 4,
   Ragtech 4, TS Shara 3, SMS 3, JBR 2, NHS 1, Coletek 1 — e as três peças: guia

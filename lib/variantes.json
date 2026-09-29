@@ -1061,6 +1061,13 @@
     ],
     "original": 900
   },
+  "/produtos/ekaza-eknh-t216.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/electrolux-cyc01.webp": {
     "larguras": [
       240,
@@ -1955,6 +1962,27 @@
     ],
     "original": 1000
   },
+  "/produtos/intelbras-ecw-1000.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-ecw-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-ecw-1002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
   "/produtos/intelbras-ef-1201l.webp": {
     "larguras": [
       240,
@@ -2004,6 +2032,55 @@
     ],
     "original": 600
   },
+  "/produtos/intelbras-eiw-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/intelbras-eiw-1002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/intelbras-eiw-1003.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/intelbras-eiw-1006.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-eiz-1006.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-iac-110.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 820
+  },
+  "/produtos/intelbras-idf-620.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
   "/produtos/intelbras-im3.webp": {
     "larguras": [
       240,
@@ -2017,6 +2094,55 @@
       480
     ],
     "original": 700
+  },
+  "/produtos/intelbras-mca-1002.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-mcp-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-mcr-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-mfr-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-mfr-2020-v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-mfr-3000-v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-mfr-7000-v.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/intelbras-mhdx-1004-c.webp": {
     "larguras": [
@@ -2056,6 +2182,20 @@
       480
     ],
     "original": 700
+  },
+  "/produtos/intelbras-msa-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/intelbras-msm-1001.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
   },
   "/produtos/intelbras-vhd-1120-b-full-color.webp": {
     "larguras": [
@@ -3381,6 +3521,34 @@
     ],
     "original": 1000
   },
+  "/produtos/novadigital-sl-space.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/novadigital-srw-004.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1080
+  },
+  "/produtos/novadigital-srw-mini.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1024
+  },
+  "/produtos/novadigital-zts-mm.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1080
+  },
   "/produtos/oster-gcstac7002.webp": {
     "larguras": [
       240,
@@ -4298,6 +4466,55 @@
     ],
     "original": 1200
   },
+  "/produtos/positivo-kit-smart-botao.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/positivo-smart-controle-universal.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/positivo-smart-fechadura-embutir.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 674
+  },
+  "/produtos/positivo-smart-fechadura-sobrepor.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/positivo-smart-interruptor-1.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1200
+  },
+  "/produtos/positivo-smart-interruptor-2.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 1000
+  },
+  "/produtos/positivo-smart-interruptor-3.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 818
+  },
   "/produtos/positivo-smart-plug.webp": {
     "larguras": [
       240,
@@ -4781,12 +4998,47 @@
     ],
     "original": 1000
   },
+  "/produtos/tplink-tapo-h110.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 590
+  },
   "/produtos/tplink-tapo-p110.webp": {
     "larguras": [
       240,
       480
     ],
     "original": 1000
+  },
+  "/produtos/tplink-tapo-s200d.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 590
+  },
+  "/produtos/tplink-tapo-t100.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 590
+  },
+  "/produtos/tplink-tapo-t110.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 590
+  },
+  "/produtos/tplink-tapo-t315.webp": {
+    "larguras": [
+      240,
+      480
+    ],
+    "original": 590
   },
   "/produtos/tplink-tl-wa850re.webp": {
     "larguras": [

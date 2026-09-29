@@ -22,7 +22,13 @@
       "visaoNoturnaM": null,
       "armazenamentoVideo": null,
       "protecaoIp": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "fluxoLumens",
@@ -30,7 +36,13 @@
       "corRgb",
       "resolucaoVideo",
       "visaoNoturnaM",
-      "armazenamentoVideo"
+      "armazenamentoVideo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0CPFT8QQK"
@@ -83,14 +95,26 @@
       "visaoNoturnaM": 9,
       "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
       "protecaoIp": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "cargaMaxW",
       "medeConsumo",
       "fluxoLumens",
       "temperaturaCorK",
-      "corRgb"
+      "corRgb",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B07XLML2YS"
@@ -143,14 +167,26 @@
       "visaoNoturnaM": 9,
       "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
       "protecaoIp": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "cargaMaxW",
       "medeConsumo",
       "fluxoLumens",
       "temperaturaCorK",
-      "corRgb"
+      "corRgb",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B083V41T6M"
@@ -203,14 +239,26 @@
       "visaoNoturnaM": 29.9,
       "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
       "protecaoIp": "IP65",
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "cargaMaxW",
       "medeConsumo",
       "fluxoLumens",
       "temperaturaCorK",
-      "corRgb"
+      "corRgb",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0BQJVKVQR"
@@ -263,14 +311,26 @@
       "visaoNoturnaM": 10,
       "armazenamentoVideo": "microSD de 8 a 256 GB classe 10, gravador DVR ou NVR por ONVIF, ou nuvem Mibo Cloud",
       "protecaoIp": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "cargaMaxW",
       "medeConsumo",
       "fluxoLumens",
       "temperaturaCorK",
-      "corRgb"
+      "corRgb",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B09Q3JVDYS"
@@ -323,7 +383,13 @@
       "visaoNoturnaM": null,
       "armazenamentoVideo": null,
       "protecaoIp": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "fluxoLumens",
@@ -331,7 +397,13 @@
       "corRgb",
       "resolucaoVideo",
       "visaoNoturnaM",
-      "armazenamentoVideo"
+      "armazenamentoVideo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B07S14JHF2"
@@ -384,7 +456,13 @@
       "visaoNoturnaM": null,
       "armazenamentoVideo": null,
       "protecaoIp": null,
-      "garantiaMeses": 12
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "cargaMaxW",
@@ -392,7 +470,13 @@
       "resolucaoVideo",
       "visaoNoturnaM",
       "armazenamentoVideo",
-      "protecaoIp"
+      "protecaoIp",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B082FTRR76"
@@ -439,7 +523,13 @@
       "visaoNoturnaM": null,
       "armazenamentoVideo": null,
       "protecaoIp": null,
-      "garantiaMeses": null
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": null,
+      "alcanceM": null,
+      "dispositivosHub": null
     },
     "naoSeAplica": [
       "cargaMaxW",
@@ -447,7 +537,13 @@
       "resolucaoVideo",
       "visaoNoturnaM",
       "armazenamentoVideo",
-      "protecaoIp"
+      "protecaoIp",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alimentacao",
+      "alcanceM",
+      "dispositivosHub"
     ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B088C4QZV2"
@@ -476,5 +572,3384 @@
       "credito": "Imagem: Elgin",
       "origem": "https://www.elgin.com.br/lampada-smart-led-a60-10w-compativel-com-alexa-e-google-home-bivolt/p"
     }
+  },
+  {
+    "slug": "tplink-tapo-h110",
+    "nome": "TP-Link Tapo H110",
+    "marca": "TP-Link",
+    "modelo": "Tapo H110",
+    "categoria": "casa-conectada",
+    "resumo": "Controle universal infravermelho e central dos sensores Tapo no mesmo aparelho. A TP-Link declara que ele continua operando os dispositivos da rede de casa sem internet, e não declara o alcance do infravermelho nem quantos sensores aceita. A mesma página diz 18 tipos de aparelho no texto e 21 no contador.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Hub com controle infravermelho",
+      "conexao": "IEEE 802.11 b/g/n, Wi-Fi 2,4 GHz; 868 MHz (sub-GHz, para dispositivos Tapo); Bluetooth (apenas para configuração)",
+      "appProprio": "Tapo",
+      "assistentes": "Alexa, Google Assistant e Siri (página BR); Matter com Apple Home, Google Home, Amazon Alexa e SmartThings",
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "5 V ⎓ 2 A por cabo USB-C (incluso). Datasheet: consumo de 2 W, 0,65 W em espera",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F889ZMC5"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-h110-1",
+        "titulo": "Tapo H110 — página oficial Brasil",
+        "url": "https://www.tapo.com/br/product/smart-hub/tapo-h110/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações (frequências, 5V⎓2A, 79×79×32 mm, −10 a 40 °C, conteúdo da caixa); 18 e 21 tipos; 8.000+ marcas; alarme de 93 dB; funcionamento sem internet na mesma rede; Matter; assistentes",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-h110-2",
+        "titulo": "Tapo H110 (EU&US&JP) 1.0 — Datasheet (PDF)",
+        "url": "https://static.tp-link.com/upload/product-overview/2025/202505/20250520/Tapo H110(EU&US&JP)1.0_Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Lista dos 18 tipos de aparelho IR; consumo de 2 W / 0,65 W em espera; 922 MHz (US/JP) / 868 MHz (EU); '90 dB' nos recursos e '93 dB' nas especificações; nota de que o interruptor sub-1G só existe na Europa e na Malásia",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-h110-3",
+        "titulo": "Tapo H110 1.0&1.6 — Guia de instalação rápida (PDF)",
+        "url": "https://static.tp-link.com/upload/manual/2026/202606/20260630/7100002741_Tapo H110_1.0&1.6_QIG.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Matter como 'Bind to Matter (Beta)'; diagrama de direção do IR (360°/180°); fixação por adesivo ou parafusos M3–M4 a 32 mm",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-h110-4",
+        "titulo": "TP-Link Brasil — Política de Garantia (Linha TAPO)",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Linha TAPO: 'Fita de Led, Hub Inteligente, Sensor inteligente, Aspirador Inteligente: 01 (Um) Ano'",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-h110-5",
+        "titulo": "Anúncio na Amazon Brasil (vendido por TP-Link Loja oficial)",
+        "url": "https://www.amazon.com.br/dp/B0F889ZMC5",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking; 'Descrição da garantia: 1 ano'",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-h110.webp",
+      "alt": "TP-Link Tapo H110",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tapo.com/br/product/smart-hub/tapo-h110/"
+    },
+    "divergencias": [
+      {
+        "campo": "assistentes",
+        "fonteAdotada": "Página BR: 'Central de Conexão de Casa Inteira certificada pela Matter'",
+        "valorDivergente": "Bind to Matter (Beta)",
+        "fonteDivergente": "Guia de instalação rápida do H110 1.0&1.6",
+        "observacao": "A página vende certificação; o guia da caixa chama o recurso de beta."
+      },
+      {
+        "campo": "conexao",
+        "fonteAdotada": "Página BR: 868 MHz",
+        "valorDivergente": "922 MHz (US & JP) / 868 MHz (EU)",
+        "fonteDivergente": "Datasheet do H110",
+        "observacao": "O datasheet não lista versão brasileira; a página BR escreve só 868 MHz, sem dizer de qual versão é a unidade vendida aqui."
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-t100",
+    "nome": "TP-Link Tapo T100",
+    "marca": "TP-Link",
+    "modelo": "Tapo T100",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de movimento a pilha, com detecção de até 7 m e 120° declarados. Fala com o celular pela central Tapo, por rádio próprio — o anúncio da loja oficial na Amazon o chama de \"WiFi\", e ele não funciona sem a central.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de movimento",
+      "conexao": "Sub-GHz 868 MHz / 922 MHz (página); datasheet: 868 MHz versão EU, 922 MHz versão US",
+      "appProprio": "Tapo",
+      "assistentes": "Alexa, Google Assistant (página, 'Third-Party Platform'; exige o hub)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Bateria CR2450 (inclusa); duração declarada: 2 anos, com base em teste de 100 disparos por dia (datasheet); 'até 2 anos com base em resultados de laboratório da TP-Link' (página)",
+      "alcanceM": 7,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0B7NDJW6J"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-t100-1",
+        "titulo": "Tapo T100 — página oficial (endereço /br/, texto em inglês)",
+        "url": "https://www.tapo.com/br/product/smart-sensor/tapo-t100/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações (868/922 MHz, 120°, 7 m, CR2450, 42,3×42,3×34 mm, 0–40 °C); 3 níveis de sensibilidade; intervalo de 4–60 s; bateria de 2 anos; Alexa/Google; hub obrigatório",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t100-2",
+        "titulo": "Tapo T100 (EU&US) 1.20&1.26 — Datasheet (PDF)",
+        "url": "https://static.tp-link.com/upload/product-overview/2024/202407/20240729/Tapo T100(EU&US)1.20&1.26_Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bateria de 2 anos com base em 100 disparos/dia; frequências por versão",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t100-3",
+        "titulo": "TP-Link Brasil — Política de Garantia (Linha TAPO)",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Sensor inteligente: 01 (Um) Ano'",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t100-4",
+        "titulo": "Anúncio na Amazon Brasil (vendido por TP-Link Loja oficial)",
+        "url": "https://www.amazon.com.br/dp/B0B7NDJW6J",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking; menção a sensor PIR",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-t100.webp",
+      "alt": "TP-Link Tapo T100",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tapo.com/br/product/smart-sensor/tapo-t100/"
+    },
+    "divergencias": [
+      {
+        "campo": "conexao",
+        "fonteAdotada": "Página oficial: sub-GHz 868/922 MHz, hub obrigatório",
+        "valorDivergente": "Detector de Movimento WiFi",
+        "fonteDivergente": "Título do anúncio na Amazon (loja oficial TP-Link)",
+        "observacao": "O T100 não tem Wi-Fi: fala com o hub por sub-GHz. O título da loja oficial sugere que ele funciona sem hub."
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-t110",
+    "nome": "TP-Link Tapo T110",
+    "marca": "TP-Link",
+    "modelo": "Tapo T110",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de porta e janela a pilha, que precisa da central Tapo. A bateria dura \"mais de um ano\" com 60 aberturas por dia na página brasileira e com 30 no datasheet — a mesma promessa com o dobro do uso.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de porta e janela",
+      "conexao": "Sub-GHz 868 / 922 MHz (página BR); datasheet: 868 MHz versão EU, 922 MHz versão US",
+      "appProprio": "Tapo",
+      "assistentes": "Alexa, Google Assistant (página BR; exige o hub)",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Bateria CR2032 (inclusa); duração declarada: Mais de 1 ano. Página BR: 'com base em nossos testes de 60 disparos por dia, 22.000 disparos no total'; datasheet: 'com base em 30 disparos por dia'",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BF5MC9QX"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-t110-1",
+        "titulo": "Tapo T110 — página oficial Brasil",
+        "url": "https://www.tapo.com/br/product/smart-sensor/tapo-t110/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações (868/922 MHz, CR2032, 61,4×37,5×12,3 mm, 0–40 °C); bateria de 'mais de um ano' com 60 disparos/dia; vão de até 15 mm; Alexa/Google; hub obrigatório",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t110-2",
+        "titulo": "Tapo T110 (EU&US) 1.0&1.8 — Datasheet (PDF)",
+        "url": "https://static.tp-link.com/upload/product-overview/2023/202303/20230324/Tapo T110(EU&US)1.0&1.8_Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Bateria '1 Year+' com base em 30 disparos/dia; frequências por versão",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t110-3",
+        "titulo": "TP-Link Brasil — Política de Garantia (Linha TAPO)",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Sensor inteligente: 01 (Um) Ano'",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t110-4",
+        "titulo": "Anúncio na Amazon Brasil (vendido por TP-Link Loja oficial)",
+        "url": "https://www.amazon.com.br/dp/B0BF5MC9QX",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking; 'Descrição da garantia: 1 ano'",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-t110.webp",
+      "alt": "TP-Link Tapo T110",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tapo.com/br/product/smart-sensor/tapo-t110/"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Página BR: mais de 1 ano com 60 disparos/dia",
+        "valorDivergente": "1 ano+ com 30 disparos/dia",
+        "fonteDivergente": "Datasheet T110 (EU&US)",
+        "observacao": "Mesma promessa ('mais de um ano') com o dobro de uso na página brasileira. As duas não podem descrever o mesmo teste."
+      },
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Fabricante: mais de 1 ano",
+        "valorDivergente": "até 2 anos",
+        "fonteDivergente": "Título do anúncio da loja oficial na Amazon",
+        "observacao": "Nenhuma fonte do fabricante diz 2 anos para o T110 (2 anos é o número do T100 e do T315)."
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-t315",
+    "nome": "TP-Link Tapo T315",
+    "marca": "TP-Link",
+    "modelo": "Tapo T315",
+    "categoria": "casa-conectada",
+    "resumo": "Termômetro e higrômetro com tela E-Ink, que precisa da central Tapo. Mede de −20 a 60 °C e a tela só mostra de 0 a 50 °C; pelo datasheet, a Alexa consulta a temperatura e não a umidade.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de temperatura e umidade",
+      "conexao": "Sub-GHz 868 / 922 MHz (página BR); datasheet: 868 MHz versão EU, 922 MHz versão US",
+      "appProprio": "Tapo",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "3,0 V DC, 2 pilhas AAA/LR03 (inclusas); duração declarada: Até 2 anos, 'com base nos resultados de laboratório da TP-Link em condições de uso normais' (página BR); nenhuma fonte diz a carga de uso",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BNYSVV3J"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-t315-1",
+        "titulo": "Tapo T315 — página oficial Brasil",
+        "url": "https://www.tapo.com/br/product/smart-sensor/tapo-t315/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações (868/922 MHz, precisão, 2 s, −20~60 °C, exibição 0~50 °C, 62×62×24,5 mm, 2×AAA); bateria de até 2 anos; 2 anos de histórico",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t315-2",
+        "titulo": "Tapo T315 (EU&US) 1.0&1.8 — Datasheet (PDF)",
+        "url": "https://static.tp-link.com/upload/product-overview/2024/202412/20241219/Tapo T315(EU&US)1.0&1.8_Datasheet（新VI）.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Precisão melhor em faixa restrita; ângulo de visão da tela de 180°; nota de que a Alexa só lê temperatura",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t315-3",
+        "titulo": "TP-Link Brasil — Política de Garantia (Linha TAPO)",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Sensor inteligente: 01 (Um) Ano'",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-t315-4",
+        "titulo": "Anúncio na Amazon Brasil (vendido por TP-Link Loja oficial)",
+        "url": "https://www.amazon.com.br/dp/B0BNYSVV3J",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking; 'Descrição da garantia: 1 ano'",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-t315.webp",
+      "alt": "TP-Link Tapo T315",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tapo.com/br/product/smart-sensor/tapo-t315/"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Página BR: 3,0 V DC, 2 × AAA",
+        "valorDivergente": "Voltagem: 110 Volts",
+        "fonteDivergente": "Amazon, tabela técnica",
+        "observacao": "Aparelho a pilha com tensão de tomada no anúncio."
+      }
+    ]
+  },
+  {
+    "slug": "tplink-tapo-s200d",
+    "nome": "TP-Link Tapo S200D",
+    "marca": "TP-Link",
+    "modelo": "Tapo S200D",
+    "categoria": "casa-conectada",
+    "resumo": "Botão a pilha que comanda luzes e aparelhos Tapo pela central — toque, toque duplo e giro. O nome \"Interruptor Inteligente com Dimmer\" sugere o que ele não é: não passa corrente e não substitui o interruptor da parede.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Botão inteligente",
+      "conexao": "Sub-GHz 868 MHz / 922 MHz (página BR); datasheet (EU): 868 MHz",
+      "appProprio": "Tapo",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": 1,
+      "alimentacao": "Bateria CR2032 (inclusa); duração declarada: Mais de 1 ano; datasheet: 'com base em 30 disparos por dia'",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BJQVQ49Q"
+    },
+    "fontes": [
+      {
+        "id": "tplink-tapo-s200d-1",
+        "titulo": "Tapo S200D — página oficial Brasil",
+        "url": "https://www.tapo.com/br/product/smart-switch/tapo-s200d/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Especificações (868/922 MHz, CR2032, 86×86×23,7 mm, 0–40 °C, conteúdo da caixa); bateria de mais de um ano; controle local; vários pontos de controle",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-s200d-2",
+        "titulo": "Tapo S200D (EU) 1.0 — Datasheet (PDF)",
+        "url": "https://static.tp-link.com/upload/product-overview/2022/202208/20220829/Tapo S200D(EU)1.0_Datasheet.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Medidas da placa e do botão; bateria 1 ano+ com 30 disparos/dia; parafusos de fixação na caixa",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-s200d-3",
+        "titulo": "Tapo S200D 1.0&1.6 — Manual do usuário (PDF)",
+        "url": "https://static.tp-link.com/upload/manual/2023/202306/20230626/1910013417_Tapo S200D 1.0&1.6_UG_V1.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Fixação com parafusos substituindo o espelho existente; ações por toque e giro",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-s200d-4",
+        "titulo": "TP-Link Brasil — Política de Garantia (Linha TAPO)",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "'Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "tplink-tapo-s200d-5",
+        "titulo": "Anúncio na Amazon Brasil (vendido por TP-Link Loja oficial)",
+        "url": "https://www.amazon.com.br/dp/B0BJQVQ49Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking; 'Descrição da garantia: 2 anos'",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/tplink-tapo-s200d.webp",
+      "alt": "TP-Link Tapo S200D",
+      "credito": "Imagem: TP-Link",
+      "origem": "https://www.tapo.com/br/product/smart-switch/tapo-s200d/"
+    },
+    "divergencias": [
+      {
+        "campo": "tipo",
+        "fonteAdotada": "Fabricante: interruptor remoto a pilha",
+        "valorDivergente": "Nome do Tipo de Produto: Hub inteligente; Tensão operacional: 1 Volts",
+        "fonteDivergente": "Amazon, tabela técnica",
+        "observacao": "Campos de tipo e de tensão com valores que não descrevem o produto."
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-interruptor-1",
+    "nome": "Positivo Smart Interruptor 1 tecla",
+    "marca": "Positivo",
+    "modelo": "PIW1 (SKU 11193117)",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor Wi-Fi touch de uma tecla, bivolt. A tabela declara 2.300 W no total, 1.800 W por circuito e 5 A — três números que não cabem juntos —, e a Positivo não escreve se ele precisa de fio neutro.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi IEEE 802.11b/g/n, 2,4 GHz",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": "Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": 1,
+      "alimentacao": "100–240 Vca, 50/60 Hz (bivolt)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFVY8KT2"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-interruptor-1-1",
+        "titulo": "Página oficial — Smart Interruptor Wi-Fi 1 Módulo",
+        "url": "https://www.positivocasainteligente.com.br/smart-interruptor-wi-fi-1-canal-11193117/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela técnica (tensão, potência, corrente, Wi-Fi, medidas, peso), descrição, garantia de 12 meses nos diferenciais; foto da etiqueta traseira com modelo PIW1, bornes C1/F/N e Anatel CB3S 08206-21-11765.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-interruptor-1-2",
+        "titulo": "Anúncio Amazon B0CFVY8KT2",
+        "url": "https://www.amazon.com.br/dp/B0CFVY8KT2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, número de modelo 11193117, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-interruptor-1.webp",
+      "alt": "Positivo Smart Interruptor 1 tecla",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-interruptor-wi-fi-1-canal-11193117/p"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "nenhuma (campo vazio)",
+        "valorDivergente": "2300 W no total / 1800 W por circuito / 5 A",
+        "fonteDivergente": "Página oficial, tabela técnica",
+        "observacao": "Aparelho de UM circuito com 'potência máxima' de 2300 W e 'por circuito' de 1800 W: o total é maior que o único circuito. E 5 A a 240 V dão 1200 W; a 127 V, 635 W. Nenhuma das duas potências cabe na corrente declarada. Número impossível: campo vazio."
+      },
+      {
+        "campo": "teclas",
+        "fonteAdotada": "Página oficial (1 circuito)",
+        "valorDivergente": "'Utilize até 1 circuito' repetido no anúncio de 2 botões",
+        "fonteDivergente": "Amazon B0CFVY9N6C",
+        "observacao": "Só registro: o texto do anúncio de 1 botão foi copiado no de 2 botões."
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-interruptor-2",
+    "nome": "Positivo Smart Interruptor 2 teclas",
+    "marca": "Positivo",
+    "modelo": "PIW2 (SKU 11193112)",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor Wi-Fi touch de duas teclas, bivolt. A tabela declara 2.300 W no total, 1.800 W por circuito e 5 A, que não fecham; a página não traz garantia nem diz se ele precisa de fio neutro.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi IEEE 802.11b/g/n, 2,4 GHz",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": "Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": 2,
+      "alimentacao": "100–240 Vca, 50/60 Hz (bivolt)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CFVY9N6C"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-interruptor-2-1",
+        "titulo": "Página oficial — Smart Interruptor Wi-Fi 2 Módulos",
+        "url": "https://www.positivocasainteligente.com.br/smart-interruptor-wi-fi-2-circuitos-11193112/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela técnica, descrição, foto da etiqueta traseira (PIW2, bornes C2/C1/F/N).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-interruptor-2-2",
+        "titulo": "Anúncio Amazon B0CFVY9N6C",
+        "url": "https://www.amazon.com.br/dp/B0CFVY9N6C",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking; campo 'Potência 1800 watts'.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-interruptor-2.webp",
+      "alt": "Positivo Smart Interruptor 2 teclas",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-interruptor-wi-fi-2-circuitos-11193112/p"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "nenhuma (campo vazio)",
+        "valorDivergente": "2300 W / 1800 W por circuito / 5 A",
+        "fonteDivergente": "Página oficial",
+        "observacao": "5 A a 240 V = 1200 W, abaixo até do valor por circuito. Os dois números de potência são impossíveis com a corrente declarada."
+      },
+      {
+        "campo": "teclas",
+        "fonteAdotada": "Página oficial (2 circuitos)",
+        "valorDivergente": "'Utilize até 1 circuito de iluminação'",
+        "fonteDivergente": "Amazon, bullets",
+        "observacao": "Texto do anúncio de 1 botão copiado no de 2."
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-interruptor-3",
+    "nome": "Positivo Smart Interruptor 3 teclas",
+    "marca": "Positivo",
+    "modelo": "PIW3 (SKU 11160736)",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor Wi-Fi touch de três teclas, 1.000 W por circuito e 2.000 W no total. É o único interruptor da Positivo com manual publicado, e o manual manda ligar o fio neutro. A descrição da página é o texto do vídeo porteiro da marca.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi IEEE 802.11b/g/n, 2,4 GHz",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": "Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1000,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": 3,
+      "alimentacao": "100–240 Vca, 50/60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B08X4VWJYJ"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-interruptor-3-1",
+        "titulo": "Página oficial — Smart Interruptor Wi-Fi 3 Módulos",
+        "url": "https://www.positivocasainteligente.com.br/smart-interruptor-wifi-2000w-3-canais-branco/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela técnica, diferenciais, peso 80 g.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-interruptor-3-2",
+        "titulo": "Guia rápido Smart Interruptor Wi-Fi (PIW3), 2020",
+        "url": "http://static.positivocasainteligente.com.br/manuais/2020/guia-rapido-smart-interruptor.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Diagrama C3 C2 C1 F N, instrução de ligar o neutro, limites de 1000 W por circuito e 2000 W no total, peso 180 g, garantia de 365 dias, Anatel WB3S 11605-20-11765.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-interruptor-3-3",
+        "titulo": "Anúncio Amazon B08X4VWJYJ",
+        "url": "https://www.amazon.com.br/dp/B08X4VWJYJ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo 11160736, EAN 7896904683646, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-interruptor-3.webp",
+      "alt": "Positivo Smart Interruptor 3 teclas",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-interruptor-wifi-2000w-3-canais-branco/p"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "positivo-smart-controle-universal",
+    "nome": "Positivo Smart Controle Universal",
+    "marca": "Positivo",
+    "modelo": "Smart Controle Universal SH (SKU 11222769)",
+    "categoria": "casa-conectada",
+    "resumo": "Controle universal infravermelho Wi-Fi, alimentado por USB. A mesma página dá três alcances — 8 m no título, 7 a 10 m na tabela e \"até 10 m\" nos diferenciais — e não diz se ele funciona sem internet.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Controle infravermelho",
+      "conexao": "Wi-Fi IEEE 802.11b/g/n, 2,4 GHz; infravermelho de 38–56 kHz",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": "Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "5 V / 1 A por USB (fonte inclusa, bivolt); potência 0,55 W; corrente máxima 110 mA",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0FLYFQL5M"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-controle-universal-1",
+        "titulo": "Página oficial — Smart Controle Universal Wi-Fi (11222769)",
+        "url": "https://www.positivocasainteligente.com.br/smart-controle-universal-wi-fi-positivo-casa-inteligente-cobertura-360-alcance-8m-alimentacao-micro-usb-11222769/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela técnica, diferenciais, garantia de 12 meses.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-controle-universal-2",
+        "titulo": "Página oficial — versão anterior (11151523), mesmo nome",
+        "url": "https://www.positivocasainteligente.com.br/smart-controle-universal/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Só para comparação: 38 kHz, até 8 m, 71 x 71 x 23,2 mm, 81,73 g.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-controle-universal-3",
+        "titulo": "Guia rápido Smart Controle Universal (PCU IRN), 2020",
+        "url": "http://static.positivocasainteligente.com.br/manuais/2020/guia-rapido-smart-controle-universal.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Da versão anterior: 'Sincronização com a nuvem', aprendizado de códigos, 68 x 68 x 27 mm, 67 g.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-controle-universal-4",
+        "titulo": "Anúncio Amazon B0FLYFQL5M",
+        "url": "https://www.amazon.com.br/dp/B0FLYFQL5M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo 11222769, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-controle-universal.webp",
+      "alt": "Positivo Smart Controle Universal",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-controle-universal-wi-fi-positivo-casa-inteligente-cobertura-360-alcance-8m-alimentacao-micro-usb-11222769/p"
+    },
+    "divergencias": [
+      {
+        "campo": "alcanceM",
+        "fonteAdotada": "nenhuma (campo vazio)",
+        "valorDivergente": "8 m (título) / 7–10 m (tabela) / até 10 m (diferenciais)",
+        "fonteDivergente": "Página oficial",
+        "observacao": "Três alcances na mesma página."
+      },
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Tabela (5 V / 1 A por USB)",
+        "valorDivergente": "'Bivolt com alimentação USB'; o título diz 'Micro USB' e o conteúdo da caixa diz 'Cabo USB (C)'",
+        "fonteDivergente": "Página oficial",
+        "observacao": "Bivolt é a fonte, não o aparelho; e o título fala em micro USB enquanto a caixa lista cabo USB-C."
+      }
+    ]
+  },
+  {
+    "slug": "positivo-kit-smart-botao",
+    "nome": "Positivo Kit Smart Botão",
+    "marca": "Positivo",
+    "modelo": "PSTBT (SKU 11170142)",
+    "categoria": "casa-conectada",
+    "resumo": "Central Bluetooth (SIG Mesh) com botões de três teclas a pilha, para comandar outros produtos Positivo. A página e o anúncio chamam o botão de Wi-Fi, que ele não é, e não dizem quantos botões vêm no kit.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Hub",
+      "conexao": "Hub: Wi-Fi 802.11 b/g/n + Bluetooth SIG Mesh 5.0 / BLE, 2,4 GHz. Botão: SIG Mesh",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Hub: USB 5 V / 1 A (5 W, <0,5 W em standby). Botão: 2x CR2032 (3 V); duração declarada: 1 ano (botão; só na página, sem condição de uso)",
+      "alcanceM": null,
+      "dispositivosHub": 128
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BL1QZJ2M"
+    },
+    "fontes": [
+      {
+        "id": "positivo-kit-smart-botao-1",
+        "titulo": "Página oficial — Smart Hub e Smart Botão",
+        "url": "https://www.positivocasainteligente.com.br/kit-smart-botao-wi-fi/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela do hub e do botão, descrição, fotos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-kit-smart-botao-2",
+        "titulo": "Guia rápido Kit Smart Botão, 2023",
+        "url": "http://static.positivocasainteligente.com.br/manuais/2023/guia-rapido-smart-kit-botao.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Quantidade de conexões 128/8, dimensões, peso, garantia de 365 dias.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-kit-smart-botao-3",
+        "titulo": "Anúncio Amazon B0BL1QZJ2M",
+        "url": "https://www.amazon.com.br/dp/B0BL1QZJ2M",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título (1 hub e 2 botões), modelo PSTBT, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-kit-smart-botao.webp",
+      "alt": "Positivo Kit Smart Botão",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/kit-smart-botao-wi-fi/p"
+    },
+    "divergencias": [
+      {
+        "campo": "conexao",
+        "fonteAdotada": "Fabricante (SIG Mesh)",
+        "valorDivergente": "'Smart Botão Wi-Fi'; 'alcance de até 8 metros em um raio de 360º'",
+        "fonteDivergente": "Amazon, bullets",
+        "observacao": "O botão não tem Wi-Fi; o alcance de 8 m não aparece em documento do fabricante. Até o endereço da página oficial é 'kit-smart-botao-wi-fi'."
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-fechadura-embutir",
+    "nome": "Positivo Smart Fechadura de Embutir",
+    "marca": "Positivo",
+    "modelo": "Smart Fechadura Wi-Fi de Embutir (SKU 11188737)",
+    "categoria": "casa-conectada",
+    "resumo": "Fechadura de embutir com senha, biometria, tag, chave e aplicativo, a pilha. Leva \"Wi-Fi\" no nome e a tabela declara só Bluetooth 4.2; a Positivo diz que ela abre sem energia e sem internet, e não publica a garantia.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Fechadura digital",
+      "conexao": null,
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "4 pilhas AA; duração declarada: até 7 meses com 20 usos diários",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BTQNL31V"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-fechadura-embutir-1",
+        "titulo": "Página oficial — Smart Fechadura Wi-Fi de Embutir",
+        "url": "https://www.positivocasainteligente.com.br/smart-fechadura-wifi-de-embutir-11188737/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela, descrição, diferenciais.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-fechadura-embutir-2",
+        "titulo": "Guia rápido Smart Fechadura de Embutir v2, 2023",
+        "url": "http://static.positivocasainteligente.com.br/manuais/2023/guia-rapido-smart-fechadura-embutir-v2.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Baixado; PDF em curvas, sem texto técnico extraível.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-fechadura-embutir-3",
+        "titulo": "Anúncio Amazon B0BTQNL31V",
+        "url": "https://www.amazon.com.br/dp/B0BTQNL31V",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, modelo 11188737, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-fechadura-embutir.webp",
+      "alt": "Positivo Smart Fechadura de Embutir",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-fechadura-wifi-de-embutir-11188737/p"
+    },
+    "divergencias": [
+      {
+        "campo": "conexao",
+        "fonteAdotada": "nenhuma (campo vazio)",
+        "valorDivergente": "'Wi-Fi' no título / 'Bluetooth 4.2' na tabela",
+        "fonteDivergente": "Página oficial",
+        "observacao": "O nome promete Wi-Fi e a tabela só declara Bluetooth; nenhuma linha técnica declara Wi-Fi. A Amazon diz 'Bluetooth 4.2 e Wi-Fi. Não precisa de hub' — é varejo e não confirma."
+      }
+    ]
+  },
+  {
+    "slug": "positivo-smart-fechadura-sobrepor",
+    "nome": "Positivo Smart Fechadura de Sobrepor",
+    "marca": "Positivo",
+    "modelo": "Smart Fechadura Wi-Fi de Sobrepor (SKU 11217432)",
+    "categoria": "casa-conectada",
+    "resumo": "Fechadura de sobrepor Wi-Fi com biometria, senha, tag e chave, a pilha. A espessura de porta aceita é 35 a 50 mm na tabela e 25 a 50 mm na descrição da mesma página.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Fechadura digital",
+      "conexao": "Wi-Fi IEEE 802.11b/g/n, 2,4 GHz",
+      "appProprio": "Positivo Casa Inteligente",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "4 pilhas AA (inclusas); duração declarada: média de 9 meses considerando 20 usos diários",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F2J84CHZ"
+    },
+    "fontes": [
+      {
+        "id": "positivo-smart-fechadura-sobrepor-1",
+        "titulo": "Página oficial — Smart Fechadura Wi-Fi de Sobrepor",
+        "url": "https://www.positivocasainteligente.com.br/smart-fechadura-digital-wifi-sobrepor-positivo-casa-inteligente-biometria-senha-tag-app-11217432/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Tabela e descrição.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-fechadura-sobrepor-2",
+        "titulo": "Manual Smart Fechadura de Sobrepor, 2025",
+        "url": "https://static.positivocasainteligente.com.br/manuais/2025/smart-fechadura-sobrepor.pdf",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "Baixado; o texto extraível só traz códigos de configuração.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "positivo-smart-fechadura-sobrepor-3",
+        "titulo": "Anúncio Amazon B0F2J84CHZ",
+        "url": "https://www.amazon.com.br/dp/B0F2J84CHZ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "ASIN, título, ranking.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/positivo-smart-fechadura-sobrepor.webp",
+      "alt": "Positivo Smart Fechadura de Sobrepor",
+      "credito": "Imagem: Positivo",
+      "origem": "https://www.positivocasainteligente.com.br/smart-fechadura-digital-wifi-sobrepor-positivo-casa-inteligente-biometria-senha-tag-app-11217432/p"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-eiw-1001",
+    "nome": "Intelbras EIW 1001",
+    "marca": "Intelbras",
+    "modelo": "EIW 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor touch Wi-Fi de 1 tecla, que precisa de fio neutro na caixa. A Intelbras declara 10 A — 1.270 W em 127 V e 2.200 W em 220 V — sem dizer se o limite é por tecla ou do interruptor inteiro, e não diz se ele funciona sem internet.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": 1,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático (fase + neutro)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPH99RKN"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-eiw-1001-1",
+        "titulo": "Página oficial EWS 1001 & EIW 1001",
+        "url": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-ews-1001-eiw-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, compatibilidades, FAQ (neutro obrigatório; FAQ de internet do app Izy), galeria de fotos, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1001-2",
+        "titulo": "Datasheet EIW 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/EIW%201001%20-%20Datasheet%2008.10.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, corrente, potência por tensão, temperatura, caixa, neutro, Wi-Fi/Bluetooth, alcance, Anatel, dimensões, peso, material, EAN.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1001-3",
+        "titulo": "Manual do usuário EIW 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_EIW_1001_01-25_site_0.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Neutro deve ser o mesmo das lâmpadas; FP mínimo 0,7 das lâmpadas; termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gph99rkn",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GPH99RKN",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Touch WI-FI 1 Tecla EIW 1001 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-eiw-1001.webp",
+      "alt": "Intelbras EIW 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-ews-1001-eiw-1001"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-eiw-1002",
+    "nome": "Intelbras EIW 1002",
+    "marca": "Intelbras",
+    "modelo": "EIW 1002",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor touch Wi-Fi de 2 teclas, que precisa de fio neutro na caixa. A Intelbras declara 10 A — 1.270 W em 127 V e 2.200 W em 220 V — sem dizer se o limite é por tecla ou do interruptor inteiro, e não diz se ele funciona sem internet.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": 2,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático (fase + neutro)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPHGND4Q"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-eiw-1002-1",
+        "titulo": "Página oficial EWS 1002 & EIW 1002",
+        "url": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-2-teclas-ews-1002-eiw-1002",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, compatibilidades, FAQ (neutro obrigatório; FAQ de internet do app Izy), galeria de fotos, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1002-2",
+        "titulo": "Datasheet EIW 1002",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/EIW%201002%20-%20Datasheet%2008.10.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, corrente, potência por tensão, temperatura, caixa, neutro, Wi-Fi/Bluetooth, alcance, Anatel, dimensões, peso, material, EAN.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1002-3",
+        "titulo": "Manual do usuário EIW 1002",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_EIW_1002_01-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Neutro deve ser o mesmo das lâmpadas; FP mínimo 0,7 das lâmpadas; termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gphgnd4q",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GPHGND4Q",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Touch WI-FI 2 Teclas EIW 1002 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-eiw-1002.webp",
+      "alt": "Intelbras EIW 1002",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-2-teclas-ews-1002-eiw-1002"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-eiw-1003",
+    "nome": "Intelbras EIW 1003",
+    "marca": "Intelbras",
+    "modelo": "EIW 1003",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor touch Wi-Fi de 3 teclas, que precisa de fio neutro na caixa. A Intelbras declara 10 A — 1.270 W em 127 V e 2.200 W em 220 V — sem dizer se o limite é por tecla ou do interruptor inteiro, e não diz se ele funciona sem internet.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": 3,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático (fase + neutro)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPRP4456"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-eiw-1003-1",
+        "titulo": "Página oficial EWS 1003 & EIW 1003",
+        "url": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-3-teclas-ews-1003-eiw-1003",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, compatibilidades, FAQ (neutro obrigatório; FAQ de internet do app Izy), galeria de fotos, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1003-2",
+        "titulo": "Datasheet EIW 1003",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/EIW%201003%20-%20Datasheet%2008.10.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, corrente, potência por tensão, temperatura, caixa, neutro, Wi-Fi/Bluetooth, alcance, Anatel, dimensões, peso, material, EAN.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1003-3",
+        "titulo": "Manual do usuário EIW 1003",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_EIW_1003_01-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Neutro deve ser o mesmo das lâmpadas; FP mínimo 0,7 das lâmpadas; termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gprp4456",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GPRP4456",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Touch WI-FI 3 Teclas EIW 1003 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-eiw-1003.webp",
+      "alt": "Intelbras EIW 1003",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-3-teclas-ews-1003-eiw-1003"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-eiw-1006",
+    "nome": "Intelbras EIW 1006",
+    "marca": "Intelbras",
+    "modelo": "EIW 1006",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor touch Wi-Fi de 6 teclas, que precisa de fio neutro na caixa. A Intelbras declara 10 A — 1.270 W em 127 V e 2.200 W em 220 V — sem dizer se o limite é por tecla ou do interruptor inteiro, e não diz se ele funciona sem internet.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": 6,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático (fase + neutro)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPRM2HVL"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-eiw-1006-1",
+        "titulo": "Página oficial EWS 1006 & EIW 1006",
+        "url": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-6-teclas-ews-1006-eiw-1006",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, compatibilidades, FAQ (neutro obrigatório; FAQ de internet do app Izy), galeria de fotos, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1006-2",
+        "titulo": "Datasheet EIW 1006",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/EIW%201006%20-%20%20Datasheet%2008.10.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, corrente, potência por tensão, temperatura, caixa, neutro, Wi-Fi/Bluetooth, alcance, Anatel, dimensões, peso, material, EAN.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiw-1006-3",
+        "titulo": "Manual do usuário EIW 1006",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_EIW_1006_01-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Neutro deve ser o mesmo das lâmpadas; FP mínimo 0,7 das lâmpadas; termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gprm2hvl",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GPRM2HVL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Touch WI-FI 6 Teclas EIW 1006 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-eiw-1006.webp",
+      "alt": "Intelbras EIW 1006",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/interruptor-touch-inteligente-wi-fi-6-teclas-ews-1006-eiw-1006"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-eiz-1006",
+    "nome": "Intelbras EIZ 1006",
+    "marca": "Intelbras",
+    "modelo": "EIZ 1006",
+    "categoria": "casa-conectada",
+    "resumo": "Interruptor touch Zigbee de seis teclas, que precisa de fio neutro e da central MCA 1002. A Intelbras declara 10 A sem dizer se é por tecla, e o guia de compatibilidade da própria central não cita a linha EIZ.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Interruptor inteligente",
+      "conexao": "Zigbee 3.0 (IEEE 802.15.4)",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": true,
+      "teclas": 6,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático (fase + neutro)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HCF593V9"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-eiz-1006-1",
+        "titulo": "Página oficial EIZ 1006",
+        "url": "https://www.intelbras.com/pt-br/interruptor-inteligente-touch-zigbee-6-teclas-eiz-1006",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiz-1006-2",
+        "titulo": "Datasheet EIZ 1006",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-07/EIZ%201006%20-%20%20Datasheet%2001.26%20%281%29.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, 10 A, 1.270/2.200 W, neutro, Zigbee 3.0, 100 m do hub, hub MCA 1002, Anatel, dimensões, peso.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-eiz-1006-3",
+        "titulo": "Manual EIZ 1006",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-08/Manual_EIZ_1006_02-26_site%20%281%29.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Neutro deve ser o mesmo das lâmpadas; hub MCA 1002 configurado antes; garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0hcf593v9",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HCF593V9",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Interruptor Inteligente Touch Zigbee 6 Teclas EIZ 1006 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-eiz-1006.webp",
+      "alt": "Intelbras EIZ 1006",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/interruptor-inteligente-touch-zigbee-6-teclas-eiz-1006"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-ecw-1001",
+    "nome": "Intelbras ECW 1001",
+    "marca": "Intelbras",
+    "modelo": "ECW 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Minicontrolador Wi-Fi de uma saída, que vai dentro da caixa, atrás do interruptor comum, e mantém a tecla da parede funcionando. Precisa de fio neutro; a Intelbras declara 10 A, 1.270 W em 127 V.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Relé inteligente",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": null,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GQ78WVKF"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-ecw-1001-1",
+        "titulo": "Página oficial (Minicontrolador Inteligente Wi-Fi 1 saída ECW 1001)",
+        "url": "https://www.intelbras.com/pt-br/minicontrolador-inteligente-wi-fi-1-saida-ews-211-ecw-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, FAQ, galeria, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ecw-1001-2",
+        "titulo": "Datasheet ECW 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/ECW%201001%20-%20Datasheet%2008.10.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, corrente, potência, instalação e neutro, Wi-Fi/Bluetooth, alcance, Anatel, dimensões, peso.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ecw-1001-3",
+        "titulo": "Manual ECW 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_ECW_1001_02-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Instalação, rede 2,4 GHz com internet, termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gq78wvkf",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GQ78WVKF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Minicontrolador Inteligente WI-FI ECW 1001 Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-ecw-1001.webp",
+      "alt": "Intelbras ECW 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/minicontrolador-inteligente-wi-fi-1-saida-ews-211-ecw-1001"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-ecw-1002",
+    "nome": "Intelbras ECW 1002",
+    "marca": "Intelbras",
+    "modelo": "ECW 1002",
+    "categoria": "casa-conectada",
+    "resumo": "Minicontrolador Wi-Fi de duas saídas, atrás do interruptor comum. O datasheet declara 10 A somados nas duas saídas; o limite de 5 A por canal só está na etiqueta gravada no aparelho, que aparece na foto oficial.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Relé inteligente",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": null,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPXTDV8B"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-ecw-1002-1",
+        "titulo": "Página oficial (Minicontrolador Inteligente Wi-Fi 2 saídas ECW 1002)",
+        "url": "https://www.intelbras.com/pt-br/minicontrolador-inteligente-wi-fi-2-saidas-ews-222-ecw-1002",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, FAQ, galeria, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ecw-1002-2",
+        "titulo": "Datasheet ECW 1002",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/ECW%201002%20-%20Datasheet%2008.10.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, corrente, potência, instalação e neutro, Wi-Fi/Bluetooth, alcance, Anatel, dimensões, peso.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ecw-1002-3",
+        "titulo": "Manual ECW 1002",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_ECW_1002_02-25_site_0.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Instalação, rede 2,4 GHz com internet, termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gpxtdv8b",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GPXTDV8B",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Minicontrolador Inteligente WI-FI 2 Canais ECW 1002 Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-ecw-1002.webp",
+      "alt": "Intelbras ECW 1002",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/minicontrolador-inteligente-wi-fi-2-saidas-ews-222-ecw-1002"
+    },
+    "divergencias": [
+      {
+        "campo": "cargaMaxW",
+        "fonteAdotada": "Datasheet ECW 1002: 10 A combinados, sem limite por saída",
+        "valorDivergente": "5 A por canal",
+        "fonteDivergente": "Etiqueta impressa no produto, visível na foto oficial ECW-1002_front.png da página Intelbras",
+        "observacao": "A informação mais restritiva — 5 A em cada saída — só aparece gravada no próprio aparelho. Quem ler só o datasheet pode pôr 10 A numa saída."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-ecw-1000",
+    "nome": "Intelbras ECW 1000",
+    "marca": "Intelbras",
+    "modelo": "ECW 1000",
+    "categoria": "casa-conectada",
+    "resumo": "Relé Wi-Fi para instalar no teto ou numa caixa de passagem com tampa cega. Precisa de fio neutro; a Intelbras declara 10 A e sugere contator para cargas maiores.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Relé inteligente",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 5.1",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa, Google Assistente e Samsung SmartThings",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": 1270,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": true,
+      "teclas": null,
+      "alimentacao": "100–240 Vca 50/60 Hz, bivolt automático",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "medeConsumo",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GPXVKS95"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-ecw-1000-1",
+        "titulo": "Página oficial (Controlador Smart Wi-Fi para Ambientes ECW 1000)",
+        "url": "https://www.intelbras.com/pt-br/controlador-smart-wi-fi-para-ambientes-ews-201-e-ecw-1000",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, FAQ, galeria, links dos PDFs.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ecw-1000-2",
+        "titulo": "Datasheet ECW 1000",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-04/ECW%201000%20-%20Datasheet%2008.10.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Tensão, corrente, potência, instalação e neutro, Wi-Fi/Bluetooth, alcance, Anatel, dimensões, peso.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-ecw-1000-3",
+        "titulo": "Manual ECW 1000",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/Manual_ECW_1000_02-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Instalação, rede 2,4 GHz com internet, termo de garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gpxvks95",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GPXVKS95",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Controlador Smart WI-FI para Ambientes ECW 1000 Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-ecw-1000.webp",
+      "alt": "Intelbras ECW 1000",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/controlador-smart-wi-fi-para-ambientes-ews-201-e-ecw-1000"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-mcr-1001",
+    "nome": "Intelbras MCR 1001",
+    "marca": "Intelbras",
+    "modelo": "MCR 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Controle universal infravermelho Wi-Fi, com alcance declarado de 15 m sem obstáculos e 360°. O manual diz, por escrito, que ele precisa de internet para funcionar.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Controle infravermelho",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": false,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "5 V / mínimo 1 A (fonte não detalhada no datasheet)",
+      "alcanceM": 15,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CN9GLWF3"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-mcr-1001-1",
+        "titulo": "Página oficial MCR 1001",
+        "url": "https://www.intelbras.com/pt-br/controle-universal-inteligente-infravermelho-mcr-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mcr-1001-2",
+        "titulo": "Datasheet MCR 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-05/Datasheet-MCR1001_0.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Wi-Fi, IR 38 kHz, 360°, alcances IR 15 m e Wi-Fi 50 m, 5 V/1 A, consumo, temperatura, dimensões.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mcr-1001-3",
+        "titulo": "Manual MCR 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Manual_MCR_1001_01-26_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Exige internet para funcionar; garantia de 1 ano (3 meses legal + 9 contratuais).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0cn9glwf3",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CN9GLWF3",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Controle Remoto Universal Inteligente IR MCR 1001 Preto Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-mcr-1001.webp",
+      "alt": "Intelbras MCR 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/controle-universal-inteligente-infravermelho-mcr-1001"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-mca-1002",
+    "nome": "Intelbras MCA 1002",
+    "marca": "Intelbras",
+    "modelo": "MCA 1002",
+    "categoria": "casa-conectada",
+    "resumo": "Central Zigbee com sirene, para até 32 dispositivos. É a única ficha da Intelbras que declara funcionar sem internet — e fala pelos sensores e fechaduras Zigbee ligados a ela, sem dizer quais funções continuam.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Hub",
+      "conexao": "Zigbee (IEEE 802.15.4) + Wi-Fi 802.11b/g/n 2,4 GHz",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Micro USB 5 Vdc ± 10%; consumo máximo 5 W; 1 A máx.; ≤ 95 mA em stand-by",
+      "alcanceM": null,
+      "dispositivosHub": 32
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0DB6GM9WT"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-mca-1002-1",
+        "titulo": "Página oficial MCA 1002",
+        "url": "https://www.intelbras.com/pt-br/hub-de-automacao-inteligente-mca-1002",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mca-1002-2",
+        "titulo": "Datasheet MCA 1002",
+        "url": "https://backend.intelbras.com/sites/default/files/2024-07/Datasheet-MCA-1002.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Protocolos, alcance, alimentação, consumo, temperatura, dimensões, peso, 32 dispositivos, sirene 73 dB.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mca-1002-3",
+        "titulo": "Guia do usuário MCA 1002",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Guia_MCA_1002_01-26_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Funcionamento sem internet via Zigbee; uso interno; garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mca-1002-4",
+        "titulo": "Guia de Compatibilidade Hub's (Intelbras)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-07/Guia%20de%20Compatibilidade%20Hub%27s.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Fechaduras MFD/MFR/MFV, acessórios compatíveis, sirene 72 dB.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0db6gm9wt",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0DB6GM9WT",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Hub de Automação Residencial até 32 dispositivos MCA 1002\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-mca-1002.webp",
+      "alt": "Intelbras MCA 1002",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/hub-de-automacao-inteligente-mca-1002"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-msa-1001",
+    "nome": "Intelbras MSA 1001",
+    "marca": "Intelbras",
+    "modelo": "MSA 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de abertura Zigbee a pilha CR2032, que precisa da central. O datasheet pede \"hub da linha Mibo\" e o guia do usuário diz que a central MCA 1001 é obrigatória.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de porta e janela",
+      "conexao": "Zigbee (IEEE 802.15.4) 2,4 GHz",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "3 Vdc — bateria CR2032; duração declarada: 1 ano (20 acionamentos/dia)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CGVQ6R4J"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-msa-1001-1",
+        "titulo": "Página oficial MSA 1001",
+        "url": "https://www.intelbras.com/pt-br/sensor-de-abertura-inteligente-msa-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-msa-1001-2",
+        "titulo": "Datasheet MSA 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-07/datasheet-msa-1001-pt.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Protocolo, alcance, bateria e duração, consumos, temperatura, dimensões, peso.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-msa-1001-3",
+        "titulo": "Guia do usuário MSA 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Guia_MSA_1001_01-26_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Hub obrigatório, instalação, garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-msa-1001-4",
+        "titulo": "Guia de Compatibilidade Hub's (Intelbras)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-07/Guia%20de%20Compatibilidade%20Hub%27s.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Compatível com MCA 1001 e MCA 1002.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0cgvq6r4j",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CGVQ6R4J",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Sensor de Abertura Magnético Sem Fio Para Porta e Janela MSA 1001 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-msa-1001.webp",
+      "alt": "Intelbras MSA 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/sensor-de-abertura-inteligente-msa-1001"
+    },
+    "divergencias": [
+      {
+        "campo": "precisaHub",
+        "fonteAdotada": "Datasheet: 'hub da linha Mibo'",
+        "valorDivergente": "'obrigatório o uso de uma central MCA 1001'",
+        "fonteDivergente": "Guia do usuário MSA 1001 (01-26)",
+        "observacao": "O guia cita só o MCA 1001, que não tem página ativa encontrada; o Guia de Compatibilidade aceita também o MCA 1002."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-msm-1001",
+    "nome": "Intelbras MSM 1001",
+    "marca": "Intelbras",
+    "modelo": "MSM 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de movimento infravermelho Zigbee, a pilha CR123A, para uso interno. Precisa da central da linha Mibo.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de movimento",
+      "conexao": "Zigbee (IEEE 802.15.4) 2,4 GHz",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "3 Vdc — bateria CR123A; duração declarada: 1 ano (20 acionamentos/dia)",
+      "alcanceM": 100,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CGVQ8DKK"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-msm-1001-1",
+        "titulo": "Página oficial MSM 1001",
+        "url": "https://www.intelbras.com/pt-br/sensor-de-movimento-inteligente-msm-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-msm-1001-2",
+        "titulo": "Datasheet MSM 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-07/datasheet-msm-1001-pt.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Protocolo, alcance, bateria e duração, consumos, temperatura, dimensões, peso.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-msm-1001-3",
+        "titulo": "Guia do usuário MSM 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Guia_MSM_1001_01-26_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Hub obrigatório, instalação, garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-msm-1001-4",
+        "titulo": "Guia de Compatibilidade Hub's (Intelbras)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-07/Guia%20de%20Compatibilidade%20Hub%27s.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Compatível com MCA 1001 e MCA 1002.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0cgvq8dkk",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CGVQ8DKK",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Sensor de Movimento Infravermelho Sem Fio MSM 1001 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-msm-1001.webp",
+      "alt": "Intelbras MSM 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/sensor-de-movimento-inteligente-msm-1001"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-mcp-1001",
+    "nome": "Intelbras MCP 1001",
+    "marca": "Intelbras",
+    "modelo": "MCP 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Módulo Wi-Fi que liga na entrada de botoeira do motor do portão e traz um sensor magnético para saber se ele está aberto. O manual diz que ele precisa de internet, e não declara a corrente máxima do contato.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Módulo de portão",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz (configuração por Bluetooth ou modo AP)",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa e Google Assistente",
+      "funcionaSemNuvem": false,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "100–240 V AC 50/60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CQRV9MF8"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-mcp-1001-1",
+        "titulo": "Página oficial MCP 1001",
+        "url": "https://www.intelbras.com/pt-br/acionador-wi-fi-smart-mcp-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria. A página só publica o manual (sem datasheet).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mcp-1001-2",
+        "titulo": "Manual MCP 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-07/Manual%20MCP%201001%2006-07-26_0.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Especificações, instalação na botoeira, sensor magnético, internet obrigatória, garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0cqrv9mf8",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CQRV9MF8",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Acionador Wi-fi Smart MCP 1001 Branco Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-mcp-1001.webp",
+      "alt": "Intelbras MCP 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/acionador-wi-fi-smart-mcp-1001"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-idf-620",
+    "nome": "Intelbras IDF 620",
+    "marca": "Intelbras",
+    "modelo": "IDF 620",
+    "categoria": "casa-conectada",
+    "resumo": "Detector de fumaça Zigbee a pilha, com alarme de 85 dB que funciona sozinho; a notificação no celular exige a central e internet. A sensibilidade vem escrita em \"dbm\", unidade de potência de rádio.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de fumaça",
+      "conexao": "Zigbee 2,4 GHz",
+      "appProprio": "Mibo Smart",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "DC 3 V — 1 pilha CR123A; duração declarada: 5 anos (1 teste por semana)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B095KP48QR"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-idf-620-1",
+        "titulo": "Página oficial IDF 620",
+        "url": "https://www.intelbras.com/pt-br/detector-de-fumaca-smart-idf-620",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "FAQ: duração da bateria, instalação só no teto.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-idf-620-2",
+        "titulo": "Datasheet IDF 620",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-09/Datasheet%20IDF%20620.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Zigbee, potência de transmissão, alcance, nível sonoro, pilha, duração, hub ICA 1001, 1 ano de garantia.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-idf-620-3",
+        "titulo": "Manual IDF 620",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-09/Manual_IDF_620_02-23_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Especificações, modo Standalone, internet via central, sensibilidade, peso, garantia.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-idf-620-4",
+        "titulo": "Guia de Compatibilidade Hub's (Intelbras)",
+        "url": "https://backend.intelbras.com/sites/default/files/2025-07/Guia%20de%20Compatibilidade%20Hub%27s.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Compatível com ICA 1001, MCA 1001 e MCA 1002.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b095kp48qr",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B095KP48QR",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Detector de Fumaça Smart Intelbras IDF 620\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-idf-620.webp",
+      "alt": "Intelbras IDF 620",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/detector-de-fumaca-smart-idf-620"
+    },
+    "divergencias": [
+      {
+        "campo": "precisaHub",
+        "fonteAdotada": "Guia de Compatibilidade Hub's (2025): ICA 1001, MCA 1001, MCA 1002",
+        "valorDivergente": "só ICA 1001",
+        "fonteDivergente": "Datasheet e manual IDF 620 (2023)",
+        "observacao": "Documentos do produto anteriores à linha Mibo."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-iac-110",
+    "nome": "Intelbras IAC 110",
+    "marca": "Intelbras",
+    "modelo": "IAC 110",
+    "categoria": "casa-conectada",
+    "resumo": "Acionador Wi-Fi para cortina que já tem motor — não é o motor. Precisa de fio neutro; o datasheet dá alcance de menos de 200 m e o manual, de 15 a 20 m.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Acionador de cortina",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz + Bluetooth 4.2",
+      "appProprio": "Mibo Smart",
+      "assistentes": "Amazon Alexa e Google Home",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 12,
+      "precisaHub": null,
+      "precisaNeutro": true,
+      "teclas": null,
+      "alimentacao": "100–240 Vac 50/60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B099BTF41X"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-iac-110-1",
+        "titulo": "Página oficial IAC 110",
+        "url": "https://www.intelbras.com/pt-br/acionador-de-cortinas-smart-iac-110",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-iac-110-2",
+        "titulo": "Datasheet IAC 110 v1",
+        "url": "https://backend.intelbras.com/sites/default/files/2023-07/Datasheet%20IAC%20110%20v1.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Requisitos (cortina motorizada, botoeira), 3 A, alcance '< 200 m', temperatura, dimensões.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-iac-110-3",
+        "titulo": "Manual IAC 110",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Manual_IAC_110_01-24_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Especificações, instalação, garantia de 1 ano.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b099btf41x",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B099BTF41X",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Acionador de Cortinas Smart Wi-Fi IAC 110 Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-iac-110.webp",
+      "alt": "Intelbras IAC 110",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/acionador-de-cortinas-smart-iac-110"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "intelbras-mfr-3000-v",
+    "nome": "Intelbras MFR 3000 V",
+    "marca": "Intelbras",
+    "modelo": "MFR 3000 V",
+    "categoria": "casa-conectada",
+    "resumo": "Fechadura de embutir com maçaneta, senha e biometria, 36 meses de garantia. Abre sem app e sem internet no modo local; o aplicativo só funciona com a central MCA, vendida à parte. A pilha dura \"1 ano\" nos destaques e 10 meses com 10 acessos por dia na tabela.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Fechadura digital",
+      "conexao": "Zigbee (módulo interno) — app só via hub MCA",
+      "appProprio": "Mibo Smart",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 36,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "6 Vdc — 4 pilhas AA alcalinas (acompanham); emergência USB-C 5 Vdc; duração declarada: 10 meses para 10 acessos diários (tabela)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GXBQW3DP"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-mfr-3000-v-1",
+        "titulo": "Página oficial MFR 3000 V",
+        "url": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-embutir-com-macaneta-mfr-3000-v",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-3000-v-2",
+        "titulo": "Datasheet MFR 3000 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Data%20Sheet%20-%20MFR%203000%20V.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Autenticação, capacidades, alimentação, autonomia, porta, dimensões, 3 anos de garantia, hub MCA.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-3000-v-3",
+        "titulo": "Manual do usuário MFR 3000 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-03/Manual_usuario_MFR3000V_01-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Modos Standalone e on-line; internet necessária no modo on-line.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-3000-v-4",
+        "titulo": "Manual de instalação MFR 3000 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-03/Manual_instalacao_MFR3000V_01-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Termo de garantia: 3 anos (90 dias legais + 33 meses contratuais).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gxbqw3dp",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GXBQW3DP",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Fechadura Inteligente de Embutir MFR 3000 V Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-mfr-3000-v.webp",
+      "alt": "Intelbras MFR 3000 V",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-embutir-com-macaneta-mfr-3000-v"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Tabela do datasheet: '10 meses para 10 acessos diários (4 pilhas)'",
+        "valorDivergente": "'duração média de 1 ano'",
+        "fonteDivergente": "Lista de destaques do mesmo datasheet",
+        "observacao": "A mesma página dá duas durações para as mesmas 4 pilhas; só a da tabela diz a condição."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-mfr-7000-v",
+    "nome": "Intelbras MFR 7000 V",
+    "marca": "Intelbras",
+    "modelo": "MFR 7000 V",
+    "categoria": "casa-conectada",
+    "resumo": "Fechadura de embutir com maçaneta, senha, tag, biometria e chave, 36 meses de garantia. Abre sem app e sem internet no modo local; o aplicativo só funciona com a central MCA, vendida à parte. A pilha dura \"1 ano\" nos destaques e 10 meses com 10 acessos por dia na tabela.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Fechadura digital",
+      "conexao": "Zigbee (módulo interno) — app só via hub MCA",
+      "appProprio": "Mibo Smart",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 36,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "6 Vdc — 4 pilhas AA alcalinas (acompanham); emergência USB-C 5 Vdc; duração declarada: 10 meses para 10 acessos diários (tabela)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H4S4V6XF"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-mfr-7000-v-1",
+        "titulo": "Página oficial MFR 7000 V",
+        "url": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-embutir-com-macaneta-mfr-7000-v",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-7000-v-2",
+        "titulo": "Datasheet MFR 7000 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-03/Data%20Sheet%20-%20MFR%207000%20V_0.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Autenticação, capacidades, alimentação, autonomia, porta, dimensões, 3 anos, hub MCA.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-7000-v-3",
+        "titulo": "Manual de instalação MFR 7000 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-09/Manual_instalacao_MFR7000V_01-26_site_2.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Garantia de 3 anos (90 dias + 33 meses).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-7000-v-4",
+        "titulo": "Manual do usuário MFR 7000 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-09/Manual_usuario_MFR7000V_01-26_site_1.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Modos Standalone e on-line.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0h4s4v6xf",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H4S4V6XF",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Fechadura Inteligente de Embutir com Maçaneta MFR 7000V Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-mfr-7000-v.webp",
+      "alt": "Intelbras MFR 7000 V",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-embutir-com-macaneta-mfr-7000-v"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Tabela do datasheet: '10 meses para 10 acessos diários (4 pilhas)'",
+        "valorDivergente": "'duração média de 1 ano'",
+        "fonteDivergente": "Lista de destaques do mesmo datasheet",
+        "observacao": "A mesma página dá duas durações para as mesmas 4 pilhas; só a da tabela diz a condição."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-mfr-2020-v",
+    "nome": "Intelbras MFR 2020 V",
+    "marca": "Intelbras",
+    "modelo": "MFR 2020 V",
+    "categoria": "casa-conectada",
+    "resumo": "Fechadura de sobrepor com senha, tag e biometria, 36 meses de garantia. Abre sem app e sem internet no modo local; o aplicativo só funciona com a central MCA, vendida à parte. A pilha dura \"1 ano\" nos destaques e 10 meses com 10 acessos por dia na tabela.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Fechadura digital",
+      "conexao": "Zigbee (módulo interno) — app só via hub MCA",
+      "appProprio": "Mibo Smart",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 36,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "6 Vdc — 4 pilhas AA alcalinas (acompanham); emergência USB-C 5 Vdc; duração declarada: 10 meses para 10 acessos diários (tabela)",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0GJDT6PN2"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-mfr-2020-v-1",
+        "titulo": "Página oficial MFR 2020 V",
+        "url": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-sobrepor-mfr-2020-v",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-2020-v-2",
+        "titulo": "Datasheet MFR 2020 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-01/datasheet-mfr-2020-v-pt.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Autenticação, capacidades, alimentação, autonomia, porta, dimensões, 3 anos, hub MCA.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-2020-v-3",
+        "titulo": "Manual do usuário MFR 2020 V",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-02/Manual_usuario_MFR_2020V_01-25_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Modos de operação; garantia de 3 anos (90 dias + 33 meses).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0gjdt6pn2",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0GJDT6PN2",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Fechadura Inteligente de Sobrepor MFR 2020 V Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-mfr-2020-v.webp",
+      "alt": "Intelbras MFR 2020 V",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-sobrepor-mfr-2020-v"
+    },
+    "divergencias": [
+      {
+        "campo": "alimentacao",
+        "fonteAdotada": "Tabela do datasheet: '10 meses para 10 acessos diários (4 pilhas)'",
+        "valorDivergente": "'duração média de 1 ano'",
+        "fonteDivergente": "Lista de destaques do mesmo datasheet",
+        "observacao": "A mesma página dá duas durações para as mesmas 4 pilhas; só a da tabela diz a condição."
+      }
+    ]
+  },
+  {
+    "slug": "intelbras-mfr-1001",
+    "nome": "Intelbras MFR 1001",
+    "marca": "Intelbras",
+    "modelo": "MFR 1001",
+    "categoria": "casa-conectada",
+    "resumo": "Fechadura de sobrepor com senha e app, para portas de 25 a 50 mm, 24 meses de garantia. Sem a central, o manual manda tirar o módulo Zigbee e usar só a senha.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Fechadura digital",
+      "conexao": "Zigbee (módulo interno) — app só via hub MCA",
+      "appProprio": "Mibo Smart",
+      "assistentes": null,
+      "funcionaSemNuvem": true,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": 24,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "6 Vdc — 4 pilhas AA (acompanham); contingência bateria 9 Vdc; duração declarada: 10 meses para 10 acessos diários",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CV5SLR8R"
+    },
+    "fontes": [
+      {
+        "id": "intelbras-mfr-1001-1",
+        "titulo": "Página oficial MFR 1001",
+        "url": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-sobrepor-mfr-1001",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Nome, galeria, links.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-1001-2",
+        "titulo": "Datasheet MFR 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2024-01/Datasheet%20MFR%201001%201.pdf",
+        "tipo": "datasheet",
+        "oQueSaiuDaqui": "Senha/app, 100 senhas, pilhas, contingência 9 V, porta, 2 anos, hub MCA.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-1001-3",
+        "titulo": "Manual MFR 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2026-03/Manual_MFR1001_01-26_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Módulo ZigBee removível; modo Standalone; garantia de 2 anos (90 dias + 21 meses).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "intelbras-mfr-1001-4",
+        "titulo": "Guia rápido MFR 1001",
+        "url": "https://backend.intelbras.com/sites/default/files/2024-03/Guia_rapido_MFR_1001_01-24_site.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Como desconectar o módulo ZigBee para usar sem hub.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0cv5slr8r",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CV5SLR8R",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Fechadura Inteligente de Sobrepor MFR 1001 Preto Intelbras\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/intelbras-mfr-1001.webp",
+      "alt": "Intelbras MFR 1001",
+      "credito": "Imagem: Intelbras",
+      "origem": "https://www.intelbras.com/pt-br/fechadura-inteligente-de-sobrepor-mfr-1001"
+    },
+    "divergencias": [
+      {
+        "campo": "precisaHub",
+        "fonteAdotada": "Datasheet: 'Requer HUB de automação smart MCA 1001' (nota 1)",
+        "valorDivergente": "'O não uso do hub ... pode implicar em perda de funções do aplicativo'",
+        "fonteDivergente": "Outra nota do mesmo datasheet",
+        "observacao": "Uma nota diz que requer, a outra que só perde funções; o manual esclarece que sem hub não há app (modo Standalone)."
+      }
+    ]
+  },
+  {
+    "slug": "novadigital-srw-004",
+    "nome": "Nova Digital SRW-004",
+    "marca": "Nova Digital",
+    "modelo": "SRW-004",
+    "categoria": "casa-conectada",
+    "resumo": "Controle universal infravermelho Wi-Fi, 10 m de alcance declarado. A Nova Digital não publica a garantia, pede rede mesh para mais de 100 dispositivos e diz, no manual, que a embalagem traz \"1 sensor de fumaça\".",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Controle infravermelho",
+      "conexao": "Wi-Fi 2,4 GHz 802.11b/g/n",
+      "appProprio": "NovaDigital",
+      "assistentes": "Amazon Alexa e Google Home",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "USB 5 V DC, 1 A (cabo USB incluso)",
+      "alcanceM": 10,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0CLQ1NNJQ"
+    },
+    "fontes": [
+      {
+        "id": "novadigital-srw-004-1",
+        "titulo": "Página oficial Nova Digital",
+        "url": "https://www.novadigitalsmart.com.br/produtos/controle-universal-infravermelho-srw-004",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Especificações, requisitos de rede, EAN.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "novadigital-srw-004-2",
+        "titulo": "API pública do catálogo Nova Digital (mesmo conteúdo da página)",
+        "url": "https://api.novadigitalsmart.com.br/products?_limit=500",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Atributos estruturados, data de atualização e links de manual/fotos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "novadigital-srw-004-3",
+        "titulo": "Manual (PDF da página)",
+        "url": "https://api.novadigitalsmart.com.br/uploads/user_manual_07072022_29eda5b4fc.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Especificações, 360°, só 38 kHz, 'DIY não suporta controle de voz', Anatel, fabricante HangZhou Tuya.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0clq1nnjq",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0CLQ1NNJQ",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Controle Universal IR Infravermelho Inteligente Para Automação Wi-Fi Novadigital SRW-004 Tuya Smart Life Alexa Compatível Com Tv Ar Condicionado Monitor\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/novadigital-srw-004.webp",
+      "alt": "Nova Digital SRW-004",
+      "credito": "Imagem: Nova Digital",
+      "origem": "https://www.novadigitalsmart.com.br/produtos/controle-universal-infravermelho-srw-004"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "novadigital-srw-mini",
+    "nome": "Nova Digital SRW-Mini",
+    "marca": "Nova Digital",
+    "modelo": "SRW-Mini W",
+    "categoria": "casa-conectada",
+    "resumo": "Controle universal infravermelho Wi-Fi compacto, 10 m de alcance declarado, alimentado por USB. A Nova Digital não publica garantia, medidas nem peso.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Controle infravermelho",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": "NovaDigital",
+      "assistentes": "Amazon Alexa e Google Assistant",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": null,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "USB 5 V DC / 1 A",
+      "alcanceM": 10,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaHub",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0HGSBH9NS"
+    },
+    "fontes": [
+      {
+        "id": "novadigital-srw-mini-1",
+        "titulo": "Página oficial Nova Digital",
+        "url": "https://www.novadigitalsmart.com.br/produtos/controle-universal-mini-ir-white-srw-mini",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Especificações técnicas, EAN 7891731882125 (página atualizada em 24/08/2026).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "novadigital-srw-mini-2",
+        "titulo": "API pública do catálogo Nova Digital (mesmo conteúdo da página)",
+        "url": "https://api.novadigitalsmart.com.br/products?_limit=500",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Atributos estruturados, data de atualização e links de manual/fotos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "novadigital-srw-mini-3",
+        "titulo": "Manual (PDF da página)",
+        "url": "https://api.novadigitalsmart.com.br/uploads/824_S18_V1_0_20260528_compressed_de08872d6b.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "PDF só com imagens.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0hgsbh9ns",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0HGSBH9NS",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Controle Universal Infravermelho Wi-Fi Novadigital SRW-Mini W USB 5V Tuya Smart Life Compatível com Alexa e Google Assistente\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/novadigital-srw-mini.webp",
+      "alt": "Nova Digital SRW-Mini",
+      "credito": "Imagem: Nova Digital",
+      "origem": "https://www.novadigitalsmart.com.br/produtos/controle-universal-mini-ir-white-srw-mini"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "novadigital-zts-mm",
+    "nome": "Nova Digital ZTS-MM",
+    "marca": "Nova Digital",
+    "modelo": "ZTS-MM",
+    "categoria": "casa-conectada",
+    "resumo": "Sensor de presença por radar, que detecta gente parada e não só em movimento, com alcance declarado de 6 m. Zigbee, alimentado por USB-C, e precisa da central Zigbee da Nova Digital.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Sensor de presença",
+      "conexao": "Zigbee 3.0 (radar em 5,8 GHz)",
+      "appProprio": "NovaDigital",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": true,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "DC 5 V 1 A (cabo tipo C) — não usa bateria",
+      "alcanceM": 6,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0F562DV85"
+    },
+    "fontes": [
+      {
+        "id": "novadigital-zts-mm-1",
+        "titulo": "Página oficial Nova Digital",
+        "url": "https://www.novadigitalsmart.com.br/produtos/sensor-de-presenca-humana-zigbee---mmwave-zts-mm",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Especificações, exigência de hub Nova Digital, EAN.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "novadigital-zts-mm-2",
+        "titulo": "API pública do catálogo Nova Digital (mesmo conteúdo da página)",
+        "url": "https://api.novadigitalsmart.com.br/products?_limit=500",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Atributos estruturados, data de atualização e links de manual/fotos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0f562dv85",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0F562DV85",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Sensor de Presença com Radar NovaDigital Zigbee 3.0 Alcance 6 Metros Compatível Tuya e Smart Life\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/novadigital-zts-mm.webp",
+      "alt": "Nova Digital ZTS-MM",
+      "credito": "Imagem: Nova Digital",
+      "origem": "https://www.novadigitalsmart.com.br/produtos/sensor-de-presenca-humana-zigbee---mmwave-zts-mm"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "novadigital-sl-space",
+    "nome": "Nova Digital SL-SPACE",
+    "marca": "Nova Digital",
+    "modelo": "SL-SPACE",
+    "categoria": "casa-conectada",
+    "resumo": "Fechadura Wi-Fi com palma, rosto, digital, cartão, senha e chave, a bateria recarregável. A Nova Digital não publica garantia nem diz se ela funciona sem internet.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Fechadura digital",
+      "conexao": "Wi-Fi 2,4 GHz",
+      "appProprio": "NovaDigital",
+      "assistentes": null,
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "Bateria de lítio 7,4–8,4 V DC recarregável por USB tipo C; emergência 5 V DC externa",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0H1N394NL"
+    },
+    "fontes": [
+      {
+        "id": "novadigital-sl-space-1",
+        "titulo": "Página oficial Nova Digital",
+        "url": "https://www.novadigitalsmart.com.br/produtos/fechadura-inteligente-space-wi-fi-sl-space",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Especificações, capacidades, alimentação, requisitos de rede, EAN.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "novadigital-sl-space-2",
+        "titulo": "API pública do catálogo Nova Digital (mesmo conteúdo da página)",
+        "url": "https://api.novadigitalsmart.com.br/products?_limit=500",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Atributos estruturados, data de atualização e links de manual/fotos.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0h1n394nl",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0H1N394NL",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Fechadura Digital Inteligente WI-FI Novadigital SPACE Desbloqueio por Palma da Mão, Face ID, Biometria, Senha, TAG e Remoto\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/novadigital-sl-space.webp",
+      "alt": "Nova Digital SL-SPACE",
+      "credito": "Imagem: Nova Digital",
+      "origem": "https://www.novadigitalsmart.com.br/produtos/fechadura-inteligente-space-wi-fi-sl-space"
+    },
+    "divergencias": []
+  },
+  {
+    "slug": "ekaza-eknh-t216",
+    "nome": "Ekaza EKNH-T216",
+    "marca": "Ekaza",
+    "modelo": "EKNH-T216",
+    "categoria": "casa-conectada",
+    "resumo": "Motor de cortina Wi-Fi com trilho de até 4,20 m e 50 kg declarados. A ficha do motor é idêntica à do Nova Digital ZC-GM42 — 20 W, 2 N·m, 100 rpm —, e a Ekaza não publica garantia.",
+    "atualizadoEm": "2026-09-29",
+    "specs": {
+      "tipo": "Motor de cortina",
+      "conexao": "Wi-Fi 802.11b/g/n 2,4 GHz",
+      "appProprio": "Ekaza",
+      "assistentes": "Amazon Alexa e Google Home",
+      "funcionaSemNuvem": null,
+      "cargaMaxW": null,
+      "medeConsumo": null,
+      "fluxoLumens": null,
+      "temperaturaCorK": null,
+      "corRgb": null,
+      "resolucaoVideo": null,
+      "visaoNoturnaM": null,
+      "armazenamentoVideo": null,
+      "protecaoIp": null,
+      "garantiaMeses": null,
+      "precisaHub": false,
+      "precisaNeutro": null,
+      "teclas": null,
+      "alimentacao": "AC 90–240 V 50/60 Hz",
+      "alcanceM": null,
+      "dispositivosHub": null
+    },
+    "naoSeAplica": [
+      "cargaMaxW",
+      "medeConsumo",
+      "precisaNeutro",
+      "teclas",
+      "alcanceM",
+      "dispositivosHub",
+      "fluxoLumens",
+      "temperaturaCorK",
+      "corRgb",
+      "resolucaoVideo",
+      "visaoNoturnaM",
+      "armazenamentoVideo",
+      "protecaoIp"
+    ],
+    "lojas": {
+      "amazon": "https://www.amazon.com.br/dp/B0BBJQMJ23"
+    },
+    "fontes": [
+      {
+        "id": "ekaza-eknh-t216-1",
+        "titulo": "Página oficial Ekaza — Cortina inteligente",
+        "url": "https://www.ekaza.com.br/cortina-inteligente/",
+        "tipo": "pagina-oficial",
+        "oQueSaiuDaqui": "Especificações do motor, Wi-Fi, conteúdo (15 rodízios, controle).",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "ekaza-eknh-t216-2",
+        "titulo": "Catálogo Ekaza Casa e Iluminação 2024 (PDF oficial)",
+        "url": "https://www.ekaza.com.br/wp-content/uploads/2023/07/catalogo_ekaza_2024_web.pdf",
+        "tipo": "manual",
+        "oQueSaiuDaqui": "Trilho até 4,20 m, ruído, potência, peso suportado.",
+        "consultadaEm": "2026-09-29"
+      },
+      {
+        "id": "amazon-b0bbjqmj23",
+        "titulo": "Página do produto na Amazon Brasil",
+        "url": "https://www.amazon.com.br/dp/B0BBJQMJ23",
+        "tipo": "varejo",
+        "oQueSaiuDaqui": "Confirma o modelo pelo título do anúncio: \"Cortina Inteligente Motorizada 4.2m com Wi-fi e Controle, Compativel com Google Assistente e Alexa – T216 - EKAZA - Cortina Inteligente ate 4.2M\". Nenhum número da ficha saiu daqui.",
+        "consultadaEm": "2026-09-29"
+      }
+    ],
+    "imagem": {
+      "src": "/produtos/ekaza-eknh-t216.webp",
+      "alt": "Ekaza EKNH-T216",
+      "credito": "Imagem: Ekaza",
+      "origem": "https://www.ekaza.com.br/cortina-inteligente/"
+    },
+    "divergencias": []
   }
 ]

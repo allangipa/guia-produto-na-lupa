@@ -21,7 +21,7 @@ Decisões do Allan que moldam tudo abaixo:
 |---|---|---|---|
 | Câmeras de segurança | completo, 5 passos | lista de compras; no sistema DVR, peças da categoria CFTV | `lib/simulador-cameras.ts`, `components/simulador-cameras.tsx` |
 | Rede Wi-Fi | completo, 2 a 4 passos | lista de compras com peças da categoria conectividade | `lib/simulador-wifi.ts`, `components/simulador-wifi.tsx` |
-| Automação | simples (perfil) | matriz fixa | idem |
+| Automação | completo, 3 a 5 passos | lista de compras com peças da categoria casa conectada, num app só | `lib/simulador-automacao.ts`, `components/simulador-automacao.tsx` |
 
 ## Regras que valem para as três frentes
 
@@ -183,18 +183,46 @@ Nenhum roteador ou repetidor da base declara área; o roteador avisa quando a
 casa passa de 190 m² (a cobertura do Deco X10 com uma unidade, a única por
 unidade declarada) ou de um andar.
 
-## 3. Automação — a fazer
+## 3. Automação — implementado em 29/09/2026
 
-1. O que automatizar: luzes, tomadas, IR (ar/TV), portão, cortina, fechadura,
-   sensores (porta, movimento, fumaça, vazamento) — e quantos de cada
-2. Luzes: trocar a lâmpada ou o interruptor? Interruptor → tem neutro na caixa?
-3. Tomadas: o que vai ligar → `cargaMaxW`
-4. Assistente: Alexa / Google / nenhum → `assistentes`
-5. Funcionar sem internet → `funcionaSemNuvem`
-6. Medir consumo → `medeConsumo`
+Motor em `lib/simulador-automacao.ts`, tela em `components/simulador-automacao.tsx`.
+Substituiu a matriz de dois cards de 28/09 (`lib/simulador.ts` ficou só com a
+primeira pergunta, e `components/setup-simulator.tsx` saiu).
 
-Regra de protocolo: muitos dispositivos ou exigência de funcionar sem internet
-→ Zigbee, e entra o hub.
+### Questionário
+
+**Passo 1 — O que comandar:** luzes · aparelhos na tomada · cômodos com ar ou TV
+(controle remoto) · cortinas · portão com motor · fechadura digital.
+
+**Passo 2 — O que vigiar:** portas e janelas · ambientes com movimento · pontos
+de vazamento · ambientes com fumaça.
+
+**Passo 3 — Luzes** (se houver): trocar a lâmpada ou o interruptor? Lâmpada →
+muda de cor? Interruptor → teclas por caixa (1/2/3) · tem neutro? (sim / não /
+não sei).
+
+**Passo 4 — Tomadas** (se houver): o aparelho mais forte (até 1.000 W, até
+2.400 W, mais) · quer medir consumo?
+
+**Passo 5 — Voz e internet:** Alexa / Google / só celular · precisa funcionar
+sem internet?
+
+### Regras
+
+| Regra | Como |
+|---|---|
+| Um aplicativo só | o app (`appProprio`, ou a marca) que cobre mais tipos pedidos com ficha; empate vai para quem tem mais fichas que declaram funcionar sem nuvem, depois para o assistente pedido. Peça de outro app entra com aviso de segundo aplicativo |
+| Ordem entre candidatas | mesmo app › declara funcionar sem nuvem (se pedido) › declara o assistente › maior garantia |
+| Interruptores | luzes ÷ teclas, para cima (regra rotulada). Sem neutro ou "não sei" → só quem declara `precisaNeutro: false`; se ninguém declara, o que precisa, com aviso |
+| Tomada | `cargaMaxW` ≥ o aparelho mais forte; `medeConsumo` se pedido. Acima da maior carga da base → relé de potência, sem ficha |
+| Controle IR | um por cômodo: o infravermelho não atravessa parede |
+| Central (hub) | só entra se uma peça escolhida tem `precisaHub: true`; do mesmo app; `dispositivosHub` confere a capacidade |
+| Wi-Fi | aviso com o número de aparelhos novos no 2,4 GHz, e o link para o simulador de Wi-Fi |
+| Sem internet | conta quantas peças declaram `funcionaSemNuvem`; as outras "a regra é supor que param" |
+| Fechadura e cortina | sem ficha: especificação e o que conferir |
+
+Campos novos em `camposCasaConectada` (29/09/2026): `precisaHub`,
+`precisaNeutro`, `teclas`, `alimentacao`, `alcanceM`, `dispositivosHub`.
 
 ## Fila de fichas a apurar
 
@@ -217,6 +245,26 @@ licenciada.
    nobreak segura só o gravador, e a lista diz isso. Autonomia não é calculada:
    só aparece quando o fabricante declara um cenário com câmeras.
 
-**Automação:** hub Zigbee, interruptor/relé, sensores, controle IR.
+**Automação:** hub, interruptor/relé, sensores e controle IR — em apuração em 29/09/2026 (Tapo, Positivo, Intelbras e outras com página oficial). Fechadura digital e motor de cortina ficam para depois.
 
 **Wi-Fi:** switch, cabo de rede, unidade avulsa do Deco X10 e do Deco X50.
+
+## Próximas ferramentas (pedido do Allan em 29/09/2026)
+
+Ferramentas de ajuda à compra, no mesmo método: pergunta sobre a casa, conta à
+vista, produto da base com fonte, lacuna escrita. Ordem proposta:
+
+1. **Ar-condicionado para o tamanho do cômodo.** Área, sol da tarde, pessoas,
+   aparelhos que esquentam, andar alto. Base da conta: a régua de 600 a 800 BTU
+   por m² que a LG publica (fonte citada); cada acréscimo rotulado como regra do
+   simulador. Resultado: BTU mínimo, os splits da base que atendem, a área que
+   seis fichas Electrolux declaram contra a conta, IDRS e faixa do INMETRO; e
+   quantas fichas não publicam área (9 de 15).
+2. **Nobreak para qualquer carga.** O motor do projeto de câmeras aberto para
+   computador, roteador e TV: watts somados, os que aguentam, onda e PFC.
+3. **Air fryer pelo tamanho da família.** Pela capacidade útil do cesto, não
+   pela da caixa; só 6 de 10 fichas publicam o útil.
+4. **Refil do purificador de água.** Consumo da casa em litros por dia contra a
+   vida útil do refil em litros, e não o "6 meses" da ficha.
+5. **Disjuntor do cooktop de indução.** Potência declarada ÷ tensão; só 3 de 16
+   fichas escrevem o disjuntor.

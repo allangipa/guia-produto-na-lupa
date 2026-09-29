@@ -21,8 +21,18 @@ export type Item = {
   confira?: string[];
   /** A segunda colocada, e o que a tirou. */
   alternativa?: { produto: string; motivo: string };
+  /**
+   * Outras fichas da base que também atendem a este item, depois da
+   * alternativa — até completar cinco opções com a indicada. Pedido do Allan
+   * em 29/09/2026: o leitor vê mais de um modelo compatível com o projeto, e
+   * cada um leva o botão de loja.
+   */
+  outras?: { produto: string; motivo: string }[];
 };
 
 /** Arredonda para cima até o primeiro valor da lista que cabe. */
+/** Quantas opções, no máximo, cada item mostra: a indicada e mais quatro. */
+export const OPCOES_POR_ITEM = 5;
+
 export const menorQueCabe = (lista: number[], minimo: number) =>
   lista.find((x) => x >= minimo) ?? lista.at(-1)!;

@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { tituloSeo, lojasDe } from "@/lib/site";
 import { todosOsProdutos, type Produto } from "@/lib/produtos";
-import { todasAsCombinacoes, type Resultado } from "@/lib/simulador";
 import { dataLegivel } from "@/lib/conteudo";
 import { Simulador } from "@/components/simulador";
 import { SLUGS as SLUGS_CAMERAS } from "@/lib/simulador-cameras";
-import { MidiaProduto } from "@/components/midia-produto";
-import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 import { Divulgacao } from "@/components/divulgacao";
 
 export const metadata: Metadata = {
@@ -16,33 +13,6 @@ export const metadata: Metadata = {
     "Monte o projeto de câmeras de segurança, rede Wi-Fi ou automação e receba a lista do que comprar, peça por peça, tirada das fichas oficiais dos fabricantes — com o que a documentação não informa escrito ao lado.",
   alternates: { canonical: "/simulador" },
 };
-
-/**
- * Toda indicação da matriz precisa existir na base e ter loja. Recomendar um
- * slug que saiu da base — a regra de 26/09 apaga produto sem link — deixaria
- * o leitor com um card sem botão no fim de um simulador de compra. Quebra o
- * build, como os outros `verificar()` do projeto.
- */
-function resolver(
-  buscarProduto: (slug: string) => Produto | undefined,
-): [string, Resultado, Produto[]][] {
-  const faltando: string[] = [];
-  const saida = todasAsCombinacoes().map(([chave, r]) => {
-    const produtos = r.indicacoes.map((i) => {
-      const p = buscarProduto(i.slug);
-      if (!p || !lojasDe(p.lojas).length) faltando.push(`${chave} → ${i.slug}`);
-      return p!;
-    });
-    return [chave, r, produtos] as [string, Resultado, Produto[]];
-  });
-  if (faltando.length) {
-    throw new Error(
-      `Simulador recomenda produto fora da base ou sem loja: ${faltando.join(", ")}. ` +
-        `Troque a indicação em lib/simulador.ts.`,
-    );
-  }
-  return saida;
-}
 
 /**
  * A base do questionário de câmeras. Mesma regra da matriz: o que o motor
@@ -85,67 +55,19 @@ function leve(p: Produto): Produto {
   return { slug, nome, marca, modelo, categoria, specs, lojas, imagem, naoSeAplica, atualizadoEm, resumo: "", fontes: [] };
 }
 
-function Cards({ r, produtos }: { r: Resultado; produtos: Produto[] }) {
-  return (
-    <>
-      <ul
-        className={`mt-6 grid gap-5 ${produtos.length > 1 ? "md:grid-cols-2" : "max-w-xl"}`}
-      >
-        {produtos.map((p, i) => (
-          <li key={p.slug} className="painel flex flex-col overflow-hidden">
-            <MidiaProduto produto={p} tamanhos="(max-width: 768px) 89vw, 420px" />
-            <div className="flex flex-1 flex-col p-5">
-              <p className="text-[0.8rem] text-tinta-suave">{p.specs.tipo as string}</p>
-              <h3 className="titulo-ui mt-0.5 text-[1.2rem]">{p.nome}</h3>
-              <p className="mt-2 flex-1 text-[0.93rem]">{r.indicacoes[i].porque(p)}</p>
-              <Link
-                href={`/produtos/${p.slug}`}
-                className="mt-3 text-[0.88rem] underline decoration-linha underline-offset-4 hover:decoration-acao"
-              >
-                Ver a ficha completa, com fontes e lacunas
-              </Link>
-              <LojaCta
-                lojas={p.lojas}
-                produto={p.nome}
-                posicao="simulador"
-                divulgacao={false}
-              />
-            </div>
-          </li>
-        ))}
-      </ul>
-      <DivulgacaoComissao plural={produtos.length > 1} />
-      {r.foraDaBase && (
-        <div className="mt-6 border-l-[3px] border-linha bg-superficie px-4 py-3 text-[0.9rem]">
-          <p className="font-medium">O que ficou de fora, e por quê</p>
-          <p className="mt-1 text-tinta-suave">{r.foraDaBase}</p>
-        </div>
-      )}
-    </>
-  );
-}
-
 export default function PaginaSimulador() {
   // Uma leitura da base para a página inteira, e não uma por indicação.
   const porSlug = new Map(todosOsProdutos().map((p) => [p.slug, p]));
   const buscarProduto = (slug: string) => porSlug.get(slug);
-  const combinacoes = resolver(buscarProduto);
-  const resultados = Object.fromEntries(
-    combinacoes.map(([chave, r, produtos]) => [
-      chave,
-      <Cards key={chave} r={r} produtos={produtos} />,
-    ]),
-  );
   // Câmeras escolhem entre as fichas de CFTV e de nobreaks; Wi-Fi, entre as de
-  // conectividade.
-  const cameras = baseCameras(
+  // conectividade; automação, entre as de casa conectada.
+  const base = baseCameras(
     buscarProduto,
-    [...porSlug.values()].filter((p) => ["cftv", "conectividade", "nobreaks"].includes(p.categoria ?? "")),
+    [...porSlug.values()].filter((p) =>
+      ["cftv", "conectividade", "nobreaks", "casa-conectada"].includes(p.categoria ?? ""),
+    ),
   );
-  const usados = [
-    ...combinacoes.flatMap(([, , ps]) => ps),
-    ...Object.values(cameras),
-  ];
+  const usados = Object.values(base);
   const atualizadoEm = usados.map((p) => p.atualizadoEm).sort().at(-1)!;
 
   return (
@@ -158,7 +80,7 @@ export default function PaginaSimulador() {
         <p className="mt-3 max-w-[62ch] text-[0.95rem] text-tinta-suave">
           Câmeras de segurança, rede Wi-Fi ou automação. Você responde sobre a
           casa, e o simulador devolve a lista de compras do projeto, peça por
-          peça — das câmeras aos conectores. Cada justificativa é o que o
+          peça — das câmeras aos conectores, da central ao interruptor. Cada justificativa é o que o
           fabricante declara, e não teste nosso; quando a documentação não
           sustenta uma resposta, a página diz isso em vez de preencher.
         </p>
@@ -168,7 +90,7 @@ export default function PaginaSimulador() {
       </section>
 
       <section className="mt-8">
-        <Simulador resultados={resultados} baseCameras={cameras} />
+        <Simulador base={base} />
       </section>
 
       <section className="mx-auto mt-14 max-w-[var(--largura-prosa)] text-[0.93rem] text-tinta-suave">
@@ -204,9 +126,17 @@ export default function PaginaSimulador() {
           declara área, e a lista diz isso.
         </p>
         <p className="mt-2">
-          “Mais recursos” quer dizer mais itens declarados na ficha, não preço
-          maior: o site não publica preço. Para ver todos os produtos lado a
-          lado, use o <Link href="/comparar/conectividade" className="underline underline-offset-4">comparador de conectividade</Link> ou o
+          Na automação, a primeira escolha é o aplicativo: o simulador procura o
+          que cobre mais peças do projeto com ficha no site, para a casa não
+          ficar com três apps no celular, e avisa onde uma peça obriga a um
+          segundo. Central (hub) só entra quando a ficha de uma peça a exige.
+          Fio neutro e funcionamento sem internet só contam quando o fabricante
+          escreve — e a lista diz quantas peças escrevem.
+        </p>
+        <p className="mt-2">
+          Cada peça mostra até cinco modelos da base que atendem ao projeto: o
+          indicado, com o porquê, e os outros com o que muda em relação a ele.
+          Para ver todos lado a lado, use o <Link href="/comparar/conectividade" className="underline underline-offset-4">comparador de conectividade</Link> ou o
           de <Link href="/comparar/casa-conectada" className="underline underline-offset-4">casa conectada</Link>.
         </p>
       </section>

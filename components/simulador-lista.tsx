@@ -7,7 +7,8 @@ import { Foto } from "@/components/foto";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 
 /**
- * A lista de compras do /simulador, comum a todas as frentes (câmeras, Wi-Fi).
+ * A lista de compras do /simulador, comum a todas as frentes (câmeras, Wi-Fi,
+ * automação).
  * Quem monta a lista é o motor de cada frente; aqui só se desenha.
  *
  * O CTA é UM bloco, depois da lista inteira: a pessoa vê o projeto completo,
@@ -39,7 +40,19 @@ export function ListaDeCompras({
 }) {
   const comFicha = todos.filter((i) => i.produto);
   const semFicha = todos.length - comFicha.length;
-  const paraComprar = [...new Set(comFicha.map((i) => i.produto!))].map((s) => base[s]);
+  // Por peça do projeto: a indicada primeiro, depois as outras que atendem.
+  // Um produto só aparece uma vez no bloco, mesmo se servir a duas peças —
+  // regra do site: um botão por produto por página.
+  const vistos = new Set<string>();
+  const porPeca = comFicha
+    .map((i) => ({
+      item: i,
+      produtos: [i.produto!, ...opcoes(i).map((o) => o.produto)]
+        .filter((s) => base[s] && !vistos.has(s) && (vistos.add(s), true))
+        .map((s) => base[s]),
+    }))
+    .filter((x) => x.produtos.length);
+  const paraComprar = porPeca.flatMap((x) => x.produtos);
 
   return (
     <div className="surgir">
@@ -87,10 +100,23 @@ export function ListaDeCompras({
         <section className="painel mt-10 p-5 sm:p-6">
           <h3 className="titulo-ui text-[1.1rem]">Onde comprar as peças com ficha</h3>
           <DivulgacaoComissao plural={paraComprar.length > 1} />
-          {paraComprar.map((p) => (
-            <div key={p.slug} className="mt-5">
-              <p className="font-medium">{p.nome}</p>
-              <LojaCta lojas={p.lojas} produto={p.nome} posicao="simulador" divulgacao={false} />
+          {porPeca.map(({ item, produtos }) => (
+            <div key={item.id} className="mt-6 border-t border-linha pt-4 first:border-t-0 first:pt-0">
+              <p className="text-[0.8rem] font-semibold uppercase tracking-[0.06em] text-tinta-suave">
+                {item.papel}
+                {produtos.length > 1 && ` · ${produtos.length} opções que atendem`}
+              </p>
+              {produtos.map((p, n) => (
+                <div key={p.slug} className="mt-3">
+                  <p className="font-medium">
+                    {p.nome}
+                    {n === 0 && produtos.length > 1 && (
+                      <span className="pastilha-neutra ml-2 align-middle text-[0.7rem]">indicada</span>
+                    )}
+                  </p>
+                  <LojaCta lojas={p.lojas} produto={p.nome} posicao="simulador" divulgacao={false} />
+                </div>
+              ))}
             </div>
           ))}
           {semFicha > 0 && (
@@ -123,7 +149,9 @@ export function ListaDeCompras({
 
 function Linha({ item: i, base }: { item: Item; base: Record<string, Produto> }) {
   const p = i.produto ? base[i.produto] : undefined;
-  const alt = i.alternativa ? base[i.alternativa.produto] : undefined;
+  const outras = opcoes(i)
+    .map((o) => ({ p: base[o.produto], motivo: o.motivo }))
+    .filter((o) => o.p);
   return (
     <li className="painel flex gap-4 p-4">
       <div className="flex w-16 shrink-0 flex-col items-center gap-2">
@@ -176,16 +204,28 @@ function Linha({ item: i, base }: { item: Item; base: Record<string, Produto> })
             </ul>
           </div>
         )}
-        {alt && i.alternativa && (
-          <p className="mt-2 text-[0.85rem] text-tinta-suave">
-            Alternativa na base:{" "}
-            <Link href={`/produtos/${alt.slug}`} className="underline underline-offset-4">
-              {alt.nome}
-            </Link>{" "}
-            — {i.alternativa.motivo}.
-          </p>
+        {outras.length > 0 && (
+          <div className="mt-2 text-[0.85rem] text-tinta-suave">
+            <p>{outras.length === 1 ? "Outra opção na base que atende:" : `Outras ${outras.length} opções na base que atendem:`}</p>
+            <ul className="mt-0.5 list-disc pl-5">
+              {outras.map(({ p: o, motivo }) => (
+                <li key={o.slug}>
+                  <Link href={`/produtos/${o.slug}`} className="underline underline-offset-4">
+                    {o.nome}
+                  </Link>{" "}
+                  — {motivo}.
+                </li>
+              ))}
+            </ul>
+          </div>
         )}
       </div>
     </li>
   );
+}
+
+/** A alternativa e as outras opções do item, na ordem, sem repetir. */
+function opcoes(i: Item) {
+  const todas = [...(i.alternativa ? [i.alternativa] : []), ...(i.outras ?? [])];
+  return todas.filter((o, n) => o.produto !== i.produto && todas.findIndex((x) => x.produto === o.produto) === n);
 }
