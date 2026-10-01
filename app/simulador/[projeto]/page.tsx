@@ -91,15 +91,14 @@ export default async function PaginaFerramenta({ params }: Params) {
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "WebApplication",
+          // WebPage, e não WebApplication: o Google trata WebApplication como
+          // app de software e exige nota agregada ou review, que o site não
+          // tem. Declarar app sem isso seria o mesmo erro das fichas.
+          "@type": "WebPage",
           name: pagina.h1,
           description: pagina.descricao,
           url: `${site.url}${url}`,
-          applicationCategory: "UtilitiesApplication",
-          operatingSystem: "Qualquer navegador",
           inLanguage: "pt-BR",
-          isAccessibleForFree: true,
-          offers: { "@type": "Offer", price: "0", priceCurrency: "BRL" },
           publisher: { "@type": "Organization", name: site.nome, url: site.url },
         }}
       />

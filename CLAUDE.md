@@ -262,6 +262,14 @@ Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
   uma vez por botão. Nunca uma tela com botão e sem ela.
 - JSON-LD com `Product` + `Review` usando a nota editorial. **Sem
   `aggregateRating`** até existir avaliação real de leitores no site.
+- **`Product` só na análise, e sem `offers`.** Decisão de 01/10/2026, depois de
+  o relatório "Trechos de produto" do Search Console acusar erro crítico nas
+  fichas: "O campo lowPrice não foi encontrado (em offers)". O Google só aceita
+  Product com preço, review ou aggregateRating; a ficha não tem nenhum dos três
+  (preço depende da API fechada, nota só a análise tem, agregado não existe),
+  e oferta sem preço é erro, não saída. A ficha declara `ItemPage`; as
+  ferramentas do simulador, `WebPage` (WebApplication exige nota agregada). O
+  Product da ficha volta quando houver preço da API com horário da consulta.
 - Divulgação de afiliado acima da dobra em toda página de conteúdo.
 
 #### Por que o teto virou "três blocos" e não "três botões"
