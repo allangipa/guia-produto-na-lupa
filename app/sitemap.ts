@@ -50,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...FOCOS.map((f) => hrefDoFoco(f.valor)),
     "/metodologia",
     "/sobre",
+    "/contato",
     "/privacidade",
   ].map(
     (rota) => ({

@@ -76,6 +76,7 @@ export function SiteFooter() {
             <li><Link href="/transparencia" className={link}>Ranking de transparência</Link></li>
             <li><Link href="/metodologia" className={link}>Como avaliamos</Link></li>
             <li><Link href="/sobre" className={link}>O que este site é</Link></li>
+            <li><Link href="/contato" className={link}>Contato</Link></li>
             <li><Link href="/privacidade" className={link}>Privacidade</Link></li>
             <li><a href={`mailto:${site.editor.contato}`} className={link}>{site.editor.contato}</a></li>
           </ul>

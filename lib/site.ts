@@ -35,6 +35,11 @@ export const site = {
    * custo de manter o banner correto.
    *
    * Sem o ID a tag não é renderizada, então o padrão é não medir nada.
+   *
+   * Nota de 02/10/2026: o argumento "sem cookie, sem banner" deixou de valer
+   * para o site como um todo, porque o AdSense trouxe cookie e a faixa de
+   * consentimento (`components/consentimento.tsx`). Continua valendo como
+   * critério para escolher a ferramenta de medição: sem cookie é melhor.
    */
   /**
    * Token de verificacao do Google Search Console.
@@ -56,6 +61,19 @@ export const site = {
   umami: {
     id: process.env.NEXT_PUBLIC_UMAMI_ID || "",
     script: process.env.NEXT_PUBLIC_UMAMI_SCRIPT || "https://cloud.umami.is/script.js",
+  },
+  /**
+   * Google AdSense, desde 02/10/2026 (decisão do Allan, a mesma conta dos
+   * outros sites dele). Não é segredo: o publisher vai no ads.txt e na meta de
+   * verificação, que existem para ficar públicos.
+   *
+   * `pub` vazio desliga o carregador e a meta: a faixa ainda aparece, mas o
+   * `adsbygoogle.js` não entra. Para desligar de vez, tirar também o
+   * `<Consentimento />` do `app/layout.tsx` — ver a seção "AdSense" do
+   * CLAUDE.md.
+   */
+  adsense: {
+    pub: "pub-4401770243539507",
   },
 } as const;
 

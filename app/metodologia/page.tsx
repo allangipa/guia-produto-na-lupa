@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Como avaliamos",
@@ -100,6 +101,12 @@ export default function Metodologia() {
           preço. Nenhuma marca paga por análise, por nota ou por posição em
           comparativo — e, quando um produto não vale a compra, a análise diz
           isso, mesmo sendo o que mais renderia comissão.
+        </p>
+        <p>
+          O site também exibe anúncios do Google AdSense, escolhidos pelo
+          Google. Anunciante não compra nota, posição nem texto; os detalhes
+          sobre os cookies de anúncio estão em{" "}
+          <Link href="/privacidade">Privacidade</Link>.
         </p>
 
         <h2>Correções</h2>

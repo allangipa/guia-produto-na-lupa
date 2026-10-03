@@ -5,6 +5,7 @@ import { site } from "@/lib/site";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { scriptAntiFlash } from "@/components/tema";
+import { Consentimento } from "@/components/consentimento";
 
 /**
  * As fontes sao baixadas no build e servidas do proprio dominio.
@@ -80,6 +81,16 @@ export default function RootLayout({
         {site.umami.id && (
           <script defer src={site.umami.script} data-website-id={site.umami.id} />
         )}
+        {/* AdSense (02/10/2026). A meta verifica o site na conta e vai em toda
+            página, por isso mora aqui e não em `metadata` de página. O script
+            do anúncio NÃO vai no HTML: quem o injeta é <Consentimento />,
+            conforme a escolha do leitor. */}
+        {site.adsense.pub && (
+          <>
+            <meta name="google-adsense-account" content={`ca-${site.adsense.pub}`} />
+            <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
+          </>
+        )}
       </head>
       <body>
         <a
@@ -95,6 +106,8 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
+        {/* Faixa de cookies do AdSense, fixa no pé, em todas as páginas. */}
+        <Consentimento />
       </body>
     </html>
   );

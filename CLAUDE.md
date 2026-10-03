@@ -93,6 +93,8 @@ Duas consequências práticas:
 /reviews/<slug>        análise individual
 /metodologia           critérios de nota e como o site ganha dinheiro
 /sobre                 o que o site é, o método e o que ele não faz
+/contato               e-mail e para que escrever (desde 02/10/2026)
+/privacidade           LGPD, AdSense, afiliados
 ```
 
 Fluxo pretendido: a busca chega pelo guia, o guia manda para o comparativo ou a
@@ -1362,9 +1364,16 @@ confunde com documento sem folha de estilo.
   `components/loja-cta.tsx` dispara o clique de afiliado para Umami, Plausible
   e `dataLayer` ao mesmo tempo, e cada um só age se existir — trocar de
   ferramenta não exige mexer em componente.
-  **Escolha sem cookie de propósito:** com cookie, a LGPD exige banner de
-  consentimento, e banner é a camada que aparece sozinha e interrompe, que é
-  o que este site não faz nem quando é ele mesmo pedindo.
+  **~~Escolha sem cookie de propósito~~ — REVERTIDA em 02/10/2026.** A regra
+  dizia: "com cookie, a LGPD exige banner de consentimento, e banner é a
+  camada que aparece sozinha e interrompe, que é o que este site não faz nem
+  quando é ele mesmo pedindo." O Allan decidiu nessa data pôr o **Google
+  AdSense** no site, para monetizar com anúncio igual aos outros sites dele
+  (Vestígio Oculto, Arquitetura do Impossível, Xadrez Bélico, viagemnalupa).
+  O AdSense traz cookie de terceiro e, com ele, a faixa de consentimento —
+  ver a seção **AdSense** abaixo. A preferência por ferramenta de medição
+  **sem cookie** continua valendo para o Umami; o que caiu foi a premissa de
+  que o site inteiro não teria cookie nem faixa.
   **O que o Search Console já resolve, não precisa de script:** impressão,
   clique, posição e termo de busca por página. A pergunta "qual categoria tem
   tráfego" se responde lá, de graça. O que ele não dá, e só a medição dá, é
@@ -1396,6 +1405,38 @@ confunde com documento sem folha de estilo.
   nasceu, e é a conferência de um segundo.
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
+
+## AdSense
+
+Desde **02/10/2026**, decisão do Allan (ver a reversão da regra "sem cookie"
+em "Medição de audiência", acima). Publisher **pub-4401770243539507**, a mesma
+conta dos outros sites dele. O site foi cadastrado no AdSense antes destas
+mudanças, com "Precisa de revisão" e ads.txt "Não encontrado".
+
+- **`public/ads.txt`** — vira `/ads.txt` no export. Uma linha:
+  `google.com, pub-4401770243539507, DIRECT, f08c47fec0942fa0`.
+- **Meta de verificação** (`google-adsense-account`) e o `preconnect` para
+  `pagead2.googlesyndication.com` ficam no `<head>` do `app/layout.tsx`, então
+  saem em toda página. O publisher mora em `site.adsense.pub` (`lib/site.ts`).
+- **Faixa + carregador: `components/consentimento.tsx`**, montado no fim do
+  `<body>` do layout. O `adsbygoogle.js` nunca vai escrito no HTML: o
+  componente injeta por JS. Sem escolha gravada, carrega na hora
+  (`BLOQUEIA = false`) e mostra a faixa; "Entendi" grava `aceitar`; "Recusar
+  anúncios" grava `recusar` e remove o script. Chave de localStorage
+  **`gp-consentimento`**. Se a mensagem GDPR do Google (`__tcfapi`) aparecer e
+  disser que o GDPR se aplica, a faixa some. Mesmo comportamento da referência
+  do site do Arquitetura do Impossível.
+- O botão "Entendi" é sólido em **tinta**, não em cor de ação: o verde
+  continua exclusivo do botão de loja.
+- **Para desligar:** esvaziar `site.adsense.pub` tira a meta e impede o
+  script de carregar; para tirar também a faixa, remover `<Consentimento />`
+  do layout. Para só exigir o "Entendi" antes de carregar, `BLOQUEIA = true`
+  no componente. Desligando, revisar `/privacidade`, `/sobre` e
+  `/metodologia`, que passaram a citar os anúncios.
+- `/privacidade` foi reescrita na parte de cookies (AdSense, cookie DART,
+  links de opt-out, chave da faixa, LGPD). Ela dizia que as fontes vinham do
+  Google Fonts; corrigido junto, porque desde a troca para `next/font` elas
+  são servidas do próprio domínio.
 
 <!-- BEGIN:nextjs-agent-rules -->
 

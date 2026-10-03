@@ -81,7 +81,8 @@ export default function Sobre() {
           página. Se você tem um dos produtos analisados e a sua experiência foi
           outra, ela vale mais que a nossa pesquisa: escreva para{" "}
           <a href={`mailto:${site.editor.contato}`}>{site.editor.contato}</a> e a
-          divergência entra na análise, com crédito.
+          divergência entra na análise, com crédito. Para os outros assuntos,
+          veja <Link href="/contato">Contato</Link>.
         </p>
 
         <h2>Como o site se sustenta</h2>
@@ -91,6 +92,13 @@ export default function Sobre() {
           exatamente o mesmo preço. Nenhuma marca paga por análise, por nota ou
           por posição em comparativo, e quando um produto não vale a compra a
           análise diz isso — inclusive quando é o que mais renderia comissão.
+        </p>
+        <p>
+          Desde outubro de 2026 o site também exibe anúncios do Google AdSense.
+          Quem escolhe os anúncios é o Google, não nós, e nenhum anunciante
+          compra espaço no texto, na nota ou na ordem de um comparativo. Como os
+          cookies de anúncio funcionam, e como recusá-los, está em{" "}
+          <Link href="/privacidade">Privacidade</Link>.
         </p>
         <p>
           As imagens de produto vêm do material oficial dos próprios
