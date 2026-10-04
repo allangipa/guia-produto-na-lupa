@@ -12,6 +12,9 @@
  *                                           # AMAZON_CLIENT_SECRET no ambiente
  *   node scripts/amazon-sync.mjs --simular  # gera dados fictícios, marcados,
  *                                           # para testar a interface sem API
+ *   node scripts/amazon-sync.mjs --testar   # só confere a credencial: pede o
+ *                                           # token e consulta UM produto, sem
+ *                                           # gravar nada (`npm run amazon:testar`)
  *
  * Sem credenciais e sem --simular, sai com código 0 e não escreve nada — assim
  * o workflow de deploy pode chamar este script sempre, e a etapa vira um
@@ -39,6 +42,7 @@ const PARTNER_TAG = process.env.AMAZON_PARTNER_TAG || "guiaprodutona-20";
 const CLIENT_ID = process.env.AMAZON_CLIENT_ID;
 const CLIENT_SECRET = process.env.AMAZON_CLIENT_SECRET;
 const SIMULAR = process.argv.includes("--simular");
+const TESTAR = process.argv.includes("--testar");
 
 /** Os campos que pedimos. Cada um custa cota; só o que a interface usa. */
 const RECURSOS = [
@@ -225,6 +229,8 @@ async function main() {
     return;
   }
 
+  if (TESTAR) return testar([...asins.keys()][0]);
+
   await mkdir(DIR_SAIDA, { recursive: true });
   const agora = new Date().toISOString();
   const lista = [...asins.keys()];
@@ -271,6 +277,26 @@ async function main() {
   console.log(
     `${gravados} de ${lista.length} ASINs gravados em dados/amazon (${SIMULAR ? "SIMULAÇÃO" : "Creators API"}).`,
   );
+}
+
+/**
+ * Diz em que pé está a credencial, em três degraus, sem gravar nada:
+ * a chave é aceita (token), a conta é elegível (GetItems) e o dado volta.
+ */
+async function testar(asin) {
+  console.log(`Credencial: ${CLIENT_ID.slice(0, 40)}…`);
+  const token = await obterToken();
+  console.log("1. Chave aceita pela Amazon: o token foi emitido.");
+  const resposta = await getItems(token, [asin]);
+  console.log("2. Conta elegível: a API de catálogo respondeu.");
+  const item = resposta?.itemResults?.items?.[0];
+  if (item) {
+    const p = normalizar(item, new Date().toISOString());
+    console.log(`3. Produto de teste ${asin}: ${p.titulo ?? "(sem título)"}`);
+    console.log(`   Preço: ${p.preco?.exibicao ?? "a API não devolveu oferta"}`);
+  } else {
+    console.log(`3. A API respondeu, mas sem o produto ${asin}.`, JSON.stringify(resposta?.errors ?? []));
+  }
 }
 
 main().catch((e) => {

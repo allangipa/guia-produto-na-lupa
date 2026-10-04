@@ -9,6 +9,7 @@
     "start": "next start",
     "amazon:sync": "node scripts/amazon-sync.mjs",
     "amazon:simular": "node scripts/amazon-sync.mjs --simular",
+    "amazon:testar": "node scripts/amazon-sync.mjs --testar",
     "afiliados": "node scripts/afiliados-cobertura.mjs",
     "afiliados:resumo": "node scripts/afiliados-cobertura.mjs --resumo",
     "imagens": "node scripts/imagens.mjs",
