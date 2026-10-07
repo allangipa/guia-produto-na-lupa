@@ -1,11 +1,26 @@
 import type { MDXComponents } from "mdx/types";
 import type { MDXRemoteProps } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
+import Link from "next/link";
+import type { ComponentProps } from "react";
 import { TabelaComparativa } from "./tabela-comparativa";
+
+/**
+ * Link interno do texto passa pelo `next/link`, que põe a barra final
+ * (`trailingSlash: true`). Escrito em markdown, `[guia](/guias/x)` saía como
+ * `<a href="/guias/x">`, e o GitHub Pages responde com 301 para `/guias/x/`:
+ * um redirecionamento a cada link, contado no relatório de indexação do
+ * Search Console (07/10/2026). Link externo e âncora passam como estão.
+ */
+function LinkDoTexto({ href = "", ...resto }: ComponentProps<"a">) {
+  if (href.startsWith("/") && !href.startsWith("//")) return <Link href={href} {...resto} />;
+  return <a href={href} {...resto} />;
+}
 
 /** Componentes disponíveis dentro dos arquivos .mdx de conteúdo. */
 export const componentesMdx: MDXComponents = {
   TabelaComparativa: TabelaComparativa as never,
+  a: LinkDoTexto,
 };
 
 /**
