@@ -1356,6 +1356,25 @@ confunde com documento sem folha de estilo.
   para testar a interface, e o script recusa `--simular` em CI. Acesso à API
   exige 10 vendas qualificadas nos últimos 30 dias; cota inicial 1 req/s e
   8.640/dia.
+
+  **Credencial conferida em 03/10/2026, e a conta ainda não é elegível.** O
+  app `Guia_Produto_na_Lupa` tem duas credenciais no painel; a que funciona é
+  a `amzn1.application-oa2-client.bb83e7a8…` (a `effd4837…`, mais antiga,
+  não foi testada — excluir se não for usada). `npm run amazon:testar` pede o
+  token e consulta um produto só, sem gravar nada, e diz em qual degrau
+  parou. Resultado: **token emitido** (chave certa) e GetItems com **HTTP 403
+  `AssociateNotEligible`** — faltam as 10 vendas em 30 dias. Quando a conta
+  for liberada, o preço aparece sozinho, sem mexer em código.
+
+  **A chave secreta nunca entra no repositório**, que é público: chave
+  commitada fica no histórico para sempre e é varrida por robô em minutos. O
+  lugar dela é *Settings → Secrets and variables → Actions*, com os nomes
+  exatos `AMAZON_CLIENT_ID` e `AMAZON_CLIENT_SECRET`, e quem cadastra é o
+  Allan. Cadastrar antes da elegibilidade é seguro: o script trata o 403 como
+  "ainda não" e sai com 0, e o deploy publica normalmente. Para testar no
+  computador, ler a chave do CSV que a Amazon baixa (ou digitá-la num
+  `Read-Host -AsSecureString`), nunca colá-la no chat — e apagar o CSV da pasta
+  Downloads, que fica no OneDrive.
 - **Medição de audiência: fiação pronta, desligada.** `site.umami` em
   `lib/site.ts` lê `NEXT_PUBLIC_UMAMI_ID`; sem ele o layout não renderiza
   script nenhum e o site sobe sem medir nada. A variável já está declarada no
@@ -1403,6 +1422,31 @@ confunde com documento sem folha de estilo.
   **Removida em 26/09/2026**, e a lista hoje tem uma linha só. Ao enviar
   sitemap, conferir o campo antes de clicar em enviar: foi assim que ela
   nasceu, e é a conferência de um segundo.
+- **Relatório de indexação do Search Console, lido em 07/10/2026**: 756
+  páginas indexadas e 501 não indexadas, com as impressões indo de 9 por dia
+  (14/09) para cerca de 200. Quase tudo que aparece como "não indexada" é
+  desenho do site, e **não se "conserta"**:
+
+      Detectada, mas não indexada     355   fila do Google num site de 3 semanas;
+                                            cai com o tempo e com link de fora
+      Página com redirecionamento      95   http→https, www→sem www, sem barra
+                                            final→com barra (301 do GitHub
+                                            Pages) e os 40 produtos removidos
+                                            (meta refresh para o guia)
+      Excluída pela tag "noindex"      45   os 36 /comparar/* e os removidos
+      Rastreada, mas não indexada       4   normal em número pequeno
+      Alternativa com canônica          2   os endereços antigos ?projeto=
+
+  **A validação de "Página com redirecionamento" vai sempre dar "Falha"**,
+  porque essas páginas devem continuar redirecionando. Não pedir de novo.
+
+  O que era nosso, e foi corrigido no mesmo dia: **link interno escrito em
+  markdown sem a barra final** (`[guia](/guias/x)`) saía como `<a href>`
+  cru, e o GitHub Pages respondia 301 a cada clique do robô. Desde
+  07/10/2026 o `a` do MDX passa pelo `next/link` (`LinkDoTexto` em
+  `components/mdx.tsx`), que põe a barra — vale também para texto futuro.
+  Conferido no build: zero link interno sem barra.
+
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
 
