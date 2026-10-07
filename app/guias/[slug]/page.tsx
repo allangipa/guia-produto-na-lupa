@@ -14,6 +14,7 @@ import { tituloSeo, ogImagem, lojasDe } from "@/lib/site";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
+import { LevaAoSimulador } from "@/components/leva-ao-simulador";
 import { Lacunas } from "@/components/pros-contras";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 import { EscolhaDoGuia } from "@/components/escolha-do-guia";
@@ -101,6 +102,16 @@ export default async function PaginaGuia({ params }: Params) {
           })}
         </ol>
       </section>
+
+      {/* A ferramenta da categoria, desde 07/10/2026: quem leu as escolhas por
+          perfil tem como pergunta seguinte qual serve para a casa dele, e é
+          isso que o simulador responde com a conta à vista. Link de página que
+          o Google já indexa também é o que leva o robô às /simulador/<slug>.
+          Não é CTA nem cor de ação. Só aparece nas categorias que têm
+          ferramenta (FOCO_DA_CATEGORIA). */}
+      <div className="-mt-4 mb-10">
+        <LevaAoSimulador categoria={g.categoria} />
+      </div>
 
       <div className="prosa">{content}</div>
 

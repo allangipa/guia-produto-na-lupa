@@ -1125,6 +1125,11 @@ confunde com documento sem folha de estilo.
   (depois da tira de números) e um aviso nas fichas das oito categorias que
   ele atende (`components/leva-ao-simulador.tsx`, mapa em
   `FOCO_DA_CATEGORIA`, `lib/simulador.ts`). Não é CTA e não usa cor de ação.
+  **Desde 07/10/2026 o mesmo atalho entra nos guias**, logo depois das
+  escolhas por perfil e antes do texto (`app/guias/[slug]/page.tsx`): os oito
+  guias das categorias com ferramenta levam à sua, e guia novo dessas
+  categorias leva sozinho. É também o caminho do robô do Google até as
+  `/simulador/<slug>`, a partir de páginas que ele já indexou.
 
   **Uma URL por ferramenta, desde 29/09/2026** — `/simulador/ar-condicionado`,
   `/nobreak`, `/air-fryer`, `/refil-purificador`, `/cooktop-inducao`,
