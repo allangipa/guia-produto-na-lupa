@@ -13,7 +13,8 @@
     "afiliados": "node scripts/afiliados-cobertura.mjs",
     "afiliados:resumo": "node scripts/afiliados-cobertura.mjs --resumo",
     "imagens": "node scripts/imagens.mjs",
-    "carrossel": "node scripts/carrossel.mjs"
+    "carrossel": "node scripts/carrossel.mjs",
+    "cartoes": "node scripts/cartoes.mjs"
   },
   "keywords": [],
   "author": "",

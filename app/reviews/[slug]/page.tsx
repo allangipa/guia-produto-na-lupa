@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import fs from "node:fs";
+import path from "node:path";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import {
@@ -26,10 +28,26 @@ export function generateStaticParams() {
   return todosOsReviews().map((r) => ({ slug: r.slug }));
 }
 
+/**
+ * O cartão de compartilhamento da análise, gerado por `npm run cartoes` em
+ * `public/og/reviews/<slug>.png` (1200×630): título, três números da ficha e
+ * a foto oficial sobre o fundo escuro do site. Quando o arquivo não existe —
+ * análise nova antes de rodar o script — a página cai para a foto do produto,
+ * que era o que já ia no og:image.
+ */
+function cartaoOg(slug: string) {
+  const relativo = `/og/reviews/${slug}.png`;
+  return fs.existsSync(path.join(process.cwd(), "public", relativo))
+    ? relativo
+    : undefined;
+}
+
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const r = review(slug);
   if (!r) return {};
+  const foto = r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome]);
+  const cartao = cartaoOg(r.slug);
   return {
     title: tituloSeo(r.tituloCurto ?? r.titulo),
     description: r.descricao ?? r.subtitulo,
@@ -40,8 +58,15 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       type: "article",
       publishedTime: r.publicadoEm,
       modifiedTime: r.atualizadoEm,
-      ...ogImagem(r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome])),
+      ...(cartao
+        ? {
+            images: [
+              { url: cartao, width: 1200, height: 630, alt: r.tituloCurto ?? r.titulo },
+            ],
+          }
+        : ogImagem(foto)),
     },
+    twitter: { card: "summary_large_image" },
   };
 }
 

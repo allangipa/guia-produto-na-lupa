@@ -51,7 +51,13 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     siteName: site.nome,
   },
-  robots: { index: true, follow: true },
+  // `max-image-preview: large` deixa o Google mostrar a foto em tamanho
+  // grande no Discover e nos resultados — sem isso, a miniatura é o teto.
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
   // So aparece quando a variavel existe: sem token, nenhuma tag vazia no HTML.
   ...(site.verificacaoGoogle
     ? { verification: { google: site.verificacaoGoogle } }
