@@ -507,8 +507,8 @@
     "marca": "Motorola",
     "modelo": "XT2535-1",
     "categoria": "celular",
-    "resumo": "O Motorola de entrada: tela de 6,9\" HD+ a 120 Hz, 5.200 mAh e carregador de 10 W — o mais lento da base. Tem entrada de fone P2 e rádio FM, e não tem NFC. A Amazon lista o peso como \"371 quilogramas\"; a Motorola declara 194 g.",
-    "atualizadoEm": "2026-09-14",
+    "resumo": "O Motorola de entrada: tela de 6,9\" HD+ a 120 Hz, 5.200 mAh e carregador de 10 W — o mais lento da base. Tem entrada de fone P2 e rádio FM, e não tem NFC. IP64, Gorilla Glass 3 e as 19 horas de vídeo estão no corpo da página, não na tabela. A Amazon lista o peso como \"371 quilogramas\"; a Motorola declara 194 g.",
+    "atualizadoEm": "2026-10-08",
     "imagem": {
       "src": "/produtos/motorola-moto-g06.webp",
       "alt": "Motorola Moto g06 azul-marinho, visto de trás, com câmera única",
@@ -528,13 +528,13 @@
       "teleobjetiva": "Não tem; câmera traseira única",
       "cameraFrontalMp": 8,
       "bateriaMah": 5200,
-      "horasVideo": null,
+      "horasVideo": 19,
       "cargaRapida": "10 W com fio",
       "cargaSemFioW": null,
       "usb": "USB-C (versão não declarada), com entrada P2 para fone",
       "sim": "Dual nano SIM, sem eSIM",
-      "protecaoAgua": null,
-      "material": null,
+      "protecaoAgua": "IP64 (respingos e chuva fraca; a Motorola declara que não é para imersão)",
+      "material": "Corning Gorilla Glass 3 na tela",
       "pesoG": 194,
       "espessuraMm": 8.31,
       "dimensoesMm": "171,35 × 77,50 × 8,31",
@@ -552,8 +552,8 @@
         "titulo": "Moto g06 128 GB — página oficial da Motorola Brasil",
         "url": "https://www.motorola.com.br/smartphone-moto-g06-128-gb/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Tela de 6,9\" HD+ 720 × 1640 a 120 Hz, Helio G81 Extreme, 4 GB de RAM (mais 8 GB de RAM Boost), 128 GB com microSD até 1 TB, câmera única de 50 MP f/1.8, frontal de 8 MP, 5.200 mAh, carregador de 10 W, nano SIM dual, sem NFC, entrada P2, rádio FM, Bluetooth 6.0, 171,35 × 77,50 × 8,31 mm, 194 g, Anatel 031172500330 e 12 meses de garantia. Não declara proteção contra água nem brilho.",
-        "consultadaEm": "2026-09-14"
+        "oQueSaiuDaqui": "Tabela: tela de 6,9\" HD+ 720 × 1640 a 120 Hz, Helio G81 Extreme (2,0 GHz), 4 GB de RAM (mais 8 GB de RAM Boost), 128 GB com 112 GB disponíveis e microSD até 1 TB, câmera única de 50 MP f/1,8 (74,26°), frontal de 8 MP f/2,0, vídeo Full HD a 30 fps, 5.200 mAh, carregador rápido de 10 W na caixa, nano SIM dual com o cartão na mesma gaveta, sem NFC, entrada P2, rádio FM, Bluetooth 6.0, Wi-Fi 5, 171,35 × 77,50 × 8,31 mm, 194 g, modelo XT2535-1, Anatel 031172500330 e 12 meses. Corpo e notas de rodapé (lidos em 08/10): Corning Gorilla Glass 3; classificação IP64, que o rodapé define como \"exposição moderada à água doce, como derramamentos acidentais, respingos ou chuva fraca\", sem mergulho nem água pressurizada, e a nota do Smart Water Touch repete \"aparelho não resistente à água/imersão\"; \"até 49 horas de bateria\" em perfil de uso misto com espera e rede ideal; um quadro com 73 h de música, 19 h de vídeo, 20 h de internet, 21 h de redes sociais, 22 h de GPS e 24 h de chamadas; 80% da capacidade após 1.000 ciclos de recarga (teste interno); \"a maior tela da categoria\" e \"a bateria com maior duração da categoria\" definidas por faixa de preço e lançamento até julho de 2025. Não declara brilho em nits — o texto diz \"imagem superbrilhante\". Um campo de marketplace da mesma página traz \"Memória RAM: 12 GB\", a soma da física com a virtual. A consulta de 14/09 leu só a tabela.",
+        "consultadaEm": "2026-10-08"
       },
       {
         "id": "amazon-g06",
@@ -571,6 +571,13 @@
         "valorDivergente": "371 kg",
         "fonteDivergente": "amazon-g06",
         "observacao": "A Amazon publica \"371 quilogramas\" — erro de unidade na listagem. A Motorola declara 194 g."
+      },
+      {
+        "campo": "memoriaRamGb",
+        "fonteAdotada": "motorola-g06-oficial",
+        "valorDivergente": "12 GB",
+        "fonteDivergente": "motorola-g06-oficial",
+        "observacao": "A tabela técnica declara \"4GB RAM + 8GB RAM Boost\", e o rodapé explica que o RAM Boost é memória virtual criada no armazenamento. Um campo de marketplace da mesma página diz \"Memória RAM: 12 GB\" — a soma das duas. A ficha registra a memória física, 4 GB."
       }
     ],
     "galeria": [
@@ -762,14 +769,14 @@
     "marca": "Motorola",
     "modelo": "Moto g56 5G",
     "categoria": "celular",
-    "resumo": "Dimensity 7060, 120 Hz e carregador de 33 W na caixa, com IP68 e IP69 anunciados. A ficha sai sem as medidas: a tabela da Motorola dá 8,5 mm de largura para um aparelho de 6,7 polegadas.",
-    "atualizadoEm": "2026-09-18",
+    "resumo": "Dimensity 7060, 120 Hz e carregador de 33 W na caixa, com IP68 e IP69, Gorilla Glass 7i e 1.000 nits declarados no corpo da página — a tabela não os traz. A ficha sai sem as medidas: a tabela da Motorola dá 8,5 mm de largura para um aparelho de 6,7 polegadas.",
+    "atualizadoEm": "2026-10-08",
     "specs": {
       "formato": "Barra",
       "telaPol": 6.7,
       "resolucao": "2400 × 1080 (FHD+), HDR10+",
       "taxaHz": 120,
-      "brilhoPicoNits": null,
+      "brilhoPicoNits": 1000,
       "chip": "MediaTek Dimensity 7060 (octa-core 2,6 GHz)",
       "memoriaRamGb": 8,
       "armazenamento": "256 GB, mais microSD até 2 TB",
@@ -782,8 +789,8 @@
       "cargaSemFioW": null,
       "usb": "USB-C (versão não declarada)",
       "sim": "Nano SIM e eSIM",
-      "protecaoAgua": "IP68 e IP69",
-      "material": null,
+      "protecaoAgua": "IP68 (1,5 m por 30 min em água doce) e IP69 (jatos de água quente), MIL-STD-810H",
+      "material": "Corning Gorilla Glass 7i na tela",
       "pesoG": 200,
       "espessuraMm": null,
       "dimensoesMm": null,
@@ -810,15 +817,15 @@
         "titulo": "Motorola Moto g56 5G — página oficial na loja da Motorola Brasil",
         "url": "https://www.motorola.com.br/smartphone-moto-g56-5g-256gb/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Android 15, Dimensity 7060 octa-core de 2,6 GHz, 8 GB de RAM, 256 GB com microSD até 2 TB, tela de 6,7\" FHD+ 1080 × 2400 com HDR10+ e 120 Hz, câmera principal Sony LYTIA 600 de 50 MP f/1,88 e ultra-angular de 8 MP, frontal de 32 MP, bateria de 5200 mAh, TurboPower 33 W na caixa, nano SIM e eSIM, Bluetooth 5.3, Wi-Fi 5, NFC, 200 g, homologação Anatel 00073-25-00330 e 12 meses. A Motorola não declara brilho, material nem o código XT do modelo, e as medidas publicadas não fecham.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "Tabela: Android 15, Dimensity 7060 octa-core de 2,6 GHz, 8 GB de RAM (mais 16 GB de RAM Boost), 256 GB com 238 GB disponíveis e microSD até 2 TB, tela de 6,7\" FHD+ 1080 × 2400 com HDR10+ e 120 Hz, câmera principal Sony LYTIA 600 de 50 MP f/1,88 e ultra-angular de 8 MP, frontal de 32 MP, vídeo Full HD a 60 fps, bateria de 5.200 mAh, TurboPower 33 W na caixa, nano SIM e eSIM com a segunda entrada para o cartão, Bluetooth 5.3, Wi-Fi 5, NFC, 200 g, homologação Anatel 00073-25-00330 e 12 meses. Corpo e notas de rodapé (lidos em 08/10): tela \"com superbrilho\" de 1.000 nits; Corning Gorilla Glass 7i; IP68 e IP69, com imersão em água doce até 1,5 m por 30 minutos e jatos em alta pressão; 16 testes de durabilidade do MIL-STD-810H, com quedas de até 1,2 m; capacidade \"comum\" de 5.200 mAh e certificada de 5.100 mAh; \"até 40 horas de bateria\" em perfil de uso misto com espera; até 12 horas com 36 minutos de carga. Não declara o código XT do modelo, e as medidas publicadas não fecham. A consulta de 18/09 leu só a tabela.",
+        "consultadaEm": "2026-10-08"
       },
       {
         "id": "amazon-g56",
         "titulo": "Motorola Moto g56 5G — página do produto na Amazon Brasil",
         "url": "https://www.amazon.com.br/dp/B0F9MNPVKG",
         "tipo": "varejo",
-        "oQueSaiuDaqui": "IP68 e IP69 e resistência militar, no título da listagem — a ficha da Motorola não traz classificação de proteção.",
+        "oQueSaiuDaqui": "IP68 e IP69 e resistência militar, no título da listagem. Até 08/10/2026 a ficha tomava a proteção daqui, porque a tabela da Motorola não tem o campo; o corpo da página oficial declara as duas classificações com os limites, e a fonte passou a ser o fabricante. Nenhum número da ficha sai daqui.",
         "consultadaEm": "2026-09-18"
       }
     ],
@@ -1155,14 +1162,14 @@
     "marca": "Motorola",
     "modelo": "Edge 60 Fusion 5G",
     "categoria": "celular",
-    "resumo": "O carregador mais rápido desta lista: 68 W, e vem na caixa. Tela pOLED de 1,5K a 120 Hz e 5200 mAh num corpo de 7,95 mm e 178 g.",
-    "atualizadoEm": "2026-09-18",
+    "resumo": "O carregador mais rápido desta lista: 68 W, e vem na caixa. Tela pOLED de 1,5K a 120 Hz com 4.500 nits declarados, IP68 e IP69 e 5.200 mAh num corpo de 7,95 mm e 178 g. A mesma página diz 4K a 60 fps num campo e 4K a 30 fps no bloco da câmera.",
+    "atualizadoEm": "2026-10-08",
     "specs": {
       "formato": "Barra",
       "telaPol": 6.7,
       "resolucao": "2712 × 1220 (Super HD), pOLED, HDR10+",
       "taxaHz": 120,
-      "brilhoPicoNits": null,
+      "brilhoPicoNits": 4500,
       "chip": "MediaTek Dimensity 7300 (octa-core 2,5 GHz)",
       "memoriaRamGb": 8,
       "armazenamento": "256 GB, mais microSD",
@@ -1175,8 +1182,8 @@
       "cargaSemFioW": null,
       "usb": "USB-C (versão não declarada)",
       "sim": "Nano SIM e eSIM",
-      "protecaoAgua": "IP68",
-      "material": null,
+      "protecaoAgua": "IP68 (1,5 m por 30 min em água doce) e IP69 (jatos de água quente), IEC 60529; MIL-STD-810H",
+      "material": "Corning Gorilla Glass 7i na tela",
       "pesoG": 178,
       "espessuraMm": 7.95,
       "dimensoesMm": "161,20 × 73,08 × 7,95",
@@ -1194,15 +1201,15 @@
         "titulo": "Motorola Edge 60 Fusion 5G — página oficial na loja da Motorola Brasil",
         "url": "https://www.motorola.com.br/smartphone-motorola-edge-60-fusion-5g/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Android 15, Dimensity 7300 octa-core de 2,5 GHz, 8 GB de RAM, 256 GB, tela pOLED de 6,7\" 1220 × 2712 com HDR10+ e 120 Hz, câmera Sony LYTIA 700C de 50 MP e ultra-angular de 13 MP, frontal de 32 MP f/2,2, vídeo em 4K a 60 fps, 5200 mAh, TurboPower 68 W na caixa, nano SIM e eSIM, Bluetooth 5.4, Wi-Fi 6, NFC, 161,20 × 73,08 × 7,95 mm, 178 g, homologação Anatel 10899-24-00330 e 12 meses. Não declara brilho, material nem o código XT do modelo.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "Tabela: Android 15, Dimensity 7300 octa-core de 2,5 GHz, 8 GB de RAM (mais 16 GB de RAM Boost), 256 GB com 232 GB disponíveis, tela pOLED de 6,7\" 1220 × 2712 com HDR10+ e 120 Hz, câmera Sony LYTIA 700C de 50 MP e ultra-angular de 13 MP, frontal de 32 MP f/2,2 com vídeo 4K a 30 fps, campo \"Captura de vídeo\" com 4K a 60 fps e bloco da câmera traseira com \"Resolução de Gravação de Video: Ultra HD 4K (30 fps)\", 5.200 mAh, TurboPower 68 W na caixa, nano SIM e eSIM com a segunda entrada para o cartão, Bluetooth 5.4, Wi-Fi 6, NFC, sem rádio FM, 161,20 × 73,08 × 7,95 mm, 178 g, homologação Anatel 10899-24-00330 e 12 meses. Corpo e notas de rodapé (lidos em 08/10): 4.500 nits (\"a tela mais brilhante do mundo na categoria\", com nota de rodapé); Corning Gorilla Glass 7i; IP68 e IP69 pela IEC 60529, com imersão em água doce até 1,5 m por 30 minutos e jatos fortes de água quente por 30 s, exposição fora disso fora da garantia; 16 testes do MIL-STD-810H, com a ressalva de que a garantia não cobre abusos como os dos testes; capacidade \"comum\" de 5.200 mAh e certificada de 5.100 mAh; até 12 horas de bateria com 8 minutos de carga. Não declara o código XT do modelo. A consulta de 18/09 leu só a tabela.",
+        "consultadaEm": "2026-10-08"
       },
       {
         "id": "amazon-edge60",
         "titulo": "Motorola Edge 60 Fusion 5G — página do produto na Amazon Brasil",
         "url": "https://www.amazon.com.br/dp/B0F1GVZ8H4",
         "tipo": "varejo",
-        "oQueSaiuDaqui": "IP68, no título da listagem — a ficha da Motorola não traz classificação de proteção.",
+        "oQueSaiuDaqui": "IP68, no título da listagem. Até 08/10/2026 a ficha tomava a proteção daqui, porque a tabela da Motorola não tem o campo; o corpo da página oficial declara IP68 e IP69 com os limites, e a fonte passou a ser o fabricante. Nenhum número da ficha sai daqui.",
         "consultadaEm": "2026-09-18"
       }
     ],
@@ -1211,7 +1218,16 @@
       "alt": "Motorola Edge 60 Fusion na cor mocha mousse, visto de frente e de costas",
       "credito": "Imagem: Motorola",
       "origem": "https://www.motorola.com.br/smartphone-motorola-edge-60-fusion-5g/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "cameraPrincipalMp",
+        "fonteAdotada": "motorola-edge60-oficial",
+        "valorDivergente": "Vídeo 4K a 30 fps (bloco da câmera traseira)",
+        "fonteDivergente": "motorola-edge60-oficial",
+        "observacao": "A mesma tabela da Motorola diz duas coisas sobre o vídeo da câmera principal: o campo \"Captura de vídeo\" declara Ultra HD 4K a 60 fps, e o bloco da câmera traseira declara \"Resolução de Gravação de Video: Ultra HD 4K (30 fps)\". A ficha não tem campo de vídeo; a contradição fica registrada aqui."
+      }
+    ]
   },
   {
     "slug": "samsung-galaxy-a37",

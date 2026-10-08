@@ -687,10 +687,16 @@ confunde com documento sem folha de estilo.
   **Ao apurar Motorola, ler tabela, corpo e rodapé**, e citar preço de rodapé
   nunca: a régua deles é faixa em reais, e o site não publica preço.
 
-  **Pendente:** as fichas do Moto g06, do g56 e do Edge 60 Fusion têm o mesmo
-  problema — brilho, vidro e água em branco quando o corpo da página responde.
-  Corrigir muda contas publicadas de celular; conferir guias e comparativos da
-  categoria junto.
+  **Corrigidas no mesmo 08/10/2026 as fichas do Moto g06, do g56 e do Edge 60
+  Fusion**, que tinham brilho, vidro e água em branco quando o corpo da página
+  respondia (g06: IP64, Gorilla Glass 3 e 19 horas de vídeo; g56: 1.000 nits,
+  Gorilla Glass 7i; Edge: 4.500 nits, Gorilla Glass 7i, IP69). A correção
+  achou um erro pior: **g56 e Edge tinham a proteção IP tomada do título do
+  anúncio da Amazon** — varejo num campo de fabricante, contra a regra da casa.
+  O corpo da página oficial declara as duas, e a fonte foi trocada. O
+  comparativo A57 × g86 dizia que "nenhum fabricante Android da base publica
+  horas de vídeo"; com as 19 h do g06 virou falso e foi reescrito nomeando o
+  produto.
 
 - **Celulares** (`dados/celular.json`, esquema `camposCelular`) abriu em
   14/09/2026 com a linha iPhone de 2026: 18 Pro, 18 Pro Max, 17, Air e Duo,
