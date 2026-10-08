@@ -107,6 +107,21 @@ linkar.
 
 Tipos do frontmatter em `lib/conteudo.ts` — se faltar campo, o build quebra.
 
+Título e description para o Google (decisão de 08/10/2026, com dados do Search
+Console: quase toda busca que traz o site é "modelo + ficha técnica"):
+
+- `titulo:` é o H1, pode ser a frase crítica/criativa.
+- `tituloCurto:` é o `<title>` (até 60 caracteres) e segue o formato de busca:
+  categoria + modelo na frente, depois a pergunta de compra ou a entrega —
+  "Air Fryer Philco PFR2200P 12L é boa? Análise da ficha",
+  "Brastemp BRM46MK ou Consul CRM44MB: qual geladeira comprar",
+  "Quantos BTUs para o seu quarto: 15 fichas comparadas".
+- `descricao:` é a meta description (120 a 155 caracteres; o build quebra acima
+  de 160): dois ou três números da ficha na frente, depois o que a página
+  entrega. Sem ela, a description é o `subtitulo`.
+- Fichas de produto não têm frontmatter: o `<title>` sai de
+  `lib/titulo-produto.ts` ("Nome: ficha técnica, <termos da categoria>").
+
 ## Regras editoriais (inegociáveis)
 
 - **Nunca afirmar uso, teste ou medição.** Ninguém aqui teve o produto na mão.
