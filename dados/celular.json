@@ -874,7 +874,7 @@
         "fonteAdotada": "motorola-oficial",
         "valorDivergente": "173,5 × 84,00 × 4,40 (A × L × P)",
         "fonteDivergente": "motorola-oficial",
-        "observacao": "A tabela da loja oficial da Motorola dá 84,00 mm de largura e 4,40 mm de espessura. Um aparelho de 6,7\" com bateria de 5000 mAh não tem 4,4 mm de espessura, e 84 mm é mais largo que qualquer celular desta lista. Como o fabricante se contradiz na própria ficha, o campo fica em branco."
+        "observacao": "A tabela da loja oficial da Motorola dá 84,00 mm de largura e 4,40 mm de espessura. Um aparelho de 6,7\" com bateria de 5000 mAh não tem 4,4 mm de espessura, e 84 mm de largura não fecha com a tela: o Galaxy A17 e o Moto g86, também de 6,7\", declaram 77,9 e 74,74 mm. Como o fabricante se contradiz na própria ficha, o campo fica em branco."
       }
     ],
     "fontes": [
