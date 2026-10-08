@@ -286,9 +286,16 @@ function encurtar(texto, limite = 70) {
   const pontuacao = Math.max(
     ...[" — ", " – ", ", ", ": ", "; "].map((c) => fatia.lastIndexOf(c)),
   );
-  let melhor = pontuacao >= espaco - 12 ? pontuacao : espaco;
+  // Prefere fechar numa oração (pontuação) a cortar no meio dela, mesmo que
+  // sobre espaço: "1800 W, a maior potência entre as dez…" lê pior do que
+  // "1800 W, a maior potência entre as dez air fryers…" só com a vírgula.
+  let melhor = pontuacao >= limite * 0.45 ? pontuacao : espaco;
   if (melhor < limite * 0.5) melhor = -1;
-  return (melhor > 0 ? fatia.slice(0, melhor) : fatia).replace(/[\s,;:—–-]+$/, "") + "…";
+  let corte = (melhor > 0 ? fatia.slice(0, melhor) : fatia).replace(/[\s,;:—–-]+$/, "");
+  // Não termina em palavra de ligação ("que", "de", "e"...): fica parecendo erro.
+  const ligacao = /\s(que|a|o|e|de|da|do|das|dos|com|em|para|por|as|os|um|uma|no|na|nos|nas|ao|à|entre|sem)$/i;
+  while (ligacao.test(corte)) corte = corte.replace(ligacao, "");
+  return corte.replace(/[\s,;:—–-]+$/, "") + "…";
 }
 
 /* ---------------------------------------------------------------- cartão */
