@@ -15,7 +15,8 @@ import {
   valorLegivel,
 } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
-import { ogImagem, tituloLongoDemais, tituloSeo } from "@/lib/site";
+import { ogImagem, tituloSeo } from "@/lib/site";
+import { tituloProduto } from "@/lib/titulo-produto";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import {
   conteudoDoProduto,
@@ -63,18 +64,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     };
   }
   return {
-    // "Nome: ficha tecnica oficial" e o titulo que se quer no resultado. Em seis
-    // produtos de nome comprido ele estoura o limite, e ai o sufixo descritivo
-    // sai e fica o nome — que e o que a pessoa digitou na busca.
-    title: tituloSeo(
-      tituloLongoDemais(`${p.nome}: ficha técnica oficial`)
-        ? p.nome
-        : `${p.nome}: ficha técnica oficial`,
-    ),
+    // "Nome: ficha tecnica, <termos da categoria>", ate 60 caracteres; ver
+    // lib/titulo-produto.ts. Nome comprido demais fica so o nome, que e o que
+    // a pessoa digitou na busca.
+    title: tituloSeo(tituloProduto(p.nome, p.categoria)),
     description: p.resumo,
     alternates: { canonical: `/produtos/${p.slug}` },
     openGraph: {
-      title: `${p.nome}: ficha técnica oficial`,
+      title: tituloProduto(p.nome, p.categoria),
       description: p.resumo,
       ...ogImagem(p.imagem),
     },
