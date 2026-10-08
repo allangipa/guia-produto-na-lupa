@@ -12,7 +12,7 @@ Ritmo sugerido: 2 por semana. A fila cobre 4 semanas.
 | # | Produto | Impressões | O que o Google autocompleta | Por que agora |
 |---|---|---|---|---|
 | 1 | Motorola Moto g35 5G — **publicada em 08/10** (`/reviews/motorola-moto-g35/`, nota 6,4 depois da correção) | 155 | "moto g35 é bom", "ficha técnica", "256gb preço" | Página com mais impressões do site inteiro, 1 clique só: falta a análise para converter |
-| 2 | Motorola Moto g86 5G | 90 | "moto g86 é bom", "ficha técnica", "preço" | 2ª página em impressões; já existe o comparativo Galaxy A57 vs Moto g86 para linkar |
+| 2 | Motorola Moto g86 5G — **publicada em 08/10** (`/reviews/motorola-moto-g86/`, nota 7,5) | 90 | "moto g86 é bom", "ficha técnica", "preço" | 2ª página em impressões; já existe o comparativo Galaxy A57 vs Moto g86 para linkar |
 | 3 | AOC AGON G50 24G50F | 37 | "aoc 24g50f review" | Monitores é o cluster mais forte (guia com 59 impressões, LG 27G411B 42, 27G523B 31); já existe o comparativo LG 24G411A vs AOC 24G50F |
 | 4 | Electrolux LL14X (lava-louças) | 38 | "lava louças electrolux ll14x ou ls14e" | Busca de comparação direta; a LS14E está na base |
 | 5 | Amazfit Bip Max | 25 | "é bom", "ficha técnica", "vs bip 6", "preço" | Quatro sinais de compra no autocomplete; Bip 6 está na base |

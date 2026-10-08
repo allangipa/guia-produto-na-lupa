@@ -589,7 +589,7 @@
     "modelo": "XT2527-1",
     "categoria": "celular",
     "resumo": "A ficha mais completa entre os Android da base: tela pOLED 1,5K a 120 Hz com 4.500 nits declarados, IP68 e IP69, eSIM, 5.200 mAh com 33 W e 185 g. A Motorola publica até o número da Anatel.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-10-08",
     "imagem": {
       "src": "/produtos/motorola-moto-g86.webp",
       "alt": "Motorola Moto g86 5G grafite, frente e verso",
@@ -615,7 +615,7 @@
       "usb": "USB-C (versão não declarada)",
       "sim": "Nano SIM e eSIM",
       "protecaoAgua": "IP68 e IP69, MIL-STD-810H",
-      "material": null,
+      "material": "Corning Gorilla Glass 7i na tela",
       "pesoG": 185,
       "espessuraMm": 7.87,
       "dimensoesMm": "161,21 × 74,74 × 7,87",
@@ -633,8 +633,8 @@
         "titulo": "Moto g86 5G 256 GB — página oficial da Motorola Brasil",
         "url": "https://www.motorola.com.br/smartphone-moto-g86-5g-256gb/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Tela pOLED de 6,7\" 1220 × 2712 a 120 Hz com 4.500 nits e HDR10+, Dimensity 7300, 8 GB de RAM (mais 16 GB de RAM Boost), 256 GB, câmeras Sony LYTIA 600 de 50 MP e ultra-angular de 8 MP, frontal de 32 MP, 5.200 mAh, TurboPower 33 W na caixa, nano SIM e eSIM, NFC, IP68 e IP69 com MIL-STD, 161,21 × 74,74 × 7,87 mm, 185 g, Anatel 00489-25-00330 e 12 meses de garantia.",
-        "consultadaEm": "2026-09-14"
+        "oQueSaiuDaqui": "Tabela: tela pOLED de 6,7\" 1220 × 2712 a 120 Hz com 4.500 nits e HDR10+, Dimensity 7300, 8 GB de RAM (mais 16 GB de RAM Boost), 256 GB (235 GB disponíveis), câmeras Sony LYTIA 600 de 50 MP (80°, f/1,88) e ultra-angular e macro de 8 MP (118,6°, f/2,2), frontal de 32 MP, vídeo 4K a 30 fps, 5.200 mAh, TurboPower 33 W na caixa, nano SIM e eSIM com a segunda entrada para o cartão, Wi-Fi 802.11ax, Bluetooth 5.4, NFC, sem rádio FM, 161,21 × 74,74 × 7,87 mm, 185 g, Anatel 00489-25-00330, modelo XT2527-1 e 12 meses de garantia. Corpo e notas de rodapé (lidos em 08/10): Corning Gorilla Glass 7i, estabilização óptica (na resposta de perguntas frequentes), IP68 (1,5 m por 30 min em água doce) e IP69 (jatos de água quente por 30 s), com exposição fora desses parâmetros fora da garantia, procedimentos do MIL-STD-810H, capacidade de bateria \"comum\" de 5.200 mAh e \"certificada\" de 5.100 mAh, \"até 41 horas\" em perfil de uso misto com espera e rede ideal, e o superlativo \"a melhor tela da categoria\" definido por faixa de preço, lançamento até maio de 2025 e brilho máximo.",
+        "consultadaEm": "2026-10-08"
       },
       {
         "id": "amazon-g86",

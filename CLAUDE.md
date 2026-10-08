@@ -669,6 +669,29 @@ confunde com documento sem folha de estilo.
   catalogados não eram vendidos no Brasil; o esquema `camposEnergia` ficou em
   `lib/specs.ts`. Próximas categorias, na ordem da fila: tablets, periféricos,
   máquinas de lavar, casa conectada.
+- **Página da Motorola: a tabela não é a ficha inteira.** Aprendido em
+  08/10/2026, com uma análise publicada errada no mesmo dia. A API VTEX da loja
+  (`/api/catalog_system/pub/products/search/<slug>/p`) devolve a tabela em
+  `allSpecifications`, e é ela que as fichas Motorola leram em setembro. Mas
+  brilho em nits, vidro (Gorilla Glass), estabilização óptica, microSD e
+  resistência a água moram no **corpo da página** (`PdpContent`, inclusive
+  numa resposta de perguntas frequentes) e nas **notas de rodapé numeradas**
+  (`[1]`, `[2]`…). A análise do Moto g35 disse que a página não dava nits, vidro
+  nem informação sobre água; o corpo dava 1.000 nits, Gorilla Glass 3 e "aparelho
+  não resistente à água/imersão". Corrigida no mesmo dia, com nota de correção.
+
+  **Os rodapés são o melhor material dessas páginas**: definem cada superlativo
+  ("a melhor tela da categoria" = mais brilhante de uma faixa de preço, com
+  data), a capacidade **certificada** da bateria (5.100 mAh contra os 5.200
+  "comuns" do g86 e do g56) e o perfil das "41 horas" (uso misto com espera).
+  **Ao apurar Motorola, ler tabela, corpo e rodapé**, e citar preço de rodapé
+  nunca: a régua deles é faixa em reais, e o site não publica preço.
+
+  **Pendente:** as fichas do Moto g06, do g56 e do Edge 60 Fusion têm o mesmo
+  problema — brilho, vidro e água em branco quando o corpo da página responde.
+  Corrigir muda contas publicadas de celular; conferir guias e comparativos da
+  categoria junto.
+
 - **Celulares** (`dados/celular.json`, esquema `camposCelular`) abriu em
   14/09/2026 com a linha iPhone de 2026: 18 Pro, 18 Pro Max, 17, Air e Duo,
   tudo das páginas de especificações da Apple Brasil (`apple.com/br/.../specs/`,
