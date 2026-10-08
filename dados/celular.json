@@ -836,13 +836,13 @@
     "modelo": "Moto g35 5G",
     "categoria": "celular",
     "resumo": "O 5G mais barato desta lista, com Unisoc no lugar do MediaTek e tela IPS de 120 Hz. Também sai sem medidas: a Motorola publica 84 mm de largura e 4,4 mm de espessura, o que não existe num aparelho de 6,7\" com 5000 mAh.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-10-08",
     "specs": {
       "formato": "Barra",
       "telaPol": 6.7,
       "resolucao": "2400 × 1080 (FHD+), IPS",
       "taxaHz": 120,
-      "brilhoPicoNits": null,
+      "brilhoPicoNits": 1000,
       "chip": "Unisoc T760 (octa-core 2,2 GHz)",
       "memoriaRamGb": 4,
       "armazenamento": "256 GB, mais microSD até 1 TB",
@@ -855,8 +855,8 @@
       "cargaSemFioW": null,
       "usb": "USB-C (versão não declarada)",
       "sim": "Nano SIM e eSIM",
-      "protecaoAgua": null,
-      "material": null,
+      "protecaoAgua": "Não resistente a água nem a imersão (declarado); a tela aceita toque com respingo (Smart Water Touch)",
+      "material": "Corning Gorilla Glass 3 na tela; traseira em vegan leather",
       "pesoG": 188.2,
       "espessuraMm": null,
       "dimensoesMm": null,
@@ -883,8 +883,8 @@
         "titulo": "Motorola Moto g35 5G 256 GB — página oficial na loja da Motorola Brasil",
         "url": "https://www.motorola.com.br/smartphone-moto-g35-5g-256gb/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Android 14, Unisoc T760 octa-core de 2,2 GHz, 4 GB de RAM, 256 GB com microSD até 1 TB, tela de 6,7\" FHD+ IPS de 120 Hz, câmera de 50 MP e ultra-angular de 8 MP, frontal de 16 MP, 5000 mAh, TurboPower 20 W na caixa, nano SIM e eSIM, Bluetooth 5.0, NFC, 188,2 g, homologação Anatel 071042400330 e 12 meses. Não declara brilho, proteção contra água, material nem o código XT, e as medidas publicadas não fecham.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "Android 14, Unisoc T760 octa-core de 2,2 GHz, 4 GB de RAM (mais RAM Boost, memória virtual que usa parte do armazenamento, pela nota de rodapé), 256 GB com microSD até 1 TB, tela de 6,7\" FHD+ IPS de 120 Hz (60 a 120 Hz no modo automático) com 1.000 nits de brilho máximo e Gorilla Glass 3, câmera de 50 MP e ultra-angular de 8 MP, frontal de 16 MP, vídeo Full HD a 30 fps na tabela e \"vídeos em 4K\" no texto da página, 5000 mAh, TurboPower 20 W na caixa, nano SIM e eSIM com a segunda entrada para o cartão, Bluetooth 5.0, NFC, 188,2 g, homologação Anatel 071042400330 e 12 meses. A nota de rodapé do Smart Water Touch declara: \"Aparelho não resistente à água/imersão\". Não declara horas de bateria nem o código XT, e as medidas publicadas não fecham. Consulta de 18/09 lia só a tabela; em 08/10 foram lidos também o corpo e as notas de rodapé da página.",
+        "consultadaEm": "2026-10-08"
       },
       {
         "id": "amazon-g35",
