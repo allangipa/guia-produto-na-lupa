@@ -3,7 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { todosOsProdutos } from "./produtos";
 import { aindaNaoSaiu } from "./specs";
-import { LIMITE_TITULO, LOJAS } from "./site";
+import { LIMITE_DESCRICAO, LIMITE_TITULO, LOJAS } from "./site";
 
 /**
  * As lojas de um produto, por chave: `{ amazon: "...", magalu: "..." }`.
@@ -160,6 +160,9 @@ export type Review = {
    * titulo cortado no meio.
    */
   tituloCurto?: string;
+  /** Meta description para o Google (120 a 155 caracteres), no formato de
+   * busca. Opcional: sem ele, a description e o `subtitulo`, como antes. */
+  descricao?: string;
   subtitulo: string;
   publicadoEm: string;
   atualizadoEm: string;
@@ -194,6 +197,9 @@ export type Comparativo = {
    * titulo cortado no meio.
    */
   tituloCurto?: string;
+  /** Meta description para o Google (120 a 155 caracteres), no formato de
+   * busca. Opcional: sem ele, a description e o `subtitulo`, como antes. */
+  descricao?: string;
   subtitulo: string;
   publicadoEm: string;
   atualizadoEm: string;
@@ -236,6 +242,9 @@ export type Guia = {
    * titulo cortado no meio.
    */
   tituloCurto?: string;
+  /** Meta description para o Google (120 a 155 caracteres), no formato de
+   * busca. Opcional: sem ele, a description e o `subtitulo`, como antes. */
+  descricao?: string;
   subtitulo: string;
   publicadoEm: string;
   atualizadoEm: string;
@@ -439,6 +448,7 @@ export function comparativo(slug: string): Comparativo | undefined {
 function verificarTitulos() {
   const longos: string[] = [];
   const curtoAindaLongo: string[] = [];
+  const descricaoLonga: string[] = [];
   const tudo = [
     ...todosOsComparativos().map((c) => ({ o: "comparativo", ...c })),
     ...todosOsReviews().map((r) => ({ o: "review", ...r })),
@@ -451,6 +461,9 @@ function verificarTitulos() {
     if (x.tituloCurto && x.tituloCurto.length > LIMITE_TITULO) {
       curtoAindaLongo.push(`${x.o} "${x.slug}" (${x.tituloCurto.length})`);
     }
+    if (x.descricao && x.descricao.length > LIMITE_DESCRICAO) {
+      descricaoLonga.push(`${x.o} "${x.slug}" (${x.descricao.length})`);
+    }
   }
   if (longos.length) {
     throw new Error(
@@ -462,6 +475,11 @@ function verificarTitulos() {
   if (curtoAindaLongo.length) {
     throw new Error(
       `\`tituloCurto\` acima de ${LIMITE_TITULO} caracteres: ${curtoAindaLongo.join("; ")}.`,
+    );
+  }
+  if (descricaoLonga.length) {
+    throw new Error(
+      `\`descricao\` acima de ${LIMITE_DESCRICAO} caracteres (o Google corta): ${descricaoLonga.join("; ")}.`,
     );
   }
 }

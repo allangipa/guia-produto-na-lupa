@@ -32,11 +32,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!r) return {};
   return {
     title: tituloSeo(r.tituloCurto ?? r.titulo),
-    description: r.subtitulo,
+    description: r.descricao ?? r.subtitulo,
     alternates: { canonical: `/reviews/${r.slug}` },
     openGraph: {
       title: r.titulo,
-      description: r.subtitulo,
+      description: r.descricao ?? r.subtitulo,
       type: "article",
       publishedTime: r.publicadoEm,
       modifiedTime: r.atualizadoEm,

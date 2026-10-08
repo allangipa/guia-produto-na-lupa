@@ -33,11 +33,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!g) return {};
   return {
     title: tituloSeo(g.tituloCurto ?? g.titulo),
-    description: g.subtitulo,
+    description: g.descricao ?? g.subtitulo,
     alternates: { canonical: `/guias/${g.slug}` },
     openGraph: {
       title: g.titulo,
-      description: g.subtitulo,
+      description: g.descricao ?? g.subtitulo,
       ...ogImagem(
         fotoDaBase(
           g.escolhas.map((e) => e.lojas),

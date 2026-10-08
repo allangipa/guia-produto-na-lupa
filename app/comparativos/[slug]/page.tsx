@@ -32,14 +32,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!c) return {};
   return {
     title: tituloSeo(c.tituloCurto ?? c.titulo),
-    description: c.subtitulo,
+    description: c.descricao ?? c.subtitulo,
     alternates: { canonical: `/comparativos/${c.slug}` },
     // A arte de capa é sobretudo isto: o que aparece quando alguém cola o link
     // numa conversa. Sem ela, a rede escolhe sozinha um pedaço da página — por
     // isso, na falta da arte, entra a foto do primeiro produto comparado.
     openGraph: {
       title: c.titulo,
-      description: c.subtitulo,
+      description: c.descricao ?? c.subtitulo,
       type: "article",
       publishedTime: c.publicadoEm,
       modifiedTime: c.atualizadoEm,

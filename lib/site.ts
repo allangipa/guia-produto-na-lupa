@@ -212,6 +212,8 @@ export function ogImagem(img?: { src: string; alt: string }) {
  * `tituloCurto` escrito a mao no frontmatter.
  */
 export const LIMITE_TITULO = 60;
+/** Meta description: o Google corta perto de 155 caracteres. */
+export const LIMITE_DESCRICAO = 160;
 const SUFIXO = ` | ${site.nome}`;
 
 export function tituloSeo(t: string) {
