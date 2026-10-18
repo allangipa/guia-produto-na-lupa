@@ -1313,7 +1313,7 @@ confunde com documento sem folha de estilo.
   substitui por varejo: cinco lojas com o mesmo número são o texto do
   fabricante copiado cinco vezes.
 
-- **Listas por recorte (`/listas`), 19 desde 17/10/2026.** Um recorte é uma
+- **Listas por recorte (`/listas`), 20 desde 18/10/2026.** Um recorte é uma
   fatia de categoria que corresponde a uma busca literal ("air fryer 12
   litros", "monitor 144hz", "melhor celular da samsung"), definido em
   `lib/recortes.ts` com filtro, critério visível e texto próprio. O
@@ -1339,9 +1339,10 @@ confunde com documento sem folha de estilo.
   com números, ou dizem que a ficha não responde. Sem link em markdown na
   resposta (`negrito()` só faz o negrito), sem preço, sem estimativa. O
   `verificarPerguntas()` em `lib/conteudo.ts` quebra o build com pergunta sem
-  "?" ou resposta abaixo de 80 caracteres. Sete guias têm o bloco (air
+  "?" ou resposta abaixo de 80 caracteres. Oito guias têm o bloco (air
   fryers, monitores, ar-condicionado, nobreak, iPhone, purificadores,
-  cooktops), 5 a 7 perguntas cada; os outros 29 ainda não. Padrão copiado de
+  cooktops e, desde 18/10, geladeiras), 5 a 7 perguntas cada; os outros 28
+  ainda não. Padrão copiado de
   Zoom, Promobit e Panelas e Cozinha, que fecham o guia com H2 em forma de
   pergunta (`docs/concorrentes-2026-10-17.md`).
 - **A análise abre com o veredito, desde 17/10/2026.** Até então: título,
@@ -1636,6 +1637,22 @@ confunde com documento sem folha de estilo.
   prateleiras, 261 SVGs inline de ícone, 117 KB só de `class=`) mais a cópia
   que o React Server Components carrega — se o LCP continuar alto depois
   desta rodada, o próximo corte é na quantidade de cards da home.
+- **Rodada de buscas distantes, 18/10/2026**, a partir do Search Console
+  (últimos 3 meses). Buscas que o site responde e em que aparecia longe:
+  "calculadora para nobreak" (posição 51), "tamanhos de air fryer" e
+  "dimensões air fryer" (70 a 92), "1ms mprt" (72), "monitor 1ms 75hz" (30),
+  "peso de uma geladeira" (27). O que mudou: o `<title>` das calculadoras de
+  nobreak e de air fryer passou a ter "Calculadora" e "Tamanhos" (o H1 já
+  dizia, o título não); a de nobreak ganhou a tabela de autonomia declarada
+  **com a carga escrita pelo fabricante**, e a de air fryer, as medidas P × L
+  × A; entrou o recorte `monitores-1ms-mprt` (os oito cujo 1 ms não é GtG); e
+  o guia de geladeiras ganhou seis perguntas (peso só Electrolux publica,
+  watts nenhuma das nove — a média de 18 a 44 W é conta nossa, rotulada).
+  **Análises e guias com zero clique não foram mexidos**: já seguem o formato
+  de 08/10, e o volume (no máximo 94 impressões por página, posição 7 a 9) é
+  amostra pequena demais para chamar de defeito. **Ficaram de fora**
+  "chaleira elétrica philips walita" (uma ficha Walita na base) e
+  "torradeira" (busca genérica demais para uma página nossa ganhar).
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
 

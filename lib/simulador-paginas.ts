@@ -47,7 +47,9 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     categoria: { slug: "ar-condicionado", nome: "Ar-condicionado" },
   },
   nobreak: {
-    seo: "Qual nobreak comprar: calcule a potência pelos seus aparelhos",
+    // "Calculadora" no <title> desde 18/10/2026: o H1 já dizia, o título
+    // não, e "calculadora para nobreak" estava na posição 51 no Search Console.
+    seo: "Calculadora de nobreak: watts, VA e autonomia pela ficha",
     h1: "Calculadora de nobreak",
     descricao:
       "Some os watts dos seus aparelhos e veja qual nobreak aguenta a carga — em watts, não em VA —, com forma de onda e PFC tirados da ficha oficial.",
@@ -59,7 +61,9 @@ export const PAGINAS: Record<Foco, PaginaFerramenta> = {
     categoria: { slug: "nobreaks", nome: "Nobreaks" },
   },
   airfryer: {
-    seo: "Qual tamanho de air fryer comprar: quanta batata cabe",
+    // "Tamanhos" e "medidas" no <title> desde 18/10/2026: "tamanhos de air
+    // fryer" e "dimensões air fryer" estavam entre as posições 70 e 92.
+    seo: "Tamanhos de air fryer: litros, cesto e medidas, por ficha",
     h1: "Qual air fryer para a sua família",
     descricao:
       "Qual tamanho de air fryer para quantas pessoas: o litro do nome é a caixa; decide o cesto e quanta batata o fabricante diz que cabe.",
@@ -154,6 +158,11 @@ const ou = (v: number | null, sufixo = "", casas = 1) => (v == null ? NI : `${n(
 const sim = (v: unknown) => (v === true ? "Sim" : v === false ? "Não" : NI);
 /** Algumas fichas não trazem a marca no nome ("High Wall Eco Inverter 3"). */
 const nome = (p: Produto) => (p.nome.toLowerCase().includes(p.marca.toLowerCase()) ? p.nome : `${p.marca} ${p.nome}`);
+/** "453 × 333 × 303 (P × L × A)" vira "453 × 333 × 303 mm"; a ordem vai no cabeçalho. */
+const medidas = (p: Produto) => {
+  const m = txt(p.specs.dimensoesMm).replace(/\s*\(P × L × A\)\s*$/, "").trim();
+  return m ? `${m} mm` : NI;
+};
 const porMarca = (a: Produto, b: Produto) => a.marca.localeCompare(b.marca) || a.nome.localeCompare(b.nome);
 
 export function tabelasDoFoco(foco: Foco, base: Record<string, Produto>): Tabela[] {
@@ -197,18 +206,39 @@ export function tabelasDoFoco(foco: Foco, base: Record<string, Produto>): Tabela
               celulas: [nome(p), ou(num(p.specs.potenciaVa), " VA"), ou(num(p.specs.potenciaW), " W"), txt(p.specs.formaOnda) || NI, sim(p.specs.compativelPfc)],
             })),
         },
+        {
+          // Desde 18/10/2026: "calcular autonomia nobreak" e "calculadora
+          // nobreak autonomia" aparecem no Search Console e no autocomplete.
+          // A autonomia só vale com a carga, e a tabela copia a carga que a
+          // ficha declara junto — sem converter, sem estimar.
+          titulo: "A autonomia que cada ficha declara, com a carga",
+          nota: "Minutos sem a carga não dizem nada: cada linha traz a carga que o próprio fabricante escreveu. Onde a ficha não publica autonomia, o simulador não calcula uma.",
+          cabecalho: ["Modelo", "Potência (VA)", "Autonomia declarada"],
+          linhas: produtos("nobreaks")
+            .sort((a, b) => (num(a.specs.potenciaVa) ?? 0) - (num(b.specs.potenciaVa) ?? 0) || porMarca(a, b))
+            .map((p) => ({
+              slug: p.slug,
+              celulas: [nome(p), ou(num(p.specs.potenciaVa), " VA"), txt(p.specs.autonomia) || NI],
+            })),
+        },
       ];
     case "airfryer":
       return [
         {
-          titulo: "O litro do nome, o cesto e a batata",
-          nota: "Capacidade total é a caixa; útil é o cesto. A batata é o que o fabricante declara que cabe de uma vez.",
-          cabecalho: ["Modelo", "Capacidade total", "Capacidade útil", "Batata por vez"],
+          titulo: "O litro do nome, o cesto, a batata e as medidas",
+          nota: "Capacidade total é a caixa; útil é o cesto. A batata é o que o fabricante declara que cabe de uma vez. As medidas são as do aparelho, em milímetros, na ordem profundidade × largura × altura que as fichas usam.",
+          cabecalho: ["Modelo", "Capacidade total", "Capacidade útil", "Batata por vez", "Medidas (P × L × A)"],
           linhas: produtos("cozinha")
             .sort((a, b) => (num(a.specs.capacidadeTotalL) ?? 0) - (num(b.specs.capacidadeTotalL) ?? 0) || porMarca(a, b))
             .map((p) => ({
               slug: p.slug,
-              celulas: [nome(p), ou(num(p.specs.capacidadeTotalL), " L"), ou(num(p.specs.capacidadeUtilL), " L"), ou(num(p.specs.batataMaxKg), " kg", 2)],
+              celulas: [
+                nome(p),
+                ou(num(p.specs.capacidadeTotalL), " L"),
+                ou(num(p.specs.capacidadeUtilL), " L"),
+                ou(num(p.specs.batataMaxKg), " kg", 2),
+                medidas(p),
+              ],
             })),
         },
       ];

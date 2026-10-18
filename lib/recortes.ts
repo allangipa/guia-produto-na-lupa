@@ -328,6 +328,34 @@ export const recortes: Recorte[] = [
     ],
   },
   {
+    // Desde 18/10/2026. O Search Console daquele dia tinha "1ms mprt" na
+    // posição 72, "1 ms mprt" na 61, "gtg monitor" na 55 e "monitor 1ms
+    // 75hz" na 30, sem página que respondesse; o recorte de 144 Hz fala de
+    // resposta, mas lista por taxa. Este lista pela régua.
+    slug: "monitores-1ms-mprt",
+    categoria: "monitores",
+    titulo: "Monitor 1 ms MPRT ou MBR: quando o 1 ms não é GtG",
+    subtitulo:
+      "Oito fichas declaram 1 ms ou menos medido por outra régua que não a GtG. Três marcas, e numa delas o modo que dá o número desliga a sincronização.",
+    buscaQueOrigina: "1ms mprt",
+    posicaoNaSugestao: "sugerida com “1ms mprt vs 1ms gtg”, “1ms mprt ou gtg” e “1ms mprt 5ms gtg”; para “monitor 1ms”, com “monitor 1ms gtg” e “monitor 1ms o que significa”",
+    fonteSugestao: "google",
+    consultadaEm: "2026-10-18",
+    criterio: "Fichas que declaram tempo de resposta de 1 ms ou menos e dizem que a medida é MPRT ou MBR — não GtG.",
+    filtro: (p) =>
+      typeof p.specs.tempoRespostaMs === "number" &&
+      p.specs.tempoRespostaMs <= 1 &&
+      typeof p.specs.medidaResposta === "string" &&
+      !p.specs.medidaResposta.startsWith("GtG"),
+    texto: [
+      "“1ms mprt” é uma busca que já vem com a dúvida dentro: o autocomplete do Google completa com “vs 1ms gtg”, “ou gtg” e “5ms gtg”. Quem digita viu dois números de tempo de resposta em dois monitores e quer saber se são o mesmo número. **Não são.** GtG mede quanto o pixel leva para trocar de um tom para outro; MPRT mede quanto tempo a imagem persiste na tela durante o movimento. As duas saem em milissegundos e não se convertem uma na outra.",
+      "Nesta base, **oito dos vinte monitores** declaram 1 ms ou menos por uma régua que não é a GtG. Os três **Samsung Odyssey G5** (27, 32 e 34 polegadas) declaram 1 ms MPRT, e é a única medida que a Samsung publica para eles. Os dois **AOC AGON 24G50F e 27G50F** declaram 0,5 ms MPRT. O **AOC 22B35HM23** declara 1 ms MPRT, e a mesma ficha diz que os 120 Hz do nome são com overclock, sobre 100 Hz nativos.",
+      "Os dois **LG UltraGear 24G411A e 27G411B** declaram 1 ms **MBR**, que é o nome da LG para um modo de redução de desfoque. A própria LG escreve na ficha que esse modo **escurece a tela e desativa o FreeSync** enquanto está ligado. Ou seja: o 1 ms do anúncio existe num modo que tira outra coisa que o anúncio também promete. As duas coisas estão na mesma página, e só uma vai para o título.",
+      "Para comparação, as fichas que declaram 1 ms ou menos **em GtG** são cinco: LG 24GS60F, 27GS60F e 27G523B, com 1 ms, e Dell SE2426HG e Alienware AW2525HM, com 0,5 ms. Cinco monitores da base declaram 5 ms GtG — e um 5 ms GtG não é, pela ficha, pior que um 1 ms MPRT, porque os dois números não estão na mesma régua.",
+      "E para quem chegou buscando **monitor 1 ms de 75 Hz**: nenhum monitor desta base junta os dois. O único de 75 Hz, o LG 20U401A, declara **2 ms GtG**. Nas fichas lidas aqui, todo tempo de resposta de 1 ms ou menos vem com 120 Hz ou mais — os oito desta lista vão de 120 a 165 Hz.",
+    ],
+  },
+  {
     slug: "monitores-lg",
     categoria: "monitores",
     titulo: "Monitor LG: 24 e 27 polegadas, de 75 a 200 Hz, pela ficha",
