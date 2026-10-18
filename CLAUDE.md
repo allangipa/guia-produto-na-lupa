@@ -121,6 +121,17 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
   entrega. Sem ela, a description é o `subtitulo`.
 - Fichas de produto não têm frontmatter: o `<title>` sai de
   `lib/titulo-produto.ts` ("Nome: ficha técnica, <termos da categoria>").
+- **A description da ficha sai da base, desde 18/10/2026**
+  (`lib/descricao-produto.ts`): nome, até três números publicados (numéricos
+  antes de texto, destaques da categoria primeiro) e a entrega — "Ficha
+  oficial: 19 de 22 campos, com fonte, e o que a Motorola não informa". Até
+  ali era o `resumo`, a frase crítica do topo, que continua na página e no
+  `og:description`. Motivo, no Search Console de 18/10 (últimos 3 meses):
+  fichas com 76% das impressões do site (4.257 de 5.634), posição média ~9 e
+  CTR de 0,47%, contra 2,1% dos comparativos, que já seguiam "números na
+  frente". As buscas que trazem o site são "moto g35 5g ficha técnica" — o
+  resultado precisa mostrar a ficha, não a crítica. **Conferir o CTR das
+  fichas no Search Console no fim de outubro** para saber se valeu.
 
 ## Regras editoriais (inegociáveis)
 

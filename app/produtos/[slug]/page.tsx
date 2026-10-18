@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { descricaoProduto } from "@/lib/descricao-produto";
 import Link from "next/link";
 import { LevaAoSimulador } from "@/components/leva-ao-simulador";
 import { notFound } from "next/navigation";
@@ -68,7 +69,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     // lib/titulo-produto.ts. Nome comprido demais fica so o nome, que e o que
     // a pessoa digitou na busca.
     title: tituloSeo(tituloProduto(p.nome, p.categoria)),
-    description: p.resumo,
+    // Números da ficha na frente, depois a entrega (lib/descricao-produto.ts,
+    // 18/10/2026). O resumo crítico continua no topo da página e no og.
+    description: descricaoProduto(p),
     alternates: { canonical: `/produtos/${p.slug}` },
     openGraph: {
       title: tituloProduto(p.nome, p.categoria),
