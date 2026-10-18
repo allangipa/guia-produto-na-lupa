@@ -2,11 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { recortes, produtosDoRecorte } from "@/lib/recortes";
 import { categoria as buscarCategoria } from "@/lib/categorias";
+import { tituloSeo } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Listas por recorte",
+  title: tituloSeo("Listas por tamanho, marca e recurso: air fryer, monitor, celular"),
   description:
-    "Fatias de categoria que respondem o que as pessoas buscam: batedeira planetária, aspirador sem fio, monitor de 27 polegadas.",
+    "Air fryer de 12 litros ou de 4, monitor 144 Hz ou para trabalho, celular IP68 ou com carga sem fio: listas que respondem a busca com as fichas oficiais.",
   alternates: { canonical: "/listas" },
 };
 
@@ -18,7 +19,7 @@ export default function ListaDeRecortes() {
   }));
   return (
     <div className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
-      <h1 className="font-titulo text-3xl tracking-tight">Listas por recorte</h1>
+      <h1 className="font-titulo text-3xl tracking-tight">Listas por tamanho, marca e recurso</h1>
       <p className="mt-4 max-w-[62ch] text-lg text-tinta-suave">
         Quase ninguém procura por modelo. Procura por recorte — “batedeira
         planetária”, “aspirador sem fio”, “monitor 27 polegadas”. Cada lista

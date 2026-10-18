@@ -15,6 +15,7 @@ import { categoria as buscarCategoria } from "@/lib/categorias";
 import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { LevaAoSimulador } from "@/components/leva-ao-simulador";
+import { recortesDaCategoria, produtosDoRecorte } from "@/lib/recortes";
 import { Lacunas } from "@/components/pros-contras";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 import { EscolhaDoGuia } from "@/components/escolha-do-guia";
@@ -53,6 +54,11 @@ export default async function PaginaGuia({ params }: Params) {
   const g = guia(slug);
   if (!g) notFound();
   const cat = buscarCategoria(g.categoria);
+  // Rótulo curto para a pílula: o título dos recortes é frase de busca.
+  const listas = recortesDaCategoria(g.categoria).map((r) => ({
+    slug: r.slug,
+    rotulo: `${r.titulo.split(":")[0]} (${produtosDoRecorte(r).length})`,
+  }));
 
   const { content } = await compileMDX({
     source: g.corpo,
@@ -112,6 +118,21 @@ export default async function PaginaGuia({ params }: Params) {
       <div className="-mt-4 mb-10">
         <LevaAoSimulador categoria={g.categoria} />
       </div>
+
+      {/* As listas por recorte da categoria, desde 17/10/2026. Quem chega no
+          guia de air fryer e quer "a de 12 litros" tem a página certa a um
+          clique — e é o único caminho do robô até /listas a partir de uma
+          página que já ranqueia. Antes só a página de categoria linkava. */}
+      {listas.length > 0 && (
+        <nav aria-label="Listas desta categoria" className="-mt-4 mb-10 flex flex-wrap items-center gap-2 text-[0.88rem]">
+          <span className="text-tinta-suave">Listas:</span>
+          {listas.map((r) => (
+            <Link key={r.slug} href={`/listas/${r.slug}`} className="pilula">
+              {r.rotulo}
+            </Link>
+          ))}
+        </nav>
+      )}
 
       <div className="prosa">{content}</div>
 

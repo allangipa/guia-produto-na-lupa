@@ -1274,6 +1274,23 @@ confunde com documento sem folha de estilo.
   substitui por varejo: cinco lojas com o mesmo número são o texto do
   fabricante copiado cinco vezes.
 
+- **Listas por recorte (`/listas`), 19 desde 17/10/2026.** Um recorte é uma
+  fatia de categoria que corresponde a uma busca literal ("air fryer 12
+  litros", "monitor 144hz", "melhor celular da samsung"), definido em
+  `lib/recortes.ts` com filtro, critério visível e texto próprio. O
+  `verificar()` quebra o build com menos de 5 fichas, com a categoria inteira
+  ou com menos de 600 caracteres de texto — é o que separa recorte de
+  página-porta. Os 7 primeiros (19/09) saíram das sugestões da busca da
+  Amazon; os 12 de 17/10, do autocomplete do Google (`fonteSugestao`,
+  `consultadaEm`; a página escreve fonte e data). Decisão de 17/10, depois de
+  ler os concorrentes (`docs/concorrentes-2026-10-17.md`): quem ranqueia em
+  "melhor air fryer" tem um guia por tamanho, marca e tipo, e nós tínhamos um
+  por categoria. Os guias linkam os recortes da sua categoria em pílulas
+  (`app/guias/[slug]/page.tsx`), e o rótulo é o título cortado nos dois
+  pontos. **Título de recorte não leva número de fichas**: a contagem muda
+  com a base e o `verificar()` não lê título. Ficaram de fora por falta de
+  ficha: air fryer Mondial (4, mínimo 5) e tudo que é "celular até R$ X", que
+  domina o autocomplete e não podemos atender sem preço.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

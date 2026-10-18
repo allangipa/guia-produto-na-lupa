@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { recortes, recorte as buscar, produtosDoRecorte } from "@/lib/recortes";
 import { categoria as buscarCategoria } from "@/lib/categorias";
 import { camposDa } from "@/lib/produtos";
+import { dataLegivel } from "@/lib/conteudo";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
 import { JsonLd, schemaBreadcrumb } from "@/lib/schema";
@@ -100,10 +101,14 @@ export default async function PaginaRecorte({ params }: Params) {
           lacuna com estimativa.
         </p>
         <p className="mt-3 text-[0.8rem] leading-relaxed text-tinta-suave">
-          Esta lista existe porque <strong>{r.buscaQueOrigina}</strong> é a{" "}
-          {r.posicaoNaSugestao}, nas sugestões da busca da Amazon Brasil
-          consultadas em 19 de setembro de 2026. A Amazon não publica o volume
-          por trás dessa ordem: é sinal de demanda, não medida de venda.
+          Esta lista existe porque <strong>{r.buscaQueOrigina}</strong> é{" "}
+          {r.posicaoNaSugestao},{" "}
+          {r.fonteSugestao === "google"
+            ? "no autocomplete do Google"
+            : "nas sugestões da busca da Amazon Brasil"}{" "}
+          consultado em {dataLegivel(r.consultadaEm ?? "2026-09-19")}. Nem o
+          Google nem a Amazon publicam o volume por trás dessas sugestões: é
+          sinal de demanda, não medida de busca ou de venda.
         </p>
       </section>
 
