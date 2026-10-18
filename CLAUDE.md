@@ -631,6 +631,19 @@ confunde com documento sem folha de estilo.
   parecer uma conta de verdade, **conferir as duas metades**: as trinta horas
   não estão escritas em lugar nenhum da ficha.
 
+  **Em 18/10/2026 o padrão apareceu em nove de vinte cafeteiras**, de quatro
+  marcas (Oster, Britânia, Philco, Cadence), e o site tinha caído nele de novo:
+  a análise da Oster OCAF300 listava "publica consumo em kWh" entre os prós e
+  chamava os 0,6 kWh de "dado incomum", e o comparativo OCAF650 × OCAF600 tinha
+  uma linha "Consumo declarado: 0,75 kW/h". Os nove campos foram esvaziados com
+  divergência, e a análise e o comparativo ganharam nota de correção. Com o
+  campo vazio, a OCAF300 caiu de 93 para 87 no selo e deixou de ser "a maior
+  nota de transparência da categoria" — as Electrolux ECM20, ECM22 e ECM25,
+  que publicam um consumo que não é watt ÷ 1.000 (0,139 e 0,169 kWh), ficaram
+  em 93. **A nota editorial de transparência da análise (8,0) não foi mexida**:
+  o comentário dela já dava como motivo único a xícara de 40 ml; fica para o
+  Allan decidir se baixa.
+
 - **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
   de 423 e não na de 413 por categoria. Não foram investigados; fica anotado.
 - **Produto sem link de afiliado sai da base.** Decisão do Allan em 26/09/2026,
@@ -1339,19 +1352,22 @@ confunde com documento sem folha de estilo.
   com números, ou dizem que a ficha não responde. Sem link em markdown na
   resposta (`negrito()` só faz o negrito), sem preço, sem estimativa. O
   `verificarPerguntas()` em `lib/conteudo.ts` quebra o build com pergunta sem
-  "?" ou resposta abaixo de 80 caracteres. Treze guias têm o bloco (air
+  "?" ou resposta abaixo de 80 caracteres. Dezoito guias têm o bloco (air
   fryers, monitores, ar-condicionado, nobreak, iPhone, purificadores,
   cooktops e, desde 18/10, geladeiras, liquidificadores, batedeiras,
-  ventiladores, furadeiras e lavadoras de alta pressão), 5 a 7 perguntas
-  cada; os outros 23 ainda não. Vão em lotes de cinco, pela ordem de
+  ventiladores, furadeiras, lavadoras de alta pressão, armazenamento,
+  aspiradores, micro-ondas, cafeteiras e tablets), 5 a 7 perguntas cada; os
+  outros 18 ainda não. Vão em lotes de cinco, pela ordem de
   impressões no Search Console. **Cada pergunta tem de existir no
   autocomplete** — a página diz que existe — e cada número da resposta se
   confere contra `dados/*.json` antes do commit: no lote de 18/10, a primeira
   versão errou a contagem de fichas Mondial em liquidificadores e o número de
-  furadeiras de tomada com torque, pegos na conferência. Os guias de
-  liquidificadores e de lavadoras de alta pressão têm o corpo desatualizado
-  em relação à base (falam em 10 e em "sete Electrolux"; a base tem 20 e 6,
-  e a tabela de nomes das lavadoras cita modelos que saíram) — as perguntas
+  furadeiras de tomada com torque, pegos na conferência. Cinco guias têm o
+  corpo desatualizado em relação à base: liquidificadores, cafeteiras e
+  tablets falam em dez fichas e a base tem vinte; lavadoras falam em "sete
+  Electrolux" (são seis) e citam na tabela de nomes modelos que saíram;
+  aspiradores citam o WAP Turbo 1600 e um Midea de 12.000 Pa, que não estão
+  mais na base — as perguntas
   falam da base atual, e o corpo fica para uma revisão própria. Padrão copiado de
   Zoom, Promobit e Panelas e Cozinha, que fecham o guia com H2 em forma de
   pergunta (`docs/concorrentes-2026-10-17.md`).
