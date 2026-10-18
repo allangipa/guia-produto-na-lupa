@@ -50,7 +50,12 @@ export function produtosDaCategoria(categoria: string): Produto[] {
   // componentes que rodam no navegador.
   return bruto.map((p) => {
     const amazon = dadosAmazon(asinDe(p.lojas?.amazon));
-    return { ...p, categoria, ...(amazon ? { amazon } : {}) };
+    // Foto sem `alt` sai com o nome do produto. Em 18/10/2026 eram 74 de 747
+    // (ar-condicionado e outras categorias apuradas em lote), e o Lighthouse
+    // marcava a home por isso em acessibilidade e em SEO. O nome é a
+    // descrição mínima honesta: diz o que está na foto sem inventar detalhe.
+    const imagem = p.imagem && !p.imagem.alt?.trim() ? { ...p.imagem, alt: p.nome } : p.imagem;
+    return { ...p, categoria, ...(imagem ? { imagem } : {}), ...(amazon ? { amazon } : {}) };
   });
 }
 

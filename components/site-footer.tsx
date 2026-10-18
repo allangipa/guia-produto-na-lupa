@@ -11,7 +11,9 @@ import { Marca } from "@/components/marca";
 export function SiteFooter() {
   const grupos = navegacao();
   const link = "text-white/80 hover:text-white";
-  const titulo = "text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-white/60";
+  // white/75, não /60: sobre acao-forte o /60 dava 4,34:1, abaixo dos 4,5
+  // que texto pequeno pede (Lighthouse, 18/10/2026).
+  const titulo = "text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-white/75";
 
   return (
     <footer className="mt-20 bg-acao-forte text-white">
@@ -25,7 +27,7 @@ export function SiteFooter() {
           </p>
           {/* A primeira frase é a declaração que o contrato de Associados exige,
               nesta redação. As outras são nossas. */}
-          <p className="mt-4 max-w-[44ch] text-[0.82rem] text-white/60">
+          <p className="mt-4 max-w-[44ch] text-[0.82rem] text-white/75">
             Como Associado da Amazon, o {site.nome} recebe por compras
             qualificadas. Também participamos do programa de afiliados do
             Mercado Livre. Comprando por um link daqui, o site recebe comissão
@@ -86,7 +88,7 @@ export function SiteFooter() {
         </nav>
       </div>
       <div className="border-t border-white/15">
-        <p className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-4 text-[0.8rem] text-white/60">
+        <p className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-4 text-[0.8rem] text-white/75">
           © {new Date().getFullYear()} {site.nome} · Fichas oficiais dos fabricantes, sem teste próprio. Fotos: material oficial das marcas, removidas a pedido.
         </p>
       </div>

@@ -28,10 +28,14 @@
   --color-acao-suave: #d9ecea;
 
   --color-atencao: #b53a2d;
-  --color-ausente: #98a2ab;
-  --color-bom: #1e8e5a;
+  /* Escurecidos em 18/10/2026 para passar o contraste mínimo de 4,5:1 do
+     WCAG em texto pequeno, medido pelo Lighthouse: ausente era 2,59 sobre o
+     branco, bom 3,55 e medio 2,95 sobre as faixas suaves. O tom continua o
+     mesmo, só mais fundo. */
+  --color-ausente: #5f6a74;
+  --color-bom: #17704a;
   --color-bom-suave: #dcf3e6;
-  --color-medio: #b8811a;
+  --color-medio: #8a5d0c;
   --color-medio-suave: #fbeed3;
   --color-ausente-suave: #eceff2;
 

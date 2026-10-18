@@ -382,7 +382,13 @@ funciona se nada além do CTA for verde:
   `bg-realce` + peso, nunca cor de ação: dez marcas verdes num comparativo
   apagam o único botão da página.
 - `ausente` — dado que o fabricante não publica. Neutro de propósito: ausência é
-  constatação sobre a documentação, não defeito do produto.
+  constatação sobre a documentação, não defeito do produto. **Desde 18/10/2026
+  é quase o mesmo cinza de `tinta-suave`** (#5f6a74): o tom antigo, #98a2ab,
+  dava 2,59:1 sobre o branco e o Lighthouse marcava a home. A diferença para o
+  dado publicado não está na cor — está no texto ("não informa") e no peso
+  (normal contra negrito). No mesmo dia `bom` e `medio` escureceram para
+  passar 4,5:1 sobre as faixas suaves, e as fotos sem `alt` (74 de 747)
+  passaram a sair com o nome do produto (`lib/produtos.ts`).
 - `atencao` — contras e divergência real entre fontes. Nunca para dado faltante.
 
 Modo escuro com três estados (sistema, claro, escuro) em `components/tema.tsx`.
