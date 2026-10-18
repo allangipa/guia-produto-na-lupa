@@ -29,6 +29,11 @@ import { site } from "@/lib/site";
  *
  * A faixa não é pop-up no sentido que o site proíbe: não cobre o conteúdo,
  * não tem contagem, não volta depois de respondida e fecha com um toque.
+ *
+ * Compacta desde 17/10/2026: a versão anterior cobria um quinto da tela do
+ * celular (cerca de 130 px) e escondia o segundo botão do herói da home. Uma
+ * frase, texto menor, botões menores, e no celular os botões dividem a linha
+ * com o texto quando cabem.
  */
 
 const CHAVE = "gp-consentimento";
@@ -114,29 +119,28 @@ export function Consentimento() {
       aria-live="polite"
       aria-label="Aviso de cookies"
       hidden={!visivel}
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-linha bg-papel shadow-[0_-8px_24px_rgba(0,0,0,0.12)]"
+      className="fixed inset-x-0 bottom-0 z-50 border-t border-linha bg-papel/95 shadow-[0_-4px_16px_rgba(0,0,0,0.08)] backdrop-blur"
     >
-      <div className="mx-auto flex max-w-[var(--largura-ferramenta)] flex-wrap items-center justify-between gap-x-6 gap-y-3 px-5 py-3.5">
-        <p className="max-w-[70ch] text-[0.88rem] leading-snug text-tinta-suave">
-          Este site usa cookies do Google AdSense para exibir anúncios e medir
-          audiência. Não pedimos cadastro nem e-mail. Detalhes na{" "}
-          <Link href="/privacidade" className="text-tinta underline">
-            política de privacidade
+      <div className="mx-auto flex max-w-[var(--largura-ferramenta)] flex-wrap items-center gap-x-5 gap-y-2 px-4 py-2 sm:px-5">
+        <p className="min-w-[14rem] flex-1 text-[0.78rem] leading-snug text-tinta-suave">
+          Cookies do Google AdSense para anúncios e medição de audiência, sem
+          cadastro.{" "}
+          <Link href="/privacidade" className="text-tinta underline underline-offset-2">
+            Privacidade
           </Link>
-          .
         </p>
-        <div className="flex shrink-0 gap-2">
+        <div className="flex shrink-0 gap-1.5">
           <button
             type="button"
             onClick={() => escolher("recusar")}
-            className="botao botao-secundario !py-2 text-[0.85rem]"
+            className="botao botao-secundario !px-3 !py-1.5 text-[0.78rem]"
           >
             Recusar anúncios
           </button>
           <button
             type="button"
             onClick={() => escolher("aceitar")}
-            className="botao bg-tinta !py-2 text-[0.85rem] text-papel hover:opacity-90"
+            className="botao bg-tinta !px-3.5 !py-1.5 text-[0.78rem] text-papel hover:opacity-90"
           >
             Entendi
           </button>
