@@ -1339,10 +1339,20 @@ confunde com documento sem folha de estilo.
   com números, ou dizem que a ficha não responde. Sem link em markdown na
   resposta (`negrito()` só faz o negrito), sem preço, sem estimativa. O
   `verificarPerguntas()` em `lib/conteudo.ts` quebra o build com pergunta sem
-  "?" ou resposta abaixo de 80 caracteres. Oito guias têm o bloco (air
+  "?" ou resposta abaixo de 80 caracteres. Treze guias têm o bloco (air
   fryers, monitores, ar-condicionado, nobreak, iPhone, purificadores,
-  cooktops e, desde 18/10, geladeiras), 5 a 7 perguntas cada; os outros 28
-  ainda não. Padrão copiado de
+  cooktops e, desde 18/10, geladeiras, liquidificadores, batedeiras,
+  ventiladores, furadeiras e lavadoras de alta pressão), 5 a 7 perguntas
+  cada; os outros 23 ainda não. Vão em lotes de cinco, pela ordem de
+  impressões no Search Console. **Cada pergunta tem de existir no
+  autocomplete** — a página diz que existe — e cada número da resposta se
+  confere contra `dados/*.json` antes do commit: no lote de 18/10, a primeira
+  versão errou a contagem de fichas Mondial em liquidificadores e o número de
+  furadeiras de tomada com torque, pegos na conferência. Os guias de
+  liquidificadores e de lavadoras de alta pressão têm o corpo desatualizado
+  em relação à base (falam em 10 e em "sete Electrolux"; a base tem 20 e 6,
+  e a tabela de nomes das lavadoras cita modelos que saíram) — as perguntas
+  falam da base atual, e o corpo fica para uma revisão própria. Padrão copiado de
   Zoom, Promobit e Panelas e Cozinha, que fecham o guia com H2 em forma de
   pergunta (`docs/concorrentes-2026-10-17.md`).
 - **A análise abre com o veredito, desde 17/10/2026.** Até então: título,
