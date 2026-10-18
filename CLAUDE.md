@@ -1352,12 +1352,13 @@ confunde com documento sem folha de estilo.
   com números, ou dizem que a ficha não responde. Sem link em markdown na
   resposta (`negrito()` só faz o negrito), sem preço, sem estimativa. O
   `verificarPerguntas()` em `lib/conteudo.ts` quebra o build com pergunta sem
-  "?" ou resposta abaixo de 80 caracteres. Dezoito guias têm o bloco (air
-  fryers, monitores, ar-condicionado, nobreak, iPhone, purificadores,
+  "?" ou resposta abaixo de 80 caracteres. Vinte e três guias têm o bloco
+  (air fryers, monitores, ar-condicionado, nobreak, iPhone, purificadores,
   cooktops e, desde 18/10, geladeiras, liquidificadores, batedeiras,
   ventiladores, furadeiras, lavadoras de alta pressão, armazenamento,
-  aspiradores, micro-ondas, cafeteiras e tablets), 5 a 7 perguntas cada; os
-  outros 18 ainda não. Vão em lotes de cinco, pela ordem de
+  aspiradores, micro-ondas, cafeteiras, tablets, torradeiras, lavadoras,
+  lava-louças, chaleiras e processadores), 5 a 7 perguntas cada; os outros
+  13 ainda não. Vão em lotes de cinco, pela ordem de
   impressões no Search Console. **Cada pergunta tem de existir no
   autocomplete** — a página diz que existe — e cada número da resposta se
   confere contra `dados/*.json` antes do commit: no lote de 18/10, a primeira
@@ -1689,7 +1690,10 @@ confunde com documento sem folha de estilo.
   em: a pergunta de tensão do guia de air fryers e cinco recortes de air fryer
   (escritos em 17/10), a pergunta de tensão do guia de cooktops, o guia de
   torradeiras ("8 das 12 declaram ser bivolt"), o comparativo TOP70 × WTE1 e a
-  análise da WTE1. Todos corrigidos, com nota de correção datada onde o erro
+  análise da WTE1. Em 18/10, no lote 3 de perguntas, apareceu mais uma no
+  guia de chaleiras ("a mesma chaleira, tirada da mesma caixa, entrega uma
+  coisa ou outra dependendo da tomada"); o catálogo da WAP confirma dois SKUs
+  para a WCE1. Todos corrigidos, com nota de correção datada onde o erro
   era o argumento da seção. **Antes de escrever "bivolt", ler o campo: só vale
   se a ficha diz "Bivolt".** O erro é perigoso, não só impreciso: induz a
   ligar a versão de 127 V numa tomada de 220.
