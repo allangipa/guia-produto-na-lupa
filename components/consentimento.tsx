@@ -84,7 +84,13 @@ export function Consentimento() {
 
   useEffect(() => {
     const escolha = ler();
-    if (escolha === "aceitar" || (escolha === null && !BLOQUEIA)) carrega();
+    // Depois do `load`, e não na hidratação: o adsbygoogle.js é o maior
+    // script da página (o Lighthouse de 17/10/2026 apontava 176 KiB de JS
+    // não usado, quase todo dele), e carregá-lo cedo disputava rede e CPU com
+    // a primeira pintura. O anúncio continua carregando sem clique nenhum.
+    const depoisDeCarregar = (f: () => void) =>
+      document.readyState === "complete" ? f() : window.addEventListener("load", f, { once: true });
+    if (escolha === "aceitar" || (escolha === null && !BLOQUEIA)) depoisDeCarregar(carrega);
     if (escolha !== null) return;
 
     setVisivel(true);

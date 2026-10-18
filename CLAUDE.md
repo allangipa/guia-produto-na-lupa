@@ -1589,6 +1589,23 @@ confunde com documento sem folha de estilo.
   `components/mdx.tsx`), que põe a barra — vale também para texto futuro.
   Conferido no build: zero link interno sem barra.
 
+- **Desempenho, medido em 17/10/2026 (Lighthouse, Moto G Power, 4G lento):
+  66 na home, FCP 3,8 s, LCP 7,2 s, CLS 0.** A causa era a entrega, não a
+  pintura: o HTML da home tinha 934 KB, e **280 KB em toda página eram o
+  índice de busca**, serializado como prop do `<Busca>` dentro de cada um dos
+  mil HTMLs (926 itens com o resumo de cada produto). Desde 17/10/2026 o
+  índice é o arquivo `/busca.json` (`app/busca.json/route.ts`, `force-static`,
+  270 KB), pedido no primeiro foco no campo e guardado no módulo para os dois
+  campos do cabeçalho dividirem a carga. Resultado no build: home 934 → 656
+  KB, /guias 368 → 90 KB, análise 394 → 111 KB. No mesmo dia o
+  `adsbygoogle.js` passou a ser injetado depois do `load`, não na hidratação
+  (`components/consentimento.tsx`) — era quase todo o "JavaScript não usado"
+  de 176 KiB do relatório. O que o relatório aponta e **não é nosso**: "ciclos
+  de vida de cache" (373 KiB) é o `max-age=600` do GitHub Pages, sem como
+  mudar. O que ainda sobra de nosso: a home tem 259 KB de HTML visível (36
+  prateleiras, 261 SVGs inline de ícone, 117 KB só de `class=`) mais a cópia
+  que o React Server Components carrega — se o LCP continuar alto depois
+  desta rodada, o próximo corte é na quantidade de cards da home.
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
 

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
-import { indiceDeBusca } from "@/lib/indice";
 import { navegacao } from "@/lib/navegacao";
 import { AlternadorTema } from "@/components/tema";
 import { Busca } from "@/components/busca";
@@ -21,7 +20,6 @@ import { Marca } from "@/components/marca";
  * não aparecia. Um botão só não cresce com a base.
  */
 export function SiteHeader() {
-  const indice = indiceDeBusca();
   const grupos = navegacao();
 
   return (
@@ -36,7 +34,7 @@ export function SiteHeader() {
         </Link>
 
         <div className="mx-auto hidden w-full max-w-[40rem] md:block">
-          <Busca indice={indice} />
+          <Busca />
         </div>
 
         <div className="ml-auto flex shrink-0 items-center gap-2">
@@ -59,7 +57,7 @@ export function SiteHeader() {
       </div>
 
       <div className="px-5 pb-3 md:hidden">
-        <Busca indice={indice} />
+        <Busca />
       </div>
 
       {/* O botão de departamentos fica FORA da lista que rola: o painel dele é
