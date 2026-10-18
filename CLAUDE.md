@@ -1323,6 +1323,18 @@ confunde com documento sem folha de estilo.
   sendo um dos dois blocos de CTA da análise; o que muda é que no celular ele
   fica junto do veredito (1.159 px) em vez de depois da foto (mais de 1.500).
   A `posicao` enviada à medição segue "veredito".
+- **O guia abre com "Como esta lista foi feita" e a fileira das escolhas,
+  desde 17/10/2026.** `components/como-foi-feita.tsx` monta a caixa do
+  frontmatter, sem nada digitado: as fontes `fabricante` contam as fichas
+  lidas e dão as datas; a fonte `varejo` cujo título ou URL fala em ranking
+  ou mais vendidos vira "Seleção: <ranking>, consultado em D", com link; sem
+  ela, "Seleção: entre as N fichas desta base" — "mais vendido" só onde o
+  ranking está escrito com fonte e data (14 guias têm; 22 não). Abaixo, uma
+  fileira de miniaturas (foto, perfil, nome) que leva por âncora aos cards
+  completos (`id="escolha-N"` em `EscolhaDoGuia`), que seguem iguais. Sem
+  botão de compra no topo: os CTAs do guia continuam juntos em "Onde comprar
+  cada um". Antes, a primeira tela do guia era só texto e a foto só aparecia
+  ao rolar — ver `docs/concorrentes-2026-10-17.md`.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

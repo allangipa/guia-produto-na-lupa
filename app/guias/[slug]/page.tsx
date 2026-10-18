@@ -22,6 +22,9 @@ import { EscolhaDoGuia } from "@/components/escolha-do-guia";
 import { Fontes } from "@/components/fontes";
 import { JsonLd, schemaBreadcrumb, schemaGuia, schemaPerguntas } from "@/lib/schema";
 import { Perguntas } from "@/components/perguntas";
+import { ComoFoiFeita } from "@/components/como-foi-feita";
+import { Foto } from "@/components/foto";
+import { produtosDaCategoria } from "@/lib/produtos";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -72,6 +75,18 @@ export default async function PaginaGuia({ params }: Params) {
   // sólida — que é o da primeira escolha COM link, não o da primeira escolha.
   const comLink = g.escolhas.filter((e) => lojasDe(e.lojas).length > 0);
 
+  // As escolhas com a ficha e a foto resolvidas uma vez: a fileira do topo e
+  // os cards completos leem a mesma lista.
+  const escolhas = g.escolhas.map((e, i) => {
+    const ficha = produtoDaBase([e.lojas], [e.produto]);
+    return {
+      ...e,
+      id: `escolha-${i + 1}`,
+      ficha,
+      foto: ficha?.imagem ?? fotoDaBase([e.lojas], [e.produto]),
+    };
+  });
+
   return (
     <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <JsonLd data={schemaGuia(g)} />
@@ -91,23 +106,68 @@ export default async function PaginaGuia({ params }: Params) {
         <p className="mt-4 max-w-[62ch] text-lg text-tinta-suave">{g.subtitulo}</p>
       </header>
 
+      {/* A primeira tela, desde 17/10/2026: a caixa "como esta lista foi feita"
+          e a fileira das escolhas com foto. Até então a primeira tela do guia
+          era só texto — kicker, título, subtítulo e o título da seção — e a
+          foto do produto só aparecia ao rolar. Os sites que ranqueiam abrem com
+          um quadro-resumo e os critérios (docs/concorrentes-2026-10-17.md). A
+          fileira é um índice: cada miniatura leva ao card completo, que
+          continua abaixo com o porquê e os números. Não há botão de compra
+          aqui: os CTAs do guia ficam juntos em "Onde comprar cada um". */}
+      <ComoFoiFeita
+        fontes={g.fontes}
+        escolhas={g.escolhas.length}
+        fichasNaBase={produtosDaCategoria(g.categoria).length}
+        categoriaNome={cat?.nome}
+      />
+
+      <nav aria-label="As escolhas, em resumo" className="mt-4">
+        <ol className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4">
+          {escolhas.map((e) => (
+            <li key={e.id}>
+              <a
+                href={`#${e.id}`}
+                className="cartao group flex h-full flex-col p-2.5 transition hover:border-tinta-suave"
+              >
+                <span className="flex h-20 items-center justify-center rounded-md bg-superficie p-1.5">
+                  {e.foto ? (
+                    <Foto
+                      src={e.foto.src}
+                      alt=""
+                      tamanhos="(max-width: 640px) 40vw, 140px"
+                      className="h-full w-auto max-w-full object-contain"
+                    />
+                  ) : (
+                    <span className="text-[0.7rem] text-tinta-suave">sem foto oficial</span>
+                  )}
+                </span>
+                <span className="mt-2 text-[0.7rem] font-semibold uppercase leading-tight tracking-[0.04em] text-tinta-suave">
+                  {e.perfil}
+                </span>
+                <span className="mt-1 text-[0.82rem] font-medium leading-snug group-hover:text-acao-forte">
+                  {e.produto}
+                </span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+
       <section className="my-10 border-y border-linha py-8">
         <h2 className="font-titulo text-xl">A escolha certa depende de quem você é</h2>
         <ol className="mt-5 grid gap-3.5">
-          {g.escolhas.map((e) => {
-            const ficha = produtoDaBase([e.lojas], [e.produto]);
-            return (
-              <EscolhaDoGuia
-                key={e.perfil}
-                perfil={e.perfil}
-                produto={e.produto}
-                porque={e.porque}
-                reviewSlug={e.reviewSlug}
-                foto={ficha?.imagem ?? fotoDaBase([e.lojas], [e.produto])}
-                ficha={ficha}
-              />
-            );
-          })}
+          {escolhas.map((e) => (
+            <EscolhaDoGuia
+              key={e.perfil}
+              id={e.id}
+              perfil={e.perfil}
+              produto={e.produto}
+              porque={e.porque}
+              reviewSlug={e.reviewSlug}
+              foto={e.foto}
+              ficha={e.ficha}
+            />
+          ))}
         </ol>
       </section>
 

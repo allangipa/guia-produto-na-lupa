@@ -30,6 +30,7 @@ import type { Imagem } from "@/lib/conteudo";
  * O cartão leva para a ficha ou para a análise, que são páginas de leitura.
  */
 export function EscolhaDoGuia({
+  id,
   perfil,
   produto,
   porque,
@@ -37,6 +38,8 @@ export function EscolhaDoGuia({
   foto,
   ficha,
 }: {
+  /** Âncora da fileira de escolhas do topo do guia (desde 17/10/2026). */
+  id?: string;
   perfil: string;
   produto: string;
   porque: string;
@@ -61,7 +64,7 @@ export function EscolhaDoGuia({
     : [];
 
   return (
-    <li className="cartao group relative grid gap-0 sm:grid-cols-[11rem_1fr]">
+    <li id={id} className="cartao group relative grid scroll-mt-24 gap-0 sm:grid-cols-[11rem_1fr]">
       <div className="flex items-center justify-center bg-superficie p-4 sm:rounded-l-[var(--raio-card)]">
         {foto ? (
           <Foto
