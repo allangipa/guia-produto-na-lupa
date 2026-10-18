@@ -39,6 +39,38 @@ export function jaNasLojas(l: Lancamento, hoje = new Date()): boolean {
   return Date.UTC(a, m - 1, d) <= hoje.getTime();
 }
 
+/** Quantos dias depois de chegar às lojas um lançamento ainda é herói. */
+export const JANELA_DIAS = 30;
+
+function dataDeLoja(l: Lancamento): number | null {
+  const [d, m, a] = l.nasLojas.split("/").map(Number);
+  if (!d || !m || !a) return null;
+  return Date.UTC(a, m - 1, d);
+}
+
+/**
+ * Os lançamentos que ainda merecem o herói da home, na ordem de exibição.
+ *
+ * Regra de 17/10/2026, aprovada pelo Allan: o herói é o lançamento do
+ * momento, e "momento" tem prazo. Entram os que ainda não chegaram às lojas
+ * e os que chegaram há no máximo JANELA_DIAS; o iPhone 18 Pro ficou um mês
+ * inteiro na primeira tela depois de lançado porque nada o tirava de lá.
+ * Ordem: o próximo a chegar primeiro (o mais perto), depois os já lançados,
+ * do mais recente ao mais antigo. Vazio quer dizer "sem lançamento": a home
+ * mostra o simulador no lugar. O build diário (06:00 UTC) faz a troca
+ * acontecer sem ninguém mexer.
+ */
+export function destaquesAtuais(hoje = new Date()): Lancamento[] {
+  const agora = hoje.getTime();
+  const limite = agora - JANELA_DIAS * 24 * 60 * 60 * 1000;
+  const com = lancamentos
+    .map((l) => ({ l, t: dataDeLoja(l) }))
+    .filter((x): x is { l: Lancamento; t: number } => x.t !== null && x.t >= limite);
+  const futuros = com.filter((x) => x.t > agora).sort((a, b) => a.t - b.t);
+  const passados = com.filter((x) => x.t <= agora).sort((a, b) => b.t - a.t);
+  return [...futuros, ...passados].map((x) => x.l);
+}
+
 export const lancamentos: Lancamento[] = [
   {
     slugProduto: "iphone-18-pro",

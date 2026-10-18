@@ -12,7 +12,7 @@ import { categorias, posicaoNaHome } from "@/lib/categorias";
 import { departamentos } from "@/lib/departamentos";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
-import { jaNasLojas, lancamentos } from "@/lib/lancamentos";
+import { jaNasLojas, destaquesAtuais } from "@/lib/lancamentos";
 import { LOJAS, linkDaLoja, lojasDe } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   // mesmo lugar que a faixa le, entao acompanha sozinha quando o destaque muda
   // — e nao ha arte generica inventada so para preencher o campo.
   openGraph: (() => {
-    const l = lancamentos[0];
+    const l = destaquesAtuais()[0];
     const p = l && todosOsProdutos().find((x) => x.slug === l.slugProduto);
     return p?.imagem
       ? { images: [{ url: p.imagem.src, alt: p.imagem.alt }] }
@@ -145,7 +145,9 @@ export default function Home() {
     .slice(0, VITRINE);
   const restantes = prateleiras.length - emDestaque.length;
 
-  const destaques = lancamentos
+  // Só os lançamentos dentro da janela (lib/lancamentos.ts): futuro primeiro,
+  // depois os de até 30 dias. Sem nenhum, o herói é o simulador.
+  const destaques = destaquesAtuais()
     .map((l) => ({ ...l, produto: produtos.find((p) => p.slug === l.slugProduto) }))
     .filter((l) => l.produto);
   const heroi = destaques[0];
@@ -309,7 +311,7 @@ export default function Home() {
               </Link>
               {heroi.comparativoSlug && (
                 <Link href={`/comparativos/${heroi.comparativoSlug}`} className="inline-flex items-center gap-1.5 px-2 text-[0.9rem] text-faixa-suave hover:text-white">
-                  <Icone nome="comparar" className="h-4 w-4" /> Contra o iPhone 17
+                  <Icone nome="comparar" className="h-4 w-4" /> Ver o comparativo
                 </Link>
               )}
             </div>
@@ -333,8 +335,40 @@ export default function Home() {
           </Link>
         </section>
       ) : (
-        <section className="banner mt-5 p-8">
-          <h1 className="font-titulo text-[2.4rem] leading-tight tracking-tight">Compare fichas técnicas oficiais, lado a lado.</h1>
+        /* Sem lançamento na janela, o herói é o simulador: a única coisa do
+           site que a concorrência não tem (docs/concorrentes-2026-10-17.md).
+           Mesma faixa escura, sem botão de loja — os links levam a ferramenta,
+           e o verde continua só no CTA de compra. */
+        <section className="faixa relative mt-5 overflow-hidden rounded-[var(--raio-card)] shadow-[var(--sombra-2)]">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0"
+            style={{
+              background:
+                "radial-gradient(60% 90% at 85% 50%, color-mix(in oklab, var(--color-acao) 45%, transparent), transparent 70%)",
+            }}
+          />
+          <div className="relative p-7 md:p-10 lg:p-12">
+            <span className="pastilha !bg-white/10 !text-white">Simulador</span>
+            <h1 className="mt-4 max-w-[18ch] font-titulo text-[2.2rem] leading-[1.02] tracking-tight sm:text-[2.9rem] lg:text-[3.4rem]">
+              Monte o projeto e veja o que comprar
+            </h1>
+            <p className="mt-4 max-w-[52ch] text-[0.98rem] leading-relaxed text-faixa-suave">
+              Quantos BTUs o quarto pede, qual nobreak aguenta os seus aparelhos,
+              quanta batata cabe na air fryer, qual disjuntor o cooktop exige.
+              Você responde sobre a casa; a lista sai das fichas oficiais, com a
+              conta à vista.
+            </p>
+            <ul className="mt-6 flex flex-wrap gap-2">
+              {FOCOS.map((f) => (
+                <li key={f.valor}>
+                  <Link href={hrefDoFoco(f.valor)} className="botao !border-white/25 !bg-white/10 !py-2 text-[0.88rem] !text-white hover:!bg-white/15">
+                    {f.rotulo}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
       )}
 
