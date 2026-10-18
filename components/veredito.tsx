@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import type { Criterio, Imagem } from "@/lib/conteudo";
@@ -70,12 +71,21 @@ export function VereditoRapido({
   naoPara,
   foto,
   ficha,
+  cta,
 }: {
   nota: number;
   para: string[];
   naoPara: string[];
   foto?: Imagem;
   ficha?: Produto;
+  /**
+   * O botão de loja, dentro do card e abaixo das listas, desde 17/10/2026.
+   * Decisão do Allan: "pode ser mudado se achar que melhora a possibilidade de
+   * clique". Continua depois da entrega de valor (nota e listas) e continua
+   * sendo o único bloco de CTA do veredito; no celular passa a ficar junto do
+   * veredito em vez de depois da foto, a mais de 1.500 px do topo.
+   */
+  cta?: ReactNode;
 }) {
   return (
     <section aria-label="Veredito em 30 segundos" className="painel order-1 mt-6 overflow-hidden sm:order-2 sm:mt-8">
@@ -134,6 +144,8 @@ export function VereditoRapido({
               </ul>
             </div>
           </div>
+
+          {cta && <div className="-mb-2 mt-1">{cta}</div>}
         </div>
       </div>
 

@@ -1317,6 +1317,12 @@ confunde com documento sem folha de estilo.
   subtítulo desce para depois do card (`order-*` no `page.tsx` e no
   componente), e o título fica em 1,65rem. Medido em 17/10: com a ordem de
   desktop, a nota começava a 1.002 px numa tela de 812; com a nova, a 486.
+  **O botão de loja do veredito mora dentro do card**, abaixo das listas,
+  desde 17/10/2026 — decisão do Allan ("pode ser mudado se achar que melhora
+  a possibilidade de clique"). Continua depois da entrega de valor e continua
+  sendo um dos dois blocos de CTA da análise; o que muda é que no celular ele
+  fica junto do veredito (1.159 px) em vez de depois da foto (mais de 1.500).
+  A `posicao` enviada à medição segue "veredito".
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

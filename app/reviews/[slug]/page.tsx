@@ -122,14 +122,15 @@ export default async function PaginaReview({ params }: Params) {
         naoPara={r.naoPara}
         foto={r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome])}
         ficha={ficha ?? undefined}
+        cta={
+          <LojaCta
+            lojas={r.produto.lojas}
+            produto={r.produto.nome}
+            posicao="veredito"
+          />
+        }
       />
       </div>
-
-      <LojaCta
-        lojas={r.produto.lojas}
-        produto={r.produto.nome}
-        posicao="veredito"
-      />
 
       <div className="prosa">{content}</div>
 
