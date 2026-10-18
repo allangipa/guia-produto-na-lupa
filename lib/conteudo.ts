@@ -257,6 +257,13 @@ export type Guia = {
     lojas: Loja;
   }[];
   lacunas: string[];
+  /**
+   * "Perguntas que a ficha responde", desde 17/10/2026: as perguntas que o
+   * autocomplete do Google completa para a categoria, respondidas com os
+   * números das fichas — ou com "a ficha não responde". Opcional; quando
+   * existe, a página emite FAQPage. Ver components/perguntas.tsx.
+   */
+  perguntas?: { pergunta: string; resposta: string }[];
   fontes: Fonte[];
   corpo: string;
 };
@@ -485,6 +492,22 @@ function verificarTitulos() {
 }
 
 verificarTitulos();
+
+/**
+ * Pergunta sem interrogação não é pergunta, e resposta curta demais é slogan.
+ * O limite baixo (80 caracteres) só pega esquecimento; a qualidade é editorial.
+ */
+function verificarPerguntas() {
+  const problemas: string[] = [];
+  for (const g of todosOsGuias()) {
+    for (const q of g.perguntas ?? []) {
+      if (!q.pergunta?.trim().endsWith("?")) problemas.push(`guia "${g.slug}": pergunta sem "?": "${q.pergunta}"`);
+      if (!q.resposta || q.resposta.length < 80) problemas.push(`guia "${g.slug}": resposta curta demais para "${q.pergunta}"`);
+    }
+  }
+  if (problemas.length) throw new Error(`Perguntas dos guias: ${problemas.join("; ")}.`);
+}
+verificarPerguntas();
 
 /**
  * Os criterios de toda analise batem com os pesos publicados.

@@ -1291,6 +1291,20 @@ confunde com documento sem folha de estilo.
   com a base e o `verificar()` não lê título. Ficaram de fora por falta de
   ficha: air fryer Mondial (4, mínimo 5) e tudo que é "celular até R$ X", que
   domina o autocomplete e não podemos atender sem preço.
+- **"Perguntas que a ficha responde", nos guias, desde 17/10/2026.** Campo
+  `perguntas:` (pergunta/resposta) no frontmatter do guia, renderizado por
+  `components/perguntas.tsx` depois das lacunas e antes de "Onde comprar", com
+  JSON-LD `FAQPage` (`schemaPerguntas`) — verdadeiro porque o par está visível
+  na página. As perguntas saem do autocomplete do Google para a categoria
+  (`suggestqueries.google.com`, `hl=pt-BR&gl=br`); as respostas, das fichas,
+  com números, ou dizem que a ficha não responde. Sem link em markdown na
+  resposta (`negrito()` só faz o negrito), sem preço, sem estimativa. O
+  `verificarPerguntas()` em `lib/conteudo.ts` quebra o build com pergunta sem
+  "?" ou resposta abaixo de 80 caracteres. Sete guias têm o bloco (air
+  fryers, monitores, ar-condicionado, nobreak, iPhone, purificadores,
+  cooktops), 5 a 7 perguntas cada; os outros 29 ainda não. Padrão copiado de
+  Zoom, Promobit e Panelas e Cozinha, que fecham o guia com H2 em forma de
+  pergunta (`docs/concorrentes-2026-10-17.md`).
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

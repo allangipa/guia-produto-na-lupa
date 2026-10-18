@@ -30,6 +30,8 @@ TudoCelular análise `n232888` e review `provas/n2396` (bloqueia WebFetch com
 2. **Perguntas como títulos de seção** (Zoom, Promobit, Panelas e Cozinha):
    H2 em forma de pergunta no fim do guia, respondidas pela ficha. É o que
    entra no "As pessoas também perguntam". Perguntas saem do autocomplete.
+   **Feito em 17/10 em sete guias** (`perguntas:` no frontmatter,
+   `components/perguntas.tsx`, FAQPage); os outros 29 guias ficam para depois.
 3. **A resposta antes do método** (TudoCelular): nota grande e "vale a pena
    comprar?" no primeiro parágrafo. Nossa análise abre com "Por que esta
    análise existe". Veredito (nota, para quem, não compre se) na primeira
@@ -73,5 +75,5 @@ que a página tem.
    para os chips, sobra espaço para a marca horizontal.
 
 Os itens 3 e 4 vão junto com os de SEO 4 e 3. Ordem geral combinada em
-17/10/2026: SEO 1 (feito) → 2 → 3+visual 4 → 4+visual 3 → 5; visual 1, 2 e 5
+17/10/2026: SEO 1 (feito) → 2 (feito em 7 guias) → 3+visual 4 → 4+visual 3 → 5; visual 1, 2 e 5
 na sequência.

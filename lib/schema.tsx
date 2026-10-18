@@ -216,6 +216,23 @@ export function schemaProduto(p: {
 }
 
 /**
+ * FAQPage para as "Perguntas que a ficha responde" do guia. Verdadeiro porque
+ * cada par pergunta/resposta está visível na página, na mesma ordem. O
+ * negrito de edição (**x**) sai do texto do schema.
+ */
+export function schemaPerguntas(itens: { pergunta: string; resposta: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: itens.map((q) => ({
+      "@type": "Question",
+      name: q.pergunta,
+      acceptedAnswer: { "@type": "Answer", text: q.resposta.replace(/\*\*/g, "") },
+    })),
+  };
+}
+
+/**
  * ItemList para o guia: a lista de escolhas, na ordem em que a pagina as mostra.
  *
  * O comparativo ja emitia ItemList e o guia nao, embora o guia SEJA uma lista —

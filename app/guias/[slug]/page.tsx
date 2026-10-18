@@ -20,7 +20,8 @@ import { Lacunas } from "@/components/pros-contras";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 import { EscolhaDoGuia } from "@/components/escolha-do-guia";
 import { Fontes } from "@/components/fontes";
-import { JsonLd, schemaBreadcrumb, schemaGuia } from "@/lib/schema";
+import { JsonLd, schemaBreadcrumb, schemaGuia, schemaPerguntas } from "@/lib/schema";
+import { Perguntas } from "@/components/perguntas";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -74,6 +75,7 @@ export default async function PaginaGuia({ params }: Params) {
   return (
     <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <JsonLd data={schemaGuia(g)} />
+      {g.perguntas?.length ? <JsonLd data={schemaPerguntas(g.perguntas)} /> : null}
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },
@@ -137,6 +139,8 @@ export default async function PaginaGuia({ params }: Params) {
       <div className="prosa">{content}</div>
 
       <Lacunas itens={g.lacunas} />
+
+      <Perguntas itens={g.perguntas} />
 
       {/*
         UM CTA POR ESCOLHA, NUM BLOCO SÓ, DEPOIS DE TUDO
