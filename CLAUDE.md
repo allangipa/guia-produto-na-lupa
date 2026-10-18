@@ -1597,10 +1597,14 @@ confunde com documento sem folha de estilo.
   índice é o arquivo `/busca.json` (`app/busca.json/route.ts`, `force-static`,
   270 KB), pedido no primeiro foco no campo e guardado no módulo para os dois
   campos do cabeçalho dividirem a carga. Resultado no build: home 934 → 656
-  KB, /guias 368 → 90 KB, análise 394 → 111 KB. No mesmo dia o
-  `adsbygoogle.js` passou a ser injetado depois do `load`, não na hidratação
-  (`components/consentimento.tsx`) — era quase todo o "JavaScript não usado"
-  de 176 KiB do relatório. O que o relatório aponta e **não é nosso**: "ciclos
+  KB, /guias 368 → 90 KB, análise 394 → 111 KB. **Medido de novo em 18/10/2026, com o índice fora do
+  HTML: 70 no celular, FCP 1,2 s, LCP 4,0 s, Speed Index 2,8 s; 97 no
+  computador.** O que subiu foi o bloqueio da thread principal, de 80 para
+  690 ms: com o HTML leve, o `adsbygoogle.js` (que puxa um segundo arquivo de
+  165 KB e três iframes) passou a cair dentro da janela medida. Desde
+  18/10/2026 ele entra no primeiro gesto do leitor ou 4 s depois do `load`,
+  o que vier antes (`components/consentimento.tsx`, `ESPERA_MS`). Quem rola
+  vê o anúncio; quem sai sem tocar não via de qualquer jeito. O que o relatório aponta e **não é nosso**: "ciclos
   de vida de cache" (373 KiB) é o `max-age=600` do GitHub Pages, sem como
   mudar. O que ainda sobra de nosso: a home tem 259 KB de HTML visível (36
   prateleiras, 261 SVGs inline de ícone, 117 KB só de `class=`) mais a cópia

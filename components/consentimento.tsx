@@ -34,7 +34,19 @@ import { site } from "@/lib/site";
  * celular (cerca de 130 px) e escondia o segundo botão do herói da home. Uma
  * frase, texto menor, botões menores, e no celular os botões dividem a linha
  * com o texto quando cabem.
+ *
+ * Quando o script entra, desde 18/10/2026: no primeiro gesto do leitor
+ * (rolagem, toque, tecla, mouse) ou ESPERA_MS depois do `load`, o que vier
+ * antes. O adsbygoogle.js puxa um segundo arquivo de 165 KB e três iframes,
+ * e num celular de entrada isso são centenas de milissegundos de thread
+ * principal; carregado na hidratação ou logo no `load`, competia com a
+ * página — o Lighthouse de 18/10 (Moto G, 4G lento) media 690 ms de
+ * bloqueio, quase todo dele. Quem rola vê o anúncio como antes; quem sai sem
+ * tocar na página não via de qualquer jeito.
  */
+
+/** Teto para o anúncio entrar sem gesto nenhum, contado a partir do `load`. */
+const ESPERA_MS = 4000;
 
 const CHAVE = "gp-consentimento";
 const BLOQUEIA = false;
@@ -84,13 +96,22 @@ export function Consentimento() {
 
   useEffect(() => {
     const escolha = ler();
-    // Depois do `load`, e não na hidratação: o adsbygoogle.js é o maior
-    // script da página (o Lighthouse de 17/10/2026 apontava 176 KiB de JS
-    // não usado, quase todo dele), e carregá-lo cedo disputava rede e CPU com
-    // a primeira pintura. O anúncio continua carregando sem clique nenhum.
-    const depoisDeCarregar = (f: () => void) =>
-      document.readyState === "complete" ? f() : window.addEventListener("load", f, { once: true });
-    if (escolha === "aceitar" || (escolha === null && !BLOQUEIA)) depoisDeCarregar(carrega);
+    // Ver o docstring: primeiro gesto do leitor ou ESPERA_MS após o `load`.
+    const gestos = ["scroll", "touchstart", "keydown", "pointerdown", "mousemove"] as const;
+    let timer = 0;
+    const quandoPuder = () => {
+      window.clearTimeout(timer);
+      gestos.forEach((g) => window.removeEventListener(g, quandoPuder));
+      carrega();
+    };
+    const armar = () => {
+      gestos.forEach((g) => window.addEventListener(g, quandoPuder, { once: true, passive: true }));
+      timer = window.setTimeout(quandoPuder, ESPERA_MS);
+    };
+    if (escolha === "aceitar" || (escolha === null && !BLOQUEIA)) {
+      if (document.readyState === "complete") armar();
+      else window.addEventListener("load", armar, { once: true });
+    }
     if (escolha !== null) return;
 
     setVisivel(true);
