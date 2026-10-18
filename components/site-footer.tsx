@@ -80,6 +80,8 @@ export function SiteFooter() {
             <li><Link href="/contato" className={link}>Contato</Link></li>
             <li><Link href="/privacidade" className={link}>Privacidade</Link></li>
             <li><a href={`mailto:${site.editor.contato}`} className={link}>{site.editor.contato}</a></li>
+            {/* `rel="me"` diz que o perfil é da própria publicação. */}
+            <li><a href={site.redes.instagram} rel="me noopener" target="_blank" className={link}>Instagram</a></li>
           </ul>
         </nav>
       </div>

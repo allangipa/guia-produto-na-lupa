@@ -2,6 +2,17 @@ import { site } from "./site";
 import type { Review } from "./conteudo";
 
 /**
+ * A publicação como Organization, com `sameAs` para os perfis dela: é por
+ * aqui que o Google junta o site e o Instagram numa entidade só.
+ */
+const EDITORA = {
+  "@type": "Organization",
+  name: site.nome,
+  url: site.url,
+  sameAs: Object.values(site.redes),
+};
+
+/**
  * Gera Product + Review com a NOTA EDITORIAL (reviewRating).
  *
  * Não geramos aggregateRating de propósito: agregado exige avaliações reais
@@ -33,7 +44,7 @@ export function schemaReview(r: Review) {
       // Autoria é da publicação, não de uma pessoa: ninguém aqui teve o produto
       // na mão, e assinar com nome próprio sugeriria experiência que não houve.
       author: { "@type": "Organization", name: site.editor.nome, url: site.url },
-      publisher: { "@type": "Organization", name: site.nome, url: site.url },
+      publisher: EDITORA,
       reviewRating: {
         "@type": "Rating",
         ratingValue: r.nota,
@@ -100,7 +111,7 @@ export function schemaComparativo(c: {
     mainEntityOfPage: `${site.url}/comparativos/${c.slug}/`,
     // Autoria da publicação, não de pessoa: ninguém aqui teve o produto na mão.
     author: { "@type": "Organization", name: site.editor.nome, url: site.url },
-    publisher: { "@type": "Organization", name: site.nome, url: site.url },
+    publisher: EDITORA,
     about: {
       "@type": "ItemList",
       numberOfItems: c.concorrentes.length,
@@ -211,7 +222,7 @@ export function schemaProduto(p: {
     ...(p.imagem ? { primaryImageOfPage: `${site.url}${p.imagem.src}` } : {}),
     inLanguage: "pt-BR",
     isPartOf: { "@type": "WebSite", name: site.nome, url: site.url },
-    publisher: { "@type": "Organization", name: site.nome, url: site.url },
+    publisher: EDITORA,
   };
 }
 

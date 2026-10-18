@@ -23,7 +23,8 @@ export default function Contato() {
       <h1 className="font-titulo text-3xl tracking-tight">Contato</h1>
       <p className="mt-3 max-w-[62ch] text-lg text-tinta-suave">
         Correção, imagem de fabricante, pedido sobre dados ou sugestão: o
-        caminho é um só, por e-mail.
+        caminho é por e-mail. O Instagram é onde publicamos os achados das
+        fichas, não um canal de correção.
       </p>
 
       <div className="painel mt-8 p-5">
@@ -31,6 +32,12 @@ export default function Contato() {
           <strong>E-mail:</strong>{" "}
           <a href={`mailto:${email}`} className="text-acao-forte underline">
             {email}
+          </a>
+        </p>
+        <p className="mt-2 text-[0.95rem]">
+          <strong>Instagram:</strong>{" "}
+          <a href={site.redes.instagram} rel="me noopener" target="_blank" className="text-acao-forte underline">
+            @guiaprodutonalupa
           </a>
         </p>
       </div>

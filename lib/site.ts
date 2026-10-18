@@ -18,6 +18,14 @@ export const site = {
     url: "/sobre",
   },
   /**
+   * Perfis da publicação fora do site. Vão para o rodapé (com `rel="me"`) e
+   * para o `sameAs` da Organization no JSON-LD, que é como o Google liga o
+   * perfil ao site. Instagram no ar desde 18/10/2026.
+   */
+  redes: {
+    instagram: "https://www.instagram.com/guiaprodutonalupa/",
+  },
+  /**
    * ID de Associado da Amazon.com.br, aprovado em 14/09/2026. Não é segredo —
    * vai em toda URL de loja do site — então fica no código, com a variável de
    * ambiente só para sobrescrever em outro deploy.

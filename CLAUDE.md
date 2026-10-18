@@ -408,7 +408,12 @@ HTML, não imagem: "GUIA" pequeno em Archivo e "Produto na Lupa" em Fraunces,
 trocando de cor com o tema — sem verde, porque a cor de ação é só do CTA. Os
 SVGs antigos em `public/marca/` (símbolo e marca horizontal em cor, mono e
 fundo escuro) ficam como kit vetorial, sem uso no site. O mestre em 1080×1080
-para o Instagram não está no repositório; o Allan tem o arquivo.
+para o Instagram está em `public/marca/emblema-1080.png`, e por isso também
+no ar em `/marca/emblema-1080.png` — foi o jeito de o Allan baixá-lo no
+celular. **O perfil é instagram.com/guiaprodutonalupa, no ar desde
+18/10/2026**: está em `site.redes` (`lib/site.ts`), no rodapé e em /contato
+com `rel="me"`, e no `sameAs` da Organization do JSON-LD (`EDITORA` em
+`lib/schema.tsx`).
 
 Proibido no projeto: **movimento automático de qualquer tipo**, contador
 regressivo, selo de oferta, pop-up e banner lateral. O site tem que parecer
