@@ -6,6 +6,7 @@ import { AlternadorTema } from "@/components/tema";
 import { Busca } from "@/components/busca";
 import { Icone } from "@/components/icones";
 import { MenuDepartamentos } from "@/components/menu-departamentos";
+import { Marca } from "@/components/marca";
 
 /**
  * Cabeçalho em duas linhas, no padrão das lojas grandes.
@@ -27,14 +28,11 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-linha bg-papel/95 backdrop-blur">
       <div className="mx-auto flex max-w-[var(--largura-ferramenta)] items-center gap-4 px-5 py-3.5 md:gap-8">
         <Link href="/" className="flex shrink-0 items-center" aria-label={site.nome}>
-          {/* A marca horizontal em todo tamanho, desde 17/10/2026 — antes o
+          {/* A marca inteira em todo tamanho, desde 17/10/2026 — antes o
               celular mostrava só o símbolo, e o lugar mais nobre da tela
-              ficava com "Tema: sistema". Menor no celular (h-8) para caber ao
-              lado do botão de tema. As duas versões por tema, porque o traço
-              preto some no escuro; as classes .so-claro/.so-escuro ficam só
-              nas imagens. */}
-          <img src="/marca/marca-horizontal.svg" alt="" aria-hidden width={739} height={98} className="so-claro h-8 w-auto sm:h-11 md:h-12" />
-          <img src="/marca/marca-horizontal-fundo-escuro.svg" alt="" aria-hidden width={739} height={98} className="so-escuro h-8 w-auto sm:h-11 md:h-12" />
+              ficava com "Tema: sistema". Emblema renderizado + nome em texto
+              (components/marca.tsx); o texto troca de cor com o tema sozinho. */}
+          <Marca />
         </Link>
 
         <div className="mx-auto hidden w-full max-w-[40rem] md:block">

@@ -378,8 +378,7 @@ export default function Home() {
             único que não levava a lugar nenhum. A frase dele é a tese do site,
             e /metodologia é onde ela é provada. */}
         <Link href="/metodologia" className="cartao flex items-center gap-3.5 p-4 lg:col-span-1">
-          <img src="/marca/simbolo.svg" alt="" aria-hidden width={44} height={44} className="so-claro h-11 w-11 shrink-0" />
-          <img src="/marca/simbolo-fundo-escuro.svg" alt="" aria-hidden width={44} height={44} className="so-escuro h-11 w-11 shrink-0" />
+          <img src="/marca/emblema-256.webp" alt="" aria-hidden width={44} height={44} className="h-11 w-11 shrink-0 rounded-full" />
           <p className="text-[0.88rem] leading-snug">
             <strong className="titulo-ui">Fichas oficiais, lado a lado.</strong>{" "}
             <span className="text-tinta-suave">Cada número com a fonte, e o que o fabricante omite escrito.</span>

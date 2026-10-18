@@ -396,8 +396,19 @@ Duas larguras, e só duas: `--largura-prosa` (48rem) para texto corrido e
 Fraunces nos títulos, Archivo na interface, IBM Plex Mono nos números — as mesmas
 do viagemnalupa, de propósito, para os dois sites lerem como uma rede.
 
-Marca: lupa com deerstalker, sem rosto. SVGs em `public/marca/` (símbolo e marca
-horizontal, cada um em cor, mono e fundo escuro). `app/icon.svg` é o favicon.
+Marca: lupa com deerstalker, sem rosto. **Desde 17/10/2026 a marca é um
+emblema renderizado + nome em texto** (`components/marca.tsx`), a pedido do
+Allan — ele queria uma identidade "de alta resolução", como a do Vestígio
+Oculto e do Xadrez Bélico, e uma logo para o perfil do Instagram. O emblema
+(chapéu de tweed com fita verde-petróleo sobre a lente, anel de grafite, fundo
+escuro, sem texto) foi gerado com gpt-image-2 em 17/10/2026, variação 2 de 4,
+e mora em `public/marca/emblema-256.webp` (cabeçalho, rodapé e tira da home),
+`app/icon.png` (favicon, 192 px) e `app/apple-icon.png` (180 px). O nome é
+HTML, não imagem: "GUIA" pequeno em Archivo e "Produto na Lupa" em Fraunces,
+trocando de cor com o tema — sem verde, porque a cor de ação é só do CTA. Os
+SVGs antigos em `public/marca/` (símbolo e marca horizontal em cor, mono e
+fundo escuro) ficam como kit vetorial, sem uso no site. O mestre em 1080×1080
+para o Instagram não está no repositório; o Allan tem o arquivo.
 
 Proibido no projeto: **movimento automático de qualquer tipo**, contador
 regressivo, selo de oferta, pop-up e banner lateral. O site tem que parecer

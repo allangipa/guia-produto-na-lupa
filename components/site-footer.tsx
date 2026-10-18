@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
 import { navegacao } from "@/lib/navegacao";
+import { Marca } from "@/components/marca";
 
 /**
  * Rodapé sólido na cor de ação, como as lojas fazem — é o único bloco grande
@@ -16,7 +17,7 @@ export function SiteFooter() {
     <footer className="mt-20 bg-acao-forte text-white">
       <div className="mx-auto grid max-w-[var(--largura-ferramenta)] gap-x-10 gap-y-8 px-5 py-12 text-[0.9rem] md:grid-cols-[1.4fr_1.2fr_.85fr_1.1fr]">
         <div>
-          <img src="/marca/marca-horizontal-fundo-escuro.svg" alt={site.nome} width={739} height={98} className="h-11 w-auto" />
+          <Marca tom="escuro" nome={site.nome} />
           <p className="mt-4 max-w-[40ch] text-white/80">
             Compare fichas técnicas oficiais lado a lado, na mesma unidade, com
             a fonte de cada número declarada e uma nota de transparência por
