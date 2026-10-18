@@ -170,14 +170,14 @@ export const recortes: Recorte[] = [
     buscaQueOrigina: "air fryer 220v",
     posicaoNaSugestao: "1ª sugestão para “air fryer”",
     criterio:
-      "Fichas cuja tensão declarada inclui 220 V — tanto as exclusivas de 220 V quanto as bivolt.",
+      "Fichas cuja tensão declarada inclui 220 V — as que só existem em 220 V e as vendidas em duas versões, 127 V e 220 V.",
     filtro: (p) => typeof p.specs.tensao === "string" && p.specs.tensao.includes("220"),
     texto: [
       "As duas primeiras sugestões da busca para “air fryer” não são marca nem capacidade: são **220 V** e **110 V**. Antes de qualquer coisa, a pessoa quer saber se o aparelho liga na tomada dela.",
       "É uma pergunta simples que a categoria responde de forma confusa. Nas vinte fichas desta base, a tensão aparece escrita de quatro maneiras: “220 V”, “127 V ou 220 V”, “127 V” e “110 V”.",
       "As duas últimas descrevem a mesma tomada. A rede residencial brasileira de tensão baixa é nominalmente 127 V; “110 V” é como quase todo mundo continua chamando, e alguns fabricantes imprimem isso na ficha. Um aparelho declarado “110 V” e outro declarado “127 V” vão para o mesmo lugar da parede.",
-      "Esta lista reúne as fichas cuja tensão declarada inclui 220 V — as exclusivas dessa tensão e as bivolt, que a ficha escreve como “127 V ou 220 V”. São a maioria da categoria, mas não a categoria inteira: há modelos que só existem na tensão baixa, e comprar um deles para uma tomada de 220 é prejuízo imediato.",
-      "Uma ressalva importante: bivolt na ficha quase sempre significa chaveamento automático nos modelos recentes, mas **nem toda ficha diz se a troca é automática ou por chave**. Onde o fabricante não diz, este guia não afirma — e num aparelho de resistência, ligar na tensão errada com a chave no lugar errado queima na primeira vez.",
+      "Esta lista reúne as fichas cuja tensão declarada inclui 220 V — as que só existem nessa tensão e as que a ficha escreve como “127 V ou 220 V”. São a maioria da categoria, mas não a categoria inteira: há modelos que só existem na tensão baixa, e comprar um deles para uma tomada de 220 é prejuízo imediato.",
+      "**“127 V ou 220 V” não quer dizer bivolt.** Quer dizer que o modelo é vendido em duas versões, e cada aparelho liga numa tensão só. Os catálogos oficiais conferidos em 18/10/2026 mostram isso: a Electrolux EAF40 e a Philco PAF95A aparecem como dois itens, um de 127 V e outro de 220 V, e a Walita AI551 declara 1.600 W em 127 V e 1.900 W em 220 V. **A escolha da tensão acontece no momento da compra**, e é a linha do anúncio que mais vale conferir antes de pagar. Até 18/10 este texto chamava essas fichas de bivolt, e estava errado.",
     ],
   },
   {
@@ -223,7 +223,7 @@ export const recortes: Recorte[] = [
       "Os 12 litros são a caixa. O que cabe de comida é o cesto, a bandeja ou a grade, e **só duas das seis fichas desta lista declaram esse segundo número** — e discordam sobre o que ele é. A Mondial AFON-12L escreve 12 litros de capacidade total e **5 litros úteis**, com **400 g de batata por vez** no manual. A Philips Walita AI551 escreve 12 litros nos dois campos: para ela, a capacidade útil é a caixa inteira.",
       "O número da Mondial é o mais revelador da categoria: 400 g de batata numa air fryer de 12 litros é **menos do que a AFN-40 da mesma marca**, de 4 litros, declara aceitar — 500 g. A oven tem espaço para um frango, não para mais batata: a altura da câmara serve à peça inteira, e a grade plana serve a uma camada só.",
       "Nas outras quatro fichas — Philco PFR2200P e PAF15C, Oster OFRT780 e WAP Barbecue Digital — a capacidade útil não existe em campo nenhum. A Philco PAF15C declara 15 litros e nada mais sobre o que cabe; a WAP tem 10 litros num formato próprio, cesto com chapa e tampa superior, que não é oven.",
-      "A tomada decide antes do cesto. Das seis, **duas só existem em 127 V** (Mondial AFON-12L e Philco PFR2200P), **uma só em 220 V** (WAP) e três são bivolt. Numa air fryer de 1.600 a 2.000 W, ligar na tensão errada não é desempenho pior: é a resistência queimada.",
+      "A tomada decide antes do cesto. Das seis, **duas só existem em 127 V** (Mondial AFON-12L e Philco PFR2200P), **uma só em 220 V** (WAP) e três são vendidas em duas versões, 127 V ou 220 V, escolhida na compra. Numa air fryer de 1.600 a 2.000 W, ligar na tensão errada não é desempenho pior: é a resistência queimada.",
       "O último campo que separa a lista é a garantia: Philips Walita e WAP declaram **24 meses**; Mondial, Philco e Oster, 12. E a Oster OFRT780 é a única das seis que não publica temperatura máxima.",
     ],
   },
@@ -244,7 +244,7 @@ export const recortes: Recorte[] = [
       "A pergunta é quanta comida cabe, e aqui **quatro das seis fichas respondem em gramas de batata**: 500 g na Oster OFRT520 (4,6 L) e na Mondial AFN-40 (4 L), 800 g na Mondial AFN-50 (5 L) e na Britânia BFR50 (5,5 L). Nas air fryers grandes da mesma base, de 10 litros para cima, só uma ficha em seis publica esse número — e publica 400 g.",
       "Ou seja: a Mondial AFN-50, de 5 litros, declara aceitar **o dobro de batata** da Mondial AFON-12L, de 12 litros. A caixa pequena com cesto fundo leva mais batata em camada do que a caixa grande com grade plana. É o tipo de conta que o litro do nome esconde e a ficha, quando publica, mostra.",
       "Nenhuma das seis declara capacidade útil em litros — o campo que separaria caixa de cesto. A Elgin Facilita Fry, de 3,5 L, é a única que fala em pessoas (“1 a 2”), e é também a única que não declara garantia nem temperatura máxima.",
-      "A tomada importa tanto quanto nas grandes: **Philco PAF40A e Mondial AFN-50 só existem em 220 V**, a Oster OFRT520 só em 127 V, e as outras três são bivolt. A potência vai de 1.400 W (Elgin) a 1.900 W (AFN-50), e o painel é analógico, de botão giratório, em quatro; duas não dizem.",
+      "A tomada importa tanto quanto nas grandes: **Philco PAF40A e Mondial AFN-50 só existem em 220 V**, a Oster OFRT520 só em 127 V, e as outras três são vendidas em duas versões, 127 V ou 220 V, escolhida na compra. A potência vai de 1.400 W (Elgin) a 1.900 W (AFN-50), e o painel é analógico, de botão giratório, em quatro; duas não dizem.",
     ],
   },
   {
@@ -264,7 +264,7 @@ export const recortes: Recorte[] = [
       "São sete fichas, e a tensão está escrita de dois jeitos. **Três dizem “110 V”** — as três da Philips Walita, NA341, NA230 e NA130 — e **quatro dizem “127 V”**: Mondial AFON-12L, Philco PFR2200P e PAF65A, Oster OFRT520. É a mesma tomada: a rede residencial brasileira de tensão baixa é nominalmente 127 V, e “110” é como boa parte do mercado continua chamando.",
       "A lista tem de tudo: a oven de 12 litros da Mondial, a de 7,2 litros com visor da Walita, a compacta de 4,6 litros da Oster. O que elas têm em comum não é tamanho nem preço — é não existir em versão de 220 V no catálogo que a base leu. Para quem mora em estado de 220 V, essas sete saem da escolha antes de qualquer outro campo.",
       "A Philips Walita é o caso mais interessante: as três fichas dela aqui declaram **24 meses de garantia**, contra 12 das outras quatro, e as três são as únicas desta base que publicam o campo “110 V” em vez de “127 V” — o fabricante que mais documenta usa o nome antigo.",
-      "Das vinte air fryers da base, dez são bivolt, três só 220 V e estas sete só 127 V. A ficha não diz se a bivolt troca de tensão sozinha ou por chave; onde o fabricante não escreve, este site não afirma.",
+      "Das vinte air fryers da base, dez são vendidas em duas versões — 127 V ou 220 V, escolhida na compra, e cada aparelho liga numa só —, três só existem em 220 V e estas sete só em 127 V. **Nenhuma das vinte fichas declara ser bivolt.** Até 18/10/2026 este texto dizia que as dez eram, e estava errado.",
     ],
   },
   {
@@ -284,7 +284,7 @@ export const recortes: Recorte[] = [
       "É também um campo que **quase nenhuma ficha publica**. Das vinte air fryers da base, cinco declaram o visor; as outras quinze não dizem que têm nem que não têm. Pela regra deste site, ausência de menção é “não informa”, e por isso esta lista tem cinco — não porque as outras não tenham janela, mas porque o fabricante não escreveu.",
       "Três das cinco são Philips Walita: NA341 (7,2 L), NA230 (6,2 L) e a oven AI551 (12 L). As outras duas são Philco, PAF65A (6,5 L) e PAF95A (9,5 L). Nas duas marcas o visor vem junto com painel digital de toque — a AI551 é a única que não declara o tipo de painel.",
       "A NA341 é a ficha mais completa da categoria inteira, e dá para ver por que: além do visor, declara **4,7 litros úteis** dentro dos 7,2 da caixa e **1 kg de batata por vez** — o maior número de batata da base, numa air fryer que não é a maior. A NA230 declara 6,2 litros úteis para 6,2 de caixa, o que diz mais sobre como a Walita preenche o campo do que sobre o cesto.",
-      "Duas das cinco, NA341 e NA230, só existem em 110 V; a PAF65A, só em 127 V; AI551 e PAF95A são bivolt. A garantia é de 24 meses nas três Walita e de 12 nas duas Philco.",
+      "Duas das cinco, NA341 e NA230, só existem em 110 V; a PAF65A, só em 127 V; AI551 e PAF95A são vendidas em duas versões, 127 V ou 220 V, escolhida na compra. A garantia é de 24 meses nas três Walita e de 12 nas duas Philco.",
     ],
   },
   {

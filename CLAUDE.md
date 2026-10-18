@@ -1653,6 +1653,20 @@ confunde com documento sem folha de estilo.
   amostra pequena demais para chamar de defeito. **Ficaram de fora**
   "chaleira elétrica philips walita" (uma ficha Walita na base) e
   "torradeira" (busca genérica demais para uma página nossa ganhar).
+- **"127 V ou 220 V" não é bivolt — erro corrigido em 18/10/2026.** No campo
+  `tensao`, "127 V ou 220 V" quer dizer que o modelo é vendido em duas versões
+  e cada aparelho liga numa só; bivolt a base escreve "Bivolt" (escovas
+  secadoras, parte das furadeiras e dos secadores). Conferido nos catálogos
+  VTEX oficiais: Electrolux ETS10, TOP70 e EAF40, Philco PAF95A, a torradeira
+  Oster e a WAP WTE1 aparecem como dois SKUs, "127V" e "220V", e a WAP escreve
+  "escolher no momento da compra". Estava escrito "bivolt" para essas fichas
+  em: a pergunta de tensão do guia de air fryers e cinco recortes de air fryer
+  (escritos em 17/10), a pergunta de tensão do guia de cooktops, o guia de
+  torradeiras ("8 das 12 declaram ser bivolt"), o comparativo TOP70 × WTE1 e a
+  análise da WTE1. Todos corrigidos, com nota de correção datada onde o erro
+  era o argumento da seção. **Antes de escrever "bivolt", ler o campo: só vale
+  se a ficha diz "Bivolt".** O erro é perigoso, não só impreciso: induz a
+  ligar a versão de 127 V numa tomada de 220.
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
 
