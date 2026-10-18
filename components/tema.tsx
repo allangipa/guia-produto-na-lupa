@@ -1,5 +1,7 @@
 "use client";
 
+import { Icone } from "@/components/icones";
+
 import { useEffect, useState } from "react";
 
 /**
@@ -65,14 +67,18 @@ export function AlternadorTema() {
         ? "Tema: escuro"
         : "Tema: claro";
 
+  // No celular só o ícone, desde 17/10/2026: o rótulo "Tema: sistema"
+  // ocupava o lugar da marca na primeira linha. O aria-label segue completo.
   return (
     <button
       type="button"
       onClick={trocar}
       aria-label={`${rotulo}. Clique para alternar.`}
-      className="pilula !py-2 text-[0.8rem]"
+      title={rotulo}
+      className="pilula !px-2.5 !py-2 text-[0.8rem] sm:!px-3.5"
     >
-      {rotulo}
+      <Icone nome="tema" className="h-4 w-4" />
+      <span className="hidden sm:inline">{rotulo}</span>
     </button>
   );
 }

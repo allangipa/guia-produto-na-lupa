@@ -27,18 +27,14 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-linha bg-papel/95 backdrop-blur">
       <div className="mx-auto flex max-w-[var(--largura-ferramenta)] items-center gap-4 px-5 py-3.5 md:gap-8">
         <Link href="/" className="flex shrink-0 items-center" aria-label={site.nome}>
-          {/* Símbolo só no celular; a marca inteira a partir de sm. As duas
-              versões por tema, porque o traço preto some no escuro. */}
-          {/* Os wrappers cuidam da largura; as classes de tema (.so-claro/.so-escuro)
-              ficam só nas imagens, senão o display delas anula o `hidden`. */}
-          <span className="sm:hidden">
-            <img src="/marca/simbolo.svg" alt="" aria-hidden width={40} height={40} className="so-claro h-10 w-10" />
-            <img src="/marca/simbolo-fundo-escuro.svg" alt="" aria-hidden width={40} height={40} className="so-escuro h-10 w-10" />
-          </span>
-          <span className="hidden sm:block">
-            <img src="/marca/marca-horizontal.svg" alt="" aria-hidden width={739} height={98} className="so-claro h-11 w-auto md:h-12" />
-            <img src="/marca/marca-horizontal-fundo-escuro.svg" alt="" aria-hidden width={739} height={98} className="so-escuro h-11 w-auto md:h-12" />
-          </span>
+          {/* A marca horizontal em todo tamanho, desde 17/10/2026 — antes o
+              celular mostrava só o símbolo, e o lugar mais nobre da tela
+              ficava com "Tema: sistema". Menor no celular (h-8) para caber ao
+              lado do botão de tema. As duas versões por tema, porque o traço
+              preto some no escuro; as classes .so-claro/.so-escuro ficam só
+              nas imagens. */}
+          <img src="/marca/marca-horizontal.svg" alt="" aria-hidden width={739} height={98} className="so-claro h-8 w-auto sm:h-11 md:h-12" />
+          <img src="/marca/marca-horizontal-fundo-escuro.svg" alt="" aria-hidden width={739} height={98} className="so-escuro h-8 w-auto sm:h-11 md:h-12" />
         </Link>
 
         <div className="mx-auto hidden w-full max-w-[40rem] md:block">
@@ -50,13 +46,16 @@ export function SiteHeader() {
               Antes apontava para comProdutos[0], que é sempre áudio: quem
               queria comparar monitor caía num comparador de fone sem saber
               que havia outros. */}
-          <Link
-            href="/comparar"
-            className="botao botao-secundario hidden !py-2.5 text-[0.85rem] sm:inline-flex"
-          >
-            <Icone nome="comparar" className="h-4 w-4" />
-            Comparar
-          </Link>
+          {/* O wrapper esconde por largura: `.botao` define `display` e anula o
+              `hidden` do Tailwind no próprio link (mesma armadilha de
+              .so-claro/.so-escuro). Medido em 17/10/2026: com o botão à vista
+              no celular, a página passava de 375 para 459 px de largura. */}
+          <span className="hidden sm:block">
+            <Link href="/comparar" className="botao botao-secundario !py-2.5 text-[0.85rem]">
+              <Icone nome="comparar" className="h-4 w-4" />
+              Comparar
+            </Link>
+          </span>
           <AlternadorTema />
         </div>
       </div>
