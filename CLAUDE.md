@@ -1305,6 +1305,18 @@ confunde com documento sem folha de estilo.
   cooktops), 5 a 7 perguntas cada; os outros 29 ainda não. Padrão copiado de
   Zoom, Promobit e Panelas e Cozinha, que fecham o guia com H2 em forma de
   pergunta (`docs/concorrentes-2026-10-17.md`).
+- **A análise abre com o veredito, desde 17/10/2026.** Até então: título,
+  subtítulo, foto em largura inteira, selo, e só depois a nota com "compre
+  se" e "não compre se" — a resposta ficava abaixo da dobra, enquanto
+  TudoCelular e TechTudo abrem com a nota (`docs/concorrentes-2026-10-17.md`).
+  Agora `VereditoRapido` (`components/veredito.tsx`) é um card com a foto
+  menor ao lado, a nota, o selo de transparência, as duas listas e uma linha
+  de rodapé que diz em uma frase o que o texto explica depois: nota pela
+  documentação, ninguém usou o produto. O CTA continua depois do card.
+  **No celular a ordem muda**: a foto vai para depois das listas e o
+  subtítulo desce para depois do card (`order-*` no `page.tsx` e no
+  componente), e o título fica em 1,65rem. Medido em 17/10: com a ordem de
+  desktop, a nota começava a 1.002 px numa tela de 812; com a nova, a 486.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

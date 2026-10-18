@@ -1,5 +1,9 @@
-import type { Criterio } from "@/lib/conteudo";
+import Image from "next/image";
+import Link from "next/link";
+import type { Criterio, Imagem } from "@/lib/conteudo";
 import { notaLegivel } from "@/lib/conteudo";
+import type { Produto } from "@/lib/specs";
+import { SeloTransparencia } from "@/components/selo-transparencia";
 
 /**
  * A escala por critério é o elemento visual forte da página: uma leitura de
@@ -46,55 +50,102 @@ export function EscalaCriterios({ criterios }: { criterios: Criterio[] }) {
   );
 }
 
+/**
+ * O veredito na primeira tela, desde 17/10/2026.
+ *
+ * Até então a análise abria com título, subtítulo e uma foto em largura
+ * inteira; a nota, o "compre se" e o "não compre se" só apareciam depois de
+ * rolar. Os sites que ranqueiam em "X é bom?" (TudoCelular, TechTudo) abrem
+ * com a nota e a resposta — ver docs/concorrentes-2026-10-17.md. Aqui o card
+ * reúne nota, selo de transparência, as duas listas e a foto, menor, ao lado;
+ * a linha de rodapé diz em uma frase o que o corpo do texto explica depois:
+ * ninguém aqui usou o produto, e a nota mede o que a documentação permite.
+ *
+ * `foto` e `ficha` são opcionais para o card servir também a uma análise sem
+ * foto licenciada ou sem produto na base; o layout fecha nos dois casos.
+ */
 export function VereditoRapido({
   nota,
   para,
   naoPara,
+  foto,
+  ficha,
 }: {
   nota: number;
   para: string[];
   naoPara: string[];
+  foto?: Imagem;
+  ficha?: Produto;
 }) {
   return (
-    <section
-      aria-label="Veredito em 30 segundos"
-      className="my-10 border-y border-linha py-8"
-    >
-      <div className="flex items-baseline gap-3">
-        <span className="font-dado text-4xl tabular-nums leading-none">
-          {notaLegivel(nota)}
-        </span>
-        <span className="text-tinta-suave">de 10 na nossa escala</span>
+    <section aria-label="Veredito em 30 segundos" className="painel order-1 mt-6 overflow-hidden sm:order-2 sm:mt-8">
+      <div className={`grid gap-6 p-5 sm:p-6 ${foto ? "sm:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]" : ""}`}>
+        {/* No celular a foto vem depois da nota e das listas: o veredito é o
+            que a pessoa veio ver, e 256 px de foto antes dele o empurravam
+            para fora da primeira tela. */}
+        {foto && (
+          <figure className="order-2 min-w-0 sm:order-1">
+            <div className="overflow-hidden rounded-lg border border-linha bg-superficie">
+              <Image
+                src={foto.src}
+                alt={foto.alt}
+                width={900}
+                height={600}
+                priority
+                className="h-auto max-h-64 w-full object-contain sm:max-h-none"
+              />
+            </div>
+            <figcaption className="mt-1.5 text-[0.72rem] leading-snug text-tinta-suave">
+              {foto.credito}
+            </figcaption>
+          </figure>
+        )}
+
+        <div className="order-1 min-w-0 sm:order-2">
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">
+            <span className="font-dado text-[2.6rem] tabular-nums leading-none">
+              {notaLegivel(nota)}
+            </span>
+            <span className="text-[0.95rem] text-tinta-suave">de 10 na nossa escala</span>
+            {ficha && <SeloTransparencia produto={ficha} className="ml-auto" />}
+          </div>
+
+          <div className="mt-5 grid gap-5 lg:grid-cols-2">
+            <div>
+              <h2 className="titulo-ui text-[1rem]">Compre se você</h2>
+              <ul className="mt-2 space-y-1.5 text-[0.93rem] leading-snug">
+                {para.map((p) => (
+                  <li key={p} className="flex gap-2">
+                    <span aria-hidden className="text-acao">✓</span>
+                    <span className="max-w-[40ch]">{p}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h2 className="titulo-ui text-[1rem]">Não compre se você</h2>
+              <ul className="mt-2 space-y-1.5 text-[0.93rem] leading-snug">
+                {naoPara.map((p) => (
+                  <li key={p} className="flex gap-2">
+                    <span aria-hidden className="text-atencao">✕</span>
+                    <span className="max-w-[40ch]">{p}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="mt-7 grid gap-7 sm:grid-cols-2">
-        <div>
-          <h2 className="titulo-ui text-lg">Compre se você</h2>
-          <ul className="mt-2 space-y-2 text-[0.97rem]">
-            {para.map((p) => (
-              <li key={p} className="flex gap-2">
-                <span aria-hidden className="text-acao">
-                  ✓
-                </span>
-                <span className="max-w-[40ch]">{p}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h2 className="titulo-ui text-lg">Não compre se você</h2>
-          <ul className="mt-2 space-y-2 text-[0.97rem]">
-            {naoPara.map((p) => (
-              <li key={p} className="flex gap-2">
-                <span aria-hidden className="text-atencao">
-                  ✕
-                </span>
-                <span className="max-w-[40ch]">{p}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      {/* A ressalva que o corpo do texto detalha, em uma linha e antes de
+          qualquer botão: é o que separa esta nota de uma nota de quem testou. */}
+      <p className="border-t border-linha bg-superficie/60 px-5 py-2.5 text-[0.8rem] text-tinta-suave sm:px-6">
+        Nota pela documentação oficial do fabricante — ninguém aqui usou o
+        produto.{" "}
+        <Link href="/metodologia" className="underline underline-offset-4">
+          Como avaliamos
+        </Link>
+      </p>
     </section>
   );
 }

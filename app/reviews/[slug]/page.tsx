@@ -16,8 +16,6 @@ import { Divulgacao } from "@/components/divulgacao";
 import { VereditoRapido, EscalaCriterios } from "@/components/veredito";
 import { ProsContras, Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
-import { FotoProduto } from "@/components/foto-produto";
-import { SeloTransparencia } from "@/components/selo-transparencia";
 import { LevaAFicha } from "@/components/leva-a-ficha";
 import { Fontes } from "@/components/fontes";
 import { JsonLd, schemaReview, schemaBreadcrumb } from "@/lib/schema";
@@ -97,32 +95,35 @@ export default async function PaginaReview({ params }: Params) {
 
       <header>
         <Divulgacao atualizadoEm={dataLegivel(r.atualizadoEm)} />
-        <h1 className="mt-3 font-titulo text-3xl leading-[1.12] tracking-tight sm:text-4xl">
+        {/* Menor no celular, de propósito: com o título em 3xl e o subtítulo em
+            lg, o card do veredito começava a 757 px numa tela de 812 (medido
+            em 17/10/2026) — a nota ficava abaixo da dobra justamente onde a
+            maioria lê. No desktop os tamanhos não mudam. */}
+        <h1 className="mt-3 font-titulo text-[1.65rem] leading-[1.15] tracking-tight sm:text-4xl sm:leading-[1.12]">
           {r.titulo}
         </h1>
-        <p className="mt-4 max-w-[62ch] text-lg text-tinta-suave">
-          {r.subtitulo}
-        </p>
       </header>
 
-      {/* A foto vem da base quando o frontmatter não traz — que era o caso dos
-          18 reviews até 26/09/2026. O mesmo casamento já alimentava a imagem de
-          compartilhamento desta página; só a página em si ficava sem. */}
-      {(() => {
-        const foto =
-          r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome]);
-        return foto ? <FotoProduto imagem={foto} prioridade /> : null;
-      })()}
+      {/* No celular o subtítulo desce para depois do card: título, veredito,
+          subtítulo. No desktop a ordem é a de sempre (subtítulo, card). */}
+      <div className="flex flex-col">
+        <p className="order-2 mt-6 max-w-[62ch] text-base text-tinta-suave sm:order-1 sm:mt-4 sm:text-lg">
+          {r.subtitulo}
+        </p>
 
-      {/* O selo antes do veredito: quem lê "não informa" no texto precisa saber
-          se aquilo é deslize ou o padrão da ficha inteira. */}
-      {ficha ? (
-        <div className="mt-8">
-          <SeloTransparencia produto={ficha} />
-        </div>
-      ) : null}
-
-      <VereditoRapido nota={r.nota} para={r.para} naoPara={r.naoPara} />
+      {/* O veredito na primeira tela, desde 17/10/2026: nota, selo, "compre
+          se", "não compre se" e a foto ao lado, num card só. Até então a foto
+          ocupava a largura inteira e a nota ficava abaixo da dobra. A foto vem
+          da base quando o frontmatter não traz — o mesmo casamento que alimenta
+          o cartão de compartilhamento. */}
+      <VereditoRapido
+        nota={r.nota}
+        para={r.para}
+        naoPara={r.naoPara}
+        foto={r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome])}
+        ficha={ficha ?? undefined}
+      />
+      </div>
 
       <LojaCta
         lojas={r.produto.lojas}

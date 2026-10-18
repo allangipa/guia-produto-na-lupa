@@ -36,6 +36,8 @@ TudoCelular análise `n232888` e review `provas/n2396` (bloqueia WebFetch com
    comprar?" no primeiro parágrafo. Nossa análise abre com "Por que esta
    análise existe". Veredito (nota, para quem, não compre se) na primeira
    tela; aviso de que não testamos numa linha. **Junto com o visual 4.**
+   **Feito em 17/10** (`components/veredito.tsx`): card com nota, selo,
+   listas e foto ao lado; no celular, nota antes da foto e subtítulo depois.
 4. **"Como escolhemos" na própria página, antes dos produtos** (TechTudo,
    Panelas e Cozinha): caixa de quatro linhas no guia — fichas oficiais lidas
    em X, ranking da Amazon de Y, nenhum produto testado. **Junto com o visual 3.**
@@ -75,5 +77,5 @@ que a página tem.
    para os chips, sobra espaço para a marca horizontal.
 
 Os itens 3 e 4 vão junto com os de SEO 4 e 3. Ordem geral combinada em
-17/10/2026: SEO 1 (feito) → 2 (feito em 7 guias) → 3+visual 4 → 4+visual 3 → 5; visual 1, 2 e 5
+17/10/2026: SEO 1 (feito) → 2 (feito em 7 guias) → 3+visual 4 (feito) → 4+visual 3 → 5; visual 1, 2 e 5
 na sequência.
