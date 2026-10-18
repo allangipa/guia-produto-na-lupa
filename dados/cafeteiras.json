@@ -18,7 +18,7 @@
       "xicaras": 19,
       "mlPorXicara": 40,
       "potenciaW": 600,
-      "consumoKwh": 0.6,
+      "consumoKwh": null,
       "materialJarra": "Vidro",
       "filtroPermanente": true,
       "cortaPingos": null,
@@ -63,6 +63,15 @@
         "alt": "Cafeteira Oster OCAF300 vista de outro ângulo, com o reservatório à mostra",
         "credito": "Imagem: Oster",
         "origem": "https://www.oster.com.br/cafeteira-oster-inox-compacta-075l/p"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-ocaf300-oficial",
+        "valorDivergente": "Consumo \"0,6 kW/h\"",
+        "fonteDivergente": "oster-ocaf300-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,6 kW/h**, que é exatamente a potência declarada de 600 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
       }
     ]
   },
@@ -281,7 +290,7 @@
       "xicaras": 32,
       "mlPorXicara": 40,
       "potenciaW": 750,
-      "consumoKwh": 0.75,
+      "consumoKwh": null,
       "materialJarra": "Inox (térmica)",
       "filtroPermanente": null,
       "cortaPingos": true,
@@ -327,6 +336,15 @@
         "credito": "Imagem: Oster",
         "origem": "https://www.oster.com.br/cafeteira-oster-com-jarra-termica-inox-12l/p"
       }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-ocaf650-oficial",
+        "valorDivergente": "Consumo \"0,75 kW/h\"",
+        "fonteDivergente": "oster-ocaf650-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 kW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
+      }
     ]
   },
   {
@@ -348,7 +366,7 @@
       "xicaras": 32,
       "mlPorXicara": 40,
       "potenciaW": 750,
-      "consumoKwh": 0.75,
+      "consumoKwh": null,
       "materialJarra": "Vidro",
       "filtroPermanente": true,
       "cortaPingos": null,
@@ -393,6 +411,15 @@
         "alt": "Cafeteira Oster OCAF600 com a jarra de vidro separada da base",
         "credito": "Imagem: Oster",
         "origem": "https://www.oster.com.br/cafeteira-oster-inox-12l/p"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-ocaf600-oficial",
+        "valorDivergente": "Consumo \"0,75 kW/h\"",
+        "fonteDivergente": "oster-ocaf600-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,75 kW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
       }
     ]
   },
@@ -482,7 +509,7 @@
       "xicaras": 18,
       "mlPorXicara": 40,
       "potenciaW": 550,
-      "consumoKwh": 0.55,
+      "consumoKwh": null,
       "materialJarra": "Inox",
       "filtroPermanente": true,
       "cortaPingos": true,
@@ -513,6 +540,15 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "18 cafezinhos, jarra de inox, versão 127 V, 19,5 × 17 × 27,5 cm — as dimensões que o fabricante não publica.",
         "consultadaEm": "2026-09-14"
+      }
+    ],
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "britania-bcf19b-oficial",
+        "valorDivergente": "Consumo \"0,55 kW/h\"",
+        "fonteDivergente": "britania-bcf19b-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,55 kW/h**, que é exatamente a potência declarada de 550 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
       }
     ]
   },
@@ -663,7 +699,7 @@
       "xicaras": null,
       "mlPorXicara": null,
       "potenciaW": 600,
-      "consumoKwh": 0.6,
+      "consumoKwh": null,
       "materialJarra": null,
       "filtroPermanente": true,
       "cortaPingos": null,
@@ -701,7 +737,16 @@
       "alt": "Cafeteira Oster 2Day em inox, com o copo térmico encaixado no lugar da jarra",
       "credito": "Imagem: Oster",
       "origem": "https://www.oster.com.br/cafeteira-oster-2day-inox-2-em-1-com-copo-termico/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "oster-ocaf200-oficial",
+        "valorDivergente": "Consumo \"0,6 kW/h\"",
+        "fonteDivergente": "oster-ocaf200-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,6 kW/h**, que é exatamente a potência declarada de 600 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "mondial-c-44",
@@ -822,7 +867,7 @@
       "xicaras": 32,
       "mlPorXicara": 37.5,
       "potenciaW": 800,
-      "consumoKwh": 0.8,
+      "consumoKwh": null,
       "materialJarra": "Inox",
       "filtroPermanente": true,
       "cortaPingos": true,
@@ -860,7 +905,16 @@
       "alt": "Cafeteira Britânia BCF32B preta com jarra de inox",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/cafeteira-bcf32b-127v-063901137/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "britania-bcf32b-oficial",
+        "valorDivergente": "Consumo \"0,8 kW/h\"",
+        "fonteDivergente": "britania-bcf32b-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,8 kW/h**, que é exatamente a potência declarada de 800 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "britania-cp15",
@@ -875,7 +929,7 @@
       "xicaras": 15,
       "mlPorXicara": 40,
       "potenciaW": 550,
-      "consumoKwh": 0.55,
+      "consumoKwh": null,
       "materialJarra": null,
       "filtroPermanente": true,
       "cortaPingos": true,
@@ -913,7 +967,16 @@
       "alt": "Cafeteira Britânia CP15 preta com detalhes em inox",
       "credito": "Imagem: Britânia",
       "origem": "https://www.britania.com.br/063901057-caf-cp15-inox/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "britania-cp15-oficial",
+        "valorDivergente": "Consumo \"0,55 kW/h\"",
+        "fonteDivergente": "britania-cp15-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,55 kW/h**, que é exatamente a potência declarada de 550 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "philco-pcf40b",
@@ -928,7 +991,7 @@
       "xicaras": 40,
       "mlPorXicara": 40,
       "potenciaW": 1000,
-      "consumoKwh": 1,
+      "consumoKwh": null,
       "materialJarra": null,
       "filtroPermanente": true,
       "cortaPingos": true,
@@ -966,7 +1029,16 @@
       "alt": "Cafeteira Philco PCF40B preta com painel digital e jarra de vidro",
       "credito": "Imagem: Philco",
       "origem": "https://www.philco.com.br/cafeteira-pcf40b-127v-053901083/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "philco-pcf40b-oficial",
+        "valorDivergente": "Consumo \"1 kW/h\"",
+        "fonteDivergente": "philco-pcf40b-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **1 kW/h**, que é exatamente a potência declarada de 1000 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "wap-wcd1500",
@@ -1087,7 +1159,7 @@
       "xicaras": 2,
       "mlPorXicara": 150,
       "potenciaW": 600,
-      "consumoKwh": 0.6,
+      "consumoKwh": null,
       "materialJarra": null,
       "filtroPermanente": true,
       "cortaPingos": null,
@@ -1130,7 +1202,16 @@
       "alt": "Cafeteira Cadence Single Up vermelha e preta, de dose única, com duas canecas",
       "credito": "Imagem: Cadence",
       "origem": "https://www.cadence.com.br/cafeteira-eletrica-cadence-single-up/p"
-    }
+    },
+    "divergencias": [
+      {
+        "campo": "consumoKwh",
+        "fonteAdotada": "cadence-caf230-oficial",
+        "valorDivergente": "Consumo \"0,6 kW/h\"",
+        "fonteDivergente": "cadence-caf230-oficial",
+        "observacao": "A ficha traz o campo de consumo com o valor **0,6 kW/h**, que é exatamente a potência declarada de 600 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
+      }
+    ]
   },
   {
     "slug": "elgin-essential-coffee",
