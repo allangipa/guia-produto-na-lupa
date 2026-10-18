@@ -72,14 +72,16 @@ que a página tem.
    botão do herói. Uma linha, texto menor, mais compacta no celular.
 2. **Herói da home velho**: iPhone 18 Pro "à venda desde 18/09" há um mês.
    Regra proposta: produto lançado nos últimos 30 dias; sem lançamento, o
-   herói vira o simulador.
+   herói vira o simulador. **Feito em 17/10** (`destaquesAtuais()`).
 3. **Guia: primeira tela só de texto.** Escolhas por perfil viram fileira de
    cards com foto na primeira tela, com a caixa "como esta lista foi feita".
 4. **Análise: nota fora da primeira tela.** Card de veredito no topo: nota,
    dois "para quem", dois "não compre se", foto menor ao lado.
 5. **Cabeçalho no celular**: "Tema: sistema" vira ícone, "Comparar" desce
-   para os chips, sobra espaço para a marca horizontal.
+   para os chips, sobra espaço para a marca horizontal. **Feito em 17/10** (o
+   "Comparar" já era escondido no celular; o que vazava era o `.botao` por cima
+   do `hidden`).
 
 Os itens 3 e 4 vão junto com os de SEO 4 e 3. Ordem geral combinada em
 17/10/2026: SEO 1 (feito) → 2 (feito em 7 guias) → 3+visual 4 (feito) → 4+visual 3 (feito) → 5 (feito); visual 1, 2 e 5
-na sequência.
+na sequência — **feitos em 17/10/2026**. Ordem completa.

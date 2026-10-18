@@ -362,7 +362,13 @@ largura inteira. O que a referência tem e aqui não entra: herói que troca
 sozinho, "% OFF", preço riscado, contador. Página com fundo cinza-claro
 (`fundo`) e objetos brancos elevados sobre ele (`papel` + `.cartao`/`.painel`
 com sombra). As classes `.so-claro/.so-escuro` usam `display` e anulam o
-`hidden` do Tailwind — para esconder por largura, envolver num wrapper. Cards levam mídia em cima (silhueta em escala enquanto não há foto
+`hidden` do Tailwind — para esconder por largura, envolver num wrapper. **O
+mesmo vale para `.botao`**: o "Comparar" do cabeçalho tinha `hidden
+sm:inline-flex` no próprio link e aparecia no celular; em 17/10/2026, com a
+marca horizontal entrando no celular (h-8, no lugar do símbolo), ele estourou a
+página para 459 px de largura. Virou wrapper. **Cabeçalho no celular desde
+17/10**: marca horizontal em todo tamanho, botão de tema só com ícone (o
+rótulo "Tema: sistema" ocupava o lugar da marca; o `aria-label` segue inteiro). Cards levam mídia em cima (silhueta em escala enquanto não há foto
 licenciada), badge de transparência por faixa (`faixa-bom/medio/baixo` — cor de
 dado sobre a documentação, nunca sobre o produto) e três specs com ícone
 (`components/icones.tsx`, `iconeDo`, `rotuloCurto`, `destaquesDa` em
@@ -1413,8 +1419,14 @@ confunde com documento sem folha de estilo.
     coaxial do manual. HD, fonte, cabo e conectores seguem sem ficha.
 - **Lançamentos na home** vêm de `lib/lancamentos.ts`: produto da base em
   pré-venda, com datas declaradas pelo fabricante e a fonte escrita. Sem
-  contagem regressiva. Quando a data de loja passar, tirar da lista — o
-  produto continua na categoria.
+  contagem regressiva. **O herói tem prazo, desde 17/10/2026**: `destaquesAtuais()`
+  mostra só o que ainda não chegou às lojas (o mais próximo primeiro) ou
+  chegou há no máximo `JANELA_DIAS` (30); sem nenhum, o herói da home é o
+  simulador, com os oito projetos. O iPhone 18 Pro ficou um mês inteiro no
+  herói depois de lançado porque nada o tirava de lá. A capa (og:image) da
+  home segue a mesma função. O build diário das 06:00 UTC faz a troca sem
+  ninguém mexer; a entrada antiga continua na lista para "Próximos
+  lançamentos" e pode ser apagada quando a data de loja passar.
 - **Fotos: imagem oficial do site do fabricante, hospedada em
   `public/produtos/`, decisão consciente do Allan.** Nunca da Amazon (contrato
   de Associados) nem do Google Imagens. Crédito visível sobre a imagem, página
@@ -1581,6 +1593,9 @@ mudanças, com "Precisa de revisão" e ads.txt "Não encontrado".
 - **Meta de verificação** (`google-adsense-account`) e o `preconnect` para
   `pagead2.googlesyndication.com` ficam no `<head>` do `app/layout.tsx`, então
   saem em toda página. O publisher mora em `site.adsense.pub` (`lib/site.ts`).
+- **A faixa é compacta desde 17/10/2026**: uma frase, texto de 0,78rem,
+  botões menores, 89 px no celular (antes ~130, um quinto da tela, escondendo
+  o segundo botão do herói) e 106 no desktop.
 - **Faixa + carregador: `components/consentimento.tsx`**, montado no fim do
   `<body>` do layout. O `adsbygoogle.js` nunca vai escrito no HTML: o
   componente injeta por JS. Sem escolha gravada, carrega na hora
