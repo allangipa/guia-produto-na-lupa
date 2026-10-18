@@ -19,7 +19,7 @@ export type Pergunta = { pergunta: string; resposta: string };
 export function Perguntas({ itens }: { itens?: Pergunta[] }) {
   if (!itens?.length) return null;
   return (
-    <section className="my-10">
+    <section id="perguntas" className="my-10 scroll-mt-24">
       <h2 className="font-titulo text-xl">Perguntas que a ficha responde</h2>
       <p className="mt-2 max-w-[62ch] text-[0.95rem] text-tinta-suave">
         São as perguntas que o Google completa sozinho quando alguém digita o

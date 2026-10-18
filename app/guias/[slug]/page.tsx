@@ -25,6 +25,7 @@ import { Perguntas } from "@/components/perguntas";
 import { ComoFoiFeita } from "@/components/como-foi-feita";
 import { Foto } from "@/components/foto";
 import { produtosDaCategoria } from "@/lib/produtos";
+import { ancoraDe, limparMarkdown } from "@/lib/ancora";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -74,6 +75,21 @@ export default async function PaginaGuia({ params }: Params) {
   // seção de compra: saber se ela deve existir, e saber qual botão leva a cor
   // sólida — que é o da primeira escolha COM link, não o da primeira escolha.
   const comLink = g.escolhas.filter((e) => lojasDe(e.lojas).length > 0);
+
+  // O índice "Neste guia", desde 17/10/2026: as seções fixas e os `## ` do
+  // texto, com os mesmos ids que o `h2` do MDX grava. TechTudo numera as
+  // seções no topo; aqui o índice fica antes do texto, que é o que ele indexa.
+  const secoes = [
+    { id: "escolhas", titulo: "As escolhas por perfil" },
+    ...g.corpo
+      .split("\n")
+      .filter((l) => /^##\s+\S/.test(l))
+      .map((l) => l.replace(/^##\s+/, ""))
+      .map((t) => ({ id: ancoraDe(t), titulo: limparMarkdown(t) })),
+    { id: "lacunas", titulo: "O que o fabricante não informa" },
+    ...(g.perguntas?.length ? [{ id: "perguntas", titulo: "Perguntas que a ficha responde" }] : []),
+    ...(comLink.length ? [{ id: "onde-comprar", titulo: "Onde comprar cada um" }] : []),
+  ];
 
   // As escolhas com a ficha e a foto resolvidas uma vez: a fileira do topo e
   // os cards completos leem a mesma lista.
@@ -153,7 +169,7 @@ export default async function PaginaGuia({ params }: Params) {
         </ol>
       </nav>
 
-      <section className="my-10 border-y border-linha py-8">
+      <section id="escolhas" className="my-10 scroll-mt-24 border-y border-linha py-8">
         <h2 className="font-titulo text-xl">A escolha certa depende de quem você é</h2>
         <ol className="mt-5 grid gap-3.5">
           {escolhas.map((e) => (
@@ -196,6 +212,20 @@ export default async function PaginaGuia({ params }: Params) {
         </nav>
       )}
 
+      <nav aria-label="Neste guia" className="mb-8 border-l-[3px] border-linha pl-4 text-[0.9rem]">
+        <p className="titulo-ui text-[0.95rem]">Neste guia</p>
+        <ol className="mt-2 grid gap-x-6 gap-y-1 sm:grid-cols-2">
+          {secoes.map((s, i) => (
+            <li key={s.id} className="flex gap-2 leading-snug">
+              <span className="dados w-5 shrink-0 text-right text-tinta-suave">{i + 1}.</span>
+              <a href={`#${s.id}`} className="underline decoration-linha underline-offset-4 hover:decoration-acao">
+                {s.titulo}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+
       <div className="prosa">{content}</div>
 
       <Lacunas itens={g.lacunas} />
@@ -226,7 +256,7 @@ export default async function PaginaGuia({ params }: Params) {
         na lista de escolhas lá em cima.
       */}
       {comLink.length > 0 && (
-        <section className="mt-12">
+        <section id="onde-comprar" className="mt-12 scroll-mt-24">
           <h2 className="font-titulo text-xl">Onde comprar cada um</h2>
           <DivulgacaoComissao plural={comLink.length > 1} />
           {g.escolhas.map((e) => {

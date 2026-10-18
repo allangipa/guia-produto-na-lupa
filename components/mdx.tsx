@@ -4,6 +4,7 @@ import remarkGfm from "remark-gfm";
 import Link from "next/link";
 import type { ComponentProps } from "react";
 import { TabelaComparativa } from "./tabela-comparativa";
+import { ancoraDe, textoDe } from "@/lib/ancora";
 
 /**
  * Link interno do texto passa pelo `next/link`, que põe a barra final
@@ -17,10 +18,25 @@ function LinkDoTexto({ href = "", ...resto }: ComponentProps<"a">) {
   return <a href={href} {...resto} />;
 }
 
+/**
+ * Todo `## Título` do texto ganha um `id` derivado do próprio título, desde
+ * 17/10/2026, para o índice "Neste guia" ter para onde apontar. A função é a
+ * mesma que o índice usa (`lib/ancora.ts`), senão os links quebram. Sem
+ * classe: o estilo continua vindo de `.prosa h2`.
+ */
+function TituloDoTexto({ children, ...resto }: ComponentProps<"h2">) {
+  return (
+    <h2 id={ancoraDe(textoDe(children))} className="scroll-mt-24" {...resto}>
+      {children}
+    </h2>
+  );
+}
+
 /** Componentes disponíveis dentro dos arquivos .mdx de conteúdo. */
 export const componentesMdx: MDXComponents = {
   TabelaComparativa: TabelaComparativa as never,
   a: LinkDoTexto,
+  h2: TituloDoTexto,
 };
 
 /**

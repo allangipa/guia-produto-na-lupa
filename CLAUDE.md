@@ -1335,6 +1335,15 @@ confunde com documento sem folha de estilo.
   botão de compra no topo: os CTAs do guia continuam juntos em "Onde comprar
   cada um". Antes, a primeira tela do guia era só texto e a foto só aparecia
   ao rolar — ver `docs/concorrentes-2026-10-17.md`.
+- **Índice "Neste guia" e âncoras nos H2, desde 17/10/2026.** Todo `## ` do
+  MDX (guia, comparativo, análise) ganha `id` gerado do próprio título pelo
+  `h2` de `components/mdx.tsx`; o índice do guia (`app/guias/[slug]/page.tsx`)
+  lê os `## ` do fonte e gera os mesmos ids com `lib/ancora.ts` — **a função é
+  uma só de propósito**: se as duas saídas divergirem, o link aponta para o
+  nada. As seções fixas têm id (`escolhas`, `lacunas`, `perguntas`,
+  `onde-comprar`), e todas levam `scroll-mt-24` para o título não ficar sob o
+  cabeçalho fixo. O índice fica antes do texto, que é o que ele indexa.
+  Conferido no build: zero link quebrado nos 36 guias.
 - **`/transparencia`** é o ranking por marca: média das notas de transparência
   dos produtos de cada fabricante, com os campos mais omitidos e uma tabela
   por categoria. Calculado no build a partir de `dados/*.json` — não tem

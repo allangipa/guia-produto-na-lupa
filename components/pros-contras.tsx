@@ -42,7 +42,7 @@ export function ProsContras({
 export function Lacunas({ itens }: { itens: string[] }) {
   if (!itens?.length) return null;
   return (
-    <section className="my-10 border border-dashed border-linha p-5">
+    <section id="lacunas" className="my-10 scroll-mt-24 border border-dashed border-linha p-5">
       <h2 className="titulo-ui text-lg">O que o fabricante não informa</h2>
       <p className="mt-2 max-w-[62ch] text-[0.95rem] text-tinta-suave">
         Procuramos e não achamos na documentação oficial. Fica em branco de
