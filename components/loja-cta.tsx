@@ -49,7 +49,7 @@ export function DivulgacaoComissao({ plural = false }: { plural?: boolean }) {
  * ferramenta não deve exigir mexer em componente. Nenhum deles recebe dado
  * de quem clicou: o que importa é qual ficha converte, não quem.
  */
-function registrarClique(loja: string, produto: string, posicao: string) {
+export function registrarClique(loja: string, produto: string, posicao: string) {
   const w = window as unknown as {
     dataLayer?: unknown[];
     plausible?: (evento: string, opcoes?: object) => void;

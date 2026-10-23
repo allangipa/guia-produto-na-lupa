@@ -144,8 +144,9 @@ export default function Privacidade() {
 
         <h2>Links de afiliado</h2>
         <p>
-          Este site participa de programas de afiliados da Amazon e do Mercado
-          Livre. Quando você clica num link de loja, essas empresas normalmente
+          Este site participa de programas de afiliados da Amazon, do Mercado
+          Livre e da Hotmart (para cursos e e-books). Quando você clica num
+          link de loja, essas empresas normalmente
           gravam um cookie no seu navegador para identificar que a visita veio
           daqui, e é assim que a comissão é atribuída caso você compre.
         </p>
@@ -194,8 +195,8 @@ export default function Privacidade() {
             de parceiros, se você não recusar.
           </li>
           <li>
-            <strong>Amazon e Mercado Livre</strong> — programas de afiliado, com
-            cookie da loja quando você clica num link dela.
+            <strong>Amazon, Mercado Livre e Hotmart</strong> — programas de
+            afiliado, com cookie da loja quando você clica num link dela.
           </li>
         </ul>
         <p>

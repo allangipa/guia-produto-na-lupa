@@ -139,6 +139,9 @@ export const LOJAS: Record<string, DefinicaoLoja> = {
   shopee: { nome: "Shopee", preposicao: "na", ordem: 6 },
   aliexpress: { nome: "AliExpress", preposicao: "no", ordem: 7 },
   kabum: { nome: "KaBuM!", preposicao: "na", ordem: 8 },
+  // Só para curso e e-book (lib/cursos.ts), nunca para produto da base. O
+  // hotlink passa intacto: a Hotmart exige o formato original para rastrear.
+  hotmart: { nome: "Hotmart", preposicao: "na", ordem: 9 },
 };
 
 /** "Comprar na Amazon", "Comprar no Mercado Livre", "Comprar nas Casas Bahia". */

@@ -20,6 +20,8 @@ import { Lacunas } from "@/components/pros-contras";
 import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 import { EscolhaDoGuia } from "@/components/escolha-do-guia";
 import { Fontes } from "@/components/fontes";
+import { CursoHotmart } from "@/components/curso-hotmart";
+import { curso } from "@/lib/cursos";
 import { JsonLd, schemaBreadcrumb, schemaGuia, schemaPerguntas } from "@/lib/schema";
 import { Perguntas } from "@/components/perguntas";
 import { ComoFoiFeita } from "@/components/como-foi-feita";
@@ -75,6 +77,7 @@ export default async function PaginaGuia({ params }: Params) {
   // seção de compra: saber se ela deve existir, e saber qual botão leva a cor
   // sólida — que é o da primeira escolha COM link, não o da primeira escolha.
   const comLink = g.escolhas.filter((e) => lojasDe(e.lojas).length > 0);
+  const cursoDoGuia = g.curso ? curso(g.curso) : undefined;
 
   // O índice "Neste guia", desde 17/10/2026: as seções fixas e os `## ` do
   // texto, com os mesmos ids que o `h2` do MDX grava. TechTudo numera as
@@ -89,6 +92,7 @@ export default async function PaginaGuia({ params }: Params) {
     { id: "lacunas", titulo: "O que o fabricante não informa" },
     ...(g.perguntas?.length ? [{ id: "perguntas", titulo: "Perguntas que a ficha responde" }] : []),
     ...(comLink.length ? [{ id: "onde-comprar", titulo: "Onde comprar cada um" }] : []),
+    ...(cursoDoGuia ? [{ id: "para-instalar", titulo: "Para instalar você mesmo" }] : []),
   ];
 
   // As escolhas com a ficha e a foto resolvidas uma vez: a fileira do topo e
@@ -284,6 +288,11 @@ export default async function PaginaGuia({ params }: Params) {
           })}
         </section>
       )}
+
+      {/* O curso de afiliado, desde 23/10/2026: o segundo bloco de CTA da
+          página, depois dos produtos, para quem decidiu instalar sozinho. Ver
+          components/curso-hotmart.tsx e docs/hotmart.md. */}
+      {cursoDoGuia && <CursoHotmart curso={cursoDoGuia} posicao="guia" />}
 
       <Fontes itens={g.fontes} />
     </article>

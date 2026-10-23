@@ -103,6 +103,16 @@ export default function Metodologia() {
           isso, mesmo sendo o que mais renderia comissão.
         </p>
         <p>
+          Em alguns guias, para quem vai fazer a instalação sozinho, indicamos
+          também um curso ou e-book vendido pela Hotmart, com comissão de
+          afiliado. Ninguém aqui faz esses cursos: publicamos o que a página de
+          venda declara (conteúdo, escopo, garantia) e o que ela deixa de fora,
+          como fazemos com a ficha de um aparelho. Só entra produtor
+          identificável pelo nome e com histórico que dá para conferir fora da
+          página de venda, com o conteúdo publicado e o prazo de garantia
+          escrito. Curso não recebe nota.
+        </p>
+        <p>
           O site também exibe anúncios do Google AdSense, escolhidos pelo
           Google. Anunciante não compra nota, posição nem texto; os detalhes
           sobre os cookies de anúncio estão em{" "}

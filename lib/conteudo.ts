@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { todosOsProdutos } from "./produtos";
 import { aindaNaoSaiu } from "./specs";
 import { LIMITE_DESCRICAO, LIMITE_TITULO, LOJAS } from "./site";
+import { CURSOS } from "./cursos";
 
 /**
  * As lojas de um produto, por chave: `{ amazon: "...", magalu: "..." }`.
@@ -264,6 +265,12 @@ export type Guia = {
    * existe, a página emite FAQPage. Ver components/perguntas.tsx.
    */
   perguntas?: { pergunta: string; resposta: string }[];
+  /**
+   * Id de um curso de afiliado em lib/cursos.ts, desde 23/10/2026. Opcional:
+   * quando existe, a página mostra o bloco "Para instalar você mesmo" depois
+   * de "Onde comprar cada um". Id inexistente quebra o build.
+   */
+  curso?: string;
   fontes: Fonte[];
   corpo: string;
 };
@@ -607,6 +614,33 @@ function verificarLojas() {
 }
 
 verificarLojas();
+
+/**
+ * O CURSO DO GUIA PRECISA EXISTIR, E A HOTMART NÃO VENDE APARELHO
+ *
+ * Desde 23/10/2026. `curso:` no frontmatter aponta para lib/cursos.ts; um id
+ * errado sumiria com o bloco sem erro nenhum. E a chave `hotmart` em LOJAS é
+ * só para curso: num produto da base ela poria "Comprar na Hotmart" no botão
+ * de um aparelho, o que não existe.
+ */
+function verificarCursos() {
+  for (const g of ler<Guia>("guias", "guia")) {
+    if (g.curso && !CURSOS[g.curso]) {
+      throw new Error(
+        `Guia "${g.slug}" aponta para o curso "${g.curso}", que nao existe em lib/cursos.ts. ` +
+          `Os ids validos sao ${Object.keys(CURSOS).join(", ")}.`,
+      );
+    }
+    for (const e of g.escolhas ?? []) {
+      if (e.lojas?.hotmart) throw new Error(`Guia "${g.slug}": a loja "hotmart" e so para curso, nao para "${e.produto}".`);
+    }
+  }
+  for (const p of todosOsProdutos()) {
+    if (p.lojas?.hotmart) throw new Error(`Produto "${p.slug}": a loja "hotmart" e so para curso (lib/cursos.ts).`);
+  }
+}
+
+verificarCursos();
 
 export function dataLegivel(iso: string): string {
   return new Date(`${iso}T12:00:00`).toLocaleDateString("pt-BR", {

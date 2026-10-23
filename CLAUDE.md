@@ -299,6 +299,19 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
   ferramentas do simulador, `WebPage` (WebApplication exige nota agregada). O
   Product da ficha volta quando houver preço da API com horário da consulta.
 - Divulgação de afiliado acima da dobra em toda página de conteúdo.
+- **Curso de afiliado da Hotmart, desde 23/10/2026.** Decisão do Allan:
+  "curso também é produto". Os cursos moram em `lib/cursos.ts` (não em
+  `dados/`, que é só aparelho) e aparecem pelo `components/curso-hotmart.tsx`
+  como passo seguinte de quem vai instalar sozinho: no guia, por `curso:` no
+  frontmatter, depois de "Onde comprar cada um"; no simulador de câmeras, só
+  com DVR e "Eu mesmo" instalando. É um bloco de CTA e conta no teto de três.
+  Sem nota. O texto é o que a página de venda publica e o que ela omite, e
+  nunca sugere que alguém leu ou fez o curso. A loja `hotmart` em `LOJAS` é
+  só para curso: `verificarCursos()` quebra o build se ela aparecer num
+  produto. Critério de entrada e fichas apuradas em `docs/hotmart.md` — o
+  critério 1 foi afrouxado no mesmo dia para "produtor identificável pelo
+  nome e com histórico verificável", sem exigir CNPJ. Conta de afiliado do
+  Allan é Pessoa Física.
 
 #### Por que o teto virou "três blocos" e não "três botões"
 

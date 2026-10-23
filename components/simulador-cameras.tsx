@@ -22,6 +22,11 @@ const OPCOES_NIVEL = (Object.keys(NIVEIS) as Nivel[]).map((valor) => ({
 }));
 import { Numero, Opcoes } from "@/components/simulador-campos";
 import { ListaDeCompras } from "@/components/simulador-lista";
+import { CursoHotmart } from "@/components/curso-hotmart";
+import { curso } from "@/lib/cursos";
+
+/** O curso que aparece no fim da lista de DVR para quem instala sozinho. */
+const CURSO_DVR = curso("guia-definitivo-cftv-v1");
 
 /**
  * O questionário de câmeras do /simulador e a lista de compras que sai dele.
@@ -91,6 +96,14 @@ export function SimuladorCameras({ base }: { base: Record<string, Produto> }) {
           setPasso(0);
           setPronto(false);
         }}
+        depois={
+          // Só para quem vai instalar sozinho um sistema com DVR: o guia é de
+          // CFTV analógico e diz que não cobre IP. Quem contrata instalador
+          // não precisa dele, e a lista não ganha um bloco a mais à toa.
+          projeto.sistema === "dvr" && r.instalador === "eu" && CURSO_DVR ? (
+            <CursoHotmart curso={CURSO_DVR} posicao="simulador" />
+          ) : undefined
+        }
       />
     );
   }

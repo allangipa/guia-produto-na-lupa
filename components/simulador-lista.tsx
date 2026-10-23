@@ -25,6 +25,7 @@ export function ListaDeCompras({
   tituloRef,
   aoAjustar,
   aoRefazer,
+  depois,
 }: {
   titulo: string;
   motivos: string[];
@@ -37,6 +38,8 @@ export function ListaDeCompras({
   tituloRef: React.RefObject<HTMLHeadingElement | null>;
   aoAjustar: () => void;
   aoRefazer: () => void;
+  /** Bloco depois do "Onde comprar", como o curso de afiliado (desde 23/10/2026). */
+  depois?: React.ReactNode;
 }) {
   const comFicha = todos.filter((i) => i.produto);
   const semFicha = todos.length - comFicha.length;
@@ -128,6 +131,8 @@ export function ListaDeCompras({
           )}
         </section>
       )}
+
+      {depois}
 
       <p className="mt-8 text-[0.82rem] text-tinta-suave">
         Número com “declara” é do fabricante, com fonte na ficha do produto.
