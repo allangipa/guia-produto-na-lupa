@@ -306,7 +306,11 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
   frontmatter, depois de "Onde comprar cada um"; no simulador de câmeras, só
   com DVR e "Eu mesmo" instalando. É um bloco de CTA e conta no teto de três.
   Sem nota. O texto é o que a página de venda publica e o que ela omite, e
-  nunca sugere que alguém leu ou fez o curso. A loja `hotmart` em `LOJAS` é
+  nunca sugere que alguém leu ou fez o curso — mas também não abre com
+  "Ninguém aqui leu", que saiu no mesmo dia: "não acrescenta informação e faz
+  propaganda contra", nas palavras do Allan. Junto do botão vai o convite
+  "Comprando pelo link, você paga o mesmo preço e ajuda a manter o site". O
+  mesmo tom vale nos vídeos do YouTube. A loja `hotmart` em `LOJAS` é
   só para curso: `verificarCursos()` quebra o build se ela aparecer num
   produto. Critério de entrada e fichas apuradas em `docs/hotmart.md` — o
   critério 1 foi afrouxado no mesmo dia para "produtor identificável pelo
