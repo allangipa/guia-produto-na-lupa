@@ -1,0 +1,112 @@
+{
+ "conta": "@guiaprodutonalupa",
+ "composio_conta": "instagram_acne-capote",
+ "fuso": "America/Sao_Paulo",
+ "posts": [
+  {
+   "data": "2026-10-26",
+   "hora": "12:00",
+   "tipo": "reel",
+   "pasta": "2026-10-26-moto-g35-reel",
+   "titulo": "Reel Moto g35, carregador na caixa",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-10-27",
+   "hora": "19:00",
+   "tipo": "carrossel",
+   "pasta": "2026-10-27-moto-g35",
+   "titulo": "Carrossel Motorola Moto g35 5G",
+   "telas": 8,
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-10-28",
+   "hora": "12:00",
+   "tipo": "reel",
+   "pasta": "2026-10-28-lg-24g411a-reel",
+   "titulo": "Reel LG 24G411A, imagem rasgando no jogo",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-10-29",
+   "hora": "19:00",
+   "tipo": "carrossel",
+   "pasta": "2026-10-29-lg-24g411a",
+   "titulo": "Carrossel LG UltraGear 24G411A",
+   "telas": 8,
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-10-30",
+   "hora": "12:00",
+   "tipo": "reel",
+   "pasta": "2026-10-30-tplink-re450-reel",
+   "titulo": "Reel TP-Link RE450, Wi-Fi que não chega no quarto",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-10-31",
+   "hora": "19:00",
+   "tipo": "carrossel",
+   "pasta": "2026-10-31-tplink-re450",
+   "titulo": "Carrossel TP-Link RE450",
+   "telas": 8,
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "12:00",
+   "tipo": "reel",
+   "pasta": "2026-11-02-kingston-a400-reel",
+   "titulo": "Reel Kingston A400, PC antigo com HD",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-03",
+   "hora": "19:00",
+   "tipo": "carrossel",
+   "pasta": "2026-11-03-kingston-a400",
+   "titulo": "Carrossel Kingston A400 480 GB",
+   "telas": 8,
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "12:00",
+   "tipo": "reel",
+   "pasta": "2026-11-04-electrolux-ll10x-reel",
+   "titulo": "Reel Electrolux LL10X, pilha de louça na pia",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-05",
+   "hora": "19:00",
+   "tipo": "carrossel",
+   "pasta": "2026-11-05-electrolux-ll10x",
+   "titulo": "Carrossel Electrolux LL10X",
+   "telas": 8,
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  }
+ ]
+}
