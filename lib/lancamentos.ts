@@ -92,7 +92,7 @@ export const lancamentos: Lancamento[] = [
     titulo: "iPhone Duo",
     resumo:
       "O primeiro iPhone dobrável: 7,6 polegadas aberto, 5,4 fechado, Touch ID no botão lateral e só eSIM. 254 gramas — o mais pesado da linha.",
-    etapa: "Pré-venda em 16/10",
+    etapa: "Nas lojas desde 23/10",
     preVenda: "16/10/2026, 9h",
     nasLojas: "23/10/2026",
     fonte: {
