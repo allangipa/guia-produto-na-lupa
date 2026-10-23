@@ -107,6 +107,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-06-iphone-duo-reel",
+   "titulo": "Reel iPhone Duo, 44 horas só na tela de fora",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-08-ar-condicionado-reel",
+   "titulo": "Reel ar-condicionado, 9 mil ou 12 mil BTUs",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
