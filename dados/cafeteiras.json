@@ -273,15 +273,15 @@
   },
   {
     "slug": "oster-ocaf650",
-    "nome": "Oster Jarra Térmica Inox 1,2 L OCAF650",
+    "nome": "Oster Jarra Inox 1,2 L OCAF650",
     "marca": "Oster",
     "modelo": "OCAF650",
     "categoria": "cafeteiras",
-    "resumo": "A única da base com jarra térmica de inox — mantém o café quente sem a base ligada. 1,2 litro, 32 cafezinhos de 40 ml, com antigotejamento declarado.",
-    "atualizadoEm": "2026-09-14",
+    "resumo": "Jarra de inox, mas não térmica: é a própria Oster que responde isso na página do produto, embora o endereço da página diga \"jarra-termica\". 1,2 litro, 32 cafezinhos de 40 ml, antigotejamento declarado e filtro permanente confirmado pela Oster.",
+    "atualizadoEm": "2026-10-24",
     "imagem": {
       "src": "/produtos/oster-ocaf650.webp",
-      "alt": "Cafeteira Oster OCAF650 com jarra térmica de inox",
+      "alt": "Cafeteira Oster OCAF650 com jarra de inox",
       "credito": "Imagem: Oster",
       "origem": "https://www.oster.com.br/cafeteira-oster-com-jarra-termica-inox-12l/p"
     },
@@ -291,8 +291,8 @@
       "mlPorXicara": 40,
       "potenciaW": 750,
       "consumoKwh": null,
-      "materialJarra": "Inox (térmica)",
-      "filtroPermanente": null,
+      "materialJarra": "Inox (não térmica)",
+      "filtroPermanente": true,
       "cortaPingos": true,
       "manterAquecido": true,
       "timer": false,
@@ -311,22 +311,30 @@
         "titulo": "Oster Cafeteira com Jarra Inox 1,2 L — página oficial do produto",
         "url": "https://www.oster.com.br/cafeteira-oster-com-jarra-termica-inox-12l/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "1,2 L, \"32 cafezinhos *xícara de 40 ml\", 750 W, consumo de 0,75 kW/h, função manter aquecido na base, função antigotejamento, acabamento em inox, 153 × 316 × 254 mm, 1,460 kg, 127 V ou 220 V e 12 meses. Não declara se o filtro é permanente.",
-        "consultadaEm": "2026-09-14"
+        "oQueSaiuDaqui": "1,2 L, \"32 cafezinhos *xícara de 40 ml\", 750 W, consumo de 0,75 kW/h, função manter aquecido na base, função antigotejamento, acabamento em inox, 153 × 316 × 254 mm, 1,460 kg, 127 V ou 220 V e 12 meses. O título é \"Cafeteira Oster com Jarra Inox 1,2L\"; a ficha técnica não diz que a jarra é térmica.",
+        "consultadaEm": "2026-10-24"
+      },
+      {
+        "id": "oster-ocaf650-respostas",
+        "titulo": "Oster OCAF650 — dúvidas dos consumidores respondidas pela Oster na página oficial",
+        "url": "https://www.oster.com.br/cafeteira-oster-com-jarra-termica-inox-12l/p",
+        "tipo": "fabricante",
+        "oQueSaiuDaqui": "\"A garrafa é térmica?\" — resposta da Oster: \"Não, este modelo a jarra é inox, mas não é térmica.\" \"Essa cafeteira tem filtro permanente?\" — resposta da Oster: \"Sim, possui.\" As duas respostas estão assinadas pela Oster na seção de dúvidas da página do produto.",
+        "consultadaEm": "2026-10-24"
       },
       {
         "id": "amazon-ocaf650",
         "titulo": "Oster OCAF650 — página do produto na Amazon Brasil",
         "url": "https://www.amazon.com.br/dp/B0941752F2",
         "tipo": "varejo",
-        "oQueSaiuDaqui": "1,2 L, versão 220 V, filtro reutilizável e jarra inclusa — o filtro permanente que o fabricante não confirma.",
+        "oQueSaiuDaqui": "1,2 L, versão 220 V, filtro reutilizável e jarra inclusa. O filtro permanente que a listagem afirma foi confirmado depois pela Oster.",
         "consultadaEm": "2026-09-14"
       }
     ],
     "galeria": [
       {
         "src": "/produtos/oster-ocaf650-2.webp",
-        "alt": "Cafeteira Oster OCAF650 com a jarra térmica de inox fora da base",
+        "alt": "Cafeteira Oster OCAF650 com a jarra de inox fora da base",
         "credito": "Imagem: Oster",
         "origem": "https://www.oster.com.br/cafeteira-oster-com-jarra-termica-inox-12l/p"
       },
@@ -344,6 +352,13 @@
         "valorDivergente": "Consumo \"0,75 kW/h\"",
         "fonteDivergente": "oster-ocaf650-oficial",
         "observacao": "A ficha traz o campo de consumo com o valor **0,75 kW/h**, que é exatamente a potência declarada de 750 W dividida por mil. Não é consumo: consumo é energia por tempo, e depende de quanto tempo a cafeteira fica ligada. É o watt com a unidade trocada, ao lado do campo de potência, dando a impressão de serem duas informações. O campo ficou vazio em 18/10/2026; até ali este site publicava o número como consumo. O padrão se repete em nove das vinte cafeteiras desta base, de quatro marcas, e já foi encontrado em torradeiras, sanduicheiras e grelhas."
+      },
+      {
+        "campo": "materialJarra",
+        "fonteAdotada": "oster-ocaf650-respostas",
+        "valorDivergente": "\"jarra-termica\" no endereço da página oficial",
+        "fonteDivergente": "oster-ocaf650-oficial",
+        "observacao": "O endereço da página oficial é \"cafeteira-oster-com-jarra-termica-inox-12l\", mas o título é \"Cafeteira Oster com Jarra Inox 1,2L\" e a ficha técnica não diz térmica. Na seção de dúvidas da mesma página, a Oster responde que **a jarra é inox, mas não é térmica**. Este site publicou a OCAF650 como térmica de 14/09 a 24/10/2026, e a corrigiu ao reconferir a página para um vídeo."
       }
     ]
   },
