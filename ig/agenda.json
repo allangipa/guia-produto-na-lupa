@@ -317,6 +317,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-02",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-02-dvr-reel",
+   "titulo": "Reel DVR, o 1080p que grava pela metade",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-04",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-04-dvr-alerta-reel",
+   "titulo": "Reel DVR, imagem inteira ou alerta de pessoa",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
