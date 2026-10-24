@@ -159,6 +159,16 @@
    "publicado_em": null
   },
   {
+   "data": "2026-11-11",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-11-wifi-repetidor-reel",
+   "titulo": "Reel Wi-Fi, o repetidor vai no meio do caminho",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
    "data": "2026-11-12",
    "hora": "19:00",
    "tipo": "reel",
@@ -194,6 +204,16 @@
    "tipo": "reel",
    "pasta": "2026-11-15-nobreak-anuncio-reel",
    "titulo": "Reel nobreak, o anúncio diz 1.400 W e a conta dá 700",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-16",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-16-wifi-soma-reel",
+   "titulo": "Reel Wi-Fi, AX3000 não é velocidade",
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
