@@ -127,6 +127,36 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-11-09",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-09-iphone-duo-espessura-reel",
+   "titulo": "Reel iPhone Duo, mais fino que o Air aberto",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-12",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-12-iphone-duo-peso-reel",
+   "titulo": "Reel iPhone Duo, 254 g, o mais pesado da linha",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-13",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-13-iphone-duo-esim-reel",
+   "titulo": "Reel iPhone Duo, só eSIM e Touch ID",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
