@@ -190,10 +190,30 @@
   },
   {
    "data": "2026-11-14",
+   "hora": "12:00",
+   "tipo": "reel",
+   "pasta": "2026-11-14-ventilador-reel",
+   "titulo": "Reel ventilador, grade de 50 e hélice de 40",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-14",
    "hora": "19:00",
    "tipo": "reel",
    "pasta": "2026-11-14-cafeteira-consumo-reel",
    "titulo": "Reel cafeteira, o consumo que é potência",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-15",
+   "hora": "12:00",
+   "tipo": "reel",
+   "pasta": "2026-11-15-ventilador-pas-reel",
+   "titulo": "Reel ventilador, 15 pás contra 6",
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
