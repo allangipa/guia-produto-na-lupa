@@ -257,6 +257,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-11-21",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-21-air-fryer-reel",
+   "titulo": "Reel air fryer, 12 litros que fritam 400 g de batata",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-22",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-22-air-fryer-tomada-reel",
+   "titulo": "Reel air fryer, 1.800 W na tomada comum",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
