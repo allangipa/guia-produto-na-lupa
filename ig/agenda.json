@@ -277,6 +277,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-11-25",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-25-black-friday-reel",
+   "titulo": "Reel Black Friday, 3 números para conferir",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-27",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-27-black-friday-anuncio-reel",
+   "titulo": "Reel Black Friday, anúncio contra fabricante",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
