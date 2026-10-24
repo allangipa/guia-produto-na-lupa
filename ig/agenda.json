@@ -119,6 +119,16 @@
    "publicado_em": null
   },
   {
+   "data": "2026-11-07",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-07-nobreak-reel",
+   "titulo": "Reel nobreak, 600 VA entrega 300 W",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
    "data": "2026-11-08",
    "hora": "19:00",
    "tipo": "reel",
@@ -174,6 +184,16 @@
    "tipo": "reel",
    "pasta": "2026-11-14-cafeteira-consumo-reel",
    "titulo": "Reel cafeteira, o consumo que é potência",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-15",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-15-nobreak-anuncio-reel",
+   "titulo": "Reel nobreak, o anúncio diz 1.400 W e a conta dá 700",
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
