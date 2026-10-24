@@ -237,6 +237,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-11-18",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-18-cooktop-reel",
+   "titulo": "Reel cooktop de indução, 7.400 W não cabe na tomada",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-20",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-20-cooktop-zonas-reel",
+   "titulo": "Reel cooktop de indução, as quatro zonas somam o total",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
