@@ -297,6 +297,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-11-28",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-28-geladeira-reel",
+   "titulo": "Reel geladeira, 8 cm mais alta e 8 litros a menos",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-29",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-29-geladeira-freezer-reel",
+   "titulo": "Reel geladeira, freezer de 94 ou 88 litros",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
