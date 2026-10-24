@@ -6,7 +6,7 @@
     "modelo": "CRM44MB",
     "categoria": "geladeiras",
     "resumo": "Anunciada como 377 litros. A parte que refrigera são 283 — os outros 94 são freezer, e a Consul publica a divisão que o nome do produto não mostra.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-10-24",
     "specs": {
       "tipo": "Duplex (2 portas)",
       "portas": 2,
@@ -20,8 +20,8 @@
       "painel": "Eletrônico interno",
       "alarmePortaAberta": false,
       "nivelRuidoDb": null,
-      "tensao": null,
-      "pesoKg": null,
+      "tensao": "110 V ou 220 V",
+      "pesoKg": 60,
       "dimensoesMm": "622 × 1847 × 724",
       "garantiaMeses": 12
     },
@@ -35,8 +35,8 @@
         "titulo": "Consul CRM44MB — página oficial da Consul",
         "url": "https://www.consul.com.br/geladeira-frost-free-duplex-consul-crm44mb/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, degelo Frost Free, capacidade da geladeira de 283 L e do freezer de 94 L, consumo aproximado de 24,9 kWh, eficiência energética A, 4 níveis de temperatura, painel eletrônico interno, sem alarme de porta aberta, 3 gavetas, pés niveladores, porta não reversível, 62,2 × 184,7 × 72,4 cm sem embalagem e garantia do fornecedor de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, degelo Frost Free, capacidade da geladeira de 283 L e do freezer de 94 L, consumo aproximado de 24,9 kWh, eficiência energética A, 4 níveis de temperatura, painel eletrônico interno, sem alarme de porta aberta, 3 gavetas, pés niveladores, porta não reversível, 62,2 × 184,7 × 72,4 cm sem embalagem e garantia do fornecedor de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. Na releitura de 24/10/2026, a página publica o peso do produto sem embalagem: 60 kg. A página mostra versões de 110 V e de 220 V, com plugue de 10 A, e a descrição divide os 377 L em 289 de geladeira e 88 de freezer — diferente da ficha técnica, que dá 283 e 94; a base adota a ficha técnica. Não publica nível de ruído.",
+        "consultadaEm": "2026-10-24"
       },
       {
         "id": "amazon-B0FTLJNR7L",
@@ -61,7 +61,7 @@
     "modelo": "CRM40MB",
     "categoria": "geladeiras",
     "resumo": "Trezentos e trinta e três litros no nome, 260 de geladeira. É a de menor consumo entre as duplex desta lista: 23,3 kWh por mês.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-10-24",
     "specs": {
       "tipo": "Duplex (2 portas)",
       "portas": 2,
@@ -76,7 +76,7 @@
       "alarmePortaAberta": false,
       "nivelRuidoDb": null,
       "tensao": null,
-      "pesoKg": null,
+      "pesoKg": 58.5,
       "dimensoesMm": "622 × 1705 × 717",
       "garantiaMeses": 12
     },
@@ -90,8 +90,8 @@
         "titulo": "Consul CRM40MB — página oficial da Consul",
         "url": "https://www.consul.com.br/geladeira-frost-free-duplex-branca-consul-crm40mb-1/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, Frost Free, geladeira de 260 L e freezer de 73 L, consumo de 23,3 kWh, eficiência A, 4 níveis de temperatura, painel eletrônico interno, sem alarme de porta aberta, 2 gavetas, 62,2 × 170,5 × 71,7 cm e garantia de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, Frost Free, geladeira de 260 L e freezer de 73 L, consumo de 23,3 kWh, eficiência A, 4 níveis de temperatura, painel eletrônico interno, sem alarme de porta aberta, 2 gavetas, 62,2 × 170,5 × 71,7 cm e garantia de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. Na releitura de 24/10/2026, a página publica o peso do produto sem embalagem: 58,5 kg. Não publica nível de ruído.",
+        "consultadaEm": "2026-10-24"
       },
       {
         "id": "amazon-B0G44H2N5X",
@@ -116,7 +116,7 @@
     "modelo": "CRB36MB",
     "categoria": "geladeiras",
     "resumo": "A única desta lista com selo B em vez de A — e a única de uma porta com painel externo. Gasta quase o mesmo que uma duplex de 377 litros para refrigerar 251.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-10-24",
     "specs": {
       "tipo": "1 porta com freezer interno",
       "portas": 1,
@@ -131,7 +131,7 @@
       "alarmePortaAberta": false,
       "nivelRuidoDb": null,
       "tensao": null,
-      "pesoKg": null,
+      "pesoKg": 48,
       "dimensoesMm": "630 × 1540 × 650",
       "garantiaMeses": 12
     },
@@ -145,8 +145,8 @@
         "titulo": "Consul CRB36MB — página oficial da Consul",
         "url": "https://www.consul.com.br/geladeira-frost-free-297-litros-consul-com-painel-externo/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Uma porta com freezer interno, Frost Free, geladeira de 251 L e freezer de 46 L — que somam os 297 L do nome do produto —, consumo de 24,7 kWh, eficiência energética B, 5 níveis de temperatura, painel eletrônico externo com display de LED, porta reversível, 1 gaveta, 63 × 154 × 65 cm e garantia de 12 meses. É a única da lista com selo B. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "Uma porta com freezer interno, Frost Free, geladeira de 251 L e freezer de 46 L — que somam os 297 L do nome do produto —, consumo de 24,7 kWh, eficiência energética B, 5 níveis de temperatura, painel eletrônico externo com display de LED, porta reversível, 1 gaveta, 63 × 154 × 65 cm e garantia de 12 meses. É a única da lista com selo B. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. Na releitura de 24/10/2026, a página publica o peso do produto sem embalagem: 48 kg. Não publica nível de ruído.",
+        "consultadaEm": "2026-10-24"
       },
       {
         "id": "amazon-B0GJT5VTTJ",
@@ -180,7 +180,7 @@
     "modelo": "BRM46MK",
     "categoria": "geladeiras",
     "resumo": "Trezentos e oitenta e cinco litros anunciados, 291 de geladeira. O freezer de 94 litros é o mesmo da Consul de 377 — as duas marcas são da mesma casa e publicam a mesma ficha.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-10-24",
     "specs": {
       "tipo": "Duplex (2 portas)",
       "portas": 2,
@@ -194,8 +194,8 @@
       "painel": "Eletrônico interno, display de LED",
       "alarmePortaAberta": false,
       "nivelRuidoDb": null,
-      "tensao": null,
-      "pesoKg": null,
+      "tensao": "110 V ou 220 V",
+      "pesoKg": 55,
       "dimensoesMm": "621 × 1766 × 721",
       "garantiaMeses": 12
     },
@@ -209,8 +209,8 @@
         "titulo": "Brastemp BRM46MK — página oficial da Brastemp",
         "url": "https://www.brastemp.com.br/geladeira-brastemp-frost-free-inox-385l/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, Frost Free, geladeira de 291 L e freezer de 94 L, consumo de 25,1 kWh, eficiência A, 5 níveis de temperatura, painel eletrônico interno com display de LED, sem alarme de porta aberta, 3 gavetas, prateleiras removíveis, 62,1 × 176,6 × 72,1 cm e garantia de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "Duplex de 2 portas com freezer em cima, Frost Free, geladeira de 291 L e freezer de 94 L, consumo de 25,1 kWh, eficiência A, 5 níveis de temperatura, painel eletrônico interno com display de LED, sem alarme de porta aberta, 3 gavetas, prateleiras removíveis, 62,1 × 176,6 × 72,1 cm e garantia de 12 meses. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. Na releitura de 24/10/2026, a página publica o peso do produto sem embalagem: 55 kg. O campo de porta reversível, que na consulta de 18/09/2026 dizia sim, agora diz não. A página mostra versões de 110 V e de 220 V. Não publica nível de ruído.",
+        "consultadaEm": "2026-10-24"
       },
       {
         "id": "amazon-B0GL3Q3PTG",
@@ -235,7 +235,7 @@
     "modelo": "BRO85MK",
     "categoria": "geladeiras",
     "resumo": "Três portas, 381 litros de geladeira e 178 de freezer. É a única da lista com alarme de porta aberta entre as Whirlpool — e a que mais gasta: 31,3 kWh por mês.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-10-24",
     "specs": {
       "tipo": "French Door (3 portas)",
       "portas": 3,
@@ -250,7 +250,7 @@
       "alarmePortaAberta": true,
       "nivelRuidoDb": null,
       "tensao": null,
-      "pesoKg": null,
+      "pesoKg": 86,
       "dimensoesMm": "836 × 1857 × 793",
       "garantiaMeses": 12
     },
@@ -264,8 +264,8 @@
         "titulo": "Brastemp BRO85MK — página oficial da Brastemp",
         "url": "https://www.brastemp.com.br/geladeira-french-door-3-portas-inox-design-e-tecnologia-premium-bro85mk-1/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "French Door de 3 portas com freezer embaixo, Frost Free, geladeira de 381 L e freezer de 178 L, consumo de 31,3 kWh, eficiência A, 5 níveis de temperatura, painel eletrônico externo com display de LED, alarme de porta aberta, 83,6 × 185,7 × 79,3 cm e garantia de 12 meses. A capacidade total não é publicada como número: o campo traz a faixa de filtro \"Super Alta - Acima de 550L\", e os 559 L da ficha são a soma dos dois compartimentos que a própria Brastemp declara. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. **Não publica o peso do produto** — só o peso com embalagem — nem a tensão nem o nível de ruído.",
-        "consultadaEm": "2026-09-18"
+        "oQueSaiuDaqui": "French Door de 3 portas com freezer embaixo, Frost Free, geladeira de 381 L e freezer de 178 L, consumo de 31,3 kWh, eficiência A, 5 níveis de temperatura, painel eletrônico externo com display de LED, alarme de porta aberta, 83,6 × 185,7 × 79,3 cm e garantia de 12 meses. A capacidade total não é publicada como número: o campo traz a faixa de filtro \"Super Alta - Acima de 550L\", e os 559 L da ficha são a soma dos dois compartimentos que a própria Brastemp declara. A ficha traz tipo, número de portas, degelo, capacidade da geladeira e do freezer separadas, consumo aproximado em kWh, eficiência energética, níveis de temperatura, painel, alarme de porta aberta, gavetas, pés niveladores, porta reversível e dimensões sem embalagem. Na releitura de 24/10/2026, a página publica o peso do produto sem embalagem: 86 kg. Não publica nível de ruído.",
+        "consultadaEm": "2026-10-24"
       },
       {
         "id": "amazon-B0G66RF81Z",
