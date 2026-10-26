@@ -337,6 +337,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-05-smartwatch-reel",
+   "titulo": "Reel smartwatch, bateria de 6 ou de 26 dias",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-06-smartwatch-nits-reel",
+   "titulo": "Reel smartwatch, 3.000 nits até a bateria cair",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
