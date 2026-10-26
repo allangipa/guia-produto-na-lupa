@@ -377,6 +377,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-12",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-12-power-bank-reel",
+   "titulo": "Reel power bank, os 20.000 mAh que não chegam ao celular",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-13",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-13-power-bank-aviao-reel",
+   "titulo": "Reel power bank no avião, a regra em watt-hora",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
