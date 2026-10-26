@@ -176,7 +176,7 @@
     "marca": "JBL",
     "modelo": "Tune 530BT",
     "resumo": "On-ear com o maior driver e a maior autonomia da base: 33 mm e 76 horas sem depender de estojo nenhum. Cinco minutos na tomada rendem cinco horas; a carga completa leva cerca de duas.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-10-25",
     "imagem": {
       "src": "/produtos/jbl-tune-530bt.webp",
       "alt": "Fone JBL Tune 530BT preto, visto de lado",
@@ -186,9 +186,9 @@
     "specs": {
       "formato": "On-ear (apoia sobre a orelha)",
       "driverMm": 33,
-      "impedanciaOhm": null,
-      "sensibilidadeDb": null,
-      "faixaFrequencia": null,
+      "impedanciaOhm": 30,
+      "sensibilidadeDb": 102,
+      "faixaFrequencia": "20 Hz – 20 kHz",
       "bluetoothVersao": "6.0",
       "codecs": null,
       "multiponto": true,
@@ -199,7 +199,7 @@
       "cancelamentoAtivo": false,
       "reducaoDb": null,
       "protecaoAgua": null,
-      "pesoG": null,
+      "pesoG": 152,
       "controles": null,
       "garantiaMeses": null
     },
@@ -224,8 +224,8 @@
         "titulo": "JBL Tune 530BT — página oficial do produto",
         "url": "https://www.jbl.com/TUNE530BT.html",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Formato on-ear, até 76 h de bateria, carga rápida de 5 min para 5 h, recarga completa em cerca de 2 h, Bluetooth 6.0, conexão com dois aparelhos e dois microfones beamforming por concha.",
-        "consultadaEm": "2026-09-14"
+        "oQueSaiuDaqui": "Formato on-ear, dobrável, driver de 33 mm, sensibilidade de 102 dB a 1 kHz/1 mW, resposta de 20 Hz a 20 kHz, impedância de 30 ohms, 152 g, até 76 h de bateria e 45 h de conversa, carga rápida de 5 min para 5 h, recarga completa em cerca de 2 h, Bluetooth 6.0, conexão com dois aparelhos e dois microfones. Na releitura de 25/10/2026, a página passou a publicar a tabela de especificações com driver, sensibilidade, resposta, impedância e peso, e declara o fone dobrável. Não publica codecs nem prazo de garantia.",
+        "consultadaEm": "2026-10-25"
       },
       {
         "id": "amazon-tune530bt",
@@ -384,8 +384,8 @@
     "nome": "Philips TAH2209",
     "marca": "Philips",
     "modelo": "TAH2209",
-    "resumo": "On-ear de 25 horas que conecta em dois aparelhos ao mesmo tempo e carrega em 2 h. A listagem da Amazon não diz o formato; a página da Philips diz. O tamanho do driver ninguém informa.",
-    "atualizadoEm": "2026-09-14",
+    "resumo": "On-ear de 25 horas, dobrável, com driver de 32 mm, que conecta em dois aparelhos ao mesmo tempo e carrega em 2 h. A página da Philips não publica peso, impedância, sensibilidade nem faixa de frequência.",
+    "atualizadoEm": "2026-10-25",
     "imagem": {
       "src": "/produtos/philips-tah2209.webp",
       "alt": "Headphone Philips TAH2209 preto",
@@ -394,7 +394,7 @@
     },
     "specs": {
       "formato": "On-ear (apoia sobre a orelha), dobrável",
-      "driverMm": null,
+      "driverMm": 32,
       "impedanciaOhm": null,
       "sensibilidadeDb": null,
       "faixaFrequencia": null,
@@ -424,8 +424,8 @@
         "titulo": "2000 series Fones de ouvido auriculares wireless TAH2209BK/00 — Philips Brasil",
         "url": "https://www.philips.com.br/c-p/TAH2209BK_00",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Classificação oficial como fone auricular (on-ear), no título da página do produto.",
-        "consultadaEm": "2026-09-14"
+        "oQueSaiuDaqui": "Classificação oficial como fone supra-auricular (on-ear), diafragmas de 32 mm, até 25 h de reprodução, recarga completa em 2 h por USB-C, 15 min para mais 1 h, conexão multiponto com dois aparelhos, almofadas de espuma de memória, conchas inclináveis que dobram para dentro, Dynamic Bass no botão multifunções e um microfone com redução de ruído. Na releitura de 25/10/2026, a página passou a trazer esses dados na descrição; a tabela de especificações técnicas não abre. Não publica peso, impedância, sensibilidade, faixa de frequência, versão do Bluetooth, codecs nem garantia.",
+        "consultadaEm": "2026-10-25"
       },
       {
         "id": "amazon-tah2209",
