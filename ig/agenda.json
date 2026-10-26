@@ -357,6 +357,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-09",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-09-fone-reel",
+   "titulo": "Reel fone, 76 horas medidas em que volume",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-11",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-11-fone-carga-reel",
+   "titulo": "Reel fone, 5 minutos na tomada e 5 horas de música",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
