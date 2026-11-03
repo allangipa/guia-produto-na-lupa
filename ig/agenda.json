@@ -397,6 +397,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-16",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-16-purificador-reel",
+   "titulo": "Reel purificador, o refil de 6 meses dura 6 meses?",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-18",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-18-purificador-ibbl-reel",
+   "titulo": "Reel purificador, mesmo prazo para refis diferentes",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
