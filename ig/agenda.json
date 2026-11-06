@@ -239,11 +239,31 @@
    "publicado_em": null
   },
   {
+   "data": "2026-11-17",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-17-serie-microondas-reel",
+   "titulo": "Reel série O que o anúncio não te conta nº 1, micro-ondas",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
    "data": "2026-11-18",
    "hora": "19:00",
    "tipo": "reel",
    "pasta": "2026-11-18-cooktop-reel",
    "titulo": "Reel cooktop de indução, 7.400 W não cabe na tomada",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-19",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-19-serie-lavadora-reel",
+   "titulo": "Reel série O que o anúncio não te conta nº 2, lavadora de alta pressão",
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
@@ -274,6 +294,16 @@
    "tipo": "reel",
    "pasta": "2026-11-22-air-fryer-tomada-reel",
    "titulo": "Reel air fryer, 1.800 W na tomada comum",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-11-23",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-11-23-serie-ferro-reel",
+   "titulo": "Reel série O que o anúncio não te conta nº 3, ferro de passar",
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
