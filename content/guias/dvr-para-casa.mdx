@@ -5,7 +5,7 @@ descricao: "DVR de 4, 8 ou 16 canais: quais gravam 1080p de verdade (1920 × 108
 subtitulo: "Seis dos dez gravadores desta base não gravam 1920 × 1080 em canal nenhum: gravam 1080p Lite, que a própria Intelbras define como 960 × 1080. Os quatro que gravam cobram um preço: nos três da linha MHDX 13xx, o próprio datasheet escreve que o modo de 1080p cheio desliga a detecção de pessoas."
 categoria: "cftv"
 publicadoEm: "2026-09-29"
-atualizadoEm: "2026-09-29"
+atualizadoEm: "2026-11-07"
 escolhas:
   - perfil: "Vai ligar até quatro câmeras e quer a imagem inteira"
     produto: "Intelbras MHDX 1304"
@@ -37,10 +37,23 @@ lacunas:
   - "O que a Hikvision chama de 1080p Lite, em pixels. As três páginas usam o nome; nenhuma diz o tamanho. A Intelbras diz: 960 × 1080."
   - "Quanto cada gravador consome com o HD instalado. Os dez declaram o consumo sem disco."
   - "O HD máximo, no datasheet da Intelbras. Os sete remetem a uma \"Lista de Capacidade e Compatibilidade de HDs\"; o número — 14 TB para os sete — estava numa tabela comparativa de gravadores de 2025. Os três Hikvision escrevem o número na página."
-  - "Quais câmeras funcionam no modo Full HD. O datasheet do MHDX 1304 diz \"todas as câmeras intelbras com resolução full hd\"; o do 1308 e o do 1316 remetem a uma lista nominal, que deixa de fora duas das seis câmeras 1080p desta base."
+  - "Quais câmeras funcionam no modo Full HD. O datasheet do MHDX 1304 diz \"todas as câmeras intelbras com resolução full hd\"; o do 1308 e o do 1316 remetem a uma lista nominal, que deixa de fora três das sete câmeras 1080p desta base."
   - "O prazo de garantia da Hikvision, na página do produto. Ele está num PDF de Troca Expressa, por série; a página de garantia diz \"de 12 a 60 meses conforme o modelo\"."
   - "Se o gravador ainda é fabricado. A Intelbras marca o MHDX 1004-C e o MHDX 1016-C como descontinuados numa tabela à parte, e a página de produto deles redireciona para a de downloads. A Hikvision marca o DS-7216HGHI-K1 como \"Discontinued\" na própria página. Nenhum anúncio da Amazon diz."
 curso: "guia-definitivo-cftv-v1"
+perguntas:
+  - pergunta: "O que é 1080p Lite no DVR?"
+    resposta: "É a gravação em **960 × 1080**, metade da largura do Full HD, como a Intelbras define no datasheet: 1.036.800 pixels contra 2.073.600 — conta nossa. Seis dos dez gravadores da base só gravam assim uma câmera de 1080p: os Intelbras MHDX 1004-C, MHDX 1008-C e MHDX 1016-C e os três Hikvision K1. A Hikvision usa o nome 1080p Lite nas três páginas sem dizer quantos pixels ele tem."
+  - pergunta: "Qual DVR Intelbras grava em Full HD?"
+    resposta: "Na base, quatro gravam 1920 × 1080. O **MHDX 1304** nos 4 canais a 30 qps, o **MHDX 1308** nos 8 a 15 qps e o **MHDX 1316** em 8 dos 16 canais a 10 qps — os três só no modo Full HD, que desliga a detecção de pessoas e as câmeras IP a mais. O **iMHDX 3108** grava nos canais 1 e 5 a 25 qps e nos outros seis a 7. O modo Full HD da linha 13xx vale para a lista de câmeras da Intelbras, e das sete câmeras 1080p da base três não estão nela: Intelbras VHD 3220 B Full Color+, Intelbras VHD 3220 D Full Color+ e Intelbras VHD 1230 B Full Color MIC."
+  - pergunta: "DVR grava quantos dias?"
+    resposta: "Depende do HD e do bit rate, e nenhuma ficha de gravador dá os dias. A conta que dá para fazer é nossa: o **MHDX 1304** declara até 4 Mb/s por canal; com os 4 canais gravando sem parar nesse máximo, são 172,8 GB por dia, e um HD de 1 TB enche em cerca de **5,8 dias** — um de 4 TB, em 23. Com bit rate menor ou gravação só por movimento, dura mais, e quanto a mais a ficha não diz."
+  - pergunta: "DVR precisa de HD?"
+    resposta: "Para guardar a gravação, sim: os dez gravadores da base têm lugar para **um disco**, e a gravação vai para ele. O limite por disco é **14 TB nos sete Intelbras** — número de uma tabela comparativa de 2025, não do datasheet — e **4 TB nos Hikvision DS-7204HGHI-K1 e DS-7208HGHI-K1, 10 TB no DS-7216HGHI-K1**. O MHDX 1304 é vendido também com SSD Intelbras de 512 GB. Quando o gravador Intelbras vem com HD, o manual dá 3 anos de garantia ao disco."
+  - pergunta: "DVR consome muita energia?"
+    resposta: "As fichas declaram o consumo sempre **sem o HD**: até 7 W nos Intelbras MHDX 1004-C, MHDX 1008-C e iMHDX 3108; até 10 W nos MHDX 1016-C, 1304, 1308 e 1316; e até 16 W, 17 W e 10 W nos Hikvision DS-7204HGHI-K1, DS-7208HGHI-K1 e DS-7216HGHI-K1. Os HDs de vigilância da base declaram de 3,7 a 6,2 W à parte. Um gravador de 10 W ligado o mês inteiro gasta 7,2 kWh, sem o disco — conta nossa."
+  - pergunta: "DVR aceita câmera IP?"
+    resposta: "Os dez da base aceitam, em número limitado, além dos canais de cabo: **uma câmera IP** nos de 4 canais, **duas** nos de 8 e 16 e **quatro** no Intelbras iMHDX 3108. Os Intelbras declaram ainda um modo NVR, só com câmeras IP: 5, 10 ou 18 conforme o tamanho, e 12 no iMHDX 3108. Nos MHDX 1304, 1308 e 1316, ligar o modo Full HD desliga as câmeras IP a mais."
 fontes:
   - titulo: "Câmeras de Vigilância e Segurança — mais vendidos, Amazon Brasil"
     url: "https://www.amazon.com.br/gp/bestsellers/electronics/16243834011"
@@ -133,9 +146,9 @@ funcionam juntos.** O datasheet
 escreve isso; o anúncio, não.
 
 E há uma segunda condição, que só aparece num documento à parte: a Intelbras
-publica uma lista nominal das câmeras que funcionam no modo Full HD. Das seis
-câmeras 1080p desta base, **quatro estão nela**. A VHD 3220 Full Color+ e a VHD
-1230 Full Color MIC não estão — com elas o gravador grava 1080p Lite mesmo com
+publica uma lista nominal das câmeras que funcionam no modo Full HD. Das sete
+câmeras 1080p desta base, **quatro estão nela**. A VHD 3220 Full Color+, nas
+versões B e D, e a VHD 1230 Full Color MIC não estão — com elas o gravador grava 1080p Lite mesmo com
 o modo ligado. O datasheet do MHDX 1304 diz outra coisa: "compatível com todas
 as câmeras intelbras com resolução full hd". Os do 1308 e do 1316 remetem à
 lista.

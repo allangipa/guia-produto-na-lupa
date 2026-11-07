@@ -73,21 +73,6 @@ export function destaquesAtuais(hoje = new Date()): Lancamento[] {
 
 export const lancamentos: Lancamento[] = [
   {
-    slugProduto: "iphone-18-pro",
-    titulo: "iPhone 18 Pro e 18 Pro Max",
-    resumo:
-      "Chip A20 Pro, câmera principal de 48 MP com abertura variável, teleobjetiva de 4x e USB 3. Pela ficha da Apple, 34 horas de vídeo no Pro e 43 no Pro Max — com 211 g e 8,75 mm, mais pesado e mais grosso que o iPhone 17.",
-    etapa: "Pré-venda aberta",
-    preVenda: "Aberta",
-    nasLojas: "18/09/2026",
-    comparativoSlug: "iphone-18-pro-vs-iphone-17",
-    fonte: {
-      titulo: "apple.com/br/iphone-18-pro",
-      url: "https://www.apple.com/br/iphone-18-pro/",
-      consultadaEm: "2026-09-14",
-    },
-  },
-  {
     slugProduto: "iphone-duo",
     titulo: "iPhone Duo",
     resumo:

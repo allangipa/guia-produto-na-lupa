@@ -4,6 +4,7 @@
     "nome": "Philips TAT1109BK/00",
     "marca": "Philips",
     "modelo": "TAT1109BK/00",
+    "categoria": "audio",
     "resumo": "O fone mais vendido da Amazon Brasil em 14/09/2026. O anúncio promete 24 horas; o fone sozinho entrega 6, e as outras 18 dependem de você levar o estojo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
@@ -73,7 +74,8 @@
     "nome": "Soundcore P30i",
     "marca": "Anker",
     "modelo": "A3959",
-    "resumo": "O único da base com cancelamento ativo declarado: 42 dB. Também o de maior autonomia entre os TWS, com 10 horas no fone e 45 com o estojo.",
+    "categoria": "audio",
+    "resumo": "Um dos três fones da base que declaram cancelamento ativo, e um dos dois que põem número: 42 dB (o QCY MeloBuds Pro declara 46). Dez horas no fone e 45 com o estojo, mais conexão com dois aparelhos ao mesmo tempo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
       "src": "/produtos/soundcore-p30i.webp",
@@ -120,6 +122,7 @@
     "nome": "Soundcore P20i",
     "marca": "Anker",
     "modelo": "A3944",
+    "categoria": "audio",
     "resumo": "Irmão mais simples do P30i: mesmo driver de 10 mm, sem cancelamento ativo. A listagem da Amazon só dá o total de 30 horas; a página da Soundcore separa: 10h30 no fone.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
@@ -175,6 +178,7 @@
     "nome": "JBL Tune 530BT",
     "marca": "JBL",
     "modelo": "Tune 530BT",
+    "categoria": "audio",
     "resumo": "On-ear com o maior driver e a maior autonomia da base: 33 mm e 76 horas sem depender de estojo nenhum. Cinco minutos na tomada rendem cinco horas; a carga completa leva cerca de duas.",
     "atualizadoEm": "2026-10-25",
     "imagem": {
@@ -256,6 +260,7 @@
     "nome": "Philips TAUE101BK/00",
     "marca": "Philips",
     "modelo": "TAUE101BK/00",
+    "categoria": "audio",
     "resumo": "O único com fio da base, e o mais barato. Driver de 14,2 mm — maior que o de qualquer TWS aqui — e sistema acústico aberto, que a Philips vende como conforto e que também deixa o som vazar.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
@@ -320,6 +325,7 @@
     "nome": "Philips TAH2300BK/00",
     "marca": "Philips",
     "modelo": "TAH2300BK/00",
+    "categoria": "audio",
     "resumo": "Over-ear de 55 horas com carga completa em 2 h por USB-C. O isolamento é passivo — a listagem fala em bloquear ruído, mas não há cancelamento ativo. O tamanho do driver não é informado.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
@@ -384,6 +390,7 @@
     "nome": "Philips TAH2209",
     "marca": "Philips",
     "modelo": "TAH2209",
+    "categoria": "audio",
     "resumo": "On-ear de 25 horas, dobrável, com driver de 32 mm, que conecta em dois aparelhos ao mesmo tempo e carrega em 2 h. A página da Philips não publica peso, impedância, sensibilidade nem faixa de frequência.",
     "atualizadoEm": "2026-10-25",
     "imagem": {
@@ -456,6 +463,7 @@
     "nome": "Philips TAT1209BK/00",
     "marca": "Philips",
     "modelo": "TAT1209BK/00",
+    "categoria": "audio",
     "resumo": "O irmão menor do TAT1109: mesmas 6 horas no fone, estojo menor de 12 horas, 18 no total. Mesmo IPX4 e a mesma carga rápida de 15 minutos.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
@@ -517,7 +525,8 @@
     "nome": "Huawei FreeBuds SE 2",
     "marca": "Huawei",
     "modelo": "FreeBuds SE 2",
-    "resumo": "O único da base que declara o peso: 3,8 g por fone. Nove horas no fone, 40 com o estojo, e a carga rápida mais generosa entre os TWS — 10 minutos rendem 3 horas. A ficha oficial da Huawei é a mais completa da categoria.",
+    "categoria": "audio",
+    "resumo": "Uma das cinco fichas da base que declaram o peso: 3,8 g por fone. Nove horas no fone, 40 com o estojo, e 10 minutos de carga rendem 3 horas, pela Huawei.",
     "atualizadoEm": "2026-09-14",
     "imagem": {
       "src": "/produtos/huawei-freebuds-se-2.webp",
@@ -580,6 +589,7 @@
     "nome": "Philips TAQ2000BK/00",
     "marca": "Philips",
     "modelo": "TAQ2000BK/00",
+    "categoria": "audio",
     "resumo": "Formato aberto que prende na borda da orelha e deixa você ouvir a rua. Sete horas no fone e 28 no total, modo de baixa latência para jogos e ajustes pelo aplicativo.",
     "atualizadoEm": "2026-09-14",
     "imagem": {

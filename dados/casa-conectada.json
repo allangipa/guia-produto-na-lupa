@@ -5,7 +5,7 @@
     "marca": "TP-Link",
     "modelo": "Tapo P110",
     "categoria": "casa-conectada",
-    "resumo": "A única desta lista que diz, por escrito, que o controle local funciona sem internet e sem a nuvem. Também é a única que mede consumo — e aguenta 2.400 W, contra os 1.000 W da concorrente da Positivo.",
+    "resumo": "A TP-Link diz, por escrito, que o controle local funciona sem internet e sem a nuvem — a única das seis tomadas de encaixar da base que diz isso. Mede o consumo e aguenta 2.400 W, a maior carga declarada entre elas.",
     "atualizadoEm": "2026-09-29",
     "specs": {
       "tipo": "Tomada inteligente",
@@ -53,7 +53,7 @@
         "titulo": "TP-Link Tapo P110 — página oficial da TP-Link Brasil",
         "url": "https://www.tp-link.com/br/home-networking/smart-plug/tapo-p110/",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Wi-Fi 2,4 GHz 802.11b/g/n, aplicativo Tapo para Android 5.0 ou iOS 10.0 em diante, compatível com Alexa, Google Assistente e SmartThings, medição de consumo em tempo real com estimativa de conta, carga máxima de 2.400 W e 10 A, entrada de 100 a 240 V, consumo em espera de 0,64 W e 51 × 72 × 40 mm. A página declara explicitamente que o controle local não exige internet nem nuvem — é a única das oito fichas desta categoria que diz isso. Não declara prazo de garantia.",
+        "oQueSaiuDaqui": "Wi-Fi 2,4 GHz 802.11b/g/n, aplicativo Tapo para Android 5.0 ou iOS 10.0 em diante, compatível com Alexa, Google Assistente e SmartThings, medição de consumo em tempo real com estimativa de conta, carga máxima de 2.400 W e 10 A, entrada de 100 a 240 V, consumo em espera de 0,64 W e 51 × 72 × 40 mm. A página declara explicitamente que o controle local não exige internet nem nuvem. Não declara prazo de garantia; o prazo está nos termos de garantia da TP-Link.",
         "consultadaEm": "2026-09-18"
       },
       {
@@ -86,8 +86,8 @@
     "marca": "TP-Link",
     "modelo": "Tapo C200",
     "categoria": "casa-conectada",
-    "resumo": "A câmera interna mais vendida do país, com giro de 360°. Grava em cartão de até 512 GB ou na nuvem Tapo Care por assinatura — e a TP-Link não diz se ela continua funcionando se a nuvem sair do ar.",
-    "atualizadoEm": "2026-09-18",
+    "resumo": "Câmera interna com giro de 360°. Grava em cartão de até 512 GB ou na nuvem Tapo Care por assinatura — e a TP-Link não diz se ela continua funcionando se a nuvem sair do ar.",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Câmera Wi-Fi interna",
       "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
@@ -103,7 +103,7 @@
       "visaoNoturnaM": 9,
       "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
       "protecaoIp": null,
-      "garantiaMeses": null,
+      "garantiaMeses": 24,
       "precisaHub": null,
       "precisaNeutro": null,
       "teclas": null,
@@ -143,6 +143,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo e o giro de 360°. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-c200",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-29",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'."
       }
     ],
     "imagem": {
@@ -159,7 +167,7 @@
     "modelo": "Tapo C100",
     "categoria": "casa-conectada",
     "resumo": "A versão fixa da C200, sem o giro e menor: 98 mm de altura contra 118. Mesma resolução, mesma visão noturna de 9 metros e o mesmo silêncio sobre funcionar sem a nuvem.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Câmera Wi-Fi interna",
       "conexao": "Wi-Fi 2,4 GHz (802.11b/g/n)",
@@ -175,7 +183,7 @@
       "visaoNoturnaM": 9,
       "armazenamentoVideo": "microSD de até 512 GB, ou nuvem Tapo Care por assinatura",
       "protecaoIp": null,
-      "garantiaMeses": null,
+      "garantiaMeses": 24,
       "precisaHub": null,
       "precisaNeutro": null,
       "teclas": null,
@@ -215,6 +223,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo e a versão interna Full HD. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-c100",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-09-29",
+        "oQueSaiuDaqui": "'Linha TAPO — Câmeras Tapo, Tomada inteligente, Lâmpada inteligente, Fechadura Inteligente, Interruptores Inteligentes: 02 (Dois) Anos'."
       }
     ],
     "imagem": {
@@ -2545,7 +2561,7 @@
     "marca": "Intelbras",
     "modelo": "MCA 1002",
     "categoria": "casa-conectada",
-    "resumo": "Central Zigbee com sirene, para até 32 dispositivos. É a única ficha da Intelbras que declara funcionar sem internet — e fala pelos sensores e fechaduras Zigbee ligados a ela, sem dizer quais funções continuam.",
+    "resumo": "Central Zigbee com sirene, para até 32 dispositivos. Declara funcionar sem internet — e fala pelos sensores e fechaduras Zigbee ligados a ela, sem dizer quais funções continuam.",
     "atualizadoEm": "2026-09-29",
     "specs": {
       "tipo": "Hub",
@@ -4615,10 +4631,10 @@
         "fonteAdotada": "2.200 W (FP=1) em 220 Vac; 1.100 W em 110 Vac — manual completo",
         "valorDivergente": "2.200 W FP1, sem tensão",
         "fonteDivergente": "Datasheet EWS 301",
-        "observacao": "O datasheet omite que o número vale só a 220 V. Adotado 2.200 W com a condição escrita na nota."
+        "observacao": "O datasheet omite que o número vale só a 220 V. O manual completo dá 2.200 W a 220 V e 1.100 W a 110 V; o campo guarda o menor dos dois, porque é o que vale para quem não sabe a tensão da tomada, e a condição fica escrita aqui."
       },
       {
-        "campo": "alimentacao",
+        "campo": "alcanceM",
         "fonteAdotada": "20 a 30 m sem obstáculos — datasheet",
         "valorDivergente": "15 a 20 m",
         "fonteDivergente": "Anúncio na Amazon",
@@ -4903,7 +4919,7 @@
     "marca": "Garen",
     "modelo": "A00611",
     "categoria": "casa-conectada",
-    "resumo": "Módulo Wi-Fi de portão, e o único desta base que declara funcionar sem internet, na rede local depois de pareado. O manual torna a fotocélula obrigatória, dá 12 V DC em três trechos e 90–240 VCA em outro, e chama o app por dois nomes.",
+    "resumo": "Módulo Wi-Fi de portão, e o único módulo de portão da base que declara funcionar sem internet, na rede local depois de pareado. O manual torna a fotocélula obrigatória, dá 12 V DC em três trechos e 90–240 VCA em outro, e chama o app por dois nomes.",
     "atualizadoEm": "2026-09-29",
     "specs": {
       "tipo": "Módulo de portão",

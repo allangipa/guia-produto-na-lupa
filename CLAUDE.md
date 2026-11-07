@@ -133,6 +133,40 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
   resultado precisa mostrar a ficha, não a crítica. **Conferir o CTR das
   fichas no Search Console no fim de outubro** para saber se valeu.
 
+  **Primeira leitura, 07/11/2026, e ainda sem conclusão.** O export padrão
+  ("últimos 3 meses") soma o período inteiro e não separa as fichas por data.
+  No site todo, o CTR foi de 0,54% (19/09 a 17/10) para 0,63% (19/10 a 04/11)
+  e 0,72% de 25/10 em diante, com a posição média piorando de 10,6 para 12,5 —
+  bom sinal, mas com 30 contra 32 cliques. Nos 3 meses: fichas 8.164
+  impressões, CTR 0,39%, posição 11; comparativos 1.466, **1,98%**, posição
+  6,5; análises 609, **0,16%**, posição 8,9; guias 442 e zero clique. Para
+  medir de verdade: filtro Página contém `/produtos/`, Data > Comparar com o
+  período depois de 19/10 contra o de antes, de mesmo tamanho.
+
+  **As análises disputavam a busca com a ficha do mesmo produto.** Os dois
+  títulos diziam "ficha técnica", e quem buscava "moto g35 5g ficha técnica"
+  via a análise chamada "Moto g35 5G é bom?". **Teste desde 07/11/2026:** das
+  46 análises, as de posição par em ordem alfabética do arquivo (23) trocaram
+  o `tituloCurto` por "<modelo> vale a pena? Prós e contras", sem "ficha
+  técnica"; as de posição ímpar ficaram como estavam e são o controle. Teste:
+  amazfit-active-max, arno-ultragliss-plus-fmy, brastemp-brm46mk,
+  consul-crm44mb, electrolux-ecp10, electrolux-maxcomfort-12000,
+  intelbras-xnb-720, kingston-nv3-1tb, lg-24g411a, mallory-max-control,
+  mondial-es-ju-01, mondial-scp-ju-04-us, motorola-moto-g86, oster-ogrl610,
+  panasonic-nn-st27lwru, philco-pmxe01, samsung-galaxy-a17,
+  samsung-galaxy-tab-a11, tplink-deco-x50, tplink-tapo-c200, wap-gtw-inox-50,
+  wap-magic, wap-wf-700k10. **Medir no início de dezembro**, os dois grupos e
+  as fichas deles: o risco é a análise perder impressão onde ela aparecia
+  melhor que a ficha (Galaxy A17: análise na posição 9,7, ficha na 21,9). Se
+  o grupo de teste somar mais cliques, análise + ficha, que o controle, os
+  outros 23 mudam também; se não, os 23 voltam.
+
+  **URL sem barra no JSON-LD, corrigido em 07/11/2026.** O BreadcrumbList de
+  toda página e o WebPage do simulador declaravam a URL sem a barra final, e
+  o Search Console mostrava 92 páginas nos dois endereços, dividindo
+  impressão e clique. A barra mora agora em `schemaBreadcrumb`
+  (`lib/schema.tsx`). URL absoluta escrita à mão leva barra no fim.
+
 ## Regras editoriais (inegociáveis)
 
 - **Nunca afirmar uso, teste ou medição.** Ninguém aqui teve o produto na mão.
@@ -661,8 +695,10 @@ confunde com documento sem folha de estilo.
   o comentário dela já dava como motivo único a xícara de 40 ml; fica para o
   Allan decidir se baixa.
 
-- **Dez produtos da base estão sem o campo `categoria`.** Aparecem na contagem
-  de 423 e não na de 413 por categoria. Não foram investigados; fica anotado.
+- **Os dez produtos sem o campo `categoria` eram as primeiras fichas de
+  fone** (`dados/audio.json`, de 14/09). O site não lia o campo — a categoria
+  sai do nome do arquivo em `lib/produtos.ts` —, mas a contagem por Python
+  sobre o JSON não batia. Campo acrescentado em 07/11/2026.
 - **Produto sem link de afiliado sai da base.** Decisão do Allan em 26/09/2026,
   depois que a caça de links levou a cobertura de 76% para 91%: "os que não
   estão no site da Amazon pode apagar no site". Saíram 40 produtos, 120 arquivos
@@ -1374,19 +1410,21 @@ confunde com documento sem folha de estilo.
   cooktops e, desde 18/10, geladeiras, liquidificadores, batedeiras,
   ventiladores, furadeiras, lavadoras de alta pressão, armazenamento,
   aspiradores, micro-ondas, cafeteiras, tablets, torradeiras, lavadoras,
-  lava-louças, chaleiras e processadores), 5 a 7 perguntas cada; os outros
-  13 ainda não. Vão em lotes de cinco, pela ordem de
-  impressões no Search Console. **Cada pergunta tem de existir no
+  lava-louças, chaleiras e processadores), 5 a 7 perguntas cada, e **desde
+  07/11/2026 os 36**: entraram secadores, escovas secadoras, ferros,
+  sanduicheiras, mixers, espremedores, fones, smartwatches, periféricos, casa
+  conectada, conectividade, DVR e energia. **Cada pergunta tem de existir no
   autocomplete** — a página diz que existe — e cada número da resposta se
   confere contra `dados/*.json` antes do commit: no lote de 18/10, a primeira
   versão errou a contagem de fichas Mondial em liquidificadores e o número de
-  furadeiras de tomada com torque, pegos na conferência. Cinco guias têm o
-  corpo desatualizado em relação à base: liquidificadores, cafeteiras e
-  tablets falam em dez fichas e a base tem vinte; lavadoras falam em "sete
-  Electrolux" (são seis) e citam na tabela de nomes modelos que saíram;
-  aspiradores citam o WAP Turbo 1600 e um Midea de 12.000 Pa, que não estão
-  mais na base — as perguntas
-  falam da base atual, e o corpo fica para uma revisão própria. Padrão copiado de
+  furadeiras de tomada com torque, pegos na conferência. **O corpo de cinco
+  guias estava desatualizado em relação à base** (liquidificadores,
+  cafeteiras e tablets falavam em dez fichas, com vinte na base; lavadoras
+  citavam modelos que saíram; aspiradores, o WAP Turbo 1600) e foi corrigido
+  em 07/11/2026, com os comparativos e análises das mesmas categorias. A
+  causa é estrutural: **quando uma categoria cresce, todo número por extenso
+  dos textos dela fica falso sem ninguém tocar no arquivo.** Ao mexer no
+  tamanho de uma categoria, reler guia, comparativos e análises dela. Padrão copiado de
   Zoom, Promobit e Panelas e Cozinha, que fecham o guia com H2 em forma de
   pergunta (`docs/concorrentes-2026-10-17.md`).
 - **A análise abre com o veredito, desde 17/10/2026.** Até então: título,
