@@ -6,7 +6,7 @@
     "modelo": "TL-WA850RE",
     "categoria": "conectividade",
     "resumo": "O repetidor mais vendido da lista, e o mais simples: uma banda só, 2,4 GHz, 300 Mb/s e porta de 100 Mb/s. Num plano de 300 Mega, a porta dele é o gargalo antes do Wi-Fi.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Repetidor",
       "padraoWifi": "Wi-Fi 4 (802.11n)",
@@ -22,7 +22,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "110 × 65,8 × 75,2",
-      "garantiaMeses": null
+      "garantiaMeses": 36
     },
     "naoSeAplica": [
       "velocidade5ghzMbps"
@@ -46,6 +46,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo e os 300 Mb/s. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-tl-wa850re",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Outros Dispositivos e Acessórios — Repetidores, Adaptadores Wi-Fi, Adaptadores Bluetooth, Adaptadores Alta Potência: 03 (Três) Anos'. A página do produto não traz o prazo; ele está só nos termos de garantia."
       }
     ],
     "imagem": {
@@ -62,7 +70,7 @@
     "modelo": "RE305",
     "categoria": "conectividade",
     "resumo": "O \"AC1200\" do nome é 300 em 2,4 GHz mais 867 em 5 GHz. Nenhum aparelho recebe os dois ao mesmo tempo — o melhor que se consegue numa banda é 867. E a porta de rede é de 100 Mb/s.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Repetidor",
       "padraoWifi": "Wi-Fi 5 (802.11ac)",
@@ -78,7 +86,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "80 × 78 × 77",
-      "garantiaMeses": null
+      "garantiaMeses": 36
     },
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B075KFFSMR"
@@ -99,6 +107,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo, o AC1200 e o modo AP. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-re305",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Outros Dispositivos e Acessórios — Repetidores, Adaptadores Wi-Fi, Adaptadores Bluetooth, Adaptadores Alta Potência: 03 (Três) Anos'. A página do produto não traz o prazo; ele está só nos termos de garantia."
       }
     ],
     "imagem": {
@@ -115,7 +131,7 @@
     "modelo": "RE450",
     "categoria": "conectividade",
     "resumo": "O único repetidor desta lista com porta gigabit — os outros dois travam em 100 Mb/s no cabo. AC1750 significa 450 em 2,4 GHz mais 1.300 em 5 GHz.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Repetidor",
       "padraoWifi": "Wi-Fi 5 (802.11ac)",
@@ -131,7 +147,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "163 × 76,4 × 66,5",
-      "garantiaMeses": null
+      "garantiaMeses": 36
     },
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B07BB4BY7Z"
@@ -152,6 +168,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo e o AC1750. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-re450",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Outros Dispositivos e Acessórios — Repetidores, Adaptadores Wi-Fi, Adaptadores Bluetooth, Adaptadores Alta Potência: 03 (Três) Anos'. A página do produto não traz o prazo; ele está só nos termos de garantia."
       }
     ],
     "imagem": {
@@ -168,7 +192,7 @@
     "modelo": "EX3000",
     "categoria": "conectividade",
     "resumo": "Wi-Fi 6 com quatro portas gigabit e EasyMesh. O nome diz AX3000; a tabela da TP-Link diz 2.402 em 5 GHz e 574 em 2,4 GHz — some e dá 2.976.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Roteador",
       "padraoWifi": "Wi-Fi 6 (802.11ax)",
@@ -184,7 +208,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "182,7 × 94,0 × 33,3",
-      "garantiaMeses": null
+      "garantiaMeses": 60
     },
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0GZJ5WVY8"
@@ -205,6 +229,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo, as 4 portas gigabit e o EasyMesh. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-ex3000",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Roteadores Wi-Fi: 05 (Cinco) Anos'. A página do produto não traz o prazo; ele está só nos termos de garantia."
       }
     ],
     "imagem": {
@@ -433,7 +465,7 @@
     "modelo": "Archer T3U",
     "categoria": "conectividade",
     "resumo": "Adaptador USB 3.0 do tamanho de uma unha: 40 mm de ponta a ponta. AC1300 é 400 em 2,4 GHz mais 867 em 5 GHz.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Adaptador Wi-Fi USB",
       "padraoWifi": "Wi-Fi 5 (802.11ac)",
@@ -449,7 +481,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "40,5 × 19,72 × 10,29",
-      "garantiaMeses": null
+      "garantiaMeses": 36
     },
     "naoSeAplica": [
       "portasLan",
@@ -476,6 +508,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo, o AC1300 e o USB 3.0. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-archer-t3u",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Outros Dispositivos e Acessórios — Repetidores, Adaptadores Wi-Fi, Adaptadores Bluetooth, Adaptadores Alta Potência: 03 (Três) Anos'. A página do produto não traz o prazo; ele está só nos termos de garantia."
       }
     ],
     "imagem": {
@@ -492,7 +532,7 @@
     "modelo": "Archer T2U Plus",
     "categoria": "conectividade",
     "resumo": "Tem antena externa de 5 dBi, que é o que o T3U não tem — e USB 2.0, que limita a 480 Mb/s de barramento. AC600 é 200 mais 433.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Adaptador Wi-Fi USB",
       "padraoWifi": "Wi-Fi 5 (802.11ac)",
@@ -508,7 +548,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "57,8 × 18 × 173,4",
-      "garantiaMeses": null
+      "garantiaMeses": 36
     },
     "naoSeAplica": [
       "portasLan",
@@ -535,6 +575,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo e o AC600. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-archer-t2u-plus",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Outros Dispositivos e Acessórios — Repetidores, Adaptadores Wi-Fi, Adaptadores Bluetooth, Adaptadores Alta Potência: 03 (Três) Anos'. A página do produto não traz o prazo; ele está só nos termos de garantia."
       }
     ],
     "imagem": {
@@ -551,7 +599,7 @@
     "modelo": "TL-WN823N",
     "categoria": "conectividade",
     "resumo": "O mais simples e o menor: 39 mm, uma banda só e 300 Mb/s. Num notebook que já tem Wi-Fi 5, só faz sentido para substituir uma placa queimada.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Adaptador Wi-Fi USB",
       "padraoWifi": "Wi-Fi 4 (802.11n)",
@@ -567,7 +615,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "39 × 18,35 × 7,87",
-      "garantiaMeses": null
+      "garantiaMeses": 36
     },
     "naoSeAplica": [
       "velocidade5ghzMbps",
@@ -595,6 +643,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo e os 300 Mb/s em 2,4 GHz. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "tplink-garantia-br-tl-wn823n",
+        "titulo": "Política de garantia — TP-Link Brasil",
+        "url": "https://www.tp-link.com/br/support/replacement-warranty/",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Outros Dispositivos e Acessórios — Repetidores, Adaptadores Wi-Fi, Adaptadores Bluetooth, Adaptadores Alta Potência: 03 (Três) Anos'. A página do produto não traz o prazo; ele está só nos termos de garantia."
       }
     ],
     "imagem": {
