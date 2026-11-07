@@ -97,7 +97,7 @@ export default async function PaginaFerramenta({ params }: Params) {
           "@type": "WebPage",
           name: pagina.h1,
           description: pagina.descricao,
-          url: `${site.url}${url}`,
+          url: `${site.url}${url}/`,
           inLanguage: "pt-BR",
           publisher: { "@type": "Organization", name: site.nome, url: site.url },
         }}

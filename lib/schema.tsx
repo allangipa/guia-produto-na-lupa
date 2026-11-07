@@ -270,6 +270,13 @@ export function schemaGuia(g: {
   };
 }
 
+// A trilha chega sem a barra final ("/comparativos/x"), que é como o `href`
+// do next/link aceita. Aqui a URL é absoluta e o Google a lê como está: até
+// 07/11/2026 ela saía sem barra em toda página, o GitHub Pages respondia 301,
+// e o Search Console mostrava 92 páginas em dois endereços, com e sem barra,
+// dividindo impressão e clique. A canonical e o sitemap já tinham a barra.
+const comBarra = (u: string) => (u.endsWith("/") ? u : `${u}/`);
+
 export function schemaBreadcrumb(trilha: { nome: string; url: string }[]) {
   return {
     "@context": "https://schema.org",
@@ -278,7 +285,7 @@ export function schemaBreadcrumb(trilha: { nome: string; url: string }[]) {
       "@type": "ListItem",
       position: i + 1,
       name: t.nome,
-      item: `${site.url}${t.url}`,
+      item: `${site.url}${comBarra(t.url)}`,
     })),
   };
 }
