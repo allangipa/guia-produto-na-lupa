@@ -667,7 +667,7 @@
     "modelo": "MR80X",
     "categoria": "conectividade",
     "resumo": "Mesma ficha de rádio do TP-Link EX3000 — 2.402 mais 574, quatro portas gigabit, MU-MIMO e EasyMesh — na marca de entrada do mesmo grupo. A Mercusys é a única aqui que declara antena com ganho: 5 dBi.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-07",
     "specs": {
       "tipo": "Roteador",
       "padraoWifi": "Wi-Fi 6 (802.11ax)",
@@ -683,7 +683,7 @@
       "coberturaM2": null,
       "dispositivosSimultaneos": null,
       "dimensoesMm": "175,6 × 157,2 × 45",
-      "garantiaMeses": null
+      "garantiaMeses": 60
     },
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0G4NDB2P4"
@@ -704,6 +704,14 @@
         "tipo": "varejo",
         "oQueSaiuDaqui": "Confirma o modelo V4, o AX3000, as 4 portas gigabit e as 4 antenas. Nenhum número da ficha saiu daqui.",
         "consultadaEm": "2026-09-18"
+      },
+      {
+        "id": "mercusys-garantia-br-mr80x",
+        "titulo": "Garantia e Política RMA — Mercusys Brasil",
+        "url": "https://www.mercusys.com.br/support/warranty-terms",
+        "tipo": "fabricante",
+        "consultadaEm": "2026-11-07",
+        "oQueSaiuDaqui": "'Roteadores Wi-Fi, Repetidores: 05 (cinco) anos'. A página do produto não traz o prazo; ele está só nos termos de garantia. A tabela não nomeia a linha mesh Halo."
       }
     ],
     "imagem": {

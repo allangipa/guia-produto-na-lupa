@@ -161,6 +161,19 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
   o grupo de teste somar mais cliques, análise + ficha, que o controle, os
   outros 23 mudam também; se não, os 23 voltam.
 
+  **Teste nos guias desde 07/11/2026.** Os 36 guias somaram 442 impressões e
+  zero clique em 3 meses, enquanto os comparativos, com número da ficha na
+  frente do título, faziam 1,98%. Os de posição par em ordem alfabética do
+  arquivo (18) trocaram o `tituloCurto` para o termo de busca da categoria
+  seguido do achado mais forte do guia, com número de produto nomeado — "Melhor
+  secador de cabelo: Taiff 3.100 W, sem peso na ficha". **Sem contagem de
+  fichas**, que fica falsa quando a categoria cresce. Teste: ar-condicionado,
+  aspiradores, cafeteiras, chaleiras, cooktops-inducao, energia, espremedores,
+  fones-de-ouvido, geladeiras, lavadoras, liquidificadores, mixers,
+  nobreak-para-casa, processadores, qual-iphone-2026, secadores, tablets,
+  ventiladores. Os outros 18 ficaram como estavam e são o controle. **Medir no
+  início de dezembro junto com o das análises.**
+
   **URL sem barra no JSON-LD, corrigido em 07/11/2026.** O BreadcrumbList de
   toda página e o WebPage do simulador declaravam a URL sem a barra final, e
   o Search Console mostrava 92 páginas nos dois endereços, dividindo
@@ -222,7 +235,12 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
 - Toda análise tem "não compre se você" — o veredito de exclusão é o que dá
   autoridade.
 - Sem preço em texto: a Amazon só autoriza exibir preço via Product Advertising
-  API, com horário da consulta.
+  API, com horário da consulta. **Nem preço relativo**, desde 07/11/2026:
+  "mais barato", "mais caro", "por menos", "preço parecido", "de entrada",
+  "sem pagar o Pro" saíram de 55 peças. Nenhuma fonte lista preço, e a frase
+  envelhece sozinha. No lugar, o fato da ficha que separa os produtos (SATA ×
+  NVMe, câmera interna × externa, 1,3 kg × 1,6 kg). Ficam os usos figurados ("a
+  lacuna mais cara", "o preço do 1 ms") e o custo de operação (luz, água, refil).
 - Nota editorial de 0 a 10 por critério ponderado, documentada em `/metodologia`.
   Os critérios avaliam só o que a documentação oficial permite julgar — não
   existe nota de durabilidade real, desempenho real ou conforto.
@@ -402,6 +420,22 @@ Produto sem link **continua na base**. As contas dos guias ("13 das 24 publicam
 sucção") medem o mercado, não o nosso estoque de comissão; tirar da amostra o que
 não dá comissão trocaria em silêncio a pergunta que o site faz.
 
+### Conferência das contagens — `npm run contagens`
+
+Desde 07/11/2026. Rodar **depois de mexer no tamanho de uma categoria** e antes
+do commit. `scripts/contagens.mjs` procura nos guias, comparativos e análises um
+total de fichas que não bate com `dados/<categoria>.json`: "das 26 batedeiras da
+nossa base", "Treze das vinte fichas da base", "21 das 22 declaram". Lista
+primeiro o que passa do tamanho da categoria e o que diz "da base" ou "da
+categoria"; `--tudo` mostra também o que pode ser subgrupo ("das 14 câmeras"),
+e aí é leitura, não erro. Não quebra o build.
+
+Na primeira rodada achou seis peças com o total de antes do crescimento da
+categoria — dois comparativos de batedeira (26 e 36 fichas, com 40 na base),
+dois de sanduicheira (20, com 43), a análise do Arno Ultragliss Plus (22, com
+24) e a do Amazfit. **Ela não lê subgrupo nem superlativo**: "a única que
+declara" continua precisando de conferência à mão contra a base.
+
 ## Identidade visual
 
 Uma única cor de ação no site inteiro: verde-petróleo `#0F6E6C`. Tinta `#14181B`,
@@ -521,8 +555,8 @@ confunde com documento sem folha de estilo.
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo
   que está publicado tem fonte oficial declarada.
-- **Inventário em 29/09/2026: 752 produtos em 36 categorias, 36 guias,
-  56 comparativos e 44 análises.**
+- **Inventário em 07/11/2026: 752 produtos em 36 categorias, 36 guias,
+  56 comparativos e 46 análises.**
 
   Esta linha já esteve errada aqui duas vezes. Em 14/09 dizia "70 produtos, 7
   guias, 8 comparativos e 1 review"; em 25/09 foi corrigida para 463 produtos
@@ -691,9 +725,9 @@ confunde com documento sem folha de estilo.
   campo vazio, a OCAF300 caiu de 93 para 87 no selo e deixou de ser "a maior
   nota de transparência da categoria" — as Electrolux ECM20, ECM22 e ECM25,
   que publicam um consumo que não é watt ÷ 1.000 (0,139 e 0,169 kWh), ficaram
-  em 93. **A nota editorial de transparência da análise (8,0) não foi mexida**:
-  o comentário dela já dava como motivo único a xícara de 40 ml; fica para o
-  Allan decidir se baixa.
+  em 93. A nota editorial de transparência da análise desceu de 8,0 para 7,5 em
+  07/11/2026, com aprovação do Allan: dois dos três motivos dela (o consumo e
+  ser a ficha mais completa da categoria) tinham caído.
 
 - **Os dez produtos sem o campo `categoria` eram as primeiras fichas de
   fone** (`dados/audio.json`, de 14/09). O site não lia o campo — a categoria
@@ -1752,6 +1786,19 @@ confunde com documento sem folha de estilo.
   era o argumento da seção. **Antes de escrever "bivolt", ler o campo: só vale
   se a ficha diz "Bivolt".** O erro é perigoso, não só impreciso: induz a
   ligar a versão de 127 V numa tomada de 220.
+- **Garantia que só existe nos termos, fora da página do produto.** TP-Link e
+  Mercusys publicam uma tabela de prazo por família, à parte da ficha
+  (`tp-link.com/br/support/replacement-warranty/`,
+  `mercusys.com.br/support/warranty-terms`): Tapo 2 anos; repetidor e
+  adaptador TP-Link 3; roteador Wi-Fi TP-Link e Mercusys 5. Desde 07/11/2026 o
+  prazo está em `garantiaMeses` das fichas cobertas, com a tabela como fonte.
+  **Sistema mesh (Deco, Halo) fica sem número**: nenhuma das duas tabelas
+  nomeia mesh, e enquadrar o Deco como "roteador Wi-Fi" seria leitura nossa.
+  Na nota editorial, prazo só nos termos vale o mesmo que doze meses na página
+  (5,0): mais prazo, mas fora de onde o comprador lê. Ficha sem prazo nenhum
+  fica entre 2,0 e 3,0 — o Soundcore P30i tinha 4,5 e desceu para 2,5 no
+  mesmo dia. Antes de escrever "nenhum fabricante declara garantia", procurar
+  a página de termos da marca.
 - Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
   públicas se contradizem (24 h e 30 dias).
 

@@ -12,6 +12,7 @@
     "amazon:testar": "node scripts/amazon-sync.mjs --testar",
     "afiliados": "node scripts/afiliados-cobertura.mjs",
     "afiliados:resumo": "node scripts/afiliados-cobertura.mjs --resumo",
+    "contagens": "node scripts/contagens.mjs",
     "imagens": "node scripts/imagens.mjs",
     "carrossel": "node scripts/carrossel.mjs",
     "cartoes": "node scripts/cartoes.mjs"
