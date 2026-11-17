@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ogImagem, site, tituloSeo } from "@/lib/site";
 import { dataLegivel } from "@/lib/conteudo";
-import { FOCOS, SLUG_DO_FOCO, focoDoSlug, hrefDoFoco, type Foco } from "@/lib/simulador";
+import { APELIDOS_DO_SIMULADOR, FOCOS, SLUG_DO_FOCO, focoDoApelido, focoDoSlug, hrefDoFoco, type Foco } from "@/lib/simulador";
 import { baseDoFoco } from "@/lib/simulador-base";
 import { PAGINAS, tabelasDoFoco } from "@/lib/simulador-paginas";
 import type { Produto } from "@/lib/specs";
@@ -23,11 +23,25 @@ type Params = { params: Promise<{ projeto: string }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return FOCOS.map((f) => ({ projeto: SLUG_DO_FOCO[f.valor] }));
+  // Os apelidos entram junto: a rota precisa existir para servir o
+  // redirecionamento no endereço que circula. Ver lib/simulador.ts.
+  return [
+    ...FOCOS.map((f) => ({ projeto: SLUG_DO_FOCO[f.valor] })),
+    ...APELIDOS_DO_SIMULADOR.map((a) => ({ projeto: a })),
+  ];
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
-  const foco = focoDoSlug((await params).projeto);
+  const projeto = (await params).projeto;
+  const apelido = focoDoApelido(projeto);
+  if (apelido) {
+    return {
+      title: tituloSeo(PAGINAS[apelido].seo),
+      alternates: { canonical: hrefDoFoco(apelido) },
+      robots: { index: false, follow: true },
+    };
+  }
+  const foco = focoDoSlug(projeto);
   if (!foco) return {};
   const p = PAGINAS[foco];
   // A capa do compartilhamento é a foto de um produto da própria ferramenta.
@@ -77,7 +91,29 @@ function Ferramenta({ foco, base }: { foco: Foco; base: Record<string, Produto> 
  * para oito buscas diferentes ("calculadora de BTU", "quanto dura o refil").
  */
 export default async function PaginaFerramenta({ params }: Params) {
-  const foco = focoDoSlug((await params).projeto);
+  const projeto = (await params).projeto;
+  const apelido = focoDoApelido(projeto);
+  if (apelido) {
+    const destino = `${hrefDoFoco(apelido)}/`;
+    return (
+      <div className="mx-auto max-w-[var(--largura-prosa)] px-5 py-16">
+        {/* Redirecionamento em site estático, como o dos produtos removidos:
+            meta refresh de zero segundo e canonical apontando para o destino. */}
+        <meta httpEquiv="refresh" content={`0; url=${destino}`} />
+        <h1 className="font-titulo text-2xl leading-snug">{PAGINAS[apelido].h1}</h1>
+        <p className="mt-4 max-w-[62ch] text-tinta-suave">
+          Esta ferramenta mudou de endereço. Se a página não abrir sozinha, o link
+          abaixo leva até ela.
+        </p>
+        <p className="mt-6">
+          <Link href={destino} className="botao botao-primario">
+            Abrir o simulador
+          </Link>
+        </p>
+      </div>
+    );
+  }
+  const foco = focoDoSlug(projeto);
   if (!foco) notFound();
   const pagina = PAGINAS[foco];
   const rotulo = FOCOS.find((f) => f.valor === foco)!.rotulo;

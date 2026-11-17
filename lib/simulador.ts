@@ -54,6 +54,19 @@ export const hrefDoFoco = (f: Foco) => `/simulador/${SLUG_DO_FOCO[f]}`;
 export const focoDoSlug = (slug: string): Foco | undefined =>
   FOCOS.find((f) => SLUG_DO_FOCO[f.valor] === slug)?.valor;
 
+/**
+ * Endereços que não são de ferramenta nenhuma, mas que circulam: as descrições
+ * dos vídeos do YouTube publicados de outubro a dezembro de 2026 apontam para
+ * /simulador/<valor interno do foco> — /simulador/wifi, /simulador/ar — em vez
+ * do slug, e o do purificador está escrito na tela do próprio vídeo. Cada um
+ * vira uma página de redirecionamento para a ferramenta (ver a página do
+ * simulador). Só entram os valores que diferem do slug.
+ */
+export const APELIDOS_DO_SIMULADOR: string[] = FOCOS.map((f) => f.valor).filter((v) => SLUG_DO_FOCO[v] !== v);
+
+export const focoDoApelido = (slug: string): Foco | undefined =>
+  APELIDOS_DO_SIMULADOR.includes(slug) ? (slug as Foco) : undefined;
+
 export const ehFoco = (v: string | null): v is Foco => FOCOS.some((f) => f.valor === v);
 
 /** Qual projeto do simulador atende quem está numa ficha desta categoria. */
