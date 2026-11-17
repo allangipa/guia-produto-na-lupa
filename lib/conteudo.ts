@@ -169,6 +169,13 @@ export type Review = {
   atualizadoEm: string;
   produto: Produto;
   nota: number;
+  /**
+   * A resposta em uma frase, para quem o produto vale a compra. Opcional, em
+   * teste desde 17/11/2026: com ela, o card do topo abre pelo veredito e a nota
+   * aparece como "nota da ficha", que é o que ela mede — a documentação, não o
+   * produto. Uma nota 5,2 sozinha no topo era lida como "produto ruim".
+   */
+  veredito?: string;
   criterios: Criterio[];
   para: string[];
   naoPara: string[];

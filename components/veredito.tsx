@@ -67,6 +67,7 @@ export function EscalaCriterios({ criterios }: { criterios: Criterio[] }) {
  */
 export function VereditoRapido({
   nota,
+  veredito,
   para,
   naoPara,
   foto,
@@ -74,6 +75,8 @@ export function VereditoRapido({
   cta,
 }: {
   nota: number;
+  /** Ver `Review.veredito`: com ele, o card abre pela frase e a nota vira "nota da ficha". */
+  veredito?: string;
   para: string[];
   naoPara: string[];
   foto?: Imagem;
@@ -112,13 +115,27 @@ export function VereditoRapido({
         )}
 
         <div className="order-1 min-w-0 sm:order-2">
-          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">
-            <span className="font-dado text-[2.6rem] tabular-nums leading-none">
-              {notaLegivel(nota)}
-            </span>
-            <span className="text-[0.95rem] text-tinta-suave">de 10 na nossa escala</span>
-            {ficha && <SeloTransparencia produto={ficha} className="ml-auto" />}
-          </div>
+          {veredito ? (
+            <>
+              <p className="font-titulo text-[1.3rem] leading-snug sm:text-[1.45rem]">{veredito}</p>
+              <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
+                <span className="text-[0.88rem] text-tinta-suave">
+                  Nota da ficha{" "}
+                  <span className="font-dado text-[1.05rem] tabular-nums text-tinta">{notaLegivel(nota)}</span>
+                  <span className="font-dado tabular-nums">/10</span> · o quanto a marca documenta
+                </span>
+                {ficha && <SeloTransparencia produto={ficha} className="ml-auto" />}
+              </div>
+            </>
+          ) : (
+            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">
+              <span className="font-dado text-[2.6rem] tabular-nums leading-none">
+                {notaLegivel(nota)}
+              </span>
+              <span className="text-[0.95rem] text-tinta-suave">de 10 na nossa escala</span>
+              {ficha && <SeloTransparencia produto={ficha} className="ml-auto" />}
+            </div>
+          )}
 
           <div className="mt-5 grid gap-5 lg:grid-cols-2">
             <div>
@@ -152,8 +169,9 @@ export function VereditoRapido({
       {/* A ressalva que o corpo do texto detalha, em uma linha e antes de
           qualquer botão: é o que separa esta nota de uma nota de quem testou. */}
       <p className="border-t border-linha bg-superficie/60 px-5 py-2.5 text-[0.8rem] text-tinta-suave sm:px-6">
-        Nota pela documentação oficial do fabricante — ninguém aqui usou o
-        produto.{" "}
+        {veredito
+          ? "Avaliação pela ficha oficial do fabricante, campo por campo, comparada com as outras fichas da categoria. "
+          : "Nota pela documentação oficial do fabricante — ninguém aqui usou o produto. "}
         <Link href="/metodologia" className="underline underline-offset-4">
           Como avaliamos
         </Link>

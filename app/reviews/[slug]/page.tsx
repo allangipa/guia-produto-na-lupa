@@ -118,6 +118,7 @@ export default async function PaginaReview({ params }: Params) {
           o cartão de compartilhamento. */}
       <VereditoRapido
         nota={r.nota}
+        veredito={r.veredito}
         para={r.para}
         naoPara={r.naoPara}
         foto={r.produto.imagem ?? fotoDaBase([r.produto.lojas], [r.produto.nome])}
