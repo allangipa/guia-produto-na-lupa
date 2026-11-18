@@ -487,6 +487,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-26",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-26-processador-reel",
+   "titulo": "Reel processador, 5, 7 ou 9 em 1 com o mesmo motor",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-27",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-27-processador-motor-reel",
+   "titulo": "Reel processador, 9 em 1 tem o mesmo motor do 5 em 1",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
