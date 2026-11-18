@@ -68,7 +68,7 @@
     "modelo": "SM-X400",
     "categoria": "tablets",
     "resumo": "O Samsung com S Pen na caixa mais barato: 10,9\" a 90 Hz, 8.000 mAh, carga de 25 W — com carregador de 15 W na caixa. A ficha da Samsung consultada é a da versão 5G; a Amazon vende a Wi-Fi.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-11-17",
     "imagem": {
       "src": "/produtos/samsung-galaxy-tab-s10-lite.webp",
       "alt": "Samsung Galaxy Tab S10 Lite cinza com a S Pen apoiada na tela",
@@ -85,7 +85,7 @@
       "armazenamento": "128 GB, mais microSD até 2 TB",
       "rede": "Só Wi-Fi (versão 5G vendida à parte)",
       "wifi": null,
-      "usb": null,
+      "usb": "USB 2.0",
       "canetaInclusa": true,
       "altoFalantes": null,
       "cameraTraseiraMp": 8,
@@ -110,8 +110,8 @@
         "titulo": "Galaxy Tab S10 Lite 5G — página oficial na Samsung Shop Brasil",
         "url": "https://shop.samsung.com/br/galaxy-tab-s10-lite-5g/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Tela TFT de 10,9\" 2112 × 1320 a 90 Hz, Exynos 1380, 6 GB, 128 GB com microSD até 2 TB, câmeras de 8 e 5 MP, 8.000 mAh, carga rápida de 25 W, S Pen e capa na caixa com carregador de 15 W, Android 15, 254,3 × 165,8 × 6,6 mm, 524 g e 12 meses. Ficha da versão 5G — a Samsung Shop não publica a Wi-Fi separada. Não declara brilho, alto-falantes, USB nem política de atualização.",
-        "consultadaEm": "2026-09-14"
+        "oQueSaiuDaqui": "Tela TFT de 10,9\" 2112 × 1320 a 90 Hz, Exynos 1380, 6 GB, 128 GB com microSD até 2 TB, câmeras de 8 e 5 MP, 8.000 mAh, carga rápida de 25 W, S Pen e capa na caixa com carregador de 15 W, Android 15, 254,3 × 165,8 × 6,6 mm, 524 g e 12 meses. Ficha da versão 5G — a Samsung Shop não publica a Wi-Fi separada. Não declara brilho, alto-falantes nem política de atualização. Na releitura de 17/11/2026, a ficha passou a trazer o campo de versão da porta: USB 2.0.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "amazon-s10-lite",
@@ -192,7 +192,7 @@
     "modelo": "25040RP0AL",
     "categoria": "tablets",
     "resumo": "Tela 2,5K de 11\" a 90 Hz e bateria de 9.000 mAh — a maior da base abaixo do Lenovo Plus. A Xiaomi Brasil não publica o produto no site; a ficha vem da página global. A Amazon anuncia 3 meses de garantia.",
-    "atualizadoEm": "2026-09-14",
+    "atualizadoEm": "2026-11-17",
     "imagem": {
       "src": "/produtos/xiaomi-redmi-pad-2.webp",
       "alt": "Xiaomi Redmi Pad 2 em três cores, vistos de trás, e um de frente com a tela ligada",
@@ -234,8 +234,8 @@
         "titulo": "Redmi Pad 2 — especificações na Xiaomi Global",
         "url": "https://www.mi.com/global/product/redmi-pad-2/specs/",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Tela de 11\" 2560 × 1600 a até 90 Hz, 500 nits (600 no modo externo), Helio G100-Ultra, 4+128, 6+128 e 8+256 GB, microSD até 2 TB, quatro alto-falantes não citados na ficha, câmeras de 8 e 5 MP, 9.000 mAh, carga de 18 W com adaptador de 15 W na caixa, USB 2.0, Wi-Fi 5, Bluetooth 5.3, HyperOS 2, 254,58 × 166,04 × 7,36 mm e 510 g. Página global: a Xiaomi Brasil não lista o Redmi Pad 2. Não declara garantia nem política de atualização.",
-        "consultadaEm": "2026-09-14"
+        "oQueSaiuDaqui": "Tela de 11\" 2560 × 1600 a até 90 Hz, 500 nits (600 no modo externo), Helio G100-Ultra, 4+128, 6+128 e 8+256 GB, microSD até 2 TB, quatro alto-falantes com Dolby Atmos, declarados na página do produto e não na de especificações, câmeras de 8 e 5 MP, 9.000 mAh, carga de 18 W com adaptador de 15 W na caixa, USB 2.0, Wi-Fi 5, Bluetooth 5.3, HyperOS 2, 254,58 × 166,04 × 7,36 mm e 510 g. Página global: a Xiaomi Brasil não lista o Redmi Pad 2. Não declara garantia nem política de atualização.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "amazon-redmi-pad-2",
