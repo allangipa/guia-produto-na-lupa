@@ -447,6 +447,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-19",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-19-parafusadeira-reel",
+   "titulo": "Reel parafusadeira, 48V no nome e 4,8V na ficha",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-20",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-20-parafusadeira-torque-reel",
+   "titulo": "Reel parafusadeira, mesmos 12 V e três vezes a força",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
