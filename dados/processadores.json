@@ -5,16 +5,16 @@
     "marca": "Mondial",
     "modelo": "MPN-01-B",
     "categoria": "processadores",
-    "resumo": "Vendido como \"5 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
-    "atualizadoEm": "2026-09-26",
+    "resumo": "Vendido como \"5 em 1\": o mesmo motor de 1.000 W, as mesmas jarras e os mesmos 3 kg do MPN-01 de 5, 7 e 9 em 1. O que muda é a caixa: aqui vêm três lâminas (picadora, raladora e fatiadora) e o copo do liquidificador com filtro.",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Multiprocessador",
       "potenciaW": 1000,
       "velocidades": 2,
       "funcaoPulsar": null,
-      "pecasNaCaixa": null,
-      "capacidadeJarraL": 3.0,
-      "capacidadeJarraSecundariaL": 3.2,
+      "pecasNaCaixa": 5,
+      "capacidadeJarraL": 3.2,
+      "capacidadeJarraSecundariaL": 3.0,
       "materialLaminas": "Aço inox",
       "materialJarra": "PP e inox",
       "travaSeguranca": null,
@@ -34,7 +34,7 @@
         "fonteAdotada": "mondial-mpn-01-b-oficial",
         "valorDivergente": "\"5 em 1\" no nome do produto",
         "fonteDivergente": "mondial-mpn-01-b-oficial",
-        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho, com os mesmos 1.000 W, as mesmas jarras, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m e os mesmos 3 kg. Em 26/09/2026 nenhuma das fichas listava o conteúdo da embalagem, e o campo de peças ficou vazio. **Na releitura de 17/11/2026, as fichas trazem o campo \"Itens inclusos\"**, e é ele que separa as versões: o 5 em 1 traz lâminas picadora, raladora e fatiadora e o copo de 3,0 L com filtro; o 7 em 1 soma a lâmina palitadora e o espremedor; o 9 em 1 soma a lâmina batedora e o emulsificador. O campo foi preenchido com a contagem de itens, sem o manual. A mesma página diz que a jarra do processador tem 3,2 L, e os campos de capacidade foram corrigidos por isso."
       }
     ],
     "fontes": [
@@ -43,8 +43,8 @@
         "titulo": "Mondial Turbo Chef 5 em 1 MPN-01-B — ficha oficial do fabricante",
         "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-5-em-1-mondial-mpn-01-b/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. Na releitura de 17/11/2026, a ficha traz o campo \"Itens inclusos\": multiprocessador, lâmina picadora, lâmina raladora, lâmina fatiadora e copo de 3,0 L com filtro. A descrição diz que a jarra do processador tem 3,2 L.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "mondial-mpn-01-b-amazon",
@@ -68,16 +68,16 @@
     "marca": "Mondial",
     "modelo": "MPN-01-BE",
     "categoria": "processadores",
-    "resumo": "Vendido como \"7 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
-    "atualizadoEm": "2026-09-26",
+    "resumo": "Vendido como \"7 em 1\": o mesmo motor de 1.000 W, as mesmas jarras e os mesmos 3 kg do MPN-01 de 5, 7 e 9 em 1. O que muda é a caixa: aqui vêm quatro lâminas, o espremedor e o copo do liquidificador com filtro.",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Multiprocessador",
       "potenciaW": 1000,
       "velocidades": 2,
       "funcaoPulsar": null,
-      "pecasNaCaixa": null,
-      "capacidadeJarraL": 3.0,
-      "capacidadeJarraSecundariaL": 3.2,
+      "pecasNaCaixa": 7,
+      "capacidadeJarraL": 3.2,
+      "capacidadeJarraSecundariaL": 3.0,
       "materialLaminas": "Aço inox",
       "materialJarra": "PP e inox",
       "travaSeguranca": null,
@@ -97,7 +97,7 @@
         "fonteAdotada": "mondial-mpn-01-be-oficial",
         "valorDivergente": "\"7 em 1\" no nome do produto",
         "fonteDivergente": "mondial-mpn-01-be-oficial",
-        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho, com os mesmos 1.000 W, as mesmas jarras, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m e os mesmos 3 kg. Em 26/09/2026 nenhuma das fichas listava o conteúdo da embalagem, e o campo de peças ficou vazio. **Na releitura de 17/11/2026, as fichas trazem o campo \"Itens inclusos\"**, e é ele que separa as versões: o 5 em 1 traz lâminas picadora, raladora e fatiadora e o copo de 3,0 L com filtro; o 7 em 1 soma a lâmina palitadora e o espremedor; o 9 em 1 soma a lâmina batedora e o emulsificador. O campo foi preenchido com a contagem de itens, sem o manual. A mesma página diz que a jarra do processador tem 3,2 L, e os campos de capacidade foram corrigidos por isso."
       }
     ],
     "fontes": [
@@ -106,8 +106,8 @@
         "titulo": "Mondial Turbo Chef 7 em 1 MPN-01-BE — ficha oficial do fabricante",
         "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-7-em-1-mondial-mpn-01-be/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. Na releitura de 17/11/2026, a ficha traz o campo \"Itens inclusos\": multiprocessador, lâminas picadora, raladora, palitadora e fatiadora, espremedor e copo de 3,0 L com filtro. A descrição diz que a jarra do processador tem 3,2 L.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "mondial-mpn-01-be-amazon",
@@ -131,16 +131,16 @@
     "marca": "Mondial",
     "modelo": "MPN-01-BF",
     "categoria": "processadores",
-    "resumo": "Vendido como \"9 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
-    "atualizadoEm": "2026-09-26",
+    "resumo": "Vendido como \"9 em 1\": o mesmo motor de 1.000 W, as mesmas jarras e os mesmos 3 kg do MPN-01 de 5, 7 e 9 em 1. O que muda é a caixa: aqui vêm cinco lâminas, o espremedor, o emulsificador e o copo do liquidificador com filtro.",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Multiprocessador",
       "potenciaW": 1000,
       "velocidades": 2,
       "funcaoPulsar": null,
-      "pecasNaCaixa": null,
-      "capacidadeJarraL": 3.0,
-      "capacidadeJarraSecundariaL": 3.2,
+      "pecasNaCaixa": 9,
+      "capacidadeJarraL": 3.2,
+      "capacidadeJarraSecundariaL": 3.0,
       "materialLaminas": "Aço inox",
       "materialJarra": "PP e inox",
       "travaSeguranca": null,
@@ -160,7 +160,7 @@
         "fonteAdotada": "mondial-mpn-01-bf-oficial",
         "valorDivergente": "\"9 em 1\" no nome do produto",
         "fonteDivergente": "mondial-mpn-01-bf-oficial",
-        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho, com os mesmos 1.000 W, as mesmas jarras, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m e os mesmos 3 kg. Em 26/09/2026 nenhuma das fichas listava o conteúdo da embalagem, e o campo de peças ficou vazio. **Na releitura de 17/11/2026, as fichas trazem o campo \"Itens inclusos\"**, e é ele que separa as versões: o 5 em 1 traz lâminas picadora, raladora e fatiadora e o copo de 3,0 L com filtro; o 7 em 1 soma a lâmina palitadora e o espremedor; o 9 em 1 soma a lâmina batedora e o emulsificador. O campo foi preenchido com a contagem de itens, sem o manual. A mesma página diz que a jarra do processador tem 3,2 L, e os campos de capacidade foram corrigidos por isso."
       }
     ],
     "fontes": [
@@ -169,8 +169,8 @@
         "titulo": "Mondial Turbo Chef 9 em 1 MPN-01-BF — ficha oficial do fabricante",
         "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-9-em-1-mondial-mpn-01-bf/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Preto. Na releitura de 17/11/2026, a ficha traz o campo \"Itens inclusos\": multiprocessador, lâminas batedora, picadora, raladora, palitadora e fatiadora, espremedor, emulsificador e copo de 3,0 L com filtro. A descrição diz que a jarra do processador tem 3,2 L.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "mondial-mpn-01-bf-amazon",
@@ -194,16 +194,16 @@
     "marca": "Mondial",
     "modelo": "MPN-01-RF",
     "categoria": "processadores",
-    "resumo": "Vendido como \"9 em 1\", com a mesma ficha do MPN-01 de 5, 7 e 9 em 1 — 1.000 W, jarras de 3 e 3,2 L e duas velocidades. Nenhum campo diz o que muda entre eles.",
-    "atualizadoEm": "2026-09-26",
+    "resumo": "Vendido como \"9 em 1\": o mesmo motor de 1.000 W, as mesmas jarras e os mesmos 3 kg do MPN-01 de 5, 7 e 9 em 1. O que muda é a caixa: aqui vêm cinco lâminas, o espremedor, o emulsificador e o copo do liquidificador com filtro.",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Multiprocessador",
       "potenciaW": 1000,
       "velocidades": 2,
       "funcaoPulsar": null,
-      "pecasNaCaixa": null,
-      "capacidadeJarraL": 3.0,
-      "capacidadeJarraSecundariaL": 3.2,
+      "pecasNaCaixa": 9,
+      "capacidadeJarraL": 3.2,
+      "capacidadeJarraSecundariaL": 3.0,
       "materialLaminas": "Aço inox",
       "materialJarra": "PP e inox",
       "travaSeguranca": null,
@@ -223,7 +223,7 @@
         "fonteAdotada": "mondial-mpn-01-rf-oficial",
         "valorDivergente": "\"9 em 1\" no nome do produto",
         "fonteDivergente": "mondial-mpn-01-rf-oficial",
-        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho. As seis fichas oficiais são **idênticas campo a campo**: os mesmos 1.000 W, as mesmas jarras de 3 L e 3,2 L, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m, os mesmos 3 kg, o mesmo material, a mesma garantia e a mesma frase descrevendo as funções. **Nenhum campo separa o 5 do 9.** Não há lista de conteúdo da embalagem, nem contagem de acessórios, nem nota explicando a diferença — o número existe só no nome do produto, onde ninguém precisa sustentá-lo. O campo de peças na caixa ficou vazio nas seis."
+        "observacao": "A Mondial vende o **MPN-01** como \"5 em 1\", \"7 em 1\" e \"9 em 1\", em preto e em vermelho, com os mesmos 1.000 W, as mesmas jarras, as mesmas duas velocidades com turbo, o mesmo cabo de 1,50 m e os mesmos 3 kg. Em 26/09/2026 nenhuma das fichas listava o conteúdo da embalagem, e o campo de peças ficou vazio. **Na releitura de 17/11/2026, as fichas trazem o campo \"Itens inclusos\"**, e é ele que separa as versões: o 5 em 1 traz lâminas picadora, raladora e fatiadora e o copo de 3,0 L com filtro; o 7 em 1 soma a lâmina palitadora e o espremedor; o 9 em 1 soma a lâmina batedora e o emulsificador. O campo foi preenchido com a contagem de itens, sem o manual. A mesma página diz que a jarra do processador tem 3,2 L, e os campos de capacidade foram corrigidos por isso."
       }
     ],
     "fontes": [
@@ -232,8 +232,8 @@
         "titulo": "Mondial Turbo Chef 9 em 1 MPN-01-RF — ficha oficial do fabricante",
         "url": "https://www.mondial.com.br/multiprocessador-turbo-chef-9-em-1-mondial-mpn-01-rf/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Vermelho. **Não há campo que diga quantas peças acompanham**, e a ficha é idêntica às dos MPN-01 de 5, 7 e 9 em 1.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais função turbo, capacidade \"3L e 3,2L\", lâminas em aço inox, corpo em PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses de garantia. Cor Vermelho. Na releitura de 17/11/2026, a ficha traz o campo \"Itens inclusos\": multiprocessador, lâminas batedora, picadora, raladora, palitadora e fatiadora, espremedor, emulsificador e copo de 3,0 L com filtro. A descrição diz que a jarra do processador tem 3,2 L.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "mondial-mpn-01-rf-amazon",
@@ -257,14 +257,14 @@
     "marca": "Mondial",
     "modelo": "MPN-02-BE",
     "categoria": "processadores",
-    "resumo": "O único Mondial da base que diz o que são as jarras: 2 L a do multiprocessador e 2,1 L a do liquidificador. O irmão MPN-01 traz só \"3L e 3,2L\".",
-    "atualizadoEm": "2026-09-26",
+    "resumo": "Diz no próprio campo de capacidade o que são as jarras: 2 L a do multiprocessador e 2,1 L a do liquidificador. O irmão MPN-01 traz só \"3L e 3,2L\" nesse campo.",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Multiprocessador",
       "potenciaW": 1000,
       "velocidades": 2,
       "funcaoPulsar": null,
-      "pecasNaCaixa": null,
+      "pecasNaCaixa": 5,
       "capacidadeJarraL": 2.0,
       "capacidadeJarraSecundariaL": 2.1,
       "materialLaminas": "Aço inox",
@@ -286,7 +286,7 @@
         "fonteAdotada": "mondial-mpn-02-be-oficial",
         "valorDivergente": "\"3L e 3,2L\" sem rótulo, nas fichas do MPN-01",
         "fonteDivergente": "mondial-mpn-02-be-oficial",
-        "observacao": "Esta ficha escreve **\"2L (Jarra do Multiprocessador) e 2,1L (Jarra do Liquidificador)\"** — diz qual número é de qual recipiente. As seis fichas do irmão MPN-01 escrevem apenas **\"3L e 3,2L\"**, sem dizer qual é qual. São o mesmo campo, na mesma loja, com e sem rótulo. Os números do MPN-01 foram adotados na ordem em que aparecem, seguindo esta ficha como referência. O campo \"Antiaderente\" desta traz um traço, onde as do MPN-01 trazem \"Não se aplica\"."
+        "observacao": "Esta ficha escreve **\"2L (Jarra do Multiprocessador) e 2,1L (Jarra do Liquidificador)\"** — diz qual número é de qual recipiente. As seis fichas do irmão MPN-01 escrevem apenas **\"3L e 3,2L\"**, sem dizer qual é qual. São o mesmo campo, na mesma loja, com e sem rótulo. Na releitura de 17/11/2026, a página do MPN-01 diz em outros pontos que a jarra do processador tem 3,2 L e o copo do liquidificador, 3,0 L, e os valores dele foram corrigidos por isso. O campo \"Antiaderente\" desta traz um traço, onde as do MPN-01 trazem \"Não se aplica\"."
       }
     ],
     "fontes": [
@@ -295,8 +295,8 @@
         "titulo": "Mondial Turbo Chef 3 em 1 MPN-02-BE — ficha oficial do fabricante",
         "url": "https://www.mondial.com.br/multiprocessador-mondial-turbo-chef-3-em-1-1000w-preto/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais turbo, **\"2L (Jarra do Multiprocessador) e 2,1L (Jarra do Liquidificador)\"**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses. O campo \"Antiaderente\" traz um traço. Não declara quantas peças acompanham.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "1.000 W, 2 velocidades mais turbo, **\"2L (Jarra do Multiprocessador) e 2,1L (Jarra do Liquidificador)\"**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 3 kg, 127V/220V e 12 meses. O campo \"Antiaderente\" traz um traço. Na releitura de 17/11/2026, traz o campo \"Itens inclusos\": multiprocessador, jarra do multiprocessador de 2 L, jarra do liquidificador de 2,1 L, faca picadora e espremedor de frutas.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "mondial-mpn-02-be-amazon",
@@ -321,13 +321,13 @@
     "modelo": "MP-16-B",
     "categoria": "processadores",
     "resumo": "Mini processador de 300 W e copo de 500 ml, com função pulsar, guarda-fio e 940 g declarados. Dezoito campos preenchidos.",
-    "atualizadoEm": "2026-09-26",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Mini processador",
       "potenciaW": 300,
       "velocidades": 1,
       "funcaoPulsar": true,
-      "pecasNaCaixa": null,
+      "pecasNaCaixa": 1,
       "capacidadeJarraL": 0.5,
       "capacidadeJarraSecundariaL": null,
       "materialLaminas": "Aço inox",
@@ -349,8 +349,8 @@
         "titulo": "Mondial Mini Turbo Pratic MP-16-B — ficha oficial do fabricante",
         "url": "https://www.mondial.com.br/miniprocessador-mondial-mp-16-b/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "300 W, copo de 500 ml, **1 velocidade mais função pulsar**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 0,940 kg, cor Preto, 127V/220V e 1 ano de garantia. O campo \"Antiaderente\" traz \"Não se aplica\", que é correto para um copo de processador.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "300 W, copo de 500 ml, **1 velocidade mais função pulsar**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 0,940 kg, cor Preto, 127V/220V e 1 ano de garantia. O campo \"Antiaderente\" traz \"Não se aplica\", que é correto para um copo de processador. Na releitura de 17/11/2026, traz o campo \"Itens inclusos\": o mini processador e o manual.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "mondial-mp-16-b-amazon",
@@ -375,13 +375,13 @@
     "modelo": "MP-16-R",
     "categoria": "processadores",
     "resumo": "Mini processador de 300 W e copo de 500 ml, com função pulsar, guarda-fio e 940 g declarados. Dezoito campos preenchidos.",
-    "atualizadoEm": "2026-09-26",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Mini processador",
       "potenciaW": 300,
       "velocidades": 1,
       "funcaoPulsar": true,
-      "pecasNaCaixa": null,
+      "pecasNaCaixa": 1,
       "capacidadeJarraL": 0.5,
       "capacidadeJarraSecundariaL": null,
       "materialLaminas": "Aço inox",
@@ -403,8 +403,8 @@
         "titulo": "Mondial Mini Turbo Pratic MP-16-R — ficha oficial do fabricante",
         "url": "https://www.mondial.com.br/miniprocessador-mondial-mp-16-r/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "300 W, copo de 500 ml, **1 velocidade mais função pulsar**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 0,940 kg, cor Vermelho, 127V/220V e 1 ano de garantia. O campo \"Antiaderente\" traz \"Não se aplica\", que é correto para um copo de processador.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "300 W, copo de 500 ml, **1 velocidade mais função pulsar**, lâminas em aço inox, PP e inox, desmontável, guarda-fio, cabo de 1,50 m, 0,940 kg, cor Vermelho, 127V/220V e 1 ano de garantia. O campo \"Antiaderente\" traz \"Não se aplica\", que é correto para um copo de processador. Na releitura de 17/11/2026, traz o campo \"Itens inclusos\": o mini processador e o manual.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "mondial-mp-16-r-amazon",

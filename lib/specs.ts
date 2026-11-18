@@ -4074,7 +4074,7 @@ export const camposProcessador: Campo[] = [
     tipo: "numero",
     filtro: "faixa",
     ajuda:
-      "Quantos acess\u00f3rios acompanham \u2014 \u00e9 o n\u00famero do \"5 em 1\" e do \"24 fun\u00e7\u00f5es\" do an\u00fancio. S\u00f3 a Arno lista o conte\u00fado da embalagem; as outras tr\u00eas marcas p\u00f5em o n\u00famero no nome e n\u00e3o dizem do que ele \u00e9 feito.",
+      "Quantos acess\u00f3rios acompanham \u2014 \u00e9 o n\u00famero do \"5 em 1\" e do \"24 fun\u00e7\u00f5es\" do an\u00fancio. Arno e Mondial listam o conte\u00fado da embalagem; Philco e Brit\u00e2nia p\u00f5em o n\u00famero no nome e n\u00e3o dizem do que ele \u00e9 feito.",
     contaTransparencia: true,
   },
   {
