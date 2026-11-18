@@ -5,6 +5,8 @@ import Link from "next/link";
 import type { Campo, Produto } from "@/lib/specs";
 import { transparencia } from "@/lib/specs";
 import { CardProduto } from "@/components/card-produto";
+import { DivulgacaoComissao, registrarClique } from "@/components/loja-cta";
+import { lojasDe, linkDaLoja, rotuloCompra } from "@/lib/site";
 
 /**
  * O buscador da categoria.
@@ -61,6 +63,11 @@ export function Buscador({
   });
   const [ordem, setOrdem] = useState<string>("");
   const [selecionados, setSelecionados] = useState<string[]>([]);
+  // Abaixo de `lg` o painel de filtros abre fechado: empilhado e aberto, ele
+  // punha o primeiro produto a 1.144 px do topo (medido em 17/11/2026), e os
+  // concorrentes mostram produto na primeira tela. No desktop o trilho lateral
+  // continua sempre aberto.
+  const [filtrosAbertos, setFiltrosAbertos] = useState(false);
 
   const resultado = useMemo(() => {
     let lista = produtos.filter((p) => {
@@ -141,6 +148,12 @@ export function Buscador({
     Object.values(filtros.faixas).some((v) => v !== null && v !== undefined) ||
     Object.values(filtros.booleanos).some(Boolean);
 
+  const filtrosAtivos =
+    filtros.marcas.length +
+    (filtros.soFichaCompleta ? 1 : 0) +
+    Object.values(filtros.faixas).filter((v) => v !== null && v !== undefined).length +
+    Object.values(filtros.booleanos).filter(Boolean).length;
+
   const chip = (ativo: boolean) =>
     `rounded-full border px-3 py-1 text-[0.85rem] transition-colors ${
       ativo
@@ -153,9 +166,24 @@ export function Buscador({
        ferramenta de busca séria. Empilhado, o filtro empurrava os produtos para
        baixo da dobra, que é onde eles menos servem. */
     <div className="mt-10 grid gap-8 lg:grid-cols-[15.5rem_1fr] lg:items-start">
-      <aside className="painel p-5 lg:sticky lg:top-32">
-        <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h2 className="titulo-ui text-lg">Filtrar</h2>
+      <aside className="painel p-4 lg:sticky lg:top-32 lg:p-5">
+        <div className="flex flex-wrap items-center justify-between gap-3 lg:items-baseline">
+          <h2 className="titulo-ui hidden text-lg lg:block">Filtrar</h2>
+          <button
+            type="button"
+            aria-expanded={filtrosAbertos}
+            aria-controls="filtros-da-categoria"
+            onClick={() => setFiltrosAbertos((a) => !a)}
+            className="titulo-ui flex items-center gap-2 text-[1rem] lg:hidden"
+          >
+            Filtrar
+            {filtrosAtivos > 0 && (
+              <span className="dados rounded-full bg-acao px-2 py-0.5 text-[0.72rem] text-white">
+                {filtrosAtivos}
+              </span>
+            )}
+            <span aria-hidden className="text-tinta-suave">{filtrosAbertos ? "−" : "+"}</span>
+          </button>
           {temFiltro && (
             <button
               type="button"
@@ -167,6 +195,7 @@ export function Buscador({
           )}
         </div>
 
+        <div id="filtros-da-categoria" className={filtrosAbertos ? "" : "hidden lg:block"}>
         <fieldset className="mt-5 border-t border-linha pt-5">
           <legend className="float-left w-full pb-2 text-[0.72rem] uppercase tracking-[0.08em] text-tinta-suave">
             Marca
@@ -265,6 +294,7 @@ export function Buscador({
             </button>
           </div>
         </fieldset>
+        </div>
       </aside>
 
       <div>
@@ -291,10 +321,30 @@ export function Buscador({
         </label>
       </div>
 
+      {/* Uma divulgação para a grade toda, antes do primeiro botão de loja. */}
+      <DivulgacaoComissao plural />
+
       <ul className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {resultado.map((p) => (
           <li key={p.slug} className="flex flex-col gap-2">
             <CardProduto produto={p} campos={campos} />
+            {/* Botão de loja na própria grade, desde 17/11/2026: quem chega à
+                categoria já sabendo o modelo precisava abrir a ficha para
+                comprar. Fora do card pelo mesmo motivo da caixa abaixo. */}
+            {lojasDe(p.lojas ?? {})
+              .slice(0, 1)
+              .map(({ chave, url }) => (
+                <a
+                  key={chave}
+                  href={linkDaLoja(chave, url)}
+                  rel="sponsored nofollow noopener"
+                  target="_blank"
+                  onClick={() => registrarClique(chave, p.nome, "categoria")}
+                  className="botao botao-primario !py-2 text-[0.85rem]"
+                >
+                  {rotuloCompra(chave)}
+                </a>
+              ))}
             {/* Fora do card de propósito: o card inteiro é um link para a
                 ficha, e uma caixa de seleção por baixo dele não receberia
                 clique. */}
