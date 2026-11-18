@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Foto } from "@/components/foto";
 // O `Produto` daqui é o do frontmatter — nome, marca e lojas —, e não a ficha
 // completa de `lib/specs`. São dois tipos com o mesmo nome, e o comparativo
@@ -43,8 +44,15 @@ export function FrenteAFrente({
   return (
     <figure className="mt-8">
       <div className="grid grid-cols-2 gap-3 sm:gap-4">
-        {concorrentes.map((p, i) => (
-          <div key={p.nome} className="cartao overflow-hidden">
+        {concorrentes.map((p, i) => {
+          // O cartão leva à ficha do produto, desde 17/11/2026: tinha cara de
+          // card de loja e não abria nada ao clique (relato do Allan). Sem
+          // ficha na base, continua sendo só a foto.
+          const ficha = fichas?.[i];
+          const Caixa = ficha ? Link : "div";
+          const destino = ficha ? { href: `/produtos/${ficha.slug}` } : {};
+          return (
+          <Caixa key={p.nome} {...(destino as { href: string })} className={`cartao group block overflow-hidden ${ficha ? "transition hover:border-tinta-suave" : ""}`}>
             <div className="flex aspect-[4/3] items-center justify-center bg-superficie p-3">
               <Foto
                 src={fotos[i]!.src}
@@ -58,13 +66,17 @@ export function FrenteAFrente({
               <span className="text-[0.68rem] font-semibold uppercase tracking-[0.07em] text-tinta-suave">
                 {p.marca}
               </span>
-              <p className="mt-0.5 titulo-ui text-[0.9rem] leading-snug">{p.nome}</p>
-              {fichas?.[i] && (
-                <SeloTransparencia produto={fichas[i]!} className="mt-2" />
+              <p className="mt-0.5 titulo-ui text-[0.9rem] leading-snug group-hover:text-acao-forte">{p.nome}</p>
+              {ficha && (
+                <span className="mt-2 flex flex-wrap items-center justify-between gap-2">
+                  <SeloTransparencia produto={ficha} />
+                  <span className="text-[0.75rem] font-medium text-acao-forte">Ver ficha →</span>
+                </span>
               )}
             </div>
-          </div>
-        ))}
+          </Caixa>
+          );
+        })}
       </div>
       <figcaption className="mt-2 text-[0.75rem] text-tinta-suave">
         {creditos.join(" · ")}
