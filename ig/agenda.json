@@ -467,6 +467,26 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-23",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-23-tablet-reel",
+   "titulo": "Tab S10 Lite ou Redmi Pad 2, em 20 segundos",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-25",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-25-tablet-carregador-reel",
+   "titulo": "O tablet aceita 25 W; o carregador da caixa é de 15",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
