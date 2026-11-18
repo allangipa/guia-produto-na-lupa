@@ -13,11 +13,11 @@ import { departamentos } from "@/lib/departamentos";
 import { todosOsProdutos, camposDa, transparencia } from "@/lib/produtos";
 import { aindaNaoSaiu } from "@/lib/specs";
 import { jaNasLojas, destaquesAtuais } from "@/lib/lancamentos";
-import { LOJAS, linkDaLoja, lojasDe } from "@/lib/site";
 import { CardProduto } from "@/components/card-produto";
 import { Icone } from "@/components/icones";
 import { Foto } from "@/components/foto";
 import { CHAMADAS, FOCOS, hrefDoFoco } from "@/lib/simulador";
+import { DESTAQUE_DA_HOME } from "@/lib/destaque-home";
 
 /**
  * A home era a única página sem `canonical` — todas as outras declaram a sua.
@@ -34,11 +34,9 @@ export const metadata: Metadata = {
   // mesmo lugar que a faixa le, entao acompanha sozinha quando o destaque muda
   // — e nao ha arte generica inventada so para preencher o campo.
   openGraph: (() => {
-    const l = destaquesAtuais()[0];
-    const p = l && todosOsProdutos().find((x) => x.slug === l.slugProduto);
-    return p?.imagem
-      ? { images: [{ url: p.imagem.src, alt: p.imagem.alt }] }
-      : {};
+    const g = todosOsGuias().find((x) => x.slug === DESTAQUE_DA_HOME.guia);
+    const foto = g?.escolhas.map((e) => fotoDaBase([e.lojas], [e.produto])).find(Boolean);
+    return foto ? { images: [{ url: foto.src, alt: foto.alt }] } : {};
   })(),
 };
 
@@ -150,11 +148,15 @@ export default function Home() {
   const destaques = destaquesAtuais()
     .map((l) => ({ ...l, produto: produtos.find((p) => p.slug === l.slugProduto) }))
     .filter((l) => l.produto);
-  const heroi = destaques[0];
-  const proximos = destaques.slice(1);
-  // A faixa anunciava "Pre-venda aberta" no dia seguinte a data de loja do
-  // iPhone 18 Pro. A etiqueta agora sai da data, nao de texto fixo.
-  const heroiJaSaiu = heroi ? jaNasLojas(heroi) : false;
+  // O herói é o guia mais procurado (lib/destaque-home.ts), desde 17/11/2026;
+  // os lançamentos da janela descem todos para a faixa própria.
+  const proximos = destaques;
+  const guiaHeroi = guias.find((g) => g.slug === DESTAQUE_DA_HOME.guia);
+  const comparativoHeroi = comparativos.find((c) => c.slug === DESTAQUE_DA_HOME.comparativo);
+  const escolhasHeroi = (guiaHeroi?.escolhas ?? [])
+    .map((e) => ({ ...e, foto: fotoDaBase([e.lojas], [e.produto]) }))
+    .filter((e) => e.foto)
+    .slice(0, 4);
 
   // Marcas que mais publicam a ficha: média das notas, mínimo de dois produtos
   // para não premiar amostra de um. A tabela completa está em /transparencia.
@@ -251,7 +253,7 @@ export default function Home() {
         mais de um lançamento para mostrar aqui, pode ter seta operada pelo
         leitor, desde que a faixa não ande sozinha.
       */}
-      {heroi ? (
+      {guiaHeroi ? (
         <section className="faixa relative mt-5 grid overflow-hidden rounded-[var(--raio-card)] shadow-[var(--sombra-2)] md:grid-cols-[1.25fr_1fr] md:items-center">
           <div
             aria-hidden
@@ -262,76 +264,37 @@ export default function Home() {
             }}
           />
           <div className="relative p-7 md:p-10 lg:p-12">
-            <span className="pastilha !bg-white/10 !text-white">
-              {heroiJaSaiu ? `À venda desde ${heroi.nasLojas}` : heroi.etapa}
-            </span>
-            <h1 className="mt-4 max-w-[16ch] font-titulo text-[2.2rem] leading-[1.02] tracking-tight sm:text-[2.9rem] lg:text-[3.4rem]">
-              {heroi.titulo}
+            <span className="pastilha !bg-white/10 !text-white">{DESTAQUE_DA_HOME.rotulo}</span>
+            <h1 className="mt-4 max-w-[20ch] font-titulo text-[1.9rem] leading-[1.06] tracking-tight sm:text-[2.4rem] lg:text-[2.8rem]">
+              {guiaHeroi.titulo}
             </h1>
             <p className="mt-4 max-w-[52ch] text-[0.98rem] leading-relaxed text-faixa-suave">
-              {heroi.resumo}
+              {guiaHeroi.subtitulo}
             </p>
-            <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-2">
-              {(heroiJaSaiu
-                ? [{ r: "Nas lojas desde", v: heroi.nasLojas }]
-                : [
-                    { r: "Pré-venda", v: heroi.preVenda },
-                    { r: "Nas lojas", v: heroi.nasLojas },
-                  ]
-              ).map((d) => (
-                <div key={d.r}>
-                  <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.08em] text-faixa-suave">{d.r}</dt>
-                  <dd className="dados text-[1.15rem] font-semibold">{d.v}</dd>
-                </div>
-              ))}
-            </dl>
             <div className="mt-6 flex flex-wrap items-center gap-2.5">
-              {/* A loja do herói sai do registro em LOJAS, e não é fixa no
-                  código: o site vai apontar para vários parceiros, e o nome
-                  com a preposição certa vem de lá. Pega a primeira na ordem
-                  declarada. */}
-              {(() => {
-                const loja = lojasDe(heroi.produto!.lojas)[0];
-                if (!loja) return null;
-                const l = LOJAS[loja.chave];
-                return (
-                  <a
-                    href={linkDaLoja(loja.chave, loja.url)}
-                    rel="sponsored nofollow noopener"
-                    target="_blank"
-                    className="botao botao-primario"
-                  >
-                    {heroiJaSaiu ? "Disponível" : "Pré-venda"} {l.preposicao}{" "}
-                    {l.nome} <Icone nome="seta" className="h-4 w-4" />
-                  </a>
-                );
-              })()}
-              <Link href={`/produtos/${heroi.produto!.slug}`} className="botao !border-white/25 !bg-white/10 !text-white hover:!bg-white/15">
-                Ficha completa
+              {/* Sem botão de loja aqui: o verde é do CTA de compra, e este
+                  leva ao guia, onde cada escolha tem o seu. */}
+              <Link href={`/guias/${guiaHeroi.slug}`} className="botao !border-white !bg-white !text-[#14181b] hover:!bg-white/90">
+                Ver o guia <Icone nome="seta" className="h-4 w-4" />
               </Link>
-              {heroi.comparativoSlug && (
-                <Link href={`/comparativos/${heroi.comparativoSlug}`} className="inline-flex items-center gap-1.5 px-2 text-[0.9rem] text-faixa-suave hover:text-white">
-                  <Icone nome="comparar" className="h-4 w-4" /> Ver o comparativo
+              {comparativoHeroi && (
+                <Link href={`/comparativos/${comparativoHeroi.slug}`} className="botao !border-white/25 !bg-white/10 !text-white hover:!bg-white/15">
+                  <Icone nome="comparar" className="h-4 w-4" /> {comparativoHeroi.concorrentes.map((c) => c.nome.replace(/^Electrolux /, "")).join(" × ")}
                 </Link>
               )}
             </div>
             <p className="mt-6 text-[0.72rem] text-faixa-suave">
-              Datas: {heroi.fonte.titulo}, consultado em {dataLegivel(heroi.fonte.consultadaEm)}. Link de afiliado: o site recebe comissão e você paga o mesmo preço.
+              Fichas oficiais dos fabricantes, atualizadas em {dataLegivel(guiaHeroi.atualizadoEm)}. O guia contém links de afiliado: o site recebe comissão e você paga o mesmo preço.
             </p>
           </div>
-          {/* Foto oficial vem em fundo branco; em vez de fingir recorte, ela
-              vira um cartão de produto flutuando sobre a faixa escura. */}
-          <Link href={`/produtos/${heroi.produto!.slug}`} className="relative flex items-center justify-center p-6 md:p-8">
-            <span className="relative flex aspect-[4/3] w-full max-w-[22rem] items-center justify-center overflow-hidden rounded-2xl bg-white p-5 shadow-[0_24px_50px_-12px_rgba(0,0,0,0.6)]">
-              {heroi.produto!.imagem ? (
-                <Foto src={heroi.produto!.imagem.src} alt={heroi.produto!.imagem.alt} tamanhos="(max-width: 640px) 62vw, 312px" prioridade className="h-full w-full object-contain" />
-              ) : (
-                <Icone nome="celular" className="h-24 w-24 text-ausente" />
-              )}
-              {heroi.produto!.imagem && (
-                <span className="absolute bottom-2 right-3 text-[0.62rem] text-[#5d6a73]">{heroi.produto!.imagem.credito}</span>
-              )}
-            </span>
+          {/* As escolhas do guia, com a foto oficial em cartão branco sobre a
+              faixa escura — a mesma solução do herói de lançamento. */}
+          <Link href={`/guias/${guiaHeroi.slug}`} className="relative grid grid-cols-2 gap-3 p-6 md:p-8">
+            {escolhasHeroi.map((e, i) => (
+              <span key={e.produto} className="relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl bg-white p-3 shadow-[0_18px_40px_-12px_rgba(0,0,0,0.6)]">
+                <Foto src={e.foto!.src} alt={e.foto!.alt} tamanhos="(max-width: 640px) 40vw, 170px" prioridade={i === 0} className="h-full w-full object-contain" />
+              </span>
+            ))}
           </Link>
         </section>
       ) : (
@@ -557,7 +520,7 @@ export default function Home() {
 
       {proximos.length > 0 && (
         <section className="mt-12">
-          <TituloSecao antes="Próximos" destaque="lançamentos" href="/categorias/celular" />
+          <TituloSecao antes="Lançamentos" destaque="recentes" href="/categorias/celular" />
           <ul className="mt-5 grid gap-3.5 md:grid-cols-2">
             {proximos.map((l) => (
               <li key={l.slugProduto}>
@@ -568,7 +531,7 @@ export default function Home() {
                   <span className="min-w-0">
                     <span className="pastilha">{l.etapa}</span>
                     <span className="mt-2 block titulo-ui text-[1.1rem]">{l.titulo}</span>
-                    <span className="mt-1 block text-[0.85rem] text-tinta-suave">Nas lojas em <span className="dados">{l.nasLojas}</span> · {l.fonte.titulo}</span>
+                    <span className="mt-1 block text-[0.85rem] text-tinta-suave">{jaNasLojas(l) ? "Nas lojas desde" : "Nas lojas em"} <span className="dados">{l.nasLojas}</span> · {l.fonte.titulo}</span>
                   </span>
                 </Link>
               </li>
