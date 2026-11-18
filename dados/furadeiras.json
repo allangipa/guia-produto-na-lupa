@@ -381,12 +381,12 @@
     "marca": "WAP",
     "categoria": "furadeiras",
     "resumo": "Trinta newton-metro com bateria de 12 volts. É o contraexemplo da categoria: metade da voltagem que as marcas sem ficha anunciam, com torque declarado e conferível.",
-    "atualizadoEm": "2026-09-26",
+    "atualizadoEm": "2026-11-17",
     "specs": {
       "tipo": "Parafusadeira e furadeira de impacto",
       "semFio": true,
       "torqueMaxNm": 30.0,
-      "posicoesTorque": null,
+      "posicoesTorque": 18,
       "potenciaW": null,
       "tensaoBateriaV": 12,
       "capacidadeBateriaMah": 1500,
@@ -419,8 +419,8 @@
         "titulo": "WAP BPFI-12K4 — ficha oficial da WAP",
         "url": "https://loja.wap.ind.br/parafusadeira-e-furadeira-a-bateria-12v-wap-bpfi-12k4-li-ion/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes.",
-        "consultadaEm": "2026-09-26"
+        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes. Na releitura de 17/11/2026, a página traz, no campo de componentes, seletor de torque com 18 níveis na função parafusar; no de bateria, tempo de carregamento de 3 a 5 horas; e, no de garantia, 1 ano para o produto e 6 meses para a bateria.",
+        "consultadaEm": "2026-11-17"
       },
       {
         "id": "wap-bpfi-12k4-amazon",
@@ -534,7 +534,7 @@
         "titulo": "WAP BPF-12V — ficha oficial da WAP",
         "url": "https://loja.wap.ind.br/parafusadeira-e-furadeira-a-bateria-wap-bpf-12v-li-ion/p",
         "tipo": "fabricante",
-        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes.",
+        "oQueSaiuDaqui": "Voltagem, potência elétrica, mandril, número de impactos, torque, perfuração em madeira, aço e concreto, velocidades, rotações, sistema de reversão, função impacto, código WAP, pesos bruto e líquido, garantia, dimensões da caixa e do produto, acessórios e componentes. Na releitura de 17/11/2026, esta página da loja da WAP dá erro 404; os dados acima são os da consulta de 26/09/2026.",
         "consultadaEm": "2026-09-26"
       },
       {
