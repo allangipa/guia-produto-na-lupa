@@ -16,15 +16,28 @@ export type Pergunta = { pergunta: string; resposta: string };
  * emite também o JSON-LD FAQPage (`schemaPerguntas`), que é verdadeiro porque
  * o par pergunta/resposta está visível na página.
  */
-export function Perguntas({ itens }: { itens?: Pergunta[] }) {
+export function Perguntas({
+  itens,
+  titulo = "Perguntas que a ficha responde",
+  intro,
+}: {
+  itens?: Pergunta[];
+  /** No comparativo o título e a introdução são outros (19/11/2026). */
+  titulo?: string;
+  intro?: string;
+}) {
   if (!itens?.length) return null;
   return (
     <section id="perguntas" className="my-10 scroll-mt-24">
-      <h2 className="font-titulo text-xl">Perguntas que a ficha responde</h2>
+      <h2 className="font-titulo text-xl">{titulo}</h2>
       <p className="mt-2 max-w-[62ch] text-[0.95rem] text-tinta-suave">
-        São as perguntas que o Google completa sozinho quando alguém digita o
-        nome da categoria. As respostas saem das fichas oficiais desta base, com
-        os números — e dizem quando a ficha não responde.
+        {intro ?? (
+          <>
+            São as perguntas que o Google completa sozinho quando alguém digita o
+            nome da categoria. As respostas saem das fichas oficiais desta base, com
+            os números — e dizem quando a ficha não responde.
+          </>
+        )}
       </p>
       <div className="mt-6 space-y-6">
         {itens.map((q) => (

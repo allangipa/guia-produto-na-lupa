@@ -215,6 +215,13 @@ export type Comparativo = {
   linhas: { criterio: string; valores: string[] }[];
   vencedores: { perfil: string; produto: string; porque: string }[];
   lacunas: string[];
+  /**
+   * "Perguntas de quem compara os dois", desde 19/11/2026: as dúvidas que
+   * chegam pela busca ("X ou Y", "X é bom?", "X tem tal recurso?"),
+   * respondidas com os números da tabela — ou com "a ficha não informa".
+   * Opcional; quando existe, a página emite FAQPage, como no guia.
+   */
+  perguntas?: { pergunta: string; resposta: string }[];
   fontes: Fonte[];
   /**
    * Arte de capa do comparativo, opcional.
@@ -519,7 +526,13 @@ function verificarPerguntas() {
       if (!q.resposta || q.resposta.length < 80) problemas.push(`guia "${g.slug}": resposta curta demais para "${q.pergunta}"`);
     }
   }
-  if (problemas.length) throw new Error(`Perguntas dos guias: ${problemas.join("; ")}.`);
+  for (const c of todosOsComparativos()) {
+    for (const q of c.perguntas ?? []) {
+      if (!q.pergunta?.trim().endsWith("?")) problemas.push(`comparativo "${c.slug}": pergunta sem "?": "${q.pergunta}"`);
+      if (!q.resposta || q.resposta.length < 80) problemas.push(`comparativo "${c.slug}": resposta curta demais para "${q.pergunta}"`);
+    }
+  }
+  if (problemas.length) throw new Error(`Perguntas: ${problemas.join("; ")}.`);
 }
 verificarPerguntas();
 

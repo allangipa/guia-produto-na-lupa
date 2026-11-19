@@ -551,6 +551,123 @@ anterior deste guia foi lida como "não ter estilo nenhum", e o resultado foi um
 página de filete de 1px sobre fundo branco, que ninguém confunde com publicação —
 confunde com documento sem folha de estilo.
 
+## Diretrizes de conversão e conteúdo (19/11/2026)
+
+Pedido do Allan em 19/11/2026: tratar o site, o canal do YouTube e o Instagram
+como um ecossistema só, com foco em intenção de compra. Esta seção traduz o
+pedido para a arquitetura que já existe. **Onde ela e as "Regras editoriais
+(inegociáveis)" divergirem, valem as regras editoriais**, até o Allan decidir
+os três pontos listados no fim.
+
+### O que o pedido confirma e já era regra
+
+- Base factual só em documentação oficial, certificação e ficha. Nunca primeira
+  pessoa de teste. Autoridade analítica: "segundo a ficha do fabricante", "a
+  marca declara".
+- Sem preço em reais no texto. Divulgação de afiliado em toda página comercial
+  (`components/divulgacao.tsx`, `DivulgacaoComissao`).
+
+### Frente 1 — análises e comparativos (onde cada pedido mora)
+
+| Pedido | No repositório |
+|---|---|
+| Veredito rápido acima da dobra | Comparativo: `vencedores` no frontmatter (renderizado antes da tabela) e a seção `## Resposta rápida`, primeira do corpo, nos 56 comparativos desde 18–19/11/2026. Análise: `veredito:` (`components/veredito.tsx`). Guia: `escolhas`, um pick por perfil. |
+| Tabela comparativa enxuta | `linhas` no frontmatter, `components/tabela-comparativa.tsx`. Só critério que decide compra; sigla sempre explicada. |
+| Especificação traduzida em benefício | No corpo e no `porque` de cada vencedor. O benefício é descrito como o que a tecnologia serve para fazer, atribuído ("a marca declara"), nunca como resultado medido. |
+| Para quem é e para quem não é | Análise: "não compre se você" (regra editorial) e `components/pros-contras.tsx`, contras antes dos prós. Comparativo: os perfis de `vencedores`. |
+| CTA orientado à ação | `components/loja-cta.tsx`. Um CTA por produto por página, no máximo três blocos, sempre depois de uma entrega de valor. |
+| FAQ com schema | `perguntas` no frontmatter emite `FAQPage` (`components/perguntas.tsx`). Guia desde 17/10/2026; **comparativo desde 19/11/2026**, com o título "Perguntas de quem compara os dois", depois das lacunas. Oito comparativos têm perguntas (os mais exibidos no Search Console); os outros 48, não. Análise ainda não tem o campo. |
+
+Formato da `## Resposta rápida`: de dois a três parágrafos curtos, cada um
+começando por "**Vai de <modelo>** se você…", seguido dos números da tabela que
+sustentam a escolha; quando os dois produtos são a mesma máquina, dizer isso na
+primeira linha. Só dado que já está em `linhas` ou em `vencedores`.
+
+`descricao:` dos comparativos, desde 18–19/11/2026: abre com a pergunta da busca
+("X ou Y?") e responde com dois ou três números, dentro de 160 caracteres. O
+build quebra acima disso, e `npx tsc` e `npm run afiliados` **não** pegam: rodar
+`npm run build` até passar de "Collecting page data".
+
+### Frente 2 — calculadoras (o simulador)
+
+- Arquitetura: `lib/simulador-<foco>.ts` (motor), `components/simulador-<foco>.tsx`
+  (questionário), `lib/simulador-paginas.ts` (texto e tabela estáticos),
+  `SLUG_DO_FOCO` e `APELIDOS_DO_SIMULADOR` em `lib/simulador.ts`, página em
+  `/simulador/<slug>`. Especificação e regras em `docs/simulador.md`.
+- No ar: ar-condicionado, air fryer, automação, câmeras, cooktop de indução,
+  nobreak, refil de purificador e Wi-Fi.
+- Fórmula documentada na tela: as três espécies de número de `docs/simulador.md`
+  (do fabricante, regra do simulador, topologia) não se misturam.
+- Resultado orientado à compra: recomendação técnica, de dois a três produtos
+  **da base** compatíveis com o resultado, com `LojaCta`, e link para o guia ou
+  comparativo da categoria (`components/leva-a-ficha.tsx`).
+- **Sem placeholder de link de afiliado.** O link sai de `lojas.amazon` em
+  `dados/*.json` e a tag entra por `lib/site.ts`. Produto sem ficha entra na
+  lista sem link (decisão "opção A", de 28/09/2026).
+
+### Frente 3 — YouTube e Instagram
+
+- O material de cada vídeo mora **fora do repositório**, em
+  `OneDrive\Documentos\Site Guia Produto na Lupa\Videos\AAAA-MM-DD-tema\`
+  (roteiro.json, áudio, mp4, miniatura, legenda, `youtube.txt` e `youtube.md`),
+  e o calendário em `Video piloto\calendario-youtube.md`. O repositório guarda
+  só o que é publicado pelo site: `ig/agenda.json` e `public/ig/<data>-<nome>-reel/`.
+- O pedido fala em `/conteudo-social/<slug>.md` dentro do repositório. **Não
+  criado**: duplicaria a pasta de vídeos, e o repositório é público. Ver ponto 3
+  das decisões pendentes.
+- Cada vídeo longo rende um Short no dia seguinte e uma variação; o mesmo arquivo
+  vira Reel pelo `ig/agenda.json`, às 19h.
+- **Short e Reel nunca só com texto** (decisão do Allan em 17/11/2026): fundo em
+  vídeo de banco (Storyblocks, conta do canal, clipes em `Video piloto\banco\`) e
+  foto do produto. Texto não cobre rosto.
+- CTA duplo no vídeo: links na descrição ("comprando pelo link, você paga o mesmo
+  preço e ajuda a manter o canal") e convite para o comparativo, o guia ou o
+  simulador no site.
+- Antes de narrar, reler a ficha do fabricante. Se o site estiver desatualizado,
+  corrigir a página com uma seção "Correção, em DD/MM/AAAA" antes do vídeo.
+
+### Decisões pendentes — o pedido contradiz regra em vigor
+
+1. **Preço relativo.** O pedido manda usar faixas ("categoria de entrada",
+   "melhor custo-benefício da faixa"). A regra editorial proíbe preço relativo
+   desde 07/11/2026, quando essas expressões saíram de 55 peças. **Em vigor: a
+   proibição.** "Melhor custo-benefício" como rótulo de veredito cai na mesma
+   regra.
+2. **Texto do botão.** O pedido sugere "Ver preço atualizado na Amazon". O
+   Allan decidiu "Comprar na Amazon" em 25/09/2026 (docstring de
+   `components/loja-cta.tsx`). **Em vigor: "Comprar na Amazon".**
+3. **Formato do vídeo e pasta social.** O pedido fala em vídeo de 6 a 10 minutos,
+   carrossel por peça e arquivo em `/conteudo-social/`. O canal publica vídeos de
+   2 a 3 minutos, terças e quintas, com o material no OneDrive. **Em vigor: o
+   formato atual.**
+
+### Registro de 17 a 19/11/2026
+
+- **Search Console, 20/10 a 16/11/2026:** 71 cliques, 9,52 mil impressões, CTR
+  0,7%, posição 11,1. Comparativos: 54 páginas, 42 cliques, 2.208 impressões,
+  1,9%. Fichas: 591 páginas, 29 cliques, 6.025 impressões, 0,5%. Análises, listas,
+  guias e simulador: zero clique. `electrolux-led13-vs-let13` sozinho fez 28
+  cliques; `soundcore-p30i-vs-p20i` teve 432 impressões e nenhum clique.
+- **Os 56 comparativos mudaram em 18–19/11**: `descricao` nova e `## Resposta
+  rápida`. No Soundcore mudaram também `titulo`, `tituloCurto` e `subtitulo`. Os
+  comparativos eram a referência de CTR dos testes de título abertos em 07/11; **a
+  medição do início de dezembro precisa separar antes e depois de 19/11**.
+- **Processadores:** a Mondial passou a publicar "Itens inclusos" nas sete fichas
+  (releitura de 17/11). Guia, comparativo MPN-01, `dados/processadores.json` e as
+  duas páginas da Arno corrigidos. O `tituloCurto` do guia de processadores, que
+  está no grupo de teste de 07/11, mudou junto.
+- **Tablets:** Tab S10 Lite e Redmi Pad 2 relidos em 17/11, com correção datada.
+- **Build quebrado em 18/11** por `descricao` de 177 caracteres no guia de
+  processadores; o site ficou 25 minutos com o texto antigo. Depois de cada push,
+  conferir o run em `api.github.com/repos/allangipa/guia-produto-na-lupa/actions/runs`.
+- **Frase de preço retirada em 19/11:** o guia de processadores dizia "você não
+  paga por mais potência: paga por acessório". Virou "a potência é a mesma nas
+  três versões: o que muda são os acessórios", pela regra de preço relativo.
+- **Perguntas dos comparativos (19/11):** quatro por página, tiradas das buscas
+  reais ("X ou Y", "X é bom?", "X tem tal recurso?"), respondidas só com o que
+  está em `linhas` e `vencedores`. `verificarPerguntas()` cobre guia e
+  comparativo: pergunta termina em "?" e resposta tem 80 caracteres ou mais.
+
 ## Estado atual e próximos passos
 
 - **O conteúdo de demonstração com produtos fictícios já foi apagado.** Tudo

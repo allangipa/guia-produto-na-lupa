@@ -8,7 +8,8 @@ import {
   fotoDaBase,
   produtoDaBase,
 } from "@/lib/conteudo";
-import { JsonLd, schemaComparativo, schemaBreadcrumb } from "@/lib/schema";
+import { JsonLd, schemaComparativo, schemaBreadcrumb, schemaPerguntas } from "@/lib/schema";
+import { Perguntas } from "@/components/perguntas";
 import { tituloSeo, ogImagem } from "@/lib/site";
 import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
@@ -68,6 +69,7 @@ export default async function PaginaComparativo({ params }: Params) {
   return (
     <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <JsonLd data={schemaComparativo(c)} />
+      {c.perguntas?.length ? <JsonLd data={schemaPerguntas(c.perguntas)} /> : null}
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },
@@ -133,6 +135,12 @@ export default async function PaginaComparativo({ params }: Params) {
       <div className="prosa">{content}</div>
 
       <Lacunas itens={c.lacunas} />
+
+      <Perguntas
+        itens={c.perguntas}
+        titulo="Perguntas de quem compara os dois"
+        intro="As dúvidas mais comuns de quem está entre os dois modelos, respondidas com os números das fichas oficiais. Quando a ficha não informa, a resposta diz."
+      />
 
       <LevaAFicha
         produtos={c.concorrentes
