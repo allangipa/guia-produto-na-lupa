@@ -290,6 +290,51 @@ export function schemaBreadcrumb(trilha: { nome: string; url: string }[]) {
   };
 }
 
+/**
+ * WebSite + Organization da home, desde 19/11/2026.
+ *
+ * A home era a única página do site sem dado estruturado nenhum: as internas
+ * citavam a publicação como `publisher`, mas nenhuma página DECLARAVA a
+ * entidade — nome, endereço, logo e perfis — num lugar só. É aqui que o Google
+ * aprende quem é "Guia Produto na Lupa" e liga o site ao Instagram e ao canal.
+ *
+ * Sem `SearchAction`: a busca do site roda no navegador, sobre `busca.json`,
+ * e não existe endereço de resultado para declarar. Sem `aggregateRating` e
+ * sem `offers`, pelas mesmas razões das outras páginas.
+ */
+export function schemaHome() {
+  const raiz = `${site.url}/`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${raiz}#site`,
+        name: site.nome,
+        url: raiz,
+        description: site.descricao,
+        inLanguage: "pt-BR",
+        publisher: { "@id": `${raiz}#organizacao` },
+      },
+      {
+        "@type": "Organization",
+        "@id": `${raiz}#organizacao`,
+        name: site.nome,
+        url: raiz,
+        description: site.editor.resumo,
+        email: site.editor.contato,
+        logo: {
+          "@type": "ImageObject",
+          url: `${site.url}/marca/emblema-1080.png`,
+          width: 1080,
+          height: 1080,
+        },
+        sameAs: Object.values(site.redes),
+      },
+    ],
+  };
+}
+
 export function JsonLd({ data }: { data: object }) {
   return (
     <script

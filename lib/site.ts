@@ -24,6 +24,8 @@ export const site = {
    */
   redes: {
     instagram: "https://www.instagram.com/guiaprodutonalupa/",
+    // Canal do YouTube, no `sameAs` e no rodapé desde 19/11/2026.
+    youtube: "https://www.youtube.com/@guiaprodutonalupa",
   },
   /**
    * ID de Associado da Amazon.com.br, aprovado em 14/09/2026. Não é segredo —

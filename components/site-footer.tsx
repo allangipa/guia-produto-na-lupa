@@ -84,6 +84,7 @@ export function SiteFooter() {
             <li><a href={`mailto:${site.editor.contato}`} className={link}>{site.editor.contato}</a></li>
             {/* `rel="me"` diz que o perfil é da própria publicação. */}
             <li><a href={site.redes.instagram} rel="me noopener" target="_blank" className={link}>Instagram</a></li>
+            <li><a href={site.redes.youtube} rel="me noopener" target="_blank" className={link}>YouTube</a></li>
           </ul>
         </nav>
       </div>

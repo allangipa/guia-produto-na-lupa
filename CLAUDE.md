@@ -657,6 +657,12 @@ build quebra acima disso, e `npx tsc` e `npm run afiliados` **não** pegam: roda
   duas páginas da Arno corrigidos. O `tituloCurto` do guia de processadores, que
   está no grupo de teste de 07/11, mudou junto.
 - **Tablets:** Tab S10 Lite e Redmi Pad 2 relidos em 17/11, com correção datada.
+- **Home com dados estruturados, 19/11:** `schemaHome()` em `lib/schema.tsx`
+  declara `WebSite` e `Organization` (nome, logo, e-mail e perfis). Era a única
+  página sem JSON-LD. O canal do YouTube entrou em `site.redes`, e por isso no
+  `sameAs` de todas as páginas e no rodapé. **O peso da home não é problema:**
+  o HTML tem 666 KB, mas viaja em 46 KB comprimido e responde em 0,1 s; dois
+  terços são a cópia do conteúdo que o Next embute para hidratar a página.
 - **Build quebrado em 18/11** por `descricao` de 177 caracteres no guia de
   processadores; o site ficou 25 minutos com o texto antigo. Depois de cada push,
   conferir o run em `api.github.com/repos/allangipa/guia-produto-na-lupa/actions/runs`.

@@ -18,6 +18,7 @@ import { Icone } from "@/components/icones";
 import { Foto } from "@/components/foto";
 import { CHAMADAS, FOCOS, hrefDoFoco } from "@/lib/simulador";
 import { DESTAQUE_DA_HOME } from "@/lib/destaque-home";
+import { JsonLd, schemaHome } from "@/lib/schema";
 
 /**
  * A home era a única página sem `canonical` — todas as outras declaram a sua.
@@ -245,6 +246,7 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-[var(--largura-ferramenta)] px-5 pb-8">
+      <JsonLd data={schemaHome()} />
       {/*
         Herói escuro no padrão de loja: uma faixa, um produto, uma frase.
         Nada troca sozinho e não há contagem regressiva — o lançamento em
