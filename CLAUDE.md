@@ -576,7 +576,7 @@ os três pontos listados no fim.
 | Especificação traduzida em benefício | No corpo e no `porque` de cada vencedor. O benefício é descrito como o que a tecnologia serve para fazer, atribuído ("a marca declara"), nunca como resultado medido. |
 | Para quem é e para quem não é | Análise: "não compre se você" (regra editorial) e `components/pros-contras.tsx`, contras antes dos prós. Comparativo: os perfis de `vencedores`. |
 | CTA orientado à ação | `components/loja-cta.tsx`. Um CTA por produto por página, no máximo três blocos, sempre depois de uma entrega de valor. |
-| FAQ com schema | `perguntas` no frontmatter emite `FAQPage` (`components/perguntas.tsx`). Guia desde 17/10/2026; **comparativo desde 19/11/2026**, com o título "Perguntas de quem compara os dois", depois das lacunas. Os 56 comparativos têm quatro perguntas cada, desde 19/11/2026. Análise ainda não tem o campo. |
+| FAQ com schema | `perguntas` no frontmatter emite `FAQPage` (`components/perguntas.tsx`). Guia desde 17/10/2026; **comparativo desde 19/11/2026**, com o título "Perguntas de quem compara os dois", depois das lacunas. Os 56 comparativos têm quatro perguntas cada, desde 19/11/2026. **Análise, desde 19/11/2026:** as quatro perguntas ("vale a pena?", "para quem serve?", "quem não deve comprar?", "o que o fabricante não informa?") são montadas de `veredito`, `pros`, `para`, `naoPara` e `lacunas` em `lib/perguntas-analise.ts`, para não haver resposta digitada duas vezes; `perguntas:` no frontmatter soma às quatro. |
 
 Formato da `## Resposta rápida`: de dois a três parágrafos curtos, cada um
 começando por "**Vai de <modelo>** se você…", seguido dos números da tabela que

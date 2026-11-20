@@ -183,6 +183,12 @@ export type Review = {
   contras: string[];
   /** O que o fabricante não informa. A lacuna fica escrita; nunca se preenche com estimativa. */
   lacunas: string[];
+  /**
+   * Perguntas a mais, específicas do produto, desde 19/11/2026. Opcional: as
+   * quatro perguntas de toda análise são montadas do veredito, de `para`, de
+   * `naoPara` e das lacunas em lib/perguntas-analise.ts; o que vier aqui soma.
+   */
+  perguntas?: { pergunta: string; resposta: string }[];
   fontes: Fonte[];
   corpo: string;
 };
@@ -530,6 +536,12 @@ function verificarPerguntas() {
     for (const q of c.perguntas ?? []) {
       if (!q.pergunta?.trim().endsWith("?")) problemas.push(`comparativo "${c.slug}": pergunta sem "?": "${q.pergunta}"`);
       if (!q.resposta || q.resposta.length < 80) problemas.push(`comparativo "${c.slug}": resposta curta demais para "${q.pergunta}"`);
+    }
+  }
+  for (const r of todosOsReviews()) {
+    for (const q of r.perguntas ?? []) {
+      if (!q.pergunta?.trim().endsWith("?")) problemas.push(`análise "${r.slug}": pergunta sem "?": "${q.pergunta}"`);
+      if (!q.resposta || q.resposta.length < 80) problemas.push(`análise "${r.slug}": resposta curta demais para "${q.pergunta}"`);
     }
   }
   if (problemas.length) throw new Error(`Perguntas: ${problemas.join("; ")}.`);

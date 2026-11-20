@@ -18,7 +18,9 @@ import { ProsContras, Lacunas } from "@/components/pros-contras";
 import { LojaCta } from "@/components/loja-cta";
 import { LevaAFicha } from "@/components/leva-a-ficha";
 import { Fontes } from "@/components/fontes";
-import { JsonLd, schemaReview, schemaBreadcrumb } from "@/lib/schema";
+import { JsonLd, schemaReview, schemaBreadcrumb, schemaPerguntas } from "@/lib/schema";
+import { Perguntas } from "@/components/perguntas";
+import { perguntasDaAnalise } from "@/lib/perguntas-analise";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -85,6 +87,7 @@ export default async function PaginaReview({ params }: Params) {
   return (
     <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
       <JsonLd data={schemaReview(r)} />
+      {perguntasDaAnalise(r).length ? <JsonLd data={schemaPerguntas(perguntasDaAnalise(r))} /> : null}
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },
@@ -149,6 +152,12 @@ export default async function PaginaReview({ params }: Params) {
       />
 
       <Lacunas itens={r.lacunas} />
+
+      <Perguntas
+        itens={perguntasDaAnalise(r)}
+        titulo={`Perguntas sobre ${r.produto.nome}`}
+        intro="As dúvidas mais comuns antes da compra, respondidas com o que a documentação oficial declara. O site não testa produtos, e quando a ficha não informa, a resposta diz."
+      />
 
       <LevaAFicha produtos={ficha ? [ficha] : []} />
 
