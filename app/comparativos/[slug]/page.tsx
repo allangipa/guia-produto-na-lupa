@@ -14,7 +14,8 @@ import { tituloSeo, ogImagem } from "@/lib/site";
 import { componentesMdx, opcoesMdx } from "@/components/mdx";
 import { Divulgacao } from "@/components/divulgacao";
 import { Lacunas } from "@/components/pros-contras";
-import { LojaCta } from "@/components/loja-cta";
+import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
+import { lojasDe } from "@/lib/site";
 import { FrenteAFrente } from "@/components/frente-a-frente";
 import { Fontes } from "@/components/fontes";
 import { LevaAFicha } from "@/components/leva-a-ficha";
@@ -60,11 +61,17 @@ export default async function PaginaComparativo({ params }: Params) {
   const c = comparativo(slug);
   if (!c) notFound();
 
-  const { content } = await compileMDX({
-    source: c.corpo,
-    components: componentesMdx,
-    options: opcoesMdx,
-  });
+  // O corpo abre com "## Resposta rápida" (os 56, desde 18/11/2026). Ele é
+  // partido no segundo título para o botão de loja entrar logo depois da
+  // resposta — ver o comentário junto do bloco, mais abaixo. Corpo que não
+  // abrir assim fica inteiro, e a página só tem o bloco do fechamento.
+  const abreComResposta = /^\s*## Resposta rápida/.test(c.corpo);
+  const corte = abreComResposta ? c.corpo.indexOf("\n## ", c.corpo.indexOf("## ") + 3) : -1;
+  const mdx = (source: string) =>
+    compileMDX({ source, components: componentesMdx, options: opcoesMdx });
+  const resposta = corte > 0 ? (await mdx(c.corpo.slice(0, corte))).content : null;
+  const { content } = await mdx(corte > 0 ? c.corpo.slice(corte) : c.corpo);
+  const comLoja = c.concorrentes.filter((p) => lojasDe(p.lojas).length > 0);
 
   return (
     <article className="mx-auto max-w-[var(--largura-prosa)] px-5 py-12">
@@ -131,6 +138,40 @@ export default async function PaginaComparativo({ params }: Params) {
       </section>
 
       <TabelaComparativa produtos={c.concorrentes} linhas={c.linhas} />
+
+      {resposta && (
+        <>
+          <div className="prosa">{resposta}</div>
+          {/*
+            Botão de loja logo depois da resposta, desde 23/11/2026.
+
+            O único bloco de compra do comparativo ficava no fechamento — a
+            6.900 px numa página de 9.300, no LED13 × LET13 —, e a "Resposta
+            rápida" dizia qual levar sem oferecer o botão. O painel da Amazon
+            zerou de 19 a 23/11. Quem já decidiu pela resposta compra aqui; quem
+            quer ler a comparação inteira encontra o mesmo botão no fim.
+
+            É a mesma exceção da análise: o produto aparece duas vezes, depois
+            da resposta e no fechamento. Dois blocos, dentro do teto de três.
+          */}
+          {comLoja.length > 0 && (
+            <aside className="my-8 rounded-xl border border-linha bg-realce px-5 py-4">
+              <p className="text-[0.8rem] font-semibold uppercase tracking-[0.08em] text-tinta-suave">
+                Já decidiu? Onde comprar
+              </p>
+              <div className="mt-1 grid gap-x-5 sm:grid-cols-2">
+                {comLoja.map((p) => (
+                  <div key={p.nome} className="[&>div]:!my-3">
+                    <p className="mt-3 font-medium leading-snug">{p.nome}</p>
+                    <LojaCta lojas={p.lojas} produto={p.nome} posicao="respostaRapida" divulgacao={false} />
+                  </div>
+                ))}
+              </div>
+              <DivulgacaoComissao plural={comLoja.length > 1} />
+            </aside>
+          )}
+        </>
+      )}
 
       <div className="prosa">{content}</div>
 

@@ -325,7 +325,12 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
 - `rel="sponsored nofollow"` em todo link de loja.
 - **Um CTA por produto por página**, e todo CTA depois de uma entrega de valor.
   Exceção declarada: o review repete o mesmo produto duas vezes, depois do
-  veredito e depois dos prós e contras.
+  veredito e depois dos prós e contras. **Segunda exceção, desde 23/11/2026:**
+  o comparativo também repete, logo depois da "Resposta rápida" (posição
+  `respostaRapida`) e no fechamento. Motivo: o único bloco ficava no fim da
+  página e o painel da Amazon zerou de 19 a 23/11. Na mesma data a home ganhou
+  um bloco só, "As escolhas do guia, por perfil", abaixo do herói (posição
+  `home`); ela estava sem link de loja desde a troca do herói em 17/11.
 - **Máximo de três blocos de CTA por página.** Num guia, os botões das escolhas
   contam como **um** bloco: ficam todos juntos em "Onde comprar cada um", depois
   do corpo e das lacunas.

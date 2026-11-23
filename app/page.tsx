@@ -19,6 +19,7 @@ import { Foto } from "@/components/foto";
 import { CHAMADAS, FOCOS, hrefDoFoco } from "@/lib/simulador";
 import { DESTAQUE_DA_HOME } from "@/lib/destaque-home";
 import { JsonLd, schemaHome } from "@/lib/schema";
+import { LojaCta, DivulgacaoComissao } from "@/components/loja-cta";
 
 /**
  * A home era a única página sem `canonical` — todas as outras declaram a sua.
@@ -299,7 +300,32 @@ export default function Home() {
             ))}
           </Link>
         </section>
-      ) : (
+      ) : null}
+      {/*
+        Onde comprar as escolhas do guia em destaque, desde 23/11/2026.
+
+        Em 17/11 o herói trocou o lançamento pelo guia e a home ficou sem link
+        de loja nenhum; o painel da Amazon zerou dois dias depois. O herói
+        continua sem botão verde — ele leva ao guia. O botão mora aqui, logo
+        abaixo, junto do perfil de leitor de cada escolha (a entrega de valor
+        que a regra pede antes do CTA). É o único bloco de compra da home.
+      */}
+      {guiaHeroi && escolhasHeroi.length > 0 ? (
+        <section className="mt-5 rounded-[var(--raio-card)] border border-linha bg-papel p-5 md:p-6">
+          <h2 className="titulo-ui text-[1.1rem]">As escolhas do guia, por perfil</h2>
+          <div className="mt-2 grid gap-x-5 gap-y-1 sm:grid-cols-2 lg:grid-cols-4">
+            {escolhasHeroi.map((e) => (
+              <div key={e.produto} className="flex flex-col [&>div]:!my-3">
+                <p className="mt-3 text-[0.82rem] leading-snug text-tinta-suave">{e.perfil}</p>
+                <p className="mt-1 flex-1 font-medium leading-snug">{e.produto}</p>
+                <LojaCta lojas={e.lojas} produto={e.produto} posicao="home" divulgacao={false} />
+              </div>
+            ))}
+          </div>
+          <DivulgacaoComissao plural />
+        </section>
+      ) : null}
+      {guiaHeroi ? null : (
         /* Sem lançamento na janela, o herói é o simulador: a única coisa do
            site que a concorrência não tem (docs/concorrentes-2026-10-17.md).
            Mesma faixa escura, sem botão de loja — os links levam a ferramenta,
