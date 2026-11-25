@@ -507,6 +507,46 @@
    "estado": "pronto",
    "permalink": null,
    "publicado_em": null
+  },
+  {
+   "data": "2026-12-28",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-28-led13-duvidas-reel",
+   "titulo": "Reel Electrolux LED13, 3 dúvidas antes de comprar",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-29",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-29-crm44mb-duvidas-reel",
+   "titulo": "Reel Consul CRM44MB, 3 dúvidas antes de comprar",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-30",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-30-panasonic-duvidas-reel",
+   "titulo": "Reel Panasonic NA-F150B1T, 3 dúvidas antes de comprar",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
+  },
+  {
+   "data": "2026-12-31",
+   "hora": "19:00",
+   "tipo": "reel",
+   "pasta": "2026-12-31-mpn01b-duvidas-reel",
+   "titulo": "Reel Mondial MPN-01-B, 3 dúvidas antes de comprar",
+   "estado": "pronto",
+   "permalink": null,
+   "publicado_em": null
   }
  ]
 }
