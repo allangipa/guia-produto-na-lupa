@@ -26,6 +26,20 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
+    "perguntas": [
+      {
+        "pergunta": "A geladeira Consul CRM44MB precisa descongelar?",
+        "resposta": "Não. A Consul declara degelo Frost Free na CRM44MB, o sistema que evita a formação de gelo no freezer e dispensa o descongelamento manual."
+      },
+      {
+        "pergunta": "A porta da Consul CRM44MB é reversível?",
+        "resposta": "Não. Na ficha da Consul, o campo de porta reversível da CRM44MB está marcado como \"Não\". Antes de comprar, confira para que lado a porta abre e se isso serve na sua cozinha."
+      },
+      {
+        "pergunta": "A Consul CRM44MB é bivolt?",
+        "resposta": "Não. A Consul vende a CRM44MB em duas versões, uma de 110 V e outra de 220 V. Confira a tensão do anúncio antes de fechar a compra."
+      }
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0FTLJNR7L",
       "mercadolivre": "https://meli.la/2hG5Urp"

@@ -25,6 +25,20 @@
       "registroInmetro": null,
       "garantiaMeses": 12
     },
+    "perguntas": [
+      {
+        "pergunta": "O Mondial MPN-01-B vem com espremedor de laranja?",
+        "resposta": "O espremedor não está na lista de itens da caixa do MPN-01-B (5 em 1). A Mondial lista o multiprocessador, três lâminas (picadora, raladora e fatiadora), o copo de 3 L com filtro e o manual."
+      },
+      {
+        "pergunta": "O multiprocessador Mondial MPN-01-B é bivolt?",
+        "resposta": "Não. A Mondial vende o MPN-01-B em duas versões, uma de 127 V e outra de 220 V. Confira a tensão do anúncio antes de fechar a compra."
+      },
+      {
+        "pergunta": "Qual é a potência do Mondial MPN-01-B?",
+        "resposta": "A Mondial declara 1.000 W de potência, com 2 velocidades e função turbo. A jarra do processador é de 3,2 L e o copo do liquidificador, de 3 L."
+      }
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B0CJJV71ZP",
       "mercadolivre": "https://meli.la/2Cfbtru"

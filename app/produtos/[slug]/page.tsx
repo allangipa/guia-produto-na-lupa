@@ -37,7 +37,8 @@ import { LojaCta } from "@/components/loja-cta";
 import { Divulgacao } from "@/components/divulgacao";
 import { Icone } from "@/components/icones";
 import { PrecoAmazon } from "@/components/preco-amazon";
-import { JsonLd, schemaBreadcrumb, schemaProduto } from "@/lib/schema";
+import { JsonLd, schemaBreadcrumb, schemaProduto, schemaPerguntas } from "@/lib/schema";
+import { Perguntas } from "@/components/perguntas";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -248,6 +249,7 @@ export default async function PaginaProduto({ params }: Params) {
   return (
     <article className="mx-auto max-w-[var(--largura-ferramenta)] px-5 py-6">
       <JsonLd data={schemaProduto(p)} />
+      {p.perguntas?.length ? <JsonLd data={schemaPerguntas(p.perguntas)} /> : null}
       <JsonLd
         data={schemaBreadcrumb([
           { nome: "Início", url: "/" },
@@ -427,6 +429,16 @@ export default async function PaginaProduto({ params }: Params) {
         <section className="painel mt-8 p-6">
           <Relatos itens={p.relatos} />
         </section>
+      ) : null}
+
+      {p.perguntas?.length ? (
+        <div className="painel mt-8 px-6 [&>section]:!my-6">
+          <Perguntas
+            itens={p.perguntas}
+            titulo={`Dúvidas de quem vai comprar ${p.nome}`}
+            intro="São as dúvidas que mais se repetem entre compradores nas lojas. As respostas saem só do que o fabricante declara, com a fonte listada abaixo."
+          />
+        </div>
       ) : null}
 
       <section className="painel mt-8 p-6">

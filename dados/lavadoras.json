@@ -26,6 +26,20 @@
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
+    "perguntas": [
+      {
+        "pergunta": "A Panasonic NA-F150B1T tem agitador no meio do cesto?",
+        "resposta": "Não. A Panasonic declara o Sistema Ciclone de lavagem na NA-F150B1T e descreve o sistema como sem agitador central no cesto."
+      },
+      {
+        "pergunta": "A Panasonic NA-F150B1T lava e seca?",
+        "resposta": "Não. É só lavadora: na ficha da Panasonic, a capacidade de secagem aparece como \"não aplicável\". A centrifugação declarada é de 700 rpm."
+      },
+      {
+        "pergunta": "Dá para programar o horário da lavagem na Panasonic NA-F150B1T?",
+        "resposta": "Não. A ficha da Panasonic informa \"Painel com timer: Não\" para a NA-F150B1T, ou seja, não há agendamento de início nem de término da lavagem."
+      }
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B00DCTI47M",
       "mercadolivre": "https://meli.la/1oEyGZd"
@@ -174,13 +188,13 @@
     "modelo": "LED13",
     "categoria": "lavadoras",
     "resumo": "Treze quilos e 150 litros. Mais água por quilo de roupa que a de 15 kg da mesma linha.",
-    "atualizadoEm": "2026-09-18",
+    "atualizadoEm": "2026-11-25",
     "specs": {
       "tipo": "Carga superior",
       "capacidadeKg": 13,
       "consumoAguaL": 150,
       "consumoEnergiaKwh": 0.4,
-      "classificacaoEnergetica": null,
+      "classificacaoEnergetica": "A",
       "rotacaoRpm": 630,
       "eficienciaCentrifugacao": "A",
       "programas": 11,
@@ -188,12 +202,26 @@
       "reaproveitamentoAgua": true,
       "filtroFiapos": true,
       "painel": "Mecânico",
-      "tensao": null,
+      "tensao": "127 V ou 220 V",
       "pesoKg": 40,
       "dimensoesMm": "595 × 1055 × 665",
       "garantiaMeses": 12
     },
     "naoSeAplica": [],
+    "perguntas": [
+      {
+        "pergunta": "A Electrolux LED13 é bivolt?",
+        "resposta": "Não. A Electrolux vende a LED13 em duas versões, uma de 127 V e outra de 220 V, com códigos diferentes. Confira a tensão do anúncio antes de fechar a compra: uma loja pode ter só uma delas."
+      },
+      {
+        "pergunta": "A Electrolux LED13 lava edredom?",
+        "resposta": "A Electrolux declara que a LED13 lava edredom de casal e traz um programa chamado Edredom entre os 11 do seletor. A ficha consultada não traz peso máximo do edredom."
+      },
+      {
+        "pergunta": "Dá para só centrifugar na Electrolux LED13?",
+        "resposta": "Dá. Na ficha da Electrolux, a centrifugação aparece como etapa de lavagem separada, ao lado de molho e enxágue, e o painel tem um seletor de etapas."
+      }
+    ],
     "lojas": {
       "amazon": "https://www.amazon.com.br/dp/B09B7X4JSZ",
       "mercadolivre": "https://meli.la/22eg7gR"
@@ -205,7 +233,7 @@
         "url": "https://loja.electrolux.com.br/maquina-de-lavar-13kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter--led13-/p",
         "tipo": "fabricante",
         "oQueSaiuDaqui": "Capacidade de lavagem de 13 kg, consumo de água de 150 L/ciclo, consumo de energia de 0,4 kWh/ciclo, centrifugação de 630 rpm com eficiência A, 11 programas, cesto de inox, reaproveitamento de água, filtro elimina fiapos, painel mecânico, 59,5 × 105,5 × 66,5 cm, 40 kg e garantia de 1 ano. A Electrolux publica consumo de água e de energia por ciclo, rotação e eficiência de centrifugação, número de programas, material do cesto, painel, filtro de fiapos, reaproveitamento de água, medidas, peso do produto e da embalagem separados e garantia. **Não publica a classificação energética do Inmetro** em nenhum modelo.",
-        "consultadaEm": "2026-09-18"
+        "consultadaEm": "2026-11-25"
       },
       {
         "id": "amazon-B09B7X4JSZ",

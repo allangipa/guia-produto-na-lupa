@@ -128,6 +128,14 @@ export type Produto = {
   divergencias?: Divergencia[];
   relatos?: Relato[];
   /**
+   * "Dúvidas de quem vai comprar", desde 25/11/2026. As PERGUNTAS saem das
+   * dúvidas mais repetidas pelos compradores nos anúncios das lojas (Mercado
+   * Livre), reescritas; as RESPOSTAS saem só da página do fabricante. Resposta
+   * de vendedor não é fonte: vale só para aquele anúncio e às vezes está errada.
+   * São as mesmas dúvidas dos Shorts "3 dúvidas antes de comprar".
+   */
+  perguntas?: { pergunta: string; resposta: string }[];
+  /**
    * Campos que não se aplicam a este produto, pela natureza dele — não que o
    * fabricante tenha deixado de informar.
    *

@@ -544,6 +544,12 @@ function verificarPerguntas() {
       if (!q.resposta || q.resposta.length < 80) problemas.push(`análise "${r.slug}": resposta curta demais para "${q.pergunta}"`);
     }
   }
+  for (const p of todosOsProdutos()) {
+    for (const q of p.perguntas ?? []) {
+      if (!q.pergunta?.trim().endsWith("?")) problemas.push(`produto "${p.slug}": pergunta sem "?": "${q.pergunta}"`);
+      if (!q.resposta || q.resposta.length < 80) problemas.push(`produto "${p.slug}": resposta curta demais para "${q.pergunta}"`);
+    }
+  }
   if (problemas.length) throw new Error(`Perguntas: ${problemas.join("; ")}.`);
 }
 verificarPerguntas();
