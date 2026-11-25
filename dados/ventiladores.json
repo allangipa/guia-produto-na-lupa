@@ -27,7 +27,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BTQXKGPK"
+      "amazon": "https://www.amazon.com.br/dp/B0BTQXKGPK",
+      "mercadolivre": "https://meli.la/1hN1cVg"
     },
     "fontes": [
       {
@@ -82,7 +83,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BTQLQ39G"
+      "amazon": "https://www.amazon.com.br/dp/B0BTQLQ39G",
+      "mercadolivre": "https://meli.la/2159w9W"
     },
     "fontes": [
       {
@@ -137,7 +139,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BT4X3MJR"
+      "amazon": "https://www.amazon.com.br/dp/B0BT4X3MJR",
+      "mercadolivre": "https://meli.la/1HWVcU9"
     },
     "fontes": [
       {
@@ -192,7 +195,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F8YBV4NM"
+      "amazon": "https://www.amazon.com.br/dp/B0F8YBV4NM",
+      "mercadolivre": "https://meli.la/2JWoEMa"
     },
     "fontes": [
       {
@@ -435,7 +439,8 @@
       "alturaAjustavel"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0FPYSTF2V"
+      "amazon": "https://www.amazon.com.br/dp/B0FPYSTF2V",
+      "mercadolivre": "https://meli.la/1Tyec2v"
     },
     "fontes": [
       {

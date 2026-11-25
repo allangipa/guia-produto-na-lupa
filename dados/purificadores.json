@@ -29,7 +29,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B076HT9V42"
+      "amazon": "https://www.amazon.com.br/dp/B076HT9V42",
+      "mercadolivre": "https://meli.la/1ZMNHri"
     },
     "imagem": {
       "src": "/produtos/electrolux-pe11b.webp",
@@ -175,7 +176,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CZMDNQ4X"
+      "amazon": "https://www.amazon.com.br/dp/B0CZMDNQ4X",
+      "mercadolivre": "https://meli.la/2ib6485"
     },
     "imagem": {
       "src": "/produtos/electrolux-pc01x.webp",
@@ -376,7 +378,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09SQ97QT7"
+      "amazon": "https://www.amazon.com.br/dp/B09SQ97QT7",
+      "mercadolivre": "https://meli.la/1Gsi3sy"
     },
     "imagem": {
       "src": "/produtos/consul-cpb33ab.webp",
@@ -696,7 +699,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0FPGHYHH5"
+      "amazon": "https://www.amazon.com.br/dp/B0FPGHYHH5",
+      "mercadolivre": "https://meli.la/2j54V1W"
     },
     "imagem": {
       "src": "/produtos/midea-slimpure.webp",

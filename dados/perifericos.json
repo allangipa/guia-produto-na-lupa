@@ -967,7 +967,8 @@
       "alcanceM"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B075VFWDD4"
+      "amazon": "https://www.amazon.com.br/dp/B075VFWDD4",
+      "mercadolivre": "https://meli.la/1GhpgY8"
     },
     "fontes": [
       {

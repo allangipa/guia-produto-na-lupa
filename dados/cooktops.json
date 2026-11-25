@@ -25,7 +25,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0GTRTZHTY"
+      "amazon": "https://www.amazon.com.br/dp/B0GTRTZHTY",
+      "mercadolivre": "https://meli.la/29wDZwn"
     },
     "imagem": {
       "src": "/produtos/electrolux-ie4tw.webp",
@@ -382,7 +383,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DF8Q9WX4"
+      "amazon": "https://www.amazon.com.br/dp/B0DF8Q9WX4",
+      "mercadolivre": "https://meli.la/2Unwn77"
     },
     "imagem": {
       "src": "/produtos/dako-diplomata-4.webp",
@@ -479,7 +481,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0D8QFDZ1F"
+      "amazon": "https://www.amazon.com.br/dp/B0D8QFDZ1F",
+      "mercadolivre": "https://meli.la/2cT8k4G"
     },
     "imagem": {
       "src": "/produtos/dako-select-5.webp",

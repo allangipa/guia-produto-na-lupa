@@ -1345,7 +1345,8 @@
       "capacidadeTigelaExtraL"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09JR3VLSQ"
+      "amazon": "https://www.amazon.com.br/dp/B09JR3VLSQ",
+      "mercadolivre": "https://meli.la/2nL9gLJ"
     },
     "fontes": [
       {

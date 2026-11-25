@@ -29,7 +29,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0C833WFZH"
+      "amazon": "https://www.amazon.com.br/dp/B0C833WFZH",
+      "mercadolivre": "https://meli.la/2KW8Rk7"
     },
     "fontes": [
       {
@@ -86,7 +87,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0C81TQT1S"
+      "amazon": "https://www.amazon.com.br/dp/B0C81TQT1S",
+      "mercadolivre": "https://meli.la/2zjHcrg"
     },
     "fontes": [
       {
@@ -200,7 +202,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0FTYQQ9N2"
+      "amazon": "https://www.amazon.com.br/dp/B0FTYQQ9N2",
+      "mercadolivre": "https://meli.la/1qbesfh"
     },
     "fontes": [
       {
@@ -494,7 +497,8 @@
       "spray"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DS6DGGNP"
+      "amazon": "https://www.amazon.com.br/dp/B0DS6DGGNP",
+      "mercadolivre": "https://meli.la/2mPFu7C"
     },
     "fontes": [
       {

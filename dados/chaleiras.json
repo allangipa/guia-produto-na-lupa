@@ -422,7 +422,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B07K2D5F8Q"
+      "amazon": "https://www.amazon.com.br/dp/B07K2D5F8Q",
+      "mercadolivre": "https://meli.la/1hJ73qu"
     },
     "fontes": [
       {

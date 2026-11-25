@@ -100,7 +100,8 @@
       "potenciaW"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B077VW15YL"
+      "amazon": "https://www.amazon.com.br/dp/B077VW15YL",
+      "mercadolivre": "https://meli.la/2xx1FB6"
     },
     "imagem": {
       "src": "/produtos/mondial-fpf-06m.webp",
@@ -349,7 +350,8 @@
       "capacidadeBateriaMah"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CYCJ66Y8"
+      "amazon": "https://www.amazon.com.br/dp/B0CYCJ66Y8",
+      "mercadolivre": "https://meli.la/11g2UME"
     },
     "imagem": {
       "src": "/produtos/wap-wf-700k10.webp",
@@ -464,7 +466,8 @@
       "capacidadeBateriaMah"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0B9QDHT6G"
+      "amazon": "https://www.amazon.com.br/dp/B0B9QDHT6G",
+      "mercadolivre": "https://meli.la/33atgzr"
     },
     "imagem": {
       "src": "/produtos/wap-efpi-1000.webp",
@@ -579,7 +582,8 @@
       "capacidadeBateriaMah"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0C51C4ZTZ"
+      "amazon": "https://www.amazon.com.br/dp/B0C51C4ZTZ",
+      "mercadolivre": "https://meli.la/1z53vWS"
     },
     "imagem": {
       "src": "/produtos/bosch-gsb-13-re.webp",

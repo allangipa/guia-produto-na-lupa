@@ -427,7 +427,8 @@
       "horasTotal"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F5BQGVJM"
+      "amazon": "https://www.amazon.com.br/dp/B0F5BQGVJM",
+      "mercadolivre": "https://meli.la/2az9ZGG"
     },
     "fontes": [
       {
