@@ -315,7 +315,7 @@ export default function Home() {
           <h2 className="titulo-ui text-[1.1rem]">As escolhas do guia, por perfil</h2>
           <div className="mt-2 grid gap-x-5 gap-y-1 sm:grid-cols-2 lg:grid-cols-4">
             {escolhasHeroi.map((e) => (
-              <div key={e.produto} className="flex flex-col [&>div]:!my-3">
+              <div key={e.produto} className="flex flex-col [&>div]:!my-3 [&>div>div]:!flex-col">
                 <p className="mt-3 text-[0.82rem] leading-snug text-tinta-suave">{e.perfil}</p>
                 <p className="mt-1 flex-1 font-medium leading-snug">{e.produto}</p>
                 <LojaCta lojas={e.lojas} produto={e.produto} posicao="home" divulgacao={false} />

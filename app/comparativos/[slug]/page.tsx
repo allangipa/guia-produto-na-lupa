@@ -161,7 +161,7 @@ export default async function PaginaComparativo({ params }: Params) {
               </p>
               <div className="mt-1 grid gap-x-5 sm:grid-cols-2">
                 {comLoja.map((p) => (
-                  <div key={p.nome} className="[&>div]:!my-3">
+                  <div key={p.nome} className="[&>div]:!my-3 [&>div>div]:!flex-col">
                     <p className="mt-3 font-medium leading-snug">{p.nome}</p>
                     <LojaCta lojas={p.lojas} produto={p.nome} posicao="respostaRapida" divulgacao={false} />
                   </div>

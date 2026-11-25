@@ -1927,8 +1927,17 @@ build quebra acima disso, e `npx tsc` e `npm run afiliados` **não** pegam: roda
   fica entre 2,0 e 3,0 — o Soundcore P30i tinha 4,5 e desceu para 2,5 no
   mesmo dia. Antes de escrever "nenhum fabricante declara garantia", procurar
   a página de termos da marca.
-- Confirmar no painel do Mercado Livre a janela de cookie vigente: as fontes
-  públicas se contradizem (24 h e 30 dias).
+- **Mercado Livre, desde 24/11/2026.** Os termos do programa
+  (mercadolivre.com.br/ajuda/30228, lidos em 24/11/2026) dizem: a compra tem de
+  ser fechada em **24 horas** depois do clique; o link não pode ser encurtado
+  nem alterado e precisa deixar claro que leva ao Mercado Livre; venda vinda de
+  site que não foi informado como "Mídia" no cadastro não é paga (o Allan
+  confirmou em 24/11 que o site foi informado). O link é o `meli.la` que a barra
+  de afiliados entrega, etiqueta `allangipa2008`, e entra em `lojas.mercadolivre`
+  sem mudança nenhuma. Primeiro lote: seis lavadoras (LED13, LET13, Panasonic
+  NA-F150B1T, LED17, LES11, Brastemp BWJ14AB). No anúncio do Mercado Livre a
+  LED13 só aparece em 220 V e a LET13 só em 127 V. Conferência de 228 produtos
+  de comparativos e guias em 24/11: 180 têm página de catálogo com o modelo.
 
 ## AdSense
 
