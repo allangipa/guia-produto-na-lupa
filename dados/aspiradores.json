@@ -678,7 +678,8 @@
       "autonomiaMin"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DZR84Z5X"
+      "amazon": "https://www.amazon.com.br/dp/B0DZR84Z5X",
+      "mercadolivre": "https://meli.la/33sTTky"
     },
     "fontes": [
       {
@@ -794,7 +795,8 @@
       "autonomiaMin"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B088MVWBM9"
+      "amazon": "https://www.amazon.com.br/dp/B088MVWBM9",
+      "mercadolivre": "https://meli.la/1ayJERs"
     },
     "fontes": [
       {
@@ -852,7 +854,8 @@
       "autonomiaMin"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F3YQN2RM"
+      "amazon": "https://www.amazon.com.br/dp/B0F3YQN2RM",
+      "mercadolivre": "https://meli.la/2gUtPfH"
     },
     "fontes": [
       {
@@ -910,7 +913,8 @@
       "autonomiaMin"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B088MVFPZN"
+      "amazon": "https://www.amazon.com.br/dp/B088MVFPZN",
+      "mercadolivre": "https://meli.la/1p8dJQN"
     },
     "fontes": [
       {
@@ -968,7 +972,8 @@
       "autonomiaMin"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B07JFTS6BS"
+      "amazon": "https://www.amazon.com.br/dp/B07JFTS6BS",
+      "mercadolivre": "https://meli.la/2NmsGtz"
     },
     "imagem": {
       "src": "/produtos/mondial-ap-36.webp",
@@ -1026,7 +1031,8 @@
       "autonomiaMin"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DPKZK1FC"
+      "amazon": "https://www.amazon.com.br/dp/B0DPKZK1FC",
+      "mercadolivre": "https://meli.la/25QTpVV"
     },
     "imagem": {
       "src": "/produtos/mondial-ap-41-gi.webp",
@@ -1085,7 +1091,8 @@
       "capacidadeUtilLiquidosL"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0D9PM7MDP"
+      "amazon": "https://www.amazon.com.br/dp/B0D9PM7MDP",
+      "mercadolivre": "https://meli.la/348BvAV"
     },
     "imagem": {
       "src": "/produtos/britania-bas30.webp",
@@ -1153,7 +1160,8 @@
       "capacidadeUtilLiquidosL"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CBSZ6YXZ"
+      "amazon": "https://www.amazon.com.br/dp/B0CBSZ6YXZ",
+      "mercadolivre": "https://meli.la/27xXhDR"
     },
     "imagem": {
       "src": "/produtos/britania-bas1295p.webp",
@@ -1275,7 +1283,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0B7KK3KM2"
+      "amazon": "https://www.amazon.com.br/dp/B0B7KK3KM2",
+      "mercadolivre": "https://meli.la/1yj1cgb"
     },
     "imagem": {
       "src": "/produtos/electrolux-erg25b.webp",

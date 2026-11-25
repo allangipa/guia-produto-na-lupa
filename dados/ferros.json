@@ -145,7 +145,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B08JX7TD4L"
+      "amazon": "https://www.amazon.com.br/dp/B08JX7TD4L",
+      "mercadolivre": "https://meli.la/2p9u8pW"
     },
     "fontes": [
       {
@@ -374,7 +375,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B07SRYMN8P"
+      "amazon": "https://www.amazon.com.br/dp/B07SRYMN8P",
+      "mercadolivre": "https://meli.la/2aUCPzV"
     },
     "fontes": [
       {
@@ -555,7 +557,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BX6X5WMW"
+      "amazon": "https://www.amazon.com.br/dp/B0BX6X5WMW",
+      "mercadolivre": "https://meli.la/1RjNrCm"
     },
     "fontes": [
       {
@@ -612,7 +615,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F1V5B1SP"
+      "amazon": "https://www.amazon.com.br/dp/B0F1V5B1SP",
+      "mercadolivre": "https://meli.la/2EAXP45"
     },
     "fontes": [
       {
@@ -685,7 +689,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BX6W6V32"
+      "amazon": "https://www.amazon.com.br/dp/B0BX6W6V32",
+      "mercadolivre": "https://meli.la/15CAkqf"
     },
     "fontes": [
       {
@@ -742,7 +747,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CCJXMYSR"
+      "amazon": "https://www.amazon.com.br/dp/B0CCJXMYSR",
+      "mercadolivre": "https://meli.la/2aFS5Vm"
     },
     "fontes": [
       {
@@ -808,7 +814,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0778VYHBT"
+      "amazon": "https://www.amazon.com.br/dp/B0778VYHBT",
+      "mercadolivre": "https://meli.la/1D7bnjw"
     },
     "fontes": [
       {
@@ -865,7 +872,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B076X72MJP"
+      "amazon": "https://www.amazon.com.br/dp/B076X72MJP",
+      "mercadolivre": "https://meli.la/2ZTz4Xd"
     },
     "fontes": [
       {
@@ -979,7 +987,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09LNKQYND"
+      "amazon": "https://www.amazon.com.br/dp/B09LNKQYND",
+      "mercadolivre": "https://meli.la/1ofo6dK"
     },
     "fontes": [
       {
@@ -1168,7 +1177,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0FSG7J2GN"
+      "amazon": "https://www.amazon.com.br/dp/B0FSG7J2GN",
+      "mercadolivre": "https://meli.la/1vUk3cf"
     },
     "fontes": [
       {
@@ -1225,7 +1235,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F643K92J"
+      "amazon": "https://www.amazon.com.br/dp/B0F643K92J",
+      "mercadolivre": "https://meli.la/2zP4HzU"
     },
     "fontes": [
       {
@@ -1282,7 +1293,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DXNB311Z"
+      "amazon": "https://www.amazon.com.br/dp/B0DXNB311Z",
+      "mercadolivre": "https://meli.la/24M9Sha"
     },
     "fontes": [
       {
@@ -1411,7 +1423,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09GHL35B3"
+      "amazon": "https://www.amazon.com.br/dp/B09GHL35B3",
+      "mercadolivre": "https://meli.la/12AQrYb"
     },
     "imagem": {
       "src": "/produtos/philips-walita-dst5040.webp",

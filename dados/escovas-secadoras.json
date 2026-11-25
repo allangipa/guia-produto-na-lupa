@@ -90,7 +90,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BJH7DBPK"
+      "amazon": "https://www.amazon.com.br/dp/B0BJH7DBPK",
+      "mercadolivre": "https://meli.la/1Jh2X9a"
     },
     "fontes": [
       {
@@ -153,7 +154,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0C8BVGCSM"
+      "amazon": "https://www.amazon.com.br/dp/B0C8BVGCSM",
+      "mercadolivre": "https://meli.la/27m9nsc"
     },
     "fontes": [
       {
@@ -262,7 +264,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09YDR4C89"
+      "amazon": "https://www.amazon.com.br/dp/B09YDR4C89",
+      "mercadolivre": "https://meli.la/1bGV5P4"
     },
     "divergencias": [
       {
@@ -325,7 +328,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DHT7J1ZM"
+      "amazon": "https://www.amazon.com.br/dp/B0DHT7J1ZM",
+      "mercadolivre": "https://meli.la/2dibcXF"
     },
     "divergencias": [
       {
@@ -388,7 +392,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DHT38G68"
+      "amazon": "https://www.amazon.com.br/dp/B0DHT38G68",
+      "mercadolivre": "https://meli.la/327MYVP"
     },
     "divergencias": [
       {
@@ -515,7 +520,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BZLJLQ58"
+      "amazon": "https://www.amazon.com.br/dp/B0BZLJLQ58",
+      "mercadolivre": "https://meli.la/2XyYwyT"
     },
     "fontes": [
       {
@@ -569,7 +575,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CBL5VXTB"
+      "amazon": "https://www.amazon.com.br/dp/B0CBL5VXTB",
+      "mercadolivre": "https://meli.la/2DFLHvw"
     },
     "fontes": [
       {
@@ -623,7 +630,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CWLMPX1P"
+      "amazon": "https://www.amazon.com.br/dp/B0CWLMPX1P",
+      "mercadolivre": "https://meli.la/1fBud1x"
     },
     "fontes": [
       {
@@ -677,7 +685,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0DXMZB5GB"
+      "amazon": "https://www.amazon.com.br/dp/B0DXMZB5GB",
+      "mercadolivre": "https://meli.la/21h5R16"
     },
     "fontes": [
       {
@@ -794,7 +803,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0C7N2B3PP"
+      "amazon": "https://www.amazon.com.br/dp/B0C7N2B3PP",
+      "mercadolivre": "https://meli.la/2gympGC"
     },
     "divergencias": [
       {
@@ -857,7 +867,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CFMB9TB3"
+      "amazon": "https://www.amazon.com.br/dp/B0CFMB9TB3",
+      "mercadolivre": "https://meli.la/1c3W6GY"
     },
     "fontes": [
       {
@@ -911,7 +922,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0FSFYHZ7R"
+      "amazon": "https://www.amazon.com.br/dp/B0FSFYHZ7R",
+      "mercadolivre": "https://meli.la/1PWVY8A"
     },
     "fontes": [
       {
@@ -965,7 +977,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F63SK1LJ"
+      "amazon": "https://www.amazon.com.br/dp/B0F63SK1LJ",
+      "mercadolivre": "https://meli.la/1RLZTH7"
     },
     "fontes": [
       {
@@ -1019,7 +1032,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F63SJMJM"
+      "amazon": "https://www.amazon.com.br/dp/B0F63SJMJM",
+      "mercadolivre": "https://meli.la/2kEbVj7"
     },
     "fontes": [
       {
@@ -1073,7 +1087,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0C512S3FC"
+      "amazon": "https://www.amazon.com.br/dp/B0C512S3FC",
+      "mercadolivre": "https://meli.la/2eZ46v7"
     },
     "fontes": [
       {
@@ -1127,7 +1142,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F63SVC3T"
+      "amazon": "https://www.amazon.com.br/dp/B0F63SVC3T",
+      "mercadolivre": "https://meli.la/2q4bFak"
     },
     "fontes": [
       {
@@ -1245,7 +1261,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B08L6ZW2FT"
+      "amazon": "https://www.amazon.com.br/dp/B08L6ZW2FT",
+      "mercadolivre": "https://meli.la/2TDDqiP"
     },
     "fontes": [
       {
@@ -1436,7 +1453,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0G82SK3DJ"
+      "amazon": "https://www.amazon.com.br/dp/B0G82SK3DJ",
+      "mercadolivre": "https://meli.la/13F4JZK"
     },
     "divergencias": [
       {
@@ -1499,7 +1517,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0D1GJJRFW"
+      "amazon": "https://www.amazon.com.br/dp/B0D1GJJRFW",
+      "mercadolivre": "https://meli.la/1RRc1M8"
     },
     "divergencias": [
       {
