@@ -388,7 +388,8 @@
    "autonomia"
   ],
   "lojas": {
-   "amazon": "https://www.amazon.com.br/dp/B0DSQP5BQW"
+   "amazon": "https://www.amazon.com.br/dp/B0DSQP5BQW",
+   "mercadolivre": "https://meli.la/1evStbH"
   },
   "fontes": [
    {
@@ -496,7 +497,8 @@
    "autonomia"
   ],
   "lojas": {
-   "amazon": "https://www.amazon.com.br/dp/B0DSM6JWCM"
+   "amazon": "https://www.amazon.com.br/dp/B0DSM6JWCM",
+   "mercadolivre": "https://meli.la/1FMrnTB"
   },
   "fontes": [
    {
@@ -712,7 +714,8 @@
    "autonomia"
   ],
   "lojas": {
-   "amazon": "https://www.amazon.com.br/dp/B0FYSYTQ2Y"
+   "amazon": "https://www.amazon.com.br/dp/B0FYSYTQ2Y",
+   "mercadolivre": "https://meli.la/2FW9Kmj"
   },
   "fontes": [
    {
@@ -820,7 +823,8 @@
    "autonomia"
   ],
   "lojas": {
-   "amazon": "https://www.amazon.com.br/dp/B09KZ3RHJW"
+   "amazon": "https://www.amazon.com.br/dp/B09KZ3RHJW",
+   "mercadolivre": "https://meli.la/1jAoc8y"
   },
   "fontes": [
    {
@@ -920,7 +924,8 @@
    "autonomia"
   ],
   "lojas": {
-   "amazon": "https://www.amazon.com.br/dp/B0C8ZPH7Z7"
+   "amazon": "https://www.amazon.com.br/dp/B0C8ZPH7Z7",
+   "mercadolivre": "https://meli.la/1G5zkuf"
   },
   "fontes": [
    {

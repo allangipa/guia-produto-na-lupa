@@ -125,7 +125,8 @@
       "dispositivosHub"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B07XLML2YS"
+      "amazon": "https://www.amazon.com.br/dp/B07XLML2YS",
+      "mercadolivre": "https://meli.la/1bgoCbV"
     },
     "fontes": [
       {
@@ -285,7 +286,8 @@
       "dispositivosHub"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BQJVKVQR"
+      "amazon": "https://www.amazon.com.br/dp/B0BQJVKVQR",
+      "mercadolivre": "https://meli.la/1t4ANYE"
     },
     "fontes": [
       {
@@ -4028,7 +4030,8 @@
       "protecaoIp"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B08GDC99PX"
+      "amazon": "https://www.amazon.com.br/dp/B08GDC99PX",
+      "mercadolivre": "https://meli.la/17NSFsb"
     },
     "fontes": [
       {

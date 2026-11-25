@@ -308,7 +308,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B01643M5KY"
+      "amazon": "https://www.amazon.com.br/dp/B01643M5KY",
+      "mercadolivre": "https://meli.la/2WPzssD"
     },
     "fontes": [
       {

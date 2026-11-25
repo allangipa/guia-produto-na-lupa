@@ -555,7 +555,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0F99ZSRXH"
+      "amazon": "https://www.amazon.com.br/dp/B0F99ZSRXH",
+      "mercadolivre": "https://meli.la/1YBcEdU"
     },
     "fontes": [
       {
