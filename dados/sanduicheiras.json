@@ -247,7 +247,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B076HT2R2T"
+      "amazon": "https://www.amazon.com.br/dp/B076HT2R2T",
+      "mercadolivre": "https://meli.la/1So3KCA"
     },
     "fontes": [
       {
@@ -412,7 +413,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CQKLYJ8P"
+      "amazon": "https://www.amazon.com.br/dp/B0CQKLYJ8P",
+      "mercadolivre": "https://meli.la/1kYhtbG"
     },
     "fontes": [
       {

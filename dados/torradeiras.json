@@ -155,7 +155,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09LD7ZMZZ"
+      "amazon": "https://www.amazon.com.br/dp/B09LD7ZMZZ",
+      "mercadolivre": "https://meli.la/2NG8VfF"
     },
     "fontes": [
       {
@@ -347,7 +348,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B076HY5BH7"
+      "amazon": "https://www.amazon.com.br/dp/B076HY5BH7",
+      "mercadolivre": "https://meli.la/2YRkQie"
     },
     "fontes": [
       {
@@ -585,7 +587,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B07GHCWPWT"
+      "amazon": "https://www.amazon.com.br/dp/B07GHCWPWT",
+      "mercadolivre": "https://meli.la/2wgRguR"
     },
     "fontes": [
       {

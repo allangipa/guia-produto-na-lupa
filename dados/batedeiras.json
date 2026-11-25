@@ -369,7 +369,8 @@
       "capacidadeTigelaExtraL"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0H4RKJFLZ"
+      "amazon": "https://www.amazon.com.br/dp/B0H4RKJFLZ",
+      "mercadolivre": "https://meli.la/2mYd4H7"
     },
     "fontes": [
       {
@@ -701,7 +702,8 @@
     },
     "naoSeAplica": [],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B097LWC9GF"
+      "amazon": "https://www.amazon.com.br/dp/B097LWC9GF",
+      "mercadolivre": "https://meli.la/1maKYKC"
     },
     "fontes": [
       {
@@ -1285,7 +1287,8 @@
       "capacidadeTigelaExtraL"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B00TAAJZBG"
+      "amazon": "https://www.amazon.com.br/dp/B00TAAJZBG",
+      "mercadolivre": "https://meli.la/1vKSoVY"
     },
     "fontes": [
       {
