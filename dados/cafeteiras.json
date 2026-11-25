@@ -31,7 +31,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B093HGNHR2"
+      "amazon": "https://www.amazon.com.br/dp/B093HGNHR2",
+      "mercadolivre": "https://meli.la/1TtcYLy"
     },
     "fontes": [
       {
@@ -174,7 +175,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09SVPDX3G"
+      "amazon": "https://www.amazon.com.br/dp/B09SVPDX3G",
+      "mercadolivre": "https://meli.la/2wUrk97"
     },
     "fontes": [
       {
