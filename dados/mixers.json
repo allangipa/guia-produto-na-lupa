@@ -26,7 +26,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09N4Y5XTT"
+      "amazon": "https://www.amazon.com.br/dp/B09N4Y5XTT",
+      "mercadolivre": "https://meli.la/1g8AgjY"
     },
     "divergencias": [
       {
@@ -96,7 +97,8 @@
       "garantiaMeses": 12
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B09N55QYS7"
+      "amazon": "https://www.amazon.com.br/dp/B09N55QYS7",
+      "mercadolivre": "https://meli.la/1HgAn8U"
     },
     "divergencias": [
       {

@@ -130,11 +130,18 @@ export type DefinicaoLoja = {
   ordem: number;
   /** So quando o programa exigir. Ausente = o link passa intacto. */
   link?: (url: string) => string;
+  /**
+   * Classe do botao quando a loja NAO e a primeira do produto. Ausente = o
+   * contorno padrao (`botao-secundario`). Pedido do Allan em 24/11/2026: ao
+   * lado do verde da Amazon, o contorno do Mercado Livre ficou "bem discreto",
+   * e ele pediu o amarelo da loja. A primeira loja continua no verde de acao.
+   */
+  classe?: string;
 };
 
 export const LOJAS: Record<string, DefinicaoLoja> = {
   amazon: { nome: "Amazon", preposicao: "na", ordem: 1, link: linkAmazon },
-  mercadolivre: { nome: "Mercado Livre", preposicao: "no", ordem: 2 },
+  mercadolivre: { nome: "Mercado Livre", preposicao: "no", ordem: 2, classe: "botao-ml" },
   magalu: { nome: "Magazine Luiza", preposicao: "na", ordem: 3 },
   americanas: { nome: "Americanas", preposicao: "na", ordem: 4 },
   casasbahia: { nome: "Casas Bahia", preposicao: "nas", ordem: 5 },

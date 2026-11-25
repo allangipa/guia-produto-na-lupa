@@ -336,6 +336,10 @@ Console: quase toda busca que traz o site é "modelo + ficha técnica"):
   do corpo e das lacunas.
 - **Dentro de um produto com mais de uma loja**, só o primeiro botão é sólido;
   as outras lojas levam contorno, porque são alternativas para a mesma compra.
+  **Exceção, desde 24/11/2026:** o Mercado Livre como segunda loja usa o amarelo
+  da marca (`.botao-ml`, via `classe` em `LOJAS`). O Allan achou o contorno
+  "bem discreto" ao lado do verde e pediu o amarelo. O verde de ação continua
+  sendo só da primeira loja.
   **Entre produtos diferentes, todos os botões são sólidos.** Na seção "Onde
   comprar cada um" de um guia cada botão é a resposta para um perfil de leitor;
   pôr quatro com contorno diria que aquelas quatro recomendações valem menos.

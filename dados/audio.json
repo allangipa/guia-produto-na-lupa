@@ -104,7 +104,8 @@
       "garantiaMeses": null
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0CRTYZG5C"
+      "amazon": "https://www.amazon.com.br/dp/B0CRTYZG5C",
+      "mercadolivre": "https://meli.la/1n81WQz"
     },
     "fontes": [
       {

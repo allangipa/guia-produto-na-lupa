@@ -319,6 +319,18 @@ body {
   border-color: var(--color-acao);
   color: var(--color-acao-forte);
 }
+/* Mercado Livre como segunda loja: o amarelo da marca, com o azul-escuro dela
+   no texto (contraste 9,6:1). Pedido do Allan em 24/11/2026. Fixo nos dois
+   temas: e cor de marca, nao token do site. */
+.botao-ml {
+  background: #ffe600;
+  color: #2d3277;
+  border: 1px solid #e6cf00;
+}
+.botao-ml:hover {
+  background: #f5d900;
+  box-shadow: var(--sombra-1);
+}
 
 /* Campo de busca grande. */
 .campo-busca {

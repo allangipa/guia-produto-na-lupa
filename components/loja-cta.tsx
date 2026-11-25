@@ -1,6 +1,6 @@
 "use client";
 
-import { lojasDe, linkDaLoja, rotuloCompra } from "@/lib/site";
+import { LOJAS, lojasDe, linkDaLoja, rotuloCompra } from "@/lib/site";
 import type { Loja } from "@/lib/conteudo";
 import { Icone } from "@/components/icones";
 
@@ -130,7 +130,7 @@ export function LojaCta({
             rel="sponsored nofollow noopener"
             target="_blank"
             onClick={() => registrarClique(chave, produto, posicao)}
-            className={`botao ${i === 0 ? "botao-primario" : "botao-secundario"} flex-1 !py-3`}
+            className={`botao ${i === 0 ? "botao-primario" : (LOJAS[chave]?.classe ?? "botao-secundario")} flex-1 !py-3`}
           >
             {rotuloCompra(chave)}
             <Icone nome="seta" className="h-4 w-4" />
