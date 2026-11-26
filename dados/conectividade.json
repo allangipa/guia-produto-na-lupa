@@ -28,7 +28,8 @@
       "velocidade5ghzMbps"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B00A0VCJPI"
+      "amazon": "https://www.amazon.com.br/dp/B00A0VCJPI",
+      "mercadolivre": "https://meli.la/2P4TLhL"
     },
     "fontes": [
       {
@@ -89,7 +90,8 @@
       "garantiaMeses": 36
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B075KFFSMR"
+      "amazon": "https://www.amazon.com.br/dp/B075KFFSMR",
+      "mercadolivre": "https://meli.la/1vUh9AA"
     },
     "fontes": [
       {
@@ -212,7 +214,8 @@
       "garantiaMeses": 60
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0GZJ5WVY8"
+      "amazon": "https://www.amazon.com.br/dp/B0GZJ5WVY8",
+      "mercadolivre": "https://meli.la/1jrpz71"
     },
     "fontes": [
       {
@@ -558,7 +561,8 @@
       "dispositivosSimultaneos"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B07P681N66"
+      "amazon": "https://www.amazon.com.br/dp/B07P681N66",
+      "mercadolivre": "https://meli.la/1jx2MNT"
     },
     "fontes": [
       {
@@ -626,7 +630,8 @@
       "dispositivosSimultaneos"
     ],
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0088TKTY2"
+      "amazon": "https://www.amazon.com.br/dp/B0088TKTY2",
+      "mercadolivre": "https://meli.la/2hcGtUC"
     },
     "fontes": [
       {
@@ -748,7 +753,8 @@
       "garantiaMeses": null
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0B94L571G"
+      "amazon": "https://www.amazon.com.br/dp/B0B94L571G",
+      "mercadolivre": "https://meli.la/1Yt9G8j"
     },
     "fontes": [
       {
@@ -801,7 +807,8 @@
       "garantiaMeses": null
     },
     "lojas": {
-      "amazon": "https://www.amazon.com.br/dp/B0BP891NZZ"
+      "amazon": "https://www.amazon.com.br/dp/B0BP891NZZ",
+      "mercadolivre": "https://meli.la/1ZaCPhD"
     },
     "divergencias": [
       {
