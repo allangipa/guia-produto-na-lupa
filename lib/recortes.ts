@@ -41,6 +41,14 @@ export type Recorte = {
   titulo: string;
   subtitulo: string;
   /**
+   * <title> e meta description, quando o título e o subtítulo da página não
+   * trazem a consulta que a pessoa digita (Search Console de 27/11/2026: as
+   * sete listas antigas tinham impressões e nenhum clique). A página continua
+   * mostrando titulo e subtitulo.
+   */
+  tituloBusca?: string;
+  descricaoBusca?: string;
+  /**
    * A consulta que trouxe a pessoa, como a busca da Amazon a sugere. Fica
    * escrita na página, com a ressalva de que é sinal de demanda e não medida.
    */
@@ -73,6 +81,9 @@ export const recortes: Recorte[] = [
     titulo: "Batedeiras planetárias",
     subtitulo:
       "As que o batedor percorre a tigela em vez de girar parado — 11 ou 12 velocidades contra as 4 de toda batedeira comum, e três batedores em vez de um par.",
+    tituloBusca: "Batedeira planetária: velocidades, potência e batedores",
+    descricaoBusca:
+      "Batedeira planetária: até 12 velocidades e três batedores (massa leve, gancho e fouet), contra 4 velocidades da comum. Compare potência e tigela pela ficha.",
     buscaQueOrigina: "batedeira planetaria",
     posicaoNaSugestao: "1ª sugestão para “batedeira”",
     criterio: "Fichas em que o fabricante declara o tipo como planetária.",
@@ -93,6 +104,9 @@ export const recortes: Recorte[] = [
     titulo: "Aspiradores sem fio",
     subtitulo:
       "Verticais e robôs a bateria — onde o watt mente mais, porque um de 450 W puxa mais vácuo que um de tomada de 2.000 W, pela ficha da mesma marca.",
+    tituloBusca: "Aspirador de pó sem fio: sucção, autonomia e reservatório",
+    descricaoBusca:
+      "Aspirador de pó sem fio, vertical ou robô: o watt não mede a sucção. Compare vácuo, autonomia da bateria e reservatório pela ficha de cada fabricante.",
     buscaQueOrigina: "aspirador de po sem fio",
     posicaoNaSugestao: "1ª sugestão para “aspirador de pó”",
     criterio: "Fichas em que o fabricante declara funcionamento a bateria, sem fio.",
@@ -111,6 +125,9 @@ export const recortes: Recorte[] = [
     titulo: "Aspiradores de pó e água",
     subtitulo:
       "Os que aspiram líquido — e onde a ficha esquece justamente de dizer quantos litros de líquido cabem dentro.",
+    tituloBusca: "Aspirador de pó e água: litros, sucção e peso, pela ficha",
+    descricaoBusca:
+      "Aspirador de pó e água: quantos litros cabem no tambor, o vácuo declarado e o peso, de 3,7 a 30 kg. Compare pela ficha de cada fabricante.",
     buscaQueOrigina: "aspirador de po e agua",
     posicaoNaSugestao: "2ª sugestão para “aspirador de pó”",
     criterio: "Fichas em que o fabricante declara que o aparelho aspira líquidos.",
@@ -129,6 +146,9 @@ export const recortes: Recorte[] = [
     titulo: "Monitores de 27 polegadas",
     subtitulo:
       "A tela que a busca mais pede — e a armadilha: cinco dos sete daqui são Full HD, o que os deixa menos nítidos que qualquer 24 polegadas da mesma resolução.",
+    tituloBusca: "Monitor 27 polegadas: Full HD, QHD ou 4K, pela ficha",
+    descricaoBusca:
+      "Monitor de 27 polegadas: o Full HD tem 81,6 ppp, o QHD 108,8 e o 4K 163,2. Compare resolução, Hz e tempo de resposta pela ficha de cada fabricante.",
     buscaQueOrigina: "monitor 27 polegadas",
     posicaoNaSugestao: "1ª sugestão para “monitor”",
     criterio: "Fichas com tela de 27 polegadas declarada pelo fabricante.",
@@ -148,6 +168,9 @@ export const recortes: Recorte[] = [
     titulo: "Monitores de 24 polegadas",
     subtitulo:
       "Todos Full HD, todos IPS, de 100 a 180 Hz. O que separa um do outro é a taxa — e um tempo de resposta medido com três réguas diferentes.",
+    tituloBusca: "Monitor 24 polegadas: de 100 a 180 Hz, pela ficha",
+    descricaoBusca:
+      "Monitor de 24 polegadas: todos Full HD e IPS, de 100 a 180 Hz. Compare a taxa e o tempo de resposta (GtG, MPRT ou MBR) pela ficha do fabricante.",
     buscaQueOrigina: "monitor 24 polegadas",
     posicaoNaSugestao: "3ª sugestão para “monitor”",
     criterio: "Fichas com tela de 24 polegadas declarada pelo fabricante.",
@@ -167,6 +190,9 @@ export const recortes: Recorte[] = [
     titulo: "Air fryers que funcionam em 220 V",
     subtitulo:
       "A primeira coisa que a busca pergunta sobre air fryer é a tomada. E a resposta está escrita de quatro jeitos diferentes: “220 V”, “127 V ou 220 V”, “110 V” e “127 V”.",
+    tituloBusca: "Air fryer 220 V: quais ligam e o que é “127 V ou 220 V”",
+    descricaoBusca:
+      "Air fryer 220 V: as que só existem nessa tensão e as vendidas em duas versões. “127 V ou 220 V” não é bivolt: a tensão se escolhe na hora da compra.",
     buscaQueOrigina: "air fryer 220v",
     posicaoNaSugestao: "1ª sugestão para “air fryer”",
     criterio:
@@ -186,6 +212,9 @@ export const recortes: Recorte[] = [
     titulo: "Roteadores e sistemas Wi-Fi 6",
     subtitulo:
       "O padrão que a busca mais procura depois da marca — e onde o número que batiza o produto, AX3000, é uma soma de duas bandas que nenhum aparelho entrega junto.",
+    tituloBusca: "Roteador Wi-Fi 6: AX1800, AX3000 e a banda de 5 GHz",
+    descricaoBusca:
+      "Roteador Wi-Fi 6: AX3000 é a soma das duas bandas, não a velocidade. Compare a banda de 5 GHz, as portas e a cobertura pela ficha do fabricante.",
     buscaQueOrigina: "roteador wifi 6",
     posicaoNaSugestao: "2ª sugestão para “roteador”",
     criterio: "Fichas cujo padrão declarado é Wi-Fi 6 (802.11ax).",

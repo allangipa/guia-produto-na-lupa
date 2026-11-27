@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const r = buscar(slug);
   if (!r) return {};
   return {
-    title: tituloSeo(r.titulo),
-    description: r.subtitulo,
+    title: tituloSeo(r.tituloBusca ?? r.titulo),
+    description: r.descricaoBusca ?? r.subtitulo,
     alternates: { canonical: `/listas/${r.slug}` },
     openGraph: {
       title: r.titulo,
